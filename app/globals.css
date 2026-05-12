@@ -169,13 +169,21 @@ details[open] summary .faq-arrow {
   color: var(--amber-dark);
   font-weight: 700;
 }
-/* Body link styling — does NOT apply to CTA buttons (those with bg-* or *-cta classes) */
-.prose a:not(.amber-cta):not(.burgundy-cta):not([class*="bg-"]) {
+/* Body link styling — only applies to anchors inside body text elements (p, li, td, strong, em) */
+.prose p a,
+.prose li a,
+.prose td a,
+.prose strong a,
+.prose em a {
   color: var(--burgundy);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
-.prose a:not(.amber-cta):not(.burgundy-cta):not([class*="bg-"]):hover {
+.prose p a:hover,
+.prose li a:hover,
+.prose td a:hover,
+.prose strong a:hover,
+.prose em a:hover {
   color: var(--amber-dark);
 }
 .prose table {
