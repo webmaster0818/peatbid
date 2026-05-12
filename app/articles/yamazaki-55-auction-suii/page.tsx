@@ -39,30 +39,23 @@ export default function Yamazaki55AuctionSuiiPage() {
 
           <h2>過去5年の価格推移</h2>
 
-          <p>山崎55年の二次流通価格は、過去5年で大きく上昇しています。2020〜2026年にかけて、ジャパニーズウイスキーは世界的需要拡大により価格が継続上昇。現在の参考買取価格は約3,000万円前後で推移しています。</p>
+          <div dangerouslySetInnerHTML={{ __html: `<p>山崎55年の二次流通価格は、過去5年で大きく上昇しています。2020〜2026年にかけて、ジャパニーズウイスキーは世界的需要拡大により価格が継続上昇。現在の参考買取価格は約3,000万円前後で推移しています。</p>` }} />
 
           <h2>主要オークションでの取引状況</h2>
 
-          <p>**Sotheby's（ニューヨーク・香港・ロンドン）**: 月次〜四半期ごとに開催、プレミアム銘柄中心。
-**Bonhams（香港・ロンドン）**: 同様にプレミアム銘柄。アジア富裕層が主要バイヤー。
-**Whisky Auctioneer（UK）**: 月次オンラインオークション、中位銘柄まで幅広く扱う。
-**Just Whisky Auctions**: UK中心、月次開催。</p>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>Sotheby's（ニューヨーク・香港・ロンドン）</strong>: 月次〜四半期ごとに開催、プレミアム銘柄中心。<br/><strong>Bonhams（香港・ロンドン）</strong>: 同様にプレミアム銘柄。アジア富裕層が主要バイヤー。<br/><strong>Whisky Auctioneer（UK）</strong>: 月次オンラインオークション、中位銘柄まで幅広く扱う。<br/><strong>Just Whisky Auctions</strong>: UK中心、月次開催。</p>` }} />
 
           <h2>価格を動かす5つの要因</h2>
 
-          <p>1. **海外オークション落札データ**（最も影響大）
-2. **円安・円高の為替動向**（円安で海外バイヤー有利）
-3. **終売・限定リリースのニュース**
-4. **アジア富裕層の参入度合い**
-5. **季節要因（年末年始・お中元）**</p>
+          <div dangerouslySetInnerHTML={{ __html: `<ol><li><strong>海外オークション落札データ</strong>（最も影響大）</li><li><strong>円安・円高の為替動向</strong>（円安で海外バイヤー有利）</li><li><strong>終売・限定リリースのニュース</strong></li><li><strong>アジア富裕層の参入度合い</strong></li><li><strong>季節要因（年末年始・お中元）</strong></li></ol>` }} />
 
           <h2>今後の見通し</h2>
 
-          <p>山崎55年の中長期見通しは、(1)世界的需要の継続、(2)供給制限、(3)新興市場の参入 の3要因が支え、高値推移が予想されます。ただし短期は需給の振れにより上下動も発生します。</p>
+          <div dangerouslySetInnerHTML={{ __html: `<p>山崎55年の中長期見通しは、(1)世界的需要の継続、(2)供給制限、(3)新興市場の参入 の3要因が支え、高値推移が予想されます。ただし短期は需給の振れにより上下動も発生します。</p>` }} />
 
           <h2>オークションデータの確認方法</h2>
 
-          <p>**Whisky Auctioneer の Past Results 検索**、**Sotheby's の Whisky Department アーカイブ**、**Whisky Stats（whiskystats.net）** などで過去落札データを確認可能です。PeatBidは毎日これらのデータを集計しています。</p>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>Whisky Auctioneer の Past Results 検索</strong>、<strong>Sotheby's の Whisky Department アーカイブ</strong>、<strong>Whisky Stats（whiskystats.net）</strong> などで過去落札データを確認可能です。PeatBidは毎日これらのデータを集計しています。</p>` }} />
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">山崎55年の無料一括査定はこちら</h3>

@@ -452,6 +452,56 @@ def get_hero_image(b):
     return "/images/article-souba.png"
 
 
+import re
+
+
+def md_to_html(text):
+    """Convert markdown-style **bold** and numbered lists to HTML wrapped in <p>/<ol>."""
+    # Replace **text** with <strong>text</strong>
+    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+
+    # First, split into lines (handle both \n and explicit \\n)
+    # Treat literal newlines in source as section breaks
+    normalized = text.replace('\\n', '\n')
+
+    # Detect inline numbered lists like "1. xxx 2. yyy 3. zzz" within a single line
+    # Try numbered list extraction on full text
+    if re.search(r'\b1\.\s', normalized):
+        # Find a starting "1. " and extract all following numbered items
+        m = re.search(r'(.*?)\b1\.\s+(.+)$', normalized, re.DOTALL)
+        if m:
+            intro = m.group(1).strip()
+            rest = m.group(2)
+            # Now split rest by "  \d+\. " markers
+            items_split = re.split(r'\s+(\d+)\.\s+', rest)
+            # items_split[0] = first item content, then alternates [num, content, num, content...]
+            items = [items_split[0].strip()]
+            i = 1
+            while i + 1 < len(items_split):
+                items.append(items_split[i + 1].strip())
+                i += 2
+            items = [it for it in items if it]
+            if len(items) >= 2:
+                items_html = ''.join(f'<li>{item}</li>' for item in items)
+                if intro:
+                    return f'<p>{intro}</p><ol>{items_html}</ol>'
+                return f'<ol>{items_html}</ol>'
+
+    # If multi-line plain text, split into paragraphs with <br/> between
+    if '\n' in normalized:
+        # Split on double newline -> separate <p>, single newline -> <br/>
+        paragraphs = normalized.split('\n\n')
+        out = []
+        for p in paragraphs:
+            p = p.strip().replace('\n', '<br/>')
+            if p:
+                out.append(f'<p>{p}</p>')
+        return ''.join(out)
+
+    # Single line text
+    return f'<p>{normalized}</p>'
+
+
 def render_page(b, data):
     """Generate TSX for one brand × angle page."""
     slug = f"{b['slug']}-{data['slug_suffix']}"
@@ -459,10 +509,18 @@ def render_page(b, data):
     hero = get_hero_image(b)
     component_name = "".join(part.capitalize() for part in slug.replace("-", " ").split())
 
-    h2_html = "\n\n".join(
-        f"          <h2>{s[0]}</h2>\n\n          <p>{s[1]}</p>"
-        for s in data["sections"]
-    )
+    # Process each section: render markdown → HTML, embed via dangerouslySetInnerHTML
+    h2_blocks = []
+    for s in data["sections"]:
+        title = s[0]
+        body_html = md_to_html(s[1])
+        # Escape for JSON.stringify-like embedding
+        body_escaped = body_html.replace('\\', '\\\\').replace('`', '\\`').replace('${', '\\${')
+        h2_blocks.append(
+            f'          <h2>{title}</h2>\n\n'
+            f'          <div dangerouslySetInnerHTML={{{{ __html: `{body_escaped}` }}}} />'
+        )
+    h2_html = "\n\n".join(h2_blocks)
 
     faq_items = data["faqs"]
     faq_schema_inline = "{" + '"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [' + ", ".join(
