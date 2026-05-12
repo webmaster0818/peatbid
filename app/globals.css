@@ -104,20 +104,25 @@ details[open] summary .faq-arrow {
 
 .amber-cta {
   background: linear-gradient(135deg, #C9923D 0%, #8E6420 100%);
-  color: white;
+  color: #ffffff;
   font-weight: 700;
+  text-decoration: none;
 }
 .amber-cta:hover {
   background: linear-gradient(135deg, #E0AA52 0%, #A57926 100%);
+  color: #ffffff;
 }
 .burgundy-cta {
   background: var(--burgundy);
-  color: white;
+  color: #ffffff;
   font-weight: 700;
+  text-decoration: none;
 }
 .burgundy-cta:hover {
   background: #8A3D2D;
+  color: #ffffff;
 }
+
 
 /* Article prose styling */
 .prose h2 {
@@ -164,12 +169,13 @@ details[open] summary .faq-arrow {
   color: var(--amber-dark);
   font-weight: 700;
 }
-.prose a {
+/* Body link styling — does NOT apply to CTA buttons (those with bg-* or *-cta classes) */
+.prose a:not(.amber-cta):not(.burgundy-cta):not([class*="bg-"]) {
   color: var(--burgundy);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
-.prose a:hover {
+.prose a:not(.amber-cta):not(.burgundy-cta):not([class*="bg-"]):hover {
   color: var(--amber-dark);
 }
 .prose table {
