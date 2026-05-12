@@ -270,8 +270,105 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How it works */}
+      {/* Brand directory */}
       <section className="bg-cream/40">
+        <div className="max-w-5xl mx-auto px-4 py-16">
+          <p className="text-warm-gray text-sm tracking-widest uppercase mb-3 text-center">
+            Brand Directory
+          </p>
+          <h2 className="font-display text-3xl md:text-4xl font-semibold text-ink text-center mb-3">
+            銘柄から相場を探す
+          </h2>
+          <p className="text-warm-gray text-sm text-center mb-10">
+            主要50銘柄の個別ページで、状態別の買取相場と査定ポイントを確認できます。
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <p className="font-display text-lg font-semibold text-amber-dark mb-3 pb-2 border-b border-amber/40">ジャパニーズウイスキー（30銘柄）</p>
+              <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-sm">
+                {[
+                  { name: "山崎 NV", slug: "yamazaki-nv-kaitori" },
+                  { name: "山崎12年", slug: "yamazaki-12-kaitori" },
+                  { name: "山崎18年", slug: "yamazaki-18-kaitori" },
+                  { name: "山崎25年", slug: "yamazaki-25-kaitori" },
+                  { name: "山崎55年", slug: "yamazaki-55-kaitori" },
+                  { name: "響 NV", slug: "hibiki-nv-kaitori" },
+                  { name: "響17年", slug: "hibiki-17-kaitori" },
+                  { name: "響21年", slug: "hibiki-21-kaitori" },
+                  { name: "響30年", slug: "hibiki-30-kaitori" },
+                  { name: "白州 NV", slug: "hakushu-nv-kaitori" },
+                  { name: "白州12年", slug: "hakushu-12-kaitori" },
+                  { name: "白州18年", slug: "hakushu-18-kaitori" },
+                  { name: "白州25年", slug: "hakushu-25-kaitori" },
+                  { name: "竹鶴ピュア", slug: "taketsuru-pure-kaitori" },
+                  { name: "竹鶴17年", slug: "taketsuru-17-kaitori" },
+                  { name: "竹鶴21年", slug: "taketsuru-21-kaitori" },
+                  { name: "竹鶴25年", slug: "taketsuru-25-kaitori" },
+                  { name: "余市 NV", slug: "yoichi-nv-kaitori" },
+                  { name: "余市10年", slug: "yoichi-10-kaitori" },
+                  { name: "余市15年", slug: "yoichi-15-kaitori" },
+                  { name: "余市20年", slug: "yoichi-20-kaitori" },
+                  { name: "宮城峡 NV", slug: "miyagikyo-nv-kaitori" },
+                  { name: "宮城峡12年", slug: "miyagikyo-12-kaitori" },
+                  { name: "宮城峡15年", slug: "miyagikyo-15-kaitori" },
+                  { name: "イチローズMWR", slug: "ichirosu-mwr-kaitori" },
+                  { name: "イチローズ DD", slug: "ichirosu-double-distilleries-kaitori" },
+                  { name: "イチローズ カード", slug: "ichirosu-card-kaitori" },
+                  { name: "軽井沢12年", slug: "karuizawa-12-kaitori" },
+                  { name: "軽井沢30年", slug: "karuizawa-30-kaitori" },
+                  { name: "羽生カード", slug: "hanyu-card-kaitori" },
+                  { name: "秩父ザファースト", slug: "chichibu-the-first-kaitori" },
+                  { name: "マルス駒ヶ岳", slug: "mars-komagatake-kaitori" },
+                ].map((b) => (
+                  <Link key={b.slug} href={`/articles/${b.slug}/`} className="text-ink/80 hover:text-amber-dark hover:underline transition-colors">
+                    {b.name} →
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <p className="font-display text-lg font-semibold text-amber-dark mb-3 pb-2 border-b border-amber/40">スコッチウイスキー（20銘柄）</p>
+              <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-sm">
+                {[
+                  { name: "マッカラン12年", slug: "macallan-12-kaitori" },
+                  { name: "マッカラン18年", slug: "macallan-18-kaitori" },
+                  { name: "マッカラン25年", slug: "macallan-25-kaitori" },
+                  { name: "マッカラン30年", slug: "macallan-30-kaitori" },
+                  { name: "マッカラン F&R", slug: "macallan-fine-rare-kaitori" },
+                  { name: "ボウモア18年", slug: "bowmore-18-kaitori" },
+                  { name: "ボウモア25年", slug: "bowmore-25-kaitori" },
+                  { name: "ブラックボウモア", slug: "bowmore-blackbowmore-kaitori" },
+                  { name: "スプリングバンク15年", slug: "springbank-15-kaitori" },
+                  { name: "スプリングバンク21年", slug: "springbank-21-kaitori" },
+                  { name: "ラフロイグ25年", slug: "laphroaig-25-kaitori" },
+                  { name: "アードベッグ ウーガダール", slug: "ardbeg-uigeadail-kaitori" },
+                  { name: "アードベッグ コリーヴレッカン", slug: "ardbeg-corryvreckan-kaitori" },
+                  { name: "グレンフィディック30年", slug: "glenfiddich-30-kaitori" },
+                  { name: "グレンファークラス25年", slug: "glenfarclas-25-kaitori" },
+                  { name: "タリスカー25年", slug: "talisker-25-kaitori" },
+                  { name: "バルヴェニー ポート21年", slug: "balvenie-portwood-21-kaitori" },
+                  { name: "グレンモーレンジ シグネット", slug: "glenmorangie-signet-kaitori" },
+                ].map((b) => (
+                  <Link key={b.slug} href={`/articles/${b.slug}/`} className="text-ink/80 hover:text-amber-dark hover:underline transition-colors">
+                    {b.name} →
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <p className="text-center mt-8">
+            <Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark font-semibold underline underline-offset-4 hover:text-burgundy transition-colors">
+              全50銘柄の相場一覧を見る →
+            </Link>
+          </p>
+        </div>
+      </section>
+
+      {/* How it works */}
+      <section className="bg-parchment">
         <div className="max-w-3xl mx-auto px-4 py-16">
           <p className="text-warm-gray text-sm tracking-widest uppercase mb-3 text-center">
             How It Works
