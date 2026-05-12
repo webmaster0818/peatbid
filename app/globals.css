@@ -1,0 +1,204 @@
+@import "tailwindcss";
+
+:root {
+  /* PeatBid palette — peat smoke, oak cask, single malt amber */
+  --background: #FBF7EE;        /* parchment / aged paper */
+  --parchment: #FBF7EE;
+  --foreground: #1F1A14;        /* deep oak */
+  --ink: #1F1A14;
+  --peat: #1B1410;              /* dark peat smoke (header/footer) */
+  --peat-light: #2A2018;
+  --amber: #C9923D;             /* whisky amber / accent */
+  --amber-light: #E0AA52;
+  --amber-dark: #8E6420;
+  --cream: #F5EDD9;             /* cream / aged paper highlight */
+  --warm-gray: #807565;
+  --warm-border: #E5DCC4;
+  --gold-bg: #FBF3DD;
+  --burgundy: #6C2A1F;          /* sealing wax red — secondary accent */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-parchment: var(--parchment);
+  --color-foreground: var(--foreground);
+  --color-ink: var(--ink);
+  --color-peat: var(--peat);
+  --color-peat-light: var(--peat-light);
+  --color-amber: var(--amber);
+  --color-amber-light: var(--amber-light);
+  --color-amber-dark: var(--amber-dark);
+  --color-cream: var(--cream);
+  --color-warm-gray: var(--warm-gray);
+  --color-warm-border: var(--warm-border);
+  --color-gold-bg: var(--gold-bg);
+  --color-burgundy: var(--burgundy);
+  --font-sans: var(--font-noto-sans-jp);
+  --font-display: var(--font-cormorant);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-noto-sans-jp), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* FAQ details animation */
+details summary {
+  cursor: pointer;
+  list-style: none;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+details[open] summary .faq-arrow {
+  transform: rotate(180deg);
+}
+.faq-arrow {
+  transition: transform 0.2s ease;
+}
+
+/* Table responsive wrapper */
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Breadcrumb separator */
+.breadcrumb-sep::before {
+  content: ">";
+  margin: 0 0.5rem;
+  color: var(--warm-gray);
+}
+
+/* Article hero banner */
+.article-hero {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.article-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.article-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(27,20,16,0.7) 0%, rgba(27,20,16,0.25) 100%);
+}
+
+/* Article utility classes */
+.article-heading {
+  border-left: 4px solid var(--amber);
+  padding-left: 1rem;
+  color: var(--foreground);
+}
+
+.amber-cta {
+  background: linear-gradient(135deg, #C9923D 0%, #8E6420 100%);
+  color: white;
+  font-weight: 700;
+}
+.amber-cta:hover {
+  background: linear-gradient(135deg, #E0AA52 0%, #A57926 100%);
+}
+.burgundy-cta {
+  background: var(--burgundy);
+  color: white;
+  font-weight: 700;
+}
+.burgundy-cta:hover {
+  background: #8A3D2D;
+}
+
+/* Article prose styling */
+.prose h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  border-left: 4px solid var(--amber);
+  border-bottom: 2px solid var(--amber);
+  color: var(--foreground);
+  letter-spacing: 0.02em;
+}
+.prose h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-left: 3px solid var(--amber);
+  color: var(--foreground);
+}
+.prose p {
+  margin-bottom: 1rem;
+  line-height: 1.9;
+  color: var(--foreground);
+}
+.prose ul, .prose ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+.prose li {
+  margin-bottom: 0.5rem;
+  line-height: 1.8;
+}
+.prose ul li {
+  list-style-type: disc;
+}
+.prose ol li {
+  list-style-type: decimal;
+}
+.prose strong {
+  color: var(--amber-dark);
+  font-weight: 700;
+}
+.prose a {
+  color: var(--burgundy);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose a:hover {
+  color: var(--amber-dark);
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+.prose th {
+  background: var(--peat);
+  color: var(--amber);
+  font-weight: 700;
+  text-align: left;
+  padding: 0.75rem;
+  border: 1px solid var(--peat-light);
+  font-size: 0.875rem;
+}
+.prose td {
+  padding: 0.75rem;
+  border: 1px solid var(--warm-border);
+  font-size: 0.9rem;
+}
+.prose tr:nth-child(even) td {
+  background: var(--gold-bg);
+}
+.prose blockquote {
+  background: var(--gold-bg);
+  border-left: 4px solid var(--amber);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-style: italic;
+}
