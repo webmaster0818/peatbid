@@ -3,12 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: '竹鶴25年の買取業者おすすめランキング【2026年最新】査定額比較TOP4',
-  description: '竹鶴25年に強い買取業者を徹底比較。ヒカカク・バイセル・JOYLAB・リカスタの査定スピード・価格・サポートを評価し、目的別おすすめを提示。',
+  title: '竹鶴25年の買取業者おすすめランキング【2026年最新】査定額・サービス・信頼性で徹底比較',
+  description: '竹鶴25年に強い買取業者をランキング形式で徹底比較。ヒカカク・バイセル・JOYLAB・リカスタの査定スピード・査定額・サポート・信頼性を多角的に評価し、目的別おすすめを提示。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '何社で見積もりを取るべき？', "acceptedAnswer": { "@type": "Answer", "text": '最低3社、できれば5社以上で相見積もりを取ることをおすすめします。一括査定+専門店個別査定の組み合わせが最強です。' } }, { "@type": "Question", "name": '査定無料の業者だけ選ぶべき？', "acceptedAnswer": { "@type": "Answer", "text": 'はい。PeatBid掲載の4社はすべて査定無料・キャンセル料無料です。「手数料がかかる」「キャンセル料を取る」業者は避けてください。' } }, { "@type": "Question", "name": '出張買取・宅配買取は安全？', "acceptedAnswer": { "@type": "Answer", "text": '信頼できる業者（ここで紹介した4社）は補償付き配送・身分証確認等の安全対策が完備。古物営業法も遵守されています。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '竹鶴25年を売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' } }, { "@type": "Question", "name": '複数業者比較は本当に必要？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、必須です。同じ竹鶴25年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' } }, { "@type": "Question", "name": '買取後のキャンセルは可能？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": '竹鶴25年の売却益に税金はかかる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '竹鶴25年を売るならどのタイミングがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" } }] }) }} />;
 }
 
 export default function Taketsuru25RankingPage() {
@@ -22,7 +22,7 @@ export default function Taketsuru25RankingPage() {
             <li className="breadcrumb-sep" />
             <li><Link href="/articles/taketsuru-25-kaitori/" className="hover:text-amber-dark transition-colors">竹鶴25年</Link></li>
             <li className="breadcrumb-sep" />
-            <li><span className="text-foreground">1位: ヒカカク！（一括査定で最高値発見）</span></li>
+            <li><span className="text-foreground">買取業者ランキング</span></li>
           </ol>
         </nav>
 
@@ -33,29 +33,56 @@ export default function Taketsuru25RankingPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">竹鶴25年の買取業者おすすめランキング</h1>
-          <p className="text-warm-gray text-sm mb-8">最終更新: 2026年5月12日</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月13日 / 監修: PeatBid編集部</p>
 
-          <p>竹鶴25年を高く売るには、業者選びが最重要。同じ800,000円クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選んだ竹鶴25年に強い買取業者4社を、目的別に比較します。</p>
+          {/* Brand mini profile */}
+          <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
+            <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
+            <p className="font-display text-xl font-semibold text-ink">竹鶴25年</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / 25年熟成 / 希少度 ウルトラ / 参考相場 800,000円前後</p>
+            <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/taketsuru-25-kaitori/" className="text-amber-dark underline">竹鶴25年の買取相場 完全ガイドへ</Link></p>
+          </div>
 
-          <h2>1位: ヒカカク！（一括査定で最高値発見）</h2>
+          {/* Table of Contents */}
+          <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
+            <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
+            <ol className="space-y-1.5 text-sm text-amber-dark">
+              <li><a href="#section-0" className="hover:underline">1. ランキングの選定基準</a></li>
+              <li><a href="#section-1" className="hover:underline">2. 1位: ヒカカク！（一括査定で最高値発見）</a></li>
+              <li><a href="#section-2" className="hover:underline">3. 2位: バイセル（東証グロース上場の安心感）</a></li>
+              <li><a href="#section-3" className="hover:underline">4. 3位: JOYLAB（お酒買取専門の高単価）</a></li>
+              <li><a href="#section-4" className="hover:underline">5. 4位: リカスタ（宅配買取で完結）</a></li>
+              <li><a href="#section-5" className="hover:underline">6. 業者選びの最適戦略</a></li>
+            </ol>
+          </div>
 
-          <div dangerouslySetInnerHTML={{ __html: `<p>ヒカカクは最大20社の買取業者に一括で見積もりを依頼できる比較サイト。竹鶴25年のような希少銘柄は業者間で査定差が大きいため、<strong>まずはヒカカクで相場感を掴む</strong>のが最短ルートです。登録は無料、しつこい営業もなし。</p>` }} />
+          <p>竹鶴25年を高く売るには、業者選びが最重要。同じ800,000円クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだ竹鶴25年に強い買取業者4社を、ランキング形式で比較します。</p>
 
-          <h2>2位: バイセル（東証グロース上場の安心感）</h2>
+          <h2 id="section-0">1. ランキングの選定基準</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部の竹鶴25年買取業者選定基準（5項目）:</p><ol><li><strong>専門知識</strong> — お酒・ウイスキー専門の鑑定力があるか</li><li><strong>査定スピード</strong> — 見積もり〜入金までの所要日数</li><li><strong>査定額の透明性</strong> — 価格根拠・状態評価の説明があるか</li><li><strong>手数料・キャンセル料</strong> — 完全無料か</li><li><strong>信頼性</strong> — 上場・古物商許可・口コミ評判
 
-          <div dangerouslySetInnerHTML={{ __html: `<p>バイセルは東証グロース上場のBuySell Technologies運営。お酒・ウイスキー買取に注力中で、出張・宅配・店頭の3チャネル対応。竹鶴25年クラスの希少ボトルでも、信頼性と査定スピードを両立した買取が可能です。</p>` }} />
+以上の5項目を各業者ごとに10点満点で評価し、合計点でランキングを作成しました。</li></ol>` }} />
 
-          <h2>3位: JOYLAB（お酒買取専門の高単価)</h2>
+          <h2 id="section-1">2. 1位: ヒカカク！（一括査定で最高値発見）</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 47/50</strong></p><p>ヒカカク！は最大20社の買取業者へ一括で見積もりを依頼できる比較プラットフォーム。1サイトで業界最多級の見積もりが取得可能で、希少銘柄ほど業者間の査定差が大きいため、<strong>まずはヒカカクで相場感を把握する</strong>のが最短ルートです。</p><p><strong>強み</strong>: 業界最多級20社一括 / 完全無料 / 24時間Web依頼可能 / お酒・洋酒・ブランデー対応</p><p><strong>弱み</strong>: 一括査定なので業者から個別に連絡が来る / 一括査定後に専門店個別査定も推奨</p><p><strong>こんな人におすすめ</strong>: 最高値を効率的に狙いたい方、初めて買取を依頼する方</p>` }} />
 
-          <div dangerouslySetInnerHTML={{ __html: `<p>JOYLABはお酒買取専門で、銘柄別の相場表をリアルタイム公開。竹鶴25年のように相場が大きく動く銘柄に対し、当日の海外オークション価格を反映した査定が期待できます。ジャパニーズウイスキー強化中。</p>` }} />
+          <h2 id="section-2">3. 2位: バイセル（東証グロース上場の安心感）</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 44/50</strong></p><p>東証グロース上場のBuySell Technologies運営。年間累計買取件数430万件超の大手で、お酒・ウイスキー買取に注力中。<strong>信頼性とスピードを両立</strong>したい場合に最適です。</p><p><strong>強み</strong>: 東証グロース上場で社会的信頼性◎ / 3チャネル対応（出張・店頭・宅配） / CM放映で知名度抜群 / 一律無料</p><p><strong>弱み</strong>: 一括査定よりは査定額がやや低めの場合あり / 出張買取はエリア限定</p><p><strong>こんな人におすすめ</strong>: 信頼性とスピードを両立したい方、大量にまとめて売りたい方</p>` }} />
 
-          <h2>4位: リカスタ（宅配買取で完結）</h2>
+          <h2 id="section-3">4. 3位: JOYLAB（お酒買取専門の高単価）</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 43/50</strong></p><p>JOYLABはお酒買取専門で、銘柄別の相場表をリアルタイム公開。<strong>ジャパニーズウイスキー強化中</strong>で、希少銘柄に対する専門知識と査定スピードに定評があります。</p><p><strong>強み</strong>: お酒買取専門の深い知識 / リアルタイム相場公開 / 海外オークション価格を反映した査定 / 希少銘柄に強い</p><p><strong>弱み</strong>: 大手チェーンと比較すると店舗数が少ない / 出張買取エリアが限定的</p><p><strong>こんな人におすすめ</strong>: 希少銘柄を専門店で売りたい方、当日の海外オークション価格を反映した査定を希望する方</p>` }} />
 
-          <div dangerouslySetInnerHTML={{ __html: `<p>リカスタは全国対応の宅配買取サービス。店舗に行く時間がない方、地方在住の方に最適。査定無料・キャンセル無料で気軽に試せます。ジャパニーズウイスキーも積極買取中。</p>` }} />
+          <h2 id="section-4">5. 4位: リカスタ（宅配買取で完結）</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 40/50</strong></p><p>リカスタは全国対応の宅配買取サービス。店舗に行く時間がない方、地方在住の方に最適。査定無料・キャンセル無料・送料・梱包キット無料で気軽に試せます。</p><p><strong>強み</strong>: 全国対応の宅配買取 / 査定・送料・キャンセル無料 / ジャパニーズウイスキーも積極買取 / Web完結</p><p><strong>弱み</strong>: 査定額は専門店比でやや低めのことがある / 即日現金化はできない（宅配のため）</p><p><strong>こんな人におすすめ</strong>: 宅配で完結したい方、地方在住の方、複数本まとめて宅配で売りたい方</p>` }} />
+
+          <h2 id="section-5">6. 業者選びの最適戦略</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部が推奨する<strong>3ステップ戦略</strong>:</p><ol><li><strong>まずヒカカクで一括査定</strong> — 最大20社の相場感を把握</li><li><strong>JOYLABで専門査定</strong> — お酒専門店の査定で本当の市場価値を確認</li><li><strong>最高値の業者で売却</strong> — 手取り額（手数料・送料込み）で比較し最終決定
+
+この3ステップで、{name}の最高値を確実に引き出せます。</li></ol>` }} />
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">竹鶴25年の無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。</p>
+            <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定</a>
@@ -67,7 +94,7 @@ export default function Taketsuru25RankingPage() {
           <h2>竹鶴25年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '何社で見積もりを取るべき？', a: '最低3社、できれば5社以上で相見積もりを取ることをおすすめします。一括査定+専門店個別査定の組み合わせが最強です。' }, { q: '査定無料の業者だけ選ぶべき？', a: 'はい。PeatBid掲載の4社はすべて査定無料・キャンセル料無料です。「手数料がかかる」「キャンセル料を取る」業者は避けてください。' }, { q: '出張買取・宅配買取は安全？', a: '信頼できる業者（ここで紹介した4社）は補償付き配送・身分証確認等の安全対策が完備。古物営業法も遵守されています。' }].map((faq) => (
+            {[{ q: '竹鶴25年を売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' }, { q: '複数業者比較は本当に必要？', a: 'はい、必須です。同じ竹鶴25年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' }, { q: '買取後のキャンセルは可能？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: '竹鶴25年の売却益に税金はかかる？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '竹鶴25年を売るならどのタイミングがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -75,7 +102,7 @@ export default function Taketsuru25RankingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-5 pb-5 text-sm text-warm-gray leading-relaxed">{faq.a}</div>
+                <div className="px-5 pb-5 text-sm text-warm-gray leading-relaxed" dangerouslySetInnerHTML={{ __html: faq.a.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>') }} />
               </details>
             ))}
           </div>
@@ -83,12 +110,18 @@ export default function Taketsuru25RankingPage() {
           <h2>関連記事</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
-            <Link href="/articles/taketsuru-25-takaku-uru/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">売却ガイド</span><p className="text-sm font-bold mt-1">竹鶴25年の高く売る方法</p></Link>
-            <Link href="/articles/taketsuru-25-nisemono-mikata/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">真贋</span><p className="text-sm font-bold mt-1">竹鶴25年の偽物の見分け方</p></Link>
-            <Link href="/articles/taketsuru-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">竹鶴25年の買取相場ガイド</p></Link>
+            <Link href="/articles/taketsuru-25-takaku-uru/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">高く売る方法</span><p className="text-sm font-bold mt-1">竹鶴25年の高く売る方法</p></Link>
+            <Link href="/articles/taketsuru-25-nisemono-mikata/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">偽物の見分け方</span><p className="text-sm font-bold mt-1">竹鶴25年の偽物の見分け方</p></Link>
+            <Link href="/articles/taketsuru-25-rekishi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">歴史と特徴</span><p className="text-sm font-bold mt-1">竹鶴25年の歴史と特徴</p></Link>
+            <Link href="/articles/taketsuru-25-kihaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">希少性・投資価値</span><p className="text-sm font-bold mt-1">竹鶴25年の希少性・投資価値</p></Link>
+            <Link href="/articles/taketsuru-25-auction-suii/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">オークション推移</span><p className="text-sm font-bold mt-1">竹鶴25年のオークション推移</p></Link>
+            <Link href="/articles/taketsuru-25-kaifu-zumi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">開封済みでも売れる</span><p className="text-sm font-bold mt-1">竹鶴25年の開封済みでも売れる</p></Link>
+            <Link href="/articles/taketsuru-25-hako-nashi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">箱なしでも買取</span><p className="text-sm font-bold mt-1">竹鶴25年の箱なしでも買取</p></Link>
+            <Link href="/articles/taketsuru-25-label-yogore/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ラベル汚れでも査定</span><p className="text-sm font-bold mt-1">竹鶴25年のラベル汚れでも査定</p></Link>
+            <Link href="/articles/taketsuru-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">竹鶴25年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月12日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月13日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

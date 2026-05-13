@@ -3,12 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: '宮城峡12年が箱なしでも買取できる？【2026年最新】査定額の影響と賢い売却法',
-  description: '宮城峡12年を箱なしで売る場合の査定額への影響と、買取を依頼する際の注意点。査定額の目安、付属品代替策、賢い売却戦略を解説。',
+  title: '宮城峡12年が箱なしでも買取できる？【2026年完全版】査定額への影響と代替戦略',
+  description: '宮城峡12年を箱なしで売る場合の査定額への影響と買取依頼時の注意点。査定額の目安、代替戦略、賢い売却法、箱を探す方法まで完全解説。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '箱を捨ててしまった宮城峡12年でも売れる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、売れます。査定額は10〜20%下がりますが、未開封でラベル状態が良ければ十分な価格がつきます。' } }, { "@type": "Question", "name": '代用品の箱（汎用箱）を作って売却するのは？', "acceptedAnswer": { "@type": "Answer", "text": '正規品でない箱は査定額に影響しません。むしろ正規品でない外箱は混乱を招くため、添付しない方が良いです。' } }, { "@type": "Question", "name": 'ホログラムシールが箱だけにある場合は？', "acceptedAnswer": { "@type": "Answer", "text": 'ホログラムシールがボトルにも貼られている場合は問題なし。ただし、確認方法は業者により異なるため、事前に相談しましょう。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '宮城峡12年を売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' } }, { "@type": "Question", "name": '複数業者比較は本当に必要？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、必須です。同じ宮城峡12年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' } }, { "@type": "Question", "name": '買取後のキャンセルは可能？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": '宮城峡12年の売却益に税金はかかる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '宮城峡12年を売るならどのタイミングがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" } }] }) }} />;
 }
 
 export default function Miyagikyo12HakoNashiPage() {
@@ -22,7 +22,7 @@ export default function Miyagikyo12HakoNashiPage() {
             <li className="breadcrumb-sep" />
             <li><Link href="/articles/miyagikyo-12-kaitori/" className="hover:text-amber-dark transition-colors">宮城峡12年</Link></li>
             <li className="breadcrumb-sep" />
-            <li><span className="text-foreground">箱なしによる査定額の影響</span></li>
+            <li><span className="text-foreground">箱なしでも買取</span></li>
           </ol>
         </nav>
 
@@ -33,33 +33,70 @@ export default function Miyagikyo12HakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">宮城峡12年が箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-8">最終更新: 2026年5月12日</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月13日 / 監修: PeatBid編集部</p>
 
-          <p>「外箱を捨ててしまった」「最初から箱なしで購入した」——そんな状況でも、宮城峡12年の買取は可能です。ただし、付属品の有無で査定額は大きく変動します。本記事では、箱なしの場合の影響と賢い売却法を解説します。</p>
+          {/* Brand mini profile */}
+          <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
+            <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
+            <p className="font-display text-xl font-semibold text-ink">宮城峡12年</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 宮城峡蒸溜所 / 12年熟成 / 希少度 ミッド / 参考相場 32,000円前後</p>
+            <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/miyagikyo-12-kaitori/" className="text-amber-dark underline">宮城峡12年の買取相場 完全ガイドへ</Link></p>
+          </div>
 
-          <h2>箱なしによる査定額の影響</h2>
+          {/* Table of Contents */}
+          <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
+            <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
+            <ol className="space-y-1.5 text-sm text-amber-dark">
+              <li><a href="#section-0" className="hover:underline">1. 箱なしによる査定額の影響</a></li>
+              <li><a href="#section-1" className="hover:underline">2. なぜ外箱が重要なのか</a></li>
+              <li><a href="#section-2" className="hover:underline">3. 箱を失った場合の対応策</a></li>
+              <li><a href="#section-3" className="hover:underline">4. 箱なしでも高く売る7つのコツ</a></li>
+              <li><a href="#section-4" className="hover:underline">5. 箱なしでも歓迎の買取業者</a></li>
+              <li><a href="#section-5" className="hover:underline">6. 代用品の箱を使うことについて</a></li>
+              <li><a href="#section-6" className="hover:underline">7. 箱を新規購入できるか</a></li>
+            </ol>
+          </div>
 
-          <div dangerouslySetInnerHTML={{ __html: `<p>宮城峡12年の場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:<br/>- <strong>箱・冊子・カートン揃い</strong>: 基準価格 32,000円<br/>- <strong>箱なし、ラベル良好</strong>: 25,600円〜28,800円<br/>- <strong>箱なし、冊子なし</strong>: 24,000円〜27,200円</p>` }} />
+          <p>「外箱を捨ててしまった」「最初から箱なしで購入した」——そんな状況でも、宮城峡12年の買取は可能です。ただし、付属品の有無で査定額は大きく変動します。本記事では、箱なしの場合の影響と賢い売却法を完全解説します。</p>
 
-          <h2>外箱の重要性</h2>
+          <h2 id="section-0">1. 箱なしによる査定額の影響</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>宮城峡12年の場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 基準価格 32,000円（100%）</li><li><strong>箱あり・冊子なし</strong>: 27,200円〜30,400円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 27,200円〜29,440円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 25,600円〜28,800円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 24,000円〜27,200円（75〜85%）
 
-          <div dangerouslySetInnerHTML={{ __html: `<p>外箱は単なる包装ではなく、<strong>コレクター品の完全性</strong>を示す重要な要素です。海外コレクターは特に<strong>フルセット（Box+Bottle+Booklet）</strong>を重視するため、外箱なしのボトルは二次流通市場での評価が下がる傾向にあります。</p>` }} />
+つまり、最大で<strong>約25%（8,000円）の差</strong>が生じる可能性があります。</li></ol>` }} />
 
-          <h2>箱を失った場合の対応策</h2>
+          <h2 id="section-1">2. なぜ外箱が重要なのか</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>外箱は単なる包装ではなく、<strong>コレクター品の完全性</strong>を示す重要な要素です:</p><ol><li><strong>二次流通市場での評価</strong> — 海外コレクターは特にフルセット重視</li><li><strong>真贋判定の手がかり</strong> — 箱と本体の合致が本物の証</li><li><strong>保管時の保護機能</strong> — 直射日光・摩擦・埃から守る</li><li><strong>付属品の収納</strong> — 冊子・カートンの一括管理</li><li><strong>贈答品としての価値</strong> — 箱なしは贈り物として再販困難
 
-          <div dangerouslySetInnerHTML={{ __html: `<ol><li><strong>クローゼット・倉庫を徹底的に探す</strong>: 意外な場所から出てくることが多々あります</li><li><strong>メーカーに問い合わせ</strong>: ごく稀に空箱の販売・配布がある銘柄も</li><li><strong>オークション・フリマで空箱単体購入</strong>: コレクターが空箱を売っているケースあり</li><li><strong>諦めて箱なしで売却</strong>: 状態が良ければ十分な査定額が出ます</li></ol>` }} />
+これらの理由から、外箱を保管していたかどうかで、ボトル本体の状態以上に査定額が変わる場合があります。</li></ol>` }} />
 
-          <h2>箱なしでも高く売るコツ</h2>
+          <h2 id="section-2">3. 箱を失った場合の対応策</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>外箱を取り戻す4つの方法</strong>:</p><ol><li><strong>クローゼット・倉庫・収納庫を徹底的に探す</strong> — 意外な場所から出てくることが多々あります</li><li><strong>メーカーに問い合わせ</strong> — ごく稀に空箱の販売・配布がある銘柄も</li><li><strong>オークション・フリマで空箱単体購入</strong> — コレクターが空箱を売っているケースあり</li><li><strong>諦めて箱なしで売却</strong> — 状態が良ければ十分な査定額が出ます
 
-          <div dangerouslySetInnerHTML={{ __html: `<p>- <strong>ボトル本体・ラベル・キャップを完璧な状態で保管</strong><br/>- <strong>冊子・ホログラム・購入レシート等、他の付属品があれば必ず添付</strong><br/>- <strong>複数業者で見積もり</strong>: 業者により箱なしの評価額に差があります<br/>- <strong>写真撮影</strong>: 査定前にボトルの状態を記録しておく</p>` }} />
+特に1番目（家中を探す）は意外と見つかることが多いので、売却前に徹底チェックしてください。</li></ol>` }} />
 
-          <h2>箱なしでも歓迎の買取業者</h2>
+          <h2 id="section-3">4. 箱なしでも高く売る7つのコツ</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<ol><li><strong>ボトル本体・ラベル・キャップを完璧な状態で保管</strong></li><li><strong>冊子・ホログラム・購入レシート等、他の付属品があれば必ず添付</strong></li><li><strong>複数業者で見積もり</strong> — 業者により箱なしの評価額に差がある</li><li><strong>写真撮影</strong> — 査定前にボトルの状態を記録</li><li><strong>保管環境の整備</strong> — ラベル・キャップの状態を維持</li><li><strong>正直な状態申告</strong> — 嘘の申告は信頼を失い結果的に損</li><li><strong>早めの売却</strong> — 時間経過でラベル劣化リスクが増加</li></ol>` }} />
 
-          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid推奨の4社はすべて箱なしでも査定対応可能。特に<strong>ヒカカク・JOYLAB</strong>は、お酒の専門知識があるためボトルの状態を正しく評価してくれます。</p>` }} />
+          <h2 id="section-4">5. 箱なしでも歓迎の買取業者</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid推奨の4社はすべて箱なしでも査定対応可能。<strong>特に推奨される業者</strong>:</p><ol><li><strong>ヒカカク！</strong> — 一括査定で箱なし対応業者を比較</li><li><strong>JOYLAB</strong> — お酒専門で柔軟な評価、希少銘柄に強い</li><li><strong>バイセル</strong> — 大手の安心感、箱なしでも査定可</li><li><strong>リカスタ</strong> — 宅配買取で箱なしも対応
+
+各業者で査定額が異なるため、3社以上で見積もりを取ることが必須です。</li></ol>` }} />
+
+          <h2 id="section-5">6. 代用品の箱を使うことについて</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>代用品の外箱（汎用箱や別銘柄の箱）は使うべきではありません</strong>。
+
+理由:</p><ol><li>査定時に「正規品ではない」と判定される</li><li>業者の信頼を失う</li><li>査定額がむしろ下がる可能性</li><li>場合によっては詐欺と見なされる
+
+本物の外箱が見つからない場合は、箱なしで正直に売却するのが正解です。</li></ol>` }} />
+
+          <h2 id="section-6">7. 箱を新規購入できるか</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>一部のコレクター・買取業者は、空き箱を単体で販売することがあります。<strong>入手経路</strong>:</p><ol><li><strong>メルカリ・ヤフオク</strong> — 「宮城峡12年 箱」で検索</li><li><strong>海外オークション</strong> — Whisky Auctioneerなどで稀に出品</li><li><strong>コレクターSNS</strong> — Twitter・Instagramで交換相手を探す</li><li><strong>ウイスキー専門店</strong> — 店舗に在庫がある場合あり
+
+空き箱の価格は数千円〜数万円程度。査定額アップ幅と比較して、投資価値があるか判断してください。</li></ol>` }} />
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">宮城峡12年の無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。</p>
+            <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定</a>
@@ -71,7 +108,7 @@ export default function Miyagikyo12HakoNashiPage() {
           <h2>宮城峡12年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '箱を捨ててしまった宮城峡12年でも売れる？', a: 'はい、売れます。査定額は10〜20%下がりますが、未開封でラベル状態が良ければ十分な価格がつきます。' }, { q: '代用品の箱（汎用箱）を作って売却するのは？', a: '正規品でない箱は査定額に影響しません。むしろ正規品でない外箱は混乱を招くため、添付しない方が良いです。' }, { q: 'ホログラムシールが箱だけにある場合は？', a: 'ホログラムシールがボトルにも貼られている場合は問題なし。ただし、確認方法は業者により異なるため、事前に相談しましょう。' }].map((faq) => (
+            {[{ q: '宮城峡12年を売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' }, { q: '複数業者比較は本当に必要？', a: 'はい、必須です。同じ宮城峡12年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' }, { q: '買取後のキャンセルは可能？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: '宮城峡12年の売却益に税金はかかる？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '宮城峡12年を売るならどのタイミングがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -79,7 +116,7 @@ export default function Miyagikyo12HakoNashiPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-5 pb-5 text-sm text-warm-gray leading-relaxed">{faq.a}</div>
+                <div className="px-5 pb-5 text-sm text-warm-gray leading-relaxed" dangerouslySetInnerHTML={{ __html: faq.a.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>') }} />
               </details>
             ))}
           </div>
@@ -87,13 +124,18 @@ export default function Miyagikyo12HakoNashiPage() {
           <h2>関連記事</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
-            <Link href="/articles/miyagikyo-12-takaku-uru/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">売却ガイド</span><p className="text-sm font-bold mt-1">宮城峡12年の高く売る方法</p></Link>
-            <Link href="/articles/miyagikyo-12-nisemono-mikata/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">真贋</span><p className="text-sm font-bold mt-1">宮城峡12年の偽物の見分け方</p></Link>
-            <Link href="/articles/miyagikyo-12-ranking/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">業者選び</span><p className="text-sm font-bold mt-1">宮城峡12年の買取業者ランキング</p></Link>
-            <Link href="/articles/miyagikyo-12-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">宮城峡12年の買取相場ガイド</p></Link>
+            <Link href="/articles/miyagikyo-12-takaku-uru/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">高く売る方法</span><p className="text-sm font-bold mt-1">宮城峡12年の高く売る方法</p></Link>
+            <Link href="/articles/miyagikyo-12-nisemono-mikata/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">偽物の見分け方</span><p className="text-sm font-bold mt-1">宮城峡12年の偽物の見分け方</p></Link>
+            <Link href="/articles/miyagikyo-12-ranking/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">買取業者ランキング</span><p className="text-sm font-bold mt-1">宮城峡12年の買取業者ランキング</p></Link>
+            <Link href="/articles/miyagikyo-12-rekishi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">歴史と特徴</span><p className="text-sm font-bold mt-1">宮城峡12年の歴史と特徴</p></Link>
+            <Link href="/articles/miyagikyo-12-kihaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">希少性・投資価値</span><p className="text-sm font-bold mt-1">宮城峡12年の希少性・投資価値</p></Link>
+            <Link href="/articles/miyagikyo-12-auction-suii/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">オークション推移</span><p className="text-sm font-bold mt-1">宮城峡12年のオークション推移</p></Link>
+            <Link href="/articles/miyagikyo-12-kaifu-zumi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">開封済みでも売れる</span><p className="text-sm font-bold mt-1">宮城峡12年の開封済みでも売れる</p></Link>
+            <Link href="/articles/miyagikyo-12-label-yogore/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ラベル汚れでも査定</span><p className="text-sm font-bold mt-1">宮城峡12年のラベル汚れでも査定</p></Link>
+            <Link href="/articles/miyagikyo-12-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">宮城峡12年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月12日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月13日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
         </article>
       </div>
     </>
