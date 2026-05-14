@@ -92,6 +92,24 @@ export default function AboutPage() {
             実際の買取査定および買取契約は、お客様と各買取業者との間で直接行われます。査定額の決定・買取の成否について、当社は責任を負いません。
           </p>
         </div>
+
+        <div>
+          <h2 className="text-lg font-bold mb-3 border-b border-warm-border pb-2">関連ページ</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <Link href="/editorial/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow">
+              <span className="text-xs text-amber-dark font-bold">編集部紹介</span>
+              <p className="text-sm font-bold mt-1">体制・専門性</p>
+            </Link>
+            <Link href="/methodology/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow">
+              <span className="text-xs text-amber-dark font-bold">編集ポリシー</span>
+              <p className="text-sm font-bold mt-1">データ収集方法</p>
+            </Link>
+            <Link href="/track-record/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow">
+              <span className="text-xs text-amber-dark font-bold">サイト実績</span>
+              <p className="text-sm font-bold mt-1">統計データ</p>
+            </Link>
+          </div>
+        </div>
       </section>
     </div>
   );

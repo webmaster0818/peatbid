@@ -48,7 +48,7 @@ export default function Taketsuru21KaitoriPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">竹鶴21年の買取相場と高く売る完全ガイド</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: PeatBid編集部</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           {/* Table of Contents */}
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
