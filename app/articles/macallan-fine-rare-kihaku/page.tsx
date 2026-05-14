@@ -33,7 +33,7 @@ export default function MacallanFineRareKihakuPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">マッカラン ファイン&レアの希少性と投資価値</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月13日 / 監修: PeatBid編集部</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: PeatBid編集部</p>
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
@@ -58,6 +58,11 @@ export default function MacallanFineRareKihakuPage() {
           </div>
 
           <p>マッカラン ファイン&レアは希少度伝説級クラスのボトルで、現在の買取相場は約500万円前後。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
+
+          <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
+            <Image src="/images/collector-vault.png" alt="コレクター向けプライベートヴォルト" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-t from-peat/30 to-transparent" />
+          </div>
 
           <h2 id="section-0">1. 希少性のランク評価</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>マッカラン ファイン&レアは希少度カテゴリで「<strong>伝説級</strong>」に分類されます。希少度は以下の4要素で決まります:</p><ol><li>生産終了・休売の有無</li><li>市場流通量</li><li>コレクター需要</li><li>国際的評価
@@ -131,7 +136,7 @@ export default function MacallanFineRareKihakuPage() {
             <Link href="/articles/macallan-fine-rare-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">マッカラン ファイン&レアの買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月13日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

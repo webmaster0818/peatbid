@@ -190,6 +190,7 @@ def render_page(b, all_brands):
     age_label = f"{age}年熟成" if age > 0 else "ノンエイジ（NV）"
 
     hero = get_hero_image(slug_base)
+    distillery_image = "/images/distillery-japanese.png" if category == "japanese-whisky" else "/images/distillery-scotch.png"
     distillery_info = DISTILLERY_INFO.get(origin, f"{origin}は{cat_label}業界で評価の高い蒸溜所/メーカー。長年の伝統と現代的な品質管理を融合し、世界基準のウイスキーを生産しています。")
     tasting = get_tasting_note(category, age)
     rarity_detailed = RARITY_DETAILED.get(rarity, "")
@@ -333,7 +334,7 @@ export default function {component_name}() {{
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{name}の買取相場と高く売る完全ガイド</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月13日 / 監修: PeatBid編集部</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: PeatBid編集部</p>
 
           {{/* Table of Contents */}}
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
@@ -367,6 +368,10 @@ export default function {component_name}() {{
 
           <h2 id="distillery">2. {origin}の歴史と特徴</h2>
 
+          <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden mb-5 not-prose">
+            <Image src="{distillery_image}" alt="{origin}の蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+          </div>
+
           <p>{distillery_info}</p>
 
           <p>{origin}が生み出す{cat_label}は、世界の主要品評会で度々受賞しており、二次流通市場でも継続的に高値で取引されています。蒸溜所の歴史と職人技術が、{name}のような銘柄の市場価値を支えています。</p>
@@ -396,7 +401,41 @@ export default function {component_name}() {{
 
           <h2 id="state-price">5. 状態別の査定額</h2>
 
-          <p>{name}の査定額は、ボトルの状態と付属品の有無により大きく変動します。以下が状態別の査定額の目安です:</p>
+          <p>{name}の査定額は、ボトルの状態と付属品の有無により大きく変動します。以下のビジュアルガイドで、5段階の主要状態を確認してください:</p>
+
+          {{/* State condition gallery (5 images) */}}
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-perfect.png" alt="未開封・箱付き完璧" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>完璧</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-no-box.png" alt="未開封・箱なし" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>箱なし</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-label-dirty.png" alt="ラベル汚れ" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">ラベル<br/>軽度汚れ</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-low-liquid.png" alt="液面減少" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">液面<br/>減少</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-opened.png" alt="開封済み" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">開封済み</p>
+            </div>
+          </div>
 
           <div className="table-wrapper">
             <table>
@@ -437,6 +476,11 @@ export default function {component_name}() {{
 
           <h2 id="auction">7. オークション落札データ</h2>
 
+          <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden mb-5 not-prose">
+            <Image src="/images/auction-scene.png" alt="海外オークションでの希少ウイスキー取引" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-t from-peat/30 to-transparent" />
+          </div>
+
           <p>海外の主要オークションでは、{name}クラスの銘柄が継続的に取引されています。主要オークションプラットフォームと、それぞれの特徴は以下の通りです:</p>
 
           <div dangerouslySetInnerHTML={{{{ __html: `<p><strong>Sotheby's（ニューヨーク・香港・ロンドン）</strong>: 月次〜四半期ごとに開催、プレミアム銘柄中心。<br/><strong>Bonhams（香港・ロンドン）</strong>: 同様にプレミアム銘柄。アジア富裕層が主要バイヤー。<br/><strong>Whisky Auctioneer（UK）</strong>: 月次オンラインオークション、中位銘柄まで幅広く扱う。<br/><strong>Just Whisky Auctions（UK）</strong>: 月次開催、コレクター向け。<br/><strong>Whisky Hammer（UK）</strong>: 月次オンライン、新興プレイヤー。</p>` }}}} />
@@ -474,6 +518,39 @@ export default function {component_name}() {{
           <h2 id="partners">10. おすすめ買取業者4社の詳細レビュー</h2>
 
           <p>PeatBid編集部が{name}クラスの銘柄に強い買取業者を厳選しました。それぞれ得意領域が異なるため、目的別に使い分けるのがコツです。</p>
+
+          {{/* Comparison table */}}
+          <div className="table-wrapper not-prose mb-6">
+            <table className="w-full text-xs sm:text-sm">
+              <thead>
+                <tr>
+                  <th>業者</th>
+                  <th>得意領域</th>
+                  <th>査定スピード</th>
+                  <th>査定額傾向</th>
+                  <th>手数料</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>ヒカカク！</strong></td><td>一括査定（20社）</td><td>1〜2日</td><td>★★★★★</td><td>無料</td></tr>
+                <tr><td><strong>バイセル</strong></td><td>大手の安心感</td><td>即日〜2日</td><td>★★★★</td><td>無料</td></tr>
+                <tr><td><strong>JOYLAB</strong></td><td>お酒専門・希少銘柄</td><td>1〜3日</td><td>★★★★★</td><td>無料</td></tr>
+                <tr><td><strong>リカスタ</strong></td><td>宅配買取</td><td>2〜5日</td><td>★★★★</td><td>無料</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          {{/* Decision flowchart */}}
+          <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-6 not-prose">
+            <p className="font-bold text-base mb-3 text-ink">🎯 どの業者を選ぶべきか</p>
+            <ul className="space-y-2 text-sm text-ink/85">
+              <li>✓ <strong>最高値を狙いたい</strong> → まずヒカカクで一括査定し、JOYLABで個別査定して比較</li>
+              <li>✓ <strong>急いで現金化したい</strong> → バイセルの店頭買取（即日現金化）</li>
+              <li>✓ <strong>地方在住・宅配で完結したい</strong> → リカスタの宅配買取</li>
+              <li>✓ <strong>希少銘柄を専門家に見てほしい</strong> → JOYLABの専門査定</li>
+              <li>✓ <strong>大手の安心感を優先</strong> → バイセル（東証グロース上場）</li>
+            </ul>
+          </div>
 
           <div className="not-prose">
 {partners_html}
@@ -531,7 +608,7 @@ export default function {component_name}() {{
 {related_links}
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の相場は2026年5月13日時点の参考値です。最新の査定額は各業者にお問い合わせください。当サイトはアフィリエイト広告（PR）を含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の相場は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。当サイトはアフィリエイト広告（PR）を含みます。</p>
         </article>
       </div>
     </>

@@ -33,7 +33,7 @@ export default function ArdbegUigeadailNisemonoMikataPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">アードベッグ ウーガダールの偽物・贋作の見分け方</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月13日 / 監修: PeatBid編集部</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: PeatBid編集部</p>
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
@@ -137,7 +137,7 @@ export default function ArdbegUigeadailNisemonoMikataPage() {
             <Link href="/articles/ardbeg-uigeadail-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">アードベッグ ウーガダールの買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月13日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

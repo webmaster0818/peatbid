@@ -378,6 +378,90 @@ def render_page(b, data):
     hero = get_hero(b["slug"])
     component_name = "".join(part.capitalize() for part in slug.replace("-", " ").split())
 
+    # Plan B: angle-specific extra visual content
+    angle_suffix = data["slug_suffix"]
+    extra_visual = ""
+    if angle_suffix == "ranking":
+        extra_visual = '''
+          <div className="table-wrapper not-prose my-6">
+            <p className="text-sm font-bold mb-2 text-ink">業者比較表</p>
+            <table className="w-full text-xs sm:text-sm">
+              <thead>
+                <tr>
+                  <th>業者</th>
+                  <th>得意領域</th>
+                  <th>査定スピード</th>
+                  <th>査定額傾向</th>
+                  <th>手数料</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>ヒカカク！</strong></td><td>一括査定（20社）</td><td>1〜2日</td><td>★★★★★</td><td>無料</td></tr>
+                <tr><td><strong>バイセル</strong></td><td>大手の安心感</td><td>即日〜2日</td><td>★★★★</td><td>無料</td></tr>
+                <tr><td><strong>JOYLAB</strong></td><td>お酒専門・希少銘柄</td><td>1〜3日</td><td>★★★★★</td><td>無料</td></tr>
+                <tr><td><strong>リカスタ</strong></td><td>宅配買取</td><td>2〜5日</td><td>★★★★</td><td>無料</td></tr>
+              </tbody>
+            </table>
+          </div>
+'''
+    elif angle_suffix in ("kaifu-zumi", "hako-nashi", "label-yogore"):
+        extra_visual = '''
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-perfect.png" alt="未開封・箱付き完璧" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>完璧</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-no-box.png" alt="未開封・箱なし" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>箱なし</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-label-dirty.png" alt="ラベル汚れ" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">ラベル<br/>汚れ</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-low-liquid.png" alt="液面減少" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">液面<br/>減少</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-opened.png" alt="開封済み" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">開封済み</p>
+            </div>
+          </div>
+'''
+    elif angle_suffix == "rekishi":
+        cat = b["category"]
+        dimg = "/images/distillery-japanese.png" if cat == "japanese-whisky" else "/images/distillery-scotch.png"
+        extra_visual = f'''
+          <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
+            <Image src="{dimg}" alt="{b["origin"]}の蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+          </div>
+'''
+    elif angle_suffix == "auction-suii":
+        extra_visual = '''
+          <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
+            <Image src="/images/auction-scene.png" alt="海外オークションでの希少ウイスキー取引" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-t from-peat/30 to-transparent" />
+          </div>
+'''
+    elif angle_suffix == "kihaku":
+        extra_visual = '''
+          <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
+            <Image src="/images/collector-vault.png" alt="コレクター向けプライベートヴォルト" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-t from-peat/30 to-transparent" />
+          </div>
+'''
+
     # Brand mini profile
     cat_label = CAT_LABEL.get(b["category"], "ウイスキー")
     age = int(b["age_years"]) if b["age_years"] else 0
@@ -469,7 +553,7 @@ export default function {component_name}Page() {{
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{data["h1"]}</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月13日 / 監修: PeatBid編集部</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: PeatBid編集部</p>
 
           {{/* Brand mini profile */}}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
@@ -488,7 +572,7 @@ export default function {component_name}Page() {{
           </div>
 
           <p>{data["intro"]}</p>
-
+{extra_visual}
 {h2_html}
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
@@ -524,7 +608,7 @@ export default function {component_name}Page() {{
 {related_links}
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月13日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

@@ -33,7 +33,7 @@ export default function Bowmore25HakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ボウモア25年が箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月13日 / 監修: PeatBid編集部</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: PeatBid編集部</p>
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
@@ -58,6 +58,39 @@ export default function Bowmore25HakoNashiPage() {
           </div>
 
           <p>「外箱を捨ててしまった」「最初から箱なしで購入した」——そんな状況でも、ボウモア25年の買取は可能です。ただし、付属品の有無で査定額は大きく変動します。本記事では、箱なしの場合の影響と賢い売却法を完全解説します。</p>
+
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-perfect.png" alt="未開封・箱付き完璧" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>完璧</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-no-box.png" alt="未開封・箱なし" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>箱なし</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-label-dirty.png" alt="ラベル汚れ" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">ラベル<br/>汚れ</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-low-liquid.png" alt="液面減少" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">液面<br/>減少</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-opened.png" alt="開封済み" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">開封済み</p>
+            </div>
+          </div>
 
           <h2 id="section-0">1. 箱なしによる査定額の影響</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ボウモア25年の場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 基準価格 150,000円（100%）</li><li><strong>箱あり・冊子なし</strong>: 127,500円〜142,500円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 127,500円〜138,000円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 120,000円〜135,000円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 112,500円〜127,500円（75〜85%）
@@ -135,7 +168,7 @@ export default function Bowmore25HakoNashiPage() {
             <Link href="/articles/bowmore-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">ボウモア25年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月13日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

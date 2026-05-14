@@ -48,7 +48,7 @@ export default function Yamazaki55KaitoriPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎55年の買取相場と高く売る完全ガイド</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月13日 / 監修: PeatBid編集部</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: PeatBid編集部</p>
 
           {/* Table of Contents */}
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
@@ -82,6 +82,10 @@ export default function Yamazaki55KaitoriPage() {
 
           <h2 id="distillery">2. 山崎蒸溜所の歴史と特徴</h2>
 
+          <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden mb-5 not-prose">
+            <Image src="/images/distillery-japanese.png" alt="山崎蒸溜所の蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+          </div>
+
           <p>1923年（大正12年）創業、サントリーが京都・山崎に開設した日本最初の本格モルトウイスキー蒸溜所。三方を山に囲まれた湿潤な気候と、千利休が茶の湯に使った湧水「離宮の水」を仕込み水として用いる。山崎は日本のウイスキー文化発祥の地として、国際的評価も極めて高い。</p>
 
           <p>山崎蒸溜所が生み出すジャパニーズウイスキーは、世界の主要品評会で度々受賞しており、二次流通市場でも継続的に高値で取引されています。蒸溜所の歴史と職人技術が、山崎55年のような銘柄の市場価値を支えています。</p>
@@ -111,7 +115,41 @@ export default function Yamazaki55KaitoriPage() {
 
           <h2 id="state-price">5. 状態別の査定額</h2>
 
-          <p>山崎55年の査定額は、ボトルの状態と付属品の有無により大きく変動します。以下が状態別の査定額の目安です:</p>
+          <p>山崎55年の査定額は、ボトルの状態と付属品の有無により大きく変動します。以下のビジュアルガイドで、5段階の主要状態を確認してください:</p>
+
+          {/* State condition gallery (5 images) */}
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-perfect.png" alt="未開封・箱付き完璧" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>完璧</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-no-box.png" alt="未開封・箱なし" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>箱なし</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-label-dirty.png" alt="ラベル汚れ" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">ラベル<br/>軽度汚れ</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-low-liquid.png" alt="液面減少" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">液面<br/>減少</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-opened.png" alt="開封済み" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">開封済み</p>
+            </div>
+          </div>
 
           <div className="table-wrapper">
             <table>
@@ -159,6 +197,11 @@ export default function Yamazaki55KaitoriPage() {
 
           <h2 id="auction">7. オークション落札データ</h2>
 
+          <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden mb-5 not-prose">
+            <Image src="/images/auction-scene.png" alt="海外オークションでの希少ウイスキー取引" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-t from-peat/30 to-transparent" />
+          </div>
+
           <p>海外の主要オークションでは、山崎55年クラスの銘柄が継続的に取引されています。主要オークションプラットフォームと、それぞれの特徴は以下の通りです:</p>
 
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>Sotheby's（ニューヨーク・香港・ロンドン）</strong>: 月次〜四半期ごとに開催、プレミアム銘柄中心。<br/><strong>Bonhams（香港・ロンドン）</strong>: 同様にプレミアム銘柄。アジア富裕層が主要バイヤー。<br/><strong>Whisky Auctioneer（UK）</strong>: 月次オンラインオークション、中位銘柄まで幅広く扱う。<br/><strong>Just Whisky Auctions（UK）</strong>: 月次開催、コレクター向け。<br/><strong>Whisky Hammer（UK）</strong>: 月次オンライン、新興プレイヤー。</p>` }} />
@@ -196,6 +239,39 @@ export default function Yamazaki55KaitoriPage() {
           <h2 id="partners">10. おすすめ買取業者4社の詳細レビュー</h2>
 
           <p>PeatBid編集部が山崎55年クラスの銘柄に強い買取業者を厳選しました。それぞれ得意領域が異なるため、目的別に使い分けるのがコツです。</p>
+
+          {/* Comparison table */}
+          <div className="table-wrapper not-prose mb-6">
+            <table className="w-full text-xs sm:text-sm">
+              <thead>
+                <tr>
+                  <th>業者</th>
+                  <th>得意領域</th>
+                  <th>査定スピード</th>
+                  <th>査定額傾向</th>
+                  <th>手数料</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>ヒカカク！</strong></td><td>一括査定（20社）</td><td>1〜2日</td><td>★★★★★</td><td>無料</td></tr>
+                <tr><td><strong>バイセル</strong></td><td>大手の安心感</td><td>即日〜2日</td><td>★★★★</td><td>無料</td></tr>
+                <tr><td><strong>JOYLAB</strong></td><td>お酒専門・希少銘柄</td><td>1〜3日</td><td>★★★★★</td><td>無料</td></tr>
+                <tr><td><strong>リカスタ</strong></td><td>宅配買取</td><td>2〜5日</td><td>★★★★</td><td>無料</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          {/* Decision flowchart */}
+          <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-6 not-prose">
+            <p className="font-bold text-base mb-3 text-ink">🎯 どの業者を選ぶべきか</p>
+            <ul className="space-y-2 text-sm text-ink/85">
+              <li>✓ <strong>最高値を狙いたい</strong> → まずヒカカクで一括査定し、JOYLABで個別査定して比較</li>
+              <li>✓ <strong>急いで現金化したい</strong> → バイセルの店頭買取（即日現金化）</li>
+              <li>✓ <strong>地方在住・宅配で完結したい</strong> → リカスタの宅配買取</li>
+              <li>✓ <strong>希少銘柄を専門家に見てほしい</strong> → JOYLABの専門査定</li>
+              <li>✓ <strong>大手の安心感を優先</strong> → バイセル（東証グロース上場）</li>
+            </ul>
+          </div>
 
           <div className="not-prose">
           <div className="bg-white border border-warm-border rounded-xl p-5 mb-4">
@@ -309,7 +385,7 @@ export default function Yamazaki55KaitoriPage() {
             <Link href="/articles/hibiki-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">響30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 110万円</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の相場は2026年5月13日時点の参考値です。最新の査定額は各業者にお問い合わせください。当サイトはアフィリエイト広告（PR）を含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の相場は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。当サイトはアフィリエイト広告（PR）を含みます。</p>
         </article>
       </div>
     </>

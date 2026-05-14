@@ -33,7 +33,7 @@ export default function Macallan25LabelYogorePage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">マッカラン25年のラベル汚れ・破れがあっても売れる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月13日 / 監修: PeatBid編集部</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: PeatBid編集部</p>
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
@@ -58,6 +58,39 @@ export default function Macallan25LabelYogorePage() {
           </div>
 
           <p>長期保管したマッカラン25年のラベルが汚れた、破れた、水濡れ跡がついた——そんな場合でも、買取は可能です。本記事では、ラベルの状態が査定額にどう影響するか、状態別の価格目安と対処法を完全解説します。</p>
+
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-perfect.png" alt="未開封・箱付き完璧" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>完璧</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-no-box.png" alt="未開封・箱なし" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>箱なし</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-label-dirty.png" alt="ラベル汚れ" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">ラベル<br/>汚れ</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-low-liquid.png" alt="液面減少" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">液面<br/>減少</p>
+            </div>
+            <div className="text-center">
+              <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
+                <Image src="/images/state-opened.png" alt="開封済み" fill sizes="200px" className="object-cover" />
+              </div>
+              <p className="text-[10px] text-warm-gray mt-1">開封済み</p>
+            </div>
+          </div>
 
           <h2 id="section-0">1. ラベル状態の判定基準</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ラベルは「コレクター品の顔」とも言える重要な要素です。買取査定では以下の状態を確認:</p><ol><li><strong>新品同様</strong> — 印刷鮮明、シワ・汚れ・破れなし</li><li><strong>軽度の汚れ</strong> — 表面の埃・指紋・若干の変色</li><li><strong>シミ・水濡れ跡</strong> — 液体接触の痕跡</li><li><strong>破れ・欠け・剥がれ</strong> — 物理的損傷</li><li><strong>強い退色</strong> — 直射日光や蛍光灯による色あせ</li><li><strong>カビ・カビ跡</strong> — 湿度過多による劣化</li><li><strong>粘着テープ跡</strong> — 不適切な貼付・剥離跡</li></ol>` }} />
@@ -127,7 +160,7 @@ export default function Macallan25LabelYogorePage() {
             <Link href="/articles/macallan-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">マッカラン25年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月13日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

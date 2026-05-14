@@ -33,7 +33,7 @@ export default function YamazakiNvAuctionSuiiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎ノンエイジのオークション相場推移</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月13日 / 監修: PeatBid編集部</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: PeatBid編集部</p>
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
@@ -58,6 +58,11 @@ export default function YamazakiNvAuctionSuiiPage() {
           </div>
 
           <p>山崎ノンエイジの国内買取相場は、海外オークションの落札結果に強く連動します。本記事では、Sotheby's、Bonhams、Whisky Auctioneer等の主要オークションで取引された価格データから、相場の動向と今後の見通しを分析します。</p>
+
+          <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
+            <Image src="/images/auction-scene.png" alt="海外オークションでの希少ウイスキー取引" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-t from-peat/30 to-transparent" />
+          </div>
 
           <h2 id="section-0">1. 過去5年の価格推移</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>山崎ノンエイジの二次流通価格は、過去5年で大きく上昇しています。
@@ -137,7 +142,7 @@ export default function YamazakiNvAuctionSuiiPage() {
             <Link href="/articles/yamazaki-nv-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">山崎ノンエイジの買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月13日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

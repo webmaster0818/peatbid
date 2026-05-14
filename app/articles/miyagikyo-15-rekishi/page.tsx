@@ -33,7 +33,7 @@ export default function Miyagikyo15RekishiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">宮城峡15年の歴史と特徴</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月13日 / 監修: PeatBid編集部</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: PeatBid編集部</p>
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
@@ -58,6 +58,10 @@ export default function Miyagikyo15RekishiPage() {
           </div>
 
           <p>宮城峡15年はジャパニーズウイスキーを代表する銘柄の1つで、宮城峡蒸溜所が手がける15年熟成のボトル。本記事では、銘柄の誕生背景、蒸溜所のストーリー、味わいの個性、世界的評価、そして二次流通市場で高値が定着している理由を解説します。</p>
+
+          <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
+            <Image src="/images/distillery-japanese.png" alt="宮城峡蒸溜所の蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+          </div>
 
           <h2 id="section-0">1. 宮城峡蒸溜所の創業と歴史</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>宮城峡蒸溜所はジャパニーズウイスキー業界で長い歴史を持つ蒸溜所/メーカー。創業以来、伝統的な製法と現代の品質管理を融合し、宮城峡15年を含む数々の名作を世に送り出しています。</p><p>ジャパニーズウイスキーの場合は1923年の山崎蒸溜所創設以降、スコッチの場合は18〜19世紀に遡る歴史を持つ銘柄も多数あります。各蒸溜所が独自の蒸溜方法・水・樽選びで個性を表現し、それが今日の市場価値につながっています。</p>` }} />
@@ -129,7 +133,7 @@ export default function Miyagikyo15RekishiPage() {
             <Link href="/articles/miyagikyo-15-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">宮城峡15年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月13日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

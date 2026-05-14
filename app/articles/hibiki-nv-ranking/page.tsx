@@ -33,7 +33,7 @@ export default function HibikiNvRankingPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">響ジャパニーズハーモニーの買取業者おすすめランキング</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月13日 / 監修: PeatBid編集部</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: PeatBid編集部</p>
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
@@ -57,6 +57,27 @@ export default function HibikiNvRankingPage() {
           </div>
 
           <p>響ジャパニーズハーモニーを高く売るには、業者選びが最重要。同じ15,000円クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだ響ジャパニーズハーモニーに強い買取業者4社を、ランキング形式で比較します。</p>
+
+          <div className="table-wrapper not-prose my-6">
+            <p className="text-sm font-bold mb-2 text-ink">業者比較表</p>
+            <table className="w-full text-xs sm:text-sm">
+              <thead>
+                <tr>
+                  <th>業者</th>
+                  <th>得意領域</th>
+                  <th>査定スピード</th>
+                  <th>査定額傾向</th>
+                  <th>手数料</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>ヒカカク！</strong></td><td>一括査定（20社）</td><td>1〜2日</td><td>★★★★★</td><td>無料</td></tr>
+                <tr><td><strong>バイセル</strong></td><td>大手の安心感</td><td>即日〜2日</td><td>★★★★</td><td>無料</td></tr>
+                <tr><td><strong>JOYLAB</strong></td><td>お酒専門・希少銘柄</td><td>1〜3日</td><td>★★★★★</td><td>無料</td></tr>
+                <tr><td><strong>リカスタ</strong></td><td>宅配買取</td><td>2〜5日</td><td>★★★★</td><td>無料</td></tr>
+              </tbody>
+            </table>
+          </div>
 
           <h2 id="section-0">1. ランキングの選定基準</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部の響ジャパニーズハーモニー買取業者選定基準（5項目）:</p><ol><li><strong>専門知識</strong> — お酒・ウイスキー専門の鑑定力があるか</li><li><strong>査定スピード</strong> — 見積もり〜入金までの所要日数</li><li><strong>査定額の透明性</strong> — 価格根拠・状態評価の説明があるか</li><li><strong>手数料・キャンセル料</strong> — 完全無料か</li><li><strong>信頼性</strong> — 上場・古物商許可・口コミ評判
@@ -121,7 +142,7 @@ export default function HibikiNvRankingPage() {
             <Link href="/articles/hibiki-nv-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">響ジャパニーズハーモニーの買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月13日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
         </article>
       </div>
     </>
