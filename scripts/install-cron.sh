@@ -22,7 +22,7 @@ cat > "$PLIST_PATH" <<EOF
     <string>${PLIST_NAME}</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/bin/python3</string>
+        <string>/opt/homebrew/bin/python3</string>
         <string>${PROJECT}/scripts/level3-monitor.py</string>
         <string>--notify</string>
     </array>

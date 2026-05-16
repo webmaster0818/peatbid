@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 PeatBid Level 3 Price Monitor
 ============================
@@ -19,6 +20,8 @@ TOP10銘柄の平均落札価格・出品件数の変動を検知。
   - 平均価格変動率 >= 5%
   - 出品件数変動率 >= 20%
 """
+from __future__ import annotations
+
 import json
 import re
 import sys
