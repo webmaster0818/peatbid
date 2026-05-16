@@ -1,0 +1,93 @@
+{
+  "slug": "yamazaki-25",
+  "label": "山崎25年",
+  "category": "japanese-whisky",
+  "latest_price_boxed": 880000,
+  "latest_price_no_box": 660000,
+  "latest_price_opened": 352000,
+  "trend": "up",
+  "pct_6m": 3.3,
+  "pct_12m": 13.7,
+  "history": [
+    {
+      "month": "2025-06",
+      "boxed": 774000,
+      "no_box": 580000,
+      "opened": 310000
+    },
+    {
+      "month": "2025-07",
+      "boxed": 816000,
+      "no_box": 612000,
+      "opened": 326000
+    },
+    {
+      "month": "2025-08",
+      "boxed": 801000,
+      "no_box": 601000,
+      "opened": 320000
+    },
+    {
+      "month": "2025-09",
+      "boxed": 808000,
+      "no_box": 606000,
+      "opened": 323000
+    },
+    {
+      "month": "2025-10",
+      "boxed": 839000,
+      "no_box": 629000,
+      "opened": 336000
+    },
+    {
+      "month": "2025-11",
+      "boxed": 852000,
+      "no_box": 639000,
+      "opened": 341000
+    },
+    {
+      "month": "2025-12",
+      "boxed": 833000,
+      "no_box": 625000,
+      "opened": 333000
+    },
+    {
+      "month": "2026-01",
+      "boxed": 834000,
+      "no_box": 626000,
+      "opened": 334000
+    },
+    {
+      "month": "2026-02",
+      "boxed": 849000,
+      "no_box": 637000,
+      "opened": 340000
+    },
+    {
+      "month": "2026-03",
+      "boxed": 846000,
+      "no_box": 634000,
+      "opened": 338000
+    },
+    {
+      "month": "2026-04",
+      "boxed": 880000,
+      "no_box": 660000,
+      "opened": 352000
+    },
+    {
+      "month": "2026-05",
+      "boxed": 880000,
+      "no_box": 660000,
+      "opened": 352000
+    }
+  ],
+  "updated_at": "2026-05-16",
+  "data_disclaimer": "本データは公開オークション情報・業者公開価格・市場ニュースを基にPeatBid編集部が独自に算出した推定相場です。実取引価格を保証するものではありません。",
+  "data_sources": [
+    "業者公開買取相場表（4社）",
+    "公開オークション結果（国内・海外）",
+    "市場ニュース・専門誌",
+    "編集部独自調査"
+  ]
+}
