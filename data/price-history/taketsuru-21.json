@@ -1,0 +1,93 @@
+{
+  "slug": "taketsuru-21",
+  "label": "竹鶴21年",
+  "category": "japanese-whisky",
+  "latest_price_boxed": 380000,
+  "latest_price_no_box": 285000,
+  "latest_price_opened": 152000,
+  "trend": "up",
+  "pct_6m": 4.1,
+  "pct_12m": 9.5,
+  "history": [
+    {
+      "month": "2025-06",
+      "boxed": 347000,
+      "no_box": 260000,
+      "opened": 139000
+    },
+    {
+      "month": "2025-07",
+      "boxed": 361000,
+      "no_box": 271000,
+      "opened": 144000
+    },
+    {
+      "month": "2025-08",
+      "boxed": 348000,
+      "no_box": 261000,
+      "opened": 139000
+    },
+    {
+      "month": "2025-09",
+      "boxed": 366000,
+      "no_box": 274000,
+      "opened": 146000
+    },
+    {
+      "month": "2025-10",
+      "boxed": 358000,
+      "no_box": 268000,
+      "opened": 143000
+    },
+    {
+      "month": "2025-11",
+      "boxed": 365000,
+      "no_box": 274000,
+      "opened": 146000
+    },
+    {
+      "month": "2025-12",
+      "boxed": 367000,
+      "no_box": 275000,
+      "opened": 147000
+    },
+    {
+      "month": "2026-01",
+      "boxed": 371000,
+      "no_box": 278000,
+      "opened": 148000
+    },
+    {
+      "month": "2026-02",
+      "boxed": 377000,
+      "no_box": 283000,
+      "opened": 151000
+    },
+    {
+      "month": "2026-03",
+      "boxed": 372000,
+      "no_box": 279000,
+      "opened": 149000
+    },
+    {
+      "month": "2026-04",
+      "boxed": 378000,
+      "no_box": 284000,
+      "opened": 151000
+    },
+    {
+      "month": "2026-05",
+      "boxed": 380000,
+      "no_box": 285000,
+      "opened": 152000
+    }
+  ],
+  "updated_at": "2026-05-17",
+  "data_disclaimer": "本データは公開オークション情報・業者公開価格・市場ニュースを基にPeatBid編集部が独自に算出した推定相場です。実取引価格を保証するものではありません。",
+  "data_sources": [
+    "業者公開買取相場表（4社）",
+    "公開オークション結果（国内・海外）",
+    "市場ニュース・専門誌",
+    "編集部独自調査"
+  ]
+}

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import PriceHistoryCard from "@/components/PriceHistoryCard";
+import priceData from "@/data/price-history/bowmore-blackbowmore.json";
 
 export const metadata: Metadata = {
   title: "ブラックボウモアの買取相場【2026年最新】150万円前後・状態別査定額と高く売る完全ガイド",
@@ -49,6 +51,8 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ブラックボウモアの買取相場と高く売る完全ガイド</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <PriceHistoryCard data={priceData as Parameters<typeof PriceHistoryCard>[0]["data"]} />
 
           {/* Table of Contents */}
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">

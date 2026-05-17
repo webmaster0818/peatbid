@@ -37,18 +37,71 @@ PROPOSAL_DIR = ROOT / "data" / "scraper-state" / "proposals"
 STATE_DIR.mkdir(parents=True, exist_ok=True)
 PROPOSAL_DIR.mkdir(parents=True, exist_ok=True)
 
-# 監視対象（TOP10）
+# 監視対象（全50銘柄）
 BRANDS = [
+    # ジャパニーズ - 山崎
+    {"slug": "yamazaki-nv", "label": "山崎NV", "query": "山崎 ノンエイジ ウイスキー"},
+    {"slug": "yamazaki-12", "label": "山崎12年", "query": "山崎12年"},
     {"slug": "yamazaki-18", "label": "山崎18年", "query": "山崎18年"},
     {"slug": "yamazaki-25", "label": "山崎25年", "query": "山崎25年"},
-    {"slug": "hibiki-30", "label": "響30年", "query": "響30年"},
+    {"slug": "yamazaki-55", "label": "山崎55年", "query": "山崎55年"},
+    # ジャパニーズ - 響
+    {"slug": "hibiki-nv", "label": "響NV", "query": "響 ジャパニーズハーモニー"},
+    {"slug": "hibiki-17", "label": "響17年", "query": "響17年"},
     {"slug": "hibiki-21", "label": "響21年", "query": "響21年"},
-    {"slug": "hakushu-25", "label": "白州25年", "query": "白州25年"},
+    {"slug": "hibiki-30", "label": "響30年", "query": "響30年"},
+    # ジャパニーズ - 白州
+    {"slug": "hakushu-nv", "label": "白州NV", "query": "白州 ノンエイジ"},
+    {"slug": "hakushu-12", "label": "白州12年", "query": "白州12年"},
     {"slug": "hakushu-18", "label": "白州18年", "query": "白州18年"},
+    {"slug": "hakushu-25", "label": "白州25年", "query": "白州25年"},
+    # ジャパニーズ - 竹鶴
+    {"slug": "taketsuru-pure", "label": "竹鶴ピュアモルト", "query": "竹鶴 ピュアモルト"},
+    {"slug": "taketsuru-17", "label": "竹鶴17年", "query": "竹鶴17年"},
+    {"slug": "taketsuru-21", "label": "竹鶴21年", "query": "竹鶴21年"},
+    {"slug": "taketsuru-25", "label": "竹鶴25年", "query": "竹鶴25年"},
+    # ジャパニーズ - 余市
+    {"slug": "yoichi-nv", "label": "余市NV", "query": "余市 ノンエイジ"},
+    {"slug": "yoichi-10", "label": "余市10年", "query": "余市10年"},
+    {"slug": "yoichi-15", "label": "余市15年", "query": "余市15年"},
+    {"slug": "yoichi-20", "label": "余市20年", "query": "余市20年"},
+    # ジャパニーズ - 宮城峡
+    {"slug": "miyagikyo-nv", "label": "宮城峡NV", "query": "宮城峡 ノンエイジ"},
+    {"slug": "miyagikyo-12", "label": "宮城峡12年", "query": "宮城峡12年"},
+    {"slug": "miyagikyo-15", "label": "宮城峡15年", "query": "宮城峡15年"},
+    # ジャパニーズ - 閉鎖蒸溜所
     {"slug": "karuizawa-12", "label": "軽井沢12年", "query": "軽井沢 12年 ウイスキー"},
+    {"slug": "karuizawa-30", "label": "軽井沢30年", "query": "軽井沢 30年 ウイスキー"},
+    {"slug": "hanyu-card", "label": "羽生カード", "query": "羽生 カード ウイスキー"},
+    # ジャパニーズ - クラフト
+    {"slug": "chichibu-the-first", "label": "秩父ザファースト", "query": "秩父 ザファースト"},
+    {"slug": "ichirosu-card", "label": "イチローズモルト カード", "query": "イチローズモルト カード"},
+    {"slug": "ichirosu-double-distilleries", "label": "イチローズ ダブルディスティラリーズ", "query": "イチローズモルト ダブルディスティラリーズ"},
+    {"slug": "ichirosu-mwr", "label": "イチローズMWR", "query": "イチローズモルト MWR"},
+    {"slug": "mars-komagatake", "label": "マルス駒ヶ岳", "query": "マルス 駒ヶ岳"},
+    # スコッチ - マッカラン
+    {"slug": "macallan-12", "label": "マッカラン12年", "query": "マッカラン12年"},
+    {"slug": "macallan-18", "label": "マッカラン18年", "query": "マッカラン18年"},
     {"slug": "macallan-25", "label": "マッカラン25年", "query": "マッカラン25年"},
     {"slug": "macallan-30", "label": "マッカラン30年", "query": "マッカラン30年"},
-    {"slug": "chichibu-the-first", "label": "秩父ザファースト", "query": "秩父 ザファースト"},
+    {"slug": "macallan-fine-rare", "label": "マッカラン Fine&Rare", "query": "マッカラン Fine Rare"},
+    # スコッチ - ボウモア
+    {"slug": "bowmore-18", "label": "ボウモア18年", "query": "ボウモア18年"},
+    {"slug": "bowmore-25", "label": "ボウモア25年", "query": "ボウモア25年"},
+    {"slug": "bowmore-blackbowmore", "label": "ブラックボウモア", "query": "ブラックボウモア"},
+    # スコッチ - アードベッグ
+    {"slug": "ardbeg-uigeadail", "label": "アードベッグ ウーガダール", "query": "アードベッグ ウーガダール"},
+    {"slug": "ardbeg-corryvreckan", "label": "アードベッグ コリーヴレッカン", "query": "アードベッグ コリーヴレッカン"},
+    # スコッチ - スプリングバンク
+    {"slug": "springbank-15", "label": "スプリングバンク15年", "query": "スプリングバンク15年"},
+    {"slug": "springbank-21", "label": "スプリングバンク21年", "query": "スプリングバンク21年"},
+    # スコッチ - その他
+    {"slug": "laphroaig-25", "label": "ラフロイグ25年", "query": "ラフロイグ25年"},
+    {"slug": "talisker-25", "label": "タリスカー25年", "query": "タリスカー25年"},
+    {"slug": "glenfiddich-30", "label": "グレンフィディック30年", "query": "グレンフィディック30年"},
+    {"slug": "glenfarclas-25", "label": "グレンファークラス25年", "query": "グレンファークラス25年"},
+    {"slug": "balvenie-portwood-21", "label": "バルヴェニー ポートウッド21年", "query": "バルヴェニー ポートウッド"},
+    {"slug": "glenmorangie-signet", "label": "グレンモーレンジ シグネット", "query": "グレンモーレンジ シグネット"},
 ]
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"

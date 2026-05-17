@@ -1,0 +1,93 @@
+{
+  "slug": "yoichi-20",
+  "label": "余市20年",
+  "category": "japanese-whisky",
+  "latest_price_boxed": 650000,
+  "latest_price_no_box": 488000,
+  "latest_price_opened": 260000,
+  "trend": "up",
+  "pct_6m": 4.8,
+  "pct_12m": 10.7,
+  "history": [
+    {
+      "month": "2025-06",
+      "boxed": 587000,
+      "no_box": 440000,
+      "opened": 235000
+    },
+    {
+      "month": "2025-07",
+      "boxed": 580000,
+      "no_box": 435000,
+      "opened": 232000
+    },
+    {
+      "month": "2025-08",
+      "boxed": 584000,
+      "no_box": 438000,
+      "opened": 234000
+    },
+    {
+      "month": "2025-09",
+      "boxed": 603000,
+      "no_box": 452000,
+      "opened": 241000
+    },
+    {
+      "month": "2025-10",
+      "boxed": 619000,
+      "no_box": 464000,
+      "opened": 248000
+    },
+    {
+      "month": "2025-11",
+      "boxed": 620000,
+      "no_box": 465000,
+      "opened": 248000
+    },
+    {
+      "month": "2025-12",
+      "boxed": 631000,
+      "no_box": 473000,
+      "opened": 252000
+    },
+    {
+      "month": "2026-01",
+      "boxed": 635000,
+      "no_box": 476000,
+      "opened": 254000
+    },
+    {
+      "month": "2026-02",
+      "boxed": 636000,
+      "no_box": 477000,
+      "opened": 254000
+    },
+    {
+      "month": "2026-03",
+      "boxed": 634000,
+      "no_box": 476000,
+      "opened": 254000
+    },
+    {
+      "month": "2026-04",
+      "boxed": 643000,
+      "no_box": 482000,
+      "opened": 257000
+    },
+    {
+      "month": "2026-05",
+      "boxed": 650000,
+      "no_box": 488000,
+      "opened": 260000
+    }
+  ],
+  "updated_at": "2026-05-17",
+  "data_disclaimer": "本データは公開オークション情報・業者公開価格・市場ニュースを基にPeatBid編集部が独自に算出した推定相場です。実取引価格を保証するものではありません。",
+  "data_sources": [
+    "業者公開買取相場表（4社）",
+    "公開オークション結果（国内・海外）",
+    "市場ニュース・専門誌",
+    "編集部独自調査"
+  ]
+}
