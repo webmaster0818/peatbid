@@ -39,7 +39,7 @@ export default function YamazakiNvKihakuPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">山崎ノンエイジ</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / ノンエイジ / 希少度 コモン / 参考相場 18,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / ノンエイジ / 希少度 コモン / 参考相場 10,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yamazaki-nv-kaitori/" className="text-amber-dark underline">山崎ノンエイジの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -57,7 +57,7 @@ export default function YamazakiNvKihakuPage() {
             </ol>
           </div>
 
-          <p>山崎ノンエイジは希少度現行品クラスのボトルで、現在の買取相場は約18,000円前後。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
+          <p>山崎ノンエイジは希少度現行品クラスのボトルで、現在の買取相場は約10,000円前後。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
             <Image src="/images/collector-vault.png" alt="コレクター向けプライベートヴォルト" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />

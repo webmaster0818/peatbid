@@ -39,7 +39,7 @@ export default function Taketsuru21KaifuZumiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">竹鶴21年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / 21年熟成 / 希少度 ハイ / 参考相場 380,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / 21年熟成 / 希少度 ハイ / 参考相場 37,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/taketsuru-21-kaitori/" className="text-amber-dark underline">竹鶴21年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -93,7 +93,7 @@ export default function Taketsuru21KaifuZumiPage() {
           </div>
 
           <h2 id="section-0">1. 開封済み竹鶴21年の査定額の目安</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きが基準価格約380,000円に対し、開封済みは状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 基準の30〜40%（114,000円〜152,000円）</li><li><strong>7割以上残</strong>: 基準の25〜35%（95,000円〜133,000円）</li><li><strong>5割以上残</strong>: 基準の20〜30%（76,000円〜114,000円）</li><li><strong>3割以上残</strong>: 基準の10〜20%</li><li><strong>1割以下残</strong>: 買取拒否の場合あり、もしくは空ボトルとして数千円</li></ol>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きが基準価格約37,000円に対し、開封済みは状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 基準の30〜40%（11,100円〜14,800円）</li><li><strong>7割以上残</strong>: 基準の25〜35%（9,250円〜12,950円）</li><li><strong>5割以上残</strong>: 基準の20〜30%（7,400円〜11,100円）</li><li><strong>3割以上残</strong>: 基準の10〜20%</li><li><strong>1割以下残</strong>: 買取拒否の場合あり、もしくは空ボトルとして数千円</li></ol>` }} />
 
           <h2 id="section-1">2. 開封済みの査定で重視される5要素</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>開封済みボトルの査定では、以下の5要素が総合的に評価されます:</p><ol><li><strong>残量</strong> — 多いほど評価額アップ。9割以上が査定の分かれ目</li><li><strong>保管状態</strong> — コルク劣化・香味揮発の度合い</li><li><strong>付属品</strong> — 外箱・冊子・カートンの有無</li><li><strong>ラベル状態</strong> — 美しさは未開封同様に評価される</li><li><strong>キャップ・栓の状態</strong> — しっかり閉まっているか、隙間からの揮発は無いか

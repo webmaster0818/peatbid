@@ -2,84 +2,84 @@
   "slug": "macallan-30",
   "label": "マッカラン30年",
   "category": "scotch-whisky",
-  "latest_price_boxed": 1500000,
-  "latest_price_no_box": 1125000,
-  "latest_price_opened": 600000,
+  "latest_price_boxed": 232000,
+  "latest_price_no_box": 174000,
+  "latest_price_opened": 93000,
   "trend": "up",
-  "pct_6m": 3.8,
-  "pct_12m": 11.4,
+  "pct_6m": 3.6,
+  "pct_12m": 11.5,
   "history": [
     {
       "month": "2025-06",
-      "boxed": 1347000,
-      "no_box": 1010000,
-      "opened": 539000
+      "boxed": 208000,
+      "no_box": 156000,
+      "opened": 83000
     },
     {
       "month": "2025-07",
-      "boxed": 1392000,
-      "no_box": 1044000,
-      "opened": 557000
+      "boxed": 215000,
+      "no_box": 161000,
+      "opened": 86000
     },
     {
       "month": "2025-08",
-      "boxed": 1377000,
-      "no_box": 1033000,
-      "opened": 551000
+      "boxed": 213000,
+      "no_box": 160000,
+      "opened": 85000
     },
     {
       "month": "2025-09",
-      "boxed": 1395000,
-      "no_box": 1046000,
-      "opened": 558000
+      "boxed": 216000,
+      "no_box": 162000,
+      "opened": 86000
     },
     {
       "month": "2025-10",
-      "boxed": 1376000,
-      "no_box": 1032000,
-      "opened": 550000
+      "boxed": 213000,
+      "no_box": 160000,
+      "opened": 85000
     },
     {
       "month": "2025-11",
-      "boxed": 1445000,
-      "no_box": 1084000,
-      "opened": 578000
+      "boxed": 224000,
+      "no_box": 168000,
+      "opened": 90000
     },
     {
       "month": "2025-12",
-      "boxed": 1459000,
-      "no_box": 1094000,
-      "opened": 584000
+      "boxed": 226000,
+      "no_box": 170000,
+      "opened": 90000
     },
     {
       "month": "2026-01",
-      "boxed": 1459000,
-      "no_box": 1094000,
-      "opened": 584000
+      "boxed": 226000,
+      "no_box": 170000,
+      "opened": 90000
     },
     {
       "month": "2026-02",
-      "boxed": 1489000,
-      "no_box": 1117000,
-      "opened": 596000
+      "boxed": 230000,
+      "no_box": 172000,
+      "opened": 92000
     },
     {
       "month": "2026-03",
-      "boxed": 1442000,
-      "no_box": 1082000,
-      "opened": 577000
+      "boxed": 223000,
+      "no_box": 167000,
+      "opened": 89000
     },
     {
       "month": "2026-04",
-      "boxed": 1489000,
-      "no_box": 1117000,
-      "opened": 596000
+      "boxed": 230000,
+      "no_box": 172000,
+      "opened": 92000
     },
     {
       "month": "2026-05",
-      "boxed": 1500000,
-      "no_box": 1125000,
-      "opened": 600000
+      "boxed": 232000,
+      "no_box": 174000,
+      "opened": 93000
     }
   ],
   "updated_at": "2026-05-17",

@@ -39,7 +39,7 @@ export default function Springbank21AuctionSuiiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">スプリングバンク21年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / キャンベルタウン / 21年熟成 / 希少度 ハイ / 参考相場 150,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / キャンベルタウン / 21年熟成 / 希少度 ハイ / 参考相場 68,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/springbank-21-kaitori/" className="text-amber-dark underline">スプリングバンク21年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -67,7 +67,7 @@ export default function Springbank21AuctionSuiiPage() {
           <h2 id="section-0">1. 過去5年の価格推移</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>スプリングバンク21年の二次流通価格は、過去5年で大きく上昇しています。
 
-<strong>年別推移の目安</strong>:</p><ol><li>2020年: コロナ禍で一時減速、年末から回復</li><li>2021年: アジア富裕層の参入加速、年間+30〜50%</li><li>2022年: 価格急騰、年間+50〜80%</li><li>2023年: 上昇ペース緩和、年間+10〜20%</li><li>2024〜2025年: 安定推移、+5〜15%</li><li>2026年: 高値維持、現在は約150,000円前後
+<strong>年別推移の目安</strong>:</p><ol><li>2020年: コロナ禍で一時減速、年末から回復</li><li>2021年: アジア富裕層の参入加速、年間+30〜50%</li><li>2022年: 価格急騰、年間+50〜80%</li><li>2023年: 上昇ペース緩和、年間+10〜20%</li><li>2024〜2025年: 安定推移、+5〜15%</li><li>2026年: 高値維持、現在は約68,000円前後
 
 この5年間で累計<strong>約3〜5倍</strong>の上昇を示しており、ウイスキー投資としての魅力が証明されています。</li></ol>` }} />
 
@@ -99,7 +99,7 @@ export default function Springbank21AuctionSuiiPage() {
 
 <strong>海外売却のデメリット</strong>:</li><li>国際輸送費（数万円〜）</li><li>関税・代理人手数料</li><li>為替リスク</li><li>手続きの複雑性
 
-総合判断としては、300,000円を超える超希少銘柄は海外オークション、それ以下は国内買取業者が現実的です。</li></ol>` }} />
+総合判断としては、136,000円を超える超希少銘柄は海外オークション、それ以下は国内買取業者が現実的です。</li></ol>` }} />
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">スプリングバンク21年の無料一括査定はこちら</h3>

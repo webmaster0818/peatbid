@@ -2,84 +2,84 @@
   "slug": "springbank-21",
   "label": "スプリングバンク21年",
   "category": "scotch-whisky",
-  "latest_price_boxed": 150000,
-  "latest_price_no_box": 112000,
-  "latest_price_opened": 60000,
+  "latest_price_boxed": 68000,
+  "latest_price_no_box": 51000,
+  "latest_price_opened": 27000,
   "trend": "up",
-  "pct_6m": 4.2,
-  "pct_12m": 8.7,
+  "pct_6m": 4.6,
+  "pct_12m": 7.9,
   "history": [
     {
       "month": "2025-06",
-      "boxed": 138000,
-      "no_box": 104000,
-      "opened": 55000
+      "boxed": 63000,
+      "no_box": 47000,
+      "opened": 25000
     },
     {
       "month": "2025-07",
-      "boxed": 138000,
-      "no_box": 104000,
-      "opened": 55000
+      "boxed": 63000,
+      "no_box": 47000,
+      "opened": 25000
     },
     {
       "month": "2025-08",
-      "boxed": 143000,
-      "no_box": 107000,
-      "opened": 57000
+      "boxed": 65000,
+      "no_box": 49000,
+      "opened": 26000
     },
     {
       "month": "2025-09",
-      "boxed": 141000,
-      "no_box": 106000,
-      "opened": 56000
+      "boxed": 64000,
+      "no_box": 48000,
+      "opened": 26000
     },
     {
       "month": "2025-10",
-      "boxed": 143000,
-      "no_box": 107000,
-      "opened": 57000
+      "boxed": 65000,
+      "no_box": 49000,
+      "opened": 26000
     },
     {
       "month": "2025-11",
-      "boxed": 144000,
-      "no_box": 108000,
-      "opened": 58000
+      "boxed": 65000,
+      "no_box": 49000,
+      "opened": 26000
     },
     {
       "month": "2025-12",
-      "boxed": 146000,
-      "no_box": 110000,
-      "opened": 58000
+      "boxed": 66000,
+      "no_box": 50000,
+      "opened": 26000
     },
     {
       "month": "2026-01",
-      "boxed": 147000,
-      "no_box": 110000,
-      "opened": 59000
+      "boxed": 66000,
+      "no_box": 50000,
+      "opened": 26000
     },
     {
       "month": "2026-02",
-      "boxed": 145000,
-      "no_box": 109000,
-      "opened": 58000
+      "boxed": 66000,
+      "no_box": 50000,
+      "opened": 26000
     },
     {
       "month": "2026-03",
-      "boxed": 146000,
-      "no_box": 110000,
-      "opened": 58000
+      "boxed": 66000,
+      "no_box": 50000,
+      "opened": 26000
     },
     {
       "month": "2026-04",
-      "boxed": 152000,
-      "no_box": 114000,
-      "opened": 61000
+      "boxed": 69000,
+      "no_box": 52000,
+      "opened": 28000
     },
     {
       "month": "2026-05",
-      "boxed": 150000,
-      "no_box": 112000,
-      "opened": 60000
+      "boxed": 68000,
+      "no_box": 51000,
+      "opened": 27000
     }
   ],
   "updated_at": "2026-05-17",

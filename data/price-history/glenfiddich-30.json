@@ -2,84 +2,84 @@
   "slug": "glenfiddich-30",
   "label": "グレンフィディック30年",
   "category": "scotch-whisky",
-  "latest_price_boxed": 180000,
-  "latest_price_no_box": 135000,
-  "latest_price_opened": 72000,
+  "latest_price_boxed": 46000,
+  "latest_price_no_box": 34000,
+  "latest_price_opened": 18000,
   "trend": "up",
-  "pct_6m": 5.3,
-  "pct_12m": 9.1,
+  "pct_6m": 4.5,
+  "pct_12m": 9.5,
   "history": [
     {
       "month": "2025-06",
-      "boxed": 165000,
-      "no_box": 124000,
-      "opened": 66000
+      "boxed": 42000,
+      "no_box": 32000,
+      "opened": 17000
     },
     {
       "month": "2025-07",
-      "boxed": 167000,
-      "no_box": 125000,
-      "opened": 67000
+      "boxed": 43000,
+      "no_box": 32000,
+      "opened": 17000
     },
     {
       "month": "2025-08",
-      "boxed": 170000,
-      "no_box": 128000,
-      "opened": 68000
+      "boxed": 44000,
+      "no_box": 33000,
+      "opened": 18000
     },
     {
       "month": "2025-09",
-      "boxed": 169000,
-      "no_box": 127000,
-      "opened": 68000
+      "boxed": 43000,
+      "no_box": 32000,
+      "opened": 17000
     },
     {
       "month": "2025-10",
-      "boxed": 172000,
-      "no_box": 129000,
-      "opened": 69000
+      "boxed": 44000,
+      "no_box": 33000,
+      "opened": 18000
     },
     {
       "month": "2025-11",
-      "boxed": 171000,
-      "no_box": 128000,
-      "opened": 68000
+      "boxed": 44000,
+      "no_box": 33000,
+      "opened": 18000
     },
     {
       "month": "2025-12",
-      "boxed": 175000,
-      "no_box": 131000,
-      "opened": 70000
+      "boxed": 45000,
+      "no_box": 34000,
+      "opened": 18000
     },
     {
       "month": "2026-01",
-      "boxed": 174000,
-      "no_box": 130000,
-      "opened": 70000
+      "boxed": 44000,
+      "no_box": 33000,
+      "opened": 18000
     },
     {
       "month": "2026-02",
-      "boxed": 174000,
-      "no_box": 130000,
-      "opened": 70000
+      "boxed": 45000,
+      "no_box": 34000,
+      "opened": 18000
     },
     {
       "month": "2026-03",
-      "boxed": 173000,
-      "no_box": 130000,
-      "opened": 69000
+      "boxed": 44000,
+      "no_box": 33000,
+      "opened": 18000
     },
     {
       "month": "2026-04",
-      "boxed": 182000,
-      "no_box": 136000,
-      "opened": 73000
+      "boxed": 47000,
+      "no_box": 35000,
+      "opened": 19000
     },
     {
       "month": "2026-05",
-      "boxed": 180000,
-      "no_box": 135000,
-      "opened": 72000
+      "boxed": 46000,
+      "no_box": 34000,
+      "opened": 18000
     }
   ],
   "updated_at": "2026-05-17",

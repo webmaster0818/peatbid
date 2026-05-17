@@ -2,84 +2,84 @@
   "slug": "laphroaig-25",
   "label": "ラフロイグ25年",
   "category": "scotch-whisky",
-  "latest_price_boxed": 65000,
-  "latest_price_no_box": 49000,
-  "latest_price_opened": 26000,
+  "latest_price_boxed": 60000,
+  "latest_price_no_box": 45000,
+  "latest_price_opened": 24000,
   "trend": "up",
-  "pct_6m": 3.2,
-  "pct_12m": 6.6,
+  "pct_6m": 3.4,
+  "pct_12m": 5.3,
   "history": [
     {
       "month": "2025-06",
-      "boxed": 61000,
-      "no_box": 46000,
-      "opened": 24000
+      "boxed": 57000,
+      "no_box": 43000,
+      "opened": 23000
     },
     {
       "month": "2025-07",
-      "boxed": 63000,
-      "no_box": 47000,
-      "opened": 25000
+      "boxed": 58000,
+      "no_box": 44000,
+      "opened": 23000
     },
     {
       "month": "2025-08",
+      "boxed": 57000,
+      "no_box": 43000,
+      "opened": 23000
+    },
+    {
+      "month": "2025-09",
+      "boxed": 58000,
+      "no_box": 44000,
+      "opened": 23000
+    },
+    {
+      "month": "2025-10",
+      "boxed": 59000,
+      "no_box": 44000,
+      "opened": 24000
+    },
+    {
+      "month": "2025-11",
+      "boxed": 58000,
+      "no_box": 44000,
+      "opened": 23000
+    },
+    {
+      "month": "2025-12",
+      "boxed": 58000,
+      "no_box": 44000,
+      "opened": 23000
+    },
+    {
+      "month": "2026-01",
+      "boxed": 58000,
+      "no_box": 44000,
+      "opened": 23000
+    },
+    {
+      "month": "2026-02",
+      "boxed": 60000,
+      "no_box": 45000,
+      "opened": 24000
+    },
+    {
+      "month": "2026-03",
       "boxed": 61000,
       "no_box": 46000,
       "opened": 24000
     },
     {
-      "month": "2025-09",
-      "boxed": 63000,
-      "no_box": 47000,
-      "opened": 25000
-    },
-    {
-      "month": "2025-10",
-      "boxed": 64000,
-      "no_box": 48000,
-      "opened": 26000
-    },
-    {
-      "month": "2025-11",
-      "boxed": 63000,
-      "no_box": 47000,
-      "opened": 25000
-    },
-    {
-      "month": "2025-12",
-      "boxed": 63000,
-      "no_box": 47000,
-      "opened": 25000
-    },
-    {
-      "month": "2026-01",
-      "boxed": 63000,
-      "no_box": 47000,
-      "opened": 25000
-    },
-    {
-      "month": "2026-02",
-      "boxed": 65000,
-      "no_box": 49000,
-      "opened": 26000
-    },
-    {
-      "month": "2026-03",
-      "boxed": 66000,
-      "no_box": 50000,
-      "opened": 26000
-    },
-    {
       "month": "2026-04",
-      "boxed": 65000,
-      "no_box": 49000,
-      "opened": 26000
+      "boxed": 60000,
+      "no_box": 45000,
+      "opened": 24000
     },
     {
       "month": "2026-05",
-      "boxed": 65000,
-      "no_box": 49000,
-      "opened": 26000
+      "boxed": 60000,
+      "no_box": 45000,
+      "opened": 24000
     }
   ],
   "updated_at": "2026-05-17",

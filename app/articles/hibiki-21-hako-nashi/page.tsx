@@ -39,7 +39,7 @@ export default function Hibiki21HakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">響21年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / サントリー / 21年熟成 / 希少度 ハイ / 参考相場 420,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / サントリー / 21年熟成 / 希少度 ハイ / 参考相場 56,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/hibiki-21-kaitori/" className="text-amber-dark underline">響21年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -93,9 +93,9 @@ export default function Hibiki21HakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>響21年の場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 基準価格 420,000円（100%）</li><li><strong>箱あり・冊子なし</strong>: 357,000円〜399,000円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 357,000円〜386,400円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 336,000円〜378,000円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 315,000円〜357,000円（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>響21年の場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 基準価格 56,000円（100%）</li><li><strong>箱あり・冊子なし</strong>: 47,600円〜53,200円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 47,600円〜51,520円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 44,800円〜50,400円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 42,000円〜47,600円（75〜85%）
 
-つまり、最大で<strong>約25%（105,000円）の差</strong>が生じる可能性があります。</li></ol>` }} />
+つまり、最大で<strong>約25%（14,000円）の差</strong>が生じる可能性があります。</li></ol>` }} />
 
           <h2 id="section-1">2. なぜ外箱が重要なのか</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は単なる包装ではなく、<strong>コレクター品の完全性</strong>を示す重要な要素です:</p><ol><li><strong>二次流通市場での評価</strong> — 海外コレクターは特にフルセット重視</li><li><strong>真贋判定の手がかり</strong> — 箱と本体の合致が本物の証</li><li><strong>保管時の保護機能</strong> — 直射日光・摩擦・埃から守る</li><li><strong>付属品の収納</strong> — 冊子・カートンの一括管理</li><li><strong>贈答品としての価値</strong> — 箱なしは贈り物として再販困難

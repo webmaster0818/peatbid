@@ -39,7 +39,7 @@ export default function Bowmore18RekishiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">ボウモア18年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / 18年熟成 / 希少度 ミッド / 参考相場 18,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / 18年熟成 / 希少度 ミッド / 参考相場 38,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/bowmore-18-kaitori/" className="text-amber-dark underline">ボウモア18年の買取相場 完全ガイドへ</Link></p>
           </div>
 

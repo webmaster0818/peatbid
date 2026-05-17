@@ -39,7 +39,7 @@ export default function Hibiki30RekishiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">響30年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / サントリー / 30年熟成 / 希少度 ウルトラ / 参考相場 110万円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / サントリー / 30年熟成 / 希少度 ウルトラ / 参考相場 168,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/hibiki-30-kaitori/" className="text-amber-dark underline">響30年の買取相場 完全ガイドへ</Link></p>
           </div>
 

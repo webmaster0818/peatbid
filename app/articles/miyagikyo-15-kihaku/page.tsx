@@ -39,7 +39,7 @@ export default function Miyagikyo15KihakuPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">宮城峡15年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 宮城峡蒸溜所 / 15年熟成 / 希少度 ハイ / 参考相場 160,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 宮城峡蒸溜所 / 15年熟成 / 希少度 ハイ / 参考相場 33,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/miyagikyo-15-kaitori/" className="text-amber-dark underline">宮城峡15年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -57,7 +57,7 @@ export default function Miyagikyo15KihakuPage() {
             </ol>
           </div>
 
-          <p>宮城峡15年は希少度高希少クラスのボトルで、現在の買取相場は約160,000円前後。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
+          <p>宮城峡15年は希少度高希少クラスのボトルで、現在の買取相場は約33,000円前後。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
             <Image src="/images/collector-vault.png" alt="コレクター向けプライベートヴォルト" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />

@@ -2,84 +2,84 @@
   "slug": "bowmore-25",
   "label": "ボウモア25年",
   "category": "scotch-whisky",
-  "latest_price_boxed": 150000,
-  "latest_price_no_box": 112000,
-  "latest_price_opened": 60000,
+  "latest_price_boxed": 69000,
+  "latest_price_no_box": 52000,
+  "latest_price_opened": 28000,
   "trend": "up",
-  "pct_6m": 4.2,
-  "pct_12m": 7.1,
+  "pct_6m": 4.5,
+  "pct_12m": 7.8,
   "history": [
     {
       "month": "2025-06",
-      "boxed": 140000,
-      "no_box": 105000,
-      "opened": 56000
+      "boxed": 64000,
+      "no_box": 48000,
+      "opened": 26000
     },
     {
       "month": "2025-07",
-      "boxed": 143000,
-      "no_box": 107000,
-      "opened": 57000
+      "boxed": 66000,
+      "no_box": 50000,
+      "opened": 26000
     },
     {
       "month": "2025-08",
-      "boxed": 138000,
-      "no_box": 104000,
-      "opened": 55000
+      "boxed": 63000,
+      "no_box": 47000,
+      "opened": 25000
     },
     {
       "month": "2025-09",
-      "boxed": 142000,
-      "no_box": 106000,
-      "opened": 57000
+      "boxed": 65000,
+      "no_box": 49000,
+      "opened": 26000
     },
     {
       "month": "2025-10",
-      "boxed": 144000,
-      "no_box": 108000,
-      "opened": 58000
+      "boxed": 66000,
+      "no_box": 50000,
+      "opened": 26000
     },
     {
       "month": "2025-11",
-      "boxed": 144000,
-      "no_box": 108000,
-      "opened": 58000
+      "boxed": 66000,
+      "no_box": 50000,
+      "opened": 26000
     },
     {
       "month": "2025-12",
-      "boxed": 143000,
-      "no_box": 107000,
-      "opened": 57000
+      "boxed": 66000,
+      "no_box": 50000,
+      "opened": 26000
     },
     {
       "month": "2026-01",
-      "boxed": 148000,
-      "no_box": 111000,
-      "opened": 59000
+      "boxed": 68000,
+      "no_box": 51000,
+      "opened": 27000
     },
     {
       "month": "2026-02",
-      "boxed": 145000,
-      "no_box": 109000,
-      "opened": 58000
+      "boxed": 67000,
+      "no_box": 50000,
+      "opened": 27000
     },
     {
       "month": "2026-03",
-      "boxed": 148000,
-      "no_box": 111000,
-      "opened": 59000
+      "boxed": 68000,
+      "no_box": 51000,
+      "opened": 27000
     },
     {
       "month": "2026-04",
-      "boxed": 153000,
-      "no_box": 115000,
-      "opened": 61000
+      "boxed": 70000,
+      "no_box": 52000,
+      "opened": 28000
     },
     {
       "month": "2026-05",
-      "boxed": 150000,
-      "no_box": 112000,
-      "opened": 60000
+      "boxed": 69000,
+      "no_box": 52000,
+      "opened": 28000
     }
   ],
   "updated_at": "2026-05-17",

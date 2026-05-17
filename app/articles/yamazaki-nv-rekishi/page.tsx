@@ -39,7 +39,7 @@ export default function YamazakiNvRekishiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">山崎ノンエイジ</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / ノンエイジ / 希少度 コモン / 参考相場 18,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / ノンエイジ / 希少度 コモン / 参考相場 10,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yamazaki-nv-kaitori/" className="text-amber-dark underline">山崎ノンエイジの買取相場 完全ガイドへ</Link></p>
           </div>
 

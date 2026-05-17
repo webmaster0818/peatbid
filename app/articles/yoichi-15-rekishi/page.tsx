@@ -39,7 +39,7 @@ export default function Yoichi15RekishiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">余市15年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 15年熟成 / 希少度 ハイ / 参考相場 180,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 15年熟成 / 希少度 ハイ / 参考相場 42,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yoichi-15-kaitori/" className="text-amber-dark underline">余市15年の買取相場 完全ガイドへ</Link></p>
           </div>
 

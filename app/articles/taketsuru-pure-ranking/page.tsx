@@ -39,7 +39,7 @@ export default function TaketsuruPureRankingPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">竹鶴ピュアモルト</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / ノンエイジ / 希少度 コモン / 参考相場 16,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / ノンエイジ / 希少度 コモン / 参考相場 13,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark underline">竹鶴ピュアモルトの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -56,7 +56,7 @@ export default function TaketsuruPureRankingPage() {
             </ol>
           </div>
 
-          <p>竹鶴ピュアモルトを高く売るには、業者選びが最重要。同じ16,000円クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだ竹鶴ピュアモルトに強い買取業者4社を、ランキング形式で比較します。</p>
+          <p>竹鶴ピュアモルトを高く売るには、業者選びが最重要。同じ13,000円クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだ竹鶴ピュアモルトに強い買取業者4社を、ランキング形式で比較します。</p>
 
           <div className="table-wrapper not-prose my-6">
             <p className="text-sm font-bold mb-2 text-ink">業者比較表</p>

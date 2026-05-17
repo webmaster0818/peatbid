@@ -5,12 +5,12 @@ import PriceHistoryCard from "@/components/PriceHistoryCard";
 import priceData from "@/data/price-history/macallan-18.json";
 
 export const metadata: Metadata = {
-  title: "マッカラン18年の買取相場【2026年最新】80,000円前後・状態別査定額と高く売る完全ガイド",
+  title: "マッカラン18年の買取相場【2026年最新】72,000円前後・状態別査定額と高く売る完全ガイド",
   description: "マッカラン18年（Macallan 18 Year）の最新買取相場、状態別査定額、蒸溜所の歴史、テイスティング、希少性、贋作リスク、おすすめ買取業者4社比較まで完全解説。コレクター・オーナー必読の決定版ガイド。",
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'マッカラン18年は今いくらで売れますか？', "acceptedAnswer": { "@type": "Answer", "text": '2026年5月現在、マッカラン18年（未開封・箱付き）の買取相場は約80,000円前後です。状態・付属品・タイミングにより上下します。最高値を狙うなら**複数業者で相見積もり**が鉄則です。' } }, { "@type": "Question", "name": 'マッカラン18年を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": 'マッカラン18年の開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。残量9割以上で約24,000円〜32,000円、半分以下では大幅減額となります。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。' } }, { "@type": "Question", "name": 'マッカラン18年に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": 'マッカラン18年の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": 'マッカラン18年は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'マッカラン18年を売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": 'マッカラン18年と他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'マッカラン18年は今いくらで売れますか？', "acceptedAnswer": { "@type": "Answer", "text": '2026年5月現在、マッカラン18年（未開封・箱付き）の買取相場は約72,000円前後です。状態・付属品・タイミングにより上下します。最高値を狙うなら**複数業者で相見積もり**が鉄則です。' } }, { "@type": "Question", "name": 'マッカラン18年を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": 'マッカラン18年の開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。残量9割以上で約21,600円〜28,800円、半分以下では大幅減額となります。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。' } }, { "@type": "Question", "name": 'マッカラン18年に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": 'マッカラン18年の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": 'マッカラン18年は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'マッカラン18年を売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": 'マッカラン18年と他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
 }
 
 const tocItems = [
@@ -68,7 +68,7 @@ export default function Macallan18KaitoriPage() {
 
           <p>マッカラン18年はスコッチウイスキーを代表する銘柄の1つで、スペイサイドが手がける18年熟成のボトルです。マッカラン18年。長期熟成シェリーオーク。</p>
 
-          <p>2026年5月現在、マッカラン18年（未開封・箱付き）の買取相場は<strong>約80,000円前後</strong>。希少度は<strong>ミッド</strong>クラスに位置し、終売・休売後の供給制限により価格上昇基調にある銘柄帯。市場流通量が徐々に減少し、二次流通価格は年単位で15〜30%上昇する傾向。</p>
+          <p>2026年5月現在、マッカラン18年（未開封・箱付き）の買取相場は<strong>約72,000円前後</strong>。希少度は<strong>ミッド</strong>クラスに位置し、終売・休売後の供給制限により価格上昇基調にある銘柄帯。市場流通量が徐々に減少し、二次流通価格は年単位で15〜30%上昇する傾向。</p>
 
           <div className="table-wrapper">
             <table>
@@ -79,7 +79,7 @@ export default function Macallan18KaitoriPage() {
                 <tr><td><strong>アルコール度数</strong></td><td>43%</td></tr>
                 <tr><td><strong>容量</strong></td><td>700ml</td></tr>
                 <tr><td><strong>希少度</strong></td><td>ミッド</td></tr>
-                <tr><td><strong>参考買取価格（未開封・箱付き）</strong></td><td><strong>80,000円前後</strong></td></tr>
+                <tr><td><strong>参考買取価格（未開封・箱付き）</strong></td><td><strong>72,000円前後</strong></td></tr>
               </tbody>
             </table>
           </div>
@@ -106,7 +106,7 @@ export default function Macallan18KaitoriPage() {
 
           <h2 id="current-price">4. 現在の買取相場</h2>
 
-          <p>2026年5月時点でのマッカラン18年の買取相場は<strong>68,000円〜80,000円</strong>のレンジで推移しています（未開封・箱付きの場合）。この相場は、以下の市場データの集約から算出しています:</p>
+          <p>2026年5月時点でのマッカラン18年の買取相場は<strong>61,200円〜72,000円</strong>のレンジで推移しています（未開封・箱付きの場合）。この相場は、以下の市場データの集約から算出しています:</p>
 
           <ol>
             <li>国内主要買取業者（大黒屋・JOYLAB・ウイスキー王国等）の公開買取価格</li>
@@ -161,14 +161,14 @@ export default function Macallan18KaitoriPage() {
                 <tr><th>状態</th><th>付属品</th><th>査定額の目安</th></tr>
               </thead>
               <tbody>
-                <tr><td>未開封・完璧</td><td>箱・冊子・カートン揃い</td><td><strong>76,000円〜80,000円</strong></td></tr>
-                <tr><td>未開封・箱なし</td><td>ラベル良好</td><td><strong>64,000円〜72,000円</strong></td></tr>
-                <tr><td>未開封・冊子なし</td><td>外箱あり</td><td><strong>68,000円〜76,000円</strong></td></tr>
-                <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td><strong>60,000円〜70,400円</strong></td></tr>
-                <tr><td>未開封・ラベル損傷</td><td>付属あり</td><td><strong>48,000円〜60,000円</strong></td></tr>
-                <tr><td>未開封・液面減少</td><td>やや進行</td><td><strong>44,000円〜56,000円</strong></td></tr>
-                <tr><td>開封済み・9割以上残</td><td>付属あり</td><td><strong>24,000円〜32,000円</strong></td></tr>
-                <tr><td>開封済み・半分以下残</td><td>付属あり</td><td><strong>12,000円〜20,000円</strong></td></tr>
+                <tr><td>未開封・完璧</td><td>箱・冊子・カートン揃い</td><td><strong>68,400円〜72,000円</strong></td></tr>
+                <tr><td>未開封・箱なし</td><td>ラベル良好</td><td><strong>57,600円〜64,800円</strong></td></tr>
+                <tr><td>未開封・冊子なし</td><td>外箱あり</td><td><strong>61,200円〜68,400円</strong></td></tr>
+                <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td><strong>54,000円〜63,360円</strong></td></tr>
+                <tr><td>未開封・ラベル損傷</td><td>付属あり</td><td><strong>43,200円〜54,000円</strong></td></tr>
+                <tr><td>未開封・液面減少</td><td>やや進行</td><td><strong>39,600円〜50,400円</strong></td></tr>
+                <tr><td>開封済み・9割以上残</td><td>付属あり</td><td><strong>21,600円〜28,800円</strong></td></tr>
+                <tr><td>開封済み・半分以下残</td><td>付属あり</td><td><strong>10,800円〜18,000円</strong></td></tr>
               </tbody>
             </table>
           </div>
@@ -228,7 +228,7 @@ export default function Macallan18KaitoriPage() {
 
           <h2 id="fake">9. マッカラン18年の偽物・贋作の見分け方</h2>
 
-          <p>80,000円クラスの高額銘柄では、贋作・偽造ボトルのリスクが存在します。本物を見抜くには以下の5つのチェックが有効です:</p>
+          <p>72,000円クラスの高額銘柄では、贋作・偽造ボトルのリスクが存在します。本物を見抜くには以下の5つのチェックが有効です:</p>
 
           <ol>
             <li><strong>ラベルの印刷品質</strong> — 正規品は文字が鮮明で色ズレなし。贋作はにじみ・かすれ・フォント違いが見られる</li>
@@ -352,7 +352,7 @@ export default function Macallan18KaitoriPage() {
           <h2 id="faq">12. マッカラン18年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: 'マッカラン18年は今いくらで売れますか？', a: '2026年5月現在、マッカラン18年（未開封・箱付き）の買取相場は約80,000円前後です。状態・付属品・タイミングにより上下します。最高値を狙うなら**複数業者で相見積もり**が鉄則です。' }, { q: 'マッカラン18年を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: 'マッカラン18年の開封済みでも買取できますか？', a: 'はい、可能です。残量9割以上で約24,000円〜32,000円、半分以下では大幅減額となります。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。' }, { q: 'マッカラン18年に偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' }, { q: 'マッカラン18年の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: 'マッカラン18年は税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'マッカラン18年を売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: 'マッカラン18年と他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
+            {[{ q: 'マッカラン18年は今いくらで売れますか？', a: '2026年5月現在、マッカラン18年（未開封・箱付き）の買取相場は約72,000円前後です。状態・付属品・タイミングにより上下します。最高値を狙うなら**複数業者で相見積もり**が鉄則です。' }, { q: 'マッカラン18年を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: 'マッカラン18年の開封済みでも買取できますか？', a: 'はい、可能です。残量9割以上で約21,600円〜28,800円、半分以下では大幅減額となります。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。' }, { q: 'マッカラン18年に偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' }, { q: 'マッカラン18年の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: 'マッカラン18年は税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'マッカラン18年を売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: 'マッカラン18年と他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -382,11 +382,11 @@ export default function Macallan18KaitoriPage() {
           <h2>関連銘柄の買取相場</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
             <Link href="/articles/macallan-fine-rare-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン ファイン&レア の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 500万円</p></Link>
-            <Link href="/articles/macallan-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 150万円</p></Link>
             <Link href="/articles/bowmore-blackbowmore-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">ブラックボウモア の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 150万円</p></Link>
-            <Link href="/articles/macallan-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 400,000円</p></Link>
-            <Link href="/articles/glenfiddich-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">グレンフィディック30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 180,000円</p></Link>
-            <Link href="/articles/bowmore-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">ボウモア25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 150,000円</p></Link>
+            <Link href="/articles/macallan-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 232,000円</p></Link>
+            <Link href="/articles/macallan-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 128,000円</p></Link>
+            <Link href="/articles/bowmore-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">ボウモア25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 69,000円</p></Link>
+            <Link href="/articles/springbank-21-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">スプリングバンク21年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 68,000円</p></Link>
           </div>
 
           <p className="text-xs text-warm-gray mt-8">※本記事の相場は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。当サイトはアフィリエイト広告（PR）を含みます。</p>

@@ -39,7 +39,7 @@ export default function Yoichi20NisemonoMikataPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">余市20年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 20年熟成 / 希少度 ウルトラ / 参考相場 650,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 20年熟成 / 希少度 ウルトラ / 参考相場 120,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yoichi-20-kaitori/" className="text-amber-dark underline">余市20年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -57,10 +57,10 @@ export default function Yoichi20NisemonoMikataPage() {
             </ol>
           </div>
 
-          <p>余市20年のような高額ウイスキーは、贋作リスクが高まる銘柄です。特に未開封・箱付きで650,000円前後の流通価格を持つ銘柄は、海外を中心に巧妙な贋作が出回ることもあります。本記事では、余市20年の偽物を見抜く5つのチェックポイントと、不審なボトルへの対処法を解説します。</p>
+          <p>余市20年のような高額ウイスキーは、贋作リスクが高まる銘柄です。特に未開封・箱付きで120,000円前後の流通価格を持つ銘柄は、海外を中心に巧妙な贋作が出回ることもあります。本記事では、余市20年の偽物を見抜く5つのチェックポイントと、不審なボトルへの対処法を解説します。</p>
 
           <h2 id="section-0">1. 贋作市場の実情</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>ジャパニーズウイスキーブーム以降、海外の二次流通市場では<strong>贋作ボトルの流通が確認</strong>されています。特に山崎・響・白州・軽井沢・羽生など希少銘柄では、巧妙に作られた贋作が個人間取引で出回ることがあります。</p><p>中国・東南アジアの一部地域では、本物の空き瓶に偽の液体を詰めて販売する手口も報告されています。650,000円を超える銘柄は、5チェックを徹底することが必須です。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>ジャパニーズウイスキーブーム以降、海外の二次流通市場では<strong>贋作ボトルの流通が確認</strong>されています。特に山崎・響・白州・軽井沢・羽生など希少銘柄では、巧妙に作られた贋作が個人間取引で出回ることがあります。</p><p>中国・東南アジアの一部地域では、本物の空き瓶に偽の液体を詰めて販売する手口も報告されています。120,000円を超える銘柄は、5チェックを徹底することが必須です。</p>` }} />
 
           <h2 id="section-1">2. チェック1: ラベルの印刷品質</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>正規品はラベルの文字が<strong>鮮明・均一</strong>。フォント・字間・色合いがメーカー公式と一致します。一方、贋作には以下の特徴が見られます:</p><ol><li>文字のにじみ・かすれ</li><li>フォントの違い（似て非なる字形）</li><li>色ズレ・色ムラ</li><li>ラベルの紙質や光沢の違い</li><li>印刷位置の微妙なずれ

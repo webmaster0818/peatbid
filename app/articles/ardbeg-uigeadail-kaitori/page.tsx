@@ -5,12 +5,12 @@ import PriceHistoryCard from "@/components/PriceHistoryCard";
 import priceData from "@/data/price-history/ardbeg-uigeadail.json";
 
 export const metadata: Metadata = {
-  title: "アードベッグ ウーガダールの買取相場【2026年最新】12,000円前後・状態別査定額と高く売る完全ガイド",
+  title: "アードベッグ ウーガダールの買取相場【2026年最新】14,000円前後・状態別査定額と高く売る完全ガイド",
   description: "アードベッグ ウーガダール（Ardbeg Uigeadail）の最新買取相場、状態別査定額、蒸溜所の歴史、テイスティング、希少性、贋作リスク、おすすめ買取業者4社比較まで完全解説。コレクター・オーナー必読の決定版ガイド。",
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'アードベッグ ウーガダールは今いくらで売れますか？', "acceptedAnswer": { "@type": "Answer", "text": '2026年5月現在、アードベッグ ウーガダール（未開封・箱付き）の買取相場は約12,000円前後です。状態・付属品・タイミングにより上下します。最高値を狙うなら**複数業者で相見積もり**が鉄則です。' } }, { "@type": "Question", "name": 'アードベッグ ウーガダールを高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": 'アードベッグ ウーガダールの開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。残量9割以上で約3,600円〜4,800円、半分以下では大幅減額となります。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。' } }, { "@type": "Question", "name": 'アードベッグ ウーガダールに偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": 'アードベッグ ウーガダールの保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": 'アードベッグ ウーガダールは税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'アードベッグ ウーガダールを売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": 'アードベッグ ウーガダールと他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'アードベッグ ウーガダールは今いくらで売れますか？', "acceptedAnswer": { "@type": "Answer", "text": '2026年5月現在、アードベッグ ウーガダール（未開封・箱付き）の買取相場は約14,000円前後です。状態・付属品・タイミングにより上下します。最高値を狙うなら**複数業者で相見積もり**が鉄則です。' } }, { "@type": "Question", "name": 'アードベッグ ウーガダールを高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": 'アードベッグ ウーガダールの開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。残量9割以上で約4,200円〜5,600円、半分以下では大幅減額となります。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。' } }, { "@type": "Question", "name": 'アードベッグ ウーガダールに偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": 'アードベッグ ウーガダールの保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": 'アードベッグ ウーガダールは税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'アードベッグ ウーガダールを売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": 'アードベッグ ウーガダールと他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
 }
 
 const tocItems = [
@@ -68,7 +68,7 @@ export default function ArdbegUigeadailKaitoriPage() {
 
           <p>アードベッグ ウーガダールはスコッチウイスキーを代表する銘柄の1つで、アイラが手がけるノンエイジ（NV）のボトルです。アードベッグの主力品。</p>
 
-          <p>2026年5月現在、アードベッグ ウーガダール（未開封・箱付き）の買取相場は<strong>約12,000円前後</strong>。希少度は<strong>コモン</strong>クラスに位置し、現行品として安定流通しているが、銘柄によってはプレミア化の兆しあり。市場価値は中位だが、コレクター入門品として安定需要を持つ。</p>
+          <p>2026年5月現在、アードベッグ ウーガダール（未開封・箱付き）の買取相場は<strong>約14,000円前後</strong>。希少度は<strong>コモン</strong>クラスに位置し、現行品として安定流通しているが、銘柄によってはプレミア化の兆しあり。市場価値は中位だが、コレクター入門品として安定需要を持つ。</p>
 
           <div className="table-wrapper">
             <table>
@@ -79,7 +79,7 @@ export default function ArdbegUigeadailKaitoriPage() {
                 <tr><td><strong>アルコール度数</strong></td><td>54%</td></tr>
                 <tr><td><strong>容量</strong></td><td>700ml</td></tr>
                 <tr><td><strong>希少度</strong></td><td>コモン</td></tr>
-                <tr><td><strong>参考買取価格（未開封・箱付き）</strong></td><td><strong>12,000円前後</strong></td></tr>
+                <tr><td><strong>参考買取価格（未開封・箱付き）</strong></td><td><strong>14,000円前後</strong></td></tr>
               </tbody>
             </table>
           </div>
@@ -106,7 +106,7 @@ export default function ArdbegUigeadailKaitoriPage() {
 
           <h2 id="current-price">4. 現在の買取相場</h2>
 
-          <p>2026年5月時点でのアードベッグ ウーガダールの買取相場は<strong>10,200円〜12,000円</strong>のレンジで推移しています（未開封・箱付きの場合）。この相場は、以下の市場データの集約から算出しています:</p>
+          <p>2026年5月時点でのアードベッグ ウーガダールの買取相場は<strong>11,900円〜14,000円</strong>のレンジで推移しています（未開封・箱付きの場合）。この相場は、以下の市場データの集約から算出しています:</p>
 
           <ol>
             <li>国内主要買取業者（大黒屋・JOYLAB・ウイスキー王国等）の公開買取価格</li>
@@ -161,14 +161,14 @@ export default function ArdbegUigeadailKaitoriPage() {
                 <tr><th>状態</th><th>付属品</th><th>査定額の目安</th></tr>
               </thead>
               <tbody>
-                <tr><td>未開封・完璧</td><td>箱・冊子・カートン揃い</td><td><strong>11,400円〜12,000円</strong></td></tr>
-                <tr><td>未開封・箱なし</td><td>ラベル良好</td><td><strong>9,600円〜10,800円</strong></td></tr>
-                <tr><td>未開封・冊子なし</td><td>外箱あり</td><td><strong>10,200円〜11,400円</strong></td></tr>
-                <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td><strong>9,000円〜10,560円</strong></td></tr>
-                <tr><td>未開封・ラベル損傷</td><td>付属あり</td><td><strong>7,200円〜9,000円</strong></td></tr>
-                <tr><td>未開封・液面減少</td><td>やや進行</td><td><strong>6,600円〜8,400円</strong></td></tr>
-                <tr><td>開封済み・9割以上残</td><td>付属あり</td><td><strong>3,600円〜4,800円</strong></td></tr>
-                <tr><td>開封済み・半分以下残</td><td>付属あり</td><td><strong>1,800円〜3,000円</strong></td></tr>
+                <tr><td>未開封・完璧</td><td>箱・冊子・カートン揃い</td><td><strong>13,300円〜14,000円</strong></td></tr>
+                <tr><td>未開封・箱なし</td><td>ラベル良好</td><td><strong>11,200円〜12,600円</strong></td></tr>
+                <tr><td>未開封・冊子なし</td><td>外箱あり</td><td><strong>11,900円〜13,300円</strong></td></tr>
+                <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td><strong>10,500円〜12,320円</strong></td></tr>
+                <tr><td>未開封・ラベル損傷</td><td>付属あり</td><td><strong>8,400円〜10,500円</strong></td></tr>
+                <tr><td>未開封・液面減少</td><td>やや進行</td><td><strong>7,700円〜9,800円</strong></td></tr>
+                <tr><td>開封済み・9割以上残</td><td>付属あり</td><td><strong>4,200円〜5,600円</strong></td></tr>
+                <tr><td>開封済み・半分以下残</td><td>付属あり</td><td><strong>2,100円〜3,500円</strong></td></tr>
               </tbody>
             </table>
           </div>
@@ -228,7 +228,7 @@ export default function ArdbegUigeadailKaitoriPage() {
 
           <h2 id="fake">9. アードベッグ ウーガダールの偽物・贋作の見分け方</h2>
 
-          <p>12,000円クラスの高額銘柄では、贋作・偽造ボトルのリスクが存在します。本物を見抜くには以下の5つのチェックが有効です:</p>
+          <p>14,000円クラスの高額銘柄では、贋作・偽造ボトルのリスクが存在します。本物を見抜くには以下の5つのチェックが有効です:</p>
 
           <ol>
             <li><strong>ラベルの印刷品質</strong> — 正規品は文字が鮮明で色ズレなし。贋作はにじみ・かすれ・フォント違いが見られる</li>
@@ -352,7 +352,7 @@ export default function ArdbegUigeadailKaitoriPage() {
           <h2 id="faq">12. アードベッグ ウーガダールに関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: 'アードベッグ ウーガダールは今いくらで売れますか？', a: '2026年5月現在、アードベッグ ウーガダール（未開封・箱付き）の買取相場は約12,000円前後です。状態・付属品・タイミングにより上下します。最高値を狙うなら**複数業者で相見積もり**が鉄則です。' }, { q: 'アードベッグ ウーガダールを高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: 'アードベッグ ウーガダールの開封済みでも買取できますか？', a: 'はい、可能です。残量9割以上で約3,600円〜4,800円、半分以下では大幅減額となります。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。' }, { q: 'アードベッグ ウーガダールに偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' }, { q: 'アードベッグ ウーガダールの保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: 'アードベッグ ウーガダールは税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'アードベッグ ウーガダールを売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: 'アードベッグ ウーガダールと他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
+            {[{ q: 'アードベッグ ウーガダールは今いくらで売れますか？', a: '2026年5月現在、アードベッグ ウーガダール（未開封・箱付き）の買取相場は約14,000円前後です。状態・付属品・タイミングにより上下します。最高値を狙うなら**複数業者で相見積もり**が鉄則です。' }, { q: 'アードベッグ ウーガダールを高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: 'アードベッグ ウーガダールの開封済みでも買取できますか？', a: 'はい、可能です。残量9割以上で約4,200円〜5,600円、半分以下では大幅減額となります。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。' }, { q: 'アードベッグ ウーガダールに偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' }, { q: 'アードベッグ ウーガダールの保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: 'アードベッグ ウーガダールは税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'アードベッグ ウーガダールを売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: 'アードベッグ ウーガダールと他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -382,11 +382,11 @@ export default function ArdbegUigeadailKaitoriPage() {
           <h2>関連銘柄の買取相場</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
             <Link href="/articles/macallan-fine-rare-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン ファイン&レア の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 500万円</p></Link>
-            <Link href="/articles/macallan-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 150万円</p></Link>
             <Link href="/articles/bowmore-blackbowmore-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">ブラックボウモア の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 150万円</p></Link>
-            <Link href="/articles/macallan-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 400,000円</p></Link>
-            <Link href="/articles/glenfiddich-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">グレンフィディック30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 180,000円</p></Link>
-            <Link href="/articles/bowmore-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">ボウモア25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 150,000円</p></Link>
+            <Link href="/articles/macallan-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 232,000円</p></Link>
+            <Link href="/articles/macallan-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 128,000円</p></Link>
+            <Link href="/articles/macallan-18-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン18年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 72,000円</p></Link>
+            <Link href="/articles/bowmore-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">ボウモア25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 69,000円</p></Link>
           </div>
 
           <p className="text-xs text-warm-gray mt-8">※本記事の相場は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。当サイトはアフィリエイト広告（PR）を含みます。</p>

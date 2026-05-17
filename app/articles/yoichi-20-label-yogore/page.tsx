@@ -39,7 +39,7 @@ export default function Yoichi20LabelYogorePage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">余市20年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 20年熟成 / 希少度 ウルトラ / 参考相場 650,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 20年熟成 / 希少度 ウルトラ / 参考相場 120,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yoichi-20-kaitori/" className="text-amber-dark underline">余市20年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -96,7 +96,7 @@ export default function Yoichi20LabelYogorePage() {
           <div dangerouslySetInnerHTML={{ __html: `<p>ラベルは「コレクター品の顔」とも言える重要な要素です。買取査定では以下の状態を確認:</p><ol><li><strong>新品同様</strong> — 印刷鮮明、シワ・汚れ・破れなし</li><li><strong>軽度の汚れ</strong> — 表面の埃・指紋・若干の変色</li><li><strong>シミ・水濡れ跡</strong> — 液体接触の痕跡</li><li><strong>破れ・欠け・剥がれ</strong> — 物理的損傷</li><li><strong>強い退色</strong> — 直射日光や蛍光灯による色あせ</li><li><strong>カビ・カビ跡</strong> — 湿度過多による劣化</li><li><strong>粘着テープ跡</strong> — 不適切な貼付・剥離跡</li></ol>` }} />
 
           <h2 id="section-1">2. ラベル状態別の査定額目安（余市20年）</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>余市20年の基準価格 650,000円に対し、ラベル状態でこう変動します:</p><ol><li><strong>新品同様</strong>: 650,000円（100%）</li><li><strong>軽度の汚れ</strong>: 585,000円（90%程度）</li><li><strong>シミ・水濡れ跡</strong>: 520,000円（80%程度）</li><li><strong>破れ・欠け</strong>: 422,500円（65%程度）</li><li><strong>強い退色・大きな損傷</strong>: 325,000円（50%程度）</li><li><strong>ラベル剥がれ（残あり）</strong>: 260,000円（40%程度）</li><li><strong>ラベル完全消失</strong>: 130,000円（20%程度、ヴィンテージ価値あれば例外）</li></ol>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>余市20年の基準価格 120,000円に対し、ラベル状態でこう変動します:</p><ol><li><strong>新品同様</strong>: 120,000円（100%）</li><li><strong>軽度の汚れ</strong>: 108,000円（90%程度）</li><li><strong>シミ・水濡れ跡</strong>: 96,000円（80%程度）</li><li><strong>破れ・欠け</strong>: 78,000円（65%程度）</li><li><strong>強い退色・大きな損傷</strong>: 60,000円（50%程度）</li><li><strong>ラベル剥がれ（残あり）</strong>: 48,000円（40%程度）</li><li><strong>ラベル完全消失</strong>: 24,000円（20%程度、ヴィンテージ価値あれば例外）</li></ol>` }} />
 
           <h2 id="section-2">3. ラベル損傷が起きやすい原因</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>主な原因</strong>:</p><ol><li><strong>直射日光・蛍光灯</strong> — 退色・脆化</li><li><strong>湿度の高い場所</strong> — シミ・カビ</li><li><strong>段ボール直置き</strong> — シミ・吸湿</li><li><strong>粘着テープの貼り付け</strong> — 剥がし跡</li><li><strong>タンスや棚の埃</strong> — 表面汚れ</li><li><strong>指で頻繁に触る</strong> — 油脂による変色</li><li><strong>温度変化</strong> — ラベルの剥がれ</li><li><strong>化学物質の接触</strong> — 洗剤・芳香剤の蒸気</li></ol>` }} />

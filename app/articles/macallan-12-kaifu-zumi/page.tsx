@@ -39,7 +39,7 @@ export default function Macallan12KaifuZumiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">マッカラン12年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 12年熟成 / 希少度 コモン / 参考相場 15,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 12年熟成 / 希少度 コモン / 参考相場 17,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/macallan-12-kaitori/" className="text-amber-dark underline">マッカラン12年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -93,7 +93,7 @@ export default function Macallan12KaifuZumiPage() {
           </div>
 
           <h2 id="section-0">1. 開封済みマッカラン12年の査定額の目安</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きが基準価格約15,000円に対し、開封済みは状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 基準の30〜40%（4,500円〜6,000円）</li><li><strong>7割以上残</strong>: 基準の25〜35%（3,750円〜5,250円）</li><li><strong>5割以上残</strong>: 基準の20〜30%（3,000円〜4,500円）</li><li><strong>3割以上残</strong>: 基準の10〜20%</li><li><strong>1割以下残</strong>: 買取拒否の場合あり、もしくは空ボトルとして数千円</li></ol>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きが基準価格約17,000円に対し、開封済みは状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 基準の30〜40%（5,100円〜6,800円）</li><li><strong>7割以上残</strong>: 基準の25〜35%（4,250円〜5,950円）</li><li><strong>5割以上残</strong>: 基準の20〜30%（3,400円〜5,100円）</li><li><strong>3割以上残</strong>: 基準の10〜20%</li><li><strong>1割以下残</strong>: 買取拒否の場合あり、もしくは空ボトルとして数千円</li></ol>` }} />
 
           <h2 id="section-1">2. 開封済みの査定で重視される5要素</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>開封済みボトルの査定では、以下の5要素が総合的に評価されます:</p><ol><li><strong>残量</strong> — 多いほど評価額アップ。9割以上が査定の分かれ目</li><li><strong>保管状態</strong> — コルク劣化・香味揮発の度合い</li><li><strong>付属品</strong> — 外箱・冊子・カートンの有無</li><li><strong>ラベル状態</strong> — 美しさは未開封同様に評価される</li><li><strong>キャップ・栓の状態</strong> — しっかり閉まっているか、隙間からの揮発は無いか

@@ -39,7 +39,7 @@ export default function Macallan18RankingPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">マッカラン18年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 18年熟成 / 希少度 ミッド / 参考相場 80,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 18年熟成 / 希少度 ミッド / 参考相場 72,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/macallan-18-kaitori/" className="text-amber-dark underline">マッカラン18年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -56,7 +56,7 @@ export default function Macallan18RankingPage() {
             </ol>
           </div>
 
-          <p>マッカラン18年を高く売るには、業者選びが最重要。同じ80,000円クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだマッカラン18年に強い買取業者4社を、ランキング形式で比較します。</p>
+          <p>マッカラン18年を高く売るには、業者選びが最重要。同じ72,000円クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだマッカラン18年に強い買取業者4社を、ランキング形式で比較します。</p>
 
           <div className="table-wrapper not-prose my-6">
             <p className="text-sm font-bold mb-2 text-ink">業者比較表</p>

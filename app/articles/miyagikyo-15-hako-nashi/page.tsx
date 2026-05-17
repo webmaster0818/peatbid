@@ -39,7 +39,7 @@ export default function Miyagikyo15HakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">宮城峡15年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 宮城峡蒸溜所 / 15年熟成 / 希少度 ハイ / 参考相場 160,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 宮城峡蒸溜所 / 15年熟成 / 希少度 ハイ / 参考相場 33,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/miyagikyo-15-kaitori/" className="text-amber-dark underline">宮城峡15年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -93,9 +93,9 @@ export default function Miyagikyo15HakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>宮城峡15年の場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 基準価格 160,000円（100%）</li><li><strong>箱あり・冊子なし</strong>: 136,000円〜152,000円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 136,000円〜147,200円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 128,000円〜144,000円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 120,000円〜136,000円（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>宮城峡15年の場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 基準価格 33,000円（100%）</li><li><strong>箱あり・冊子なし</strong>: 28,050円〜31,350円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 28,050円〜30,360円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 26,400円〜29,700円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 24,750円〜28,050円（75〜85%）
 
-つまり、最大で<strong>約25%（40,000円）の差</strong>が生じる可能性があります。</li></ol>` }} />
+つまり、最大で<strong>約25%（8,250円）の差</strong>が生じる可能性があります。</li></ol>` }} />
 
           <h2 id="section-1">2. なぜ外箱が重要なのか</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は単なる包装ではなく、<strong>コレクター品の完全性</strong>を示す重要な要素です:</p><ol><li><strong>二次流通市場での評価</strong> — 海外コレクターは特にフルセット重視</li><li><strong>真贋判定の手がかり</strong> — 箱と本体の合致が本物の証</li><li><strong>保管時の保護機能</strong> — 直射日光・摩擦・埃から守る</li><li><strong>付属品の収納</strong> — 冊子・カートンの一括管理</li><li><strong>贈答品としての価値</strong> — 箱なしは贈り物として再販困難

@@ -39,7 +39,7 @@ export default function ArdbegCorryvreckanRekishiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">アードベッグ コリーヴレッカン</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / ノンエイジ / 希少度 コモン / 参考相場 14,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / ノンエイジ / 希少度 コモン / 参考相場 10,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/ardbeg-corryvreckan-kaitori/" className="text-amber-dark underline">アードベッグ コリーヴレッカンの買取相場 完全ガイドへ</Link></p>
           </div>
 

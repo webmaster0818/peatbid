@@ -2,83 +2,83 @@
   "slug": "hibiki-nv",
   "label": "響ジャパニーズハーモニー",
   "category": "japanese-whisky",
-  "latest_price_boxed": 15000,
-  "latest_price_no_box": 11000,
+  "latest_price_boxed": 14000,
+  "latest_price_no_box": 10000,
   "latest_price_opened": 6000,
   "trend": "flat",
   "pct_6m": 0.0,
-  "pct_12m": 7.1,
+  "pct_12m": 7.7,
   "history": [
     {
       "month": "2025-06",
-      "boxed": 14000,
+      "boxed": 13000,
       "no_box": 10000,
-      "opened": 6000
+      "opened": 5000
     },
     {
       "month": "2025-07",
-      "boxed": 15000,
-      "no_box": 11000,
+      "boxed": 14000,
+      "no_box": 10000,
       "opened": 6000
     },
     {
       "month": "2025-08",
-      "boxed": 15000,
-      "no_box": 11000,
-      "opened": 6000
-    },
-    {
-      "month": "2025-09",
-      "boxed": 15000,
-      "no_box": 11000,
-      "opened": 6000
-    },
-    {
-      "month": "2025-10",
-      "boxed": 15000,
-      "no_box": 11000,
-      "opened": 6000
-    },
-    {
-      "month": "2025-11",
-      "boxed": 15000,
-      "no_box": 11000,
-      "opened": 6000
-    },
-    {
-      "month": "2025-12",
       "boxed": 14000,
       "no_box": 10000,
       "opened": 6000
     },
     {
+      "month": "2025-09",
+      "boxed": 14000,
+      "no_box": 10000,
+      "opened": 6000
+    },
+    {
+      "month": "2025-10",
+      "boxed": 14000,
+      "no_box": 10000,
+      "opened": 6000
+    },
+    {
+      "month": "2025-11",
+      "boxed": 14000,
+      "no_box": 10000,
+      "opened": 6000
+    },
+    {
+      "month": "2025-12",
+      "boxed": 13000,
+      "no_box": 10000,
+      "opened": 5000
+    },
+    {
       "month": "2026-01",
-      "boxed": 15000,
-      "no_box": 11000,
+      "boxed": 14000,
+      "no_box": 10000,
       "opened": 6000
     },
     {
       "month": "2026-02",
-      "boxed": 15000,
-      "no_box": 11000,
+      "boxed": 14000,
+      "no_box": 10000,
       "opened": 6000
     },
     {
       "month": "2026-03",
-      "boxed": 15000,
-      "no_box": 11000,
+      "boxed": 14000,
+      "no_box": 10000,
       "opened": 6000
     },
     {
       "month": "2026-04",
-      "boxed": 15000,
-      "no_box": 11000,
+      "boxed": 14000,
+      "no_box": 10000,
       "opened": 6000
     },
     {
       "month": "2026-05",
-      "boxed": 15000,
-      "no_box": 11000,
+      "boxed": 14000,
+      "no_box": 10000,
       "opened": 6000
     }
   ],

@@ -39,7 +39,7 @@ export default function Taketsuru25HakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">竹鶴25年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / 25年熟成 / 希少度 ウルトラ / 参考相場 800,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / 25年熟成 / 希少度 ウルトラ / 参考相場 54,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/taketsuru-25-kaitori/" className="text-amber-dark underline">竹鶴25年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -93,9 +93,9 @@ export default function Taketsuru25HakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>竹鶴25年の場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 基準価格 800,000円（100%）</li><li><strong>箱あり・冊子なし</strong>: 680,000円〜760,000円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 680,000円〜736,000円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 640,000円〜720,000円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 600,000円〜680,000円（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>竹鶴25年の場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 基準価格 54,000円（100%）</li><li><strong>箱あり・冊子なし</strong>: 45,900円〜51,300円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 45,900円〜49,680円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 43,200円〜48,600円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 40,500円〜45,900円（75〜85%）
 
-つまり、最大で<strong>約25%（200,000円）の差</strong>が生じる可能性があります。</li></ol>` }} />
+つまり、最大で<strong>約25%（13,500円）の差</strong>が生じる可能性があります。</li></ol>` }} />
 
           <h2 id="section-1">2. なぜ外箱が重要なのか</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は単なる包装ではなく、<strong>コレクター品の完全性</strong>を示す重要な要素です:</p><ol><li><strong>二次流通市場での評価</strong> — 海外コレクターは特にフルセット重視</li><li><strong>真贋判定の手がかり</strong> — 箱と本体の合致が本物の証</li><li><strong>保管時の保護機能</strong> — 直射日光・摩擦・埃から守る</li><li><strong>付属品の収納</strong> — 冊子・カートンの一括管理</li><li><strong>贈答品としての価値</strong> — 箱なしは贈り物として再販困難

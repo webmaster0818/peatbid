@@ -71,6 +71,21 @@ function articleSlugs() {
     .sort()
 }
 
+function tier2Pages() {
+  const dir = path.join(ROOT, 'app', 'tier2')
+  if (!fs.existsSync(dir)) return []
+  const pages = []
+  for (const pref of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (!pref.isDirectory()) continue
+    const prefDir = path.join(dir, pref.name)
+    for (const brand of fs.readdirSync(prefDir, { withFileTypes: true })) {
+      if (!brand.isDirectory()) continue
+      pages.push(`${pref.name}/${brand.name}`)
+    }
+  }
+  return pages.sort()
+}
+
 function build() {
   const lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 
@@ -85,11 +100,16 @@ function build() {
     lines.push(`  <url><loc>${BASE}/articles/${slug}/</loc><lastmod>${TODAY}</lastmod><changefreq>${cf}</changefreq><priority>${p}</priority></url>`)
   }
 
+  const tier2 = tier2Pages()
+  for (const slug of tier2) {
+    lines.push(`  <url><loc>${BASE}/tier2/${slug}/</loc><lastmod>${TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`)
+  }
+
   lines.push('</urlset>', '')
-  return { xml: lines.join('\n'), total: STATIC_PAGES.length + articles.length, articles: articles.length }
+  return { xml: lines.join('\n'), total: STATIC_PAGES.length + articles.length + tier2.length, articles: articles.length, tier2: tier2.length }
 }
 
 const result = build()
 fs.writeFileSync(OUT, result.xml)
 console.log(`✓ Wrote ${OUT}`)
-console.log(`  ${result.total} URLs (5 static + ${result.articles} articles)`)
+console.log(`  ${result.total} URLs (${STATIC_PAGES.length} static + ${result.articles} articles + ${result.tier2} tier2)`)

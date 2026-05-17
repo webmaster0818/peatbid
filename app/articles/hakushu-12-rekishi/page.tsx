@@ -39,7 +39,7 @@ export default function Hakushu12RekishiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">白州12年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 白州蒸溜所 / 12年熟成 / 希少度 ミッド / 参考相場 40,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 白州蒸溜所 / 12年熟成 / 希少度 ミッド / 参考相場 17,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/hakushu-12-kaitori/" className="text-amber-dark underline">白州12年の買取相場 完全ガイドへ</Link></p>
           </div>
 

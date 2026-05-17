@@ -39,7 +39,7 @@ export default function Hakushu25RankingPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">白州25年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 白州蒸溜所 / 25年熟成 / 希少度 ウルトラ / 参考相場 950,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 白州蒸溜所 / 25年熟成 / 希少度 ウルトラ / 参考相場 64,000円前後</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/hakushu-25-kaitori/" className="text-amber-dark underline">白州25年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -56,7 +56,7 @@ export default function Hakushu25RankingPage() {
             </ol>
           </div>
 
-          <p>白州25年を高く売るには、業者選びが最重要。同じ950,000円クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだ白州25年に強い買取業者4社を、ランキング形式で比較します。</p>
+          <p>白州25年を高く売るには、業者選びが最重要。同じ64,000円クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだ白州25年に強い買取業者4社を、ランキング形式で比較します。</p>
 
           <div className="table-wrapper not-prose my-6">
             <p className="text-sm font-bold mb-2 text-ink">業者比較表</p>

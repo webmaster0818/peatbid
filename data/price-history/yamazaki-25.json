@@ -2,84 +2,84 @@
   "slug": "yamazaki-25",
   "label": "山崎25年",
   "category": "japanese-whisky",
-  "latest_price_boxed": 880000,
-  "latest_price_no_box": 660000,
-  "latest_price_opened": 352000,
+  "latest_price_boxed": 127000,
+  "latest_price_no_box": 95000,
+  "latest_price_opened": 51000,
   "trend": "up",
-  "pct_6m": 3.8,
-  "pct_12m": 8.4,
+  "pct_6m": 4.1,
+  "pct_12m": 8.5,
   "history": [
     {
       "month": "2025-06",
-      "boxed": 812000,
-      "no_box": 609000,
-      "opened": 325000
+      "boxed": 117000,
+      "no_box": 88000,
+      "opened": 47000
     },
     {
       "month": "2025-07",
-      "boxed": 813000,
-      "no_box": 610000,
-      "opened": 325000
+      "boxed": 117000,
+      "no_box": 88000,
+      "opened": 47000
     },
     {
       "month": "2025-08",
-      "boxed": 821000,
-      "no_box": 616000,
-      "opened": 328000
+      "boxed": 118000,
+      "no_box": 88000,
+      "opened": 47000
     },
     {
       "month": "2025-09",
-      "boxed": 834000,
-      "no_box": 626000,
-      "opened": 334000
+      "boxed": 120000,
+      "no_box": 90000,
+      "opened": 48000
     },
     {
       "month": "2025-10",
-      "boxed": 810000,
-      "no_box": 608000,
-      "opened": 324000
+      "boxed": 117000,
+      "no_box": 88000,
+      "opened": 47000
     },
     {
       "month": "2025-11",
-      "boxed": 848000,
-      "no_box": 636000,
-      "opened": 339000
+      "boxed": 122000,
+      "no_box": 92000,
+      "opened": 49000
     },
     {
       "month": "2025-12",
-      "boxed": 859000,
-      "no_box": 644000,
-      "opened": 344000
+      "boxed": 124000,
+      "no_box": 93000,
+      "opened": 50000
     },
     {
       "month": "2026-01",
-      "boxed": 866000,
-      "no_box": 650000,
-      "opened": 346000
+      "boxed": 125000,
+      "no_box": 94000,
+      "opened": 50000
     },
     {
       "month": "2026-02",
-      "boxed": 863000,
-      "no_box": 647000,
-      "opened": 345000
+      "boxed": 125000,
+      "no_box": 94000,
+      "opened": 50000
     },
     {
       "month": "2026-03",
-      "boxed": 866000,
-      "no_box": 650000,
-      "opened": 346000
+      "boxed": 125000,
+      "no_box": 94000,
+      "opened": 50000
     },
     {
       "month": "2026-04",
-      "boxed": 875000,
-      "no_box": 656000,
-      "opened": 350000
+      "boxed": 126000,
+      "no_box": 94000,
+      "opened": 50000
     },
     {
       "month": "2026-05",
-      "boxed": 880000,
-      "no_box": 660000,
-      "opened": 352000
+      "boxed": 127000,
+      "no_box": 95000,
+      "opened": 51000
     }
   ],
   "updated_at": "2026-05-17",
