@@ -158,7 +158,29 @@ export default function WhiskyTakakuUruPage() {
             <Link href="/faq/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">よくある質問</span><p className="text-sm font-bold mt-1">ウイスキー買取FAQ</p></Link>
           </div>
           <p className="text-xs text-warm-gray mt-8">※本記事はPRリンクを含みます。掲載業者は編集部基準で選定しています。</p>
-        </article>
+        
+          {/* Plan E: Auto Internal Links */}
+          <section className="bg-gold-bg/40 border border-warm-border rounded-2xl p-6 my-10 not-prose">
+            <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連記事</h2>
+          <div className="not-prose mt-5">
+            <h3 className="font-bold text-base mb-2 text-ink">🔍 他の銘柄の同種の記事</h3>
+            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
+              <li><Link href="/articles/yamazaki-18-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">山崎18年の高く売るコツ</Link></li>
+              <li><Link href="/articles/yamazaki-25-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">山崎25年の高く売るコツ</Link></li>
+              <li><Link href="/articles/hibiki-30-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">響30年の高く売るコツ</Link></li>
+              <li><Link href="/articles/hibiki-21-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">響21年の高く売るコツ</Link></li>
+              <li><Link href="/articles/hakushu-25-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">白州25年の高く売るコツ</Link></li>
+            </ul>
+          </div>
+
+          <div className="not-prose mt-5">
+            <h3 className="font-bold text-base mb-2 text-ink">🎯 関連ガイド</h3>
+            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
+              <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
+            </ul>
+          </div>
+          </section>
+          </article>
       </div>
     </>
   );

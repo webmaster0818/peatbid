@@ -165,7 +165,40 @@ export default function MarsKomagatakeKaifuZumiPage() {
           </div>
 
           <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
-        </article>
+        
+          {/* Plan E: Auto Internal Links */}
+          <section className="bg-gold-bg/40 border border-warm-border rounded-2xl p-6 my-10 not-prose">
+            <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連記事</h2>
+          <div className="not-prose">
+            <h3 className="font-bold text-base mb-2 text-ink">📖 同じ銘柄の他の情報</h3>
+            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
+              <li><Link href="/articles/mars-komagatake-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">マルス駒ヶ岳の高く売るコツ</Link></li>
+              <li><Link href="/articles/mars-komagatake-nisemono-mikata/" className="text-amber-dark hover:text-burgundy underline">マルス駒ヶ岳の偽物の見分け方</Link></li>
+              <li><Link href="/articles/mars-komagatake-ranking/" className="text-amber-dark hover:text-burgundy underline">マルス駒ヶ岳の買取業者ランキング</Link></li>
+              <li><Link href="/articles/mars-komagatake-rekishi/" className="text-amber-dark hover:text-burgundy underline">マルス駒ヶ岳の蒸溜所の歴史</Link></li>
+            </ul>
+          </div>
+
+          <div className="not-prose mt-5">
+            <h3 className="font-bold text-base mb-2 text-ink">🔍 他の銘柄の同種の記事</h3>
+            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
+              <li><Link href="/articles/yamazaki-18-kaifu-zumi/" className="text-amber-dark hover:text-burgundy underline">山崎18年の開封済みの買取</Link></li>
+              <li><Link href="/articles/yamazaki-25-kaifu-zumi/" className="text-amber-dark hover:text-burgundy underline">山崎25年の開封済みの買取</Link></li>
+              <li><Link href="/articles/hibiki-30-kaifu-zumi/" className="text-amber-dark hover:text-burgundy underline">響30年の開封済みの買取</Link></li>
+              <li><Link href="/articles/hibiki-21-kaifu-zumi/" className="text-amber-dark hover:text-burgundy underline">響21年の開封済みの買取</Link></li>
+              <li><Link href="/articles/hakushu-25-kaifu-zumi/" className="text-amber-dark hover:text-burgundy underline">白州25年の開封済みの買取</Link></li>
+            </ul>
+          </div>
+
+          <div className="not-prose mt-5">
+            <h3 className="font-bold text-base mb-2 text-ink">🎯 関連ガイド</h3>
+            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
+              <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
+              <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
+            </ul>
+          </div>
+          </section>
+          </article>
       </div>
     </>
   );

@@ -96,7 +96,19 @@ export default function MacallanKaitoriPage() {
             <Link href="/articles/whisky-takaku-uru/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">売却ガイド</span><p className="text-sm font-bold mt-1">ウイスキーを高く売る5つのコツ</p></Link>
           </div>
           <p className="text-xs text-warm-gray mt-8">※本記事の相場は2026年5月11日時点の参考値です。PRリンクを含みます。</p>
-        </article>
+        
+          {/* Plan E: Auto Internal Links */}
+          <section className="bg-gold-bg/40 border border-warm-border rounded-2xl p-6 my-10 not-prose">
+            <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連記事</h2>
+          <div className="not-prose mt-5">
+            <h3 className="font-bold text-base mb-2 text-ink">🎯 関連ガイド</h3>
+            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
+              <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
+              <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
+            </ul>
+          </div>
+          </section>
+          </article>
       </div>
     </>
   );

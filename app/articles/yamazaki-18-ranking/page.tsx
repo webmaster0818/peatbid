@@ -143,7 +143,41 @@ export default function Yamazaki18RankingPage() {
           </div>
 
           <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
-        </article>
+        
+          {/* Plan E: Auto Internal Links */}
+          <section className="bg-gold-bg/40 border border-warm-border rounded-2xl p-6 my-10 not-prose">
+            <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連記事</h2>
+          <div className="not-prose">
+            <h3 className="font-bold text-base mb-2 text-ink">📖 同じ銘柄の他の情報</h3>
+            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
+              <li><Link href="/articles/yamazaki-18-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">山崎18年の高く売るコツ</Link></li>
+              <li><Link href="/articles/yamazaki-18-nisemono-mikata/" className="text-amber-dark hover:text-burgundy underline">山崎18年の偽物の見分け方</Link></li>
+              <li><Link href="/articles/yamazaki-18-rekishi/" className="text-amber-dark hover:text-burgundy underline">山崎18年の蒸溜所の歴史</Link></li>
+              <li><Link href="/articles/yamazaki-18-kihaku/" className="text-amber-dark hover:text-burgundy underline">山崎18年の希少価値の理由</Link></li>
+            </ul>
+          </div>
+
+          <div className="not-prose mt-5">
+            <h3 className="font-bold text-base mb-2 text-ink">🔍 他の銘柄の同種の記事</h3>
+            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
+              <li><Link href="/articles/yamazaki-25-ranking/" className="text-amber-dark hover:text-burgundy underline">山崎25年の買取業者ランキング</Link></li>
+              <li><Link href="/articles/hibiki-30-ranking/" className="text-amber-dark hover:text-burgundy underline">響30年の買取業者ランキング</Link></li>
+              <li><Link href="/articles/hibiki-21-ranking/" className="text-amber-dark hover:text-burgundy underline">響21年の買取業者ランキング</Link></li>
+              <li><Link href="/articles/hakushu-25-ranking/" className="text-amber-dark hover:text-burgundy underline">白州25年の買取業者ランキング</Link></li>
+              <li><Link href="/articles/hakushu-18-ranking/" className="text-amber-dark hover:text-burgundy underline">白州18年の買取業者ランキング</Link></li>
+            </ul>
+          </div>
+
+          <div className="not-prose mt-5">
+            <h3 className="font-bold text-base mb-2 text-ink">🎯 関連ガイド</h3>
+            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
+              <li><Link href="/articles/yamazaki-kaitori/" className="text-amber-dark hover:text-burgundy underline">Yamazakiシリーズ買取ガイド</Link></li>
+              <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
+              <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
+            </ul>
+          </div>
+          </section>
+          </article>
       </div>
     </>
   );
