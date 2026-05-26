@@ -367,6 +367,47 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 都道府県別ガイド — 8地方アコーディオン */}
+      <section className="bg-cream/40 border-t border-warm-border">
+        <div className="max-w-3xl mx-auto px-4 py-16">
+          <p className="text-warm-gray text-sm tracking-widest uppercase mb-3 text-center">
+            Regional Guide
+          </p>
+          <h2 className="font-display text-3xl md:text-4xl font-semibold text-ink text-center mb-3">
+            都道府県別の市場相場ガイド
+          </h2>
+          <p className="text-warm-gray text-sm text-center mb-10">
+            お住まいの地域での50銘柄の市場相場と地元業者を、47都道府県別にご確認いただけます。
+          </p>
+          <div className="space-y-3">
+            {[
+              { id: "hokkaido_tohoku", label: "北海道・東北", prefs: [["hokkaido", "北海道"], ["aomori", "青森県"], ["iwate", "岩手県"], ["miyagi", "宮城県"], ["akita", "秋田県"], ["yamagata", "山形県"], ["fukushima", "福島県"]] },
+              { id: "kanto", label: "関東", prefs: [["ibaraki", "茨城県"], ["tochigi", "栃木県"], ["gunma", "群馬県"], ["saitama", "埼玉県"], ["chiba", "千葉県"], ["tokyo", "東京都"], ["kanagawa", "神奈川県"]] },
+              { id: "chubu", label: "中部", prefs: [["niigata", "新潟県"], ["toyama", "富山県"], ["ishikawa", "石川県"], ["fukui", "福井県"], ["yamanashi", "山梨県"], ["nagano", "長野県"], ["gifu", "岐阜県"], ["shizuoka", "静岡県"], ["aichi", "愛知県"]] },
+              { id: "kinki", label: "近畿", prefs: [["mie", "三重県"], ["shiga", "滋賀県"], ["kyoto", "京都府"], ["osaka", "大阪府"], ["hyogo", "兵庫県"], ["nara", "奈良県"], ["wakayama", "和歌山県"]] },
+              { id: "chugoku_shikoku", label: "中国・四国", prefs: [["tottori", "鳥取県"], ["shimane", "島根県"], ["okayama", "岡山県"], ["hiroshima", "広島県"], ["yamaguchi", "山口県"], ["tokushima", "徳島県"], ["kagawa", "香川県"], ["ehime", "愛媛県"], ["kochi", "高知県"]] },
+              { id: "kyushu_okinawa", label: "九州・沖縄", prefs: [["fukuoka", "福岡県"], ["saga", "佐賀県"], ["nagasaki", "長崎県"], ["kumamoto", "熊本県"], ["oita", "大分県"], ["miyazaki", "宮崎県"], ["kagoshima", "鹿児島県"], ["okinawa", "沖縄県"]] },
+            ].map((region) => (
+              <details key={region.id} className="bg-white border border-warm-border rounded-xl overflow-hidden group">
+                <summary className="flex justify-between items-center p-5 font-bold cursor-pointer hover:bg-cream">
+                  <span className="text-ink">{region.label}<span className="text-warm-gray text-sm font-normal ml-2">（{region.prefs.length}都道府県）</span></span>
+                  <svg className="w-5 h-5 text-warm-gray faq-arrow transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-5 pb-5 pt-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+                  {region.prefs.map(([slug, label]) => (
+                    <Link key={slug} href={`/tier2/${slug}/`} className="bg-cream/60 hover:bg-cream rounded-lg px-3 py-2 text-sm text-ink hover:text-amber-dark transition-colors border border-warm-border">
+                      {label}
+                    </Link>
+                  ))}
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* How it works */}
       <section className="bg-parchment">
         <div className="max-w-3xl mx-auto px-4 py-16">
