@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import MarketPriceCard from "@/components/MarketPriceCard";
+import priceData from "@/data/price-history/chichibu-the-first.json";
 
 export const metadata: Metadata = {
   title: "秩父ザファーストのオークション相場推移【2026年完全版】Sotheby's/Bonhams/海外データ完全分析",
@@ -27,19 +29,21 @@ export default function ChichibuTheFirstAuctionSuiiPage() {
         </nav>
 
         <div className="article-hero mb-8">
-          <Image src="/images/article-yamazaki.png" alt='秩父ザファーストのオークション相場推移' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
+          <Image src="/images/heroes/chichibu-the-first.png" alt='秩父ザファーストのオークション相場推移' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
           <div className="article-hero-overlay rounded-xl" />
         </div>
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">秩父ザファーストのオークション相場推移</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">秩父ザファースト</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 秩父蒸溜所 / 3年熟成 / 希少度 ウルトラレア / 参考相場 350万円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 秩父蒸溜所 / 3年熟成 / 希少度 ウルトラレア / 市場相場 77,550円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/chichibu-the-first-kaitori/" className="text-amber-dark underline">秩父ザファーストの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -67,7 +71,7 @@ export default function ChichibuTheFirstAuctionSuiiPage() {
           <h2 id="section-0">1. 過去5年の価格推移</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>秩父ザファーストの二次流通価格は、過去5年で大きく上昇しています。
 
-<strong>年別推移の目安</strong>:</p><ol><li>2020年: コロナ禍で一時減速、年末から回復</li><li>2021年: アジア富裕層の参入加速、年間+30〜50%</li><li>2022年: 価格急騰、年間+50〜80%</li><li>2023年: 上昇ペース緩和、年間+10〜20%</li><li>2024〜2025年: 安定推移、+5〜15%</li><li>2026年: 高値維持、現在は約350万円前後
+<strong>年別推移の目安</strong>:</p><ol><li>2020年: コロナ禍で一時減速、年末から回復</li><li>2021年: アジア富裕層の参入加速、年間+30〜50%</li><li>2022年: 価格急騰、年間+50〜80%</li><li>2023年: 上昇ペース緩和、年間+10〜20%</li><li>2024〜2025年: 安定推移、+5〜15%</li><li>2026年: 高値維持、現在は約市場相場（Yahoo中央値）前後
 
 この5年間で累計<strong>約3〜5倍</strong>の上昇を示しており、ウイスキー投資としての魅力が証明されています。</li></ol>` }} />
 
@@ -99,7 +103,7 @@ export default function ChichibuTheFirstAuctionSuiiPage() {
 
 <strong>海外売却のデメリット</strong>:</li><li>国際輸送費（数万円〜）</li><li>関税・代理人手数料</li><li>為替リスク</li><li>手続きの複雑性
 
-総合判断としては、700万円を超える超希少銘柄は海外オークション、それ以下は国内買取業者が現実的です。</li></ol>` }} />
+総合判断としては、市場相場の2倍程度を超える超希少銘柄は海外オークション、それ以下は国内買取業者が現実的です。</li></ol>` }} />
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">秩父ザファーストの無料一括査定はこちら</h3>
@@ -142,41 +146,8 @@ export default function ChichibuTheFirstAuctionSuiiPage() {
             <Link href="/articles/chichibu-the-first-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">秩父ザファーストの買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
-        
-          {/* Plan E: Auto Internal Links */}
-          <section className="bg-gold-bg/40 border border-warm-border rounded-2xl p-6 my-10 not-prose">
-            <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連記事</h2>
-          <div className="not-prose">
-            <h3 className="font-bold text-base mb-2 text-ink">📖 同じ銘柄の他の情報</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/chichibu-the-first-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">秩父ザファーストの高く売るコツ</Link></li>
-              <li><Link href="/articles/chichibu-the-first-nisemono-mikata/" className="text-amber-dark hover:text-burgundy underline">秩父ザファーストの偽物の見分け方</Link></li>
-              <li><Link href="/articles/chichibu-the-first-ranking/" className="text-amber-dark hover:text-burgundy underline">秩父ザファーストの買取業者ランキング</Link></li>
-              <li><Link href="/articles/chichibu-the-first-rekishi/" className="text-amber-dark hover:text-burgundy underline">秩父ザファーストの蒸溜所の歴史</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🔍 他の銘柄の同種の記事</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/yamazaki-18-auction-suii/" className="text-amber-dark hover:text-burgundy underline">山崎18年のオークション相場推移</Link></li>
-              <li><Link href="/articles/yamazaki-25-auction-suii/" className="text-amber-dark hover:text-burgundy underline">山崎25年のオークション相場推移</Link></li>
-              <li><Link href="/articles/hibiki-30-auction-suii/" className="text-amber-dark hover:text-burgundy underline">響30年のオークション相場推移</Link></li>
-              <li><Link href="/articles/hibiki-21-auction-suii/" className="text-amber-dark hover:text-burgundy underline">響21年のオークション相場推移</Link></li>
-              <li><Link href="/articles/hakushu-25-auction-suii/" className="text-amber-dark hover:text-burgundy underline">白州25年のオークション相場推移</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🎯 関連ガイド</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
-              <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
-            </ul>
-          </div>
-          </section>
-          </article>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+        </article>
       </div>
     </>
   );

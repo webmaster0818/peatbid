@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import MarketPriceCard from "@/components/MarketPriceCard";
+import priceData from "@/data/price-history/miyagikyo-12.json";
 
 export const metadata: Metadata = {
   title: '宮城峡12年のラベル汚れ・破れがあっても売れる？【2026年完全版】状態別査定額と保護方法',
@@ -27,19 +29,21 @@ export default function Miyagikyo12LabelYogorePage() {
         </nav>
 
         <div className="article-hero mb-8">
-          <Image src="/images/article-yamazaki.png" alt='宮城峡12年のラベル汚れ・破れがあっても売れる？' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
+          <Image src="/images/heroes/miyagikyo-12.png" alt='宮城峡12年のラベル汚れ・破れがあっても売れる？' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
           <div className="article-hero-overlay rounded-xl" />
         </div>
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">宮城峡12年のラベル汚れ・破れがあっても売れる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">宮城峡12年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 宮城峡蒸溜所 / 12年熟成 / 希少度 ミッド / 参考相場 23,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 宮城峡蒸溜所 / 12年熟成 / 希少度 ミッド / 市場相場 36,000円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/miyagikyo-12-kaitori/" className="text-amber-dark underline">宮城峡12年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -96,7 +100,7 @@ export default function Miyagikyo12LabelYogorePage() {
           <div dangerouslySetInnerHTML={{ __html: `<p>ラベルは「コレクター品の顔」とも言える重要な要素です。買取査定では以下の状態を確認:</p><ol><li><strong>新品同様</strong> — 印刷鮮明、シワ・汚れ・破れなし</li><li><strong>軽度の汚れ</strong> — 表面の埃・指紋・若干の変色</li><li><strong>シミ・水濡れ跡</strong> — 液体接触の痕跡</li><li><strong>破れ・欠け・剥がれ</strong> — 物理的損傷</li><li><strong>強い退色</strong> — 直射日光や蛍光灯による色あせ</li><li><strong>カビ・カビ跡</strong> — 湿度過多による劣化</li><li><strong>粘着テープ跡</strong> — 不適切な貼付・剥離跡</li></ol>` }} />
 
           <h2 id="section-1">2. ラベル状態別の査定額目安（宮城峡12年）</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>宮城峡12年の基準価格 23,000円に対し、ラベル状態でこう変動します:</p><ol><li><strong>新品同様</strong>: 23,000円（100%）</li><li><strong>軽度の汚れ</strong>: 20,700円（90%程度）</li><li><strong>シミ・水濡れ跡</strong>: 18,400円（80%程度）</li><li><strong>破れ・欠け</strong>: 14,950円（65%程度）</li><li><strong>強い退色・大きな損傷</strong>: 11,500円（50%程度）</li><li><strong>ラベル剥がれ（残あり）</strong>: 9,200円（40%程度）</li><li><strong>ラベル完全消失</strong>: 4,600円（20%程度、ヴィンテージ価値あれば例外）</li></ol>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>宮城峡12年の基準価格 市場相場（Yahoo中央値）に対し、ラベル状態でこう変動します:</p><ol><li><strong>新品同様</strong>: 市場相場（100%）</li><li><strong>軽度の汚れ</strong>: 市場相場の90%程度（90%程度）</li><li><strong>シミ・水濡れ跡</strong>: 市場相場の80%程度（80%程度）</li><li><strong>破れ・欠け</strong>: 市場相場の65%程度（65%程度）</li><li><strong>強い退色・大きな損傷</strong>: 市場相場の50%程度（50%程度）</li><li><strong>ラベル剥がれ（残あり）</strong>: 市場相場の40%程度（40%程度）</li><li><strong>ラベル完全消失</strong>: 市場相場の20%程度（20%程度、ヴィンテージ価値あれば例外）</li></ol>` }} />
 
           <h2 id="section-2">3. ラベル損傷が起きやすい原因</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>主な原因</strong>:</p><ol><li><strong>直射日光・蛍光灯</strong> — 退色・脆化</li><li><strong>湿度の高い場所</strong> — シミ・カビ</li><li><strong>段ボール直置き</strong> — シミ・吸湿</li><li><strong>粘着テープの貼り付け</strong> — 剥がし跡</li><li><strong>タンスや棚の埃</strong> — 表面汚れ</li><li><strong>指で頻繁に触る</strong> — 油脂による変色</li><li><strong>温度変化</strong> — ラベルの剥がれ</li><li><strong>化学物質の接触</strong> — 洗剤・芳香剤の蒸気</li></ol>` }} />
@@ -160,41 +164,8 @@ export default function Miyagikyo12LabelYogorePage() {
             <Link href="/articles/miyagikyo-12-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">宮城峡12年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
-        
-          {/* Plan E: Auto Internal Links */}
-          <section className="bg-gold-bg/40 border border-warm-border rounded-2xl p-6 my-10 not-prose">
-            <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連記事</h2>
-          <div className="not-prose">
-            <h3 className="font-bold text-base mb-2 text-ink">📖 同じ銘柄の他の情報</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/miyagikyo-12-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">宮城峡12年の高く売るコツ</Link></li>
-              <li><Link href="/articles/miyagikyo-12-nisemono-mikata/" className="text-amber-dark hover:text-burgundy underline">宮城峡12年の偽物の見分け方</Link></li>
-              <li><Link href="/articles/miyagikyo-12-ranking/" className="text-amber-dark hover:text-burgundy underline">宮城峡12年の買取業者ランキング</Link></li>
-              <li><Link href="/articles/miyagikyo-12-rekishi/" className="text-amber-dark hover:text-burgundy underline">宮城峡12年の蒸溜所の歴史</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🔍 他の銘柄の同種の記事</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/yamazaki-18-label-yogore/" className="text-amber-dark hover:text-burgundy underline">山崎18年のラベル汚れの査定</Link></li>
-              <li><Link href="/articles/yamazaki-25-label-yogore/" className="text-amber-dark hover:text-burgundy underline">山崎25年のラベル汚れの査定</Link></li>
-              <li><Link href="/articles/hibiki-30-label-yogore/" className="text-amber-dark hover:text-burgundy underline">響30年のラベル汚れの査定</Link></li>
-              <li><Link href="/articles/hibiki-21-label-yogore/" className="text-amber-dark hover:text-burgundy underline">響21年のラベル汚れの査定</Link></li>
-              <li><Link href="/articles/hakushu-25-label-yogore/" className="text-amber-dark hover:text-burgundy underline">白州25年のラベル汚れの査定</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🎯 関連ガイド</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
-              <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
-            </ul>
-          </div>
-          </section>
-          </article>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+        </article>
       </div>
     </>
   );

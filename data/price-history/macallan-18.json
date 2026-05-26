@@ -1,93 +1,23 @@
 {
   "slug": "macallan-18",
   "label": "マッカラン18年",
-  "category": "scotch-whisky",
-  "latest_price_boxed": 72000,
-  "latest_price_no_box": 54000,
-  "latest_price_opened": 29000,
-  "trend": "up",
-  "pct_6m": 4.3,
-  "pct_12m": 7.5,
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "マッカラン18年 700ml",
   "history": [
     {
-      "month": "2025-06",
-      "boxed": 67000,
-      "no_box": 50000,
-      "opened": 27000
-    },
-    {
-      "month": "2025-07",
-      "boxed": 70000,
-      "no_box": 52000,
-      "opened": 28000
-    },
-    {
-      "month": "2025-08",
-      "boxed": 69000,
-      "no_box": 52000,
-      "opened": 28000
-    },
-    {
-      "month": "2025-09",
-      "boxed": 71000,
-      "no_box": 53000,
-      "opened": 28000
-    },
-    {
-      "month": "2025-10",
-      "boxed": 71000,
-      "no_box": 53000,
-      "opened": 28000
-    },
-    {
-      "month": "2025-11",
-      "boxed": 69000,
-      "no_box": 52000,
-      "opened": 28000
-    },
-    {
-      "month": "2025-12",
-      "boxed": 72000,
-      "no_box": 54000,
-      "opened": 29000
-    },
-    {
-      "month": "2026-01",
-      "boxed": 70000,
-      "no_box": 52000,
-      "opened": 28000
-    },
-    {
-      "month": "2026-02",
-      "boxed": 69000,
-      "no_box": 52000,
-      "opened": 28000
-    },
-    {
-      "month": "2026-03",
-      "boxed": 72000,
-      "no_box": 54000,
-      "opened": 29000
-    },
-    {
-      "month": "2026-04",
-      "boxed": 71000,
-      "no_box": 53000,
-      "opened": 28000
-    },
-    {
-      "month": "2026-05",
-      "boxed": 72000,
-      "no_box": 54000,
-      "opened": 29000
+      "date": "2026-05-25",
+      "median_jpy": 43000,
+      "sample_n": 204,
+      "raw_n": 298
     }
   ],
-  "updated_at": "2026-05-17",
-  "data_disclaimer": "本データは公開オークション情報・業者公開価格・市場ニュースを基にPeatBid編集部が独自に算出した推定相場です。実取引価格を保証するものではありません。",
-  "data_sources": [
-    "業者公開買取相場表（4社）",
-    "公開オークション結果（国内・海外）",
-    "市場ニュース・専門誌",
-    "編集部独自調査"
-  ]
+  "latest": {
+    "date": "2026-05-25",
+    "median_jpy": 43000,
+    "sample_n": 204,
+    "raw_n": 298,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"
 }

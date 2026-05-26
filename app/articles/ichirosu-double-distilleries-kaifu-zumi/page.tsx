@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import MarketPriceCard from "@/components/MarketPriceCard";
+import priceData from "@/data/price-history/ichirosu-double-distilleries.json";
 
 export const metadata: Metadata = {
   title: 'イチローズモルト ダブルディスティラリーズが開封済みでも売れる？【2026年完全版】残量別査定額と賢い売却法',
@@ -27,19 +29,21 @@ export default function IchirosuDoubleDistilleriesKaifuZumiPage() {
         </nav>
 
         <div className="article-hero mb-8">
-          <Image src="/images/article-yamazaki.png" alt='イチローズモルト ダブルディスティラリーズが開封済みでも売れる？' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
+          <Image src="/images/heroes/ichirosu-double-distilleries.png" alt='イチローズモルト ダブルディスティラリーズが開封済みでも売れる？' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
           <div className="article-hero-overlay rounded-xl" />
         </div>
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">イチローズモルト ダブルディスティラリーズが開封済みでも売れる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">イチローズモルト ダブルディスティラリーズ</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ベンチャーウイスキー / ノンエイジ / 希少度 ハイ / 参考相場 120,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ベンチャーウイスキー / ノンエイジ / 希少度 ハイ / 市場相場 10,780円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/ichirosu-double-distilleries-kaitori/" className="text-amber-dark underline">イチローズモルト ダブルディスティラリーズの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -93,7 +97,7 @@ export default function IchirosuDoubleDistilleriesKaifuZumiPage() {
           </div>
 
           <h2 id="section-0">1. 開封済みイチローズモルト ダブルディスティラリーズの査定額の目安</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きが基準価格約120,000円に対し、開封済みは状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 基準の30〜40%（36,000円〜48,000円）</li><li><strong>7割以上残</strong>: 基準の25〜35%（30,000円〜42,000円）</li><li><strong>5割以上残</strong>: 基準の20〜30%（24,000円〜36,000円）</li><li><strong>3割以上残</strong>: 基準の10〜20%</li><li><strong>1割以下残</strong>: 買取拒否の場合あり、もしくは空ボトルとして数千円</li></ol>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きが市場相場（Yahoo中央値）を基準として、開封済みは状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 市場相場の30〜40%程度</li><li><strong>7割以上残</strong>: 市場相場の25〜35%程度</li><li><strong>5割以上残</strong>: 市場相場の20〜30%程度</li><li><strong>3割以上残</strong>: 基準の10〜20%</li><li><strong>1割以下残</strong>: 買取拒否の場合あり、もしくは空ボトルとして数千円</li></ol>` }} />
 
           <h2 id="section-1">2. 開封済みの査定で重視される5要素</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>開封済みボトルの査定では、以下の5要素が総合的に評価されます:</p><ol><li><strong>残量</strong> — 多いほど評価額アップ。9割以上が査定の分かれ目</li><li><strong>保管状態</strong> — コルク劣化・香味揮発の度合い</li><li><strong>付属品</strong> — 外箱・冊子・カートンの有無</li><li><strong>ラベル状態</strong> — 美しさは未開封同様に評価される</li><li><strong>キャップ・栓の状態</strong> — しっかり閉まっているか、隙間からの揮発は無いか
@@ -164,41 +168,8 @@ export default function IchirosuDoubleDistilleriesKaifuZumiPage() {
             <Link href="/articles/ichirosu-double-distilleries-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">イチローズモルト ダブルディスティラリーズの買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
-        
-          {/* Plan E: Auto Internal Links */}
-          <section className="bg-gold-bg/40 border border-warm-border rounded-2xl p-6 my-10 not-prose">
-            <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連記事</h2>
-          <div className="not-prose">
-            <h3 className="font-bold text-base mb-2 text-ink">📖 同じ銘柄の他の情報</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/ichirosu-double-distilleries-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">イチローズモルト ダブルディスティラリーズの高く売るコツ</Link></li>
-              <li><Link href="/articles/ichirosu-double-distilleries-nisemono-mikata/" className="text-amber-dark hover:text-burgundy underline">イチローズモルト ダブルディスティラリーズの偽物の見分け方</Link></li>
-              <li><Link href="/articles/ichirosu-double-distilleries-ranking/" className="text-amber-dark hover:text-burgundy underline">イチローズモルト ダブルディスティラリーズの買取業者ランキング</Link></li>
-              <li><Link href="/articles/ichirosu-double-distilleries-rekishi/" className="text-amber-dark hover:text-burgundy underline">イチローズモルト ダブルディスティラリーズの蒸溜所の歴史</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🔍 他の銘柄の同種の記事</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/yamazaki-18-kaifu-zumi/" className="text-amber-dark hover:text-burgundy underline">山崎18年の開封済みの買取</Link></li>
-              <li><Link href="/articles/yamazaki-25-kaifu-zumi/" className="text-amber-dark hover:text-burgundy underline">山崎25年の開封済みの買取</Link></li>
-              <li><Link href="/articles/hibiki-30-kaifu-zumi/" className="text-amber-dark hover:text-burgundy underline">響30年の開封済みの買取</Link></li>
-              <li><Link href="/articles/hibiki-21-kaifu-zumi/" className="text-amber-dark hover:text-burgundy underline">響21年の開封済みの買取</Link></li>
-              <li><Link href="/articles/hakushu-25-kaifu-zumi/" className="text-amber-dark hover:text-burgundy underline">白州25年の開封済みの買取</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🎯 関連ガイド</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
-              <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
-            </ul>
-          </div>
-          </section>
-          </article>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+        </article>
       </div>
     </>
   );

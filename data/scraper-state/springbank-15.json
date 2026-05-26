@@ -1,11 +1,11 @@
 {
   "slug": "springbank-15",
   "label": "スプリングバンク15年",
-  "fetched_at": "2026-05-17T18:19:44",
+  "fetched_at": "2026-05-22T09:01:55",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%90%E3%83%B3%E3%82%AF15%E5%B9%B4",
-  "avg": 47452,
+  "avg": 48236,
   "max": 223000,
   "min": null,
-  "count": 122,
+  "count": 124,
   "ok": true
 }

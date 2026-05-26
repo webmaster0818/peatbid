@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import MarketPriceCard from "@/components/MarketPriceCard";
+import priceData from "@/data/price-history/ardbeg-corryvreckan.json";
 
 export const metadata: Metadata = {
   title: 'アードベッグ コリーヴレッカンが箱なしでも買取できる？【2026年完全版】査定額への影響と代替戦略',
@@ -27,19 +29,21 @@ export default function ArdbegCorryvreckanHakoNashiPage() {
         </nav>
 
         <div className="article-hero mb-8">
-          <Image src="/images/article-hibiki.png" alt='アードベッグ コリーヴレッカンが箱なしでも買取できる？' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
+          <Image src="/images/heroes/ardbeg-corryvreckan.png" alt='アードベッグ コリーヴレッカンが箱なしでも買取できる？' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
           <div className="article-hero-overlay rounded-xl" />
         </div>
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">アードベッグ コリーヴレッカンが箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">アードベッグ コリーヴレッカン</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / ノンエイジ / 希少度 コモン / 参考相場 10,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / ノンエイジ / 希少度 コモン / 市場相場 8,091円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/ardbeg-corryvreckan-kaitori/" className="text-amber-dark underline">アードベッグ コリーヴレッカンの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -93,9 +97,9 @@ export default function ArdbegCorryvreckanHakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>アードベッグ コリーヴレッカンの場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 基準価格 10,000円（100%）</li><li><strong>箱あり・冊子なし</strong>: 8,500円〜9,500円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 8,500円〜9,200円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 8,000円〜9,000円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 7,500円〜8,500円（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>アードベッグ コリーヴレッカンの場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 市場相場（Yahoo中央値）が基準（100%）</li><li><strong>箱あり・冊子なし</strong>: 市場相場の85〜95%程度（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 市場相場の85〜92%程度（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 市場相場の80〜90%程度（80〜90%）</li><li><strong>箱・冊子なし</strong>: 市場相場の75〜85%程度（75〜85%）
 
-つまり、最大で<strong>約25%（2,500円）の差</strong>が生じる可能性があります。</li></ol>` }} />
+つまり、最大で<strong>約25%（市場相場の25%程度）の差</strong>が生じる可能性があります。</li></ol>` }} />
 
           <h2 id="section-1">2. なぜ外箱が重要なのか</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は単なる包装ではなく、<strong>コレクター品の完全性</strong>を示す重要な要素です:</p><ol><li><strong>二次流通市場での評価</strong> — 海外コレクターは特にフルセット重視</li><li><strong>真贋判定の手がかり</strong> — 箱と本体の合致が本物の証</li><li><strong>保管時の保護機能</strong> — 直射日光・摩擦・埃から守る</li><li><strong>付属品の収納</strong> — 冊子・カートンの一括管理</li><li><strong>贈答品としての価値</strong> — 箱なしは贈り物として再販困難
@@ -168,41 +172,8 @@ export default function ArdbegCorryvreckanHakoNashiPage() {
             <Link href="/articles/ardbeg-corryvreckan-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">アードベッグ コリーヴレッカンの買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
-        
-          {/* Plan E: Auto Internal Links */}
-          <section className="bg-gold-bg/40 border border-warm-border rounded-2xl p-6 my-10 not-prose">
-            <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連記事</h2>
-          <div className="not-prose">
-            <h3 className="font-bold text-base mb-2 text-ink">📖 同じ銘柄の他の情報</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/ardbeg-corryvreckan-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">アードベッグ コリーヴレッカンの高く売るコツ</Link></li>
-              <li><Link href="/articles/ardbeg-corryvreckan-nisemono-mikata/" className="text-amber-dark hover:text-burgundy underline">アードベッグ コリーヴレッカンの偽物の見分け方</Link></li>
-              <li><Link href="/articles/ardbeg-corryvreckan-ranking/" className="text-amber-dark hover:text-burgundy underline">アードベッグ コリーヴレッカンの買取業者ランキング</Link></li>
-              <li><Link href="/articles/ardbeg-corryvreckan-rekishi/" className="text-amber-dark hover:text-burgundy underline">アードベッグ コリーヴレッカンの蒸溜所の歴史</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🔍 他の銘柄の同種の記事</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/yamazaki-18-hako-nashi/" className="text-amber-dark hover:text-burgundy underline">山崎18年の箱なしの買取</Link></li>
-              <li><Link href="/articles/yamazaki-25-hako-nashi/" className="text-amber-dark hover:text-burgundy underline">山崎25年の箱なしの買取</Link></li>
-              <li><Link href="/articles/hibiki-30-hako-nashi/" className="text-amber-dark hover:text-burgundy underline">響30年の箱なしの買取</Link></li>
-              <li><Link href="/articles/hibiki-21-hako-nashi/" className="text-amber-dark hover:text-burgundy underline">響21年の箱なしの買取</Link></li>
-              <li><Link href="/articles/hakushu-25-hako-nashi/" className="text-amber-dark hover:text-burgundy underline">白州25年の箱なしの買取</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🎯 関連ガイド</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
-              <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
-            </ul>
-          </div>
-          </section>
-          </article>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+        </article>
       </div>
     </>
   );

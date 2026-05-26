@@ -1,93 +1,23 @@
 {
   "slug": "hibiki-30",
   "label": "響30年",
-  "category": "japanese-whisky",
-  "latest_price_boxed": 168000,
-  "latest_price_no_box": 126000,
-  "latest_price_opened": 67000,
-  "trend": "up",
-  "pct_6m": 5.7,
-  "pct_12m": 9.1,
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "響30年 700ml",
   "history": [
     {
-      "month": "2025-06",
-      "boxed": 154000,
-      "no_box": 116000,
-      "opened": 62000
-    },
-    {
-      "month": "2025-07",
-      "boxed": 154000,
-      "no_box": 116000,
-      "opened": 62000
-    },
-    {
-      "month": "2025-08",
-      "boxed": 157000,
-      "no_box": 118000,
-      "opened": 63000
-    },
-    {
-      "month": "2025-09",
-      "boxed": 155000,
-      "no_box": 116000,
-      "opened": 62000
-    },
-    {
-      "month": "2025-10",
-      "boxed": 160000,
-      "no_box": 120000,
-      "opened": 64000
-    },
-    {
-      "month": "2025-11",
-      "boxed": 159000,
-      "no_box": 119000,
-      "opened": 64000
-    },
-    {
-      "month": "2025-12",
-      "boxed": 161000,
-      "no_box": 121000,
-      "opened": 64000
-    },
-    {
-      "month": "2026-01",
-      "boxed": 160000,
-      "no_box": 120000,
-      "opened": 64000
-    },
-    {
-      "month": "2026-02",
-      "boxed": 165000,
-      "no_box": 124000,
-      "opened": 66000
-    },
-    {
-      "month": "2026-03",
-      "boxed": 164000,
-      "no_box": 123000,
-      "opened": 66000
-    },
-    {
-      "month": "2026-04",
-      "boxed": 169000,
-      "no_box": 127000,
-      "opened": 68000
-    },
-    {
-      "month": "2026-05",
-      "boxed": 168000,
-      "no_box": 126000,
-      "opened": 67000
+      "date": "2026-05-25",
+      "median_jpy": 549503,
+      "sample_n": 72,
+      "raw_n": 118
     }
   ],
-  "updated_at": "2026-05-17",
-  "data_disclaimer": "本データは公開オークション情報・業者公開価格・市場ニュースを基にPeatBid編集部が独自に算出した推定相場です。実取引価格を保証するものではありません。",
-  "data_sources": [
-    "業者公開買取相場表（4社）",
-    "公開オークション結果（国内・海外）",
-    "市場ニュース・専門誌",
-    "編集部独自調査"
-  ]
+  "latest": {
+    "date": "2026-05-25",
+    "median_jpy": 549503,
+    "sample_n": 72,
+    "raw_n": 118,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"
 }

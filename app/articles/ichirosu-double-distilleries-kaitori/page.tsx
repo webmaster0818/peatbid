@@ -1,24 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import PriceHistoryCard from "@/components/PriceHistoryCard";
+import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/ichirosu-double-distilleries.json";
 
 export const metadata: Metadata = {
-  title: "イチローズモルト ダブルディスティラリーズの買取相場【2026年最新】120,000円前後・状態別査定額と高く売る完全ガイド",
-  description: "イチローズモルト ダブルディスティラリーズ（Ichiros Malt Double Distilleries）の最新買取相場、状態別査定額、蒸溜所の歴史、テイスティング、希少性、贋作リスク、おすすめ買取業者4社比較まで完全解説。コレクター・オーナー必読の決定版ガイド。",
+  title: 'イチローズモルト ダブルディスティラリーズの市場相場【2026年最新】10,780円・Yahoo中央値ベース完全ガイド',
+  description: 'イチローズモルト ダブルディスティラリーズ（Ichiros Malt Double Distilleries）の最新市場相場（Yahoo Auctions 過去180日落札中央値）。状態別の業界目安、業者比較リンク、蒸溜所の歴史、テイスティング、贋作リスクまで網羅。コレクター・オーナー必読の決定版ガイド。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズは今いくらで売れますか？', "acceptedAnswer": { "@type": "Answer", "text": '2026年5月現在、イチローズモルト ダブルディスティラリーズ（未開封・箱付き）の買取相場は約120,000円前後です。状態・付属品・タイミングにより上下します。最高値を狙うなら**複数業者で相見積もり**が鉄則です。' } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズを高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズの開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。残量9割以上で約36,000円〜48,000円、半分以下では大幅減額となります。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。' } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズに偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズの保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズは税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズを売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズと他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズの市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": 'イチローズモルト ダブルディスティラリーズの市場相場は10,780円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=242、取得日 2026-05-25）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズを高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズの開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズに偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズの保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズは税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズを売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": 'イチローズモルト ダブルディスティラリーズと他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
 }
 
 const tocItems = [
   { id: "summary", label: "1. イチローズモルト ダブルディスティラリーズの概要" },
   { id: "distillery", label: "2. 蒸溜所の歴史と特徴" },
   { id: "tasting", label: "3. テイスティングノート" },
-  { id: "current-price", label: "4. 現在の買取相場" },
-  { id: "state-price", label: "5. 状態別の査定額" },
+  { id: "current-price", label: "4. 現在の市場相場（Yahoo中央値）" },
+  { id: "state-price", label: "5. 状態別の業界目安" },
   { id: "price-reasons", label: "6. なぜこの価格になるのか" },
   { id: "auction", label: "7. オークション落札データ" },
   { id: "takaku-uru", label: "8. 高く売る7つの実践テクニック" },
@@ -44,15 +44,15 @@ export default function IchirosuDoubleDistilleriesKaitoriPage() {
         </nav>
 
         <div className="article-hero mb-8">
-          <Image src="/images/article-yamazaki.png" alt="イチローズモルト ダブルディスティラリーズの買取相場" width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
+          <Image src="/images/heroes/ichirosu-double-distilleries.png" alt="イチローズモルト ダブルディスティラリーズの買取相場" width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
           <div className="article-hero-overlay rounded-xl" />
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">イチローズモルト ダブルディスティラリーズの買取相場と高く売る完全ガイド</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">イチローズモルト ダブルディスティラリーズの市場相場と業者比較ガイド</h1>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
-          <PriceHistoryCard data={priceData as Parameters<typeof PriceHistoryCard>[0]["data"]} />
+          <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Table of Contents */}
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
@@ -68,7 +68,7 @@ export default function IchirosuDoubleDistilleriesKaitoriPage() {
 
           <p>イチローズモルト ダブルディスティラリーズはジャパニーズウイスキーを代表する銘柄の1つで、ベンチャーウイスキーが手がけるノンエイジ（NV）のボトルです。イチローズモルト 羽生×秩父ブレンド。</p>
 
-          <p>2026年5月現在、イチローズモルト ダブルディスティラリーズ（未開封・箱付き）の買取相場は<strong>約120,000円前後</strong>。希少度は<strong>ハイ</strong>クラスに位置し、希少性と国際的評価により、二次流通市場で高値が定着している銘柄帯。コレクター・投資需要が支え、長期保有での価値増大が期待できる。</p>
+          <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。イチローズモルト ダブルディスティラリーズは希少度<strong>ハイ</strong>クラスに位置し、希少性と国際的評価により、二次流通市場で高値が定着している銘柄帯。コレクター・投資需要が支え、長期保有での価値増大が期待できる。</p>
 
           <div className="table-wrapper">
             <table>
@@ -79,7 +79,7 @@ export default function IchirosuDoubleDistilleriesKaitoriPage() {
                 <tr><td><strong>アルコール度数</strong></td><td>46%</td></tr>
                 <tr><td><strong>容量</strong></td><td>700ml</td></tr>
                 <tr><td><strong>希少度</strong></td><td>ハイ</td></tr>
-                <tr><td><strong>参考買取価格（未開封・箱付き）</strong></td><td><strong>120,000円前後</strong></td></tr>
+                <tr><td><strong>市場相場（Yahoo中央値）</strong></td><td><strong>10,780円</strong></td></tr>
               </tbody>
             </table>
           </div>
@@ -104,22 +104,24 @@ export default function IchirosuDoubleDistilleriesKaitoriPage() {
 
           <p>飲用ではなくコレクション・投資目的で保有する場合、ボトルを開けずに保管することが価値維持の鉄則です。一度開けると、香味の揮発と空気接触による酸化が進み、二次流通市場での評価が大幅に下がります。</p>
 
-          <h2 id="current-price">4. 現在の買取相場</h2>
+          <h2 id="current-price">4. 現在の市場相場（Yahoo中央値）</h2>
 
-          <p>2026年5月時点でのイチローズモルト ダブルディスティラリーズの買取相場は<strong>102,000円〜120,000円</strong>のレンジで推移しています（未開封・箱付きの場合）。この相場は、以下の市場データの集約から算出しています:</p>
+          <p>イチローズモルト ダブルディスティラリーズの市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>10,780円</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=242件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
 
-          <ol>
-            <li>国内主要買取業者（大黒屋・JOYLAB・ウイスキー王国等）の公開買取価格</li>
-            <li>海外オークション（Sotheby's、Bonhams、Whisky Auctioneer、Just Whisky Auctions）の落札データ</li>
-            <li>個人間二次流通（ヤフオク、メルカリ）の取引価格</li>
-            <li>百貨店・正規流通店の小売価格（参考）</li>
-          </ol>
+          <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、**最低3社、できれば4社以上で相見積もり**を取ることをおすすめします。</p>
 
-          <p>業者間の査定差は、同じ未開封ボトルでも<strong>5〜15%</strong>変動するのが一般的です。最高値を引き出すには、**最低3社、できれば5社以上で相見積もり**を取ることが必須です。</p>
+          <p>本サイトでは下記の4業者ページへのリンクを参考として提示しています（各社の最新の査定額・キャンペーンは直接ご確認ください）:</p>
 
-          <h2 id="state-price">5. 状態別の査定額</h2>
+          <ul>
+            <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店</li>
+            <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">バイセル</a> — 東証グロース上場、出張・店頭・宅配の3チャネル対応</li>
+            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">福ちゃん</a> — 総合買取の大手、お酒査定にも対応</li>
+            <li><a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">JOYLAB</a> — お酒買取専門、希少銘柄の鑑定査定に強み</li>
+          </ul>
 
-          <p>イチローズモルト ダブルディスティラリーズの査定額は、ボトルの状態と付属品の有無により大きく変動します。以下のビジュアルガイドで、5段階の主要状態を確認してください:</p>
+          <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
+
+          <p>イチローズモルト ダブルディスティラリーズの査定額は、ボトルの状態と付属品の有無により大きく変動します。以下は <strong>業界一般の目安（％）</strong> で、市場相場（Yahoo中央値）を基準とした概算レンジです。**実際の査定額は業者により異なります**ので、最終的な金額は各業者のページからご確認ください。</p>
 
           {/* State condition gallery (5 images) */}
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
@@ -158,22 +160,22 @@ export default function IchirosuDoubleDistilleriesKaitoriPage() {
           <div className="table-wrapper">
             <table>
               <thead>
-                <tr><th>状態</th><th>付属品</th><th>査定額の目安</th></tr>
+                <tr><th>状態</th><th>付属品</th><th>業界目安（市場相場対比）</th></tr>
               </thead>
               <tbody>
-                <tr><td>未開封・完璧</td><td>箱・冊子・カートン揃い</td><td><strong>114,000円〜120,000円</strong></td></tr>
-                <tr><td>未開封・箱なし</td><td>ラベル良好</td><td><strong>96,000円〜108,000円</strong></td></tr>
-                <tr><td>未開封・冊子なし</td><td>外箱あり</td><td><strong>102,000円〜114,000円</strong></td></tr>
-                <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td><strong>90,000円〜105,600円</strong></td></tr>
-                <tr><td>未開封・ラベル損傷</td><td>付属あり</td><td><strong>72,000円〜90,000円</strong></td></tr>
-                <tr><td>未開封・液面減少</td><td>やや進行</td><td><strong>66,000円〜84,000円</strong></td></tr>
-                <tr><td>開封済み・9割以上残</td><td>付属あり</td><td><strong>36,000円〜48,000円</strong></td></tr>
-                <tr><td>開封済み・半分以下残</td><td>付属あり</td><td><strong>18,000円〜30,000円</strong></td></tr>
+                <tr><td>未開封・完璧</td><td>箱・冊子・カートン揃い</td><td><strong>市場相場の95〜100%程度</strong></td></tr>
+                <tr><td>未開封・箱なし</td><td>ラベル良好</td><td><strong>市場相場の80〜90%程度</strong></td></tr>
+                <tr><td>未開封・冊子なし</td><td>外箱あり</td><td><strong>市場相場の85〜95%程度</strong></td></tr>
+                <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td><strong>市場相場の75〜88%程度</strong></td></tr>
+                <tr><td>未開封・ラベル損傷</td><td>付属あり</td><td><strong>市場相場の60〜75%程度</strong></td></tr>
+                <tr><td>未開封・液面減少</td><td>やや進行</td><td><strong>市場相場の55〜70%程度</strong></td></tr>
+                <tr><td>開封済み・9割以上残</td><td>付属あり</td><td><strong>市場相場の30〜40%程度</strong></td></tr>
+                <tr><td>開封済み・半分以下残</td><td>付属あり</td><td><strong>市場相場の15〜25%程度</strong></td></tr>
               </tbody>
             </table>
           </div>
 
-          <p>未開封・完璧（箱・冊子・カートン揃い）を基準（100%）として、各状態の係数は概ね上記の通りです。査定時には、業者が以下の要素を総合的に判断します:</p>
+          <p>未開封・完璧（箱・冊子・カートン揃い）を基準（100%）として、各状態の業界一般の目安は概ね上記の通りです。<strong>業者により評価基準が異なる</strong>ため、具体的な円換算は本サイトでは行いません。査定時には、業者が以下の要素を総合的に判断します:</p>
 
           <ul>
             <li>ボトル本体の傷・汚れ</li>
@@ -228,7 +230,7 @@ export default function IchirosuDoubleDistilleriesKaitoriPage() {
 
           <h2 id="fake">9. イチローズモルト ダブルディスティラリーズの偽物・贋作の見分け方</h2>
 
-          <p>120,000円クラスの高額銘柄では、贋作・偽造ボトルのリスクが存在します。本物を見抜くには以下の5つのチェックが有効です:</p>
+          <p>イチローズモルト ダブルディスティラリーズのような流通価値のある銘柄では、贋作・偽造ボトルのリスクが存在します。本物を見抜くには以下の5つのチェックが有効です:</p>
 
           <ol>
             <li><strong>ラベルの印刷品質</strong> — 正規品は文字が鮮明で色ズレなし。贋作はにじみ・かすれ・フォント違いが見られる</li>
@@ -352,7 +354,7 @@ export default function IchirosuDoubleDistilleriesKaitoriPage() {
           <h2 id="faq">12. イチローズモルト ダブルディスティラリーズに関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: 'イチローズモルト ダブルディスティラリーズは今いくらで売れますか？', a: '2026年5月現在、イチローズモルト ダブルディスティラリーズ（未開封・箱付き）の買取相場は約120,000円前後です。状態・付属品・タイミングにより上下します。最高値を狙うなら**複数業者で相見積もり**が鉄則です。' }, { q: 'イチローズモルト ダブルディスティラリーズを高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: 'イチローズモルト ダブルディスティラリーズの開封済みでも買取できますか？', a: 'はい、可能です。残量9割以上で約36,000円〜48,000円、半分以下では大幅減額となります。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。' }, { q: 'イチローズモルト ダブルディスティラリーズに偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' }, { q: 'イチローズモルト ダブルディスティラリーズの保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: 'イチローズモルト ダブルディスティラリーズは税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'イチローズモルト ダブルディスティラリーズを売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: 'イチローズモルト ダブルディスティラリーズと他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
+            {[{ q: 'イチローズモルト ダブルディスティラリーズの市場相場はいくらですか？', a: 'イチローズモルト ダブルディスティラリーズの市場相場は10,780円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=242、取得日 2026-05-25）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各業者のページで直接ご確認ください。' }, { q: 'イチローズモルト ダブルディスティラリーズを高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: 'イチローズモルト ダブルディスティラリーズの開封済みでも買取できますか？', a: 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' }, { q: 'イチローズモルト ダブルディスティラリーズに偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' }, { q: 'イチローズモルト ダブルディスティラリーズの保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: 'イチローズモルト ダブルディスティラリーズは税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'イチローズモルト ダブルディスティラリーズを売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: 'イチローズモルト ダブルディスティラリーズと他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -381,49 +383,16 @@ export default function IchirosuDoubleDistilleriesKaitoriPage() {
 
           <h2>関連銘柄の買取相場</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
-            <Link href="/articles/yamazaki-55-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">山崎55年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 3,000万円</p></Link>
-            <Link href="/articles/hanyu-card-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">羽生カードシリーズ の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 3,000万円</p></Link>
-            <Link href="/articles/ichirosu-card-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">イチローズモルト カードシリーズ の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 1,500万円</p></Link>
-            <Link href="/articles/karuizawa-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">軽井沢30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 800万円</p></Link>
-            <Link href="/articles/chichibu-the-first-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">秩父ザファースト の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 350万円</p></Link>
-            <Link href="/articles/karuizawa-12-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">軽井沢12年 の買取相場</p><p className="text-xs text-warm-gray mt-1">参考 150万円</p></Link>
+            <Link href="/articles/hibiki-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">響30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 549,503円</p></Link>
+            <Link href="/articles/yoichi-20-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">余市20年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 214,071円</p></Link>
+            <Link href="/articles/taketsuru-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">竹鶴25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 184,800円</p></Link>
+            <Link href="/articles/yamazaki-18-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">山崎18年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 93,240円</p></Link>
+            <Link href="/articles/yamazaki-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">山崎25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 92,125円</p></Link>
+            <Link href="/articles/chichibu-the-first-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">秩父ザファースト の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 77,550円</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の相場は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。当サイトはアフィリエイト広告（PR）を含みます。</p>
-        
-          {/* Plan E: Auto Internal Links */}
-          <section className="bg-gold-bg/40 border border-warm-border rounded-2xl p-6 my-10 not-prose">
-            <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連記事</h2>
-          <div className="not-prose">
-            <h3 className="font-bold text-base mb-2 text-ink">📖 同じ銘柄の他の情報</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/ichirosu-double-distilleries-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">イチローズモルト ダブルディスティラリーズの高く売るコツ</Link></li>
-              <li><Link href="/articles/ichirosu-double-distilleries-nisemono-mikata/" className="text-amber-dark hover:text-burgundy underline">イチローズモルト ダブルディスティラリーズの偽物の見分け方</Link></li>
-              <li><Link href="/articles/ichirosu-double-distilleries-ranking/" className="text-amber-dark hover:text-burgundy underline">イチローズモルト ダブルディスティラリーズの買取業者ランキング</Link></li>
-              <li><Link href="/articles/ichirosu-double-distilleries-rekishi/" className="text-amber-dark hover:text-burgundy underline">イチローズモルト ダブルディスティラリーズの蒸溜所の歴史</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🔍 他の銘柄の同種の記事</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/yamazaki-18-kaitori/" className="text-amber-dark hover:text-burgundy underline">山崎18年の買取相場</Link></li>
-              <li><Link href="/articles/yamazaki-25-kaitori/" className="text-amber-dark hover:text-burgundy underline">山崎25年の買取相場</Link></li>
-              <li><Link href="/articles/hibiki-30-kaitori/" className="text-amber-dark hover:text-burgundy underline">響30年の買取相場</Link></li>
-              <li><Link href="/articles/hibiki-21-kaitori/" className="text-amber-dark hover:text-burgundy underline">響21年の買取相場</Link></li>
-              <li><Link href="/articles/hakushu-25-kaitori/" className="text-amber-dark hover:text-burgundy underline">白州25年の買取相場</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🎯 関連ガイド</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
-              <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
-            </ul>
-          </div>
-          </section>
-          </article>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
+        </article>
       </div>
     </>
   );

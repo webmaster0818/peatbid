@@ -1,93 +1,23 @@
 {
   "slug": "yamazaki-25",
   "label": "山崎25年",
-  "category": "japanese-whisky",
-  "latest_price_boxed": 127000,
-  "latest_price_no_box": 95000,
-  "latest_price_opened": 51000,
-  "trend": "up",
-  "pct_6m": 4.1,
-  "pct_12m": 8.5,
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "山崎25年 700ml",
   "history": [
     {
-      "month": "2025-06",
-      "boxed": 117000,
-      "no_box": 88000,
-      "opened": 47000
-    },
-    {
-      "month": "2025-07",
-      "boxed": 117000,
-      "no_box": 88000,
-      "opened": 47000
-    },
-    {
-      "month": "2025-08",
-      "boxed": 118000,
-      "no_box": 88000,
-      "opened": 47000
-    },
-    {
-      "month": "2025-09",
-      "boxed": 120000,
-      "no_box": 90000,
-      "opened": 48000
-    },
-    {
-      "month": "2025-10",
-      "boxed": 117000,
-      "no_box": 88000,
-      "opened": 47000
-    },
-    {
-      "month": "2025-11",
-      "boxed": 122000,
-      "no_box": 92000,
-      "opened": 49000
-    },
-    {
-      "month": "2025-12",
-      "boxed": 124000,
-      "no_box": 93000,
-      "opened": 50000
-    },
-    {
-      "month": "2026-01",
-      "boxed": 125000,
-      "no_box": 94000,
-      "opened": 50000
-    },
-    {
-      "month": "2026-02",
-      "boxed": 125000,
-      "no_box": 94000,
-      "opened": 50000
-    },
-    {
-      "month": "2026-03",
-      "boxed": 125000,
-      "no_box": 94000,
-      "opened": 50000
-    },
-    {
-      "month": "2026-04",
-      "boxed": 126000,
-      "no_box": 94000,
-      "opened": 50000
-    },
-    {
-      "month": "2026-05",
-      "boxed": 127000,
-      "no_box": 95000,
-      "opened": 51000
+      "date": "2026-05-25",
+      "median_jpy": 92125,
+      "sample_n": 292,
+      "raw_n": 292
     }
   ],
-  "updated_at": "2026-05-17",
-  "data_disclaimer": "本データは公開オークション情報・業者公開価格・市場ニュースを基にPeatBid編集部が独自に算出した推定相場です。実取引価格を保証するものではありません。",
-  "data_sources": [
-    "業者公開買取相場表（4社）",
-    "公開オークション結果（国内・海外）",
-    "市場ニュース・専門誌",
-    "編集部独自調査"
-  ]
+  "latest": {
+    "date": "2026-05-25",
+    "median_jpy": 92125,
+    "sample_n": 292,
+    "raw_n": 292,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"
 }

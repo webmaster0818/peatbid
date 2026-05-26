@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import MarketPriceCard from "@/components/MarketPriceCard";
+import priceData from "@/data/price-history/yoichi-10.json";
 
 export const metadata: Metadata = {
   title: '余市10年の希少性と投資価値【2026年完全版】長期保有 vs 売却の判断軸',
@@ -27,19 +29,21 @@ export default function Yoichi10KihakuPage() {
         </nav>
 
         <div className="article-hero mb-8">
-          <Image src="/images/article-yamazaki.png" alt='余市10年の希少性と投資価値' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
+          <Image src="/images/heroes/yoichi-10.png" alt='余市10年の希少性と投資価値' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
           <div className="article-hero-overlay rounded-xl" />
         </div>
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">余市10年の希少性と投資価値</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">余市10年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 10年熟成 / 希少度 ミッド / 参考相場 26,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 10年熟成 / 希少度 ミッド / 市場相場 22,770円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yoichi-10-kaitori/" className="text-amber-dark underline">余市10年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -57,7 +61,7 @@ export default function Yoichi10KihakuPage() {
             </ol>
           </div>
 
-          <p>余市10年は希少度終売プレミアクラスのボトルで、現在の買取相場は約26,000円前後。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
+          <p>余市10年は希少度終売プレミアクラスのボトルで、現在の買取相場は約市場相場（Yahoo中央値）前後。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
             <Image src="/images/collector-vault.png" alt="コレクター向けプライベートヴォルト" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
@@ -73,7 +77,7 @@ export default function Yoichi10KihakuPage() {
           <div dangerouslySetInnerHTML={{ __html: `<p>余市10年は過去5〜10年にわたって、二次流通市場で価格が上昇基調にあります。特に2018年以降の世界的ジャパニーズウイスキーブーム以降は、長期熟成・終売銘柄を中心に<strong>3〜10倍</strong>の値上がりを記録した銘柄も少なくありません。</p><p>2020年: コロナ禍で一時的に需要減少も、すぐに回復<br/>2021〜2022年: アジア富裕層の参入加速、価格急騰<br/>2023〜2024年: 上昇ペースは緩和、安定推移<br/>2025〜2026年: 円安効果と海外需要継続で高値維持</p><p>この推移を踏まえ、余市10年の中長期見通しは引き続き堅調と予想されます。</p>` }} />
 
           <h2 id="section-2">3. 投資資産としての位置付け</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキーは<strong>「液体資産（Liquid Asset）」</strong>として国際的に認識されつつあります。</p><p><strong>Knight Frank Luxury Investment Index</strong>（高級資産投資指数）でも、ウイスキーは過去10年で最も値上がりした投資対象の1つ。クラシックカー・ワイン・アートと並ぶ、実物資産としての地位を確立しています。</p><p>{fmt(price)}クラスのボトルは、保管環境さえ整えれば<strong>現金化容易な実物資産</strong>として機能します。資産分散の選択肢として検討する価値があります。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキーは<strong>「液体資産（Liquid Asset）」</strong>として国際的に認識されつつあります。</p><p><strong>Knight Frank Luxury Investment Index</strong>（高級資産投資指数）でも、ウイスキーは過去10年で最も値上がりした投資対象の1つ。クラシックカー・ワイン・アートと並ぶ、実物資産としての地位を確立しています。</p><p>市場相場クラスのボトルは、保管環境さえ整えれば<strong>現金化容易な実物資産</strong>として機能します。資産分散の選択肢として検討する価値があります。</p>` }} />
 
           <h2 id="section-3">4. 長期保有のメリット</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>メリット</strong>:</p><ol><li>希少性上昇による価格上昇期待</li><li>税制優遇（5年超の長期譲渡所得は1/2軽減）</li><li>趣味と投資の両立</li><li>インフレヘッジ機能</li><li>物理資産としての安心感</li><li>相続・贈与対象としての価値</li><li>国際市場での換金性</li></ol>` }} />
@@ -91,7 +95,7 @@ export default function Yoichi10KihakuPage() {
           <h2 id="section-6">7. 税制優遇の活用</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキー売却益は<strong>譲渡所得</strong>として課税対象になります。重要なポイント:</p><ol><li><strong>年間50万円の特別控除</strong> — この範囲内なら実質非課税</li><li><strong>5年超保有で長期譲渡所得</strong> — 特別控除後の課税対象額が1/2に軽減</li><li><strong>生活用動産の非課税</strong> — 1点30万円以下は非課税
 
-例: {fmt(price)}クラスのボトルを5年超保有して売却し、取得費が{fmt(int(price*0.3))}の場合、譲渡所得は{fmt(int(price*0.7))}。特別控除50万円差引、長期譲渡で1/2軽減し、課税対象額は実質的に大幅減税となります。
+例: 市場相場クラスのボトルを5年超保有して売却し、取得費が市場相場の30%程度の場合、譲渡所得は市場相場の70%程度。特別控除50万円差引、長期譲渡で1/2軽減し、課税対象額は実質的に大幅減税となります。
 
 コレクション歴の長い方は購入時期の記録を残しておくと有利です。</li></ol>` }} />
 
@@ -136,41 +140,8 @@ export default function Yoichi10KihakuPage() {
             <Link href="/articles/yoichi-10-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">余市10年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
-        
-          {/* Plan E: Auto Internal Links */}
-          <section className="bg-gold-bg/40 border border-warm-border rounded-2xl p-6 my-10 not-prose">
-            <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連記事</h2>
-          <div className="not-prose">
-            <h3 className="font-bold text-base mb-2 text-ink">📖 同じ銘柄の他の情報</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/yoichi-10-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">余市10年の高く売るコツ</Link></li>
-              <li><Link href="/articles/yoichi-10-nisemono-mikata/" className="text-amber-dark hover:text-burgundy underline">余市10年の偽物の見分け方</Link></li>
-              <li><Link href="/articles/yoichi-10-ranking/" className="text-amber-dark hover:text-burgundy underline">余市10年の買取業者ランキング</Link></li>
-              <li><Link href="/articles/yoichi-10-rekishi/" className="text-amber-dark hover:text-burgundy underline">余市10年の蒸溜所の歴史</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🔍 他の銘柄の同種の記事</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/yamazaki-18-kihaku/" className="text-amber-dark hover:text-burgundy underline">山崎18年の希少価値の理由</Link></li>
-              <li><Link href="/articles/yamazaki-25-kihaku/" className="text-amber-dark hover:text-burgundy underline">山崎25年の希少価値の理由</Link></li>
-              <li><Link href="/articles/hibiki-30-kihaku/" className="text-amber-dark hover:text-burgundy underline">響30年の希少価値の理由</Link></li>
-              <li><Link href="/articles/hibiki-21-kihaku/" className="text-amber-dark hover:text-burgundy underline">響21年の希少価値の理由</Link></li>
-              <li><Link href="/articles/hakushu-25-kihaku/" className="text-amber-dark hover:text-burgundy underline">白州25年の希少価値の理由</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🎯 関連ガイド</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
-              <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
-            </ul>
-          </div>
-          </section>
-          </article>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+        </article>
       </div>
     </>
   );

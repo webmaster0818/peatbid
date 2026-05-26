@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import MarketPriceCard from "@/components/MarketPriceCard";
+import priceData from "@/data/price-history/hakushu-nv.json";
 
 export const metadata: Metadata = {
   title: '白州ノンエイジを高く売る方法【2026年最新】査定額を最大化する7つの完全ガイド',
@@ -27,19 +29,21 @@ export default function HakushuNvTakakuUruPage() {
         </nav>
 
         <div className="article-hero mb-8">
-          <Image src="/images/article-yamazaki.png" alt='白州ノンエイジを高く売る方法 — 査定額を最大化する完全ガイド' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
+          <Image src="/images/heroes/hakushu-nv.png" alt='白州ノンエイジを高く売る方法 — 査定額を最大化する完全ガイド' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
           <div className="article-hero-overlay rounded-xl" />
         </div>
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">白州ノンエイジを高く売る方法 — 査定額を最大化する完全ガイド</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">白州ノンエイジ</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 白州蒸溜所 / ノンエイジ / 希少度 コモン / 参考相場 10,000円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 白州蒸溜所 / ノンエイジ / 希少度 コモン / 市場相場 10,001円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/hakushu-nv-kaitori/" className="text-amber-dark underline">白州ノンエイジの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -60,10 +64,10 @@ export default function HakushuNvTakakuUruPage() {
           <p>白州ノンエイジはジャパニーズウイスキーを代表する銘柄で、コレクター需要が高い1本。同じボトルでも、売り方ひとつで査定額が大きく変わります。本記事では、PeatBid編集部が推奨する**7つの実践テクニック**で白州ノンエイジの査定額を最大化する方法を徹底解説します。</p>
 
           <h2 id="section-0">1. コツ1: 付属品をすべて揃える</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>白州ノンエイジの査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。基準価格約10,000円に対し、付属品なしの場合は8,000円〜9,000円まで下がることが一般的です。</p><p>外箱の状態も重要で、シミ・破れ・水濡れ跡があると更に-5〜10%。購入時の状態を維持する努力が、最終的に数万〜数十万円の差を生みます。</p><p>まず家中を徹底的に探し、すべての付属品を集めてから売却を検討してください。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>白州ノンエイジの査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。市場相場（Yahoo中央値）を基準として、付属品なしの場合は市場相場の80〜90%程度まで下がることが一般的です。</p><p>外箱の状態も重要で、シミ・破れ・水濡れ跡があると更に-5〜10%。購入時の状態を維持する努力が、最終的に数万〜数十万円の差を生みます。</p><p>まず家中を徹底的に探し、すべての付属品を集めてから売却を検討してください。</p>` }} />
 
           <h2 id="section-1">2. コツ2: 未開封の状態を維持</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>白州ノンエイジは開封済みになると査定額が大幅に下がり、未開封の30〜40%（3,000円〜4,000円前後）まで落ちます。</p><p>コレクション目的で購入したボトルは、絶対に開けずに保管してください。「ちょっと味見」が数十万円の損失につながります。</p><p>万一開封してしまった場合は、できるだけ早く売却するのが鉄則です。時間経過とともに香味揮発・酸化が進み、査定額が更に下がります。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>白州ノンエイジは開封済みになると査定額が大幅に下がり、未開封の30〜40%（市場相場の30〜40%程度前後）まで落ちます。</p><p>コレクション目的で購入したボトルは、絶対に開けずに保管してください。「ちょっと味見」が数十万円の損失につながります。</p><p>万一開封してしまった場合は、できるだけ早く売却するのが鉄則です。時間経過とともに香味揮発・酸化が進み、査定額が更に下がります。</p>` }} />
 
           <h2 id="section-2">3. コツ3: 複数業者で相見積もり</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>同じ白州ノンエイジでも、業者によって<strong>数万〜数十万円</strong>の査定差が生じます。1社だけで決めるのは絶対に避けるべきです。</p><p>推奨フロー: (1)ヒカカク等の一括査定サイトで5社以上から見積もり取得、(2)お酒買取専門店（JOYLAB・リカスタ等）に個別で2〜3社から見積もり、(3)合計7〜8社の見積もりを比較、(4)手取り額（手数料・送料込み）で最高値の業者を選定。</p><p>査定無料・キャンセル無料の業者ばかりなので、複数比較のコストはゼロです。</p>` }} />
@@ -79,7 +83,7 @@ export default function HakushuNvTakakuUruPage() {
 クローゼットの暗所、専用ディスプレイケース、ワインセラーの低温帯などが適切です。キッチン・浴室付近は湿度・温度変化が激しいためNG。</li></ol>` }} />
 
           <h2 id="section-5">6. コツ6: 贋作対策と本物証明</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>10,000円クラスの高額銘柄では、贋作・偽造ボトルの存在が査定に影響する場合があります。<strong>購入経路の正当性を証明</strong>できる材料を揃えておくと、査定がスムーズです:</p><p>- 購入時のレシート・領収書<br/>- 正規流通店の保証書<br/>- 海外オークションの落札証明<br/>- 開封・封蝋の写真記録</p><p>業者によっては、本物と判定するために蛍光X線分析（XRF）等の精密検査を行います。事前に証明書類を揃えておくと、その手間がカットされ、最終査定額にも好影響です。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>高額銘柄では、贋作・偽造ボトルの存在が査定に影響する場合があります。<strong>購入経路の正当性を証明</strong>できる材料を揃えておくと、査定がスムーズです:</p><p>- 購入時のレシート・領収書<br/>- 正規流通店の保証書<br/>- 海外オークションの落札証明<br/>- 開封・封蝋の写真記録</p><p>業者によっては、本物と判定するために蛍光X線分析（XRF）等の精密検査を行います。事前に証明書類を揃えておくと、その手間がカットされ、最終査定額にも好影響です。</p>` }} />
 
           <h2 id="section-6">7. コツ7: 交渉術 — 業者を競わせる</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>最高値を引き出す最後のテクニックが<strong>交渉</strong>です。複数業者の見積もりを取った後、最高値の業者に対して:</p><p>「他社では{name}に対して◯◯円の査定が出ています。これ以上の金額を提示できますか？」</p><p>と率直に伝えてみてください。多くの業者は最終手段として価格上乗せに応じる可能性があります。</p><p>特に希少銘柄や複数本のまとめ売りは交渉余地が大きく、5〜10%の上乗せも珍しくありません。<strong>遠慮せず、毅然と交渉</strong>することが最後の数万円を引き出すコツです。</p>` }} />
@@ -125,42 +129,8 @@ export default function HakushuNvTakakuUruPage() {
             <Link href="/articles/hakushu-nv-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">白州ノンエイジの買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
-        
-          {/* Plan E: Auto Internal Links */}
-          <section className="bg-gold-bg/40 border border-warm-border rounded-2xl p-6 my-10 not-prose">
-            <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連記事</h2>
-          <div className="not-prose">
-            <h3 className="font-bold text-base mb-2 text-ink">📖 同じ銘柄の他の情報</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/hakushu-nv-nisemono-mikata/" className="text-amber-dark hover:text-burgundy underline">白州ノンエイジの偽物の見分け方</Link></li>
-              <li><Link href="/articles/hakushu-nv-ranking/" className="text-amber-dark hover:text-burgundy underline">白州ノンエイジの買取業者ランキング</Link></li>
-              <li><Link href="/articles/hakushu-nv-rekishi/" className="text-amber-dark hover:text-burgundy underline">白州ノンエイジの蒸溜所の歴史</Link></li>
-              <li><Link href="/articles/hakushu-nv-kihaku/" className="text-amber-dark hover:text-burgundy underline">白州ノンエイジの希少価値の理由</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🔍 他の銘柄の同種の記事</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/yamazaki-18-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">山崎18年の高く売るコツ</Link></li>
-              <li><Link href="/articles/yamazaki-25-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">山崎25年の高く売るコツ</Link></li>
-              <li><Link href="/articles/hibiki-30-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">響30年の高く売るコツ</Link></li>
-              <li><Link href="/articles/hibiki-21-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">響21年の高く売るコツ</Link></li>
-              <li><Link href="/articles/hakushu-25-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">白州25年の高く売るコツ</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🎯 関連ガイド</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/hakushu-kaitori/" className="text-amber-dark hover:text-burgundy underline">Hakushuシリーズ買取ガイド</Link></li>
-              <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
-              <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
-            </ul>
-          </div>
-          </section>
-          </article>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+        </article>
       </div>
     </>
   );

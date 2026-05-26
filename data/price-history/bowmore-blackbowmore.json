@@ -1,93 +1,23 @@
 {
   "slug": "bowmore-blackbowmore",
   "label": "ブラックボウモア",
-  "category": "scotch-whisky",
-  "latest_price_boxed": 1500000,
-  "latest_price_no_box": 1125000,
-  "latest_price_opened": 600000,
-  "trend": "up",
-  "pct_6m": 8.0,
-  "pct_12m": 13.0,
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "ブラックボウモア 700ml",
   "history": [
     {
-      "month": "2025-06",
-      "boxed": 1328000,
-      "no_box": 996000,
-      "opened": 531000
-    },
-    {
-      "month": "2025-07",
-      "boxed": 1327000,
-      "no_box": 995000,
-      "opened": 531000
-    },
-    {
-      "month": "2025-08",
-      "boxed": 1317000,
-      "no_box": 988000,
-      "opened": 527000
-    },
-    {
-      "month": "2025-09",
-      "boxed": 1365000,
-      "no_box": 1024000,
-      "opened": 546000
-    },
-    {
-      "month": "2025-10",
-      "boxed": 1343000,
-      "no_box": 1007000,
-      "opened": 537000
-    },
-    {
-      "month": "2025-11",
-      "boxed": 1389000,
-      "no_box": 1042000,
-      "opened": 556000
-    },
-    {
-      "month": "2025-12",
-      "boxed": 1401000,
-      "no_box": 1051000,
-      "opened": 560000
-    },
-    {
-      "month": "2026-01",
-      "boxed": 1443000,
-      "no_box": 1082000,
-      "opened": 577000
-    },
-    {
-      "month": "2026-02",
-      "boxed": 1472000,
-      "no_box": 1104000,
-      "opened": 589000
-    },
-    {
-      "month": "2026-03",
-      "boxed": 1477000,
-      "no_box": 1108000,
-      "opened": 591000
-    },
-    {
-      "month": "2026-04",
-      "boxed": 1450000,
-      "no_box": 1088000,
-      "opened": 580000
-    },
-    {
-      "month": "2026-05",
-      "boxed": 1500000,
-      "no_box": 1125000,
-      "opened": 600000
+      "date": "2026-05-25",
+      "median_jpy": 4000,
+      "sample_n": 94,
+      "raw_n": 110
     }
   ],
-  "updated_at": "2026-05-17",
-  "data_disclaimer": "本データは公開オークション情報・業者公開価格・市場ニュースを基にPeatBid編集部が独自に算出した推定相場です。実取引価格を保証するものではありません。",
-  "data_sources": [
-    "業者公開買取相場表（4社）",
-    "公開オークション結果（国内・海外）",
-    "市場ニュース・専門誌",
-    "編集部独自調査"
-  ]
+  "latest": {
+    "date": "2026-05-25",
+    "median_jpy": 4000,
+    "sample_n": 94,
+    "raw_n": 110,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"
 }

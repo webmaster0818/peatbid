@@ -1,11 +1,11 @@
 {
   "slug": "ichirosu-mwr",
   "label": "イチローズMWR",
-  "fetched_at": "2026-05-17T18:19:11",
+  "fetched_at": "2026-05-22T09:01:22",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC%E3%82%BA%E3%83%A2%E3%83%AB%E3%83%88%20MWR",
-  "avg": 12953,
+  "avg": 12792,
   "max": 135000,
   "min": null,
-  "count": 266,
+  "count": 275,
   "ok": true
 }

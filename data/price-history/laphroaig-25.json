@@ -1,93 +1,23 @@
 {
   "slug": "laphroaig-25",
   "label": "ラフロイグ25年",
-  "category": "scotch-whisky",
-  "latest_price_boxed": 60000,
-  "latest_price_no_box": 45000,
-  "latest_price_opened": 24000,
-  "trend": "up",
-  "pct_6m": 3.4,
-  "pct_12m": 5.3,
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "ラフロイグ25年 700ml",
   "history": [
     {
-      "month": "2025-06",
-      "boxed": 57000,
-      "no_box": 43000,
-      "opened": 23000
-    },
-    {
-      "month": "2025-07",
-      "boxed": 58000,
-      "no_box": 44000,
-      "opened": 23000
-    },
-    {
-      "month": "2025-08",
-      "boxed": 57000,
-      "no_box": 43000,
-      "opened": 23000
-    },
-    {
-      "month": "2025-09",
-      "boxed": 58000,
-      "no_box": 44000,
-      "opened": 23000
-    },
-    {
-      "month": "2025-10",
-      "boxed": 59000,
-      "no_box": 44000,
-      "opened": 24000
-    },
-    {
-      "month": "2025-11",
-      "boxed": 58000,
-      "no_box": 44000,
-      "opened": 23000
-    },
-    {
-      "month": "2025-12",
-      "boxed": 58000,
-      "no_box": 44000,
-      "opened": 23000
-    },
-    {
-      "month": "2026-01",
-      "boxed": 58000,
-      "no_box": 44000,
-      "opened": 23000
-    },
-    {
-      "month": "2026-02",
-      "boxed": 60000,
-      "no_box": 45000,
-      "opened": 24000
-    },
-    {
-      "month": "2026-03",
-      "boxed": 61000,
-      "no_box": 46000,
-      "opened": 24000
-    },
-    {
-      "month": "2026-04",
-      "boxed": 60000,
-      "no_box": 45000,
-      "opened": 24000
-    },
-    {
-      "month": "2026-05",
-      "boxed": 60000,
-      "no_box": 45000,
-      "opened": 24000
+      "date": "2026-05-25",
+      "median_jpy": 64000,
+      "sample_n": 62,
+      "raw_n": 78
     }
   ],
-  "updated_at": "2026-05-17",
-  "data_disclaimer": "本データは公開オークション情報・業者公開価格・市場ニュースを基にPeatBid編集部が独自に算出した推定相場です。実取引価格を保証するものではありません。",
-  "data_sources": [
-    "業者公開買取相場表（4社）",
-    "公開オークション結果（国内・海外）",
-    "市場ニュース・専門誌",
-    "編集部独自調査"
-  ]
+  "latest": {
+    "date": "2026-05-25",
+    "median_jpy": 64000,
+    "sample_n": 62,
+    "raw_n": 78,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"
 }

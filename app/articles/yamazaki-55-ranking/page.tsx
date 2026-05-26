@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import MarketPriceCard from "@/components/MarketPriceCard";
+import priceData from "@/data/price-history/yamazaki-55.json";
 
 export const metadata: Metadata = {
   title: '山崎55年の買取業者おすすめランキング【2026年最新】査定額・サービス・信頼性で徹底比較',
@@ -27,19 +29,21 @@ export default function Yamazaki55RankingPage() {
         </nav>
 
         <div className="article-hero mb-8">
-          <Image src="/images/article-yamazaki.png" alt='山崎55年の買取業者おすすめランキング' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
+          <Image src="/images/heroes/yamazaki-55.png" alt='山崎55年の買取業者おすすめランキング' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
           <div className="article-hero-overlay rounded-xl" />
         </div>
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎55年の買取業者おすすめランキング</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Brand mini profile */}
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">山崎55年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / 55年熟成 / 希少度 ウルトラレア / 参考相場 3,000万円前後</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / 55年熟成 / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yamazaki-55-kaitori/" className="text-amber-dark underline">山崎55年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -56,7 +60,7 @@ export default function Yamazaki55RankingPage() {
             </ol>
           </div>
 
-          <p>山崎55年を高く売るには、業者選びが最重要。同じ3,000万円クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだ山崎55年に強い買取業者4社を、ランキング形式で比較します。</p>
+          <p>山崎55年を高く売るには、業者選びが最重要。同じ市場相場クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだ山崎55年に強い買取業者4社を、ランキング形式で比較します。</p>
 
           <div className="table-wrapper not-prose my-6">
             <p className="text-sm font-bold mb-2 text-ink">業者比較表</p>
@@ -142,42 +146,8 @@ export default function Yamazaki55RankingPage() {
             <Link href="/articles/yamazaki-55-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">山崎55年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の情報は2026年5月14日時点の参考値です。最新の査定額は各業者にお問い合わせください。PRリンクを含みます。</p>
-        
-          {/* Plan E: Auto Internal Links */}
-          <section className="bg-gold-bg/40 border border-warm-border rounded-2xl p-6 my-10 not-prose">
-            <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連記事</h2>
-          <div className="not-prose">
-            <h3 className="font-bold text-base mb-2 text-ink">📖 同じ銘柄の他の情報</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/yamazaki-55-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">山崎55年の高く売るコツ</Link></li>
-              <li><Link href="/articles/yamazaki-55-nisemono-mikata/" className="text-amber-dark hover:text-burgundy underline">山崎55年の偽物の見分け方</Link></li>
-              <li><Link href="/articles/yamazaki-55-rekishi/" className="text-amber-dark hover:text-burgundy underline">山崎55年の蒸溜所の歴史</Link></li>
-              <li><Link href="/articles/yamazaki-55-kihaku/" className="text-amber-dark hover:text-burgundy underline">山崎55年の希少価値の理由</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🔍 他の銘柄の同種の記事</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/yamazaki-18-ranking/" className="text-amber-dark hover:text-burgundy underline">山崎18年の買取業者ランキング</Link></li>
-              <li><Link href="/articles/yamazaki-25-ranking/" className="text-amber-dark hover:text-burgundy underline">山崎25年の買取業者ランキング</Link></li>
-              <li><Link href="/articles/hibiki-30-ranking/" className="text-amber-dark hover:text-burgundy underline">響30年の買取業者ランキング</Link></li>
-              <li><Link href="/articles/hibiki-21-ranking/" className="text-amber-dark hover:text-burgundy underline">響21年の買取業者ランキング</Link></li>
-              <li><Link href="/articles/hakushu-25-ranking/" className="text-amber-dark hover:text-burgundy underline">白州25年の買取業者ランキング</Link></li>
-            </ul>
-          </div>
-
-          <div className="not-prose mt-5">
-            <h3 className="font-bold text-base mb-2 text-ink">🎯 関連ガイド</h3>
-            <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/yamazaki-kaitori/" className="text-amber-dark hover:text-burgundy underline">Yamazakiシリーズ買取ガイド</Link></li>
-              <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
-              <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
-            </ul>
-          </div>
-          </section>
-          </article>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+        </article>
       </div>
     </>
   );

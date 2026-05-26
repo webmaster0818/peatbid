@@ -1,0 +1,817 @@
+{
+  "ardbeg-corryvreckan": {
+    "slug": "ardbeg-corryvreckan",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "ardbeg-uigeadail": {
+    "slug": "ardbeg-uigeadail",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "balvenie-portwood-21": {
+    "slug": "balvenie-portwood-21",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "bowmore-18": {
+    "slug": "bowmore-18",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      7000
+    ],
+    "max_price": 7000,
+    "median_price": 7000,
+    "min_price": 7000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 7000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "bowmore-25": {
+    "slug": "bowmore-25",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      33000
+    ],
+    "max_price": 33000,
+    "median_price": 33000,
+    "min_price": 33000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 33000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "bowmore-blackbowmore": {
+    "slug": "bowmore-blackbowmore",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      1500000
+    ],
+    "max_price": 1500000,
+    "median_price": 1500000,
+    "min_price": 1500000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 1500000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "chichibu-the-first": {
+    "slug": "chichibu-the-first",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "glenfarclas-25": {
+    "slug": "glenfarclas-25",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "glenfiddich-30": {
+    "slug": "glenfiddich-30",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "glenmorangie-signet": {
+    "slug": "glenmorangie-signet",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "hakushu-12": {
+    "slug": "hakushu-12",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      40000,
+      35000,
+      20000
+    ],
+    "max_price": 40000,
+    "median_price": 35000,
+    "min_price": 20000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 20000
+      },
+      {
+        "label": "箱なし",
+        "price": 40000
+      },
+      {
+        "label": "箱なし",
+        "price": 35000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "hakushu-18": {
+    "slug": "hakushu-18",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      66000,
+      60000
+    ],
+    "max_price": 66000,
+    "median_price": 60000,
+    "min_price": 60000,
+    "variants_detected": [
+      {
+        "label": "ホログラム",
+        "price": 66000
+      },
+      {
+        "label": "箱なし",
+        "price": 60000
+      },
+      {
+        "label": "箱なし",
+        "price": 66000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "hakushu-25": {
+    "slug": "hakushu-25",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      430000,
+      410000
+    ],
+    "max_price": 430000,
+    "median_price": 410000,
+    "min_price": 410000,
+    "variants_detected": [
+      {
+        "label": "新型",
+        "price": 430000
+      },
+      {
+        "label": "箱あり",
+        "price": 410000
+      },
+      {
+        "label": "リミテッド",
+        "price": 430000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "hakushu-nv": {
+    "slug": "hakushu-nv",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      9300,
+      1800
+    ],
+    "max_price": 9300,
+    "median_price": 1800,
+    "min_price": 1800,
+    "variants_detected": [
+      {
+        "label": "ノンエイジ",
+        "price": 9300
+      },
+      {
+        "label": "箱なし",
+        "price": 1800
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "hanyu-card": {
+    "slug": "hanyu-card",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "hibiki-17": {
+    "slug": "hibiki-17",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      58000,
+      48000
+    ],
+    "max_price": 58000,
+    "median_price": 48000,
+    "min_price": 48000,
+    "variants_detected": [
+      {
+        "label": "箱あり",
+        "price": 58000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "hibiki-21": {
+    "slug": "hibiki-21",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      300000,
+      95000,
+      71000,
+      60000
+    ],
+    "max_price": 300000,
+    "median_price": 71000,
+    "min_price": 60000,
+    "variants_detected": [
+      {
+        "label": "ホログラム",
+        "price": 71000
+      },
+      {
+        "label": "箱なし",
+        "price": 60000
+      },
+      {
+        "label": "箱なし",
+        "price": 95000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "hibiki-30": {
+    "slug": "hibiki-30",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      660000,
+      600000,
+      535000,
+      480000,
+      400000
+    ],
+    "max_price": 660000,
+    "median_price": 535000,
+    "min_price": 400000,
+    "variants_detected": [
+      {
+        "label": "新型",
+        "price": 535000
+      },
+      {
+        "label": "箱あり",
+        "price": 480000
+      },
+      {
+        "label": "旧型",
+        "price": 400000
+      },
+      {
+        "label": "花鳥",
+        "price": 660000
+      },
+      {
+        "label": "観音",
+        "price": 600000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "hibiki-nv": {
+    "slug": "hibiki-nv",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      24000,
+      15000,
+      10000
+    ],
+    "max_price": 24000,
+    "median_price": 15000,
+    "min_price": 10000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 10000
+      },
+      {
+        "label": "箱なし",
+        "price": 15000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "ichirosu-card": {
+    "slug": "ichirosu-card",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "ichirosu-double-distilleries": {
+    "slug": "ichirosu-double-distilleries",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "ichirosu-mwr": {
+    "slug": "ichirosu-mwr",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "karuizawa-12": {
+    "slug": "karuizawa-12",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      105000,
+      63000
+    ],
+    "max_price": 105000,
+    "median_price": 63000,
+    "min_price": 63000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 63000
+      },
+      {
+        "label": "箱なし",
+        "price": 105000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "karuizawa-30": {
+    "slug": "karuizawa-30",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "laphroaig-25": {
+    "slug": "laphroaig-25",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "macallan-12": {
+    "slug": "macallan-12",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      9100
+    ],
+    "max_price": 9100,
+    "median_price": 9100,
+    "min_price": 9100,
+    "variants_detected": [
+      {
+        "label": "シェリー",
+        "price": 9100
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "macallan-18": {
+    "slug": "macallan-18",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      270000
+    ],
+    "max_price": 270000,
+    "median_price": 270000,
+    "min_price": 270000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 270000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "macallan-25": {
+    "slug": "macallan-25",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      400000,
+      180000,
+      145000
+    ],
+    "max_price": 400000,
+    "median_price": 180000,
+    "min_price": 145000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 180000
+      },
+      {
+        "label": "箱あり",
+        "price": 145000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "macallan-30": {
+    "slug": "macallan-30",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      600000,
+      400000,
+      300000
+    ],
+    "max_price": 600000,
+    "median_price": 400000,
+    "min_price": 300000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 400000
+      },
+      {
+        "label": "箱あり",
+        "price": 600000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "macallan-fine-rare": {
+    "slug": "macallan-fine-rare",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "mars-komagatake": {
+    "slug": "mars-komagatake",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "miyagikyo-12": {
+    "slug": "miyagikyo-12",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "miyagikyo-15": {
+    "slug": "miyagikyo-15",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "miyagikyo-nv": {
+    "slug": "miyagikyo-nv",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "springbank-15": {
+    "slug": "springbank-15",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      32000
+    ],
+    "max_price": 32000,
+    "median_price": 32000,
+    "min_price": 32000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 32000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "springbank-21": {
+    "slug": "springbank-21",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "taketsuru-17": {
+    "slug": "taketsuru-17",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      50000,
+      31000,
+      28000,
+      25000
+    ],
+    "max_price": 50000,
+    "median_price": 28000,
+    "min_price": 25000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 31000
+      },
+      {
+        "label": "箱なし",
+        "price": 25000
+      },
+      {
+        "label": "ピュアモルト",
+        "price": 28000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "taketsuru-21": {
+    "slug": "taketsuru-21",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      75000,
+      70000,
+      65000,
+      57000,
+      52000,
+      10000
+    ],
+    "max_price": 75000,
+    "median_price": 57000,
+    "min_price": 10000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 57000
+      },
+      {
+        "label": "箱なし",
+        "price": 10000
+      },
+      {
+        "label": "ピュアモルト",
+        "price": 70000
+      },
+      {
+        "label": "ピュアモルト",
+        "price": 52000
+      },
+      {
+        "label": "箱あり",
+        "price": 75000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "taketsuru-25": {
+    "slug": "taketsuru-25",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      170000
+    ],
+    "max_price": 170000,
+    "median_price": 170000,
+    "min_price": 170000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 170000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "taketsuru-pure": {
+    "slug": "taketsuru-pure",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      8000,
+      5600
+    ],
+    "max_price": 8000,
+    "median_price": 5600,
+    "min_price": 5600,
+    "variants_detected": [
+      {
+        "label": "ピュアモルト",
+        "price": 5600
+      },
+      {
+        "label": "箱なし",
+        "price": 8000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "talisker-25": {
+    "slug": "talisker-25",
+    "linxas_url_exists": false,
+    "note": "LINXASに該当ページなし、別データソース要"
+  },
+  "yamazaki-12": {
+    "slug": "yamazaki-12",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      56000,
+      35000,
+      22500,
+      20500,
+      1600
+    ],
+    "max_price": 56000,
+    "median_price": 22500,
+    "min_price": 1600,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 20500
+      },
+      {
+        "label": "箱なし",
+        "price": 1600
+      },
+      {
+        "label": "ピュアモルト",
+        "price": 22500
+      },
+      {
+        "label": "箱なし",
+        "price": 35000
+      },
+      {
+        "label": "箱なし",
+        "price": 56000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "yamazaki-18": {
+    "slug": "yamazaki-18",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      102000,
+      93000,
+      89000,
+      80000
+    ],
+    "max_price": 102000,
+    "median_price": 89000,
+    "min_price": 80000,
+    "variants_detected": [
+      {
+        "label": "ホログラム",
+        "price": 93000
+      },
+      {
+        "label": "箱なし",
+        "price": 80000
+      },
+      {
+        "label": "箱なし",
+        "price": 89000
+      },
+      {
+        "label": "箱なし",
+        "price": 102000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "yamazaki-25": {
+    "slug": "yamazaki-25",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      900000,
+      880000,
+      840000,
+      780000
+    ],
+    "max_price": 900000,
+    "median_price": 840000,
+    "min_price": 780000,
+    "variants_detected": [
+      {
+        "label": "旧型",
+        "price": 880000
+      },
+      {
+        "label": "箱あり",
+        "price": 840000
+      },
+      {
+        "label": "旧型",
+        "price": 780000
+      },
+      {
+        "label": "旧型",
+        "price": 900000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "yamazaki-55": {
+    "slug": "yamazaki-55",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [],
+    "max_price": null,
+    "median_price": null,
+    "min_price": null,
+    "variants_detected": [],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "yamazaki-nv": {
+    "slug": "yamazaki-nv",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      10100,
+      2400
+    ],
+    "max_price": 10100,
+    "median_price": 2400,
+    "min_price": 2400,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 10100
+      },
+      {
+        "label": "箱なし",
+        "price": 2400
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "yoichi-10": {
+    "slug": "yoichi-10",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      55000,
+      22000,
+      17000
+    ],
+    "max_price": 55000,
+    "median_price": 22000,
+    "min_price": 17000,
+    "variants_detected": [
+      {
+        "label": "現行",
+        "price": 17000
+      },
+      {
+        "label": "箱なし",
+        "price": 22000
+      },
+      {
+        "label": "箱なし",
+        "price": 55000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "yoichi-15": {
+    "slug": "yoichi-15",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      62000
+    ],
+    "max_price": 62000,
+    "median_price": 62000,
+    "min_price": 62000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 62000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "yoichi-20": {
+    "slug": "yoichi-20",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      500000,
+      450000,
+      280000,
+      250000,
+      230000,
+      220000,
+      150000
+    ],
+    "max_price": 500000,
+    "median_price": 250000,
+    "min_price": 150000,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 150000
+      },
+      {
+        "label": "箱あり",
+        "price": 150000
+      },
+      {
+        "label": "箱あり",
+        "price": 450000
+      },
+      {
+        "label": "箱あり",
+        "price": 220000
+      },
+      {
+        "label": "箱あり",
+        "price": 220000
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  },
+  "yoichi-nv": {
+    "slug": "yoichi-nv",
+    "linxas_url_exists": true,
+    "all_prices_jpy": [
+      4200
+    ],
+    "max_price": 4200,
+    "median_price": 4200,
+    "min_price": 4200,
+    "variants_detected": [
+      {
+        "label": "700ml",
+        "price": 4200
+      }
+    ],
+    "buyback_note": "未開封品のみ買取対象（LINXAS）"
+  }
+}
