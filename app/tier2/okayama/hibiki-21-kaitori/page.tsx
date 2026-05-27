@@ -15,7 +15,7 @@ function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"\u5ca1\u5c71\u770c\u3067\u97ff21\u5e74\u306f\u51fa\u5f35\u8cb7\u53d6\u3057\u3066\u3082\u3089\u3048\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u306f\u3044\u3002\u5ca1\u5c71\u770c\uff08\u5ca1\u5c71\u30fb\u5009\u6577\u30fb\u6d25\u5c71\u30fb\u7389\u91ce\uff09\u306f\u4e2d\u56fd\u5730\u65b9\u306e\u4e2d\u6838\u30a8\u30ea\u30a2\u3067\u3001\u30d0\u30a4\u30bb\u30eb \u5ca1\u5c71, \u798f\u3061\u3083\u3093 \u5ca1\u5c71, JOYLAB \u4e2d\u56fd\u306a\u3069\u4e3b\u8981\u696d\u8005\u304c\u51fa\u5f35\u8cb7\u53d6\u5bfe\u5fdc\u30a8\u30ea\u30a2\u306b\u3057\u3066\u3044\u307e\u3059\u3002\u6700\u77ed\u5373\u65e5\u5bfe\u5fdc\u3082\u53ef\u80fd\u3067\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u5ca1\u5c71\u770c\u306e\u97ff21\u5e74\u5e02\u5834\u76f8\u5834\u306f\u4ed6\u770c\u3068\u5dee\u304c\u3042\u308a\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5e02\u5834\u76f8\u5834\uff08Yahoo\u4e2d\u592e\u5024\uff09\u306f\u5168\u56fd\u5171\u901a\u3067\u3059\u304c\u3001\u696d\u8005\u8cb7\u53d6\u984d\u306f\u5730\u57df\u3084\u696d\u8005\u3067\u7570\u306a\u308a\u307e\u3059\u3002\u97ff21\u5e74\u306e\u73fe\u5728\u306e\u5e02\u5834\u76f8\u5834\u306f \u00a571,003\uff08Yahoo Auctions \u4e2d\u592e\u5024\uff09\u3002\u5b9f\u969b\u306e\u696d\u8005\u67fb\u5b9a\u306f LINXAS / \u30d0\u30a4\u30bb\u30eb / \u798f\u3061\u3083\u3093 / JOYLAB \u5404\u793e\u30da\u30fc\u30b8\u3067\u3054\u78ba\u8a8d\u304f\u3060\u3055\u3044\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u5ca1\u5c71\u770c\u306e\u5e97\u982d\u8cb7\u53d6\u3067\u97ff21\u5e74\u306f\u58f2\u308c\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u306f\u3044\u3001\u5ca1\u5c71\u30fb\u5009\u6577\u30fb\u6d25\u5c71\u30fb\u7389\u91ce\u3092\u4e2d\u5fc3\u306b\u5c02\u9580\u5e97\u30fb\u304a\u9152\u8cb7\u53d6\u5e97\u3067\u5e97\u982d\u8cb7\u53d6\u53ef\u80fd\u3067\u3059\u3002\u97ff21\u5e74\u306fhigh\u30af\u30e9\u30b9\u306e\u9298\u67c4\u306e\u305f\u3081\u3001\u4e8b\u524d\u4e88\u7d04\u30fb\u5c02\u9580\u67fb\u5b9a\u58eb\u306e\u540c\u884c\u3092\u63a8\u5968\u3057\u307e\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u97ff21\u5e74\u3092\u5ca1\u5c71\u770c\u3067\u58f2\u308b\u30d9\u30b9\u30c8\u30bf\u30a4\u30df\u30f3\u30b0\u306f\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5e74\u672b\u5e74\u59cb\u30fb\u304a\u4e2d\u5143\u30b7\u30fc\u30ba\u30f3\uff0811\u301c12\u6708\u30016\u301c7\u6708\uff09\u304c\u9ad8\u5024\u50be\u5411\u3002\u4e2d\u56fd\u5730\u65b9\u306e\u696d\u8005\u306f\u9700\u8981\u671f\u306b\u67fb\u5b9a\u984d\u304c10\u301c15%\u4e0a\u6607\u3059\u308b\u50be\u5411\u304c\u3042\u308a\u307e\u3059\u3002\u65e9\u3081\u306e\u76f8\u898b\u7a4d\u3082\u308a\u63a8\u5968\u3002\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u97ff21\u5e74\u3092\u5ca1\u5c71\u770c\u3067\u58f2\u308b \u2014 \u696d\u8005\u9078\u3073\u3068\u76f8\u898b\u7a4d\u3082\u308a\u306e\u30b3\u30c4\", \"datePublished\": \"2026-05-19\", \"dateModified\": \"2026-05-25\", \"author\": {\"@type\": \"Organization\", \"name\": \"PeatBid\u7de8\u96c6\u90e8\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"PeatBid\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u3010\u5ca1\u5c71\u770c\u3011\u97ff21\u5e74\u3092\u58f2\u308b\u306a\u3089\u77e5\u3063\u3066\u304a\u304d\u305f\u3044\u696d\u8005\u6bd4\u8f03\u3068\u76f8\u5834\", \"datePublished\": \"2026-05-19\", \"dateModified\": \"2026-05-25\", \"author\": {\"@type\": \"Organization\", \"name\": \"PeatBid\u7de8\u96c6\u90e8\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"PeatBid\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"areaServed\": {\"@type\": \"AdministrativeArea\", \"name\": \"\u5ca1\u5c71\u770c\"}, \"serviceType\": \"\u30a6\u30a4\u30b9\u30ad\u30fc\u8cb7\u53d6\u76f8\u5834\", \"provider\": {\"@type\": \"Organization\", \"name\": \"PeatBid\"}}" }} />
     </>
   );
@@ -47,19 +47,35 @@ export default function Page() {
             <span className="bg-burgundy/15 text-burgundy text-xs font-bold px-3 py-1 rounded-full">japanese-whisky</span>
             <span className="bg-amber/15 text-amber-dark text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">響21年を岡山県で売る — 業者選びと相見積もりのコツ</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">【岡山県】響21年を売るなら知っておきたい業者比較と相場</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           <h2>1. 岡山県における響21年の市場概況</h2>
-          <p>「岡山県で響21年を売りたい」という方のためのガイドです。岡山県は中国地方の中核（人口185万人、岡山・倉敷・津山・玉野が主要都市）で、ウイスキー専門業者・大手総合業者の両方が出張・店頭・宅配で対応しています。</p>
+          <p>岡山県（岡山・倉敷・津山・玉野を中心とした79万世帯・185万人）で 響21年 を売る人のための完全ガイドです。中国地方の経済圏では、酒類消費全国31位前後を背景に二次流通市場も整っています。本ページの市場相場は Yahoo Auctions 中央値ベースで、各業者の最新査定額は4業者ページから直接ご確認いただけます。</p>
           <p>中国地方の主要都市、岡山・倉敷を中心に買取需要。そのため響21年のようなjapanese-whiskyカテゴリの銘柄も二次流通が活発で、複数の買取業者が出張・店頭・宅配で対応しています。</p>
           <p>岡山県には<strong>地域密着の専門業者</strong>と<strong>全国対応の大手</strong>の両方があるため、複数業者で見積もりを比較できる環境です。</p>
 
           <h2>2. 響21年の市場相場（Yahoo中央値）</h2>
           <p>響21年の市場相場は<strong>¥71,003</strong>です（¥71,003（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=240、取得日 2026-05-25））。響21年。世界的評価が高い</p>
           <p>業者の買取査定額は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。</p>
+
+          <h3 className="!mt-6">2-1. 響21年の基本プロフィール（公式情報）</h3>
+          <div className="table-wrapper not-prose">
+            <table className="text-sm">
+              <tbody>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">流通ステータス</th><td className="px-3 py-2">現行品（年産量極小）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">国内発売年</th><td className="px-3 py-2">1994年</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">後継品</th><td className="px-3 py-2">なし（同銘柄継続）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">ドライフルーツ、蜂蜜、サンダルウッド。複雑で深いシェリー香、長く優雅な余韻</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">ISC・WWA など世界的賞の常連。投資・贈答双方の需要高</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">情報なし（個別ロット差大、Bonhams出品履歴あり）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://house.suntory.com/hibiki-whisky/hibiki-21-year-old" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://house.suntory.com/hibiki-whisky/hibiki-21-year-old</a></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray">※流通ステータスや後継品情報は2026年5月時点の公式情報に基づきます。海外オークション直近落札は参照時点のものであり、最新の市況は各オークションサイト公式で確認してください。</p>
 
           <h2>3. 状態別の業界目安（パーセンテージ）</h2>
           <p>市場相場（Yahoo中央値）を基準（100%）とした業界一般の目安です。実際の査定額は業者により異なるため、最終的な金額は各業者ページでご確認ください。</p>
@@ -70,11 +86,28 @@ export default function Page() {
             </table>
           </div>
 
-          <h2>4. 岡山県で響21年を売る — 業者の選び方と査定取得先</h2>
+          <h2>4. 岡山県のウイスキー買取市場の特性（経済データから読み解く）</h2>
+          <p>岡山県は中国地方に位置し、人口185万人・79万世帯を擁する経済圏です。ウイスキー二次流通の活発度を、公的統計データから読み解きます。</p>
+          <div className="table-wrapper not-prose">
+            <table className="text-sm">
+              <tbody>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">県内総生産</th><td className="px-3 py-2">約7.8兆円（内閣府 県民経済計算 R3年度）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">1人あたり県民所得</th><td className="px-3 py-2">286万円（内閣府 R3年度確報）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">酒類消費量ランク</th><td className="px-3 py-2">全国31位前後（国税庁 酒のしおり R5年版）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">酒類小売業免許場数</th><td className="px-3 py-2">約1,300店（国税庁 R4年3月末）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">気候特性</th><td className="px-3 py-2">瀬戸内式／少雨乾燥晴天日多い・温暖、晴れの国、ウイスキー熟成にやや乾燥環境（気象庁 気候区分）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">主要産業</th><td className="px-3 py-2">鉄鋼(水島臨海工業地帯)・石油化学・自動車(三菱)・繊維(児島ジーンズ)・農業(マスカット/桃)</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">主要駅・路線</th><td className="px-3 py-2">岡山駅(JR山陽新幹線/在来各線/岡山電気軌道)・倉敷駅(JR山陽本線/伯備線/水島臨海鉄道)・新倉敷駅(JR山陽新幹線/山陽本線)</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>岡山県の経済規模・所得水準・酒類消費動向は、ウイスキー二次流通市場の活発度を示す重要な指標です。<strong>全国31位前後</strong>という酒類消費水準と、<strong>鉄鋼(水島臨海工業地帯)・石油化学・自動車(三菱)・繊維(児島ジーンズ)・農業(マスカット/桃)</strong>を主要産業に持つ経済構造から、響21年のようなjapanese-whiskyカテゴリの銘柄も安定した買取需要があると考えられます。</p>
+
+          <h2>5. 岡山県で響21年を売る — 業者の選び方と査定取得先</h2>
           <p>岡山県で響21年を売却する際の業者は大きく2タイプに分かれます。最高値を引き出すには、両方から相見積もりを取るのが鉄則です。</p>
 
-          <h3 className="!mt-6">4-1. 岡山県の地元・対応買取業者</h3>
-          <p>中国地方を出張・店頭・宅配でカバーしている業者です。地域密着の専門知識と、足の早い対応が強み。</p>
+          <h3 className="!mt-6">5-1. 岡山県の地元・対応買取業者</h3>
+          <p>中国地方を出張・店頭・宅配でカバーしている業者です。地域密着の専門知識と、足の早い対応が強み。岡山駅(JR山陽新幹線/在来各線/岡山電気軌道)・倉敷駅(JR山陽本線/伯備線/水島臨海鉄道)・新倉敷駅(JR山陽新幹線/山陽本線)周辺へのアクセスにも対応するケースが多いです。</p>
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
@@ -83,34 +116,67 @@ export default function Page() {
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変動する場合があります。事前に公式サイトで確認するか、複数業者へ同時に査定依頼を出すのがおすすめです。</p>
 
-          <h3 className="!mt-6">4-2. 全国対応の主要4業者（最新査定額の取得先）</h3>
+          <h3 className="!mt-6">5-2. 全国対応の主要4業者（最新査定額の取得先）</h3>
           <p>本サイトでは買取額の固定値は提示せず、各業者の最新の査定額・キャンペーン情報を以下の公式ページから直接確認できます。地元業者と合わせて、最低 3〜5 社で相見積もりするのが推奨です。</p>
           <ul>
-            <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店</li>
-            <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> — 東証グロース上場、出張・店頭・宅配の3チャネル対応</li>
-            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 総合買取の大手、お酒査定にも対応</li>
-            <li><a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">JOYLAB</a> — お酒買取専門、希少銘柄の鑑定査定に強み</li>
+            <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店。響21年のようなhighクラス銘柄の参考価格を公開</li>
+            <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> — 東証グロース上場、出張・店頭・宅配の3チャネル対応。岡山県全域出張可能</li>
+            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 総合買取の大手、お酒査定にも対応。岡山・倉敷・津山・玉野を中心に対応</li>
+            <li><a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">JOYLAB</a> — お酒買取専門、希少銘柄の鑑定査定に強み。響21年のようなhighクラスにも対応</li>
           </ul>
 
-          <h2>5. 岡山県で響21年を高く売る5つのコツ</h2>
+          <h2>6. 響21年の保管と輸送 — 岡山県の気候特性を踏まえて</h2>
+          <p>岡山県は<strong>瀬戸内式／少雨乾燥晴天日多い・温暖、晴れの国、ウイスキー熟成にやや乾燥環境</strong>という気候特性があり、響21年の保管・輸送時には以下に留意してください。</p>
+          <p><strong>保管時の基本</strong>: アルコール度数43%。長期熟成・希少品。温度15-18℃・湿度50-60%、振動・光遮断を徹底</p>
+          <ul>
+            <li><strong>温度管理</strong>: 岡山県の瀬戸内式／少雨乾燥晴天日多い・温暖、晴れの国、ウイスキー熟成にやや乾燥環境を踏まえ、夏季は冷暗所、冬季は凍結を避ける（特に北日本・日本海側）</li>
+            <li><strong>湿度</strong>: 湿度50-70%が理想。湿度が低すぎるとコルク乾燥でリーカー化、高すぎるとラベル劣化</li>
+            <li><strong>振動回避</strong>: 縦置き保管が基本。横置きはコルク劣化を早めるため非推奨</li>
+            <li><strong>輸送時</strong>: 宅配買取の場合、緩衝材を十分に。割れた場合は買取不可になるため、業者指定の梱包方法に従う</li>
+            <li><strong>岡山県特有の留意点</strong>: 瀬戸内式／少雨乾燥晴天日多い・温暖、晴れの国、ウイスキー熟成にやや乾燥環境の地域では、季節の温度差が大きい時期の発送は避ける（春・秋の安定期推奨）</li>
+          </ul>
+
+          <h2>7. 響21年の最新オークション動向と査定への影響</h2>
+          <p>響21年の市場価値は、国内市場（Yahoo Auctions）と海外オークションの両方で形成されます。直近の動向を踏まえて売却タイミングを判断しましょう。</p>
+          <ul>
+            <li><strong>国内市場（Yahoo Auctions 過去180日中央値）</strong>: ¥71,003（¥71,003（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=240、取得日 2026-05-25））</li>
+            <li><strong>海外オークション直近</strong>: 情報なし（個別ロット差大、Bonhams出品履歴あり）</li>
+            <li><strong>コレクション価値</strong>: ISC・WWA など世界的賞の常連。投資・贈答双方の需要高</li>
+            <li><strong>流通ステータス</strong>: 現行品（年産量極小）（1994年発売）</li>
+          </ul>
+          <p>海外オークションで高値が付いた直後は、国内業者の買取査定額も上昇する傾向があります。逆に下落局面では業者の買取意欲も減退するため、上昇トレンドのタイミングで複数業者の相見積もりを取るのが理想です。</p>
+
+          <h2>8. 岡山県で響21年を高く売る5つのコツ</h2>
           <ol>
-            <li><strong>複数業者で相見積もり</strong>: 最低3社、できれば5社（地元業者+全国業者）の見積もりで最高値を選ぶ</li>
-            <li><strong>付属品を揃える</strong>: 外箱・冊子・カートン・保証書を揃えて業界目安として10〜20%の差</li>
-            <li><strong>中国地方の需要期に売る</strong>: 年末年始・お中元・お歳暮シーズン、新生活前の3月</li>
-            <li><strong>地域密着業者と全国業者を比較</strong>: 岡山県の地元業者は専門知識・足の早さ、全国業者は競争力ある提示が強み</li>
-            <li><strong>出張買取の場合は事前予約</strong>: 響21年はhighクラスの銘柄のため、専門査定士の同行を依頼</li>
+            <li>
+              <strong>複数業者で相見積もり</strong>: 最低3社、できれば5社（地元業者+全国業者）の見積もりで最高値を選ぶことが鉄則です。同じ響21年でも業者ごとに在庫状況・キャンペーン・査定基準が異なり、業界目安として<strong>10〜20%の査定差</strong>が出ることは珍しくありません。岡山県は全国31位前後の酒類消費圏で、業者間の競争も活発なため、相見積もりによる引き上げ効果が出やすい地域です。同時査定（同日に複数業者へ依頼）で各社の本気度を引き出すと、より高い金額が提示される傾向があります。
+            </li>
+            <li>
+              <strong>付属品を揃える</strong>: 外箱・冊子・カートン・保証書・ギャランティカードを揃えることで、業界目安として<strong>市場相場の10〜20%上昇</strong>します。特に響21年（highクラス）のような銘柄では、付属品の有無が査定額に大きく影響します。発売当時の包装紙やコルク表面の状態、ボトルナンバーの読み取り可否も評価対象になるため、購入時の状態を可能な限り保持しておきましょう。ISC・WWA など世界的賞の常連。投資・贈答双方の需要高のような銘柄では、特に状態維持が査定額の差を生みます。
+            </li>
+            <li>
+              <strong>中国地方の需要期に売る</strong>: 年末年始（11〜12月）、お中元・お歳暮シーズン（6〜7月、11〜12月）、新生活前（2〜3月）が高値傾向です。これらの時期は贈答需要やコレクター需要が高まり、業者側の仕入れ意欲も上昇します。岡山県では鉄鋼(水島臨海工業地帯)・石油化学・自動車(三菱)・繊維(児島ジーンズ)・農業(マスカット/桃)を背景に、年末年始と春先の需要期で査定額が<strong>10〜15%上昇</strong>する傾向があります。逆に夏場（8〜9月）や年明け（1月下旬〜2月）は需要が落ち着き、査定額もやや下がる傾向。響21年が現行品（年産量極小）の場合、海外オークションの動向も売却タイミングの参考になります。
+            </li>
+            <li>
+              <strong>地域密着業者と全国業者を比較</strong>: 岡山県の地元業者は<strong>専門知識・足の早さ・地域顧客のニーズ把握</strong>が強み、全国業者は<strong>競争力ある提示額・キャンペーン展開・在庫リスク許容度</strong>が強みです。岡山駅(JR山陽新幹線/在来各線/岡山電気軌道)・倉敷駅(JR山陽本線/伯備線/水島臨海鉄道)・新倉敷駅(JR山陽新幹線/山陽本線)にアクセスしやすい立地の地元業者と、出張・宅配でも対応する全国業者を組み合わせて見積もり比較することで、最高値を引き出せます。響21年のようなhighクラスの銘柄では、専門知識を持つ業者（JOYLAB・LINXAS等）の査定が特に重要です。
+            </li>
+            <li>
+              <strong>出張買取の場合は事前予約</strong>: 響21年はhighクラスの銘柄のため、専門査定士の同行を事前に依頼するのが賢明です。岡山県内の主要4業者（バイセル・福ちゃん・LINXAS・JOYLAB）は出張対応エリアにしていますが、響21年クラスの査定には専門知識が必要なため、事前に「響21年の査定希望」と伝えておくとスムーズです。岡山県は瀬戸内式／少雨乾燥晴天日多い・温暖、晴れの国、ウイスキー熟成にやや乾燥環境の地域であり、出張査定の日程は瀬戸内式／少雨乾燥晴天日多い・温暖、晴れの国、ウイスキー熟成にやや乾燥環境を踏まえた季節選びも考慮するとよいでしょう。
+            </li>
           </ol>
 
-          <h2>6. 岡山県の響21年買取で注意すべき点</h2>
+          <h2>9. 岡山県の響21年買取で注意すべき点</h2>
           <ul>
-            <li><strong>身分証必須</strong>: 古物営業法により本人確認が必要（運転免許証・マイナンバーカード等）</li>
-            <li><strong>未成年（18歳未満）は売却不可</strong>: 親権者の同意も不可</li>
-            <li><strong>偽物・贋作リスク</strong>: 響21年のような銘柄は、専門査定士の鑑定推奨</li>
-            <li><strong>輸送リスク</strong>: 宅配買取の場合、緩衝材を十分に</li>
-            <li><strong>業者の評判確認</strong>: クチコミ・Googleレビュー・実績件数を事前にチェック</li>
+            <li><strong>身分証必須</strong>: 古物営業法により本人確認が必要（運転免許証・マイナンバーカード等）。出張査定でも事前に身分証の準備を。住所・氏名・生年月日が確認できる公的書類が必須で、健康保険証など顔写真がない書類の場合は補助書類（公共料金請求書等）が必要なケースもあります。</li>
+            <li><strong>未成年（18歳未満）は売却不可</strong>: 親権者の同意も不可。古物営業法により、未成年からの買取は厳格に禁止されています。所有者が未成年の場合、相続・贈与の手続きを経て成人が売却する形式を取る必要があります。</li>
+            <li><strong>偽物・贋作リスク</strong>: 響21年のようなhighクラス銘柄は、専門査定士の鑑定推奨です。現行品（年産量極小）の響21年では特に贋作リスクが高まる傾向があり、ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性などを総合的にチェックします。JOYLABやLINXASのような専門業者では、贋作鑑定のための専門知識を持つ査定士が在籍しています。</li>
+            <li><strong>輸送リスク</strong>: 宅配買取の場合、緩衝材を十分に巻き、業者指定の梱包方法に従いましょう。岡山県は瀬戸内式／少雨乾燥晴天日多い・温暖、晴れの国、ウイスキー熟成にやや乾燥環境があり、季節によっては輸送中の温度変化が品質に影響する場合があります。可能な限り温度変化の小さい時期（春・秋）の発送が理想です。輸送中の破損は買取不可になることが多く、業者の保険対象外のケースも。</li>
+            <li><strong>業者の評判確認</strong>: クチコミ・Googleレビュー・実績件数・運営年数を事前にチェックしましょう。古物商許可番号の表示も信頼性の指標。岡山県内の地元業者は地域コミュニティでの評判も参考になります。本サイトで紹介している4業者（バイセル・福ちゃん・LINXAS・JOYLAB）はいずれも実績豊富で信頼性が確認できる業者です。</li>
+            <li><strong>査定額の根拠を確認</strong>: 業者から提示された査定額の根拠（市場相場・在庫状況・状態評価）を必ず確認しましょう。透明性のある業者ほど、根拠を明確に説明します。響21年の市場相場（Yahoo中央値 ¥71,003）と比較し、提示額が市場相場の60〜80%レンジから大きく外れる場合は、その理由を確認することが重要です。</li>
+            <li><strong>キャンセル・取消の取り扱い</strong>: 査定後すぐの即決を急かす業者は要注意。古物営業法により、買取後8日間のクーリングオフ（条件付き）が認められる場合があります。査定額に納得できない場合は、その場で断る勇気も大切。岡山県内では業者間の競争が活発なため、即決を強要されることは少ないですが、念のため留意しましょう。</li>
           </ul>
 
-          <h2>7. よくある質問</h2>
+          <h2>10. よくある質問</h2>
           <details className="border-b border-warm-border py-4 group not-prose">
             <summary className="font-bold cursor-pointer flex justify-between items-center">
               <span>岡山県で響21年は出張買取してもらえますか？</span>
