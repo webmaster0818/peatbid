@@ -102,20 +102,29 @@ function build() {
     lines.push(`  <url><loc>${BASE}/articles/${slug}/</loc><lastmod>${TODAY}</lastmod><changefreq>${cf}</changefreq><priority>${p}</priority></url>`)
   }
 
-  const tier2 = tier2Pages()
-  for (const pref of tier2.hubs) {
-    lines.push(`  <url><loc>${BASE}/tier2/${pref}/</loc><lastmod>${TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`)
-  }
-  for (const slug of tier2.details) {
-    lines.push(`  <url><loc>${BASE}/tier2/${slug}/</loc><lastmod>${TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`)
+  // tier2 は noindex のため、sitemap には掲載しない（Google公式推奨）。
+  // 将来 noindex 解除して公開する時に、INCLUDE_TIER2=1 で含めて再生成する。
+  const INCLUDE_TIER2 = process.env.INCLUDE_TIER2 === '1'
+  const tier2 = INCLUDE_TIER2 ? tier2Pages() : { hubs: [], details: [] }
+  if (INCLUDE_TIER2) {
+    for (const pref of tier2.hubs) {
+      lines.push(`  <url><loc>${BASE}/tier2/${pref}/</loc><lastmod>${TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`)
+    }
+    for (const slug of tier2.details) {
+      lines.push(`  <url><loc>${BASE}/tier2/${slug}/</loc><lastmod>${TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`)
+    }
   }
 
   lines.push('</urlset>', '')
   const tier2Count = tier2.hubs.length + tier2.details.length
-  return { xml: lines.join('\n'), total: STATIC_PAGES.length + articles.length + tier2Count, articles: articles.length, tier2: tier2Count, tier2Hubs: tier2.hubs.length, tier2Details: tier2.details.length }
+  return { xml: lines.join('\n'), total: STATIC_PAGES.length + articles.length + tier2Count, articles: articles.length, tier2: tier2Count, tier2Hubs: tier2.hubs.length, tier2Details: tier2.details.length, includeTier2: INCLUDE_TIER2 }
 }
 
 const result = build()
 fs.writeFileSync(OUT, result.xml)
 console.log(`✓ Wrote ${OUT}`)
-console.log(`  ${result.total} URLs (${STATIC_PAGES.length} static + ${result.articles} articles + ${result.tier2} tier2 [${result.tier2Hubs} hubs + ${result.tier2Details} details])`)
+if (result.includeTier2) {
+  console.log(`  ${result.total} URLs (${STATIC_PAGES.length} static + ${result.articles} articles + ${result.tier2} tier2 [${result.tier2Hubs} hubs + ${result.tier2Details} details])`)
+} else {
+  console.log(`  ${result.total} URLs (${STATIC_PAGES.length} static + ${result.articles} articles) — tier2 除外（noindex対象のため）。含めるには INCLUDE_TIER2=1 を指定。`)
+}
