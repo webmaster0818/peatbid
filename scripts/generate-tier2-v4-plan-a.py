@@ -86,10 +86,10 @@ def build_page(brand: dict, pref_slug: str) -> str:
 
     median = b["yahoo_median"]
     sufficient = median is not None and b["yahoo_n"] >= 20
-    market_label = fmt(median) if sufficient else "市場相場データ蓄積中"
+    market_label = fmt(median) if sufficient else "現在集計中"
     median_str = (
         f"{fmt(median)}（Yahoo Auctions 過去180日の落札中央値、サンプル数 n={b['yahoo_n']}、取得日 {b['yahoo_date']}）"
-        if sufficient else "現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません"
+        if sufficient else f"現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません（取得日 {b['yahoo_date']}、サンプル数 n={b['yahoo_n']}）"
     )
 
     h1 = H1_PATTERNS[h_int % len(H1_PATTERNS)].format(pref=p["name_ja"], brand=b["name_ja"])
@@ -98,8 +98,12 @@ def build_page(brand: dict, pref_slug: str) -> str:
         brand=b["name_ja"], region=p["region"]
     )
 
-    title = f"【2026年最新】{p['name_ja']}で{b['name_ja']}を売る｜市場相場(Yahoo中央値){market_label}・業者比較"
-    description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？市場相場 {market_label}（Yahoo Auctions 過去180日中央値）、{p['region']}地方の地元業者と4業者参考リンクを掲載。"
+    if sufficient:
+        title = f"【2026年最新】{p['name_ja']}で{b['name_ja']}を売る｜市場相場(Yahoo中央値){market_label}・業者比較"
+        description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？市場相場 {market_label}（Yahoo Auctions 過去180日中央値）、{p['region']}地方の地元業者と4業者参考リンクを掲載。"
+    else:
+        title = f"【2026年最新】{p['name_ja']}で{b['name_ja']}を売る｜業者比較・買取査定ガイド"
+        description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？{p['region']}地方の地元業者と4業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。"
 
     state_rows_html = "".join(
         f"<tr><td>{label}</td><td>{coef}</td></tr>"
@@ -177,6 +181,8 @@ def build_page(brand: dict, pref_slug: str) -> str:
           </details>''' for q, a in faqs
     )
 
+    canonical_url = f"https://peatbid.com/tier2/{pref_slug}/{slug}-kaitori/"
+
     return f'''import type {{ Metadata }} from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -184,6 +190,7 @@ import Image from "next/image";
 export const metadata: Metadata = {{
   title: "{title}",
   description: "{description}",
+  alternates: {{ canonical: "{canonical_url}" }},
   robots: {{ index: false, follow: false }},
 }};
 
@@ -234,7 +241,7 @@ export default function Page() {{
           <p>{p['name_ja']}には<strong>地域密着の専門業者</strong>と<strong>全国対応の大手</strong>の両方があるため、複数業者で見積もりを比較できる環境です。</p>
 
           <h2>2. {b['name_ja']}の市場相場（Yahoo中央値）</h2>
-          <p>{b['name_ja']}の現在の市場相場は<strong>{market_label}</strong>です。これは {median_str}。{b['description']}</p>
+          <p>{b['name_ja']}の市場相場は<strong>{market_label}</strong>です（{median_str}）。{b['description']}</p>
           <p>業者の買取査定額は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。</p>
 
           <h2>3. 状態別の業界目安（パーセンテージ）</h2>
@@ -246,8 +253,11 @@ export default function Page() {{
             </table>
           </div>
 
-          <h2>4. {p['name_ja']}の地元・対応買取業者</h2>
-          <p>{p['name_ja']}で{b['name_ja']}を売却する際の主要業者を紹介します。地域密着の専門業者から全国対応の大手まで、状況に合わせて選びましょう。</p>
+          <h2>4. {p['name_ja']}で{b['name_ja']}を売る — 業者の選び方と査定取得先</h2>
+          <p>{p['name_ja']}で{b['name_ja']}を売却する際の業者は大きく2タイプに分かれます。最高値を引き出すには、両方から相見積もりを取るのが鉄則です。</p>
+
+          <h3 className="!mt-6">4-1. {p['name_ja']}の地元・対応買取業者</h3>
+          <p>{p['region']}地方を出張・店頭・宅配でカバーしている業者です。地域密着の専門知識と、足の早い対応が強み。</p>
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
@@ -256,8 +266,8 @@ export default function Page() {{
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変動する場合があります。事前に公式サイトで確認するか、複数業者へ同時に査定依頼を出すのがおすすめです。</p>
 
-          <h2>5. 参考買取相場（各業者公式ページ）</h2>
-          <p>本サイトでは買取額の取得は行いません。各業者の最新の査定額・キャンペーン情報は、以下の公式ページからご確認ください:</p>
+          <h3 className="!mt-6">4-2. 全国対応の主要4業者（最新査定額の取得先）</h3>
+          <p>本サイトでは買取額の固定値は提示せず、各業者の最新の査定額・キャンペーン情報を以下の公式ページから直接確認できます。地元業者と合わせて、最低 3〜5 社で相見積もりするのが推奨です。</p>
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店</li>
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> — 東証グロース上場、出張・店頭・宅配の3チャネル対応</li>
@@ -265,7 +275,7 @@ export default function Page() {{
             <li><a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">JOYLAB</a> — お酒買取専門、希少銘柄の鑑定査定に強み</li>
           </ul>
 
-          <h2>6. {p['name_ja']}で{b['name_ja']}を高く売る5つのコツ</h2>
+          <h2>5. {p['name_ja']}で{b['name_ja']}を高く売る5つのコツ</h2>
           <ol>
             <li><strong>複数業者で相見積もり</strong>: 最低3社、できれば5社（地元業者+全国業者）の見積もりで最高値を選ぶ</li>
             <li><strong>付属品を揃える</strong>: 外箱・冊子・カートン・保証書を揃えて業界目安として10〜20%の差</li>
@@ -274,7 +284,7 @@ export default function Page() {{
             <li><strong>出張買取の場合は事前予約</strong>: {b['name_ja']}は{b['rarity']}クラスの銘柄のため、専門査定士の同行を依頼</li>
           </ol>
 
-          <h2>7. {p['name_ja']}の{b['name_ja']}買取で注意すべき点</h2>
+          <h2>6. {p['name_ja']}の{b['name_ja']}買取で注意すべき点</h2>
           <ul>
             <li><strong>身分証必須</strong>: 古物営業法により本人確認が必要（運転免許証・マイナンバーカード等）</li>
             <li><strong>未成年（18歳未満）は売却不可</strong>: 親権者の同意も不可</li>
@@ -283,7 +293,7 @@ export default function Page() {{
             <li><strong>業者の評判確認</strong>: クチコミ・Googleレビュー・実績件数を事前にチェック</li>
           </ul>
 
-          <h2>8. よくある質問</h2>
+          <h2>7. よくある質問</h2>
           {faq_html}
 
           <div className="bg-cream/40 border border-amber/30 rounded-2xl p-6 my-10 not-prose">

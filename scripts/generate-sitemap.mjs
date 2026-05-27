@@ -73,17 +73,19 @@ function articleSlugs() {
 
 function tier2Pages() {
   const dir = path.join(ROOT, 'app', 'tier2')
-  if (!fs.existsSync(dir)) return []
-  const pages = []
+  if (!fs.existsSync(dir)) return { hubs: [], details: [] }
+  const hubs = []
+  const details = []
   for (const pref of fs.readdirSync(dir, { withFileTypes: true })) {
     if (!pref.isDirectory()) continue
+    hubs.push(pref.name)
     const prefDir = path.join(dir, pref.name)
     for (const brand of fs.readdirSync(prefDir, { withFileTypes: true })) {
       if (!brand.isDirectory()) continue
-      pages.push(`${pref.name}/${brand.name}`)
+      details.push(`${pref.name}/${brand.name}`)
     }
   }
-  return pages.sort()
+  return { hubs: hubs.sort(), details: details.sort() }
 }
 
 function build() {
@@ -101,15 +103,19 @@ function build() {
   }
 
   const tier2 = tier2Pages()
-  for (const slug of tier2) {
+  for (const pref of tier2.hubs) {
+    lines.push(`  <url><loc>${BASE}/tier2/${pref}/</loc><lastmod>${TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`)
+  }
+  for (const slug of tier2.details) {
     lines.push(`  <url><loc>${BASE}/tier2/${slug}/</loc><lastmod>${TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`)
   }
 
   lines.push('</urlset>', '')
-  return { xml: lines.join('\n'), total: STATIC_PAGES.length + articles.length + tier2.length, articles: articles.length, tier2: tier2.length }
+  const tier2Count = tier2.hubs.length + tier2.details.length
+  return { xml: lines.join('\n'), total: STATIC_PAGES.length + articles.length + tier2Count, articles: articles.length, tier2: tier2Count, tier2Hubs: tier2.hubs.length, tier2Details: tier2.details.length }
 }
 
 const result = build()
 fs.writeFileSync(OUT, result.xml)
 console.log(`✓ Wrote ${OUT}`)
-console.log(`  ${result.total} URLs (${STATIC_PAGES.length} static + ${result.articles} articles + ${result.tier2} tier2)`)
+console.log(`  ${result.total} URLs (${STATIC_PAGES.length} static + ${result.articles} articles + ${result.tier2} tier2 [${result.tier2Hubs} hubs + ${result.tier2Details} details])`)
