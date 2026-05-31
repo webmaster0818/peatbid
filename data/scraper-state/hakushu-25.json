@@ -1,11 +1,11 @@
 {
   "slug": "hakushu-25",
   "label": "白州25年",
-  "fetched_at": "2026-05-22T09:00:34",
+  "fetched_at": "2026-05-29T09:00:36",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E7%99%BD%E5%B7%9E25%E5%B9%B4",
-  "avg": 96760,
+  "avg": 103088,
   "max": 660000,
   "min": null,
-  "count": 164,
+  "count": 140,
   "ok": true
 }

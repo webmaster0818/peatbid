@@ -35,7 +35,7 @@ export default function ArdbegCorryvreckanNisemonoMikataPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">アードベッグ コリーヴレッカンの偽物・贋作の見分け方</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-01 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -43,7 +43,7 @@ export default function ArdbegCorryvreckanNisemonoMikataPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">アードベッグ コリーヴレッカン</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / ノンエイジ / 希少度 コモン / 市場相場 8,091円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / ノンエイジ / 希少度 コモン / 市場相場 8,085円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/ardbeg-corryvreckan-kaitori/" className="text-amber-dark underline">アードベッグ コリーヴレッカンの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -141,7 +141,7 @@ export default function ArdbegCorryvreckanNisemonoMikataPage() {
             <Link href="/articles/ardbeg-corryvreckan-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">アードベッグ コリーヴレッカンの買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-01）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>
