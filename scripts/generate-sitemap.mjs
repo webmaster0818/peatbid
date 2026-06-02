@@ -103,8 +103,9 @@ function build() {
   }
 
   // tier2 は noindex のため、sitemap には掲載しない（Google公式推奨）。
-  // 将来 noindex 解除して公開する時に、INCLUDE_TIER2=1 で含めて再生成する。
+  // INCLUDE_TIER2=1 で全 tier2、INCLUDE_TIER2_PHASE1=1 で Phase1 のみ含める。
   const INCLUDE_TIER2 = process.env.INCLUDE_TIER2 === '1'
+  const INCLUDE_TIER2_PHASE1 = process.env.INCLUDE_TIER2_PHASE1 === '1'
   const tier2 = INCLUDE_TIER2 ? tier2Pages() : { hubs: [], details: [] }
   if (INCLUDE_TIER2) {
     for (const pref of tier2.hubs) {
@@ -114,9 +115,22 @@ function build() {
       lines.push(`  <url><loc>${BASE}/tier2/${slug}/</loc><lastmod>${TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`)
     }
   }
+  // Plan C Phase1: TOP3銘柄 × 主要10都道府県 = 30URL（noindex 解除済の段階公開対象）
+  let phase1Count = 0
+  if (!INCLUDE_TIER2 && INCLUDE_TIER2_PHASE1) {
+    const phase1Path = path.join(ROOT, 'data', 'tier2-phase1.json')
+    if (fs.existsSync(phase1Path)) {
+      const phase1 = JSON.parse(fs.readFileSync(phase1Path, 'utf-8'))
+      const urls = phase1.urls || []
+      for (const rel of urls) {
+        lines.push(`  <url><loc>${BASE}/${rel}/</loc><lastmod>${TODAY}</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>`)
+      }
+      phase1Count = urls.length
+    }
+  }
 
   lines.push('</urlset>', '')
-  const tier2Count = tier2.hubs.length + tier2.details.length
+  const tier2Count = tier2.hubs.length + tier2.details.length + phase1Count
   return { xml: lines.join('\n'), total: STATIC_PAGES.length + articles.length + tier2Count, articles: articles.length, tier2: tier2Count, tier2Hubs: tier2.hubs.length, tier2Details: tier2.details.length, includeTier2: INCLUDE_TIER2 }
 }
 

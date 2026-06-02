@@ -23,7 +23,9 @@ export PATH=/opt/homebrew/bin:/usr/bin:/usr/local/bin:$PATH
 notify_discord() {
   local content="$1"
   if [ -z "$DISCORD_PRICE_WEBHOOK" ]; then
-    echo "[$(date '+%H:%M:%S')] ⚠️  DISCORD_PRICE_WEBHOOK 未設定、通知スキップ" >&2
+    local discord_keys
+    discord_keys=$(env | cut -d= -f1 | grep -i 'discord\|webhook' | tr '\n' ',' || true)
+    echo "[$(date '+%H:%M:%S')] ⚠️  DISCORD_PRICE_WEBHOOK 未設定、通知スキップ (env discord-related keys: ${discord_keys:-none}, PATH=${PATH:0:60}...)" >&2
     return 0
   fi
   # Discord limits content to 2000 chars
@@ -36,6 +38,23 @@ print(json.dumps({'content': text}, ensure_ascii=False))
 " <<< "$content")
   /usr/bin/curl -s -X POST -H "Content-Type: application/json" \
     -d "$payload" "$DISCORD_PRICE_WEBHOOK" > /dev/null || true
+}
+
+# ===== rm -rf with retry (APFS race condition workaround) =====
+safe_rm_rf() {
+  local target="$1"
+  for attempt in 1 2 3; do
+    if rm -rf "$target" 2>/dev/null; then
+      return 0
+    fi
+    sleep 2
+  done
+  # Last-resort: force again with stderr visible, accept partial removal
+  rm -rf "$target" 2>&1 || true
+  if [ -d "$target" ]; then
+    echo "[$(date '+%H:%M:%S')] ⚠️  $target removal partial; continuing" >&2
+  fi
+  return 0
 }
 
 # ===== Error trap =====
@@ -100,8 +119,10 @@ node scripts/generate-sitemap.mjs
 cp public/sitemap.xml out/sitemap.xml 2>/dev/null || true
 
 echo "[$(date '+%H:%M:%S')] 🏗️  [6/7] Next.js ビルド"
-rm -rf .next
+safe_rm_rf .next
+set -o pipefail
 npx next build 2>&1 | tail -5
+set +o pipefail
 find out -name "__next*.txt" -type f -delete
 
 echo "[$(date '+%H:%M:%S')] 📤 [7/7] peatbid-deploy へ rsync & push（tier2除外）"
