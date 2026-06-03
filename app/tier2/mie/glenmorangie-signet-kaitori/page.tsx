@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】三重県でグレンモーレンジ シグネットを売る｜市場相場(Yahoo中央値)¥20,479・業者比較",
   description: "三重県（津・四日市・松阪・伊勢）でグレンモーレンジ シグネットを売却するなら？市場相場 ¥20,479（Yahoo Auctions 過去180日中央値）、関西地方の地元業者と4業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/mie/glenmorangie-signet-kaitori/" },
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
 };
 
 function Schema() {
@@ -212,7 +212,7 @@ export default function Page() {
             </ul>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。本ページは noindex 設定（検索エンジン非収録）です。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。最新の査定額は各業者ページで直接ご確認ください。</p>
         </article>
       </div>
     </>

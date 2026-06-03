@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】岩手県で竹鶴17年を売る｜市場相場(Yahoo中央値)¥32,999・業者比較",
   description: "岩手県（盛岡・花巻・北上・宮古）で竹鶴17年を売却するなら？市場相場 ¥32,999（Yahoo Auctions 過去180日中央値）、東北地方の地元業者と4業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/iwate/taketsuru-17-kaitori/" },
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
 };
 
 function Schema() {
@@ -212,7 +212,7 @@ export default function Page() {
             </ul>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。本ページは noindex 設定（検索エンジン非収録）です。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-05-25）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。最新の査定額は各業者ページで直接ご確認ください。</p>
         </article>
       </div>
     </>

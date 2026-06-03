@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: URL },
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
 };
 
 export default function Page() {
