@@ -21,13 +21,14 @@ export default function PrivacyPolicyPage() {
 
       <div className="space-y-8 text-sm leading-relaxed">
         <p>
-          PeatBid（ピートビッド、以下「当サイト」）は、利用者の個人情報の保護を最重要事項と位置付け、本プライバシーポリシーに基づき適切に取り扱います。
+          株式会社MediaX（以下「当社」）が運営する「PeatBid（ピートビッド、以下「当サイト」）」は、利用者の個人情報の保護を最重要事項と位置付け、本プライバシーポリシーに基づき適切に取り扱います。
         </p>
 
         <section>
           <h2 className="text-lg font-bold mb-3 border-b border-warm-border pb-2">1. 事業者情報</h2>
           <p>
-            運営: PeatBid編集部<br />
+            運営会社: 株式会社MediaX<br />
+            所在地: 東京都渋谷区東一丁目27番10号<br />
             サイトURL: https://peatbid.com<br />
             お問い合わせ: サイト内のお問い合わせフォームよりご連絡ください。
           </p>

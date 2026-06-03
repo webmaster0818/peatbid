@@ -21,13 +21,22 @@ export default function TermsOfServicePage() {
 
       <div className="space-y-8 text-sm leading-relaxed">
         <p>
-          この利用規約（以下「本規約」）は、PeatBid（ピートビッド、以下「当サイト」）の利用条件を定めるものです。当サイトをご利用いただく際は、本規約に同意したものとみなします。
+          この利用規約（以下「本規約」）は、株式会社MediaX（以下「当社」）が運営する「PeatBid（ピートビッド、以下「当サイト」）」の利用条件を定めるものです。当サイトをご利用いただく際は、本規約に同意したものとみなします。
         </p>
+
+        <section>
+          <h2 className="text-lg font-bold mb-3 border-b border-warm-border pb-2">運営者情報</h2>
+          <p>
+            運営会社: 株式会社MediaX<br />
+            所在地: 東京都渋谷区東一丁目27番10号<br />
+            サイトURL: https://peatbid.com
+          </p>
+        </section>
 
         <section>
           <h2 className="text-lg font-bold mb-3 border-b border-warm-border pb-2">第1条（本サービスの目的）</h2>
           <p>
-            当サイトは、ウイスキー買取業者の比較・紹介および買取相場情報の提供を目的とする情報メディアサービス（以下「本サービス」）を運営します。利用者が適切な業者を選択し、納得感ある売却を実現できるよう、中立的な情報を発信します。
+            当社は、ウイスキー買取業者の比較・紹介および買取相場情報の提供を目的とする情報メディアサービス（以下「本サービス」）を運営します。利用者が適切な業者を選択し、納得感ある売却を実現できるよう、中立的な情報を発信します。
           </p>
         </section>
 
