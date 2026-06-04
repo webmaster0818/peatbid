@@ -59,7 +59,7 @@ export default function HakushuKaitoriPage() {
         </nav>
 
         <div className="article-hero mb-8">
-          <Image src="/images/article-yamazaki.png" alt="白州の市場相場" width={1200} height={400} className="w-full h-[220px] object-cover rounded-xl" priority />
+          <Image src="/images/article-hakushu.png" alt="白州の市場相場" width={1200} height={400} className="w-full h-[220px] object-cover rounded-xl" priority />
           <div className="article-hero-overlay rounded-xl" />
         </div>
 

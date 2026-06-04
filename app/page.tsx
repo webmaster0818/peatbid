@@ -54,7 +54,7 @@ const featuredArticles = [
     tag: "銘柄ガイド",
     title: "白州の買取相場ガイド — NV・12年・18年・25年",
     description: "森のウイスキー・白州。終売後の急騰相場と、状態別の査定額を徹底解説。",
-    image: "/images/article-yamazaki.png",
+    image: "/images/article-hakushu.png",
     tags: ["白州", "森のウイスキー", "プレミア"],
   },
   {
@@ -62,7 +62,7 @@ const featuredArticles = [
     tag: "銘柄ガイド",
     title: "マッカランの買取相場 — 12年・18年・25年・30年",
     description: "スコッチの王・マッカラン。シェリーオーク長期熟成の希少ボトルを高値で売る方法。",
-    image: "/images/article-hibiki.png",
+    image: "/images/article-macallan.png",
     tags: ["マッカラン", "スコッチ", "シェリーオーク"],
   },
   {
