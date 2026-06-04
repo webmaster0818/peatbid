@@ -35,9 +35,16 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
-      { "@type": "Question", name: "山崎の市場相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "本サイトでは Yahoo Auctions 過去180日の落札中央値（IQR外れ値除去後）を市場相場として公開しています。グレードごとに大きく異なるため、各銘柄ページで最新値をご確認ください。業者の買取査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各社ページでご確認ください。" } },
-      { "@type": "Question", name: "山崎12年が高騰している理由は？", acceptedAnswer: { "@type": "Answer", text: "山崎12年は2018年前後の終売報道以降、供給が逼迫しプレミア化しました。国際的な品評会受賞も評価を後押ししています。" } },
-      { "@type": "Question", name: "山崎を高く売るには？", acceptedAnswer: { "@type": "Answer", text: "(1)付属品（箱・冊子・カートン）を揃える、(2)未開封のまま売る、(3)複数業者で見積もりを取る、(4)直射日光を避け縦置きで保管、の4つが基本です。" } },
+      { "@type": "Question", name: "山崎の市場相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "本サイトでは Yahoo Auctions 過去180日の落札中央値（IQR外れ値除去後）を市場相場として公開しています。NV・12年・18年・25年・55年でグレードごとに大きく異なるため、各銘柄ページで最新値をご確認ください。業者の買取査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各社ページでご確認ください。" } },
+      { "@type": "Question", name: "山崎12年が高騰している理由は？", acceptedAnswer: { "@type": "Answer", text: "山崎12年は2018年前後の品薄・出荷調整以降、供給が逼迫しプレミア化しました。1984年発売の日本初の本格シングルモルトという歴史的価値、国際品評会での受賞、アジア富裕層の需要拡大が評価を後押ししています。" } },
+      { "@type": "Question", name: "山崎を高く売るには？", acceptedAnswer: { "@type": "Answer", text: "(1)付属品（箱・冊子・カートン）を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置きで保管、(5)購入証明・シリアルを明示、(6)需要期を狙う、(7)ウイスキー専門業者を優先、の7点が基本です。" } },
+      { "@type": "Question", name: "開封済みの山崎は買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "業者によります。買取対応していても査定額は市場相場の20〜40%程度に下がるのが一般的です。コレクション・投資目的の個体は未開封維持を強く推奨します。" } },
+      { "@type": "Question", name: "箱や付属品がなくても売れますか？", acceptedAnswer: { "@type": "Answer", text: "本体のみでも買取可能ですが、業界目安として化粧箱付きより10〜20%減額になります。特に18年・25年・55年は付属品の影響が大きく、元箱・冊子・カートンの保管が重要です。" } },
+      { "@type": "Question", name: "山崎と響、どちらが高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "同熟成年数で比較した場合、シングルモルトである山崎の方が二次流通価値は高い傾向です（特に12年以上）。ブレンデッドの響は安定した需要があり流動性が高いのが特徴です。" } },
+      { "@type": "Question", name: "山崎の偽物・贋作はありますか？", acceptedAnswer: { "@type": "Answer", text: "高額化に伴い模倣品が国内外で確認されています。ラベルの墨字書体・赤い角印、キャップの印字、ボトル底の刻印、液色、購入経路の整合性を確認し、不安な場合は専門業者で真贋鑑定を依頼してください。" } },
+      { "@type": "Question", name: "古い山崎（オールドボトル）でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "旧ラベル・旧ロットはヴィンテージ価値が加算されるケースがあります。特に終売前の12年旧ボトルや特級表記の個体はコレクター需要から高値が付くことがあり、専門業者での査定を推奨します。" } },
+      { "@type": "Question", name: "山崎55年はどのくらいの価値がありますか？", acceptedAnswer: { "@type": "Answer", text: "山崎55年は2020年に国内100本限定の抽選販売（希望小売価格300万円）で登場し、海外オークションでは数千万円規模で落札された実績があります。流通量が極端に少なく、最新の落札データで個別に確認する必要があります。" } },
+      { "@type": "Question", name: "査定後にキャンセルできますか？", acceptedAnswer: { "@type": "Answer", text: "多くの業者で査定後・契約前のキャンセルは可能です。出張買取はクーリングオフ対象になることが多いですが、約款は業者ごとに異なるため、契約前にキャンセル条件・期限を必ず確認してください。" } },
     ],
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />;
@@ -99,6 +106,60 @@ export default function YamazakiKaitoriPage() {
 
           <p className="text-xs text-warm-gray">※市場相場は Yahoo Auctions 過去180日の落札データ中央値（IQR外れ値除去後）。業者の買取査定額はこの市場相場をベースに各社の在庫・キャンペーン・状態評価で算出されます。最新の業者査定額は各業者ページでご確認ください。</p>
 
+          <h2 id="each-lineup">山崎シリーズ 銘柄別ガイド</h2>
+
+          <p>山崎は単一の商品ではなくシリーズで構成されており、グレードごとに価格帯・流通量・買い手層が大きく異なります。ここでは現行・代表的な5銘柄について、特徴・テイスティング傾向・査定の効きどころを整理します。</p>
+
+          <h3>山崎ノンエイジ（NV / シングルモルト）</h3>
+          <p>年数表記のない入門グレード。2014年に発売され、ミズナラ・シェリー・ワイン樽原酒のヴァッティングで山崎の世界観を手頃に体験できる一本です。シリーズの中では比較的入手しやすく、流通量も多いため市場が安定しています。</p>
+          <ul>
+            <li><strong>テイスティング傾向</strong>: いちご・さくらんぼのような赤い果実、ほのかなミズナラ由来の伽羅香。軽やかで親しみやすい</li>
+            <li><strong>買い手層</strong>: ジャパニーズウイスキー入門者から日常飲用層</li>
+            <li><strong>査定の効きどころ</strong>: 化粧箱の有無、未開封・液面、ラベルの汚れ。比較的相場通りの査定が出やすい銘柄</li>
+            <li><Link href="/articles/yamazaki-nv-kaitori/">山崎ノンエイジ 詳細ガイド →</Link></li>
+          </ul>
+
+          <h3>山崎12年</h3>
+          <p><strong>1984年発売の、日本初の本格シングルモルト</strong>として歴史的価値を持つフラッグシップ。ミズナラ樽由来の伽羅・白檀の香りとシェリーの甘みが調和します。2018年前後の品薄・出荷調整以降、市場流通量が減少しプレミア化しました。</p>
+          <ul>
+            <li><strong>テイスティング傾向</strong>: 蜂蜜、オレンジ、ミズナラ由来の伽羅・白檀、シェリー樽の甘やかさ。厚みとバランスに優れる</li>
+            <li><strong>買い手層</strong>: 愛飲家、コレクター、海外バイヤー</li>
+            <li><strong>査定の効きどころ</strong>: 旧ロット・特級表記など年代でヴィンテージ評価。化粧箱・カートンの有無で査定差が出ます</li>
+            <li><Link href="/articles/yamazaki-12-kaitori/">山崎12年 詳細ガイド →</Link></li>
+          </ul>
+
+          <h3>山崎18年</h3>
+          <p>深いシェリー樽熟成を軸にした濃厚な一本。特徴的な<strong>バーガンディ（ワインレッド）のラベル</strong>が目印で、贈答・コレクション需要が高いグレードです。</p>
+          <ul>
+            <li><strong>テイスティング傾向</strong>: 完熟果実、レーズン、シェリー樽由来の濃厚な甘みとビターチョコのような余韻</li>
+            <li><strong>買い手層</strong>: 中級〜上級コレクター、贈答用需要、海外オークション参加層</li>
+            <li><strong>査定の効きどころ</strong>: ラベルの色褪せ、付属品の有無、シリアル・購入証明があれば査定が伸びる傾向</li>
+            <li><Link href="/articles/yamazaki-18-kaitori/">山崎18年 詳細ガイド →</Link></li>
+          </ul>
+
+          <h3>山崎25年</h3>
+          <p>長期シェリー樽熟成原酒を中心にした山崎シリーズ最高峰の一つ。年間流通量が限られ、希少性が直接価格に反映される銘柄です。国内外オークションで高額落札が常態化しています。</p>
+          <ul>
+            <li><strong>テイスティング傾向</strong>: 深い琥珀色、ドライフルーツ、チョコレート、長期熟成由来の重層的な複雑性。非常に長い余韻</li>
+            <li><strong>買い手層</strong>: 国内外コレクター、投資家、ハイエンドオークション参加層</li>
+            <li><strong>査定の効きどころ</strong>: 木箱・冊子・保証書の有無が最重要。輸出向け査定ルートを持つ業者で差が出ます</li>
+            <li><Link href="/articles/yamazaki-25-kaitori/">山崎25年 詳細ガイド →</Link></li>
+          </ul>
+
+          <h3>山崎55年</h3>
+          <p>山崎シリーズの頂点に位置する超長期熟成ボトル。<strong>2020年に国内100本限定の抽選販売（希望小売価格300万円）</strong>で登場し、海外オークションでは数千万円規模で落札された実績があります。市場に出ること自体が稀少なグレードです。</p>
+          <ul>
+            <li><strong>テイスティング傾向</strong>: 半世紀超の熟成による究極の複雑性。ごく少量しか存在しない伝説的ボトル</li>
+            <li><strong>買い手層</strong>: 世界的コレクター、投資家、ハイエンドオークション</li>
+            <li><strong>査定の効きどころ</strong>: 木箱・保証書・購入証明・シリアルの完全性。真贋鑑定と輸出ルートを持つ専門業者が必須</li>
+            <li><Link href="/articles/yamazaki-25-kaitori/">山崎の高額銘柄を売る →</Link></li>
+          </ul>
+
+          <div className="bg-cream border border-warm-border rounded-lg p-5 my-6 not-prose">
+            <p className="text-sm font-bold mb-2">編集部メモ：グレードと業者選び</p>
+            <p className="text-sm text-warm-gray leading-relaxed">同じ「山崎」でも、年式が上がるにつれて<strong>付属品の重要度</strong>と<strong>査定業者の選定精度</strong>が査定額に与える影響が大きくなります。NV→12→18→25→55と進むほど、地元のリサイクルショップではなく<strong>ウイスキー専門業者・海外バイヤー網を持つ業者</strong>での査定が必須です。</p>
+          </div>
+
           <h2>なぜ山崎はここまで高騰したのか</h2>
 
           <p>山崎25年を例にとると、2008年の発売当時は5〜7万円台で店頭に並んでいました。それが2026年現在では極めて高値で取引されています。背景には以下の構造的要因があります。</p>
@@ -138,13 +199,16 @@ export default function YamazakiKaitoriPage() {
             </table>
           </div>
 
-          <h2>山崎を高く売る4つのポイント</h2>
+          <h2 id="takaku-uru">山崎を高く売る7つの実践テクニック</h2>
 
           <ol>
-            <li><strong>付属品をすべて揃える</strong> — 外箱・冊子・カートン・ホログラムシールの有無で査定額は業界目安として10〜20%変動します。購入時の状態を維持しましょう。</li>
-            <li><strong>未開封のままで売却</strong> — 開封済みは査定額が大幅に下がります。コレクション目的で購入したものは未開封維持が鉄則です。</li>
-            <li><strong>複数業者で相見積もり</strong> — 同じ山崎でも業者により<strong>数万〜数十万円</strong>の差が出ます。複数社で比較しましょう。</li>
-            <li><strong>適切な保管環境</strong> — 直射日光を避け、室温（15〜20℃）で縦置き保管。ラベルの色あせや液面の目減りを防ぎます。</li>
+            <li><strong>付属品をすべて揃える</strong> — 外箱・冊子・カートン・ホログラムシールの有無で査定額は業界目安として10〜20%変動します。年式が上がる（18年・25年・55年）ほど影響度が大きく、木箱・保証書は欠かさず保管しましょう。</li>
+            <li><strong>未開封のまま売却する</strong> — 開封後の査定額は業界目安で市場相場の20〜40%まで下がります。コレクション・投資目的で取得した個体は未開封維持が鉄則です。</li>
+            <li><strong>複数業者で必ず相見積もりを取る</strong> — 同じ山崎でも業者ごとの販路（国内卸 / 海外バイヤー網 / オークション出品）の違いで<strong>数万〜数十万円</strong>の差が出ます。最低3社、可能なら5社の比較を推奨します。</li>
+            <li><strong>適切な保管環境を維持する</strong> — 直射日光と急激な温度変化を避け、室温（15〜20℃）の暗所で<strong>縦置き</strong>保管。横置きはコルク劣化の原因になります。</li>
+            <li><strong>需要が高まる時期を狙う</strong> — 12月の歳暮シーズン、3月の年度末贈答需要、お盆前など、業者の在庫補充タイミングを狙うとキャンペーン上乗せが期待できます。</li>
+            <li><strong>購入証明・シリアル・購入経路を明示する</strong> — 正規流通品・抽選当選品など購入経路を説明できる個体は査定が伸びる傾向があります。特に25年・55年は<strong>シリアル番号・購入時のレシート</strong>の保管が査定額に影響します。</li>
+            <li><strong>ウイスキー専門業者を優先する</strong> — 総合リサイクル業者と専門業者では、山崎の二次流通価値を正しく評価できる体制が異なります。海外オークション出品ルートを持つ業者ほど、18年以上の査定上限が高くなる傾向にあります。</li>
           </ol>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
@@ -159,6 +223,134 @@ export default function YamazakiKaitoriPage() {
           </div>
 
           
+          <h2 id="fake">山崎の偽物・贋作を見分けるチェックポイント</h2>
+
+          <p>市場価格の上昇とともに、山崎シリーズの模倣品・贋作も国内外で確認されています。買取に出す前に、自分自身でも以下のポイントを確認しておくと安心です。</p>
+
+          <h3>パッケージ・ラベルのチェック</h3>
+          <ul>
+            <li><strong>「山崎」墨字の書体</strong>: 正規品は筆書きの「山崎」が自然で力強い。線が均一・機械的、にじみ方が不自然なものは要注意</li>
+            <li><strong>赤い角印シール</strong>: ラベルの朱色の角印の位置・色味・印影の鮮明さを確認</li>
+            <li><strong>箱の質感・印字</strong>: 正規品は紙質・箔押しの精度が高い。色味が薄い、印字がずれている、フォントが微妙に異なる場合は疑わしい</li>
+          </ul>
+
+          <h3>ボトル本体のチェック</h3>
+          <ul>
+            <li><strong>ボトル底の刻印</strong>: 山崎のボトル底面には製造に関わる刻印がある。不鮮明・欠落しているものは要確認</li>
+            <li><strong>ガラスの厚み・重量感</strong>: 正規品はしっかりとした重量があり、成形が精緻</li>
+            <li><strong>液面・色合い</strong>: 同年式・同熟成度の他個体と比較して、色味が極端に異なる場合は疑わしい</li>
+          </ul>
+
+          <h3>キャップ・封緘のチェック</h3>
+          <ul>
+            <li><strong>キャップの印字</strong>: 版ずれ・かすれ・印字位置のずれは要警戒</li>
+            <li><strong>封緘シール</strong>: 開封防止の封緘が雑、または再貼付の痕跡がある場合は注意</li>
+          </ul>
+
+          <div className="bg-cream border border-warm-border rounded-lg p-5 my-6 not-prose">
+            <p className="text-sm font-bold mb-2">編集部メモ：疑わしい場合は</p>
+            <p className="text-sm text-warm-gray leading-relaxed">「もしかして偽物では？」と少しでも感じたら、ウイスキー専門の買取業者で<strong>真贋鑑定を含む査定</strong>を依頼するのが安全です。専門業者は鑑定経験が豊富で、買取後の流通責任を負う立場から、無料で鑑定を行ってくれるケースが多くなっています。</p>
+          </div>
+
+          <h2 id="partners">おすすめ買取業者4社の特徴と選び方</h2>
+
+          <p>山崎の買取に対応している主要業者は多数ありますが、山崎シリーズに適した販路と査定体制を持つ業者を選ぶことで、最終手取り額が大きく変わります。ここでは、編集部が選定した主要4社の特徴を整理します。</p>
+
+          <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
+            <div className="border border-warm-border bg-white rounded-lg p-5">
+              <p className="text-xs text-amber-dark font-bold mb-1">LINXAS</p>
+              <p className="text-sm font-bold mb-2">ウイスキー専門の高額査定路線</p>
+              <p className="text-xs text-warm-gray leading-relaxed">ジャパニーズウイスキー専門の査定体制。海外バイヤー網を持ち、山崎18年・25年・55年など高額帯で強い見積もりが出やすい傾向。</p>
+            </div>
+            <div className="border border-warm-border bg-white rounded-lg p-5">
+              <p className="text-xs text-amber-dark font-bold mb-1">バイセル</p>
+              <p className="text-sm font-bold mb-2">出張買取の全国対応力</p>
+              <p className="text-xs text-warm-gray leading-relaxed">全国出張対応・申込から最短当日訪問。複数本まとめ・引っ越し時の処分など、まとまった量で利便性が高い。</p>
+            </div>
+            <div className="border border-warm-border bg-white rounded-lg p-5">
+              <p className="text-xs text-amber-dark font-bold mb-1">福ちゃん</p>
+              <p className="text-sm font-bold mb-2">古酒対応とバランス型</p>
+              <p className="text-xs text-warm-gray leading-relaxed">骨董・古酒を含めた幅広い取扱で、山崎NV〜12年など流通量の多い銘柄やオールドボトルで安定した買取実績。</p>
+            </div>
+            <div className="border border-warm-border bg-white rounded-lg p-5">
+              <p className="text-xs text-amber-dark font-bold mb-1">JOYLAB</p>
+              <p className="text-sm font-bold mb-2">スピード重視のオンライン査定</p>
+              <p className="text-xs text-warm-gray leading-relaxed">LINE査定など簡便な仮見積もりに強み。事前の概算把握用としても活用しやすい。</p>
+            </div>
+          </div>
+
+          <p className="text-xs text-warm-gray">※ 上記は各社の公式情報・編集部の独自評価に基づく。最終的な査定額は個別状況により異なるため、複数社の相見積もりを推奨します。アフィリエイトリンクを含みます。</p>
+
+          <h2 id="process">山崎を売却する5ステップ（完全ガイド）</h2>
+
+          <ol>
+            <li>
+              <strong>STEP 1: 銘柄・状態の確認</strong>
+              <p>手元の山崎がどのグレードか（NV / 12年 / 18年 / 25年 / 55年）、付属品（外箱・冊子・カートン）が揃っているか、未開封かどうかを確認します。本記事の相場一覧で大まかな目安をつけましょう。</p>
+            </li>
+            <li>
+              <strong>STEP 2: 複数業者で仮見積もりを取る</strong>
+              <p>専門業者・総合業者を含めて3〜5社の仮見積もりを依頼。各社のLINE査定・写真送信査定を活用すると効率的です。</p>
+            </li>
+            <li>
+              <strong>STEP 3: 査定方法を選ぶ</strong>
+              <p>主な選択肢は<strong>出張買取 / 宅配買取 / 店頭買取</strong>の3つ。1本のみであれば店頭または宅配、複数本・高額（25年・55年）であれば出張が便利です。</p>
+            </li>
+            <li>
+              <strong>STEP 4: 正式査定を受ける</strong>
+              <p>業者の鑑定担当者による正式査定を受け、提示金額を確認。査定明細（市場相場、状態評価、減額理由）を必ず確認し、納得した上で買取契約に進みます。</p>
+            </li>
+            <li>
+              <strong>STEP 5: 支払い・引渡し</strong>
+              <p>多くの業者で当日現金支払または銀行振込（即日〜翌営業日）が選べます。クーリングオフ対応の有無、買取契約書の控え保管も忘れずに。</p>
+            </li>
+          </ol>
+
+          <h2 id="faq">山崎シリーズに関するよくある質問（FAQ）</h2>
+
+          <div className="not-prose space-y-3 my-6">
+            <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
+              <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q1. 山崎の市場相場はいくらですか？</summary>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">本サイト掲載のYahoo Auctions 過去180日落札中央値（IQR外れ値除去後）を、NV・12年・18年・25年・55年のグレード別に上の相場一覧で公開しています。業者の買取査定額はこの市場相場をベースに、状態・付属品・販路で調整されます。</div>
+            </details>
+            <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
+              <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q2. 山崎12年が高騰している理由は？</summary>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">2018年前後の品薄・出荷調整以降、供給が逼迫しプレミア化しました。1984年発売の日本初の本格シングルモルトという歴史的価値、国際品評会での受賞、アジア富裕層の需要拡大が評価を後押ししています。</div>
+            </details>
+            <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
+              <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q3. 開封済みの山崎は買い取ってもらえますか？</summary>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">業者によります。買取対応していても査定額は市場相場の20〜40%程度に下がるのが一般的です。コレクション・投資目的の個体は未開封維持を強く推奨します。</div>
+            </details>
+            <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
+              <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q4. 箱や付属品がなくても売れますか？</summary>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">本体のみでも買取可能ですが、業界目安として化粧箱付きより<strong>10〜20%減額</strong>になります。特に18年・25年・55年は付属品の影響が大きく、元箱・冊子・カートンの保管が重要です。</div>
+            </details>
+            <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
+              <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q5. 山崎と響、どちらが高く売れますか？</summary>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">同熟成年数で比較した場合、シングルモルトである山崎の方が二次流通価値は高い傾向です（特に12年以上）。ブレンデッドの響は安定した需要があり流動性が高いのが特徴です。詳細は <Link href="/articles/hibiki-kaitori/">響の市場相場ガイド</Link> を参照してください。</div>
+            </details>
+            <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
+              <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q6. 山崎の偽物・贋作はありますか？</summary>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">高額化に伴い模倣品が国内外で確認されています。ラベルの墨字書体・赤い角印、キャップの印字、ボトル底の刻印、液色、購入経路の整合性を確認し、不安な場合は専門業者で真贋鑑定を依頼してください。</div>
+            </details>
+            <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
+              <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q7. 古い山崎（オールドボトル）でも売れますか？</summary>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">旧ラベル・旧ロットはヴィンテージ価値が加算されるケースがあります。特に終売前の12年旧ボトルや特級表記の個体はコレクター需要から高値が付くことがあり、専門業者での査定を推奨します。</div>
+            </details>
+            <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
+              <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q8. 山崎55年はどのくらいの価値がありますか？</summary>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">山崎55年は2020年に国内100本限定の抽選販売（希望小売価格300万円）で登場し、海外オークションでは数千万円規模で落札された実績があります。流通量が極端に少なく、最新の落札データで個別に確認する必要があります。</div>
+            </details>
+            <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
+              <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q9. 査定後にキャンセルできますか？</summary>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">多くの業者で査定後・契約前のキャンセルは可能です。出張買取はクーリングオフ対象になることが多いですが、約款は業者ごとに異なるため、契約前にキャンセル条件・期限を必ず確認してください。</div>
+            </details>
+            <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
+              <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q10. 山崎を売るのに最適なタイミングは？</summary>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">需要が高まる年末年始・お中元・お歳暮シーズンが高値傾向です。海外オークションの落札結果が反映された直後や、終売・休売報道直後もプレミアが上昇する局面があります。本サイトの週次中央値で直近相場を確認した上で判断してください。</div>
+            </details>
+          </div>
+
         <h2 className="font-display text-xl md:text-2xl font-semibold mt-12 mb-4 text-foreground">都道府県別に売る</h2>
         <p className="text-warm-gray text-sm mb-4">お住まいの地域での年式別買取相場をご確認ください。47都道府県 × 各銘柄ごとに地元業者・地域別査定額傾向を解説しています。</p>
 
