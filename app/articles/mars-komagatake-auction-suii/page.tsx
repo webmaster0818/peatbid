@@ -22,6 +22,8 @@ export default function MarsKomagatakeAuctionSuiiPage() {
           <ol className="flex items-center gap-1">
             <li><Link href="/" className="hover:text-amber-dark transition-colors">ホーム</Link></li>
             <li className="breadcrumb-sep" />
+            <li><Link href="/articles/" className="hover:text-amber-dark transition-colors">銘柄一覧</Link></li>
+            <li className="breadcrumb-sep" />
             <li><Link href="/articles/mars-komagatake-kaitori/" className="hover:text-amber-dark transition-colors">マルス駒ヶ岳</Link></li>
             <li className="breadcrumb-sep" />
             <li><span className="text-foreground">オークション相場推移</span></li>

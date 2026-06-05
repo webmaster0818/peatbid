@@ -360,7 +360,7 @@ export default function Home() {
           </div>
 
           <p className="text-center mt-8">
-            <Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark font-semibold underline underline-offset-4 hover:text-burgundy transition-colors">
+            <Link href="/articles/" className="text-amber-dark font-semibold underline underline-offset-4 hover:text-burgundy transition-colors">
               全50銘柄の相場一覧を見る →
             </Link>
           </p>

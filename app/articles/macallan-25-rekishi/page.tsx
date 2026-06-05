@@ -22,6 +22,8 @@ export default function Macallan25RekishiPage() {
           <ol className="flex items-center gap-1">
             <li><Link href="/" className="hover:text-amber-dark transition-colors">ホーム</Link></li>
             <li className="breadcrumb-sep" />
+            <li><Link href="/articles/" className="hover:text-amber-dark transition-colors">銘柄一覧</Link></li>
+            <li className="breadcrumb-sep" />
             <li><Link href="/articles/macallan-25-kaitori/" className="hover:text-amber-dark transition-colors">マッカラン25年</Link></li>
             <li className="breadcrumb-sep" />
             <li><span className="text-foreground">歴史と特徴</span></li>

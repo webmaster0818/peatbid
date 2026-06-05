@@ -22,6 +22,8 @@ export default function Karuizawa12RekishiPage() {
           <ol className="flex items-center gap-1">
             <li><Link href="/" className="hover:text-amber-dark transition-colors">ホーム</Link></li>
             <li className="breadcrumb-sep" />
+            <li><Link href="/articles/" className="hover:text-amber-dark transition-colors">銘柄一覧</Link></li>
+            <li className="breadcrumb-sep" />
             <li><Link href="/articles/karuizawa-12-kaitori/" className="hover:text-amber-dark transition-colors">軽井沢12年</Link></li>
             <li className="breadcrumb-sep" />
             <li><span className="text-foreground">歴史と特徴</span></li>

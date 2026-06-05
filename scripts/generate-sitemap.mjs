@@ -53,6 +53,7 @@ function changefreqFor(priority) {
 
 const STATIC_PAGES = [
   { path: '/', priority: '1.0', changefreq: 'daily' },
+  { path: '/articles/', priority: '0.9', changefreq: 'weekly' },
   { path: '/faq/', priority: '0.7', changefreq: 'monthly' },
   { path: '/editorial/', priority: '0.6', changefreq: 'monthly' },
   { path: '/methodology/', priority: '0.6', changefreq: 'monthly' },

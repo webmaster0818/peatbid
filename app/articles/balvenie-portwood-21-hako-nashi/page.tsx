@@ -22,6 +22,8 @@ export default function BalveniePortwood21HakoNashiPage() {
           <ol className="flex items-center gap-1">
             <li><Link href="/" className="hover:text-amber-dark transition-colors">ホーム</Link></li>
             <li className="breadcrumb-sep" />
+            <li><Link href="/articles/" className="hover:text-amber-dark transition-colors">銘柄一覧</Link></li>
+            <li className="breadcrumb-sep" />
             <li><Link href="/articles/balvenie-portwood-21-kaitori/" className="hover:text-amber-dark transition-colors">バルヴェニー ポートウッド 21年</Link></li>
             <li className="breadcrumb-sep" />
             <li><span className="text-foreground">箱なしでも買取</span></li>

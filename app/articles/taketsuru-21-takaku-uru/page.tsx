@@ -22,6 +22,8 @@ export default function Taketsuru21TakakuUruPage() {
           <ol className="flex items-center gap-1">
             <li><Link href="/" className="hover:text-amber-dark transition-colors">ホーム</Link></li>
             <li className="breadcrumb-sep" />
+            <li><Link href="/articles/" className="hover:text-amber-dark transition-colors">銘柄一覧</Link></li>
+            <li className="breadcrumb-sep" />
             <li><Link href="/articles/taketsuru-21-kaitori/" className="hover:text-amber-dark transition-colors">竹鶴21年</Link></li>
             <li className="breadcrumb-sep" />
             <li><span className="text-foreground">高く売る方法</span></li>

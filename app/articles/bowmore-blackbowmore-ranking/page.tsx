@@ -22,6 +22,8 @@ export default function BowmoreBlackbowmoreRankingPage() {
           <ol className="flex items-center gap-1">
             <li><Link href="/" className="hover:text-amber-dark transition-colors">ホーム</Link></li>
             <li className="breadcrumb-sep" />
+            <li><Link href="/articles/" className="hover:text-amber-dark transition-colors">銘柄一覧</Link></li>
+            <li className="breadcrumb-sep" />
             <li><Link href="/articles/bowmore-blackbowmore-kaitori/" className="hover:text-amber-dark transition-colors">ブラックボウモア</Link></li>
             <li className="breadcrumb-sep" />
             <li><span className="text-foreground">買取業者ランキング</span></li>
