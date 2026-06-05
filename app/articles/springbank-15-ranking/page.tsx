@@ -60,7 +60,7 @@ export default function Springbank15RankingPage() {
             </ol>
           </div>
 
-          <p>スプリングバンク15年を高く売るには、業者選びが最重要。同じ市場相場クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだスプリングバンク15年に強い買取業者4社を、ランキング形式で比較します。</p>
+          <p>スプリングバンク15年を高く売るには、業者選びが最重要です。実勢中央値35,000円クラスのボトルでも、業者間で概算約1,750〜5,250円（相場の5〜15%）の査定差が生じ得ます。本記事ではPeatBid編集部が選定基準に基づいて選んだスプリングバンク15年に強い買取業者4社を、ランキング形式で比較します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>

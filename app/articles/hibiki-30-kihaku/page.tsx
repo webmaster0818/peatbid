@@ -61,7 +61,7 @@ export default function Hibiki30KihakuPage() {
             </ol>
           </div>
 
-          <p>響30年は希少度極希少クラスのボトルで、現在の買取相場は実勢の中央値前後。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
+          <p>響30年は希少度極希少クラスのボトル。直近の実勢中央値は約550,000円で、投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
@@ -100,9 +100,9 @@ export default function Hibiki30KihakuPage() {
           <h2 id="section-6">7. 税制優遇の活用</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキー売却益は<strong>譲渡所得</strong>として課税対象になります。重要なポイント:</p><ol><li><strong>年間50万円の特別控除</strong> — この範囲内なら実質非課税</li><li><strong>5年超保有で長期譲渡所得</strong> — 特別控除後の課税対象額が1/2に軽減</li><li><strong>生活用動産の非課税</strong> — 1点30万円以下は非課税
 
-例: 市場相場クラスのボトルを5年超保有して売却し、取得費が市場相場の30%程度の場合、譲渡所得は市場相場の70%程度。特別控除50万円差引、長期譲渡で1/2軽減し、課税対象額は実質的に大幅減税となります。
+例えば取得費が売却額の30%程度のボトルなら譲渡所得は売却額の約70%。さらに年間50万円の特別控除を差し引き、5年超保有なら長期譲渡で課税対象額が1/2に軽減されるため、単発売却なら課税が発生しないケースも多くあります。
 
-コレクション歴の長い方は購入時期の記録を残しておくと有利です。</li></ol>` }} />
+コレクション歴の長い方は購入時期・取得価格の記録を残しておくと有利です。</li></ol>` }} />
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">響30年の無料一括査定はこちら</h3>
