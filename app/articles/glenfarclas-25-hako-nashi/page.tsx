@@ -63,6 +63,11 @@ export default function Glenfarclas25HakoNashiPage() {
 
           <p>「外箱を捨ててしまった」「最初から箱なしで購入した」——そんな状況でも、グレンファークラス25年の買取は可能です。ただし、付属品の有無で査定額は大きく変動します。本記事では、箱なしの場合の影響と賢い売却法を完全解説します。</p>
 
+          <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
+            <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンファークラス25年の落札が約108件確認でき、落札額の中央値は21,559円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+          </div>
+
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">
               <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
@@ -97,9 +102,9 @@ export default function Glenfarclas25HakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>グレンファークラス25年の場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 市場相場（Yahoo中央値）が基準（100%）</li><li><strong>箱あり・冊子なし</strong>: 市場相場の85〜95%程度（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 市場相場の85〜92%程度（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 市場相場の80〜90%程度（80〜90%）</li><li><strong>箱・冊子なし</strong>: 市場相場の75〜85%程度（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>グレンファークラス25年の場合、実勢中央値<strong>21,559円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 21,559円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約18,330〜20,480円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約18,330〜19,830円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約17,250〜19,400円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約16,170〜18,330円（75〜85%）
 
-つまり、最大で<strong>約25%（市場相場の25%程度）の差</strong>が生じる可能性があります。</li></ol>` }} />
+つまり付属品の有無だけで、最大で<strong>約5,390円（相場の約25%）の差</strong>が生じ得ます。</li></ol>` }} />
 
           <h2 id="section-1">2. なぜ外箱が重要なのか</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は単なる包装ではなく、<strong>コレクター品の完全性</strong>を示す重要な要素です:</p><ol><li><strong>二次流通市場での評価</strong> — 海外コレクターは特にフルセット重視</li><li><strong>真贋判定の手がかり</strong> — 箱と本体の合致が本物の証</li><li><strong>保管時の保護機能</strong> — 直射日光・摩擦・埃から守る</li><li><strong>付属品の収納</strong> — 冊子・カートンの一括管理</li><li><strong>贈答品としての価値</strong> — 箱なしは贈り物として再販困難

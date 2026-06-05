@@ -63,6 +63,11 @@ export default function YoichiNvRekishiPage() {
 
           <p>余市ノンエイジはジャパニーズウイスキーを代表する銘柄の1つで、余市蒸溜所が手がけるノンエイジのボトル。本記事では、銘柄の誕生背景、蒸溜所のストーリー、味わいの個性、世界的評価、そして二次流通市場で高値が定着している理由を解説します。</p>
 
+          <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
+            <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
+            <p className="text-sm text-ink leading-relaxed">余市ノンエイジは二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
+          </div>
+
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
             <Image src="/images/distillery-japanese.png" alt="余市蒸溜所の蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
           </div>

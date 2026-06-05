@@ -63,6 +63,11 @@ export default function Hakushu12KaifuZumiPage() {
 
           <p>「白州12年を開けてしまった……もう売れない？」と諦めている方、ご安心ください。開封済みでも、状態と残量次第で買取は可能です。本記事では、開封済みの白州12年を最大限の価格で売る方法を完全解説します。</p>
 
+          <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
+            <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは白州12年の落札が約242件確認でき、落札額の中央値は20,898円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+          </div>
+
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">
               <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
@@ -97,7 +102,9 @@ export default function Hakushu12KaifuZumiPage() {
           </div>
 
           <h2 id="section-0">1. 開封済み白州12年の査定額の目安</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きが市場相場（Yahoo中央値）を基準として、開封済みは状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 市場相場の30〜40%程度</li><li><strong>7割以上残</strong>: 市場相場の25〜35%程度</li><li><strong>5割以上残</strong>: 市場相場の20〜30%程度</li><li><strong>3割以上残</strong>: 基準の10〜20%</li><li><strong>1割以下残</strong>: 買取拒否の場合あり、もしくは空ボトルとして数千円</li></ol>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>20,898円</strong>を基準として、開封済みは残量・状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 約6,270〜8,360円（30〜40%）</li><li><strong>7割以上残</strong>: 約5,220〜7,310円（25〜35%）</li><li><strong>5割以上残</strong>: 約4,180〜6,270円（20〜30%）</li><li><strong>3割以上残</strong>: 約2,090〜4,180円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合あり、もしくは空ボトルとして数千円
+
+開封済みは未開封と比べ大きく下がるため、コレクション品は開けないのが鉄則です。</li></ol>` }} />
 
           <h2 id="section-1">2. 開封済みの査定で重視される5要素</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>開封済みボトルの査定では、以下の5要素が総合的に評価されます:</p><ol><li><strong>残量</strong> — 多いほど評価額アップ。9割以上が査定の分かれ目</li><li><strong>保管状態</strong> — コルク劣化・香味揮発の度合い</li><li><strong>付属品</strong> — 外箱・冊子・カートンの有無</li><li><strong>ラベル状態</strong> — 美しさは未開封同様に評価される</li><li><strong>キャップ・栓の状態</strong> — しっかり閉まっているか、隙間からの揮発は無いか

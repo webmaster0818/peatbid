@@ -63,6 +63,11 @@ export default function Miyagikyo12RekishiPage() {
 
           <p>宮城峡12年はジャパニーズウイスキーを代表する銘柄の1つで、宮城峡蒸溜所が手がける12年熟成のボトル。本記事では、銘柄の誕生背景、蒸溜所のストーリー、味わいの個性、世界的評価、そして二次流通市場で高値が定着している理由を解説します。</p>
 
+          <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
+            <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは宮城峡12年の落札が約20件確認でき、落札額の中央値は36,000円でした。流通量がやや限定的で希少性が高めの銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+          </div>
+
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
             <Image src="/images/distillery-japanese.png" alt="宮城峡蒸溜所の蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
           </div>

@@ -61,7 +61,12 @@ export default function ArdbegCorryvreckanKihakuPage() {
             </ol>
           </div>
 
-          <p>アードベッグ コリーヴレッカンは希少度現行品クラスのボトルで、現在の買取相場は約市場相場（Yahoo中央値）前後。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
+          <p>アードベッグ コリーヴレッカンは希少度現行品クラスのボトルで、現在の買取相場は実勢の中央値前後。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
+
+          <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
+            <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではアードベッグ コリーヴレッカンの落札が約90件確認でき、落札額の中央値は8,085円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+          </div>
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
             <Image src="/images/collector-vault.png" alt="コレクター向けプライベートヴォルト" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />

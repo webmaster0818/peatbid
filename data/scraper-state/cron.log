@@ -129,3 +129,60 @@
 ⚠️  DISCORD_WEBHOOK_URL 未設定 — 通知スキップ
 
 ✅ 完了。変動検知: 9/50件
+🔍 PeatBid Level 3 Monitor — 2026-06-05 09:00:02
+   監視対象: 50銘柄
+  [1/50] 山崎NV ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [2/50] 山崎12年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [3/50] 山崎18年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [4/50] 山崎25年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [5/50] 山崎55年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [6/50] 響NV ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [7/50] 響17年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [8/50] 響21年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [9/50] 響30年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [10/50] 白州NV ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [11/50] 白州12年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [12/50] 白州18年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [13/50] 白州25年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [14/50] 竹鶴ピュアモルト ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [15/50] 竹鶴17年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [16/50] 竹鶴21年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [17/50] 竹鶴25年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [18/50] 余市NV ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [19/50] 余市10年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [20/50] 余市15年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [21/50] 余市20年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [22/50] 宮城峡NV ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [23/50] 宮城峡12年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [24/50] 宮城峡15年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [25/50] 軽井沢12年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [26/50] 軽井沢30年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [27/50] 羽生カード ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [28/50] 秩父ザファースト ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [29/50] イチローズモルト カード ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [30/50] イチローズ ダブルディスティラリーズ ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [31/50] イチローズMWR ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [32/50] マルス駒ヶ岳 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [33/50] マッカラン12年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [34/50] マッカラン18年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [35/50] マッカラン25年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [36/50] マッカラン30年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [37/50] マッカラン Fine&Rare ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [38/50] ボウモア18年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [39/50] ボウモア25年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [40/50] ブラックボウモア ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [41/50] アードベッグ ウーガダール ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [42/50] アードベッグ コリーヴレッカン ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [43/50] スプリングバンク15年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [44/50] スプリングバンク21年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [45/50] ラフロイグ25年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [46/50] タリスカー25年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [47/50] グレンフィディック30年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [48/50] グレンファークラス25年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [49/50] バルヴェニー ポートウッド21年 ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+  [50/50] グレンモーレンジ シグネット ❌ <urlopen error [Errno 8] nodename nor servname provided, or not known>
+
+📝 提案レポート: /Users/takashi.hasegawa/projects/peatbid/data/scraper-state/proposals/2026-06-05.md
+⚠️  DISCORD_WEBHOOK_URL 未設定 — 通知スキップ
+
+✅ 完了。変動検知: 0/50件

@@ -63,6 +63,11 @@ export default function Taketsuru21LabelYogorePage() {
 
           <p>長期保管した竹鶴21年のラベルが汚れた、破れた、水濡れ跡がついた——そんな場合でも、買取は可能です。本記事では、ラベルの状態が査定額にどう影響するか、状態別の価格目安と対処法を完全解説します。</p>
 
+          <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
+            <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは竹鶴21年の落札が約270件確認でき、落札額の中央値は62,698円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+          </div>
+
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">
               <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
@@ -100,7 +105,7 @@ export default function Taketsuru21LabelYogorePage() {
           <div dangerouslySetInnerHTML={{ __html: `<p>ラベルは「コレクター品の顔」とも言える重要な要素です。買取査定では以下の状態を確認:</p><ol><li><strong>新品同様</strong> — 印刷鮮明、シワ・汚れ・破れなし</li><li><strong>軽度の汚れ</strong> — 表面の埃・指紋・若干の変色</li><li><strong>シミ・水濡れ跡</strong> — 液体接触の痕跡</li><li><strong>破れ・欠け・剥がれ</strong> — 物理的損傷</li><li><strong>強い退色</strong> — 直射日光や蛍光灯による色あせ</li><li><strong>カビ・カビ跡</strong> — 湿度過多による劣化</li><li><strong>粘着テープ跡</strong> — 不適切な貼付・剥離跡</li></ol>` }} />
 
           <h2 id="section-1">2. ラベル状態別の査定額目安（竹鶴21年）</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>竹鶴21年の基準価格 市場相場（Yahoo中央値）に対し、ラベル状態でこう変動します:</p><ol><li><strong>新品同様</strong>: 市場相場（100%）</li><li><strong>軽度の汚れ</strong>: 市場相場の90%程度（90%程度）</li><li><strong>シミ・水濡れ跡</strong>: 市場相場の80%程度（80%程度）</li><li><strong>破れ・欠け</strong>: 市場相場の65%程度（65%程度）</li><li><strong>強い退色・大きな損傷</strong>: 市場相場の50%程度（50%程度）</li><li><strong>ラベル剥がれ（残あり）</strong>: 市場相場の40%程度（40%程度）</li><li><strong>ラベル完全消失</strong>: 市場相場の20%程度（20%程度、ヴィンテージ価値あれば例外）</li></ol>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>竹鶴21年の実勢中央値<strong>62,698円</strong>（新品同様=100%）に対し、ラベル状態でこう変動します:</p><ol><li><strong>新品同様</strong>: 62,698円（100%）</li><li><strong>軽度の汚れ</strong>: 約56,430円（90%程度）</li><li><strong>シミ・水濡れ跡</strong>: 約50,160円（80%程度）</li><li><strong>破れ・欠け</strong>: 約40,750円（65%程度）</li><li><strong>強い退色・大きな損傷</strong>: 約31,350円（50%程度）</li><li><strong>ラベル剥がれ（残あり）</strong>: 約25,080円（40%程度）</li><li><strong>ラベル完全消失</strong>: 約12,540円（20%程度、ヴィンテージ価値あれば例外）</li></ol>` }} />
 
           <h2 id="section-2">3. ラベル損傷が起きやすい原因</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>主な原因</strong>:</p><ol><li><strong>直射日光・蛍光灯</strong> — 退色・脆化</li><li><strong>湿度の高い場所</strong> — シミ・カビ</li><li><strong>段ボール直置き</strong> — シミ・吸湿</li><li><strong>粘着テープの貼り付け</strong> — 剥がし跡</li><li><strong>タンスや棚の埃</strong> — 表面汚れ</li><li><strong>指で頻繁に触る</strong> — 油脂による変色</li><li><strong>温度変化</strong> — ラベルの剥がれ</li><li><strong>化学物質の接触</strong> — 洗剤・芳香剤の蒸気</li></ol>` }} />

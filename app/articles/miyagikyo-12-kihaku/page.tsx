@@ -61,7 +61,12 @@ export default function Miyagikyo12KihakuPage() {
             </ol>
           </div>
 
-          <p>宮城峡12年は希少度終売プレミアクラスのボトルで、現在の買取相場は約市場相場（Yahoo中央値）前後。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
+          <p>宮城峡12年は希少度終売プレミアクラスのボトルで、現在の買取相場は実勢の中央値前後。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
+
+          <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
+            <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは宮城峡12年の落札が約20件確認でき、落札額の中央値は36,000円でした。流通量がやや限定的で希少性が高めの銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+          </div>
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
             <Image src="/images/collector-vault.png" alt="コレクター向けプライベートヴォルト" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
