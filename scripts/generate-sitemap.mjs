@@ -104,8 +104,9 @@ function build() {
   }
 
   // tier2 は noindex のため、sitemap には掲載しない（Google公式推奨）。
-  // INCLUDE_TIER2=1 で全 tier2、INCLUDE_TIER2_PHASE1=1 で Phase1 のみ含める。
-  const INCLUDE_TIER2 = process.env.INCLUDE_TIER2 === '1'
+  // tier2 は robots index:true（インデックス対象）のため既定で sitemap に含める。
+  // 除外したい場合のみ INCLUDE_TIER2=0 を指定。INCLUDE_TIER2_PHASE1=1 で Phase1 のみ。
+  const INCLUDE_TIER2 = process.env.INCLUDE_TIER2 !== '0'
   const INCLUDE_TIER2_PHASE1 = process.env.INCLUDE_TIER2_PHASE1 === '1'
   const tier2 = INCLUDE_TIER2 ? tier2Pages() : { hubs: [], details: [] }
   if (INCLUDE_TIER2) {
@@ -141,5 +142,5 @@ console.log(`✓ Wrote ${OUT}`)
 if (result.includeTier2) {
   console.log(`  ${result.total} URLs (${STATIC_PAGES.length} static + ${result.articles} articles + ${result.tier2} tier2 [${result.tier2Hubs} hubs + ${result.tier2Details} details])`)
 } else {
-  console.log(`  ${result.total} URLs (${STATIC_PAGES.length} static + ${result.articles} articles) — tier2 除外（noindex対象のため）。含めるには INCLUDE_TIER2=1 を指定。`)
+  console.log(`  ${result.total} URLs (${STATIC_PAGES.length} static + ${result.articles} articles) — tier2 除外中（INCLUDE_TIER2=0 指定時）。`)
 }
