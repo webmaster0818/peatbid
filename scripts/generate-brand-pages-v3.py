@@ -167,17 +167,23 @@ PARTNERS_DETAILED = [
 
 
 def state_table_rows_pct():
-    """Plan A: 業界一般の目安を「市場相場の％」表記のみで提示。具体的な円換算は行わない。"""
+    """業界一般の目安。(状態, 付属品, ％ラベル, lo%, hi%)。loが0=単一値(95-100は95,100)。"""
     return [
-        ("未開封・完璧", "箱・冊子・カートン揃い", "市場相場の95〜100%程度"),
-        ("未開封・箱なし", "ラベル良好", "市場相場の80〜90%程度"),
-        ("未開封・冊子なし", "外箱あり", "市場相場の85〜95%程度"),
-        ("未開封・ラベル軽度汚れ", "付属あり", "市場相場の75〜88%程度"),
-        ("未開封・ラベル損傷", "付属あり", "市場相場の60〜75%程度"),
-        ("未開封・液面減少", "やや進行", "市場相場の55〜70%程度"),
-        ("開封済み・9割以上残", "付属あり", "市場相場の30〜40%程度"),
-        ("開封済み・半分以下残", "付属あり", "市場相場の15〜25%程度"),
+        ("未開封・完璧", "箱・冊子・カートン揃い", "市場相場の95〜100%程度", 95, 100),
+        ("未開封・箱なし", "ラベル良好", "市場相場の80〜90%程度", 80, 90),
+        ("未開封・冊子なし", "外箱あり", "市場相場の85〜95%程度", 85, 95),
+        ("未開封・ラベル軽度汚れ", "付属あり", "市場相場の75〜88%程度", 75, 88),
+        ("未開封・ラベル損傷", "付属あり", "市場相場の60〜75%程度", 60, 75),
+        ("未開封・液面減少", "やや進行", "市場相場の55〜70%程度", 55, 70),
+        ("開封済み・9割以上残", "付属あり", "市場相場の30〜40%程度", 30, 40),
+        ("開封済み・半分以下残", "付属あり", "市場相場の15〜25%程度", 15, 25),
     ]
+
+
+def yen_range_pct(median, lo, hi):
+    a = int(round(median * lo / 100.0, -1))
+    z = int(round(median * hi / 100.0, -1))
+    return f"約{a:,}〜{z:,}円"
 
 
 def render_page(b, all_brands):
@@ -248,10 +254,18 @@ def render_page(b, all_brands):
         for a in angle_links_inline
     )
 
-    rows_html = "\n".join(
-        f'                <tr><td>{r[0]}</td><td>{r[1]}</td><td><strong>{r[2]}</strong></td></tr>'
-        for r in rows
-    )
+    if sufficient:
+        yen_th = "<th>概算額（中央値基準）</th>"
+        rows_html = "\n".join(
+            f'                <tr><td>{r[0]}</td><td>{r[1]}</td><td>{r[2]}</td><td><strong>{yen_range_pct(yahoo_median, r[3], r[4])}</strong></td></tr>'
+            for r in rows
+        )
+    else:
+        yen_th = ""
+        rows_html = "\n".join(
+            f'                <tr><td>{r[0]}</td><td>{r[1]}</td><td><strong>{r[2]}</strong></td></tr>'
+            for r in rows
+        )
 
     # Partners detailed reviews
     partners_html_blocks = []
@@ -478,7 +492,7 @@ export default function {component_name}() {{
           <div className="table-wrapper">
             <table>
               <thead>
-                <tr><th>状態</th><th>付属品</th><th>業界目安（市場相場対比）</th></tr>
+                <tr><th>状態</th><th>付属品</th><th>業界目安（市場相場対比）</th>{yen_th}</tr>
               </thead>
               <tbody>
 {rows_html}
@@ -486,7 +500,7 @@ export default function {component_name}() {{
             </table>
           </div>
 
-          <p>未開封・完璧（箱・冊子・カートン揃い）を基準（100%）として、各状態の業界一般の目安は概ね上記の通りです。<strong>業者により評価基準が異なる</strong>ため、具体的な円換算は本サイトでは行いません。査定時には、業者が以下の要素を総合的に判断します:</p>
+          <p>未開封・完璧（箱・冊子・カートン揃い）を基準（100%）として、各状態の業界一般の目安は概ね上記の通りです。概算額は実勢中央値に各％を乗じた<strong>目安</strong>であり、<strong>業者により評価基準が異なる</strong>ため実際の査定額とは差が出ます。査定時には、業者が以下の要素を総合的に判断します:</p>
 
           <ul>
             <li>ボトル本体の傷・汚れ</li>
