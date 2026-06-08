@@ -120,6 +120,8 @@ cp public/sitemap.xml out/sitemap.xml 2>/dev/null || true
 
 echo "[$(date '+%H:%M:%S')] 🏗️  [6/7] Next.js ビルド"
 safe_rm_rf .next
+# 大規模ビルド（約2900URL）でヒープ不足によるSIGABRT(OOM)を防ぐためヒープ拡張
+export NODE_OPTIONS="--max-old-space-size=12288"
 set -o pipefail
 npx next build 2>&1 | tail -5
 set +o pipefail
