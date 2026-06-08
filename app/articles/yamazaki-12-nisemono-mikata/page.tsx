@@ -53,13 +53,14 @@ export default function Yamazaki12NisemonoMikataPage() {
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
-              <li><a href="#section-0" className="hover:underline">1. 贋作市場の実情</a></li>
-              <li><a href="#section-1" className="hover:underline">2. チェック1: ラベルの印刷品質</a></li>
-              <li><a href="#section-2" className="hover:underline">3. チェック2: キャップ・封蝋・ホログラム</a></li>
-              <li><a href="#section-3" className="hover:underline">4. チェック3: 液色と液面の状態</a></li>
-              <li><a href="#section-4" className="hover:underline">5. チェック4: 瓶の形状・刻印</a></li>
-              <li><a href="#section-5" className="hover:underline">6. チェック5: 購入経路の信頼性</a></li>
-              <li><a href="#section-6" className="hover:underline">7. 不審なボトルを見つけた場合の対処法</a></li>
+              <li><a href="#section-0" className="hover:underline">1. 山崎12年の市場ポジションとデータ分析</a></li>
+              <li><a href="#section-1" className="hover:underline">2. 贋作市場の実情</a></li>
+              <li><a href="#section-2" className="hover:underline">3. チェック1: ラベルの印刷品質</a></li>
+              <li><a href="#section-3" className="hover:underline">4. チェック2: キャップ・封蝋・ホログラム</a></li>
+              <li><a href="#section-4" className="hover:underline">5. チェック3: 液色と液面の状態</a></li>
+              <li><a href="#section-5" className="hover:underline">6. チェック4: 瓶の形状・刻印</a></li>
+              <li><a href="#section-6" className="hover:underline">7. チェック5: 購入経路の信頼性</a></li>
+              <li><a href="#section-7" className="hover:underline">8. 不審なボトルを見つけた場合の対処法</a></li>
             </ol>
           </div>
 
@@ -70,39 +71,42 @@ export default function Yamazaki12NisemonoMikataPage() {
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎12年の落札が約232件確認でき、落札額の中央値は21,000円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
-          <h2 id="section-0">1. 贋作市場の実情</h2>
+          <h2 id="section-0">1. 山崎12年の市場ポジションとデータ分析</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>山崎12年</strong>はジャパニーズウイスキー（山崎蒸溜所）の12年熟成、度数43%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>21,000円</strong>（流通サンプル232件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+
+          <h2 id="section-1">2. 贋作市場の実情</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ジャパニーズウイスキーブーム以降、海外の二次流通市場では<strong>贋作ボトルの流通が確認</strong>されています。特に山崎・響・白州・軽井沢・羽生など希少銘柄では、巧妙に作られた贋作が個人間取引で出回ることがあります。</p><p>中国・東南アジアの一部地域では、本物の空き瓶に偽の液体を詰めて販売する手口も報告されています。高額帯の銘柄は、5チェックを徹底することが必須です。</p>` }} />
 
-          <h2 id="section-1">2. チェック1: ラベルの印刷品質</h2>
+          <h2 id="section-2">3. チェック1: ラベルの印刷品質</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>正規品はラベルの文字が<strong>鮮明・均一</strong>。フォント・字間・色合いがメーカー公式と一致します。一方、贋作には以下の特徴が見られます:</p><ol><li>文字のにじみ・かすれ</li><li>フォントの違い（似て非なる字形）</li><li>色ズレ・色ムラ</li><li>ラベルの紙質や光沢の違い</li><li>印刷位置の微妙なずれ
 
 10倍ルーペでラベル全体を確認し、メーカー公式画像と細部まで比較してください。</li></ol>` }} />
 
-          <h2 id="section-2">3. チェック2: キャップ・封蝋・ホログラム</h2>
+          <h2 id="section-3">4. チェック2: キャップ・封蝋・ホログラム</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>サントリー山崎・響、白州、マッカランなどは<strong>ホログラムシール</strong>が貼付されています。本物のホログラムは光の角度で色が変化し、立体感のある印刷が施されています。
 
 贋作は:</p><ol><li>ホログラムの粗さ</li><li>光の反射が均一（本物は不均一）</li><li>印刷が平面的（立体感に欠ける）</li><li>シールの貼り方が雑
 
 キャップの締まり具合・封蝋の状態も確認ポイントです。本物は精密に封蝋されているのに対し、贋作は封蝋に隙間や違和感があることが多いです。</li></ol>` }} />
 
-          <h2 id="section-3">4. チェック3: 液色と液面の状態</h2>
+          <h2 id="section-4">5. チェック3: 液色と液面の状態</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>本物の山崎12年は<strong>均一な琥珀色</strong>で透明感があります。贋作の特徴:</p><ol><li>色ムラ・濁り</li><li>沈殿物の存在</li><li>不自然に濃い/薄い色</li><li>気泡が永久に残る</li><li>振った時の液体の動きが不自然（粘度が異なる）
 
 また、液面の高さも重要なチェックポイント。本物の山崎12年は通常、肩口（首の付け根）の少し下まで液体があります。極端に液面が下がっている場合は、長期保管による「目減り」か、贋作の可能性があります。</li></ol>` }} />
 
-          <h2 id="section-4">5. チェック4: 瓶の形状・刻印</h2>
+          <h2 id="section-5">6. チェック4: 瓶の形状・刻印</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>公式ボトルは<strong>底面に刻印</strong>（ロット番号、製造所コード等）があります。贋作はこの刻印が:</p><ol><li>存在しない</li><li>印字パターンが異なる</li><li>不自然な深さ</li><li>ロット番号がメーカーの規則に合わない
 
 また、瓶の重量・厚みも正規品と微妙に違うことがあります。同じ銘柄を複数本所有している場合は、重さを比較してみてください。</li></ol>` }} />
 
-          <h2 id="section-5">6. チェック5: 購入経路の信頼性</h2>
+          <h2 id="section-6">7. チェック5: 購入経路の信頼性</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>信頼度の高い購入経路</strong>:</p><ol><li>海外オークション（Sotheby's、Bonhams、Whisky Auctioneer）</li><li>正規流通店・百貨店リカーショップ</li><li>国内大手買取業者の販売部門</li><li>信頼できる個人コレクターの直接取引
 
 <strong>リスクが高い経路</strong>:</li><li>個人間取引（メルカリ、ヤフオク）の無名出品者</li><li>海外（特に中華圏）の無名通販店</li><li>SNS・LINEでの個人取引</li><li>異常に安い「掘り出し物」
 
 相場より20%以上安い山崎12年は要警戒。「他では絶対手に入らない」と煽る業者・個人も典型的な贋作販売パターンです。</li></ol>` }} />
 
-          <h2 id="section-6">7. 不審なボトルを見つけた場合の対処法</h2>
+          <h2 id="section-7">8. 不審なボトルを見つけた場合の対処法</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>自身が保有する山崎12年が不審に見える場合、または購入を検討中のボトルが怪しい場合は、以下の手順で対処してください:</p><ol><li><strong>写真記録</strong> — ボトル全体・ラベル各角度・キャップ・底面の刻印を高解像度で撮影</li><li><strong>専門業者で鑑定査定</strong> — JOYLAB等のお酒買取専門店で無料鑑定を依頼</li><li><strong>メーカーへの問い合わせ</strong> — サントリー・ニッカ等の公式お客様窓口にロット番号を伝えて真贋確認</li><li><strong>購入経路を遡る</strong> — 不正流通の可能性が高い場合は購入元に返品交渉</li><li><strong>警察への相談</strong> — 詐欺の可能性がある場合は最寄りの警察署で相談
 
 贋作と判明した場合、買取業者は買取を拒否します。また、贋作と知りながら売却することは詐欺罪に該当する可能性があるため、誠実に対処することが重要です。</li></ol>` }} />

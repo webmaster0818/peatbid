@@ -53,13 +53,14 @@ export default function Taketsuru25KaifuZumiPage() {
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
-              <li><a href="#section-0" className="hover:underline">1. 開封済み竹鶴25年の査定額の目安</a></li>
-              <li><a href="#section-1" className="hover:underline">2. 開封済みの査定で重視される5要素</a></li>
-              <li><a href="#section-2" className="hover:underline">3. 開封済みでも価値が高くなる条件</a></li>
-              <li><a href="#section-3" className="hover:underline">4. 売却までの保管のコツ</a></li>
-              <li><a href="#section-4" className="hover:underline">5. 開封済みを買取してくれる業者</a></li>
-              <li><a href="#section-5" className="hover:underline">6. 開封済みを高く売る5つのコツ</a></li>
-              <li><a href="#section-6" className="hover:underline">7. 売れない場合の対処法</a></li>
+              <li><a href="#section-0" className="hover:underline">1. 竹鶴25年の市場ポジションとデータ分析</a></li>
+              <li><a href="#section-1" className="hover:underline">2. 開封済み竹鶴25年の査定額の目安</a></li>
+              <li><a href="#section-2" className="hover:underline">3. 開封済みの査定で重視される5要素</a></li>
+              <li><a href="#section-3" className="hover:underline">4. 開封済みでも価値が高くなる条件</a></li>
+              <li><a href="#section-4" className="hover:underline">5. 売却までの保管のコツ</a></li>
+              <li><a href="#section-5" className="hover:underline">6. 開封済みを買取してくれる業者</a></li>
+              <li><a href="#section-6" className="hover:underline">7. 開封済みを高く売る5つのコツ</a></li>
+              <li><a href="#section-7" className="hover:underline">8. 売れない場合の対処法</a></li>
             </ol>
           </div>
 
@@ -103,35 +104,38 @@ export default function Taketsuru25KaifuZumiPage() {
             </div>
           </div>
 
-          <h2 id="section-0">1. 開封済み竹鶴25年の査定額の目安</h2>
+          <h2 id="section-0">1. 竹鶴25年の市場ポジションとデータ分析</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>竹鶴25年</strong>はジャパニーズウイスキー（ニッカ）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>184,800円</strong>（流通サンプル54件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+
+          <h2 id="section-1">2. 開封済み竹鶴25年の査定額の目安</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>184,800円</strong>を基準として、開封済みは残量・状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 約55,440〜73,920円（30〜40%）</li><li><strong>7割以上残</strong>: 約46,200〜64,680円（25〜35%）</li><li><strong>5割以上残</strong>: 約36,960〜55,440円（20〜30%）</li><li><strong>3割以上残</strong>: 約18,480〜36,960円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合あり、もしくは空ボトルとして数千円
 
 開封済みは未開封と比べ大きく下がるため、コレクション品は開けないのが鉄則です。</li></ol>` }} />
 
-          <h2 id="section-1">2. 開封済みの査定で重視される5要素</h2>
+          <h2 id="section-2">3. 開封済みの査定で重視される5要素</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>開封済みボトルの査定では、以下の5要素が総合的に評価されます:</p><ol><li><strong>残量</strong> — 多いほど評価額アップ。9割以上が査定の分かれ目</li><li><strong>保管状態</strong> — コルク劣化・香味揮発の度合い</li><li><strong>付属品</strong> — 外箱・冊子・カートンの有無</li><li><strong>ラベル状態</strong> — 美しさは未開封同様に評価される</li><li><strong>キャップ・栓の状態</strong> — しっかり閉まっているか、隙間からの揮発は無いか
 
 各業者は独自の基準で評価しますが、上記5要素は共通の判断材料です。</li></ol>` }} />
 
-          <h2 id="section-2">3. 開封済みでも価値が高くなる条件</h2>
+          <h2 id="section-3">4. 開封済みでも価値が高くなる条件</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>以下のような竹鶴25年は、開封済みでも高めの査定が期待できます:</p><ol><li><strong>終売・希少銘柄</strong>（流通量が極小）</li><li><strong>古いボトリング</strong>（ヴィンテージ価値）</li><li><strong>外箱・冊子が完全保存</strong></li><li><strong>残量が9割以上で蓋がしっかり閉まっている</strong></li><li><strong>特殊な限定品・記念ボトル</strong></li><li><strong>海外コレクター需要が高い銘柄</strong></li><li><strong>正規流通店での購入証明あり</strong></li></ol>` }} />
 
-          <h2 id="section-3">4. 売却までの保管のコツ</h2>
+          <h2 id="section-4">5. 売却までの保管のコツ</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>開封後の竹鶴25年は、なるべく早く売却するか、適切に保管しましょう:</p><ol><li><strong>立てて保管</strong>（横置きはコルク劣化）</li><li><strong>直射日光なし、室温20℃以下</strong></li><li><strong>可能なら未開封同等の場所で</strong></li><li><strong>売却まで開けない、注ぎ足しはしない</strong></li><li><strong>キャップをしっかり閉める</strong></li><li><strong>湿度50〜70%を維持</strong></li><li><strong>振動・衝撃を避ける</strong>
 
 適切な保管により、開封後数年間は香味・品質を保持できます。</li></ol>` }} />
 
-          <h2 id="section-4">5. 開封済みを買取してくれる業者</h2>
+          <h2 id="section-5">6. 開封済みを買取してくれる業者</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid推奨の4社（ヒカカク・バイセル・JOYLAB・リカスタ）は、いずれも開封済みでも査定対応可能です。
 
 <strong>各社の開封済み買取の特徴</strong>:</p><ol><li><strong>ヒカカク！</strong> — 一括査定で開封済みも受付業者を絞り込み可能</li><li><strong>バイセル</strong> — 残量9割以上を主に扱う、それ以下は要相談</li><li><strong>JOYLAB</strong> — お酒専門で開封済みも積極買取、状態評価が公平</li><li><strong>リカスタ</strong> — 宅配で開封済みも対応、ただし運送中の漏れに注意
 
 業者によっては残量条件があるため、事前確認をおすすめします。</li></ol>` }} />
 
-          <h2 id="section-5">6. 開封済みを高く売る5つのコツ</h2>
+          <h2 id="section-6">7. 開封済みを高く売る5つのコツ</h2>
           <div dangerouslySetInnerHTML={{ __html: `<ol><li><strong>早めの売却</strong> — 時間経過で香味揮発・酸化が進み価値減</li><li><strong>外箱・冊子を必ず添付</strong> — 付属品の有無は査定に影響</li><li><strong>複数業者比較</strong> — 開封済みでも数千〜数万円の差</li><li><strong>保管状態の写真記録</strong> — 適切に保管していたことを証明</li><li><strong>正直な状態申告</strong> — 残量・状態を正確に伝える</li></ol>` }} />
 
-          <h2 id="section-6">7. 売れない場合の対処法</h2>
+          <h2 id="section-7">8. 売れない場合の対処法</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>万一竹鶴25年が買取拒否された場合の選択肢:</p><ol><li><strong>別業者で再査定</strong> — 業者により判断基準が異なる</li><li><strong>個人売買（メルカリ・ヤフオク）</strong> — 業者買取より高値が出る可能性</li><li><strong>オークション出品</strong> — 希少銘柄なら入札競争で高値</li><li><strong>コレクター仲間との直接取引</strong> — ウイスキー愛好家のコミュニティで交渉</li><li><strong>空ボトル買取</strong> — ボトル本体・ラベル・箱に価値があれば数千円で買取可能
 
 諦める前に、複数のチャネルを試してみることをおすすめします。</li></ol>` }} />

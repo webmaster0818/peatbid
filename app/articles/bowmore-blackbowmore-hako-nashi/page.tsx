@@ -53,13 +53,14 @@ export default function BowmoreBlackbowmoreHakoNashiPage() {
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
-              <li><a href="#section-0" className="hover:underline">1. 箱なしによる査定額の影響</a></li>
-              <li><a href="#section-1" className="hover:underline">2. なぜ外箱が重要なのか</a></li>
-              <li><a href="#section-2" className="hover:underline">3. 箱を失った場合の対応策</a></li>
-              <li><a href="#section-3" className="hover:underline">4. 箱なしでも高く売る7つのコツ</a></li>
-              <li><a href="#section-4" className="hover:underline">5. 箱なしでも歓迎の買取業者</a></li>
-              <li><a href="#section-5" className="hover:underline">6. 代用品の箱を使うことについて</a></li>
-              <li><a href="#section-6" className="hover:underline">7. 箱を新規購入できるか</a></li>
+              <li><a href="#section-0" className="hover:underline">1. ブラックボウモアの市場ポジションとデータ分析</a></li>
+              <li><a href="#section-1" className="hover:underline">2. 箱なしによる査定額の影響</a></li>
+              <li><a href="#section-2" className="hover:underline">3. なぜ外箱が重要なのか</a></li>
+              <li><a href="#section-3" className="hover:underline">4. 箱を失った場合の対応策</a></li>
+              <li><a href="#section-4" className="hover:underline">5. 箱なしでも高く売る7つのコツ</a></li>
+              <li><a href="#section-5" className="hover:underline">6. 箱なしでも歓迎の買取業者</a></li>
+              <li><a href="#section-6" className="hover:underline">7. 代用品の箱を使うことについて</a></li>
+              <li><a href="#section-7" className="hover:underline">8. 箱を新規購入できるか</a></li>
             </ol>
           </div>
 
@@ -103,37 +104,40 @@ export default function BowmoreBlackbowmoreHakoNashiPage() {
             </div>
           </div>
 
-          <h2 id="section-0">1. 箱なしによる査定額の影響</h2>
+          <h2 id="section-0">1. ブラックボウモアの市場ポジションとデータ分析</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ブラックボウモア</strong>はスコッチウイスキー（アイラ）のノンエイジ（NV）、度数49%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>4,030円</strong>（流通サンプル96件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（アイラ）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+
+          <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ブラックボウモアの場合、実勢中央値<strong>4,030円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 4,030円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約3,430〜3,830円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約3,430〜3,710円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約3,220〜3,630円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約3,020〜3,430円（75〜85%）
 
 つまり付属品の有無だけで、最大で<strong>約1,010円（相場の約25%）の差</strong>が生じ得ます。</li></ol>` }} />
 
-          <h2 id="section-1">2. なぜ外箱が重要なのか</h2>
+          <h2 id="section-2">3. なぜ外箱が重要なのか</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は単なる包装ではなく、<strong>コレクター品の完全性</strong>を示す重要な要素です:</p><ol><li><strong>二次流通市場での評価</strong> — 海外コレクターは特にフルセット重視</li><li><strong>真贋判定の手がかり</strong> — 箱と本体の合致が本物の証</li><li><strong>保管時の保護機能</strong> — 直射日光・摩擦・埃から守る</li><li><strong>付属品の収納</strong> — 冊子・カートンの一括管理</li><li><strong>贈答品としての価値</strong> — 箱なしは贈り物として再販困難
 
 これらの理由から、外箱を保管していたかどうかで、ボトル本体の状態以上に査定額が変わる場合があります。</li></ol>` }} />
 
-          <h2 id="section-2">3. 箱を失った場合の対応策</h2>
+          <h2 id="section-3">4. 箱を失った場合の対応策</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>外箱を取り戻す4つの方法</strong>:</p><ol><li><strong>クローゼット・倉庫・収納庫を徹底的に探す</strong> — 意外な場所から出てくることが多々あります</li><li><strong>メーカーに問い合わせ</strong> — ごく稀に空箱の販売・配布がある銘柄も</li><li><strong>オークション・フリマで空箱単体購入</strong> — コレクターが空箱を売っているケースあり</li><li><strong>諦めて箱なしで売却</strong> — 状態が良ければ十分な査定額が出ます
 
 特に1番目（家中を探す）は意外と見つかることが多いので、売却前に徹底チェックしてください。</li></ol>` }} />
 
-          <h2 id="section-3">4. 箱なしでも高く売る7つのコツ</h2>
+          <h2 id="section-4">5. 箱なしでも高く売る7つのコツ</h2>
           <div dangerouslySetInnerHTML={{ __html: `<ol><li><strong>ボトル本体・ラベル・キャップを完璧な状態で保管</strong></li><li><strong>冊子・ホログラム・購入レシート等、他の付属品があれば必ず添付</strong></li><li><strong>複数業者で見積もり</strong> — 業者により箱なしの評価額に差がある</li><li><strong>写真撮影</strong> — 査定前にボトルの状態を記録</li><li><strong>保管環境の整備</strong> — ラベル・キャップの状態を維持</li><li><strong>正直な状態申告</strong> — 嘘の申告は信頼を失い結果的に損</li><li><strong>早めの売却</strong> — 時間経過でラベル劣化リスクが増加</li></ol>` }} />
 
-          <h2 id="section-4">5. 箱なしでも歓迎の買取業者</h2>
+          <h2 id="section-5">6. 箱なしでも歓迎の買取業者</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid推奨の4社はすべて箱なしでも査定対応可能。<strong>特に推奨される業者</strong>:</p><ol><li><strong>ヒカカク！</strong> — 一括査定で箱なし対応業者を比較</li><li><strong>JOYLAB</strong> — お酒専門で柔軟な評価、希少銘柄に強い</li><li><strong>バイセル</strong> — 大手の安心感、箱なしでも査定可</li><li><strong>リカスタ</strong> — 宅配買取で箱なしも対応
 
 各業者で査定額が異なるため、3社以上で見積もりを取ることが必須です。</li></ol>` }} />
 
-          <h2 id="section-5">6. 代用品の箱を使うことについて</h2>
+          <h2 id="section-6">7. 代用品の箱を使うことについて</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>代用品の外箱（汎用箱や別銘柄の箱）は使うべきではありません</strong>。
 
 理由:</p><ol><li>査定時に「正規品ではない」と判定される</li><li>業者の信頼を失う</li><li>査定額がむしろ下がる可能性</li><li>場合によっては詐欺と見なされる
 
 本物の外箱が見つからない場合は、箱なしで正直に売却するのが正解です。</li></ol>` }} />
 
-          <h2 id="section-6">7. 箱を新規購入できるか</h2>
+          <h2 id="section-7">8. 箱を新規購入できるか</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>一部のコレクター・買取業者は、空き箱を単体で販売することがあります。<strong>入手経路</strong>:</p><ol><li><strong>メルカリ・ヤフオク</strong> — 「ブラックボウモア 箱」で検索</li><li><strong>海外オークション</strong> — Whisky Auctioneerなどで稀に出品</li><li><strong>コレクターSNS</strong> — Twitter・Instagramで交換相手を探す</li><li><strong>ウイスキー専門店</strong> — 店舗に在庫がある場合あり
 
 空き箱の価格は数千円〜数万円程度。査定額アップ幅と比較して、投資価値があるか判断してください。</li></ol>` }} />

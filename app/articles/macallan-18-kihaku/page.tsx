@@ -53,13 +53,14 @@ export default function Macallan18KihakuPage() {
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
-              <li><a href="#section-0" className="hover:underline">1. 希少性のランク評価</a></li>
-              <li><a href="#section-1" className="hover:underline">2. 価格推移の歴史</a></li>
-              <li><a href="#section-2" className="hover:underline">3. 投資資産としての位置付け</a></li>
-              <li><a href="#section-3" className="hover:underline">4. 長期保有のメリット</a></li>
-              <li><a href="#section-4" className="hover:underline">5. 長期保有のデメリット</a></li>
-              <li><a href="#section-5" className="hover:underline">6. 売却を判断する5つの基準</a></li>
-              <li><a href="#section-6" className="hover:underline">7. 税制優遇の活用</a></li>
+              <li><a href="#section-0" className="hover:underline">1. マッカラン18年の市場ポジションとデータ分析</a></li>
+              <li><a href="#section-1" className="hover:underline">2. 希少性のランク評価</a></li>
+              <li><a href="#section-2" className="hover:underline">3. 価格推移の歴史</a></li>
+              <li><a href="#section-3" className="hover:underline">4. 投資資産としての位置付け</a></li>
+              <li><a href="#section-4" className="hover:underline">5. 長期保有のメリット</a></li>
+              <li><a href="#section-5" className="hover:underline">6. 長期保有のデメリット</a></li>
+              <li><a href="#section-6" className="hover:underline">7. 売却を判断する5つの基準</a></li>
+              <li><a href="#section-7" className="hover:underline">8. 税制優遇の活用</a></li>
             </ol>
           </div>
 
@@ -75,31 +76,34 @@ export default function Macallan18KihakuPage() {
             <div className="absolute inset-0 bg-gradient-to-t from-peat/30 to-transparent" />
           </div>
 
-          <h2 id="section-0">1. 希少性のランク評価</h2>
+          <h2 id="section-0">1. マッカラン18年の市場ポジションとデータ分析</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マッカラン18年</strong>はスコッチウイスキー（スペイサイド）の18年熟成、度数43%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>42,900円</strong>（流通サンプル210件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+
+          <h2 id="section-1">2. 希少性のランク評価</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>マッカラン18年は希少度カテゴリで「<strong>終売プレミア</strong>」に分類されます。希少度は以下の4要素で決まります:</p><ol><li>生産終了・休売の有無</li><li>市場流通量</li><li>コレクター需要</li><li>国際的評価
 
 希少度が高いほど、二次流通市場での価格上昇期待が大きくなります。終売プレミアクラスは、長期保有でプレミアが乗りやすい傾向があります。</li></ol>` }} />
 
-          <h2 id="section-1">2. 価格推移の歴史</h2>
+          <h2 id="section-2">3. 価格推移の歴史</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>マッカラン18年は過去5〜10年にわたって、二次流通市場で価格が上昇基調にあります。特に2018年以降の世界的ジャパニーズウイスキーブーム以降は、長期熟成・終売銘柄を中心に<strong>3〜10倍</strong>の値上がりを記録した銘柄も少なくありません。</p><p>2020年: コロナ禍で一時的に需要減少も、すぐに回復<br/>2021〜2022年: アジア富裕層の参入加速、価格急騰<br/>2023〜2024年: 上昇ペースは緩和、安定推移<br/>2025〜2026年: 円安効果と海外需要継続で高値維持</p><p>この推移を踏まえ、マッカラン18年の中長期見通しは引き続き堅調と予想されます。</p>` }} />
 
-          <h2 id="section-2">3. 投資資産としての位置付け</h2>
+          <h2 id="section-3">4. 投資資産としての位置付け</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキーは<strong>「液体資産（Liquid Asset）」</strong>として国際的に認識されつつあります。</p><p><strong>Knight Frank Luxury Investment Index</strong>（高級資産投資指数）でも、ウイスキーは過去10年で最も値上がりした投資対象の1つ。クラシックカー・ワイン・アートと並ぶ、実物資産としての地位を確立しています。</p><p>市場相場クラスのボトルは、保管環境さえ整えれば<strong>現金化容易な実物資産</strong>として機能します。資産分散の選択肢として検討する価値があります。</p>` }} />
 
-          <h2 id="section-3">4. 長期保有のメリット</h2>
+          <h2 id="section-4">5. 長期保有のメリット</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>メリット</strong>:</p><ol><li>希少性上昇による価格上昇期待</li><li>税制優遇（5年超の長期譲渡所得は1/2軽減）</li><li>趣味と投資の両立</li><li>インフレヘッジ機能</li><li>物理資産としての安心感</li><li>相続・贈与対象としての価値</li><li>国際市場での換金性</li></ol>` }} />
 
-          <h2 id="section-4">5. 長期保有のデメリット</h2>
+          <h2 id="section-5">6. 長期保有のデメリット</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>デメリット</strong>:</p><ol><li>保管コスト（湿度・温度管理）</li><li>盗難・破損リスク</li><li>市場の流動性低下リスク</li><li>トレンド変化リスク（次世代のウイスキー嗜好が変わる可能性）</li><li>保険加入コスト</li><li>維持の手間</li><li>機会費用（他の投資先と比較した収益率）
 
 これらのデメリットを認識した上で、投資元本割れの可能性も考慮することが重要です。</li></ol>` }} />
 
-          <h2 id="section-5">6. 売却を判断する5つの基準</h2>
+          <h2 id="section-6">7. 売却を判断する5つの基準</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>売却タイミング判断のチェックリスト</strong>:</p><ol><li>自分にとっての納得価格に達した</li><li>次の投資先・現金化のニーズがある</li><li>当該銘柄の需給バランスが転換点を迎えた</li><li>保管コストが値上がり期待を上回ると判断</li><li>ライフイベント（相続・住宅購入・教育費等）への対応
 
 これらが揃った時が、合理的な売却タイミングです。1点だけ満たすのではなく、複数の要因が重なった時に動くことが推奨されます。</li></ol>` }} />
 
-          <h2 id="section-6">7. 税制優遇の活用</h2>
+          <h2 id="section-7">8. 税制優遇の活用</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキー売却益は<strong>譲渡所得</strong>として課税対象になります。重要なポイント:</p><ol><li><strong>年間50万円の特別控除</strong> — この範囲内なら実質非課税</li><li><strong>5年超保有で長期譲渡所得</strong> — 特別控除後の課税対象額が1/2に軽減</li><li><strong>生活用動産の非課税</strong> — 1点30万円以下は非課税
 
 例えば取得費が売却額の30%程度のボトルなら譲渡所得は売却額の約70%。さらに年間50万円の特別控除を差し引き、5年超保有なら長期譲渡で課税対象額が1/2に軽減されるため、単発売却なら課税が発生しないケースも多くあります。

@@ -53,12 +53,13 @@ export default function HanyuCardRankingPage() {
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
-              <li><a href="#section-0" className="hover:underline">1. ランキングの選定基準</a></li>
-              <li><a href="#section-1" className="hover:underline">2. 1位: ヒカカク！（一括査定で最高値発見）</a></li>
-              <li><a href="#section-2" className="hover:underline">3. 2位: バイセル（東証グロース上場の安心感）</a></li>
-              <li><a href="#section-3" className="hover:underline">4. 3位: JOYLAB（お酒買取専門の高単価）</a></li>
-              <li><a href="#section-4" className="hover:underline">5. 4位: リカスタ（宅配買取で完結）</a></li>
-              <li><a href="#section-5" className="hover:underline">6. 業者選びの最適戦略</a></li>
+              <li><a href="#section-0" className="hover:underline">1. 羽生カードシリーズの市場ポジションとデータ分析</a></li>
+              <li><a href="#section-1" className="hover:underline">2. ランキングの選定基準</a></li>
+              <li><a href="#section-2" className="hover:underline">3. 1位: ヒカカク！（一括査定で最高値発見）</a></li>
+              <li><a href="#section-3" className="hover:underline">4. 2位: バイセル（東証グロース上場の安心感）</a></li>
+              <li><a href="#section-4" className="hover:underline">5. 3位: JOYLAB（お酒買取専門の高単価）</a></li>
+              <li><a href="#section-5" className="hover:underline">6. 4位: リカスタ（宅配買取で完結）</a></li>
+              <li><a href="#section-6" className="hover:underline">7. 業者選びの最適戦略</a></li>
             </ol>
           </div>
 
@@ -90,24 +91,27 @@ export default function HanyuCardRankingPage() {
             </table>
           </div>
 
-          <h2 id="section-0">1. ランキングの選定基準</h2>
+          <h2 id="section-0">1. 羽生カードシリーズの市場ポジションとデータ分析</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>羽生カードシリーズ</strong>はジャパニーズウイスキー（羽生蒸溜所）のノンエイジ（NV）、度数55%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>7,095円</strong>（流通サンプル274件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+
+          <h2 id="section-1">2. ランキングの選定基準</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部の羽生カードシリーズ買取業者選定基準（5項目）:</p><ol><li><strong>専門知識</strong> — お酒・ウイスキー専門の鑑定力があるか</li><li><strong>査定スピード</strong> — 見積もり〜入金までの所要日数</li><li><strong>査定額の透明性</strong> — 価格根拠・状態評価の説明があるか</li><li><strong>手数料・キャンセル料</strong> — 完全無料か</li><li><strong>信頼性</strong> — 上場・古物商許可・口コミ評判
 
 以上の5項目を各業者ごとに10点満点で評価し、合計点でランキングを作成しました。</li></ol>` }} />
 
-          <h2 id="section-1">2. 1位: ヒカカク！（一括査定で最高値発見）</h2>
+          <h2 id="section-2">3. 1位: ヒカカク！（一括査定で最高値発見）</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 47/50</strong></p><p>ヒカカク！は最大20社の買取業者へ一括で見積もりを依頼できる比較プラットフォーム。1サイトで業界最多級の見積もりが取得可能で、希少銘柄ほど業者間の査定差が大きいため、<strong>まずはヒカカクで相場感を把握する</strong>のが最短ルートです。</p><p><strong>強み</strong>: 業界最多級20社一括 / 完全無料 / 24時間Web依頼可能 / お酒・洋酒・ブランデー対応</p><p><strong>弱み</strong>: 一括査定なので業者から個別に連絡が来る / 一括査定後に専門店個別査定も推奨</p><p><strong>こんな人におすすめ</strong>: 最高値を効率的に狙いたい方、初めて買取を依頼する方</p>` }} />
 
-          <h2 id="section-2">3. 2位: バイセル（東証グロース上場の安心感）</h2>
+          <h2 id="section-3">4. 2位: バイセル（東証グロース上場の安心感）</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 44/50</strong></p><p>東証グロース上場のBuySell Technologies運営。年間累計買取件数430万件超の大手で、お酒・ウイスキー買取に注力中。<strong>信頼性とスピードを両立</strong>したい場合に最適です。</p><p><strong>強み</strong>: 東証グロース上場で社会的信頼性◎ / 3チャネル対応（出張・店頭・宅配） / CM放映で知名度抜群 / 一律無料</p><p><strong>弱み</strong>: 一括査定よりは査定額がやや低めの場合あり / 出張買取はエリア限定</p><p><strong>こんな人におすすめ</strong>: 信頼性とスピードを両立したい方、大量にまとめて売りたい方</p>` }} />
 
-          <h2 id="section-3">4. 3位: JOYLAB（お酒買取専門の高単価）</h2>
+          <h2 id="section-4">5. 3位: JOYLAB（お酒買取専門の高単価）</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 43/50</strong></p><p>JOYLABはお酒買取専門で、銘柄別の相場表をリアルタイム公開。<strong>ジャパニーズウイスキー強化中</strong>で、希少銘柄に対する専門知識と査定スピードに定評があります。</p><p><strong>強み</strong>: お酒買取専門の深い知識 / リアルタイム相場公開 / 海外オークション価格を反映した査定 / 希少銘柄に強い</p><p><strong>弱み</strong>: 大手チェーンと比較すると店舗数が少ない / 出張買取エリアが限定的</p><p><strong>こんな人におすすめ</strong>: 希少銘柄を専門店で売りたい方、当日の海外オークション価格を反映した査定を希望する方</p>` }} />
 
-          <h2 id="section-4">5. 4位: リカスタ（宅配買取で完結）</h2>
+          <h2 id="section-5">6. 4位: リカスタ（宅配買取で完結）</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 40/50</strong></p><p>リカスタは全国対応の宅配買取サービス。店舗に行く時間がない方、地方在住の方に最適。査定無料・キャンセル無料・送料・梱包キット無料で気軽に試せます。</p><p><strong>強み</strong>: 全国対応の宅配買取 / 査定・送料・キャンセル無料 / ジャパニーズウイスキーも積極買取 / Web完結</p><p><strong>弱み</strong>: 査定額は専門店比でやや低めのことがある / 即日現金化はできない（宅配のため）</p><p><strong>こんな人におすすめ</strong>: 宅配で完結したい方、地方在住の方、複数本まとめて宅配で売りたい方</p>` }} />
 
-          <h2 id="section-5">6. 業者選びの最適戦略</h2>
+          <h2 id="section-6">7. 業者選びの最適戦略</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部が推奨する<strong>3ステップ戦略</strong>:</p><ol><li><strong>まずヒカカクで一括査定</strong> — 最大20社の相場感を把握</li><li><strong>JOYLABで専門査定</strong> — お酒専門店の査定で本当の市場価値を確認</li><li><strong>最高値の業者で売却</strong> — 手取り額（手数料・送料込み）で比較し最終決定
 
 この3ステップで、{name}の最高値を確実に引き出せます。</li></ol>` }} />

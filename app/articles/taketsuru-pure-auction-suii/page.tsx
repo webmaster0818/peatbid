@@ -53,13 +53,14 @@ export default function TaketsuruPureAuctionSuiiPage() {
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
-              <li><a href="#section-0" className="hover:underline">1. 過去5年の価格推移</a></li>
-              <li><a href="#section-1" className="hover:underline">2. 主要オークションプラットフォーム</a></li>
-              <li><a href="#section-2" className="hover:underline">3. 価格を動かす5つの要因</a></li>
-              <li><a href="#section-3" className="hover:underline">4. 地域別の価格特性</a></li>
-              <li><a href="#section-4" className="hover:underline">5. 今後の見通し（中長期）</a></li>
-              <li><a href="#section-5" className="hover:underline">6. オークションデータの確認方法</a></li>
-              <li><a href="#section-6" className="hover:underline">7. 国内と海外、どちらで売るべきか</a></li>
+              <li><a href="#section-0" className="hover:underline">1. 竹鶴ピュアモルトの市場ポジションとデータ分析</a></li>
+              <li><a href="#section-1" className="hover:underline">2. 過去5年の価格推移</a></li>
+              <li><a href="#section-2" className="hover:underline">3. 主要オークションプラットフォーム</a></li>
+              <li><a href="#section-3" className="hover:underline">4. 価格を動かす5つの要因</a></li>
+              <li><a href="#section-4" className="hover:underline">5. 地域別の価格特性</a></li>
+              <li><a href="#section-5" className="hover:underline">6. 今後の見通し（中長期）</a></li>
+              <li><a href="#section-6" className="hover:underline">7. オークションデータの確認方法</a></li>
+              <li><a href="#section-7" className="hover:underline">8. 国内と海外、どちらで売るべきか</a></li>
             </ol>
           </div>
 
@@ -75,35 +76,38 @@ export default function TaketsuruPureAuctionSuiiPage() {
             <div className="absolute inset-0 bg-gradient-to-t from-peat/30 to-transparent" />
           </div>
 
-          <h2 id="section-0">1. 過去5年の価格推移</h2>
+          <h2 id="section-0">1. 竹鶴ピュアモルトの市場ポジションとデータ分析</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>竹鶴ピュアモルト</strong>はジャパニーズウイスキー（ニッカ）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>6,600円</strong>（流通サンプル290件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+
+          <h2 id="section-1">2. 過去5年の価格推移</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>竹鶴ピュアモルトの二次流通価格は、過去5年で大きく上昇しています。
 
 <strong>年別推移の目安</strong>:</p><ol><li>2020年: コロナ禍で一時減速、年末から回復</li><li>2021年: アジア富裕層の参入加速、年間+30〜50%</li><li>2022年: 価格急騰、年間+50〜80%</li><li>2023年: 上昇ペース緩和、年間+10〜20%</li><li>2024〜2025年: 安定推移、+5〜15%</li><li>2026年: 高値維持、現在は実勢の中央値前後
 
 この5年間で累計<strong>約3〜5倍</strong>の上昇を示しており、ウイスキー投資としての魅力が証明されています。</li></ol>` }} />
 
-          <h2 id="section-1">2. 主要オークションプラットフォーム</h2>
+          <h2 id="section-2">3. 主要オークションプラットフォーム</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>竹鶴ピュアモルトクラスの銘柄が取引される主要オークション:</p><ol><li><strong>Sotheby's（ニューヨーク・香港・ロンドン）</strong> — 月次〜四半期ごとに開催、プレミアム銘柄中心。最高クラスの希少銘柄が出品される。</li><li><strong>Bonhams（香港・ロンドン）</strong> — 同様にプレミアム銘柄。アジア富裕層が主要バイヤー。香港オークションは特に活発。</li><li><strong>Whisky Auctioneer（UK）</strong> — 月次オンラインオークション、中位銘柄まで幅広く扱う。透明性が高い。</li><li><strong>Just Whisky Auctions（UK）</strong> — UK中心、月次開催、コレクター向け。</li><li><strong>Whisky Hammer（UK）</strong> — 月次オンライン、新興プレイヤー。</li><li><strong>Acker Wines（香港・ニューヨーク）</strong> — 富裕層会員制、超高額ボトル中心。</li></ol>` }} />
 
-          <h2 id="section-2">3. 価格を動かす5つの要因</h2>
+          <h2 id="section-3">4. 価格を動かす5つの要因</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>1. 海外オークション落札データ</strong> — 最も影響大。月次の落札結果が業者の仕入れ価格の基準<br/><strong>2. 円安・円高の為替動向</strong> — 円安で海外バイヤー有利、国内価格上昇<br/><strong>3. 終売・限定リリースのニュース</strong> — 供給制限による急騰局面<br/><strong>4. アジア富裕層の参入度合い</strong> — 中華圏の経済動向と連動<br/><strong>5. 季節要因（年末年始・お中元）</strong> — 贈答需要で価格上昇</p>` }} />
 
-          <h2 id="section-3">4. 地域別の価格特性</h2>
+          <h2 id="section-4">5. 地域別の価格特性</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>地域別の価格水準</strong>:</p><ol><li><strong>香港・シンガポール</strong> — 富裕層多く最高値圏</li><li><strong>ニューヨーク</strong> — Sotheby's主導、プレミアム指向</li><li><strong>ロンドン</strong> — 歴史的にウイスキー取引の中心地</li><li><strong>東京</strong> — 国内取引の中心、海外への輸出窓口</li><li><strong>上海・北京</strong> — 急速に成長中の需要源
 
 同じ竹鶴ピュアモルトでも、地域によって5〜15%の価格差が生じます。海外オークション経由の方が高値が期待できる場合が多く、輸送・関税を考慮しても国内売却より有利なケースもあります。</li></ol>` }} />
 
-          <h2 id="section-4">5. 今後の見通し（中長期）</h2>
+          <h2 id="section-5">6. 今後の見通し（中長期）</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>竹鶴ピュアモルトの中長期見通しは、以下の3要因が支え、<strong>高値推移が予想</strong>されます:</p><ol><li>世界的需要の継続（コレクター層拡大）</li><li>供給制限（長期熟成銘柄の物理的限界）</li><li>新興市場の参入（インド、中東、東南アジア）
 
 ただし短期は需給の振れにより上下動も発生します。為替・地政学リスク・経済ショック等で一時的な価格調整も想定すべきです。</li></ol>` }} />
 
-          <h2 id="section-5">6. オークションデータの確認方法</h2>
+          <h2 id="section-6">7. オークションデータの確認方法</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>個人でも確認可能な情報源</strong>:</p><ol><li><strong>Whisky Auctioneer の Past Results 検索</strong> — 過去全件の落札データを無料閲覧可能</li><li><strong>Sotheby's の Whisky Department アーカイブ</strong> — 各オークションの結果を公開</li><li><strong>Bonhams の Past Auctions</strong> — 落札価格を確認可能</li><li><strong>Whisky Stats（whiskystats.net）</strong> — 月額有料サービスで詳細データ提供</li><li><strong>PeatBid 銘柄ページ</strong> — 主要50銘柄の相場を日次更新
 
 これらのデータを参考にすることで、自身のボトルの市場価値を客観的に把握できます。</li></ol>` }} />
 
-          <h2 id="section-6">7. 国内と海外、どちらで売るべきか</h2>
+          <h2 id="section-7">8. 国内と海外、どちらで売るべきか</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>国内売却のメリット</strong>:</p><ol><li>手続きが簡便（業者と直接やり取り）</li><li>即日現金化可能</li><li>国際輸送・関税不要</li><li>トラブル時の対応が容易
 
 <strong>海外オークション売却のメリット</strong>:</li><li>高値が期待できる（特に希少銘柄）</li><li>富裕層バイヤーへのアクセス</li><li>透明性の高い価格決定

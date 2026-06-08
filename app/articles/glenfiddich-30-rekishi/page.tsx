@@ -53,13 +53,14 @@ export default function Glenfiddich30RekishiPage() {
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
-              <li><a href="#section-0" className="hover:underline">1. スペイサイドの創業と歴史</a></li>
-              <li><a href="#section-1" className="hover:underline">2. グレンフィディック30年の誕生背景</a></li>
-              <li><a href="#section-2" className="hover:underline">3. グレンフィディック30年の味わいプロファイル</a></li>
-              <li><a href="#section-3" className="hover:underline">4. 世界的評価と受賞歴</a></li>
-              <li><a href="#section-4" className="hover:underline">5. 二次流通市場での位置付け</a></li>
-              <li><a href="#section-5" className="hover:underline">6. コレクター市場での需要動向</a></li>
-              <li><a href="#section-6" className="hover:underline">7. 今後の市場見通し</a></li>
+              <li><a href="#section-0" className="hover:underline">1. グレンフィディック30年の市場ポジションとデータ分析</a></li>
+              <li><a href="#section-1" className="hover:underline">2. スペイサイドの創業と歴史</a></li>
+              <li><a href="#section-2" className="hover:underline">3. グレンフィディック30年の誕生背景</a></li>
+              <li><a href="#section-3" className="hover:underline">4. グレンフィディック30年の味わいプロファイル</a></li>
+              <li><a href="#section-4" className="hover:underline">5. 世界的評価と受賞歴</a></li>
+              <li><a href="#section-5" className="hover:underline">6. 二次流通市場での位置付け</a></li>
+              <li><a href="#section-6" className="hover:underline">7. コレクター市場での需要動向</a></li>
+              <li><a href="#section-7" className="hover:underline">8. 今後の市場見通し</a></li>
             </ol>
           </div>
 
@@ -74,33 +75,36 @@ export default function Glenfiddich30RekishiPage() {
             <Image src="/images/distillery-scotch.png" alt="スペイサイドの蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
           </div>
 
-          <h2 id="section-0">1. スペイサイドの創業と歴史</h2>
+          <h2 id="section-0">1. グレンフィディック30年の市場ポジションとデータ分析</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンフィディック30年</strong>はスコッチウイスキー（スペイサイド）の30年熟成、度数40%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>70,205円</strong>（流通サンプル36件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限定的で、コンディション次第で査定が伸びやすい傾向です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+
+          <h2 id="section-1">2. スペイサイドの創業と歴史</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>スペイサイドはスコッチウイスキー業界で長い歴史を持つ蒸溜所/メーカー。創業以来、伝統的な製法と現代の品質管理を融合し、グレンフィディック30年を含む数々の名作を世に送り出しています。</p><p>ジャパニーズウイスキーの場合は1923年の山崎蒸溜所創設以降、スコッチの場合は18〜19世紀に遡る歴史を持つ銘柄も多数あります。各蒸溜所が独自の蒸溜方法・水・樽選びで個性を表現し、それが今日の市場価値につながっています。</p>` }} />
 
-          <h2 id="section-1">2. グレンフィディック30年の誕生背景</h2>
+          <h2 id="section-2">3. グレンフィディック30年の誕生背景</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>グレンフィディック30年は、スペイサイドの長年の研究と職人技術の結晶。30年熟成の長期にわたる樽熟成を経て、樽材から溶け出した成分と原酒が複雑に交差し、唯一無二の味わいが生まれます。</p><p>発売当時はスコッチウイスキーの品質を世界に示すフラッグシップ的位置付けで、限定的な生産量と高い品質基準により、コレクターや愛好家から絶大な支持を集めました。</p>` }} />
 
-          <h2 id="section-2">3. グレンフィディック30年の味わいプロファイル</h2>
+          <h2 id="section-3">4. グレンフィディック30年の味わいプロファイル</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキーの味わいは、原料・水・蒸溜方法・熟成樽・熟成期間で決まります。
 
 <strong>主要な構成要素</strong>:</p><ol><li>原料の麦芽（モルト）の質</li><li>仕込み水のミネラル成分</li><li>発酵に使う酵母の種類</li><li>ポットスチルの形状・蒸溜方法</li><li>熟成樽の種類（シェリー樽・バーボン樽・ミズナラ樽等）</li><li>熟成環境（温度・湿度）
 
 これら全ての要素が組み合わさり、{age_label}の時間をかけて醸成されたのが{name}の味わいです。</li></ol>` }} />
 
-          <h2 id="section-3">4. 世界的評価と受賞歴</h2>
+          <h2 id="section-4">5. 世界的評価と受賞歴</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>グレンフィディック30年を含むスペイサイドの銘柄は、以下の国際品評会で度々受賞しています:</p><ol><li>ISC（インターナショナル・スピリッツ・チャレンジ）</li><li>ワールド・ウイスキー・アワード（WWA）</li><li>サンフランシスコ・ワールド・スピリッツ・コンペティション</li><li>ジム・マーレイ氏のウイスキー・バイブル</li><li>ウイスキー・マガジン・アワード
 
 この国際的評価が、二次流通市場での高値を支えています。受賞歴・専門家評価が「投資する価値のあるボトル」という認識を醸成しているのです。</li></ol>` }} />
 
-          <h2 id="section-4">5. 二次流通市場での位置付け</h2>
+          <h2 id="section-5">6. 二次流通市場での位置付け</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>Sotheby's、Bonhams、Whisky Auctioneer</strong>等の海外オークションで、グレンフィディック30年は定期的に取引されており、落札データが国内買取相場の指標となっています。</p><p>特に終売や限定リリースの場合は、希少性プレミアが大きく乗ります。コレクター・投資需要が三つ巴で価格を支え、長期的な値上がり期待を生んでいます。</p><p>アジア富裕層・欧米コレクター・国内コレクターが市場参加者として競合する中、グレンフィディック30年の価値は中長期で見て高水準を維持する見通しです。</p>` }} />
 
-          <h2 id="section-5">6. コレクター市場での需要動向</h2>
+          <h2 id="section-6">7. コレクター市場での需要動向</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>グレンフィディック30年の需要は以下の層から支えられています:</p><ol><li><strong>アジア富裕層</strong>（中国・香港・台湾・シンガポール）— ジャパニーズウイスキーブームの主要バイヤー</li><li><strong>欧米コレクター</strong>（米・英・独）— Sotheby's・Bonhamsの主要顧客</li><li><strong>国内コレクター・愛好家</strong>— SNS・ウイスキーバー文化の普及で増加中</li><li><strong>投資家・ファンド</strong>— 「液体資産」としての保有が増加
 
 この多様な需要構造が、グレンフィディック30年の市場価値を安定的に支えています。</li></ol>` }} />
 
-          <h2 id="section-6">7. 今後の市場見通し</h2>
+          <h2 id="section-7">8. 今後の市場見通し</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>グレンフィディック30年を含むスコッチウイスキーの中長期見通しは、(1)世界的需要の継続、(2)供給制限、(3)新興市場の参入 の3要因が支え、<strong>高値推移が予想</strong>されます。</p><p>ただし短期は需給の振れにより上下動も発生します。「自分にとっての納得価格になったら売る」のが実践的な判断軸です。</p><p>長期保有を視野に入れる場合は、適切な保管と保険加入を検討し、5〜10年スパンでの値上がり期待を持つのが現実的です。</p>` }} />
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">

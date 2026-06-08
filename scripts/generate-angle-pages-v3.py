@@ -100,6 +100,57 @@ def liquidity_sentence(b):
 
 CAT_LABEL = {"japanese-whisky": "ジャパニーズウイスキー", "scotch-whisky": "スコッチウイスキー"}
 
+RARITY_JP = {"ultra-rare": "超希少", "ultra": "超希少", "high": "希少", "mid": "中程度の希少度", "common": "標準的な流通量"}
+
+
+def _price_tier(m):
+    if m >= 300000:
+        return "超高額帯（1本数十万円規模）", "真贋・状態評価が特にシビアで、専門知識を持つ業者ほど適正な評価が期待できます。"
+    if m >= 80000:
+        return "高額帯", "業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。"
+    if m >= 25000:
+        return "中位帯", "付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。"
+    return "実用帯", "回転が速く、状態が良ければスムーズに売却しやすい価格帯です。"
+
+
+def _liq_tier(n):
+    if n < 20:
+        return "極小", "流通が非常に限られる希少銘柄で、状態の良い出物は競争になりやすい一方、相場が振れやすい点には注意が必要です。"
+    if n < 50:
+        return "少なめ", "流通はやや限定的で、コンディション次第で査定が伸びやすい傾向です。"
+    if n < 150:
+        return "標準的", "一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。"
+    return "潤沢", "流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。"
+
+
+def brand_market_analysis(b):
+    """銘柄固有の一次データ（中央値・流通量・希少度・原産地・年数）で分岐する分析セクション。
+    銘柄ごとに本文が変わり、同系統・別銘柄ページ間の重複を抑えつつ情報利得を高める。"""
+    name = b["name_ja"]
+    median, sample, ok = market_basis(b)
+    cat_jp = CAT_LABEL.get(b["category"], "ウイスキー")
+    origin = (b.get("origin") or "").strip()
+    age_raw = (b.get("age_years") or "").strip()
+    age = int(age_raw) if age_raw.isdigit() else 0
+    age_jp = f"{age}年熟成" if age > 0 else "ノンエイジ（NV）"
+    abv = (b.get("abv") or "").strip()
+    rar = RARITY_JP.get(b.get("rarity_tier", ""), "—")
+    paras = []
+    paras.append(f"**{name}**は{cat_jp}（{origin or '産地情報は各蒸溜所に準拠'}）の{age_jp}、度数{abv + '%' if abv else '—'}、希少度は{rar}に分類される銘柄です。")
+    if ok:
+        pt = _price_tier(median)
+        lq = _liq_tier(sample)
+        paras.append(f"直近180日の実勢中央値は**{fmt(median)}**（流通サンプル{sample}件、当サイト独自集計）。価格帯としては**{pt[0]}**にあたり、{pt[1]}")
+        paras.append(f"流通量は**{lq[0]}**の水準です。{lq[1]}")
+    else:
+        paras.append("本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。")
+    if b["category"] == "japanese-whisky":
+        paras.append("ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。")
+    else:
+        paras.append(f"スコッチは蒸溜所・地域（{origin or '産地'}）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。")
+    paras.append("※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。")
+    return (f"{name}の市場ポジションとデータ分析", "\\n\\n".join(paras))
+
 
 def get_hero(slug):
     """Plan A 改訂: 各銘柄の実商品画像（public/images/heroes/{slug}.png）を使用。"""
@@ -556,6 +607,9 @@ def render_page(b, data):
     age_label = f"{age}年熟成" if age > 0 else "ノンエイジ"
     price = int(b["reference_price_jpy_2026_05"])
     rarity_label = {"common": "コモン", "mid": "ミッド", "high": "ハイ", "ultra": "ウルトラ", "ultra-rare": "ウルトラレア"}.get(b["rarity_tier"], b["rarity_tier"].upper())
+
+    # 銘柄固有の一次データ分析を先頭セクションに挿入（情報利得を高め、同系統ページ間の重複を抑える）
+    data["sections"] = [brand_market_analysis(b)] + list(data["sections"])
 
     # TOC items
     toc_items = [(f"section-{i}", s[0]) for i, s in enumerate(data["sections"])]

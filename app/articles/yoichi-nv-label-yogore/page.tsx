@@ -53,13 +53,14 @@ export default function YoichiNvLabelYogorePage() {
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
-              <li><a href="#section-0" className="hover:underline">1. ラベル状態の判定基準</a></li>
-              <li><a href="#section-1" className="hover:underline">2. ラベル状態別の査定額目安（余市ノンエイジ）</a></li>
-              <li><a href="#section-2" className="hover:underline">3. ラベル損傷が起きやすい原因</a></li>
-              <li><a href="#section-3" className="hover:underline">4. ラベルを保護する7つの保管方法</a></li>
-              <li><a href="#section-4" className="hover:underline">5. ラベル汚れがある状態での売却戦略</a></li>
-              <li><a href="#section-5" className="hover:underline">6. やってはいけないラベル「修復」</a></li>
-              <li><a href="#section-6" className="hover:underline">7. ラベル損傷でも売れる業者ランキング</a></li>
+              <li><a href="#section-0" className="hover:underline">1. 余市ノンエイジの市場ポジションとデータ分析</a></li>
+              <li><a href="#section-1" className="hover:underline">2. ラベル状態の判定基準</a></li>
+              <li><a href="#section-2" className="hover:underline">3. ラベル状態別の査定額目安（余市ノンエイジ）</a></li>
+              <li><a href="#section-3" className="hover:underline">4. ラベル損傷が起きやすい原因</a></li>
+              <li><a href="#section-4" className="hover:underline">5. ラベルを保護する7つの保管方法</a></li>
+              <li><a href="#section-5" className="hover:underline">6. ラベル汚れがある状態での売却戦略</a></li>
+              <li><a href="#section-6" className="hover:underline">7. やってはいけないラベル「修復」</a></li>
+              <li><a href="#section-7" className="hover:underline">8. ラベル損傷でも売れる業者ランキング</a></li>
             </ol>
           </div>
 
@@ -103,29 +104,32 @@ export default function YoichiNvLabelYogorePage() {
             </div>
           </div>
 
-          <h2 id="section-0">1. ラベル状態の判定基準</h2>
+          <h2 id="section-0">1. 余市ノンエイジの市場ポジションとデータ分析</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>余市ノンエイジ</strong>はジャパニーズウイスキー（余市蒸溜所）のノンエイジ（NV）、度数45%、希少度は標準的な流通量に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+
+          <h2 id="section-1">2. ラベル状態の判定基準</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ラベルは「コレクター品の顔」とも言える重要な要素です。買取査定では以下の状態を確認:</p><ol><li><strong>新品同様</strong> — 印刷鮮明、シワ・汚れ・破れなし</li><li><strong>軽度の汚れ</strong> — 表面の埃・指紋・若干の変色</li><li><strong>シミ・水濡れ跡</strong> — 液体接触の痕跡</li><li><strong>破れ・欠け・剥がれ</strong> — 物理的損傷</li><li><strong>強い退色</strong> — 直射日光や蛍光灯による色あせ</li><li><strong>カビ・カビ跡</strong> — 湿度過多による劣化</li><li><strong>粘着テープ跡</strong> — 不適切な貼付・剥離跡</li></ol>` }} />
 
-          <h2 id="section-1">2. ラベル状態別の査定額目安（余市ノンエイジ）</h2>
+          <h2 id="section-2">3. ラベル状態別の査定額目安（余市ノンエイジ）</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>余市ノンエイジの基準価格 市場相場に対し、ラベル状態でこう変動します:</p><ol><li><strong>新品同様</strong>: 市場相場（100%）</li><li><strong>軽度の汚れ</strong>: 市場相場の90%程度</li><li><strong>シミ・水濡れ跡</strong>: 市場相場の80%程度</li><li><strong>破れ・欠け</strong>: 市場相場の65%程度</li><li><strong>強い退色・大きな損傷</strong>: 市場相場の50%程度</li><li><strong>ラベル剥がれ（残あり）</strong>: 市場相場の40%程度</li><li><strong>ラベル完全消失</strong>: 市場相場の20%程度（ヴィンテージ価値あれば例外）</li></ol>` }} />
 
-          <h2 id="section-2">3. ラベル損傷が起きやすい原因</h2>
+          <h2 id="section-3">4. ラベル損傷が起きやすい原因</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>主な原因</strong>:</p><ol><li><strong>直射日光・蛍光灯</strong> — 退色・脆化</li><li><strong>湿度の高い場所</strong> — シミ・カビ</li><li><strong>段ボール直置き</strong> — シミ・吸湿</li><li><strong>粘着テープの貼り付け</strong> — 剥がし跡</li><li><strong>タンスや棚の埃</strong> — 表面汚れ</li><li><strong>指で頻繁に触る</strong> — 油脂による変色</li><li><strong>温度変化</strong> — ラベルの剥がれ</li><li><strong>化学物質の接触</strong> — 洗剤・芳香剤の蒸気</li></ol>` }} />
 
-          <h2 id="section-3">4. ラベルを保護する7つの保管方法</h2>
+          <h2 id="section-4">5. ラベルを保護する7つの保管方法</h2>
           <div dangerouslySetInnerHTML={{ __html: `<ol><li><strong>直射日光を完全に避ける</strong> — カーテン・遮光カバーを活用</li><li><strong>室温15〜20℃、湿度50〜70%</strong> — 急激な温湿度変化を避ける</li><li><strong>外箱に入れて保管</strong> — 多くの劣化を防ぐ</li><li><strong>専用のディスプレイケース</strong> — コレクター品ならガラスケース</li><li><strong>直接触れない</strong> — 必要なら手袋着用</li><li><strong>化学物質を遠ざける</strong> — キッチン・浴室・芳香剤付近はNG</li><li><strong>定期的な点検</strong> — 3ヶ月に1度状態確認</li></ol>` }} />
 
-          <h2 id="section-4">5. ラベル汚れがある状態での売却戦略</h2>
+          <h2 id="section-5">6. ラベル汚れがある状態での売却戦略</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>「もう価値はない」と諦める前に、複数業者で見積もりを取りましょう。<strong>業者により、ラベル汚れの評価基準が異なります</strong>。
 
 推奨アプローチ:</p><ol><li><strong>JOYLAB・リカスタ</strong> 等の専門店は、ラベル以外の総合状態で判断してくれる傾向</li><li><strong>ヒカカク！</strong> の一括査定で複数社の評価を比較</li><li><strong>正直な状態申告</strong> が最終的に最良の結果を生む</li><li><strong>写真添付</strong> で事前に状態を業者に確認してもらう</li></ol>` }} />
 
-          <h2 id="section-5">6. やってはいけないラベル「修復」</h2>
+          <h2 id="section-6">7. やってはいけないラベル「修復」</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>❌ <strong>絶対にNGの行為</strong>:</p><ol><li>水・洗剤での清掃 — ラベル素材を傷める可能性大</li><li>ラベルの「補修」 — 査定価値が更に下がる</li><li>剥がれかけのラベルを糊で貼り直す — 状態悪化</li><li>アイロンや熱でシワ伸ばし — ラベル変色</li><li>漂白剤での「シミ抜き」 — 致命的損傷
 
 気になる場合は、<strong>乾いた柔らかい布で軽く埃を払う程度</strong>にとどめてください。それ以上の修復は専門業者でないと、価値を下げるだけです。</li></ol>` }} />
 
-          <h2 id="section-6">7. ラベル損傷でも売れる業者ランキング</h2>
+          <h2 id="section-7">8. ラベル損傷でも売れる業者ランキング</h2>
           <div dangerouslySetInnerHTML={{ __html: `<ol><li><strong>JOYLAB</strong>（お酒専門の柔軟な評価）</li><li><strong>ヒカカク！</strong>（一括査定で柔軟な業者を発見）</li><li><strong>リカスタ</strong>（宅配買取で広く対応）</li><li><strong>バイセル</strong>（大手で安定査定）
 
 どの業者も査定無料・キャンセル無料なので、3社以上で見積もり比較が鉄則です。</li></ol>` }} />

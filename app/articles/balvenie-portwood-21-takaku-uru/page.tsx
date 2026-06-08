@@ -53,13 +53,14 @@ export default function BalveniePortwood21TakakuUruPage() {
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
-              <li><a href="#section-0" className="hover:underline">1. コツ1: 付属品をすべて揃える</a></li>
-              <li><a href="#section-1" className="hover:underline">2. コツ2: 未開封の状態を維持</a></li>
-              <li><a href="#section-2" className="hover:underline">3. コツ3: 複数業者で相見積もり</a></li>
-              <li><a href="#section-3" className="hover:underline">4. コツ4: 売却タイミングを見極める</a></li>
-              <li><a href="#section-4" className="hover:underline">5. コツ5: 適切な保管環境</a></li>
-              <li><a href="#section-5" className="hover:underline">6. コツ6: 贋作対策と本物証明</a></li>
-              <li><a href="#section-6" className="hover:underline">7. コツ7: 交渉術 — 業者を競わせる</a></li>
+              <li><a href="#section-0" className="hover:underline">1. バルヴェニー ポートウッド 21年の市場ポジションとデータ分析</a></li>
+              <li><a href="#section-1" className="hover:underline">2. コツ1: 付属品をすべて揃える</a></li>
+              <li><a href="#section-2" className="hover:underline">3. コツ2: 未開封の状態を維持</a></li>
+              <li><a href="#section-3" className="hover:underline">4. コツ3: 複数業者で相見積もり</a></li>
+              <li><a href="#section-4" className="hover:underline">5. コツ4: 売却タイミングを見極める</a></li>
+              <li><a href="#section-5" className="hover:underline">6. コツ5: 適切な保管環境</a></li>
+              <li><a href="#section-6" className="hover:underline">7. コツ6: 贋作対策と本物証明</a></li>
+              <li><a href="#section-7" className="hover:underline">8. コツ7: 交渉術 — 業者を競わせる</a></li>
             </ol>
           </div>
 
@@ -70,29 +71,32 @@ export default function BalveniePortwood21TakakuUruPage() {
             <p className="text-sm text-ink leading-relaxed">バルヴェニー ポートウッド 21年は二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
 
-          <h2 id="section-0">1. コツ1: 付属品をすべて揃える</h2>
+          <h2 id="section-0">1. バルヴェニー ポートウッド 21年の市場ポジションとデータ分析</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>バルヴェニー ポートウッド 21年</strong>はスコッチウイスキー（スペイサイド）の21年熟成、度数40%、希少度は中程度の希少度に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+
+          <h2 id="section-1">2. コツ1: 付属品をすべて揃える</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>バルヴェニー ポートウッド 21年の査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。市場相場を基準として、付属品なしの場合は市場相場の80〜90%程度まで下がることが一般的です。</p><p>外箱の状態も重要で、シミ・破れ・水濡れ跡があると更に-5〜10%。購入時の状態を維持する努力が、最終的に数万〜数十万円の差を生みます。</p><p>まず家中を徹底的に探し、すべての付属品を集めてから売却を検討してください。</p>` }} />
 
-          <h2 id="section-1">2. コツ2: 未開封の状態を維持</h2>
+          <h2 id="section-2">3. コツ2: 未開封の状態を維持</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>バルヴェニー ポートウッド 21年は開封済みになると査定額が大幅に下がり、未開封の30〜40%（市場相場の30〜40%程度前後）まで落ちます。</p><p>コレクション目的で購入したボトルは、絶対に開けずに保管してください。「ちょっと味見」が数十万円の損失につながります。</p><p>万一開封してしまった場合は、できるだけ早く売却するのが鉄則です。時間経過とともに香味揮発・酸化が進み、査定額が更に下がります。</p>` }} />
 
-          <h2 id="section-2">3. コツ3: 複数業者で相見積もり</h2>
+          <h2 id="section-3">4. コツ3: 複数業者で相見積もり</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>同じバルヴェニー ポートウッド 21年でも、業者によって<strong>数万〜数十万円</strong>の査定差が生じます。1社だけで決めるのは絶対に避けるべきです。</p><p>推奨フロー: (1)ヒカカク等の一括査定サイトで5社以上から見積もり取得、(2)お酒買取専門店（JOYLAB・リカスタ等）に個別で2〜3社から見積もり、(3)合計7〜8社の見積もりを比較、(4)手取り額（手数料・送料込み）で最高値の業者を選定。</p><p>査定無料・キャンセル無料の業者ばかりなので、複数比較のコストはゼロです。</p>` }} />
 
-          <h2 id="section-3">4. コツ4: 売却タイミングを見極める</h2>
+          <h2 id="section-4">5. コツ4: 売却タイミングを見極める</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキーの相場は需給で動きます。<strong>高値傾向のタイミング</strong>は以下の通り:</p><ol><li>年末年始（12〜1月）— お正月需要・ボーナス商戦</li><li>お中元・お歳暮シーズン — 贈答需要</li><li>海外オークション直後 — Sotheby's・Bonhamsの落札データ反映</li><li>終売・休売報道直後 — 供給制限による急騰局面</li><li>アジア富裕層のイベント前後 — 中華圏の旧正月など
 
 逆に、夏場（7〜8月）や経済ショック直後は需要が一時的に冷える傾向。急ぎでなければ、年末や終売報道後の数ヶ月以内に売却するのが理想的です。</li></ol>` }} />
 
-          <h2 id="section-4">5. コツ5: 適切な保管環境</h2>
+          <h2 id="section-5">6. コツ5: 適切な保管環境</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>保管環境はボトルの状態を左右します。<strong>理想の保管条件</strong>:</p><ol><li>直射日光・蛍光灯を完全に避ける（ラベル褪色防止）</li><li>室温15〜20℃、湿度50〜70%</li><li>縦置き保管（横置きはコルク劣化、ワインと逆）</li><li>外箱に入れて保管（埃・摩擦から保護）</li><li>振動の少ない場所（高層階の上階や交通量の多い道路沿いは避ける）
 
 クローゼットの暗所、専用ディスプレイケース、ワインセラーの低温帯などが適切です。キッチン・浴室付近は湿度・温度変化が激しいためNG。</li></ol>` }} />
 
-          <h2 id="section-5">6. コツ6: 贋作対策と本物証明</h2>
+          <h2 id="section-6">7. コツ6: 贋作対策と本物証明</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>高額銘柄では、贋作・偽造ボトルの存在が査定に影響する場合があります。<strong>購入経路の正当性を証明</strong>できる材料を揃えておくと、査定がスムーズです:</p><p>- 購入時のレシート・領収書<br/>- 正規流通店の保証書<br/>- 海外オークションの落札証明<br/>- 開封・封蝋の写真記録</p><p>業者によっては、本物と判定するために蛍光X線分析（XRF）等の精密検査を行います。事前に証明書類を揃えておくと、その手間がカットされ、最終査定額にも好影響です。</p>` }} />
 
-          <h2 id="section-6">7. コツ7: 交渉術 — 業者を競わせる</h2>
+          <h2 id="section-7">8. コツ7: 交渉術 — 業者を競わせる</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>最高値を引き出す最後のテクニックが<strong>交渉</strong>です。複数業者の見積もりを取った後、最高値の業者に対して:</p><p>「他社では{name}に対して◯◯円の査定が出ています。これ以上の金額を提示できますか？」</p><p>と率直に伝えてみてください。多くの業者は最終手段として価格上乗せに応じる可能性があります。</p><p>特に希少銘柄や複数本のまとめ売りは交渉余地が大きく、5〜10%の上乗せも珍しくありません。<strong>遠慮せず、毅然と交渉</strong>することが最後の数万円を引き出すコツです。</p>` }} />
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
