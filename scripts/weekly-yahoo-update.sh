@@ -114,6 +114,9 @@ echo "[$(date '+%H:%M:%S')] 📝 [3/7] brand-kaitori ページ再生成（v3）"
 echo "[$(date '+%H:%M:%S')] 📝 [4/7] angle ページ再生成（v3）"
 /opt/homebrew/bin/python3 scripts/generate-angle-pages-v3.py
 
+echo "[$(date '+%H:%M:%S')] 📈 [4.5/7] 相場ランキング・データ再生成（B：更新型コンテンツ）"
+/opt/homebrew/bin/python3 scripts/generate-souba-ranking.py
+
 echo "[$(date '+%H:%M:%S')] 📊 [5/7] sitemap.xml 再生成"
 node scripts/generate-sitemap.mjs
 cp public/sitemap.xml out/sitemap.xml 2>/dev/null || true

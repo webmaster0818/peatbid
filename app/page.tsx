@@ -136,6 +136,15 @@ export default function Home() {
               無料一括査定で最高値を調べる →
             </a>
           </div>
+          <Link
+            href="/souba-ranking/"
+            className="inline-flex items-center gap-2 mt-5 text-amber-light text-sm font-medium hover:underline"
+          >
+            <span className="bg-amber/20 border border-amber/40 text-amber-light text-[10px] font-bold px-1.5 py-0.5 rounded tracking-wide">
+              NEW
+            </span>
+            今週の値上がり・値下がり銘柄ランキングを公開中 →
+          </Link>
           <p className="text-xs text-cream/50 mt-4">
             ※当サイトはアフィリエイト広告（PR）を利用しています
           </p>
