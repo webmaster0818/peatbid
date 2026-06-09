@@ -127,6 +127,11 @@ npx next build 2>&1 | tail -5
 set +o pipefail
 find out -name "__next*.txt" -type f -delete
 
+# Scaled Content リント（warnモード：違反を記録するだけでデプロイは止めない）
+echo "[$(date '+%H:%M:%S')] 🔎 [6.5/7] Scaled Content リント"
+LINT="$HOME/.openclaw/workspace/scaled-content-lint.py"
+[ -f "$LINT" ] && /opt/homebrew/bin/python3 "$LINT" peatbid "$SRC/out" --glob "articles/*/index.html" --min-unique 200 --dup 0.6 --top 10 2>&1 | sed -n '1,4p' || true
+
 echo "[$(date '+%H:%M:%S')] 📤 [7/7] peatbid-deploy へ rsync & push（tier2除外）"
 rsync -a --delete \
   --exclude=".git" \
