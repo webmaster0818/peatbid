@@ -205,6 +205,19 @@ export default function Page() {
             <div className="mt-3 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: "\u5e74\u672b\u5e74\u59cb\u30fb\u304a\u4e2d\u5143\u30b7\u30fc\u30ba\u30f3\uff0811\u301c12\u6708\u30016\u301c7\u6708\uff09\u304c\u9ad8\u5024\u50be\u5411\u3002\u95a2\u6771\u5730\u65b9\u306e\u696d\u8005\u306f\u9700\u8981\u671f\u306b\u67fb\u5b9a\u984d\u304c10\u301c15%\u4e0a\u6607\u3059\u308b\u50be\u5411\u304c\u3042\u308a\u307e\u3059\u3002\u65e9\u3081\u306e\u76f8\u898b\u7a4d\u3082\u308a\u63a8\u5968\u3002" }} />
           </details>
 
+          <div className="not-prose my-8">
+            <h2 className="font-display text-xl font-semibold mb-2 text-ink !border-none !pb-0 !mt-0">近隣エリアでマッカラン25年を売る</h2>
+            <p className="text-sm text-warm-gray mb-3">群馬県の近隣エリアでもマッカラン25年の買取相場を比較できます。</p>
+            <div className="flex flex-wrap gap-2">
+            <Link href="/tier2/fukushima/macallan-25-kaitori/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">福島県</Link>
+            <Link href="/tier2/tochigi/macallan-25-kaitori/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">栃木県</Link>
+            <Link href="/tier2/saitama/macallan-25-kaitori/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">埼玉県</Link>
+            <Link href="/tier2/niigata/macallan-25-kaitori/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">新潟県</Link>
+            <Link href="/tier2/nagano/macallan-25-kaitori/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">長野県</Link>
+            <Link href="/tier2/gunma/" className="inline-block bg-amber/15 border border-amber/40 rounded-full px-3 py-1 text-xs font-semibold text-amber-dark hover:bg-amber/25 transition-all">群馬県の全50銘柄 →</Link>
+            </div>
+          </div>
+
           <div className="bg-cream/40 border border-amber/30 rounded-2xl p-6 my-10 not-prose">
             <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連ページ</h2>
             <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">

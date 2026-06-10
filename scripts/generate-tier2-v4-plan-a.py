@@ -4,8 +4,8 @@
 after this script last ran (Plan C noindex removal, Layer1 content/data injection,
 and the 2026-06-10 internal-link breadcrumb repair). Re-running overwrites those.
 The robots flag and breadcrumb below were aligned to the live state on 2026-06-10,
-but the body content may still be behind the deployed pages. If you must regen,
-diff against a live leaf first and re-apply patch-tier2-internal-links.py afterward.
+but the body content may still be behind the deployed pages. If you must regen, diff against a live leaf first and re-apply BOTH
+patch-tier2-internal-links.py and patch-tier2-nearby-links.py afterward.
 
 Tier 2 PSEO generator v4 — Plan A compliant.
 
