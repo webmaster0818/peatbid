@@ -19,7 +19,7 @@ export default function Page() {
         <ol className="flex items-center gap-1 flex-wrap">
           <li><Link href="/" className="hover:text-amber-dark transition-colors">ホーム</Link></li>
           <li className="breadcrumb-sep" />
-          <li><span className="text-foreground/70">市場相場</span></li>
+          <li><Link href="/tier2/" className="hover:text-amber-dark transition-colors">地域別買取</Link></li>
           <li className="breadcrumb-sep" />
           <li><span className="text-foreground">島根県</span></li>
         </ol>
@@ -241,7 +241,14 @@ export default function Page() {
       </div>
 
       <h2 className="font-display text-xl md:text-2xl font-semibold mt-12 mb-4">他の都道府県を見る</h2>
-      <p className="text-warm-gray text-sm mb-4"><Link href="/" className="text-amber-dark underline hover:text-burgundy">TOPページ</Link> の「都道府県別ガイド」セクションから全47都道府県をご確認いただけます。</p>
+      <p className="text-warm-gray text-sm mb-4">同じ中国地方の都道府県、または<Link href="/tier2/" className="text-amber-dark underline hover:text-burgundy">地域別買取の一覧</Link>から全47都道府県を確認できます。</p>
+      <div className="flex flex-wrap gap-2 mb-6">
+        <Link href="/tier2/tottori/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">鳥取県</Link>
+        <Link href="/tier2/okayama/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">岡山県</Link>
+        <Link href="/tier2/hiroshima/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">広島県</Link>
+        <Link href="/tier2/yamaguchi/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">山口県</Link>
+        <Link href="/tier2/" className="inline-block bg-amber/15 border border-amber/40 rounded-full px-3 py-1 text-xs font-semibold text-amber-dark hover:bg-amber/25 transition-all">すべての都道府県 →</Link>
+      </div>
 
       <p className="text-xs text-warm-gray mt-8">※本ページは 島根県 地域のウイスキー買取相場・業者情報を集約したガイドページです。市場相場は Yahoo Auctions 過去180日の落札中央値（IQR外れ値除去）に基づきます。実際の業者査定額は変動するため、最新の査定は LINXAS / バイセル / 福ちゃん / JOYLAB 各社ページでご確認ください。PRリンクを含みます。</p>
     </div>

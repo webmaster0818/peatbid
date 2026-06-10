@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 """
+⚠️ STALE GENERATOR — DO NOT regenerate blindly. The live tier2 pages were patched
+after this script last ran (Plan C noindex removal, Layer1 content/data injection,
+and the 2026-06-10 internal-link breadcrumb repair). Re-running overwrites those.
+The robots flag and breadcrumb below were aligned to the live state on 2026-06-10,
+but the body content may still be behind the deployed pages. If you must regen,
+diff against a live leaf first and re-apply patch-tier2-internal-links.py afterward.
+
 Tier 2 PSEO generator v4 — Plan A compliant.
 
 Changes from v3:
@@ -220,7 +227,7 @@ export const metadata: Metadata = {{
   title: "{title}",
   description: "{description}",
   alternates: {{ canonical: "{canonical_url}" }},
-  robots: {{ index: false, follow: false }},
+  robots: {{ index: true, follow: true }},
 }};
 
 function Schema() {{
@@ -242,9 +249,11 @@ export default function Page() {{
           <ol className="flex items-center gap-1 flex-wrap">
             <li><Link href="/" className="hover:text-amber-dark transition-colors">ホーム</Link></li>
             <li className="breadcrumb-sep" />
-            <li><Link href="/articles/whisky-kaitori-souba/" className="hover:text-amber-dark transition-colors">市場相場</Link></li>
+            <li><Link href="/tier2/" className="hover:text-amber-dark transition-colors">地域別買取</Link></li>
             <li className="breadcrumb-sep" />
-            <li><span className="text-foreground">{p['name_ja']}×{b['name_ja']}</span></li>
+            <li><Link href="/tier2/{pref_slug}/" className="hover:text-amber-dark transition-colors">{p['name_ja']}</Link></li>
+            <li className="breadcrumb-sep" />
+            <li><span className="text-foreground">{b['name_ja']}</span></li>
           </ol>
         </nav>
 
@@ -400,7 +409,7 @@ export default function Page() {{
             </ul>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 {b['yahoo_date']}）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。本ページは noindex 設定（検索エンジン非収録）です。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 {b['yahoo_date']}）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

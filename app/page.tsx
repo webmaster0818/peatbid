@@ -368,9 +368,12 @@ export default function Home() {
             </div>
           </div>
 
-          <p className="text-center mt-8">
+          <p className="text-center mt-8 flex flex-col sm:flex-row gap-2 sm:gap-6 justify-center items-center">
             <Link href="/articles/" className="text-amber-dark font-semibold underline underline-offset-4 hover:text-burgundy transition-colors">
               全50銘柄の相場一覧を見る →
+            </Link>
+            <Link href="/tier2/" className="text-amber-dark font-semibold underline underline-offset-4 hover:text-burgundy transition-colors">
+              地域別（47都道府県）の買取相場を見る →
             </Link>
           </p>
         </div>

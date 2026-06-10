@@ -30,9 +30,11 @@ export default function Page() {
           <ol className="flex items-center gap-1 flex-wrap">
             <li><Link href="/" className="hover:text-amber-dark transition-colors">ホーム</Link></li>
             <li className="breadcrumb-sep" />
-            <li><Link href="/articles/whisky-kaitori-souba/" className="hover:text-amber-dark transition-colors">市場相場</Link></li>
+            <li><Link href="/tier2/" className="hover:text-amber-dark transition-colors">地域別買取</Link></li>
             <li className="breadcrumb-sep" />
-            <li><span className="text-foreground">長野県×響ジャパニーズハーモニー</span></li>
+            <li><Link href="/tier2/nagano/" className="hover:text-amber-dark transition-colors">長野県</Link></li>
+            <li className="breadcrumb-sep" />
+            <li><span className="text-foreground">響ジャパニーズハーモニー</span></li>
           </ol>
         </nav>
 

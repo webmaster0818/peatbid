@@ -104,6 +104,14 @@ const navLinks = [
   { href: "/articles/hibiki-kaitori/", label: "響買取" },
 ];
 
+// Hub / discovery links — surfaced site-wide so every page links into the
+// main hubs (improves crawl depth & internal-link distribution).
+const hubLinks = [
+  { href: "/articles/", label: "銘柄一覧（全50銘柄）", short: "銘柄一覧" },
+  { href: "/tier2/", label: "地域別の買取相場（47都道府県）", short: "地域別買取" },
+  { href: "/souba-ranking/", label: "相場ランキング", short: "相場ランキング" },
+];
+
 function Header() {
   return (
     <header className="sticky top-0 z-50 bg-peat/95 backdrop-blur border-b border-amber/30">
@@ -129,6 +137,11 @@ function Header() {
               </Link>
             </li>
           ))}
+          <li>
+            <Link href="/tier2/" className="hover:text-amber transition-colors">
+              地域別買取
+            </Link>
+          </li>
         </ul>
         {/* Mobile hamburger */}
         <details className="md:hidden relative group">
@@ -164,6 +177,16 @@ function Header() {
                 {link.label}
               </Link>
             ))}
+            <div className="border-t border-amber/20 my-2" />
+            {hubLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="block px-4 py-2 text-sm text-cream/80 hover:text-amber hover:bg-cream/5 transition-colors"
+              >
+                {link.short}
+              </Link>
+            ))}
           </div>
         </details>
       </nav>
@@ -175,7 +198,7 @@ function Footer() {
   return (
     <footer className="bg-peat text-cream/90 mt-auto">
       <div className="max-w-5xl mx-auto px-4 py-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <p className="font-display text-2xl font-semibold mb-2 text-amber">
               {SITE_NAME}
@@ -185,6 +208,21 @@ function Footer() {
               <br />
               あなたの一本に、最高の値段を。
             </p>
+          </div>
+          <div>
+            <p className="font-bold text-sm mb-3 text-amber">相場・一覧から探す</p>
+            <ul className="space-y-2 text-sm text-cream/70">
+              {hubLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="hover:text-cream transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
           <div>
             <p className="font-bold text-sm mb-3 text-amber">記事カテゴリ</p>

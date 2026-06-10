@@ -30,9 +30,11 @@ export default function Page() {
           <ol className="flex items-center gap-1 flex-wrap">
             <li><Link href="/" className="hover:text-amber-dark transition-colors">ホーム</Link></li>
             <li className="breadcrumb-sep" />
-            <li><Link href="/articles/whisky-kaitori-souba/" className="hover:text-amber-dark transition-colors">市場相場</Link></li>
+            <li><Link href="/tier2/" className="hover:text-amber-dark transition-colors">地域別買取</Link></li>
             <li className="breadcrumb-sep" />
-            <li><span className="text-foreground">佐賀県×余市ノンエイジ</span></li>
+            <li><Link href="/tier2/saga/" className="hover:text-amber-dark transition-colors">佐賀県</Link></li>
+            <li className="breadcrumb-sep" />
+            <li><span className="text-foreground">余市ノンエイジ</span></li>
           </ol>
         </nav>
 
