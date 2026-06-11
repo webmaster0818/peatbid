@@ -24,3 +24,10 @@ GSC実数（本日取得）で診断:
 2. ビルド→deploy同期→両repo push→**本番curl確認済**（yamazaki-nv-kaitoriで新タイトル確認）。
 3. **Indexing API 58URL送信成功**（/articles/ /tier2/ /souba-ranking/ + whisky-toushi-hajimekata + 全54 kaitori）。tokenは gsc-token.json（indexingスコープあり）、スクリプト雛形=/tmp/peatbid_indexing.py 相当。
 4. ⚠️ **Next 16.2でRSC payloadが`__next*.txt`→`index.txt`に改名**。weekly-yahoo-update.sh の削除パターンを`*.txt`全削除に修正済（CF 20k上限対策の維持）。
+
+#### 同日: 内部リンク再構築(6/10分)の全数監査（MediaXAI依頼）
+監査方法=out/全2,919頁のhref抽出で壊れリンク検査＋ホームからのBFS到達性＋robots/sitemap整合（スクリプト雛形 /tmp/audit_links.py, /tmp/audit_reach.py 相当）。
+- **健全**: 壊れ内部リンク0、全実ページがホームから深さ2以内、robots=index 2,917/noindexは404系2頁のみ、sitemap⇄ビルド不整合0。tier2リーフのパンくず・47ハブの兄弟チップ(東京→関東6県)も本番反映確認済。リーフURLは `/tier2/{pref}/{brand}-kaitori/`（-kaitori付き。素の/{brand}/ではない）
+- **発見した問題(修正済)**: 孤立ページ3件 ①whisky-toushi-hajimekata(被リンク0)→/articles/ハブにチップ追加(+souba-rankingチップも) ②/author/ ③/content-policy/(両方とも被リンク0かつsitemap未掲載)→footer「サイト情報」列に追加＋sitemap STATIC_PAGESへ(2917 URL)
+- 今回はtier2込みでフルrsync（footer変更をtier2にも反映、deploy=3,134ファイル）
+- ⚠️計測注意: minified HTMLはgrep -cだと常に1になる（grep -o|wc -l を使う）
