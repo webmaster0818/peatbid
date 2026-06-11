@@ -77,6 +77,8 @@ export default function ArticlesIndexPage() {
           <Link href="/articles/whisky-kaitori-souba/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">ウイスキー買取相場の総合ガイド</Link>
           <Link href="/articles/whisky-takaku-uru/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">高く売る方法の総合ガイド</Link>
           <Link href="/tier2/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">地域別の買取ガイド</Link>
+          <Link href="/articles/whisky-toushi-hajimekata/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">ウイスキー投資の始め方</Link>
+          <Link href="/souba-ranking/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">今週の相場ランキング</Link>
         </div>
 
         <div className="space-y-10">

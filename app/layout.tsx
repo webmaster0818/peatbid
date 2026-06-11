@@ -268,6 +268,22 @@ function Footer() {
               </li>
               <li>
                 <Link
+                  href="/author/"
+                  className="hover:text-cream transition-colors"
+                >
+                  編集部メンバー紹介
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/content-policy/"
+                  className="hover:text-cream transition-colors"
+                >
+                  記事制作ポリシー
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/track-record/"
                   className="hover:text-cream transition-colors"
                 >

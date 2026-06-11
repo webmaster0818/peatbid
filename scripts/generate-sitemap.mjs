@@ -59,6 +59,8 @@ const STATIC_PAGES = [
   { path: '/faq/', priority: '0.7', changefreq: 'monthly' },
   { path: '/editorial/', priority: '0.6', changefreq: 'monthly' },
   { path: '/methodology/', priority: '0.6', changefreq: 'monthly' },
+  { path: '/author/', priority: '0.5', changefreq: 'monthly' },
+  { path: '/content-policy/', priority: '0.5', changefreq: 'monthly' },
   { path: '/track-record/', priority: '0.5', changefreq: 'monthly' },
   { path: '/about/', priority: '0.5', changefreq: 'monthly' },
   { path: '/privacy-policy/', priority: '0.3', changefreq: 'monthly' },
