@@ -31,3 +31,10 @@ GSC実数（本日取得）で診断:
 - **発見した問題(修正済)**: 孤立ページ3件 ①whisky-toushi-hajimekata(被リンク0)→/articles/ハブにチップ追加(+souba-rankingチップも) ②/author/ ③/content-policy/(両方とも被リンク0かつsitemap未掲載)→footer「サイト情報」列に追加＋sitemap STATIC_PAGESへ(2917 URL)
 - 今回はtier2込みでフルrsync（footer変更をtier2にも反映、deploy=3,134ファイル）
 - ⚠️計測注意: minified HTMLはgrep -cだと常に1になる（grep -o|wc -l を使う）
+
+#### 同日: 問い合わせ窓口構築（MediaXAI依頼。広告出稿・被リンクバーター交渉の受け皿）
+- **構成**: `/contact/`（app/contact/page.tsx＋components/ContactForm.tsx, honeypot付き）→ POST `/api/contact` → **CF Pages Function**（peatbid-deploy repo の `functions/api/contact.js`）→ Discord Webhook で peatbidチャンネル(1481155786087469068)に通知（MediaXAI＋tomomiメンション）
+- **シークレット**: deploy repoは**公開**のためWebhook URLはコード直書き禁止。CF Pages環境変数 `DISCORD_WEBHOOK_URL` が必要（CFダッシュボード=mediax.saburo.ai0818@mediax.biz、APIトークンは手元に無く**手動設定が必要**）。値は週次plist `com.peatbid.weekly-yahoo-update` の `DISCORD_PRICE_WEBHOOK` と同じでよい（このWebhookは生きていて宛先がpeatbid ch。GETで確認する際はUser-Agent必須=curl/8等、無いと403）
+- **rsync注意**: deploy側 `functions/` は rsync --delete で消えるため weekly-yahoo-update.sh と手動rsyncに `--exclude="functions"` 必須（weekly側は追加済）
+- 運用フロー: 通知→tomomiがドラフト返信をchに投稿→MediaXAI承認→メール送信（当面手動 or Gmail連携認証後にtomomiから）。Webhook経由bot投稿ではtomomiが自動起動しない可能性→MediaXAIメンションで起動
+- footer「お問い合わせ（広告出稿・提携）」/sitemap 2,918 URL
