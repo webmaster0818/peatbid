@@ -7,8 +7,13 @@ v3: Plan A compliant brand-kaitori pages.
 - Insufficient sample (n<20) → "市場相場データ不足" mode.
 """
 import csv
+import datetime
 import re
 from pathlib import Path
+
+# 週次cronで再生成されるため、生成時点の年月がそのままタイトル鮮度になる
+_NOW = datetime.date.today()
+MONTH_TAG = f"【{_NOW.year}年{_NOW.month}月最新】"
 
 ROOT = Path(__file__).parent.parent
 DATA = ROOT / "data" / "brands.csv"
@@ -327,8 +332,8 @@ def render_page(b, all_brands):
     target_dir = OUT_DIR / f"{slug_base}-kaitori"
     target_dir.mkdir(parents=True, exist_ok=True)
 
-    meta_title = f"{name}の市場相場【2026年最新】{market_short}・Yahoo中央値ベース完全ガイド" if sufficient else f"{name}の市場相場ガイド【2026年最新】・Yahoo中央値ベース"
-    meta_desc = f"{name}（{name_en}）の最新市場相場（Yahoo Auctions 過去180日落札中央値）。状態別の業界目安、業者比較リンク、蒸溜所の歴史、テイスティング、贋作リスクまで網羅。コレクター・オーナー必読の決定版ガイド。"
+    meta_title = f"{name}の買取相場{MONTH_TAG}{market_short}・Yahoo中央値ベース完全ガイド" if sufficient else f"{name}の買取相場ガイド{MONTH_TAG}Yahoo中央値ベース"
+    meta_desc = f"{name}（{name_en}）の買取相場の最新目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。売却検討者必読の決定版ガイド。"
 
     content = f'''import type {{ Metadata }} from "next";
 import Link from "next/link";
@@ -381,7 +386,7 @@ export default function {component_name}() {{
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{name}の市場相場と業者比較ガイド</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{name}の買取相場と業者比較ガイド{MONTH_TAG.replace("最新】", "】")}</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: {fetched_at} / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={{priceData as Parameters<typeof MarketPriceCard>[0]["data"]}} />

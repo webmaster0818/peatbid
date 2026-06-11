@@ -5,8 +5,8 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/yoichi-nv.json";
 
 export const metadata: Metadata = {
-  title: '余市ノンエイジの市場相場ガイド【2026年最新】・Yahoo中央値ベース',
-  description: '余市ノンエイジ（Yoichi NV）の最新市場相場（Yahoo Auctions 過去180日落札中央値）。状態別の業界目安、業者比較リンク、蒸溜所の歴史、テイスティング、贋作リスクまで網羅。コレクター・オーナー必読の決定版ガイド。',
+  title: '余市ノンエイジの買取相場ガイド【2026年6月最新】Yahoo中央値ベース',
+  description: '余市ノンエイジ（Yoichi NV）の買取相場の最新目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。売却検討者必読の決定版ガイド。',
 };
 
 function FaqSchema() {
@@ -49,7 +49,7 @@ export default function YoichiNvKaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">余市ノンエイジの市場相場と業者比較ガイド</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">余市ノンエイジの買取相場と業者比較ガイド【2026年6月】</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-08 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />

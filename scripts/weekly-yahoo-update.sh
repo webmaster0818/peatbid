@@ -128,7 +128,8 @@ export NODE_OPTIONS="--max-old-space-size=12288"
 set -o pipefail
 npx next build 2>&1 | tail -5
 set +o pipefail
-find out -name "__next*.txt" -type f -delete
+# Next 16.2 では RSC payload が __next*.txt から index.txt に変わったため *.txt 全削除
+find out -name "*.txt" -type f -delete
 
 # Scaled Content リント（warnモード：違反を記録するだけでデプロイは止めない）
 echo "[$(date '+%H:%M:%S')] 🔎 [6.5/7] Scaled Content リント"
