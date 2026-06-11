@@ -16,3 +16,11 @@ GSC実数（本日取得）で診断:
 
 課題設定（ボトルネック順）: ①収益配線 ②インデックス ③順位（マネーページ1ページ目）④CVR。
 戦略3フェーズをDiscordに報告済（Phase0=ASP配線+勝ち筋強化、Phase1=tier2検証2週→ダメなら縮小、Phase2=被リンク/一次データ資産化）。
+
+**MediaXAI回答: ASPはA8/フェルマ/レントラックス/afb/TSCを別サイトで契約済み・peatbid分は申請中→配線は承認待ち。それ以外を先行**。
+
+#### 同日実行（Phase 0のASP以外）
+1. **タイトル/H1のクエリ整合＋鮮度動的化**: generate-brand-pages-v3.py の meta_title/H1 を「市場相場」→「**買取相場**」に変更（検索クエリは全て「買取相場」で来ていた）。【2026年最新】→生成時の年月`MONTH_TAG`【YYYY年M月最新】に動的化（週次cron再生成で自動鮮度維持）。50 kaitoriページ反映。
+2. ビルド→deploy同期→両repo push→**本番curl確認済**（yamazaki-nv-kaitoriで新タイトル確認）。
+3. **Indexing API 58URL送信成功**（/articles/ /tier2/ /souba-ranking/ + whisky-toushi-hajimekata + 全54 kaitori）。tokenは gsc-token.json（indexingスコープあり）、スクリプト雛形=/tmp/peatbid_indexing.py 相当。
+4. ⚠️ **Next 16.2でRSC payloadが`__next*.txt`→`index.txt`に改名**。weekly-yahoo-update.sh の削除パターンを`*.txt`全削除に修正済（CF 20k上限対策の維持）。
