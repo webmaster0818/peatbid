@@ -63,6 +63,7 @@ const STATIC_PAGES = [
   { path: '/content-policy/', priority: '0.5', changefreq: 'monthly' },
   { path: '/track-record/', priority: '0.5', changefreq: 'monthly' },
   { path: '/about/', priority: '0.5', changefreq: 'monthly' },
+  { path: '/contact/', priority: '0.4', changefreq: 'monthly' },
   { path: '/privacy-policy/', priority: '0.3', changefreq: 'monthly' },
   { path: '/terms-of-service/', priority: '0.3', changefreq: 'monthly' },
 ]

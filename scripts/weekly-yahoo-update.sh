@@ -141,6 +141,7 @@ rsync -a --delete \
   --exclude=".git" \
   --exclude="tier2" \
   --exclude="_not-found" \
+  --exclude="functions" \
   "$SRC/out/" "$DEPLOY/"
 
 cd "$DEPLOY"

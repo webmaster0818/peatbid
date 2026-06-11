@@ -300,6 +300,14 @@ function Footer() {
               </li>
               <li>
                 <Link
+                  href="/contact/"
+                  className="hover:text-cream transition-colors"
+                >
+                  お問い合わせ（広告出稿・提携）
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/terms-of-service/"
                   className="hover:text-cream transition-colors"
                 >
