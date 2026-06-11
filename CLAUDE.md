@@ -38,3 +38,4 @@ GSC実数（本日取得）で診断:
 - **rsync注意**: deploy側 `functions/` は rsync --delete で消えるため weekly-yahoo-update.sh と手動rsyncに `--exclude="functions"` 必須（weekly側は追加済）
 - 運用フロー: 通知→tomomiがドラフト返信をchに投稿→MediaXAI承認→メール送信（当面手動 or Gmail連携認証後にtomomiから）。Webhook経由bot投稿ではtomomiが自動起動しない可能性→MediaXAIメンションで起動
 - footer「お問い合わせ（広告出稿・提携）」/sitemap 2,918 URL
+- **✅稼働開始(2026-06-11 14:00頃)**: MediaXAIが新規Webhook作成→CF env var `DISCORD_WEBHOOK_URL`(Secret)設定→再デプロイ→tomomiのテストPOSTが200・Discord通知着弾を確認。全経路正常。CF保存ボタンが押せない時はフォーカス外し/空行削除/タイプをテキストにで回避
