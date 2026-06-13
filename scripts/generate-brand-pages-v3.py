@@ -298,6 +298,14 @@ def render_page(b, all_brands):
         market_str = "現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません"
         market_short = "市場相場データ蓄積中"
 
+    hako_yen = f"（{yen_range_pct(yahoo_median, 80, 90)}）" if sufficient else ""
+    is_nv = slug_base.endswith("-nv")
+    nv_base_name = name.replace("ノンエイジ", "").strip()
+    nv_note = (
+        f'<p>なお、{name}はラベルに熟成年数の表記がないボトルで、オークションや買取店では「<strong>{nv_base_name} 年代指定なし</strong>」「<strong>{nv_base_name} NV（ノンヴィンテージ）</strong>」とも表記されます。いずれも本ページの相場が目安になります。</p>'
+        if is_nv else ""
+    )
+
     faqs = [
         (f"{name}の市場相場はいくらですか？",
          f"{name}の市場相場は{market_str}。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各業者のページで直接ご確認ください。"),
@@ -305,6 +313,8 @@ def render_page(b, all_brands):
          "(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。"),
         (f"{name}の開封済みでも買取できますか？",
          "はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。"),
+        (f"{name}は箱無しでも買取してもらえますか？",
+         f"はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度{hako_yen}で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。"),
         (f"{name}に偽物・贋作はありますか？",
          "高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。"),
         (f"{name}の保管方法は？",
@@ -316,6 +326,11 @@ def render_page(b, all_brands):
         (f"{name}と他の銘柄、どっちを先に売るべき？",
          "市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。"),
     ]
+    if is_nv:
+        faqs.insert(1, (
+            f"「{nv_base_name} 年代指定なし」と{name}は同じものですか？",
+            f"はい、同じものです。「{nv_base_name} 年代指定なし」「{nv_base_name} NV」は、熟成年数の表記がないボトル＝{name}を指す表記ゆれです。本ページの相場（{market_short}）がそのまま目安になります。",
+        ))
 
     faq_schema_json = "{" + '"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [' + ", ".join(
         '{ "@type": "Question", "name": ' + repr(q) + ', "acceptedAnswer": { "@type": "Answer", "text": ' + repr(a) + " } }"
@@ -404,6 +419,8 @@ export default function {component_name}() {{
           <h2 id="summary">1. {name}の概要</h2>
 
           <p>{name}は{cat_label}を代表する銘柄の1つで、{origin}が手がける{age_label}のボトルです。{description}。</p>
+
+          {nv_note}
 
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。{name}は希少度<strong>{rarity_label}</strong>クラスに位置し、{rarity_detailed}</p>
 
@@ -515,6 +532,16 @@ export default function {component_name}() {{
             <li>外箱・冊子・カートンの有無と状態</li>
             <li>製造ロット・ボトリング年代</li>
             <li>付属の保証書・購入レシート</li>
+          </ul>
+
+          <h3 id="hako-nashi-souba">{name}を箱なし・付属品なしで売る場合の買取相場</h3>
+
+          <p>「{name} 買取 箱無し」とお調べの方向けの目安です。未開封・箱なし（ラベル良好）の場合、業界一般の目安は<strong>市場相場の80〜90%程度{hako_yen}</strong>。外箱・冊子の揃った完品と比べて1〜2割の減額にとどまるため、<strong>箱がなくても売却を諦める必要はありません</strong>。</p>
+
+          <ul>
+            <li>減額幅は業者の評価基準によって差が出ます。箱なしの場合こそ<strong>複数業者の相見積もり</strong>が有効です</li>
+            <li>冊子・カートンなど<strong>一部の付属品だけでも残っていれば一緒に査定へ</strong>（部分的でも評価されます）</li>
+            <li>詳しくは<Link href="/articles/{slug_base}-hako-nashi/" className="text-amber-dark hover:underline">{name}は箱なしでも買取してもらえるかの徹底ガイド</Link>をご覧ください</li>
           </ul>
 
           <h2 id="price-reasons">6. なぜ{name}はこの価格になるのか</h2>

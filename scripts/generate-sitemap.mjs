@@ -56,6 +56,7 @@ const STATIC_PAGES = [
   { path: '/articles/', priority: '0.9', changefreq: 'weekly' },
   { path: '/tier2/', priority: '0.8', changefreq: 'weekly' },
   { path: '/souba-ranking/', priority: '0.8', changefreq: 'weekly' },
+  { path: '/souba-index/', priority: '0.8', changefreq: 'weekly' },
   { path: '/faq/', priority: '0.7', changefreq: 'monthly' },
   { path: '/editorial/', priority: '0.6', changefreq: 'monthly' },
   { path: '/methodology/', priority: '0.6', changefreq: 'monthly' },

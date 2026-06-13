@@ -116,6 +116,7 @@ echo "[$(date '+%H:%M:%S')] 📝 [4/7] angle ページ再生成（v3）"
 
 echo "[$(date '+%H:%M:%S')] 📈 [4.5/7] 相場ランキング・データ再生成（B：更新型コンテンツ）"
 /opt/homebrew/bin/python3 scripts/generate-souba-ranking.py
+/opt/homebrew/bin/python3 scripts/generate-souba-index.py
 
 echo "[$(date '+%H:%M:%S')] 📊 [5/7] sitemap.xml 再生成"
 node scripts/generate-sitemap.mjs
