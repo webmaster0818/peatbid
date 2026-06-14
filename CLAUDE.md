@@ -32,6 +32,14 @@ GSC実数（本日取得）で診断:
 - 今回はtier2込みでフルrsync（footer変更をtier2にも反映、deploy=3,134ファイル）
 - ⚠️計測注意: minified HTMLはgrep -cだと常に1になる（grep -o|wc -l を使う）
 
+### 2026-06-13 戦略残タスク実行（MediaXAI「残タスク進めたい」）
+1. **勝ち筋ページ集中改修（generator v3に恒久実装＝週次再生成でも維持）**: ①全50 kaitoriページに「箱なし・付属品なしで売る場合の買取相場」H3（中央値×80-90%の円レンジ自動計算＋hako-nashi角度ページへ誘導）＋箱なしFAQ（クエリ「山崎 ノンエイジ 買取相場 箱無し」8.1位対応） ②NV5銘柄（yamazaki/hibiki/hakushu/yoichi/miyagikyo）に**「年代指定なし」「NV」表記ゆれ対応**（リード注記＋FAQ。「グレンファークラス 年代指定なし 買取」等のクエリ群が来ている）
+2. **Phase 2前倒し: /souba-index/（ウイスキー買取相場指数）公開**: `scripts/generate-souba-index.py`＝price-history週次中央値→基準週100の等ウェイト合成指数（総合/JP/SC 3系列・現在3週分44銘柄・SVGチャート・メソドロジー・**出典明記で引用歓迎**=被リンク資産）。週次cronに組込済＝自動成熟。layout hubLinks＋sitemap(2919URL)登録
+3. **tier2中間検証(6/13)**: URL検査=主要ハブ・リーフとも依然「Discovered-not indexed」最終クロール無し、sitemap indexed=0。6/10内部リンク改修から3日では未反映。**正式判定は6/24のまま**。唯一indexedはyamazaki-nv(6/6クロール)。→権威(被リンク)が本丸という診断を補強
+4. Indexing API 12URL送信（souba-index＋NV5＋勝ち筋6）。robots.txtのSitemap行は設定済みを確認
+- ⚠️ビルドのNODE_OPTIONSは**同一コマンド内で指定**（Bash呼び出し間でexportは持続しない→2回目ビルドがOOMした）
+- 残: ASP配線（承認待ち）/ 「{ブランド} 買取」系の汎用クエリ受け皿（ブランドファミリーハブ）は次回候補
+
 #### 同日: 問い合わせ窓口構築（MediaXAI依頼。広告出稿・被リンクバーター交渉の受け皿）
 - **構成**: `/contact/`（app/contact/page.tsx＋components/ContactForm.tsx, honeypot付き）→ POST `/api/contact` → **CF Pages Function**（peatbid-deploy repo の `functions/api/contact.js`）→ Discord Webhook で peatbidチャンネル(1481155786087469068)に通知（MediaXAI＋tomomiメンション）
 - **シークレット**: deploy repoは**公開**のためWebhook URLはコード直書き禁止。CF Pages環境変数 `DISCORD_WEBHOOK_URL` が必要（**peatbidのCFアカウントは webmaster0818**（MediaXAI訂正 2026-06-11。mediax.saburo.ai0818ではない）。APIトークンは手元に無く**手動設定が必要**）。値は週次plist `com.peatbid.weekly-yahoo-update` の `DISCORD_PRICE_WEBHOOK` と同じでよい（このWebhookは生きていて宛先がpeatbid ch。GETで確認する際はUser-Agent必須=curl/8等、無いと403）

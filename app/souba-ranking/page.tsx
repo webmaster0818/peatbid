@@ -154,6 +154,61 @@ export default function Page() {
         </ol>
       </section>
 
+      {/* 都道府県から探す(crawl hub) */}
+      <section className="mb-10">
+        <h2 className="font-display text-xl font-bold text-ink mb-3">都道府県から買取相場を探す</h2>
+        <p className="text-sm text-warm-gray mb-3">お住まいの地域のウイスキー買取相場・対応業者はこちらから。</p>
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2 text-sm">
+          <Link href="/tier2/hokkaido/" className="text-amber-dark hover:underline">北海道</Link>
+          <Link href="/tier2/aomori/" className="text-amber-dark hover:underline">青森県</Link>
+          <Link href="/tier2/iwate/" className="text-amber-dark hover:underline">岩手県</Link>
+          <Link href="/tier2/miyagi/" className="text-amber-dark hover:underline">宮城県</Link>
+          <Link href="/tier2/akita/" className="text-amber-dark hover:underline">秋田県</Link>
+          <Link href="/tier2/yamagata/" className="text-amber-dark hover:underline">山形県</Link>
+          <Link href="/tier2/fukushima/" className="text-amber-dark hover:underline">福島県</Link>
+          <Link href="/tier2/ibaraki/" className="text-amber-dark hover:underline">茨城県</Link>
+          <Link href="/tier2/tochigi/" className="text-amber-dark hover:underline">栃木県</Link>
+          <Link href="/tier2/gunma/" className="text-amber-dark hover:underline">群馬県</Link>
+          <Link href="/tier2/saitama/" className="text-amber-dark hover:underline">埼玉県</Link>
+          <Link href="/tier2/chiba/" className="text-amber-dark hover:underline">千葉県</Link>
+          <Link href="/tier2/tokyo/" className="text-amber-dark hover:underline">東京都</Link>
+          <Link href="/tier2/kanagawa/" className="text-amber-dark hover:underline">神奈川県</Link>
+          <Link href="/tier2/niigata/" className="text-amber-dark hover:underline">新潟県</Link>
+          <Link href="/tier2/toyama/" className="text-amber-dark hover:underline">富山県</Link>
+          <Link href="/tier2/ishikawa/" className="text-amber-dark hover:underline">石川県</Link>
+          <Link href="/tier2/fukui/" className="text-amber-dark hover:underline">福井県</Link>
+          <Link href="/tier2/yamanashi/" className="text-amber-dark hover:underline">山梨県</Link>
+          <Link href="/tier2/nagano/" className="text-amber-dark hover:underline">長野県</Link>
+          <Link href="/tier2/gifu/" className="text-amber-dark hover:underline">岐阜県</Link>
+          <Link href="/tier2/shizuoka/" className="text-amber-dark hover:underline">静岡県</Link>
+          <Link href="/tier2/aichi/" className="text-amber-dark hover:underline">愛知県</Link>
+          <Link href="/tier2/mie/" className="text-amber-dark hover:underline">三重県</Link>
+          <Link href="/tier2/shiga/" className="text-amber-dark hover:underline">滋賀県</Link>
+          <Link href="/tier2/kyoto/" className="text-amber-dark hover:underline">京都府</Link>
+          <Link href="/tier2/osaka/" className="text-amber-dark hover:underline">大阪府</Link>
+          <Link href="/tier2/hyogo/" className="text-amber-dark hover:underline">兵庫県</Link>
+          <Link href="/tier2/nara/" className="text-amber-dark hover:underline">奈良県</Link>
+          <Link href="/tier2/wakayama/" className="text-amber-dark hover:underline">和歌山県</Link>
+          <Link href="/tier2/tottori/" className="text-amber-dark hover:underline">鳥取県</Link>
+          <Link href="/tier2/shimane/" className="text-amber-dark hover:underline">島根県</Link>
+          <Link href="/tier2/okayama/" className="text-amber-dark hover:underline">岡山県</Link>
+          <Link href="/tier2/hiroshima/" className="text-amber-dark hover:underline">広島県</Link>
+          <Link href="/tier2/yamaguchi/" className="text-amber-dark hover:underline">山口県</Link>
+          <Link href="/tier2/tokushima/" className="text-amber-dark hover:underline">徳島県</Link>
+          <Link href="/tier2/kagawa/" className="text-amber-dark hover:underline">香川県</Link>
+          <Link href="/tier2/ehime/" className="text-amber-dark hover:underline">愛媛県</Link>
+          <Link href="/tier2/kochi/" className="text-amber-dark hover:underline">高知県</Link>
+          <Link href="/tier2/fukuoka/" className="text-amber-dark hover:underline">福岡県</Link>
+          <Link href="/tier2/saga/" className="text-amber-dark hover:underline">佐賀県</Link>
+          <Link href="/tier2/nagasaki/" className="text-amber-dark hover:underline">長崎県</Link>
+          <Link href="/tier2/kumamoto/" className="text-amber-dark hover:underline">熊本県</Link>
+          <Link href="/tier2/oita/" className="text-amber-dark hover:underline">大分県</Link>
+          <Link href="/tier2/miyazaki/" className="text-amber-dark hover:underline">宮崎県</Link>
+          <Link href="/tier2/kagoshima/" className="text-amber-dark hover:underline">鹿児島県</Link>
+          <Link href="/tier2/okinawa/" className="text-amber-dark hover:underline">沖縄県</Link>
+        </div>
+      </section>
+
       <p className="text-xs text-warm-gray leading-relaxed border-t border-warm-border pt-4">
         ※ 数値はYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から当サイトが集計した参考値です。前週比は週次スナップショットの中央値の差分です。実際の買取額は業者・状態・付属品により変動し、金額を保証するものではありません。集計方法は<Link href="/methodology/" className="text-amber-dark underline">こちら</Link>。
       </p>

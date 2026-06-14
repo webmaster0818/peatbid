@@ -37,7 +37,7 @@ export default function Yamazaki25TakakuUruPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎25年を高く売る方法 — 査定額を最大化する完全ガイド</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-08 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-15 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Yamazaki25TakakuUruPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">山崎25年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / 25年熟成 / 希少度 ウルトラ / 市場相場 75,000円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / 25年熟成 / 希少度 ウルトラ / 市場相場 80,300円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yamazaki-25-kaitori/" className="text-amber-dark underline">山崎25年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,17 +68,17 @@ export default function Yamazaki25TakakuUruPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎25年の落札が約274件確認でき、落札額の中央値は75,000円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎25年の落札が約262件確認でき、落札額の中央値は80,300円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
           <h2 id="section-0">1. 山崎25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>山崎25年</strong>はジャパニーズウイスキー（山崎蒸溜所）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>75,000円</strong>（流通サンプル274件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>山崎25年</strong>はジャパニーズウイスキー（山崎蒸溜所）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>80,300円</strong>（流通サンプル262件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. コツ1: 付属品をすべて揃える</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>山崎25年の査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。実勢中央値<strong>75,000円</strong>を基準とすると、付属品なしでは約60,000〜67,500円（相場の80〜90%）まで下がるのが一般的です。</p><p>外箱にシミ・破れ・水濡れ跡があると更に-5〜10%。付属品を揃えるだけで約11,250円前後の差が出る計算です。</p><p>まず家中を徹底的に探し、すべての付属品を集めてから売却を検討してください。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>山崎25年の査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。実勢中央値<strong>80,300円</strong>を基準とすると、付属品なしでは約64,240〜72,270円（相場の80〜90%）まで下がるのが一般的です。</p><p>外箱にシミ・破れ・水濡れ跡があると更に-5〜10%。付属品を揃えるだけで約12,040円前後の差が出る計算です。</p><p>まず家中を徹底的に探し、すべての付属品を集めてから売却を検討してください。</p>` }} />
 
           <h2 id="section-2">3. コツ2: 未開封の状態を維持</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>山崎25年は開封済みになると査定額が大幅に下がり、未開封の30〜40%＝約22,500〜30,000円前後まで落ちます。未開封なら75,000円前後で売れる可能性があることを考えると、その差は歴然です。</p><p>コレクション目的のボトルは絶対に開けず保管を。「ちょっと味見」が大きな損失につながります。</p><p>万一開封した場合は、香味揮発・酸化が進む前にできるだけ早く売却するのが鉄則です。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>山崎25年は開封済みになると査定額が大幅に下がり、未開封の30〜40%＝約24,090〜32,120円前後まで落ちます。未開封なら80,300円前後で売れる可能性があることを考えると、その差は歴然です。</p><p>コレクション目的のボトルは絶対に開けず保管を。「ちょっと味見」が大きな損失につながります。</p><p>万一開封した場合は、香味揮発・酸化が進む前にできるだけ早く売却するのが鉄則です。</p>` }} />
 
           <h2 id="section-3">4. コツ3: 複数業者で相見積もり</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>同じ山崎25年でも、業者によって<strong>数万〜数十万円</strong>の査定差が生じます。1社だけで決めるのは絶対に避けるべきです。</p><p>推奨フロー: (1)ヒカカク等の一括査定サイトで5社以上から見積もり取得、(2)お酒買取専門店（JOYLAB・リカスタ等）に個別で2〜3社から見積もり、(3)合計7〜8社の見積もりを比較、(4)手取り額（手数料・送料込み）で最高値の業者を選定。</p><p>査定無料・キャンセル無料の業者ばかりなので、複数比較のコストはゼロです。</p>` }} />
@@ -140,7 +140,7 @@ export default function Yamazaki25TakakuUruPage() {
             <Link href="/articles/yamazaki-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">山崎25年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-08）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-15）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

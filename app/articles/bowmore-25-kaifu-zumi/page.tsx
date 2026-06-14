@@ -37,7 +37,7 @@ export default function Bowmore25KaifuZumiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ボウモア25年が開封済みでも売れる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-08 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-15 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Bowmore25KaifuZumiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">ボウモア25年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / 25年熟成 / 希少度 ハイ / 市場相場 43,725円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / 25年熟成 / 希少度 ハイ / 市場相場 46,050円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/bowmore-25-kaitori/" className="text-amber-dark underline">ボウモア25年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Bowmore25KaifuZumiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではボウモア25年の落札が約128件確認でき、落札額の中央値は43,725円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではボウモア25年の落札が約112件確認でき、落札額の中央値は46,050円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
@@ -105,10 +105,10 @@ export default function Bowmore25KaifuZumiPage() {
           </div>
 
           <h2 id="section-0">1. ボウモア25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ボウモア25年</strong>はスコッチウイスキー（アイラ）の25年熟成、度数43%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>43,725円</strong>（流通サンプル128件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（アイラ）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ボウモア25年</strong>はスコッチウイスキー（アイラ）の25年熟成、度数43%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>46,050円</strong>（流通サンプル112件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（アイラ）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 開封済みボウモア25年の査定額の目安</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>43,725円</strong>を基準として、開封済みは残量・状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 約13,120〜17,490円（30〜40%）</li><li><strong>7割以上残</strong>: 約10,930〜15,300円（25〜35%）</li><li><strong>5割以上残</strong>: 約8,740〜13,120円（20〜30%）</li><li><strong>3割以上残</strong>: 約4,370〜8,740円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合あり、もしくは空ボトルとして数千円
+          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>46,050円</strong>を基準として、開封済みは残量・状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 約13,820〜18,420円（30〜40%）</li><li><strong>7割以上残</strong>: 約11,510〜16,120円（25〜35%）</li><li><strong>5割以上残</strong>: 約9,210〜13,820円（20〜30%）</li><li><strong>3割以上残</strong>: 約4,600〜9,210円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合あり、もしくは空ボトルとして数千円
 
 開封済みは未開封と比べ大きく下がるため、コレクション品は開けないのが鉄則です。</li></ol>` }} />
 
@@ -181,7 +181,7 @@ export default function Bowmore25KaifuZumiPage() {
             <Link href="/articles/bowmore-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">ボウモア25年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-08）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-15）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>
