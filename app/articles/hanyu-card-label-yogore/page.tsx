@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/hanyu-card.json";
 
 export const metadata: Metadata = {
-  title: '羽生カードシリーズのラベル汚れ・破れがあっても売れる？【2026年完全版】状態別査定額と保護方法',
+  title: '羽生カードシリーズはラベル汚れ・破れでも売れる?【2026年6月最新】状態別の買取査定額',
   description: '羽生カードシリーズのラベル汚れ・破れ・剥がれ・水濡れ跡がある場合の買取査定額を詳細解説。状態別の価格目安、ラベル保護の保管方法、業者選定まで完全ガイド。',
 };
 

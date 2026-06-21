@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/macallan-fine-rare.json";
 
 export const metadata: Metadata = {
-  title: 'マッカラン ファイン&レアの歴史と特徴【2026年完全版】蒸溜所・受賞歴・市場評価の根拠',
+  title: 'マッカラン ファイン&レアの歴史・特徴と買取価値【2026年6月最新】なぜ高い?市場評価の根拠',
   description: 'マッカラン ファイン&レアの歴史的背景、スペイサイドのストーリー、味わいの特徴、世界的評価、市場価値が高い理由を専門ライターが徹底解説。コレクター・購入検討者必読の銘柄完全ガイド。',
 };
 

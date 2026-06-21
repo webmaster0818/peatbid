@@ -77,7 +77,15 @@ export default function ArticlesIndexPage() {
           <Link href="/articles/whisky-kaitori-souba/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">ウイスキー買取相場の総合ガイド</Link>
           <Link href="/articles/whisky-takaku-uru/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">高く売る方法の総合ガイド</Link>
           <Link href="/tier2/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">地域別の買取ガイド</Link>
+          <Link href="/articles/whisky-sell-guide/" className="text-sm bg-amber/15 border border-amber/50 text-amber-dark font-bold rounded-lg px-3 py-2 hover:bg-amber/25">売る前の基礎ガイド（総まとめ）</Link>
           <Link href="/articles/whisky-toushi-hajimekata/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">ウイスキー投資の始め方</Link>
+          <Link href="/articles/whisky-kaitori-zeikin/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">買取の税金・確定申告</Link>
+          <Link href="/articles/whisky-naze-takai/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">なぜ高い？高騰の理由</Link>
+          <Link href="/articles/whisky-hokan-houhou/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">保管方法</Link>
+          <Link href="/articles/whisky-nisemono-miwakekata/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">偽物の見分け方</Link>
+          <Link href="/articles/whisky-nv-toha/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">年代指定なし(NV)とは</Link>
+          <Link href="/articles/whisky-souzoku-baikyaku/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">相続・遺品のウイスキーを売る</Link>
+          <Link href="/articles/whisky-souba-kimarikata/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">買取相場の決まり方</Link>
           <Link href="/souba-ranking/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">今週の相場ランキング</Link>
         </div>
 

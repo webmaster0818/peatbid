@@ -49,3 +49,18 @@ GSC実数（本日取得）で診断:
 - **✅稼働開始(2026-06-11 14:00頃)**: MediaXAIが新規Webhook作成→CF env var `DISCORD_WEBHOOK_URL`(Secret)設定→再デプロイ→tomomiのテストPOSTが200・Discord通知着弾を確認。全経路正常。CF保存ボタンが押せない時はフォーカス外し/空行削除/タイプをテキストにで回避
 - **✅返信メール基盤(同日15:00頃)**: webmaster@mediax.biz からGmail APIで送信可能に。OAuth=`~/.openclaw/workspace/gsc-api/gmail_oauth_setup.py`(リモート承認: URL生成→MediaXAIが承認→redirect URLを貼ってもらいcode交換。**PKCE code_verifierをstateファイルに永続化必須**)。token=`secrets/gmail-webmaster-token.json`(gmail.sendのみ)。送信=`gsc-api/send_reply.py --to --subject --body[-file]`(差出人「PeatBid編集部 <webmaster@mediax.biz>」)。Gmail API有効化はMediaXAIがproject 487571920418で実施済。テスト送信をMediaXAIがスマホで受信確認済
 - **運用フロー確定**: 着信通知→tomomiがドラフト＋対応方針をch投稿→MediaXAI承認→send_reply.pyで送信→送信報告をchへ。送信は必ず承認後
+
+### 2026-06-18 拡張戦略 P0+P1実行（MediaXAI「進めてください」）
+GSC再診断(28日): クリック14・表示541・CTR2.6%・17.4位。**全2,919頁中 表示があるのは62頁(2.1%)のみ＝記事55/tier2は2,350中わずか4頁**。勝ち筋20頁がpos4-22で待機。核心課題=面でなく①低権威で2,350 tier2がクロール予算/評価を希釈②CTR取りこぼし(pos5-11で0クリック多数)。
+- **P1完了(最大レバー)**: `generate-angle-pages-v3.py`に`MONTH_TAG`(動的【YYYY年M月最新】)追加＋**9系統タイトルを全面改稿**（買取意図を前出し＋動的鮮度＋疑問形フック）。例「{name}は箱なしでも買取できる?【2026年6月最新】査定額への影響と対策」。450頁再生成。**従来は静的「2026年完全版/最新」で買取意図弱→pos5-11なのに0クリックの主因**。kaitori(brand)生成器は既に動的月＋買取相場タイトル済(6/11)。
+- **P0**: 勝ち筋kaitoriは一次データ(Yahoo中央値円レンジ)+FAQ schema+動的鮮度 実装済、内部リンクも健全(各kaitori→同銘柄9系統+関連へ15本)。追加=Indexing API 22頁送信。
+- ビルド`NODE_OPTIONS=--max-old-space-size=12288`→rsync(--exclude functions)→peatbid-deploy push(3137ファイル)→本番curl反映確認。
+- **保留(要MediaJudgment)**: P2=tier2 2,350頁のnoindex/統合(クロール予算集中)、P3=Know記事、P4=買取相場白書(被リンク資産)。効果測定=3-4日後GSCでCTR再計測。
+
+### 2026-06-19 P3 Know記事クラスタ（MediaXAI「フュージョンで判断→進めて」）
+フルフュージョン(claude+codex+gemini)で次フェーズ判断→**P3優先**(記事だけが機能/tier2は0.17%、P2のクロール予算論はこの規模で弱い)に決定。GSC実Knowクエリ抽出(税金pos12/年代指定なし/価格推移)を起点にfusion(claude+codex)でハブ&スポーク設計→着手。
+- **第1バッチ4本**: whisky-kaitori-zeikin(税金・国税庁ベース/譲渡所得50万円控除/30万円超/20万円ルール・税理士誘導)・whisky-nv-toha(年代指定なしNV)・whisky-souzoku-baikyaku(相続/チェックリスト)・whisky-souba-kimarikata(査定6要素)。
+- **第2バッチ4本**: whisky-hokan-houhou(保管)・whisky-nisemono-miwakekata(偽物/断定せず専門査定誘導)・whisky-naze-takai(高騰理由)・**whisky-sell-guide(ピラー=全スポーク束ねる導管)**。
+- 全記事=手書きpage.tsx(whisky-toushi-hajimekataテンプレ準拠)＝結論ファースト+目次+FAQ schema+最終更新+勝ち筋kaitori/souba-rankingへ内部リンク。事実ベース・架空ゼロ・数値は実勢中央値の"目安/保証しない"・YMYL(税金/相続/偽物)は専門家誘導。/articles/ハブにチップ追加。デッドリンク回避=未作成slugは一旦プレーン化→作成後リンク復活。
+- sitemap 2,927URL(記事515)・Indexing API 各バッチ4/4・本番curl確認。方式Bデプロイ(--exclude functions・.txt削除)。
+- 残: 終売一覧(公式ステータス裏取り後)・価格推移2本(price-history時系列が3週→蓄積後・更新頻度決め)。効果=2-4週GSCで測定し勝ち筋ドリブンでスポーク追加。

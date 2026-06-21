@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/ardbeg-uigeadail.json";
 
 export const metadata: Metadata = {
-  title: 'アードベッグ ウーガダールの希少性と投資価値【2026年完全版】長期保有 vs 売却の判断軸',
+  title: 'アードベッグ ウーガダールの希少性と買取・投資価値【2026年6月最新】保有か売却かの判断軸',
   description: 'アードベッグ ウーガダールの希少性ランクと投資対象としての評価を徹底分析。価格推移、需給動向、長期保有 vs 売却の判断基準、税制優遇まで、コレクター向けに解説。',
 };
 

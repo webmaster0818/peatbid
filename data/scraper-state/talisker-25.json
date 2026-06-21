@@ -1,11 +1,11 @@
 {
   "slug": "talisker-25",
   "label": "タリスカー25年",
-  "fetched_at": "2026-06-12T09:02:04",
+  "fetched_at": "2026-06-19T09:02:02",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%82%BF%E3%83%AA%E3%82%B9%E3%82%AB%E3%83%BC25%E5%B9%B4",
-  "avg": 37406,
+  "avg": 40048,
   "max": 150000,
   "min": null,
-  "count": 44,
+  "count": 40,
   "ok": true
 }

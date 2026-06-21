@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/taketsuru-21.json";
 
 export const metadata: Metadata = {
-  title: '竹鶴21年の買取業者おすすめランキング【2026年最新】査定額・サービス・信頼性で徹底比較',
+  title: '竹鶴21年の買取おすすめ業者ランキング【2026年6月最新】査定額・スピードで徹底比較',
   description: '竹鶴21年に強い買取業者をランキング形式で徹底比較。ヒカカク・バイセル・JOYLAB・リカスタの査定スピード・査定額・サポート・信頼性を多角的に評価し、目的別おすすめを提示。',
 };
 

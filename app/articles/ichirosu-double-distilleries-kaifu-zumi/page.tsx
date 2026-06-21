@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/ichirosu-double-distilleries.json";
 
 export const metadata: Metadata = {
-  title: 'イチローズモルト ダブルディスティラリーズが開封済みでも売れる？【2026年完全版】残量別査定額と賢い売却法',
+  title: 'イチローズモルト ダブルディスティラリーズは開封済みでも売れる?【2026年6月最新】残量別の買取査定額と売却法',
   description: 'イチローズモルト ダブルディスティラリーズを開封済みで売る場合の査定額と注意点。残量別の価格目安、状態保持のコツ、開封済み歓迎の買取業者、売却前の準備まで完全解説。',
 };
 

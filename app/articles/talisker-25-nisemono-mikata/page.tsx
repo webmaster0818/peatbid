@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/talisker-25.json";
 
 export const metadata: Metadata = {
-  title: 'タリスカー25年の偽物・贋作の見分け方【2026年完全版】コレクター必須の5チェックポイント',
+  title: 'タリスカー25年の偽物・贋作の見分け方【2026年6月最新】買取前に確認する5つのチェック',
   description: 'タリスカー25年の偽物・贋作を見分ける具体的なポイントを徹底解説。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。',
 };
 

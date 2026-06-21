@@ -111,6 +111,7 @@ const hubLinks = [
   { href: "/tier2/", label: "地域別の買取相場（47都道府県）", short: "地域別買取" },
   { href: "/souba-ranking/", label: "相場ランキング", short: "相場ランキング" },
   { href: "/souba-index/", label: "買取相場指数", short: "相場指数" },
+  { href: "/souba-hakusho/", label: "買取相場白書", short: "相場白書" },
 ];
 
 function Header() {

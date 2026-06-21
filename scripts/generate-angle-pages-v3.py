@@ -5,11 +5,15 @@ v2: Expanded angle pages (5,000-7,000 chars each).
 """
 import csv
 import re
+import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 DATA = ROOT / "data" / "brands.csv"
 OUT_DIR = ROOT / "app" / "articles"
+
+_NOW = datetime.date.today()
+MONTH_TAG = f"【{_NOW.year}年{_NOW.month}月最新】"
 
 with open(DATA, "r", encoding="utf-8") as f:
     BRANDS = list(csv.DictReader(f))
@@ -195,7 +199,7 @@ def render_takaku_uru(b):
                 f"\\n\\n万一開封してしまった場合は、できるだけ早く売却するのが鉄則です。時間経過とともに香味揮発・酸化が進み、査定額が更に下がります。")
     return {
         "slug_suffix": "takaku-uru",
-        "title": f"{name}を高く売る方法【2026年最新】査定額を最大化する7つの完全ガイド",
+        "title": f"{name}を高く売るには？買取相場と査定額を最大化する7つのコツ{MONTH_TAG}",
         "description": f"{name}を最高値で売るための実践ガイド。付属品・状態・売却タイミング・業者選び・保管方法・贋作対策・交渉術の7要素で査定額を最大化する具体策を完全解説。",
         "h1": f"{name}を高く売る方法 — 査定額を最大化する完全ガイド",
         "toc_label": "高く売る方法",
@@ -222,7 +226,7 @@ def render_nisemono_mikata(b):
     price = int(b["reference_price_jpy_2026_05"])
     return {
         "slug_suffix": "nisemono-mikata",
-        "title": f"{name}の偽物・贋作の見分け方【2026年完全版】コレクター必須の5チェックポイント",
+        "title": f"{name}の偽物・贋作の見分け方{MONTH_TAG}買取前に確認する5つのチェック",
         "description": f"{name}の偽物・贋作を見分ける具体的なポイントを徹底解説。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。",
         "h1": f"{name}の偽物・贋作の見分け方",
         "toc_label": "偽物・贋作の見分け方",
@@ -251,7 +255,7 @@ def render_ranking(b):
     price = int(b["reference_price_jpy_2026_05"])
     return {
         "slug_suffix": "ranking",
-        "title": f"{name}の買取業者おすすめランキング【2026年最新】査定額・サービス・信頼性で徹底比較",
+        "title": f"{name}の買取おすすめ業者ランキング{MONTH_TAG}査定額・スピードで徹底比較",
         "description": f"{name}に強い買取業者をランキング形式で徹底比較。ヒカカク・バイセル・JOYLAB・リカスタの査定スピード・査定額・サポート・信頼性を多角的に評価し、目的別おすすめを提示。",
         "h1": f"{name}の買取業者おすすめランキング",
         "toc_label": "買取業者ランキング",
@@ -281,7 +285,7 @@ def render_rekishi(b):
     age_label = f"{age}年熟成" if age > 0 else "ノンエイジ"
     return {
         "slug_suffix": "rekishi",
-        "title": f"{name}の歴史と特徴【2026年完全版】蒸溜所・受賞歴・市場評価の根拠",
+        "title": f"{name}の歴史・特徴と買取価値{MONTH_TAG}なぜ高い?市場評価の根拠",
         "description": f"{name}の歴史的背景、{origin}のストーリー、味わいの特徴、世界的評価、市場価値が高い理由を専門ライターが徹底解説。コレクター・購入検討者必読の銘柄完全ガイド。",
         "h1": f"{name}の歴史と特徴",
         "toc_label": "歴史と特徴",
@@ -312,7 +316,7 @@ def render_kihaku(b):
     rarity_label = {"common": "現行品", "mid": "終売プレミア", "high": "高希少", "ultra": "極希少", "ultra-rare": "伝説級"}.get(rarity, "希少")
     return {
         "slug_suffix": "kihaku",
-        "title": f"{name}の希少性と投資価値【2026年完全版】長期保有 vs 売却の判断軸",
+        "title": f"{name}の希少性と買取・投資価値{MONTH_TAG}保有か売却かの判断軸",
         "description": f"{name}の希少性ランクと投資対象としての評価を徹底分析。価格推移、需給動向、長期保有 vs 売却の判断基準、税制優遇まで、コレクター向けに解説。",
         "h1": f"{name}の希少性と投資価値",
         "toc_label": "希少性・投資価値",
@@ -341,7 +345,7 @@ def render_auction_suii(b):
     price = int(b["reference_price_jpy_2026_05"])
     return {
         "slug_suffix": "auction-suii",
-        "title": f"{name}のオークション相場推移【2026年完全版】Sotheby's/Bonhams/海外データ完全分析",
+        "title": f"{name}のオークション相場推移と買取価格{MONTH_TAG}国内外データ分析",
         "description": f"{name}の国内外オークション相場推移を徹底分析。Sotheby's・Bonhams・Whisky Auctioneerの落札データから読み解く価格動向、過去5年の推移、今後の見通しまで完全解説。",
         "h1": f"{name}のオークション相場推移",
         "toc_label": "オークション相場推移",
@@ -380,7 +384,7 @@ def render_kaifu_zumi(b):
               f"\\n5. **1割以下残**: 買取拒否の場合あり、もしくは空ボトルとして数千円")
     return {
         "slug_suffix": "kaifu-zumi",
-        "title": f"{name}が開封済みでも売れる？【2026年完全版】残量別査定額と賢い売却法",
+        "title": f"{name}は開封済みでも売れる?{MONTH_TAG}残量別の買取査定額と売却法",
         "description": f"{name}を開封済みで売る場合の査定額と注意点。残量別の価格目安、状態保持のコツ、開封済み歓迎の買取業者、売却前の準備まで完全解説。",
         "h1": f"{name}が開封済みでも売れる？",
         "toc_label": "開封済みでも売れる",
@@ -418,7 +422,7 @@ def render_hako_nashi(b):
                   f"\\n4. **箱なし・ラベル良好**: 市場相場の80〜90%程度\\n5. **箱・冊子なし**: 市場相場の75〜85%程度\\n\\nつまり、最大で**約25%の差**が生じる可能性があります。")
     return {
         "slug_suffix": "hako-nashi",
-        "title": f"{name}が箱なしでも買取できる？【2026年完全版】査定額への影響と代替戦略",
+        "title": f"{name}は箱なしでも買取できる?{MONTH_TAG}査定額への影響と対策",
         "description": f"{name}を箱なしで売る場合の査定額への影響と買取依頼時の注意点。査定額の目安、代替戦略、賢い売却法、箱を探す方法まで完全解説。",
         "h1": f"{name}が箱なしでも買取できる？",
         "toc_label": "箱なしでも買取",
@@ -457,7 +461,7 @@ def render_label_yogore(b):
                f"\\n6. **ラベル剥がれ（残あり）**: 市場相場の40%程度\\n7. **ラベル完全消失**: 市場相場の20%程度（ヴィンテージ価値あれば例外）")
     return {
         "slug_suffix": "label-yogore",
-        "title": f"{name}のラベル汚れ・破れがあっても売れる？【2026年完全版】状態別査定額と保護方法",
+        "title": f"{name}はラベル汚れ・破れでも売れる?{MONTH_TAG}状態別の買取査定額",
         "description": f"{name}のラベル汚れ・破れ・剥がれ・水濡れ跡がある場合の買取査定額を詳細解説。状態別の価格目安、ラベル保護の保管方法、業者選定まで完全ガイド。",
         "h1": f"{name}のラベル汚れ・破れがあっても売れる？",
         "toc_label": "ラベル汚れでも査定",

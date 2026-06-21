@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/yamazaki-18.json";
 
 export const metadata: Metadata = {
-  title: '山崎18年の歴史と特徴【2026年完全版】蒸溜所・受賞歴・市場評価の根拠',
+  title: '山崎18年の歴史・特徴と買取価値【2026年6月最新】なぜ高い?市場評価の根拠',
   description: '山崎18年の歴史的背景、山崎蒸溜所のストーリー、味わいの特徴、世界的評価、市場価値が高い理由を専門ライターが徹底解説。コレクター・購入検討者必読の銘柄完全ガイド。',
 };
 

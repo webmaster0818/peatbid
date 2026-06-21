@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/hakushu-18.json";
 
 export const metadata: Metadata = {
-  title: '白州18年が箱なしでも買取できる？【2026年完全版】査定額への影響と代替戦略',
+  title: '白州18年は箱なしでも買取できる?【2026年6月最新】査定額への影響と対策',
   description: '白州18年を箱なしで売る場合の査定額への影響と買取依頼時の注意点。査定額の目安、代替戦略、賢い売却法、箱を探す方法まで完全解説。',
 };
 

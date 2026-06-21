@@ -1,11 +1,11 @@
 {
   "slug": "yamazaki-nv",
   "label": "山崎NV",
-  "fetched_at": "2026-06-12T09:00:04",
+  "fetched_at": "2026-06-19T09:00:01",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E5%B1%B1%E5%B4%8E%20%E3%83%8E%E3%83%B3%E3%82%A8%E3%82%A4%E3%82%B8%20%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC",
-  "avg": 15796,
+  "avg": 15602,
   "max": 165488,
   "min": null,
-  "count": 230,
+  "count": 229,
   "ok": true
 }
