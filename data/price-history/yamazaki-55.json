@@ -6,10 +6,10 @@
   "query_used": "山崎55年 700ml",
   "history": [],
   "latest": {
-    "date": "2026-06-15",
-    "median_jpy": 187500,
-    "sample_n": 4,
-    "raw_n": 4,
+    "date": "2026-06-22",
+    "median_jpy": 75000,
+    "sample_n": 6,
+    "raw_n": 6,
     "insufficient": true
   },
   "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"

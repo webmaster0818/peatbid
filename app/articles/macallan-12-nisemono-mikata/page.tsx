@@ -37,7 +37,7 @@ export default function Macallan12NisemonoMikataPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">マッカラン12年の偽物・贋作の見分け方</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-15 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-22 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Macallan12NisemonoMikataPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">マッカラン12年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 12年熟成 / 希少度 コモン / 市場相場 9,133円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 12年熟成 / 希少度 コモン / 市場相場 9,113円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/macallan-12-kaitori/" className="text-amber-dark underline">マッカラン12年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,11 +68,11 @@ export default function Macallan12NisemonoMikataPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではマッカラン12年の落札が約248件確認でき、落札額の中央値は9,133円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではマッカラン12年の落札が約252件確認でき、落札額の中央値は9,113円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
           <h2 id="section-0">1. マッカラン12年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マッカラン12年</strong>はスコッチウイスキー（スペイサイド）の12年熟成、度数40%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>9,133円</strong>（流通サンプル248件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マッカラン12年</strong>はスコッチウイスキー（スペイサイド）の12年熟成、度数40%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>9,113円</strong>（流通サンプル252件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 贋作市場の実情</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ジャパニーズウイスキーブーム以降、海外の二次流通市場では<strong>贋作ボトルの流通が確認</strong>されています。特に山崎・響・白州・軽井沢・羽生など希少銘柄では、巧妙に作られた贋作が個人間取引で出回ることがあります。</p><p>中国・東南アジアの一部地域では、本物の空き瓶に偽の液体を詰めて販売する手口も報告されています。高額帯の銘柄は、5チェックを徹底することが必須です。</p>` }} />
@@ -152,7 +152,7 @@ export default function Macallan12NisemonoMikataPage() {
             <Link href="/articles/macallan-12-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">マッカラン12年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-15）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-22）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

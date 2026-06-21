@@ -37,7 +37,7 @@ export default function Hibiki17KaifuZumiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">響17年が開封済みでも売れる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-15 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-22 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Hibiki17KaifuZumiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">響17年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / サントリー / 17年熟成 / 希少度 ハイ / 市場相場 47,999円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / サントリー / 17年熟成 / 希少度 ハイ / 市場相場 48,398円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/hibiki-17-kaitori/" className="text-amber-dark underline">響17年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Hibiki17KaifuZumiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは響17年の落札が約274件確認でき、落札額の中央値は47,999円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは響17年の落札が約266件確認でき、落札額の中央値は48,398円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
@@ -105,10 +105,10 @@ export default function Hibiki17KaifuZumiPage() {
           </div>
 
           <h2 id="section-0">1. 響17年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>響17年</strong>はジャパニーズウイスキー（サントリー）の17年熟成、度数43%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>47,999円</strong>（流通サンプル274件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>響17年</strong>はジャパニーズウイスキー（サントリー）の17年熟成、度数43%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>48,398円</strong>（流通サンプル266件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 開封済み響17年の査定額の目安</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>47,999円</strong>を基準として、開封済みは残量・状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 約14,400〜19,200円（30〜40%）</li><li><strong>7割以上残</strong>: 約12,000〜16,800円（25〜35%）</li><li><strong>5割以上残</strong>: 約9,600〜14,400円（20〜30%）</li><li><strong>3割以上残</strong>: 約4,800〜9,600円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合あり、もしくは空ボトルとして数千円
+          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>48,398円</strong>を基準として、開封済みは残量・状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 約14,520〜19,360円（30〜40%）</li><li><strong>7割以上残</strong>: 約12,100〜16,940円（25〜35%）</li><li><strong>5割以上残</strong>: 約9,680〜14,520円（20〜30%）</li><li><strong>3割以上残</strong>: 約4,840〜9,680円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合あり、もしくは空ボトルとして数千円
 
 開封済みは未開封と比べ大きく下がるため、コレクション品は開けないのが鉄則です。</li></ol>` }} />
 
@@ -181,7 +181,7 @@ export default function Hibiki17KaifuZumiPage() {
             <Link href="/articles/hibiki-17-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">響17年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-15）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-22）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

@@ -64,3 +64,11 @@ GSC再診断(28日): クリック14・表示541・CTR2.6%・17.4位。**全2,919
 - 全記事=手書きpage.tsx(whisky-toushi-hajimekataテンプレ準拠)＝結論ファースト+目次+FAQ schema+最終更新+勝ち筋kaitori/souba-rankingへ内部リンク。事実ベース・架空ゼロ・数値は実勢中央値の"目安/保証しない"・YMYL(税金/相続/偽物)は専門家誘導。/articles/ハブにチップ追加。デッドリンク回避=未作成slugは一旦プレーン化→作成後リンク復活。
 - sitemap 2,927URL(記事515)・Indexing API 各バッチ4/4・本番curl確認。方式Bデプロイ(--exclude functions・.txt削除)。
 - 残: 終売一覧(公式ステータス裏取り後)・価格推移2本(price-history時系列が3週→蓄積後・更新頻度決め)。効果=2-4週GSCで測定し勝ち筋ドリブンでスポーク追加。
+
+### 2026-06-21 P4 買取相場白書（MediaXAI「①を進めよう」＝残タスク棚卸し後にP4承認）
+**事前確認で重要判断**: P4「被リンク資産」の中核(週次相場指数+引用歓迎+methodology)は既存`/souba-index/`が既に担っていた→重複を避け、**absolute中央値の銘柄別スナップショット白書**として差別化(指数=トレンド/ランキング=値動き/白書=絶対値の網羅リファレンス。人は"山崎12年は¥◯"を引用する=より被リンクされやすい)。
+- `app/souba-hakusho/page.tsx`=`/souba-hakusho/`「全国ウイスキー買取相場白書2026」。`data/souba-ranking.json`(44銘柄 median/category/sample_n)から: ①ヘッドライン統計(銘柄数/中央値/最高額銘柄/延べサンプル) ②カテゴリ別サマリー(動的グルーピング・中央値of中央値・最高額銘柄) ③**主要44銘柄の実勢買取相場一覧表**(中央値降順・各銘柄→kaitoriへ内部リンク)=白書の中核 ④メソドロジー ⑤引用歓迎(出典表記例) ⑥souba-index/ranking/sell-guideへ相互リンク。免責=中央値は中古実勢の参考・買取は手数料等で下回る・保証しない。
+- 内部リンク: layout hubLinks(PC/モバイル)に「買取相場白書」追加=全ページから到達(index/rankingからも相互)。sitemap STATIC_PAGES+1(generate-sitemap.mjs)→2928URL。
+- ビルドEXIT0(heap12288)・**sitemap再生成は後工程→out/に手動cp必須**(忘れるとout/sitemapが古い)・方式Bデプロイ(.txt削除・--exclude functions)・本番curl(title/44銘柄表/nav)確認・Indexing API 1/1。
+- ⚠️確認: peatbid-deploy working treeに`functions/`は無く git未追跡だが、**live /api/contact=405(=存在)**＝CF側に保持されており問題なし。tokenは未定義で死んでた`amber`等の話はgold側(peatbidはamber定義済)。
+- 残(P2/P3leftover): P2=tier2 2,350のnoindex可逆(要GO・最弱層から)/終売一覧/価格推移2本(データ蓄積待ち)。効果1-4週GSC。
