@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-const TITLE = "\u8328\u57ce\u770c\u3067\u30a6\u30a4\u30b9\u30ad\u30fc\u3092\u58f2\u308b\uff5c50\u9298\u67c4\u306e\u5e02\u5834\u76f8\u5834\u4e00\u89a7";
-const DESC = "\u8328\u57ce\u770c\u3067\u30a6\u30a4\u30b9\u30ad\u30fc\u3092\u58f2\u5374\u3059\u308b\u306a\u3089\uff1f50\u9298\u67c4\u306e\u5e02\u5834\u76f8\u5834\uff08Yahoo\u4e2d\u592e\u5024\uff09\u3068\u5730\u5143\u696d\u8005\u3092\u4e00\u89a7\u8868\u793a\u3002\u5c71\u5d0e\u30fb\u97ff\u30fb\u767d\u5dde\u30fb\u30de\u30c3\u30ab\u30e9\u30f3\u7b49\u306e\u6700\u65b0\u67fb\u5b9a\u60c5\u5831\u3002";
+const TITLE = "ウイスキー買取 茨城県｜Yahoo実売中央値で見る相場とおすすめ業者【2026年最新】";
+const DESC = "茨城県でウイスキーを売るなら。Yahoo!オークション過去180日の実落札中央値による銘柄別相場、買取目安、宅配買取のおすすめ業者比較、高く売るコツを掲載。茨城県全域から送料無料で売却できます。";
 const URL = "https://peatbid.com/tier2/ibaraki/";
 
 export const metadata: Metadata = {
@@ -10,11 +10,15 @@ export const metadata: Metadata = {
   description: DESC,
   alternates: { canonical: URL },
   robots: { index: true, follow: true },
+  openGraph: { title: TITLE, description: DESC, url: URL },
 };
+
+const LD = [{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://peatbid.com/"}, {"@type": "ListItem", "position": 2, "name": "地域別買取", "item": "https://peatbid.com/tier2/"}, {"@type": "ListItem", "position": 3, "name": "茨城県のウイスキー買取", "item": "https://peatbid.com/tier2/ibaraki/"}]}, {"@context": "https://schema.org", "@type": "Article", "headline": "茨城県のウイスキー買取｜実売相場とおすすめ業者【2026年最新】", "datePublished": "2026-05-22", "dateModified": "2026-06-23", "author": {"@type": "Organization", "name": "PeatBid編集部"}, "publisher": {"@type": "Organization", "name": "PeatBid"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "茨城県から宅配買取の集荷に来てもらえますか？", "acceptedAnswer": {"@type": "Answer", "text": "はい。本記事で紹介している業者はいずれも全国対応の宅配買取に対応しており、茨城県（水戸・つくば・日立・土浦など県内全域）から集荷を依頼できます。多くは送料・査定料が無料です（最新の条件は各公式サイトでご確認ください）。"}}, {"@type": "Question", "name": "外箱やギャランティカードが無くても売れますか？", "acceptedAnswer": {"@type": "Answer", "text": "多くの場合、箱や付属品が無くても買取自体は可能です。ただし外箱・冊子・ギャランティカードが揃っていると、業界一般の目安として査定額が10〜20%程度上がる傾向があります。付属品はできるだけ揃えて査定に出すのがおすすめです。"}}, {"@type": "Question", "name": "茨城県でウイスキーを高く売るコツは？", "acceptedAnswer": {"@type": "Answer", "text": "最低でも3社、できれば複数社へ同時に査定を依頼し、相見積もりで最高額を選ぶのが基本です。付属品を揃える・状態を保つ・終売や限定銘柄は需要が高いタイミングを狙う、といった点も査定額に影響します。"}}, {"@type": "Question", "name": "査定料・送料・キャンセル料はかかりますか？", "acceptedAnswer": {"@type": "Answer", "text": "全国対応の宅配買取では査定料・送料・キャンセル料が無料の業者が一般的です。ただし条件は業者・時期により異なり変動するため、申し込み前に各公式サイトで最新の条件を必ずご確認ください。"}}, {"@type": "Question", "name": "提示された買取額が相場より安い気がします。", "acceptedAnswer": {"@type": "Answer", "text": "買取額は市場相場（本記事のYahoo中央値）をベースに、各社が在庫・キャンペーン・状態評価・利益率を加味して決めます。業界一般の目安として市場相場の60〜80%程度に収まることが多いため、複数社の見積もりを比較し、根拠を確認したうえで判断するのが安全です。"}}]}, {"@context": "https://schema.org", "@type": "ItemList", "name": "茨城県のウイスキー銘柄別 実売相場", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "茨城県の響30年買取", "url": "https://peatbid.com/tier2/ibaraki/hibiki-30-kaitori/"}, {"@type": "ListItem", "position": 2, "name": "茨城県のマッカラン30年買取", "url": "https://peatbid.com/tier2/ibaraki/macallan-30-kaitori/"}, {"@type": "ListItem", "position": 3, "name": "茨城県の余市20年買取", "url": "https://peatbid.com/tier2/ibaraki/yoichi-20-kaitori/"}, {"@type": "ListItem", "position": 4, "name": "茨城県の竹鶴25年買取", "url": "https://peatbid.com/tier2/ibaraki/taketsuru-25-kaitori/"}, {"@type": "ListItem", "position": 5, "name": "茨城県のマッカラン25年買取", "url": "https://peatbid.com/tier2/ibaraki/macallan-25-kaitori/"}, {"@type": "ListItem", "position": 6, "name": "茨城県のスプリングバンク21年買取", "url": "https://peatbid.com/tier2/ibaraki/springbank-21-kaitori/"}, {"@type": "ListItem", "position": 7, "name": "茨城県の山崎18年買取", "url": "https://peatbid.com/tier2/ibaraki/yamazaki-18-kaitori/"}, {"@type": "ListItem", "position": 8, "name": "茨城県の秩父ザファースト買取", "url": "https://peatbid.com/tier2/ibaraki/chichibu-the-first-kaitori/"}, {"@type": "ListItem", "position": 9, "name": "茨城県の余市15年買取", "url": "https://peatbid.com/tier2/ibaraki/yoichi-15-kaitori/"}, {"@type": "ListItem", "position": 10, "name": "茨城県の山崎25年買取", "url": "https://peatbid.com/tier2/ibaraki/yamazaki-25-kaitori/"}, {"@type": "ListItem", "position": 11, "name": "茨城県の響21年買取", "url": "https://peatbid.com/tier2/ibaraki/hibiki-21-kaitori/"}, {"@type": "ListItem", "position": 12, "name": "茨城県の軽井沢12年買取", "url": "https://peatbid.com/tier2/ibaraki/karuizawa-12-kaitori/"}, {"@type": "ListItem", "position": 13, "name": "茨城県の白州18年買取", "url": "https://peatbid.com/tier2/ibaraki/hakushu-18-kaitori/"}, {"@type": "ListItem", "position": 14, "name": "茨城県のグレンフィディック30年買取", "url": "https://peatbid.com/tier2/ibaraki/glenfiddich-30-kaitori/"}, {"@type": "ListItem", "position": 15, "name": "茨城県の宮城峡15年買取", "url": "https://peatbid.com/tier2/ibaraki/miyagikyo-15-kaitori/"}, {"@type": "ListItem", "position": 16, "name": "茨城県のラフロイグ25年買取", "url": "https://peatbid.com/tier2/ibaraki/laphroaig-25-kaitori/"}, {"@type": "ListItem", "position": 17, "name": "茨城県の竹鶴21年買取", "url": "https://peatbid.com/tier2/ibaraki/taketsuru-21-kaitori/"}, {"@type": "ListItem", "position": 18, "name": "茨城県のボウモア25年買取", "url": "https://peatbid.com/tier2/ibaraki/bowmore-25-kaitori/"}, {"@type": "ListItem", "position": 19, "name": "茨城県の響17年買取", "url": "https://peatbid.com/tier2/ibaraki/hibiki-17-kaitori/"}, {"@type": "ListItem", "position": 20, "name": "茨城県のマッカラン18年買取", "url": "https://peatbid.com/tier2/ibaraki/macallan-18-kaitori/"}, {"@type": "ListItem", "position": 21, "name": "茨城県のタリスカー25年買取", "url": "https://peatbid.com/tier2/ibaraki/talisker-25-kaitori/"}, {"@type": "ListItem", "position": 22, "name": "茨城県のスプリングバンク15年買取", "url": "https://peatbid.com/tier2/ibaraki/springbank-15-kaitori/"}, {"@type": "ListItem", "position": 23, "name": "茨城県の竹鶴17年買取", "url": "https://peatbid.com/tier2/ibaraki/taketsuru-17-kaitori/"}, {"@type": "ListItem", "position": 24, "name": "茨城県のバルヴェニー ポートウッド 21年買取", "url": "https://peatbid.com/tier2/ibaraki/balvenie-portwood-21-kaitori/"}, {"@type": "ListItem", "position": 25, "name": "茨城県の余市10年買取", "url": "https://peatbid.com/tier2/ibaraki/yoichi-10-kaitori/"}, {"@type": "ListItem", "position": 26, "name": "茨城県のグレンファークラス25年買取", "url": "https://peatbid.com/tier2/ibaraki/glenfarclas-25-kaitori/"}, {"@type": "ListItem", "position": 27, "name": "茨城県の白州12年買取", "url": "https://peatbid.com/tier2/ibaraki/hakushu-12-kaitori/"}, {"@type": "ListItem", "position": 28, "name": "茨城県の山崎12年買取", "url": "https://peatbid.com/tier2/ibaraki/yamazaki-12-kaitori/"}, {"@type": "ListItem", "position": 29, "name": "茨城県の白州25年買取", "url": "https://peatbid.com/tier2/ibaraki/hakushu-25-kaitori/"}, {"@type": "ListItem", "position": 30, "name": "茨城県のグレンモーレンジ シグネット買取", "url": "https://peatbid.com/tier2/ibaraki/glenmorangie-signet-kaitori/"}, {"@type": "ListItem", "position": 31, "name": "茨城県の響ジャパニーズハーモニー買取", "url": "https://peatbid.com/tier2/ibaraki/hibiki-nv-kaitori/"}, {"@type": "ListItem", "position": 32, "name": "茨城県のボウモア18年買取", "url": "https://peatbid.com/tier2/ibaraki/bowmore-18-kaitori/"}, {"@type": "ListItem", "position": 33, "name": "茨城県のイチローズモルト ダブルディスティラリーズ買取", "url": "https://peatbid.com/tier2/ibaraki/ichirosu-double-distilleries-kaitori/"}, {"@type": "ListItem", "position": 34, "name": "茨城県の山崎ノンエイジ買取", "url": "https://peatbid.com/tier2/ibaraki/yamazaki-nv-kaitori/"}, {"@type": "ListItem", "position": 35, "name": "茨城県の白州ノンエイジ買取", "url": "https://peatbid.com/tier2/ibaraki/hakushu-nv-kaitori/"}, {"@type": "ListItem", "position": 36, "name": "茨城県のマッカラン12年買取", "url": "https://peatbid.com/tier2/ibaraki/macallan-12-kaitori/"}, {"@type": "ListItem", "position": 37, "name": "茨城県のマッカラン ファイン&レア買取", "url": "https://peatbid.com/tier2/ibaraki/macallan-fine-rare-kaitori/"}, {"@type": "ListItem", "position": 38, "name": "茨城県のイチローズモルト MWR買取", "url": "https://peatbid.com/tier2/ibaraki/ichirosu-mwr-kaitori/"}, {"@type": "ListItem", "position": 39, "name": "茨城県のアードベッグ コリーヴレッカン買取", "url": "https://peatbid.com/tier2/ibaraki/ardbeg-corryvreckan-kaitori/"}, {"@type": "ListItem", "position": 40, "name": "茨城県の羽生カードシリーズ買取", "url": "https://peatbid.com/tier2/ibaraki/hanyu-card-kaitori/"}, {"@type": "ListItem", "position": 41, "name": "茨城県のアードベッグ ウーガダール買取", "url": "https://peatbid.com/tier2/ibaraki/ardbeg-uigeadail-kaitori/"}, {"@type": "ListItem", "position": 42, "name": "茨城県のマルス駒ヶ岳買取", "url": "https://peatbid.com/tier2/ibaraki/mars-komagatake-kaitori/"}, {"@type": "ListItem", "position": 43, "name": "茨城県の竹鶴ピュアモルト買取", "url": "https://peatbid.com/tier2/ibaraki/taketsuru-pure-kaitori/"}, {"@type": "ListItem", "position": 44, "name": "茨城県のブラックボウモア買取", "url": "https://peatbid.com/tier2/ibaraki/bowmore-blackbowmore-kaitori/"}]}];
 
 export default function Page() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-10 md:py-16">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(LD) }} />
       <nav aria-label="パンくずリスト" className="text-xs text-warm-gray mb-6">
         <ol className="flex items-center gap-1 flex-wrap">
           <li><Link href="/" className="hover:text-amber-dark transition-colors">ホーム</Link></li>
@@ -25,234 +29,137 @@ export default function Page() {
         </ol>
       </nav>
 
-      <h1 className="font-display text-3xl md:text-4xl font-semibold mb-4">茨城県でウイスキーを売る｜50銘柄の市場相場一覧</h1>
-      <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-22 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link></p>
+      <h1 className="font-display text-3xl md:text-4xl font-semibold mb-3">茨城県のウイスキー買取｜実売相場とおすすめ業者</h1>
+      <p className="text-warm-gray text-sm mb-2">最終更新: 2026-06-23 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link></p>
+      <p className="text-sm text-warm-gray mb-8 leading-relaxed">
+        本ページの相場は<strong>Yahoo!オークション過去180日の実落札中央値</strong>（2026-06-22時点）に基づく一次データです。茨城県でウイスキーを売却する際の、銘柄別の相場・買取目安、宅配買取のおすすめ業者、高く売るコツをまとめています。
+      </p>
 
-      <section className="prose mb-8">
-        <p>
-          茨城県でウイスキーを売却する際の、50銘柄ごとの市場相場（Yahoo Auctions 過去180日落札中央値）を一覧で確認できます。
-          各銘柄ページで 茨城県エリアの主要都市・地元業者・査定のポイントを詳しく解説しています。
+      {/* 1. 結論ボックス */}
+      <div className="border-2 border-amber/40 rounded-xl p-5 mb-10 bg-cream/40">
+        <p className="font-bold text-base mb-2">結論：茨城県は「全国対応の宅配買取で相見積もり」が最短・確実</p>
+        <p className="text-sm leading-relaxed mb-4">
+          茨城県（関東地方・人口290万人）は水戸・つくば・日立・土浦を中心に二次流通の需要があります。店舗へ持ち込む方法もありますが、<strong>全国対応の宅配買取なら茨城県全域から送料無料で売却でき、複数社へ同時に査定を依頼して最高額を選べます</strong>。買取額は市場相場（下記Yahoo中央値）の60〜80%程度が業界一般の目安です。
         </p>
-      </section>
-
-      <h2 className="font-display text-xl md:text-2xl font-semibold mt-8 mb-4">茨城県対応：50銘柄一覧</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-12">
-
-          <Link href="/tier2/ibaraki/yamazaki-nv-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">山崎NV</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/yamazaki-12-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">山崎12年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/yamazaki-18-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">山崎18年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/yamazaki-25-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">山崎25年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/yamazaki-55-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">山崎55年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/hibiki-nv-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">響NV</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/hibiki-17-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">響17年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/hibiki-21-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">響21年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/hibiki-30-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">響30年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/hakushu-nv-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">白州NV</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/hakushu-12-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">白州12年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/hakushu-18-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">白州18年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/hakushu-25-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">白州25年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/taketsuru-pure-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">竹鶴ピュアモルト</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/taketsuru-17-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">竹鶴17年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/taketsuru-21-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">竹鶴21年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/taketsuru-25-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">竹鶴25年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/yoichi-nv-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">余市NV</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/yoichi-10-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">余市10年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/yoichi-15-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">余市15年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/yoichi-20-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">余市20年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/miyagikyo-nv-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">宮城峡NV</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/miyagikyo-12-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">宮城峡12年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/miyagikyo-15-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">宮城峡15年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/ichirosu-card-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">イチローズモルト カード</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/ichirosu-double-distilleries-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">イチローズモルト ダブルディスティラリーズ</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/ichirosu-mwr-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">イチローズモルト MWR</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/karuizawa-12-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">軽井沢12年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/karuizawa-30-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">軽井沢30年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/hanyu-card-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">羽生カードシリーズ</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/macallan-12-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">マッカラン12年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/macallan-18-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">マッカラン18年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/macallan-25-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">マッカラン25年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/macallan-30-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">マッカラン30年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/macallan-fine-rare-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">マッカラン ファイン&レア</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/bowmore-18-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">ボウモア18年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/bowmore-25-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">ボウモア25年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/bowmore-blackbowmore-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">ブラックボウモア</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/springbank-15-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">スプリングバンク15年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/springbank-21-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">スプリングバンク21年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/laphroaig-25-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">ラフロイグ25年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/ardbeg-uigeadail-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">アードベッグ ウーガダール</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/ardbeg-corryvreckan-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">アードベッグ コリーヴレッカン</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/glenfiddich-30-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">グレンフィディック30年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/glenfarclas-25-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">グレンファークラス25年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/talisker-25-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">タリスカー25年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/balvenie-portwood-21-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">バルヴェニー ポートウッド21年</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/glenmorangie-signet-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">グレンモーレンジ シグネット</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/chichibu-the-first-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">秩父 ザ・ファースト</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
-          <Link href="/tier2/ibaraki/mars-komagatake-kaitori/" className="block bg-white border border-warm-border rounded-lg p-4 hover:shadow-md transition-shadow">
-            <p className="font-bold text-sm text-foreground mb-1">マルス 駒ヶ岳</p>
-            <p className="text-xs text-warm-gray">茨城県での買取相場</p>
-          </Link>
+        <a href="#osusume" className="inline-block bg-amber-dark text-white text-sm font-bold py-2.5 px-5 rounded-lg hover:opacity-90 transition">おすすめの宅配買取業者を見る →</a>
+        <p className="text-[10px] text-warm-gray mt-2">本ページは広告（アフィリエイト）を含みます。</p>
       </div>
 
-      <h2 className="font-display text-xl md:text-2xl font-semibold mt-12 mb-4">他の都道府県を見る</h2>
-      <p className="text-warm-gray text-sm mb-4">同じ関東地方の都道府県、または<Link href="/tier2/" className="text-amber-dark underline hover:text-burgundy">地域別買取の一覧</Link>から全47都道府県を確認できます。</p>
-      <div className="flex flex-wrap gap-2 mb-6">
-        <Link href="/tier2/tochigi/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">栃木県</Link>
-        <Link href="/tier2/gunma/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">群馬県</Link>
-        <Link href="/tier2/saitama/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">埼玉県</Link>
-        <Link href="/tier2/chiba/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">千葉県</Link>
-        <Link href="/tier2/tokyo/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">東京都</Link>
-        <Link href="/tier2/kanagawa/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">神奈川県</Link>
-        <Link href="/tier2/" className="inline-block bg-amber/15 border border-amber/40 rounded-full px-3 py-1 text-xs font-semibold text-amber-dark hover:bg-amber/25 transition-all">すべての都道府県 →</Link>
+      {/* 2. 銘柄別 実売相場テーブル */}
+      <h2 id="souba" className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">茨城県のウイスキー銘柄別 実売相場（Yahoo中央値）</h2>
+      <p className="text-sm text-warm-gray mb-4 leading-relaxed">
+        過去180日のYahoo!オークション実落札データの中央値です（2026-06-22時点）。<strong>買取目安</strong>は中央値の60〜80%で算出した業界一般の参考値で、実際の買取額は業者・状態・時期により変動します。銘柄名をタップすると茨城県向けの詳細ページへ移動します。
+      </p>
+      <div className="overflow-x-auto mb-3">
+        <table className="w-full text-sm border-collapse">
+          <thead><tr className="bg-cream/60 text-left">
+            <th className="px-3 py-2">銘柄</th><th className="px-3 py-2 text-right">実売中央値</th>
+            <th className="px-3 py-2 text-right">買取目安</th><th className="px-3 py-2 text-right">サンプル数</th>
+          </tr></thead>
+          <tbody className="divide-y divide-warm-border">
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/hibiki-30-kaitori/" className="text-amber-dark underline hover:text-burgundy">響30年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥546,700</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥328,000〜¥437,400</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">90</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/macallan-30-kaitori/" className="text-amber-dark underline hover:text-burgundy">マッカラン30年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥401,000</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥240,600〜¥320,800</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">62</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/yoichi-20-kaitori/" className="text-amber-dark underline hover:text-burgundy">余市20年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥231,996</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥139,200〜¥185,600</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">48</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/taketsuru-25-kaitori/" className="text-amber-dark underline hover:text-burgundy">竹鶴25年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥184,800</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥110,900〜¥147,800</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">50</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/macallan-25-kaitori/" className="text-amber-dark underline hover:text-burgundy">マッカラン25年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥181,000</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥108,600〜¥144,800</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">212</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/springbank-21-kaitori/" className="text-amber-dark underline hover:text-burgundy">スプリングバンク21年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥96,798</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥58,100〜¥77,400</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">66</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/yamazaki-18-kaitori/" className="text-amber-dark underline hover:text-burgundy">山崎18年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥94,380</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥56,600〜¥75,500</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">234</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/chichibu-the-first-kaitori/" className="text-amber-dark underline hover:text-burgundy">秩父ザファースト</Link></td><td className="px-3 py-2 text-right tabular-nums">¥88,830</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥53,300〜¥71,100</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">28</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/yoichi-15-kaitori/" className="text-amber-dark underline hover:text-burgundy">余市15年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥78,105</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥46,900〜¥62,500</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">60</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/yamazaki-25-kaitori/" className="text-amber-dark underline hover:text-burgundy">山崎25年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥73,255</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥44,000〜¥58,600</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">240</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/hibiki-21-kaitori/" className="text-amber-dark underline hover:text-burgundy">響21年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥72,011</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥43,200〜¥57,600</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">222</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/karuizawa-12-kaitori/" className="text-amber-dark underline hover:text-burgundy">軽井沢12年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥72,000</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥43,200〜¥57,600</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">86</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/hakushu-18-kaitori/" className="text-amber-dark underline hover:text-burgundy">白州18年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥71,102</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥42,700〜¥56,900</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">232</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/glenfiddich-30-kaitori/" className="text-amber-dark underline hover:text-burgundy">グレンフィディック30年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥68,005</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥40,800〜¥54,400</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">32</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/miyagikyo-15-kaitori/" className="text-amber-dark underline hover:text-burgundy">宮城峡15年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥67,100</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥40,300〜¥53,700</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">22</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/laphroaig-25-kaitori/" className="text-amber-dark underline hover:text-burgundy">ラフロイグ25年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥64,898</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥38,900〜¥51,900</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">62</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/taketsuru-21-kaitori/" className="text-amber-dark underline hover:text-burgundy">竹鶴21年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥62,549</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥37,500〜¥50,000</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">268</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/bowmore-25-kaitori/" className="text-amber-dark underline hover:text-burgundy">ボウモア25年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥50,710</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥30,400〜¥40,600</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">110</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/hibiki-17-kaitori/" className="text-amber-dark underline hover:text-burgundy">響17年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥48,398</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥29,000〜¥38,700</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">266</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/macallan-18-kaitori/" className="text-amber-dark underline hover:text-burgundy">マッカラン18年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥44,000</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥26,400〜¥35,200</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">214</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/talisker-25-kaitori/" className="text-amber-dark underline hover:text-burgundy">タリスカー25年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥41,250</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥24,800〜¥33,000</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">56</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/springbank-15-kaitori/" className="text-amber-dark underline hover:text-burgundy">スプリングバンク15年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥35,000</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥21,000〜¥28,000</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">98</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/taketsuru-17-kaitori/" className="text-amber-dark underline hover:text-burgundy">竹鶴17年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥33,011</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥19,800〜¥26,400</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">280</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/balvenie-portwood-21-kaitori/" className="text-amber-dark underline hover:text-burgundy">バルヴェニー ポートウッド 21年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥31,425</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥18,900〜¥25,100</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">20</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/yoichi-10-kaitori/" className="text-amber-dark underline hover:text-burgundy">余市10年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥22,525</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥13,500〜¥18,000</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">252</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/glenfarclas-25-kaitori/" className="text-amber-dark underline hover:text-burgundy">グレンファークラス25年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥22,110</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥13,300〜¥17,700</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">110</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/hakushu-12-kaitori/" className="text-amber-dark underline hover:text-burgundy">白州12年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥21,339</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥12,800〜¥17,100</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">244</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/yamazaki-12-kaitori/" className="text-amber-dark underline hover:text-burgundy">山崎12年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥21,000</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥12,600〜¥16,800</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">260</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/hakushu-25-kaitori/" className="text-amber-dark underline hover:text-burgundy">白州25年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥21,000</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥12,600〜¥16,800</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">120</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/glenmorangie-signet-kaitori/" className="text-amber-dark underline hover:text-burgundy">グレンモーレンジ シグネット</Link></td><td className="px-3 py-2 text-right tabular-nums">¥20,405</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥12,200〜¥16,300</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">96</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/hibiki-nv-kaitori/" className="text-amber-dark underline hover:text-burgundy">響ジャパニーズハーモニー</Link></td><td className="px-3 py-2 text-right tabular-nums">¥11,322</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥6,800〜¥9,100</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">268</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/bowmore-18-kaitori/" className="text-amber-dark underline hover:text-burgundy">ボウモア18年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥11,165</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥6,700〜¥8,900</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">226</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/ichirosu-double-distilleries-kaitori/" className="text-amber-dark underline hover:text-burgundy">イチローズモルト ダブルディスティラリーズ</Link></td><td className="px-3 py-2 text-right tabular-nums">¥10,998</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥6,600〜¥8,800</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">246</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/yamazaki-nv-kaitori/" className="text-amber-dark underline hover:text-burgundy">山崎ノンエイジ</Link></td><td className="px-3 py-2 text-right tabular-nums">¥10,175</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥6,100〜¥8,100</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">248</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/hakushu-nv-kaitori/" className="text-amber-dark underline hover:text-burgundy">白州ノンエイジ</Link></td><td className="px-3 py-2 text-right tabular-nums">¥9,900</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥5,900〜¥7,900</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">198</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/macallan-12-kaitori/" className="text-amber-dark underline hover:text-burgundy">マッカラン12年</Link></td><td className="px-3 py-2 text-right tabular-nums">¥9,113</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥5,500〜¥7,300</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">252</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/macallan-fine-rare-kaitori/" className="text-amber-dark underline hover:text-burgundy">マッカラン ファイン&amp;レア</Link></td><td className="px-3 py-2 text-right tabular-nums">¥8,480</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥5,100〜¥6,800</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">20</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/ichirosu-mwr-kaitori/" className="text-amber-dark underline hover:text-burgundy">イチローズモルト MWR</Link></td><td className="px-3 py-2 text-right tabular-nums">¥8,300</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥5,000〜¥6,600</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">250</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/ardbeg-corryvreckan-kaitori/" className="text-amber-dark underline hover:text-burgundy">アードベッグ コリーヴレッカン</Link></td><td className="px-3 py-2 text-right tabular-nums">¥8,015</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥4,800〜¥6,400</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">76</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/hanyu-card-kaitori/" className="text-amber-dark underline hover:text-burgundy">羽生カードシリーズ</Link></td><td className="px-3 py-2 text-right tabular-nums">¥7,975</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥4,800〜¥6,400</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">274</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/ardbeg-uigeadail-kaitori/" className="text-amber-dark underline hover:text-burgundy">アードベッグ ウーガダール</Link></td><td className="px-3 py-2 text-right tabular-nums">¥7,975</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥4,800〜¥6,400</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">94</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/mars-komagatake-kaitori/" className="text-amber-dark underline hover:text-burgundy">マルス駒ヶ岳</Link></td><td className="px-3 py-2 text-right tabular-nums">¥7,375</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥4,400〜¥5,900</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">264</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/taketsuru-pure-kaitori/" className="text-amber-dark underline hover:text-burgundy">竹鶴ピュアモルト</Link></td><td className="px-3 py-2 text-right tabular-nums">¥5,775</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥3,500〜¥4,600</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">288</td></tr>
+              <tr><td className="px-3 py-2 font-medium"><Link href="/tier2/ibaraki/bowmore-blackbowmore-kaitori/" className="text-amber-dark underline hover:text-burgundy">ブラックボウモア</Link></td><td className="px-3 py-2 text-right tabular-nums">¥4,035</td><td className="px-3 py-2 text-right tabular-nums text-amber-dark">¥2,400〜¥3,200</td><td className="px-3 py-2 text-right tabular-nums text-warm-gray">100</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p className="text-xs text-warm-gray mb-12">※中央値＝過去180日のYahoo!オークション落札価格の中央値（外れ値除外後）。買取目安は中央値×60〜80%の参考レンジで、買取額を保証するものではありません。</p>
+
+      {/* 3. 高価買取のコツ */}
+      <h2 className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">茨城県でウイスキーを高く売る4つのコツ</h2>
+      <ul className="space-y-3 text-sm leading-relaxed mb-12">
+        <li><strong>① 複数社で相見積もり</strong>：最低3社、できれば4〜5社へ同時に査定を依頼。同じ銘柄でも在庫・キャンペーン・査定基準の違いで、業界目安として10〜20%の差が出ることがあります。</li>
+        <li><strong>② 付属品を揃える</strong>：外箱・冊子・カートン・ギャランティカードが揃うと、業界一般の目安として査定額が10〜20%上がる傾向。購入時の状態を保ちましょう。</li>
+        <li><strong>③ 状態を保つ</strong>：ラベルの傷み・液面低下・キャップの状態は評価対象。直射日光・高温多湿を避けて保管します。</li>
+        <li><strong>④ 需要の高い銘柄・時期を狙う</strong>：終売・限定・ヴィンテージは需要が高く、海外オークションの上昇局面では国内査定も上がりやすい傾向があります。</li>
+      </ul>
+
+      {/* 4. 売却方法の比較 */}
+      <h2 className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">売却方法の比較（宅配・出張・店頭）</h2>
+      <div className="overflow-x-auto mb-4">
+        <table className="w-full text-sm border-collapse">
+          <thead><tr className="bg-cream/60 text-left"><th className="px-3 py-2">方式</th><th className="px-3 py-2">手間</th><th className="px-3 py-2">スピード</th><th className="px-3 py-2">向く人</th></tr></thead>
+          <tbody className="divide-y divide-warm-border">
+            <tr><td className="px-3 py-2 font-medium">宅配買取</td><td className="px-3 py-2">小（自宅で完結）</td><td className="px-3 py-2">数日</td><td className="px-3 py-2">茨城県全域・本数が多い人・相見積もり重視</td></tr>
+            <tr><td className="px-3 py-2 font-medium">出張買取</td><td className="px-3 py-2">小（自宅査定）</td><td className="px-3 py-2">最短即日</td><td className="px-3 py-2">大量・運べない・対面で売りたい人</td></tr>
+            <tr><td className="px-3 py-2 font-medium">店頭買取</td><td className="px-3 py-2">中（持込）</td><td className="px-3 py-2">即日</td><td className="px-3 py-2">近隣に店舗があり少量を売りたい人</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p className="text-sm text-warm-gray mb-12 leading-relaxed">茨城県は全域をカバーする宅配買取が最も確実です。<strong>宅配の流れ＝①申し込み → ②梱包キット等で梱包 → ③集荷（送料無料が一般的）→ ④査定 → ⑤入金</strong>。査定額に納得できなければキャンセルも可能です（条件は各社で確認）。</p>
+
+      {/* 5. 県の売却事情 */}
+      <h2 className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">茨城県でウイスキーを売るときのポイント</h2>
+      <p className="text-sm text-warm-gray mb-12 leading-relaxed">
+        茨城県は関東地方の290万人規模の県で、水戸・つくば・日立・土浦などに人口が集まります。首都圏隣接で買取需要が高い。つくば・水戸を中心に専門業者多数。大型のウイスキー専門買取店は都市部に集中しがちなため、茨城県では<strong>全国対応の宅配・出張買取を活用すると、エリアを問わず複数社の査定を比較できます</strong>。古物営業法により売却時は本人確認書類（運転免許証・マイナンバーカード等）が必要です。
+      </p>
+
+      {/* 6. おすすめ業者比較 */}
+      <h2 id="osusume" className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">茨城県対応：おすすめの宅配買取業者</h2>
+      <p className="text-sm text-warm-gray mb-4 leading-relaxed">いずれも全国対応で茨城県から依頼できます。買取額は変動するため固定の金額は掲載せず、最新の査定額・キャンペーンは各公式サイトでご確認ください。<strong>迷ったら複数社へ同時査定</strong>がおすすめです。</p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+            <div className="border border-warm-border rounded-xl p-4 bg-white"><div className="flex items-center justify-between gap-3 mb-2"><p className="font-bold text-foreground">バイセル</p><span className="text-[11px] text-warm-gray whitespace-nowrap">宅配・出張・店頭</span></div><p className="text-sm text-warm-gray mb-3">東証グロース上場の大手。出張・店頭・宅配の3チャネルに対応し、全国どこからでも依頼可能。</p><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer sponsored" className="block text-center bg-amber-dark text-white text-sm font-bold py-2.5 rounded-lg hover:opacity-90 transition">バイセルの公式サイトで査定する →</a></div>
+            <div className="border border-warm-border rounded-xl p-4 bg-white"><div className="flex items-center justify-between gap-3 mb-2"><p className="font-bold text-foreground">福ちゃん</p><span className="text-[11px] text-warm-gray whitespace-nowrap">宅配・出張</span></div><p className="text-sm text-warm-gray mb-3">総合買取の大手で、お酒・ウイスキーの査定にも対応。宅配・出張で全国をカバー。</p><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer sponsored" className="block text-center bg-amber-dark text-white text-sm font-bold py-2.5 rounded-lg hover:opacity-90 transition">福ちゃんの公式サイトで査定する →</a></div>
+            <div className="border border-warm-border rounded-xl p-4 bg-white"><div className="flex items-center justify-between gap-3 mb-2"><p className="font-bold text-foreground">JOYLAB</p><span className="text-[11px] text-warm-gray whitespace-nowrap">宅配</span></div><p className="text-sm text-warm-gray mb-3">お酒買取の専門店。希少銘柄やヴィンテージの鑑定査定に強み。宅配で全国対応。</p><a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer sponsored" className="block text-center bg-amber-dark text-white text-sm font-bold py-2.5 rounded-lg hover:opacity-90 transition">JOYLABの公式サイトで査定する →</a></div>
+            <div className="border border-warm-border rounded-xl p-4 bg-white"><div className="flex items-center justify-between gap-3 mb-2"><p className="font-bold text-foreground">LINXAS</p><span className="text-[11px] text-warm-gray whitespace-nowrap">宅配</span></div><p className="text-sm text-warm-gray mb-3">ウイスキー買取の専門店。銘柄別の買取参考価格を公開しており、相場の目安を掴みやすい。</p><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer sponsored" className="block text-center bg-amber-dark text-white text-sm font-bold py-2.5 rounded-lg hover:opacity-90 transition">LINXASの公式サイトで査定する →</a></div>
       </div>
 
-      <p className="text-xs text-warm-gray mt-8">※本ページは 茨城県 地域のウイスキー買取相場・業者情報を集約したガイドページです。市場相場は Yahoo Auctions 過去180日の落札中央値（IQR外れ値除去）に基づきます。実際の業者査定額は変動するため、最新の査定は LINXAS / バイセル / 福ちゃん / JOYLAB 各社ページでご確認ください。PRリンクを含みます。</p>
+      {/* 7. FAQ */}
+      <h2 className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">茨城県のウイスキー買取 よくある質問</h2>
+      <div className="space-y-3 mb-12">
+          <details className="border border-warm-border rounded-lg p-4 bg-white"><summary className="font-medium cursor-pointer">茨城県から宅配買取の集荷に来てもらえますか？</summary><p className="text-sm text-warm-gray mt-2 leading-relaxed">はい。本記事で紹介している業者はいずれも全国対応の宅配買取に対応しており、茨城県（水戸・つくば・日立・土浦など県内全域）から集荷を依頼できます。多くは送料・査定料が無料です（最新の条件は各公式サイトでご確認ください）。</p></details>
+          <details className="border border-warm-border rounded-lg p-4 bg-white"><summary className="font-medium cursor-pointer">外箱やギャランティカードが無くても売れますか？</summary><p className="text-sm text-warm-gray mt-2 leading-relaxed">多くの場合、箱や付属品が無くても買取自体は可能です。ただし外箱・冊子・ギャランティカードが揃っていると、業界一般の目安として査定額が10〜20%程度上がる傾向があります。付属品はできるだけ揃えて査定に出すのがおすすめです。</p></details>
+          <details className="border border-warm-border rounded-lg p-4 bg-white"><summary className="font-medium cursor-pointer">茨城県でウイスキーを高く売るコツは？</summary><p className="text-sm text-warm-gray mt-2 leading-relaxed">最低でも3社、できれば複数社へ同時に査定を依頼し、相見積もりで最高額を選ぶのが基本です。付属品を揃える・状態を保つ・終売や限定銘柄は需要が高いタイミングを狙う、といった点も査定額に影響します。</p></details>
+          <details className="border border-warm-border rounded-lg p-4 bg-white"><summary className="font-medium cursor-pointer">査定料・送料・キャンセル料はかかりますか？</summary><p className="text-sm text-warm-gray mt-2 leading-relaxed">全国対応の宅配買取では査定料・送料・キャンセル料が無料の業者が一般的です。ただし条件は業者・時期により異なり変動するため、申し込み前に各公式サイトで最新の条件を必ずご確認ください。</p></details>
+          <details className="border border-warm-border rounded-lg p-4 bg-white"><summary className="font-medium cursor-pointer">提示された買取額が相場より安い気がします。</summary><p className="text-sm text-warm-gray mt-2 leading-relaxed">買取額は市場相場（本記事のYahoo中央値）をベースに、各社が在庫・キャンペーン・状態評価・利益率を加味して決めます。業界一般の目安として市場相場の60〜80%程度に収まることが多いため、複数社の見積もりを比較し、根拠を確認したうえで判断するのが安全です。</p></details>
+      </div>
+
+      {/* 8. 方法論・運営 */}
+      <div className="border-t border-warm-border pt-6 text-xs text-warm-gray leading-relaxed">
+        <p className="mb-2"><strong>相場データについて</strong>：本ページの「実売中央値」は、Yahoo!オークションの過去180日の落札価格を収集し、外れ値を除外した中央値です（2026-06-22時点・銘柄ごとにサンプル数を表示）。買取目安は中央値×60〜80%で算出した業界一般の参考値で、実際の買取額・査定額を保証するものではありません。最新の正確な金額は各買取業者の公式サイトでご確認ください。</p>
+        <p>運営：PeatBid編集部 ／ 本ページは広告（アフィリエイト）を含みます。掲載業者・条件は変動する場合があります。</p>
+      </div>
     </div>
   );
 }
