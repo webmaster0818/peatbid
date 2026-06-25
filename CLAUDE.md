@@ -72,3 +72,11 @@ GSC再診断(28日): クリック14・表示541・CTR2.6%・17.4位。**全2,919
 - ビルドEXIT0(heap12288)・**sitemap再生成は後工程→out/に手動cp必須**(忘れるとout/sitemapが古い)・方式Bデプロイ(.txt削除・--exclude functions)・本番curl(title/44銘柄表/nav)確認・Indexing API 1/1。
 - ⚠️確認: peatbid-deploy working treeに`functions/`は無く git未追跡だが、**live /api/contact=405(=存在)**＝CF側に保持されており問題なし。tokenは未定義で死んでた`amber`等の話はgold側(peatbidはamber定義済)。
 - 残(P2/P3leftover): P2=tier2 2,350のnoindex可逆(要GO・最弱層から)/終売一覧/価格推移2本(データ蓄積待ち)。効果1-4週GSC。
+
+### 2026-06-25 次戦略フルフュージョン→P0実行（MediaXAI「フルフュージョンで策定」→「p0進めよう」）
+`fusion --full`(claude+codex+gemini-2.5-pro)でpeatbid次戦略を策定（codexタイムアウト・claude+gemini統合）。結論=**量産凍結・選択と集中**。GSC28日=18clk/716imp/CTR2.51%/pos16.3(前28日13/405/18.8→imp+77%)。
+- **P0-1 インデックス被覆監査**: GSCページレポートで種別別「表示≥1ページ数/clk」分解→買取kaitori 11頁/8clk・偽物 6頁/4clk・**tier2は2350中34頁/2clk(死に在庫)**・全2913中表示94頁(3.2%)。フュージョン診断(量産有害/偽物→買取が本命)を実データで確定。
+- **P0-3 偽物→買取の換金導線(最重要・即収益)**: `scripts/generate-angle-pages-v3.py`に`bridge_module`恒久実装(angle_suffix=="nisemono-mikata"のみ)。`{h2_html}`と無料一括査定CTAの間に注入。心理導線=本物確認→「いま売るといくら?(実勢中央値market_label明示)」→STEP1相場ガイド/STEP2高く売る/STEP3業者比較。51偽物ページに自動付与・週次再生成維持。
+- **P0-2 偽物タイトル刈り取り**: render_nisemono_mikataのtitleを「本物との違い5点（ラベル・キャップ・液面）と売却前チェック」に(具体語＋売却意図前出し・写真誇張なし)。
+- ビルドheap12288・方式B(.txt削除/--exclude functions・3193ファイル)・source+deploy両push・本番curl(換金導線/新title)確認・Indexing API 15偽物頁。
+- 次=P0-2を買取＋striking distance(白州NV pos12.8/響30/グレンファークラスpos13-19)へ展開→P1(偽物テンプレ横展開＋内部リンク)。効果1-2週GSC(CTR・買取アフィリclk)。⚠️ASP配線は依然承認待ち(生URL送客のまま)。
