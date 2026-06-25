@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/ichirosu-double-distilleries.json";
 
 export const metadata: Metadata = {
-  title: 'イチローズモルト ダブルディスティラリーズの偽物・贋作の見分け方【2026年6月最新】買取前に確認する5つのチェック',
+  title: 'イチローズモルト ダブルディスティラリーズの偽物・贋作の見分け方【2026年6月最新】本物との違い5点（ラベル・キャップ・液面）と売却前チェック',
   description: 'イチローズモルト ダブルディスティラリーズの偽物・贋作を見分ける具体的なポイントを徹底解説。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。',
 };
 
@@ -110,6 +110,18 @@ export default function IchirosuDoubleDistilleriesNisemonoMikataPage() {
           <div dangerouslySetInnerHTML={{ __html: `<p>自身が保有するイチローズモルト ダブルディスティラリーズが不審に見える場合、または購入を検討中のボトルが怪しい場合は、以下の手順で対処してください:</p><ol><li><strong>写真記録</strong> — ボトル全体・ラベル各角度・キャップ・底面の刻印を高解像度で撮影</li><li><strong>専門業者で鑑定査定</strong> — JOYLAB等のお酒買取専門店で無料鑑定を依頼</li><li><strong>メーカーへの問い合わせ</strong> — サントリー・ニッカ等の公式お客様窓口にロット番号を伝えて真贋確認</li><li><strong>購入経路を遡る</strong> — 不正流通の可能性が高い場合は購入元に返品交渉</li><li><strong>警察への相談</strong> — 詐欺の可能性がある場合は最寄りの警察署で相談
 
 贋作と判明した場合、買取業者は買取を拒否します。また、贋作と知りながら売却することは詐欺罪に該当する可能性があるため、誠実に対処することが重要です。</li></ol>` }} />
+
+          <div className="bg-burgundy/5 border-2 border-burgundy/30 rounded-xl p-6 my-8 not-prose">
+            <p className="text-xs text-burgundy font-bold tracking-wider mb-2">本物と確認できたら｜次のステップ</p>
+            <h3 className="font-display text-xl font-semibold text-ink mb-3 !mt-0 !border-none">あなたのイチローズモルト ダブルディスティラリーズ、いま売るといくら？</h3>
+            <p className="text-sm text-warm-gray leading-relaxed mb-4">真贋に問題がなさそうなら、価値が変わる前に今の相場を確かめておきましょう。イチローズモルト ダブルディスティラリーズの実勢相場（中古中央値）は<strong className="text-ink">10,998円</strong>が目安です（当サイトのYahoo!オークション実勢集計・保証額ではありません）。次の3ステップで、納得して高く売れます。</p>
+            <ol className="space-y-2 text-sm text-ink mb-4 list-none pl-0">
+              <li><span className="font-bold text-burgundy">STEP 1</span>　相場を知る → <Link href="/articles/ichirosu-double-distilleries-kaitori/" className="text-amber-dark underline">イチローズモルト ダブルディスティラリーズの買取相場 完全ガイド</Link></li>
+              <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツ → <Link href="/articles/ichirosu-double-distilleries-takaku-uru/" className="text-amber-dark underline">査定額を最大化する7つのコツ</Link></li>
+              <li><span className="font-bold text-burgundy">STEP 3</span>　複数業者で比較して申し込む（下の無料一括査定）</li>
+            </ol>
+            <p className="text-xs text-warm-gray">※相場は変動します。複数業者の比較で、その時点の最高値を引き出すのが確実です。査定は無料・キャンセル無料。</p>
+          </div>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">イチローズモルト ダブルディスティラリーズの無料一括査定はこちら</h3>

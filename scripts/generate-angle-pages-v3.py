@@ -226,7 +226,7 @@ def render_nisemono_mikata(b):
     price = int(b["reference_price_jpy_2026_05"])
     return {
         "slug_suffix": "nisemono-mikata",
-        "title": f"{name}の偽物・贋作の見分け方{MONTH_TAG}買取前に確認する5つのチェック",
+        "title": f"{name}の偽物・贋作の見分け方{MONTH_TAG}本物との違い5点（ラベル・キャップ・液面）と売却前チェック",
         "description": f"{name}の偽物・贋作を見分ける具体的なポイントを徹底解説。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。",
         "h1": f"{name}の偽物・贋作の見分け方",
         "toc_label": "偽物・贋作の見分け方",
@@ -675,6 +675,23 @@ def render_page(b, data):
     market_label = fmt(yahoo_median) if sufficient else "市場相場データ蓄積中"
     market_data_sentence = liquidity_sentence(b)
 
+    # P0-3: 偽物→買取の換金導線（本物と確認できた高インテント売り手を相場→高く売る→業者比較へ橋渡し）
+    bridge_module = ""
+    if angle_suffix == "nisemono-mikata":
+        bridge_module = f'''
+          <div className="bg-burgundy/5 border-2 border-burgundy/30 rounded-xl p-6 my-8 not-prose">
+            <p className="text-xs text-burgundy font-bold tracking-wider mb-2">本物と確認できたら｜次のステップ</p>
+            <h3 className="font-display text-xl font-semibold text-ink mb-3 !mt-0 !border-none">あなたの{name}、いま売るといくら？</h3>
+            <p className="text-sm text-warm-gray leading-relaxed mb-4">真贋に問題がなさそうなら、価値が変わる前に今の相場を確かめておきましょう。{name}の実勢相場（中古中央値）は<strong className="text-ink">{market_label}</strong>が目安です（当サイトのYahoo!オークション実勢集計・保証額ではありません）。次の3ステップで、納得して高く売れます。</p>
+            <ol className="space-y-2 text-sm text-ink mb-4 list-none pl-0">
+              <li><span className="font-bold text-burgundy">STEP 1</span>　相場を知る → <Link href="/articles/{b['slug']}-kaitori/" className="text-amber-dark underline">{name}の買取相場 完全ガイド</Link></li>
+              <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツ → <Link href="/articles/{b['slug']}-takaku-uru/" className="text-amber-dark underline">査定額を最大化する7つのコツ</Link></li>
+              <li><span className="font-bold text-burgundy">STEP 3</span>　複数業者で比較して申し込む（下の無料一括査定）</li>
+            </ol>
+            <p className="text-xs text-warm-gray">※相場は変動します。複数業者の比較で、その時点の最高値を引き出すのが確実です。査定は無料・キャンセル無料。</p>
+          </div>
+'''
+
     content = f'''import type {{ Metadata }} from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -742,7 +759,7 @@ export default function {component_name}Page() {{
           </div>
 {extra_visual}
 {h2_html}
-
+{bridge_module}
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">{name}の無料一括査定はこちら</h3>
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
