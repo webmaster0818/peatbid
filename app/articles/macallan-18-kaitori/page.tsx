@@ -5,8 +5,8 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/macallan-18.json";
 
 export const metadata: Metadata = {
-  title: 'マッカラン18年の買取相場【2026年6月最新】44,000円・Yahoo中央値ベース完全ガイド',
-  description: 'マッカラン18年（Macallan 18 Year）の買取相場の最新目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。売却検討者必読の決定版ガイド。',
+  title: 'マッカラン18年の買取相場【2026年6月最新】44,000円｜箱なし・開封済みの査定額も',
+  description: 'マッカラン18年の買取相場は44,000円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。マッカラン18年を売る前に読む決定版ガイド。',
 };
 
 function FaqSchema() {

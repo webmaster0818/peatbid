@@ -1,11 +1,11 @@
 {
   "slug": "hakushu-nv",
   "label": "白州NV",
-  "fetched_at": "2026-06-19T09:00:25",
+  "fetched_at": "2026-06-26T09:00:26",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E7%99%BD%E5%B7%9E%20%E3%83%8E%E3%83%B3%E3%82%A8%E3%82%A4%E3%82%B8",
-  "avg": 16028,
+  "avg": 16409,
   "max": 69500,
   "min": null,
-  "count": 167,
+  "count": 157,
   "ok": true
 }

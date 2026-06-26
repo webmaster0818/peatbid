@@ -5,8 +5,8 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/ardbeg-corryvreckan.json";
 
 export const metadata: Metadata = {
-  title: 'アードベッグ コリーヴレッカンの買取相場【2026年6月最新】8,015円・Yahoo中央値ベース完全ガイド',
-  description: 'アードベッグ コリーヴレッカン（Ardbeg Corryvreckan）の買取相場の最新目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。売却検討者必読の決定版ガイド。',
+  title: 'アードベッグ コリーヴレッカンの買取相場【2026年6月最新】8,015円｜箱なし・開封済みの査定額も',
+  description: 'アードベッグ コリーヴレッカンの買取相場は8,015円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。アードベッグ コリーヴレッカンを売る前に読む決定版ガイド。',
 };
 
 function FaqSchema() {

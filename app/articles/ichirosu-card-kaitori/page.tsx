@@ -5,8 +5,8 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/ichirosu-card.json";
 
 export const metadata: Metadata = {
-  title: 'イチローズモルト カードシリーズの買取相場ガイド【2026年6月最新】Yahoo中央値ベース',
-  description: 'イチローズモルト カードシリーズ（Ichiros Malt Card Series）の買取相場の最新目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。売却検討者必読の決定版ガイド。',
+  title: 'イチローズモルト カードシリーズの買取相場ガイド【2026年6月最新】状態別の目安',
+  description: 'イチローズモルト カードシリーズ（Ichiros Malt Card Series）の買取相場ガイド。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。',
 };
 
 function FaqSchema() {

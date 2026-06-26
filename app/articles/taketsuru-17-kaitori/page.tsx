@@ -5,8 +5,8 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/taketsuru-17.json";
 
 export const metadata: Metadata = {
-  title: '竹鶴17年の買取相場【2026年6月最新】33,011円・Yahoo中央値ベース完全ガイド',
-  description: '竹鶴17年（Taketsuru 17 Year）の買取相場の最新目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。売却検討者必読の決定版ガイド。',
+  title: '竹鶴17年の買取相場【2026年6月最新】33,011円｜箱なし・開封済みの査定額も',
+  description: '竹鶴17年の買取相場は33,011円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。竹鶴17年を売る前に読む決定版ガイド。',
 };
 
 function FaqSchema() {

@@ -347,8 +347,8 @@ def render_page(b, all_brands):
     target_dir = OUT_DIR / f"{slug_base}-kaitori"
     target_dir.mkdir(parents=True, exist_ok=True)
 
-    meta_title = f"{name}の買取相場{MONTH_TAG}{market_short}・Yahoo中央値ベース完全ガイド" if sufficient else f"{name}の買取相場ガイド{MONTH_TAG}Yahoo中央値ベース"
-    meta_desc = f"{name}（{name_en}）の買取相場の最新目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。売却検討者必読の決定版ガイド。"
+    meta_title = f"{name}の買取相場{MONTH_TAG}{market_short}｜箱なし・開封済みの査定額も" if sufficient else f"{name}の買取相場ガイド{MONTH_TAG}状態別の目安"
+    meta_desc = (f"{name}の買取相場は{market_short}が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。{name}を売る前に読む決定版ガイド。" if sufficient else f"{name}（{name_en}）の買取相場ガイド。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。")
 
     content = f'''import type {{ Metadata }} from "next";
 import Link from "next/link";

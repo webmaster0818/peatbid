@@ -5,8 +5,8 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/hibiki-nv.json";
 
 export const metadata: Metadata = {
-  title: '響ジャパニーズハーモニーの買取相場【2026年6月最新】11,322円・Yahoo中央値ベース完全ガイド',
-  description: '響ジャパニーズハーモニー（Hibiki Japanese Harmony）の買取相場の最新目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。売却検討者必読の決定版ガイド。',
+  title: '響ジャパニーズハーモニーの買取相場【2026年6月最新】11,322円｜箱なし・開封済みの査定額も',
+  description: '響ジャパニーズハーモニーの買取相場は11,322円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。響ジャパニーズハーモニーを売る前に読む決定版ガイド。',
 };
 
 function FaqSchema() {
