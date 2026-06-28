@@ -80,3 +80,10 @@ GSC再診断(28日): クリック14・表示541・CTR2.6%・17.4位。**全2,919
 - **P0-2 偽物タイトル刈り取り**: render_nisemono_mikataのtitleを「本物との違い5点（ラベル・キャップ・液面）と売却前チェック」に(具体語＋売却意図前出し・写真誇張なし)。
 - ビルドheap12288・方式B(.txt削除/--exclude functions・3193ファイル)・source+deploy両push・本番curl(換金導線/新title)確認・Indexing API 15偽物頁。
 - 次=P0-2を買取＋striking distance(白州NV pos12.8/響30/グレンファークラスpos13-19)へ展開→P1(偽物テンプレ横展開＋内部リンク)。効果1-2週GSC(CTR・買取アフィリclk)。⚠️ASP配線は依然承認待ち(生URL送客のまま)。
+
+### 2026-06-28 P1① 基幹4銘柄の総合・真贋ハブ新設（MediaXAI「①いこう」）
+P1選択肢①（基幹銘柄の真贋ハブ）を実行。`scripts/gen-nisemono-brand-hubs.py`で4ハブ生成：`/articles/{yamazaki|hibiki|hakushu|macallan}-nisemono-mikata/`。汎用「○○ 偽物 見分け方」高ボリュームクエリの受け皿。
+- 中身=ブランド一般の真贋5チェック(ラベル/キャップ・封緘・ホログラム/液色・液面/底面刻印/購入経路・事実ベース・断定鑑定せず専門店鑑定/メーカー確認へ誘導=YMYL配慮)＋**ボトル別ハブ**(各variation 12/18/25/55/NV等の偽物＋買取ページへ内部リンク集約・山崎10本)＋**換金導線**(本物確認→相場→高く売る→一括査定)＋FAQPage/Article schema。
+- base銘柄(yamazaki等)はbrands.csv/price-history無し→render_page非再利用、手書きテンプレ。hero=各先頭variantのheroを流用。変数リンク先(各variantの偽物/買取)は全て実在検証済=壊れリンク0。
+- ビルドheap12288・EXIT0・sitemap 2932(+4)・方式B(.txt削除/--exclude functions)・両push・本番200確認・Indexing API 4/4。⚠️sitemaps().submitは403(scope)だがrobots.txt掲載済＋Indexing APIで代替。
+- 次=②striking distance(白州NV pos12.8/響30/グレンファークラス)への偽物→買取展開＋ハブ⇄variation相互内部リンク。効果1-2週GSC。

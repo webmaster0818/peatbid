@@ -37,7 +37,7 @@ export default function Springbank21HakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">スプリングバンク21年が箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-22 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-29 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Springbank21HakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">スプリングバンク21年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / キャンベルタウン / 21年熟成 / 希少度 ハイ / 市場相場 96,798円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / キャンベルタウン / 21年熟成 / 希少度 ハイ / 市場相場 97,074円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/springbank-21-kaitori/" className="text-amber-dark underline">スプリングバンク21年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Springbank21HakoNashiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではスプリングバンク21年の落札が約66件確認でき、落札額の中央値は96,798円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではスプリングバンク21年の落札が約72件確認でき、落札額の中央値は97,074円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
@@ -105,12 +105,12 @@ export default function Springbank21HakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. スプリングバンク21年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>スプリングバンク21年</strong>はスコッチウイスキー（キャンベルタウン）の21年熟成、度数46%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>96,798円</strong>（流通サンプル66件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（キャンベルタウン）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>スプリングバンク21年</strong>はスコッチウイスキー（キャンベルタウン）の21年熟成、度数46%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>97,074円</strong>（流通サンプル72件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（キャンベルタウン）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>スプリングバンク21年の場合、実勢中央値<strong>96,798円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 96,798円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約82,280〜91,960円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約82,280〜89,050円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約77,440〜87,120円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約72,600〜82,280円（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>スプリングバンク21年の場合、実勢中央値<strong>97,074円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 97,074円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約82,510〜92,220円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約82,510〜89,310円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約77,660〜87,370円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約72,810〜82,510円（75〜85%）
 
-つまり付属品の有無だけで、最大で<strong>約24,200円（相場の約25%）の差</strong>が生じ得ます。</li></ol>` }} />
+つまり付属品の有無だけで、最大で<strong>約24,270円（相場の約25%）の差</strong>が生じ得ます。</li></ol>` }} />
 
           <h2 id="section-2">3. なぜ外箱が重要なのか</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は単なる包装ではなく、<strong>コレクター品の完全性</strong>を示す重要な要素です:</p><ol><li><strong>二次流通市場での評価</strong> — 海外コレクターは特にフルセット重視</li><li><strong>真贋判定の手がかり</strong> — 箱と本体の合致が本物の証</li><li><strong>保管時の保護機能</strong> — 直射日光・摩擦・埃から守る</li><li><strong>付属品の収納</strong> — 冊子・カートンの一括管理</li><li><strong>贈答品としての価値</strong> — 箱なしは贈り物として再販困難
@@ -183,7 +183,7 @@ export default function Springbank21HakoNashiPage() {
             <Link href="/articles/springbank-21-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">スプリングバンク21年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-22）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-29）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

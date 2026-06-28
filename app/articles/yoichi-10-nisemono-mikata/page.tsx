@@ -37,7 +37,7 @@ export default function Yoichi10NisemonoMikataPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">余市10年の偽物・贋作の見分け方</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-22 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-29 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Yoichi10NisemonoMikataPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">余市10年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 10年熟成 / 希少度 ミッド / 市場相場 22,525円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 10年熟成 / 希少度 ミッド / 市場相場 22,000円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yoichi-10-kaitori/" className="text-amber-dark underline">余市10年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,11 +68,11 @@ export default function Yoichi10NisemonoMikataPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは余市10年の落札が約252件確認でき、落札額の中央値は22,525円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは余市10年の落札が約252件確認でき、落札額の中央値は22,000円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
           <h2 id="section-0">1. 余市10年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>余市10年</strong>はジャパニーズウイスキー（余市蒸溜所）の10年熟成、度数45%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>22,525円</strong>（流通サンプル252件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>余市10年</strong>はジャパニーズウイスキー（余市蒸溜所）の10年熟成、度数45%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>22,000円</strong>（流通サンプル252件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 贋作市場の実情</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ジャパニーズウイスキーブーム以降、海外の二次流通市場では<strong>贋作ボトルの流通が確認</strong>されています。特に山崎・響・白州・軽井沢・羽生など希少銘柄では、巧妙に作られた贋作が個人間取引で出回ることがあります。</p><p>中国・東南アジアの一部地域では、本物の空き瓶に偽の液体を詰めて販売する手口も報告されています。高額帯の銘柄は、5チェックを徹底することが必須です。</p>` }} />
@@ -114,7 +114,7 @@ export default function Yoichi10NisemonoMikataPage() {
           <div className="bg-burgundy/5 border-2 border-burgundy/30 rounded-xl p-6 my-8 not-prose">
             <p className="text-xs text-burgundy font-bold tracking-wider mb-2">本物と確認できたら｜次のステップ</p>
             <h3 className="font-display text-xl font-semibold text-ink mb-3 !mt-0 !border-none">あなたの余市10年、いま売るといくら？</h3>
-            <p className="text-sm text-warm-gray leading-relaxed mb-4">真贋に問題がなさそうなら、価値が変わる前に今の相場を確かめておきましょう。余市10年の実勢相場（中古中央値）は<strong className="text-ink">22,525円</strong>が目安です（当サイトのYahoo!オークション実勢集計・保証額ではありません）。次の3ステップで、納得して高く売れます。</p>
+            <p className="text-sm text-warm-gray leading-relaxed mb-4">真贋に問題がなさそうなら、価値が変わる前に今の相場を確かめておきましょう。余市10年の実勢相場（中古中央値）は<strong className="text-ink">22,000円</strong>が目安です（当サイトのYahoo!オークション実勢集計・保証額ではありません）。次の3ステップで、納得して高く売れます。</p>
             <ol className="space-y-2 text-sm text-ink mb-4 list-none pl-0">
               <li><span className="font-bold text-burgundy">STEP 1</span>　相場を知る → <Link href="/articles/yoichi-10-kaitori/" className="text-amber-dark underline">余市10年の買取相場 完全ガイド</Link></li>
               <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツ → <Link href="/articles/yoichi-10-takaku-uru/" className="text-amber-dark underline">査定額を最大化する7つのコツ</Link></li>
@@ -164,7 +164,7 @@ export default function Yoichi10NisemonoMikataPage() {
             <Link href="/articles/yoichi-10-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">余市10年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-22）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-29）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

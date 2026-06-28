@@ -37,7 +37,7 @@ export default function Glenfarclas25HakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンファークラス25年が箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-22 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-29 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Glenfarclas25HakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">グレンファークラス25年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 25年熟成 / 希少度 ミッド / 市場相場 22,110円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 25年熟成 / 希少度 ミッド / 市場相場 22,121円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/glenfarclas-25-kaitori/" className="text-amber-dark underline">グレンファークラス25年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Glenfarclas25HakoNashiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンファークラス25年の落札が約110件確認でき、落札額の中央値は22,110円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンファークラス25年の落札が約108件確認でき、落札額の中央値は22,121円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
@@ -105,10 +105,10 @@ export default function Glenfarclas25HakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. グレンファークラス25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンファークラス25年</strong>はスコッチウイスキー（スペイサイド）の25年熟成、度数43%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>22,110円</strong>（流通サンプル110件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンファークラス25年</strong>はスコッチウイスキー（スペイサイド）の25年熟成、度数43%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>22,121円</strong>（流通サンプル108件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>グレンファークラス25年の場合、実勢中央値<strong>22,110円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 22,110円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約18,790〜21,000円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約18,790〜20,340円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約17,690〜19,900円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約16,580〜18,790円（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>グレンファークラス25年の場合、実勢中央値<strong>22,121円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 22,121円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約18,800〜21,010円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約18,800〜20,350円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約17,700〜19,910円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約16,590〜18,800円（75〜85%）
 
 つまり付属品の有無だけで、最大で<strong>約5,530円（相場の約25%）の差</strong>が生じ得ます。</li></ol>` }} />
 
@@ -183,7 +183,7 @@ export default function Glenfarclas25HakoNashiPage() {
             <Link href="/articles/glenfarclas-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">グレンファークラス25年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-22）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-29）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>
