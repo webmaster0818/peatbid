@@ -382,6 +382,7 @@ export default function MacallanFineRareKaitoriPage() {
           <h2>マッカラン ファイン&レアの他の切り口で読む</h2>
           <p>マッカラン ファイン&レアについてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
           <ul>
+              <li><Link href="/articles/macallan-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">マッカラン（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/macallan-fine-rare-takaku-uru/" className="text-amber-dark hover:underline">マッカラン ファイン&レアの高く売る方法</Link></li>
               <li><Link href="/articles/macallan-fine-rare-nisemono-mikata/" className="text-amber-dark hover:underline">マッカラン ファイン&レアの偽物の見分け方</Link></li>
               <li><Link href="/articles/macallan-fine-rare-ranking/" className="text-amber-dark hover:underline">マッカラン ファイン&レアの買取業者ランキング</Link></li>

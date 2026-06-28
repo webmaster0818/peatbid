@@ -382,6 +382,7 @@ export default function HakushuNvKaitoriPage() {
           <h2>白州ノンエイジの他の切り口で読む</h2>
           <p>白州ノンエイジについてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
           <ul>
+              <li><Link href="/articles/hakushu-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">白州（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/hakushu-nv-takaku-uru/" className="text-amber-dark hover:underline">白州ノンエイジの高く売る方法</Link></li>
               <li><Link href="/articles/hakushu-nv-nisemono-mikata/" className="text-amber-dark hover:underline">白州ノンエイジの偽物の見分け方</Link></li>
               <li><Link href="/articles/hakushu-nv-ranking/" className="text-amber-dark hover:underline">白州ノンエイジの買取業者ランキング</Link></li>

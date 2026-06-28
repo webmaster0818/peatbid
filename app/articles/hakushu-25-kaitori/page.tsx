@@ -382,6 +382,7 @@ export default function Hakushu25KaitoriPage() {
           <h2>白州25年の他の切り口で読む</h2>
           <p>白州25年についてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
           <ul>
+              <li><Link href="/articles/hakushu-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">白州（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/hakushu-25-takaku-uru/" className="text-amber-dark hover:underline">白州25年の高く売る方法</Link></li>
               <li><Link href="/articles/hakushu-25-nisemono-mikata/" className="text-amber-dark hover:underline">白州25年の偽物の見分け方</Link></li>
               <li><Link href="/articles/hakushu-25-ranking/" className="text-amber-dark hover:underline">白州25年の買取業者ランキング</Link></li>

@@ -382,6 +382,7 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
           <h2>ブラックボウモアの他の切り口で読む</h2>
           <p>ブラックボウモアについてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
           <ul>
+              <li><Link href="/articles/bowmore-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">ボウモア（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/bowmore-blackbowmore-takaku-uru/" className="text-amber-dark hover:underline">ブラックボウモアの高く売る方法</Link></li>
               <li><Link href="/articles/bowmore-blackbowmore-nisemono-mikata/" className="text-amber-dark hover:underline">ブラックボウモアの偽物の見分け方</Link></li>
               <li><Link href="/articles/bowmore-blackbowmore-ranking/" className="text-amber-dark hover:underline">ブラックボウモアの買取業者ランキング</Link></li>

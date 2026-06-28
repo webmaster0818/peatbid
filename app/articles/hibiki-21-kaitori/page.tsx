@@ -382,6 +382,7 @@ export default function Hibiki21KaitoriPage() {
           <h2>響21年の他の切り口で読む</h2>
           <p>響21年についてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
           <ul>
+              <li><Link href="/articles/hibiki-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">響（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/hibiki-21-takaku-uru/" className="text-amber-dark hover:underline">響21年の高く売る方法</Link></li>
               <li><Link href="/articles/hibiki-21-nisemono-mikata/" className="text-amber-dark hover:underline">響21年の偽物の見分け方</Link></li>
               <li><Link href="/articles/hibiki-21-ranking/" className="text-amber-dark hover:underline">響21年の買取業者ランキング</Link></li>

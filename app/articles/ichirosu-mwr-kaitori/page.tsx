@@ -382,6 +382,7 @@ export default function IchirosuMwrKaitoriPage() {
           <h2>イチローズモルト MWRの他の切り口で読む</h2>
           <p>イチローズモルト MWRについてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
           <ul>
+              <li><Link href="/articles/ichirosu-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">イチローズモルト（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/ichirosu-mwr-takaku-uru/" className="text-amber-dark hover:underline">イチローズモルト MWRの高く売る方法</Link></li>
               <li><Link href="/articles/ichirosu-mwr-nisemono-mikata/" className="text-amber-dark hover:underline">イチローズモルト MWRの偽物の見分け方</Link></li>
               <li><Link href="/articles/ichirosu-mwr-ranking/" className="text-amber-dark hover:underline">イチローズモルト MWRの買取業者ランキング</Link></li>

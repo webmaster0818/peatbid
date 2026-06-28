@@ -149,6 +149,7 @@ export default function IchirosuDoubleDistilleriesKihakuPage() {
             <Link href="/articles/ichirosu-double-distilleries-hako-nashi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">箱なしでも買取</span><p className="text-sm font-bold mt-1">イチローズモルト ダブルディスティラリーズの箱なしでも買取</p></Link>
             <Link href="/articles/ichirosu-double-distilleries-label-yogore/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ラベル汚れでも査定</span><p className="text-sm font-bold mt-1">イチローズモルト ダブルディスティラリーズのラベル汚れでも査定</p></Link>
             <Link href="/articles/ichirosu-double-distilleries-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">イチローズモルト ダブルディスティラリーズの買取相場ガイド（完全版）</p></Link>
+            <Link href="/articles/ichirosu-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋ハブ</span><p className="text-sm font-bold mt-1">イチローズモルト（全種）の偽物の見分け方</p></Link>
           </div>
 
           <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-29）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>

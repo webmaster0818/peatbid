@@ -382,6 +382,7 @@ export default function HibikiNvKaitoriPage() {
           <h2>響ジャパニーズハーモニーの他の切り口で読む</h2>
           <p>響ジャパニーズハーモニーについてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
           <ul>
+              <li><Link href="/articles/hibiki-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">響（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/hibiki-nv-takaku-uru/" className="text-amber-dark hover:underline">響ジャパニーズハーモニーの高く売る方法</Link></li>
               <li><Link href="/articles/hibiki-nv-nisemono-mikata/" className="text-amber-dark hover:underline">響ジャパニーズハーモニーの偽物の見分け方</Link></li>
               <li><Link href="/articles/hibiki-nv-ranking/" className="text-amber-dark hover:underline">響ジャパニーズハーモニーの買取業者ランキング</Link></li>

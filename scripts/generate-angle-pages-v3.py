@@ -19,6 +19,8 @@ with open(DATA, "r", encoding="utf-8") as f:
     BRANDS = list(csv.DictReader(f))
 
 
+HUB_FAMILIES = {"yamazaki": "山崎", "hibiki": "響", "hakushu": "白州", "macallan": "マッカラン", "ichirosu": "イチローズモルト", "bowmore": "ボウモア", "springbank": "スプリングバンク"}
+
 def md_to_html(text):
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
     normalized = text.replace('\\n', '\n')
@@ -663,6 +665,9 @@ def render_page(b, data):
         for a in related_angles if a[0] != data["slug_suffix"]
     )
     related_links += f'\n            <Link href="/articles/{b["slug"]}-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">{name}の買取相場ガイド（完全版）</p></Link>'
+    _fam = b["slug"].split("-")[0]
+    if _fam in HUB_FAMILIES:
+        related_links += f'\n            <Link href="/articles/{_fam}-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋ハブ</span><p className="text-sm font-bold mt-1">{HUB_FAMILIES[_fam]}（全種）の偽物の見分け方</p></Link>'
 
     # Plan A: fetched data for brand mini profile + MarketPriceCard
     median_raw = b.get("yahoo_median_jpy_180d", "").strip()

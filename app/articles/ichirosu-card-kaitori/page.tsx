@@ -382,6 +382,7 @@ export default function IchirosuCardKaitoriPage() {
           <h2>イチローズモルト カードシリーズの他の切り口で読む</h2>
           <p>イチローズモルト カードシリーズについてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
           <ul>
+              <li><Link href="/articles/ichirosu-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">イチローズモルト（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/ichirosu-card-takaku-uru/" className="text-amber-dark hover:underline">イチローズモルト カードシリーズの高く売る方法</Link></li>
               <li><Link href="/articles/ichirosu-card-nisemono-mikata/" className="text-amber-dark hover:underline">イチローズモルト カードシリーズの偽物の見分け方</Link></li>
               <li><Link href="/articles/ichirosu-card-ranking/" className="text-amber-dark hover:underline">イチローズモルト カードシリーズの買取業者ランキング</Link></li>

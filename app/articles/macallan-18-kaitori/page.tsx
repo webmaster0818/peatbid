@@ -382,6 +382,7 @@ export default function Macallan18KaitoriPage() {
           <h2>マッカラン18年の他の切り口で読む</h2>
           <p>マッカラン18年についてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
           <ul>
+              <li><Link href="/articles/macallan-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">マッカラン（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/macallan-18-takaku-uru/" className="text-amber-dark hover:underline">マッカラン18年の高く売る方法</Link></li>
               <li><Link href="/articles/macallan-18-nisemono-mikata/" className="text-amber-dark hover:underline">マッカラン18年の偽物の見分け方</Link></li>
               <li><Link href="/articles/macallan-18-ranking/" className="text-amber-dark hover:underline">マッカラン18年の買取業者ランキング</Link></li>

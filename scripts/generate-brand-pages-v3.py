@@ -23,6 +23,8 @@ with open(DATA, "r", encoding="utf-8") as f:
     BRANDS = list(csv.DictReader(f))
 
 
+HUB_FAMILIES = {"yamazaki": "山崎", "hibiki": "響", "hakushu": "白州", "macallan": "マッカラン", "ichirosu": "イチローズモルト", "bowmore": "ボウモア", "springbank": "スプリングバンク"}
+
 def md_to_html(text):
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
     normalized = text.replace('\\n', '\n')
@@ -254,7 +256,9 @@ def render_page(b, all_brands):
         ("hako-nashi", "箱なしでも買取"),
         ("label-yogore", "ラベル汚れでも査定"),
     ]
-    angle_links_html = "\n".join(
+    _fam = slug_base.split("-")[0]
+    _hub_li = (f'              <li><Link href="/articles/{_fam}-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">{HUB_FAMILIES[_fam]}（全種）の偽物の見分け方・真贋ハブ</Link></li>\n') if _fam in HUB_FAMILIES else ""
+    angle_links_html = _hub_li + "\n".join(
         f'              <li><Link href="/articles/{slug_base}-{a[0]}/" className="text-amber-dark hover:underline">{name}の{a[1]}</Link></li>'
         for a in angle_links_inline
     )

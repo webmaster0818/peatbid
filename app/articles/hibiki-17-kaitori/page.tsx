@@ -382,6 +382,7 @@ export default function Hibiki17KaitoriPage() {
           <h2>響17年の他の切り口で読む</h2>
           <p>響17年についてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
           <ul>
+              <li><Link href="/articles/hibiki-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">響（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/hibiki-17-takaku-uru/" className="text-amber-dark hover:underline">響17年の高く売る方法</Link></li>
               <li><Link href="/articles/hibiki-17-nisemono-mikata/" className="text-amber-dark hover:underline">響17年の偽物の見分け方</Link></li>
               <li><Link href="/articles/hibiki-17-ranking/" className="text-amber-dark hover:underline">響17年の買取業者ランキング</Link></li>
