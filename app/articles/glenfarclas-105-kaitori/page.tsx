@@ -2,19 +2,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import MarketPriceCard from "@/components/MarketPriceCard";
-import priceData from "@/data/price-history/glenfarclas-25.json";
+import priceData from "@/data/price-history/glenfarclas-105.json";
 
 export const metadata: Metadata = {
-  title: 'グレンファークラス25年の買取相場【2026年6月最新】22,121円｜箱なし・開封済みの査定額も',
-  description: 'グレンファークラス25年の買取相場は22,121円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。グレンファークラス25年を売る前に読む決定版ガイド。',
+  title: 'グレンファークラス105の買取相場【2026年6月最新】8,225円｜箱なし・開封済みの査定額も',
+  description: 'グレンファークラス105の買取相場は8,225円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。グレンファークラス105を売る前に読む決定版ガイド。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'グレンファークラス25年の市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": 'グレンファークラス25年の市場相場は22,121円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=108、取得日 2026-06-29）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": 'グレンファークラス25年を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": 'グレンファークラス25年の開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' } }, { "@type": "Question", "name": 'グレンファークラス25年は箱無しでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約17,700〜19,910円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' } }, { "@type": "Question", "name": 'グレンファークラス25年に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": 'グレンファークラス25年の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": 'グレンファークラス25年は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": 'グレンファークラス25年と他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'グレンファークラス105の市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": 'グレンファークラス105の市場相場は8,225円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=52、取得日 2026-06-29）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": '「グレンファークラス 年代指定なし」とグレンファークラス105は同じものですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、同じものです。「グレンファークラス 年代指定なし」「グレンファークラス NV」は、熟成年数の表記がないボトル＝グレンファークラス105を指す表記ゆれです。本ページの相場（8,225円）がそのまま目安になります。' } }, { "@type": "Question", "name": 'グレンファークラス105を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": 'グレンファークラス105の開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' } }, { "@type": "Question", "name": 'グレンファークラス105は箱無しでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約6,580〜7,400円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' } }, { "@type": "Question", "name": 'グレンファークラス105に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": 'グレンファークラス105の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": 'グレンファークラス105は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'グレンファークラス105を売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": 'グレンファークラス105と他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
 }
 
 const tocItems = [
-  { id: "summary", label: "1. グレンファークラス25年の概要" },
+  { id: "summary", label: "1. グレンファークラス105の概要" },
   { id: "distillery", label: "2. 蒸溜所の歴史と特徴" },
   { id: "tasting", label: "3. テイスティングノート" },
   { id: "current-price", label: "4. 現在の市場相場（Yahoo中央値）" },
@@ -28,7 +28,7 @@ const tocItems = [
   { id: "faq", label: "12. よくある質問" },
 ];
 
-export default function Glenfarclas25KaitoriPage() {
+export default function Glenfarclas105KaitoriPage() {
   return (
     <>
       <FaqSchema />
@@ -39,17 +39,17 @@ export default function Glenfarclas25KaitoriPage() {
             <li className="breadcrumb-sep" />
             <li><Link href="/articles/" className="hover:text-amber-dark transition-colors">銘柄一覧</Link></li>
             <li className="breadcrumb-sep" />
-            <li><span className="text-foreground">グレンファークラス25年</span></li>
+            <li><span className="text-foreground">グレンファークラス105</span></li>
           </ol>
         </nav>
 
         <div className="article-hero mb-8">
-          <Image src="/images/heroes/glenfarclas-25.png" alt="グレンファークラス25年の買取相場" width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
+          <Image src="/images/article-hibiki.png" alt="グレンファークラス105の買取相場" width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
           <div className="article-hero-overlay rounded-xl" />
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンファークラス25年の買取相場と業者比較ガイド【2026年6月】</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンファークラス105の買取相場と業者比較ガイド【2026年6月】</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-29 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
@@ -64,24 +64,24 @@ export default function Glenfarclas25KaitoriPage() {
             </ol>
           </div>
 
-          <h2 id="summary">1. グレンファークラス25年の概要</h2>
+          <h2 id="summary">1. グレンファークラス105の概要</h2>
 
-          <p>グレンファークラス25年はスコッチウイスキーを代表する銘柄の1つで、スペイサイドが手がける25年熟成のボトルです。グレンファークラス25年シェリーオーク。</p>
+          <p>グレンファークラス105はスコッチウイスキーを代表する銘柄の1つで、スペイサイドが手がけるノンエイジ（NV）のボトルです。グレンファークラス105 カスクストレングス（年代指定なし・60%）。</p>
 
-          
+          <p>なお、グレンファークラス105はラベルに熟成年数の表記がないボトルで、オークションや買取店では「<strong>グレンファークラス 年代指定なし</strong>」「<strong>グレンファークラス NV（ノンヴィンテージ）</strong>」とも表記されます。いずれも本ページの相場が目安になります。</p>
 
-          <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。グレンファークラス25年は希少度<strong>ミッド</strong>クラスに位置し、終売・休売後の供給制限により価格上昇基調にある銘柄帯。市場流通量が徐々に減少し、二次流通価格は年単位で15〜30%上昇する傾向。</p>
+          <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。グレンファークラス105は希少度<strong>コモン</strong>クラスに位置し、現行品として安定流通しているが、銘柄によってはプレミア化の兆しあり。市場価値は中位だが、コレクター入門品として安定需要を持つ。</p>
 
           <div className="table-wrapper">
             <table>
               <tbody>
                 <tr><td><strong>カテゴリ</strong></td><td>スコッチウイスキー</td></tr>
                 <tr><td><strong>蒸溜所/メーカー</strong></td><td>スペイサイド</td></tr>
-                <tr><td><strong>熟成年数</strong></td><td>25年熟成</td></tr>
-                <tr><td><strong>アルコール度数</strong></td><td>43%</td></tr>
+                <tr><td><strong>熟成年数</strong></td><td>ノンエイジ（NV）</td></tr>
+                <tr><td><strong>アルコール度数</strong></td><td>60%</td></tr>
                 <tr><td><strong>容量</strong></td><td>700ml</td></tr>
-                <tr><td><strong>希少度</strong></td><td>ミッド</td></tr>
-                <tr><td><strong>市場相場（Yahoo中央値）</strong></td><td><strong>22,121円</strong></td></tr>
+                <tr><td><strong>希少度</strong></td><td>コモン</td></tr>
+                <tr><td><strong>市場相場（Yahoo中央値）</strong></td><td><strong>8,225円</strong></td></tr>
               </tbody>
             </table>
           </div>
@@ -94,21 +94,21 @@ export default function Glenfarclas25KaitoriPage() {
 
           <p>スコットランド東部のスペイ川流域を中心とした、世界最大のウイスキー生産地。マッカラン・グレンフィディック・グレンファークラス・グレンリヴェットなど、世界的に有名な蒸溜所が集積。フルーティで華やかな味わいが特徴。</p>
 
-          <p>スペイサイドが生み出すスコッチウイスキーは、世界の主要品評会で度々受賞しており、二次流通市場でも継続的に高値で取引されています。蒸溜所の歴史と職人技術が、グレンファークラス25年のような銘柄の市場価値を支えています。</p>
+          <p>スペイサイドが生み出すスコッチウイスキーは、世界の主要品評会で度々受賞しており、二次流通市場でも継続的に高値で取引されています。蒸溜所の歴史と職人技術が、グレンファークラス105のような銘柄の市場価値を支えています。</p>
 
-          <p>同じ蒸溜所の他の銘柄や、同年代の他銘柄との関連性を知ることで、グレンファークラス25年の市場における立ち位置がより明確になります。下の関連銘柄リンクから他のグレード・他蒸溜所の銘柄も合わせてチェックすることをおすすめします。</p>
+          <p>同じ蒸溜所の他の銘柄や、同年代の他銘柄との関連性を知ることで、グレンファークラス105の市場における立ち位置がより明確になります。下の関連銘柄リンクから他のグレード・他蒸溜所の銘柄も合わせてチェックすることをおすすめします。</p>
 
           <h2 id="tasting">3. テイスティングノート</h2>
 
-          <p>グレンファークラス25年の味わいは、25年熟成の熟成期間中に樽から溶け出した成分と、スペイサイド独自の蒸溜技術が複雑に交差したものです。</p>
+          <p>グレンファークラス105の味わいは、ノンエイジ（NV）の熟成期間中に樽から溶け出した成分と、スペイサイド独自の蒸溜技術が複雑に交差したものです。</p>
 
-          <p>長期熟成ならではの複雑性。シェリー由来のダークフルーツ、ピート由来のスモーキネス、樽材のオーク・タンニンが渾然一体となる。世界のコレクター垂涎の味わい。</p>
+          <p>シェリー樽もしくはバーボン樽の特徴がストレートに表現された若々しい味わい。フルーツ・蜂蜜・バニラのアロマ。</p>
 
           <p>飲用ではなくコレクション・投資目的で保有する場合、ボトルを開けずに保管することが価値維持の鉄則です。一度開けると、香味の揮発と空気接触による酸化が進み、二次流通市場での評価が大幅に下がります。</p>
 
           <h2 id="current-price">4. 現在の市場相場（Yahoo中央値）</h2>
 
-          <p>グレンファークラス25年の市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>22,121円</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=108件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
+          <p>グレンファークラス105の市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>8,225円</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=52件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
 
           <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、**最低3社、できれば4社以上で相見積もり**を取ることをおすすめします。</p>
 
@@ -123,7 +123,7 @@ export default function Glenfarclas25KaitoriPage() {
 
           <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
 
-          <p>グレンファークラス25年の査定額は、ボトルの状態と付属品の有無により大きく変動します。以下は <strong>業界一般の目安（％）</strong> で、市場相場（Yahoo中央値）を基準とした概算レンジです。**実際の査定額は業者により異なります**ので、最終的な金額は各業者のページからご確認ください。</p>
+          <p>グレンファークラス105の査定額は、ボトルの状態と付属品の有無により大きく変動します。以下は <strong>業界一般の目安（％）</strong> で、市場相場（Yahoo中央値）を基準とした概算レンジです。**実際の査定額は業者により異なります**ので、最終的な金額は各業者のページからご確認ください。</p>
 
           {/* State condition gallery (5 images) */}
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
@@ -165,14 +165,14 @@ export default function Glenfarclas25KaitoriPage() {
                 <tr><th>状態</th><th>付属品</th><th>業界目安（市場相場対比）</th><th>概算額（中央値基準）</th></tr>
               </thead>
               <tbody>
-                <tr><td>未開封・完璧</td><td>箱・冊子・カートン揃い</td><td>市場相場の95〜100%程度</td><td><strong>約21,010〜22,120円</strong></td></tr>
-                <tr><td>未開封・箱なし</td><td>ラベル良好</td><td>市場相場の80〜90%程度</td><td><strong>約17,700〜19,910円</strong></td></tr>
-                <tr><td>未開封・冊子なし</td><td>外箱あり</td><td>市場相場の85〜95%程度</td><td><strong>約18,800〜21,010円</strong></td></tr>
-                <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td>市場相場の75〜88%程度</td><td><strong>約16,590〜19,470円</strong></td></tr>
-                <tr><td>未開封・ラベル損傷</td><td>付属あり</td><td>市場相場の60〜75%程度</td><td><strong>約13,270〜16,590円</strong></td></tr>
-                <tr><td>未開封・液面減少</td><td>やや進行</td><td>市場相場の55〜70%程度</td><td><strong>約12,170〜15,480円</strong></td></tr>
-                <tr><td>開封済み・9割以上残</td><td>付属あり</td><td>市場相場の30〜40%程度</td><td><strong>約6,640〜8,850円</strong></td></tr>
-                <tr><td>開封済み・半分以下残</td><td>付属あり</td><td>市場相場の15〜25%程度</td><td><strong>約3,320〜5,530円</strong></td></tr>
+                <tr><td>未開封・完璧</td><td>箱・冊子・カートン揃い</td><td>市場相場の95〜100%程度</td><td><strong>約7,810〜8,220円</strong></td></tr>
+                <tr><td>未開封・箱なし</td><td>ラベル良好</td><td>市場相場の80〜90%程度</td><td><strong>約6,580〜7,400円</strong></td></tr>
+                <tr><td>未開封・冊子なし</td><td>外箱あり</td><td>市場相場の85〜95%程度</td><td><strong>約6,990〜7,810円</strong></td></tr>
+                <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td>市場相場の75〜88%程度</td><td><strong>約6,170〜7,240円</strong></td></tr>
+                <tr><td>未開封・ラベル損傷</td><td>付属あり</td><td>市場相場の60〜75%程度</td><td><strong>約4,940〜6,170円</strong></td></tr>
+                <tr><td>未開封・液面減少</td><td>やや進行</td><td>市場相場の55〜70%程度</td><td><strong>約4,520〜5,760円</strong></td></tr>
+                <tr><td>開封済み・9割以上残</td><td>付属あり</td><td>市場相場の30〜40%程度</td><td><strong>約2,470〜3,290円</strong></td></tr>
+                <tr><td>開封済み・半分以下残</td><td>付属あり</td><td>市場相場の15〜25%程度</td><td><strong>約1,230〜2,060円</strong></td></tr>
               </tbody>
             </table>
           </div>
@@ -189,29 +189,29 @@ export default function Glenfarclas25KaitoriPage() {
             <li>付属の保証書・購入レシート</li>
           </ul>
 
-          <h3 id="hako-nashi-souba">グレンファークラス25年を箱なし・付属品なしで売る場合の買取相場</h3>
+          <h3 id="hako-nashi-souba">グレンファークラス105を箱なし・付属品なしで売る場合の買取相場</h3>
 
-          <p>「グレンファークラス25年 買取 箱無し」とお調べの方向けの目安です。未開封・箱なし（ラベル良好）の場合、業界一般の目安は<strong>市場相場の80〜90%程度（約17,700〜19,910円）</strong>。外箱・冊子の揃った完品と比べて1〜2割の減額にとどまるため、<strong>箱がなくても売却を諦める必要はありません</strong>。</p>
+          <p>「グレンファークラス105 買取 箱無し」とお調べの方向けの目安です。未開封・箱なし（ラベル良好）の場合、業界一般の目安は<strong>市場相場の80〜90%程度（約6,580〜7,400円）</strong>。外箱・冊子の揃った完品と比べて1〜2割の減額にとどまるため、<strong>箱がなくても売却を諦める必要はありません</strong>。</p>
 
           <ul>
             <li>減額幅は業者の評価基準によって差が出ます。箱なしの場合こそ<strong>複数業者の相見積もり</strong>が有効です</li>
             <li>冊子・カートンなど<strong>一部の付属品だけでも残っていれば一緒に査定へ</strong>（部分的でも評価されます）</li>
-            <li>詳しくは<Link href="/articles/glenfarclas-25-hako-nashi/" className="text-amber-dark hover:underline">グレンファークラス25年は箱なしでも買取してもらえるかの徹底ガイド</Link>をご覧ください</li>
+            <li>詳しくは<Link href="/articles/glenfarclas-105-hako-nashi/" className="text-amber-dark hover:underline">グレンファークラス105は箱なしでも買取してもらえるかの徹底ガイド</Link>をご覧ください</li>
           </ul>
 
-          <h2 id="price-reasons">6. なぜグレンファークラス25年はこの価格になるのか</h2>
+          <h2 id="price-reasons">6. なぜグレンファークラス105はこの価格になるのか</h2>
 
-          <p>グレンファークラス25年の二次流通価格を決定づける主要な要因は5つあります:</p>
+          <p>グレンファークラス105の二次流通価格を決定づける主要な要因は5つあります:</p>
 
           <ol>
             <li><strong>海外オークション落札データの動向</strong> — Sotheby's・Bonhams・Whisky Auctioneer等の落札結果が、日本の買取業者の仕入れ価格の基準となっています</li>
-            <li><strong>需給バランスと供給制限</strong> — 25年熟成の長期熟成銘柄は供給量が物理的に限られており、需要拡大に応じて価格が上昇しやすい構造</li>
+            <li><strong>需給バランスと供給制限</strong> — ノンエイジ（NV）の長期熟成銘柄は供給量が物理的に限られており、需要拡大に応じて価格が上昇しやすい構造</li>
             <li><strong>為替レートの影響</strong> — 円安局面では海外バイヤー（アジア富裕層・中華圏コレクター）の購買力が拡大し、国内相場も連動して上昇する傾向</li>
             <li><strong>スペイサイドの国際的評価</strong> — World Whiskies Awards、ISC等の品評会受賞歴が国際的需要を支え、長期保有のプレミアにつながる</li>
             <li><strong>季節要因・贈答需要</strong> — 年末年始・お中元・お歳暮シーズンに需要が高まり、相場が上昇する</li>
           </ol>
 
-          <p>これらの要因を総合的に踏まえると、グレンファークラス25年はミッドクラスの希少度を持つため、<strong>中長期で見れば価格安定〜上昇基調</strong>が予想されます。短期的な売り急ぎは避け、市場動向を見ながら最適なタイミングで売却するのが合理的です。</p>
+          <p>これらの要因を総合的に踏まえると、グレンファークラス105はコモンクラスの希少度を持つため、<strong>中長期で見れば価格安定〜上昇基調</strong>が予想されます。短期的な売り急ぎは避け、市場動向を見ながら最適なタイミングで売却するのが合理的です。</p>
 
           <h2 id="auction">7. オークション落札データ</h2>
 
@@ -220,15 +220,15 @@ export default function Glenfarclas25KaitoriPage() {
             <div className="absolute inset-0 bg-gradient-to-t from-peat/30 to-transparent" />
           </div>
 
-          <p>海外の主要オークションでは、グレンファークラス25年クラスの銘柄が継続的に取引されています。主要オークションプラットフォームと、それぞれの特徴は以下の通りです:</p>
+          <p>海外の主要オークションでは、グレンファークラス105クラスの銘柄が継続的に取引されています。主要オークションプラットフォームと、それぞれの特徴は以下の通りです:</p>
 
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>Sotheby's（ニューヨーク・香港・ロンドン）</strong>: 月次〜四半期ごとに開催、プレミアム銘柄中心。<br/><strong>Bonhams（香港・ロンドン）</strong>: 同様にプレミアム銘柄。アジア富裕層が主要バイヤー。<br/><strong>Whisky Auctioneer（UK）</strong>: 月次オンラインオークション、中位銘柄まで幅広く扱う。<br/><strong>Just Whisky Auctions（UK）</strong>: 月次開催、コレクター向け。<br/><strong>Whisky Hammer（UK）</strong>: 月次オンライン、新興プレイヤー。</p>` }} />
 
           <p>これらのオークションの落札データは、各サイトの「Past Results」アーカイブで閲覧可能です。日本の買取業者の査定額は、これらの海外データを基準に、輸送コスト・関税・業者マージンを考慮して算出されています。</p>
 
-          <p>過去5年（2021〜2026年）のグレンファークラス25年の二次流通価格は、ジャパニーズウイスキーブーム・コレクター需要拡大により<strong>累積30〜80%の上昇</strong>を示しており、長期保有における資産価値も注目されています。</p>
+          <p>過去5年（2021〜2026年）のグレンファークラス105の二次流通価格は、ジャパニーズウイスキーブーム・コレクター需要拡大により<strong>累積30〜80%の上昇</strong>を示しており、長期保有における資産価値も注目されています。</p>
 
-          <h2 id="takaku-uru">8. グレンファークラス25年を高く売る7つの実践テクニック</h2>
+          <h2 id="takaku-uru">8. グレンファークラス105を高く売る7つの実践テクニック</h2>
 
           <ol>
             <li><strong>外箱・冊子・カートンを必ず揃える</strong> — 付属品の有無で査定額が10〜20%変動。シミ・破れがあると更に評価減</li>
@@ -240,9 +240,9 @@ export default function Glenfarclas25KaitoriPage() {
             <li><strong>状態を写真で記録</strong> — 事前に複数角度から撮影し、業者比較・トラブル防止に活用</li>
           </ol>
 
-          <h2 id="fake">9. グレンファークラス25年の偽物・贋作の見分け方</h2>
+          <h2 id="fake">9. グレンファークラス105の偽物・贋作の見分け方</h2>
 
-          <p>グレンファークラス25年のような流通価値のある銘柄では、贋作・偽造ボトルのリスクが存在します。本物を見抜くには以下の5つのチェックが有効です:</p>
+          <p>グレンファークラス105のような流通価値のある銘柄では、贋作・偽造ボトルのリスクが存在します。本物を見抜くには以下の5つのチェックが有効です:</p>
 
           <ol>
             <li><strong>ラベルの印刷品質</strong> — 正規品は文字が鮮明で色ズレなし。贋作はにじみ・かすれ・フォント違いが見られる</li>
@@ -256,7 +256,7 @@ export default function Glenfarclas25KaitoriPage() {
 
           <h2 id="partners">10. おすすめ買取業者4社の詳細レビュー</h2>
 
-          <p>PeatBid編集部がグレンファークラス25年クラスの銘柄に強い買取業者を厳選しました。それぞれ得意領域が異なるため、目的別に使い分けるのがコツです。</p>
+          <p>PeatBid編集部がグレンファークラス105クラスの銘柄に強い買取業者を厳選しました。それぞれ得意領域が異なるため、目的別に使い分けるのがコツです。</p>
 
           {/* Comparison table */}
           <div className="table-wrapper not-prose mb-6">
@@ -340,7 +340,7 @@ export default function Glenfarclas25KaitoriPage() {
 
           <h2 id="process">11. 売却プロセス5ステップ</h2>
 
-          <p>グレンファークラス25年を売却する際の標準的なプロセスを5ステップでまとめました:</p>
+          <p>グレンファークラス105を売却する際の標準的なプロセスを5ステップでまとめました:</p>
 
           <ol>
             <li><strong>状態確認・付属品準備</strong> — ボトル本体の状態を確認し、外箱・冊子・カートン等の付属品を揃える</li>
@@ -353,7 +353,7 @@ export default function Glenfarclas25KaitoriPage() {
           <p>このプロセス全体で<strong>1〜2週間</strong>を見込めば、最適なタイミングで売却できます。</p>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
-            <h3 className="font-bold text-base mb-3 text-center">グレンファークラス25年の無料一括査定はこちら</h3>
+            <h3 className="font-bold text-base mb-3 text-center">グレンファークラス105の無料一括査定はこちら</h3>
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
@@ -363,10 +363,10 @@ export default function Glenfarclas25KaitoriPage() {
             </div>
           </div>
 
-          <h2 id="faq">12. グレンファークラス25年に関するよくある質問</h2>
+          <h2 id="faq">12. グレンファークラス105に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: 'グレンファークラス25年の市場相場はいくらですか？', a: 'グレンファークラス25年の市場相場は22,121円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=108、取得日 2026-06-29）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各業者のページで直接ご確認ください。' }, { q: 'グレンファークラス25年を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: 'グレンファークラス25年の開封済みでも買取できますか？', a: 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' }, { q: 'グレンファークラス25年は箱無しでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約17,700〜19,910円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' }, { q: 'グレンファークラス25年に偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' }, { q: 'グレンファークラス25年の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: 'グレンファークラス25年は税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'グレンファークラス25年を売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: 'グレンファークラス25年と他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
+            {[{ q: 'グレンファークラス105の市場相場はいくらですか？', a: 'グレンファークラス105の市場相場は8,225円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=52、取得日 2026-06-29）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各業者のページで直接ご確認ください。' }, { q: '「グレンファークラス 年代指定なし」とグレンファークラス105は同じものですか？', a: 'はい、同じものです。「グレンファークラス 年代指定なし」「グレンファークラス NV」は、熟成年数の表記がないボトル＝グレンファークラス105を指す表記ゆれです。本ページの相場（8,225円）がそのまま目安になります。' }, { q: 'グレンファークラス105を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: 'グレンファークラス105の開封済みでも買取できますか？', a: 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' }, { q: 'グレンファークラス105は箱無しでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約6,580〜7,400円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' }, { q: 'グレンファークラス105に偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' }, { q: 'グレンファークラス105の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: 'グレンファークラス105は税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'グレンファークラス105を売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: 'グレンファークラス105と他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -379,19 +379,19 @@ export default function Glenfarclas25KaitoriPage() {
             ))}
           </div>
 
-          <h2>グレンファークラス25年の他の切り口で読む</h2>
-          <p>グレンファークラス25年についてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
+          <h2>グレンファークラス105の他の切り口で読む</h2>
+          <p>グレンファークラス105についてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
           <ul>
               <li><Link href="/articles/glenfarclas-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">グレンファークラス（全種）の偽物の見分け方・真贋ハブ</Link></li>
-              <li><Link href="/articles/glenfarclas-25-takaku-uru/" className="text-amber-dark hover:underline">グレンファークラス25年の高く売る方法</Link></li>
-              <li><Link href="/articles/glenfarclas-25-nisemono-mikata/" className="text-amber-dark hover:underline">グレンファークラス25年の偽物の見分け方</Link></li>
-              <li><Link href="/articles/glenfarclas-25-ranking/" className="text-amber-dark hover:underline">グレンファークラス25年の買取業者ランキング</Link></li>
-              <li><Link href="/articles/glenfarclas-25-rekishi/" className="text-amber-dark hover:underline">グレンファークラス25年の歴史と特徴</Link></li>
-              <li><Link href="/articles/glenfarclas-25-kihaku/" className="text-amber-dark hover:underline">グレンファークラス25年の希少性・投資価値</Link></li>
-              <li><Link href="/articles/glenfarclas-25-auction-suii/" className="text-amber-dark hover:underline">グレンファークラス25年のオークション推移</Link></li>
-              <li><Link href="/articles/glenfarclas-25-kaifu-zumi/" className="text-amber-dark hover:underline">グレンファークラス25年の開封済みでも売れる</Link></li>
-              <li><Link href="/articles/glenfarclas-25-hako-nashi/" className="text-amber-dark hover:underline">グレンファークラス25年の箱なしでも買取</Link></li>
-              <li><Link href="/articles/glenfarclas-25-label-yogore/" className="text-amber-dark hover:underline">グレンファークラス25年のラベル汚れでも査定</Link></li>
+              <li><Link href="/articles/glenfarclas-105-takaku-uru/" className="text-amber-dark hover:underline">グレンファークラス105の高く売る方法</Link></li>
+              <li><Link href="/articles/glenfarclas-105-nisemono-mikata/" className="text-amber-dark hover:underline">グレンファークラス105の偽物の見分け方</Link></li>
+              <li><Link href="/articles/glenfarclas-105-ranking/" className="text-amber-dark hover:underline">グレンファークラス105の買取業者ランキング</Link></li>
+              <li><Link href="/articles/glenfarclas-105-rekishi/" className="text-amber-dark hover:underline">グレンファークラス105の歴史と特徴</Link></li>
+              <li><Link href="/articles/glenfarclas-105-kihaku/" className="text-amber-dark hover:underline">グレンファークラス105の希少性・投資価値</Link></li>
+              <li><Link href="/articles/glenfarclas-105-auction-suii/" className="text-amber-dark hover:underline">グレンファークラス105のオークション推移</Link></li>
+              <li><Link href="/articles/glenfarclas-105-kaifu-zumi/" className="text-amber-dark hover:underline">グレンファークラス105の開封済みでも売れる</Link></li>
+              <li><Link href="/articles/glenfarclas-105-hako-nashi/" className="text-amber-dark hover:underline">グレンファークラス105の箱なしでも買取</Link></li>
+              <li><Link href="/articles/glenfarclas-105-label-yogore/" className="text-amber-dark hover:underline">グレンファークラス105のラベル汚れでも査定</Link></li>
           </ul>
 
           <h2>関連銘柄の買取相場</h2>

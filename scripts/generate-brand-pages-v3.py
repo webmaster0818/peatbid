@@ -23,7 +23,7 @@ with open(DATA, "r", encoding="utf-8") as f:
     BRANDS = list(csv.DictReader(f))
 
 
-HUB_FAMILIES = {"yamazaki": "山崎", "hibiki": "響", "hakushu": "白州", "macallan": "マッカラン", "ichirosu": "イチローズモルト", "bowmore": "ボウモア", "springbank": "スプリングバンク"}
+HUB_FAMILIES = {"yamazaki": "山崎", "hibiki": "響", "hakushu": "白州", "macallan": "マッカラン", "ichirosu": "イチローズモルト", "bowmore": "ボウモア", "springbank": "スプリングバンク", "glenfarclas": "グレンファークラス"}
 
 def md_to_html(text):
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
@@ -303,8 +303,8 @@ def render_page(b, all_brands):
         market_short = "市場相場データ蓄積中"
 
     hako_yen = f"（{yen_range_pct(yahoo_median, 80, 90)}）" if sufficient else ""
-    is_nv = slug_base.endswith("-nv")
-    nv_base_name = name.replace("ノンエイジ", "").strip()
+    is_nv = slug_base.endswith("-nv") or slug_base.endswith("-105")
+    nv_base_name = name.replace("ノンエイジ", "").replace("105", "").replace("（NV）", "").strip()
     nv_note = (
         f'<p>なお、{name}はラベルに熟成年数の表記がないボトルで、オークションや買取店では「<strong>{nv_base_name} 年代指定なし</strong>」「<strong>{nv_base_name} NV（ノンヴィンテージ）</strong>」とも表記されます。いずれも本ページの相場が目安になります。</p>'
         if is_nv else ""

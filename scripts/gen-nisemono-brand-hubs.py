@@ -37,6 +37,9 @@ BRANDS = [
     ("springbank", "スプリングバンク", "springbank-15", [
         ("springbank-15", "スプリングバンク15年"), ("springbank-21", "スプリングバンク21年"),
     ]),
+    ("glenfarclas", "グレンファークラス", "glenfarclas-25", [
+        ("glenfarclas-25", "グレンファークラス25年"), ("glenfarclas-105", "グレンファークラス105（年代指定なし）"),
+    ]),
 ]
 
 FAQS = lambda n: [

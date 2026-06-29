@@ -1,0 +1,23 @@
+{
+  "slug": "glenfarclas-105",
+  "label": "グレンファークラス105",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "グレンファークラス 105 700ml",
+  "history": [
+    {
+      "date": "2026-06-29",
+      "median_jpy": 8225,
+      "sample_n": 52,
+      "raw_n": 54
+    }
+  ],
+  "latest": {
+    "date": "2026-06-29",
+    "median_jpy": 8225,
+    "sample_n": 52,
+    "raw_n": 54,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"
+}

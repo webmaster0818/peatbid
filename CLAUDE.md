@@ -87,3 +87,10 @@ P1選択肢①（基幹銘柄の真贋ハブ）を実行。`scripts/gen-nisemono
 - base銘柄(yamazaki等)はbrands.csv/price-history無し→render_page非再利用、手書きテンプレ。hero=各先頭variantのheroを流用。変数リンク先(各variantの偽物/買取)は全て実在検証済=壊れリンク0。
 - ビルドheap12288・EXIT0・sitemap 2932(+4)・方式B(.txt削除/--exclude functions)・両push・本番200確認・Indexing API 4/4。⚠️sitemaps().submitは403(scope)だがrobots.txt掲載済＋Indexing APIで代替。
 - 次=②striking distance(白州NV pos12.8/響30/グレンファークラス)への偽物→買取展開＋ハブ⇄variation相互内部リンク。効果1-2週GSC。
+
+### 2026-06-28 P1② striking distance押し上げ＋ハブ⇄バリエーション相互内部リンク（MediaXAI「②進めよう」）
+GSC28日(6/1-6/28)striking distance(pos6-20)特定: yamazaki-nv-kaitori(imp121/11.6)・**glenfarclas-25-kaitori(imp109/13.5)**・ichirosu-double-distilleries(55)・hakushu-nv(53)・springbank-15(49)・bowmore-blackbowmore(42)等、0clk表示積み上げが本命。クエリ=「ノンエイジ/年代指定なし 買取」高intent反復。
+- **真贋ハブ7化**: ①の4ハブにstriking distance×複数variationの ichirosu(3)/bowmore(3)/springbank(2) 追加。`gen-nisemono-brand-hubs.py`のBRANDSに3家族追加＋maker参照を中立化(サントリー/ニッカ→メーカー・正規輸入元=スコッチ銘柄でも正確に)。
+- **ハブ⇄バリエーション相互内部リンク完成**: 両生成器(generate-brand-pages-v3/generate-angle-pages-v3)に`HUB_FAMILIES`定義＋「各variation→family真贋ハブ」上リンクを恒久実装(週次維持)。単一variation(glenfarclas等)は対象外で0本。50買取+450角度再生成。
+- ビルドheap12288 EXIT0・sitemap 2935(+3)・方式B・両push・新3ハブ本番200・uplink反映確認・Indexing API 10/10(新3ハブ+striking7頁)。
+- **次候補(最大の単一機会)**: 「グレンファークラス 年代指定なし 買取」(imp109/pos9-18)がglenfarclas-25(25年)に着地=年代ミスマッチ。glenfarclasは単一variation→ハブ非対象。「年代指定なし/105」受け皿1本で刈り取り可能。MediaJudgment待ち。効果1-2週GSC。
