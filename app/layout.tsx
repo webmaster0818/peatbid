@@ -356,6 +356,17 @@ export default function RootLayout({
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="0" />
         <JsonLd />
+        {process.env.NEXT_PUBLIC_GA_ID ? (
+          <>
+            {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${process.env.NEXT_PUBLIC_GA_ID}');document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a'):null;if(!a)return;var href=a.getAttribute('href')||'';var ext=/^https?:\\/\\//.test(href)&&href.indexOf(location.host)===-1;var spon=(a.getAttribute('rel')||'').indexOf('sponsored')!==-1;if(ext||spon){gtag('event','outbound_click',{link_url:href,link_domain:(href.split('/')[2]||''),transport_type:'beacon'});}},true);`,
+              }}
+            />
+          </>
+        ) : null}
       </head>
       <body className="min-h-full flex flex-col font-sans bg-parchment text-ink">
         <>

@@ -94,3 +94,11 @@ GSC28日(6/1-6/28)striking distance(pos6-20)特定: yamazaki-nv-kaitori(imp121/1
 - **ハブ⇄バリエーション相互内部リンク完成**: 両生成器(generate-brand-pages-v3/generate-angle-pages-v3)に`HUB_FAMILIES`定義＋「各variation→family真贋ハブ」上リンクを恒久実装(週次維持)。単一variation(glenfarclas等)は対象外で0本。50買取+450角度再生成。
 - ビルドheap12288 EXIT0・sitemap 2935(+3)・方式B・両push・新3ハブ本番200・uplink反映確認・Indexing API 10/10(新3ハブ+striking7頁)。
 - **次候補(最大の単一機会)**: 「グレンファークラス 年代指定なし 買取」(imp109/pos9-18)がglenfarclas-25(25年)に着地=年代ミスマッチ。glenfarclasは単一variation→ハブ非対象。「年代指定なし/105」受け皿1本で刈り取り可能。MediaJudgment待ち。効果1-2週GSC。
+
+### 2026-06-29 ②続: グレンファークラス「年代指定なし/105」受け皿（MediaXAI「続きを進めよう」@project-peatbid）
+②で発見した最大の単一striking distance機会＝「グレンファークラス 年代指定なし 買取」(imp109/pos9-18)が**glenfarclas-25(25年)に誤着地**(年代×クエリのミスマッチ)を解消。年代指定なし＝**Glenfarclas 105(カスクストレングス/NAS/60%)**の受け皿を新設。
+- **実データ厳守**: `fetch-yahoo-medians.py`の`median_for_query("グレンファークラス 105")`で実落札取得→**中央値¥8,225/n52**(IQR済・insufficient:false)。`glenfarclas-105`をbrands.csv追加(age空=NAS/abv60/common)＋`write_history`でprice-history生成。
+- **表記ゆれ**: `generate-brand-pages-v3.py`の`is_nv`を`endswith("-nv") or endswith("-105")`に拡張＋`nv_base_name`から"105"除去→note/FAQが「**グレンファークラス 年代指定なし**」「グレンファークラス NV」を生成(クエリ一致)。
+- **クラスタ**: glenfarclasをHUB_FAMILIES＋hub gen BRANDSに追加(25+105の真贋ハブ`glenfarclas-nisemono-mikata`)。
+- 再生成=8ハブ/51買取/459角度。ビルドheap12288 EXIT0・sitemap2946(+11)・方式B両push・本番200・年代指定なし×11/中央値¥8,225確認・Indexing API 6/6。効果1-2週GSC。
+- ⚠️**新ブランド追加の正攻法**=median_for_query実取得→n≥20確認→brands.csv＋write_history→generator再実行（架空median厳禁）。
