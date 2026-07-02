@@ -351,7 +351,12 @@ def render_page(b, all_brands):
     target_dir = OUT_DIR / f"{slug_base}-kaitori"
     target_dir.mkdir(parents=True, exist_ok=True)
 
-    meta_title = f"{name}の買取相場{MONTH_TAG}{market_short}｜箱なし・開封済みの査定額も" if sufficient else f"{name}の買取相場ガイド{MONTH_TAG}状態別の目安"
+    # 総称クエリ誤着地対策: 「年代指定なし」等の表記ゆれをtitle/descに恒久反映（2026-07-03）
+    TITLE_ALIAS = {
+        "glenfarclas-105": "グレンファークラス105（年代指定なし）",
+    }
+    title_name = TITLE_ALIAS.get(slug_base, name)
+    meta_title = f"{title_name}の買取相場{MONTH_TAG}{market_short}｜箱なし・開封済みの査定額も" if sufficient else f"{title_name}の買取相場ガイド{MONTH_TAG}状態別の目安"
     meta_desc = (f"{name}の買取相場は{market_short}が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。{name}を売る前に読む決定版ガイド。" if sufficient else f"{name}（{name_en}）の買取相場ガイド。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。")
 
     content = f'''import type {{ Metadata }} from "next";

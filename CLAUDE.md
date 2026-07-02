@@ -102,3 +102,10 @@ GSC28日(6/1-6/28)striking distance(pos6-20)特定: yamazaki-nv-kaitori(imp121/1
 - **クラスタ**: glenfarclasをHUB_FAMILIES＋hub gen BRANDSに追加(25+105の真贋ハブ`glenfarclas-nisemono-mikata`)。
 - 再生成=8ハブ/51買取/459角度。ビルドheap12288 EXIT0・sitemap2946(+11)・方式B両push・本番200・年代指定なし×11/中央値¥8,225確認・Indexing API 6/6。効果1-2週GSC。
 - ⚠️**新ブランド追加の正攻法**=median_for_query実取得→n≥20確認→brands.csv＋write_history→generator再実行（架空median厳禁）。
+
+### 2026-07-01 P次①②③実行（MediaXAI「①②③進めて」@project-peatbid）
+next-action-fusion-2026-06-30.md の①②③を実行。
+- **①グレンファークラス105クラスタ押し上げ＋②コア買取クラスタ集中**: 3ハブ(souba-index/souba-ranking/souba-hakusho)に「注目の買取相場（強化クラスタ）」内部リンクブロックを新設し、**glenfarclas-105-kaitori／yamazaki-nv-kaitori／hakushu-nv-kaitori** へ下向き集中リンク（これまで3ハブは勝ち筋に0リンクだった）。gf105は自クラスタ10角度ページ＋真贋ハブと既に相互リンク済を確認。⚠️souba-index/rankingの**generatorはdata JSONのみ生成しpage.tsxは手書き**＝直接編集で週次上書きされない。
+- **③GA4アウトバウンド計測**: layout headに gtag＋**外部/sponsoredリンククリックのoutbound_clickイベント送信**を実装。`process.env.NEXT_PUBLIC_GA_ID`ゲート＝**ID未設定時は何も描画しない(本番で確認済gtag=0)**。有効化には**MediaXAIがGA4測定ID発行＋CF環境変数 NEXT_PUBLIC_GA_ID 設定＋再デプロイ**が必要（ASP承認前でも送客クリックを可視化できる）。
+- ビルドheap12288 EXIT0・方式B(.txt削除/--exclude functions・3208ファイル)・両push・本番200＋強化クラスタ節描画確認・Indexing API 6/6。
+- 残=④tier2 2350のトリアージnoindex(要目視GO)・⑤偽物クラスタ拡張。効果1-2週GSC。GA4は測定ID待ち。

@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/yamazaki-12.json";
 
 export const metadata: Metadata = {
-  title: '山崎12年の買取相場【2026年6月最新】21,000円｜箱なし・開封済みの査定額も',
+  title: '山崎12年の買取相場【2026年7月最新】21,000円｜箱なし・開封済みの査定額も',
   description: '山崎12年の買取相場は21,000円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。山崎12年を売る前に読む決定版ガイド。',
 };
 
@@ -49,7 +49,7 @@ export default function Yamazaki12KaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎12年の買取相場と業者比較ガイド【2026年6月】</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎12年の買取相場と業者比較ガイド【2026年7月】</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-29 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
