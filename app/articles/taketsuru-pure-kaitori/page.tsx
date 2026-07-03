@@ -70,6 +70,7 @@ export default function TaketsuruPureKaitoriPage() {
 
           
 
+
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。竹鶴ピュアモルトは希少度<strong>コモン</strong>クラスに位置し、現行品として安定流通しているが、銘柄によってはプレミア化の兆しあり。市場価値は中位だが、コレクター入門品として安定需要を持つ。</p>
 
           <div className="table-wrapper">

@@ -109,3 +109,10 @@ next-action-fusion-2026-06-30.md の①②③を実行。
 - **③GA4アウトバウンド計測**: layout headに gtag＋**外部/sponsoredリンククリックのoutbound_clickイベント送信**を実装。`process.env.NEXT_PUBLIC_GA_ID`ゲート＝**ID未設定時は何も描画しない(本番で確認済gtag=0)**。有効化には**MediaXAIがGA4測定ID発行＋CF環境変数 NEXT_PUBLIC_GA_ID 設定＋再デプロイ**が必要（ASP承認前でも送客クリックを可視化できる）。
 - ビルドheap12288 EXIT0・方式B(.txt削除/--exclude functions・3208ファイル)・両push・本番200＋強化クラスタ節描画確認・Indexing API 6/6。
 - 残=④tier2 2350のトリアージnoindex(要目視GO)・⑤偽物クラスタ拡張。効果1-2週GSC。GA4は測定ID待ち。
+
+### 2026-07-03 ②機会バンド10ページCTR改善（MediaXAI「②進めて」@project-peatbid）✅本番反映済み
+- **新規共通モジュール`scripts/opportunity_band.py`**（BAND_BRAND_SLUGS8+BAND_ANGLE_SLUGS2/band_latest/band_title/sparkline_block）→両生成器がimport＝週次cron再生成で恒久維持
+- ①title=「【毎週更新】{名}の買取相場｜ヤフオク落札中央値{実数}円基準【2026年7月】」(insufficient銘柄は既存維持・TITLE_ALIAS/MONTH_TAGと共存) ②12週スパークライン=静的インラインSVG(履歴6点・点titleに日付/中央値/n・出典/IQR明記・**3点未満は「蓄積中」正直表示**。rechartsのMarketPriceCardはクローラー不可視だったのを解消) ③FAQ先頭に中央値実数Q&A(JSON-LD反映)
+- 検証=【毎週更新】titleがout/全2948中ちょうど10ページ(バンド外無変更)・build EXIT0・.txt削除・方式B両push・本番確認・Indexing 10/10
+- ⚠️**6/29報告の「glenfarclas-25意図分離導線」は実在せず**（105 title側のみ対応済だった）→25年→105導線は③とあわせて実装する
+- 次=③真贋第2弾(偽造実在×機会バンド8本・真贋→買取遷移計測) ④相場指数レポートハブ ⑤税金/NVとは収益化＋誤着地クエリ自動抽出の木曜定例組込

@@ -70,6 +70,7 @@ export default function Springbank21KaitoriPage() {
 
           
 
+
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。スプリングバンク21年は希少度<strong>ハイ</strong>クラスに位置し、希少性と国際的評価により、二次流通市場で高値が定着している銘柄帯。コレクター・投資需要が支え、長期保有での価値増大が期待できる。</p>
 
           <div className="table-wrapper">

@@ -45,7 +45,7 @@ export default function BowmoreBlackbowmoreTakakuUruPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">ブラックボウモア</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / ノンエイジ / 希少度 ウルトラレア / 市場相場 4,000円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / ノンエイジ / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/bowmore-blackbowmore-kaitori/" className="text-amber-dark underline">ブラックボウモアの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,18 +68,18 @@ export default function BowmoreBlackbowmoreTakakuUruPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではブラックボウモアの落札が約100件確認でき、落札額の中央値は4,000円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">ブラックボウモアは二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
 
 
           <h2 id="section-0">1. ブラックボウモアの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ブラックボウモア</strong>はスコッチウイスキー（アイラ）のノンエイジ（NV）、度数49%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>4,000円</strong>（流通サンプル100件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（アイラ）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ブラックボウモア</strong>はスコッチウイスキー（アイラ）のノンエイジ（NV）、度数49%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>スコッチは蒸溜所・地域（アイラ）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. コツ1: 付属品をすべて揃える</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>ブラックボウモアの査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。実勢中央値<strong>4,000円</strong>を基準とすると、付属品なしでは約3,200〜3,600円（相場の80〜90%）まで下がるのが一般的です。</p><p>外箱にシミ・破れ・水濡れ跡があると更に-5〜10%。付属品を揃えるだけで約600円前後の差が出る計算です。</p><p>まず家中を徹底的に探し、すべての付属品を集めてから売却を検討してください。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>ブラックボウモアの査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。市場相場を基準として、付属品なしの場合は市場相場の80〜90%程度まで下がることが一般的です。</p><p>外箱の状態も重要で、シミ・破れ・水濡れ跡があると更に-5〜10%。購入時の状態を維持する努力が、最終的に数万〜数十万円の差を生みます。</p><p>まず家中を徹底的に探し、すべての付属品を集めてから売却を検討してください。</p>` }} />
 
           <h2 id="section-2">3. コツ2: 未開封の状態を維持</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>ブラックボウモアは開封済みになると査定額が大幅に下がり、未開封の30〜40%＝約1,200〜1,600円前後まで落ちます。未開封なら4,000円前後で売れる可能性があることを考えると、その差は歴然です。</p><p>コレクション目的のボトルは絶対に開けず保管を。「ちょっと味見」が大きな損失につながります。</p><p>万一開封した場合は、香味揮発・酸化が進む前にできるだけ早く売却するのが鉄則です。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>ブラックボウモアは開封済みになると査定額が大幅に下がり、未開封の30〜40%（市場相場の30〜40%程度前後）まで落ちます。</p><p>コレクション目的で購入したボトルは、絶対に開けずに保管してください。「ちょっと味見」が数十万円の損失につながります。</p><p>万一開封してしまった場合は、できるだけ早く売却するのが鉄則です。時間経過とともに香味揮発・酸化が進み、査定額が更に下がります。</p>` }} />
 
           <h2 id="section-3">4. コツ3: 複数業者で相見積もり</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>同じブラックボウモアでも、業者によって<strong>数万〜数十万円</strong>の査定差が生じます。1社だけで決めるのは絶対に避けるべきです。</p><p>推奨フロー: (1)ヒカカク等の一括査定サイトで5社以上から見積もり取得、(2)お酒買取専門店（JOYLAB・リカスタ等）に個別で2〜3社から見積もり、(3)合計7〜8社の見積もりを比較、(4)手取り額（手数料・送料込み）で最高値の業者を選定。</p><p>査定無料・キャンセル無料の業者ばかりなので、複数比較のコストはゼロです。</p>` }} />
@@ -130,7 +130,7 @@ export default function BowmoreBlackbowmoreTakakuUruPage() {
           <h2>関連記事</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
-            <Link href="/articles/bowmore-blackbowmore-nisemono-mikata/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">偽物の見分け方</span><p className="text-sm font-bold mt-1">ブラックボウモアの偽物の見分け方</p></Link>
+            <Link href="/articles/bowmore-blackbowmore-nisemono-mikata/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">売る前チェック（真贋と相場）</span><p className="text-sm font-bold mt-1">ブラックボウモアの売る前チェック（真贋と相場）</p></Link>
             <Link href="/articles/bowmore-blackbowmore-ranking/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">買取業者ランキング</span><p className="text-sm font-bold mt-1">ブラックボウモアの買取業者ランキング</p></Link>
             <Link href="/articles/bowmore-blackbowmore-rekishi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">歴史と特徴</span><p className="text-sm font-bold mt-1">ブラックボウモアの歴史と特徴</p></Link>
             <Link href="/articles/bowmore-blackbowmore-kihaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">希少性・投資価値</span><p className="text-sm font-bold mt-1">ブラックボウモアの希少性・投資価値</p></Link>

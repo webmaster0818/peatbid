@@ -14,6 +14,7 @@ from pathlib import Path
 # フュージョン打ち手②: 機会バンド(GSC pos8-30×imp30+)のtitle刷新＋12週スパークライン＋FAQ強化
 from opportunity_band import (
     BAND_BRAND_SLUGS,
+    PRECHECK_SLUGS,
     UPDATE_NOTE,
     band_latest,
     band_title,
@@ -256,7 +257,7 @@ def render_page(b, all_brands):
     # Angle links for this brand
     angle_links_inline = [
         ("takaku-uru", "高く売る方法"),
-        ("nisemono-mikata", "偽物の見分け方"),
+        ("nisemono-mikata", "売る前チェック（真贋と相場）" if slug_base in PRECHECK_SLUGS else "偽物の見分け方"),
         ("ranking", "買取業者ランキング"),
         ("rekishi", "歴史と特徴"),
         ("kihaku", "希少性・投資価値"),
@@ -318,6 +319,31 @@ def render_page(b, all_brands):
         f'<p>なお、{name}はラベルに熟成年数の表記がないボトルで、オークションや買取店では「<strong>{nv_base_name} 年代指定なし</strong>」「<strong>{nv_base_name} NV（ノンヴィンテージ）</strong>」とも表記されます。いずれも本ページの相場が目安になります。</p>'
         if is_nv else ""
     )
+
+    # 打ち手③（2026-07-04）: 買取ページ→買取前チェック（真贋）への相互リンク。
+    # class "kaitori-to-shingan" は GA4測定ID設定後のクリック計測配線用フック。
+    precheck_callout = ""
+    if slug_base in PRECHECK_SLUGS:
+        precheck_callout = f'''
+          <div className="bg-burgundy/5 border border-burgundy/30 rounded-xl p-4 my-5 not-prose">
+            <p className="text-sm text-ink">🔍 売却前の真贋確認はこちら → <Link href="/articles/{slug_base}-nisemono-mikata/" className="kaitori-to-shingan text-amber-dark underline font-bold">{name}を売る前に｜本物チェックと今の買取相場（3分チェック）</Link></p>
+          </div>
+'''
+
+    # ②積み残し（2026-07-04）: グレンファークラス 25年⇄105 の意図分離導線
+    # （「年代指定なし」クエリの glenfarclas-25 誤着地を 105 ページへ振り分け。逆向きも明示）
+    INTENT_SPLIT = {
+        "glenfarclas-25": ("glenfarclas-105", "年代表記のないグレンファークラス（「105」「年代指定なし」と呼ばれるカスクストレングスのボトル）をお探しの方はこちら", "グレンファークラス105（年代指定なし）の買取相場ガイド"),
+        "glenfarclas-105": ("glenfarclas-25", "「25年」など熟成年数の表記があるグレンファークラスをお探しの方はこちら", "グレンファークラス25年の買取相場ガイド"),
+    }
+    intent_split_block = ""
+    if slug_base in INTENT_SPLIT:
+        _tgt, _lead, _lbl = INTENT_SPLIT[slug_base]
+        intent_split_block = f'''
+          <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
+            <p className="text-sm text-ink">🔀 {_lead} → <Link href="/articles/{_tgt}-kaitori/" className="text-amber-dark underline font-bold">{_lbl}</Link></p>
+          </div>
+'''
 
     faqs = [
         (f"{name}の市場相場はいくらですか？",
@@ -458,6 +484,7 @@ export default function {component_name}() {{
           <p>{name}は{cat_label}を代表する銘柄の1つで、{origin}が手がける{age_label}のボトルです。{description}。</p>
 
           {nv_note}
+{intent_split_block}
 
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。{name}は希少度<strong>{rarity_label}</strong>クラスに位置し、{rarity_detailed}</p>
 
@@ -633,7 +660,7 @@ export default function {component_name}() {{
             <li><strong>瓶の形状と底面刻印</strong> — 正規品は底面にロット番号・製造所コードあり。贋作は刻印なし or 不自然</li>
             <li><strong>購入経路の信頼性</strong> — 正規流通店・大手買取業者・海外オークション経由は信頼度高。個人間取引（メルカリ・ヤフオク）は要注意</li>
           </ol>
-
+{precheck_callout}
           <p>怪しいと思ったら、お酒買取専門店（JOYLAB等）で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
 
           <h2 id="partners">10. おすすめ買取業者4社の詳細レビュー</h2>

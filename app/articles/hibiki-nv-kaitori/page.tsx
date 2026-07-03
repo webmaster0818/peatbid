@@ -70,6 +70,7 @@ export default function HibikiNvKaitoriPage() {
 
           <p>なお、響ジャパニーズハーモニーはラベルに熟成年数の表記がないボトルで、オークションや買取店では「<strong>響ジャパニーズハーモニー 年代指定なし</strong>」「<strong>響ジャパニーズハーモニー NV（ノンヴィンテージ）</strong>」とも表記されます。いずれも本ページの相場が目安になります。</p>
 
+
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。響ジャパニーズハーモニーは希少度<strong>コモン</strong>クラスに位置し、現行品として安定流通しているが、銘柄によってはプレミア化の兆しあり。市場価値は中位だが、コレクター入門品として安定需要を持つ。</p>
 
           <div className="table-wrapper">

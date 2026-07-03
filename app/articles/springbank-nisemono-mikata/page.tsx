@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: 'スプリングバンクの偽物・贋作の見分け方【2026年6月最新】本物との違い5点と各ボトル別の真贋・買取ガイド',
+  title: 'スプリングバンクの偽物・贋作の見分け方【2026年7月最新】本物との違い5点と各ボトル別の真贋・買取ガイド',
   description: 'スプリングバンクの偽物・贋作を見分ける5つのチェック（ラベル・キャップ・液面・刻印・購入経路）と、本物と確認できた後の売却手順を解説。スプリングバンク12年・18年・25年・NV等、各ボトル別の真贋＆買取相場ガイドへのハブ。',
 };
 
@@ -11,7 +11,7 @@ function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'スプリングバンクの偽物はどのくらい出回っていますか？', "acceptedAnswer": { "@type": "Answer", "text": 'ジャパニーズウイスキー・人気スコッチのブームで二次流通価格が高騰した銘柄では、海外を中心に贋作の流通が確認されています。スプリングバンクは人気・高額帯のため、特に個人間取引（フリマ・オークションの無名出品）では注意が必要です。正規流通・信頼できるオークション経由であればリスクは大きく下がります。' } }, { "@type": "Question", "name": 'スプリングバンクが本物か確認する一番確実な方法は？', "acceptedAnswer": { "@type": "Answer", "text": '最終的には専門家の確認が確実です。(1)お酒買取専門店（JOYLAB等）での無料鑑定査定、(2)メーカー公式お客様窓口へロット番号を伝えての確認、の2つが有効です。自分でできる一次チェックは、ラベル印刷・キャップ／封緘・液色と液面・底面刻印・購入経路の5点です（本記事で解説）。' } }, { "@type": "Question", "name": 'スプリングバンクを売る前に真贋の確認は必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、推奨します。万一偽物だと買取は拒否され、偽物と知りながら売却すると詐欺に問われる可能性もあります。少しでも不審な点があれば、売却前に専門店の無料鑑定で確認してから査定に出すのが安全です。' } }, { "@type": "Question", "name": 'スプリングバンクが偽物だった場合はどうすればいいですか？', "acceptedAnswer": { "@type": "Answer", "text": '(1)ボトル全体・ラベル・キャップ・底面刻印を高解像度で撮影して記録、(2)購入元へ返品・返金を交渉、(3)詐欺の疑いがあれば最寄りの警察署に相談、の順で対処してください。贋作と判明したボトルは売却せず、誠実に対応することが重要です。' } }, { "@type": "Question", "name": '正規ルートで買えばスプリングバンクの偽物の心配はないですか？', "acceptedAnswer": { "@type": "Answer", "text": '正規流通店・百貨店・メーカー直販で購入したものは、贋作リスクは極めて低いと考えてよいです。リスクが高いのは、相場より極端に安い出品、無名の個人・海外通販、SNS/LINEでの直接取引などです。「他では手に入らない」と煽る相手も典型的な注意対象です。' } }] }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": 'スプリングバンクの偽物・贋作の見分け方', "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Organization", "name": "PeatBid編集部"}, "publisher": {"@type": "Organization", "name": "PeatBid"}}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": 'スプリングバンクの偽物・贋作の見分け方', "datePublished": "2026-06-28", "dateModified": "2026-07-04", "author": {"@type": "Organization", "name": "PeatBid編集部"}, "publisher": {"@type": "Organization", "name": "PeatBid"}}) }} />
     </>
   );
 }
@@ -38,7 +38,7 @@ export default function SpringbankNisemonoMikataPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">スプリングバンク（全種）の偽物・贋作の見分け方</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-28 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-04 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <p>スプリングバンクは人気・高額帯のため、二次流通で贋作リスクが意識される銘柄です。本記事では、スプリングバンクに共通する<strong>真贋チェック5点（ラベル・キャップ／封緘・液色／液面・底面刻印・購入経路）</strong>と、本物と確認できた後の売却手順を解説します。各ボトル（12年・18年・25年・NV等）の個別の見分け方・買取相場は、下記ハブから確認できます。なお<strong>真贋の最終判断は専門店の鑑定・メーカー確認</strong>をご利用ください（本記事は一般的な手引きです）。</p>
 
@@ -92,14 +92,24 @@ export default function SpringbankNisemonoMikataPage() {
           <h2 id="s6">7. 不審なボトルを見つけた場合の対処法</h2>
           <p>自身が保有するスプリングバンクや購入検討中のボトルが不審な場合は、(1)ボトル全体・ラベル各角度・キャップ・底面刻印を高解像度で撮影、(2)お酒買取専門店（JOYLAB等）で無料鑑定査定、(3)メーカー・正規輸入元の公式窓口へロット番号を伝えて確認、(4)購入経路を遡り返品交渉、(5)詐欺の疑いがあれば警察へ相談、の順で対処してください。贋作と知りながらの売却は詐欺罪に該当し得るため、誠実な対処が重要です。</p>
 
-          {/* 換金導線 */}
-          <div className="bg-burgundy/5 border border-burgundy/30 rounded-xl p-5 my-8 not-prose">
+          {/* 換金導線（真贋→買取の送客回路・打ち手③） */}
+          <div className="bg-burgundy/5 border-2 border-burgundy/30 rounded-xl p-6 my-8 not-prose">
             <p className="text-xs text-burgundy font-bold tracking-wider mb-2">本物と確認できたら｜次のステップ</p>
-            <ol className="space-y-2 text-sm">
-              <li><span className="font-bold text-burgundy">STEP 1</span>　まず相場を知る → <Link href="/articles/springbank-15-kaitori/" className="text-amber-dark underline">スプリングバンクの買取相場ガイド</Link>（上のハブから各ボトルの相場も確認できます）</li>
-              <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツを押さえる → <Link href="/articles/whisky-souba-kimarikata/" className="text-amber-dark underline">買取相場の決まり方（査定6要素）</Link></li>
+            <h3 className="font-display text-xl font-semibold text-ink mb-3">✅ 本物なら今いくら？ スプリングバンクのボトル別 実勢中央値</h3>
+            <p className="text-sm text-warm-gray leading-relaxed mb-3">ヤフオク実落札（過去180日・IQR外れ値除去）の中央値・毎週月曜に自動更新。落札サンプルが少ないボトルは金額を掲載していません。買取額を保証するものではありません。</p>
+            <ul className="space-y-2 text-sm mb-4 list-none pl-0">
+              <li className="flex flex-wrap items-baseline gap-x-2"><span className="font-bold text-ink">スプリングバンク15年</span><span className="font-display text-lg font-semibold text-amber-dark">¥35,000</span><span className="text-[11px] text-warm-gray">（n=96件）</span><Link href="/articles/springbank-15-kaitori/" className="shingan-to-kaitori text-amber-dark underline text-xs">相場ページで詳細を見る →</Link></li>
+              <li className="flex flex-wrap items-baseline gap-x-2"><span className="font-bold text-ink">スプリングバンク21年</span><span className="font-display text-lg font-semibold text-amber-dark">¥97,074</span><span className="text-[11px] text-warm-gray">（n=72件）</span><Link href="/articles/springbank-21-kaitori/" className="shingan-to-kaitori text-amber-dark underline text-xs">相場ページで詳細を見る →</Link></li>
+            </ul>
+            <ol className="space-y-2 text-sm mb-4">
+              <li><span className="font-bold text-burgundy">STEP 1</span>　相場の詳細を見る → 上のボトル別リンク、または<Link href="/articles/springbank-15-kaitori/" className="shingan-to-kaitori text-amber-dark underline">スプリングバンクの買取相場ガイド</Link></li>
+              <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツを押さえる → <Link href="/articles/whisky-souba-kimarikata/" className="shingan-to-kaitori text-amber-dark underline">買取相場の決まり方（査定6要素）</Link></li>
               <li><span className="font-bold text-burgundy">STEP 3</span>　複数業者で無料一括査定 → 同じボトルでも業者で数万〜数十万円の差。相見積もりで最高値を引き出す</li>
             </ol>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で無料一括査定</a>
+              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定（真贋鑑定も無料）</a>
+            </div>
           </div>
 
           <h2 id="faq">よくある質問</h2>

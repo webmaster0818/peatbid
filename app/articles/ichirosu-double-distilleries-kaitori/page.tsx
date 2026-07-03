@@ -70,6 +70,7 @@ export default function IchirosuDoubleDistilleriesKaitoriPage() {
 
           
 
+
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。イチローズモルト ダブルディスティラリーズは希少度<strong>ハイ</strong>クラスに位置し、希少性と国際的評価により、二次流通市場で高値が定着している銘柄帯。コレクター・投資需要が支え、長期保有での価値増大が期待できる。</p>
 
           <div className="table-wrapper">
@@ -273,6 +274,10 @@ export default function IchirosuDoubleDistilleriesKaitoriPage() {
             <li><strong>購入経路の信頼性</strong> — 正規流通店・大手買取業者・海外オークション経由は信頼度高。個人間取引（メルカリ・ヤフオク）は要注意</li>
           </ol>
 
+          <div className="bg-burgundy/5 border border-burgundy/30 rounded-xl p-4 my-5 not-prose">
+            <p className="text-sm text-ink">🔍 売却前の真贋確認はこちら → <Link href="/articles/ichirosu-double-distilleries-nisemono-mikata/" className="kaitori-to-shingan text-amber-dark underline font-bold">イチローズモルト ダブルディスティラリーズを売る前に｜本物チェックと今の買取相場（3分チェック）</Link></p>
+          </div>
+
           <p>怪しいと思ったら、お酒買取専門店（JOYLAB等）で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
 
           <h2 id="partners">10. おすすめ買取業者4社の詳細レビュー</h2>
@@ -405,7 +410,7 @@ export default function IchirosuDoubleDistilleriesKaitoriPage() {
           <ul>
               <li><Link href="/articles/ichirosu-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">イチローズモルト（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/ichirosu-double-distilleries-takaku-uru/" className="text-amber-dark hover:underline">イチローズモルト ダブルディスティラリーズの高く売る方法</Link></li>
-              <li><Link href="/articles/ichirosu-double-distilleries-nisemono-mikata/" className="text-amber-dark hover:underline">イチローズモルト ダブルディスティラリーズの偽物の見分け方</Link></li>
+              <li><Link href="/articles/ichirosu-double-distilleries-nisemono-mikata/" className="text-amber-dark hover:underline">イチローズモルト ダブルディスティラリーズの売る前チェック（真贋と相場）</Link></li>
               <li><Link href="/articles/ichirosu-double-distilleries-ranking/" className="text-amber-dark hover:underline">イチローズモルト ダブルディスティラリーズの買取業者ランキング</Link></li>
               <li><Link href="/articles/ichirosu-double-distilleries-rekishi/" className="text-amber-dark hover:underline">イチローズモルト ダブルディスティラリーズの歴史と特徴</Link></li>
               <li><Link href="/articles/ichirosu-double-distilleries-kihaku/" className="text-amber-dark hover:underline">イチローズモルト ダブルディスティラリーズの希少性・投資価値</Link></li>

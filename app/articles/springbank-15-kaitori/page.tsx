@@ -70,6 +70,7 @@ export default function Springbank15KaitoriPage() {
 
           
 
+
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。スプリングバンク15年は希少度<strong>ミッド</strong>クラスに位置し、終売・休売後の供給制限により価格上昇基調にある銘柄帯。市場流通量が徐々に減少し、二次流通価格は年単位で15〜30%上昇する傾向。</p>
 
           <div className="table-wrapper">
@@ -273,6 +274,10 @@ export default function Springbank15KaitoriPage() {
             <li><strong>購入経路の信頼性</strong> — 正規流通店・大手買取業者・海外オークション経由は信頼度高。個人間取引（メルカリ・ヤフオク）は要注意</li>
           </ol>
 
+          <div className="bg-burgundy/5 border border-burgundy/30 rounded-xl p-4 my-5 not-prose">
+            <p className="text-sm text-ink">🔍 売却前の真贋確認はこちら → <Link href="/articles/springbank-15-nisemono-mikata/" className="kaitori-to-shingan text-amber-dark underline font-bold">スプリングバンク15年を売る前に｜本物チェックと今の買取相場（3分チェック）</Link></p>
+          </div>
+
           <p>怪しいと思ったら、お酒買取専門店（JOYLAB等）で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
 
           <h2 id="partners">10. おすすめ買取業者4社の詳細レビュー</h2>
@@ -405,7 +410,7 @@ export default function Springbank15KaitoriPage() {
           <ul>
               <li><Link href="/articles/springbank-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">スプリングバンク（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/springbank-15-takaku-uru/" className="text-amber-dark hover:underline">スプリングバンク15年の高く売る方法</Link></li>
-              <li><Link href="/articles/springbank-15-nisemono-mikata/" className="text-amber-dark hover:underline">スプリングバンク15年の偽物の見分け方</Link></li>
+              <li><Link href="/articles/springbank-15-nisemono-mikata/" className="text-amber-dark hover:underline">スプリングバンク15年の売る前チェック（真贋と相場）</Link></li>
               <li><Link href="/articles/springbank-15-ranking/" className="text-amber-dark hover:underline">スプリングバンク15年の買取業者ランキング</Link></li>
               <li><Link href="/articles/springbank-15-rekishi/" className="text-amber-dark hover:underline">スプリングバンク15年の歴史と特徴</Link></li>
               <li><Link href="/articles/springbank-15-kihaku/" className="text-amber-dark hover:underline">スプリングバンク15年の希少性・投資価値</Link></li>

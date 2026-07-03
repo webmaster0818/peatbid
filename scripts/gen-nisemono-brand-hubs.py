@@ -2,12 +2,19 @@
 """基幹銘柄の総合・真贋ハブ（山崎/響/白州/マッカラン）。
 汎用「○○ 偽物 見分け方」クエリ向けに、ブランド全体の真贋ガイド＋各ボトル別偽物/買取ページへのハブ＋換金導線。
 事実ベース：断定鑑定はせず一般的な真贋チェック＋専門査定/メーカー確認へ誘導。"""
+import datetime
 import os
 from pathlib import Path
 
+# 打ち手③（2026-07-04）: 真贋→買取の送客回路。実勢中央値は price-history latest（週次更新）
+from opportunity_band import band_latest
+
 ROOT = Path(__file__).resolve().parent.parent
 ART = ROOT / "app" / "articles"
-MONTH = "【2026年6月最新】"
+# 週次cron（weekly-yahoo-update.sh）で再生成されるため、生成時点の年月・日付が鮮度になる
+_NOW = datetime.date.today()
+MONTH = f"【{_NOW.year}年{_NOW.month}月最新】"
+TODAY = _NOW.isoformat()
 
 # base, name_ja, hero(既存variant heroを流用), variants=[(slug, label)]
 BRANDS = [
@@ -98,10 +105,23 @@ def build(base, name, hero, variants):
         for vs, lbl in variants
     )
     first_kaitori = variants[0][0] + "-kaitori"
+    # 打ち手③: CVブロック用のボトル別実勢中央値（insufficient/データ無しは金額を出さない＝捏造禁止）
+    price_items = []
+    for vs, lbl in variants:
+        lm = band_latest(vs)
+        if lm:
+            price_items.append(
+                f'              <li className="flex flex-wrap items-baseline gap-x-2"><span className="font-bold text-ink">{lbl}</span><span className="font-display text-lg font-semibold text-amber-dark">¥{lm[0]:,}</span><span className="text-[11px] text-warm-gray">（n={lm[1]}件）</span><Link href="/articles/{vs}-kaitori/" className="shingan-to-kaitori text-amber-dark underline text-xs">相場ページで詳細を見る →</Link></li>'
+            )
+        else:
+            price_items.append(
+                f'              <li className="flex flex-wrap items-baseline gap-x-2"><span className="font-bold text-ink">{lbl}</span><span className="text-xs text-warm-gray">実勢データ蓄積中（金額は掲載しません）</span><Link href="/articles/{vs}-kaitori/" className="shingan-to-kaitori text-amber-dark underline text-xs">相場ページへ →</Link></li>'
+            )
+    price_list = "\n".join(price_items)
     faq_json = '{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [' + ", ".join(
         '{ "@type": "Question", "name": ' + repr(q) + ', "acceptedAnswer": { "@type": "Answer", "text": ' + repr(a) + " } }"
         for q, a in FAQS(name)) + "] }"
-    art_json = '{"@context": "https://schema.org", "@type": "Article", "headline": ' + repr(f"{name}の偽物・贋作の見分け方") + ', "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Organization", "name": "PeatBid編集部"}, "publisher": {"@type": "Organization", "name": "PeatBid"}}'
+    art_json = '{"@context": "https://schema.org", "@type": "Article", "headline": ' + repr(f"{name}の偽物・贋作の見分け方") + ', "datePublished": "2026-06-28", "dateModified": "' + TODAY + '", "author": {"@type": "Organization", "name": "PeatBid編集部"}, "publisher": {"@type": "Organization", "name": "PeatBid"}}'
     faq_react = "\n".join(
         f'''          <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer">{q}</summary><p className="mt-3 text-sm">{a}</p></details>'''
         for q, a in FAQS(name))
@@ -145,7 +165,7 @@ export default function {comp}() {{
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{name}（全種）の偽物・贋作の見分け方</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-28 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: {TODAY} / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <p>{name}は人気・高額帯のため、二次流通で贋作リスクが意識される銘柄です。本記事では、{name}に共通する<strong>真贋チェック5点（ラベル・キャップ／封緘・液色／液面・底面刻印・購入経路）</strong>と、本物と確認できた後の売却手順を解説します。各ボトル（12年・18年・25年・NV等）の個別の見分け方・買取相場は、下記ハブから確認できます。なお<strong>真贋の最終判断は専門店の鑑定・メーカー確認</strong>をご利用ください（本記事は一般的な手引きです）。</p>
 
@@ -167,14 +187,23 @@ export default function {comp}() {{
 
 {body}
 
-          {{/* 換金導線 */}}
-          <div className="bg-burgundy/5 border border-burgundy/30 rounded-xl p-5 my-8 not-prose">
+          {{/* 換金導線（真贋→買取の送客回路・打ち手③） */}}
+          <div className="bg-burgundy/5 border-2 border-burgundy/30 rounded-xl p-6 my-8 not-prose">
             <p className="text-xs text-burgundy font-bold tracking-wider mb-2">本物と確認できたら｜次のステップ</p>
-            <ol className="space-y-2 text-sm">
-              <li><span className="font-bold text-burgundy">STEP 1</span>　まず相場を知る → <Link href="/articles/{first_kaitori}/" className="text-amber-dark underline">{name}の買取相場ガイド</Link>（上のハブから各ボトルの相場も確認できます）</li>
-              <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツを押さえる → <Link href="/articles/whisky-souba-kimarikata/" className="text-amber-dark underline">買取相場の決まり方（査定6要素）</Link></li>
+            <h3 className="font-display text-xl font-semibold text-ink mb-3">✅ 本物なら今いくら？ {name}のボトル別 実勢中央値</h3>
+            <p className="text-sm text-warm-gray leading-relaxed mb-3">ヤフオク実落札（過去180日・IQR外れ値除去）の中央値・毎週月曜に自動更新。落札サンプルが少ないボトルは金額を掲載していません。買取額を保証するものではありません。</p>
+            <ul className="space-y-2 text-sm mb-4 list-none pl-0">
+{price_list}
+            </ul>
+            <ol className="space-y-2 text-sm mb-4">
+              <li><span className="font-bold text-burgundy">STEP 1</span>　相場の詳細を見る → 上のボトル別リンク、または<Link href="/articles/{first_kaitori}/" className="shingan-to-kaitori text-amber-dark underline">{name}の買取相場ガイド</Link></li>
+              <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツを押さえる → <Link href="/articles/whisky-souba-kimarikata/" className="shingan-to-kaitori text-amber-dark underline">買取相場の決まり方（査定6要素）</Link></li>
               <li><span className="font-bold text-burgundy">STEP 3</span>　複数業者で無料一括査定 → 同じボトルでも業者で数万〜数十万円の差。相見積もりで最高値を引き出す</li>
             </ol>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で無料一括査定</a>
+              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定（真贋鑑定も無料）</a>
+            </div>
           </div>
 
           <h2 id="faq">よくある質問</h2>

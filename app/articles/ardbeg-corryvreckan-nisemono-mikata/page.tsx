@@ -115,10 +115,10 @@ export default function ArdbegCorryvreckanNisemonoMikataPage() {
           <div className="bg-burgundy/5 border-2 border-burgundy/30 rounded-xl p-6 my-8 not-prose">
             <p className="text-xs text-burgundy font-bold tracking-wider mb-2">本物と確認できたら｜次のステップ</p>
             <h3 className="font-display text-xl font-semibold text-ink mb-3 !mt-0 !border-none">あなたのアードベッグ コリーヴレッカン、いま売るといくら？</h3>
-            <p className="text-sm text-warm-gray leading-relaxed mb-4">真贋に問題がなさそうなら、価値が変わる前に今の相場を確かめておきましょう。アードベッグ コリーヴレッカンの実勢相場（中古中央値）は<strong className="text-ink">8,015円</strong>が目安です（当サイトのYahoo!オークション実勢集計・保証額ではありません）。次の3ステップで、納得して高く売れます。</p>
+            <p className="text-sm text-warm-gray leading-relaxed mb-4">✅ 本物と確認できたら：アードベッグ コリーヴレッカンの現在の実勢中央値は<strong className="text-ink">¥8,015</strong>（ヤフオク実落札 n=76件・毎週月曜更新・IQR外れ値除去後）です。保証額ではありませんが、売却判断の基準になります。価値が変わる前に、次の3ステップで納得して高く売りましょう。</p>
             <ol className="space-y-2 text-sm text-ink mb-4 list-none pl-0">
-              <li><span className="font-bold text-burgundy">STEP 1</span>　相場を知る → <Link href="/articles/ardbeg-corryvreckan-kaitori/" className="text-amber-dark underline">アードベッグ コリーヴレッカンの買取相場 完全ガイド</Link></li>
-              <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツ → <Link href="/articles/ardbeg-corryvreckan-takaku-uru/" className="text-amber-dark underline">査定額を最大化する7つのコツ</Link></li>
+              <li><span className="font-bold text-burgundy">STEP 1</span>　相場の詳細を見る → <Link href="/articles/ardbeg-corryvreckan-kaitori/" className="shingan-to-kaitori text-amber-dark underline">アードベッグ コリーヴレッカンの買取相場 完全ガイド</Link></li>
+              <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツ → <Link href="/articles/ardbeg-corryvreckan-takaku-uru/" className="shingan-to-kaitori text-amber-dark underline">査定額を最大化する7つのコツ</Link></li>
               <li><span className="font-bold text-burgundy">STEP 3</span>　複数業者で比較して申し込む（下の無料一括査定）</li>
             </ol>
             <p className="text-xs text-warm-gray">※相場は変動します。複数業者の比較で、その時点の最高値を引き出すのが確実です。査定は無料・キャンセル無料。</p>

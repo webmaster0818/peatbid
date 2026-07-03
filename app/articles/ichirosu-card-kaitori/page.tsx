@@ -70,6 +70,7 @@ export default function IchirosuCardKaitoriPage() {
 
           
 
+
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。イチローズモルト カードシリーズは希少度<strong>ウルトラレア</strong>クラスに位置し、市場流通量が極小、もしくは閉鎖蒸溜所のボトル。1本数百万円〜数千万円の取引が発生し、世界中のオークションで注目される伝説級の銘柄。</p>
 
           <div className="table-wrapper">

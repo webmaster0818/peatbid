@@ -70,6 +70,7 @@ export default function YamazakiNvKaitoriPage() {
 
           <p>なお、山崎ノンエイジはラベルに熟成年数の表記がないボトルで、オークションや買取店では「<strong>山崎 年代指定なし</strong>」「<strong>山崎 NV（ノンヴィンテージ）</strong>」とも表記されます。いずれも本ページの相場が目安になります。</p>
 
+
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。山崎ノンエイジは希少度<strong>コモン</strong>クラスに位置し、現行品として安定流通しているが、銘柄によってはプレミア化の兆しあり。市場価値は中位だが、コレクター入門品として安定需要を持つ。</p>
 
           <div className="table-wrapper">
@@ -273,6 +274,10 @@ export default function YamazakiNvKaitoriPage() {
             <li><strong>購入経路の信頼性</strong> — 正規流通店・大手買取業者・海外オークション経由は信頼度高。個人間取引（メルカリ・ヤフオク）は要注意</li>
           </ol>
 
+          <div className="bg-burgundy/5 border border-burgundy/30 rounded-xl p-4 my-5 not-prose">
+            <p className="text-sm text-ink">🔍 売却前の真贋確認はこちら → <Link href="/articles/yamazaki-nv-nisemono-mikata/" className="kaitori-to-shingan text-amber-dark underline font-bold">山崎ノンエイジを売る前に｜本物チェックと今の買取相場（3分チェック）</Link></p>
+          </div>
+
           <p>怪しいと思ったら、お酒買取専門店（JOYLAB等）で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
 
           <h2 id="partners">10. おすすめ買取業者4社の詳細レビュー</h2>
@@ -405,7 +410,7 @@ export default function YamazakiNvKaitoriPage() {
           <ul>
               <li><Link href="/articles/yamazaki-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">山崎（全種）の偽物の見分け方・真贋ハブ</Link></li>
               <li><Link href="/articles/yamazaki-nv-takaku-uru/" className="text-amber-dark hover:underline">山崎ノンエイジの高く売る方法</Link></li>
-              <li><Link href="/articles/yamazaki-nv-nisemono-mikata/" className="text-amber-dark hover:underline">山崎ノンエイジの偽物の見分け方</Link></li>
+              <li><Link href="/articles/yamazaki-nv-nisemono-mikata/" className="text-amber-dark hover:underline">山崎ノンエイジの売る前チェック（真贋と相場）</Link></li>
               <li><Link href="/articles/yamazaki-nv-ranking/" className="text-amber-dark hover:underline">山崎ノンエイジの買取業者ランキング</Link></li>
               <li><Link href="/articles/yamazaki-nv-rekishi/" className="text-amber-dark hover:underline">山崎ノンエイジの歴史と特徴</Link></li>
               <li><Link href="/articles/yamazaki-nv-kihaku/" className="text-amber-dark hover:underline">山崎ノンエイジの希少性・投資価値</Link></li>

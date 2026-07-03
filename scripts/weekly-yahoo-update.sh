@@ -114,6 +114,9 @@ echo "[$(date '+%H:%M:%S')] 📝 [3/7] brand-kaitori ページ再生成（v3）"
 echo "[$(date '+%H:%M:%S')] 📝 [4/7] angle ページ再生成（v3）"
 /opt/homebrew/bin/python3 scripts/generate-angle-pages-v3.py
 
+echo "[$(date '+%H:%M:%S')] 📝 [4.2/7] 真贋ハブ再生成（CVブロックの実勢中央値を週次更新）"
+/opt/homebrew/bin/python3 scripts/gen-nisemono-brand-hubs.py
+
 echo "[$(date '+%H:%M:%S')] 📈 [4.5/7] 相場ランキング・データ再生成（B：更新型コンテンツ）"
 /opt/homebrew/bin/python3 scripts/generate-souba-ranking.py
 /opt/homebrew/bin/python3 scripts/generate-souba-index.py

@@ -70,6 +70,7 @@ export default function Hibiki30KaitoriPage() {
 
           
 
+
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。響30年は希少度<strong>ウルトラ</strong>クラスに位置し、極めて希少な長期熟成銘柄。Sotheby's・Bonhamsなどの海外オークションでの落札データが査定の基準となり、富裕層・コレクターの主要ターゲット。</p>
 
           <div className="table-wrapper">

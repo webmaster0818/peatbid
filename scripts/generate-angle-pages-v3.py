@@ -12,6 +12,7 @@ from pathlib import Path
 from opportunity_band import (
     BAND_ANGLE_SLUGS,
     BAND_MONTH,
+    PRECHECK_SLUGS,
     UPDATE_NOTE,
     band_latest,
     sparkline_block,
@@ -235,14 +236,39 @@ def render_takaku_uru(b):
 def render_nisemono_mikata(b):
     name = b["name_ja"]
     price = int(b["reference_price_jpy_2026_05"])
+    # フュージョン打ち手③: 機会バンド×偽造根拠実在の銘柄は「買取前チェック」構成に強化
+    # （新規URLは作らず既存偽物ページを強化＝カニバリ回避。週次再生成で恒久維持）
+    is_precheck = b["slug"] in PRECHECK_SLUGS
+    precheck_sections = [
+        ("売る前の3分チェック（ラベル・封緘・液面）",
+         f"{name}を査定に出す前に、次の3点だけでも確認しておくと売却がスムーズです（各項目の詳しい見方は後述のチェック1〜5で解説します）。"
+         f"\\n\\n1. **ラベル** — 文字のにじみ・かすれ・色ズレ・フォントの違和感がないか。メーカー公式画像と細部まで見比べる"
+         f"\\n2. **キャップ・封緘** — キャップの締まり具合、封緘の隙間や不自然さ、（採用銘柄では）ホログラムの立体感に違和感がないか"
+         f"\\n3. **液色・液面** — 色ムラ・濁り・沈殿物がなく、液面が自然な目減りを超えて極端に下がっていないか"
+         f"\\n\\nあわせて、購入時のレシート・保証書・購入経路のメモがあれば査定時に提示できるよう準備しておきましょう。購入経路の正当性を示せると査定がスムーズです。"
+         f"万一不審な点があれば、売却前にお酒買取専門店（JOYLAB等）の無料鑑定やメーカー・正規輸入元の公式窓口での確認が安全です。"
+         f"なお本記事は一般的な確認の手引きであり、断定的な真贋判定は行いません。最終判断は専門家にご確認ください。"),
+    ]
+    if is_precheck:
+        head = {
+            "title": f"{name}を売る前に｜本物チェックと今の買取相場{BAND_MONTH}",
+            "description": f"{name}を売る前の3分チェック（ラベル・封緘・液面）と偽物・贋作を見分ける5つのポイント、そして今の買取相場（ヤフオク実落札中央値・毎週更新）をセットで解説。本物と確認できたら買取相場ページ・無料一括査定へ。",
+            "h1": f"{name}を売る前に — 本物チェックと今の買取相場",
+            "toc_label": "売る前チェック",
+            "intro": f"{name}を売る前に、3分でできる本物チェックを済ませておきましょう。万一偽物だと買取は拒否され、偽物と知りながらの売却は詐欺に問われる可能性もあります。本記事では、査定前に確認すべきポイント（ラベル・封緘・液面など5点）と、本物と確認できた後の売却手順（今の実勢相場→無料一括査定）を解説します。",
+        }
+    else:
+        head = {
+            "title": f"{name}の偽物・贋作の見分け方{MONTH_TAG}本物との違い5点（ラベル・キャップ・液面）と売却前チェック",
+            "description": f"{name}の偽物・贋作を見分ける具体的なポイントを徹底解説。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。",
+            "h1": f"{name}の偽物・贋作の見分け方",
+            "toc_label": "偽物・贋作の見分け方",
+            "intro": f"{name}のような高額ウイスキーは、贋作リスクが高まる銘柄です。特に未開封・箱付きで市場相場前後の流通価格を持つ銘柄は、海外を中心に巧妙な贋作が出回ることもあります。本記事では、{name}の偽物を見抜く5つのチェックポイントと、不審なボトルへの対処法を解説します。",
+        }
     return {
         "slug_suffix": "nisemono-mikata",
-        "title": f"{name}の偽物・贋作の見分け方{MONTH_TAG}本物との違い5点（ラベル・キャップ・液面）と売却前チェック",
-        "description": f"{name}の偽物・贋作を見分ける具体的なポイントを徹底解説。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。",
-        "h1": f"{name}の偽物・贋作の見分け方",
-        "toc_label": "偽物・贋作の見分け方",
-        "intro": f"{name}のような高額ウイスキーは、贋作リスクが高まる銘柄です。特に未開封・箱付きで市場相場前後の流通価格を持つ銘柄は、海外を中心に巧妙な贋作が出回ることもあります。本記事では、{name}の偽物を見抜く5つのチェックポイントと、不審なボトルへの対処法を解説します。",
-        "sections": [
+        **head,
+        "sections": (precheck_sections if is_precheck else []) + [
             ("贋作市場の実情",
              f"ジャパニーズウイスキーブーム以降、海外の二次流通市場では**贋作ボトルの流通が確認**されています。特に山崎・響・白州・軽井沢・羽生など希少銘柄では、巧妙に作られた贋作が個人間取引で出回ることがあります。\\n\\n中国・東南アジアの一部地域では、本物の空き瓶に偽の液体を詰めて販売する手口も報告されています。高額帯の銘柄は、5チェックを徹底することが必須です。"),
             ("チェック1: ラベルの印刷品質",
@@ -665,6 +691,19 @@ def render_page(b, data):
             f"直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は{fmt(band_lm[0])}です（サンプル数 n={band_lm[1]}件・毎週月曜に自動更新）。実際の買取査定額は各業者の在庫状況・状態評価により変動するため、複数業者の相見積もりで実額をご確認ください。",
         ))
 
+    # 買取前チェック（打ち手③）: 中央値実数Q&A＋売る前チェックQ&Aを先頭に追加（FAQPage schemaにも反映）
+    if angle_suffix == "nisemono-mikata" and b["slug"] in PRECHECK_SLUGS:
+        _pc_lm = band_latest(b["slug"])
+        if _pc_lm:
+            all_faqs.insert(0, (
+                f"本物の{name}は今いくらで売れますか？",
+                f"直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は{fmt(_pc_lm[0])}です（サンプル数 n={_pc_lm[1]}件・毎週月曜に自動更新）。買取査定額は各業者の在庫状況・状態評価により変動するため、買取相場ページで詳細を確認のうえ、複数業者の相見積もりで実額をご確認ください。",
+            ))
+        all_faqs.insert(1 if _pc_lm else 0, (
+            f"{name}を売る前に真贋チェックは必要ですか？",
+            "はい、推奨します。万一偽物だと買取は拒否され、偽物と知りながら売却すると詐欺に問われる可能性もあります。本記事の「売る前の3分チェック」（ラベル・封緘・液面）を確認し、少しでも不審な点があれば、売却前にお酒買取専門店の無料鑑定やメーカー公式窓口で確認してから査定に出すのが安全です。",
+        ))
+
     faq_schema = "{" + '"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [' + ", ".join(
         '{ "@type": "Question", "name": ' + repr(q) + ', "acceptedAnswer": { "@type": "Answer", "text": ' + repr(a) + " } }"
         for q, a in all_faqs
@@ -675,9 +714,10 @@ def render_page(b, data):
     )
 
     # Related angles (excluding current)
+    _nise_label = "売る前チェック（真贋と相場）" if b["slug"] in PRECHECK_SLUGS else "偽物の見分け方"
     related_angles = [
         ("takaku-uru", "高く売る方法"),
-        ("nisemono-mikata", "偽物の見分け方"),
+        ("nisemono-mikata", _nise_label),
         ("ranking", "買取業者ランキング"),
         ("rekishi", "歴史と特徴"),
         ("kihaku", "希少性・投資価値"),
@@ -706,17 +746,34 @@ def render_page(b, data):
     market_label = fmt(yahoo_median) if sufficient else "市場相場データ蓄積中"
     market_data_sentence = liquidity_sentence(b)
 
-    # P0-3: 偽物→買取の換金導線（本物と確認できた高インテント売り手を相場→高く売る→業者比較へ橋渡し）
+    # P0-3改（フュージョン打ち手③）: 偽物→買取の換金導線（真贋→買取の送客回路）。
+    # 実数は data/price-history/{slug}.json の latest.median_jpy（週次自動更新・insufficientは出さない）。
+    # 内部リンクは canonical を壊さないパス直リンク＋class "shingan-to-kaitori"
+    # （GA4測定ID設定後に真贋→買取遷移のクリック計測を配線するためのフック）。
     bridge_module = ""
     if angle_suffix == "nisemono-mikata":
+        _lm = band_latest(b["slug"])
+        _is_precheck = b["slug"] in PRECHECK_SLUGS
+        _bridge_h3 = f"本物なら今いくら？ {name}の実勢相場" if _is_precheck else f"あなたの{name}、いま売るといくら？"
+        if _lm:
+            _price_line = (
+                f'✅ 本物と確認できたら：{name}の現在の実勢中央値は<strong className="text-ink">¥{_lm[0]:,}</strong>'
+                f'（ヤフオク実落札 n={_lm[1]}件・毎週月曜更新・IQR外れ値除去後）です。'
+                f'保証額ではありませんが、売却判断の基準になります。'
+            )
+        else:
+            _price_line = (
+                f'✅ 本物と確認できたら：{name}は落札サンプルが少なく実勢中央値を掲載していません（架空の金額は出しません）。'
+                f'まずは相場ページで最新の状況をご確認ください。'
+            )
         bridge_module = f'''
           <div className="bg-burgundy/5 border-2 border-burgundy/30 rounded-xl p-6 my-8 not-prose">
             <p className="text-xs text-burgundy font-bold tracking-wider mb-2">本物と確認できたら｜次のステップ</p>
-            <h3 className="font-display text-xl font-semibold text-ink mb-3 !mt-0 !border-none">あなたの{name}、いま売るといくら？</h3>
-            <p className="text-sm text-warm-gray leading-relaxed mb-4">真贋に問題がなさそうなら、価値が変わる前に今の相場を確かめておきましょう。{name}の実勢相場（中古中央値）は<strong className="text-ink">{market_label}</strong>が目安です（当サイトのYahoo!オークション実勢集計・保証額ではありません）。次の3ステップで、納得して高く売れます。</p>
+            <h3 className="font-display text-xl font-semibold text-ink mb-3 !mt-0 !border-none">{_bridge_h3}</h3>
+            <p className="text-sm text-warm-gray leading-relaxed mb-4">{_price_line}価値が変わる前に、次の3ステップで納得して高く売りましょう。</p>
             <ol className="space-y-2 text-sm text-ink mb-4 list-none pl-0">
-              <li><span className="font-bold text-burgundy">STEP 1</span>　相場を知る → <Link href="/articles/{b['slug']}-kaitori/" className="text-amber-dark underline">{name}の買取相場 完全ガイド</Link></li>
-              <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツ → <Link href="/articles/{b['slug']}-takaku-uru/" className="text-amber-dark underline">査定額を最大化する7つのコツ</Link></li>
+              <li><span className="font-bold text-burgundy">STEP 1</span>　相場の詳細を見る → <Link href="/articles/{b['slug']}-kaitori/" className="shingan-to-kaitori text-amber-dark underline">{name}の買取相場 完全ガイド</Link></li>
+              <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツ → <Link href="/articles/{b['slug']}-takaku-uru/" className="shingan-to-kaitori text-amber-dark underline">査定額を最大化する7つのコツ</Link></li>
               <li><span className="font-bold text-burgundy">STEP 3</span>　複数業者で比較して申し込む（下の無料一括査定）</li>
             </ol>
             <p className="text-xs text-warm-gray">※相場は変動します。複数業者の比較で、その時点の最高値を引き出すのが確実です。査定は無料・キャンセル無料。</p>

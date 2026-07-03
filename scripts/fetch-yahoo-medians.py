@@ -240,6 +240,10 @@ def main():
             continue
         print(f"  [{i}/{len(rows)}] {slug} '{query}'...", end=" ", flush=True)
         r = median_for_query(query)
+        # データ品質強制フラグ: クエリ汚染で中央値が実物と乖離する銘柄は insufficient 固定
+        # bowmore-blackbowmore: ミニチュア/空瓶混入で¥4,000(実物は数百万円級)。クエリ精査まで実数を出さない
+        if slug in {"bowmore-blackbowmore"}:
+            r["insufficient"] = True
         results[slug] = r
         if r.get("median") and not r.get("insufficient"):
             row["yahoo_median_jpy_180d"] = r["median"]

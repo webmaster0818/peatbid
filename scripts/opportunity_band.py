@@ -40,6 +40,24 @@ BAND_ANGLE_SLUGS = {
     "taketsuru-pure-kihaku",
 }
 
+# フュージョン打ち手③（2026-07-04）: 「買取前チェック」強化対象（真贋→買取の送客回路）
+# 選定基準 = 機会バンド × 偽造事例の実在根拠。根拠は既存真贋ハブ8家族
+# （yamazaki/hibiki/hakushu/macallan/ichirosu/bowmore/springbank/glenfarclas＝贋作流通が
+#  確認済みとしてハブ化した銘柄群）への所属で判定。
+# ⚠️ yoichi-20 / taketsuru系 は機会バンドだがサイト上に偽造事例の根拠が無いため除外
+#    （架空の懸念煽り禁止＝8本に満たなくてよい方針）。
+# 対象slugの {slug}-nisemono-mikata ページを「売る前チェック」構成に強化する
+# （既存偽物ページの強化＝新規URLは作らずカニバリ回避）。
+PRECHECK_SLUGS = {
+    "yamazaki-12",
+    "yamazaki-nv",
+    "hakushu-nv",
+    "bowmore-blackbowmore",
+    "springbank-15",
+    "ichirosu-double-distilleries",
+    "glenfarclas-25",
+}
+
 # 週次cronの実行曜日（installed plist Weekday=1 = 月曜）
 UPDATE_NOTE = "毎週月曜更新・ヤフオク実落札の中央値"
 
@@ -54,8 +72,15 @@ def load_price_history(slug):
         return None
 
 
+# データ品質ゲート: fetchクエリ汚染で中央値が実物と乖離している銘柄は実数を出さない。
+# bowmore-blackbowmore: 「ブラックボウモア 700ml」落札にミニチュア/空瓶が混入し¥4,000（実物は数百万円クラス）。
+# fetch側クエリ精査で解消したらここから外す。
+DATA_QUALITY_EXCLUDE = {"bowmore-blackbowmore"}
+
 def band_latest(slug):
-    """(median:int, sample_n:int) を返す。データ欠損・insufficient は None（実数を出さない）。"""
+    """(median:int, sample_n:int) を返す。データ欠損・insufficient・品質除外 は None（実数を出さない）。"""
+    if slug in DATA_QUALITY_EXCLUDE:
+        return None
     d = load_price_history(slug)
     if not d:
         return None
@@ -82,6 +107,8 @@ def _fmt_date_md(d):
 def sparkline_block(slug, name):
     """直近12週の中央値推移を静的インラインSVGで描画したJSXブロックを返す。
     点数<3 は捏造せず「データ蓄積中」＋現在値のみを表示（正直設計）。データ皆無なら空文字。"""
+    if slug in DATA_QUALITY_EXCLUDE:
+        return ""
     d = load_price_history(slug)
     if not d:
         return ""
