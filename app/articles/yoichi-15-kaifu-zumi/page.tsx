@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/yoichi-15.json";
 
 export const metadata: Metadata = {
-  title: '余市15年は開封済みでも売れる?【2026年6月最新】残量別の買取査定額と売却法',
+  title: '余市15年は開封済みでも売れる?【2026年7月最新】残量別の買取査定額と売却法',
   description: '余市15年を開封済みで売る場合の査定額と注意点。残量別の価格目安、状態保持のコツ、開封済み歓迎の買取業者、売却前の準備まで完全解説。',
 };
 
@@ -70,6 +70,7 @@ export default function Yoichi15KaifuZumiPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは余市15年の落札が約60件確認でき、落札額の中央値は78,105円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">

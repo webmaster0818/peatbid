@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/karuizawa-30.json";
 
 export const metadata: Metadata = {
-  title: '軽井沢30年はラベル汚れ・破れでも売れる?【2026年6月最新】状態別の買取査定額',
+  title: '軽井沢30年はラベル汚れ・破れでも売れる?【2026年7月最新】状態別の買取査定額',
   description: '軽井沢30年のラベル汚れ・破れ・剥がれ・水濡れ跡がある場合の買取査定額を詳細解説。状態別の価格目安、ラベル保護の保管方法、業者選定まで完全ガイド。',
 };
 
@@ -70,6 +70,7 @@ export default function Karuizawa30LabelYogorePage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">軽井沢30年は二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
+
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">

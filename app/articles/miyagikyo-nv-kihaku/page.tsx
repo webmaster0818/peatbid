@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/miyagikyo-nv.json";
 
 export const metadata: Metadata = {
-  title: '宮城峡ノンエイジの希少性と買取・投資価値【2026年6月最新】保有か売却かの判断軸',
+  title: '宮城峡ノンエイジの希少性と買取・投資価値【2026年7月最新】保有か売却かの判断軸',
   description: '宮城峡ノンエイジの希少性ランクと投資対象としての評価を徹底分析。価格推移、需給動向、長期保有 vs 売却の判断基準、税制優遇まで、コレクター向けに解説。',
 };
 
@@ -70,6 +70,7 @@ export default function MiyagikyoNvKihakuPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">宮城峡ノンエイジは二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
+
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
             <Image src="/images/collector-vault.png" alt="コレクター向けプライベートヴォルト" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />

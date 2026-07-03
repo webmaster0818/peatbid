@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/yoichi-nv.json";
 
 export const metadata: Metadata = {
-  title: '余市ノンエイジは開封済みでも売れる?【2026年6月最新】残量別の買取査定額と売却法',
+  title: '余市ノンエイジは開封済みでも売れる?【2026年7月最新】残量別の買取査定額と売却法',
   description: '余市ノンエイジを開封済みで売る場合の査定額と注意点。残量別の価格目安、状態保持のコツ、開封済み歓迎の買取業者、売却前の準備まで完全解説。',
 };
 
@@ -70,6 +70,7 @@ export default function YoichiNvKaifuZumiPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">余市ノンエイジは二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
+
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">

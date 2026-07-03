@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/macallan-18.json";
 
 export const metadata: Metadata = {
-  title: 'マッカラン18年のオークション相場推移と買取価格【2026年6月最新】国内外データ分析',
+  title: 'マッカラン18年のオークション相場推移と買取価格【2026年7月最新】国内外データ分析',
   description: "マッカラン18年の国内外オークション相場推移を徹底分析。Sotheby's・Bonhams・Whisky Auctioneerの落札データから読み解く価格動向、過去5年の推移、今後の見通しまで完全解説。",
 };
 
@@ -70,6 +70,7 @@ export default function Macallan18AuctionSuiiPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではマッカラン18年の落札が約216件確認でき、落札額の中央値は44,524円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
             <Image src="/images/auction-scene.png" alt="海外オークションでの希少ウイスキー取引" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />

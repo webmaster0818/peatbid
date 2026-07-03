@@ -8,6 +8,15 @@ import re
 import datetime
 from pathlib import Path
 
+# フュージョン打ち手②: 機会バンド(GSC pos8-30×imp30+)のtitle刷新＋12週スパークライン＋FAQ強化
+from opportunity_band import (
+    BAND_ANGLE_SLUGS,
+    BAND_MONTH,
+    UPDATE_NOTE,
+    band_latest,
+    sparkline_block,
+)
+
 ROOT = Path(__file__).parent.parent
 DATA = ROOT / "data" / "brands.csv"
 OUT_DIR = ROOT / "app" / "articles"
@@ -523,6 +532,16 @@ def render_page(b, data):
     hero = get_hero(b["slug"])
     component_name = "".join(part.capitalize() for part in slug.replace("-", " ").split())
 
+    # 機会バンド: 鮮度＋中央値実数をtitle/descに機械挿入（角度の疑問形フックは先頭部を保持。
+    # insufficientなら実数を出さず既存titleを維持）＋12週スパークライン
+    band_lm = band_latest(b["slug"]) if slug in BAND_ANGLE_SLUGS else None
+    if band_lm:
+        _bmed, _bn = band_lm
+        _head = data["title"].split(MONTH_TAG)[0].rstrip("｜ ")
+        data["title"] = f"【毎週更新】{_head}｜ヤフオク落札中央値{_bmed:,}円基準{BAND_MONTH}"
+        data["description"] = f"{data['description']}相場データは{UPDATE_NOTE}（過去180日のIQR外れ値除去後、n={_bn}件）。"
+    spark = sparkline_block(b["slug"], name) if slug in BAND_ANGLE_SLUGS else ""
+
     # Plan B: angle-specific extra visual content
     angle_suffix = data["slug_suffix"]
     extra_visual = ""
@@ -638,6 +657,13 @@ def render_page(b, data):
     # FAQs combine angle-specific + common
     angle_faqs = []  # Could add angle-specific FAQs, for now just use common
     all_faqs = common_faqs(b, data["slug_suffix"])
+
+    # 機会バンド: 「今の買取相場はいくら？」（中央値実数＋毎週更新明記）を先頭に追加
+    if band_lm:
+        all_faqs.insert(0, (
+            f"今の{name}の買取相場はいくらですか？",
+            f"直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は{fmt(band_lm[0])}です（サンプル数 n={band_lm[1]}件・毎週月曜に自動更新）。実際の買取査定額は各業者の在庫状況・状態評価により変動するため、複数業者の相見積もりで実額をご確認ください。",
+        ))
 
     faq_schema = "{" + '"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [' + ", ".join(
         '{ "@type": "Question", "name": ' + repr(q) + ', "acceptedAnswer": { "@type": "Answer", "text": ' + repr(a) + " } }"
@@ -762,6 +788,7 @@ export default function {component_name}Page() {{
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">{market_data_sentence}</p>
           </div>
+{spark}
 {extra_visual}
 {h2_html}
 {bridge_module}

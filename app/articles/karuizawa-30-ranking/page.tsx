@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/karuizawa-30.json";
 
 export const metadata: Metadata = {
-  title: '軽井沢30年の買取おすすめ業者ランキング【2026年6月最新】査定額・スピードで徹底比較',
+  title: '軽井沢30年の買取おすすめ業者ランキング【2026年7月最新】査定額・スピードで徹底比較',
   description: '軽井沢30年に強い買取業者をランキング形式で徹底比較。ヒカカク・バイセル・JOYLAB・リカスタの査定スピード・査定額・サポート・信頼性を多角的に評価し、目的別おすすめを提示。',
 };
 
@@ -69,6 +69,7 @@ export default function Karuizawa30RankingPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">軽井沢30年は二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
+
 
           <div className="table-wrapper not-prose my-6">
             <p className="text-sm font-bold mb-2 text-ink">業者比較表</p>

@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/yoichi-nv.json";
 
 export const metadata: Metadata = {
-  title: '余市ノンエイジは箱なしでも買取できる?【2026年6月最新】査定額への影響と対策',
+  title: '余市ノンエイジは箱なしでも買取できる?【2026年7月最新】査定額への影響と対策',
   description: '余市ノンエイジを箱なしで売る場合の査定額への影響と買取依頼時の注意点。査定額の目安、代替戦略、賢い売却法、箱を探す方法まで完全解説。',
 };
 
@@ -70,6 +70,7 @@ export default function YoichiNvHakoNashiPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">余市ノンエイジは二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
+
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">

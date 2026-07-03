@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/ichirosu-double-distilleries.json";
 
 export const metadata: Metadata = {
-  title: 'イチローズモルト ダブルディスティラリーズを高く売るには？買取相場と査定額を最大化する7つのコツ【2026年6月最新】',
+  title: 'イチローズモルト ダブルディスティラリーズを高く売るには？買取相場と査定額を最大化する7つのコツ【2026年7月最新】',
   description: 'イチローズモルト ダブルディスティラリーズを最高値で売るための実践ガイド。付属品・状態・売却タイミング・業者選び・保管方法・贋作対策・交渉術の7要素で査定額を最大化する具体策を完全解説。',
 };
 
@@ -70,6 +70,7 @@ export default function IchirosuDoubleDistilleriesTakakuUruPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではイチローズモルト ダブルディスティラリーズの落札が約264件確認でき、落札額の中央値は10,999円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <h2 id="section-0">1. イチローズモルト ダブルディスティラリーズの市場ポジションとデータ分析</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>イチローズモルト ダブルディスティラリーズ</strong>はジャパニーズウイスキー（ベンチャーウイスキー）のノンエイジ（NV）、度数46%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>10,999円</strong>（流通サンプル264件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />

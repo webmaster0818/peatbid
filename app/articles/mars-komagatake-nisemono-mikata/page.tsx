@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/mars-komagatake.json";
 
 export const metadata: Metadata = {
-  title: 'マルス駒ヶ岳の偽物・贋作の見分け方【2026年6月最新】本物との違い5点（ラベル・キャップ・液面）と売却前チェック',
+  title: 'マルス駒ヶ岳の偽物・贋作の見分け方【2026年7月最新】本物との違い5点（ラベル・キャップ・液面）と売却前チェック',
   description: 'マルス駒ヶ岳の偽物・贋作を見分ける具体的なポイントを徹底解説。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。',
 };
 
@@ -70,6 +70,7 @@ export default function MarsKomagatakeNisemonoMikataPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではマルス駒ヶ岳の落札が約258件確認でき、落札額の中央値は7,975円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <h2 id="section-0">1. マルス駒ヶ岳の市場ポジションとデータ分析</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>マルス駒ヶ岳</strong>はジャパニーズウイスキー（信州マルス蒸溜所）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>7,975円</strong>（流通サンプル258件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />

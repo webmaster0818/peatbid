@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/miyagikyo-15.json";
 
 export const metadata: Metadata = {
-  title: '宮城峡15年の偽物・贋作の見分け方【2026年6月最新】本物との違い5点（ラベル・キャップ・液面）と売却前チェック',
+  title: '宮城峡15年の偽物・贋作の見分け方【2026年7月最新】本物との違い5点（ラベル・キャップ・液面）と売却前チェック',
   description: '宮城峡15年の偽物・贋作を見分ける具体的なポイントを徹底解説。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。',
 };
 
@@ -70,6 +70,7 @@ export default function Miyagikyo15NisemonoMikataPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは宮城峡15年の落札が約24件確認でき、落札額の中央値は68,805円でした。流通量がやや限定的で希少性が高めの銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <h2 id="section-0">1. 宮城峡15年の市場ポジションとデータ分析</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>宮城峡15年</strong>はジャパニーズウイスキー（宮城峡蒸溜所）の15年熟成、度数45%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>68,805円</strong>（流通サンプル24件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限定的で、コンディション次第で査定が伸びやすい傾向です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />

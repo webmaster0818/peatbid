@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/macallan-12.json";
 
 export const metadata: Metadata = {
-  title: 'マッカラン12年を高く売るには？買取相場と査定額を最大化する7つのコツ【2026年6月最新】',
+  title: 'マッカラン12年を高く売るには？買取相場と査定額を最大化する7つのコツ【2026年7月最新】',
   description: 'マッカラン12年を最高値で売るための実践ガイド。付属品・状態・売却タイミング・業者選び・保管方法・贋作対策・交渉術の7要素で査定額を最大化する具体策を完全解説。',
 };
 
@@ -70,6 +70,7 @@ export default function Macallan12TakakuUruPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではマッカラン12年の落札が約282件確認でき、落札額の中央値は9,350円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <h2 id="section-0">1. マッカラン12年の市場ポジションとデータ分析</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>マッカラン12年</strong>はスコッチウイスキー（スペイサイド）の12年熟成、度数40%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>9,350円</strong>（流通サンプル282件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />

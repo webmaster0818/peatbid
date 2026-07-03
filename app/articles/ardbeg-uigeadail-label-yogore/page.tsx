@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/ardbeg-uigeadail.json";
 
 export const metadata: Metadata = {
-  title: 'アードベッグ ウーガダールはラベル汚れ・破れでも売れる?【2026年6月最新】状態別の買取査定額',
+  title: 'アードベッグ ウーガダールはラベル汚れ・破れでも売れる?【2026年7月最新】状態別の買取査定額',
   description: 'アードベッグ ウーガダールのラベル汚れ・破れ・剥がれ・水濡れ跡がある場合の買取査定額を詳細解説。状態別の価格目安、ラベル保護の保管方法、業者選定まで完全ガイド。',
 };
 
@@ -70,6 +70,7 @@ export default function ArdbegUigeadailLabelYogorePage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではアードベッグ ウーガダールの落札が約94件確認でき、落札額の中央値は7,975円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">

@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/hibiki-30.json";
 
 export const metadata: Metadata = {
-  title: '響30年の偽物・贋作の見分け方【2026年6月最新】本物との違い5点（ラベル・キャップ・液面）と売却前チェック',
+  title: '響30年の偽物・贋作の見分け方【2026年7月最新】本物との違い5点（ラベル・キャップ・液面）と売却前チェック',
   description: '響30年の偽物・贋作を見分ける具体的なポイントを徹底解説。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。',
 };
 
@@ -70,6 +70,7 @@ export default function Hibiki30NisemonoMikataPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは響30年の落札が約84件確認でき、落札額の中央値は539,550円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <h2 id="section-0">1. 響30年の市場ポジションとデータ分析</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>響30年</strong>はジャパニーズウイスキー（サントリー）の30年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>539,550円</strong>（流通サンプル84件、当サイト独自集計）。価格帯としては<strong>超高額帯（1本数十万円規模）</strong>にあたり、真贋・状態評価が特にシビアで、専門知識を持つ業者ほど適正な評価が期待できます。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />

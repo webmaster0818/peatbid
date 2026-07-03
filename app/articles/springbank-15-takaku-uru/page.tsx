@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/springbank-15.json";
 
 export const metadata: Metadata = {
-  title: 'スプリングバンク15年を高く売るには？買取相場と査定額を最大化する7つのコツ【2026年6月最新】',
+  title: 'スプリングバンク15年を高く売るには？買取相場と査定額を最大化する7つのコツ【2026年7月最新】',
   description: 'スプリングバンク15年を最高値で売るための実践ガイド。付属品・状態・売却タイミング・業者選び・保管方法・贋作対策・交渉術の7要素で査定額を最大化する具体策を完全解説。',
 };
 
@@ -70,6 +70,7 @@ export default function Springbank15TakakuUruPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではスプリングバンク15年の落札が約96件確認でき、落札額の中央値は35,000円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <h2 id="section-0">1. スプリングバンク15年の市場ポジションとデータ分析</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>スプリングバンク15年</strong>はスコッチウイスキー（キャンベルタウン）の15年熟成、度数46%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>35,000円</strong>（流通サンプル96件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（キャンベルタウン）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />

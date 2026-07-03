@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/bowmore-blackbowmore.json";
 
 export const metadata: Metadata = {
-  title: 'ブラックボウモアの歴史・特徴と買取価値【2026年6月最新】なぜ高い?市場評価の根拠',
+  title: 'ブラックボウモアの歴史・特徴と買取価値【2026年7月最新】なぜ高い?市場評価の根拠',
   description: 'ブラックボウモアの歴史的背景、アイラのストーリー、味わいの特徴、世界的評価、市場価値が高い理由を専門ライターが徹底解説。コレクター・購入検討者必読の銘柄完全ガイド。',
 };
 
@@ -70,6 +70,7 @@ export default function BowmoreBlackbowmoreRekishiPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではブラックボウモアの落札が約100件確認でき、落札額の中央値は4,000円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
             <Image src="/images/distillery-scotch.png" alt="アイラの蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />

@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/hanyu-card.json";
 
 export const metadata: Metadata = {
-  title: '羽生カードシリーズは箱なしでも買取できる?【2026年6月最新】査定額への影響と対策',
+  title: '羽生カードシリーズは箱なしでも買取できる?【2026年7月最新】査定額への影響と対策',
   description: '羽生カードシリーズを箱なしで売る場合の査定額への影響と買取依頼時の注意点。査定額の目安、代替戦略、賢い売却法、箱を探す方法まで完全解説。',
 };
 
@@ -70,6 +70,7 @@ export default function HanyuCardHakoNashiPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは羽生カードシリーズの落札が約274件確認でき、落札額の中央値は7,975円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">

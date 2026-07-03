@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/karuizawa-12.json";
 
 export const metadata: Metadata = {
-  title: '軽井沢12年を高く売るには？買取相場と査定額を最大化する7つのコツ【2026年6月最新】',
+  title: '軽井沢12年を高く売るには？買取相場と査定額を最大化する7つのコツ【2026年7月最新】',
   description: '軽井沢12年を最高値で売るための実践ガイド。付属品・状態・売却タイミング・業者選び・保管方法・贋作対策・交渉術の7要素で査定額を最大化する具体策を完全解説。',
 };
 
@@ -70,6 +70,7 @@ export default function Karuizawa12TakakuUruPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは軽井沢12年の落札が約82件確認でき、落札額の中央値は72,000円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <h2 id="section-0">1. 軽井沢12年の市場ポジションとデータ分析</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>軽井沢12年</strong>はジャパニーズウイスキー（軽井沢蒸溜所）の12年熟成、度数40%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>72,000円</strong>（流通サンプル82件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />

@@ -11,6 +11,15 @@ import datetime
 import re
 from pathlib import Path
 
+# フュージョン打ち手②: 機会バンド(GSC pos8-30×imp30+)のtitle刷新＋12週スパークライン＋FAQ強化
+from opportunity_band import (
+    BAND_BRAND_SLUGS,
+    UPDATE_NOTE,
+    band_latest,
+    band_title,
+    sparkline_block,
+)
+
 # 週次cronで再生成されるため、生成時点の年月がそのままタイトル鮮度になる
 _NOW = datetime.date.today()
 MONTH_TAG = f"【{_NOW.year}年{_NOW.month}月最新】"
@@ -336,6 +345,13 @@ def render_page(b, all_brands):
             f"はい、同じものです。「{nv_base_name} 年代指定なし」「{nv_base_name} NV」は、熟成年数の表記がないボトル＝{name}を指す表記ゆれです。本ページの相場（{market_short}）がそのまま目安になります。",
         ))
 
+    # 機会バンド: 先頭FAQを「今の買取相場はいくら？」（中央値実数＋毎週更新明記）に置き換え
+    if slug_base in BAND_BRAND_SLUGS and sufficient:
+        faqs[0] = (
+            f"今の{name}の買取相場はいくらですか？",
+            f"{name}のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は{fmt(yahoo_median)}です（サンプル数 n={sample_n}、取得日 {fetched_at}・毎週月曜に自動更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各業者のページで直接ご確認ください。",
+        )
+
     faq_schema_json = "{" + '"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [' + ", ".join(
         '{ "@type": "Question", "name": ' + repr(q) + ', "acceptedAnswer": { "@type": "Answer", "text": ' + repr(a) + " } }"
         for q, a in faqs
@@ -358,6 +374,18 @@ def render_page(b, all_brands):
     title_name = TITLE_ALIAS.get(slug_base, name)
     meta_title = f"{title_name}の買取相場{MONTH_TAG}{market_short}｜箱なし・開封済みの査定額も" if sufficient else f"{title_name}の買取相場ガイド{MONTH_TAG}状態別の目安"
     meta_desc = (f"{name}の買取相場は{market_short}が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。{name}を売る前に読む決定版ガイド。" if sufficient else f"{name}（{name_en}）の買取相場ガイド。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。")
+
+    # 機会バンド: 鮮度＋中央値実数をtitle/descに機械挿入（insufficientなら実数を出さず既存titleを維持）
+    band_lm = band_latest(slug_base) if slug_base in BAND_BRAND_SLUGS else None
+    if band_lm:
+        _bmed, _bn = band_lm
+        meta_title = band_title(title_name, _bmed)
+        meta_desc = (
+            f"{title_name}の買取相場は{_bmed:,}円が目安（{UPDATE_NOTE}・過去180日のIQR外れ値除去後、n={_bn}件）。"
+            f"箱なし・開封済み等の状態別の査定目安、買取業者4社の比較、高く売るコツまで実データで解説。"
+        )
+    # 機会バンド: 12週スパークライン（点数<3なら「データ蓄積中」表示に自動フォールバック）
+    spark = sparkline_block(slug_base, name) if slug_base in BAND_BRAND_SLUGS else ""
 
     content = f'''import type {{ Metadata }} from "next";
 import Link from "next/link";
@@ -470,7 +498,7 @@ export default function {component_name}() {{
           <h2 id="current-price">4. 現在の市場相場（Yahoo中央値）</h2>
 
           <p>{name}の市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>{market_short}</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n={sample_n}件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
-
+{spark}
           <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、**最低3社、できれば4社以上で相見積もり**を取ることをおすすめします。</p>
 
           <p>本サイトでは下記の4業者ページへのリンクを参考として提示しています（各社の最新の査定額・キャンペーンは直接ご確認ください）:</p>

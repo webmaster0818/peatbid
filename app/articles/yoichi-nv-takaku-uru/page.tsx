@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/yoichi-nv.json";
 
 export const metadata: Metadata = {
-  title: '余市ノンエイジを高く売るには？買取相場と査定額を最大化する7つのコツ【2026年6月最新】',
+  title: '余市ノンエイジを高く売るには？買取相場と査定額を最大化する7つのコツ【2026年7月最新】',
   description: '余市ノンエイジを最高値で売るための実践ガイド。付属品・状態・売却タイミング・業者選び・保管方法・贋作対策・交渉術の7要素で査定額を最大化する具体策を完全解説。',
 };
 
@@ -70,6 +70,7 @@ export default function YoichiNvTakakuUruPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">余市ノンエイジは二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
+
 
           <h2 id="section-0">1. 余市ノンエイジの市場ポジションとデータ分析</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>余市ノンエイジ</strong>はジャパニーズウイスキー（余市蒸溜所）のノンエイジ（NV）、度数45%、希少度は標準的な流通量に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />

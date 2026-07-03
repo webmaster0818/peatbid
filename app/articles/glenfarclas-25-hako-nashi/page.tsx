@@ -5,12 +5,12 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/glenfarclas-25.json";
 
 export const metadata: Metadata = {
-  title: 'グレンファークラス25年は箱なしでも買取できる?【2026年6月最新】査定額への影響と対策',
-  description: 'グレンファークラス25年を箱なしで売る場合の査定額への影響と買取依頼時の注意点。査定額の目安、代替戦略、賢い売却法、箱を探す方法まで完全解説。',
+  title: '【毎週更新】グレンファークラス25年は箱なしでも買取できる?｜ヤフオク落札中央値22,121円基準【2026年7月】',
+  description: 'グレンファークラス25年を箱なしで売る場合の査定額への影響と買取依頼時の注意点。査定額の目安、代替戦略、賢い売却法、箱を探す方法まで完全解説。相場データは毎週月曜更新・ヤフオク実落札の中央値（過去180日のIQR外れ値除去後、n=108件）。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'グレンファークラス25年を売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' } }, { "@type": "Question", "name": '複数業者比較は本当に必要？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、必須です。同じグレンファークラス25年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' } }, { "@type": "Question", "name": '買取後のキャンセルは可能？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年の売却益に税金はかかる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売るならどのタイミングがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '今のグレンファークラス25年の買取相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は22,121円です（サンプル数 n=108件・毎週月曜に自動更新）。実際の買取査定額は各業者の在庫状況・状態評価により変動するため、複数業者の相見積もりで実額をご確認ください。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' } }, { "@type": "Question", "name": '複数業者比較は本当に必要？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、必須です。同じグレンファークラス25年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' } }, { "@type": "Question", "name": '買取後のキャンセルは可能？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年の売却益に税金はかかる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売るならどのタイミングがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" } }] }) }} />;
 }
 
 export default function Glenfarclas25HakoNashiPage() {
@@ -70,6 +70,28 @@ export default function Glenfarclas25HakoNashiPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンファークラス25年の落札が約108件確認でき、落札額の中央値は22,121円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
+          <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
+            <p className="text-sm font-bold text-ink mb-3">グレンファークラス25年の買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
+            <svg viewBox="0 0 640 210" role="img" aria-label="グレンファークラス25年のヤフオク落札中央値の週次推移グラフ" className="w-full h-auto">
+              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">22,121</text>
+              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">21,580</text>
+              <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">21,039</text>
+              <polyline points="66.0,155.1 177.2,99.3 288.4,111.0 399.6,51.9 510.8,40.1 622.0,38.9" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-05-25: 21,039円（サンプル n=108件）</title></circle>
+              <circle cx="177.2" cy="99.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-01: 21,559円（サンプル n=108件）</title></circle>
+              <circle cx="288.4" cy="111.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-08: 21,450円（サンプル n=110件）</title></circle>
+              <circle cx="399.6" cy="51.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-15: 22,000円（サンプル n=110件）</title></circle>
+              <circle cx="510.8" cy="40.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-22: 22,110円（サンプル n=110件）</title></circle>
+              <circle cx="622.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-29: 22,121円（サンプル n=108件）</title></circle>
+              <text x="618.0" y="28.9" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">22,121円</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">5/25</text>
+              <text x="288.4" y="198" fontSize="10" fill="#807565" textAnchor="middle">6/8</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">6/29</text>
+            </svg>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-05-25〜2026-06-29（週次6点・各点のサンプル数 n=108〜110件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜自動更新。買取額を保証するものではありません。</p>
+          </div>
+
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">
@@ -156,7 +178,7 @@ export default function Glenfarclas25HakoNashiPage() {
           <h2>グレンファークラス25年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: 'グレンファークラス25年を売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' }, { q: '複数業者比較は本当に必要？', a: 'はい、必須です。同じグレンファークラス25年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' }, { q: '買取後のキャンセルは可能？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: 'グレンファークラス25年の売却益に税金はかかる？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'グレンファークラス25年を売るならどのタイミングがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" }].map((faq) => (
+            {[{ q: '今のグレンファークラス25年の買取相場はいくらですか？', a: '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は22,121円です（サンプル数 n=108件・毎週月曜に自動更新）。実際の買取査定額は各業者の在庫状況・状態評価により変動するため、複数業者の相見積もりで実額をご確認ください。' }, { q: 'グレンファークラス25年を売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' }, { q: '複数業者比較は本当に必要？', a: 'はい、必須です。同じグレンファークラス25年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' }, { q: '買取後のキャンセルは可能？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: 'グレンファークラス25年の売却益に税金はかかる？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'グレンファークラス25年を売るならどのタイミングがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>

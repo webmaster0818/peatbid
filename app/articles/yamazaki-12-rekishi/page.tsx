@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/yamazaki-12.json";
 
 export const metadata: Metadata = {
-  title: '山崎12年の歴史・特徴と買取価値【2026年6月最新】なぜ高い?市場評価の根拠',
+  title: '山崎12年の歴史・特徴と買取価値【2026年7月最新】なぜ高い?市場評価の根拠',
   description: '山崎12年の歴史的背景、山崎蒸溜所のストーリー、味わいの特徴、世界的評価、市場価値が高い理由を専門ライターが徹底解説。コレクター・購入検討者必読の銘柄完全ガイド。',
 };
 
@@ -70,6 +70,7 @@ export default function Yamazaki12RekishiPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎12年の落札が約226件確認でき、落札額の中央値は21,000円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
             <Image src="/images/distillery-japanese.png" alt="山崎蒸溜所の蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />

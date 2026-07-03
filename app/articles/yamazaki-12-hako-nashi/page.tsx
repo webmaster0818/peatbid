@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/yamazaki-12.json";
 
 export const metadata: Metadata = {
-  title: '山崎12年は箱なしでも買取できる?【2026年6月最新】査定額への影響と対策',
+  title: '山崎12年は箱なしでも買取できる?【2026年7月最新】査定額への影響と対策',
   description: '山崎12年を箱なしで売る場合の査定額への影響と買取依頼時の注意点。査定額の目安、代替戦略、賢い売却法、箱を探す方法まで完全解説。',
 };
 
@@ -70,6 +70,7 @@ export default function Yamazaki12HakoNashiPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎12年の落札が約226件確認でき、落札額の中央値は21,000円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">

@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/yamazaki-18.json";
 
 export const metadata: Metadata = {
-  title: '山崎18年の買取おすすめ業者ランキング【2026年6月最新】査定額・スピードで徹底比較',
+  title: '山崎18年の買取おすすめ業者ランキング【2026年7月最新】査定額・スピードで徹底比較',
   description: '山崎18年に強い買取業者をランキング形式で徹底比較。ヒカカク・バイセル・JOYLAB・リカスタの査定スピード・査定額・サポート・信頼性を多角的に評価し、目的別おすすめを提示。',
 };
 
@@ -69,6 +69,7 @@ export default function Yamazaki18RankingPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎18年の落札が約244件確認でき、落札額の中央値は94,600円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <div className="table-wrapper not-prose my-6">
             <p className="text-sm font-bold mb-2 text-ink">業者比較表</p>

@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/chichibu-the-first.json";
 
 export const metadata: Metadata = {
-  title: '秩父ザファーストは箱なしでも買取できる?【2026年6月最新】査定額への影響と対策',
+  title: '秩父ザファーストは箱なしでも買取できる?【2026年7月最新】査定額への影響と対策',
   description: '秩父ザファーストを箱なしで売る場合の査定額への影響と買取依頼時の注意点。査定額の目安、代替戦略、賢い売却法、箱を探す方法まで完全解説。',
 };
 
@@ -70,6 +70,7 @@ export default function ChichibuTheFirstHakoNashiPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは秩父ザファーストの落札が約28件確認でき、落札額の中央値は88,830円でした。流通量がやや限定的で希少性が高めの銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
+
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">
