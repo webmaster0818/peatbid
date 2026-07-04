@@ -169,6 +169,17 @@ export default function WhiskyKaitoriSoubaPage() {
             </div>
           </div>
 
+          <div className="bg-cream/60 border border-amber/40 rounded-xl p-5 my-8 not-prose">
+            <h3 className="font-bold text-base mb-2">📰 毎週の値動きは「週次相場レポート」で</h3>
+            <p className="text-sm text-warm-gray mb-3">
+              主要銘柄のヤフオク実落札中央値から算出する合成指数「PeatBid買取相場指数」の前週比と、
+              今週上昇・下落した銘柄TOP5を毎週月曜に自動更新で公開しています。売り時の判断にご活用ください。
+            </p>
+            <Link href="/souba-report/" className="inline-block bg-white border border-amber/40 rounded-lg text-amber-dark text-sm font-semibold px-4 py-2 hover:bg-amber/10 transition-colors">
+              ウイスキー買取相場レポート（毎週更新）を見る →
+            </Link>
+          </div>
+
           <h2>関連記事</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">

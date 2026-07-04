@@ -13,15 +13,30 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BRANDS = json.load(open(os.path.join(ROOT, "data", "brands.json"), encoding="utf-8"))
 HIST_DIR = os.path.join(ROOT, "data", "price-history")
 
+# データ品質ゲート（souba-reportと同基準に統一・2026-07-04）:
+# クエリ汚染銘柄・insufficient・週次3倍超の系列不連続（talisker-25型の汚染）を除外
+import sys as _sys
+_sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from opportunity_band import DATA_QUALITY_EXCLUDE  # noqa: E402
+SERIES_JUMP_RATIO = 3.0
+
 series = {}  # slug -> {date: median}
 cats = {}
 for b in BRANDS:
     slug = b["slug"]
+    if slug in DATA_QUALITY_EXCLUDE:
+        continue
     p = os.path.join(HIST_DIR, f"{slug}.json")
     if not os.path.exists(p):
         continue
-    h = json.load(open(p, encoding="utf-8")).get("history", [])
+    d = json.load(open(p, encoding="utf-8"))
+    if (d.get("latest") or {}).get("insufficient"):
+        continue
+    h = d.get("history", [])
     pts = {x["date"]: x["median_jpy"] for x in h if x.get("median_jpy")}
+    vals = [pts[k] for k in sorted(pts)]
+    if any(max(a, b2) / max(1, min(a, b2)) > SERIES_JUMP_RATIO for a, b2 in zip(vals, vals[1:])):
+        continue  # 系列不連続＝汚染疑い
     if len(pts) >= 2:
         series[slug] = pts
         cats[slug] = b.get("category", "")

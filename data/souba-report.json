@@ -1,0 +1,252 @@
+{
+  "updated": "2026-06-29",
+  "base_date": "2026-05-25",
+  "weeks": 6,
+  "n_brands": 41,
+  "excluded": {
+    "data_quality": [
+      "bowmore-blackbowmore"
+    ],
+    "insufficient": [
+      "ichirosu-card",
+      "karuizawa-30",
+      "miyagikyo-12",
+      "miyagikyo-nv",
+      "yamazaki-55",
+      "yoichi-nv"
+    ],
+    "short_history": [
+      "glenfarclas-105"
+    ],
+    "series_jump": [
+      "talisker-25"
+    ],
+    "late_start": [
+      "balvenie-portwood-21"
+    ],
+    "no_data": [],
+    "total": 10
+  },
+  "index": {
+    "series": [
+      {
+        "date": "2026-05-25",
+        "value": 100.0,
+        "n": 41
+      },
+      {
+        "date": "2026-06-01",
+        "value": 99.82,
+        "n": 41
+      },
+      {
+        "date": "2026-06-08",
+        "value": 99.69,
+        "n": 41
+      },
+      {
+        "date": "2026-06-15",
+        "value": 100.13,
+        "n": 41
+      },
+      {
+        "date": "2026-06-22",
+        "value": 100.55,
+        "n": 41
+      },
+      {
+        "date": "2026-06-29",
+        "value": 102.17,
+        "n": 41
+      }
+    ],
+    "latest": 102.17,
+    "change_1w_pct": 1.61,
+    "change_4w_pct": 2.35
+  },
+  "categories": {
+    "japanese-whisky": {
+      "label": "ジャパニーズ",
+      "n": 26,
+      "series": [
+        {
+          "date": "2026-05-25",
+          "value": 100.0,
+          "n": 26
+        },
+        {
+          "date": "2026-06-01",
+          "value": 99.65,
+          "n": 26
+        },
+        {
+          "date": "2026-06-08",
+          "value": 99.63,
+          "n": 26
+        },
+        {
+          "date": "2026-06-15",
+          "value": 99.73,
+          "n": 26
+        },
+        {
+          "date": "2026-06-22",
+          "value": 99.99,
+          "n": 26
+        },
+        {
+          "date": "2026-06-29",
+          "value": 101.38,
+          "n": 26
+        }
+      ],
+      "latest": 101.38,
+      "change_1w_pct": 1.39
+    },
+    "scotch-whisky": {
+      "label": "スコッチ",
+      "n": 15,
+      "series": [
+        {
+          "date": "2026-05-25",
+          "value": 100.0,
+          "n": 15
+        },
+        {
+          "date": "2026-06-01",
+          "value": 100.12,
+          "n": 15
+        },
+        {
+          "date": "2026-06-08",
+          "value": 99.81,
+          "n": 15
+        },
+        {
+          "date": "2026-06-15",
+          "value": 100.84,
+          "n": 15
+        },
+        {
+          "date": "2026-06-22",
+          "value": 101.52,
+          "n": 15
+        },
+        {
+          "date": "2026-06-29",
+          "value": 103.55,
+          "n": 15
+        }
+      ],
+      "latest": 103.55,
+      "change_1w_pct": 2.0
+    }
+  },
+  "movers": {
+    "up": [
+      {
+        "slug": "taketsuru-pure",
+        "name": "竹鶴ピュアモルト",
+        "category": "japanese-whisky",
+        "median": 8468,
+        "prev_median": 5775,
+        "diff_jpy": 2693,
+        "change_pct": 46.63,
+        "sample_n": 288
+      },
+      {
+        "slug": "bowmore-25",
+        "name": "ボウモア25年",
+        "category": "scotch-whisky",
+        "median": 61000,
+        "prev_median": 50710,
+        "diff_jpy": 10290,
+        "change_pct": 20.29,
+        "sample_n": 80
+      },
+      {
+        "slug": "mars-komagatake",
+        "name": "マルス駒ヶ岳",
+        "category": "japanese-whisky",
+        "median": 7975,
+        "prev_median": 7375,
+        "diff_jpy": 600,
+        "change_pct": 8.14,
+        "sample_n": 258
+      },
+      {
+        "slug": "macallan-25",
+        "name": "マッカラン25年",
+        "category": "scotch-whisky",
+        "median": 189150,
+        "prev_median": 181000,
+        "diff_jpy": 8150,
+        "change_pct": 4.5,
+        "sample_n": 176
+      },
+      {
+        "slug": "macallan-12",
+        "name": "マッカラン12年",
+        "category": "scotch-whisky",
+        "median": 9350,
+        "prev_median": 9113,
+        "diff_jpy": 237,
+        "change_pct": 2.6,
+        "sample_n": 282
+      }
+    ],
+    "down": [
+      {
+        "slug": "hibiki-nv",
+        "name": "響ジャパニーズハーモニー",
+        "category": "japanese-whisky",
+        "median": 10500,
+        "prev_median": 11322,
+        "diff_jpy": -822,
+        "change_pct": -7.26,
+        "sample_n": 228
+      },
+      {
+        "slug": "yoichi-20",
+        "name": "余市20年",
+        "category": "japanese-whisky",
+        "median": 215270,
+        "prev_median": 231996,
+        "diff_jpy": -16726,
+        "change_pct": -7.21,
+        "sample_n": 54
+      },
+      {
+        "slug": "yoichi-10",
+        "name": "余市10年",
+        "category": "japanese-whisky",
+        "median": 22000,
+        "prev_median": 22525,
+        "diff_jpy": -525,
+        "change_pct": -2.33,
+        "sample_n": 252
+      },
+      {
+        "slug": "bowmore-18",
+        "name": "ボウモア18年",
+        "category": "scotch-whisky",
+        "median": 11000,
+        "prev_median": 11165,
+        "diff_jpy": -165,
+        "change_pct": -1.48,
+        "sample_n": 204
+      },
+      {
+        "slug": "hibiki-30",
+        "name": "響30年",
+        "category": "japanese-whisky",
+        "median": 539550,
+        "prev_median": 546700,
+        "diff_jpy": -7150,
+        "change_pct": -1.31,
+        "sample_n": 84
+      }
+    ]
+  },
+  "methodology": "Yahoo!オークション過去180日落札データの週次中央値（IQR法で外れ値除去）をもとに、基準週（2026-05-25）=100とした各銘柄の変化率の等ウェイト平均。採用41銘柄（サンプル不足n<20・データ品質除外・履歴2週未満・系列不連続・基準週データ無しの銘柄を除外）。PeatBid編集部の独自集計。"
+}

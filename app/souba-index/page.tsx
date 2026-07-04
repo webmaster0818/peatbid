@@ -249,6 +249,7 @@ export default function Page() {
       <section className="mb-6">
         <h2 className="font-display text-xl font-bold text-ink mb-3">あわせて見る</h2>
         <ul className="list-disc pl-5 space-y-1.5 text-sm">
+          <li><Link href="/souba-report/" className="text-amber-dark underline">週次相場レポート（PeatBid買取相場指数）</Link> — 前週比・上昇/下落TOP5を毎週更新</li>
           <li><Link href="/souba-ranking/" className="text-amber-dark underline">今週の値上がり・値下がり銘柄ランキング</Link> — 指数を動かした個別銘柄はこちら</li>
           <li><Link href="/articles/" className="text-amber-dark underline">銘柄別の買取相場ガイド一覧</Link></li>
           <li><Link href="/articles/whisky-toushi-hajimekata/" className="text-amber-dark underline">ウイスキー投資の始め方</Link></li>

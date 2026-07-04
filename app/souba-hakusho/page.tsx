@@ -190,6 +190,7 @@ export default function Page() {
       <section className="mb-4">
         <h2 className="font-display text-lg font-bold text-ink mb-3">関連する相場データ</h2>
         <ul className="space-y-2 text-sm">
+          <li>📰 <Link href="/souba-report/" className="text-amber-dark underline">週次相場レポート（PeatBid買取相場指数）</Link>（指数の前週比と上昇・下落TOP5を毎週更新）</li>
           <li>📈 <Link href="/souba-index/" className="text-amber-dark underline">ウイスキー買取相場指数</Link>（週次の合成インデックスで全体トレンドを見る）</li>
           <li>🔼 <Link href="/souba-ranking/" className="text-amber-dark underline">買取相場ランキング・ダッシュボード</Link>（今週の値上がり・値下がり銘柄）</li>
           <li>📝 <Link href="/articles/whisky-sell-guide/" className="text-amber-dark underline">ウイスキーを売る前に知る基礎ガイド</Link>（相場の決まり方・税金・高く売るコツ）</li>

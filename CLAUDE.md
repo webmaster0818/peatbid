@@ -116,3 +116,10 @@ next-action-fusion-2026-06-30.md の①②③を実行。
 - 検証=【毎週更新】titleがout/全2948中ちょうど10ページ(バンド外無変更)・build EXIT0・.txt削除・方式B両push・本番確認・Indexing 10/10
 - ⚠️**6/29報告の「glenfarclas-25意図分離導線」は実在せず**（105 title側のみ対応済だった）→25年→105導線は③とあわせて実装する
 - 次=③真贋第2弾(偽造実在×機会バンド8本・真贋→買取遷移計測) ④相場指数レポートハブ ⑤税金/NVとは収益化＋誤着地クエリ自動抽出の木曜定例組込
+
+### 2026-07-04 ③真贋第2弾（MediaXAI「③進めよう」）✅本番反映済み
+- **CVブロック=真贋系59ページ全数**(偽物51+ハブ8): 「本物なら実勢中央値¥X→相場→コツ→一括査定」3STEP。実数はband_latest一元化・insufficientは金額非表示。class shingan-to-kaitori/kaitori-to-shingan=GA4配線フック(測定ID待ち)。ハブにボトル別中央値リスト＋**weekly-yahoo-update.shに[4.2/7]ハブ再生成を追加**(従来週次対象外で陳腐化するところだった)
+- **買取前チェック=新規0・既存強化7**({yamazaki-12,yamazaki-nv,hakushu-nv,bowmore-blackbowmore,springbank-15,ichirosu-dd,glenfarclas-25}-nisemono-mikata)。**yoichi-20/taketsuruは偽造根拠なしで除外**(架空煽り禁止)。title「{銘柄}を売る前に｜本物チェックと今の買取相場」+売る前3分チェック+中央値ブロック+FAQ実数
+- glenfarclas 25⇄105双方向の意図分離導線(INTENT_SPLIT)。**6/29報告の導線は実在しなかった**→今回初実装
+- 🚨**blackbowmore品質ゲート3層**: 中央値¥4,000=「ブラックボウモア 700ml」クエリにミニチュア/空瓶混入(実物数百万円級)が**7/3から本番title露出**→①fetch-yahoo-mediansにforce insufficient ②opportunity_band.DATA_QUALITY_EXCLUDE(band/sparkline) ③brands.csv中央値クリア。kaitori titleは「状態別の目安」insufficientモードへ。**教訓: fetchクエリの中央値は実物価格帯との桁チェックが必要**(週次デイリーで自動検知する仕組みは今後の課題)
+- sitemap 2946不変(新規URL0)・build EXIT0・方式B両push・本番確認(precheck7/4000円ゼロ/glenfarclas双方向)・Indexing 10/10。次=④相場指数ハブ/⑤税金・NVとは収益化+誤着地自動抽出の木曜定例

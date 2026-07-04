@@ -164,6 +164,15 @@ export default function Page() {
         </ol>
       </section>
 
+      {/* 関連する相場データ */}
+      <section className="mb-10">
+        <h2 className="font-display text-xl font-bold text-ink mb-3">あわせて見る</h2>
+        <ul className="list-disc pl-5 space-y-1.5 text-sm">
+          <li>📰 <Link href="/souba-report/" className="text-amber-dark underline">週次相場レポート（PeatBid買取相場指数）</Link> — 市場全体の前週比と上昇・下落TOP5を1つの指数で毎週更新</li>
+          <li>📚 <Link href="/souba-hakusho/" className="text-amber-dark underline">全国ウイスキー買取相場白書</Link> — 銘柄別の実勢中央値一覧</li>
+        </ul>
+      </section>
+
       {/* 都道府県から探す(crawl hub) */}
       <section className="mb-10">
         <h2 className="font-display text-xl font-bold text-ink mb-3">都道府県から買取相場を探す</h2>

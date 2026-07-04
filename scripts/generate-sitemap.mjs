@@ -51,6 +51,15 @@ function changefreqFor(priority) {
   return 'monthly'
 }
 
+// /souba-report/ の lastmod はデータ内の最新週（data/souba-report.json の updated）
+function soubaReportLastmod() {
+  try {
+    const d = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'souba-report.json'), 'utf-8'))
+    if (typeof d.updated === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d.updated)) return d.updated
+  } catch { /* fall through */ }
+  return TODAY
+}
+
 const STATIC_PAGES = [
   { path: '/', priority: '1.0', changefreq: 'daily' },
   { path: '/articles/', priority: '0.9', changefreq: 'weekly' },
@@ -58,6 +67,7 @@ const STATIC_PAGES = [
   { path: '/souba-ranking/', priority: '0.8', changefreq: 'weekly' },
   { path: '/souba-index/', priority: '0.8', changefreq: 'weekly' },
   { path: '/souba-hakusho/', priority: '0.8', changefreq: 'weekly' },
+  { path: '/souba-report/', priority: '0.8', changefreq: 'weekly', lastmod: soubaReportLastmod() },
   { path: '/faq/', priority: '0.7', changefreq: 'monthly' },
   { path: '/editorial/', priority: '0.6', changefreq: 'monthly' },
   { path: '/methodology/', priority: '0.6', changefreq: 'monthly' },
@@ -100,7 +110,7 @@ function build() {
   const lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 
   for (const p of STATIC_PAGES) {
-    lines.push(`  <url><loc>${BASE}${p.path}</loc><lastmod>${TODAY}</lastmod><changefreq>${p.changefreq}</changefreq><priority>${p.priority}</priority></url>`)
+    lines.push(`  <url><loc>${BASE}${p.path}</loc><lastmod>${p.lastmod || TODAY}</lastmod><changefreq>${p.changefreq}</changefreq><priority>${p.priority}</priority></url>`)
   }
 
   const articles = articleSlugs()

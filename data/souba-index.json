@@ -1,17 +1,50 @@
 {
-  "updated": "",
-  "base_date": "",
-  "weeks": 0,
-  "n_brands": 45,
+  "updated": "2026-06-29",
+  "base_date": "2026-06-22",
+  "weeks": 2,
+  "n_brands": 42,
   "methodology": "Yahoo!オークション過去180日落札データの週次中央値（IQR外れ値除去）をもとに、基準週=100とした各銘柄の変化率の等ウェイト平均。PeatBid編集部の独自集計。",
   "series": {
-    "all": [],
-    "japanese": [],
-    "scotch": []
+    "all": [
+      {
+        "date": "2026-06-22",
+        "value": 100.0,
+        "n": 42
+      },
+      {
+        "date": "2026-06-29",
+        "value": 101.74,
+        "n": 42
+      }
+    ],
+    "japanese": [
+      {
+        "date": "2026-06-22",
+        "value": 100.0,
+        "n": 26
+      },
+      {
+        "date": "2026-06-29",
+        "value": 101.77,
+        "n": 26
+      }
+    ],
+    "scotch": [
+      {
+        "date": "2026-06-22",
+        "value": 100.0,
+        "n": 16
+      },
+      {
+        "date": "2026-06-29",
+        "value": 101.7,
+        "n": 16
+      }
+    ]
   },
   "counts": {
-    "all": 45,
-    "japanese": 27,
-    "scotch": 18
+    "all": 42,
+    "japanese": 26,
+    "scotch": 16
   }
 }
