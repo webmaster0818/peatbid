@@ -180,14 +180,10 @@ ELAPSED=$(( $(date +%s) - START_EPOCH ))
 
 echo "[$(date '+%H:%M:%S')] ✅ 完了 — 経過時間: ${ELAPSED}s"
 
-notify_discord "✅ **PeatBid 週次更新 完了** ($(date '+%Y-%m-%d %H:%M'))
-- 実行ID: $RUN_ID
-- 経過時間: ${ELAPSED}s
-- commit: \`$COMMIT_HASH\`
+# 週次相場指数レポート（読者向け・このチャンネルへ自動投稿）
+REPORT=$(/opt/homebrew/bin/python3 "$SRC/scripts/build-index-report.py" 2>/dev/null || echo "")
 
-${SUMMARY}
+notify_discord "${REPORT}
 
-- 506ページ再生成 ✓
-- CF自動デプロイ進行中（数分で反映）
-- 確認: https://peatbid.com/articles/yamazaki-18-kaitori/
-- 詳細ログ: $RUN_LOG"
+──────────
+(内部) 週次更新完了 $(date '+%Y-%m-%d %H:%M')・${ELAPSED}s・commit \`$COMMIT_HASH\`・${SUMMARY}・CF反映数分"
