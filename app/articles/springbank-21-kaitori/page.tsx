@@ -64,6 +64,9 @@ export default function Springbank21KaitoriPage() {
             </ol>
           </div>
 
+          <div className="rounded-lg bg-cream/60 border border-amber-dark/20 p-4 my-4 not-prose">
+            <p className="text-sm text-ink">🔀 <strong>年数（熟成年数）がわからない・年代指定なしのスプリングバンク</strong>をお探しの方はこちら → <Link href="/articles/springbank-kaitori/" className="text-amber-dark underline font-bold">スプリングバンク買取相場（年代別・見分け方）</Link></p>
+          </div>
           <h2 id="summary">1. スプリングバンク21年の概要</h2>
 
           <p>スプリングバンク21年はスコッチウイスキーを代表する銘柄の1つで、キャンベルタウンが手がける21年熟成のボトルです。スプリングバンク21年。希少。</p>
