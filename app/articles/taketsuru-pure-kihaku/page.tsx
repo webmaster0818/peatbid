@@ -5,12 +5,12 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/taketsuru-pure.json";
 
 export const metadata: Metadata = {
-  title: '【毎週更新】竹鶴ピュアモルトの希少性と買取・投資価値｜ヤフオク落札中央値8,468円基準【2026年7月】',
-  description: '竹鶴ピュアモルトの希少性ランクと投資対象としての評価を徹底分析。価格推移、需給動向、長期保有 vs 売却の判断基準、税制優遇まで、コレクター向けに解説。相場データは毎週月曜更新・ヤフオク実落札の中央値（過去180日のIQR外れ値除去後、n=288件）。',
+  title: '【毎週更新】竹鶴ピュアモルトの希少性と買取・投資価値｜ヤフオク落札中央値13,800円基準【2026年7月】',
+  description: '竹鶴ピュアモルトの希少性ランクと投資対象としての評価を徹底分析。価格推移、需給動向、長期保有 vs 売却の判断基準、税制優遇まで、コレクター向けに解説。相場データは毎週月曜更新・ヤフオク実落札の中央値（過去180日のIQR外れ値除去後、n=292件）。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '今の竹鶴ピュアモルトの買取相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は8,468円です（サンプル数 n=288件・毎週月曜に自動更新）。実際の買取査定額は各業者の在庫状況・状態評価により変動するため、複数業者の相見積もりで実額をご確認ください。' } }, { "@type": "Question", "name": '竹鶴ピュアモルトを売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' } }, { "@type": "Question", "name": '複数業者比較は本当に必要？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、必須です。同じ竹鶴ピュアモルトでも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' } }, { "@type": "Question", "name": '買取後のキャンセルは可能？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": '竹鶴ピュアモルトの売却益に税金はかかる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '竹鶴ピュアモルトを売るならどのタイミングがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '今の竹鶴ピュアモルトの買取相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は13,800円です（サンプル数 n=292件・毎週月曜に自動更新）。実際の買取査定額は各業者の在庫状況・状態評価により変動するため、複数業者の相見積もりで実額をご確認ください。' } }, { "@type": "Question", "name": '竹鶴ピュアモルトを売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' } }, { "@type": "Question", "name": '複数業者比較は本当に必要？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、必須です。同じ竹鶴ピュアモルトでも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' } }, { "@type": "Question", "name": '買取後のキャンセルは可能？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": '竹鶴ピュアモルトの売却益に税金はかかる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '竹鶴ピュアモルトを売るならどのタイミングがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" } }] }) }} />;
 }
 
 export default function TaketsuruPureKihakuPage() {
@@ -37,7 +37,7 @@ export default function TaketsuruPureKihakuPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">竹鶴ピュアモルトの希少性と投資価値</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-06-29 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-06 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function TaketsuruPureKihakuPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">竹鶴ピュアモルト</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / ノンエイジ / 希少度 コモン / 市場相場 8,468円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / ノンエイジ / 希少度 コモン / 市場相場 13,800円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark underline">竹鶴ピュアモルトの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -64,32 +64,33 @@ export default function TaketsuruPureKihakuPage() {
             </ol>
           </div>
 
-          <p>竹鶴ピュアモルトは希少度現行品クラスのボトル。直近の実勢中央値は約8,468円で、投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
+          <p>竹鶴ピュアモルトは希少度現行品クラスのボトル。直近の実勢中央値は約13,800円で、投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは竹鶴ピュアモルトの落札が約288件確認でき、落札額の中央値は8,468円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは竹鶴ピュアモルトの落札が約292件確認でき、落札額の中央値は13,800円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
             <p className="text-sm font-bold text-ink mb-3">竹鶴ピュアモルトの買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
             <svg viewBox="0 0 640 210" role="img" aria-label="竹鶴ピュアモルトのヤフオク落札中央値の週次推移グラフ" className="w-full h-auto">
-              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">8,468</text>
-              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">7,122</text>
+              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">13,800</text>
+              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">9,788</text>
               <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">5,775</text>
-              <polyline points="66.0,102.2 177.2,138.6 288.4,119.5 399.6,95.8 510.8,155.1 622.0,38.9" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="66.0" cy="102.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-05-25: 7,000円（サンプル n=292件）</title></circle>
-              <circle cx="177.2" cy="138.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-01: 6,158円（サンプル n=266件）</title></circle>
-              <circle cx="288.4" cy="119.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-08: 6,600円（サンプル n=290件）</title></circle>
-              <circle cx="399.6" cy="95.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-15: 7,150円（サンプル n=288件）</title></circle>
-              <circle cx="510.8" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-22: 5,775円（サンプル n=288件）</title></circle>
-              <circle cx="622.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-29: 8,468円（サンプル n=288件）</title></circle>
-              <text x="618.0" y="28.9" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">8,468円</text>
+              <polyline points="66.0,137.4 158.7,149.5 251.3,143.1 344.0,135.2 436.7,155.1 529.3,116.1 622.0,38.9" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="137.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-05-25: 7,000円（サンプル n=292件）</title></circle>
+              <circle cx="158.7" cy="149.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-01: 6,158円（サンプル n=266件）</title></circle>
+              <circle cx="251.3" cy="143.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-08: 6,600円（サンプル n=290件）</title></circle>
+              <circle cx="344.0" cy="135.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-15: 7,150円（サンプル n=288件）</title></circle>
+              <circle cx="436.7" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-22: 5,775円（サンプル n=288件）</title></circle>
+              <circle cx="529.3" cy="116.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-29: 8,468円（サンプル n=288件）</title></circle>
+              <circle cx="622.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-06: 13,800円（サンプル n=292件）</title></circle>
+              <text x="618.0" y="28.9" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">13,800円</text>
               <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">5/25</text>
-              <text x="288.4" y="198" fontSize="10" fill="#807565" textAnchor="middle">6/8</text>
-              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">6/29</text>
+              <text x="344.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">6/15</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">7/6</text>
             </svg>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-05-25〜2026-06-29（週次6点・各点のサンプル数 n=266〜292件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜自動更新。買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-05-25〜2026-07-06（週次7点・各点のサンプル数 n=266〜292件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜自動更新。買取額を保証するものではありません。</p>
           </div>
 
 
@@ -99,7 +100,7 @@ export default function TaketsuruPureKihakuPage() {
           </div>
 
           <h2 id="section-0">1. 竹鶴ピュアモルトの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>竹鶴ピュアモルト</strong>はジャパニーズウイスキー（ニッカ）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>8,468円</strong>（流通サンプル288件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>竹鶴ピュアモルト</strong>はジャパニーズウイスキー（ニッカ）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>13,800円</strong>（流通サンプル292件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 希少性のランク評価</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>竹鶴ピュアモルトは希少度カテゴリで「<strong>現行品</strong>」に分類されます。希少度は以下の4要素で決まります:</p><ol><li>生産終了・休売の有無</li><li>市場流通量</li><li>コレクター需要</li><li>国際的評価
@@ -146,7 +147,7 @@ export default function TaketsuruPureKihakuPage() {
           <h2>竹鶴ピュアモルトに関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '今の竹鶴ピュアモルトの買取相場はいくらですか？', a: '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は8,468円です（サンプル数 n=288件・毎週月曜に自動更新）。実際の買取査定額は各業者の在庫状況・状態評価により変動するため、複数業者の相見積もりで実額をご確認ください。' }, { q: '竹鶴ピュアモルトを売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' }, { q: '複数業者比較は本当に必要？', a: 'はい、必須です。同じ竹鶴ピュアモルトでも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' }, { q: '買取後のキャンセルは可能？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: '竹鶴ピュアモルトの売却益に税金はかかる？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '竹鶴ピュアモルトを売るならどのタイミングがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" }].map((faq) => (
+            {[{ q: '今の竹鶴ピュアモルトの買取相場はいくらですか？', a: '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は13,800円です（サンプル数 n=292件・毎週月曜に自動更新）。実際の買取査定額は各業者の在庫状況・状態評価により変動するため、複数業者の相見積もりで実額をご確認ください。' }, { q: '竹鶴ピュアモルトを売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' }, { q: '複数業者比較は本当に必要？', a: 'はい、必須です。同じ竹鶴ピュアモルトでも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' }, { q: '買取後のキャンセルは可能？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: '竹鶴ピュアモルトの売却益に税金はかかる？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '竹鶴ピュアモルトを売るならどのタイミングがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -173,7 +174,7 @@ export default function TaketsuruPureKihakuPage() {
             <Link href="/articles/taketsuru-pure-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">竹鶴ピュアモルトの買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-06-29）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-06）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>
