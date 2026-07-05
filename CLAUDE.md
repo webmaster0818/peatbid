@@ -123,3 +123,10 @@ next-action-fusion-2026-06-30.md の①②③を実行。
 - glenfarclas 25⇄105双方向の意図分離導線(INTENT_SPLIT)。**6/29報告の導線は実在しなかった**→今回初実装
 - 🚨**blackbowmore品質ゲート3層**: 中央値¥4,000=「ブラックボウモア 700ml」クエリにミニチュア/空瓶混入(実物数百万円級)が**7/3から本番title露出**→①fetch-yahoo-mediansにforce insufficient ②opportunity_band.DATA_QUALITY_EXCLUDE(band/sparkline) ③brands.csv中央値クリア。kaitori titleは「状態別の目安」insufficientモードへ。**教訓: fetchクエリの中央値は実物価格帯との桁チェックが必要**(週次デイリーで自動検知する仕組みは今後の課題)
 - sitemap 2946不変(新規URL0)・build EXIT0・方式B両push・本番確認(precheck7/4000円ゼロ/glenfarclas双方向)・Indexing 10/10。次=④相場指数ハブ/⑤税金・NVとは収益化+誤着地自動抽出の木曜定例
+
+### 2026-07-05 誤着地対策(detect-mislanding検出→受け皿実装)（MediaXAI「うん進めて」）
+戦略expansion-fusion打ち手①の横展開。`detect-mislanding.py`(新規GSC検出ツール)で総称クエリ×年代特化ページの誤着地を自動抽出→即実装:
+- **springbank-kaitori 新設**: スプリングバンクは年代指定なし受け皿が無く「スプリングバンク 年代指定なし 買取」がspringbank-15年ページに誤着地(pos6.9/CTR0)していた→年代別相場表(15年¥35k/21年¥97k・souba-ranking由来毎週更新)+ラベル年数の見分け方+15/21年ページへ分岐+FAQPage schemaの受け皿ハブを作成
+- **springbank-15/21ページ冒頭に意図分離コールアウト**(「年代指定なしはこちら」→受け皿)
+- **glenfarclas-25 description**: 25年=単一年代を明示し105(年代指定なし)との曖昧性解消(GF「年代指定なし」5クエリ106impが依然25年に誤着地・CTR0の緩和)
+- build EXIT0・方式B両push・受け皿本番200/実データ相場表確認・Indexing 4/4。効果1-2週GSC。**detect-mislandingを木曜GSC定例に組込めば受け皿候補が自動で積み上がる**(次の運用課題)。残=③真贋第2弾
