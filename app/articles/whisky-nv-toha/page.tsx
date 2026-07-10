@@ -109,8 +109,12 @@ export default function Page() {
         <ul>
           <li><Link href="/articles/yamazaki-nv-kaitori/">山崎 ノンエイジ（NV）</Link></li>
           <li><Link href="/articles/hakushu-nv-kaitori/">白州 ノンエイジ（NV）</Link></li>
-          <li><Link href="/articles/glenfarclas-25-kaitori/">グレンファークラス</Link>（年代指定なしの問い合わせが多い銘柄）</li>
-          <li><Link href="/articles/bowmore-blackbowmore-kaitori/">ボウモア</Link></li>
+          <li><Link href="/articles/hibiki-nv-kaitori/">響 ノンエイジ（Japanese Harmony等）</Link></li>
+          <li><Link href="/articles/yoichi-nv-kaitori/">余市 ノンエイジ（NV）</Link></li>
+          <li><Link href="/articles/miyagikyo-nv-kaitori/">宮城峡 ノンエイジ（NV）</Link></li>
+          <li><Link href="/articles/glenfarclas-105-kaitori/">グレンファークラス105（年代指定なし）</Link></li>
+          <li><Link href="/articles/bowmore-blackbowmore-kaitori/">ボウモア</Link>（年代表記のないNo.1等は要査定）</li>
+          <li><Link href="/articles/springbank-15-kaitori/">スプリングバンク</Link>（年代指定なしの問い合わせが多い銘柄）</li>
         </ul>
         <p>銘柄ごとの実勢中央値・流通量は <Link href="/souba-ranking/">相場ランキング</Link> でまとめて確認できます。</p>
 

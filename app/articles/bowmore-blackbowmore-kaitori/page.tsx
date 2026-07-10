@@ -70,6 +70,10 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
 
           
 
+          <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
+            <p className="text-sm text-ink">🔀 年代表記のないボウモア（No.1等）の売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください → <Link href="/articles/whisky-nv-toha/" className="text-amber-dark underline font-bold">年代指定なし（NV）ウイスキーの買取ガイド</Link></p>
+          </div>
+
 
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。ブラックボウモアは希少度<strong>ウルトラレア</strong>クラスに位置し、市場流通量が極小、もしくは閉鎖蒸溜所のボトル。1本数百万円〜数千万円の取引が発生し、世界中のオークションで注目される伝説級の銘柄。</p>
 

@@ -332,16 +332,44 @@ def render_page(b, all_brands):
 
     # ②積み残し（2026-07-04）: グレンファークラス 25年⇄105 の意図分離導線
     # （「年代指定なし」クエリの glenfarclas-25 誤着地を 105 ページへ振り分け。逆向きも明示）
+    # 誤着地対策の意図分岐callout。値=(リンク先の完全パス, リード文, リンクラベル)
+    # 2026-07-11拡張: 年代付き→NV導線(NVが機会バンド主役のため)＋スコッチ系→NVハブ。hrefは完全パス形式。
     INTENT_SPLIT = {
-        "glenfarclas-25": ("glenfarclas-105", "年代表記のないグレンファークラス（「105」「年代指定なし」と呼ばれるカスクストレングスのボトル）をお探しの方はこちら", "グレンファークラス105（年代指定なし）の買取相場ガイド"),
-        "glenfarclas-105": ("glenfarclas-25", "「25年」など熟成年数の表記があるグレンファークラスをお探しの方はこちら", "グレンファークラス25年の買取相場ガイド"),
+        "glenfarclas-25": ("/articles/glenfarclas-105-kaitori/", "年代表記のないグレンファークラス（「105」「年代指定なし」と呼ばれるカスクストレングスのボトル）をお探しの方はこちら", "グレンファークラス105（年代指定なし）の買取相場ガイド"),
+        "glenfarclas-105": ("/articles/glenfarclas-25-kaitori/", "「25年」など熟成年数の表記があるグレンファークラスをお探しの方はこちら", "グレンファークラス25年の買取相場ガイド"),
+        # 日本5銘柄: 年代付き→NV（年代表記のないボトルの誤着地受け）
+        "yamazaki-12": ("/articles/yamazaki-nv-kaitori/", "年代表記のない「山崎」（ノンエイジ／NV）をお探しの方はこちら", "山崎ノンエイジの買取相場ガイド"),
+        "yamazaki-18": ("/articles/yamazaki-nv-kaitori/", "年代表記のない「山崎」（ノンエイジ／NV）をお探しの方はこちら", "山崎ノンエイジの買取相場ガイド"),
+        "yamazaki-25": ("/articles/yamazaki-nv-kaitori/", "年代表記のない「山崎」（ノンエイジ／NV）をお探しの方はこちら", "山崎ノンエイジの買取相場ガイド"),
+        "hakushu-12": ("/articles/hakushu-nv-kaitori/", "年代表記のない「白州」（ノンエイジ／NV）をお探しの方はこちら", "白州ノンエイジの買取相場ガイド"),
+        "hakushu-18": ("/articles/hakushu-nv-kaitori/", "年代表記のない「白州」（ノンエイジ／NV）をお探しの方はこちら", "白州ノンエイジの買取相場ガイド"),
+        "hibiki-17": ("/articles/hibiki-nv-kaitori/", "年代表記のない「響」（Japanese Harmony等のNV）をお探しの方はこちら", "響ノンエイジの買取相場ガイド"),
+        "hibiki-21": ("/articles/hibiki-nv-kaitori/", "年代表記のない「響」（Japanese Harmony等のNV）をお探しの方はこちら", "響ノンエイジの買取相場ガイド"),
+        "hibiki-30": ("/articles/hibiki-nv-kaitori/", "年代表記のない「響」（Japanese Harmony等のNV）をお探しの方はこちら", "響ノンエイジの買取相場ガイド"),
+        "yoichi-10": ("/articles/yoichi-nv-kaitori/", "年代表記のない「余市」（ノンエイジ／NV）をお探しの方はこちら", "余市ノンエイジの買取相場ガイド"),
+        "yoichi-15": ("/articles/yoichi-nv-kaitori/", "年代表記のない「余市」（ノンエイジ／NV）をお探しの方はこちら", "余市ノンエイジの買取相場ガイド"),
+        "yoichi-20": ("/articles/yoichi-nv-kaitori/", "年代表記のない「余市」（ノンエイジ／NV）をお探しの方はこちら", "余市ノンエイジの買取相場ガイド"),
+        "miyagikyo-12": ("/articles/miyagikyo-nv-kaitori/", "年代表記のない「宮城峡」（ノンエイジ／NV）をお探しの方はこちら", "宮城峡ノンエイジの買取相場ガイド"),
+        "miyagikyo-15": ("/articles/miyagikyo-nv-kaitori/", "年代表記のない「宮城峡」（ノンエイジ／NV）をお探しの方はこちら", "宮城峡ノンエイジの買取相場ガイド"),
+        # NV→年代付き代表（逆方向の回遊）
+        "yamazaki-nv": ("/articles/yamazaki-12-kaitori/", "「12年」など熟成年数の表記がある山崎をお探しの方はこちら", "山崎12年の買取相場ガイド"),
+        "hakushu-nv": ("/articles/hakushu-12-kaitori/", "「12年」など熟成年数の表記がある白州をお探しの方はこちら", "白州12年の買取相場ガイド"),
+        "hibiki-nv": ("/articles/hibiki-17-kaitori/", "「17年」など熟成年数の表記がある響をお探しの方はこちら", "響17年の買取相場ガイド"),
+        "yoichi-nv": ("/articles/yoichi-10-kaitori/", "「10年」など熟成年数の表記がある余市をお探しの方はこちら", "余市10年の買取相場ガイド"),
+        "miyagikyo-nv": ("/articles/miyagikyo-12-kaitori/", "「12年」など熟成年数の表記がある宮城峡をお探しの方はこちら", "宮城峡12年の買取相場ガイド"),
+        # スコッチ系: 年代指定なしクエリの誤着地→NVハブ（該当NV銘柄ページが無いため解説+一覧で受ける）
+        "springbank-15": ("/articles/whisky-nv-toha/", "年代表記のないスプリングバンクの売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください", "年代指定なし（NV）ウイスキーの買取ガイド"),
+        "springbank-21": ("/articles/whisky-nv-toha/", "年代表記のないスプリングバンクの売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください", "年代指定なし（NV）ウイスキーの買取ガイド"),
+        "bowmore-18": ("/articles/whisky-nv-toha/", "年代表記のないボウモア（No.1等）の売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください", "年代指定なし（NV）ウイスキーの買取ガイド"),
+        "bowmore-25": ("/articles/whisky-nv-toha/", "年代表記のないボウモア（No.1等）の売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください", "年代指定なし（NV）ウイスキーの買取ガイド"),
+        "bowmore-blackbowmore": ("/articles/whisky-nv-toha/", "年代表記のないボウモア（No.1等）の売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください", "年代指定なし（NV）ウイスキーの買取ガイド"),
     }
     intent_split_block = ""
     if slug_base in INTENT_SPLIT:
         _tgt, _lead, _lbl = INTENT_SPLIT[slug_base]
         intent_split_block = f'''
           <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
-            <p className="text-sm text-ink">🔀 {_lead} → <Link href="/articles/{_tgt}-kaitori/" className="text-amber-dark underline font-bold">{_lbl}</Link></p>
+            <p className="text-sm text-ink">🔀 {_lead} → <Link href="{_tgt}" className="text-amber-dark underline font-bold">{_lbl}</Link></p>
           </div>
 '''
 

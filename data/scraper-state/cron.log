@@ -414,3 +414,60 @@
 ⚠️  DISCORD_WEBHOOK_URL 未設定 — 通知スキップ
 
 ✅ 完了。変動検知: 0/50件
+🔍 PeatBid Level 3 Monitor — 2026-07-10 09:00:02
+   監視対象: 50銘柄
+  [1/50] 山崎NV ❌ parse failed
+  [2/50] 山崎12年 ❌ parse failed
+  [3/50] 山崎18年 ❌ parse failed
+  [4/50] 山崎25年 ❌ parse failed
+  [5/50] 山崎55年 ❌ parse failed
+  [6/50] 響NV ❌ parse failed
+  [7/50] 響17年 ❌ parse failed
+  [8/50] 響21年 ❌ parse failed
+  [9/50] 響30年 ❌ parse failed
+  [10/50] 白州NV ❌ parse failed
+  [11/50] 白州12年 ❌ parse failed
+  [12/50] 白州18年 ❌ parse failed
+  [13/50] 白州25年 ❌ parse failed
+  [14/50] 竹鶴ピュアモルト ❌ parse failed
+  [15/50] 竹鶴17年 ❌ parse failed
+  [16/50] 竹鶴21年 ❌ parse failed
+  [17/50] 竹鶴25年 ❌ parse failed
+  [18/50] 余市NV ❌ parse failed
+  [19/50] 余市10年 ❌ parse failed
+  [20/50] 余市15年 ❌ parse failed
+  [21/50] 余市20年 ❌ parse failed
+  [22/50] 宮城峡NV ❌ parse failed
+  [23/50] 宮城峡12年 ❌ parse failed
+  [24/50] 宮城峡15年 ❌ parse failed
+  [25/50] 軽井沢12年 ❌ parse failed
+  [26/50] 軽井沢30年 ❌ parse failed
+  [27/50] 羽生カード ❌ parse failed
+  [28/50] 秩父ザファースト ❌ parse failed
+  [29/50] イチローズモルト カード ❌ parse failed
+  [30/50] イチローズ ダブルディスティラリーズ ❌ parse failed
+  [31/50] イチローズMWR ❌ parse failed
+  [32/50] マルス駒ヶ岳 ❌ parse failed
+  [33/50] マッカラン12年 ❌ parse failed
+  [34/50] マッカラン18年 ❌ parse failed
+  [35/50] マッカラン25年 ❌ parse failed
+  [36/50] マッカラン30年 ❌ parse failed
+  [37/50] マッカラン Fine&Rare ❌ parse failed
+  [38/50] ボウモア18年 ❌ parse failed
+  [39/50] ボウモア25年 ❌ parse failed
+  [40/50] ブラックボウモア ❌ parse failed
+  [41/50] アードベッグ ウーガダール ❌ parse failed
+  [42/50] アードベッグ コリーヴレッカン ❌ parse failed
+  [43/50] スプリングバンク15年 ❌ parse failed
+  [44/50] スプリングバンク21年 ❌ parse failed
+  [45/50] ラフロイグ25年 ❌ parse failed
+  [46/50] タリスカー25年 ❌ parse failed
+  [47/50] グレンフィディック30年 ❌ parse failed
+  [48/50] グレンファークラス25年 ❌ parse failed
+  [49/50] バルヴェニー ポートウッド21年 ❌ parse failed
+  [50/50] グレンモーレンジ シグネット ❌ parse failed
+
+📝 提案レポート: /Users/takashi.hasegawa/projects/peatbid/data/scraper-state/proposals/2026-07-10.md
+⚠️  DISCORD_WEBHOOK_URL 未設定 — 通知スキップ
+
+✅ 完了。変動検知: 0/50件

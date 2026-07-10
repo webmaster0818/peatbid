@@ -70,6 +70,10 @@ export default function MiyagikyoNvKaitoriPage() {
 
           <p>なお、宮城峡ノンエイジはラベルに熟成年数の表記がないボトルで、オークションや買取店では「<strong>宮城峡 年代指定なし</strong>」「<strong>宮城峡 NV（ノンヴィンテージ）</strong>」とも表記されます。いずれも本ページの相場が目安になります。</p>
 
+          <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
+            <p className="text-sm text-ink">🔀 「12年」など熟成年数の表記がある宮城峡をお探しの方はこちら → <Link href="/articles/miyagikyo-12-kaitori/" className="text-amber-dark underline font-bold">宮城峡12年の買取相場ガイド</Link></p>
+          </div>
+
 
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。宮城峡ノンエイジは希少度<strong>コモン</strong>クラスに位置し、現行品として安定流通しているが、銘柄によってはプレミア化の兆しあり。市場価値は中位だが、コレクター入門品として安定需要を持つ。</p>
 
