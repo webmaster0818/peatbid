@@ -3,9 +3,9 @@
  "base_date": "2026-05-25",
  "latest_date": "2026-07-06",
  "constituents": {
-  "total": 42,
+  "total": 41,
   "japanese": 26,
-  "scotch": 16
+  "scotch": 15
  },
  "slugs": [
   "ardbeg-corryvreckan",
@@ -42,7 +42,6 @@
   "taketsuru-21",
   "taketsuru-25",
   "taketsuru-pure",
-  "talisker-25",
   "yamazaki-12",
   "yamazaki-18",
   "yamazaki-25",
@@ -58,27 +57,27 @@
   },
   {
    "date": "2026-06-01",
-   "index": 99.78
+   "index": 99.82
   },
   {
    "date": "2026-06-08",
-   "index": 99.77
+   "index": 99.69
   },
   {
    "date": "2026-06-15",
-   "index": 100.23
+   "index": 100.13
   },
   {
    "date": "2026-06-22",
-   "index": 110.77
+   "index": 100.55
   },
   {
    "date": "2026-06-29",
-   "index": 114.21
+   "index": 102.17
   },
   {
    "date": "2026-07-06",
-   "index": 115.3
+   "index": 102.95
   }
  ],
  "japanese": [
@@ -118,27 +117,27 @@
   },
   {
    "date": "2026-06-01",
-   "index": 100.01
+   "index": 100.12
   },
   {
    "date": "2026-06-08",
-   "index": 100.0
+   "index": 99.81
   },
   {
    "date": "2026-06-15",
-   "index": 101.03
+   "index": 100.84
   },
   {
    "date": "2026-06-22",
-   "index": 128.29
+   "index": 101.52
   },
   {
    "date": "2026-06-29",
-   "index": 135.06
+   "index": 103.55
   },
   {
    "date": "2026-07-06",
-   "index": 136.73
+   "index": 104.39
   }
  ]
 }

@@ -13,16 +13,32 @@ cat = {}
 for r in csv.DictReader(open(os.path.join(ROOT, "data", "brands.csv"))):
     cat[r["slug"]] = r["category"]
 
+# 品質ゲート（旧実装cca84b19から移植）: 明示除外リスト＋insufficient除外＋系列不連続3倍検知
+import sys
+sys.path.insert(0, os.path.join(ROOT, "scripts"))
+try:
+    from opportunity_band import DATA_QUALITY_EXCLUDE  # noqa: E402
+except Exception:
+    DATA_QUALITY_EXCLUDE = set()
+SERIES_JUMP_RATIO = 3.0
+
 series = {}  # slug -> {date: median}
 for f in glob.glob(os.path.join(ROOT, "data", "price-history", "*.json")):
     d = json.load(open(f))
     if "slug" not in d:  # _index.json等のメタファイルはスキップ
         continue
     slug = d["slug"]
+    if slug in DATA_QUALITY_EXCLUDE:
+        continue
+    if (d.get("latest") or {}).get("insufficient"):
+        continue
     hist = {h["date"]: h for h in d.get("history", [])}
     # 全週で sample_n>=20 の銘柄のみ採用
     if not hist or any(h.get("sample_n", 0) < 20 or not h.get("median_jpy") for h in hist.values()):
         continue
+    vals = [hist[k]["median_jpy"] for k in sorted(hist)]
+    if any(max(a, b2) / max(1, min(a, b2)) > SERIES_JUMP_RATIO for a, b2 in zip(vals, vals[1:])):
+        continue  # 系列不連続＝汚染疑い
     series[slug] = {dt: h["median_jpy"] for dt, h in hist.items()}
 
 # 最頻の週セットを基準とし、その全週を持つ銘柄のみ採用（構成の一貫性を守る）
