@@ -37,7 +37,7 @@ export default function Glenfiddich30HakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンフィディック30年が箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-06 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-13 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Glenfiddich30HakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">グレンフィディック30年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 30年熟成 / 希少度 ハイ / 市場相場 70,011円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 30年熟成 / 希少度 ハイ / 市場相場 68,005円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/glenfiddich-30-kaitori/" className="text-amber-dark underline">グレンフィディック30年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Glenfiddich30HakoNashiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンフィディック30年の落札が約30件確認でき、落札額の中央値は70,011円でした。流通量がやや限定的で希少性が高めの銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンフィディック30年の落札が約32件確認でき、落札額の中央値は68,005円でした。流通量がやや限定的で希少性が高めの銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -106,12 +106,12 @@ export default function Glenfiddich30HakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. グレンフィディック30年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンフィディック30年</strong>はスコッチウイスキー（スペイサイド）の30年熟成、度数40%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>70,011円</strong>（流通サンプル30件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限定的で、コンディション次第で査定が伸びやすい傾向です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンフィディック30年</strong>はスコッチウイスキー（スペイサイド）の30年熟成、度数40%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>68,005円</strong>（流通サンプル32件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限定的で、コンディション次第で査定が伸びやすい傾向です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>グレンフィディック30年の場合、実勢中央値<strong>70,011円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 70,011円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約59,510〜66,510円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約59,510〜64,410円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約56,010〜63,010円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約52,510〜59,510円（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>グレンフィディック30年の場合、実勢中央値<strong>68,005円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 68,005円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約57,800〜64,600円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約57,800〜62,560円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約54,400〜61,200円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約51,000〜57,800円（75〜85%）
 
-つまり付属品の有無だけで、最大で<strong>約17,500円（相場の約25%）の差</strong>が生じ得ます。</li></ol>` }} />
+つまり付属品の有無だけで、最大で<strong>約17,000円（相場の約25%）の差</strong>が生じ得ます。</li></ol>` }} />
 
           <h2 id="section-2">3. なぜ外箱が重要なのか</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は単なる包装ではなく、<strong>コレクター品の完全性</strong>を示す重要な要素です:</p><ol><li><strong>二次流通市場での評価</strong> — 海外コレクターは特にフルセット重視</li><li><strong>真贋判定の手がかり</strong> — 箱と本体の合致が本物の証</li><li><strong>保管時の保護機能</strong> — 直射日光・摩擦・埃から守る</li><li><strong>付属品の収納</strong> — 冊子・カートンの一括管理</li><li><strong>贈答品としての価値</strong> — 箱なしは贈り物として再販困難
@@ -184,7 +184,7 @@ export default function Glenfiddich30HakoNashiPage() {
             <Link href="/articles/glenfiddich-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">グレンフィディック30年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-06）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-13）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

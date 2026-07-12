@@ -46,12 +46,18 @@
       "median_jpy": 21109,
       "sample_n": 232,
       "raw_n": 298
+    },
+    {
+      "date": "2026-07-13",
+      "median_jpy": 21099,
+      "sample_n": 230,
+      "raw_n": 298
     }
   ],
   "latest": {
-    "date": "2026-07-06",
-    "median_jpy": 21109,
-    "sample_n": 232,
+    "date": "2026-07-13",
+    "median_jpy": 21099,
+    "sample_n": 230,
     "raw_n": 298,
     "insufficient": false
   },

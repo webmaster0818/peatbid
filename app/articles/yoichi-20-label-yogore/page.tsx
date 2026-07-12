@@ -37,7 +37,7 @@ export default function Yoichi20LabelYogorePage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">余市20年のラベル汚れ・破れがあっても売れる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-06 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-13 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Yoichi20LabelYogorePage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">余市20年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 20年熟成 / 希少度 ウルトラ / 市場相場 218,185円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 20年熟成 / 希少度 ウルトラ / 市場相場 250,861円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yoichi-20-kaitori/" className="text-amber-dark underline">余市20年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Yoichi20LabelYogorePage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは余市20年の落札が約52件確認でき、落札額の中央値は218,185円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは余市20年の落札が約52件確認でき、落札額の中央値は250,861円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -106,13 +106,13 @@ export default function Yoichi20LabelYogorePage() {
           </div>
 
           <h2 id="section-0">1. 余市20年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>余市20年</strong>はジャパニーズウイスキー（余市蒸溜所）の20年熟成、度数52%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>218,185円</strong>（流通サンプル52件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>余市20年</strong>はジャパニーズウイスキー（余市蒸溜所）の20年熟成、度数52%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>250,861円</strong>（流通サンプル52件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. ラベル状態の判定基準</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ラベルは「コレクター品の顔」とも言える重要な要素です。買取査定では以下の状態を確認:</p><ol><li><strong>新品同様</strong> — 印刷鮮明、シワ・汚れ・破れなし</li><li><strong>軽度の汚れ</strong> — 表面の埃・指紋・若干の変色</li><li><strong>シミ・水濡れ跡</strong> — 液体接触の痕跡</li><li><strong>破れ・欠け・剥がれ</strong> — 物理的損傷</li><li><strong>強い退色</strong> — 直射日光や蛍光灯による色あせ</li><li><strong>カビ・カビ跡</strong> — 湿度過多による劣化</li><li><strong>粘着テープ跡</strong> — 不適切な貼付・剥離跡</li></ol>` }} />
 
           <h2 id="section-2">3. ラベル状態別の査定額目安（余市20年）</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>余市20年の実勢中央値<strong>218,185円</strong>（新品同様=100%）に対し、ラベル状態でこう変動します:</p><ol><li><strong>新品同様</strong>: 218,185円（100%）</li><li><strong>軽度の汚れ</strong>: 約196,370円（90%程度）</li><li><strong>シミ・水濡れ跡</strong>: 約174,550円（80%程度）</li><li><strong>破れ・欠け</strong>: 約141,820円（65%程度）</li><li><strong>強い退色・大きな損傷</strong>: 約109,090円（50%程度）</li><li><strong>ラベル剥がれ（残あり）</strong>: 約87,270円（40%程度）</li><li><strong>ラベル完全消失</strong>: 約43,640円（20%程度、ヴィンテージ価値あれば例外）</li></ol>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>余市20年の実勢中央値<strong>250,861円</strong>（新品同様=100%）に対し、ラベル状態でこう変動します:</p><ol><li><strong>新品同様</strong>: 250,861円（100%）</li><li><strong>軽度の汚れ</strong>: 約225,770円（90%程度）</li><li><strong>シミ・水濡れ跡</strong>: 約200,690円（80%程度）</li><li><strong>破れ・欠け</strong>: 約163,060円（65%程度）</li><li><strong>強い退色・大きな損傷</strong>: 約125,430円（50%程度）</li><li><strong>ラベル剥がれ（残あり）</strong>: 約100,340円（40%程度）</li><li><strong>ラベル完全消失</strong>: 約50,170円（20%程度、ヴィンテージ価値あれば例外）</li></ol>` }} />
 
           <h2 id="section-3">4. ラベル損傷が起きやすい原因</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>主な原因</strong>:</p><ol><li><strong>直射日光・蛍光灯</strong> — 退色・脆化</li><li><strong>湿度の高い場所</strong> — シミ・カビ</li><li><strong>段ボール直置き</strong> — シミ・吸湿</li><li><strong>粘着テープの貼り付け</strong> — 剥がし跡</li><li><strong>タンスや棚の埃</strong> — 表面汚れ</li><li><strong>指で頻繁に触る</strong> — 油脂による変色</li><li><strong>温度変化</strong> — ラベルの剥がれ</li><li><strong>化学物質の接触</strong> — 洗剤・芳香剤の蒸気</li></ol>` }} />
@@ -176,7 +176,7 @@ export default function Yoichi20LabelYogorePage() {
             <Link href="/articles/yoichi-20-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">余市20年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-06）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-13）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

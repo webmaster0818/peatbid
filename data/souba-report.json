@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-06",
+  "updated": "2026-07-13",
   "base_date": "2026-05-25",
-  "weeks": 5,
+  "weeks": 6,
   "n_brands": 42,
   "excluded": {
     "data_quality": [
@@ -52,11 +52,16 @@
         "date": "2026-07-06",
         "value": 102.88,
         "n": 42
+      },
+      {
+        "date": "2026-07-13",
+        "value": 101.53,
+        "n": 42
       }
     ],
-    "latest": 102.88,
-    "change_1w_pct": 2.75,
-    "change_4w_pct": 2.88
+    "latest": 101.53,
+    "change_1w_pct": -1.31,
+    "change_4w_pct": 1.7
   },
   "categories": {
     "japanese-whisky": {
@@ -87,10 +92,15 @@
           "date": "2026-07-06",
           "value": 102.05,
           "n": 27
+        },
+        {
+          "date": "2026-07-13",
+          "value": 99.52,
+          "n": 27
         }
       ],
-      "latest": 102.05,
-      "change_1w_pct": 2.32
+      "latest": 99.52,
+      "change_1w_pct": -2.48
     },
     "scotch-whisky": {
       "label": "スコッチ",
@@ -120,115 +130,120 @@
           "date": "2026-07-06",
           "value": 104.39,
           "n": 15
+        },
+        {
+          "date": "2026-07-13",
+          "value": 105.14,
+          "n": 15
         }
       ],
-      "latest": 104.39,
-      "change_1w_pct": 3.52
+      "latest": 105.14,
+      "change_1w_pct": 0.72
     }
   },
   "movers": {
     "up": [
       {
-        "slug": "taketsuru-pure",
-        "name": "竹鶴ピュアモルト",
+        "slug": "yoichi-20",
+        "name": "余市20年",
         "category": "japanese-whisky",
-        "median": 13800,
-        "prev_median": 7150,
-        "diff_jpy": 6650,
-        "change_pct": 93.01,
-        "sample_n": 292
-      },
-      {
-        "slug": "bowmore-25",
-        "name": "ボウモア25年",
-        "category": "scotch-whisky",
-        "median": 60000,
-        "prev_median": 46050,
-        "diff_jpy": 13950,
-        "change_pct": 30.29,
-        "sample_n": 78
+        "median": 250861,
+        "prev_median": 218185,
+        "diff_jpy": 32676,
+        "change_pct": 14.98,
+        "sample_n": 52
       },
       {
         "slug": "macallan-12",
         "name": "マッカラン12年",
         "category": "scotch-whisky",
-        "median": 10197,
-        "prev_median": 9133,
-        "diff_jpy": 1064,
-        "change_pct": 11.65,
-        "sample_n": 290
+        "median": 10888,
+        "prev_median": 10197,
+        "diff_jpy": 691,
+        "change_pct": 6.78,
+        "sample_n": 294
       },
       {
-        "slug": "hanyu-card",
-        "name": "羽生カードシリーズ",
-        "category": "japanese-whisky",
-        "median": 8041,
-        "prev_median": 7275,
-        "diff_jpy": 766,
-        "change_pct": 10.53,
-        "sample_n": 276
+        "slug": "bowmore-25",
+        "name": "ボウモア25年",
+        "category": "scotch-whisky",
+        "median": 62500,
+        "prev_median": 60000,
+        "diff_jpy": 2500,
+        "change_pct": 4.17,
+        "sample_n": 76
       },
       {
         "slug": "macallan-25",
         "name": "マッカラン25年",
         "category": "scotch-whisky",
-        "median": 190000,
-        "prev_median": 174000,
-        "diff_jpy": 16000,
-        "change_pct": 9.2,
-        "sample_n": 174
+        "median": 193000,
+        "prev_median": 190000,
+        "diff_jpy": 3000,
+        "change_pct": 1.58,
+        "sample_n": 172
+      },
+      {
+        "slug": "yoichi-15",
+        "name": "余市15年",
+        "category": "japanese-whisky",
+        "median": 79200,
+        "prev_median": 78210,
+        "diff_jpy": 990,
+        "change_pct": 1.27,
+        "sample_n": 58
       }
     ],
     "down": [
       {
+        "slug": "taketsuru-pure",
+        "name": "竹鶴ピュアモルト",
+        "category": "japanese-whisky",
+        "median": 8500,
+        "prev_median": 13800,
+        "diff_jpy": -5300,
+        "change_pct": -38.41,
+        "sample_n": 296
+      },
+      {
         "slug": "yamazaki-25",
         "name": "山崎25年",
         "category": "japanese-whisky",
-        "median": 36000,
-        "prev_median": 80300,
-        "diff_jpy": -44300,
-        "change_pct": -55.17,
-        "sample_n": 210
+        "median": 32575,
+        "prev_median": 36000,
+        "diff_jpy": -3425,
+        "change_pct": -9.51,
+        "sample_n": 200
       },
       {
-        "slug": "hibiki-nv",
-        "name": "響ジャパニーズハーモニー",
+        "slug": "ichirosu-double-distilleries",
+        "name": "イチローズモルト ダブルディスティラリーズ",
         "category": "japanese-whisky",
-        "median": 10501,
-        "prev_median": 11660,
-        "diff_jpy": -1159,
-        "change_pct": -9.94,
-        "sample_n": 228
+        "median": 10500,
+        "prev_median": 10998,
+        "diff_jpy": -498,
+        "change_pct": -4.53,
+        "sample_n": 248
       },
       {
-        "slug": "hibiki-30",
-        "name": "響30年",
-        "category": "japanese-whisky",
-        "median": 533500,
-        "prev_median": 548182,
-        "diff_jpy": -14682,
-        "change_pct": -2.68,
-        "sample_n": 72
-      },
-      {
-        "slug": "yoichi-10",
-        "name": "余市10年",
-        "category": "japanese-whisky",
-        "median": 22000,
-        "prev_median": 22565,
-        "diff_jpy": -565,
-        "change_pct": -2.5,
-        "sample_n": 262
-      },
-      {
-        "slug": "bowmore-18",
-        "name": "ボウモア18年",
+        "slug": "glenfiddich-30",
+        "name": "グレンフィディック30年",
         "category": "scotch-whisky",
-        "median": 11000,
-        "prev_median": 11182,
-        "diff_jpy": -182,
-        "change_pct": -1.63,
-        "sample_n": 214
+        "median": 68005,
+        "prev_median": 70011,
+        "diff_jpy": -2006,
+        "change_pct": -2.87,
+        "sample_n": 32
+      },
+      {
+        "slug": "miyagikyo-15",
+        "name": "宮城峡15年",
+        "category": "japanese-whisky",
+        "median": 67100,
+        "prev_median": 68805,
+        "diff_jpy": -1705,
+        "change_pct": -2.48,
+        "sample_n": 22
       }
     ]
   },

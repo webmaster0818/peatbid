@@ -37,7 +37,7 @@ export default function Springbank21KihakuPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">スプリングバンク21年の希少性と投資価値</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-06 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-13 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Springbank21KihakuPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">スプリングバンク21年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / キャンベルタウン / 21年熟成 / 希少度 ハイ / 市場相場 98,999円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / キャンベルタウン / 21年熟成 / 希少度 ハイ / 市場相場 99,500円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/springbank-21-kaitori/" className="text-amber-dark underline">スプリングバンク21年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -64,11 +64,11 @@ export default function Springbank21KihakuPage() {
             </ol>
           </div>
 
-          <p>スプリングバンク21年は希少度高希少クラスのボトル。直近の実勢中央値は約98,999円で、投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
+          <p>スプリングバンク21年は希少度高希少クラスのボトル。直近の実勢中央値は約99,500円で、投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではスプリングバンク21年の落札が約68件確認でき、落札額の中央値は98,999円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではスプリングバンク21年の落札が約60件確認でき、落札額の中央値は99,500円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -78,7 +78,7 @@ export default function Springbank21KihakuPage() {
           </div>
 
           <h2 id="section-0">1. スプリングバンク21年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>スプリングバンク21年</strong>はスコッチウイスキー（キャンベルタウン）の21年熟成、度数46%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>98,999円</strong>（流通サンプル68件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（キャンベルタウン）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>スプリングバンク21年</strong>はスコッチウイスキー（キャンベルタウン）の21年熟成、度数46%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>99,500円</strong>（流通サンプル60件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（キャンベルタウン）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 希少性のランク評価</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>スプリングバンク21年は希少度カテゴリで「<strong>高希少</strong>」に分類されます。希少度は以下の4要素で決まります:</p><ol><li>生産終了・休売の有無</li><li>市場流通量</li><li>コレクター需要</li><li>国際的評価
@@ -153,7 +153,7 @@ export default function Springbank21KihakuPage() {
             <Link href="/articles/springbank-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋ハブ</span><p className="text-sm font-bold mt-1">スプリングバンク（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-06）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-13）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>
