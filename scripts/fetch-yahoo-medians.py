@@ -35,6 +35,11 @@ UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML,
 # Brand query mapping (slug -> base query). Aligned with level3-monitor.py
 BRAND_QUERIES = {
     "yamazaki-nv": "山崎 ノンエイジ ウイスキー",
+    "bowmore-nv": "ボウモア No.1 700ml",
+    "talisker-nv": "タリスカー ストーム 700ml",
+    "laphroaig-nv": "ラフロイグ セレクト 700ml",
+    "glenfarclas-nv": "グレンファークラス 105 700ml",
+    "springbank-10": "スプリングバンク10年 700ml",
     "yamazaki-12": "山崎12年",
     "yamazaki-18": "山崎18年",
     "yamazaki-25": "山崎25年",

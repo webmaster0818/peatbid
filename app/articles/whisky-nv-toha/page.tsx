@@ -113,8 +113,12 @@ export default function Page() {
           <li><Link href="/articles/yoichi-nv-kaitori/">余市 ノンエイジ（NV）</Link></li>
           <li><Link href="/articles/miyagikyo-nv-kaitori/">宮城峡 ノンエイジ（NV）</Link></li>
           <li><Link href="/articles/glenfarclas-105-kaitori/">グレンファークラス105（年代指定なし）</Link></li>
-          <li><Link href="/articles/bowmore-blackbowmore-kaitori/">ボウモア</Link>（年代表記のないNo.1等は要査定）</li>
-          <li><Link href="/articles/springbank-15-kaitori/">スプリングバンク</Link>（年代指定なしの問い合わせが多い銘柄）</li>
+          <li><Link href="/articles/glenfarclas-nv-kaitori/">グレンファークラス 年代指定なし（105等のボトルの見分け方と実勢価格）</Link></li>
+          <li><Link href="/articles/bowmore-nv-kaitori/">ボウモア 年代指定なし（No.1・スモールバッチ等）</Link></li>
+          <li><Link href="/articles/talisker-nv-kaitori/">タリスカー 年代指定なし（ストーム・スカイ・ポートリー等）</Link></li>
+          <li><Link href="/articles/laphroaig-nv-kaitori/">ラフロイグ 年代指定なし（セレクト・クォーターカスク等）</Link></li>
+          <li><Link href="/articles/springbank-kaitori/">スプリングバンク 年代指定なし</Link></li>
+          <li><Link href="/articles/springbank-nv-kaitori/">スプリングバンク 年代指定なし（ボトルの見分け方と実勢価格）</Link></li>
         </ul>
         <p>銘柄ごとの実勢中央値・流通量は <Link href="/souba-ranking/">相場ランキング</Link> でまとめて確認できます。</p>
 

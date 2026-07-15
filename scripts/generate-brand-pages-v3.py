@@ -373,6 +373,19 @@ def render_page(b, all_brands):
           </div>
 '''
 
+    # 2026-07-15: 年代指定なし(NV)専用ページへの導線1文（GSC「◯◯ 年代指定なし 買取」クエリの受け皿。
+    # glenfarclas-nv-kaitori / springbank-nv-kaitori は手書きページ＝週次再生成の対象外。リンク先変更時はここも更新）
+    NV_GUIDE = {
+        "glenfarclas-25": ("/articles/glenfarclas-nv-kaitori/", "グレンファークラスの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格"),
+        "springbank-15": ("/articles/springbank-nv-kaitori/", "スプリングバンクの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格"),
+        "springbank-21": ("/articles/springbank-nv-kaitori/", "スプリングバンクの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格"),
+    }
+    if slug_base in NV_GUIDE:
+        _ntgt, _nlbl = NV_GUIDE[slug_base]
+        intent_split_block += f'''
+          <p className="text-sm text-warm-gray my-4">年代表記が見当たらないボトルの正体と実勢価格は <Link href="{_ntgt}" className="text-amber-dark underline">{_nlbl}</Link> で詳しく解説しています。</p>
+'''
+
     faqs = [
         (f"{name}の市場相場はいくらですか？",
          f"{name}の市場相場は{market_str}。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各業者のページで直接ご確認ください。"),
