@@ -144,9 +144,14 @@ export default function Page() {
             {/* priority-cluster-links-202607 */}
       <section className="my-8 rounded-2xl border border-amber/40 bg-cream/50 p-6">
         <h2 className="font-display text-lg font-bold text-ink mb-3 !mt-0">注目の買取相場（強化クラスタ）</h2>
-        <p className="text-sm text-ink/70 mb-3">「年代指定なし（ノンエイジ／NV）」で検索されやすい主要銘柄の買取相場です。実勢中央値をもとに更新しています。</p>
+        <p className="text-sm text-ink/70 mb-3">「年代指定なし（ノンエイジ／NV）」で検索されやすいスコッチ・ジャパニーズの主要銘柄の買取相場です。実勢中央値をもとに更新しています。</p>
         <ul className="space-y-2 text-sm">
+          <li><Link href="/articles/glenfarclas-25-kaitori/" className="text-amber-dark underline">グレンファークラス（25年ほか）の買取相場</Link></li>
           <li><Link href="/articles/glenfarclas-105-kaitori/" className="text-amber-dark underline">グレンファークラス105（カスクストレングス・年代指定なし）の買取相場</Link></li>
+          <li><Link href="/articles/springbank-15-kaitori/" className="text-amber-dark underline">スプリングバンク（15年ほか）の買取相場</Link></li>
+          <li><Link href="/articles/bowmore-18-kaitori/" className="text-amber-dark underline">ボウモア（18年ほか）の買取相場</Link></li>
+          <li><Link href="/articles/ardbeg-uigeadail-kaitori/" className="text-amber-dark underline">アードベッグ ウーガダール（年代指定なし）の買取相場</Link></li>
+          <li><Link href="/articles/glenfiddich-30-kaitori/" className="text-amber-dark underline">グレンフィディック30年の買取相場</Link></li>
           <li><Link href="/articles/yamazaki-nv-kaitori/" className="text-amber-dark underline">山崎ノンエイジ（NV・年代指定なし）の買取相場</Link></li>
           <li><Link href="/articles/hakushu-nv-kaitori/" className="text-amber-dark underline">白州ノンエイジ（NV・年代指定なし）の買取相場</Link></li>
         </ul>
