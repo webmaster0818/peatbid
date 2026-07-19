@@ -11,7 +11,7 @@ function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'ボウモアの偽物はどのくらい出回っていますか？', "acceptedAnswer": { "@type": "Answer", "text": 'ジャパニーズウイスキー・人気スコッチのブームで二次流通価格が高騰した銘柄では、海外を中心に贋作の流通が確認されています。ボウモアは人気・高額帯のため、特に個人間取引（フリマ・オークションの無名出品）では注意が必要です。正規流通・信頼できるオークション経由であればリスクは大きく下がります。' } }, { "@type": "Question", "name": 'ボウモアが本物か確認する一番確実な方法は？', "acceptedAnswer": { "@type": "Answer", "text": '最終的には専門家の確認が確実です。(1)お酒買取専門店（JOYLAB等）での無料鑑定査定、(2)メーカー公式お客様窓口へロット番号を伝えての確認、の2つが有効です。自分でできる一次チェックは、ラベル印刷・キャップ／封緘・液色と液面・底面刻印・購入経路の5点です（本記事で解説）。' } }, { "@type": "Question", "name": 'ボウモアを売る前に真贋の確認は必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、推奨します。万一偽物だと買取は拒否され、偽物と知りながら売却すると詐欺に問われる可能性もあります。少しでも不審な点があれば、売却前に専門店の無料鑑定で確認してから査定に出すのが安全です。' } }, { "@type": "Question", "name": 'ボウモアが偽物だった場合はどうすればいいですか？', "acceptedAnswer": { "@type": "Answer", "text": '(1)ボトル全体・ラベル・キャップ・底面刻印を高解像度で撮影して記録、(2)購入元へ返品・返金を交渉、(3)詐欺の疑いがあれば最寄りの警察署に相談、の順で対処してください。贋作と判明したボトルは売却せず、誠実に対応することが重要です。' } }, { "@type": "Question", "name": '正規ルートで買えばボウモアの偽物の心配はないですか？', "acceptedAnswer": { "@type": "Answer", "text": '正規流通店・百貨店・メーカー直販で購入したものは、贋作リスクは極めて低いと考えてよいです。リスクが高いのは、相場より極端に安い出品、無名の個人・海外通販、SNS/LINEでの直接取引などです。「他では手に入らない」と煽る相手も典型的な注意対象です。' } }] }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": 'ボウモアの偽物・贋作の見分け方', "datePublished": "2026-06-28", "dateModified": "2026-07-13", "author": {"@type": "Organization", "name": "PeatBid編集部"}, "publisher": {"@type": "Organization", "name": "PeatBid"}}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": 'ボウモアの偽物・贋作の見分け方', "datePublished": "2026-06-28", "dateModified": "2026-07-20", "author": {"@type": "Organization", "name": "PeatBid編集部"}, "publisher": {"@type": "Organization", "name": "PeatBid"}}) }} />
     </>
   );
 }
@@ -38,7 +38,7 @@ export default function BowmoreNisemonoMikataPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ボウモア（全種）の偽物・贋作の見分け方</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-13 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-20 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <p>ボウモアは人気・高額帯のため、二次流通で贋作リスクが意識される銘柄です。本記事では、ボウモアに共通する<strong>真贋チェック5点（ラベル・キャップ／封緘・液色／液面・底面刻印・購入経路）</strong>と、本物と確認できた後の売却手順を解説します。各ボトル（12年・18年・25年・NV等）の個別の見分け方・買取相場は、下記ハブから確認できます。なお<strong>真贋の最終判断は専門店の鑑定・メーカー確認</strong>をご利用ください（本記事は一般的な手引きです）。</p>
 

@@ -409,6 +409,19 @@ export default function HibikiNvKaitoriPage() {
             <Link href="/articles/chichibu-the-first-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">秩父ザファースト の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 78,650円</p></Link>
           </div>
 
+          <h2>年代指定なし・注目銘柄の買取相場</h2>
+          <p>「年代指定なし（ノンエイジ／NV）」で検索されやすい主要銘柄の実勢買取相場です。ジャパニーズ・スコッチを横断して毎週更新しています。</p>
+          <ul>
+              <li><Link href="/articles/yamazaki-nv-kaitori/" className="text-amber-dark hover:underline">山崎ノンエイジ（NV・年代指定なし）の買取相場</Link></li>
+              <li><Link href="/articles/hakushu-nv-kaitori/" className="text-amber-dark hover:underline">白州ノンエイジ（NV・年代指定なし）の買取相場</Link></li>
+              <li><Link href="/articles/glenfarclas-105-kaitori/" className="text-amber-dark hover:underline">グレンファークラス105（カスクストレングス・年代指定なし）の買取相場</Link></li>
+              <li><Link href="/articles/glenfarclas-25-kaitori/" className="text-amber-dark hover:underline">グレンファークラス（25年ほか）の買取相場</Link></li>
+              <li><Link href="/articles/springbank-15-kaitori/" className="text-amber-dark hover:underline">スプリングバンク（15年ほか）の買取相場</Link></li>
+              <li><Link href="/articles/bowmore-18-kaitori/" className="text-amber-dark hover:underline">ボウモア（18年ほか）の買取相場</Link></li>
+              <li><Link href="/articles/ardbeg-uigeadail-kaitori/" className="text-amber-dark hover:underline">アードベッグ ウーガダール（年代指定なし）の買取相場</Link></li>
+              <li><Link href="/articles/glenfiddich-30-kaitori/" className="text-amber-dark hover:underline">グレンフィディック30年の買取相場</Link></li>
+          </ul>
+
           <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-13）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
         </article>
       </div>

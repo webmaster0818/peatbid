@@ -47,6 +47,9 @@ BRANDS = [
     ("glenfarclas", "グレンファークラス", "glenfarclas-25", [
         ("glenfarclas-25", "グレンファークラス25年"), ("glenfarclas-105", "グレンファークラス105（年代指定なし）"),
     ]),
+    ("ardbeg", "アードベッグ", "ardbeg-uigeadail", [
+        ("ardbeg-uigeadail", "アードベッグ ウーガダール"), ("ardbeg-corryvreckan", "アードベッグ コリーヴレッカン"),
+    ]),
 ]
 
 FAQS = lambda n: [

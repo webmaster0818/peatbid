@@ -33,7 +33,20 @@ with open(DATA, "r", encoding="utf-8") as f:
     BRANDS = list(csv.DictReader(f))
 
 
-HUB_FAMILIES = {"yamazaki": "山崎", "hibiki": "響", "hakushu": "白州", "macallan": "マッカラン", "ichirosu": "イチローズモルト", "bowmore": "ボウモア", "springbank": "スプリングバンク", "glenfarclas": "グレンファークラス"}
+HUB_FAMILIES = {"yamazaki": "山崎", "hibiki": "響", "hakushu": "白州", "macallan": "マッカラン", "ichirosu": "イチローズモルト", "bowmore": "ボウモア", "springbank": "スプリングバンク", "glenfarclas": "グレンファークラス", "ardbeg": "アードベッグ"}
+
+# N1② 強化クラスタ（年代指定なし/NVの注目銘柄・カテゴリ横断で相互リンク集中）。
+# 勝ちページ(山崎/白州NV)⇄スコッチNVクラスタを全kaitoriページから相互リンクし内部リンクを集中させる。
+CLUSTER = [
+    ("yamazaki-nv", "山崎ノンエイジ（NV・年代指定なし）"),
+    ("hakushu-nv", "白州ノンエイジ（NV・年代指定なし）"),
+    ("glenfarclas-105", "グレンファークラス105（カスクストレングス・年代指定なし）"),
+    ("glenfarclas-25", "グレンファークラス（25年ほか）"),
+    ("springbank-15", "スプリングバンク（15年ほか）"),
+    ("bowmore-18", "ボウモア（18年ほか）"),
+    ("ardbeg-uigeadail", "アードベッグ ウーガダール（年代指定なし）"),
+    ("glenfiddich-30", "グレンフィディック30年"),
+]
 
 def md_to_html(text):
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
@@ -253,6 +266,12 @@ def render_page(b, all_brands):
             f'            <Link href="/articles/{r["slug"]}-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">{r["name_ja"]} の買取相場</p><p className="text-xs text-warm-gray mt-1">{rmed_label}</p></Link>'
         )
     related_links = "\n".join(related_links_parts)
+
+    # N1② カテゴリ横断クラスタ相互リンク（自ページは除外）
+    cluster_links = "\n".join(
+        f'              <li><Link href="/articles/{c[0]}-kaitori/" className="text-amber-dark hover:underline">{c[1]}の買取相場</Link></li>'
+        for c in CLUSTER if c[0] != slug_base
+    )
 
     # Angle links for this brand
     angle_links_inline = [
@@ -796,6 +815,12 @@ export default function {component_name}() {{
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
 {related_links}
           </div>
+
+          <h2>年代指定なし・注目銘柄の買取相場</h2>
+          <p>「年代指定なし（ノンエイジ／NV）」で検索されやすい主要銘柄の実勢買取相場です。ジャパニーズ・スコッチを横断して毎週更新しています。</p>
+          <ul>
+{cluster_links}
+          </ul>
 
           <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 {fetched_at}）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
         </article>
