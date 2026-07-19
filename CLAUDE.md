@@ -130,3 +130,10 @@ next-action-fusion-2026-06-30.md の①②③を実行。
 - **springbank-15/21ページ冒頭に意図分離コールアウト**(「年代指定なしはこちら」→受け皿)
 - **glenfarclas-25 description**: 25年=単一年代を明示し105(年代指定なし)との曖昧性解消(GF「年代指定なし」5クエリ106impが依然25年に誤着地・CTR0の緩和)
 - build EXIT0・方式B両push・受け皿本番200/実データ相場表確認・Indexing 4/4。効果1-2週GSC。**detect-mislandingを木曜GSC定例に組込めば受け皿候補が自動で積み上がる**(次の運用課題)。残=③真贋第2弾
+
+### 2026-07-19 N1① スコッチNVクラスタの内部リンク集中（MediaXAI「n1進めよう」）✅本番反映済み
+フルフュージョンN1＝スコッチNVクラスタ(グレンファークラス/スプリングバンク/ボウモア/アードベッグ/グレンフィディック)の1ページ目押し上げ。GSC実測で対象を確定：「{銘柄} 買取」「{銘柄} 年代指定なし 買取」が**pos9〜16・全て0click**、着地ページ=glenfarclas-25(154imp/10.6)・springbank-15(120/11.6・4click)・bowmore-18(67)・ardbeg-uigeadail(69/14.4)・glenfiddich-30(68/12.8)。
+- **実装＝「強化クラスタ」内部リンクブロックを3→8リンクに拡張**（`app/souba-ranking/page.tsx`＋`app/souba-hakusho/page.tsx`。**手書きpage.tsx＝週次cron上書き対象外**）。既存3(gf105/山崎NV/白州NV)＋**新規5スコッチ(glenfarclas-25/springbank-15/bowmore-18/ardbeg-uigeadail/glenfiddich-30)**。この2ハブはlayout hubLinksで全ページから到達＝サイト全体から5スコッチへ内部リンク集中。intro文もスコッチ言及に更新。
+- 条件受け皿は既存で充足（全5に-hako-nashi角度ページ有・gf/springbank/bowmoreはNV受け皿有）。titleも既に【毎週更新】…実数円基準で最適化済。
+- build EXIT0(heap12288)・方式B(.txt削除/--exclude functions,tier2・3171ファイル)・両push・本番souba-ranking 5/5リンク確認・Indexing API 7/7。効果1-2週GSC(5銘柄のpos・click)。
+- **残N1②**: ①勝ちページ(yamazaki-nv/hakushu-nv)→スコッチへの直接クロスリンク（generate-brand-pages-v3.pyは関連銘柄がcategoryロック=JP↔JP→cross-categoryモジュール追加が必要） ②ardbeg/glenfiddichはNV受け皿・真贋ハブ無し(低volだが構造ギャップ)。効果測定後に判断。
