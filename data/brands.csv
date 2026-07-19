@@ -1,52 +1,52 @@
 slug,name_ja,name_en,category,origin,age_years,bottle_size_ml,abv,rarity_tier,reference_price_jpy_2026_05,description,yahoo_auction_avg,yahoo_auction_count,buyback_estimate,data_quality,linxas_buyback_jpy,linxas_data_quality,linxas_url_exists,yahoo_median_jpy_180d,yahoo_sample_n,yahoo_fetched_at,yahoo_query_used
-yamazaki-nv,山崎ノンエイジ,Yamazaki NV,japanese-whisky,山崎蒸溜所,0,700,43,common,10100,サントリー山崎のノンエイジ。日本ウイスキーの代表的な定番品,14726,261,10100,linxas-verified,10100,variants=2,true,10175,258,2026-07-13,山崎 ノンエイジ ウイスキー 700ml
-yamazaki-12,山崎12年,Yamazaki 12 Year,japanese-whisky,山崎蒸溜所,12,700,43,mid,35000,サントリー山崎12年。終売報道後にプレミア化進行中,30912,5087,35000,linxas-verified,35000,variants=5,true,20905,246,2026-07-13,山崎12年 700ml
-yamazaki-18,山崎18年,Yamazaki 18 Year,japanese-whisky,山崎蒸溜所,18,700,43,high,93000,山崎18年。ウイスキーマガジン最高賞受賞の常連,88456,1559,93000,linxas-verified,93000,variants=4,true,95000,248,2026-07-13,山崎18年 700ml
-yamazaki-25,山崎25年,Yamazaki 25 Year,japanese-whisky,山崎蒸溜所,25,700,43,ultra,880000,山崎25年。プレミア中のプレミア。希少性極高,195827,410,880000,linxas-verified,880000,variants=4,true,32575,200,2026-07-13,山崎25年 700ml
-yamazaki-55,山崎55年,Yamazaki 55 Year,japanese-whisky,山崎蒸溜所,55,700,46,ultra-rare,30000000,山崎55年。100本限定発売のレジェンド,,,要査定,unreliable,,no-price-extracted,true,,6,2026-07-13,山崎55年 700ml
-hibiki-nv,響ジャパニーズハーモニー,Hibiki Japanese Harmony,japanese-whisky,サントリー,0,700,43,common,24000,響ノンエイジ。サントリー響シリーズの定番,21632,1525,24000,linxas-verified,24000,variants=3,true,10500,228,2026-07-13,響 ジャパニーズハーモニー 700ml
-hibiki-17,響17年,Hibiki 17 Year,japanese-whisky,サントリー,17,700,43,high,58000,響17年。終売後プレミアが続く名作,53656,911,58000,linxas-verified,58000,variants=2,true,48600,270,2026-07-13,響17年 700ml
-hibiki-21,響21年,Hibiki 21 Year,japanese-whisky,サントリー,21,700,43,high,95000,響21年。世界的評価が高い,86440,1367,95000,linxas-verified,95000,variants=4,true,72009,232,2026-07-13,響21年 700ml
-hibiki-30,響30年,Hibiki 30 Year,japanese-whisky,サントリー,30,700,43,ultra,600000,響30年。ジャパニーズウイスキーの最高峰の一本,258824,149,600000,linxas-verified,600000,variants=5,true,536800,60,2026-07-13,響30年 700ml
-hakushu-nv,白州ノンエイジ,Hakushu NV,japanese-whisky,白州蒸溜所,0,700,43,common,9300,白州ノンエイジ。森のウイスキー,15525,191,9300,linxas-verified,9300,variants=2,true,9900,200,2026-07-13,白州 ノンエイジ 700ml
-hakushu-12,白州12年,Hakushu 12 Year,japanese-whisky,白州蒸溜所,12,700,43,mid,40000,白州12年。終売後高騰中,25910,1555,40000,linxas-verified,40000,variants=3,true,21099,230,2026-07-13,白州12年 700ml
-hakushu-18,白州18年,Hakushu 18 Year,japanese-whisky,白州蒸溜所,18,700,43,high,66000,白州18年。希少性増加中,55222,445,66000,linxas-verified,66000,variants=2,true,71390,218,2026-07-13,白州18年 700ml
-hakushu-25,白州25年,Hakushu 25 Year,japanese-whisky,白州蒸溜所,25,700,43,ultra,430000,白州25年。サントリーの誇る長期熟成,98122,162,430000,linxas-verified,430000,variants=2,true,21000,104,2026-07-13,白州25年 700ml
-taketsuru-pure,竹鶴ピュアモルト,Taketsuru Pure Malt,japanese-whisky,ニッカ,0,700,43,common,8000,ニッカ竹鶴ピュアモルト。終売後再発売の経緯あり,20358,2062,8000,linxas-verified,8000,variants=2,true,8500,296,2026-07-13,竹鶴 ピュアモルト 700ml
-taketsuru-17,竹鶴17年,Taketsuru 17 Year,japanese-whisky,ニッカ,17,700,43,high,31000,竹鶴17年。ニッカの最高傑作の一つ,32590,417,31000,linxas-verified,31000,variants=4,true,33000,276,2026-07-13,竹鶴17年 700ml
-taketsuru-21,竹鶴21年,Taketsuru 21 Year,japanese-whisky,ニッカ,21,700,43,high,70000,竹鶴21年。世界的賞獲得の常連,56912,228,70000,linxas-verified,70000,variants=6,true,63000,270,2026-07-13,竹鶴21年 700ml
-taketsuru-25,竹鶴25年,Taketsuru 25 Year,japanese-whisky,ニッカ,25,700,43,ultra,170000,竹鶴25年。長期熟成の極致,83361,83,170000,linxas-verified,170000,variants=1,true,187000,42,2026-07-13,竹鶴25年 700ml
-yoichi-nv,余市ノンエイジ,Yoichi NV,japanese-whisky,余市蒸溜所,0,700,45,common,4200,ニッカ余市シングルモルト。北海道余市,,,4200,linxas-verified,4200,variants=1,true,,2,2026-07-13,余市 ノンエイジ 700ml
-yoichi-10,余市10年,Yoichi 10 Year,japanese-whisky,余市蒸溜所,10,700,45,mid,55000,余市10年。終売後プレミア化,40193,474,55000,linxas-verified,55000,variants=3,true,22000,262,2026-07-13,余市10年 700ml
-yoichi-15,余市15年,Yoichi 15 Year,japanese-whisky,余市蒸溜所,15,700,45,high,62000,余市15年。希少,64612,77,62000,linxas-verified,62000,variants=1,true,79200,58,2026-07-13,余市15年 700ml
-yoichi-20,余市20年,Yoichi 20 Year,japanese-whisky,余市蒸溜所,20,700,52,ultra,450000,余市20年。長期熟成,183870,60,450000,linxas-verified,450000,variants=7,true,250861,52,2026-07-13,余市20年 700ml
-miyagikyo-nv,宮城峡ノンエイジ,Miyagikyo NV,japanese-whisky,宮城峡蒸溜所,0,700,45,common,17000,ニッカ宮城峡。仙台ふもとの蒸溜所,,,要詳細査定,no-reliable-source,,no-linxas,false,,2,2026-07-13,宮城峡 ノンエイジ 700ml
-miyagikyo-12,宮城峡12年,Miyagikyo 12 Year,japanese-whisky,宮城峡蒸溜所,12,700,45,mid,23000,宮城峡12年,34655,63,要詳細査定,no-reliable-source,,no-linxas,false,36404,20,2026-07-13,宮城峡12年 700ml
-miyagikyo-15,宮城峡15年,Miyagikyo 15 Year,japanese-whisky,宮城峡蒸溜所,15,700,45,high,33000,宮城峡15年。希少,50156,27,要詳細査定,no-reliable-source,,no-linxas,false,67100,22,2026-07-13,宮城峡15年 700ml
-ichirosu-card,イチローズモルト カードシリーズ,Ichiros Malt Card Series,japanese-whisky,ベンチャーウイスキー,0,700,46,ultra-rare,15000000,イチローズモルト カードシリーズ54本フルセット。コレクター垂涎,,,要詳細査定,no-reliable-source,,no-linxas,false,,14,2026-07-13,イチローズモルト カード 700ml
-ichirosu-double-distilleries,イチローズモルト ダブルディスティラリーズ,Ichiros Malt Double Distilleries,japanese-whisky,ベンチャーウイスキー,0,700,46,high,120000,イチローズモルト 羽生×秩父ブレンド,,,要詳細査定,no-reliable-source,,no-linxas,false,10500,248,2026-07-13,イチローズモルト ダブルディスティラリーズ 700ml
-ichirosu-mwr,イチローズモルト MWR,Ichiros Malt MWR,japanese-whisky,ベンチャーウイスキー,0,700,46,high,80000,イチローズモルト Mizunara Wood Reserve,,,要詳細査定,no-reliable-source,,no-linxas,false,8250,246,2026-07-13,イチローズモルト MWR 700ml
-karuizawa-12,軽井沢12年,Karuizawa 12 Year,japanese-whisky,軽井沢蒸溜所,12,700,40,ultra-rare,105000,軽井沢蒸溜所はすでに閉鎖。残存ボトルがプレミア化,,,105000,linxas-verified,105000,variants=2,true,72500,88,2026-07-13,軽井沢 12年 ウイスキー 700ml
-karuizawa-30,軽井沢30年,Karuizawa 30 Year,japanese-whisky,軽井沢蒸溜所,30,700,55,ultra-rare,8000000,軽井沢30年。閉鎖蒸溜所の長期熟成,,,要詳細査定,no-reliable-source,,no-linxas,false,,2,2026-07-13,軽井沢 30年 ウイスキー 700ml
-hanyu-card,羽生カードシリーズ,Hanyu Card Series,japanese-whisky,羽生蒸溜所,0,700,55,ultra-rare,30000000,羽生カードシリーズ。閉鎖蒸溜所の貴重なボトル,,,要詳細査定,no-reliable-source,,no-linxas,false,8048,278,2026-07-13,羽生 カード ウイスキー 700ml
-macallan-12,マッカラン12年,Macallan 12 Year,scotch-whisky,スペイサイド,12,700,40,common,9100,マッカラン12年シェリーオーク。スコッチの代表,26922,1821,9100,linxas-verified,9100,variants=1,true,10888,294,2026-07-13,マッカラン12年 700ml
-macallan-18,マッカラン18年,Macallan 18 Year,scotch-whisky,スペイサイド,18,700,43,mid,270000,マッカラン18年。長期熟成シェリーオーク,110178,642,270000,linxas-verified,270000,variants=1,true,45098,228,2026-07-13,マッカラン18年 700ml
-macallan-25,マッカラン25年,Macallan 25 Year,scotch-whisky,スペイサイド,25,700,43,high,400000,マッカラン25年。プレミアスコッチの代表,196403,291,400000,linxas-verified,400000,variants=3,true,193000,172,2026-07-13,マッカラン25年 700ml
-macallan-30,マッカラン30年,Macallan 30 Year,scotch-whisky,スペイサイド,30,700,43,ultra,600000,マッカラン30年シェリーオーク,357195,137,600000,linxas-verified,600000,variants=3,true,394500,56,2026-07-13,マッカラン30年 700ml
-macallan-fine-rare,マッカラン ファイン&レア,Macallan Fine & Rare,scotch-whisky,スペイサイド,0,700,43,ultra-rare,5000000,マッカラン ファイン&レアシリーズ,,,要詳細査定,no-reliable-source,,no-linxas,false,8480,20,2026-07-13,マッカラン Fine Rare 700ml
-bowmore-18,ボウモア18年,Bowmore 18 Year,scotch-whisky,アイラ,18,700,43,mid,7000,ボウモア18年。アイラのスモーキー長期熟成,58955,160,7000,linxas-verified,7000,variants=1,true,10888,198,2026-07-13,ボウモア18年 700ml
-bowmore-25,ボウモア25年,Bowmore 25 Year,scotch-whisky,アイラ,25,700,43,high,33000,ボウモア25年,106427,138,33000,linxas-verified,33000,variants=1,true,62500,76,2026-07-13,ボウモア25年 700ml
-bowmore-blackbowmore,ブラックボウモア,Black Bowmore,scotch-whisky,アイラ,0,700,49,ultra-rare,1500000,ブラックボウモア。1964年蒸留の伝説的ボトル,,,1500000,linxas-verified,1500000,variants=1,true,,100,2026-07-13,ブラックボウモア 700ml
-springbank-15,スプリングバンク15年,Springbank 15 Year,scotch-whisky,キャンベルタウン,15,700,46,mid,32000,スプリングバンク15年。クラフトな伝統製法,47452,122,32000,linxas-verified,32000,variants=1,true,35099,100,2026-07-13,スプリングバンク15年 700ml
-springbank-21,スプリングバンク21年,Springbank 21 Year,scotch-whisky,キャンベルタウン,21,700,46,high,68000,スプリングバンク21年。希少,104932,81,要詳細査定,no-reliable-source,,no-linxas,false,99500,60,2026-07-13,スプリングバンク21年 700ml
-laphroaig-25,ラフロイグ25年,Laphroaig 25 Year,scotch-whisky,アイラ,25,700,43,mid,60000,ラフロイグ25年。アイラ最強のピーティ,91709,75,要詳細査定,no-reliable-source,,no-linxas,false,64898,48,2026-07-13,ラフロイグ25年 700ml
-ardbeg-uigeadail,アードベッグ ウーガダール,Ardbeg Uigeadail,scotch-whisky,アイラ,0,700,54,common,14000,アードベッグの主力品,21216,63,要詳細査定,no-reliable-source,,no-linxas,false,7979,104,2026-07-13,アードベッグ ウーガダール 700ml
-ardbeg-corryvreckan,アードベッグ コリーヴレッカン,Ardbeg Corryvreckan,scotch-whisky,アイラ,0,700,57,common,10000,アードベッグの強烈ピーティ,14795,53,要詳細査定,no-reliable-source,,no-linxas,false,8000,78,2026-07-13,アードベッグ コリーヴレッカン 700ml
-glenfiddich-30,グレンフィディック30年,Glenfiddich 30 Year,scotch-whisky,スペイサイド,30,700,40,high,46000,グレンフィディック30年,70769,30,要詳細査定,no-reliable-source,,no-linxas,false,68005,32,2026-07-13,グレンフィディック30年 700ml
-glenfarclas-25,グレンファークラス25年,Glenfarclas 25 Year,scotch-whisky,スペイサイド,25,700,43,mid,19000,グレンファークラス25年シェリーオーク,28643,80,要詳細査定,no-reliable-source,,no-linxas,false,22132,106,2026-07-13,グレンファークラス25年 700ml
-talisker-25,タリスカー25年,Talisker 25 Year,scotch-whisky,スカイ,25,700,45.8,mid,21000,タリスカー25年,31674,64,要詳細査定,no-reliable-source,,no-linxas,false,49650,48,2026-07-13,タリスカー25年 700ml
-balvenie-portwood-21,バルヴェニー ポートウッド 21年,Balvenie Portwood 21 Year,scotch-whisky,スペイサイド,21,700,40,mid,28000,バルヴェニー ポートウッドフィニッシュ,,,要詳細査定,no-reliable-source,,no-linxas,false,31699,20,2026-07-13,バルヴェニー ポートウッド 700ml
-glenmorangie-signet,グレンモーレンジ シグネット,Glenmorangie Signet,scotch-whisky,ハイランド,0,700,46,mid,14000,グレンモーレンジ シグネット,21928,51,要詳細査定,no-reliable-source,,no-linxas,false,20353,102,2026-07-13,グレンモーレンジ シグネット 700ml
-chichibu-the-first,秩父ザファースト,Chichibu The First,japanese-whisky,秩父蒸溜所,3,700,61.8,ultra-rare,3500000,秩父蒸溜所の初リリース,,,要詳細査定,no-reliable-source,,no-linxas,false,78650,32,2026-07-13,秩父 ザファースト 700ml
-mars-komagatake,マルス駒ヶ岳,Mars Komagatake,japanese-whisky,信州マルス蒸溜所,0,700,43,common,12000,マルス駒ヶ岳シングルモルト,18558,710,要詳細査定,no-reliable-source,,no-linxas,false,7975,262,2026-07-13,マルス 駒ヶ岳 700ml
+yamazaki-nv,山崎ノンエイジ,Yamazaki NV,japanese-whisky,山崎蒸溜所,0,700,43,common,10100,サントリー山崎のノンエイジ。日本ウイスキーの代表的な定番品,14726,261,10100,linxas-verified,10100,variants=2,true,10175,258,2026-07-20,山崎 ノンエイジ ウイスキー 700ml
+yamazaki-12,山崎12年,Yamazaki 12 Year,japanese-whisky,山崎蒸溜所,12,700,43,mid,35000,サントリー山崎12年。終売報道後にプレミア化進行中,30912,5087,35000,linxas-verified,35000,variants=5,true,20350,234,2026-07-20,山崎12年 700ml
+yamazaki-18,山崎18年,Yamazaki 18 Year,japanese-whisky,山崎蒸溜所,18,700,43,high,93000,山崎18年。ウイスキーマガジン最高賞受賞の常連,88456,1559,93000,linxas-verified,93000,variants=4,true,93498,244,2026-07-20,山崎18年 700ml
+yamazaki-25,山崎25年,Yamazaki 25 Year,japanese-whisky,山崎蒸溜所,25,700,43,ultra,880000,山崎25年。プレミア中のプレミア。希少性極高,195827,410,880000,linxas-verified,880000,variants=4,true,28600,182,2026-07-20,山崎25年 700ml
+yamazaki-55,山崎55年,Yamazaki 55 Year,japanese-whisky,山崎蒸溜所,55,700,46,ultra-rare,30000000,山崎55年。100本限定発売のレジェンド,,,要査定,unreliable,,no-price-extracted,true,,6,2026-07-20,山崎55年 700ml
+hibiki-nv,響ジャパニーズハーモニー,Hibiki Japanese Harmony,japanese-whisky,サントリー,0,700,43,common,24000,響ノンエイジ。サントリー響シリーズの定番,21632,1525,24000,linxas-verified,24000,variants=3,true,10726,276,2026-07-20,響 ジャパニーズハーモニー 700ml
+hibiki-17,響17年,Hibiki 17 Year,japanese-whisky,サントリー,17,700,43,high,58000,響17年。終売後プレミアが続く名作,53656,911,58000,linxas-verified,58000,variants=2,true,47999,266,2026-07-20,響17年 700ml
+hibiki-21,響21年,Hibiki 21 Year,japanese-whisky,サントリー,21,700,43,high,95000,響21年。世界的評価が高い,86440,1367,95000,linxas-verified,95000,variants=4,true,72000,236,2026-07-20,響21年 700ml
+hibiki-30,響30年,Hibiki 30 Year,japanese-whisky,サントリー,30,700,43,ultra,600000,響30年。ジャパニーズウイスキーの最高峰の一本,258824,149,600000,linxas-verified,600000,variants=5,true,531150,68,2026-07-20,響30年 700ml
+hakushu-nv,白州ノンエイジ,Hakushu NV,japanese-whisky,白州蒸溜所,0,700,43,common,9300,白州ノンエイジ。森のウイスキー,15525,191,9300,linxas-verified,9300,variants=2,true,9900,190,2026-07-20,白州 ノンエイジ 700ml
+hakushu-12,白州12年,Hakushu 12 Year,japanese-whisky,白州蒸溜所,12,700,43,mid,40000,白州12年。終売後高騰中,25910,1555,40000,linxas-verified,40000,variants=3,true,21000,228,2026-07-20,白州12年 700ml
+hakushu-18,白州18年,Hakushu 18 Year,japanese-whisky,白州蒸溜所,18,700,43,high,66000,白州18年。希少性増加中,55222,445,66000,linxas-verified,66000,variants=2,true,71444,220,2026-07-20,白州18年 700ml
+hakushu-25,白州25年,Hakushu 25 Year,japanese-whisky,白州蒸溜所,25,700,43,ultra,430000,白州25年。サントリーの誇る長期熟成,98122,162,430000,linxas-verified,430000,variants=2,true,21000,96,2026-07-20,白州25年 700ml
+taketsuru-pure,竹鶴ピュアモルト,Taketsuru Pure Malt,japanese-whisky,ニッカ,0,700,43,common,8000,ニッカ竹鶴ピュアモルト。終売後再発売の経緯あり,20358,2062,8000,linxas-verified,8000,variants=2,true,7179,286,2026-07-20,竹鶴 ピュアモルト 700ml
+taketsuru-17,竹鶴17年,Taketsuru 17 Year,japanese-whisky,ニッカ,17,700,43,high,31000,竹鶴17年。ニッカの最高傑作の一つ,32590,417,31000,linxas-verified,31000,variants=4,true,32998,284,2026-07-20,竹鶴17年 700ml
+taketsuru-21,竹鶴21年,Taketsuru 21 Year,japanese-whisky,ニッカ,21,700,43,high,70000,竹鶴21年。世界的賞獲得の常連,56912,228,70000,linxas-verified,70000,variants=6,true,63000,272,2026-07-20,竹鶴21年 700ml
+taketsuru-25,竹鶴25年,Taketsuru 25 Year,japanese-whisky,ニッカ,25,700,43,ultra,170000,竹鶴25年。長期熟成の極致,83361,83,170000,linxas-verified,170000,variants=1,true,187000,42,2026-07-20,竹鶴25年 700ml
+yoichi-nv,余市ノンエイジ,Yoichi NV,japanese-whisky,余市蒸溜所,0,700,45,common,4200,ニッカ余市シングルモルト。北海道余市,,,4200,linxas-verified,4200,variants=1,true,,2,2026-07-20,余市 ノンエイジ 700ml
+yoichi-10,余市10年,Yoichi 10 Year,japanese-whisky,余市蒸溜所,10,700,45,mid,55000,余市10年。終売後プレミア化,40193,474,55000,linxas-verified,55000,variants=3,true,22000,266,2026-07-20,余市10年 700ml
+yoichi-15,余市15年,Yoichi 15 Year,japanese-whisky,余市蒸溜所,15,700,45,high,62000,余市15年。希少,64612,77,62000,linxas-verified,62000,variants=1,true,78705,56,2026-07-20,余市15年 700ml
+yoichi-20,余市20年,Yoichi 20 Year,japanese-whisky,余市蒸溜所,20,700,52,ultra,450000,余市20年。長期熟成,183870,60,450000,linxas-verified,450000,variants=7,true,248722,50,2026-07-20,余市20年 700ml
+miyagikyo-nv,宮城峡ノンエイジ,Miyagikyo NV,japanese-whisky,宮城峡蒸溜所,0,700,45,common,17000,ニッカ宮城峡。仙台ふもとの蒸溜所,,,要詳細査定,no-reliable-source,,no-linxas,false,,2,2026-07-20,宮城峡 ノンエイジ 700ml
+miyagikyo-12,宮城峡12年,Miyagikyo 12 Year,japanese-whisky,宮城峡蒸溜所,12,700,45,mid,23000,宮城峡12年,34655,63,要詳細査定,no-reliable-source,,no-linxas,false,36404,20,2026-07-20,宮城峡12年 700ml
+miyagikyo-15,宮城峡15年,Miyagikyo 15 Year,japanese-whisky,宮城峡蒸溜所,15,700,45,high,33000,宮城峡15年。希少,50156,27,要詳細査定,no-reliable-source,,no-linxas,false,70510,22,2026-07-20,宮城峡15年 700ml
+ichirosu-card,イチローズモルト カードシリーズ,Ichiros Malt Card Series,japanese-whisky,ベンチャーウイスキー,0,700,46,ultra-rare,15000000,イチローズモルト カードシリーズ54本フルセット。コレクター垂涎,,,要詳細査定,no-reliable-source,,no-linxas,false,,8,2026-07-20,イチローズモルト カード 700ml
+ichirosu-double-distilleries,イチローズモルト ダブルディスティラリーズ,Ichiros Malt Double Distilleries,japanese-whisky,ベンチャーウイスキー,0,700,46,high,120000,イチローズモルト 羽生×秩父ブレンド,,,要詳細査定,no-reliable-source,,no-linxas,false,10147,248,2026-07-20,イチローズモルト ダブルディスティラリーズ 700ml
+ichirosu-mwr,イチローズモルト MWR,Ichiros Malt MWR,japanese-whisky,ベンチャーウイスキー,0,700,46,high,80000,イチローズモルト Mizunara Wood Reserve,,,要詳細査定,no-reliable-source,,no-linxas,false,8291,238,2026-07-20,イチローズモルト MWR 700ml
+karuizawa-12,軽井沢12年,Karuizawa 12 Year,japanese-whisky,軽井沢蒸溜所,12,700,40,ultra-rare,105000,軽井沢蒸溜所はすでに閉鎖。残存ボトルがプレミア化,,,105000,linxas-verified,105000,variants=2,true,76375,92,2026-07-20,軽井沢 12年 ウイスキー 700ml
+karuizawa-30,軽井沢30年,Karuizawa 30 Year,japanese-whisky,軽井沢蒸溜所,30,700,55,ultra-rare,8000000,軽井沢30年。閉鎖蒸溜所の長期熟成,,,要詳細査定,no-reliable-source,,no-linxas,false,,2,2026-07-20,軽井沢 30年 ウイスキー 700ml
+hanyu-card,羽生カードシリーズ,Hanyu Card Series,japanese-whisky,羽生蒸溜所,0,700,55,ultra-rare,30000000,羽生カードシリーズ。閉鎖蒸溜所の貴重なボトル,,,要詳細査定,no-reliable-source,,no-linxas,false,8035,282,2026-07-20,羽生 カード ウイスキー 700ml
+macallan-12,マッカラン12年,Macallan 12 Year,scotch-whisky,スペイサイド,12,700,40,common,9100,マッカラン12年シェリーオーク。スコッチの代表,26922,1821,9100,linxas-verified,9100,variants=1,true,10000,290,2026-07-20,マッカラン12年 700ml
+macallan-18,マッカラン18年,Macallan 18 Year,scotch-whisky,スペイサイド,18,700,43,mid,270000,マッカラン18年。長期熟成シェリーオーク,110178,642,270000,linxas-verified,270000,variants=1,true,45300,232,2026-07-20,マッカラン18年 700ml
+macallan-25,マッカラン25年,Macallan 25 Year,scotch-whisky,スペイサイド,25,700,43,high,400000,マッカラン25年。プレミアスコッチの代表,196403,291,400000,linxas-verified,400000,variants=3,true,190000,154,2026-07-20,マッカラン25年 700ml
+macallan-30,マッカラン30年,Macallan 30 Year,scotch-whisky,スペイサイド,30,700,43,ultra,600000,マッカラン30年シェリーオーク,357195,137,600000,linxas-verified,600000,variants=3,true,394500,56,2026-07-20,マッカラン30年 700ml
+macallan-fine-rare,マッカラン ファイン&レア,Macallan Fine & Rare,scotch-whisky,スペイサイド,0,700,43,ultra-rare,5000000,マッカラン ファイン&レアシリーズ,,,要詳細査定,no-reliable-source,,no-linxas,false,8480,20,2026-07-20,マッカラン Fine Rare 700ml
+bowmore-18,ボウモア18年,Bowmore 18 Year,scotch-whisky,アイラ,18,700,43,mid,7000,ボウモア18年。アイラのスモーキー長期熟成,58955,160,7000,linxas-verified,7000,variants=1,true,10888,200,2026-07-20,ボウモア18年 700ml
+bowmore-25,ボウモア25年,Bowmore 25 Year,scotch-whisky,アイラ,25,700,43,high,33000,ボウモア25年,106427,138,33000,linxas-verified,33000,variants=1,true,70500,72,2026-07-20,ボウモア25年 700ml
+bowmore-blackbowmore,ブラックボウモア,Black Bowmore,scotch-whisky,アイラ,0,700,49,ultra-rare,1500000,ブラックボウモア。1964年蒸留の伝説的ボトル,,,1500000,linxas-verified,1500000,variants=1,true,,100,2026-07-20,ブラックボウモア 700ml
+springbank-15,スプリングバンク15年,Springbank 15 Year,scotch-whisky,キャンベルタウン,15,700,46,mid,32000,スプリングバンク15年。クラフトな伝統製法,47452,122,32000,linxas-verified,32000,variants=1,true,35000,98,2026-07-20,スプリングバンク15年 700ml
+springbank-21,スプリングバンク21年,Springbank 21 Year,scotch-whisky,キャンベルタウン,21,700,46,high,68000,スプリングバンク21年。希少,104932,81,要詳細査定,no-reliable-source,,no-linxas,false,100600,60,2026-07-20,スプリングバンク21年 700ml
+laphroaig-25,ラフロイグ25年,Laphroaig 25 Year,scotch-whisky,アイラ,25,700,43,mid,60000,ラフロイグ25年。アイラ最強のピーティ,91709,75,要詳細査定,no-reliable-source,,no-linxas,false,64898,48,2026-07-20,ラフロイグ25年 700ml
+ardbeg-uigeadail,アードベッグ ウーガダール,Ardbeg Uigeadail,scotch-whisky,アイラ,0,700,54,common,14000,アードベッグの主力品,21216,63,要詳細査定,no-reliable-source,,no-linxas,false,7810,102,2026-07-20,アードベッグ ウーガダール 700ml
+ardbeg-corryvreckan,アードベッグ コリーヴレッカン,Ardbeg Corryvreckan,scotch-whisky,アイラ,0,700,57,common,10000,アードベッグの強烈ピーティ,14795,53,要詳細査定,no-reliable-source,,no-linxas,false,8015,76,2026-07-20,アードベッグ コリーヴレッカン 700ml
+glenfiddich-30,グレンフィディック30年,Glenfiddich 30 Year,scotch-whisky,スペイサイド,30,700,40,high,46000,グレンフィディック30年,70769,30,要詳細査定,no-reliable-source,,no-linxas,false,66000,34,2026-07-20,グレンフィディック30年 700ml
+glenfarclas-25,グレンファークラス25年,Glenfarclas 25 Year,scotch-whisky,スペイサイド,25,700,43,mid,19000,グレンファークラス25年シェリーオーク,28643,80,要詳細査定,no-reliable-source,,no-linxas,false,22550,102,2026-07-20,グレンファークラス25年 700ml
+talisker-25,タリスカー25年,Talisker 25 Year,scotch-whisky,スカイ,25,700,45.8,mid,21000,タリスカー25年,31674,64,要詳細査定,no-reliable-source,,no-linxas,false,48999,34,2026-07-20,タリスカー25年 700ml
+balvenie-portwood-21,バルヴェニー ポートウッド 21年,Balvenie Portwood 21 Year,scotch-whisky,スペイサイド,21,700,40,mid,28000,バルヴェニー ポートウッドフィニッシュ,,,要詳細査定,no-reliable-source,,no-linxas,false,,16,2026-07-20,バルヴェニー ポートウッド 700ml
+glenmorangie-signet,グレンモーレンジ シグネット,Glenmorangie Signet,scotch-whisky,ハイランド,0,700,46,mid,14000,グレンモーレンジ シグネット,21928,51,要詳細査定,no-reliable-source,,no-linxas,false,20350,104,2026-07-20,グレンモーレンジ シグネット 700ml
+chichibu-the-first,秩父ザファースト,Chichibu The First,japanese-whisky,秩父蒸溜所,3,700,61.8,ultra-rare,3500000,秩父蒸溜所の初リリース,,,要詳細査定,no-reliable-source,,no-linxas,false,78650,32,2026-07-20,秩父 ザファースト 700ml
+mars-komagatake,マルス駒ヶ岳,Mars Komagatake,japanese-whisky,信州マルス蒸溜所,0,700,43,common,12000,マルス駒ヶ岳シングルモルト,18558,710,要詳細査定,no-reliable-source,,no-linxas,false,8468,282,2026-07-20,マルス 駒ヶ岳 700ml
 glenfarclas-105,グレンファークラス105,Glenfarclas 105,scotch-whisky,スペイサイド,,700,60,common,8000,グレンファークラス105 カスクストレングス（年代指定なし・60%）,15903,52,要詳細査定,no-reliable-source,,no-linxas,false,8225,52,2026-06-29,グレンファークラス 105 700ml

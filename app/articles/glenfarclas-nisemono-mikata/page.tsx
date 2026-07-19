@@ -98,7 +98,7 @@ export default function GlenfarclasNisemonoMikataPage() {
             <h3 className="font-display text-xl font-semibold text-ink mb-3">✅ 本物なら今いくら？ グレンファークラスのボトル別 実勢中央値</h3>
             <p className="text-sm text-warm-gray leading-relaxed mb-3">ヤフオク実落札（過去180日・IQR外れ値除去）の中央値・毎週月曜に自動更新。落札サンプルが少ないボトルは金額を掲載していません。買取額を保証するものではありません。</p>
             <ul className="space-y-2 text-sm mb-4 list-none pl-0">
-              <li className="flex flex-wrap items-baseline gap-x-2"><span className="font-bold text-ink">グレンファークラス25年</span><span className="font-display text-lg font-semibold text-amber-dark">¥22,132</span><span className="text-[11px] text-warm-gray">（n=106件）</span><Link href="/articles/glenfarclas-25-kaitori/" className="shingan-to-kaitori text-amber-dark underline text-xs">相場ページで詳細を見る →</Link></li>
+              <li className="flex flex-wrap items-baseline gap-x-2"><span className="font-bold text-ink">グレンファークラス25年</span><span className="font-display text-lg font-semibold text-amber-dark">¥22,550</span><span className="text-[11px] text-warm-gray">（n=102件）</span><Link href="/articles/glenfarclas-25-kaitori/" className="shingan-to-kaitori text-amber-dark underline text-xs">相場ページで詳細を見る →</Link></li>
               <li className="flex flex-wrap items-baseline gap-x-2"><span className="font-bold text-ink">グレンファークラス105（年代指定なし）</span><span className="font-display text-lg font-semibold text-amber-dark">¥8,225</span><span className="text-[11px] text-warm-gray">（n=52件）</span><Link href="/articles/glenfarclas-105-kaitori/" className="shingan-to-kaitori text-amber-dark underline text-xs">相場ページで詳細を見る →</Link></li>
             </ul>
             <ol className="space-y-2 text-sm mb-4">

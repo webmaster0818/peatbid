@@ -37,7 +37,7 @@ export default function Macallan25NisemonoMikataPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">マッカラン25年の偽物・贋作の見分け方</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-13 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-20 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Macallan25NisemonoMikataPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">マッカラン25年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 25年熟成 / 希少度 ハイ / 市場相場 193,000円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 25年熟成 / 希少度 ハイ / 市場相場 190,000円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/macallan-25-kaitori/" className="text-amber-dark underline">マッカラン25年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,12 +68,12 @@ export default function Macallan25NisemonoMikataPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではマッカラン25年の落札が約172件確認でき、落札額の中央値は193,000円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではマッカラン25年の落札が約154件確認でき、落札額の中央値は190,000円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
           <h2 id="section-0">1. マッカラン25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マッカラン25年</strong>はスコッチウイスキー（スペイサイド）の25年熟成、度数43%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>193,000円</strong>（流通サンプル172件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マッカラン25年</strong>はスコッチウイスキー（スペイサイド）の25年熟成、度数43%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>190,000円</strong>（流通サンプル154件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 贋作市場の実情</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ジャパニーズウイスキーブーム以降、海外の二次流通市場では<strong>贋作ボトルの流通が確認</strong>されています。特に山崎・響・白州・軽井沢・羽生など希少銘柄では、巧妙に作られた贋作が個人間取引で出回ることがあります。</p><p>中国・東南アジアの一部地域では、本物の空き瓶に偽の液体を詰めて販売する手口も報告されています。高額帯の銘柄は、5チェックを徹底することが必須です。</p>` }} />
@@ -115,7 +115,7 @@ export default function Macallan25NisemonoMikataPage() {
           <div className="bg-burgundy/5 border-2 border-burgundy/30 rounded-xl p-6 my-8 not-prose">
             <p className="text-xs text-burgundy font-bold tracking-wider mb-2">本物と確認できたら｜次のステップ</p>
             <h3 className="font-display text-xl font-semibold text-ink mb-3 !mt-0 !border-none">あなたのマッカラン25年、いま売るといくら？</h3>
-            <p className="text-sm text-warm-gray leading-relaxed mb-4">✅ 本物と確認できたら：マッカラン25年の現在の実勢中央値は<strong className="text-ink">¥193,000</strong>（ヤフオク実落札 n=172件・毎週月曜更新・IQR外れ値除去後）です。保証額ではありませんが、売却判断の基準になります。価値が変わる前に、次の3ステップで納得して高く売りましょう。</p>
+            <p className="text-sm text-warm-gray leading-relaxed mb-4">✅ 本物と確認できたら：マッカラン25年の現在の実勢中央値は<strong className="text-ink">¥190,000</strong>（ヤフオク実落札 n=154件・毎週月曜更新・IQR外れ値除去後）です。保証額ではありませんが、売却判断の基準になります。価値が変わる前に、次の3ステップで納得して高く売りましょう。</p>
             <ol className="space-y-2 text-sm text-ink mb-4 list-none pl-0">
               <li><span className="font-bold text-burgundy">STEP 1</span>　相場の詳細を見る → <Link href="/articles/macallan-25-kaitori/" className="shingan-to-kaitori text-amber-dark underline">マッカラン25年の買取相場 完全ガイド</Link></li>
               <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツ → <Link href="/articles/macallan-25-takaku-uru/" className="shingan-to-kaitori text-amber-dark underline">査定額を最大化する7つのコツ</Link></li>
@@ -166,7 +166,7 @@ export default function Macallan25NisemonoMikataPage() {
             <Link href="/articles/macallan-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋ハブ</span><p className="text-sm font-bold mt-1">マッカラン（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-13）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-20）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

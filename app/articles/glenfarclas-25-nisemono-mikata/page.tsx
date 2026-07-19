@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '本物のグレンファークラス25年は今いくらで売れますか？', "acceptedAnswer": { "@type": "Answer", "text": '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は22,132円です（サンプル数 n=106件・毎週月曜に自動更新）。買取査定額は各業者の在庫状況・状態評価により変動するため、買取相場ページで詳細を確認のうえ、複数業者の相見積もりで実額をご確認ください。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売る前に真贋チェックは必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、推奨します。万一偽物だと買取は拒否され、偽物と知りながら売却すると詐欺に問われる可能性もあります。本記事の「売る前の3分チェック」（ラベル・封緘・液面）を確認し、少しでも不審な点があれば、売却前にお酒買取専門店の無料鑑定やメーカー公式窓口で確認してから査定に出すのが安全です。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' } }, { "@type": "Question", "name": '複数業者比較は本当に必要？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、必須です。同じグレンファークラス25年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' } }, { "@type": "Question", "name": '買取後のキャンセルは可能？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年の売却益に税金はかかる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売るならどのタイミングがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '本物のグレンファークラス25年は今いくらで売れますか？', "acceptedAnswer": { "@type": "Answer", "text": '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は22,550円です（サンプル数 n=102件・毎週月曜に自動更新）。買取査定額は各業者の在庫状況・状態評価により変動するため、買取相場ページで詳細を確認のうえ、複数業者の相見積もりで実額をご確認ください。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売る前に真贋チェックは必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、推奨します。万一偽物だと買取は拒否され、偽物と知りながら売却すると詐欺に問われる可能性もあります。本記事の「売る前の3分チェック」（ラベル・封緘・液面）を確認し、少しでも不審な点があれば、売却前にお酒買取専門店の無料鑑定やメーカー公式窓口で確認してから査定に出すのが安全です。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' } }, { "@type": "Question", "name": '複数業者比較は本当に必要？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、必須です。同じグレンファークラス25年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' } }, { "@type": "Question", "name": '買取後のキャンセルは可能？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年の売却益に税金はかかる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売るならどのタイミングがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" } }] }) }} />;
 }
 
 export default function Glenfarclas25NisemonoMikataPage() {
@@ -37,7 +37,7 @@ export default function Glenfarclas25NisemonoMikataPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンファークラス25年を売る前に — 本物チェックと今の買取相場</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-13 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-20 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Glenfarclas25NisemonoMikataPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">グレンファークラス25年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 25年熟成 / 希少度 ミッド / 市場相場 22,132円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 25年熟成 / 希少度 ミッド / 市場相場 22,550円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/glenfarclas-25-kaitori/" className="text-amber-dark underline">グレンファークラス25年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -69,12 +69,12 @@ export default function Glenfarclas25NisemonoMikataPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンファークラス25年の落札が約106件確認でき、落札額の中央値は22,132円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンファークラス25年の落札が約102件確認でき、落札額の中央値は22,550円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
           <h2 id="section-0">1. グレンファークラス25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンファークラス25年</strong>はスコッチウイスキー（スペイサイド）の25年熟成、度数43%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>22,132円</strong>（流通サンプル106件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンファークラス25年</strong>はスコッチウイスキー（スペイサイド）の25年熟成、度数43%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>22,550円</strong>（流通サンプル102件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 売る前の3分チェック（ラベル・封緘・液面）</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>グレンファークラス25年を査定に出す前に、次の3点だけでも確認しておくと売却がスムーズです（各項目の詳しい見方は後述のチェック1〜5で解説します）。</p><ol><li><strong>ラベル</strong> — 文字のにじみ・かすれ・色ズレ・フォントの違和感がないか。メーカー公式画像と細部まで見比べる</li><li><strong>キャップ・封緘</strong> — キャップの締まり具合、封緘の隙間や不自然さ、（採用銘柄では）ホログラムの立体感に違和感がないか</li><li><strong>液色・液面</strong> — 色ムラ・濁り・沈殿物がなく、液面が自然な目減りを超えて極端に下がっていないか
@@ -121,7 +121,7 @@ export default function Glenfarclas25NisemonoMikataPage() {
           <div className="bg-burgundy/5 border-2 border-burgundy/30 rounded-xl p-6 my-8 not-prose">
             <p className="text-xs text-burgundy font-bold tracking-wider mb-2">本物と確認できたら｜次のステップ</p>
             <h3 className="font-display text-xl font-semibold text-ink mb-3 !mt-0 !border-none">本物なら今いくら？ グレンファークラス25年の実勢相場</h3>
-            <p className="text-sm text-warm-gray leading-relaxed mb-4">✅ 本物と確認できたら：グレンファークラス25年の現在の実勢中央値は<strong className="text-ink">¥22,132</strong>（ヤフオク実落札 n=106件・毎週月曜更新・IQR外れ値除去後）です。保証額ではありませんが、売却判断の基準になります。価値が変わる前に、次の3ステップで納得して高く売りましょう。</p>
+            <p className="text-sm text-warm-gray leading-relaxed mb-4">✅ 本物と確認できたら：グレンファークラス25年の現在の実勢中央値は<strong className="text-ink">¥22,550</strong>（ヤフオク実落札 n=102件・毎週月曜更新・IQR外れ値除去後）です。保証額ではありませんが、売却判断の基準になります。価値が変わる前に、次の3ステップで納得して高く売りましょう。</p>
             <ol className="space-y-2 text-sm text-ink mb-4 list-none pl-0">
               <li><span className="font-bold text-burgundy">STEP 1</span>　相場の詳細を見る → <Link href="/articles/glenfarclas-25-kaitori/" className="shingan-to-kaitori text-amber-dark underline">グレンファークラス25年の買取相場 完全ガイド</Link></li>
               <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツ → <Link href="/articles/glenfarclas-25-takaku-uru/" className="shingan-to-kaitori text-amber-dark underline">査定額を最大化する7つのコツ</Link></li>
@@ -144,7 +144,7 @@ export default function Glenfarclas25NisemonoMikataPage() {
           <h2>グレンファークラス25年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '本物のグレンファークラス25年は今いくらで売れますか？', a: '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は22,132円です（サンプル数 n=106件・毎週月曜に自動更新）。買取査定額は各業者の在庫状況・状態評価により変動するため、買取相場ページで詳細を確認のうえ、複数業者の相見積もりで実額をご確認ください。' }, { q: 'グレンファークラス25年を売る前に真贋チェックは必要ですか？', a: 'はい、推奨します。万一偽物だと買取は拒否され、偽物と知りながら売却すると詐欺に問われる可能性もあります。本記事の「売る前の3分チェック」（ラベル・封緘・液面）を確認し、少しでも不審な点があれば、売却前にお酒買取専門店の無料鑑定やメーカー公式窓口で確認してから査定に出すのが安全です。' }, { q: 'グレンファークラス25年を売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' }, { q: '複数業者比較は本当に必要？', a: 'はい、必須です。同じグレンファークラス25年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' }, { q: '買取後のキャンセルは可能？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: 'グレンファークラス25年の売却益に税金はかかる？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'グレンファークラス25年を売るならどのタイミングがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" }].map((faq) => (
+            {[{ q: '本物のグレンファークラス25年は今いくらで売れますか？', a: '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は22,550円です（サンプル数 n=102件・毎週月曜に自動更新）。買取査定額は各業者の在庫状況・状態評価により変動するため、買取相場ページで詳細を確認のうえ、複数業者の相見積もりで実額をご確認ください。' }, { q: 'グレンファークラス25年を売る前に真贋チェックは必要ですか？', a: 'はい、推奨します。万一偽物だと買取は拒否され、偽物と知りながら売却すると詐欺に問われる可能性もあります。本記事の「売る前の3分チェック」（ラベル・封緘・液面）を確認し、少しでも不審な点があれば、売却前にお酒買取専門店の無料鑑定やメーカー公式窓口で確認してから査定に出すのが安全です。' }, { q: 'グレンファークラス25年を売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' }, { q: '複数業者比較は本当に必要？', a: 'はい、必須です。同じグレンファークラス25年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' }, { q: '買取後のキャンセルは可能？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: 'グレンファークラス25年の売却益に税金はかかる？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'グレンファークラス25年を売るならどのタイミングがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -172,7 +172,7 @@ export default function Glenfarclas25NisemonoMikataPage() {
             <Link href="/articles/glenfarclas-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋ハブ</span><p className="text-sm font-bold mt-1">グレンファークラス（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-13）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-20）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

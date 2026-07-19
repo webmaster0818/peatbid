@@ -37,7 +37,7 @@ export default function HibikiNvTakakuUruPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">響ジャパニーズハーモニーを高く売る方法 — 査定額を最大化する完全ガイド</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-13 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-20 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function HibikiNvTakakuUruPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">響ジャパニーズハーモニー</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / サントリー / ノンエイジ / 希少度 コモン / 市場相場 10,500円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / サントリー / ノンエイジ / 希少度 コモン / 市場相場 10,726円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/hibiki-nv-kaitori/" className="text-amber-dark underline">響ジャパニーズハーモニーの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,18 +68,18 @@ export default function HibikiNvTakakuUruPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは響ジャパニーズハーモニーの落札が約228件確認でき、落札額の中央値は10,500円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは響ジャパニーズハーモニーの落札が約276件確認でき、落札額の中央値は10,726円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
           <h2 id="section-0">1. 響ジャパニーズハーモニーの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>響ジャパニーズハーモニー</strong>はジャパニーズウイスキー（サントリー）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>10,500円</strong>（流通サンプル228件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>響ジャパニーズハーモニー</strong>はジャパニーズウイスキー（サントリー）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>10,726円</strong>（流通サンプル276件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. コツ1: 付属品をすべて揃える</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>響ジャパニーズハーモニーの査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。実勢中央値<strong>10,500円</strong>を基準とすると、付属品なしでは約8,400〜9,450円（相場の80〜90%）まで下がるのが一般的です。</p><p>外箱にシミ・破れ・水濡れ跡があると更に-5〜10%。付属品を揃えるだけで約1,580円前後の差が出る計算です。</p><p>まず家中を徹底的に探し、すべての付属品を集めてから売却を検討してください。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>響ジャパニーズハーモニーの査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。実勢中央値<strong>10,726円</strong>を基準とすると、付属品なしでは約8,580〜9,650円（相場の80〜90%）まで下がるのが一般的です。</p><p>外箱にシミ・破れ・水濡れ跡があると更に-5〜10%。付属品を揃えるだけで約1,610円前後の差が出る計算です。</p><p>まず家中を徹底的に探し、すべての付属品を集めてから売却を検討してください。</p>` }} />
 
           <h2 id="section-2">3. コツ2: 未開封の状態を維持</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>響ジャパニーズハーモニーは開封済みになると査定額が大幅に下がり、未開封の30〜40%＝約3,150〜4,200円前後まで落ちます。未開封なら10,500円前後で売れる可能性があることを考えると、その差は歴然です。</p><p>コレクション目的のボトルは絶対に開けず保管を。「ちょっと味見」が大きな損失につながります。</p><p>万一開封した場合は、香味揮発・酸化が進む前にできるだけ早く売却するのが鉄則です。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>響ジャパニーズハーモニーは開封済みになると査定額が大幅に下がり、未開封の30〜40%＝約3,220〜4,290円前後まで落ちます。未開封なら10,726円前後で売れる可能性があることを考えると、その差は歴然です。</p><p>コレクション目的のボトルは絶対に開けず保管を。「ちょっと味見」が大きな損失につながります。</p><p>万一開封した場合は、香味揮発・酸化が進む前にできるだけ早く売却するのが鉄則です。</p>` }} />
 
           <h2 id="section-3">4. コツ3: 複数業者で相見積もり</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>同じ響ジャパニーズハーモニーでも、業者によって<strong>数万〜数十万円</strong>の査定差が生じます。1社だけで決めるのは絶対に避けるべきです。</p><p>推奨フロー: (1)ヒカカク等の一括査定サイトで5社以上から見積もり取得、(2)お酒買取専門店（JOYLAB・リカスタ等）に個別で2〜3社から見積もり、(3)合計7〜8社の見積もりを比較、(4)手取り額（手数料・送料込み）で最高値の業者を選定。</p><p>査定無料・キャンセル無料の業者ばかりなので、複数比較のコストはゼロです。</p>` }} />
@@ -142,7 +142,7 @@ export default function HibikiNvTakakuUruPage() {
             <Link href="/articles/hibiki-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋ハブ</span><p className="text-sm font-bold mt-1">響（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-13）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-20）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>
