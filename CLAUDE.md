@@ -137,3 +137,11 @@ next-action-fusion-2026-06-30.md の①②③を実行。
 - 条件受け皿は既存で充足（全5に-hako-nashi角度ページ有・gf/springbank/bowmoreはNV受け皿有）。titleも既に【毎週更新】…実数円基準で最適化済。
 - build EXIT0(heap12288)・方式B(.txt削除/--exclude functions,tier2・3171ファイル)・両push・本番souba-ranking 5/5リンク確認・Indexing API 7/7。効果1-2週GSC(5銘柄のpos・click)。
 - **残N1②**: ①勝ちページ(yamazaki-nv/hakushu-nv)→スコッチへの直接クロスリンク（generate-brand-pages-v3.pyは関連銘柄がcategoryロック=JP↔JP→cross-categoryモジュール追加が必要） ②ardbeg/glenfiddichはNV受け皿・真贋ハブ無し(低volだが構造ギャップ)。効果測定後に判断。
+
+### 2026-07-19 N1② クロスカテゴリ相互リンク＋アードベッグ真贋ハブ（MediaXAI「①②共に進めよう」）✅本番反映済み
+N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リンク②ardbeg/glenfiddich受け皿整備。
+- **①クロスカテゴリ`CLUSTER`モジュール（恒久・generate-brand-pages-v3.py）**: 関連銘柄がcategoryロック(JP↔JP)で勝ちページ(山崎/白州NV)→スコッチが張れなかった問題を解消。`CLUSTER`=JP NV2＋スコッチ6(gf105/gf25/springbank15/bowmore18/ardbeg-uigeadail/glenfiddich30)を定義し、全51 kaitoriページに「年代指定なし・注目銘柄の買取相場」モジュールを注入(自ページ除外)＝**山崎NV/白州NV⇄5スコッチを双方向で内部リンク集中**（週次cron維持）。本番yamazaki-nv 5/5リンク確認。
+- **②ardbeg真贋ハブ新設**: ardbegは2バリエーション(uigeadail+corryvreckan)＝ハブ正当。HUB_FAMILIES(brand+angle両gen)＋gen-nisemono-brand-hubs BRANDSにardbeg追加→`/articles/ardbeg-nisemono-mikata/`生成・variation上リンク配線。本番200。
+- **glenfiddichは新規ページ作らず**（median_for_queryでグレンフィディック12/18年のYahooデータ取得不可＝実データ無し→架空median厳禁・作らない勇気。glenfiddich-30が唯一データ有）。generic「グレンフィディック 買取」はCLUSTERリンクで補強。
+- 3ジェネレータ再実行(51 brand/459 angle/9 hub)・sitemap2954(+ardbeg hub)・build EXIT0(heap12288)・方式B(.txt削除/functions保全・3219ファイル)・両push・本番確認(edge伝播ラグ＝?cb再確認で5/5+hub200)・Indexing 9/9。効果1-2週GSC。
+- 残: glenfiddich共通ボトル受け皿は週次Yahooでデータ取得できたら追加検討。
