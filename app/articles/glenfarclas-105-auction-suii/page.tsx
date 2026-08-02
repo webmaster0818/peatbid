@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/glenfarclas-105.json";
 
 export const metadata: Metadata = {
-  title: 'グレンファークラス105のオークション相場推移と買取価格【2026年7月最新】国内外データ分析',
+  title: 'グレンファークラス105のオークション相場推移と買取価格【2026年8月最新】国内外データ分析',
   description: "グレンファークラス105の国内外オークション相場推移を徹底分析。Sotheby's・Bonhams・Whisky Auctioneerの落札データから読み解く価格動向、過去5年の推移、今後の見通しまで完全解説。",
 };
 

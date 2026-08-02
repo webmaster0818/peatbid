@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/glenfiddich-30.json";
 
 export const metadata: Metadata = {
-  title: 'グレンフィディック30年は箱なしでも買取できる?【2026年7月最新】査定額への影響と対策',
+  title: 'グレンフィディック30年は箱なしでも買取できる?【2026年8月最新】査定額への影響と対策',
   description: 'グレンフィディック30年を箱なしで売る場合の査定額への影響と買取依頼時の注意点。査定額の目安、代替戦略、賢い売却法、箱を探す方法まで完全解説。',
 };
 
@@ -37,7 +37,7 @@ export default function Glenfiddich30HakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンフィディック30年が箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-27 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-08-03 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -68,7 +68,7 @@ export default function Glenfiddich30HakoNashiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンフィディック30年の落札が約34件確認でき、落札額の中央値は66,000円でした。流通量がやや限定的で希少性が高めの銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンフィディック30年の落札が約32件確認でき、落札額の中央値は66,000円でした。流通量がやや限定的で希少性が高めの銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -106,7 +106,7 @@ export default function Glenfiddich30HakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. グレンフィディック30年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンフィディック30年</strong>はスコッチウイスキー（スペイサイド）の30年熟成、度数40%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>66,000円</strong>（流通サンプル34件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限定的で、コンディション次第で査定が伸びやすい傾向です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンフィディック30年</strong>はスコッチウイスキー（スペイサイド）の30年熟成、度数40%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>66,000円</strong>（流通サンプル32件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限定的で、コンディション次第で査定が伸びやすい傾向です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>グレンフィディック30年の場合、実勢中央値<strong>66,000円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 66,000円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約56,100〜62,700円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約56,100〜60,720円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約52,800〜59,400円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約49,500〜56,100円（75〜85%）
@@ -184,7 +184,7 @@ export default function Glenfiddich30HakoNashiPage() {
             <Link href="/articles/glenfiddich-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">グレンフィディック30年の買取相場ガイド（完全版）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-07-27）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-08-03）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

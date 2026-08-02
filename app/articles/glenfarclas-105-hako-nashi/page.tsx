@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/glenfarclas-105.json";
 
 export const metadata: Metadata = {
-  title: 'グレンファークラス105は箱なしでも買取できる?【2026年7月最新】査定額への影響と対策',
+  title: 'グレンファークラス105は箱なしでも買取できる?【2026年8月最新】査定額への影響と対策',
   description: 'グレンファークラス105を箱なしで売る場合の査定額への影響と買取依頼時の注意点。査定額の目安、代替戦略、賢い売却法、箱を探す方法まで完全解説。',
 };
 

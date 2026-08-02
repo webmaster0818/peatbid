@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/glenfarclas-105.json";
 
 export const metadata: Metadata = {
-  title: 'グレンファークラス105の買取おすすめ業者ランキング【2026年7月最新】査定額・スピードで徹底比較',
+  title: 'グレンファークラス105の買取おすすめ業者ランキング【2026年8月最新】査定額・スピードで徹底比較',
   description: 'グレンファークラス105に強い買取業者をランキング形式で徹底比較。ヒカカク・バイセル・JOYLAB・リカスタの査定スピード・査定額・サポート・信頼性を多角的に評価し、目的別おすすめを提示。',
 };
 

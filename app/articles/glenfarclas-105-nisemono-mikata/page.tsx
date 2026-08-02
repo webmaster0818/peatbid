@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/glenfarclas-105.json";
 
 export const metadata: Metadata = {
-  title: 'グレンファークラス105の偽物・贋作の見分け方【2026年7月最新】本物との違い5点（ラベル・キャップ・液面）と売却前チェック',
+  title: 'グレンファークラス105の偽物・贋作の見分け方【2026年8月最新】本物との違い5点（ラベル・キャップ・液面）と売却前チェック',
   description: 'グレンファークラス105の偽物・贋作を見分ける具体的なポイントを徹底解説。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。',
 };
 

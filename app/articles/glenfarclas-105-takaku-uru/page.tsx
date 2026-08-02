@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/glenfarclas-105.json";
 
 export const metadata: Metadata = {
-  title: 'グレンファークラス105を高く売るには？買取相場と査定額を最大化する7つのコツ【2026年7月最新】',
+  title: 'グレンファークラス105を高く売るには？買取相場と査定額を最大化する7つのコツ【2026年8月最新】',
   description: 'グレンファークラス105を最高値で売るための実践ガイド。付属品・状態・売却タイミング・業者選び・保管方法・贋作対策・交渉術の7要素で査定額を最大化する具体策を完全解説。',
 };
 

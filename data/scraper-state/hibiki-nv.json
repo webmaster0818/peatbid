@@ -1,11 +1,11 @@
 {
   "slug": "hibiki-nv",
   "label": "響NV",
-  "fetched_at": "2026-07-24T09:00:15",
+  "fetched_at": "2026-07-31T09:00:16",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E9%9F%BF%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%8B%E3%83%BC%E3%82%BA%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%83%BC",
-  "avg": 22235,
+  "avg": 22140,
   "max": 214000,
   "min": null,
-  "count": 1752,
+  "count": 1778,
   "ok": true
 }
