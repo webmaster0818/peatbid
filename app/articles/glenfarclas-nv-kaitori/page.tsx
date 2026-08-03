@@ -21,7 +21,7 @@ const nvFetchedAt = nvReady ? nvRec!.fetched_at : null;
 const refFetchedAt = m["glenfarclas-25"]?.fetched_at ?? "毎週月曜";
 
 export const metadata: Metadata = {
-  title: "グレンファークラスの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格【2026年7月】",
+  title: "グレンファークラス買取価格【2026年8月】ノンエイジ・年代表記なしの相場と高く売る方法",
   description:
     "年代表記のないグレンファークラスの正体は、主に「105カスクストレングス」（60度・NAS）です。105・ヘリテージなど年数表記のないボトルの見分け方、25年など年代付きボトルとの実勢価格比較（ヤフオク落札中央値・毎週更新）、高く売るコツと無料査定の使い方まで解説します。",
   alternates: { canonical: "/articles/glenfarclas-nv-kaitori/" },

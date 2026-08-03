@@ -21,7 +21,7 @@ const nvFetchedAt = nvReady ? nvRec!.fetched_at : null;
 const refFetchedAt = m["springbank-15"]?.fetched_at ?? "毎週月曜";
 
 export const metadata: Metadata = {
-  title: "スプリングバンクの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格【2026年7月】",
+  title: "スプリングバンク買取価格【2026年8月】ノンエイジ・年代表記なしの相場と高く売る方法",
   description:
     "年代表記のないスプリングバンクの常時流通はごく稀で、現行ラインの最年少は10年です。年代不明に見えるボトルの多くはラベル摩耗か限定品。年数の確認手順、10年・15年・21年の実勢価格比較（ヤフオク落札中央値・毎週更新）、高く売るコツと無料査定の使い方まで解説します。",
   alternates: { canonical: "/articles/springbank-nv-kaitori/" },

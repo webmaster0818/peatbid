@@ -12,7 +12,7 @@ const yen = (v?: number) => (v ? `${v.toLocaleString("ja-JP")}円` : "—");
 const fetchedAt = t25?.fetched_at ?? "";
 
 export const metadata: Metadata = {
-  title: "タリスカーの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格【2026年7月】",
+  title: "タリスカー買取価格【2026年8月】ノンエイジ・年代表記なしの相場と高く売る方法",
   description:
     `タリスカーの「年代指定なし（NV/ノンエイジ）」はストーム・スカイ・ポートリー・57°ノースなどのボトルが該当します。${nvMedian ? `NVの実勢中央値は${yen(nvMedian)}（参考値）。` : "NVの実勢中央値は現在収集中（毎週更新）。"}年代付き（25年${yen(t25?.median)}）との比較、手元のボトルの見分け方、高く売るコツまで実データで解説。`,
   alternates: { canonical: "/articles/talisker-nv-kaitori/" },

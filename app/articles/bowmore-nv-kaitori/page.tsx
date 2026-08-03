@@ -13,7 +13,7 @@ const yen = (v?: number) => (v ? `${v.toLocaleString("ja-JP")}円` : "—");
 const fetchedAt = b18?.fetched_at ?? b25?.fetched_at ?? "";
 
 export const metadata: Metadata = {
-  title: "ボウモアの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格【2026年7月】",
+  title: "ボウモア買取価格【2026年8月】ノンエイジ・年代表記なしの相場と高く売る方法",
   description:
     `ボウモアの「年代指定なし（NV/ノンエイジ）」はNo.1・スモールバッチ・レジェンドなどのボトルが該当します。${nvMedian ? `NVの実勢中央値は${yen(nvMedian)}（参考値）。` : "NVの実勢中央値は現在収集中（毎週更新）。"}年代付き（18年${yen(b18?.median)}・25年${yen(b25?.median)}）との比較、手元のボトルの見分け方、高く売るコツまで実データで解説。`,
   alternates: { canonical: "/articles/bowmore-nv-kaitori/" },
