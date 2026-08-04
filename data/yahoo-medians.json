@@ -598,5 +598,65 @@
     "max": 36000,
     "insufficient": false,
     "fetched_at": "2026-08-03"
+  },
+  "glenfiddich-12": {
+    "query_used": "グレンフィディック12年 700ml",
+    "pages_fetched": 3,
+    "raw_n": 300,
+    "filtered_n": 254,
+    "median": 3080,
+    "mean": 3059,
+    "min": 2530,
+    "max": 3628,
+    "insufficient": false,
+    "fetched_at": "2026-08-04"
+  },
+  "glenfiddich-15": {
+    "query_used": "グレンフィディック15年 700ml",
+    "pages_fetched": 3,
+    "raw_n": 300,
+    "filtered_n": 272,
+    "median": 5104,
+    "mean": 5339,
+    "min": 3100,
+    "max": 8855,
+    "insufficient": false,
+    "fetched_at": "2026-08-04"
+  },
+  "glenfiddich-18": {
+    "query_used": "グレンフィディック18年 700ml",
+    "pages_fetched": 3,
+    "raw_n": 300,
+    "filtered_n": 292,
+    "median": 10800,
+    "mean": 11537,
+    "min": 6750,
+    "max": 19250,
+    "insufficient": false,
+    "fetched_at": "2026-08-04"
+  },
+  "ardbeg-10": {
+    "query_used": "アードベッグ 10年 700ml",
+    "pages_fetched": 3,
+    "raw_n": 300,
+    "filtered_n": 240,
+    "median": 4398,
+    "mean": 4380,
+    "min": 3300,
+    "max": 6158,
+    "insufficient": false,
+    "fetched_at": "2026-08-04"
+  },
+  "ardbeg-an-oa": {
+    "query_used": "アードベッグ アンオー 700ml",
+    "pages_fetched": 2,
+    "raw_n": 56,
+    "filtered_n": 48,
+    "median": 6874,
+    "mean": 6834,
+    "min": 5750,
+    "max": 7980,
+    "insufficient": false,
+    "fetched_at": "2026-08-04"
   }
 }

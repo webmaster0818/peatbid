@@ -70,6 +70,10 @@ export default function Glenfiddich30KaitoriPage() {
 
           
 
+          <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
+            <p className="text-sm text-ink">🔀 12年・15年・18年など、お持ちのボトルの年数が30年以外の方はこちら → <Link href="/articles/glenfiddich-kaitori/" className="text-amber-dark underline font-bold">グレンフィディックの買取相場（年代別）</Link></p>
+          </div>
+
 
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。グレンフィディック30年は希少度<strong>ハイ</strong>クラスに位置し、希少性と国際的評価により、二次流通市場で高値が定着している銘柄帯。コレクター・投資需要が支え、長期保有での価値増大が期待できる。</p>
 

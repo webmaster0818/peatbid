@@ -95,6 +95,18 @@ MIN_SAMPLE = 20
 MAX_PAGES = 3
 TODAY = datetime.now().strftime("%Y-%m-%d")
 
+# brands.csv には載せない（＝銘柄ページ10系統を量産しない）が、
+# 受け皿ページ（glenfiddich-kaitori / ardbeg-nv-kaitori）で実勢中央値として使う銘柄。
+# main() は brands.csv の行を回すため、ここは別パスで取得して yahoo-medians.json に合流させる。
+# ⚠️ これを消すと受け皿ページの比較表から実数が落ちる（架空値で埋めないこと）。
+EXTRA_SLUGS = {
+    "glenfiddich-12": "グレンフィディック12年",
+    "glenfiddich-15": "グレンフィディック15年",
+    "glenfiddich-18": "グレンフィディック18年",
+    "ardbeg-10": "アードベッグ 10年",
+    "ardbeg-an-oa": "アードベッグ アンオー",
+}
+
 
 def fetch(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -263,6 +275,19 @@ def main():
             row["yahoo_query_used"] = r.get("query_used", "")
             print(f"INSUFFICIENT n={r.get('filtered_n', 0)}")
         write_history(slug, row.get("name_ja", slug), r)
+        time.sleep(0.8)
+
+    # brands.csv 外の受け皿用銘柄（EXTRA_SLUGS）も取得して results に合流させる。
+    # ここを回さないと、週次でJSONが上書きされた際に受け皿ページの実数が消える。
+    for j, (slug, query) in enumerate(EXTRA_SLUGS.items(), 1):
+        print(f"  [extra {j}/{len(EXTRA_SLUGS)}] {slug} '{query}'...", end=" ", flush=True)
+        r = median_for_query(query)
+        results[slug] = r
+        if r.get("median") and not r.get("insufficient"):
+            print(f"median=¥{r['median']:,} n={r['filtered_n']}")
+        else:
+            print(f"INSUFFICIENT n={r.get('filtered_n', 0)}")
+        write_history(slug, slug, r)
         time.sleep(0.8)
 
     # Save back to brands.csv

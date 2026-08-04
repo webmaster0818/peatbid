@@ -70,6 +70,10 @@ export default function ArdbegUigeadailKaitoriPage() {
 
           
 
+          <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
+            <p className="text-sm text-ink">🔀 どのアードベッグか特定できていない方・年代表記のないボトルをお持ちの方はこちら → <Link href="/articles/ardbeg-nv-kaitori/" className="text-amber-dark underline font-bold">アードベッグの年代指定なし(NV)買取相場</Link></p>
+          </div>
+
 
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。アードベッグ ウーガダールは希少度<strong>コモン</strong>クラスに位置し、現行品として安定流通しているが、銘柄によってはプレミア化の兆しあり。市場価値は中位だが、コレクター入門品として安定需要を持つ。</p>
 

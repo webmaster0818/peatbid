@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/hakushu-nv.json";
 
 export const metadata: Metadata = {
-  title: '【毎週更新】白州ノンエイジの買取相場｜ヤフオク落札中央値9,900円基準【2026年8月】',
+  title: '【毎週更新】白州ノンエイジの買取価格｜ヤフオク落札中央値9,900円基準【2026年8月】',
   description: '白州ノンエイジの買取相場は9,900円が目安（毎週月曜更新・ヤフオク実落札の中央値・過去180日のIQR外れ値除去後、n=204件）。箱なし・開封済み等の状態別の査定目安、買取業者4社の比較、高く売るコツまで実データで解説。',
 };
 

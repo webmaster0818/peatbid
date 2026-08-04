@@ -50,12 +50,6 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ブラックボウモアの買取相場と業者比較ガイド【2026年8月】</h1>
-        {/* nv-redirect-202608: 年代表記なしのボトルを探している検索意図をNVページへ誘導 */}
-        <div className="my-6 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm leading-relaxed">
-          <strong>お手元のボトルに年数の表記がない場合</strong>は、
-          <a href="/articles/bowmore-nv-kaitori/" className="font-medium text-amber-800 underline hover:text-amber-900">ボウモアノンエイジ（年代表記なし）の買取相場ページ</a>
-          をご覧ください。ヤフオク実落札データに基づく相場と、箱なし・開封済みなど状態別の目安をまとめています。
-        </div>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-08-03 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
@@ -77,7 +71,7 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
           
 
           <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
-            <p className="text-sm text-ink">🔀 年代表記のないボウモア（No.1等）の売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください → <Link href="/articles/whisky-nv-toha/" className="text-amber-dark underline font-bold">年代指定なし（NV）ウイスキーの買取ガイド</Link></p>
+            <p className="text-sm text-ink">🔀 年代表記のないボウモア（No.1・スモールバッチ等）をお探しの方はこちら → <Link href="/articles/bowmore-nv-kaitori/" className="text-amber-dark underline font-bold">ボウモアの年代指定なし(NV)買取相場</Link></p>
           </div>
 
 

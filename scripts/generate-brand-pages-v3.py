@@ -376,12 +376,28 @@ def render_page(b, all_brands):
         "hibiki-nv": ("/articles/hibiki-17-kaitori/", "「17年」など熟成年数の表記がある響をお探しの方はこちら", "響17年の買取相場ガイド"),
         "yoichi-nv": ("/articles/yoichi-10-kaitori/", "「10年」など熟成年数の表記がある余市をお探しの方はこちら", "余市10年の買取相場ガイド"),
         "miyagikyo-nv": ("/articles/miyagikyo-12-kaitori/", "「12年」など熟成年数の表記がある宮城峡をお探しの方はこちら", "宮城峡12年の買取相場ガイド"),
-        # スコッチ系: 年代指定なしクエリの誤着地→NVハブ（該当NV銘柄ページが無いため解説+一覧で受ける）
-        "springbank-15": ("/articles/whisky-nv-toha/", "年代表記のないスプリングバンクの売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください", "年代指定なし（NV）ウイスキーの買取ガイド"),
-        "springbank-21": ("/articles/whisky-nv-toha/", "年代表記のないスプリングバンクの売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください", "年代指定なし（NV）ウイスキーの買取ガイド"),
-        "bowmore-18": ("/articles/whisky-nv-toha/", "年代表記のないボウモア（No.1等）の売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください", "年代指定なし（NV）ウイスキーの買取ガイド"),
-        "bowmore-25": ("/articles/whisky-nv-toha/", "年代表記のないボウモア（No.1等）の売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください", "年代指定なし（NV）ウイスキーの買取ガイド"),
-        "bowmore-blackbowmore": ("/articles/whisky-nv-toha/", "年代表記のないボウモア（No.1等）の売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください", "年代指定なし（NV）ウイスキーの買取ガイド"),
+        # スコッチ系: 年代指定なしクエリの誤着地→各銘柄のNVページへ
+        # ⚠️2026-08-04修正: 以前は汎用の whisky-nv-toha に流していたが、
+        #   bowmore-nv / springbank-nv の専用ページが実在するため、そちらを直接指す。
+        #   （P1で page.tsx に直接注入した導線は週次再生成で消えるため、ここへ移設した）
+        "springbank-15": ("/articles/springbank-nv-kaitori/", "年代表記のないスプリングバンクをお探しの方はこちら", "スプリングバンクの年代指定なし(NV)買取相場"),
+        "springbank-21": ("/articles/springbank-nv-kaitori/", "年代表記のないスプリングバンクをお探しの方はこちら", "スプリングバンクの年代指定なし(NV)買取相場"),
+        "bowmore-18": ("/articles/bowmore-nv-kaitori/", "年代表記のないボウモア（No.1・スモールバッチ等）をお探しの方はこちら", "ボウモアの年代指定なし(NV)買取相場"),
+        "bowmore-25": ("/articles/bowmore-nv-kaitori/", "年代表記のないボウモア（No.1・スモールバッチ等）をお探しの方はこちら", "ボウモアの年代指定なし(NV)買取相場"),
+        "bowmore-blackbowmore": ("/articles/bowmore-nv-kaitori/", "年代表記のないボウモア（No.1・スモールバッチ等）をお探しの方はこちら", "ボウモアの年代指定なし(NV)買取相場"),
+        "talisker-25": ("/articles/talisker-nv-kaitori/", "年代表記のないタリスカー（ストーム・スカイ等）をお探しの方はこちら", "タリスカーの年代指定なし(NV)買取相場"),
+        "laphroaig-25": ("/articles/laphroaig-nv-kaitori/", "年代表記のないラフロイグ（セレクト・クォーターカスク等）をお探しの方はこちら", "ラフロイグの年代指定なし(NV)買取相場"),
+        # 竹鶴: 年代表記のない竹鶴＝「竹鶴ピュアモルト」。専用NVページは作らず既存ページへ寄せる
+        # （GSC実測では「竹鶴 買取」の中身は21年/25年など年代指定クエリが大半のため、新規URLは作らない判断）
+        "taketsuru-17": ("/articles/taketsuru-pure-kaitori/", "年数表記のない「竹鶴ピュアモルト」をお探しの方はこちら", "竹鶴ピュアモルトの買取相場ガイド"),
+        "taketsuru-21": ("/articles/taketsuru-pure-kaitori/", "年数表記のない「竹鶴ピュアモルト」をお探しの方はこちら", "竹鶴ピュアモルトの買取相場ガイド"),
+        "taketsuru-25": ("/articles/taketsuru-pure-kaitori/", "年数表記のない「竹鶴ピュアモルト」をお探しの方はこちら", "竹鶴ピュアモルトの買取相場ガイド"),
+        # アードベッグ: 「アードベッグ 買取」がウーガダール/コリーヴレッカンの2ページに割れていた
+        # （21.4位と26.1位で共食い）→ 銘柄横断の受け皿へ集約する
+        "ardbeg-uigeadail": ("/articles/ardbeg-nv-kaitori/", "どのアードベッグか特定できていない方・年代表記のないボトルをお持ちの方はこちら", "アードベッグの年代指定なし(NV)買取相場"),
+        "ardbeg-corryvreckan": ("/articles/ardbeg-nv-kaitori/", "どのアードベッグか特定できていない方・年代表記のないボトルをお持ちの方はこちら", "アードベッグの年代指定なし(NV)買取相場"),
+        # グレンフィディック: 総称「グレンフィディック 買取」が30年ページに着地していた
+        "glenfiddich-30": ("/articles/glenfiddich-kaitori/", "12年・15年・18年など、お持ちのボトルの年数が30年以外の方はこちら", "グレンフィディックの買取相場（年代別）"),
     }
     intent_split_block = ""
     if slug_base in INTENT_SPLIT:
@@ -465,7 +481,7 @@ def render_page(b, all_brands):
     band_lm = band_latest(slug_base) if slug_base in BAND_BRAND_SLUGS else None
     if band_lm:
         _bmed, _bn = band_lm
-        meta_title = band_title(title_name, _bmed)
+        meta_title = band_title(title_name, _bmed, slug_base)
         meta_desc = (
             f"{title_name}の買取相場は{_bmed:,}円が目安（{UPDATE_NOTE}・過去180日のIQR外れ値除去後、n={_bn}件）。"
             f"箱なし・開封済み等の状態別の査定目安、買取業者4社の比較、高く売るコツまで実データで解説。"

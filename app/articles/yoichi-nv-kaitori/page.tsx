@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/yoichi-nv.json";
 
 export const metadata: Metadata = {
-  title: '余市買取価格【2026年8月】ノンエイジ・年代表記なしの相場と高く売る方法',
+  title: '余市ノンエイジの買取相場ガイド【2026年8月最新】状態別の目安',
   description: '余市ノンエイジ（Yoichi NV）の買取相場ガイド。箱なし・開封済み等の状態別目安、買取業者4社の比較、高く売るコツ、贋作リスクまで網羅。',
 };
 

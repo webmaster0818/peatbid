@@ -71,7 +71,7 @@ export default function Springbank21KaitoriPage() {
           
 
           <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
-            <p className="text-sm text-ink">🔀 年代表記のないスプリングバンクの売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください → <Link href="/articles/whisky-nv-toha/" className="text-amber-dark underline font-bold">年代指定なし（NV）ウイスキーの買取ガイド</Link></p>
+            <p className="text-sm text-ink">🔀 年代表記のないスプリングバンクをお探しの方はこちら → <Link href="/articles/springbank-nv-kaitori/" className="text-amber-dark underline font-bold">スプリングバンクの年代指定なし(NV)買取相場</Link></p>
           </div>
 
           <p className="text-sm text-warm-gray my-4">年代表記が見当たらないボトルの正体と実勢価格は <Link href="/articles/springbank-nv-kaitori/" className="text-amber-dark underline">スプリングバンクの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格</Link> で詳しく解説しています。</p>

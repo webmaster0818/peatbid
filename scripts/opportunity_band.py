@@ -32,6 +32,9 @@ BAND_BRAND_SLUGS = {
     "hakushu-nv",
     "ichirosu-double-distilleries",
     "yamazaki-12",
+    # 2026-08-04 追加: 響NV は山崎/白州と同一構成なのに 22.2位・35imp と沈んでいた。
+    # 中央値実数(11,110円/n=284)があるので、バンド入りでtitle実数＋スパークライン＋実数FAQを付与する。
+    "hibiki-nv",
 }
 
 # 角度(angle)ページ: フルページslug（/articles/{slug}/）
@@ -92,9 +95,20 @@ def band_latest(slug):
     return int(med), (int(n) if isinstance(n, (int, float)) else 0)
 
 
-def band_title(display_name, median):
+# titleの語尾を実需クエリに合わせて出し分ける（GSC 90日実測 2026-08-04）。
+#   yamazaki-nv: 「山崎 ノンエイジ 買取相場」244imp が主力 → 相場（現状維持・CTR3.9%で勝っている）
+#   hakushu-nv : 「白州 ノンエイジ 買取価格」220imp が主力なのにtitleは「買取相場」でCTR1.24%
+#                → 「買取価格」に合わせる（順位10.6位は据え置きでもCTR改善余地がある想定）
+# ⚠️ 効果は1〜2週のGSCで検証し、改善しなければ元に戻すこと。
+TITLE_NOUN = {
+    "hakushu-nv": "買取価格",
+}
+
+
+def band_title(display_name, median, slug=None):
     """機会バンド用の機械挿入title。TITLE_ALIAS 適用後の表示名を渡すこと。"""
-    return f"【毎週更新】{display_name}の買取相場｜ヤフオク落札中央値{median:,}円基準{BAND_MONTH}"
+    noun = TITLE_NOUN.get(slug, "買取相場")
+    return f"【毎週更新】{display_name}の{noun}｜ヤフオク落札中央値{median:,}円基準{BAND_MONTH}"
 
 
 def _fmt_date_md(d):

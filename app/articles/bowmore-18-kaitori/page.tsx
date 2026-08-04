@@ -71,7 +71,7 @@ export default function Bowmore18KaitoriPage() {
           
 
           <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
-            <p className="text-sm text-ink">🔀 年代表記のないボウモア（No.1等）の売却をお考えの方は、まずノンエイジ（NV）の相場の見方をご覧ください → <Link href="/articles/whisky-nv-toha/" className="text-amber-dark underline font-bold">年代指定なし（NV）ウイスキーの買取ガイド</Link></p>
+            <p className="text-sm text-ink">🔀 年代表記のないボウモア（No.1・スモールバッチ等）をお探しの方はこちら → <Link href="/articles/bowmore-nv-kaitori/" className="text-amber-dark underline font-bold">ボウモアの年代指定なし(NV)買取相場</Link></p>
           </div>
 
 

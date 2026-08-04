@@ -50,12 +50,6 @@ export default function Glenfarclas25KaitoriPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンファークラス25年の買取相場と業者比較ガイド【2026年8月】</h1>
-        {/* nv-redirect-202608: 年代表記なしのボトルを探している検索意図をNVページへ誘導 */}
-        <div className="my-6 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm leading-relaxed">
-          <strong>お手元のボトルに年数の表記がない場合</strong>は、
-          <a href="/articles/glenfarclas-nv-kaitori/" className="font-medium text-amber-800 underline hover:text-amber-900">グレンファークラスノンエイジ（年代表記なし）の買取相場ページ</a>
-          をご覧ください。ヤフオク実落札データに基づく相場と、箱なし・開封済みなど状態別の目安をまとめています。
-        </div>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-08-03 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />

@@ -50,12 +50,6 @@ export default function Talisker25KaitoriPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">タリスカー25年の買取相場と業者比較ガイド【2026年8月】</h1>
-        {/* nv-redirect-202608: 年代表記なしのボトルを探している検索意図をNVページへ誘導 */}
-        <div className="my-6 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm leading-relaxed">
-          <strong>お手元のボトルに年数の表記がない場合</strong>は、
-          <a href="/articles/talisker-nv-kaitori/" className="font-medium text-amber-800 underline hover:text-amber-900">タリスカーノンエイジ（年代表記なし）の買取相場ページ</a>
-          をご覧ください。ヤフオク実落札データに基づく相場と、箱なし・開封済みなど状態別の目安をまとめています。
-        </div>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-08-03 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
@@ -75,6 +69,10 @@ export default function Talisker25KaitoriPage() {
           <p>タリスカー25年はスコッチウイスキーを代表する銘柄の1つで、スカイが手がける25年熟成のボトルです。タリスカー25年。</p>
 
           
+
+          <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
+            <p className="text-sm text-ink">🔀 年代表記のないタリスカー（ストーム・スカイ等）をお探しの方はこちら → <Link href="/articles/talisker-nv-kaitori/" className="text-amber-dark underline font-bold">タリスカーの年代指定なし(NV)買取相場</Link></p>
+          </div>
 
 
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。タリスカー25年は希少度<strong>ミッド</strong>クラスに位置し、終売・休売後の供給制限により価格上昇基調にある銘柄帯。市場流通量が徐々に減少し、二次流通価格は年単位で15〜30%上昇する傾向。</p>
