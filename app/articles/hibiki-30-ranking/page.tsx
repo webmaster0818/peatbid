@@ -6,7 +6,7 @@ import priceData from "@/data/price-history/hibiki-30.json";
 
 export const metadata: Metadata = {
   title: '響30年の買取おすすめ業者ランキング【2026年8月最新】査定額・スピードで徹底比較',
-  description: '響30年に強い買取業者をランキング形式で徹底比較。ヒカカク・バイセル・JOYLAB・リカスタの査定スピード・査定額・サポート・信頼性を多角的に評価し、目的別おすすめを提示。',
+  description: '響30年に強い買取業者をランキング形式で徹底比較。ヒカカク・バイセル・リカスタの査定スピード・査定額・サポート・信頼性を多角的に評価し、目的別おすすめを提示。',
 };
 
 function FaqSchema() {
@@ -57,9 +57,8 @@ export default function Hibiki30RankingPage() {
               <li><a href="#section-1" className="hover:underline">2. ランキングの選定基準</a></li>
               <li><a href="#section-2" className="hover:underline">3. 1位: ヒカカク！（一括査定で最高値発見）</a></li>
               <li><a href="#section-3" className="hover:underline">4. 2位: バイセル（東証グロース上場の安心感）</a></li>
-              <li><a href="#section-4" className="hover:underline">5. 3位: JOYLAB（お酒買取専門の高単価）</a></li>
-              <li><a href="#section-5" className="hover:underline">6. 4位: リカスタ（宅配買取で完結）</a></li>
-              <li><a href="#section-6" className="hover:underline">7. 業者選びの最適戦略</a></li>
+              <li><a href="#section-4" className="hover:underline">5. 3位: リカスタ（宅配買取で完結）</a></li>
+              <li><a href="#section-5" className="hover:underline">6. 業者選びの最適戦略</a></li>
             </ol>
           </div>
 
@@ -86,7 +85,6 @@ export default function Hibiki30RankingPage() {
               <tbody>
                 <tr><td><strong>ヒカカク！</strong></td><td>一括査定（20社）</td><td>1〜2日</td><td>★★★★★</td><td>無料</td></tr>
                 <tr><td><strong>バイセル</strong></td><td>大手の安心感</td><td>即日〜2日</td><td>★★★★</td><td>無料</td></tr>
-                <tr><td><strong>JOYLAB</strong></td><td>お酒専門・希少銘柄</td><td>1〜3日</td><td>★★★★★</td><td>無料</td></tr>
                 <tr><td><strong>リカスタ</strong></td><td>宅配買取</td><td>2〜5日</td><td>★★★★</td><td>無料</td></tr>
               </tbody>
             </table>
@@ -106,14 +104,11 @@ export default function Hibiki30RankingPage() {
           <h2 id="section-3">4. 2位: バイセル（東証グロース上場の安心感）</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 44/50</strong></p><p>東証グロース上場のBuySell Technologies運営。年間累計買取件数430万件超の大手で、お酒・ウイスキー買取に注力中。<strong>信頼性とスピードを両立</strong>したい場合に最適です。</p><p><strong>強み</strong>: 東証グロース上場で社会的信頼性◎ / 3チャネル対応（出張・店頭・宅配） / CM放映で知名度抜群 / 一律無料</p><p><strong>弱み</strong>: 一括査定よりは査定額がやや低めの場合あり / 出張買取はエリア限定</p><p><strong>こんな人におすすめ</strong>: 信頼性とスピードを両立したい方、大量にまとめて売りたい方</p>` }} />
 
-          <h2 id="section-4">5. 3位: JOYLAB（お酒買取専門の高単価）</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 43/50</strong></p><p>JOYLABはお酒買取専門で、銘柄別の相場表をリアルタイム公開。<strong>ジャパニーズウイスキー強化中</strong>で、希少銘柄に対する専門知識と査定スピードに定評があります。</p><p><strong>強み</strong>: お酒買取専門の深い知識 / リアルタイム相場公開 / 海外オークション価格を反映した査定 / 希少銘柄に強い</p><p><strong>弱み</strong>: 大手チェーンと比較すると店舗数が少ない / 出張買取エリアが限定的</p><p><strong>こんな人におすすめ</strong>: 希少銘柄を専門店で売りたい方、当日の海外オークション価格を反映した査定を希望する方</p>` }} />
-
-          <h2 id="section-5">6. 4位: リカスタ（宅配買取で完結）</h2>
+          <h2 id="section-4">5. 3位: リカスタ（宅配買取で完結）</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 40/50</strong></p><p>リカスタは全国対応の宅配買取サービス。店舗に行く時間がない方、地方在住の方に最適。査定無料・キャンセル無料・送料・梱包キット無料で気軽に試せます。</p><p><strong>強み</strong>: 全国対応の宅配買取 / 査定・送料・キャンセル無料 / ジャパニーズウイスキーも積極買取 / Web完結</p><p><strong>弱み</strong>: 査定額は専門店比でやや低めのことがある / 即日現金化はできない（宅配のため）</p><p><strong>こんな人におすすめ</strong>: 宅配で完結したい方、地方在住の方、複数本まとめて宅配で売りたい方</p>` }} />
 
-          <h2 id="section-6">7. 業者選びの最適戦略</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部が推奨する<strong>3ステップ戦略</strong>:</p><ol><li><strong>まずヒカカクで一括査定</strong> — 最大20社の相場感を把握</li><li><strong>JOYLABで専門査定</strong> — お酒専門店の査定で本当の市場価値を確認</li><li><strong>最高値の業者で売却</strong> — 手取り額（手数料・送料込み）で比較し最終決定
+          <h2 id="section-5">6. 業者選びの最適戦略</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部が推奨する<strong>3ステップ戦略</strong>:</p><ol><li><strong>まずヒカカクで一括査定</strong> — 最大20社の相場感を把握</li><li><strong>専門店で個別査定</strong> — お酒買取に強い業者の査定で本当の市場価値を確認</li><li><strong>最高値の業者で売却</strong> — 手取り額（手数料・送料込み）で比較し最終決定
 
 この3ステップで、{name}の最高値を確実に引き出せます。</li></ol>` }} />
 
@@ -122,7 +117,6 @@ export default function Hibiki30RankingPage() {
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
-              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定</a>
               <a href="https://www.buysell-onlineshop.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
               <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">リカスタで宅配買取</a>
             </div>

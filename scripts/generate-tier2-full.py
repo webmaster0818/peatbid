@@ -244,7 +244,6 @@ export default function Page() {{
           <p>地元業者と並行して、以下の全国対応業者でも見積もりを取ることで、最高値を引き出しやすくなります:</p>
           <ul>
             <li><strong>バイセル</strong>: 東証上場の大手、出張買取・宅配買取に対応</li>
-            <li><strong>JOYLAB</strong>: ウイスキー専門査定、全国店舗展開</li>
             <li><strong>福ちゃん</strong>: 全国12店舗展開、大手で安心</li>
             <li><strong>リンクサス（LINXAS）</strong>: お酒高価買取の専門業者</li>
             <li><strong>大黒屋</strong>: 質屋系列で安心、即現金化</li>

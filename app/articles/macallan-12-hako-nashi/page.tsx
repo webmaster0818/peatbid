@@ -127,7 +127,7 @@ export default function Macallan12HakoNashiPage() {
           <div dangerouslySetInnerHTML={{ __html: `<ol><li><strong>ボトル本体・ラベル・キャップを完璧な状態で保管</strong></li><li><strong>冊子・ホログラム・購入レシート等、他の付属品があれば必ず添付</strong></li><li><strong>複数業者で見積もり</strong> — 業者により箱なしの評価額に差がある</li><li><strong>写真撮影</strong> — 査定前にボトルの状態を記録</li><li><strong>保管環境の整備</strong> — ラベル・キャップの状態を維持</li><li><strong>正直な状態申告</strong> — 嘘の申告は信頼を失い結果的に損</li><li><strong>早めの売却</strong> — 時間経過でラベル劣化リスクが増加</li></ol>` }} />
 
           <h2 id="section-5">6. 箱なしでも歓迎の買取業者</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid推奨の4社はすべて箱なしでも査定対応可能。<strong>特に推奨される業者</strong>:</p><ol><li><strong>ヒカカク！</strong> — 一括査定で箱なし対応業者を比較</li><li><strong>JOYLAB</strong> — お酒専門で柔軟な評価、希少銘柄に強い</li><li><strong>バイセル</strong> — 大手の安心感、箱なしでも査定可</li><li><strong>リカスタ</strong> — 宅配買取で箱なしも対応
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid推奨の3社はすべて箱なしでも査定対応可能。<strong>特に推奨される業者</strong>:</p><ol><li><strong>ヒカカク！</strong> — 一括査定で箱なし対応業者を比較</li><li><strong>バイセル</strong> — 大手の安心感、箱なしでも査定可</li><li><strong>リカスタ</strong> — 宅配買取で箱なしも対応
 
 各業者で査定額が異なるため、3社以上で見積もりを取ることが必須です。</li></ol>` }} />
 
@@ -148,7 +148,6 @@ export default function Macallan12HakoNashiPage() {
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
-              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定</a>
               <a href="https://www.buysell-onlineshop.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
               <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">リカスタで宅配買取</a>
             </div>

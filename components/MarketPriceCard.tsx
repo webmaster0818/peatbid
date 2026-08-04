@@ -35,7 +35,6 @@ const DEALER_LINKS: { name: string; href: string }[] = [
   { name: "LINXAS", href: "https://linxas.shop/whiskey/" },
   { name: "バイセル", href: "https://www.buysell-japan.jp/sake/" },
   { name: "福ちゃん", href: "https://fukuchan.co.jp/oshina/sake/" },
-  { name: "JOYLAB", href: "https://www.joylab.jp/sake/" },
 ];
 
 function formatJPY(value: number | null): string {

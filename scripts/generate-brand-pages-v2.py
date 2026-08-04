@@ -142,14 +142,6 @@ PARTNERS_DETAILED = [
         "best_for": "**信頼性とスピード**を両立したい方",
     },
     {
-        "name": "JOYLAB",
-        "url": "https://joylab.jp/",
-        "method": "店頭/宅配/出張",
-        "intro": "お酒買取専門で、銘柄ごとのリアルタイム相場表を公式サイトで公開。**ジャパニーズウイスキー強化中**で、希少銘柄に対する専門知識と査定スピードに定評があります。",
-        "strengths": ["お酒買取専門の深い知識", "リアルタイム相場公開", "ジャパニーズウイスキー注力"],
-        "best_for": "**希少銘柄を専門店で売りたい方**",
-    },
-    {
         "name": "リカスタ",
         "url": "https://www.licasta.com/",
         "method": "宅配/出張",
@@ -258,7 +250,7 @@ def render_page(b, all_brands):
         (f"{name}の開封済みでも買取できますか？",
          f"はい、可能です。残量9割以上で約{fmt(int(price * 0.30))}〜{fmt(int(price * 0.40))}、半分以下では大幅減額となります。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。"),
         (f"{name}に偽物・贋作はありますか？",
-         f"高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。"),
+         f"高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。"),
         (f"{name}の保管方法は？",
          "(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。"),
         (f"{name}は税金がかかりますか？",
@@ -391,7 +383,7 @@ export default function {component_name}() {{
           <p>2026年5月時点での{name}の買取相場は<strong>{fmt(int(price * 0.85))}〜{fmt(price)}</strong>のレンジで推移しています（未開封・箱付きの場合）。この相場は、以下の市場データの集約から算出しています:</p>
 
           <ol>
-            <li>国内主要買取業者（大黒屋・JOYLAB・ウイスキー王国等）の公開買取価格</li>
+            <li>国内主要買取業者（大黒屋・ウイスキー王国等）の公開買取価格</li>
             <li>海外オークション（Sotheby's、Bonhams、Whisky Auctioneer、Just Whisky Auctions）の落札データ</li>
             <li>個人間二次流通（ヤフオク、メルカリ）の取引価格</li>
             <li>百貨店・正規流通店の小売価格（参考）</li>
@@ -513,7 +505,7 @@ export default function {component_name}() {{
             <li><strong>購入経路の信頼性</strong> — 正規流通店・大手買取業者・海外オークション経由は信頼度高。個人間取引（メルカリ・ヤフオク）は要注意</li>
           </ol>
 
-          <p>怪しいと思ったら、お酒買取専門店（JOYLAB等）で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
+          <p>怪しいと思ったら、お酒買取の専門店で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
 
           <h2 id="partners">10. おすすめ買取業者4社の詳細レビュー</h2>
 
@@ -534,7 +526,7 @@ export default function {component_name}() {{
               <tbody>
                 <tr><td><strong>ヒカカク！</strong></td><td>一括査定（20社）</td><td>1〜2日</td><td>★★★★★</td><td>無料</td></tr>
                 <tr><td><strong>バイセル</strong></td><td>大手の安心感</td><td>即日〜2日</td><td>★★★★</td><td>無料</td></tr>
-                <tr><td><strong>JOYLAB</strong></td><td>お酒専門・希少銘柄</td><td>1〜3日</td><td>★★★★★</td><td>無料</td></tr>
+                
                 <tr><td><strong>リカスタ</strong></td><td>宅配買取</td><td>2〜5日</td><td>★★★★</td><td>無料</td></tr>
               </tbody>
             </table>
@@ -544,10 +536,10 @@ export default function {component_name}() {{
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-6 not-prose">
             <p className="font-bold text-base mb-3 text-ink">🎯 どの業者を選ぶべきか</p>
             <ul className="space-y-2 text-sm text-ink/85">
-              <li>✓ <strong>最高値を狙いたい</strong> → まずヒカカクで一括査定し、JOYLABで個別査定して比較</li>
+              <li>✓ <strong>最高値を狙いたい</strong> → まずヒカカクで一括査定し、専門店で個別査定して比較</li>
               <li>✓ <strong>急いで現金化したい</strong> → バイセルの店頭買取（即日現金化）</li>
               <li>✓ <strong>地方在住・宅配で完結したい</strong> → リカスタの宅配買取</li>
-              <li>✓ <strong>希少銘柄を専門家に見てほしい</strong> → JOYLABの専門査定</li>
+              
               <li>✓ <strong>大手の安心感を優先</strong> → バイセル（東証グロース上場）</li>
             </ul>
           </div>
@@ -563,7 +555,7 @@ export default function {component_name}() {{
           <ol>
             <li><strong>状態確認・付属品準備</strong> — ボトル本体の状態を確認し、外箱・冊子・カートン等の付属品を揃える</li>
             <li><strong>事前相場リサーチ</strong> — PeatBidなどで現在の相場を確認し、自分のボトルの目安価格を把握</li>
-            <li><strong>複数業者で見積もり依頼</strong> — ヒカカク！の一括査定で3〜5社、お酒買取専門店（JOYLAB等）に個別で2〜3社、計5〜8社で見積もり取得</li>
+            
             <li><strong>査定額比較・業者選定</strong> — 最高値だけでなく、手数料・キャンセル料・送料・支払い方法を総合判断</li>
             <li><strong>売却契約・入金確認</strong> — 売却契約後、店頭買取なら即日現金、宅配買取なら1〜3営業日で銀行振込</li>
           </ol>
@@ -575,7 +567,7 @@ export default function {component_name}() {{
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
-              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定</a>
+              
               <a href="https://www.buysell-onlineshop.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
               <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">リカスタで宅配買取</a>
             </div>

@@ -35,7 +35,7 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
-      { "@type": "Question", name: "山崎の市場相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "本サイトでは Yahoo Auctions 過去180日の落札中央値（IQR外れ値除去後）を市場相場として公開しています。NV・12年・18年・25年・55年でグレードごとに大きく異なるため、各銘柄ページで最新値をご確認ください。業者の買取査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各社ページでご確認ください。" } },
+      { "@type": "Question", name: "山崎の市場相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "本サイトでは Yahoo Auctions 過去180日の落札中央値（IQR外れ値除去後）を市場相場として公開しています。NV・12年・18年・25年・55年でグレードごとに大きく異なるため、各銘柄ページで最新値をご確認ください。業者の買取査定額は LINXAS / バイセル / 福ちゃん など各社ページでご確認ください。" } },
       { "@type": "Question", name: "山崎12年が高騰している理由は？", acceptedAnswer: { "@type": "Answer", text: "山崎12年は2018年前後の品薄・出荷調整以降、供給が逼迫しプレミア化しました。1984年発売の日本初の本格シングルモルトという歴史的価値、国際品評会での受賞、アジア富裕層の需要拡大が評価を後押ししています。" } },
       { "@type": "Question", name: "山崎を高く売るには？", acceptedAnswer: { "@type": "Answer", text: "(1)付属品（箱・冊子・カートン）を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置きで保管、(5)購入証明・シリアルを明示、(6)需要期を狙う、(7)ウイスキー専門業者を優先、の7点が基本です。" } },
       { "@type": "Question", name: "開封済みの山崎は買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "業者によります。買取対応していても査定額は市場相場の20〜40%程度に下がるのが一般的です。コレクション・投資目的の個体は未開封維持を強く推奨します。" } },
@@ -218,7 +218,7 @@ export default function YamazakiKaitoriPage() {
               <a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">LINXAS →</a>
               <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">バイセル →</a>
               <a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">福ちゃん →</a>
-              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">JOYLAB →</a>
+              
             </div>
           </div>
 
@@ -271,11 +271,6 @@ export default function YamazakiKaitoriPage() {
               <p className="text-xs text-amber-dark font-bold mb-1">福ちゃん</p>
               <p className="text-sm font-bold mb-2">古酒対応とバランス型</p>
               <p className="text-xs text-warm-gray leading-relaxed">骨董・古酒を含めた幅広い取扱で、山崎NV〜12年など流通量の多い銘柄やオールドボトルで安定した買取実績。</p>
-            </div>
-            <div className="border border-warm-border bg-white rounded-lg p-5">
-              <p className="text-xs text-amber-dark font-bold mb-1">JOYLAB</p>
-              <p className="text-sm font-bold mb-2">スピード重視のオンライン査定</p>
-              <p className="text-xs text-warm-gray leading-relaxed">LINE査定など簡便な仮見積もりに強み。事前の概算把握用としても活用しやすい。</p>
             </div>
           </div>
 

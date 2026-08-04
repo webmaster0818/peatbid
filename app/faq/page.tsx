@@ -150,7 +150,7 @@ export default function FaqPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">一括査定で最高値を調べる（ヒカカク！）</a>
             <a href="https://www.buysell-onlineshop.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">大手で確実に売る（バイセル）</a>
-            <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">専門店で査定（JOYLAB）</a>
+            
             <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">宅配で完結（リカスタ）</a>
           </div>
         </div>

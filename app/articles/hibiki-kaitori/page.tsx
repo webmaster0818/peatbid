@@ -292,7 +292,7 @@ export default function HibikiKaitoriPage() {
               <a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">LINXAS →</a>
               <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">バイセル →</a>
               <a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">福ちゃん →</a>
-              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">JOYLAB →</a>
+              
             </div>
           </div>
 
@@ -311,11 +311,6 @@ export default function HibikiKaitoriPage() {
               <p className="text-xs text-amber-dark font-bold mb-1">福ちゃん</p>
               <p className="text-sm font-bold mb-2">古酒対応とバランス型</p>
               <p className="text-xs text-warm-gray leading-relaxed">骨董・古酒を含めた幅広い取扱で、響NV〜17年など流通量の多い銘柄で安定した買取実績。</p>
-            </div>
-            <div className="border border-warm-border bg-white rounded-lg p-5">
-              <p className="text-xs text-amber-dark font-bold mb-1">JOYLAB</p>
-              <p className="text-sm font-bold mb-2">スピード重視のオンライン査定</p>
-              <p className="text-xs text-warm-gray leading-relaxed">LINE査定など簡便な仮見積もりに強み。事前の概算把握用としても活用しやすい。</p>
             </div>
           </div>
 

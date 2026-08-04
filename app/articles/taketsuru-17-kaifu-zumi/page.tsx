@@ -127,9 +127,9 @@ export default function Taketsuru17KaifuZumiPage() {
 適切な保管により、開封後数年間は香味・品質を保持できます。</li></ol>` }} />
 
           <h2 id="section-5">6. 開封済みを買取してくれる業者</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid推奨の4社（ヒカカク・バイセル・JOYLAB・リカスタ）は、いずれも開封済みでも査定対応可能です。
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid推奨の3社（ヒカカク・バイセル・リカスタ）は、いずれも開封済みでも査定対応可能です。
 
-<strong>各社の開封済み買取の特徴</strong>:</p><ol><li><strong>ヒカカク！</strong> — 一括査定で開封済みも受付業者を絞り込み可能</li><li><strong>バイセル</strong> — 残量9割以上を主に扱う、それ以下は要相談</li><li><strong>JOYLAB</strong> — お酒専門で開封済みも積極買取、状態評価が公平</li><li><strong>リカスタ</strong> — 宅配で開封済みも対応、ただし運送中の漏れに注意
+<strong>各社の開封済み買取の特徴</strong>:</p><ol><li><strong>ヒカカク！</strong> — 一括査定で開封済みも受付業者を絞り込み可能</li><li><strong>バイセル</strong> — 残量9割以上を主に扱う、それ以下は要相談</li><li><strong>リカスタ</strong> — 宅配で開封済みも対応、ただし運送中の漏れに注意
 
 業者によっては残量条件があるため、事前確認をおすすめします。</li></ol>` }} />
 
@@ -146,7 +146,6 @@ export default function Taketsuru17KaifuZumiPage() {
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
-              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定</a>
               <a href="https://www.buysell-onlineshop.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
               <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">リカスタで宅配買取</a>
             </div>

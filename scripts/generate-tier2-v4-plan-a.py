@@ -12,7 +12,7 @@ Tier 2 PSEO generator v4 — Plan A compliant.
 Changes from v3:
 - Yahoo Auctions median (180d) replaces all reference_price_jpy_2026_05
 - State variations expressed as % only (no derived yen amounts)
-- 4-dealer reference links (LINXAS / バイセル / 福ちゃん / JOYLAB)
+- 4-dealer reference links (LINXAS / バイセル / 福ちゃん)
 - Hero images use heroes/{slug}.png (real product images)
 - robots.txt + _headers keep tier2 noindex (staging-only)
 
@@ -79,7 +79,7 @@ INTRO_PATTERNS = [
     "{brand}を{pref}で査定・売却したい方へ。{pref}は1人あたり県民所得 {income}・県内総生産 約{gdp_label} の経済圏で、ウイスキー専門業者と大手総合業者の両方が出張・店頭・宅配で対応しています。本ページでは市場相場（Yahoo中央値）と4業者参考リンクを掲載。",
     "{pref}（{cities}を中心とした{households}・{pop}）で {brand} を売る人のための完全ガイドです。{region}地方の経済圏では、酒類消費{alcohol_rank}を背景に二次流通市場も整っています。本ページの市場相場は Yahoo Auctions 中央値ベースで、各業者の最新査定額は4業者ページから直接ご確認いただけます。",
     "「{pref}で{brand}は高く売れる？」という疑問にお答えします。{pref}は{industries}が主要産業、人口{pop}・{households}の経済圏で、{cities}を中心に酒類小売店約{retail_stores}が分布しています。専門業者・総合業者の出張査定が活発で、相見積もりがしやすい環境です。",
-    "{brand}を{pref}で売却検討の方へ。{pref}（{region}地方、1人あたり県民所得 {income}）には、ウイスキー専門業者（LINXAS・JOYLAB等）と大手総合業者（バイセル・福ちゃん）が対応しています。{climate}という気候特性も{brand}の保管・査定の観点で関連します。本ページでは市場相場と業者選定ポイントを整理。",
+    "{brand}を{pref}で売却検討の方へ。{pref}（{region}地方、1人あたり県民所得 {income}）には、ウイスキー専門業者（LINXAS等）と大手総合業者（バイセル・福ちゃん）が対応しています。{climate}という気候特性も{brand}の保管・査定の観点で関連します。本ページでは市場相場と業者選定ポイントを整理。",
 ]
 
 
@@ -165,7 +165,7 @@ def build_page(brand: dict, pref_slug: str) -> str:
         ),
         (
             f"{p['name_ja']}の{b['name_ja']}市場相場は他県と差がありますか？",
-            f"市場相場（Yahoo中央値）は全国共通ですが、業者買取額は地域や業者で異なります。{b['name_ja']}の現在の市場相場は {market_label}（Yahoo Auctions 中央値）。実際の業者査定は LINXAS / バイセル / 福ちゃん / JOYLAB 各社ページでご確認ください。",
+            f"市場相場（Yahoo中央値）は全国共通ですが、業者買取額は地域や業者で異なります。{b['name_ja']}の現在の市場相場は {market_label}（Yahoo Auctions 中央値）。実際の業者査定は LINXAS / バイセル / 福ちゃん 各社ページでご確認ください。",
         ),
         (
             f"{p['name_ja']}の店頭買取で{b['name_ja']}は売れますか？",
@@ -343,7 +343,7 @@ export default function Page() {{
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店。{b['name_ja']}のような{b['rarity']}クラス銘柄の参考価格を公開</li>
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> — 東証グロース上場、出張・店頭・宅配の3チャネル対応。{p['name_ja']}全域出張可能</li>
             <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 総合買取の大手、お酒査定にも対応。{p['cities']}を中心に対応</li>
-            <li><a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">JOYLAB</a> — お酒買取専門、希少銘柄の鑑定査定に強み。{b['name_ja']}のような{b['rarity']}クラスにも対応</li>
+            
           </ul>
 
           <h2>6. {b['name_ja']}の保管と輸送 — {p['name_ja']}の気候特性を踏まえて</h2>
@@ -378,21 +378,17 @@ export default function Page() {{
             <li>
               <strong>{p['region']}地方の需要期に売る</strong>: 年末年始（11〜12月）、お中元・お歳暮シーズン（6〜7月、11〜12月）、新生活前（2〜3月）が高値傾向です。これらの時期は贈答需要やコレクター需要が高まり、業者側の仕入れ意欲も上昇します。{p['name_ja']}では{pe.get("major_industries", "経済活動")}を背景に、年末年始と春先の需要期で査定額が<strong>10〜15%上昇</strong>する傾向があります。逆に夏場（8〜9月）や年明け（1月下旬〜2月）は需要が落ち着き、査定額もやや下がる傾向。{b['name_ja']}が{be.get("status", "")}の場合、海外オークションの動向も売却タイミングの参考になります。
             </li>
-            <li>
-              <strong>地域密着業者と全国業者を比較</strong>: {p['name_ja']}の地元業者は<strong>専門知識・足の早さ・地域顧客のニーズ把握</strong>が強み、全国業者は<strong>競争力ある提示額・キャンペーン展開・在庫リスク許容度</strong>が強みです。{pe.get("main_stations", "主要駅周辺")}にアクセスしやすい立地の地元業者と、出張・宅配でも対応する全国業者を組み合わせて見積もり比較することで、最高値を引き出せます。{b['name_ja']}のような{b['rarity']}クラスの銘柄では、専門知識を持つ業者（JOYLAB・LINXAS等）の査定が特に重要です。
-            </li>
-            <li>
-              <strong>出張買取の場合は事前予約</strong>: {b['name_ja']}は{b['rarity']}クラスの銘柄のため、専門査定士の同行を事前に依頼するのが賢明です。{p['name_ja']}内の主要4業者（バイセル・福ちゃん・LINXAS・JOYLAB）は出張対応エリアにしていますが、{b['name_ja']}クラスの査定には専門知識が必要なため、事前に「{b['name_ja']}の査定希望」と伝えておくとスムーズです。{p['name_ja']}は{pe.get("climate_type", "気候")}の地域であり、出張査定の日程は{pe.get("climate_type", "気候")}を踏まえた季節選びも考慮するとよいでしょう。
-            </li>
+            
+            
           </ol>
 
           <h2>9. {p['name_ja']}の{b['name_ja']}買取で注意すべき点</h2>
           <ul>
             <li><strong>身分証必須</strong>: 古物営業法により本人確認が必要（運転免許証・マイナンバーカード等）。出張査定でも事前に身分証の準備を。住所・氏名・生年月日が確認できる公的書類が必須で、健康保険証など顔写真がない書類の場合は補助書類（公共料金請求書等）が必要なケースもあります。</li>
             <li><strong>未成年（18歳未満）は売却不可</strong>: 親権者の同意も不可。古物営業法により、未成年からの買取は厳格に禁止されています。所有者が未成年の場合、相続・贈与の手続きを経て成人が売却する形式を取る必要があります。</li>
-            <li><strong>偽物・贋作リスク</strong>: {b['name_ja']}のような{b['rarity']}クラス銘柄は、専門査定士の鑑定推奨です。{be.get("status", "現行品/終売品")}の{b['name_ja']}では特に贋作リスクが高まる傾向があり、ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性などを総合的にチェックします。JOYLABやLINXASのような専門業者では、贋作鑑定のための専門知識を持つ査定士が在籍しています。</li>
+            
             <li><strong>輸送リスク</strong>: 宅配買取の場合、緩衝材を十分に巻き、業者指定の梱包方法に従いましょう。{p['name_ja']}は{pe.get("climate_type", "気候特性")}があり、季節によっては輸送中の温度変化が品質に影響する場合があります。可能な限り温度変化の小さい時期（春・秋）の発送が理想です。輸送中の破損は買取不可になることが多く、業者の保険対象外のケースも。</li>
-            <li><strong>業者の評判確認</strong>: クチコミ・Googleレビュー・実績件数・運営年数を事前にチェックしましょう。古物商許可番号の表示も信頼性の指標。{p['name_ja']}内の地元業者は地域コミュニティでの評判も参考になります。本サイトで紹介している4業者（バイセル・福ちゃん・LINXAS・JOYLAB）はいずれも実績豊富で信頼性が確認できる業者です。</li>
+            
             <li><strong>査定額の根拠を確認</strong>: 業者から提示された査定額の根拠（市場相場・在庫状況・状態評価）を必ず確認しましょう。透明性のある業者ほど、根拠を明確に説明します。{b['name_ja']}の市場相場（Yahoo中央値 {market_label}）と比較し、提示額が市場相場の60〜80%レンジから大きく外れる場合は、その理由を確認することが重要です。</li>
             <li><strong>キャンセル・取消の取り扱い</strong>: 査定後すぐの即決を急かす業者は要注意。古物営業法により、買取後8日間のクーリングオフ（条件付き）が認められる場合があります。査定額に納得できない場合は、その場で断る勇気も大切。{p['name_ja']}内では業者間の競争が活発なため、即決を強要されることは少ないですが、念のため留意しましょう。</li>
           </ul>

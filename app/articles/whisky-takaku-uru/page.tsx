@@ -57,7 +57,7 @@ export default function WhiskyTakakuUruPage() {
           <ul>
             <li>本サイトの<Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark underline">市場相場一覧</Link>で対象銘柄の Yahoo中央値を確認 → 妥当な業者買取額の基準を把握</li>
             <li><strong>LINXAS</strong>（銘柄別の買取参考価格を公開）で具体的な業者公表値を確認</li>
-            <li><strong>バイセル / 福ちゃん / JOYLAB</strong> など複数業者に個別見積もり依頼 → 3社以上で比較</li>
+            
             <li>最高値を提示した業者に売却</li>
           </ul>
 
@@ -123,7 +123,7 @@ export default function WhiskyTakakuUruPage() {
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店</li>
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> — 東証グロース上場、出張・店頭・宅配の3チャネル対応</li>
             <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 総合買取の大手、お酒査定にも対応</li>
-            <li><a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">JOYLAB</a> — お酒買取専門、希少銘柄の鑑定査定に強み</li>
+            
           </ul>
 
           <h2>コツ5: ボトルの状態保持</h2>
@@ -152,7 +152,7 @@ export default function WhiskyTakakuUruPage() {
               <a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">LINXAS →</a>
               <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">バイセル →</a>
               <a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">福ちゃん →</a>
-              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">JOYLAB →</a>
+              
             </div>
           </div>
 

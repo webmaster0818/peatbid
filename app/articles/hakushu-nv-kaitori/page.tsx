@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '今の白州ノンエイジの買取相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '白州ノンエイジのヤフオク実落札（過去180日・IQR外れ値除去）の中央値は9,900円です（サンプル数 n=204、取得日 2026-08-03・毎週月曜に自動更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": '「白州 年代指定なし」と白州ノンエイジは同じものですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、同じものです。「白州 年代指定なし」「白州 NV」は、熟成年数の表記がないボトル＝白州ノンエイジを指す表記ゆれです。本ページの相場（9,900円）がそのまま目安になります。' } }, { "@type": "Question", "name": '白州ノンエイジを高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": '白州ノンエイジの開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' } }, { "@type": "Question", "name": '白州ノンエイジは箱無しでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約7,920〜8,910円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' } }, { "@type": "Question", "name": '白州ノンエイジに偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": '白州ノンエイジの保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": '白州ノンエイジは税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '白州ノンエイジを売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": '白州ノンエイジと他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '今の白州ノンエイジの買取相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '白州ノンエイジのヤフオク実落札（過去180日・IQR外れ値除去）の中央値は9,900円です（サンプル数 n=204、取得日 2026-08-03・毎週月曜に自動更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": '「白州 年代指定なし」と白州ノンエイジは同じものですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、同じものです。「白州 年代指定なし」「白州 NV」は、熟成年数の表記がないボトル＝白州ノンエイジを指す表記ゆれです。本ページの相場（9,900円）がそのまま目安になります。' } }, { "@type": "Question", "name": '白州ノンエイジを高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": '白州ノンエイジの開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' } }, { "@type": "Question", "name": '白州ノンエイジは箱無しでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約7,920〜8,910円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' } }, { "@type": "Question", "name": '白州ノンエイジに偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": '白州ノンエイジの保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": '白州ノンエイジは税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '白州ノンエイジを売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": '白州ノンエイジと他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
 }
 
 const tocItems = [
@@ -149,7 +149,6 @@ export default function HakushuNvKaitoriPage() {
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店</li>
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">バイセル</a> — 東証グロース上場、出張・店頭・宅配の3チャネル対応</li>
             <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">福ちゃん</a> — 総合買取の大手、お酒査定にも対応</li>
-            <li><a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">JOYLAB</a> — お酒買取専門、希少銘柄の鑑定査定に強み</li>
           </ul>
 
           <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
@@ -287,7 +286,7 @@ export default function HakushuNvKaitoriPage() {
             <p className="text-sm text-ink">🔍 売却前の真贋確認はこちら → <Link href="/articles/hakushu-nv-nisemono-mikata/" className="kaitori-to-shingan text-amber-dark underline font-bold">白州ノンエイジを売る前に｜本物チェックと今の買取相場（3分チェック）</Link></p>
           </div>
 
-          <p>怪しいと思ったら、お酒買取専門店（JOYLAB等）で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
+          <p>怪しいと思ったら、お酒買取の専門店で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
 
           <h2 id="partners">10. おすすめ買取業者4社の詳細レビュー</h2>
 
@@ -308,7 +307,6 @@ export default function HakushuNvKaitoriPage() {
               <tbody>
                 <tr><td><strong>ヒカカク！</strong></td><td>一括査定（20社）</td><td>1〜2日</td><td>★★★★★</td><td>無料</td></tr>
                 <tr><td><strong>バイセル</strong></td><td>大手の安心感</td><td>即日〜2日</td><td>★★★★</td><td>無料</td></tr>
-                <tr><td><strong>JOYLAB</strong></td><td>お酒専門・希少銘柄</td><td>1〜3日</td><td>★★★★★</td><td>無料</td></tr>
                 <tr><td><strong>リカスタ</strong></td><td>宅配買取</td><td>2〜5日</td><td>★★★★</td><td>無料</td></tr>
               </tbody>
             </table>
@@ -318,10 +316,10 @@ export default function HakushuNvKaitoriPage() {
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-6 not-prose">
             <p className="font-bold text-base mb-3 text-ink">🎯 どの業者を選ぶべきか</p>
             <ul className="space-y-2 text-sm text-ink/85">
-              <li>✓ <strong>最高値を狙いたい</strong> → まずヒカカクで一括査定し、JOYLABで個別査定して比較</li>
+              <li>✓ <strong>最高値を狙いたい</strong> → まずヒカカクで一括査定し、専門店で個別査定して比較</li>
               <li>✓ <strong>急いで現金化したい</strong> → バイセルの店頭買取（即日現金化）</li>
               <li>✓ <strong>地方在住・宅配で完結したい</strong> → リカスタの宅配買取</li>
-              <li>✓ <strong>希少銘柄を専門家に見てほしい</strong> → JOYLABの専門査定</li>
+              <li>✓ <strong>希少銘柄を専門家に見てほしい</strong> → お酒買取専門店の個別査定</li>
               <li>✓ <strong>大手の安心感を優先</strong> → バイセル（東証グロース上場）</li>
             </ul>
           </div>
@@ -351,18 +349,7 @@ export default function HakushuNvKaitoriPage() {
           </div>
           <div className="bg-white border border-warm-border rounded-xl p-5 mb-4">
             <div className="flex items-baseline justify-between mb-2">
-              <h3 className="font-display text-xl font-semibold text-ink !border-l-0 !pl-0 !mt-0">3位: JOYLAB</h3>
-              <span className="text-xs text-amber-dark tracking-wider">店頭/宅配/出張</span>
-            </div>
-            <div dangerouslySetInnerHTML={{ __html: `<p>お酒買取専門で、銘柄ごとのリアルタイム相場表を公式サイトで公開。<strong>ジャパニーズウイスキー強化中</strong>で、希少銘柄に対する専門知識と査定スピードに定評があります。</p>` }} />
-            <p className="text-sm font-bold mt-3 mb-2 text-ink">主な強み</p>
-            <ul className="text-sm text-warm-gray list-disc list-inside"><li>お酒買取専門の深い知識</li><li>リアルタイム相場公開</li><li>ジャパニーズウイスキー注力</li></ul>
-            <div dangerouslySetInnerHTML={{ __html: `<p>こんな人におすすめ: <strong>希少銘柄を専門店で売りたい方</strong></p>` }} className="mt-2 text-sm" />
-            <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta inline-block mt-3 px-5 py-2 rounded-lg text-sm">JOYLABで無料査定する →</a>
-          </div>
-          <div className="bg-white border border-warm-border rounded-xl p-5 mb-4">
-            <div className="flex items-baseline justify-between mb-2">
-              <h3 className="font-display text-xl font-semibold text-ink !border-l-0 !pl-0 !mt-0">4位: リカスタ</h3>
+              <h3 className="font-display text-xl font-semibold text-ink !border-l-0 !pl-0 !mt-0">3位: リカスタ</h3>
               <span className="text-xs text-amber-dark tracking-wider">宅配/出張</span>
             </div>
             <div dangerouslySetInnerHTML={{ __html: `<p>全国対応の宅配買取サービス。<strong>店舗に行く時間がない方・地方在住の方</strong>に最適。査定無料・キャンセル無料で気軽に試せます。</p>` }} />
@@ -380,7 +367,7 @@ export default function HakushuNvKaitoriPage() {
           <ol>
             <li><strong>状態確認・付属品準備</strong> — ボトル本体の状態を確認し、外箱・冊子・カートン等の付属品を揃える</li>
             <li><strong>事前相場リサーチ</strong> — PeatBidなどで現在の相場を確認し、自分のボトルの目安価格を把握</li>
-            <li><strong>複数業者で見積もり依頼</strong> — ヒカカク！の一括査定で3〜5社、お酒買取専門店（JOYLAB等）に個別で2〜3社、計5〜8社で見積もり取得</li>
+            <li><strong>複数業者で見積もり依頼</strong> — ヒカカク！の一括査定で3〜5社、お酒買取の専門店に個別で2〜3社、計5〜8社で見積もり取得</li>
             <li><strong>査定額比較・業者選定</strong> — 最高値だけでなく、手数料・キャンセル料・送料・支払い方法を総合判断</li>
             <li><strong>売却契約・入金確認</strong> — 売却契約後、店頭買取なら即日現金、宅配買取なら1〜3営業日で銀行振込</li>
           </ol>
@@ -392,7 +379,6 @@ export default function HakushuNvKaitoriPage() {
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
-              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定</a>
               <a href="https://www.buysell-onlineshop.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
               <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">リカスタで宅配買取</a>
             </div>
@@ -401,7 +387,7 @@ export default function HakushuNvKaitoriPage() {
           <h2 id="faq">12. 白州ノンエイジに関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '今の白州ノンエイジの買取相場はいくらですか？', a: '白州ノンエイジのヤフオク実落札（過去180日・IQR外れ値除去）の中央値は9,900円です（サンプル数 n=204、取得日 2026-08-03・毎週月曜に自動更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん / JOYLAB など各業者のページで直接ご確認ください。' }, { q: '「白州 年代指定なし」と白州ノンエイジは同じものですか？', a: 'はい、同じものです。「白州 年代指定なし」「白州 NV」は、熟成年数の表記がないボトル＝白州ノンエイジを指す表記ゆれです。本ページの相場（9,900円）がそのまま目安になります。' }, { q: '白州ノンエイジを高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: '白州ノンエイジの開封済みでも買取できますか？', a: 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' }, { q: '白州ノンエイジは箱無しでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約7,920〜8,910円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' }, { q: '白州ノンエイジに偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合は専門知識を持つ買取業者（JOYLAB等）で鑑定査定を依頼してください。' }, { q: '白州ノンエイジの保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: '白州ノンエイジは税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '白州ノンエイジを売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: '白州ノンエイジと他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
+            {[{ q: '今の白州ノンエイジの買取相場はいくらですか？', a: '白州ノンエイジのヤフオク実落札（過去180日・IQR外れ値除去）の中央値は9,900円です（サンプル数 n=204、取得日 2026-08-03・毎週月曜に自動更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: '「白州 年代指定なし」と白州ノンエイジは同じものですか？', a: 'はい、同じものです。「白州 年代指定なし」「白州 NV」は、熟成年数の表記がないボトル＝白州ノンエイジを指す表記ゆれです。本ページの相場（9,900円）がそのまま目安になります。' }, { q: '白州ノンエイジを高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: '白州ノンエイジの開封済みでも買取できますか？', a: 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' }, { q: '白州ノンエイジは箱無しでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約7,920〜8,910円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' }, { q: '白州ノンエイジに偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' }, { q: '白州ノンエイジの保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: '白州ノンエイジは税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '白州ノンエイジを売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: '白州ノンエイジと他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>

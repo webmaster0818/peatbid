@@ -82,7 +82,7 @@ export default function Glenfarclas105TakakuUruPage() {
           <div dangerouslySetInnerHTML={{ __html: `<p>グレンファークラス105は開封済みになると査定額が大幅に下がり、未開封の30〜40%＝約2,470〜3,290円前後まで落ちます。未開封なら8,225円前後で売れる可能性があることを考えると、その差は歴然です。</p><p>コレクション目的のボトルは絶対に開けず保管を。「ちょっと味見」が大きな損失につながります。</p><p>万一開封した場合は、香味揮発・酸化が進む前にできるだけ早く売却するのが鉄則です。</p>` }} />
 
           <h2 id="section-3">4. コツ3: 複数業者で相見積もり</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>同じグレンファークラス105でも、業者によって<strong>数万〜数十万円</strong>の査定差が生じます。1社だけで決めるのは絶対に避けるべきです。</p><p>推奨フロー: (1)ヒカカク等の一括査定サイトで5社以上から見積もり取得、(2)お酒買取専門店（JOYLAB・リカスタ等）に個別で2〜3社から見積もり、(3)合計7〜8社の見積もりを比較、(4)手取り額（手数料・送料込み）で最高値の業者を選定。</p><p>査定無料・キャンセル無料の業者ばかりなので、複数比較のコストはゼロです。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>同じグレンファークラス105でも、業者によって<strong>数万〜数十万円</strong>の査定差が生じます。1社だけで決めるのは絶対に避けるべきです。</p><p>推奨フロー: (1)ヒカカク等の一括査定サイトで5社以上から見積もり取得、(2)お酒買取に強い専門店（リカスタ等）に個別で2〜3社から見積もり、(3)合計7〜8社の見積もりを比較、(4)手取り額（手数料・送料込み）で最高値の業者を選定。</p><p>査定無料・キャンセル無料の業者ばかりなので、複数比較のコストはゼロです。</p>` }} />
 
           <h2 id="section-4">5. コツ4: 売却タイミングを見極める</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキーの相場は需給で動きます。<strong>高値傾向のタイミング</strong>は以下の通り:</p><ol><li>年末年始（12〜1月）— お正月需要・ボーナス商戦</li><li>お中元・お歳暮シーズン — 贈答需要</li><li>海外オークション直後 — Sotheby's・Bonhamsの落札データ反映</li><li>終売・休売報道直後 — 供給制限による急騰局面</li><li>アジア富裕層のイベント前後 — 中華圏の旧正月など
@@ -105,7 +105,6 @@ export default function Glenfarclas105TakakuUruPage() {
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
-              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定</a>
               <a href="https://www.buysell-onlineshop.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
               <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">リカスタで宅配買取</a>
             </div>

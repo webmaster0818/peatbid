@@ -123,7 +123,7 @@ export default function Yamazaki18LabelYogorePage() {
           <h2 id="section-5">6. ラベル汚れがある状態での売却戦略</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>「もう価値はない」と諦める前に、複数業者で見積もりを取りましょう。<strong>業者により、ラベル汚れの評価基準が異なります</strong>。
 
-推奨アプローチ:</p><ol><li><strong>JOYLAB・リカスタ</strong> 等の専門店は、ラベル以外の総合状態で判断してくれる傾向</li><li><strong>ヒカカク！</strong> の一括査定で複数社の評価を比較</li><li><strong>正直な状態申告</strong> が最終的に最良の結果を生む</li><li><strong>写真添付</strong> で事前に状態を業者に確認してもらう</li></ol>` }} />
+推奨アプローチ:</p><ol><li><strong>リカスタ</strong> 等の専門店は、ラベル以外の総合状態で判断してくれる傾向</li><li><strong>ヒカカク！</strong> の一括査定で複数社の評価を比較</li><li><strong>正直な状態申告</strong> が最終的に最良の結果を生む</li><li><strong>写真添付</strong> で事前に状態を業者に確認してもらう</li></ol>` }} />
 
           <h2 id="section-6">7. やってはいけないラベル「修復」</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>❌ <strong>絶対にNGの行為</strong>:</p><ol><li>水・洗剤での清掃 — ラベル素材を傷める可能性大</li><li>ラベルの「補修」 — 査定価値が更に下がる</li><li>剥がれかけのラベルを糊で貼り直す — 状態悪化</li><li>アイロンや熱でシワ伸ばし — ラベル変色</li><li>漂白剤での「シミ抜き」 — 致命的損傷
@@ -131,7 +131,7 @@ export default function Yamazaki18LabelYogorePage() {
 気になる場合は、<strong>乾いた柔らかい布で軽く埃を払う程度</strong>にとどめてください。それ以上の修復は専門業者でないと、価値を下げるだけです。</li></ol>` }} />
 
           <h2 id="section-7">8. ラベル損傷でも売れる業者ランキング</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<ol><li><strong>JOYLAB</strong>（お酒専門の柔軟な評価）</li><li><strong>ヒカカク！</strong>（一括査定で柔軟な業者を発見）</li><li><strong>リカスタ</strong>（宅配買取で広く対応）</li><li><strong>バイセル</strong>（大手で安定査定）
+          <div dangerouslySetInnerHTML={{ __html: `<ol><li><strong>ヒカカク！</strong>（一括査定で柔軟な業者を発見）</li><li><strong>リカスタ</strong>（宅配買取で広く対応）</li><li><strong>バイセル</strong>（大手で安定査定）
 
 どの業者も査定無料・キャンセル無料なので、3社以上で見積もり比較が鉄則です。</li></ol>` }} />
 
@@ -140,7 +140,6 @@ export default function Yamazaki18LabelYogorePage() {
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
-              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定</a>
               <a href="https://www.buysell-onlineshop.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
               <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">リカスタで宅配買取</a>
             </div>

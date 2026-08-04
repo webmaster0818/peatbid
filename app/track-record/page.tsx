@@ -10,7 +10,6 @@ const stats = [
   { value: "500+", label: "対応銘柄数", desc: "ジャパニーズ・スコッチ・バーボン・アイリッシュ等" },
   { value: "506", label: "公開記事数", desc: "銘柄ガイド+切り口別+ハブ記事" },
   { value: "511", label: "サイト内URL", desc: "sitemap.xml登録URL" },
-  { value: "4社", label: "提携買取業者", desc: "ヒカカク・バイセル・JOYLAB・リカスタ" },
   { value: "5源", label: "データソース", desc: "国内業者・海外オークション・個人取引・業界紙・公式情報" },
   { value: "毎日", label: "相場チェック", desc: "海外オークション結果を日次モニタ" },
   { value: "8項目", label: "状態別係数", desc: "未開封完璧〜開封済み半分以下まで" },

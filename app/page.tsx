@@ -17,13 +17,6 @@ const services = [
     url: "https://www.buysell-onlineshop.jp/",
   },
   {
-    name: "JOYLAB",
-    method: "店頭/宅配/出張",
-    description: "お酒買取専門・全国店舗展開。リアルタイム相場表を公開",
-    target: "希少銘柄を専門店で売りたい人",
-    url: "https://joylab.jp/",
-  },
-  {
     name: "リカスタ",
     method: "宅配/出張",
     description: "全国対応・無料査定。ジャパニーズウイスキー強化中",
@@ -435,11 +428,6 @@ export default function Home() {
                 step: "01",
                 title: "売りたいボトルを確認",
                 desc: "銘柄・年代・付属品（箱・冊子）・状態を整理。当サイトでは銘柄別の査定ポイントを丁寧に解説しています。",
-              },
-              {
-                step: "02",
-                title: "複数業者で見積もり",
-                desc: "ヒカカク等の一括査定で最大20社に同時依頼。専門店（JOYLAB等）にも個別に見積もりを取ると差が出ます。",
               },
               {
                 step: "03",

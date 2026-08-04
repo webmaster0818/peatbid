@@ -108,7 +108,7 @@ export default function Glenfiddich30NisemonoMikataPage() {
 相場より20%以上安いグレンフィディック30年は要警戒。「他では絶対手に入らない」と煽る業者・個人も典型的な贋作販売パターンです。</li></ol>` }} />
 
           <h2 id="section-7">8. 不審なボトルを見つけた場合の対処法</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>自身が保有するグレンフィディック30年が不審に見える場合、または購入を検討中のボトルが怪しい場合は、以下の手順で対処してください:</p><ol><li><strong>写真記録</strong> — ボトル全体・ラベル各角度・キャップ・底面の刻印を高解像度で撮影</li><li><strong>専門業者で鑑定査定</strong> — JOYLAB等のお酒買取専門店で無料鑑定を依頼</li><li><strong>メーカーへの問い合わせ</strong> — サントリー・ニッカ等の公式お客様窓口にロット番号を伝えて真贋確認</li><li><strong>購入経路を遡る</strong> — 不正流通の可能性が高い場合は購入元に返品交渉</li><li><strong>警察への相談</strong> — 詐欺の可能性がある場合は最寄りの警察署で相談
+          <div dangerouslySetInnerHTML={{ __html: `<p>自身が保有するグレンフィディック30年が不審に見える場合、または購入を検討中のボトルが怪しい場合は、以下の手順で対処してください:</p><ol><li><strong>写真記録</strong> — ボトル全体・ラベル各角度・キャップ・底面の刻印を高解像度で撮影</li><li><strong>専門業者で鑑定査定</strong> — お酒買取の専門店で無料鑑定を依頼</li><li><strong>メーカーへの問い合わせ</strong> — サントリー・ニッカ等の公式お客様窓口にロット番号を伝えて真贋確認</li><li><strong>購入経路を遡る</strong> — 不正流通の可能性が高い場合は購入元に返品交渉</li><li><strong>警察への相談</strong> — 詐欺の可能性がある場合は最寄りの警察署で相談
 
 贋作と判明した場合、買取業者は買取を拒否します。また、贋作と知りながら売却することは詐欺罪に該当する可能性があるため、誠実に対処することが重要です。</li></ol>` }} />
 
@@ -129,7 +129,6 @@ export default function Glenfiddich30NisemonoMikataPage() {
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
-              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定</a>
               <a href="https://www.buysell-onlineshop.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
               <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">リカスタで宅配買取</a>
             </div>

@@ -58,7 +58,7 @@ def render_takaku_uru(b):
              "コレクション目的で購入したボトルは、絶対に開けずに保管してください。"),
             ("コツ3: 複数業者で相見積もり",
              f"同じ{name}でも、業者によって**数万〜数十万円**の査定差が生じます。"
-             "ヒカカク等の一括査定で相場感を把握し、お酒買取専門店（JOYLAB・リカスタ等）にも個別に見積もりを取りましょう。"
+             "ヒカカク等の一括査定で相場感を把握し、お酒買取専門店（リカスタ等）にも個別に見積もりを取りましょう。"
              "1社決め打ちは絶対に避けるべきです。"),
             ("コツ4: 売却タイミングを見極める",
              "ウイスキーの相場は需給で動きます。"
@@ -112,8 +112,7 @@ def render_nisemono_mikata(b):
         "faqs": [
             {"q": f"{name}に贋作が多いのは本当？", "a": f"{name}のような高額銘柄は{fmt(price)}前後の流通価格があるため、贋作の経済合理性が成立しやすいです。特に未開封品で高値がつく銘柄は要注意です。"},
             {"q": "贋作を売ろうとしたらどうなる？", "a": "古物営業法・詐欺罪に問われる可能性があります。買取業者は専門知識で見抜くため、贋作の場合は買取拒否されます。"},
-            {"q": "怪しいと思ったらどうすればいい？", "a": "信頼できる買取業者で**鑑定査定**を依頼してください。お酒買取専門店（JOYLAB等）は本物・贋作の判定経験が豊富です。"},
-        ],
+            ],
     }
 
 
@@ -124,7 +123,7 @@ def render_ranking(b):
     return {
         "slug_suffix": "ranking",
         "title": f"{name}の買取業者おすすめランキング【2026年最新】査定額比較TOP4",
-        "description": f"{name}に強い買取業者を徹底比較。ヒカカク・バイセル・JOYLAB・リカスタの査定スピード・価格・サポートを評価し、目的別おすすめを提示。",
+        "description": f"{name}に強い買取業者を徹底比較。ヒカカク・バイセル・リカスタの査定スピード・価格・サポートを評価し、目的別おすすめを提示。",
         "h1": f"{name}の買取業者おすすめランキング",
         "intro": f"{name}を高く売るには、業者選びが最重要。同じ{fmt(price)}クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。"
                  f"本記事ではPeatBid編集部が選んだ{name}に強い買取業者4社を、目的別に比較します。",
@@ -137,11 +136,7 @@ def render_ranking(b):
              "バイセルは東証グロース上場のBuySell Technologies運営。"
              "お酒・ウイスキー買取に注力中で、出張・宅配・店頭の3チャネル対応。"
              f"{name}クラスの希少ボトルでも、信頼性と査定スピードを両立した買取が可能です。"),
-            ("3位: JOYLAB（お酒買取専門の高単価)",
-             "JOYLABはお酒買取専門で、銘柄別の相場表をリアルタイム公開。"
-             f"{name}のように相場が大きく動く銘柄に対し、当日の海外オークション価格を反映した査定が期待できます。"
-             "ジャパニーズウイスキー強化中。"),
-            ("4位: リカスタ（宅配買取で完結）",
+            ("3位: リカスタ（宅配買取で完結）",
              "リカスタは全国対応の宅配買取サービス。"
              "店舗に行く時間がない方、地方在住の方に最適。査定無料・キャンセル無料で気軽に試せます。"
              "ジャパニーズウイスキーも積極買取中。"),
@@ -324,7 +319,7 @@ def render_kaifu_zumi(b):
              "- できれば未開封同等の場所で\n"
              "- 売却まで開けない、注ぎ足しはしない".replace("{name}", name)),
             ("開封済みを買取してくれる業者",
-             "PeatBid推奨の4社（ヒカカク・バイセル・JOYLAB・リカスタ）は、いずれも開封済みでも査定対応可能です。"
+             "PeatBid推奨の4社（ヒカカク・バイセル・リカスタ）は、いずれも開封済みでも査定対応可能です。"
              "ただし業者によっては残量条件があるため、事前確認をおすすめします。"),
         ],
         "faqs": [
@@ -366,8 +361,8 @@ def render_hako_nashi(b):
              "- **複数業者で見積もり**: 業者により箱なしの評価額に差があります\n"
              "- **写真撮影**: 査定前にボトルの状態を記録しておく"),
             ("箱なしでも歓迎の買取業者",
-             "PeatBid推奨の4社はすべて箱なしでも査定対応可能。"
-             "特に**ヒカカク・JOYLAB**は、お酒の専門知識があるためボトルの状態を正しく評価してくれます。"),
+             "PeatBid推奨の3社はすべて箱なしでも査定対応可能。"
+             "特に**ヒカカク**は、お酒の専門知識があるためボトルの状態を正しく評価してくれます。"),
         ],
         "faqs": [
             {"q": f"箱を捨ててしまった{name}でも売れる？", "a": "はい、売れます。査定額は10〜20%下がりますが、未開封でラベル状態が良ければ十分な価格がつきます。"},
@@ -417,7 +412,7 @@ def render_label_yogore(b):
              "5. **直接触れない**: 必要なら手袋着用"),
             ("ラベル汚れがある状態での売却",
              "「もう価値はない」と諦める前に、複数業者で見積もりを取りましょう。"
-             "業者により、ラベル汚れの評価基準が異なります。**JOYLAB・リカスタ**等の専門店は、ラベル以外の総合状態で判断してくれます。"),
+             "業者により、ラベル汚れの評価基準が異なります。**リカスタ**等の専門店は、ラベル以外の総合状態で判断してくれます。"),
         ],
         "faqs": [
             {"q": "ラベルが完全に剥がれている{name}でも売れる？", "a": "売れますが、査定額は基準の30〜50%程度まで下がります。剥がれたラベルが保管されていれば、一緒に持ち込みましょう。".replace("{name}", name)},
@@ -590,7 +585,7 @@ export default function {component_name}Page() {{
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
-              <a href="https://joylab.jp/" target="_blank" rel="noopener noreferrer nofollow" className="burgundy-cta block text-center text-sm py-3 rounded-lg">JOYLABで専門査定</a>
+              
               <a href="https://www.buysell-onlineshop.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
               <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">リカスタで宅配買取</a>
             </div>

@@ -121,7 +121,7 @@ export default function EditorialPage() {
         <p>PeatBidが参照する主なデータソース:</p>
         <ul>
           <li><strong>海外オークション</strong> — Sotheby's、Bonhams、Whisky Auctioneer、Just Whisky Auctions、Whisky Hammer</li>
-          <li><strong>国内買取業者</strong> — 大黒屋、JOYLAB、ウイスキー王国、リカスタ、キャビンリカー</li>
+          
           <li><strong>公式メーカー情報</strong> — サントリー、ニッカ、ベンチャーウイスキー</li>
           <li><strong>業界統計</strong> — Knight Frank Luxury Investment Index、Rare Whisky 101 等</li>
           <li><strong>政府・公的機関</strong> — 国税庁、消費者庁、警察庁（古物営業法）</li>
