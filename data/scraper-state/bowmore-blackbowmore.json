@@ -1,11 +1,11 @@
 {
   "slug": "bowmore-blackbowmore",
   "label": "ブラックボウモア",
-  "fetched_at": "2026-07-31T09:01:46",
+  "fetched_at": "2026-08-07T09:01:43",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%82%A6%E3%83%A2%E3%82%A2",
-  "avg": 19567,
+  "avg": 19965,
   "max": 249000,
   "min": null,
-  "count": 78,
+  "count": 75,
   "ok": true
 }

@@ -43,10 +43,10 @@
     }
   ],
   "latest": {
-    "date": "2026-08-03",
+    "date": "2026-08-10",
     "median_jpy": 3960,
-    "sample_n": 96,
-    "raw_n": 116,
+    "sample_n": 94,
+    "raw_n": 114,
     "insufficient": true
   },
   "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"

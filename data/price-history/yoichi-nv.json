@@ -6,10 +6,10 @@
   "query_used": "余市 ノンエイジ 700ml",
   "history": [],
   "latest": {
-    "date": "2026-08-03",
-    "median_jpy": 6000,
-    "sample_n": 2,
-    "raw_n": 2,
+    "date": "2026-08-10",
+    "median_jpy": 8450,
+    "sample_n": 4,
+    "raw_n": 4,
     "insufficient": true
   },
   "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"

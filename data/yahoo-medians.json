@@ -3,49 +3,49 @@
     "query_used": "山崎 ノンエイジ ウイスキー 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 262,
+    "filtered_n": 266,
     "median": 10175,
-    "mean": 10328,
+    "mean": 10335,
     "min": 8200,
     "max": 13750,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "yamazaki-12": {
     "query_used": "山崎12年 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 244,
-    "median": 20680,
-    "mean": 20732,
-    "min": 17000,
-    "max": 25850,
+    "filtered_n": 238,
+    "median": 20898,
+    "mean": 20838,
+    "min": 18786,
+    "max": 23000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "yamazaki-18": {
     "query_used": "山崎18年 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 220,
-    "median": 93000,
-    "mean": 92161,
-    "min": 80000,
-    "max": 106711,
+    "filtered_n": 218,
+    "median": 93312,
+    "mean": 92536,
+    "min": 84000,
+    "max": 99880,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "yamazaki-25": {
     "query_used": "山崎25年 700ml",
     "pages_fetched": 3,
-    "raw_n": 188,
-    "filtered_n": 186,
-    "median": 29150,
-    "mean": 365888,
+    "raw_n": 182,
+    "filtered_n": 182,
+    "median": 40500,
+    "mean": 405964,
     "min": 11000,
-    "max": 1451998,
+    "max": 2103322,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "yamazaki-55": {
     "query_used": "山崎55年 700ml",
@@ -57,115 +57,115 @@
     "min": 19800,
     "max": 300000,
     "insufficient": true,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "hibiki-nv": {
     "query_used": "響 ジャパニーズハーモニー 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 284,
-    "median": 11110,
-    "mean": 14504,
+    "filtered_n": 268,
+    "median": 10917,
+    "mean": 12449,
     "min": 7250,
-    "max": 33684,
+    "max": 25298,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "hibiki-17": {
     "query_used": "響17年 700ml",
     "pages_fetched": 3,
     "raw_n": 298,
     "filtered_n": 262,
-    "median": 47999,
-    "mean": 48914,
+    "median": 47700,
+    "mean": 48687,
     "min": 29500,
     "max": 66548,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "hibiki-21": {
     "query_used": "響21年 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 244,
-    "median": 71685,
-    "mean": 71799,
-    "min": 62000,
+    "filtered_n": 234,
+    "median": 71500,
+    "mean": 71813,
+    "min": 60000,
     "max": 83490,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "hibiki-30": {
     "query_used": "響30年 700ml",
-    "pages_fetched": 2,
-    "raw_n": 96,
-    "filtered_n": 62,
-    "median": 535700,
-    "mean": 534290,
-    "min": 461001,
-    "max": 633999,
+    "pages_fetched": 3,
+    "raw_n": 104,
+    "filtered_n": 82,
+    "median": 531300,
+    "mean": 522761,
+    "min": 335500,
+    "max": 677598,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "hakushu-nv": {
     "query_used": "白州 ノンエイジ 700ml",
     "pages_fetched": 3,
-    "raw_n": 256,
-    "filtered_n": 204,
-    "median": 9900,
-    "mean": 10085,
+    "raw_n": 266,
+    "filtered_n": 212,
+    "median": 9977,
+    "mean": 10106,
     "min": 8000,
     "max": 12758,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "hakushu-12": {
     "query_used": "白州12年 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 234,
-    "median": 20901,
-    "mean": 21073,
+    "filtered_n": 238,
+    "median": 20900,
+    "mean": 20996,
     "min": 17000,
-    "max": 28050,
+    "max": 27000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "hakushu-18": {
     "query_used": "白州18年 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 220,
+    "filtered_n": 216,
     "median": 71498,
-    "mean": 71403,
+    "mean": 71344,
     "min": 52250,
     "max": 86900,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "hakushu-25": {
     "query_used": "白州25年 700ml",
     "pages_fetched": 3,
-    "raw_n": 128,
-    "filtered_n": 128,
+    "raw_n": 108,
+    "filtered_n": 108,
     "median": 21000,
-    "mean": 137100,
+    "mean": 145652,
     "min": 11000,
     "max": 660000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "taketsuru-pure": {
     "query_used": "竹鶴 ピュアモルト 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
     "filtered_n": 294,
-    "median": 13000,
-    "mean": 18314,
-    "min": 4428,
-    "max": 67098,
+    "median": 9110,
+    "mean": 17881,
+    "min": 1410,
+    "max": 68200,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "taketsuru-17": {
     "query_used": "竹鶴17年 700ml",
@@ -173,23 +173,23 @@
     "raw_n": 298,
     "filtered_n": 284,
     "median": 32998,
-    "mean": 32312,
+    "mean": 32391,
     "min": 24100,
     "max": 39710,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "taketsuru-21": {
     "query_used": "竹鶴21年 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
     "filtered_n": 274,
-    "median": 63030,
-    "mean": 63183,
+    "median": 63798,
+    "mean": 63268,
     "min": 49500,
     "max": 79200,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "taketsuru-25": {
     "query_used": "竹鶴25年 700ml",
@@ -197,59 +197,59 @@
     "raw_n": 42,
     "filtered_n": 40,
     "median": 188000,
-    "mean": 186885,
+    "mean": 187300,
     "min": 164010,
     "max": 201099,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "yoichi-nv": {
     "query_used": "余市 ノンエイジ 700ml",
     "pages_fetched": 2,
-    "raw_n": 2,
-    "filtered_n": 2,
-    "median": 6000,
-    "mean": 6000,
+    "raw_n": 4,
+    "filtered_n": 4,
+    "median": 8450,
+    "mean": 8450,
     "min": 6000,
-    "max": 6000,
+    "max": 10900,
     "insufficient": true,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "yoichi-10": {
     "query_used": "余市10年 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 270,
-    "median": 22500,
-    "mean": 26617,
-    "min": 17505,
-    "max": 46540,
+    "filtered_n": 268,
+    "median": 22000,
+    "mean": 26376,
+    "min": 13000,
+    "max": 44000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "yoichi-15": {
     "query_used": "余市15年 700ml",
     "pages_fetched": 2,
     "raw_n": 70,
     "filtered_n": 62,
-    "median": 79214,
-    "mean": 78458,
+    "median": 79500,
+    "mean": 78555,
     "min": 61000,
     "max": 94600,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "yoichi-20": {
     "query_used": "余市20年 700ml",
     "pages_fetched": 2,
-    "raw_n": 50,
+    "raw_n": 46,
     "filtered_n": 40,
-    "median": 214071,
-    "mean": 222725,
-    "min": 50000,
-    "max": 399999,
+    "median": 218185,
+    "mean": 225422,
+    "min": 11000,
+    "max": 466500,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "miyagikyo-nv": {
     "query_used": "宮城峡 ノンエイジ 700ml",
@@ -261,19 +261,19 @@
     "min": 5700,
     "max": 5700,
     "insufficient": true,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "miyagikyo-12": {
     "query_used": "宮城峡12年 700ml",
     "pages_fetched": 2,
-    "raw_n": 28,
-    "filtered_n": 22,
-    "median": 36300,
-    "mean": 36768,
+    "raw_n": 30,
+    "filtered_n": 26,
+    "median": 36509,
+    "mean": 37766,
     "min": 34000,
-    "max": 41500,
+    "max": 44000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "miyagikyo-15": {
     "query_used": "宮城峡15年 700ml",
@@ -285,7 +285,7 @@
     "min": 56100,
     "max": 76501,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "ichirosu-card": {
     "query_used": "イチローズモルト カード 700ml",
@@ -297,43 +297,43 @@
     "min": 26000,
     "max": 805000,
     "insufficient": true,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "ichirosu-double-distilleries": {
     "query_used": "イチローズモルト ダブルディスティラリーズ 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 282,
-    "median": 10395,
-    "mean": 12857,
+    "filtered_n": 284,
+    "median": 9990,
+    "mean": 13060,
     "min": 7250,
-    "max": 27800,
+    "max": 30250,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "ichirosu-mwr": {
     "query_used": "イチローズモルト MWR 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 238,
+    "filtered_n": 242,
     "median": 8248,
-    "mean": 8269,
-    "min": 7100,
+    "mean": 8284,
+    "min": 7260,
     "max": 9300,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "karuizawa-12": {
     "query_used": "軽井沢 12年 ウイスキー 700ml",
     "pages_fetched": 2,
     "raw_n": 96,
-    "filtered_n": 84,
-    "median": 74250,
-    "mean": 76438,
+    "filtered_n": 92,
+    "median": 76423,
+    "mean": 82104,
     "min": 51000,
-    "max": 112750,
+    "max": 134999,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "karuizawa-30": {
     "query_used": "軽井沢 30年 ウイスキー 700ml",
@@ -345,7 +345,7 @@
     "min": 427900,
     "max": 427900,
     "insufficient": true,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "hanyu-card": {
     "query_used": "羽生 カード ウイスキー 700ml",
@@ -353,59 +353,59 @@
     "raw_n": 300,
     "filtered_n": 282,
     "median": 8035,
-    "mean": 10528,
+    "mean": 10571,
     "min": 1000,
     "max": 36000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "macallan-12": {
     "query_used": "マッカラン12年 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 286,
-    "median": 9405,
-    "mean": 11112,
+    "filtered_n": 274,
+    "median": 9350,
+    "mean": 10666,
     "min": 4070,
-    "max": 20500,
+    "max": 26000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "macallan-18": {
     "query_used": "マッカラン18年 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 234,
-    "median": 45868,
-    "mean": 43065,
-    "min": 26500,
-    "max": 60500,
+    "filtered_n": 204,
+    "median": 46000,
+    "mean": 45303,
+    "min": 31845,
+    "max": 61000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "macallan-25": {
     "query_used": "マッカラン25年 700ml",
     "pages_fetched": 3,
-    "raw_n": 146,
-    "filtered_n": 144,
-    "median": 198999,
-    "mean": 223842,
+    "raw_n": 148,
+    "filtered_n": 146,
+    "median": 200000,
+    "mean": 227188,
     "min": 6600,
     "max": 509300,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "macallan-30": {
     "query_used": "マッカラン30年 700ml",
     "pages_fetched": 2,
     "raw_n": 52,
     "filtered_n": 52,
-    "median": 394500,
-    "mean": 416399,
+    "median": 399004,
+    "mean": 418132,
     "min": 9250,
     "max": 1051000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "macallan-fine-rare": {
     "query_used": "マッカラン Fine Rare 700ml",
@@ -417,19 +417,19 @@
     "min": 5850,
     "max": 12160,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "bowmore-18": {
     "query_used": "ボウモア18年 700ml",
     "pages_fetched": 3,
-    "raw_n": 256,
-    "filtered_n": 214,
-    "median": 10888,
-    "mean": 10942,
+    "raw_n": 260,
+    "filtered_n": 212,
+    "median": 10834,
+    "mean": 10779,
     "min": 7710,
-    "max": 16060,
+    "max": 15401,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "bowmore-25": {
     "query_used": "ボウモア25年 700ml",
@@ -441,79 +441,79 @@
     "min": 3400,
     "max": 139900,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "bowmore-blackbowmore": {
     "query_used": "ブラックボウモア 700ml",
     "pages_fetched": 3,
-    "raw_n": 116,
-    "filtered_n": 96,
+    "raw_n": 114,
+    "filtered_n": 94,
     "median": 3960,
-    "mean": 4218,
+    "mean": 4229,
     "min": 2500,
     "max": 9626,
     "insufficient": true,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "springbank-15": {
     "query_used": "スプリングバンク15年 700ml",
     "pages_fetched": 3,
     "raw_n": 128,
-    "filtered_n": 110,
-    "median": 34650,
-    "mean": 35342,
+    "filtered_n": 108,
+    "median": 35000,
+    "mean": 35512,
     "min": 32000,
     "max": 40601,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "springbank-21": {
     "query_used": "スプリングバンク21年 700ml",
     "pages_fetched": 2,
-    "raw_n": 54,
-    "filtered_n": 54,
-    "median": 102201,
-    "mean": 112920,
+    "raw_n": 52,
+    "filtered_n": 52,
+    "median": 102711,
+    "mean": 114367,
     "min": 79000,
     "max": 183000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "laphroaig-25": {
     "query_used": "ラフロイグ25年 700ml",
     "pages_fetched": 2,
-    "raw_n": 60,
-    "filtered_n": 52,
-    "median": 64449,
-    "mean": 64267,
+    "raw_n": 62,
+    "filtered_n": 54,
+    "median": 64898,
+    "mean": 64331,
     "min": 55000,
     "max": 69999,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "ardbeg-uigeadail": {
     "query_used": "アードベッグ ウーガダール 700ml",
     "pages_fetched": 3,
-    "raw_n": 138,
-    "filtered_n": 104,
-    "median": 7725,
-    "mean": 7802,
+    "raw_n": 136,
+    "filtered_n": 114,
+    "median": 7810,
+    "mean": 8538,
     "min": 6250,
-    "max": 9073,
+    "max": 18400,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "ardbeg-corryvreckan": {
     "query_used": "アードベッグ コリーヴレッカン 700ml",
     "pages_fetched": 2,
-    "raw_n": 90,
-    "filtered_n": 76,
-    "median": 8030,
+    "raw_n": 84,
+    "filtered_n": 70,
+    "median": 8000,
     "mean": 8487,
     "min": 6748,
     "max": 12100,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "glenfiddich-30": {
     "query_used": "グレンフィディック30年 700ml",
@@ -525,55 +525,55 @@
     "min": 53898,
     "max": 104999,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "glenfarclas-25": {
     "query_used": "グレンファークラス25年 700ml",
     "pages_fetched": 2,
     "raw_n": 98,
-    "filtered_n": 96,
-    "median": 23189,
-    "mean": 27643,
-    "min": 8195,
-    "max": 50000,
+    "filtered_n": 98,
+    "median": 23593,
+    "mean": 28789,
+    "min": 10000,
+    "max": 55000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "talisker-25": {
     "query_used": "タリスカー25年 700ml",
     "pages_fetched": 2,
     "raw_n": 44,
     "filtered_n": 44,
-    "median": 49925,
-    "mean": 68422,
-    "min": 3740,
+    "median": 50425,
+    "mean": 72832,
+    "min": 39600,
     "max": 150000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "balvenie-portwood-21": {
     "query_used": "バルヴェニー ポートウッド 700ml",
     "pages_fetched": 2,
-    "raw_n": 20,
-    "filtered_n": 18,
-    "median": 31898,
-    "mean": 31174,
-    "min": 24530,
+    "raw_n": 18,
+    "filtered_n": 16,
+    "median": 32449,
+    "mean": 32004,
+    "min": 27500,
     "max": 35200,
     "insufficient": true,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "glenmorangie-signet": {
     "query_used": "グレンモーレンジ シグネット 700ml",
     "pages_fetched": 3,
-    "raw_n": 108,
-    "filtered_n": 104,
-    "median": 20349,
-    "mean": 20406,
+    "raw_n": 110,
+    "filtered_n": 106,
+    "median": 20350,
+    "mean": 20361,
     "min": 18040,
-    "max": 23980,
+    "max": 23009,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "chichibu-the-first": {
     "query_used": "秩父 ザファースト 700ml",
@@ -585,55 +585,55 @@
     "min": 42900,
     "max": 150000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "mars-komagatake": {
     "query_used": "マルス 駒ヶ岳 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 284,
-    "median": 8500,
-    "mean": 12210,
+    "filtered_n": 286,
+    "median": 8248,
+    "mean": 12274,
     "min": 3300,
     "max": 36000,
     "insufficient": false,
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-10"
   },
   "glenfiddich-12": {
     "query_used": "グレンフィディック12年 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
     "filtered_n": 254,
-    "median": 3080,
-    "mean": 3059,
+    "median": 2975,
+    "mean": 3011,
     "min": 2530,
-    "max": 3628,
+    "max": 3700,
     "insufficient": false,
-    "fetched_at": "2026-08-04"
+    "fetched_at": "2026-08-10"
   },
   "glenfiddich-15": {
     "query_used": "グレンフィディック15年 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
-    "filtered_n": 272,
-    "median": 5104,
-    "mean": 5339,
+    "filtered_n": 268,
+    "median": 5079,
+    "mean": 5345,
     "min": 3100,
     "max": 8855,
     "insufficient": false,
-    "fetched_at": "2026-08-04"
+    "fetched_at": "2026-08-10"
   },
   "glenfiddich-18": {
     "query_used": "グレンフィディック18年 700ml",
     "pages_fetched": 3,
     "raw_n": 300,
     "filtered_n": 292,
-    "median": 10800,
-    "mean": 11537,
+    "median": 10823,
+    "mean": 11463,
     "min": 6750,
     "max": 19250,
     "insufficient": false,
-    "fetched_at": "2026-08-04"
+    "fetched_at": "2026-08-10"
   },
   "ardbeg-10": {
     "query_used": "アードベッグ 10年 700ml",
@@ -641,11 +641,11 @@
     "raw_n": 300,
     "filtered_n": 240,
     "median": 4398,
-    "mean": 4380,
-    "min": 3300,
-    "max": 6158,
+    "mean": 4556,
+    "min": 3080,
+    "max": 8500,
     "insufficient": false,
-    "fetched_at": "2026-08-04"
+    "fetched_at": "2026-08-10"
   },
   "ardbeg-an-oa": {
     "query_used": "アードベッグ アンオー 700ml",
@@ -657,6 +657,6 @@
     "min": 5750,
     "max": 7980,
     "insufficient": false,
-    "fetched_at": "2026-08-04"
+    "fetched_at": "2026-08-10"
   }
 }

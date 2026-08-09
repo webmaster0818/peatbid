@@ -1,11 +1,11 @@
 {
   "slug": "yoichi-20",
   "label": "余市20年",
-  "fetched_at": "2026-07-31T09:00:56",
+  "fetched_at": "2026-08-07T09:00:54",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E4%BD%99%E5%B8%8220%E5%B9%B4",
-  "avg": 165463,
+  "avg": 163315,
   "max": 870000,
   "min": null,
-  "count": 63,
+  "count": 64,
   "ok": true
 }
