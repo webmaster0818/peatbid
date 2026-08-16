@@ -1,11 +1,11 @@
 {
   "slug": "yoichi-nv",
   "label": "余市NV",
-  "fetched_at": "2026-08-07T09:00:46",
+  "fetched_at": "2026-08-14T09:00:49",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E4%BD%99%E5%B8%82%20%E3%83%8E%E3%83%B3%E3%82%A8%E3%82%A4%E3%82%B8",
-  "avg": 42333,
+  "avg": 34475,
   "max": 75000,
   "min": null,
-  "count": 3,
+  "count": 4,
   "ok": true
 }
