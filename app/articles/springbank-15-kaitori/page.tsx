@@ -6,11 +6,11 @@ import priceData from "@/data/price-history/springbank-15.json";
 
 export const metadata: Metadata = {
   title: '【毎週更新】スプリングバンク15年の買取相場｜ヤフオク落札中央値35,000円基準【2026年8月】',
-  description: 'スプリングバンク15年の買取相場は35,000円が目安（毎週月曜更新・ヤフオク実落札の中央値・過去180日のIQR外れ値除去後、n=112件）。箱なし・開封済み等の状態別の査定目安、買取業者4社の比較、高く売るコツまで実データで解説。',
+  description: 'スプリングバンク15年の買取相場は35,000円が目安（毎週月曜更新・ヤフオク実落札の中央値・過去180日のIQR外れ値除去後、n=114件）。箱なし・開封済み等の状態別の査定目安、買取業者4社の比較、高く売るコツまで実データで解説。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '今のスプリングバンク15年の買取相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": 'スプリングバンク15年のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は35,000円です（サンプル数 n=112、取得日 2026-08-17・毎週月曜に自動更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": 'スプリングバンク15年を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": 'スプリングバンク15年の開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' } }, { "@type": "Question", "name": 'スプリングバンク15年は箱無しでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約28,000〜31,500円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' } }, { "@type": "Question", "name": 'スプリングバンク15年に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": 'スプリングバンク15年の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": 'スプリングバンク15年は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'スプリングバンク15年を売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": 'スプリングバンク15年と他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '今のスプリングバンク15年の買取相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": 'スプリングバンク15年のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は35,000円です（サンプル数 n=114、取得日 2026-08-24・毎週月曜に自動更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": 'スプリングバンク15年を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": 'スプリングバンク15年の開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' } }, { "@type": "Question", "name": 'スプリングバンク15年は箱無しでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約28,000〜31,500円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' } }, { "@type": "Question", "name": 'スプリングバンク15年に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": 'スプリングバンク15年の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": 'スプリングバンク15年は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'スプリングバンク15年を売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": 'スプリングバンク15年と他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
 }
 
 const tocItems = [
@@ -50,7 +50,7 @@ export default function Springbank15KaitoriPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">スプリングバンク15年の買取相場と業者比較ガイド【2026年8月】</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-08-17 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-08-24 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -115,7 +115,7 @@ export default function Springbank15KaitoriPage() {
 
           <h2 id="current-price">4. 現在の市場相場（Yahoo中央値）</h2>
 
-          <p>スプリングバンク15年の市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>35,000円</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=112件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
+          <p>スプリングバンク15年の市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>35,000円</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=114件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
 
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
             <p className="text-sm font-bold text-ink mb-3">スプリングバンク15年の買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
@@ -123,25 +123,25 @@ export default function Springbank15KaitoriPage() {
               <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">35,198</text>
               <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">34,924</text>
               <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">34,650</text>
-              <polyline points="66.0,80.9 116.5,59.9 167.1,38.9 217.6,80.9 268.2,80.9 318.7,59.9 369.3,59.9 419.8,80.9 470.4,80.9 520.9,155.1 571.5,80.9 622.0,80.9" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="66.0" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-01: 35,000円（サンプル n=94件）</title></circle>
-              <circle cx="116.5" cy="59.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-08: 35,099円（サンプル n=92件）</title></circle>
-              <circle cx="167.1" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-15: 35,198円（サンプル n=94件）</title></circle>
-              <circle cx="217.6" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-22: 35,000円（サンプル n=98件）</title></circle>
-              <circle cx="268.2" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-29: 35,000円（サンプル n=96件）</title></circle>
-              <circle cx="318.7" cy="59.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-06: 35,099円（サンプル n=100件）</title></circle>
-              <circle cx="369.3" cy="59.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-13: 35,099円（サンプル n=100件）</title></circle>
-              <circle cx="419.8" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-20: 35,000円（サンプル n=98件）</title></circle>
-              <circle cx="470.4" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-27: 35,000円（サンプル n=106件）</title></circle>
-              <circle cx="520.9" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-03: 34,650円（サンプル n=110件）</title></circle>
-              <circle cx="571.5" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-10: 35,000円（サンプル n=108件）</title></circle>
-              <circle cx="622.0" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 35,000円（サンプル n=112件）</title></circle>
+              <polyline points="66.0,59.9 116.5,38.9 167.1,80.9 217.6,80.9 268.2,59.9 318.7,59.9 369.3,80.9 419.8,80.9 470.4,155.1 520.9,80.9 571.5,80.9 622.0,80.9" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="59.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-08: 35,099円（サンプル n=92件）</title></circle>
+              <circle cx="116.5" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-15: 35,198円（サンプル n=94件）</title></circle>
+              <circle cx="167.1" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-22: 35,000円（サンプル n=98件）</title></circle>
+              <circle cx="217.6" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-06-29: 35,000円（サンプル n=96件）</title></circle>
+              <circle cx="268.2" cy="59.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-06: 35,099円（サンプル n=100件）</title></circle>
+              <circle cx="318.7" cy="59.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-13: 35,099円（サンプル n=100件）</title></circle>
+              <circle cx="369.3" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-20: 35,000円（サンプル n=98件）</title></circle>
+              <circle cx="419.8" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-27: 35,000円（サンプル n=106件）</title></circle>
+              <circle cx="470.4" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-03: 34,650円（サンプル n=110件）</title></circle>
+              <circle cx="520.9" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-10: 35,000円（サンプル n=108件）</title></circle>
+              <circle cx="571.5" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 35,000円（サンプル n=112件）</title></circle>
+              <circle cx="622.0" cy="80.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 35,000円（サンプル n=114件）</title></circle>
               <text x="618.0" y="70.9" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">35,000円</text>
-              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">6/1</text>
-              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">7/6</text>
-              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/17</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">6/8</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">7/13</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/24</text>
             </svg>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-06-01〜2026-08-17（週次12点・各点のサンプル数 n=92〜112件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜自動更新。買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-06-08〜2026-08-24（週次12点・各点のサンプル数 n=92〜114件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜自動更新。買取額を保証するものではありません。</p>
           </div>
 
           <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、**最低3社、できれば4社以上で相見積もり**を取ることをおすすめします。</p>
@@ -390,7 +390,7 @@ export default function Springbank15KaitoriPage() {
           <h2 id="faq">12. スプリングバンク15年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '今のスプリングバンク15年の買取相場はいくらですか？', a: 'スプリングバンク15年のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は35,000円です（サンプル数 n=112、取得日 2026-08-17・毎週月曜に自動更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: 'スプリングバンク15年を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: 'スプリングバンク15年の開封済みでも買取できますか？', a: 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' }, { q: 'スプリングバンク15年は箱無しでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約28,000〜31,500円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' }, { q: 'スプリングバンク15年に偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' }, { q: 'スプリングバンク15年の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: 'スプリングバンク15年は税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'スプリングバンク15年を売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: 'スプリングバンク15年と他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
+            {[{ q: '今のスプリングバンク15年の買取相場はいくらですか？', a: 'スプリングバンク15年のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は35,000円です（サンプル数 n=114、取得日 2026-08-24・毎週月曜に自動更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: 'スプリングバンク15年を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: 'スプリングバンク15年の開封済みでも買取できますか？', a: 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' }, { q: 'スプリングバンク15年は箱無しでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約28,000〜31,500円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' }, { q: 'スプリングバンク15年に偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' }, { q: 'スプリングバンク15年の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: 'スプリングバンク15年は税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'スプリングバンク15年を売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: 'スプリングバンク15年と他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -420,7 +420,7 @@ export default function Springbank15KaitoriPage() {
 
           <h2>関連銘柄の買取相場</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
-            <Link href="/articles/macallan-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 399,004円</p></Link>
+            <Link href="/articles/macallan-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 328,500円</p></Link>
             <Link href="/articles/macallan-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 200,000円</p></Link>
             <Link href="/articles/springbank-21-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">スプリングバンク21年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 103,860円</p></Link>
             <Link href="/articles/bowmore-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">ボウモア25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 75,500円</p></Link>
@@ -440,7 +440,7 @@ export default function Springbank15KaitoriPage() {
               <li><Link href="/articles/glenfiddich-30-kaitori/" className="text-amber-dark hover:underline">グレンフィディック30年の買取相場</Link></li>
           </ul>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-08-17）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-08-24）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
         </article>
       </div>
     </>
