@@ -48,6 +48,28 @@ CLUSTER = [
     ("glenfiddich-30", "グレンフィディック30年"),
 ]
 
+# N1（2026-08-24）: 「◯◯ 年代指定なし 買取」クエリが、同じブランドの年数ページに着地して
+# 0クリックになっていた（GSC実測 1,457imp/0click）。原因は内部リンクの偏りで、
+# CLUSTER に入っている yamazaki-nv / hakushu-nv だけが被リンク63〜64本を持ち、
+# 他のNVページは3〜7本しかないため、Googleが同ブランドの年数ページを代わりに出していた。
+# → 実在するNVページを全ページから相互リンクして、受け皿を入れ替える。
+# ⚠️ スコッチ系のNVページは手書き（brands.csvに無い＝週次再生成の対象外）なので、
+#    ここのリストとページの実在は手動で対応させること。増減したら両方を直す。
+NV_PAGES = [
+    ("yamazaki-nv", "山崎"),
+    ("hakushu-nv", "白州"),
+    ("hibiki-nv", "響"),
+    ("yoichi-nv", "余市"),
+    ("miyagikyo-nv", "宮城峡"),
+    ("bowmore-nv", "ボウモア"),
+    ("ardbeg-nv", "アードベッグ"),
+    ("laphroaig-nv", "ラフロイグ"),
+    ("talisker-nv", "タリスカー"),
+    ("glenfarclas-nv", "グレンファークラス"),
+    ("springbank-nv", "スプリングバンク"),
+]
+NV_FAMILIES = {slug.rsplit("-nv", 1)[0]: (slug, label) for slug, label in NV_PAGES}
+
 def md_to_html(text):
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
     normalized = text.replace('\\n', '\n')
@@ -259,6 +281,12 @@ def render_page(b, all_brands):
         )
     related_links = "\n".join(related_links_parts)
 
+    # N1（2026-08-24）年代指定なしページ一覧（自ページは除外）。全kaitoriページから相互リンクする。
+    nv_index_links = "\n".join(
+        f'              <li><Link href="/articles/{sl}-kaitori/" className="text-amber-dark hover:underline">{lb}の年代指定なし（ノンエイジ／NV）買取相場</Link></li>'
+        for sl, lb in NV_PAGES if sl != slug_base
+    )
+
     # N1② カテゴリ横断クラスタ相互リンク（自ページは除外）
     cluster_links = "\n".join(
         f'              <li><Link href="/articles/{c[0]}-kaitori/" className="text-amber-dark hover:underline">{c[1]}の買取相場</Link></li>'
@@ -391,6 +419,16 @@ def render_page(b, all_brands):
         # グレンフィディック: 総称「グレンフィディック 買取」が30年ページに着地していた
         "glenfiddich-30": ("/articles/glenfiddich-kaitori/", "12年・15年・18年など、お持ちのボトルの年数が30年以外の方はこちら", "グレンフィディックの買取相場（年代別）"),
     }
+    # 手書きのINTENT_SPLITに無くても、同ブランドのNVページが実在すれば自動で導線を作る
+    _fam_nv = slug_base.split("-")[0]
+    if slug_base not in INTENT_SPLIT and not slug_base.endswith("-nv") and _fam_nv in NV_FAMILIES:
+        _nvslug, _nvlabel = NV_FAMILIES[_fam_nv]
+        INTENT_SPLIT[slug_base] = (
+            f"/articles/{_nvslug}-kaitori/",
+            f"熟成年数の表記がない{_nvlabel}（年代指定なし／ノンエイジ）をお探しの方はこちら",
+            f"{_nvlabel}の年代指定なし(NV)買取相場",
+        )
+
     intent_split_block = ""
     if slug_base in INTENT_SPLIT:
         _tgt, _lead, _lbl = INTENT_SPLIT[slug_base]
@@ -825,6 +863,12 @@ export default function {component_name}() {{
           <p>「年代指定なし（ノンエイジ／NV）」で検索されやすい主要銘柄の実勢買取相場です。ジャパニーズ・スコッチを横断して毎週更新しています。</p>
           <ul>
 {cluster_links}
+          </ul>
+
+          <h2>熟成年数の表記がないボトルをお持ちの方へ</h2>
+          <p>ラベルに「12年」「25年」などの表記がないボトルは、買取店では「年代指定なし」「ノンエイジ」「NV（ノンヴィンテージ）」と呼ばれ、年数入りのボトルとは相場が別に付きます。銘柄ごとの相場は下記のページにまとめています。</p>
+          <ul>
+{nv_index_links}
           </ul>
 
           <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 {fetched_at}）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
