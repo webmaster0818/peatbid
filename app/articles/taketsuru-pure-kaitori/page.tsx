@@ -70,6 +70,10 @@ export default function TaketsuruPureKaitoriPage() {
 
           
 
+          <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
+            <p className="text-sm text-ink">🔀 熟成年数の表記がない竹鶴（年代指定なし／ノンエイジ）をお探しの方はこちら → <Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark underline font-bold">竹鶴の年代指定なし(NV)買取相場</Link></p>
+          </div>
+
 
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。竹鶴ピュアモルトは希少度<strong>コモン</strong>クラスに位置し、現行品として安定流通しているが、銘柄によってはプレミア化の兆しあり。市場価値は中位だが、コレクター入門品として安定需要を持つ。</p>
 
@@ -401,6 +405,7 @@ export default function TaketsuruPureKaitoriPage() {
               <li><Link href="/articles/bowmore-18-kaitori/" className="text-amber-dark hover:underline">ボウモア（18年ほか）の買取相場</Link></li>
               <li><Link href="/articles/ardbeg-uigeadail-kaitori/" className="text-amber-dark hover:underline">アードベッグ ウーガダール（年代指定なし）の買取相場</Link></li>
               <li><Link href="/articles/glenfiddich-30-kaitori/" className="text-amber-dark hover:underline">グレンフィディック30年の買取相場</Link></li>
+              <li><Link href="/articles/glenfiddich-kaitori/" className="text-amber-dark hover:underline">グレンフィディック（年代別の一覧）の買取相場</Link></li>
           </ul>
 
           <h2>熟成年数の表記がないボトルをお持ちの方へ</h2>

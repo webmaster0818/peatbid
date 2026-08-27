@@ -46,6 +46,9 @@ CLUSTER = [
     ("bowmore-18", "ボウモア（18年ほか）"),
     ("ardbeg-uigeadail", "アードベッグ ウーガダール（年代指定なし）"),
     ("glenfiddich-30", "グレンフィディック30年"),
+    # N2（2026-08-27）「グレンフィディック 買取」(年数なし)が30年ページに着地していた。
+    # ハブ /articles/glenfiddich-kaitori/ は被リンク1本しかなく受け皿になれていなかった。
+    ("glenfiddich", "グレンフィディック（年代別の一覧）"),
 ]
 
 # N1（2026-08-24）: 「◯◯ 年代指定なし 買取」クエリが、同じブランドの年数ページに着地して
@@ -67,8 +70,12 @@ NV_PAGES = [
     ("talisker-nv", "タリスカー"),
     ("glenfarclas-nv", "グレンファークラス"),
     ("springbank-nv", "スプリングバンク"),
+    # N2（2026-08-27）竹鶴は「竹鶴ピュアモルト」が年代指定なしの実体（-nvページは作らない）。
+    # 「竹鶴 買取」が25年ページに着地していたため、受け皿としてここに載せて全ページから張る。
+    ("taketsuru-pure", "竹鶴"),
 ]
-NV_FAMILIES = {slug.rsplit("-nv", 1)[0]: (slug, label) for slug, label in NV_PAGES}
+# ⚠️ スラッグの接尾辞は "-nv" とは限らない（竹鶴は "-pure"）。ファミリー名は先頭要素で取る。
+NV_FAMILIES = {slug.split("-")[0]: (slug, label) for slug, label in NV_PAGES}
 
 def md_to_html(text):
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
