@@ -87,6 +87,36 @@ def state_coef_text(brand):
     ]
 
 
+# 年代指定なし（NV）の受け皿。tier2 は brands.csv 由来なのでNVページへのリンクが無く、
+# その47本ぶんの差だけで年数ページがNV受け皿に勝っていた（2026-08-29 実測）。
+NV_RECEIVER = {
+    "glenfarclas": ("glenfarclas-nv", "グレンファークラス"),
+    "talisker": ("talisker-nv", "タリスカー"),
+    "laphroaig": ("laphroaig-nv", "ラフロイグ"),
+    "springbank": ("springbank-nv", "スプリングバンク"),
+    "ardbeg": ("ardbeg-nv", "アードベッグ"),
+    "bowmore": ("bowmore-nv", "ボウモア"),
+    "yamazaki": ("yamazaki-nv", "山崎"),
+    "hakushu": ("hakushu-nv", "白州"),
+    "hibiki": ("hibiki-nv", "響"),
+    "yoichi": ("yoichi-nv", "余市"),
+    "miyagikyo": ("miyagikyo-nv", "宮城峡"),
+    "taketsuru": ("taketsuru-pure", "竹鶴"),
+}
+
+
+def nv_link_li(slug: str) -> str:
+    """自分がNVページでない場合のみ、同ブランドのNV受け皿への導線を出す。"""
+    fam = slug.split("-")[0]
+    hit = NV_RECEIVER.get(fam)
+    if not hit or slug == hit[0]:
+        return ""
+    nvslug, label = hit
+    return (f'\n              <li><Link href="/articles/{nvslug}-kaitori/" '
+            f'className="text-amber-dark hover:text-burgundy underline">'
+            f'{label}の年代指定なし（ノンエイジ）の買取相場</Link></li>')
+
+
 def build_page(brand: dict, pref_slug: str) -> str:
     p = PREFECTURES[pref_slug]
     b = brand
@@ -273,7 +303,7 @@ export default function Page() {{
           <div className="bg-cream/40 border border-amber/30 rounded-2xl p-6 my-10 not-prose">
             <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連ページ</h2>
             <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-              <li><Link href="/articles/{slug}-kaitori/" className="text-amber-dark hover:text-burgundy underline">{b['name_ja']}の買取相場（全国版）</Link></li>
+              <li><Link href="/articles/{slug}-kaitori/" className="text-amber-dark hover:text-burgundy underline">{b['name_ja']}の買取相場（全国版）</Link></li>{nv_link_li(slug)}
               <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
               <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
             </ul>

@@ -1,11 +1,11 @@
 {
   "slug": "hibiki-21",
   "label": "響21年",
-  "fetched_at": "2026-08-21T09:00:24",
+  "fetched_at": "2026-08-28T09:00:21",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E9%9F%BF21%E5%B9%B4",
-  "avg": 78446,
+  "avg": 78576,
   "max": 887700,
   "min": null,
-  "count": 1391,
+  "count": 1385,
   "ok": true
 }

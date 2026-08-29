@@ -205,6 +205,7 @@ export default function Page() {
             <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連ページ</h2>
             <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
               <li><Link href="/articles/miyagikyo-12-kaitori/" className="text-amber-dark hover:text-burgundy underline">宮城峡12年の市場相場（全国版）</Link></li>
+              {/* nv-receiver-link-202608 */}<li><Link href="/articles/miyagikyo-nv-kaitori/" className="text-amber-dark hover:text-burgundy underline">宮城峡の年代指定なし（ノンエイジ）の買取相場</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー市場相場一覧</Link></li>
               <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
             </ul>

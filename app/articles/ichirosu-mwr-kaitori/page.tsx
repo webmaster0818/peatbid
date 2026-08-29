@@ -397,10 +397,12 @@ export default function IchirosuMwrKaitoriPage() {
               <li><Link href="/articles/yamazaki-nv-kaitori/" className="text-amber-dark hover:underline">山崎ノンエイジ（NV・年代指定なし）の買取相場</Link></li>
               <li><Link href="/articles/hakushu-nv-kaitori/" className="text-amber-dark hover:underline">白州ノンエイジ（NV・年代指定なし）の買取相場</Link></li>
               <li><Link href="/articles/glenfarclas-105-kaitori/" className="text-amber-dark hover:underline">グレンファークラス105（カスクストレングス・年代指定なし）の買取相場</Link></li>
-              <li><Link href="/articles/glenfarclas-25-kaitori/" className="text-amber-dark hover:underline">グレンファークラス（25年ほか）の買取相場</Link></li>
-              <li><Link href="/articles/springbank-15-kaitori/" className="text-amber-dark hover:underline">スプリングバンク（15年ほか）の買取相場</Link></li>
-              <li><Link href="/articles/bowmore-18-kaitori/" className="text-amber-dark hover:underline">ボウモア（18年ほか）の買取相場</Link></li>
-              <li><Link href="/articles/ardbeg-uigeadail-kaitori/" className="text-amber-dark hover:underline">アードベッグ ウーガダール（年代指定なし）の買取相場</Link></li>
+              <li><Link href="/articles/glenfarclas-nv-kaitori/" className="text-amber-dark hover:underline">グレンファークラスの年代指定なし（NV）の買取相場</Link></li>
+              <li><Link href="/articles/springbank-nv-kaitori/" className="text-amber-dark hover:underline">スプリングバンクの年代指定なし（NV）の買取相場</Link></li>
+              <li><Link href="/articles/bowmore-nv-kaitori/" className="text-amber-dark hover:underline">ボウモアの年代指定なし（NV）の買取相場</Link></li>
+              <li><Link href="/articles/ardbeg-nv-kaitori/" className="text-amber-dark hover:underline">アードベッグの年代指定なし（NV）の買取相場</Link></li>
+              <li><Link href="/articles/talisker-nv-kaitori/" className="text-amber-dark hover:underline">タリスカーの年代指定なし（NV）の買取相場</Link></li>
+              <li><Link href="/articles/laphroaig-nv-kaitori/" className="text-amber-dark hover:underline">ラフロイグの年代指定なし（NV）の買取相場</Link></li>
               <li><Link href="/articles/glenfiddich-30-kaitori/" className="text-amber-dark hover:underline">グレンフィディック30年の買取相場</Link></li>
               <li><Link href="/articles/glenfiddich-kaitori/" className="text-amber-dark hover:underline">グレンフィディック（年代別の一覧）の買取相場</Link></li>
           </ul>
