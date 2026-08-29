@@ -70,6 +70,10 @@ export default function GlenmorangieSignetKaitoriPage() {
 
           
 
+          <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
+            <p className="text-sm text-ink">🔀 オリジナル10年・ラサンタ・キンタルバン・18年など、シグネット以外をお持ちの方はこちら → <Link href="/articles/glenmorangie-kaitori/" className="text-amber-dark underline font-bold">グレンモーレンジの買取相場（ラインナップ別）</Link></p>
+          </div>
+
 
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。グレンモーレンジ シグネットは希少度<strong>ミッド</strong>クラスに位置し、終売・休売後の供給制限により価格上昇基調にある銘柄帯。市場流通量が徐々に減少し、二次流通価格は年単位で15〜30%上昇する傾向。</p>
 
@@ -404,6 +408,7 @@ export default function GlenmorangieSignetKaitoriPage() {
               <li><Link href="/articles/laphroaig-nv-kaitori/" className="text-amber-dark hover:underline">ラフロイグの年代指定なし（NV）の買取相場</Link></li>
               <li><Link href="/articles/glenfiddich-30-kaitori/" className="text-amber-dark hover:underline">グレンフィディック30年の買取相場</Link></li>
               <li><Link href="/articles/glenfiddich-kaitori/" className="text-amber-dark hover:underline">グレンフィディック（年代別の一覧）の買取相場</Link></li>
+              <li><Link href="/articles/glenmorangie-kaitori/" className="text-amber-dark hover:underline">グレンモーレンジ（ラインナップ別の一覧）の買取相場</Link></li>
           </ul>
 
           <h2>熟成年数の表記がないボトルをお持ちの方へ</h2>

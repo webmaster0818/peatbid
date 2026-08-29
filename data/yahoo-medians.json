@@ -658,5 +658,65 @@
     "max": 7980,
     "insufficient": false,
     "fetched_at": "2026-08-24"
+  },
+  "glenmorangie-10": {
+    "query_used": "グレンモーレンジ オリジナル 10年 700ml",
+    "pages_fetched": 3,
+    "raw_n": 158,
+    "filtered_n": 142,
+    "median": 3388,
+    "mean": 3770,
+    "min": 2530,
+    "max": 7250,
+    "insufficient": false,
+    "fetched_at": "2026-08-29"
+  },
+  "glenmorangie-lasanta": {
+    "query_used": "グレンモーレンジ ラサンタ 700ml",
+    "pages_fetched": 2,
+    "raw_n": 54,
+    "filtered_n": 54,
+    "median": 5000,
+    "mean": 5167,
+    "min": 4048,
+    "max": 7300,
+    "insufficient": false,
+    "fetched_at": "2026-08-29"
+  },
+  "glenmorangie-quinta-ruban": {
+    "query_used": "グレンモーレンジ キンタルバン 700ml",
+    "pages_fetched": 2,
+    "raw_n": 38,
+    "filtered_n": 32,
+    "median": 5379,
+    "mean": 5280,
+    "min": 4082,
+    "max": 6750,
+    "insufficient": false,
+    "fetched_at": "2026-08-29"
+  },
+  "glenmorangie-nectar-dor": {
+    "query_used": "グレンモーレンジ ネクタードール 700ml",
+    "pages_fetched": 2,
+    "raw_n": 56,
+    "filtered_n": 56,
+    "median": 8662,
+    "mean": 10396,
+    "min": 6500,
+    "max": 19000,
+    "insufficient": false,
+    "fetched_at": "2026-08-29"
+  },
+  "glenmorangie-18": {
+    "query_used": "グレンモーレンジ 18年 700ml",
+    "pages_fetched": 3,
+    "raw_n": 244,
+    "filtered_n": 226,
+    "median": 12000,
+    "mean": 11861,
+    "min": 8000,
+    "max": 18148,
+    "insufficient": false,
+    "fetched_at": "2026-08-29"
   }
 }

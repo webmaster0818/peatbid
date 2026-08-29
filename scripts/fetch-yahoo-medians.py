@@ -105,6 +105,12 @@ EXTRA_SLUGS = {
     "glenfiddich-18": "グレンフィディック18年",
     "ardbeg-10": "アードベッグ 10年",
     "ardbeg-an-oa": "アードベッグ アンオー",
+    # N3②（2026-08-29）グレンモーレンジの受け皿ページ用。全てn>=20を満たしている。
+    "glenmorangie-10": "グレンモーレンジ オリジナル 10年",
+    "glenmorangie-lasanta": "グレンモーレンジ ラサンタ",
+    "glenmorangie-quinta-ruban": "グレンモーレンジ キンタルバン",
+    "glenmorangie-nectar-dor": "グレンモーレンジ ネクタードール",
+    "glenmorangie-18": "グレンモーレンジ 18年",
 }
 
 
