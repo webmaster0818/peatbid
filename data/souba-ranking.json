@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24",
-  "count": 44,
+  "updated": "2026-08-31",
+  "count": 45,
   "brands": [
     {
       "slug": "yamazaki-nv",
@@ -8,10 +8,10 @@
       "category": "ジャパニーズ",
       "origin": "山崎蒸溜所",
       "rarity": "common",
-      "median": 10175,
-      "sample_n": 266,
-      "prev_median": 10147,
-      "change_1w": 0.3,
+      "median": 10147,
+      "sample_n": 268,
+      "prev_median": 10175,
+      "change_1w": -0.3,
       "change_2w": 0.0
     },
     {
@@ -20,11 +20,11 @@
       "category": "ジャパニーズ",
       "origin": "山崎蒸溜所",
       "rarity": "mid",
-      "median": 20850,
-      "sample_n": 256,
-      "prev_median": 20898,
-      "change_1w": -0.2,
-      "change_2w": -0.2
+      "median": 20709,
+      "sample_n": 232,
+      "prev_median": 20850,
+      "change_1w": -0.7,
+      "change_2w": -0.9
     },
     {
       "slug": "yamazaki-18",
@@ -33,10 +33,10 @@
       "origin": "山崎蒸溜所",
       "rarity": "high",
       "median": 93000,
-      "sample_n": 238,
+      "sample_n": 226,
       "prev_median": 93000,
       "change_1w": 0.0,
-      "change_2w": -0.3
+      "change_2w": 0.0
     },
     {
       "slug": "yamazaki-25",
@@ -44,11 +44,11 @@
       "category": "ジャパニーズ",
       "origin": "山崎蒸溜所",
       "rarity": "ultra",
-      "median": 40500,
+      "median": 42000,
       "sample_n": 182,
-      "prev_median": 41250,
-      "change_1w": -1.8,
-      "change_2w": 0.0
+      "prev_median": 40500,
+      "change_1w": 3.7,
+      "change_2w": 1.8
     },
     {
       "slug": "hibiki-nv",
@@ -56,11 +56,11 @@
       "category": "ジャパニーズ",
       "origin": "サントリー",
       "rarity": "common",
-      "median": 11110,
-      "sample_n": 280,
-      "prev_median": 10779,
-      "change_1w": 3.1,
-      "change_2w": 1.8
+      "median": 10723,
+      "sample_n": 284,
+      "prev_median": 11110,
+      "change_1w": -3.5,
+      "change_2w": -0.5
     },
     {
       "slug": "hibiki-17",
@@ -68,11 +68,11 @@
       "category": "ジャパニーズ",
       "origin": "サントリー",
       "rarity": "high",
-      "median": 47658,
-      "sample_n": 268,
-      "prev_median": 47999,
-      "change_1w": -0.7,
-      "change_2w": -0.1
+      "median": 46000,
+      "sample_n": 262,
+      "prev_median": 47658,
+      "change_1w": -3.5,
+      "change_2w": -4.2
     },
     {
       "slug": "hibiki-21",
@@ -80,11 +80,11 @@
       "category": "ジャパニーズ",
       "origin": "サントリー",
       "rarity": "high",
-      "median": 72000,
-      "sample_n": 222,
-      "prev_median": 71500,
-      "change_1w": 0.7,
-      "change_2w": 0.7
+      "median": 71500,
+      "sample_n": 216,
+      "prev_median": 72000,
+      "change_1w": -0.7,
+      "change_2w": 0.0
     },
     {
       "slug": "hibiki-30",
@@ -92,11 +92,11 @@
       "category": "ジャパニーズ",
       "origin": "サントリー",
       "rarity": "ultra",
-      "median": 532650,
-      "sample_n": 84,
-      "prev_median": 534850,
-      "change_1w": -0.4,
-      "change_2w": 0.3
+      "median": 536800,
+      "sample_n": 90,
+      "prev_median": 532650,
+      "change_1w": 0.8,
+      "change_2w": 0.4
     },
     {
       "slug": "hakushu-nv",
@@ -104,11 +104,11 @@
       "category": "ジャパニーズ",
       "origin": "白州蒸溜所",
       "rarity": "common",
-      "median": 10000,
+      "median": 10010,
       "sample_n": 220,
       "prev_median": 10000,
-      "change_1w": 0.0,
-      "change_2w": 0.2
+      "change_1w": 0.1,
+      "change_2w": 0.1
     },
     {
       "slug": "hakushu-12",
@@ -116,11 +116,11 @@
       "category": "ジャパニーズ",
       "origin": "白州蒸溜所",
       "rarity": "mid",
-      "median": 20899,
-      "sample_n": 244,
-      "prev_median": 20898,
-      "change_1w": 0.0,
-      "change_2w": -0.0
+      "median": 20898,
+      "sample_n": 234,
+      "prev_median": 20899,
+      "change_1w": -0.0,
+      "change_2w": 0.0
     },
     {
       "slug": "hakushu-18",
@@ -129,10 +129,10 @@
       "origin": "白州蒸溜所",
       "rarity": "high",
       "median": 70400,
-      "sample_n": 220,
+      "sample_n": 216,
       "prev_median": 70400,
       "change_1w": 0.0,
-      "change_2w": -1.5
+      "change_2w": 0.0
     },
     {
       "slug": "hakushu-25",
@@ -141,7 +141,7 @@
       "origin": "白州蒸溜所",
       "rarity": "ultra",
       "median": 21000,
-      "sample_n": 112,
+      "sample_n": 108,
       "prev_median": 21000,
       "change_1w": 0.0,
       "change_2w": 0.0
@@ -152,11 +152,11 @@
       "category": "ジャパニーズ",
       "origin": "ニッカ",
       "rarity": "common",
-      "median": 8810,
-      "sample_n": 290,
-      "prev_median": 6700,
-      "change_1w": 31.5,
-      "change_2w": -3.3
+      "median": 18000,
+      "sample_n": 288,
+      "prev_median": 8810,
+      "change_1w": 104.3,
+      "change_2w": 168.7
     },
     {
       "slug": "taketsuru-17",
@@ -164,11 +164,11 @@
       "category": "ジャパニーズ",
       "origin": "ニッカ",
       "rarity": "high",
-      "median": 32998,
-      "sample_n": 290,
+      "median": 32557,
+      "sample_n": 284,
       "prev_median": 32998,
-      "change_1w": 0.0,
-      "change_2w": 0.0
+      "change_1w": -1.3,
+      "change_2w": -1.3
     },
     {
       "slug": "taketsuru-21",
@@ -176,10 +176,10 @@
       "category": "ジャパニーズ",
       "origin": "ニッカ",
       "rarity": "high",
-      "median": 63798,
-      "sample_n": 274,
-      "prev_median": 63800,
-      "change_1w": -0.0,
+      "median": 63800,
+      "sample_n": 268,
+      "prev_median": 63798,
+      "change_1w": 0.0,
       "change_2w": 0.0
     },
     {
@@ -190,8 +190,8 @@
       "rarity": "ultra",
       "median": 189000,
       "sample_n": 36,
-      "prev_median": 188000,
-      "change_1w": 0.5,
+      "prev_median": 189000,
+      "change_1w": 0.0,
       "change_2w": 0.5
     },
     {
@@ -200,11 +200,11 @@
       "category": "ジャパニーズ",
       "origin": "余市蒸溜所",
       "rarity": "mid",
-      "median": 22549,
+      "median": 22580,
       "sample_n": 272,
-      "prev_median": 22100,
-      "change_1w": 2.0,
-      "change_2w": 2.5
+      "prev_median": 22549,
+      "change_1w": 0.1,
+      "change_2w": 2.2
     },
     {
       "slug": "yoichi-15",
@@ -212,11 +212,11 @@
       "category": "ジャパニーズ",
       "origin": "余市蒸溜所",
       "rarity": "high",
-      "median": 79999,
-      "sample_n": 68,
+      "median": 80000,
+      "sample_n": 74,
       "prev_median": 79999,
       "change_1w": 0.0,
-      "change_2w": 0.6
+      "change_2w": 0.0
     },
     {
       "slug": "yoichi-20",
@@ -226,9 +226,9 @@
       "rarity": "ultra",
       "median": 215270,
       "sample_n": 46,
-      "prev_median": 221100,
-      "change_1w": -2.6,
-      "change_2w": -1.3
+      "prev_median": 215270,
+      "change_1w": 0.0,
+      "change_2w": -2.6
     },
     {
       "slug": "miyagikyo-12",
@@ -238,8 +238,8 @@
       "rarity": "mid",
       "median": 36529,
       "sample_n": 24,
-      "prev_median": 36509,
-      "change_1w": 0.1,
+      "prev_median": 36529,
+      "change_1w": 0.0,
       "change_2w": 0.1
     },
     {
@@ -248,11 +248,23 @@
       "category": "ジャパニーズ",
       "origin": "宮城峡蒸溜所",
       "rarity": "high",
-      "median": 66049,
-      "sample_n": 20,
+      "median": 65498,
+      "sample_n": 24,
       "prev_median": 66049,
-      "change_1w": 0.0,
-      "change_2w": -4.0
+      "change_1w": -0.8,
+      "change_2w": -0.8
+    },
+    {
+      "slug": "ichirosu-card",
+      "name": "イチローズモルト カードシリーズ",
+      "category": "ジャパニーズ",
+      "origin": "ベンチャーウイスキー",
+      "rarity": "ultra-rare",
+      "median": 455565,
+      "sample_n": 20,
+      "prev_median": null,
+      "change_1w": null,
+      "change_2w": null
     },
     {
       "slug": "ichirosu-double-distilleries",
@@ -260,11 +272,11 @@
       "category": "ジャパニーズ",
       "origin": "ベンチャーウイスキー",
       "rarity": "high",
-      "median": 9776,
+      "median": 9652,
       "sample_n": 280,
-      "prev_median": 9900,
+      "prev_median": 9776,
       "change_1w": -1.3,
-      "change_2w": -2.1
+      "change_2w": -2.5
     },
     {
       "slug": "ichirosu-mwr",
@@ -272,11 +284,11 @@
       "category": "ジャパニーズ",
       "origin": "ベンチャーウイスキー",
       "rarity": "high",
-      "median": 8248,
+      "median": 8195,
       "sample_n": 254,
-      "prev_median": 8250,
-      "change_1w": -0.0,
-      "change_2w": 0.0
+      "prev_median": 8248,
+      "change_1w": -0.6,
+      "change_2w": -0.7
     },
     {
       "slug": "karuizawa-12",
@@ -286,9 +298,9 @@
       "rarity": "ultra-rare",
       "median": 75800,
       "sample_n": 86,
-      "prev_median": 74999,
-      "change_1w": 1.1,
-      "change_2w": -0.8
+      "prev_median": 75800,
+      "change_1w": 0.0,
+      "change_2w": 1.1
     },
     {
       "slug": "hanyu-card",
@@ -296,11 +308,11 @@
       "category": "ジャパニーズ",
       "origin": "羽生蒸溜所",
       "rarity": "ultra-rare",
-      "median": 8035,
-      "sample_n": 288,
-      "prev_median": 8041,
-      "change_1w": -0.1,
-      "change_2w": 0.0
+      "median": 8000,
+      "sample_n": 286,
+      "prev_median": 8035,
+      "change_1w": -0.4,
+      "change_2w": -0.5
     },
     {
       "slug": "macallan-12",
@@ -308,11 +320,11 @@
       "category": "スコッチ",
       "origin": "スペイサイド",
       "rarity": "common",
-      "median": 10173,
-      "sample_n": 276,
-      "prev_median": 9425,
-      "change_1w": 7.9,
-      "change_2w": 8.8
+      "median": 9898,
+      "sample_n": 292,
+      "prev_median": 10173,
+      "change_1w": -2.7,
+      "change_2w": 5.0
     },
     {
       "slug": "macallan-18",
@@ -320,11 +332,11 @@
       "category": "スコッチ",
       "origin": "スペイサイド",
       "rarity": "mid",
-      "median": 45674,
-      "sample_n": 200,
-      "prev_median": 45648,
+      "median": 45716,
+      "sample_n": 194,
+      "prev_median": 45674,
       "change_1w": 0.1,
-      "change_2w": -0.7
+      "change_2w": 0.1
     },
     {
       "slug": "macallan-25",
@@ -333,7 +345,7 @@
       "origin": "スペイサイド",
       "rarity": "high",
       "median": 200000,
-      "sample_n": 150,
+      "sample_n": 168,
       "prev_median": 200000,
       "change_1w": 0.0,
       "change_2w": 0.0
@@ -344,11 +356,11 @@
       "category": "スコッチ",
       "origin": "スペイサイド",
       "rarity": "ultra",
-      "median": 328500,
-      "sample_n": 36,
-      "prev_median": 399004,
-      "change_1w": -17.7,
-      "change_2w": -17.7
+      "median": 313599,
+      "sample_n": 40,
+      "prev_median": 328500,
+      "change_1w": -4.5,
+      "change_2w": -21.4
     },
     {
       "slug": "macallan-fine-rare",
@@ -356,11 +368,11 @@
       "category": "スコッチ",
       "origin": "スペイサイド",
       "rarity": "ultra-rare",
-      "median": 8480,
+      "median": 8430,
       "sample_n": 20,
       "prev_median": 8480,
-      "change_1w": 0.0,
-      "change_2w": 0.0
+      "change_1w": -0.6,
+      "change_2w": -0.6
     },
     {
       "slug": "bowmore-18",
@@ -369,10 +381,10 @@
       "origin": "アイラ",
       "rarity": "mid",
       "median": 10888,
-      "sample_n": 230,
+      "sample_n": 224,
       "prev_median": 10888,
       "change_1w": 0.0,
-      "change_2w": 0.5
+      "change_2w": 0.0
     },
     {
       "slug": "bowmore-25",
@@ -380,11 +392,11 @@
       "category": "スコッチ",
       "origin": "アイラ",
       "rarity": "high",
-      "median": 75500,
-      "sample_n": 68,
+      "median": 75000,
+      "sample_n": 70,
       "prev_median": 75500,
-      "change_1w": 0.0,
-      "change_2w": 0.0
+      "change_1w": -0.7,
+      "change_2w": -0.7
     },
     {
       "slug": "springbank-15",
@@ -393,7 +405,7 @@
       "origin": "キャンベルタウン",
       "rarity": "mid",
       "median": 35000,
-      "sample_n": 114,
+      "sample_n": 116,
       "prev_median": 35000,
       "change_1w": 0.0,
       "change_2w": 0.0
@@ -404,11 +416,11 @@
       "category": "スコッチ",
       "origin": "キャンベルタウン",
       "rarity": "high",
-      "median": 103860,
-      "sample_n": 48,
+      "median": 103222,
+      "sample_n": 50,
       "prev_median": 103860,
-      "change_1w": 0.0,
-      "change_2w": 1.1
+      "change_1w": -0.6,
+      "change_2w": -0.6
     },
     {
       "slug": "laphroaig-25",
@@ -428,11 +440,11 @@
       "category": "スコッチ",
       "origin": "アイラ",
       "rarity": "common",
-      "median": 7700,
-      "sample_n": 102,
+      "median": 7800,
+      "sample_n": 114,
       "prev_median": 7700,
-      "change_1w": 0.0,
-      "change_2w": -1.4
+      "change_1w": 1.3,
+      "change_2w": 1.3
     },
     {
       "slug": "ardbeg-corryvreckan",
@@ -444,7 +456,7 @@
       "sample_n": 72,
       "prev_median": 8015,
       "change_1w": 0.0,
-      "change_2w": 0.2
+      "change_2w": 0.0
     },
     {
       "slug": "glenfiddich-30",
@@ -453,7 +465,7 @@
       "origin": "スペイサイド",
       "rarity": "high",
       "median": 66000,
-      "sample_n": 34,
+      "sample_n": 32,
       "prev_median": 66000,
       "change_1w": 0.0,
       "change_2w": 0.0
@@ -464,11 +476,11 @@
       "category": "スコッチ",
       "origin": "スペイサイド",
       "rarity": "mid",
-      "median": 24200,
-      "sample_n": 90,
-      "prev_median": 24500,
-      "change_1w": -1.2,
-      "change_2w": 2.6
+      "median": 24000,
+      "sample_n": 94,
+      "prev_median": 24200,
+      "change_1w": -0.8,
+      "change_2w": -2.0
     },
     {
       "slug": "talisker-25",
@@ -478,9 +490,9 @@
       "rarity": "mid",
       "median": 49925,
       "sample_n": 44,
-      "prev_median": 50050,
-      "change_1w": -0.2,
-      "change_2w": -1.0
+      "prev_median": 49925,
+      "change_1w": 0.0,
+      "change_2w": -0.2
     },
     {
       "slug": "glenmorangie-signet",
@@ -490,7 +502,7 @@
       "rarity": "mid",
       "median": 20350,
       "sample_n": 94,
-      "prev_median": 20348,
+      "prev_median": 20350,
       "change_1w": 0.0,
       "change_2w": 0.0
     },
@@ -500,11 +512,11 @@
       "category": "ジャパニーズ",
       "origin": "秩父蒸溜所",
       "rarity": "ultra-rare",
-      "median": 100000,
-      "sample_n": 30,
+      "median": 95100,
+      "sample_n": 32,
       "prev_median": 100000,
-      "change_1w": 0.0,
-      "change_2w": 11.6
+      "change_1w": -4.9,
+      "change_2w": -4.9
     },
     {
       "slug": "mars-komagatake",
@@ -512,11 +524,11 @@
       "category": "ジャパニーズ",
       "origin": "信州マルス蒸溜所",
       "rarity": "common",
-      "median": 8798,
+      "median": 8523,
       "sample_n": 286,
-      "prev_median": 8468,
-      "change_1w": 3.9,
-      "change_2w": 6.7
+      "prev_median": 8798,
+      "change_1w": -3.1,
+      "change_2w": 0.6
     },
     {
       "slug": "glenfarclas-105",

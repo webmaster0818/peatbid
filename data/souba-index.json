@@ -1,19 +1,24 @@
 {
  "generated_note": "基準週=シリーズ最初の共通週を100とする等ウェイト指数。sample_n<20の週を含む銘柄は除外。",
- "base_date": "2026-05-25",
- "latest_date": "2026-08-24",
+ "base_date": "2026-08-10",
+ "latest_date": "2026-08-31",
  "constituents": {
-  "total": 41,
-  "japanese": 26,
+  "total": 47,
+  "japanese": 27,
   "scotch": 15
  },
  "slugs": [
+  "ardbeg-10",
+  "ardbeg-an-oa",
   "ardbeg-corryvreckan",
   "ardbeg-uigeadail",
   "bowmore-18",
   "bowmore-25",
   "chichibu-the-first",
   "glenfarclas-25",
+  "glenfiddich-12",
+  "glenfiddich-15",
+  "glenfiddich-18",
   "glenfiddich-30",
   "glenmorangie-signet",
   "hakushu-12",
@@ -35,6 +40,7 @@
   "macallan-30",
   "macallan-fine-rare",
   "mars-komagatake",
+  "miyagikyo-12",
   "miyagikyo-15",
   "springbank-15",
   "springbank-21",
@@ -52,176 +58,56 @@
  ],
  "composite": [
   {
-   "date": "2026-05-25",
+   "date": "2026-08-10",
    "index": 100.0
   },
   {
-   "date": "2026-06-01",
-   "index": 99.82
-  },
-  {
-   "date": "2026-06-08",
+   "date": "2026-08-17",
    "index": 99.69
   },
   {
-   "date": "2026-06-15",
-   "index": 100.13
-  },
-  {
-   "date": "2026-06-22",
-   "index": 100.55
-  },
-  {
-   "date": "2026-06-29",
-   "index": 102.17
-  },
-  {
-   "date": "2026-07-06",
-   "index": 102.95
-  },
-  {
-   "date": "2026-07-13",
-   "index": 101.54
-  },
-  {
-   "date": "2026-07-20",
-   "index": 101.28
-  },
-  {
-   "date": "2026-07-27",
-   "index": 102.19
-  },
-  {
-   "date": "2026-08-03",
-   "index": 103.73
-  },
-  {
-   "date": "2026-08-10",
-   "index": 102.72
-  },
-  {
-   "date": "2026-08-17",
-   "index": 102.26
-  },
-  {
    "date": "2026-08-24",
-   "index": 102.86
+   "index": 99.91
+  },
+  {
+   "date": "2026-08-31",
+   "index": 101.47
   }
  ],
  "japanese": [
   {
-   "date": "2026-05-25",
+   "date": "2026-08-10",
    "index": 100.0
   },
   {
-   "date": "2026-06-01",
-   "index": 99.65
-  },
-  {
-   "date": "2026-06-08",
-   "index": 99.63
-  },
-  {
-   "date": "2026-06-15",
-   "index": 99.73
-  },
-  {
-   "date": "2026-06-22",
-   "index": 99.99
-  },
-  {
-   "date": "2026-06-29",
-   "index": 101.38
-  },
-  {
-   "date": "2026-07-06",
-   "index": 102.11
-  },
-  {
-   "date": "2026-07-13",
-   "index": 99.46
-  },
-  {
-   "date": "2026-07-20",
-   "index": 98.84
-  },
-  {
-   "date": "2026-07-27",
-   "index": 99.97
-  },
-  {
-   "date": "2026-08-03",
-   "index": 102.16
-  },
-  {
-   "date": "2026-08-10",
-   "index": 100.35
-  },
-  {
    "date": "2026-08-17",
-   "index": 99.44
+   "index": 99.39
   },
   {
    "date": "2026-08-24",
-   "index": 100.81
+   "index": 100.41
+  },
+  {
+   "date": "2026-08-31",
+   "index": 103.51
   }
  ],
  "scotch": [
   {
-   "date": "2026-05-25",
+   "date": "2026-08-10",
    "index": 100.0
   },
   {
-   "date": "2026-06-01",
-   "index": 100.12
-  },
-  {
-   "date": "2026-06-08",
-   "index": 99.81
-  },
-  {
-   "date": "2026-06-15",
-   "index": 100.84
-  },
-  {
-   "date": "2026-06-22",
-   "index": 101.52
-  },
-  {
-   "date": "2026-06-29",
-   "index": 103.55
-  },
-  {
-   "date": "2026-07-06",
-   "index": 104.39
-  },
-  {
-   "date": "2026-07-13",
-   "index": 105.14
-  },
-  {
-   "date": "2026-07-20",
-   "index": 105.52
-  },
-  {
-   "date": "2026-07-27",
-   "index": 106.06
-  },
-  {
-   "date": "2026-08-03",
-   "index": 106.44
-  },
-  {
-   "date": "2026-08-10",
-   "index": 106.83
-  },
-  {
    "date": "2026-08-17",
-   "index": 107.15
+   "index": 100.28
   },
   {
    "date": "2026-08-24",
-   "index": 106.41
+   "index": 99.56
+  },
+  {
+   "date": "2026-08-31",
+   "index": 99.02
   }
  ]
 }

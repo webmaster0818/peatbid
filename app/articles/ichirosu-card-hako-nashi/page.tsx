@@ -37,7 +37,7 @@ export default function IchirosuCardHakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">イチローズモルト カードシリーズが箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-08-24 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-08-31 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function IchirosuCardHakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">イチローズモルト カードシリーズ</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ベンチャーウイスキー / ノンエイジ / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ベンチャーウイスキー / ノンエイジ / 希少度 ウルトラレア / 市場相場 455,565円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/ichirosu-card-kaitori/" className="text-amber-dark underline">イチローズモルト カードシリーズの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function IchirosuCardHakoNashiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">イチローズモルト カードシリーズは二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではイチローズモルト カードシリーズの落札が約20件確認でき、落札額の中央値は455,565円でした。流通量がやや限定的で希少性が高めの銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -106,12 +106,12 @@ export default function IchirosuCardHakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. イチローズモルト カードシリーズの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>イチローズモルト カードシリーズ</strong>はジャパニーズウイスキー（ベンチャーウイスキー）のノンエイジ（NV）、度数46%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>イチローズモルト カードシリーズ</strong>はジャパニーズウイスキー（ベンチャーウイスキー）のノンエイジ（NV）、度数46%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>455,565円</strong>（流通サンプル20件、当サイト独自集計）。価格帯としては<strong>超高額帯（1本数十万円規模）</strong>にあたり、真贋・状態評価が特にシビアで、専門知識を持つ業者ほど適正な評価が期待できます。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限定的で、コンディション次第で査定が伸びやすい傾向です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>イチローズモルト カードシリーズの場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 市場相場が基準（100%）</li><li><strong>箱あり・冊子なし</strong>: 市場相場の85〜95%程度</li><li><strong>箱なし・冊子あり</strong>: 市場相場の85〜92%程度</li><li><strong>箱なし・ラベル良好</strong>: 市場相場の80〜90%程度</li><li><strong>箱・冊子なし</strong>: 市場相場の75〜85%程度
+          <div dangerouslySetInnerHTML={{ __html: `<p>イチローズモルト カードシリーズの場合、実勢中央値<strong>455,565円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 455,565円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約387,230〜432,790円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約387,230〜419,120円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約364,450〜410,010円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約341,670〜387,230円（75〜85%）
 
-つまり、最大で<strong>約25%の差</strong>が生じる可能性があります。</li></ol>` }} />
+つまり付属品の有無だけで、最大で<strong>約113,890円（相場の約25%）の差</strong>が生じ得ます。</li></ol>` }} />
 
           <h2 id="section-2">3. なぜ外箱が重要なのか</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は単なる包装ではなく、<strong>コレクター品の完全性</strong>を示す重要な要素です:</p><ol><li><strong>二次流通市場での評価</strong> — 海外コレクターは特にフルセット重視</li><li><strong>真贋判定の手がかり</strong> — 箱と本体の合致が本物の証</li><li><strong>保管時の保護機能</strong> — 直射日光・摩擦・埃から守る</li><li><strong>付属品の収納</strong> — 冊子・カートンの一括管理</li><li><strong>贈答品としての価値</strong> — 箱なしは贈り物として再販困難
@@ -184,7 +184,7 @@ export default function IchirosuCardHakoNashiPage() {
             <Link href="/articles/ichirosu-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋ハブ</span><p className="text-sm font-bold mt-1">イチローズモルト（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-08-24）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-08-31）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>
