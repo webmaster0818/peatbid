@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-14",
   "base_date": "2026-05-25",
-  "weeks": 14,
+  "weeks": 15,
   "n_brands": 42,
   "excluded": {
     "data_quality": [
@@ -14,14 +14,14 @@
       "yoichi-nv"
     ],
     "short_history": [
-      "glenfarclas-105",
-      "karuizawa-30"
+      "glenfarclas-105"
     ],
     "series_jump": [
       "talisker-25"
     ],
     "late_start": [
-      "ichirosu-card"
+      "ichirosu-card",
+      "karuizawa-30"
     ],
     "no_data": [],
     "total": 9
@@ -97,11 +97,16 @@
         "date": "2026-09-07",
         "value": 105.01,
         "n": 42
+      },
+      {
+        "date": "2026-09-14",
+        "value": 101.12,
+        "n": 42
       }
     ],
-    "latest": 105.01,
-    "change_1w_pct": -0.24,
-    "change_4w_pct": 2.26
+    "latest": 101.12,
+    "change_1w_pct": -3.7,
+    "change_4w_pct": -1.1
   },
   "categories": {
     "japanese-whisky": {
@@ -177,10 +182,15 @@
           "date": "2026-09-07",
           "value": 104.5,
           "n": 27
+        },
+        {
+          "date": "2026-09-14",
+          "value": 98.45,
+          "n": 27
         }
       ],
-      "latest": 104.5,
-      "change_1w_pct": -0.43
+      "latest": 98.45,
+      "change_1w_pct": -5.79
     },
     "scotch-whisky": {
       "label": "スコッチ",
@@ -255,115 +265,120 @@
           "date": "2026-09-07",
           "value": 105.92,
           "n": 15
+        },
+        {
+          "date": "2026-09-14",
+          "value": 105.93,
+          "n": 15
         }
       ],
-      "latest": 105.92,
-      "change_1w_pct": 0.09
+      "latest": 105.93,
+      "change_1w_pct": 0.01
     }
   },
   "movers": {
     "up": [
       {
-        "slug": "macallan-30",
-        "name": "マッカラン30年",
+        "slug": "macallan-12",
+        "name": "マッカラン12年",
         "category": "scotch-whisky",
-        "median": 351000,
-        "prev_median": 313599,
-        "diff_jpy": 37401,
-        "change_pct": 11.93,
-        "sample_n": 42
+        "median": 10986,
+        "prev_median": 9922,
+        "diff_jpy": 1064,
+        "change_pct": 10.72,
+        "sample_n": 288
       },
       {
-        "slug": "mars-komagatake",
-        "name": "マルス駒ヶ岳",
+        "slug": "yoichi-20",
+        "name": "余市20年",
         "category": "japanese-whisky",
-        "median": 9000,
-        "prev_median": 8523,
-        "diff_jpy": 477,
-        "change_pct": 5.6,
-        "sample_n": 290
-      },
-      {
-        "slug": "chichibu-the-first",
-        "name": "秩父ザファースト",
-        "category": "japanese-whisky",
-        "median": 98400,
-        "prev_median": 95100,
-        "diff_jpy": 3300,
-        "change_pct": 3.47,
-        "sample_n": 32
-      },
-      {
-        "slug": "karuizawa-12",
-        "name": "軽井沢12年",
-        "category": "japanese-whisky",
-        "median": 76975,
-        "prev_median": 75800,
-        "diff_jpy": 1175,
-        "change_pct": 1.55,
-        "sample_n": 96
+        "median": 221100,
+        "prev_median": 215270,
+        "diff_jpy": 5830,
+        "change_pct": 2.71,
+        "sample_n": 50
       },
       {
         "slug": "miyagikyo-12",
         "name": "宮城峡12年",
         "category": "japanese-whisky",
-        "median": 36974,
-        "prev_median": 36529,
-        "diff_jpy": 445,
-        "change_pct": 1.22,
-        "sample_n": 24
+        "median": 37398,
+        "prev_median": 36974,
+        "diff_jpy": 424,
+        "change_pct": 1.15,
+        "sample_n": 22
+      },
+      {
+        "slug": "yamazaki-18",
+        "name": "山崎18年",
+        "category": "japanese-whisky",
+        "median": 92999,
+        "prev_median": 92398,
+        "diff_jpy": 601,
+        "change_pct": 0.65,
+        "sample_n": 236
+      },
+      {
+        "slug": "yamazaki-12",
+        "name": "山崎12年",
+        "category": "japanese-whisky",
+        "median": 20905,
+        "prev_median": 20795,
+        "diff_jpy": 110,
+        "change_pct": 0.53,
+        "sample_n": 248
       }
     ],
     "down": [
       {
-        "slug": "yamazaki-25",
-        "name": "山崎25年",
-        "category": "japanese-whisky",
-        "median": 38250,
-        "prev_median": 42000,
-        "diff_jpy": -3750,
-        "change_pct": -8.93,
-        "sample_n": 176
-      },
-      {
         "slug": "taketsuru-pure",
         "name": "竹鶴ピュアモルト",
         "category": "japanese-whisky",
-        "median": 16800,
-        "prev_median": 18000,
-        "diff_jpy": -1200,
-        "change_pct": -6.67,
-        "sample_n": 282
+        "median": 6550,
+        "prev_median": 16800,
+        "diff_jpy": -10250,
+        "change_pct": -61.01,
+        "sample_n": 276
       },
       {
-        "slug": "bowmore-25",
-        "name": "ボウモア25年",
-        "category": "scotch-whisky",
-        "median": 70500,
-        "prev_median": 75000,
-        "diff_jpy": -4500,
-        "change_pct": -6.0,
-        "sample_n": 68
-      },
-      {
-        "slug": "ichirosu-mwr",
-        "name": "イチローズモルト MWR",
+        "slug": "yamazaki-25",
+        "name": "山崎25年",
         "category": "japanese-whisky",
-        "median": 7999,
-        "prev_median": 8195,
-        "diff_jpy": -196,
-        "change_pct": -2.39,
-        "sample_n": 250
+        "median": 33000,
+        "prev_median": 38250,
+        "diff_jpy": -5250,
+        "change_pct": -13.73,
+        "sample_n": 180
       },
       {
         "slug": "ichirosu-double-distilleries",
         "name": "イチローズモルト ダブルディスティラリーズ",
         "category": "japanese-whisky",
-        "median": 9500,
-        "prev_median": 9652,
-        "diff_jpy": -152,
-        "change_pct": -1.57,
-        "sample_n": 262
+        "median": 9000,
+        "prev_median": 9500,
+        "diff_jpy": -500,
+        "change_pct": -5.26,
+        "sample_n": 258
+      },
+      {
+        "slug": "bowmore-25",
+        "name": "ボウモア25年",
+        "category": "scotch-whisky",
+        "median": 67499,
+        "prev_median": 70500,
+        "diff_jpy": -3001,
+        "change_pct": -4.26,
+        "sample_n": 72
+      },
+      {
+        "slug": "chichibu-the-first",
+        "name": "秩父ザファースト",
+        "category": "japanese-whisky",
+        "median": 94490,
+        "prev_median": 98400,
+        "diff_jpy": -3910,
+        "change_pct": -3.97,
+        "sample_n": 32
       }
     ]
   },
