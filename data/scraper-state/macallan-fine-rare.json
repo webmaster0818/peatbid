@@ -1,11 +1,11 @@
 {
   "slug": "macallan-fine-rare",
   "label": "マッカラン Fine&Rare",
-  "fetched_at": "2026-09-18T09:01:41",
+  "fetched_at": "2026-09-25T09:01:39",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%9E%E3%83%83%E3%82%AB%E3%83%A9%E3%83%B3%20Fine%20Rare",
-  "avg": 208761,
-  "max": 2500000,
+  "avg": 67981,
+  "max": 900000,
   "min": null,
-  "count": 18,
+  "count": 16,
   "ok": true
 }
