@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/bowmore-25.json";
 
 export const metadata: Metadata = {
-  title: 'ボウモア25年の買取おすすめ業者ランキング【2026年9月最新】査定額・スピードで徹底比較',
+  title: 'ボウモア25年の買取おすすめ業者ランキング【2026年10月最新】査定額・スピードで徹底比較',
   description: 'ボウモア25年に強い買取業者をランキング形式で徹底比較。ヒカカク・バイセル・リカスタの査定スピード・査定額・サポート・信頼性を多角的に評価し、目的別おすすめを提示。',
 };
 
@@ -37,7 +37,7 @@ export default function Bowmore25RankingPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ボウモア25年の買取業者おすすめランキング</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-09-28 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-05 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -153,7 +153,7 @@ export default function Bowmore25RankingPage() {
             <Link href="/articles/bowmore-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋ハブ</span><p className="text-sm font-bold mt-1">ボウモア（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-09-28）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-05）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

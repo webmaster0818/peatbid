@@ -1,11 +1,11 @@
 {
  "generated_note": "基準週=シリーズ最初の共通週を100とする等ウェイト指数。sample_n<20の週を含む銘柄は除外。",
  "base_date": "2026-08-10",
- "latest_date": "2026-09-28",
+ "latest_date": "2026-10-05",
  "constituents": {
-  "total": 47,
+  "total": 46,
   "japanese": 27,
-  "scotch": 15
+  "scotch": 14
  },
  "slugs": [
   "ardbeg-10",
@@ -38,7 +38,6 @@
   "macallan-18",
   "macallan-25",
   "macallan-30",
-  "macallan-fine-rare",
   "mars-komagatake",
   "miyagikyo-12",
   "miyagikyo-15",
@@ -63,31 +62,35 @@
   },
   {
    "date": "2026-08-17",
-   "index": 99.69
+   "index": 99.68
   },
   {
    "date": "2026-08-24",
-   "index": 99.91
+   "index": 99.9
   },
   {
    "date": "2026-08-31",
-   "index": 101.47
+   "index": 101.52
   },
   {
    "date": "2026-09-07",
-   "index": 101.19
+   "index": 101.23
   },
   {
    "date": "2026-09-14",
-   "index": 98.44
+   "index": 98.41
   },
   {
    "date": "2026-09-21",
-   "index": 97.78
+   "index": 97.74
   },
   {
    "date": "2026-09-28",
-   "index": 97.72
+   "index": 97.68
+  },
+  {
+   "date": "2026-10-05",
+   "index": 98.29
   }
  ],
  "japanese": [
@@ -122,6 +125,10 @@
   {
    "date": "2026-09-28",
    "index": 97.71
+  },
+  {
+   "date": "2026-10-05",
+   "index": 98.08
   }
  ],
  "scotch": [
@@ -131,15 +138,15 @@
   },
   {
    "date": "2026-08-17",
-   "index": 100.28
+   "index": 100.3
   },
   {
    "date": "2026-08-24",
-   "index": 99.56
+   "index": 99.53
   },
   {
    "date": "2026-08-31",
-   "index": 99.02
+   "index": 99.0
   },
   {
    "date": "2026-09-07",
@@ -147,15 +154,19 @@
   },
   {
    "date": "2026-09-14",
-   "index": 99.62
+   "index": 99.63
   },
   {
    "date": "2026-09-21",
-   "index": 98.87
+   "index": 98.83
   },
   {
    "date": "2026-09-28",
-   "index": 98.1
+   "index": 98.01
+  },
+  {
+   "date": "2026-10-05",
+   "index": 99.18
   }
  ]
 }

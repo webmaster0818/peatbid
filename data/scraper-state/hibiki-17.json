@@ -1,11 +1,11 @@
 {
   "slug": "hibiki-17",
   "label": "響17年",
-  "fetched_at": "2026-09-25T09:00:19",
+  "fetched_at": "2026-10-02T09:00:19",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E9%9F%BF17%E5%B9%B4",
-  "avg": 46123,
+  "avg": 46036,
   "max": 682000,
   "min": null,
-  "count": 955,
+  "count": 967,
   "ok": true
 }

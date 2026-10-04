@@ -1,11 +1,11 @@
 {
   "slug": "yamazaki-12",
   "label": "山崎12年",
-  "fetched_at": "2026-09-25T09:00:06",
+  "fetched_at": "2026-10-02T09:00:05",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E5%B1%B1%E5%B4%8E12%E5%B9%B4",
-  "avg": 33079,
+  "avg": 32904,
   "max": 743000,
   "min": null,
-  "count": 6186,
+  "count": 6196,
   "ok": true
 }

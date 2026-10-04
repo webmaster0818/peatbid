@@ -1,14 +1,15 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-10-05",
   "base_date": "2026-05-25",
-  "weeks": 17,
-  "n_brands": 42,
+  "weeks": 18,
+  "n_brands": 41,
   "excluded": {
     "data_quality": [
       "bowmore-blackbowmore"
     ],
     "insufficient": [
       "balvenie-portwood-21",
+      "macallan-fine-rare",
       "miyagikyo-nv",
       "yamazaki-55",
       "yoichi-nv"
@@ -24,99 +25,104 @@
       "karuizawa-30"
     ],
     "no_data": [],
-    "total": 9
+    "total": 10
   },
   "index": {
     "series": [
       {
         "date": "2026-05-25",
         "value": 100.0,
-        "n": 42
+        "n": 41
       },
       {
         "date": "2026-06-01",
-        "value": 99.83,
-        "n": 42
+        "value": 99.82,
+        "n": 41
       },
       {
         "date": "2026-06-08",
-        "value": 99.7,
-        "n": 42
+        "value": 99.69,
+        "n": 41
       },
       {
         "date": "2026-06-15",
         "value": 100.13,
-        "n": 42
+        "n": 41
       },
       {
         "date": "2026-07-06",
-        "value": 102.88,
-        "n": 42
+        "value": 102.96,
+        "n": 41
       },
       {
         "date": "2026-07-13",
-        "value": 101.53,
-        "n": 42
+        "value": 101.57,
+        "n": 41
       },
       {
         "date": "2026-07-20",
-        "value": 101.28,
-        "n": 42
+        "value": 101.31,
+        "n": 41
       },
       {
         "date": "2026-07-27",
-        "value": 102.17,
-        "n": 42
+        "value": 102.22,
+        "n": 41
       },
       {
         "date": "2026-08-03",
-        "value": 103.66,
-        "n": 42
+        "value": 103.75,
+        "n": 41
       },
       {
         "date": "2026-08-10",
-        "value": 102.69,
-        "n": 42
+        "value": 102.75,
+        "n": 41
       },
       {
         "date": "2026-08-17",
-        "value": 102.24,
-        "n": 42
+        "value": 102.29,
+        "n": 41
       },
       {
         "date": "2026-08-24",
-        "value": 102.82,
-        "n": 42
+        "value": 102.89,
+        "n": 41
       },
       {
         "date": "2026-08-31",
-        "value": 105.26,
-        "n": 42
+        "value": 105.4,
+        "n": 41
       },
       {
         "date": "2026-09-07",
-        "value": 105.01,
-        "n": 42
+        "value": 105.14,
+        "n": 41
       },
       {
         "date": "2026-09-14",
-        "value": 101.12,
-        "n": 42
+        "value": 101.16,
+        "n": 41
       },
       {
         "date": "2026-09-21",
-        "value": 100.6,
-        "n": 42
+        "value": 100.63,
+        "n": 41
       },
       {
         "date": "2026-09-28",
-        "value": 100.77,
-        "n": 42
+        "value": 100.8,
+        "n": 41
+      },
+      {
+        "date": "2026-10-05",
+        "value": 101.57,
+        "n": 41
       }
     ],
-    "latest": 100.77,
-    "change_1w_pct": 0.17,
-    "change_4w_pct": -4.27
+    "latest": 101.57,
+    "change_1w_pct": 0.76,
+    "change_4w_pct": -3.4
   },
   "categories": {
     "japanese-whisky": {
@@ -207,103 +213,113 @@
           "date": "2026-09-28",
           "value": 98.7,
           "n": 27
+        },
+        {
+          "date": "2026-10-05",
+          "value": 99.23,
+          "n": 27
         }
       ],
-      "latest": 98.7,
-      "change_1w_pct": 0.72
+      "latest": 99.23,
+      "change_1w_pct": 0.54
     },
     "scotch-whisky": {
       "label": "スコッチ",
-      "n": 15,
+      "n": 14,
       "series": [
         {
           "date": "2026-05-25",
           "value": 100.0,
-          "n": 15
+          "n": 14
         },
         {
           "date": "2026-06-01",
-          "value": 100.12,
-          "n": 15
+          "value": 100.13,
+          "n": 14
         },
         {
           "date": "2026-06-08",
-          "value": 99.81,
-          "n": 15
+          "value": 99.79,
+          "n": 14
         },
         {
           "date": "2026-06-15",
-          "value": 100.84,
-          "n": 15
+          "value": 100.9,
+          "n": 14
         },
         {
           "date": "2026-07-06",
-          "value": 104.39,
-          "n": 15
+          "value": 104.7,
+          "n": 14
         },
         {
           "date": "2026-07-13",
-          "value": 105.14,
-          "n": 15
+          "value": 105.51,
+          "n": 14
         },
         {
           "date": "2026-07-20",
-          "value": 105.52,
-          "n": 15
+          "value": 105.92,
+          "n": 14
         },
         {
           "date": "2026-07-27",
-          "value": 106.06,
-          "n": 15
+          "value": 106.49,
+          "n": 14
         },
         {
           "date": "2026-08-03",
-          "value": 106.44,
-          "n": 15
+          "value": 106.9,
+          "n": 14
         },
         {
           "date": "2026-08-10",
-          "value": 106.83,
-          "n": 15
+          "value": 107.32,
+          "n": 14
         },
         {
           "date": "2026-08-17",
-          "value": 107.15,
-          "n": 15
+          "value": 107.66,
+          "n": 14
         },
         {
           "date": "2026-08-24",
-          "value": 106.41,
-          "n": 15
+          "value": 106.86,
+          "n": 14
         },
         {
           "date": "2026-08-31",
-          "value": 105.82,
-          "n": 15
+          "value": 106.28,
+          "n": 14
         },
         {
           "date": "2026-09-07",
-          "value": 105.92,
-          "n": 15
+          "value": 106.39,
+          "n": 14
         },
         {
           "date": "2026-09-14",
-          "value": 105.93,
-          "n": 15
+          "value": 106.4,
+          "n": 14
         },
         {
           "date": "2026-09-21",
-          "value": 105.3,
-          "n": 15
+          "value": 105.72,
+          "n": 14
         },
         {
           "date": "2026-09-28",
-          "value": 104.49,
-          "n": 15
+          "value": 104.85,
+          "n": 14
+        },
+        {
+          "date": "2026-10-05",
+          "value": 106.1,
+          "n": 14
         }
       ],
-      "latest": 104.49,
-      "change_1w_pct": -0.77
+      "latest": 106.1,
+      "change_1w_pct": 1.19
     }
   },
   "movers": {
@@ -312,105 +328,105 @@
         "slug": "taketsuru-pure",
         "name": "竹鶴ピュアモルト",
         "category": "japanese-whisky",
-        "median": 8248,
-        "prev_median": 6653,
-        "diff_jpy": 1595,
-        "change_pct": 23.97,
+        "median": 9750,
+        "prev_median": 8248,
+        "diff_jpy": 1502,
+        "change_pct": 18.21,
+        "sample_n": 280
+      },
+      {
+        "slug": "macallan-30",
+        "name": "マッカラン30年",
+        "category": "scotch-whisky",
+        "median": 402009,
+        "prev_median": 351000,
+        "diff_jpy": 51009,
+        "change_pct": 14.53,
+        "sample_n": 46
+      },
+      {
+        "slug": "macallan-25",
+        "name": "マッカラン25年",
+        "category": "scotch-whisky",
+        "median": 210000,
+        "prev_median": 200000,
+        "diff_jpy": 10000,
+        "change_pct": 5.0,
+        "sample_n": 162
+      },
+      {
+        "slug": "ardbeg-corryvreckan",
+        "name": "アードベッグ コリーヴレッカン",
+        "category": "scotch-whisky",
+        "median": 8359,
+        "prev_median": 8000,
+        "diff_jpy": 359,
+        "change_pct": 4.49,
+        "sample_n": 68
+      },
+      {
+        "slug": "miyagikyo-12",
+        "name": "宮城峡12年",
+        "category": "japanese-whisky",
+        "median": 37949,
+        "prev_median": 37398,
+        "diff_jpy": 551,
+        "change_pct": 1.47,
+        "sample_n": 20
+      }
+    ],
+    "down": [
+      {
+        "slug": "macallan-12",
+        "name": "マッカラン12年",
+        "category": "scotch-whisky",
+        "median": 9075,
+        "prev_median": 9713,
+        "diff_jpy": -638,
+        "change_pct": -6.57,
         "sample_n": 270
       },
       {
-        "slug": "yoichi-10",
-        "name": "余市10年",
+        "slug": "ichirosu-double-distilleries",
+        "name": "イチローズモルト ダブルディスティラリーズ",
         "category": "japanese-whisky",
-        "median": 23099,
-        "prev_median": 22580,
-        "diff_jpy": 519,
-        "change_pct": 2.3,
-        "sample_n": 252
+        "median": 8513,
+        "prev_median": 8750,
+        "diff_jpy": -237,
+        "change_pct": -2.71,
+        "sample_n": 256
+      },
+      {
+        "slug": "chichibu-the-first",
+        "name": "秩父ザファースト",
+        "category": "japanese-whisky",
+        "median": 89705,
+        "prev_median": 92180,
+        "diff_jpy": -2475,
+        "change_pct": -2.68,
+        "sample_n": 32
       },
       {
         "slug": "hibiki-nv",
         "name": "響ジャパニーズハーモニー",
         "category": "japanese-whisky",
-        "median": 10998,
-        "prev_median": 10780,
-        "diff_jpy": 218,
-        "change_pct": 2.02,
+        "median": 10724,
+        "prev_median": 10998,
+        "diff_jpy": -274,
+        "change_pct": -2.49,
+        "sample_n": 252
+      },
+      {
+        "slug": "hanyu-card",
+        "name": "羽生カードシリーズ",
+        "category": "japanese-whisky",
+        "median": 7426,
+        "prev_median": 7599,
+        "diff_jpy": -173,
+        "change_pct": -2.28,
         "sample_n": 286
-      },
-      {
-        "slug": "macallan-18",
-        "name": "マッカラン18年",
-        "category": "scotch-whisky",
-        "median": 46924,
-        "prev_median": 46313,
-        "diff_jpy": 611,
-        "change_pct": 1.32,
-        "sample_n": 192
-      },
-      {
-        "slug": "bowmore-18",
-        "name": "ボウモア18年",
-        "category": "scotch-whisky",
-        "median": 10999,
-        "prev_median": 10888,
-        "diff_jpy": 111,
-        "change_pct": 1.02,
-        "sample_n": 228
-      }
-    ],
-    "down": [
-      {
-        "slug": "yamazaki-25",
-        "name": "山崎25年",
-        "category": "japanese-whisky",
-        "median": 26935,
-        "prev_median": 30000,
-        "diff_jpy": -3065,
-        "change_pct": -10.22,
-        "sample_n": 176
-      },
-      {
-        "slug": "glenfarclas-25",
-        "name": "グレンファークラス25年",
-        "category": "scotch-whisky",
-        "median": 22121,
-        "prev_median": 23750,
-        "diff_jpy": -1629,
-        "change_pct": -6.86,
-        "sample_n": 88
-      },
-      {
-        "slug": "macallan-12",
-        "name": "マッカラン12年",
-        "category": "scotch-whisky",
-        "median": 9713,
-        "prev_median": 10175,
-        "diff_jpy": -462,
-        "change_pct": -4.54,
-        "sample_n": 284
-      },
-      {
-        "slug": "ichirosu-mwr",
-        "name": "イチローズモルト MWR",
-        "category": "japanese-whisky",
-        "median": 7810,
-        "prev_median": 7975,
-        "diff_jpy": -165,
-        "change_pct": -2.07,
-        "sample_n": 264
-      },
-      {
-        "slug": "glenfiddich-30",
-        "name": "グレンフィディック30年",
-        "category": "scotch-whisky",
-        "median": 60810,
-        "prev_median": 61856,
-        "diff_jpy": -1046,
-        "change_pct": -1.69,
-        "sample_n": 36
       }
     ]
   },
-  "methodology": "Yahoo!オークション過去180日落札データの週次中央値（IQR法で外れ値除去）をもとに、基準週（2026-05-25）=100とした各銘柄の変化率の等ウェイト平均。採用42銘柄（サンプル不足n<20・データ品質除外・履歴2週未満・系列不連続・基準週データ無しの銘柄を除外）。PeatBid編集部の独自集計。"
+  "methodology": "Yahoo!オークション過去180日落札データの週次中央値（IQR法で外れ値除去）をもとに、基準週（2026-05-25）=100とした各銘柄の変化率の等ウェイト平均。採用41銘柄（サンプル不足n<20・データ品質除外・履歴2週未満・系列不連続・基準週データ無しの銘柄を除外）。PeatBid編集部の独自集計。"
 }
