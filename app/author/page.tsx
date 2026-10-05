@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: PAGE_TITLE,
   description: PAGE_DESC,
   alternates: { canonical: PAGE_URL },
-  openGraph: { type: "article", title: PAGE_TITLE, description: PAGE_DESC, url: PAGE_URL },
+  openGraph: { type: "article", title: PAGE_TITLE, description: PAGE_DESC, url: PAGE_URL, images: [{ url: "/og-image.png", width: 1200, height: 630 }] },
 };
 
 const AUTHORS = [

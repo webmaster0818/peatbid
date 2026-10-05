@@ -201,6 +201,27 @@ export default function Page() {
             <div className="mt-3 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: "\u5e74\u672b\u5e74\u59cb\u30fb\u304a\u4e2d\u5143\u30b7\u30fc\u30ba\u30f3\uff0811\u301c12\u6708\u30016\u301c7\u6708\uff09\u304c\u9ad8\u5024\u50be\u5411\u3002\u5317\u6d77\u9053\u5730\u65b9\u306e\u696d\u8005\u306f\u9700\u8981\u671f\u306b\u67fb\u5b9a\u984d\u304c10\u301c15%\u4e0a\u6607\u3059\u308b\u50be\u5411\u304c\u3042\u308a\u307e\u3059\u3002\u65e9\u3081\u306e\u76f8\u898b\u7a4d\u3082\u308a\u63a8\u5968\u3002" }} />
           </details>
 
+          {/* tier2-related-links:begin */}
+          <div className="not-prose my-8">
+            <h2 className="font-display text-xl font-semibold mb-2 text-ink !border-none !pb-0 !mt-0">近隣エリアでグレンモーレンジ シグネットを売る</h2>
+            <p className="text-sm text-warm-gray mb-3">北海道の近隣エリアでグレンモーレンジ シグネットを売る場合のガイドです。</p>
+            <div className="flex flex-wrap gap-2">
+              <Link href="/tier2/aomori/glenmorangie-signet-kaitori/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">青森県</Link>
+              <Link href="/tier2/iwate/glenmorangie-signet-kaitori/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">岩手県</Link>
+              <Link href="/tier2/akita/glenmorangie-signet-kaitori/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">秋田県</Link>
+            </div>
+          </div>
+          <div className="not-prose my-8">
+            <h2 className="font-display text-xl font-semibold mb-2 text-ink !border-none !pb-0 !mt-0">北海道で売れる関連銘柄</h2>
+            <p className="text-sm text-warm-gray mb-3">グレンモーレンジ シグネットと同じスコッチウイスキーの銘柄を北海道で売る場合のガイドです。</p>
+            <div className="flex flex-wrap gap-2">
+              <Link href="/tier2/hokkaido/glenfarclas-105-kaitori/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">グレンファークラス105</Link>
+              <Link href="/tier2/hokkaido/macallan-12-kaitori/" className="inline-block bg-white border border-warm-border rounded-full px-3 py-1 text-xs font-semibold text-foreground hover:border-amber/50 hover:shadow-sm transition-all">マッカラン12年</Link>
+              <Link href="/tier2/hokkaido/" className="inline-block bg-amber/15 border border-amber/40 rounded-full px-3 py-1 text-xs font-semibold text-amber-dark hover:bg-amber/25 transition-all">北海道の銘柄一覧 →</Link>
+            </div>
+          </div>
+          {/* tier2-related-links:end */}
+
           <div className="bg-cream/40 border border-amber/30 rounded-2xl p-6 my-10 not-prose">
             <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">📚 関連ページ</h2>
             <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">

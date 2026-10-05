@@ -431,6 +431,12 @@ def main():
 
     print(f"\n✅ {written} pages written")
 
+    # 関連リンク（近隣県・同じ県の関連銘柄）を入れ直す。これを飛ばすとリーフが県ハブからしか
+    # 張られない孤立ページに戻る（2026-08-04 の再生成で実際に起きた → 10/5 公開前チェック不合格）。
+    import subprocess
+    import sys
+    subprocess.run([sys.executable, str(Path(__file__).resolve().parent / "patch-tier2-related-links.py")], check=True)
+
 
 if __name__ == "__main__":
     main()

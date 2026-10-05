@@ -99,7 +99,7 @@ export default function Page() {
 
         <h2 id="uru">高騰を売却にどう活かすか</h2>
         <p>
-          価格を押し上げる要因（終売報道・受賞・円安など）が出た局面は、相場が上がりやすいタイミングです。手持ちの銘柄が当てはまるなら、<strong>実勢相場を確認したうえで複数業者の査定</strong>を取ると、高値を捉えやすくなります。詳しくは <Link href="/articles/whisky-souba-kimarikata/">買取相場の決まり方</Link> も参照してください。
+          価格を押し上げる要因（終売報道・受賞・円安など）が出た局面は、相場が上がりやすいタイミングです。手持ちの銘柄が当てはまるなら、<strong>実勢相場を確認したうえで複数業者の査定</strong>を取ると、高値を捉えやすくなります。詳しくは <Link href="/articles/whisky-souba-kimarikata/">買取相場の決まり方</Link> も参照してください。値上がりを見込んで購入・保有する場合の相場の見方と注意点は <Link href="/articles/whisky-toushi-hajimekata/">ウイスキー投資の始め方</Link> にまとめています。
         </p>
         <div className="not-prose bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 text-center">
           <p className="font-bold text-ink mb-2">相場が上がっている今、価値を確認</p>

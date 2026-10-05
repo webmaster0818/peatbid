@@ -104,7 +104,7 @@ export default function Page() {
           <li><strong>実勢中央値</strong>：その銘柄のだいたいの取引価格。買取額の上限の目安。</li>
           <li><strong>流通量</strong>：多い＝換金しやすく相場が安定。少ない＝希少だが値が振れやすい。</li>
         </ul>
-        <p>銘柄ごとの数値と週次の値動きは <Link href="/souba-ranking/">相場ランキング</Link> と各銘柄の買取相場ページで確認できます。</p>
+        <p>銘柄ごとの数値と週次の値動きは <Link href="/souba-ranking/">相場ランキング</Link> と各銘柄の買取相場ページで確認できます。この2つの数字を使った銘柄の選び方は <Link href="/articles/whisky-toushi-hajimekata/">ウイスキー投資の始め方</Link> でも解説しています。</p>
 
         <h2 id="takaku">相場を踏まえて高く売るには</h2>
         <ul>

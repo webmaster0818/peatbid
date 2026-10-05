@@ -26,6 +26,9 @@ const SITE_URL = "https://peatbid.com";
 const SITE_DESCRIPTION =
   "PeatBid（ピートビッド）はウイスキーの買取相場・最高入札を比較するガイドサイトです。山崎・響・白州・マッカランなど主要銘柄の最新買取相場、希少ボトルの査定ポイント、信頼できる買取業者を徹底比較。コレクター・相続・断捨離まで、あなたのウイスキーを最も高く売る方法が見つかります。";
 
+// 全ページ共通のOG画像（scripts/make-og.py で生成。画像に数字・件数は入れない）
+const OG_IMAGE = { url: "/og-image.png", width: 1200, height: 630, alt: `${SITE_NAME} | ${SITE_TAGLINE}` };
+
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
@@ -33,6 +36,16 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  // canonical は各ページの自URL（"./" は metadataBase とそのページのパスから解決される）。
+  // 個別に alternates を持つページ（tier2 など）はそちらが優先。
+  alternates: { canonical: "./" },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: "/apple-icon.png",
+  },
   title: {
     default: `${SITE_NAME} | ${SITE_TAGLINE}`,
     template: `%s | ${SITE_NAME}`,
@@ -45,11 +58,13 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     title: `${SITE_NAME} | ${SITE_TAGLINE}`,
     description: SITE_DESCRIPTION,
+    images: [OG_IMAGE],
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} | ${SITE_TAGLINE}`,
     description: SITE_DESCRIPTION,
+    images: [OG_IMAGE.url],
   },
   robots: {
     index: true,

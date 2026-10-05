@@ -229,3 +229,11 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 検証: build EXIT0・本番200・実勢値6件の描画確認・tier2導線を3県で確認・sitemap 3,004URL・Indexing 8/8。
 - **③（tier2の扱い）は未着手**。今回の調査で**tier2が年数ページに47本ずつリンクを集中させ、NV受け皿の足を引っぱっていた**ことが分かったので、③の判断材料が1つ増えた（1,141imp/0click に加えて「内部リンクを誤誘導していた」）。
 - **次に見るもの（2〜3週後）**: ①「年代指定なし」679impの着地がNV受け皿に移るか（実績CTR2.56%なら+15〜17click/28日）②グレンモーレンジ系クエリが受け皿に移るか。
+
+### 2026-10-05 公開前チェック（site-precheck.py）不合格4項目の修正
+- **① canonical 無し 537→0**: `app/layout.tsx` の metadata に `alternates: { canonical: "./" }`（metadataBase＋各ページのパスで自URLに解決される）。生成器が作る記事ページは metadata に alternates を持たないので layout から継承＝**週次再生成でも消えない**。tier2 など個別指定のページはそちらが優先。
+- **② og:image 無し 3,004→0**: `public/og-image.png`（1200×630・`scripts/make-og.py` で生成・**数字を入れない**）を layout の openGraph/twitter に指定。⚠️ページ側で `openGraph` を自前定義すると layout の images は継承されない → 県ハブ47（`gen-tier2-area.py` のテンプレも修正）と `/author/` には images を明記した。今後 openGraph を持つページを足すときも images を入れること。
+- **③ favicon 無し→あり**: `public/favicon.ico`・`icon.png`・`apple-icon.png`（同じく make-og.py）。layout の `icons` で指定。
+- **④ 被リンク1本以下 tier2 1,598＋記事1 → 0**: 原因は 6/10 に入れた近隣リンクが **8/4 の tier2 全再生成（JOYLAB撤去）で消えたまま**だったこと（282リーフは被リンク0）。`scripts/patch-tier2-related-links.py` を新設（冪等）＝各リーフに「近隣エリアで{銘柄}を売る」（隣接県・最大5）＋「{県}で売れる関連銘柄」（同じ蒸溜所/産地/カテゴリ・最大6）。**`generate-tier2-v4-plan-a.py` の末尾から自動で呼ぶようにした**（再生成で消えない）。`/articles/whisky-toushi-hajimekata/` は whisky-naze-takai と whisky-souba-kimarikata の本文から1本ずつリンク。
+- 検証: build EXIT0（heap12288）→ precheck **全項目OK**（3,004ページ）→ 方式B（.txt削除・robots.txt保全・--exclude functions・tier2込みフルrsync）。
+- ⚠️未対応（報告のみ）: `weekly-yahoo-update.sh` の `find out -name "*.txt" -delete` が **robots.txt も消している**（deployリポに 8/31 以降 robots.txt が無く、本番は Cloudflare の content-signal コメントだけで Sitemap 行なし）。`! -name robots.txt` を足す必要あり。
