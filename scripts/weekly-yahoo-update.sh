@@ -134,7 +134,8 @@ set -o pipefail
 npx next build 2>&1 | tail -5
 set +o pipefail
 # Next 16.2 では RSC payload が __next*.txt から index.txt に変わったため *.txt 全削除
-find out -name "*.txt" -type f -delete
+# ⚠️ robots.txt まで消すと本番から Sitemap 行が無くなる（2026-10-05 に発見。8/31 から消えていた）
+find out -name "*.txt" -type f ! -name "robots.txt" -delete
 
 # Scaled Content リント（warnモード：違反を記録するだけでデプロイは止めない）
 echo "[$(date '+%H:%M:%S')] 🔎 [6.5/7] Scaled Content リント"
