@@ -52,12 +52,11 @@ export const metadata: Metadata = {
   },
   description: SITE_DESCRIPTION,
   openGraph: {
+    // 2026-10-06 url・title・description を外した。固定値だと 2,958/3,006 ページの og:url が TOP、og:title が共通になっていた。
+    // 省略すると Next.js がページごとの title / description から埋める（ページ側で openGraph を持つ48ページはそのまま）。
     type: "website",
     locale: "ja_JP",
-    url: SITE_URL,
     siteName: SITE_NAME,
-    title: `${SITE_NAME} | ${SITE_TAGLINE}`,
-    description: SITE_DESCRIPTION,
     images: [OG_IMAGE],
   },
   twitter: {
