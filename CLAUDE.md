@@ -237,3 +237,17 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **④ 被リンク1本以下 tier2 1,598＋記事1 → 0**: 原因は 6/10 に入れた近隣リンクが **8/4 の tier2 全再生成（JOYLAB撤去）で消えたまま**だったこと（282リーフは被リンク0）。`scripts/patch-tier2-related-links.py` を新設（冪等）＝各リーフに「近隣エリアで{銘柄}を売る」（隣接県・最大5）＋「{県}で売れる関連銘柄」（同じ蒸溜所/産地/カテゴリ・最大6）。**`generate-tier2-v4-plan-a.py` の末尾から自動で呼ぶようにした**（再生成で消えない）。`/articles/whisky-toushi-hajimekata/` は whisky-naze-takai と whisky-souba-kimarikata の本文から1本ずつリンク。
 - 検証: build EXIT0（heap12288）→ precheck **全項目OK**（3,004ページ）→ 方式B（.txt削除・robots.txt保全・--exclude functions・tier2込みフルrsync）。
 - ⚠️未対応（報告のみ）: `weekly-yahoo-update.sh` の `find out -name "*.txt" -delete` が **robots.txt も消している**（deployリポに 8/31 以降 robots.txt が無く、本番は Cloudflare の content-signal コメントだけで Sitemap 行なし）。`! -name robots.txt` を足す必要あり。
+
+### 2026-10-07 サンプル不足6銘柄の tier2 リーフが「取得日 2026-08-03」のまま残っていた問題 ＋ title 年月の古いページ9本
+- **原因**: `weekly-yahoo-update.sh` には **tier2 を更新する工程が一つも無い**（brand-kaitori / angle / 真贋ハブ / ランキングだけ再生成、rsync も `--exclude tier2`）。tier2 リーフは 8/4 の全再生成時の取得日 2026-08-03 がハードコードされたまま。articles 側（`/articles/{slug}-*`）は週次で再生成されており 10-05 になっていた＝ズレていたのは tier2 だけ。
+  - 「サンプル不足だから」ではなく **tier2 全体が週次の対象外**。十分な銘柄（yamazaki-12 等）の tier2 本文も「¥20,680・取得日 2026-08-03」のまま（PriceHistoryCard だけ最新）。県ハブ47も「2026-08-03時点」のまま。→ **未対応（下記）**
+- **対応**: `scripts/patch-tier2-yahoo-freshness.py` 新設（冪等）。`yahoo-medians.json` で insufficient=true の銘柄の tier2 リーフを文字列差し替え（取得日・n・最終更新・JSON-LD dateModified）。前回 n≥20 で中央値表示だった銘柄が n<20 に落ちた場合は、生成器の sufficient=False 分岐と同じ文言に変換（title/description/FAQ JSON-LD/本文2箇所/査定根拠1箇所。旧中央値が残ったら書かずに WARN）。
+  - 週次に組込: `[4.3/7]` で実行 → 変更 slug を `/tmp/peatbid-tier2-patched.txt` に記録 → `[7/7]` でその銘柄の tier2 ディレクトリだけ部分 rsync（tier2 全体の `--exclude` は維持）。
+  - ⚠️ tier2 全再生成は引き続き禁止（2026-10-04 の記録どおり price-history JSON の型不一致でビルドが落ちる）。
+- **結果**: 週次が再生成する tier2 ページ数 **0 → 282**（6銘柄×47県）。うち macallan-fine-rare 47 は「¥8,480 n=20（8/3）」→「現在集計中 n=16（10/5）」に変換。build EXIT0 → precheck 全項目OK（3,004ページ）→ 方式B フル rsync（functions/robots.txt 保全）→ 本番 curl で yamazaki-55「取得日 2026-10-05、サンプル数 n=8」/ `/api/contact` 400 / robots に Sitemap 行を確認。
+- **title 年月**: `out/` の `<title>` grep で【2026年8月】8本＋【2026年7月】1本（手書き記事: glenmorangie / glenfiddich / springbank / 6本の *-nv-kaitori）→【2026年10月】に。H1 にも同じタグがあった6本は H1 も揃えた。本文の価格・取得日は不変。これらは生成器を通らない手書きページなので、**月が変わるたびに手で直すか MONTH_TAG 化が必要**。
+- **bowmore-blackbowmore が raw_n=106 なのに insufficient=true の理由**: `fetch-yahoo-medians.py` の品質強制フラグ（`if slug in {"bowmore-blackbowmore"}: r["insufficient"] = True`）。「ブラックボウモア 700ml」の検索結果にミニチュア/空瓶が混入し中央値 ¥3,740（実物は数百万円級）になるため、クエリ精査まで実数を出さない設計。データ不足ではなく意図的な抑止。
+- **未対応（報告のみ）**:
+  1. 十分な銘柄 44 の tier2 リーフ本文（中央値・取得日 2026-08-03）と県ハブ47（「2026-08-03時点」）は依然として古い。中央値を入れ替えるパッチ（または生成器の型追随）が別途必要。
+  2. 逆方向（8/3 不足→10/5 十分）の ichirosu-card / karuizawa-30 の tier2 94ページは「現在集計中（取得日 2026-08-03）」のまま。中央値を差し込む変換は今回のパッチの対象外。
+  3. 週次の `--exclude tier2` のままだと、tier2 HTML が参照する `_next/static/<buildId>` が毎週入れ替わる（今回は静的チャンク 200 を確認済み。要継続観察）。
