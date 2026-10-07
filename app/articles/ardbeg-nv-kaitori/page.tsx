@@ -33,7 +33,7 @@ const nvRangeStr =
       : null;
 
 export const metadata: Metadata = {
-  title: "アードベッグ買取価格【2026年8月】年代表記なし(NV)ボトルの相場と見分け方",
+  title: "アードベッグ買取価格【2026年10月】年代表記なし(NV)ボトルの相場と見分け方",
   description:
     `アードベッグは主力の多くが熟成年数を表記しないノンエイジ(NV)です。ウーガダール・コリーヴレッカン・アンオーなど年数表記のないボトルの見分け方と、ヤフオク実落札の中央値${nvRangeStr ? `(NV帯 ${nvRangeStr})` : ""}、10年との価格差、高く売るコツまで実データで解説します。`,
   alternates: { canonical: "/articles/ardbeg-nv-kaitori/" },

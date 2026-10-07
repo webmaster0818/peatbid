@@ -31,7 +31,7 @@ const signet = rec("glenmorangie-signet");
 const fetchedAt = g10?.fetched_at ?? g18?.fetched_at ?? "毎週月曜";
 
 export const metadata: Metadata = {
-  title: "グレンモーレンジ買取価格【2026年8月】10年・ラサンタ・キンタルバン・18年・シグネットの相場",
+  title: "グレンモーレンジ買取価格【2026年10月】10年・ラサンタ・キンタルバン・18年・シグネットの相場",
   description:
     `グレンモーレンジの買取相場をラインナップ別に実データで掲載。オリジナル10年${yen("glenmorangie-10") ?? "収集中"}・ラサンタ${yen("glenmorangie-lasanta") ?? "収集中"}・キンタルバン${yen("glenmorangie-quinta-ruban") ?? "収集中"}・18年${yen("glenmorangie-18") ?? "収集中"}・シグネット${yen("glenmorangie-signet") ?? "収集中"}（ヤフオク実落札の中央値・毎週更新）。年数表記のないボトルの扱い、箱なし・開封済みの目安、高く売るコツまで解説します。`,
   alternates: { canonical: "/articles/glenmorangie-kaitori/" },

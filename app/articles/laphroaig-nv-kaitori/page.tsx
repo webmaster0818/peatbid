@@ -12,7 +12,7 @@ const yen = (v?: number) => (v ? `${v.toLocaleString("ja-JP")}円` : "—");
 const fetchedAt = l25?.fetched_at ?? "";
 
 export const metadata: Metadata = {
-  title: "ラフロイグ買取価格【2026年8月】ノンエイジ・年代表記なしの相場と高く売る方法",
+  title: "ラフロイグ買取価格【2026年10月】ノンエイジ・年代表記なしの相場と高く売る方法",
   description:
     `ラフロイグの「年代指定なし（NV/ノンエイジ）」はセレクト・クォーターカスク・トリプルウッド・ロアなどのボトルが該当します。${nvMedian ? `NVの実勢中央値は${yen(nvMedian)}（参考値）。` : "NVの実勢中央値は現在収集中（毎週更新）。"}年代付き（25年${yen(l25?.median)}）との比較、手元のボトルの見分け方、高く売るコツまで実データで解説。`,
   alternates: { canonical: "/articles/laphroaig-nv-kaitori/" },
@@ -84,7 +84,7 @@ export default function LaphroaigNvKaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ラフロイグの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格【2026年7月】</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ラフロイグの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格【2026年10月】</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-15 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-5 mb-8 not-prose">

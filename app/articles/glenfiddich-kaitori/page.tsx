@@ -24,7 +24,7 @@ const g30 = rec("glenfiddich-30");
 const fetchedAt = g12?.fetched_at ?? g30?.fetched_at ?? "毎週月曜";
 
 export const metadata: Metadata = {
-  title: "グレンフィディック買取価格【2026年8月】12年・15年・18年・30年の相場と見分け方",
+  title: "グレンフィディック買取価格【2026年10月】12年・15年・18年・30年の相場と見分け方",
   description:
     `グレンフィディックの買取相場を年代別に実データで掲載。12年${yen("glenfiddich-12") ?? "収集中"}・15年${yen("glenfiddich-15") ?? "収集中"}・18年${yen("glenfiddich-18") ?? "収集中"}・30年${yen("glenfiddich-30") ?? "収集中"}（ヤフオク実落札の中央値・毎週更新）。手元のボトルがどの年数かの見分け方、箱なし・開封済みの扱い、高く売るコツまで解説します。`,
   alternates: { canonical: "/articles/glenfiddich-kaitori/" },

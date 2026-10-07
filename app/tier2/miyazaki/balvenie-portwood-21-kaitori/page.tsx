@@ -15,7 +15,7 @@ function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"\u5bae\u5d0e\u770c\u3067\u30d0\u30eb\u30f4\u30a7\u30cb\u30fc \u30dd\u30fc\u30c8\u30a6\u30c3\u30c9 21\u5e74\u306f\u51fa\u5f35\u8cb7\u53d6\u3057\u3066\u3082\u3089\u3048\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u306f\u3044\u3002\u5bae\u5d0e\u770c\uff08\u5bae\u5d0e\u30fb\u90fd\u57ce\u30fb\u5ef6\u5ca1\u30fb\u65e5\u5411\uff09\u306f\u4e5d\u5dde\u5730\u65b9\u306e\u4e2d\u6838\u30a8\u30ea\u30a2\u3067\u3001\u30d0\u30a4\u30bb\u30eb \u5bae\u5d0e, \u798f\u3061\u3083\u3093 \u5bae\u5d0e, \u30ea\u30b5\u30a4\u30af\u30eb\u30de\u30fc\u30c8\u5bae\u5d0e\u306a\u3069\u4e3b\u8981\u696d\u8005\u304c\u51fa\u5f35\u8cb7\u53d6\u5bfe\u5fdc\u30a8\u30ea\u30a2\u306b\u3057\u3066\u3044\u307e\u3059\u3002\u6700\u77ed\u5373\u65e5\u5bfe\u5fdc\u3082\u53ef\u80fd\u3067\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u5bae\u5d0e\u770c\u306e\u30d0\u30eb\u30f4\u30a7\u30cb\u30fc \u30dd\u30fc\u30c8\u30a6\u30c3\u30c9 21\u5e74\u5e02\u5834\u76f8\u5834\u306f\u4ed6\u770c\u3068\u5dee\u304c\u3042\u308a\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5e02\u5834\u76f8\u5834\uff08Yahoo\u4e2d\u592e\u5024\uff09\u306f\u5168\u56fd\u5171\u901a\u3067\u3059\u304c\u3001\u696d\u8005\u8cb7\u53d6\u984d\u306f\u5730\u57df\u3084\u696d\u8005\u3067\u7570\u306a\u308a\u307e\u3059\u3002\u30d0\u30eb\u30f4\u30a7\u30cb\u30fc \u30dd\u30fc\u30c8\u30a6\u30c3\u30c9 21\u5e74\u306e\u73fe\u5728\u306e\u5e02\u5834\u76f8\u5834\u306f \u73fe\u5728\u96c6\u8a08\u4e2d\uff08Yahoo Auctions \u4e2d\u592e\u5024\uff09\u3002\u5b9f\u969b\u306e\u696d\u8005\u67fb\u5b9a\u306f LINXAS / \u30d0\u30a4\u30bb\u30eb / \u798f\u3061\u3083\u3093 \u5404\u793e\u30da\u30fc\u30b8\u3067\u3054\u78ba\u8a8d\u304f\u3060\u3055\u3044\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u5bae\u5d0e\u770c\u306e\u5e97\u982d\u8cb7\u53d6\u3067\u30d0\u30eb\u30f4\u30a7\u30cb\u30fc \u30dd\u30fc\u30c8\u30a6\u30c3\u30c9 21\u5e74\u306f\u58f2\u308c\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u306f\u3044\u3001\u5bae\u5d0e\u30fb\u90fd\u57ce\u30fb\u5ef6\u5ca1\u30fb\u65e5\u5411\u3092\u4e2d\u5fc3\u306b\u5c02\u9580\u5e97\u30fb\u304a\u9152\u8cb7\u53d6\u5e97\u3067\u5e97\u982d\u8cb7\u53d6\u53ef\u80fd\u3067\u3059\u3002\u30d0\u30eb\u30f4\u30a7\u30cb\u30fc \u30dd\u30fc\u30c8\u30a6\u30c3\u30c9 21\u5e74\u306fmid\u30af\u30e9\u30b9\u306e\u9298\u67c4\u306e\u305f\u3081\u3001\u4e8b\u524d\u4e88\u7d04\u30fb\u5c02\u9580\u67fb\u5b9a\u58eb\u306e\u540c\u884c\u3092\u63a8\u5968\u3057\u307e\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u30d0\u30eb\u30f4\u30a7\u30cb\u30fc \u30dd\u30fc\u30c8\u30a6\u30c3\u30c9 21\u5e74\u3092\u5bae\u5d0e\u770c\u3067\u58f2\u308b\u30d9\u30b9\u30c8\u30bf\u30a4\u30df\u30f3\u30b0\u306f\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5e74\u672b\u5e74\u59cb\u30fb\u304a\u4e2d\u5143\u30b7\u30fc\u30ba\u30f3\uff0811\u301c12\u6708\u30016\u301c7\u6708\uff09\u304c\u9ad8\u5024\u50be\u5411\u3002\u4e5d\u5dde\u5730\u65b9\u306e\u696d\u8005\u306f\u9700\u8981\u671f\u306b\u67fb\u5b9a\u984d\u304c10\u301c15%\u4e0a\u6607\u3059\u308b\u50be\u5411\u304c\u3042\u308a\u307e\u3059\u3002\u65e9\u3081\u306e\u76f8\u898b\u7a4d\u3082\u308a\u63a8\u5968\u3002\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u30d0\u30eb\u30f4\u30a7\u30cb\u30fc \u30dd\u30fc\u30c8\u30a6\u30c3\u30c9 21\u5e74\u3092\u5bae\u5d0e\u770c\u3067\u58f2\u308b \u2014 \u696d\u8005\u9078\u3073\u3068\u76f8\u898b\u7a4d\u3082\u308a\u306e\u30b3\u30c4\", \"datePublished\": \"2026-05-19\", \"dateModified\": \"2026-08-03\", \"author\": {\"@type\": \"Organization\", \"name\": \"PeatBid\u7de8\u96c6\u90e8\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"PeatBid\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u30d0\u30eb\u30f4\u30a7\u30cb\u30fc \u30dd\u30fc\u30c8\u30a6\u30c3\u30c9 21\u5e74\u3092\u5bae\u5d0e\u770c\u3067\u58f2\u308b \u2014 \u696d\u8005\u9078\u3073\u3068\u76f8\u898b\u7a4d\u3082\u308a\u306e\u30b3\u30c4\", \"datePublished\": \"2026-05-19\", \"dateModified\": \"2026-10-05\", \"author\": {\"@type\": \"Organization\", \"name\": \"PeatBid\u7de8\u96c6\u90e8\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"PeatBid\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"areaServed\": {\"@type\": \"AdministrativeArea\", \"name\": \"\u5bae\u5d0e\u770c\"}, \"serviceType\": \"\u30a6\u30a4\u30b9\u30ad\u30fc\u8cb7\u53d6\u76f8\u5834\", \"provider\": {\"@type\": \"Organization\", \"name\": \"PeatBid\"}}" }} />
     </>
   );
@@ -50,7 +50,7 @@ export default function Page() {
             <span className="bg-amber/15 text-amber-dark text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">バルヴェニー ポートウッド 21年を宮崎県で売る — 業者選びと相見積もりのコツ</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-08-03 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-05 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -60,7 +60,7 @@ export default function Page() {
           <p>宮崎県には<strong>地域密着の専門業者</strong>と<strong>全国対応の大手</strong>の両方があるため、複数業者で見積もりを比較できる環境です。</p>
 
           <h2>2. バルヴェニー ポートウッド 21年の市場相場（Yahoo中央値）</h2>
-          <p>バルヴェニー ポートウッド 21年の市場相場は<strong>現在集計中</strong>です（現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません（取得日 2026-08-03、サンプル数 n=18））。バルヴェニー ポートウッドフィニッシュ</p>
+          <p>バルヴェニー ポートウッド 21年の市場相場は<strong>現在集計中</strong>です（現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません（取得日 2026-10-05、サンプル数 n=14））。バルヴェニー ポートウッドフィニッシュ</p>
           <p>業者の買取査定額は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。</p>
 
           <h3 className="!mt-6">2-1. バルヴェニー ポートウッド 21年の基本プロフィール（公式情報）</h3>
@@ -141,7 +141,7 @@ export default function Page() {
           <h2>7. バルヴェニー ポートウッド 21年の最新オークション動向と査定への影響</h2>
           <p>バルヴェニー ポートウッド 21年の市場価値は、国内市場（Yahoo Auctions）と海外オークションの両方で形成されます。直近の動向を踏まえて売却タイミングを判断しましょう。</p>
           <ul>
-            <li><strong>国内市場（Yahoo Auctions 過去180日中央値）</strong>: 現在集計中（現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません（取得日 2026-08-03、サンプル数 n=18））</li>
+            <li><strong>国内市場（Yahoo Auctions 過去180日中央値）</strong>: 現在集計中（現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません（取得日 2026-10-05、サンプル数 n=14））</li>
             <li><strong>海外オークション直近</strong>: £200〜£300帯 (2026 Q1〜Q2, Whisky.Auction 標準700ml)</li>
             <li><strong>コレクション価値</strong>: Port Wood シリーズの代表作、コレクション・常飲双方の根強い需要</li>
             <li><strong>流通ステータス</strong>: 現行品（1996年発売）</li>
@@ -235,7 +235,7 @@ export default function Page() {
             </ul>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-08-03）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-05）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

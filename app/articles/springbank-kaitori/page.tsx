@@ -3,7 +3,7 @@ import Link from "next/link";
 import ranking from "@/data/souba-ranking.json";
 
 export const metadata: Metadata = {
-  title: 'スプリングバンク買取相場｜年代別（15年・21年ほか）の相場と見分け方【2026年7月】',
+  title: 'スプリングバンク買取相場｜年代別（15年・21年ほか）の相場と見分け方【2026年10月】',
   description: 'スプリングバンクの買取相場を年代別に整理。年数表記のない・年代がわからないボトルの見分け方、15年・21年など各年代の実勢中央値（毎週更新）と、該当する買取ページへの分岐まで。まずどのスプリングバンクかを確認できる総合ガイド。',
 };
 
@@ -50,7 +50,7 @@ export default function SpringbankKaitoriPage() {
         </nav>
 
         <article className="prose max-w-none">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">スプリングバンク買取相場｜年代別の相場と見分け方【2026年7月】</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">スプリングバンク買取相場｜年代別の相場と見分け方【2026年10月】</h1>
           <p className="text-warm-gray text-sm">最終更新: {updated}（相場は毎週月曜更新）</p>
 
           <div className="rounded-lg bg-cream/60 border border-amber-dark/20 p-4 my-6 not-prose">

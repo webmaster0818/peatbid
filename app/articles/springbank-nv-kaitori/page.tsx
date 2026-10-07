@@ -21,7 +21,7 @@ const nvFetchedAt = nvReady ? nvRec!.fetched_at : null;
 const refFetchedAt = m["springbank-15"]?.fetched_at ?? "毎週月曜";
 
 export const metadata: Metadata = {
-  title: "スプリングバンク買取価格【2026年8月】ノンエイジ・年代表記なしの相場と高く売る方法",
+  title: "スプリングバンク買取価格【2026年10月】ノンエイジ・年代表記なしの相場と高く売る方法",
   description:
     "年代表記のないスプリングバンクの常時流通はごく稀で、現行ラインの最年少は10年です。年代不明に見えるボトルの多くはラベル摩耗か限定品。年数の確認手順、10年・15年・21年の実勢価格比較（ヤフオク落札中央値・毎週更新）、高く売るコツと無料査定の使い方まで解説します。",
   alternates: { canonical: "/articles/springbank-nv-kaitori/" },
@@ -93,7 +93,7 @@ export default function SpringbankNvKaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">スプリングバンクの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格【2026年7月】</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">スプリングバンクの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格【2026年10月】</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-15 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 not-prose">

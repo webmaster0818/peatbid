@@ -117,6 +117,13 @@ echo "[$(date '+%H:%M:%S')] 📝 [4/7] angle ページ再生成（v3）"
 echo "[$(date '+%H:%M:%S')] 📝 [4.2/7] 真贋ハブ再生成（CVブロックの実勢中央値を週次更新）"
 /opt/homebrew/bin/python3 scripts/gen-nisemono-brand-hubs.py
 
+echo "[$(date '+%H:%M:%S')] 📝 [4.3/7] サンプル不足銘柄の tier2 リーフ鮮度更新（取得日・n・最終更新を差し替え）"
+# tier2 は全再生成禁止（price-history JSON の型不一致でビルドが落ちる・CLAUDE.md 2026-10-04）。
+# 既存リーフへの文字列差し替えのみ行い、変更があった slug を記録して [7/7] で部分 rsync する。
+TIER2_PATCHED="/tmp/peatbid-tier2-patched.txt"
+: > "$TIER2_PATCHED"
+/opt/homebrew/bin/python3 scripts/patch-tier2-yahoo-freshness.py --out-slugs "$TIER2_PATCHED" 2>&1 | tail -8
+
 echo "[$(date '+%H:%M:%S')] 📈 [4.5/7] 相場ランキング・データ再生成（B：更新型コンテンツ）"
 /opt/homebrew/bin/python3 scripts/generate-souba-ranking.py
 /opt/homebrew/bin/python3 scripts/generate-souba-index.py
@@ -149,6 +156,22 @@ rsync -a --delete \
   --exclude="_not-found" \
   --exclude="functions" \
   "$SRC/out/" "$DEPLOY/"
+
+# [4.3/7] で差し替えた銘柄だけ tier2 リーフを部分同期（tier2 全体は --exclude のまま）
+if [ -s "$TIER2_PATCHED" ]; then
+  n_synced=0
+  while IFS= read -r slug; do
+    [ -z "$slug" ] && continue
+    for d in "$SRC"/out/tier2/*/"$slug"-kaitori; do
+      [ -d "$d" ] || continue
+      rel="${d#"$SRC"/out/}"
+      mkdir -p "$DEPLOY/$rel"
+      rsync -a --delete "$d/" "$DEPLOY/$rel/"
+      n_synced=$((n_synced + 1))
+    done
+  done < "$TIER2_PATCHED"
+  echo "[$(date '+%H:%M:%S')]   ↳ tier2 部分同期: $(wc -l < "$TIER2_PATCHED" | tr -d ' ') 銘柄 / ${n_synced} ページ"
+fi
 
 cd "$DEPLOY"
 git add -A
