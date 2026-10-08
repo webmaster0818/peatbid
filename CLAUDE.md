@@ -263,3 +263,10 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **デプロイ**: build EXIT0（3,006ページ）→ `*.txt` 削除（robots.txt 保全）→ root rsync（--exclude functions/tier2/_not-found）＋部分同期 2,068＋47 → precheck **全項目OK**。after: tier2 リーフ **10/5=2,350・6/29=47・8/3=0**、ハブ47=10/5。
 - **buildId について**: 毎ビルドで全 HTML の RSC ペイロード内 `"b":"<buildId>"` が変わるため deploy のコミットは毎回 ~2,700 ファイル。同期しない tier2 ページに残る旧 buildId はファイル参照ではなく、全 HTML の `/_next/static/` 参照は実在を確認（precheck とは別に python で全3,007 HTML を走査）。`_headers` は deploy リポに存在しない（存在前提の記述は誤り）。
 - **残課題**: 県ハブの「2026-10-05時点」は最高額銘柄の取得日を全体に当てている（glenfarclas-105 行だけ 6/29 データ）→10/12 にキー修正で解消見込み。`_not-found/index.html` は rsync 除外のまま古い CSS を参照（404.html は更新される・実害なし）。
+
+### 2026-10-08 「ヒカカク 酒買取 口コミ／ウイスキー買取 評判／ヒカカク 口コミ」受け皿 新規（MediaXAI指示・3サイト横断） ✅本番反映済み
+- title/h1/URL で「ヒカカク」検索→専用ページ無し（CTA言及のみ）→ `/articles/hikakaku-sake-kaitori-kuchikomi/` 新規（手書き page.tsx・souzoku記事の型を踏襲）
+- 一次情報は hikakaku.com 生HTML（/lp/ 使い方・FAQ・利用規約・運営者情報・古物表記・公式クチコミ /hikakaku_reviews/・お酒カテゴリ=744社/52,971点・買取実績1円〜4,400,000円）。口コミは公式クチコミページの評価分布（総合3.4・1,083件・「悪い比率32.5%」は公式表示）＋傾向のみ。転載・架空・捏造なし
+- 酒切り口: カテゴリ「日用品・コスメ・食品・お酒」→ウイスキー、未開封/液面/箱を備考に、高額銘柄は銘柄ページの実勢で照合、相続まとめ売りは出張・宅配
+- 内部リンク元: 記事一覧チップ / whisky-sell-guide / whisky-kaitori-souba（関連記事カード）/ whisky-takaku-uru（同）/ whisky-souzoku-baikyaku / faq。sitemap 3005 URL（generate-sitemap.mjs が app/articles/* を列挙＝自動）
+- precheck: 初回「og:image が無い」不合格（自前openGraphがlayoutのimagesを上書き）→ `images:["/og-image.png"]` 追加→✅全項目OK。ビルド12288で2回・各約10分

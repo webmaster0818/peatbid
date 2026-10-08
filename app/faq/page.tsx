@@ -153,6 +153,7 @@ export default function FaqPage() {
             
             <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">宅配で完結（リカスタ）</a>
           </div>
+          <p className="text-xs text-warm-gray text-center mt-4">一括査定の評判や注意点は <Link href="/articles/hikakaku-sake-kaitori-kuchikomi/" className="text-amber-dark underline">ヒカカクの酒買取 口コミ・評判</Link> にまとめています。</p>
         </div>
 
         <h2>関連記事</h2>

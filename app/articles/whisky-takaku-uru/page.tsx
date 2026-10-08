@@ -171,6 +171,7 @@ export default function WhiskyTakakuUruPage() {
             <Link href="/articles/yamazaki-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">山崎の市場相場ガイド</p></Link>
             <Link href="/articles/hibiki-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">響の市場相場ガイド</p></Link>
             <Link href="/faq/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">よくある質問</span><p className="text-sm font-bold mt-1">ウイスキー買取FAQ</p></Link>
+            <Link href="/articles/hikakaku-sake-kaitori-kuchikomi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">サービス評判</span><p className="text-sm font-bold mt-1">ヒカカクの酒買取 口コミ・評判と注意点</p></Link>
           </div>
           <p className="text-xs text-warm-gray mt-8">※業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
         </article>

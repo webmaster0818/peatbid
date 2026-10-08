@@ -101,6 +101,7 @@ export default function Page() {
           <li><strong>付属品をそろえる</strong>：箱・冊子があるだけで査定額が上がります（<Link href="/articles/whisky-hokan-houhou/">保管方法</Link>）。</li>
           <li><strong>高額銘柄は個別に確認</strong>：<Link href="/articles/yamazaki-18-kaitori/">山崎18年</Link>・<Link href="/articles/hibiki-30-kaitori/">響30年</Link> など高額品が混じっていないか。まとめて二束三文にしない。</li>
           <li><strong>偽物が心配なら</strong>：<Link href="/articles/whisky-nisemono-miwakekata/">見分け方</Link>を確認し、不安なものは専門業者の査定へ。</li>
+          <li><strong>一括査定を使う前に</strong>：キャンセル方法や電話連絡の多さなど、<Link href="/articles/hikakaku-sake-kaitori-kuchikomi/">ヒカカクの酒買取 口コミ・評判</Link>で注意点を確認しておくと、本数が多いときの段取りが立てやすくなります。</li>
         </ul>
 
         <h2 id="zeikin">相続・まとめ売りと税金の注意</h2>

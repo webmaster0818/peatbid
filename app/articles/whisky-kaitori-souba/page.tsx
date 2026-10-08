@@ -199,6 +199,10 @@ export default function WhiskyKaitoriSoubaPage() {
               <span className="text-xs text-amber-dark font-bold">よくある質問</span>
               <p className="text-sm font-bold mt-1">ウイスキー買取FAQ</p>
             </Link>
+            <Link href="/articles/hikakaku-sake-kaitori-kuchikomi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow">
+              <span className="text-xs text-amber-dark font-bold">サービス評判</span>
+              <p className="text-sm font-bold mt-1">ヒカカクの酒買取 口コミ・評判と注意点</p>
+            </Link>
           </div>
 
           <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 {latestFetch}）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>

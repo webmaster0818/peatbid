@@ -143,6 +143,7 @@ export default function Page() {
           <p className="text-xs text-warm-gray mb-3"><span className="inline-block align-middle border border-warm-gray/50 rounded px-1.5 py-0.5 mr-2 text-[11px] font-bold tracking-wide">PR</span>ヒカカク！（買取価格比較サイト・最大20社に一括査定）</p>
           <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow sponsored" className="amber-cta inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm">無料一括査定で最高値を調べる →</a>
         </div>
+        <p className="text-sm">一括査定を使う前に評判や注意点（キャンセル方法・電話連絡・個人情報）を知りたい方は、<Link href="/articles/hikakaku-sake-kaitori-kuchikomi/">ヒカカクの酒買取 口コミ・評判</Link>で公式クチコミの傾向と利用の流れを整理しています。</p>
 
         <h2 id="faq">よくある質問</h2>
         {faqs.map((f) => (

@@ -86,6 +86,7 @@ export default function ArticlesIndexPage() {
           <Link href="/articles/whisky-nv-toha/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">年代指定なし(NV)とは</Link>
           <Link href="/articles/whisky-souzoku-baikyaku/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">相続・遺品のウイスキーを売る</Link>
           <Link href="/articles/whisky-souba-kimarikata/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">買取相場の決まり方</Link>
+          <Link href="/articles/hikakaku-sake-kaitori-kuchikomi/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">ヒカカクの酒買取 口コミ・評判</Link>
           <Link href="/souba-ranking/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">今週の相場ランキング</Link>
         </div>
 
