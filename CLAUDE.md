@@ -251,3 +251,15 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
   1. 十分な銘柄 44 の tier2 リーフ本文（中央値・取得日 2026-08-03）と県ハブ47（「2026-08-03時点」）は依然として古い。中央値を入れ替えるパッチ（または生成器の型追随）が別途必要。
   2. 逆方向（8/3 不足→10/5 十分）の ichirosu-card / karuizawa-30 の tier2 94ページは「現在集計中（取得日 2026-08-03）」のまま。中央値を差し込む変換は今回のパッチの対象外。
   3. 週次の `--exclude tier2` のままだと、tier2 HTML が参照する `_next/static/<buildId>` が毎週入れ替わる（今回は静的チャンク 200 を確認済み。要継続観察）。
+
+### 2026-10-08 P2: tier2 全銘柄（リーフ2,397＋県ハブ47）の中央値・取得日・n・dateModified を週次データ（10/5）に同期
+- **走査結果（before）**: tier2 リーフの取得日は **8/3=2,068・10/5=282（昨日の6銘柄）・6/29=47**（glenfarclas-105 のみ）。県ハブ47は全て「2026-08-03時点」。
+  - 6/29 の原因: `fetch-yahoo-medians.py` の `BRAND_QUERIES` キーが旧 slug `glenfarclas-nv` のままで、brands.csv の `glenfarclas-105` に一致せず毎週 **SKIP (no query mapping)**。記事側（/articles/glenfarclas-105-kaitori/）も 6/29・¥8,225・n=52 で tier2 と一致していたので今回は値を変えず、キーを `glenfarclas-105` に直した（**10/12 の週次から取得される**）。
+- **対応（全再生成はしない）**: `scripts/patch-tier2-yahoo-freshness.py` を全銘柄対応に拡張（出典を **brands.csv** に変更＝記事側 generate-brand-pages-v3.py と同じ列を読むので表示値が必ず一致）。4ケース＝十分→十分（中央値・n・日付差し替え）／不足→十分（生成器 sufficient=True 分岐の文言に変換）／十分→不足／不足→不足。書き込み前に検証（¥の出現 7＋JSON-LD 2、取得日/最終更新/dateModified スロットが全て新日付、集計中文言の残存ゼロ）、NGページは書かずに WARN。
+  - ⚠️ 本文には Yahoo と無関係の日付が正当に入る（macallan-18 の「US$371 (2026-03-17, Whisky.Auction)」）。日付検証は **スロット限定**にすること（全文の日付を見ると誤検知で47ページ止まる）。
+  - 結果: 変更 2,068（十分→十分 1,974＝42銘柄 / 不足→十分 94＝ichirosu-card ¥455,565 n=20・karuizawa-30 ¥32,450 n=242）、検証NG 0、2回目は変更 0（冪等）。bowmore-blackbowmore は csv の中央値が空＝自動で「集計中」のまま。
+  - 県ハブ47: `gen-tier2-area.py` は brands.json だけ読む（price-history 非依存）ので再生成。差分はデータ行＋「時点」3箇所のみを確認。`dateModified` を固定値 `UPDATED(2026-06-23)` → `fetched`（取得日）に変更。
+- **週次組込**: `[4.3/7]` 全銘柄パッチ（WARN をログに残す）→ `[4.4/7]` 県ハブ47再生成 → `[7/7]` 変更 slug のリーフ dir 部分 rsync＋`tier2/<pref>/index.html` 47本を同期（tier2 全体の `--exclude` は維持）。
+- **デプロイ**: build EXIT0（3,006ページ）→ `*.txt` 削除（robots.txt 保全）→ root rsync（--exclude functions/tier2/_not-found）＋部分同期 2,068＋47 → precheck **全項目OK**。after: tier2 リーフ **10/5=2,350・6/29=47・8/3=0**、ハブ47=10/5。
+- **buildId について**: 毎ビルドで全 HTML の RSC ペイロード内 `"b":"<buildId>"` が変わるため deploy のコミットは毎回 ~2,700 ファイル。同期しない tier2 ページに残る旧 buildId はファイル参照ではなく、全 HTML の `/_next/static/` 参照は実在を確認（precheck とは別に python で全3,007 HTML を走査）。`_headers` は deploy リポに存在しない（存在前提の記述は誤り）。
+- **残課題**: 県ハブの「2026-10-05時点」は最高額銘柄の取得日を全体に当てている（glenfarclas-105 行だけ 6/29 データ）→10/12 にキー修正で解消見込み。`_not-found/index.html` は rsync 除外のまま古い CSS を参照（404.html は更新される・実害なし）。

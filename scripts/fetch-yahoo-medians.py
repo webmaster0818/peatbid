@@ -38,7 +38,8 @@ BRAND_QUERIES = {
     "bowmore-nv": "ボウモア No.1 700ml",
     "talisker-nv": "タリスカー ストーム 700ml",
     "laphroaig-nv": "ラフロイグ セレクト 700ml",
-    "glenfarclas-nv": "グレンファークラス 105 700ml",
+    # brands.csv の slug は glenfarclas-105（キーが旧 glenfarclas-nv のままで SKIP され、2026-06-29 で固定されていた。2026-10-08 修正）
+    "glenfarclas-105": "グレンファークラス 105 700ml",
     "springbank-10": "スプリングバンク10年 700ml",
     "yamazaki-12": "山崎12年",
     "yamazaki-18": "山崎18年",

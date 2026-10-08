@@ -85,7 +85,7 @@ def gen(pref_key):
         {"@type": "ListItem", "position": 3, "name": f"{name}のウイスキー買取", "item": f"https://peatbid.com/tier2/{pref_key}/"}]}
     article_ld = {"@context": "https://schema.org", "@type": "Article",
                   "headline": f"{name}のウイスキー買取｜実売相場とおすすめ業者【2026年最新】",
-                  "datePublished": "2026-05-22", "dateModified": UPDATED,
+                  "datePublished": "2026-05-22", "dateModified": fetched,
                   "author": {"@type": "Organization", "name": "PeatBid編集部"},
                   "publisher": {"@type": "Organization", "name": "PeatBid"}}
     itemlist_ld = {"@context": "https://schema.org", "@type": "ItemList", "name": f"{name}のウイスキー銘柄別 実売相場", "itemListElement": items}

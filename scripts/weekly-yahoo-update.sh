@@ -117,12 +117,23 @@ echo "[$(date '+%H:%M:%S')] 📝 [4/7] angle ページ再生成（v3）"
 echo "[$(date '+%H:%M:%S')] 📝 [4.2/7] 真贋ハブ再生成（CVブロックの実勢中央値を週次更新）"
 /opt/homebrew/bin/python3 scripts/gen-nisemono-brand-hubs.py
 
-echo "[$(date '+%H:%M:%S')] 📝 [4.3/7] サンプル不足銘柄の tier2 リーフ鮮度更新（取得日・n・最終更新を差し替え）"
+echo "[$(date '+%H:%M:%S')] 📝 [4.3/7] 全銘柄の tier2 リーフ鮮度更新（中央値・取得日・n・最終更新・dateModified を brands.csv に同期）"
 # tier2 は全再生成禁止（price-history JSON の型不一致でビルドが落ちる・CLAUDE.md 2026-10-04）。
-# 既存リーフへの文字列差し替えのみ行い、変更があった slug を記録して [7/7] で部分 rsync する。
+# 既存リーフへの文字列差し替えのみ行い（2026-10-08 から全51銘柄・記事側と同じ brands.csv が出典）、
+# 変更があった slug を記録して [7/7] で部分 rsync する。検証NG（⚠️）のページは書き換えずログに残る。
 TIER2_PATCHED="/tmp/peatbid-tier2-patched.txt"
 : > "$TIER2_PATCHED"
-/opt/homebrew/bin/python3 scripts/patch-tier2-yahoo-freshness.py --out-slugs "$TIER2_PATCHED" 2>&1 | tail -8
+/opt/homebrew/bin/python3 scripts/patch-tier2-yahoo-freshness.py --out-slugs "$TIER2_PATCHED" 2>&1 \
+  | tee /tmp/peatbid-tier2-patch.log | grep -E "⚠️|✓ patch" | tail -12
+
+echo "[$(date '+%H:%M:%S')] 📝 [4.4/7] 県ハブ47ページ再生成（相場表・取得日時点・dateModified を brands.json に同期）"
+# gen-tier2-area.py は brands.json だけを読む（price-history を触らない）ので再生成して問題ない（2026-10-08 に全47県で差分がデータ行のみと確認）
+/opt/homebrew/bin/python3 scripts/gen-tier2-area.py $(/opt/homebrew/bin/python3 -c "
+import importlib.util
+spec = importlib.util.spec_from_file_location('p', '$SRC/data/prefectures.py')
+m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+print(' '.join(m.PREFECTURES.keys()))
+") 2>&1 | tail -2
 
 echo "[$(date '+%H:%M:%S')] 📈 [4.5/7] 相場ランキング・データ再生成（B：更新型コンテンツ）"
 /opt/homebrew/bin/python3 scripts/generate-souba-ranking.py
@@ -172,6 +183,17 @@ if [ -s "$TIER2_PATCHED" ]; then
   done < "$TIER2_PATCHED"
   echo "[$(date '+%H:%M:%S')]   ↳ tier2 部分同期: $(wc -l < "$TIER2_PATCHED" | tr -d ' ') 銘柄 / ${n_synced} ページ"
 fi
+
+# [4.4/7] で再生成した県ハブ47ページ（tier2/<pref>/index.html だけ。配下のリーフ dir には触らない）
+n_hub=0
+for hub in "$SRC"/out/tier2/*/index.html; do
+  [ -f "$hub" ] || continue
+  rel="${hub#"$SRC"/out/}"
+  mkdir -p "$(dirname "$DEPLOY/$rel")"
+  rsync -a "$hub" "$DEPLOY/$rel"
+  n_hub=$((n_hub + 1))
+done
+echo "[$(date '+%H:%M:%S')]   ↳ 県ハブ同期: ${n_hub} ページ"
 
 cd "$DEPLOY"
 git add -A
