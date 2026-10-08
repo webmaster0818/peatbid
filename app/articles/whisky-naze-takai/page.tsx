@@ -104,7 +104,8 @@ export default function Page() {
         <div className="not-prose bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 text-center">
           <p className="font-bold text-ink mb-2">相場が上がっている今、価値を確認</p>
           <p className="text-sm text-warm-gray mb-4">無料一括査定で、複数業者の入札を一度に比較できます。</p>
-          <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm">無料一括査定で相場を調べる →</a>
+          <p className="text-xs text-warm-gray mb-3"><span className="inline-block align-middle border border-warm-gray/50 rounded px-1.5 py-0.5 mr-2 text-[11px] font-bold tracking-wide">PR</span>ヒカカク！（買取価格比較サイト・最大20社に一括査定）</p>
+          <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow sponsored" className="amber-cta inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm">無料一括査定で相場を調べる →</a>
         </div>
 
         <h2 id="faq">よくある質問</h2>
