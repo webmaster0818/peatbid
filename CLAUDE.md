@@ -280,3 +280,10 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **検証・デプロイ**: build EXIT0（3,005ページ・heap12288）→ `*.txt` 削除（robots.txt 保全）→ precheck **全項目OK** → 方式B フル rsync（`--exclude .git/_not-found/functions`・tier2 込み）→ deploy `e90757773f`（3,007 M・buildId 入替のみ D3）／ソース `204b812cd`。本番 curl（CF公開まで約3分）: tier2 東京×山崎12年 description「3業者参考リンク」・og:url=canonical・og:title/og:image 維持・「4業者」0件、TOP「3選/3社」、track-record「掲載3社」、yamazaki-12-kaitori「3社の比較」、hakushu-12-ranking「3社を、ランキング」、`POST /api/contact {}`→**400 missing fields**、robots に Sitemap 行、JS チャンク 200。
 - **数値（deploy リポの HTML、grep -o | wc -l）**: 「4業者」**16,390 → 0**（2,449ファイル→0）／「4社」（助言・744社・3〜4社を除く）**528 → 0**／tier2 の og:url **47（県ハブのみ）→ 2,444**（リーフ2,397＋ハブ47）。
 - ⚠️ `patch-tier2-buyer-count.py` は週次には組み込んでいない（生成器を直したので再生成でも「4」に戻らない。再生成自体は引き続き禁止）。10/12 週次後に tier2 の og:url と「3業者」が残っているかは要確認（週次は tier2 を `--exclude` ＋変更 slug の部分同期なので消えない見込み）。
+
+### 2026-10-09 ヒカカク口コミ受け皿 /articles/hikakaku-sake-kaitori-kuchikomi/ 競合差分の追加（12:00成長ルーチンC） ✅本番反映済み
+- 競合（10位以内）: bikejin「口コミ1,083件を調べて」（直近100件のテーマ分類・運営変遷・じげん開示の業績）／uridoki（運営を「ジラフ」と記載＝旧情報）／gamekaitori-biyori（運営変遷あり）／ecopolis（ジラフ表記）／minhyo（2.73・7件）。うちに無かった＝**運営の変遷**・**投稿時期の分析**・**商材別の口コミ抽出**
+- 足したもの（一次情報のみ）: ①公式クチコミ一覧13ページを全件取得し、投稿日を確認できた **1,078件**（上部内訳は1,083件・差5の理由は公式に記載なし）を年別集計（件数・平均・星1〜2割合。2020〜2023が938件、2025以降36件、最新2026-03-19）②**お酒を売った人の投稿26件**（星5×21・4×2・3×2・2×1、平均4.65）の要約8件と読み取り3点（定番銘柄は差が小さく希少品・状態不明品ほど差／返信は3〜5社の例が多い／古酒・焼酎・日本酒は値が付きにくい）③運営の変遷（ジラフ→会社分割で株式会社ヒカカク新設→じげんが全株取得→2024-10-01吸収合併。出典=じげん適時開示 2024-08-26 TDnet PDF）＋FAQ1問 ④お酒カテゴリ 52,971→**53,001点**（10/9）、dateModified 10/9（datePublished 10/8 は維持）
+- URL検査（10/9 作業前）: **URL is unknown to Google**（公開翌日）→ Indexing API 1/1 再送
+- precheck ✅全項目OK（3,005頁）。build heap12288 EXIT0 → `*.txt` 削除（robots.txt 保全）→ rsync（--exclude .git/_not-found/functions）→ source 8ab4bf088 / deploy 1d838d9d76。本番200・26件/運営の変遷/53,001点 反映（push後約3分）・/api/contact 400・robots Sitemap 行あり
+- 未実施: みん評（Cloudflare チャレンジで生HTML取得不可）は本文に使っていない
