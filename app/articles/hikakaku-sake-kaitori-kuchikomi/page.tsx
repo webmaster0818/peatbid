@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-const UPDATED = "2026-10-08";
-const UPDATED_JA = "2026年10月8日";
+const PUBLISHED = "2026-10-08";
+const UPDATED = "2026-10-09";
+const UPDATED_JA = "2026年10月9日";
 const URL = "https://peatbid.com/articles/hikakaku-sake-kaitori-kuchikomi/";
 const TITLE = "ヒカカクの酒買取 口コミ・評判は？ウイスキーを一括査定に出す流れと注意点【2026年10月】";
 const DESC =
@@ -14,6 +15,7 @@ const toc = [
   ["nagare", "ウイスキーを一括査定に出す流れ"],
   ["chuui", "お酒を出す前に知っておきたい注意点"],
   ["hyoban", "良い評判・気になる評判（出典付き）"],
+  ["sake-kuchikomi", "お酒を売った人のクチコミ26件（当サイト集計）"],
   ["muki", "向いている人・向かない人"],
   ["faq", "よくある質問"],
   ["shutten", "出典"],
@@ -39,6 +41,10 @@ const faqs = [
   {
     q: "査定結果はどのくらいで届きますか？",
     a: "公式の使い方ガイドには「査定結果については、最短1日で登録したアドレスにメールが届きます」とあります。ただし商品によっては買取不可となり、1社からも返信が来ないケースがあることもFAQに明記されています。",
+  },
+  {
+    q: "ヒカカク！の運営会社はジラフですか？",
+    a: "現在の運営は株式会社じげん（東証プライム）です。以前は株式会社ジラフが運営していましたが、じげんの適時開示（2024年8月26日）によると、ジラフの会社分割で新設された株式会社ヒカカクの全株式をじげんが取得し、2024年10月1日に吸収合併しました。公式の運営者情報もじげんになっています。",
   },
   {
     q: "悪い口コミが多いというのは本当ですか？",
@@ -89,7 +95,7 @@ export default function Page() {
     "@type": "Article",
     headline: TITLE,
     description: DESC,
-    datePublished: UPDATED,
+    datePublished: PUBLISHED,
     dateModified: UPDATED,
     mainEntityOfPage: URL,
     author: { "@type": "Organization", name: "PeatBid編集部", url: "https://peatbid.com/editorial/" },
@@ -130,8 +136,9 @@ export default function Page() {
           <p className="font-bold text-ink mb-2">この記事の結論（30秒）</p>
           <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
             <li>ヒカカク！は<strong>買取店を紹介する比較サイト</strong>で、自社では買い取らない。利用は<strong>完全無料</strong>、最大20社から査定結果がメールで届く。</li>
-            <li>お酒カテゴリは<strong>744社・52,971点</strong>の掲載（2026年10月8日時点の公式カテゴリページ表記）。ウイスキーは「日用品・コスメ・食品・お酒」カテゴリから選ぶ。</li>
-            <li>公式クチコミは<strong>総合3.4・1,083件</strong>。良い声は「一度の入力で複数社から返事」「買取不可でも丁寧」、気になる声は「電話が多い」「見積もり業者が少ない・1社だけ」。</li>
+            <li>お酒カテゴリは<strong>744社・53,001点</strong>の掲載（2026年10月9日時点の公式カテゴリページ表記）。ウイスキーは「日用品・コスメ・食品・お酒」カテゴリから選ぶ。</li>
+            <li>公式クチコミは<strong>総合3.4・1,083件</strong>。良い声は「一度の入力で複数社から返事」「買取不可でも丁寧」、気になる声は「電話が多い」「見積もり業者が少ない・1社だけ」。投稿は2021〜2023年に集中し、最新は2026年3月（当サイトが一覧1,078件を年別に集計）。</li>
+            <li>お酒を売った人の投稿は<strong>26件で、うち21件が星5</strong>（平均4.65）。不満は「参加する業者が少ない」「古酒・焼酎・日本酒は値が付きにくい」に集中。</li>
             <li>向いているのは<strong>銘柄・本数が決まっていて、複数社の相見積もりを取りたい人</strong>。電話連絡を避けたい人や、1本だけ今すぐ現金化したい人には向かない。</li>
           </ul>
         </div>
@@ -157,16 +164,17 @@ export default function Page() {
             <tbody>
               <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2 w-36">サービス名</th><td className="px-3 py-2">ヒカカク！（買取価格比較サイト）</td></tr>
               <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">運営会社</th><td className="px-3 py-2">株式会社じげん（ZIGExN Co., Ltd.）東京都港区虎ノ門3-4-8／代表責任者 平尾 丈</td></tr>
+              <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">運営の変遷</th><td className="px-3 py-2">以前は株式会社ジラフが運営。2024年8月にジラフの会社分割で株式会社ヒカカクが新設され、じげんが全株式を取得、2024年10月1日に吸収合併（じげんの適時開示 2024年8月26日）。「運営はジラフ」と書かれた記事は旧情報です</td></tr>
               <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">許可</th><td className="px-3 py-2">古物営業法に基づき都道府県公安委員会の許可を取得と表記。アフィリエイトプログラムを利用したサービス紹介を行う旨も明記</td></tr>
               <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">料金</th><td className="px-3 py-2">完全無料（利用規約第6条「当社がユーザーに対して請求する費用は原則無料」）</td></tr>
               <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">査定社数</th><td className="px-3 py-2">最大20社から査定結果（買取不可の場合は返信が無いこともある）</td></tr>
               <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">買取方法</th><td className="px-3 py-2">宅配・出張・店頭から最大3つを希望として選択</td></tr>
-              <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">お酒カテゴリ</th><td className="px-3 py-2">掲載 52,971点・744社。直近1年の買取実績は「最低1円〜最高4,400,000円」と表示。サブカテゴリにウイスキー・日本酒・焼酎・ワイン・シャンパン・ブランデー等</td></tr>
+              <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">お酒カテゴリ</th><td className="px-3 py-2">掲載 53,001点・744社。直近1年の買取実績は「最低1円〜最高4,400,000円」と表示。サブカテゴリにウイスキー・日本酒・焼酎・ワイン・シャンパン・ブランデー等</td></tr>
               <tr><th className="text-left bg-cream px-3 py-2">利用規模</th><td className="px-3 py-2">「月間300万人以上が利用する買取比較サイト」（使い方ガイドの記載）</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-warm-gray">※ 数値はいずれも2026年10月8日に公式サイトの各ページを確認したもの。掲載点数・社数は日々変動します。</p>
+        <p className="text-xs text-warm-gray">※ 数値はいずれも2026年10月9日に公式サイトの各ページを確認したもの（前日10月8日は52,971点）。掲載点数・社数は日々変動します。</p>
         <p>
           押さえておきたいのは、<strong>ヒカカク！自身は買取をしない</strong>という点です。公式FAQに「買取業者のご紹介のみ行っており、査定や買取に関しましては直接買取業者よりご連絡」とあり、利用規約第5条でも「一切の買取業務は行わず、金銭の授受には関与しない」「取引の成立・内容について保証しない」と定められています。
           つまり、査定額の妥当性や対応の良し悪しは<strong>紹介先の買取店ごとに違う</strong>ため、届いた査定を比べて選ぶ作業が利用者側に残ります。
@@ -219,11 +227,11 @@ export default function Page() {
 
         <h2 id="hyoban">良い評判・気になる評判（出典付き）</h2>
         <p>
-          口コミは、ヒカカク！が自社サイトで公開している「ヒカカク！のクチコミ・評判」ページ（2026年10月8日確認）を出典にしています。本文の転載はせず、評価分布と内容の傾向だけを整理しました。
+          口コミは、ヒカカク！が自社サイトで公開している「ヒカカク！のクチコミ・評判」ページ（2026年10月8日確認・10月9日に全ページを再確認）を出典にしています。本文の転載はせず、評価分布と内容の傾向だけを整理しました。
         </p>
         <div className="not-prose overflow-x-auto my-4">
           <table className="w-full text-sm border border-warm-border">
-            <thead className="bg-cream"><tr><th className="text-left px-3 py-2">項目</th><th className="text-left px-3 py-2">公式クチコミページの表示（2026年10月8日時点）</th></tr></thead>
+            <thead className="bg-cream"><tr><th className="text-left px-3 py-2">項目</th><th className="text-left px-3 py-2">公式クチコミページの表示（2026年10月9日時点・前日から変化なし）</th></tr></thead>
             <tbody>
               <tr className="border-t border-warm-border"><td className="px-3 py-2">総合評価</td><td className="px-3 py-2">3.4（5点満点）</td></tr>
               <tr className="border-t border-warm-border"><td className="px-3 py-2">件数の内訳</td><td className="px-3 py-2">星5：425件／星4：200件／星3：106件／星2：86件／星1：266件（合計1,083件）</td></tr>
@@ -248,7 +256,43 @@ export default function Page() {
         <p>
           公式のお酒カテゴリページには、紹介先の買取店（買取大吉・おたからや・リカージョイなど）に対する利用者のクチコミが掲載されています。2026年10月上旬の投稿では、「事前にヒカカクで査定してから店舗に行くとスムーズだった」というウイスキー3本の売却例がある一方で、電話対応や連絡時間への不満も投稿されています。<strong>評価はヒカカク！そのものより、紹介先の業者ごとに分かれる</strong>というのがカテゴリ欄から読み取れる傾向です。
         </p>
-        <p className="text-xs text-warm-gray">※ 口コミの件数・評価は公式サイトの表示を転記したもので、当サイトが集計したものではありません。投稿本文の引用はしていません。</p>
+        <p className="text-xs text-warm-gray">※ この章の口コミの件数・評価は公式サイトの表示を転記したものです。投稿本文の引用はしていません。</p>
+
+        <h3>投稿の時期と評価の推移（当サイトが年別に集計）</h3>
+        <p>
+          公式クチコミの一覧（全13ページ）に載っている投稿を、2026年10月9日に1件ずつ投稿日と星の数で数えました。ページ上部の内訳は1,083件ですが、一覧で投稿日を確認できたのは<strong>1,078件</strong>です（星5が3件・星4が2件少ない。差の理由は公式に記載がありません）。
+        </p>
+        <div className="not-prose overflow-x-auto my-4">
+          <table className="w-full text-sm border border-warm-border">
+            <thead className="bg-cream"><tr><th className="text-left px-3 py-2">投稿年</th><th className="text-left px-3 py-2">件数</th><th className="text-left px-3 py-2">平均の星</th><th className="text-left px-3 py-2">星1〜2の割合</th></tr></thead>
+            <tbody>
+              <tr className="border-t border-warm-border"><td className="px-3 py-2">2020年（6月〜）</td><td className="px-3 py-2">195件</td><td className="px-3 py-2">3.54</td><td className="px-3 py-2">27.2%</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2021年</td><td className="px-3 py-2">268件</td><td className="px-3 py-2">3.62</td><td className="px-3 py-2">27.2%</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2022年</td><td className="px-3 py-2">261件</td><td className="px-3 py-2">3.28</td><td className="px-3 py-2">36.0%</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2023年</td><td className="px-3 py-2">214件</td><td className="px-3 py-2">3.04</td><td className="px-3 py-2">42.5%</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2024年</td><td className="px-3 py-2">104件</td><td className="px-3 py-2">3.33</td><td className="px-3 py-2">34.6%</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2025年</td><td className="px-3 py-2">33件</td><td className="px-3 py-2">4.06</td><td className="px-3 py-2">12.1%</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2026年（〜3月19日）</td><td className="px-3 py-2">3件</td><td className="px-3 py-2">3.33</td><td className="px-3 py-2">（件数が少なく参考外）</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          <strong>投稿の8割以上（938件）は2020〜2023年のもの</strong>で、2025年以降は36件しかありません。公式ページの見出しは「2026年10月最新」ですが、最新の投稿は2026年3月19日です。星1〜2の割合は2023年に42.5%まで上がり、2025年は12.1%に下がっていますが、件数が少ない年の数字は振れやすく、「最近は良くなった」と言い切れるほどの材料ではありません。
+        </p>
+
+        <h2 id="sake-kuchikomi">お酒を売った人のクチコミ26件（当サイト集計）</h2>
+        <p>
+          1,078件のうち、本文から<strong>お酒（ウイスキー・ブランデー・ワイン・シャンパン・日本酒など）を査定に出したと読める投稿は26件</strong>でした（酒・銘柄名を含む投稿を全件読んで判定。別の品の査定で「お酒はないか」と聞かれた話は除外）。星の内訳は<strong>星5が21件・星4が2件・星3が2件・星2が1件、平均4.65</strong>で、全体の3.4より高めです。最新は2025年3月で、2023年12月以降は3件だけです。
+        </p>
+        <div className="not-prose overflow-x-auto my-4">
+          <table className="w-full text-sm border border-warm-border">
+            <thead className="bg-cream"><tr><th className="text-left px-3 py-2">投稿日</th><th className="text-left px-3 py-2">星</th><th className="text-left px-3 py-2">内容の要約</th></tr></thead>
+            <tbody>
+              <tr className="border-t border-warm-border"><td className="px-3 py-2">2021年8月</td><td className="px-3 py-2">5</td><td className="px-3 py-2">日本酒2本。最初の店は2本で51,000円、数店で競合して最終70,000円</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2022年1月</td><td className="px-3 py-2">5</td><td className="px-3 py-2">マッカラン18年はどこの見積もりも大差なし。コルクの状態が分かりにくいスコッチは提示にかなりばらつき</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2022年6月</td><td className="px-3 py-2">5</td><td className="px-3 py-2">入手困難なジャパニーズ2本をセットで55万円。査定のばらつきが大きく、平均より5〜10万円高く売れた</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2022年4月</td><td className="px-3 py-2">5</td><td className="px-3 py-2">山崎12年・シーバスリーガル12年は想像以上の高値。焼酎・日本酒は提示が低く売るのをやめた</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2025年2月</td><td className="px-3 py-2">3</td><td className="px-3 py-2">1941年のブランデー（200ml・箱付き）に買取価格が付かなかった</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2022年2月</td><td className="px-3 py-2">2</td><td className="px-3 py-2">酒の買取店で比較したが参加する店が少なく、自分で探した</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2020年9月</td><td className="px-3 py-2">3</td><td className="px-3 py-2">ヘネシーXO。最大20件とあるが査定は数件だった（対応は親切）</td></tr><tr className="border-t border-warm-border"><td className="px-3 py-2">2023年9月</td><td className="px-3 py-2">4</td><td className="px-3 py-2">山崎10年。数社から提示があり、宅配キットで送った</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          ウイスキーを売る人が読み取れるのは3点です。1つ目は、<strong>流通量の多い定番銘柄は業者間の差が小さく、状態が見えにくいボトルや希少品ほど差が開く</strong>こと。マッカラン18年で大差がなく、コルクの状態が伝わりにくいスコッチや入手困難なジャパニーズでばらついたのはこの典型です。希少品ほど一括査定の意味があり、写真や備考で状態を伝えるほど差が縮まります。2つ目は、<strong>返ってくる業者は3〜5社程度</strong>という例が多いこと（社数が書かれた投稿ではシャンパン3点で4社、シャンパン・ウイスキーで4店舗、お酒8本で3店舗、お酒で5店舗）。最大20社が届くとは考えない方が現実的です。3つ目は、<strong>古酒・焼酎・日本酒など値の付きにくい酒は、提示が無いか低い</strong>ことで、こうした酒は相続のまとめ売りに混ぜる方が扱ってもらいやすくなります。
+        </p>
+        <p>
+          手持ちの銘柄に一括査定を使うだけの価値があるかは、<Link href="/souba-ranking/">相場ランキング</Link>や各銘柄の買取ページにある実勢価格（取得日・件数つき）で先に見当を付けてください。
+        </p>
+        <p className="text-xs text-warm-gray">※ 総合評価・星別の件数は公式サイトの表示を転記したものです。年別の件数・平均・割合と、お酒に関する投稿の抽出・要約は、公式の一覧（2026年10月9日時点）を当サイトが数えたものです。投稿本文の引用はしていません。表は26件のうち内容に具体性がある8件を抜き出したものです。</p>
 
         <h2 id="muki">向いている人・向かない人</h2>
         <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-4">
@@ -293,6 +337,7 @@ export default function Page() {
           <li><a href="https://hikakaku.com/%e3%82%88%e3%81%8f%e3%81%82%e3%82%8b%e3%81%94%e8%b3%aa%e5%95%8f/" target="_blank" rel="noopener noreferrer nofollow">ヒカカク！ よくあるご質問（紹介のみ・キャンセル・情報変更・削除・配信停止）</a></li>
           <li><a href="https://hikakaku.com/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84/" target="_blank" rel="noopener noreferrer nofollow">ヒカカク！ サイト利用規約（第4〜6条・最終改定2024年10月1日）</a></li>
           <li><a href="https://hikakaku.com/pages/company/" target="_blank" rel="noopener noreferrer nofollow">運営者情報</a>／<a href="https://hikakaku.com/pages/kobutsu_hyoki/" target="_blank" rel="noopener noreferrer nofollow">古物営業法に基づく表記</a></li>
+          <li><a href="https://www2.jpx.co.jp/disc/36790/140120240826576688.pdf" target="_blank" rel="noopener noreferrer nofollow">株式会社じげん「株式会社ヒカカクの株式取得（連結子会社化）及び吸収合併（簡易合併）に関するお知らせ」（2024年8月26日・適時開示）</a></li>
         </ul>
         <p className="text-xs text-warm-gray not-prose border-t border-warm-border pt-4 mt-8">
           ※ いずれも{UPDATED_JA}に公式サイトの生ページを確認して記載しています。サービス内容・件数は変更されることがあるため、最新情報は公式サイトでご確認ください。本記事はPRリンクを含みます。
