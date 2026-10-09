@@ -186,10 +186,10 @@ export default function Home() {
             Recommended Buyback Partners
           </p>
           <h2 className="font-display text-3xl md:text-4xl font-semibold text-ink text-center mb-3">
-            おすすめ買取業者4選
+            おすすめ買取業者3選
           </h2>
           <p className="text-warm-gray text-sm text-center mb-10">
-            ウイスキー買取に強い4社をPeatBid編集部が厳選。目的に合わせて使い分けるのがコツです。
+            ウイスキー買取に強い3社をPeatBid編集部が厳選。目的に合わせて使い分けるのがコツです。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {services.map((s) => (

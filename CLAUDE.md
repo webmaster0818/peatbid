@@ -270,3 +270,10 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 酒切り口: カテゴリ「日用品・コスメ・食品・お酒」→ウイスキー、未開封/液面/箱を備考に、高額銘柄は銘柄ページの実勢で照合、相続まとめ売りは出張・宅配
 - 内部リンク元: 記事一覧チップ / whisky-sell-guide / whisky-kaitori-souba（関連記事カード）/ whisky-takaku-uru（同）/ whisky-souzoku-baikyaku / faq。sitemap 3005 URL（generate-sitemap.mjs が app/articles/* を列挙＝自動）
 - precheck: 初回「og:image が無い」不合格（自前openGraphがlayoutのimagesを上書き）→ `images:["/og-image.png"]` 追加→✅全項目OK。ビルド12288で2回・各約10分
+
+### 2026-10-09 P2: 「4業者」「4社」表記を実数「3」に修正（tier2 2,397＋kaitori 51＋ranking 51＋手書き5＋TOP）＋ tier2 に og:url
+- **事実確認**: 全ページで実際に掲載している業者は **3社**。tier2・kaitori「参考リンク」・takaku-uru・hibiki/yamazaki ハブ＝LINXAS／バイセル／福ちゃん、kaitori「おすすめ買取業者」・ranking 1〜3位・TOP・track-record＝ヒカカク！／バイセル／リカスタ。「4」は 8/4 の JOYLAB 撤去後に文言だけ残ったもの（tier2 生成器の `<ul>` には空行が1つ残っている＝4つ目があった痕跡）。
+- **触らなかった「4社」**: ranking 本文の「最低3社、できれば4社以上で相見積もり」（相見積もりの助言。業者数ではない）、kuchikomi の「744社」「3〜4社から結果が届く」（ヒカカク公式の掲載社数・口コミ傾向）。
+- **生成器（再生成で戻らないように）**: `generate-tier2-v4-plan-a.py`（description 2種・intro 4種・本文・h3「主要4業者」＝全 4業者→3業者。metadata に `openGraph: { url: canonical, images: ["/og-image.png"] }` 追加）／`generate-brand-pages-v3.py`（meta description 2種・TOC「10. おすすめ買取業者4社」・h2・「下記の4業者ページ」）／`generate-angle-pages-v3.py`（ranking intro「買取業者4社を、ランキング形式で」）／`patch-tier2-yahoo-freshness.py` の description 正規表現を `[34]業者` に（新旧どちらの文言でも週次パッチが効く）。
+- **tier2 は全再生成せず** `scripts/patch-tier2-buyer-count.py` 新設（冪等・app/tier2 の page.tsx を文字列差し替え。掲載リンクが3本でないページはスキップして WARN）。結果: 対象 2,397 / 変更 2,397 / スキップ 0。「4業者」出現 **5,746 → 0**（page.tsx ベース）。og:url は canonical と同値を 2,397 ページに追加（page 側で openGraph を持つと layout の images が継承されないので images を明記＝10/5 の教訓）。2回目実行で変更 0 を確認。
+- **記事**: kaitori 51 と ranking 51（459 angle のうち）は週次と同じ生成器を回して再生成。`git diff` で 4→3 以外の差分 0 行を確認（brands.csv は 10/5 のまま＝価格・日付は不変）。手書き: `app/page.tsx`（「4選」「4社」）・`track-record`（「掲載4社」）・`whisky-takaku-uru`・`hibiki-kaitori`・`yamazaki-kaitori`。

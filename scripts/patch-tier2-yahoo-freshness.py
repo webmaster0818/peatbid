@@ -72,12 +72,12 @@ RE_S_LIST = re.compile(r"(</strong>: )" + YEN + r"（" + YEN + r"（Yahoo Auctio
 RE_S_BASIS = re.compile(r"(市場相場（Yahoo中央値 )" + YEN + r"）")
 
 # 十分 → 不足 への変換（sufficient=False 分岐と同文言）
-RE_S2I_DESC = re.compile(r"売却するなら？市場相場 " + YEN + r"（Yahoo Auctions 過去180日中央値）、(.+?地方の地元業者と4業者参考リンクを掲載。)\"")
+RE_S2I_DESC = re.compile(r"売却するなら？市場相場 " + YEN + r"（Yahoo Auctions 過去180日中央値）、(.+?地方の地元業者と[34]業者参考リンクを掲載。)\"")
 
 # 不足 → 十分 への変換（sufficient=True 分岐と同文言）
 INSUFF_SENT = r"現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません（取得日 " + DATE + r"、サンプル数 n=\d+）"
 RE_I_TITLE = re.compile(r"｜業者比較・買取査定ガイド\"")
-RE_I_DESC = re.compile(r"売却するなら？(.+?地方の地元業者と4業者参考リンクを掲載。)市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。\"")
+RE_I_DESC = re.compile(r"売却するなら？(.+?地方の地元業者と[34]業者参考リンクを掲載。)市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。\"")
 RE_I_FAQ = re.compile(r"(\\u306f )" + re.escape(LABEL_INSUFF_ESC) + r"(\\uff08Yahoo Auctions )")
 RE_I_MEDIAN = re.compile(r"(<strong>)" + LABEL_INSUFF + r"(</strong>です（)" + INSUFF_SENT)
 RE_I_LIST = re.compile(r"(</strong>: )" + LABEL_INSUFF + r"（" + INSUFF_SENT)

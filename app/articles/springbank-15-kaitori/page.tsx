@@ -6,7 +6,7 @@ import priceData from "@/data/price-history/springbank-15.json";
 
 export const metadata: Metadata = {
   title: '【毎週更新】スプリングバンク15年の買取相場｜ヤフオク落札中央値35,099円基準【2026年10月】',
-  description: 'スプリングバンク15年の買取相場は35,099円が目安（毎週月曜更新・ヤフオク実落札の中央値・過去180日のIQR外れ値除去後、n=136件）。箱なし・開封済み等の状態別の査定目安、買取業者4社の比較、高く売るコツまで実データで解説。',
+  description: 'スプリングバンク15年の買取相場は35,099円が目安（毎週月曜更新・ヤフオク実落札の中央値・過去180日のIQR外れ値除去後、n=136件）。箱なし・開封済み等の状態別の査定目安、買取業者3社の比較、高く売るコツまで実データで解説。',
 };
 
 function FaqSchema() {
@@ -23,7 +23,7 @@ const tocItems = [
   { id: "auction", label: "7. オークション落札データ" },
   { id: "takaku-uru", label: "8. 高く売る7つの実践テクニック" },
   { id: "fake", label: "9. 偽物・贋作の見分け方" },
-  { id: "partners", label: "10. おすすめ買取業者4社" },
+  { id: "partners", label: "10. おすすめ買取業者3社" },
   { id: "process", label: "11. 売却プロセス5ステップ" },
   { id: "faq", label: "12. よくある質問" },
 ];
@@ -146,7 +146,7 @@ export default function Springbank15KaitoriPage() {
 
           <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、**最低3社、できれば4社以上で相見積もり**を取ることをおすすめします。</p>
 
-          <p>本サイトでは下記の4業者ページへのリンクを参考として提示しています（各社の最新の査定額・キャンペーンは直接ご確認ください）:</p>
+          <p>本サイトでは下記の3業者ページへのリンクを参考として提示しています（各社の最新の査定額・キャンペーンは直接ご確認ください）:</p>
 
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店</li>
@@ -291,7 +291,7 @@ export default function Springbank15KaitoriPage() {
 
           <p>怪しいと思ったら、お酒買取の専門店で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
 
-          <h2 id="partners">10. おすすめ買取業者4社の詳細レビュー</h2>
+          <h2 id="partners">10. おすすめ買取業者3社の詳細レビュー</h2>
 
           <p>PeatBid編集部がスプリングバンク15年クラスの銘柄に強い買取業者を厳選しました。それぞれ得意領域が異なるため、目的別に使い分けるのがコツです。</p>
 

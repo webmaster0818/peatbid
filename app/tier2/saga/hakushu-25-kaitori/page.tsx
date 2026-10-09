@@ -6,8 +6,9 @@ import priceData from "@/data/price-history/hakushu-25.json";
 
 export const metadata: Metadata = {
   title: "【2026年最新】佐賀県で白州25年を売る｜市場相場(Yahoo中央値)¥21,000・業者比較",
-  description: "佐賀県（佐賀・唐津・鳥栖・伊万里）で白州25年を売却するなら？市場相場 ¥21,000（Yahoo Auctions 過去180日中央値）、九州地方の地元業者と4業者参考リンクを掲載。",
+  description: "佐賀県（佐賀・唐津・鳥栖・伊万里）で白州25年を売却するなら？市場相場 ¥21,000（Yahoo Auctions 過去180日中央値）、九州地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/saga/hakushu-25-kaitori/" },
+  openGraph: { url: "https://peatbid.com/tier2/saga/hakushu-25-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 
@@ -55,7 +56,7 @@ export default function Page() {
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           <h2>1. 佐賀県における白州25年の市場概況</h2>
-          <p>白州25年の買取を佐賀県で検討中の方へ。80万人が居住する佐賀県（佐賀・唐津・鳥栖・伊万里、31万世帯）には、地域密着業者と全国大手の両方が対応しており、相見積もりで高値が出やすい環境です。佐賀県の酒類消費は全国40位前後で、洋酒市場も活発。本ページでは Yahoo中央値ベースの市場相場と、4業者への参考リンクを掲載しています。</p>
+          <p>白州25年の買取を佐賀県で検討中の方へ。80万人が居住する佐賀県（佐賀・唐津・鳥栖・伊万里、31万世帯）には、地域密着業者と全国大手の両方が対応しており、相見積もりで高値が出やすい環境です。佐賀県の酒類消費は全国40位前後で、洋酒市場も活発。本ページでは Yahoo中央値ベースの市場相場と、3業者への参考リンクを掲載しています。</p>
           <p>九州西部、佐賀市・唐津市を中心に買取需要。そのため白州25年のようなjapanese-whiskyカテゴリの銘柄も二次流通が活発で、複数の買取業者が出張・店頭・宅配で対応しています。</p>
           <p>佐賀県には<strong>地域密着の専門業者</strong>と<strong>全国対応の大手</strong>の両方があるため、複数業者で見積もりを比較できる環境です。</p>
 
@@ -118,7 +119,7 @@ export default function Page() {
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変動する場合があります。事前に公式サイトで確認するか、複数業者へ同時に査定依頼を出すのがおすすめです。</p>
 
-          <h3 className="!mt-6">5-2. 全国対応の主要4業者（最新査定額の取得先）</h3>
+          <h3 className="!mt-6">5-2. 全国対応の主要3業者（最新査定額の取得先）</h3>
           <p>本サイトでは買取額の固定値は提示せず、各業者の最新の査定額・キャンペーン情報を以下の公式ページから直接確認できます。地元業者と合わせて、最低 3〜5 社で相見積もりするのが推奨です。</p>
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店。白州25年のようなultraクラス銘柄の参考価格を公開</li>

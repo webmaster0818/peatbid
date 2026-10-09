@@ -13,7 +13,7 @@ const stats = [
   { value: "5源", label: "データソース", desc: "国内業者・海外オークション・個人取引・業界紙・公式情報" },
   { value: "毎日", label: "相場チェック", desc: "海外オークション結果を日次モニタ" },
   { value: "8項目", label: "状態別係数", desc: "未開封完璧〜開封済み半分以下まで" },
-  { value: "100%", label: "無料査定推奨", desc: "PeatBid掲載4社すべて査定・キャンセル無料" },
+  { value: "100%", label: "無料査定推奨", desc: "PeatBid掲載3社すべて査定・キャンセル無料" },
 ];
 
 const coverage = [

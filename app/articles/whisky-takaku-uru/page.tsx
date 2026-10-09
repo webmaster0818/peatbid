@@ -117,7 +117,7 @@ export default function WhiskyTakakuUruPage() {
             <li><strong>レビュー・口コミが安定している</strong></li>
           </ul>
 
-          <p>本サイトでは編集部基準で選定した4業者の参考リンクを掲載しています：</p>
+          <p>本サイトでは編集部基準で選定した3業者の参考リンクを掲載しています：</p>
 
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店</li>

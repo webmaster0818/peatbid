@@ -6,7 +6,7 @@ import brandsData from "@/data/brands.json";
 export const metadata: Metadata = {
   title: "響の買取相場2026 — NV/17年/21年/30年の全銘柄を徹底解説 [業者比較+高く売る7つのコツ]",
   description:
-    "響シリーズ全銘柄（NV/17年/21年/30年）の市場相場（Yahoo Auctions 過去180日落札中央値）、銘柄ごとのテイスティング・価格背景、状態別の業界目安、高く売る7つのテクニック、偽物の見分け方、おすすめ業者4社比較、売却プロセス5ステップ、FAQ 10問まで網羅。",
+    "響シリーズ全銘柄（NV/17年/21年/30年）の市場相場（Yahoo Auctions 過去180日落札中央値）、銘柄ごとのテイスティング・価格背景、状態別の業界目安、高く売る7つのテクニック、偽物の見分け方、おすすめ業者3社比較、売却プロセス5ステップ、FAQ 10問まで網羅。",
 };
 
 type Brand = {
@@ -86,7 +86,7 @@ export default function HibikiKaitoriPage() {
               <li>状態別の業界目安と査定額に影響する要素</li>
               <li>響を高く売るための実践テクニック7つ</li>
               <li>偽物・贋作を見分けるチェックポイント</li>
-              <li>おすすめ買取業者4社の比較と選び方</li>
+              <li>おすすめ買取業者3社の比較と選び方</li>
               <li>売却プロセスの5ステップ完全ガイド</li>
             </ul>
           </div>
@@ -281,9 +281,9 @@ export default function HibikiKaitoriPage() {
             <p className="text-sm text-warm-gray leading-relaxed">「もしかして偽物では？」と少しでも感じたら、ウイスキー専門の買取業者で<strong>真贋鑑定を含む査定</strong>を依頼するのが安全です。専門業者は鑑定経験が豊富で、買取後の流通責任を負う立場から、無料で鑑定を行ってくれるケースが多くなっています。</p>
           </div>
 
-          <h2 id="partners">おすすめ買取業者4社の特徴と選び方</h2>
+          <h2 id="partners">おすすめ買取業者3社の特徴と選び方</h2>
 
-          <p>響の買取に対応している主要業者は多数ありますが、響シリーズに適した販路と査定体制を持つ業者を選ぶことで、最終手取り額が大きく変わります。ここでは、編集部が選定した主要4社の特徴を整理します。</p>
+          <p>響の買取に対応している主要業者は多数ありますが、響シリーズに適した販路と査定体制を持つ業者を選ぶことで、最終手取り額が大きく変わります。ここでは、編集部が選定した主要3社の特徴を整理します。</p>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">参考買取相場（各業者公式ページ）</h3>

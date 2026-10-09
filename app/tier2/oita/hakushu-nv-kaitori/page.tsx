@@ -6,8 +6,9 @@ import priceData from "@/data/price-history/hakushu-nv.json";
 
 export const metadata: Metadata = {
   title: "【2026年最新】大分県で白州ノンエイジを売る｜市場相場(Yahoo中央値)¥10,051・業者比較",
-  description: "大分県（大分・別府・中津・佐伯）で白州ノンエイジを売却するなら？市場相場 ¥10,051（Yahoo Auctions 過去180日中央値）、九州地方の地元業者と4業者参考リンクを掲載。",
+  description: "大分県（大分・別府・中津・佐伯）で白州ノンエイジを売却するなら？市場相場 ¥10,051（Yahoo Auctions 過去180日中央値）、九州地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/oita/hakushu-nv-kaitori/" },
+  openGraph: { url: "https://peatbid.com/tier2/oita/hakushu-nv-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 
@@ -55,7 +56,7 @@ export default function Page() {
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           <h2>1. 大分県における白州ノンエイジの市場概況</h2>
-          <p>白州ノンエイジの買取を大分県で検討中の方へ。115万人が居住する大分県（大分・別府・中津・佐伯、49万世帯）には、地域密着業者と全国大手の両方が対応しており、相見積もりで高値が出やすい環境です。大分県の酒類消費は全国43位前後（焼酎文化）で、洋酒市場も活発。本ページでは Yahoo中央値ベースの市場相場と、4業者への参考リンクを掲載しています。</p>
+          <p>白州ノンエイジの買取を大分県で検討中の方へ。115万人が居住する大分県（大分・別府・中津・佐伯、49万世帯）には、地域密着業者と全国大手の両方が対応しており、相見積もりで高値が出やすい環境です。大分県の酒類消費は全国43位前後（焼酎文化）で、洋酒市場も活発。本ページでは Yahoo中央値ベースの市場相場と、3業者への参考リンクを掲載しています。</p>
           <p>九州東部の主要都市、大分市を中心に買取需要。そのため白州ノンエイジのようなjapanese-whiskyカテゴリの銘柄も二次流通が活発で、複数の買取業者が出張・店頭・宅配で対応しています。</p>
           <p>大分県には<strong>地域密着の専門業者</strong>と<strong>全国対応の大手</strong>の両方があるため、複数業者で見積もりを比較できる環境です。</p>
 
@@ -118,7 +119,7 @@ export default function Page() {
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変動する場合があります。事前に公式サイトで確認するか、複数業者へ同時に査定依頼を出すのがおすすめです。</p>
 
-          <h3 className="!mt-6">5-2. 全国対応の主要4業者（最新査定額の取得先）</h3>
+          <h3 className="!mt-6">5-2. 全国対応の主要3業者（最新査定額の取得先）</h3>
           <p>本サイトでは買取額の固定値は提示せず、各業者の最新の査定額・キャンペーン情報を以下の公式ページから直接確認できます。地元業者と合わせて、最低 3〜5 社で相見積もりするのが推奨です。</p>
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店。白州ノンエイジのようなcommonクラス銘柄の参考価格を公開</li>

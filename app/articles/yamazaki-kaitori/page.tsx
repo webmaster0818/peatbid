@@ -252,9 +252,9 @@ export default function YamazakiKaitoriPage() {
             <p className="text-sm text-warm-gray leading-relaxed">「もしかして偽物では？」と少しでも感じたら、ウイスキー専門の買取業者で<strong>真贋鑑定を含む査定</strong>を依頼するのが安全です。専門業者は鑑定経験が豊富で、買取後の流通責任を負う立場から、無料で鑑定を行ってくれるケースが多くなっています。</p>
           </div>
 
-          <h2 id="partners">おすすめ買取業者4社の特徴と選び方</h2>
+          <h2 id="partners">おすすめ買取業者3社の特徴と選び方</h2>
 
-          <p>山崎の買取に対応している主要業者は多数ありますが、山崎シリーズに適した販路と査定体制を持つ業者を選ぶことで、最終手取り額が大きく変わります。ここでは、編集部が選定した主要4社の特徴を整理します。</p>
+          <p>山崎の買取に対応している主要業者は多数ありますが、山崎シリーズに適した販路と査定体制を持つ業者を選ぶことで、最終手取り額が大きく変わります。ここでは、編集部が選定した主要3社の特徴を整理します。</p>
 
           <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
             <div className="border border-warm-border bg-white rounded-lg p-5">

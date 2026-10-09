@@ -6,8 +6,9 @@ import priceData from "@/data/price-history/springbank-21.json";
 
 export const metadata: Metadata = {
   title: "【2026年最新】秋田県でスプリングバンク21年を売る｜市場相場(Yahoo中央値)¥103,613・業者比較",
-  description: "秋田県（秋田・横手・大仙・能代）でスプリングバンク21年を売却するなら？市場相場 ¥103,613（Yahoo Auctions 過去180日中央値）、東北地方の地元業者と4業者参考リンクを掲載。",
+  description: "秋田県（秋田・横手・大仙・能代）でスプリングバンク21年を売却するなら？市場相場 ¥103,613（Yahoo Auctions 過去180日中央値）、東北地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/akita/springbank-21-kaitori/" },
+  openGraph: { url: "https://peatbid.com/tier2/akita/springbank-21-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 
@@ -55,7 +56,7 @@ export default function Page() {
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           <h2>1. 秋田県におけるスプリングバンク21年の市場概況</h2>
-          <p>スプリングバンク21年を秋田県で査定・売却したい方へ。秋田県は1人あたり県民所得 271万円・県内総生産 約3.6兆円 の経済圏で、ウイスキー専門業者と大手総合業者の両方が出張・店頭・宅配で対応しています。本ページでは市場相場（Yahoo中央値）と4業者参考リンクを掲載。</p>
+          <p>スプリングバンク21年を秋田県で査定・売却したい方へ。秋田県は1人あたり県民所得 271万円・県内総生産 約3.6兆円 の経済圏で、ウイスキー専門業者と大手総合業者の両方が出張・店頭・宅配で対応しています。本ページでは市場相場（Yahoo中央値）と3業者参考リンクを掲載。</p>
           <p>日本酒文化が強い土地柄、洋酒もコレクター需要あり。そのためスプリングバンク21年のようなscotch-whiskyカテゴリの銘柄も二次流通が活発で、複数の買取業者が出張・店頭・宅配で対応しています。</p>
           <p>秋田県には<strong>地域密着の専門業者</strong>と<strong>全国対応の大手</strong>の両方があるため、複数業者で見積もりを比較できる環境です。</p>
 
@@ -118,7 +119,7 @@ export default function Page() {
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変動する場合があります。事前に公式サイトで確認するか、複数業者へ同時に査定依頼を出すのがおすすめです。</p>
 
-          <h3 className="!mt-6">5-2. 全国対応の主要4業者（最新査定額の取得先）</h3>
+          <h3 className="!mt-6">5-2. 全国対応の主要3業者（最新査定額の取得先）</h3>
           <p>本サイトでは買取額の固定値は提示せず、各業者の最新の査定額・キャンペーン情報を以下の公式ページから直接確認できます。地元業者と合わせて、最低 3〜5 社で相見積もりするのが推奨です。</p>
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店。スプリングバンク21年のようなhighクラス銘柄の参考価格を公開</li>

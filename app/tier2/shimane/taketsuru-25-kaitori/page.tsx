@@ -6,8 +6,9 @@ import priceData from "@/data/price-history/taketsuru-25.json";
 
 export const metadata: Metadata = {
   title: "【2026年最新】島根県で竹鶴25年を売る｜市場相場(Yahoo中央値)¥192,300・業者比較",
-  description: "島根県（松江・出雲・浜田・益田）で竹鶴25年を売却するなら？市場相場 ¥192,300（Yahoo Auctions 過去180日中央値）、中国地方の地元業者と4業者参考リンクを掲載。",
+  description: "島根県（松江・出雲・浜田・益田）で竹鶴25年を売却するなら？市場相場 ¥192,300（Yahoo Auctions 過去180日中央値）、中国地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/shimane/taketsuru-25-kaitori/" },
+  openGraph: { url: "https://peatbid.com/tier2/shimane/taketsuru-25-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 
@@ -118,7 +119,7 @@ export default function Page() {
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変動する場合があります。事前に公式サイトで確認するか、複数業者へ同時に査定依頼を出すのがおすすめです。</p>
 
-          <h3 className="!mt-6">5-2. 全国対応の主要4業者（最新査定額の取得先）</h3>
+          <h3 className="!mt-6">5-2. 全国対応の主要3業者（最新査定額の取得先）</h3>
           <p>本サイトでは買取額の固定値は提示せず、各業者の最新の査定額・キャンペーン情報を以下の公式ページから直接確認できます。地元業者と合わせて、最低 3〜5 社で相見積もりするのが推奨です。</p>
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店。竹鶴25年のようなultraクラス銘柄の参考価格を公開</li>

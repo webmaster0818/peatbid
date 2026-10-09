@@ -73,11 +73,11 @@ INTRO_PATTERNS = [
     "{pref}（人口{pop}、{households}、主要都市: {cities}）で{brand}を売却したい方へ。本ページでは、{pref}における{brand}の **市場相場（Yahoo中央値）**・地元対応業者・複数業者で比較する手順を解説します。{pref}の{industries}を背景に、ウイスキー二次流通需要も活発です。",
     "{brand}を{pref}で査定に出したい方のためのガイドです。{pref}には{pop}{households}が暮らし、主要都市は{cities}。{region}地方を代表する経済圏（県内総生産 約{gdp_label}）で、ウイスキー買取の需要も活発です。",
     "「{pref}で{brand}を売りたい」という方のためのガイドです。{pref}は{region}地方の中核（人口{pop}、{households}、{cities}が主要都市）で、ウイスキー専門業者・大手総合業者の両方が出張・店頭・宅配で対応しています。1人あたり県民所得 {income} を背景に、富裕層・コレクター層の二次流通市場も成熟しています。",
-    "{brand}の買取を{pref}で検討中の方へ。{pop}が居住する{pref}（{cities}、{households}）には、地域密着業者と全国大手の両方が対応しており、相見積もりで高値が出やすい環境です。{pref}の酒類消費は{alcohol_rank}で、洋酒市場も活発。本ページでは Yahoo中央値ベースの市場相場と、4業者への参考リンクを掲載しています。",
-    "本ページは{pref}における{brand}の業者査定ガイドです。市場相場は Yahoo Auctions 過去180日の落札データ中央値（実勢データ）を使用し、業者買取額は4業者の公式ページへ直リンクして比較できる構成です。{pref}は{industries}を主要産業に持ち、可処分所得水準と相まって洋酒コレクター需要も一定規模あります。",
+    "{brand}の買取を{pref}で検討中の方へ。{pop}が居住する{pref}（{cities}、{households}）には、地域密着業者と全国大手の両方が対応しており、相見積もりで高値が出やすい環境です。{pref}の酒類消費は{alcohol_rank}で、洋酒市場も活発。本ページでは Yahoo中央値ベースの市場相場と、3業者への参考リンクを掲載しています。",
+    "本ページは{pref}における{brand}の業者査定ガイドです。市場相場は Yahoo Auctions 過去180日の落札データ中央値（実勢データ）を使用し、業者買取額は3業者の公式ページへ直リンクして比較できる構成です。{pref}は{industries}を主要産業に持ち、可処分所得水準と相まって洋酒コレクター需要も一定規模あります。",
     "{pref}（{region}地方・人口{pop}）で{brand}を売る方のための業者比較ガイドです。県内には酒類小売業免許場が{retail_stores}あり、{cities}を中心に出張・店頭・宅配の各方式で査定が受けられます。{climate}という気候特性も保管・査定時の参考にしてください。",
-    "{brand}を{pref}で査定・売却したい方へ。{pref}は1人あたり県民所得 {income}・県内総生産 約{gdp_label} の経済圏で、ウイスキー専門業者と大手総合業者の両方が出張・店頭・宅配で対応しています。本ページでは市場相場（Yahoo中央値）と4業者参考リンクを掲載。",
-    "{pref}（{cities}を中心とした{households}・{pop}）で {brand} を売る人のための完全ガイドです。{region}地方の経済圏では、酒類消費{alcohol_rank}を背景に二次流通市場も整っています。本ページの市場相場は Yahoo Auctions 中央値ベースで、各業者の最新査定額は4業者ページから直接ご確認いただけます。",
+    "{brand}を{pref}で査定・売却したい方へ。{pref}は1人あたり県民所得 {income}・県内総生産 約{gdp_label} の経済圏で、ウイスキー専門業者と大手総合業者の両方が出張・店頭・宅配で対応しています。本ページでは市場相場（Yahoo中央値）と3業者参考リンクを掲載。",
+    "{pref}（{cities}を中心とした{households}・{pop}）で {brand} を売る人のための完全ガイドです。{region}地方の経済圏では、酒類消費{alcohol_rank}を背景に二次流通市場も整っています。本ページの市場相場は Yahoo Auctions 中央値ベースで、各業者の最新査定額は3業者ページから直接ご確認いただけます。",
     "「{pref}で{brand}は高く売れる？」という疑問にお答えします。{pref}は{industries}が主要産業、人口{pop}・{households}の経済圏で、{cities}を中心に酒類小売店約{retail_stores}が分布しています。専門業者・総合業者の出張査定が活発で、相見積もりがしやすい環境です。",
     "{brand}を{pref}で売却検討の方へ。{pref}（{region}地方、1人あたり県民所得 {income}）には、ウイスキー専門業者（LINXAS等）と大手総合業者（バイセル・福ちゃん）が対応しています。{climate}という気候特性も{brand}の保管・査定の観点で関連します。本ページでは市場相場と業者選定ポイントを整理。",
 ]
@@ -136,10 +136,10 @@ def build_page(brand: dict, pref_slug: str) -> str:
 
     if sufficient:
         title = f"【2026年最新】{p['name_ja']}で{b['name_ja']}を売る｜市場相場(Yahoo中央値){market_label}・業者比較"
-        description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？市場相場 {market_label}（Yahoo Auctions 過去180日中央値）、{p['region']}地方の地元業者と4業者参考リンクを掲載。"
+        description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？市場相場 {market_label}（Yahoo Auctions 過去180日中央値）、{p['region']}地方の地元業者と3業者参考リンクを掲載。"
     else:
         title = f"【2026年最新】{p['name_ja']}で{b['name_ja']}を売る｜業者比較・買取査定ガイド"
-        description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？{p['region']}地方の地元業者と4業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。"
+        description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？{p['region']}地方の地元業者と3業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。"
 
     state_rows_html = "".join(
         f"<tr><td>{label}</td><td>{coef}</td></tr>"
@@ -227,6 +227,7 @@ export const metadata: Metadata = {{
   title: "{title}",
   description: "{description}",
   alternates: {{ canonical: "{canonical_url}" }},
+  openGraph: {{ url: "{canonical_url}", images: ["/og-image.png"] }},
   robots: {{ index: true, follow: true }},
 }};
 
@@ -337,7 +338,7 @@ export default function Page() {{
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変動する場合があります。事前に公式サイトで確認するか、複数業者へ同時に査定依頼を出すのがおすすめです。</p>
 
-          <h3 className="!mt-6">5-2. 全国対応の主要4業者（最新査定額の取得先）</h3>
+          <h3 className="!mt-6">5-2. 全国対応の主要3業者（最新査定額の取得先）</h3>
           <p>本サイトでは買取額の固定値は提示せず、各業者の最新の査定額・キャンペーン情報を以下の公式ページから直接確認できます。地元業者と合わせて、最低 3〜5 社で相見積もりするのが推奨です。</p>
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店。{b['name_ja']}のような{b['rarity']}クラス銘柄の参考価格を公開</li>

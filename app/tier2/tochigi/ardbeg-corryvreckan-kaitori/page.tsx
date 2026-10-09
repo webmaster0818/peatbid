@@ -6,8 +6,9 @@ import priceData from "@/data/price-history/ardbeg-corryvreckan.json";
 
 export const metadata: Metadata = {
   title: "【2026年最新】栃木県でアードベッグ コリーヴレッカンを売る｜市場相場(Yahoo中央値)¥8,359・業者比較",
-  description: "栃木県（宇都宮・小山・足利・那須塩原）でアードベッグ コリーヴレッカンを売却するなら？市場相場 ¥8,359（Yahoo Auctions 過去180日中央値）、関東地方の地元業者と4業者参考リンクを掲載。",
+  description: "栃木県（宇都宮・小山・足利・那須塩原）でアードベッグ コリーヴレッカンを売却するなら？市場相場 ¥8,359（Yahoo Auctions 過去180日中央値）、関東地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/tochigi/ardbeg-corryvreckan-kaitori/" },
+  openGraph: { url: "https://peatbid.com/tier2/tochigi/ardbeg-corryvreckan-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 
@@ -55,7 +56,7 @@ export default function Page() {
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           <h2>1. 栃木県におけるアードベッグ コリーヴレッカンの市場概況</h2>
-          <p>本ページは栃木県におけるアードベッグ コリーヴレッカンの業者査定ガイドです。市場相場は Yahoo Auctions 過去180日の落札データ中央値（実勢データ）を使用し、業者買取額は4業者の公式ページへ直リンクして比較できる構成です。栃木県は自動車(日産/ホンダ)・電気機械・農業(いちご日本一)・観光(日光)を主要産業に持ち、可処分所得水準と相まって洋酒コレクター需要も一定規模あります。</p>
+          <p>本ページは栃木県におけるアードベッグ コリーヴレッカンの業者査定ガイドです。市場相場は Yahoo Auctions 過去180日の落札データ中央値（実勢データ）を使用し、業者買取額は3業者の公式ページへ直リンクして比較できる構成です。栃木県は自動車(日産/ホンダ)・電気機械・農業(いちご日本一)・観光(日光)を主要産業に持ち、可処分所得水準と相まって洋酒コレクター需要も一定規模あります。</p>
           <p>首都圏アクセス良好、宇都宮を中心に活発な買取市場。そのためアードベッグ コリーヴレッカンのようなscotch-whiskyカテゴリの銘柄も二次流通が活発で、複数の買取業者が出張・店頭・宅配で対応しています。</p>
           <p>栃木県には<strong>地域密着の専門業者</strong>と<strong>全国対応の大手</strong>の両方があるため、複数業者で見積もりを比較できる環境です。</p>
 
@@ -118,7 +119,7 @@ export default function Page() {
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変動する場合があります。事前に公式サイトで確認するか、複数業者へ同時に査定依頼を出すのがおすすめです。</p>
 
-          <h3 className="!mt-6">5-2. 全国対応の主要4業者（最新査定額の取得先）</h3>
+          <h3 className="!mt-6">5-2. 全国対応の主要3業者（最新査定額の取得先）</h3>
           <p>本サイトでは買取額の固定値は提示せず、各業者の最新の査定額・キャンペーン情報を以下の公式ページから直接確認できます。地元業者と合わせて、最低 3〜5 社で相見積もりするのが推奨です。</p>
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店。アードベッグ コリーヴレッカンのようなcommonクラス銘柄の参考価格を公開</li>

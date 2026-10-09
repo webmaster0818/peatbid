@@ -6,8 +6,9 @@ import priceData from "@/data/price-history/miyagikyo-nv.json";
 
 export const metadata: Metadata = {
   title: "【2026年最新】福島県で宮城峡ノンエイジを売る｜業者比較・買取査定ガイド",
-  description: "福島県（福島・郡山・いわき・会津若松）で宮城峡ノンエイジを売却するなら？東北地方の地元業者と4業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。",
+  description: "福島県（福島・郡山・いわき・会津若松）で宮城峡ノンエイジを売却するなら？東北地方の地元業者と3業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。",
   alternates: { canonical: "https://peatbid.com/tier2/fukushima/miyagikyo-nv-kaitori/" },
+  openGraph: { url: "https://peatbid.com/tier2/fukushima/miyagikyo-nv-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 
@@ -118,7 +119,7 @@ export default function Page() {
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変動する場合があります。事前に公式サイトで確認するか、複数業者へ同時に査定依頼を出すのがおすすめです。</p>
 
-          <h3 className="!mt-6">5-2. 全国対応の主要4業者（最新査定額の取得先）</h3>
+          <h3 className="!mt-6">5-2. 全国対応の主要3業者（最新査定額の取得先）</h3>
           <p>本サイトでは買取額の固定値は提示せず、各業者の最新の査定額・キャンペーン情報を以下の公式ページから直接確認できます。地元業者と合わせて、最低 3〜5 社で相見積もりするのが推奨です。</p>
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店。宮城峡ノンエイジのようなcommonクラス銘柄の参考価格を公開</li>

@@ -3,7 +3,7 @@
 """tier2エリア親ページ生成（勝てる設計・実データ駆動）。
 使い方: python3 scripts/gen-tier2-area.py oita
 - 相場=brands.json の Yahoo180日実落札中央値（実データ）。買取目安=中央値×60〜80%（業界一般目安・断定しない）。
-- 業者=全国対応の実在4社（既存送客先・実URL）。地元店の創作はしない。
+- 業者=全国対応の実在3社（既存送客先・実URL）。地元店の創作はしない。
 - 県の事実=prefectures.py（人口・主要都市等の公開事実のみ）。気候等の冗長テンプレ文は使わない。"""
 import json, importlib.util, sys, os, datetime
 
