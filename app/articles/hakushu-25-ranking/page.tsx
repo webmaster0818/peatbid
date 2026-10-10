@@ -45,7 +45,7 @@ export default function Hakushu25RankingPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">白州25年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 白州蒸溜所 / 25年熟成 / 希少度 ウルトラ / 市場相場 21,000円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 白州蒸溜所 / 25年熟成 / 希少度 ウルトラ / 市場相場 市場相場データ蓄積中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/hakushu-25-kaitori/" className="text-amber-dark underline">白州25年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -62,11 +62,11 @@ export default function Hakushu25RankingPage() {
             </ol>
           </div>
 
-          <p>白州25年を高く売るには、業者選びが最重要です。実勢中央値21,000円クラスのボトルでも、業者間で概算約1,050〜3,150円（相場の5〜15%）の査定差が生じ得ます。本記事ではPeatBid編集部が選定基準に基づいて選んだ白州25年に強い買取業者3社を、ランキング形式で比較します。</p>
+          <p>白州25年を高く売るには、業者選びが最重要です。同じ相場クラスのボトルでも、業者により数万〜数十万円の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだ白州25年に強い買取業者3社を、ランキング形式で比較します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは白州25年の落札が約110件確認でき、落札額の中央値は21,000円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">白州25年は二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
 
 
@@ -91,7 +91,7 @@ export default function Hakushu25RankingPage() {
           </div>
 
           <h2 id="section-0">1. 白州25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>白州25年</strong>はジャパニーズウイスキー（白州蒸溜所）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>21,000円</strong>（流通サンプル110件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>白州25年</strong>はジャパニーズウイスキー（白州蒸溜所）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. ランキングの選定基準</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部の白州25年買取業者選定基準（5項目）:</p><ol><li><strong>専門知識</strong> — お酒・ウイスキー専門の鑑定力があるか</li><li><strong>査定スピード</strong> — 見積もり〜入金までの所要日数</li><li><strong>査定額の透明性</strong> — 価格根拠・状態評価の説明があるか</li><li><strong>手数料・キャンセル料</strong> — 完全無料か</li><li><strong>信頼性</strong> — 上場・古物商許可・口コミ評判

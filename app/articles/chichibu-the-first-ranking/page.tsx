@@ -45,7 +45,7 @@ export default function ChichibuTheFirstRankingPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">秩父ザファースト</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 秩父蒸溜所 / 3年熟成 / 希少度 ウルトラレア / 市場相場 89,705円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 秩父蒸溜所 / 3年熟成 / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/chichibu-the-first-kaitori/" className="text-amber-dark underline">秩父ザファーストの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -62,11 +62,11 @@ export default function ChichibuTheFirstRankingPage() {
             </ol>
           </div>
 
-          <p>秩父ザファーストを高く売るには、業者選びが最重要です。実勢中央値89,705円クラスのボトルでも、業者間で概算約4,490〜13,460円（相場の5〜15%）の査定差が生じ得ます。本記事ではPeatBid編集部が選定基準に基づいて選んだ秩父ザファーストに強い買取業者3社を、ランキング形式で比較します。</p>
+          <p>秩父ザファーストを高く売るには、業者選びが最重要です。同じ相場クラスのボトルでも、業者により数万〜数十万円の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだ秩父ザファーストに強い買取業者3社を、ランキング形式で比較します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは秩父ザファーストの落札が約32件確認でき、落札額の中央値は89,705円でした。流通量がやや限定的で希少性が高めの銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">秩父ザファーストは二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
 
 
@@ -91,7 +91,7 @@ export default function ChichibuTheFirstRankingPage() {
           </div>
 
           <h2 id="section-0">1. 秩父ザファーストの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>秩父ザファースト</strong>はジャパニーズウイスキー（秩父蒸溜所）の3年熟成、度数61.8%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>89,705円</strong>（流通サンプル32件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限定的で、コンディション次第で査定が伸びやすい傾向です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>秩父ザファースト</strong>はジャパニーズウイスキー（秩父蒸溜所）の3年熟成、度数61.8%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. ランキングの選定基準</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部の秩父ザファースト買取業者選定基準（5項目）:</p><ol><li><strong>専門知識</strong> — お酒・ウイスキー専門の鑑定力があるか</li><li><strong>査定スピード</strong> — 見積もり〜入金までの所要日数</li><li><strong>査定額の透明性</strong> — 価格根拠・状態評価の説明があるか</li><li><strong>手数料・キャンセル料</strong> — 完全無料か</li><li><strong>信頼性</strong> — 上場・古物商許可・口コミ評判

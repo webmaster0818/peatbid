@@ -3,8 +3,8 @@
  "base_date": "2026-08-10",
  "latest_date": "2026-10-05",
  "constituents": {
-  "total": 46,
-  "japanese": 27,
+  "total": 42,
+  "japanese": 23,
   "scotch": 14
  },
  "slugs": [
@@ -14,7 +14,6 @@
   "ardbeg-uigeadail",
   "bowmore-18",
   "bowmore-25",
-  "chichibu-the-first",
   "glenfarclas-25",
   "glenfiddich-12",
   "glenfiddich-15",
@@ -23,9 +22,7 @@
   "glenmorangie-signet",
   "hakushu-12",
   "hakushu-18",
-  "hakushu-25",
   "hakushu-nv",
-  "hanyu-card",
   "hibiki-17",
   "hibiki-21",
   "hibiki-30",
@@ -49,7 +46,6 @@
   "taketsuru-pure",
   "yamazaki-12",
   "yamazaki-18",
-  "yamazaki-25",
   "yamazaki-nv",
   "yoichi-10",
   "yoichi-15",
@@ -62,35 +58,35 @@
   },
   {
    "date": "2026-08-17",
-   "index": 99.68
+   "index": 99.33
   },
   {
    "date": "2026-08-24",
-   "index": 99.9
+   "index": 99.62
   },
   {
    "date": "2026-08-31",
-   "index": 101.52
+   "index": 101.44
   },
   {
    "date": "2026-09-07",
-   "index": 101.23
+   "index": 101.25
   },
   {
    "date": "2026-09-14",
-   "index": 98.41
+   "index": 98.59
   },
   {
    "date": "2026-09-21",
-   "index": 97.74
+   "index": 98.2
   },
   {
    "date": "2026-09-28",
-   "index": 97.68
+   "index": 98.32
   },
   {
    "date": "2026-10-05",
-   "index": 98.29
+   "index": 99.1
   }
  ],
  "japanese": [
@@ -100,35 +96,35 @@
   },
   {
    "date": "2026-08-17",
-   "index": 99.39
+   "index": 98.7
   },
   {
    "date": "2026-08-24",
-   "index": 100.41
+   "index": 99.98
   },
   {
    "date": "2026-08-31",
-   "index": 103.51
+   "index": 103.71
   },
   {
    "date": "2026-09-07",
-   "index": 102.98
+   "index": 103.33
   },
   {
    "date": "2026-09-14",
-   "index": 97.93
+   "index": 98.17
   },
   {
    "date": "2026-09-21",
-   "index": 97.34
+   "index": 98.11
   },
   {
    "date": "2026-09-28",
-   "index": 97.71
+   "index": 98.87
   },
   {
    "date": "2026-10-05",
-   "index": 98.08
+   "index": 99.52
   }
  ],
  "scotch": [

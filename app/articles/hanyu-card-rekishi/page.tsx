@@ -45,7 +45,7 @@ export default function HanyuCardRekishiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">羽生カードシリーズ</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 羽生蒸溜所 / ノンエイジ / 希少度 ウルトラレア / 市場相場 7,426円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 羽生蒸溜所 / ノンエイジ / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/hanyu-card-kaitori/" className="text-amber-dark underline">羽生カードシリーズの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function HanyuCardRekishiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは羽生カードシリーズの落札が約286件確認でき、落札額の中央値は7,426円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">羽生カードシリーズは二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
 
 
@@ -77,7 +77,7 @@ export default function HanyuCardRekishiPage() {
           </div>
 
           <h2 id="section-0">1. 羽生カードシリーズの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>羽生カードシリーズ</strong>はジャパニーズウイスキー（羽生蒸溜所）のノンエイジ（NV）、度数55%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>7,426円</strong>（流通サンプル286件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>羽生カードシリーズ</strong>はジャパニーズウイスキー（羽生蒸溜所）のノンエイジ（NV）、度数55%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 羽生蒸溜所の創業と歴史</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>羽生蒸溜所はジャパニーズウイスキー業界で長い歴史を持つ蒸溜所/メーカー。創業以来、伝統的な製法と現代の品質管理を融合し、羽生カードシリーズを含む数々の名作を世に送り出しています。</p><p>ジャパニーズウイスキーの場合は1923年の山崎蒸溜所創設以降、スコッチの場合は18〜19世紀に遡る歴史を持つ銘柄も多数あります。各蒸溜所が独自の蒸溜方法・水・樽選びで個性を表現し、それが今日の市場価値につながっています。</p>` }} />

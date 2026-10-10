@@ -45,7 +45,7 @@ export default function ChichibuTheFirstRekishiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">秩父ザファースト</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 秩父蒸溜所 / 3年熟成 / 希少度 ウルトラレア / 市場相場 89,705円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 秩父蒸溜所 / 3年熟成 / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/chichibu-the-first-kaitori/" className="text-amber-dark underline">秩父ザファーストの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function ChichibuTheFirstRekishiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは秩父ザファーストの落札が約32件確認でき、落札額の中央値は89,705円でした。流通量がやや限定的で希少性が高めの銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">秩父ザファーストは二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
 
 
@@ -77,7 +77,7 @@ export default function ChichibuTheFirstRekishiPage() {
           </div>
 
           <h2 id="section-0">1. 秩父ザファーストの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>秩父ザファースト</strong>はジャパニーズウイスキー（秩父蒸溜所）の3年熟成、度数61.8%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>89,705円</strong>（流通サンプル32件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限定的で、コンディション次第で査定が伸びやすい傾向です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>秩父ザファースト</strong>はジャパニーズウイスキー（秩父蒸溜所）の3年熟成、度数61.8%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 秩父蒸溜所の創業と歴史</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>秩父蒸溜所はジャパニーズウイスキー業界で長い歴史を持つ蒸溜所/メーカー。創業以来、伝統的な製法と現代の品質管理を融合し、秩父ザファーストを含む数々の名作を世に送り出しています。</p><p>ジャパニーズウイスキーの場合は1923年の山崎蒸溜所創設以降、スコッチの場合は18〜19世紀に遡る歴史を持つ銘柄も多数あります。各蒸溜所が独自の蒸溜方法・水・樽選びで個性を表現し、それが今日の市場価値につながっています。</p>` }} />

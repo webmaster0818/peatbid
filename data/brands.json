@@ -42,7 +42,7 @@
     "category": "japanese-whisky",
     "origin": "山崎蒸溜所",
     "rarity_tier": "ultra",
-    "yahoo_median_jpy_180d": 26935,
+    "yahoo_median_jpy_180d": null,
     "yahoo_sample_n": 176,
     "yahoo_fetched_at": "2026-10-05",
     "yahoo_query_used": "山崎25年 700ml"
@@ -150,7 +150,7 @@
     "category": "japanese-whisky",
     "origin": "白州蒸溜所",
     "rarity_tier": "ultra",
-    "yahoo_median_jpy_180d": 21000,
+    "yahoo_median_jpy_180d": null,
     "yahoo_sample_n": 110,
     "yahoo_fetched_at": "2026-10-05",
     "yahoo_query_used": "白州25年 700ml"
@@ -294,7 +294,7 @@
     "category": "japanese-whisky",
     "origin": "ベンチャーウイスキー",
     "rarity_tier": "ultra-rare",
-    "yahoo_median_jpy_180d": 455565,
+    "yahoo_median_jpy_180d": null,
     "yahoo_sample_n": 20,
     "yahoo_fetched_at": "2026-10-05",
     "yahoo_query_used": "イチローズモルト カード 700ml"
@@ -342,7 +342,7 @@
     "category": "japanese-whisky",
     "origin": "軽井沢蒸溜所",
     "rarity_tier": "ultra-rare",
-    "yahoo_median_jpy_180d": 32450,
+    "yahoo_median_jpy_180d": null,
     "yahoo_sample_n": 242,
     "yahoo_fetched_at": "2026-10-05",
     "yahoo_query_used": "軽井沢 30年 ウイスキー 700ml"
@@ -354,7 +354,7 @@
     "category": "japanese-whisky",
     "origin": "羽生蒸溜所",
     "rarity_tier": "ultra-rare",
-    "yahoo_median_jpy_180d": 7426,
+    "yahoo_median_jpy_180d": null,
     "yahoo_sample_n": 286,
     "yahoo_fetched_at": "2026-10-05",
     "yahoo_query_used": "羽生 カード ウイスキー 700ml"
@@ -582,7 +582,7 @@
     "category": "japanese-whisky",
     "origin": "秩父蒸溜所",
     "rarity_tier": "ultra-rare",
-    "yahoo_median_jpy_180d": 89705,
+    "yahoo_median_jpy_180d": null,
     "yahoo_sample_n": 32,
     "yahoo_fetched_at": "2026-10-05",
     "yahoo_query_used": "秩父 ザファースト 700ml"

@@ -45,7 +45,7 @@ export default function HanyuCardHakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">羽生カードシリーズ</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 羽生蒸溜所 / ノンエイジ / 希少度 ウルトラレア / 市場相場 7,426円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 羽生蒸溜所 / ノンエイジ / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/hanyu-card-kaitori/" className="text-amber-dark underline">羽生カードシリーズの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function HanyuCardHakoNashiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは羽生カードシリーズの落札が約286件確認でき、落札額の中央値は7,426円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">羽生カードシリーズは二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
 
 
@@ -106,12 +106,12 @@ export default function HanyuCardHakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. 羽生カードシリーズの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>羽生カードシリーズ</strong>はジャパニーズウイスキー（羽生蒸溜所）のノンエイジ（NV）、度数55%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>7,426円</strong>（流通サンプル286件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>羽生カードシリーズ</strong>はジャパニーズウイスキー（羽生蒸溜所）のノンエイジ（NV）、度数55%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>羽生カードシリーズの場合、実勢中央値<strong>7,426円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 7,426円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約6,310〜7,050円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約6,310〜6,830円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約5,940〜6,680円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約5,570〜6,310円（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>羽生カードシリーズの場合、外箱の有無で査定額が<strong>10〜20%</strong>変動します:</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 市場相場が基準（100%）</li><li><strong>箱あり・冊子なし</strong>: 市場相場の85〜95%程度</li><li><strong>箱なし・冊子あり</strong>: 市場相場の85〜92%程度</li><li><strong>箱なし・ラベル良好</strong>: 市場相場の80〜90%程度</li><li><strong>箱・冊子なし</strong>: 市場相場の75〜85%程度
 
-つまり付属品の有無だけで、最大で<strong>約1,860円（相場の約25%）の差</strong>が生じ得ます。</li></ol>` }} />
+つまり、最大で<strong>約25%の差</strong>が生じる可能性があります。</li></ol>` }} />
 
           <h2 id="section-2">3. なぜ外箱が重要なのか</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は単なる包装ではなく、<strong>コレクター品の完全性</strong>を示す重要な要素です:</p><ol><li><strong>二次流通市場での評価</strong> — 海外コレクターは特にフルセット重視</li><li><strong>真贋判定の手がかり</strong> — 箱と本体の合致が本物の証</li><li><strong>保管時の保護機能</strong> — 直射日光・摩擦・埃から守る</li><li><strong>付属品の収納</strong> — 冊子・カートンの一括管理</li><li><strong>贈答品としての価値</strong> — 箱なしは贈り物として再販困難

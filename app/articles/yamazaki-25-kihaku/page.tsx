@@ -45,7 +45,7 @@ export default function Yamazaki25KihakuPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">山崎25年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / 25年熟成 / 希少度 ウルトラ / 市場相場 26,935円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / 25年熟成 / 希少度 ウルトラ / 市場相場 市場相場データ蓄積中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yamazaki-25-kaitori/" className="text-amber-dark underline">山崎25年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -64,11 +64,11 @@ export default function Yamazaki25KihakuPage() {
             </ol>
           </div>
 
-          <p>山崎25年は希少度極希少クラスのボトル。直近の実勢中央値は約26,935円で、投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
+          <p>山崎25年は希少度極希少クラスのボトル。投資対象として保有すべきか、それとも売却すべきか——コレクターが直面する判断を、データと市場動向から考察します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎25年の落札が約176件確認でき、落札額の中央値は26,935円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">山崎25年は二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
 
 
@@ -78,7 +78,7 @@ export default function Yamazaki25KihakuPage() {
           </div>
 
           <h2 id="section-0">1. 山崎25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>山崎25年</strong>はジャパニーズウイスキー（山崎蒸溜所）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>26,935円</strong>（流通サンプル176件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>山崎25年</strong>はジャパニーズウイスキー（山崎蒸溜所）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 希少性のランク評価</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>山崎25年は希少度カテゴリで「<strong>極希少</strong>」に分類されます。希少度は以下の4要素で決まります:</p><ol><li>生産終了・休売の有無</li><li>市場流通量</li><li>コレクター需要</li><li>国際的評価

@@ -182,6 +182,31 @@ def median_for_query(base_query: str) -> dict:
     }
 
 
+def quality_gate(r: dict, reference_price) -> None:
+    """クエリ汚染（ミニチュア・空瓶・箱のみ・別ボトル混入）の自動検知。該当したら insufficient にして実数を出さない。
+
+    2026-10-10: 山崎25年が中央値¥26,935（平均¥368,980・最大¥1,451,998）で本番 title に出ていた。
+    白州25年・軽井沢30年・羽生カード・秩父ザ・ファーストも同類。
+    - 平均/中央値 > 2: 安値の混入品と実物で分布が二山になっている
+    - 中央値 < 参考価格(reference_price_jpy_2026_05)の5%: 実物の桁と合わない
+    """
+    m, mean = r.get("median"), r.get("mean")
+    if not m or r.get("insufficient"):
+        return
+    reasons = []
+    if mean and mean / m > 2:
+        reasons.append(f"mean/median={mean / m:.1f}")
+    try:
+        ref = float(reference_price) if reference_price else 0
+    except ValueError:
+        ref = 0
+    if ref and m < ref * 0.05:
+        reasons.append(f"median<5%ref({int(ref)})")
+    if reasons:
+        r["insufficient"] = True
+        r["quality_flag"] = ",".join(reasons)
+
+
 def write_history(slug: str, label: str, result: dict) -> None:
     """Append new data point to history (line-graph friendly accumulation).
 
@@ -268,6 +293,7 @@ def main():
         # bowmore-blackbowmore: ミニチュア/空瓶混入で¥4,000(実物は数百万円級)。クエリ精査まで実数を出さない
         if slug in {"bowmore-blackbowmore"}:
             r["insufficient"] = True
+        quality_gate(r, row.get("reference_price_jpy_2026_05"))
         results[slug] = r
         if r.get("median") and not r.get("insufficient"):
             row["yahoo_median_jpy_180d"] = r["median"]

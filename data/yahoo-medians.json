@@ -44,8 +44,9 @@
     "mean": 368980,
     "min": 11000,
     "max": 1451998,
-    "insufficient": false,
-    "fetched_at": "2026-10-05"
+    "insufficient": true,
+    "fetched_at": "2026-10-05",
+    "quality_flag": "mean/median=13.7,median<5%ref(880000)"
   },
   "yamazaki-55": {
     "query_used": "山崎55年 700ml",
@@ -152,8 +153,9 @@
     "mean": 147237,
     "min": 11000,
     "max": 660000,
-    "insufficient": false,
-    "fetched_at": "2026-10-05"
+    "insufficient": true,
+    "fetched_at": "2026-10-05",
+    "quality_flag": "mean/median=7.0,median<5%ref(430000)"
   },
   "taketsuru-pure": {
     "query_used": "竹鶴 ピュアモルト 700ml",
@@ -296,8 +298,9 @@
     "mean": 390712,
     "min": 26000,
     "max": 805000,
-    "insufficient": false,
-    "fetched_at": "2026-10-05"
+    "insufficient": true,
+    "fetched_at": "2026-10-05",
+    "quality_flag": "median<5%ref(15000000)"
   },
   "ichirosu-double-distilleries": {
     "query_used": "イチローズモルト ダブルディスティラリーズ 700ml",
@@ -344,8 +347,9 @@
     "mean": 69527,
     "min": 4620,
     "max": 415000,
-    "insufficient": false,
-    "fetched_at": "2026-10-05"
+    "insufficient": true,
+    "fetched_at": "2026-10-05",
+    "quality_flag": "mean/median=2.1,median<5%ref(8000000)"
   },
   "hanyu-card": {
     "query_used": "羽生 カード ウイスキー 700ml",
@@ -356,8 +360,9 @@
     "mean": 8965,
     "min": 800,
     "max": 24000,
-    "insufficient": false,
-    "fetched_at": "2026-10-05"
+    "insufficient": true,
+    "fetched_at": "2026-10-05",
+    "quality_flag": "median<5%ref(30000000)"
   },
   "macallan-12": {
     "query_used": "マッカラン12年 700ml",
@@ -584,8 +589,9 @@
     "mean": 86967,
     "min": 48999,
     "max": 116300,
-    "insufficient": false,
-    "fetched_at": "2026-10-05"
+    "insufficient": true,
+    "fetched_at": "2026-10-05",
+    "quality_flag": "median<5%ref(3500000)"
   },
   "mars-komagatake": {
     "query_used": "マルス 駒ヶ岳 700ml",

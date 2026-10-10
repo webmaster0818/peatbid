@@ -4,134 +4,14 @@
   "source": "yahoo_auctions_closed_search_180d",
   "methodology": "median of individual lot final-prices, IQR outlier removal",
   "query_used": "山崎25年 700ml",
-  "history": [
-    {
-      "date": "2026-05-25",
-      "median_jpy": 92125,
-      "sample_n": 292,
-      "raw_n": 292
-    },
-    {
-      "date": "2026-06-01",
-      "median_jpy": 92400,
-      "sample_n": 286,
-      "raw_n": 286
-    },
-    {
-      "date": "2026-06-08",
-      "median_jpy": 75000,
-      "sample_n": 274,
-      "raw_n": 274
-    },
-    {
-      "date": "2026-06-15",
-      "median_jpy": 80300,
-      "sample_n": 262,
-      "raw_n": 264
-    },
-    {
-      "date": "2026-06-22",
-      "median_jpy": 73255,
-      "sample_n": 240,
-      "raw_n": 242
-    },
-    {
-      "date": "2026-06-29",
-      "median_jpy": 75000,
-      "sample_n": 222,
-      "raw_n": 222
-    },
-    {
-      "date": "2026-07-06",
-      "median_jpy": 36000,
-      "sample_n": 210,
-      "raw_n": 212
-    },
-    {
-      "date": "2026-07-13",
-      "median_jpy": 32575,
-      "sample_n": 200,
-      "raw_n": 202
-    },
-    {
-      "date": "2026-07-20",
-      "median_jpy": 28600,
-      "sample_n": 182,
-      "raw_n": 184
-    },
-    {
-      "date": "2026-07-27",
-      "median_jpy": 28875,
-      "sample_n": 188,
-      "raw_n": 190
-    },
-    {
-      "date": "2026-08-03",
-      "median_jpy": 29150,
-      "sample_n": 186,
-      "raw_n": 188
-    },
-    {
-      "date": "2026-08-10",
-      "median_jpy": 40500,
-      "sample_n": 182,
-      "raw_n": 182
-    },
-    {
-      "date": "2026-08-17",
-      "median_jpy": 41250,
-      "sample_n": 184,
-      "raw_n": 186
-    },
-    {
-      "date": "2026-08-24",
-      "median_jpy": 40500,
-      "sample_n": 182,
-      "raw_n": 182
-    },
-    {
-      "date": "2026-08-31",
-      "median_jpy": 42000,
-      "sample_n": 182,
-      "raw_n": 182
-    },
-    {
-      "date": "2026-09-07",
-      "median_jpy": 38250,
-      "sample_n": 176,
-      "raw_n": 178
-    },
-    {
-      "date": "2026-09-14",
-      "median_jpy": 33000,
-      "sample_n": 180,
-      "raw_n": 182
-    },
-    {
-      "date": "2026-09-21",
-      "median_jpy": 30000,
-      "sample_n": 174,
-      "raw_n": 176
-    },
-    {
-      "date": "2026-09-28",
-      "median_jpy": 26935,
-      "sample_n": 176,
-      "raw_n": 178
-    },
-    {
-      "date": "2026-10-05",
-      "median_jpy": 26935,
-      "sample_n": 176,
-      "raw_n": 178
-    }
-  ],
+  "history": [],
   "latest": {
     "date": "2026-10-05",
     "median_jpy": 26935,
     "sample_n": 176,
     "raw_n": 178,
-    "insufficient": false
+    "insufficient": true,
+    "quality_flag": "mean/median=13.7,median<5%ref(880000)"
   },
   "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"
 }

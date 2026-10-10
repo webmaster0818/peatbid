@@ -45,7 +45,7 @@ export default function Hakushu25KaifuZumiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">白州25年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 白州蒸溜所 / 25年熟成 / 希少度 ウルトラ / 市場相場 21,000円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 白州蒸溜所 / 25年熟成 / 希少度 ウルトラ / 市場相場 市場相場データ蓄積中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/hakushu-25-kaitori/" className="text-amber-dark underline">白州25年の買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Hakushu25KaifuZumiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは白州25年の落札が約110件確認でき、落札額の中央値は21,000円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">白州25年は二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
 
 
@@ -106,12 +106,10 @@ export default function Hakushu25KaifuZumiPage() {
           </div>
 
           <h2 id="section-0">1. 白州25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>白州25年</strong>はジャパニーズウイスキー（白州蒸溜所）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>21,000円</strong>（流通サンプル110件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>白州25年</strong>はジャパニーズウイスキー（白州蒸溜所）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 開封済み白州25年の査定額の目安</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>21,000円</strong>を基準として、開封済みは残量・状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 約6,300〜8,400円（30〜40%）</li><li><strong>7割以上残</strong>: 約5,250〜7,350円（25〜35%）</li><li><strong>5割以上残</strong>: 約4,200〜6,300円（20〜30%）</li><li><strong>3割以上残</strong>: 約2,100〜4,200円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合あり、もしくは空ボトルとして数千円
-
-開封済みは未開封と比べ大きく下がるため、コレクション品は開けないのが鉄則です。</li></ol>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きが市場相場を基準として、開封済みは状態により以下のレンジで査定されます:</p><ol><li><strong>9割以上残</strong>: 市場相場の30〜40%程度</li><li><strong>7割以上残</strong>: 市場相場の25〜35%程度</li><li><strong>5割以上残</strong>: 市場相場の20〜30%程度</li><li><strong>3割以上残</strong>: 基準の10〜20%</li><li><strong>1割以下残</strong>: 買取拒否の場合あり、もしくは空ボトルとして数千円</li></ol>` }} />
 
           <h2 id="section-2">3. 開封済みの査定で重視される5要素</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>開封済みボトルの査定では、以下の5要素が総合的に評価されます:</p><ol><li><strong>残量</strong> — 多いほど評価額アップ。9割以上が査定の分かれ目</li><li><strong>保管状態</strong> — コルク劣化・香味揮発の度合い</li><li><strong>付属品</strong> — 外箱・冊子・カートンの有無</li><li><strong>ラベル状態</strong> — 美しさは未開封同様に評価される</li><li><strong>キャップ・栓の状態</strong> — しっかり閉まっているか、隙間からの揮発は無いか
