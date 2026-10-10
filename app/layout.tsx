@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Noto_Sans_JP, Cormorant_Garamond } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
+import { SITE_NAME, SITE_TAGLINE, OG_IMAGE, pageOpenGraph } from "@/lib/og";
 
 const notoSansJP = Noto_Sans_JP({
   variable: "--font-noto-sans-jp",
@@ -19,15 +20,11 @@ const cormorant = Cormorant_Garamond({
   preload: true,
 });
 
-const SITE_NAME = "PeatBid";
 const SITE_NAME_JA = "ピートビッド";
-const SITE_TAGLINE = "ウイスキー買取の最高入札比較";
 const SITE_URL = "https://peatbid.com";
 const SITE_DESCRIPTION =
   "PeatBid（ピートビッド）はウイスキーの買取相場・最高入札を比較するガイドサイトです。山崎・響・白州・マッカランなど主要銘柄の最新買取相場、希少ボトルの査定ポイント、信頼できる買取業者を徹底比較。コレクター・相続・断捨離まで、あなたのウイスキーを最も高く売る方法が見つかります。";
 
-// 全ページ共通のOG画像（scripts/make-og.py で生成。画像に数字・件数は入れない）
-const OG_IMAGE = { url: "/og-image.png", width: 1200, height: 630, alt: `${SITE_NAME} | ${SITE_TAGLINE}` };
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -51,14 +48,10 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
-  openGraph: {
-    // 2026-10-06 url・title・description を外した。固定値だと 2,958/3,006 ページの og:url が TOP、og:title が共通になっていた。
-    // 省略すると Next.js がページごとの title / description から埋める（ページ側で openGraph を持つ48ページはそのまま）。
-    type: "website",
-    locale: "ja_JP",
-    siteName: SITE_NAME,
-    images: [OG_IMAGE],
-  },
+  // 2026-10-06 固定の url・title・description を外した（2,958/3,006 ページの og:url が TOP になっていた）。
+  // 2026-10-10 url: "./"（canonical と同じ解決＝各ページの自URL）を lib/og.ts の共通関数で付与。
+  // title / description は Next.js がページごとの値から埋める。ページ側で openGraph を持つ場合も pageOpenGraph() を使う。
+  openGraph: pageOpenGraph(),
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} | ${SITE_TAGLINE}`,

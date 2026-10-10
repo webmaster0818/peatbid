@@ -287,3 +287,11 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - URL検査（10/9 作業前）: **URL is unknown to Google**（公開翌日）→ Indexing API 1/1 再送
 - precheck ✅全項目OK（3,005頁）。build heap12288 EXIT0 → `*.txt` 削除（robots.txt 保全）→ rsync（--exclude .git/_not-found/functions）→ source 8ab4bf088 / deploy 1d838d9d76。本番200・26件/運営の変遷/53,001点 反映（push後約3分）・/api/contact 400・robots Sitemap 行あり
 - 未実施: みん評（Cloudflare チャレンジで生HTML取得不可）は本文に使っていない
+
+### 2026-10-10 og:url を tier2 以外の全ページに（canonical と同値）
+- **before（deploy リポ HTML・indexable 3,005）**: og:url 有 2,446（tier2 2,444＋author＋hikakaku）／無 559（articles 544・TOP・固定ページ13・/tier2/ 一覧）／og:url≠canonical 0／og:image 欠落 0。
+- **after**: og:url 有 **3,005**／無 0／og:url≠canonical **0**／og:image 欠落 **0**。og:site_name 欠落は tier2 以外 2→0（author・hikakaku）。
+- **実装（共通関数）**: `lib/og.ts` 新設＝`pageOpenGraph(overrides)` が type/locale/siteName/images（OG_IMAGE）/`url: "./"` を返す。`url: "./"` は Next 16 の `resolveAbsoluteUrlWithPathname`（canonical と同じ解決関数）で各ページの自URLになる。`app/layout.tsx` の openGraph を `pageOpenGraph()` に、自前 openGraph を持つ `app/author`・`app/articles/hikakaku-sake-kaitori-kuchikomi` も `pageOpenGraph({...})` 経由に（以前は site_name/locale が落ちていた）。**今後ページで openGraph を書くときは必ず pageOpenGraph() を使う**。
+- **生成器**: generate-brand-pages-v3 / generate-angle-pages-v3 等の記事生成器は metadata に openGraph を持たない＝layout から継承するので、週次再生成（10/12）でも og:url は消えない（生成器の変更不要を grep で確認）。
+- **未対応（範囲外・報告のみ）**: tier2 2,444（リーフ2,397＋県ハブ47）は og:site_name / og:locale が無い（generate-tier2-v4-plan-a.py・gen-tier2-area.py が openGraph を自前定義しているため）。直すなら冪等パッチ＋両生成器に siteName/locale を追加。
+- build EXIT0（heap8192）→ `*.txt` 削除（robots.txt 保全）→ precheck ✅全項目OK（3,005）→ 方式B フル rsync（--exclude .git/_not-found/functions）→ deploy `388506e9b1`。

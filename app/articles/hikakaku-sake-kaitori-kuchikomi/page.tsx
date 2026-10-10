@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { pageOpenGraph } from "@/lib/og";
 
 const PUBLISHED = "2026-10-08";
 const UPDATED = "2026-10-09";
@@ -77,7 +78,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: "/articles/hikakaku-sake-kaitori-kuchikomi/" },
-  openGraph: { title: TITLE, description: DESC, url: URL, type: "article", images: ["/og-image.png"] },
+  openGraph: pageOpenGraph({ title: TITLE, description: DESC, url: URL, type: "article" }),
 };
 
 export default function Page() {
