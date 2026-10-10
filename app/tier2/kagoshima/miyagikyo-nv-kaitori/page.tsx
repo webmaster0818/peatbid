@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】鹿児島県で宮城峡ノンエイジを売る｜業者比較・買取査定ガイド",
   description: "鹿児島県（鹿児島・霧島・薩摩川内・鹿屋）で宮城峡ノンエイジを売却するなら？九州地方の地元業者と3業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。",
   alternates: { canonical: "https://peatbid.com/tier2/kagoshima/miyagikyo-nv-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/kagoshima/miyagikyo-nv-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/kagoshima/miyagikyo-nv-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

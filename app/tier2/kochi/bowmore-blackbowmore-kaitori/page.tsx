@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】高知県でブラックボウモアを売る｜業者比較・買取査定ガイド",
   description: "高知県（高知・南国・四万十・香南）でブラックボウモアを売却するなら？四国地方の地元業者と3業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。",
   alternates: { canonical: "https://peatbid.com/tier2/kochi/bowmore-blackbowmore-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/kochi/bowmore-blackbowmore-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/kochi/bowmore-blackbowmore-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

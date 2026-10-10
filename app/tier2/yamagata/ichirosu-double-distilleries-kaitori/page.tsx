@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】山形県でイチローズモルト ダブルディスティラリーズを売る｜市場相場(Yahoo中央値)¥8,513・業者比較",
   description: "山形県（山形・米沢・天童・酒田）でイチローズモルト ダブルディスティラリーズを売却するなら？市場相場 ¥8,513（Yahoo Auctions 過去180日中央値）、東北地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/yamagata/ichirosu-double-distilleries-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/yamagata/ichirosu-double-distilleries-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/yamagata/ichirosu-double-distilleries-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

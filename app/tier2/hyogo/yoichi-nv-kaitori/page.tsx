@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】兵庫県で余市ノンエイジを売る｜業者比較・買取査定ガイド",
   description: "兵庫県（神戸・姫路・尼崎・西宮・三宮）で余市ノンエイジを売却するなら？関西地方の地元業者と3業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。",
   alternates: { canonical: "https://peatbid.com/tier2/hyogo/yoichi-nv-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/hyogo/yoichi-nv-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/hyogo/yoichi-nv-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

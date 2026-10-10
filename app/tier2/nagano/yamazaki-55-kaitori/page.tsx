@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】長野県で山崎55年を売る｜業者比較・買取査定ガイド",
   description: "長野県（長野・松本・上田・諏訪）で山崎55年を売却するなら？中部地方の地元業者と3業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。",
   alternates: { canonical: "https://peatbid.com/tier2/nagano/yamazaki-55-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/nagano/yamazaki-55-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/nagano/yamazaki-55-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

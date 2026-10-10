@@ -106,7 +106,7 @@ export const metadata: Metadata = {{
   description: DESC,
   alternates: {{ canonical: URL }},
   robots: {{ index: true, follow: true }},
-  openGraph: {{ title: TITLE, description: DESC, url: URL, images: [{{ url: "/og-image.png", width: 1200, height: 630 }}] }},
+  openGraph: {{ siteName: "PeatBid", locale: "ja_JP", title: TITLE, description: DESC, url: URL, images: [{{ url: "/og-image.png", width: 1200, height: 630 }}] }},
 }};
 
 const LD = {json.dumps([breadcrumb_ld, article_ld, faq_ld, itemlist_ld], ensure_ascii=False)};

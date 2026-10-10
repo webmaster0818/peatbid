@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】山口県で響ジャパニーズハーモニーを売る｜市場相場(Yahoo中央値)¥10,724・業者比較",
   description: "山口県（山口・下関・宇部・周南）で響ジャパニーズハーモニーを売却するなら？市場相場 ¥10,724（Yahoo Auctions 過去180日中央値）、中国地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/yamaguchi/hibiki-nv-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/yamaguchi/hibiki-nv-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/yamaguchi/hibiki-nv-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

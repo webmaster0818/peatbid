@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】奈良県で竹鶴25年を売る｜市場相場(Yahoo中央値)¥192,300・業者比較",
   description: "奈良県（奈良・橿原・生駒・大和郡山）で竹鶴25年を売却するなら？市場相場 ¥192,300（Yahoo Auctions 過去180日中央値）、関西地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/nara/taketsuru-25-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/nara/taketsuru-25-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/nara/taketsuru-25-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

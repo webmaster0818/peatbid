@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】岐阜県でマッカラン12年を売る｜市場相場(Yahoo中央値)¥9,075・業者比較",
   description: "岐阜県（岐阜・大垣・各務原・羽島）でマッカラン12年を売却するなら？市場相場 ¥9,075（Yahoo Auctions 過去180日中央値）、中部地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/gifu/macallan-12-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/gifu/macallan-12-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/gifu/macallan-12-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

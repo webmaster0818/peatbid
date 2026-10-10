@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】山口県でアードベッグ ウーガダールを売る｜市場相場(Yahoo中央値)¥7,750・業者比較",
   description: "山口県（山口・下関・宇部・周南）でアードベッグ ウーガダールを売却するなら？市場相場 ¥7,750（Yahoo Auctions 過去180日中央値）、中国地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/yamaguchi/ardbeg-uigeadail-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/yamaguchi/ardbeg-uigeadail-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/yamaguchi/ardbeg-uigeadail-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

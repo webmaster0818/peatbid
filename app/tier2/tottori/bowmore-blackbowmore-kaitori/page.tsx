@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】鳥取県でブラックボウモアを売る｜業者比較・買取査定ガイド",
   description: "鳥取県（鳥取・米子・倉吉・境港）でブラックボウモアを売却するなら？中国地方の地元業者と3業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。",
   alternates: { canonical: "https://peatbid.com/tier2/tottori/bowmore-blackbowmore-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/tottori/bowmore-blackbowmore-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/tottori/bowmore-blackbowmore-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

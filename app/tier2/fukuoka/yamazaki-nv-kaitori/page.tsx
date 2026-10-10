@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】福岡県で山崎ノンエイジを売る｜市場相場(Yahoo中央値)¥10,107・業者比較",
   description: "福岡県（博多・天神・小倉・久留米・北九州）で山崎ノンエイジを売却するなら？市場相場 ¥10,107（Yahoo Auctions 過去180日中央値）、九州地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/fukuoka/yamazaki-nv-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/fukuoka/yamazaki-nv-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/fukuoka/yamazaki-nv-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

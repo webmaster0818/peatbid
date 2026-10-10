@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】和歌山県で響30年を売る｜市場相場(Yahoo中央値)¥536,800・業者比較",
   description: "和歌山県（和歌山・田辺・橋本・新宮）で響30年を売却するなら？市場相場 ¥536,800（Yahoo Auctions 過去180日中央値）、関西地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/wakayama/hibiki-30-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/wakayama/hibiki-30-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/wakayama/hibiki-30-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

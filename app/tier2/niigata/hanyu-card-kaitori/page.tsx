@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】新潟県で羽生カードシリーズを売る｜市場相場(Yahoo中央値)¥7,426・業者比較",
   description: "新潟県（新潟・長岡・上越・三条）で羽生カードシリーズを売却するなら？市場相場 ¥7,426（Yahoo Auctions 過去180日中央値）、中部地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/niigata/hanyu-card-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/niigata/hanyu-card-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/niigata/hanyu-card-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

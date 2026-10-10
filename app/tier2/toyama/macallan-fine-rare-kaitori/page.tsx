@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】富山県でマッカラン ファイン&レアを売る｜業者比較・買取査定ガイド",
   description: "富山県（富山・高岡・砺波・射水）でマッカラン ファイン&レアを売却するなら？中部地方の地元業者と3業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。",
   alternates: { canonical: "https://peatbid.com/tier2/toyama/macallan-fine-rare-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/toyama/macallan-fine-rare-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/toyama/macallan-fine-rare-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

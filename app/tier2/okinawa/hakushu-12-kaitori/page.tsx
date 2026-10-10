@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】沖縄県で白州12年を売る｜市場相場(Yahoo中央値)¥20,535・業者比較",
   description: "沖縄県（那覇・浦添・宜野湾・沖縄市・うるま）で白州12年を売却するなら？市場相場 ¥20,535（Yahoo Auctions 過去180日中央値）、九州地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/okinawa/hakushu-12-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/okinawa/hakushu-12-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/okinawa/hakushu-12-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

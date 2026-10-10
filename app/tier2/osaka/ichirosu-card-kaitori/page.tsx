@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】大阪府でイチローズモルト カードシリーズを売る｜市場相場(Yahoo中央値)¥455,565・業者比較",
   description: "大阪府（梅田・難波・心斎橋・天王寺・京橋・大阪駅周辺）でイチローズモルト カードシリーズを売却するなら？市場相場 ¥455,565（Yahoo Auctions 過去180日中央値）、関西地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/osaka/ichirosu-card-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/osaka/ichirosu-card-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/osaka/ichirosu-card-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

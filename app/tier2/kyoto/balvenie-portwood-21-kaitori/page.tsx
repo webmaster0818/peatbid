@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】京都府でバルヴェニー ポートウッド 21年を売る｜業者比較・買取査定ガイド",
   description: "京都府（四条・河原町・烏丸・京都駅周辺・祇園）でバルヴェニー ポートウッド 21年を売却するなら？関西地方の地元業者と3業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。",
   alternates: { canonical: "https://peatbid.com/tier2/kyoto/balvenie-portwood-21-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/kyoto/balvenie-portwood-21-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/kyoto/balvenie-portwood-21-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】鳥取県でグレンフィディック30年を売る｜市場相場(Yahoo中央値)¥60,810・業者比較",
   description: "鳥取県（鳥取・米子・倉吉・境港）でグレンフィディック30年を売却するなら？市場相場 ¥60,810（Yahoo Auctions 過去180日中央値）、中国地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/tottori/glenfiddich-30-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/tottori/glenfiddich-30-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/tottori/glenfiddich-30-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

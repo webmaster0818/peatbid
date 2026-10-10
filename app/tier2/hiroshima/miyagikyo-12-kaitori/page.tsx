@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】広島県で宮城峡12年を売る｜市場相場(Yahoo中央値)¥37,949・業者比較",
   description: "広島県（広島・福山・東広島・呉）で宮城峡12年を売却するなら？市場相場 ¥37,949（Yahoo Auctions 過去180日中央値）、中国地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/hiroshima/miyagikyo-12-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/hiroshima/miyagikyo-12-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/hiroshima/miyagikyo-12-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

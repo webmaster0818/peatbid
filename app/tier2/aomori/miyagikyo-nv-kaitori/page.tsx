@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】青森県で宮城峡ノンエイジを売る｜業者比較・買取査定ガイド",
   description: "青森県（青森・八戸・弘前・むつ）で宮城峡ノンエイジを売却するなら？東北地方の地元業者と3業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。",
   alternates: { canonical: "https://peatbid.com/tier2/aomori/miyagikyo-nv-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/aomori/miyagikyo-nv-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/aomori/miyagikyo-nv-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

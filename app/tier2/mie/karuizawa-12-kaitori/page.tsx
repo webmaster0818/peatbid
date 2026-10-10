@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】三重県で軽井沢12年を売る｜市場相場(Yahoo中央値)¥76,975・業者比較",
   description: "三重県（津・四日市・松阪・伊勢）で軽井沢12年を売却するなら？市場相場 ¥76,975（Yahoo Auctions 過去180日中央値）、関西地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/mie/karuizawa-12-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/mie/karuizawa-12-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/mie/karuizawa-12-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

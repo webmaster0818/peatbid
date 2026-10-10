@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】神奈川県で秩父ザファーストを売る｜市場相場(Yahoo中央値)¥89,705・業者比較",
   description: "神奈川県（横浜・川崎・湘南・横須賀・みなとみらい）で秩父ザファーストを売却するなら？市場相場 ¥89,705（Yahoo Auctions 過去180日中央値）、関東地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/kanagawa/chichibu-the-first-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/kanagawa/chichibu-the-first-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/kanagawa/chichibu-the-first-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

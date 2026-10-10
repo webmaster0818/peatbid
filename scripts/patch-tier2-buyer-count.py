@@ -51,7 +51,7 @@ def main():
         if do_og and "openGraph:" not in s:
             m = RE_CANON.search(s)
             if m:
-                s = s[: m.end()] + f'  openGraph: {{ url: "{m.group(2)}", images: ["/og-image.png"] }},\n' + s[m.end():]
+                s = s[: m.end()] + f'  openGraph: {{ siteName: "PeatBid", locale: "ja_JP", url: "{m.group(2)}", images: ["/og-image.png"] }},\n' + s[m.end():]
                 og_added += 1
         after += s.count("4業者")
         if s != o:

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】島根県でバルヴェニー ポートウッド 21年を売る｜業者比較・買取査定ガイド",
   description: "島根県（松江・出雲・浜田・益田）でバルヴェニー ポートウッド 21年を売却するなら？中国地方の地元業者と3業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。",
   alternates: { canonical: "https://peatbid.com/tier2/shimane/balvenie-portwood-21-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/shimane/balvenie-portwood-21-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/shimane/balvenie-portwood-21-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

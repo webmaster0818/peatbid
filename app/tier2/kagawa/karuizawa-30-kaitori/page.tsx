@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】香川県で軽井沢30年を売る｜市場相場(Yahoo中央値)¥32,450・業者比較",
   description: "香川県（高松・丸亀・坂出・三豊）で軽井沢30年を売却するなら？市場相場 ¥32,450（Yahoo Auctions 過去180日中央値）、四国地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/kagawa/karuizawa-30-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/kagawa/karuizawa-30-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/kagawa/karuizawa-30-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

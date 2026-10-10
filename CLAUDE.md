@@ -295,3 +295,10 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **生成器**: generate-brand-pages-v3 / generate-angle-pages-v3 等の記事生成器は metadata に openGraph を持たない＝layout から継承するので、週次再生成（10/12）でも og:url は消えない（生成器の変更不要を grep で確認）。
 - **未対応（範囲外・報告のみ）**: tier2 2,444（リーフ2,397＋県ハブ47）は og:site_name / og:locale が無い（generate-tier2-v4-plan-a.py・gen-tier2-area.py が openGraph を自前定義しているため）。直すなら冪等パッチ＋両生成器に siteName/locale を追加。
 - build EXIT0（heap8192）→ `*.txt` 削除（robots.txt 保全）→ precheck ✅全項目OK（3,005）→ 方式B フル rsync（--exclude .git/_not-found/functions）→ deploy `388506e9b1`。
+
+### 2026-10-10 (続き) tier2 2,444 ページに og:site_name / og:locale
+- **before（deploy HTML）**: tier2（indexable 2,445）で og:site_name 欠落 2,444・og:locale 欠落 2,444（リーフ2,397＋県ハブ47。/tier2/ 一覧は layout 継承で有）。**after**: 0 / 0（tier2 以外も 0）。og:url 3,005＝canonical 一致・og:image 欠落 0 は維持。
+- `scripts/patch-tier2-og-site.py` 新設（冪等・page.tsx の `openGraph: { ` 直後に `siteName: "PeatBid", locale: "ja_JP", ` を挿入＝pageOpenGraph() と同値）。1回目 変更 2,444／2回目 変更 0。**tier2 全再生成はしていない**。
+- 生成器にも同値を追記: `generate-tier2-v4-plan-a.py`・`gen-tier2-area.py`・`patch-tier2-buyer-count.py`（openGraph 挿入テンプレ）。gen-tier2-area.py を実行して出力がパッチ済みハブ47と完全一致（diff 0）を確認＝週次の県ハブ再生成でも戻らない。
+- build EXIT0（heap8192）→ `*.txt` 削除（robots.txt 保全）→ precheck ✅全項目OK → rsync（--exclude .git/_not-found/functions。tier2 全ページが変わったので tier2 込み）→ deploy `d3098769cf`。
+- ⚠️ tier2 リーフには og:type が無い（2,397。県ハブ47も同様か要確認）。今回は範囲外。

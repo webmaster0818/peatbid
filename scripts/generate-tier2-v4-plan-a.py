@@ -227,7 +227,7 @@ export const metadata: Metadata = {{
   title: "{title}",
   description: "{description}",
   alternates: {{ canonical: "{canonical_url}" }},
-  openGraph: {{ url: "{canonical_url}", images: ["/og-image.png"] }},
+  openGraph: {{ siteName: "PeatBid", locale: "ja_JP", url: "{canonical_url}", images: ["/og-image.png"] }},
   robots: {{ index: true, follow: true }},
 }};
 

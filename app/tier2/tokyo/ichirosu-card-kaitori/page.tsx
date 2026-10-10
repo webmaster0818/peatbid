@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】東京都でイチローズモルト カードシリーズを売る｜市場相場(Yahoo中央値)¥455,565・業者比較",
   description: "東京都（新宿・渋谷・池袋・銀座・上野・秋葉原・赤羽）でイチローズモルト カードシリーズを売却するなら？市場相場 ¥455,565（Yahoo Auctions 過去180日中央値）、関東地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/tokyo/ichirosu-card-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/tokyo/ichirosu-card-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/tokyo/ichirosu-card-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

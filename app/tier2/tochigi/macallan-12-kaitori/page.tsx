@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】栃木県でマッカラン12年を売る｜市場相場(Yahoo中央値)¥9,075・業者比較",
   description: "栃木県（宇都宮・小山・足利・那須塩原）でマッカラン12年を売却するなら？市場相場 ¥9,075（Yahoo Auctions 過去180日中央値）、関東地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/tochigi/macallan-12-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/tochigi/macallan-12-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/tochigi/macallan-12-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 

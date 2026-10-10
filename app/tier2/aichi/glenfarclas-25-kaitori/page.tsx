@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】愛知県でグレンファークラス25年を売る｜市場相場(Yahoo中央値)¥22,132・業者比較",
   description: "愛知県（名古屋・栄・金山・豊田・名駅）でグレンファークラス25年を売却するなら？市場相場 ¥22,132（Yahoo Auctions 過去180日中央値）、中部地方の地元業者と3業者参考リンクを掲載。",
   alternates: { canonical: "https://peatbid.com/tier2/aichi/glenfarclas-25-kaitori/" },
-  openGraph: { url: "https://peatbid.com/tier2/aichi/glenfarclas-25-kaitori/", images: ["/og-image.png"] },
+  openGraph: { siteName: "PeatBid", locale: "ja_JP", url: "https://peatbid.com/tier2/aichi/glenfarclas-25-kaitori/", images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 
