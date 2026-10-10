@@ -302,3 +302,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 生成器にも同値を追記: `generate-tier2-v4-plan-a.py`・`gen-tier2-area.py`・`patch-tier2-buyer-count.py`（openGraph 挿入テンプレ）。gen-tier2-area.py を実行して出力がパッチ済みハブ47と完全一致（diff 0）を確認＝週次の県ハブ再生成でも戻らない。
 - build EXIT0（heap8192）→ `*.txt` 削除（robots.txt 保全）→ precheck ✅全項目OK → rsync（--exclude .git/_not-found/functions。tier2 全ページが変わったので tier2 込み）→ deploy `d3098769cf`。
 - ⚠️ tier2 は og:type が無い（リーフ2,397＋県ハブ47＝2,444）。今回は範囲外・未対応。
+
+### 2026-10-10 相場データ品質ゲート（成長ルーチン12:00）
+- **発見**: 山崎25年の kaitori title に「中央値26,935円」（176件・平均368,980円・最大1,451,998円＝二山）。実物は百万円台。「山崎 25年 買取」imp52/20.1位。同類: 白州25年 21,000（平均147,237）・軽井沢30年 32,450（参考800万）・羽生カード 7,426（参考3,000万）・秩父ザ・ファースト 89,705（参考350万・別ボトル「ザ・ファースト テン」混入の疑い）・イチローズカード 455,565（参考1,500万・シリーズ混在）
+- **恒久対策**: `fetch-yahoo-medians.py` に `quality_gate()`＝ 平均/中央値>2 または 中央値<reference_price_jpy_2026_05×5% → insufficient＋quality_flag。週次で自動適用
+- **今回の適用**: yahoo-medians.json／brands.csv の中央値クリア／price-history 6銘柄の history を空に（同じ汚染クエリ由来）→ 生成器 [2/7]〜[4.5/7] を手動実行（tier2 282頁 十分→不足）→ build EXIT0・precheck ✅（3,005頁）→ source 736a13ed7 / deploy f35765f754・本番 title「状態別の目安」・旧値0件・/api/contact 400・Indexing 6
+- 残課題: クエリ自体の精査（「山崎25年 700ml」に箱のみ・空瓶・ミニチュアが混ざる）。除外語（空瓶/ミニ/箱のみ/50ml）を入れれば実数を戻せる可能性
