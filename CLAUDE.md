@@ -301,4 +301,4 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - `scripts/patch-tier2-og-site.py` 新設（冪等・page.tsx の `openGraph: { ` 直後に `siteName: "PeatBid", locale: "ja_JP", ` を挿入＝pageOpenGraph() と同値）。1回目 変更 2,444／2回目 変更 0。**tier2 全再生成はしていない**。
 - 生成器にも同値を追記: `generate-tier2-v4-plan-a.py`・`gen-tier2-area.py`・`patch-tier2-buyer-count.py`（openGraph 挿入テンプレ）。gen-tier2-area.py を実行して出力がパッチ済みハブ47と完全一致（diff 0）を確認＝週次の県ハブ再生成でも戻らない。
 - build EXIT0（heap8192）→ `*.txt` 削除（robots.txt 保全）→ precheck ✅全項目OK → rsync（--exclude .git/_not-found/functions。tier2 全ページが変わったので tier2 込み）→ deploy `d3098769cf`。
-- ⚠️ tier2 リーフには og:type が無い（2,397。県ハブ47も同様か要確認）。今回は範囲外。
+- ⚠️ tier2 は og:type が無い（リーフ2,397＋県ハブ47＝2,444）。今回は範囲外・未対応。
