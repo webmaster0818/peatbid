@@ -1,0 +1,619 @@
+{
+  "_note": "買取店が自社サイトに掲示している参考買取価格（手動確認・出典URL付き）。checked_at=PeatBid編集部が各ページを確認した日。数値は各ページの表示をそのまま転記（推計・加工なし）。月が変わったら再確認して更新すること。scripts/store_prices.py が generate-brand-pages-v3.py から読む。",
+  "yamazaki-nv": {
+    "checked_at": "2026-10-11",
+    "stores": [
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "山崎NV 700ml",
+        "cond": "箱あり・箱なし同額",
+        "price": "9,600円",
+        "low": 9600,
+        "high": 9600,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/yamazaki/yamazakinv/"
+      },
+      {
+        "store": "ファイブニーズ",
+        "item": "山崎NV 700ml",
+        "cond": "参考買取価格",
+        "price": "9,500円",
+        "low": 9500,
+        "high": 9500,
+        "updated": "2026-09-30",
+        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/yamazaki_brand/yamazakinv/"
+      },
+      {
+        "store": "サケウル（STOCK LAB）",
+        "item": "山崎 NV／NV 箱なし／NV 100周年",
+        "cond": "3種とも同レンジ",
+        "price": "9,000〜10,000円",
+        "low": 9000,
+        "high": 10000,
+        "updated": "2026-10-09",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/yamazaki/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "山崎NV 180ml",
+        "cond": "箱あり",
+        "price": "2,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-04",
+        "url": "https://linxas.shop/whiskey/yamazaki/yamazakinv/"
+      }
+    ],
+    "trend": {
+      "store": "ファイブニーズ",
+      "label": "山崎NV 700ml 参考買取価格",
+      "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/yamazaki_brand/yamazakinv/",
+      "months": [
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ],
+      "prices": [
+        13000,
+        11000,
+        9000,
+        9000,
+        8000,
+        9000,
+        8000,
+        8000,
+        8000,
+        8000,
+        8000,
+        8000,
+        8000,
+        7500,
+        8000,
+        7500,
+        8000,
+        8000,
+        7500,
+        8500,
+        8000,
+        8000,
+        8000,
+        8500,
+        9200,
+        9500,
+        9500
+      ]
+    },
+    "records": {
+      "store": "LINXAS（リンクサス）",
+      "url": "https://linxas.shop/whiskey/yamazaki/yamazakinv/",
+      "items": [
+        [
+          "2025-01-30",
+          "山崎NV 700ml",
+          "9,700円"
+        ],
+        [
+          "2022-12-14",
+          "山崎NV",
+          "10,200円"
+        ],
+        [
+          "2022-11-20",
+          "山崎NV 箱無し",
+          "9,800円"
+        ]
+      ]
+    },
+    "list_price": {
+      "rows": [
+        [
+          "2024年4月〜2026年3月",
+          "7,000円",
+          "シングルモルト 山崎 700ml（2024年4月1日出荷分から改定）",
+          "https://www.suntory.co.jp/news/article/14499.html"
+        ],
+        [
+          "2026年4月〜",
+          "7,500円",
+          "同上（2026年4月1日出荷分から改定・発表 2025-11-04 No.14932）",
+          "https://www.suntory.co.jp/news/article/14932.html"
+        ]
+      ],
+      "current_ex_tax": 7500
+    },
+    "desc_tail": "買取店3社の掲示価格比較と2年分の買取価格推移も掲載。"
+  },
+  "hakushu-nv": {
+    "checked_at": "2026-10-11",
+    "stores": [
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "白州ノンエイジ 700ml",
+        "cond": "箱あり・箱なし同額",
+        "price": "9,700円",
+        "low": 9700,
+        "high": 9700,
+        "updated": "2026-06-06",
+        "url": "https://linxas.shop/whiskey/hakushu/hakushunon-age/"
+      },
+      {
+        "store": "ファイブニーズ",
+        "item": "白州NV 700ml",
+        "cond": "参考買取価格",
+        "price": "9,500円",
+        "low": 9500,
+        "high": 9500,
+        "updated": "2026-09-30",
+        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/hakusyu_brand/hakusyunv/"
+      },
+      {
+        "store": "サケウル（STOCK LAB）",
+        "item": "白州 NV／NV 100周年",
+        "cond": "2種とも同レンジ",
+        "price": "9,000〜10,000円",
+        "low": 9000,
+        "high": 10000,
+        "updated": "2026-10-09",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/hakushu/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "白州ノンエイジ 180ml",
+        "cond": "箱あり",
+        "price": "1,800円",
+        "low": null,
+        "high": null,
+        "updated": "2026-02-14",
+        "url": "https://linxas.shop/whiskey/hakushu/hakushunon-age/"
+      }
+    ],
+    "trend": {
+      "store": "ファイブニーズ",
+      "label": "白州NV 700ml 参考買取価格",
+      "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/hakusyu_brand/hakusyunv/",
+      "months": [
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ],
+      "prices": [
+        9500,
+        9500,
+        9000,
+        9000,
+        9000,
+        9000,
+        9000,
+        9000,
+        8800,
+        8800,
+        9000,
+        8500,
+        8500,
+        8700,
+        8800,
+        8700,
+        8800,
+        9000,
+        8800,
+        8800,
+        9000,
+        9000,
+        9000,
+        9000,
+        9500,
+        9500,
+        9500
+      ]
+    },
+    "records": {
+      "store": "ファイブニーズ",
+      "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/hakusyu_brand/hakusyunv/",
+      "items": [
+        [
+          "2026-05-25",
+          "白州 NV 100周年記念蒸溜所ラベル 700ml",
+          "8,500円"
+        ],
+        [
+          "2025-08-27",
+          "白州 NV 700ml",
+          "8,300円"
+        ],
+        [
+          "2025-07-09",
+          "白州 NV 100周年記念蒸溜所ラベル 700ml",
+          "7,500円"
+        ],
+        [
+          "2025-04-12",
+          "白州 NV 700ml",
+          "8,400円"
+        ],
+        [
+          "2024-11-09",
+          "白州 NV 700ml",
+          "8,000円"
+        ]
+      ]
+    },
+    "list_price": {
+      "rows": [
+        [
+          "2024年4月〜2026年3月",
+          "7,000円",
+          "シングルモルト 白州 700ml（2024年4月1日出荷分から改定）",
+          "https://www.suntory.co.jp/news/article/14499.html"
+        ],
+        [
+          "2026年4月〜",
+          "7,500円",
+          "同上（2026年4月1日出荷分から改定・発表 2025-11-04 No.14932）",
+          "https://www.suntory.co.jp/news/article/14932.html"
+        ]
+      ],
+      "current_ex_tax": 7500
+    },
+    "desc_tail": "買取店3社の掲示価格比較と2年分の買取価格推移も掲載。"
+  },
+  "hibiki-30": {
+    "checked_at": "2026-10-11",
+    "stores": [
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "響30年 新型 ホログラム緑シール付き",
+        "cond": "箱あり",
+        "price": "530,000円",
+        "low": 530000,
+        "high": 530000,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/hibiki/hibiki30years/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "響30年 新型 ホログラム無し",
+        "cond": "箱あり",
+        "price": "470,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/hibiki/hibiki30years/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "響30年 旧型",
+        "cond": "箱あり",
+        "price": "400,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/hibiki/hibiki30years/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "響30年 観音開き",
+        "cond": "箱あり",
+        "price": "600,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/hibiki/hibiki30years/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "響30年 花鳥風月",
+        "cond": "箱あり",
+        "price": "660,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/hibiki/hibiki30years/"
+      },
+      {
+        "store": "ファイブニーズ",
+        "item": "響30年 700ml",
+        "cond": "参考買取価格",
+        "price": "527,000円",
+        "low": 527000,
+        "high": 527000,
+        "updated": "2026-09-30",
+        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/hibiki_brand/hibiki30/"
+      },
+      {
+        "store": "サケウル（STOCK LAB）",
+        "item": "響30年 ホログラムシールあり",
+        "cond": "完品",
+        "price": "475,000〜476,000円",
+        "low": 475000,
+        "high": 476000,
+        "updated": "2026-10-09",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/"
+      },
+      {
+        "store": "サケウル（STOCK LAB）",
+        "item": "響30年 ホログラムシールなし",
+        "cond": "完品",
+        "price": "460,000〜461,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-09",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/"
+      },
+      {
+        "store": "サケウル（STOCK LAB）",
+        "item": "響30年",
+        "cond": "付属品欠如 or ダメージあり",
+        "price": "422,000〜423,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-09",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/"
+      }
+    ],
+    "store_note": "同じ店でも、ボトルの仕様（新型のホログラムシールの有無・旧型・観音開きの金箱・免税店向けの花鳥風月）と付属品で掲示価格が分かれています。LINXAS の掲示では、新型ホログラム付き 530,000円 と ホログラム無し 470,000円 で 60,000円、旧型 400,000円 とは 130,000円 の差があります。",
+    "trend": {
+      "store": "ファイブニーズ",
+      "label": "響30年 700ml 参考買取価格",
+      "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/hibiki_brand/hibiki30/",
+      "months": [
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ],
+      "prices": [
+        620000,
+        620000,
+        600000,
+        590000,
+        590000,
+        580000,
+        570000,
+        560000,
+        520000,
+        500000,
+        490000,
+        540000,
+        530000,
+        520000,
+        510000,
+        500000,
+        520000,
+        520000,
+        525000,
+        525000,
+        530000,
+        530000,
+        530000,
+        530000,
+        525000,
+        525000,
+        527000
+      ]
+    },
+    "trend2": {
+      "store": "サケウル（STOCK LAB）",
+      "label": "響30年（ホログラムシールあり 完品）の月別買取相場（同店の買取実績の月中央値・実績のない月は除外）",
+      "url": "https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/",
+      "items": [
+        [
+          "2023-10",
+          "580,000円"
+        ],
+        [
+          "2023-11",
+          "580,000円"
+        ],
+        [
+          "2023-12",
+          "613,000円"
+        ],
+        [
+          "2024-01",
+          "625,000円"
+        ],
+        [
+          "2024-02",
+          "635,000円"
+        ],
+        [
+          "2024-03",
+          "680,000円"
+        ],
+        [
+          "2024-04",
+          "675,000円"
+        ],
+        [
+          "2024-05",
+          "650,000円"
+        ],
+        [
+          "2024-09",
+          "535,000円"
+        ],
+        [
+          "2024-11",
+          "535,000円"
+        ],
+        [
+          "2025-01",
+          "520,000円"
+        ],
+        [
+          "2025-03",
+          "480,000円"
+        ],
+        [
+          "2025-04",
+          "697,500円"
+        ],
+        [
+          "2025-06",
+          "477,000円"
+        ],
+        [
+          "2025-09",
+          "490,000円"
+        ],
+        [
+          "2025-10",
+          "485,000円"
+        ],
+        [
+          "2025-11",
+          "470,000円"
+        ],
+        [
+          "2025-12",
+          "495,000円"
+        ],
+        [
+          "2026-02",
+          "490,000円"
+        ],
+        [
+          "2026-03",
+          "500,000円"
+        ],
+        [
+          "2026-06",
+          "520,000円"
+        ]
+      ]
+    },
+    "records": {
+      "store": "LINXAS（リンクサス）",
+      "url": "https://linxas.shop/whiskey/hibiki/hibiki30years/",
+      "items": [
+        [
+          "2025-09-05",
+          "響30年 空き瓶",
+          "2,500円"
+        ],
+        [
+          "2025-02-03",
+          "響30年 新型ホログラム付き 完備",
+          "540,000円"
+        ],
+        [
+          "2023-10-05",
+          "響30年 空き瓶（箱付き）",
+          "12,000円"
+        ],
+        [
+          "2022-07-20",
+          "響30年 観音開き 完備",
+          "1,050,000円"
+        ],
+        [
+          "2022-06-17",
+          "響30年 完備",
+          "810,000円"
+        ]
+      ]
+    },
+    "list_price": {
+      "rows": [
+        [
+          "〜2022年3月",
+          "125,000円",
+          "響30年 700ml",
+          "https://www.suntory.co.jp/news/article/14030.html"
+        ],
+        [
+          "2022年4月〜2024年3月",
+          "160,000円",
+          "2022年4月1日出荷分から改定",
+          "https://www.suntory.co.jp/news/article/14030.html"
+        ],
+        [
+          "2024年4月〜2026年3月",
+          "360,000円",
+          "2024年4月1日出荷分から改定",
+          "https://www.suntory.co.jp/news/article/14499.html"
+        ],
+        [
+          "2026年4月〜",
+          "415,000円",
+          "2026年4月1日出荷分から改定（発表 2025-11-04 No.14932）",
+          "https://www.suntory.co.jp/news/article/14932.html"
+        ]
+      ],
+      "current_ex_tax": 415000
+    },
+    "title_tail": "新型・旧型・観音開き別の店舗買取価格も",
+    "desc_tail": "仕様別（新型・旧型・観音開き・花鳥風月）の店舗掲示価格と定価推移も掲載。"
+  }
+}

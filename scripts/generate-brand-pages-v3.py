@@ -20,6 +20,8 @@ from opportunity_band import (
     band_title,
     sparkline_block,
 )
+# 成長ルーチン 2026-10-11: 買取店の掲示価格（店舗別比較・月次推移・定価）＝ data/store-prices.json
+import store_prices
 
 # 週次cronで再生成されるため、生成時点の年月がそのままタイトル鮮度になる
 _NOW = datetime.date.today()
@@ -494,6 +496,10 @@ def render_page(b, all_brands):
             f"はい、同じものです。「{nv_base_name} 年代指定なし」「{nv_base_name} NV」は、熟成年数の表記がないボトル＝{name}を指す表記ゆれです。本ページの相場（{market_short}）がそのまま目安になります。",
         ))
 
+    _sfaq = store_prices.faq(slug_base, name)
+    if _sfaq:
+        faqs.insert(1, _sfaq)
+
     # 機会バンド: 先頭FAQを「今の買取相場はいくら？」（中央値実数＋毎週更新明記）に置き換え
     if slug_base in BAND_BRAND_SLUGS and sufficient:
         faqs[0] = (
@@ -536,6 +542,17 @@ def render_page(b, all_brands):
     # 機会バンド: 12週スパークライン（点数<3なら「データ蓄積中」表示に自動フォールバック）
     spark = sparkline_block(slug_base, name) if slug_base in BAND_BRAND_SLUGS else ""
 
+    # 買取店の掲示価格ブロック（data/store-prices.json にある slug のみ。無ければ全て空＝無変更）
+    _tt = store_prices.title_tail(slug_base)
+    if _tt and sufficient and not band_lm:
+        meta_title = f"{title_name}の買取相場{MONTH_TAG}{market_short}｜{_tt}"
+    if store_prices.get(slug_base):
+        meta_desc += store_prices.desc_tail(slug_base)
+        if not spark and sufficient:
+            spark = sparkline_block(slug_base, name)
+    store_block = store_prices.block(slug_base, name, yahoo_median if sufficient else None, fetched_at)
+    store_toc = store_prices.toc_item(slug_base)
+
     content = f'''import type {{ Metadata }} from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -555,7 +572,7 @@ const tocItems = [
   {{ id: "summary", label: "1. {name}の概要" }},
   {{ id: "distillery", label: "2. 蒸溜所の歴史と特徴" }},
   {{ id: "tasting", label: "3. テイスティングノート" }},
-  {{ id: "current-price", label: "4. 現在の市場相場（Yahoo中央値）" }},
+  {{ id: "current-price", label: "4. 現在の市場相場（Yahoo中央値）" }},{store_toc}
   {{ id: "state-price", label: "5. 状態別の業界目安" }},
   {{ id: "price-reasons", label: "6. なぜこの価格になるのか" }},
   {{ id: "auction", label: "7. オークション落札データ" }},
@@ -658,7 +675,7 @@ export default function {component_name}() {{
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">バイセル</a> — 東証グロース上場、出張・店頭・宅配の3チャネル対応</li>
             <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">福ちゃん</a> — 総合買取の大手、お酒査定にも対応</li>
           </ul>
-
+{store_block}
           <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
 
           <p>{name}の査定額は、ボトルの状態と付属品の有無により大きく変動します。以下は <strong>業界一般の目安（％）</strong> で、市場相場（Yahoo中央値）を基準とした概算レンジです。**実際の査定額は業者により異なります**ので、最終的な金額は各業者のページからご確認ください。</p>
