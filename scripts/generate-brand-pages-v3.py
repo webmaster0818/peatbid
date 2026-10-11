@@ -17,7 +17,9 @@ from opportunity_band import (
     PRECHECK_SLUGS,
     UPDATE_NOTE,
     band_latest,
+    DATA_QUALITY_EXCLUDE,
     band_title,
+    load_price_history,
     sparkline_block,
 )
 # 成長ルーチン 2026-10-11: 買取店の掲示価格（店舗別比較・月次推移・定価）＝ data/store-prices.json
@@ -553,6 +555,22 @@ def render_page(b, all_brands):
     store_block = store_prices.block(slug_base, name, yahoo_median if sufficient else None, fetched_at)
     store_toc = store_prices.toc_item(slug_base)
 
+    # 2026-10-11: 出典の無い「過去5年で累積30〜80%の上昇」を撤去。代わりに自社集計（price-history）の
+    # 集計開始時点→最新の実数のみを出す。4点未満・品質除外・insufficient なら一文ごと出さない。
+    history_change_p = ""
+    _ph = load_price_history(slug_base)
+    if sufficient and _ph and slug_base not in DATA_QUALITY_EXCLUDE:
+        _pts = [h for h in _ph.get("history", []) if isinstance(h.get("median_jpy"), int) and h["median_jpy"] > 0]
+        if len(_pts) >= 4:
+            _a, _b = _pts[0], _pts[-1]
+            _chg = (_b["median_jpy"] - _a["median_jpy"]) / _a["median_jpy"] * 100
+            history_change_p = (
+                f'          <p>PeatBid がヤフオク落札中央値の週次集計を始めた {_a["date"]} 時点の{name}は <strong>{_a["median_jpy"]:,}円</strong>（n={_a["sample_n"]}）、'
+                f'最新の {_b["date"]} は <strong>{_b["median_jpy"]:,}円</strong>（n={_b["sample_n"]}）で、この間の変化は <strong>{_chg:+.1f}%</strong> です'
+                f'（出典: PeatBid 集計・<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">算出方法</Link>）。'
+                f'集計期間が{len(_pts)}週分のため、数年単位の値動きはこのデータからは言えません。</p>\n'
+            )
+
     content = f'''import type {{ Metadata }} from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -774,7 +792,7 @@ export default function {component_name}() {{
 
           <p>これらのオークションの落札データは、各サイトの「Past Results」アーカイブで閲覧可能です。日本の買取業者の査定額は、これらの海外データを基準に、輸送コスト・関税・業者マージンを考慮して算出されています。</p>
 
-          <p>過去5年（2021〜2026年）の{name}の二次流通価格は、ジャパニーズウイスキーブーム・コレクター需要拡大により<strong>累積30〜80%の上昇</strong>を示しており、長期保有における資産価値も注目されています。</p>
+{history_change_p}
 
           <h2 id="takaku-uru">8. {name}を高く売る7つの実践テクニック</h2>
 

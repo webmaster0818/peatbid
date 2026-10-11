@@ -230,7 +230,8 @@ export default function Yoichi10KaitoriPage() {
 
           <p>これらのオークションの落札データは、各サイトの「Past Results」アーカイブで閲覧可能です。日本の買取業者の査定額は、これらの海外データを基準に、輸送コスト・関税・業者マージンを考慮して算出されています。</p>
 
-          <p>過去5年（2021〜2026年）の余市10年の二次流通価格は、ジャパニーズウイスキーブーム・コレクター需要拡大により<strong>累積30〜80%の上昇</strong>を示しており、長期保有における資産価値も注目されています。</p>
+          <p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 時点の余市10年は <strong>22,770円</strong>（n=266）、最新の 2026-10-05 は <strong>23,320円</strong>（n=252）で、この間の変化は <strong>+2.4%</strong> です（出典: PeatBid 集計・<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">算出方法</Link>）。集計期間が20週分のため、数年単位の値動きはこのデータからは言えません。</p>
+
 
           <h2 id="takaku-uru">8. 余市10年を高く売る7つの実践テクニック</h2>
 
