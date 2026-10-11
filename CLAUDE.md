@@ -314,3 +314,10 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - `scripts/patch-tier2-og-type.py` 新設（冪等・`openGraph: { ` 直後に `type: "website", ` 挿入。既に type があればスキップ）。1回目 変更 2,444／2回目 変更 0。**tier2 全再生成はしていない**。
 - 生成器: `generate-tier2-v4-plan-a.py`・`gen-tier2-area.py`・`patch-tier2-buyer-count.py` の openGraph テンプレにも `type: "website"` を追加。gen-tier2-area.py を全47県で実行→パッチ済みハブと完全一致（diff 0）。
 - 週次（10/12）確認: [4.3] patch-tier2-yahoo-freshness は openGraph に触れない（`--dry-run` 変更0・検証NG0）、[4.4] 県ハブ再生成は上記で一致確認済、リーフ生成器は週次で走らない、[7/7] は out/ から部分同期＝ソース修正済みなので戻らない。
+
+### 2026-10-11 成長ルーチン12:00: 山崎NV／白州NV／響30年に「買取店の掲示価格」節（競合差分） ✅本番反映済み
+- 競合（10位以内）: ヒカカク（山崎NV 直近90日レンジ・定価併記。ただしデータは2025/8/1）／ウリドキ（白州 店舗別・状態別の査定例）／LINXAS・ファイブニーズ・サケウル（店の掲示価格＋更新日＋月次推移グラフ）／大吉・ファイブニーズ（響30年の仕様別＝新型/旧型/観音開き/花鳥風月/有田焼、定価推移）。**うちに無かった＝店舗別の掲示価格（更新日つき）・2年分の推移・定価との比較・仕様別の価格差・店の買取実績**
+- **実装（週次再生成で消えない）**: `data/store-prices.json`（手動確認・出典URL・店舗側の更新日・checked_at）＋`scripts/store_prices.py`（JSX ブロック・FAQ・TOC・title/desc 末尾）。`generate-brand-pages-v3.py` が import し「4. 現在の市場相場」末尾に `<h3 id="store-prices">`・`store-trend`（ファイブニーズ掲示の2024/7〜2026/9 月次 SVG＋表）・`teika`（サントリー発表の定価推移＋ヤフオク中央値÷税込定価）を挿入。JSON に無い slug は無変更（diff は3ページのみ確認）。中央値比は生成時の brands.csv から自動計算
+- 響30年は非バンドなので title を「…536,800円｜新型・旧型・観音開き別の店舗買取価格も」に、12週スパークラインも追加。desc は precheck 160字上限に引っかかったので短縮（187→155）
+- ⚠️ 掲示価格は**手動データ＝自動更新されない**。月替わりに各ページを再確認して `checked_at` と値を更新すること。サントリー公式（suntory.co.jp）は curl/WebFetch とも 403＝定価は公式リリース番号（14030/14499/14932）＋販売店記事で照合
+- build EXIT0（heap12288・2回）→ precheck ✅全項目OK（3,005）→ source 10cfbcb9b / deploy db99b646ba → 本番3URL 200・新節反映・/api/contact 400・robots Sitemap 行 → Indexing 3/3
