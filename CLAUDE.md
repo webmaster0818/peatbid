@@ -321,3 +321,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 響30年は非バンドなので title を「…536,800円｜新型・旧型・観音開き別の店舗買取価格も」に、12週スパークラインも追加。desc は precheck 160字上限に引っかかったので短縮（187→155）
 - ⚠️ 掲示価格は**手動データ＝自動更新されない**。月替わりに各ページを再確認して `checked_at` と値を更新すること。サントリー公式（suntory.co.jp）は curl/WebFetch とも 403＝定価は公式リリース番号（14030/14499/14932）＋販売店記事で照合
 - build EXIT0（heap12288・2回）→ precheck ✅全項目OK（3,005）→ source 10cfbcb9b / deploy db99b646ba → 本番3URL 200・新節反映・/api/contact 400・robots Sitemap 行 → Indexing 3/3
+
+### 2026-10-11 (続き) 出典なし「過去5年（2021〜2026年）…累積30〜80%の上昇」を全51 kaitori から撤去（MediaXAI経由の指示）
+- 出所は `generate-brand-pages-v3.py`（と未使用の v2）の「7. オークション落札データ」末尾の固定文。全51ページに同じ数字が入っていた＝架空数字。
+- 置換（v3・週次でも戻らない）: `history_change_p`＝`data/price-history/{slug}.json` の有効点が4点以上・sufficient・DATA_QUALITY_EXCLUDE外なら「集計開始日の中央値(n)→最新(n)・変化率％（出典: PeatBid集計・/methodology/）・数年単位の値動きはこのデータからは言えない」。条件を満たさなければ一文ごと出さない。v2 は行削除のみ。
+- 結果: 置換 38／削除 13（yamazaki-25・hakushu-25・karuizawa-30・hanyu-card・chichibu-the-first・ichirosu-card＝品質ゲートで履歴クリア、yamazaki-55・yoichi-nv・miyagikyo-nv・macallan-fine-rare・balvenie-portwood-21＝不足、bowmore-blackbowmore＝品質除外、glenfarclas-105＝履歴1点）。out/ と deploy の「累積30」0件。
+- build EXIT0 → precheck ✅全項目OK（3,005）→ source 6399c1bfa / deploy 3e15d34ecb → 本番 yamazaki-12・hibiki-30・yamazaki-25・glenfarclas-105 で0件確認。
