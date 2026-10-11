@@ -5,12 +5,12 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/hibiki-30.json";
 
 export const metadata: Metadata = {
-  title: '響30年の買取相場【2026年10月最新】536,800円｜新型・旧型・観音開き別の店舗買取価格も',
-  description: '響30年の買取相場は536,800円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者3社の比較、高く売るコツ、贋作リスクまで網羅。響30年を売る前に読む決定版ガイド。仕様別（新型・旧型・観音開き・花鳥風月）の店舗掲示価格と定価推移も掲載。',
+  title: '響30年の買取相場【2026年10月最新】535,125円｜新型・旧型・観音開き別の店舗買取価格も',
+  description: '響30年の買取相場は535,125円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者3社の比較、高く売るコツ、贋作リスクまで網羅。響30年を売る前に読む決定版ガイド。仕様別（新型・旧型・観音開き・花鳥風月）の店舗掲示価格と定価推移も掲載。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '響30年の市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '響30年の市場相場は536,800円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=116、取得日 2026-10-05）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": '響30年の買取価格はお店によって違いますか？', "acceptedAnswer": { "@type": "Answer", "text": '違います。2026-10-11 に各店の公開ページで確認した掲示価格は、LINXAS（リンクサス） 530,000円（響30年 新型 ホログラム緑シール付き・2026-09-30更新）、ファイブニーズ 527,000円（響30年 700ml・2026-09-30更新）、サケウル（STOCK LAB） 475,000〜476,000円（響30年 ホログラムシールあり・2026-10-09更新）でした。ボトルの仕様や付属品、店の在庫状況でも変わるため、売る前に複数の店で査定を取って比べてください。' } }, { "@type": "Question", "name": '響30年を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": '響30年の開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' } }, { "@type": "Question", "name": '響30年は箱無しでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約429,440〜483,120円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' } }, { "@type": "Question", "name": '響30年に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": '響30年の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": '響30年は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '響30年を売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": '響30年と他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '響30年の市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '響30年の市場相場は535,125円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=124、取得日 2026-10-12）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": '響30年の買取価格はお店によって違いますか？', "acceptedAnswer": { "@type": "Answer", "text": '違います。2026-10-11 に各店の公開ページで確認した掲示価格は、LINXAS（リンクサス） 530,000円（響30年 新型 ホログラム緑シール付き・2026-09-30更新）、ファイブニーズ 527,000円（響30年 700ml・2026-09-30更新）、サケウル（STOCK LAB） 475,000〜476,000円（響30年 ホログラムシールあり・2026-10-09更新）でした。ボトルの仕様や付属品、店の在庫状況でも変わるため、売る前に複数の店で査定を取って比べてください。' } }, { "@type": "Question", "name": '響30年を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": '響30年の開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' } }, { "@type": "Question", "name": '響30年は箱無しでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約428,100〜481,610円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' } }, { "@type": "Question", "name": '響30年に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": '響30年の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": '響30年は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '響30年を売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": '響30年と他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
 }
 
 const tocItems = [
@@ -51,7 +51,7 @@ export default function Hibiki30KaitoriPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">響30年の買取相場と業者比較ガイド【2026年10月】</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-05 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-12 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -87,7 +87,7 @@ export default function Hibiki30KaitoriPage() {
                 <tr><td><strong>アルコール度数</strong></td><td>43%</td></tr>
                 <tr><td><strong>容量</strong></td><td>700ml</td></tr>
                 <tr><td><strong>希少度</strong></td><td>ウルトラ</td></tr>
-                <tr><td><strong>市場相場（Yahoo中央値）</strong></td><td><strong>536,800円</strong></td></tr>
+                <tr><td><strong>市場相場（Yahoo中央値）</strong></td><td><strong>535,125円</strong></td></tr>
               </tbody>
             </table>
           </div>
@@ -114,33 +114,33 @@ export default function Hibiki30KaitoriPage() {
 
           <h2 id="current-price">4. 現在の市場相場（Yahoo中央値）</h2>
 
-          <p>響30年の市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>536,800円</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=116件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
+          <p>響30年の市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>535,125円</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=124件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
 
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
             <p className="text-sm font-bold text-ink mb-3">響30年の買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
             <svg viewBox="0 0 640 210" role="img" aria-label="響30年のヤフオク落札中央値の週次推移グラフ" className="w-full h-auto">
               <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">537,350</text>
-              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">534,250</text>
-              <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">531,150</text>
-              <polyline points="66.0,155.1 116.5,69.8 167.1,69.8 217.6,152.3 268.2,85.8 318.7,127.0 369.3,49.2 419.8,54.4 470.4,38.9 520.9,49.2 571.5,49.2 622.0,49.2" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="66.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-20: 531,150円（サンプル n=68件）</title></circle>
-              <circle cx="116.5" cy="69.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-27: 535,700円（サンプル n=62件）</title></circle>
-              <circle cx="167.1" cy="69.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-03: 535,700円（サンプル n=62件）</title></circle>
-              <circle cx="217.6" cy="152.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-10: 531,300円（サンプル n=82件）</title></circle>
-              <circle cx="268.2" cy="85.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 534,850円（サンプル n=80件）</title></circle>
-              <circle cx="318.7" cy="127.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 532,650円（サンプル n=84件）</title></circle>
-              <circle cx="369.3" cy="49.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 536,800円（サンプル n=90件）</title></circle>
-              <circle cx="419.8" cy="54.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 536,525円（サンプル n=92件）</title></circle>
-              <circle cx="470.4" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 537,350円（サンプル n=104件）</title></circle>
-              <circle cx="520.9" cy="49.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 536,800円（サンプル n=106件）</title></circle>
-              <circle cx="571.5" cy="49.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 536,800円（サンプル n=120件）</title></circle>
-              <circle cx="622.0" cy="49.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 536,800円（サンプル n=116件）</title></circle>
-              <text x="618.0" y="39.2" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">536,800円</text>
-              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">7/20</text>
-              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/24</text>
-              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">10/5</text>
+              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">534,325</text>
+              <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">531,300</text>
+              <polyline points="66.0,70.6 116.5,70.6 167.1,155.1 217.6,86.9 268.2,129.2 318.7,49.5 369.3,54.8 419.8,38.9 470.4,49.5 520.9,49.5 571.5,49.5 622.0,81.6" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="70.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-27: 535,700円（サンプル n=62件）</title></circle>
+              <circle cx="116.5" cy="70.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-03: 535,700円（サンプル n=62件）</title></circle>
+              <circle cx="167.1" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-10: 531,300円（サンプル n=82件）</title></circle>
+              <circle cx="217.6" cy="86.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 534,850円（サンプル n=80件）</title></circle>
+              <circle cx="268.2" cy="129.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 532,650円（サンプル n=84件）</title></circle>
+              <circle cx="318.7" cy="49.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 536,800円（サンプル n=90件）</title></circle>
+              <circle cx="369.3" cy="54.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 536,525円（サンプル n=92件）</title></circle>
+              <circle cx="419.8" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 537,350円（サンプル n=104件）</title></circle>
+              <circle cx="470.4" cy="49.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 536,800円（サンプル n=106件）</title></circle>
+              <circle cx="520.9" cy="49.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 536,800円（サンプル n=120件）</title></circle>
+              <circle cx="571.5" cy="49.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 536,800円（サンプル n=116件）</title></circle>
+              <circle cx="622.0" cy="81.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 535,125円（サンプル n=124件）</title></circle>
+              <text x="618.0" y="71.6" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">535,125円</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">7/27</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/31</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">10/12</text>
             </svg>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-07-20〜2026-10-05（週次12点・各点のサンプル数 n=62〜120件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜自動更新。買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-07-27〜2026-10-12（週次12点・各点のサンプル数 n=62〜124件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜自動更新。買取額を保証するものではありません。</p>
           </div>
 
           <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、**最低3社、できれば4社以上で相見積もり**を取ることをおすすめします。</p>
@@ -163,7 +163,7 @@ export default function Hibiki30KaitoriPage() {
               <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">響30年 新型 ホログラム緑シール付き<br /><span className="text-warm-gray text-xs">箱あり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">530,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">響30年 新型 ホログラム無し<br /><span className="text-warm-gray text-xs">箱あり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">470,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">響30年 旧型<br /><span className="text-warm-gray text-xs">箱あり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">400,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">響30年 観音開き<br /><span className="text-warm-gray text-xs">箱あり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">600,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">響30年 花鳥風月<br /><span className="text-warm-gray text-xs">箱あり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">660,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">ファイブニーズ</td><td className="py-2 pr-3">響30年 700ml<br /><span className="text-warm-gray text-xs">参考買取価格</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">527,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://www.sakekaitori.com/whisky/japanese_whiskey/hibiki_brand/hibiki30/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">サケウル（STOCK LAB）</td><td className="py-2 pr-3">響30年 ホログラムシールあり<br /><span className="text-warm-gray text-xs">完品</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">475,000〜476,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-09</td><td className="py-2"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">サケウル（STOCK LAB）</td><td className="py-2 pr-3">響30年 ホログラムシールなし<br /><span className="text-warm-gray text-xs">完品</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">460,000〜461,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-09</td><td className="py-2"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">サケウル（STOCK LAB）</td><td className="py-2 pr-3">響30年<br /><span className="text-warm-gray text-xs">付属品欠如 or ダメージあり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">422,000〜423,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-09</td><td className="py-2"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr></tbody>
             </table>
           </div>
-          <p>標準的な700mlボトルの掲示価格は <strong>475,000〜530,000円</strong> で、PeatBid が集計しているヤフオク落札中央値 <strong>536,800円</strong>（取得日 2026-10-05）の <strong>88〜99%</strong> にあたります。中央値は個人間の落札額、掲示価格は店がその場で買い取る額なので、両方を並べると「店に売るといくらになりそうか」の見当がつきます。</p>
+          <p>標準的な700mlボトルの掲示価格は <strong>475,000〜530,000円</strong> で、PeatBid が集計しているヤフオク落札中央値 <strong>535,125円</strong>（取得日 2026-10-12）の <strong>89〜99%</strong> にあたります。中央値は個人間の落札額、掲示価格は店がその場で買い取る額なので、両方を並べると「店に売るといくらになりそうか」の見当がつきます。</p>
           <p>同じ店でも、ボトルの仕様（新型のホログラムシールの有無・旧型・観音開きの金箱・免税店向けの花鳥風月）と付属品で掲示価格が分かれています。LINXAS の掲示では、新型ホログラム付き 530,000円 と ホログラム無し 470,000円 で 60,000円、旧型 400,000円 とは 130,000円 の差があります。</p>
 
           <h3 id="store-trend">響30年の買取価格の推移（店舗の掲示価格・約2年分）</h3>
@@ -232,7 +232,7 @@ export default function Hibiki30KaitoriPage() {
               <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap">〜2022年3月</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">125,000円</td><td className="py-2 pr-3">響30年 700ml</td><td className="py-2"><a href="https://www.suntory.co.jp/news/article/14030.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">サントリー発表</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap">2022年4月〜2024年3月</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">160,000円</td><td className="py-2 pr-3">2022年4月1日出荷分から改定</td><td className="py-2"><a href="https://www.suntory.co.jp/news/article/14030.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">サントリー発表</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap">2024年4月〜2026年3月</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">360,000円</td><td className="py-2 pr-3">2024年4月1日出荷分から改定</td><td className="py-2"><a href="https://www.suntory.co.jp/news/article/14499.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">サントリー発表</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap">2026年4月〜</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">415,000円</td><td className="py-2 pr-3">2026年4月1日出荷分から改定（発表 2025-11-04 No.14932）</td><td className="py-2"><a href="https://www.suntory.co.jp/news/article/14932.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">サントリー発表</a></td></tr></tbody>
             </table>
           </div>
-          <p>現在の希望小売価格 415,000円（税別）は税込 456,500円です。ヤフオク落札中央値 536,800円 はその <strong>1.18倍</strong>。定価で手に入れたボトルでも、売れば定価を上回る水準で取引されているということです。</p>
+          <p>現在の希望小売価格 415,000円（税別）は税込 456,500円です。ヤフオク落札中央値 535,125円 はその <strong>1.17倍</strong>。定価で手に入れたボトルでも、売れば定価を上回る水準で取引されているということです。</p>
 
           <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
 
@@ -278,14 +278,14 @@ export default function Hibiki30KaitoriPage() {
                 <tr><th>状態</th><th>付属品</th><th>業界目安（市場相場対比）</th><th>概算額（中央値基準）</th></tr>
               </thead>
               <tbody>
-                <tr><td>未開封・完璧</td><td>箱・冊子・カートン揃い</td><td>市場相場の95〜100%程度</td><td><strong>約509,960〜536,800円</strong></td></tr>
-                <tr><td>未開封・箱なし</td><td>ラベル良好</td><td>市場相場の80〜90%程度</td><td><strong>約429,440〜483,120円</strong></td></tr>
-                <tr><td>未開封・冊子なし</td><td>外箱あり</td><td>市場相場の85〜95%程度</td><td><strong>約456,280〜509,960円</strong></td></tr>
-                <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td>市場相場の75〜88%程度</td><td><strong>約402,600〜472,380円</strong></td></tr>
-                <tr><td>未開封・ラベル損傷</td><td>付属あり</td><td>市場相場の60〜75%程度</td><td><strong>約322,080〜402,600円</strong></td></tr>
-                <tr><td>未開封・液面減少</td><td>やや進行</td><td>市場相場の55〜70%程度</td><td><strong>約295,240〜375,760円</strong></td></tr>
-                <tr><td>開封済み・9割以上残</td><td>付属あり</td><td>市場相場の30〜40%程度</td><td><strong>約161,040〜214,720円</strong></td></tr>
-                <tr><td>開封済み・半分以下残</td><td>付属あり</td><td>市場相場の15〜25%程度</td><td><strong>約80,520〜134,200円</strong></td></tr>
+                <tr><td>未開封・完璧</td><td>箱・冊子・カートン揃い</td><td>市場相場の95〜100%程度</td><td><strong>約508,370〜535,120円</strong></td></tr>
+                <tr><td>未開封・箱なし</td><td>ラベル良好</td><td>市場相場の80〜90%程度</td><td><strong>約428,100〜481,610円</strong></td></tr>
+                <tr><td>未開封・冊子なし</td><td>外箱あり</td><td>市場相場の85〜95%程度</td><td><strong>約454,860〜508,370円</strong></td></tr>
+                <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td>市場相場の75〜88%程度</td><td><strong>約401,340〜470,910円</strong></td></tr>
+                <tr><td>未開封・ラベル損傷</td><td>付属あり</td><td>市場相場の60〜75%程度</td><td><strong>約321,080〜401,340円</strong></td></tr>
+                <tr><td>未開封・液面減少</td><td>やや進行</td><td>市場相場の55〜70%程度</td><td><strong>約294,320〜374,590円</strong></td></tr>
+                <tr><td>開封済み・9割以上残</td><td>付属あり</td><td>市場相場の30〜40%程度</td><td><strong>約160,540〜214,050円</strong></td></tr>
+                <tr><td>開封済み・半分以下残</td><td>付属あり</td><td>市場相場の15〜25%程度</td><td><strong>約80,270〜133,780円</strong></td></tr>
               </tbody>
             </table>
           </div>
@@ -304,7 +304,7 @@ export default function Hibiki30KaitoriPage() {
 
           <h3 id="hako-nashi-souba">響30年を箱なし・付属品なしで売る場合の買取相場</h3>
 
-          <p>「響30年 買取 箱無し」とお調べの方向けの目安です。未開封・箱なし（ラベル良好）の場合、業界一般の目安は<strong>市場相場の80〜90%程度（約429,440〜483,120円）</strong>。外箱・冊子の揃った完品と比べて1〜2割の減額にとどまるため、<strong>箱がなくても売却を諦める必要はありません</strong>。</p>
+          <p>「響30年 買取 箱無し」とお調べの方向けの目安です。未開封・箱なし（ラベル良好）の場合、業界一般の目安は<strong>市場相場の80〜90%程度（約428,100〜481,610円）</strong>。外箱・冊子の揃った完品と比べて1〜2割の減額にとどまるため、<strong>箱がなくても売却を諦める必要はありません</strong>。</p>
 
           <ul>
             <li>減額幅は業者の評価基準によって差が出ます。箱なしの場合こそ<strong>複数業者の相見積もり</strong>が有効です</li>
@@ -339,7 +339,7 @@ export default function Hibiki30KaitoriPage() {
 
           <p>これらのオークションの落札データは、各サイトの「Past Results」アーカイブで閲覧可能です。日本の買取業者の査定額は、これらの海外データを基準に、輸送コスト・関税・業者マージンを考慮して算出されています。</p>
 
-          <p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 時点の響30年は <strong>549,503円</strong>（n=72）、最新の 2026-10-05 は <strong>536,800円</strong>（n=116）で、この間の変化は <strong>-2.3%</strong> です（出典: PeatBid 集計・<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">算出方法</Link>）。集計期間が20週分のため、数年単位の値動きはこのデータからは言えません。</p>
+          <p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 時点の響30年は <strong>549,503円</strong>（n=72）、最新の 2026-10-12 は <strong>535,125円</strong>（n=124）で、この間の変化は <strong>-2.6%</strong> です（出典: PeatBid 集計・<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">算出方法</Link>）。集計期間が21週分のため、数年単位の値動きはこのデータからは言えません。</p>
 
 
           <h2 id="takaku-uru">8. 響30年を高く売る7つの実践テクニック</h2>
@@ -467,7 +467,7 @@ export default function Hibiki30KaitoriPage() {
           <h2 id="faq">12. 響30年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '響30年の市場相場はいくらですか？', a: '響30年の市場相場は536,800円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=116、取得日 2026-10-05）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: '響30年の買取価格はお店によって違いますか？', a: '違います。2026-10-11 に各店の公開ページで確認した掲示価格は、LINXAS（リンクサス） 530,000円（響30年 新型 ホログラム緑シール付き・2026-09-30更新）、ファイブニーズ 527,000円（響30年 700ml・2026-09-30更新）、サケウル（STOCK LAB） 475,000〜476,000円（響30年 ホログラムシールあり・2026-10-09更新）でした。ボトルの仕様や付属品、店の在庫状況でも変わるため、売る前に複数の店で査定を取って比べてください。' }, { q: '響30年を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: '響30年の開封済みでも買取できますか？', a: 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' }, { q: '響30年は箱無しでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約429,440〜483,120円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' }, { q: '響30年に偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' }, { q: '響30年の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: '響30年は税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '響30年を売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: '響30年と他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
+            {[{ q: '響30年の市場相場はいくらですか？', a: '響30年の市場相場は535,125円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=124、取得日 2026-10-12）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: '響30年の買取価格はお店によって違いますか？', a: '違います。2026-10-11 に各店の公開ページで確認した掲示価格は、LINXAS（リンクサス） 530,000円（響30年 新型 ホログラム緑シール付き・2026-09-30更新）、ファイブニーズ 527,000円（響30年 700ml・2026-09-30更新）、サケウル（STOCK LAB） 475,000〜476,000円（響30年 ホログラムシールあり・2026-10-09更新）でした。ボトルの仕様や付属品、店の在庫状況でも変わるため、売る前に複数の店で査定を取って比べてください。' }, { q: '響30年を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: '響30年の開封済みでも買取できますか？', a: 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' }, { q: '響30年は箱無しでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約428,100〜481,610円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' }, { q: '響30年に偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' }, { q: '響30年の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: '響30年は税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '響30年を売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: '響30年と他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -497,12 +497,12 @@ export default function Hibiki30KaitoriPage() {
 
           <h2>関連銘柄の買取相場</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
-            <Link href="/articles/yoichi-20-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">余市20年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 221,100円</p></Link>
+            <Link href="/articles/yoichi-20-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">余市20年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 220,550円</p></Link>
             <Link href="/articles/taketsuru-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">竹鶴25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 192,300円</p></Link>
-            <Link href="/articles/yamazaki-18-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">山崎18年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 92,400円</p></Link>
+            <Link href="/articles/yamazaki-18-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">山崎18年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 92,005円</p></Link>
             <Link href="/articles/yoichi-15-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">余市15年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 80,000円</p></Link>
             <Link href="/articles/karuizawa-12-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">軽井沢12年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 76,975円</p></Link>
-            <Link href="/articles/hibiki-21-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">響21年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 72,000円</p></Link>
+            <Link href="/articles/hibiki-21-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">響21年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 71,501円</p></Link>
           </div>
 
           <h2>年代指定なし・注目銘柄の買取相場</h2>
@@ -539,7 +539,7 @@ export default function Hibiki30KaitoriPage() {
               <li><Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark hover:underline">竹鶴の年代指定なし（ノンエイジ／NV）買取相場</Link></li>
           </ul>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-05）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
         </article>
       </div>
     </>

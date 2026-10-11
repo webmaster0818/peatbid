@@ -3,20 +3,26 @@
   "label": "グレンファークラス105",
   "source": "yahoo_auctions_closed_search_180d",
   "methodology": "median of individual lot final-prices, IQR outlier removal",
-  "query_used": "グレンファークラス 105 700ml",
+  "query_used": "グレンファークラス 105 700ml 700ml",
   "history": [
     {
       "date": "2026-06-29",
       "median_jpy": 8225,
       "sample_n": 52,
       "raw_n": 54
+    },
+    {
+      "date": "2026-10-12",
+      "median_jpy": 10681,
+      "sample_n": 34,
+      "raw_n": 36
     }
   ],
   "latest": {
-    "date": "2026-06-29",
-    "median_jpy": 8225,
-    "sample_n": 52,
-    "raw_n": 54,
+    "date": "2026-10-12",
+    "median_jpy": 10681,
+    "sample_n": 34,
+    "raw_n": 36,
     "insufficient": false
   },
   "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"
