@@ -308,3 +308,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **恒久対策**: `fetch-yahoo-medians.py` に `quality_gate()`＝ 平均/中央値>2 または 中央値<reference_price_jpy_2026_05×5% → insufficient＋quality_flag。週次で自動適用
 - **今回の適用**: yahoo-medians.json／brands.csv の中央値クリア／price-history 6銘柄の history を空に（同じ汚染クエリ由来）→ 生成器 [2/7]〜[4.5/7] を手動実行（tier2 282頁 十分→不足）→ build EXIT0・precheck ✅（3,005頁）→ source 736a13ed7 / deploy f35765f754・本番 title「状態別の目安」・旧値0件・/api/contact 400・Indexing 6
 - 残課題: クエリ自体の精査（「山崎25年 700ml」に箱のみ・空瓶・ミニチュアが混ざる）。除外語（空瓶/ミニ/箱のみ/50ml）を入れれば実数を戻せる可能性
+
+### 2026-10-11 tier2 2,444 ページに og:type（"website"）
+- **before（deploy HTML・indexable）**: og:type 欠落 = tier2 リーフ2,397＋県ハブ47＝2,444、それ以外 0。既存値は "website"（TOP・固定ページ・/tier2/ 一覧・articles 544＝layout 継承）／"article" は author と hikakaku 口コミの2頁のみ（手書きで明示）。→ tier2 は kaitori 記事・/tier2/ 一覧と揃えて **"website"**（= lib/og.ts pageOpenGraph() の既定）。
+- `scripts/patch-tier2-og-type.py` 新設（冪等・`openGraph: { ` 直後に `type: "website", ` 挿入。既に type があればスキップ）。1回目 変更 2,444／2回目 変更 0。**tier2 全再生成はしていない**。
+- 生成器: `generate-tier2-v4-plan-a.py`・`gen-tier2-area.py`・`patch-tier2-buyer-count.py` の openGraph テンプレにも `type: "website"` を追加。gen-tier2-area.py を全47県で実行→パッチ済みハブと完全一致（diff 0）。
+- 週次（10/12）確認: [4.3] patch-tier2-yahoo-freshness は openGraph に触れない（`--dry-run` 変更0・検証NG0）、[4.4] 県ハブ再生成は上記で一致確認済、リーフ生成器は週次で走らない、[7/7] は out/ から部分同期＝ソース修正済みなので戻らない。
