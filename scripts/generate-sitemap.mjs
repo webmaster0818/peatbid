@@ -5,6 +5,7 @@
  */
 import fs from 'node:fs'
 import path from 'node:path'
+import { execFileSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -12,7 +13,55 @@ const __dirname = path.dirname(__filename)
 const ROOT = path.resolve(__dirname, '..')
 const BASE = 'https://peatbid.com'
 const OUT = path.join(ROOT, 'public', 'sitemap.xml')
-const TODAY = new Date().toISOString().slice(0, 10)
+// ローカル（JST）基準の日付。toISOString()はUTCのため深夜〜朝は前日になる
+const TODAY = new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10)
+
+// ⚠️ lastmod は「そのページの中身が最後に変わった日」（2026-10-12 成長ルーチン）。
+//    以前は全URLをビルド日にしていたため、Google が lastmod を当てにせず、
+//    新規・更新ページ（ヒカカク受け皿）が「Google が認識していない」まま再クロールされなかった。
+//    ページのディレクトリと、そのページが import する @/data の最終コミット日の最大値。未コミットの変更があれば当日。
+const FILE_DATES = (() => {
+  const m = new Map()
+  let date = ''
+  const log = execFileSync('git', ['log', '--format=@%cs', '--name-only', '--', 'app', 'data'], { cwd: ROOT, encoding: 'utf8', maxBuffer: 1 << 28 })
+  for (const line of log.split('\n')) {
+    if (line.startsWith('@')) date = line.slice(1)
+    else if (line && !m.has(line)) m.set(line, date)
+  }
+  const dirty = execFileSync('git', ['status', '--porcelain', '--', 'app', 'data'], { cwd: ROOT, encoding: 'utf8' })
+  for (const line of dirty.split('\n')) if (line) m.set(line.slice(3).trim(), TODAY)
+  return m
+})()
+
+// ディレクトリ → その配下で最も新しい日付（3,000URL分を毎回全走査しないため先に集計）
+const DIR_DATES = (() => {
+  const m = new Map()
+  for (const [f, d] of FILE_DATES) {
+    const parts = f.split('/')
+    for (let i = 1; i <= parts.length; i++) {
+      const k = parts.slice(0, i).join('/')
+      if (!m.has(k) || m.get(k) < d) m.set(k, d)
+    }
+  }
+  return m
+})()
+
+function dataDeps(pageFile) {
+  let src = ''
+  try { src = fs.readFileSync(path.join(ROOT, pageFile), 'utf8') } catch { return [] }
+  return [...src.matchAll(/from\s+["']@\/data\/([^"']+)["']/g)].map((m) => `data/${m[1]}`)
+}
+
+function lastmodOf(dir, pageFile) {
+  let best = DIR_DATES.get(dir) || ''
+  for (const dep of dataDeps(pageFile)) {
+    for (const k of [dep, dep + '.ts', dep + '.json']) {
+      const d = DIR_DATES.get(k)
+      if (d && d > best) best = d
+    }
+  }
+  return best || TODAY
+}
 
 // Tier priorities by article slug pattern
 function priorityFor(slug) {
@@ -109,15 +158,23 @@ function tier2Pages() {
 function build() {
   const lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 
+  const articles = articleSlugs()
+  const articleDates = new Map(articles.map((slug) => [slug, lastmodOf(`app/articles/${slug}`, `app/articles/${slug}/page.tsx`)]))
+  // TOP と記事一覧は記事のリストを載せるので、いちばん新しい記事の日付
+  const newestArticle = [...articleDates.values()].sort().at(-1) || TODAY
+
   for (const p of STATIC_PAGES) {
-    lines.push(`  <url><loc>${BASE}${p.path}</loc><lastmod>${p.lastmod || TODAY}</lastmod><changefreq>${p.changefreq}</changefreq><priority>${p.priority}</priority></url>`)
+    const isTop = p.path === '/'
+    const dir = isTop ? 'app/page.tsx' : `app${p.path.replace(/\/$/, '')}`
+    const own = isTop ? lastmodOf(dir, dir) : lastmodOf(dir, `${dir}/page.tsx`)
+    const lastmod = p.lastmod || ((isTop || p.path === '/articles/') && newestArticle > own ? newestArticle : own)
+    lines.push(`  <url><loc>${BASE}${p.path}</loc><lastmod>${lastmod}</lastmod><changefreq>${p.changefreq}</changefreq><priority>${p.priority}</priority></url>`)
   }
 
-  const articles = articleSlugs()
   for (const slug of articles) {
     const p = priorityFor(slug)
     const cf = changefreqFor(p)
-    lines.push(`  <url><loc>${BASE}/articles/${slug}/</loc><lastmod>${TODAY}</lastmod><changefreq>${cf}</changefreq><priority>${p}</priority></url>`)
+    lines.push(`  <url><loc>${BASE}/articles/${slug}/</loc><lastmod>${articleDates.get(slug)}</lastmod><changefreq>${cf}</changefreq><priority>${p}</priority></url>`)
   }
 
   // tier2 は noindex のため、sitemap には掲載しない（Google公式推奨）。
@@ -128,10 +185,10 @@ function build() {
   const tier2 = INCLUDE_TIER2 ? tier2Pages() : { hubs: [], details: [] }
   if (INCLUDE_TIER2) {
     for (const pref of tier2.hubs) {
-      lines.push(`  <url><loc>${BASE}/tier2/${pref}/</loc><lastmod>${TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`)
+      lines.push(`  <url><loc>${BASE}/tier2/${pref}/</loc><lastmod>${lastmodOf(`app/tier2/${pref}`, `app/tier2/${pref}/page.tsx`)}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`)
     }
     for (const slug of tier2.details) {
-      lines.push(`  <url><loc>${BASE}/tier2/${slug}/</loc><lastmod>${TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`)
+      lines.push(`  <url><loc>${BASE}/tier2/${slug}/</loc><lastmod>${lastmodOf(`app/tier2/${slug}`, `app/tier2/${slug}/page.tsx`)}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`)
     }
   }
   // Plan C Phase1: TOP3銘柄 × 主要10都道府県 = 30URL（noindex 解除済の段階公開対象）
