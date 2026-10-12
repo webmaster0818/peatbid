@@ -19,6 +19,22 @@ RUN_LOG="/tmp/peatbid-weekly.log"
 
 export PATH=/opt/homebrew/bin:/usr/bin:/usr/local/bin:$PATH
 
+# ===== 多重起動防止（2026-10-12: launchd と crontab の両方から 03:00 に2本同時起動し、
+#        .next の取り合いで片方のビルドが ENOENT で失敗、もう片方の [4.3] が
+#        /tmp/peatbid-tier2-patched.txt を空で上書き → tier2 リーフ 2,397 が本番に同期されなかった）=====
+LOCK_DIR="/tmp/peatbid-weekly.lock"
+if ! mkdir "$LOCK_DIR" 2>/dev/null; then
+  other_pid=$(cat "$LOCK_DIR/pid" 2>/dev/null || true)
+  if [ -n "$other_pid" ] && kill -0 "$other_pid" 2>/dev/null; then
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ⏭️  別の週次更新が実行中 (pid $other_pid) のため終了"
+    exit 0
+  fi
+  rm -rf "$LOCK_DIR"
+  mkdir "$LOCK_DIR" || exit 0
+fi
+echo $$ > "$LOCK_DIR/pid"
+trap 'rm -rf "$LOCK_DIR"' EXIT
+
 # ===== Discord notification helper =====
 notify_discord() {
   local content="$1"

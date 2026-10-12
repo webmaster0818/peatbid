@@ -327,3 +327,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 置換（v3・週次でも戻らない）: `history_change_p`＝`data/price-history/{slug}.json` の有効点が4点以上・sufficient・DATA_QUALITY_EXCLUDE外なら「集計開始日の中央値(n)→最新(n)・変化率％（出典: PeatBid集計・/methodology/）・数年単位の値動きはこのデータからは言えない」。条件を満たさなければ一文ごと出さない。v2 は行削除のみ。
 - 結果: 置換 38／削除 13（yamazaki-25・hakushu-25・karuizawa-30・hanyu-card・chichibu-the-first・ichirosu-card＝品質ゲートで履歴クリア、yamazaki-55・yoichi-nv・miyagikyo-nv・macallan-fine-rare・balvenie-portwood-21＝不足、bowmore-blackbowmore＝品質除外、glenfarclas-105＝履歴1点）。out/ と deploy の「累積30」0件。
 - build EXIT0 → precheck ✅全項目OK（3,005）→ source 6399c1bfa / deploy 3e15d34ecb → 本番 yamazaki-12・hibiki-30・yamazaki-25・glenfarclas-105 で0件確認。
+
+### 2026-10-12 週次更新(03:00)後の点検：二重起動で tier2 リーフ 2,397 が本番未同期 → 同期済み
+- **原因**: 週次スクリプトが **launchd（com.peatbid.weekly-yahoo-update）と crontab（`0 3 * * 1 …weekly-yahoo-update.sh`）の両方**から 03:00:01／03:00:04 に2本起動。後発の [4.3] が `/tmp/peatbid-tier2-patched.txt` を空で上書き（2本目は変更0）→ [7/7] の部分同期が0件。片方のビルドは `.next` 取り合いで ENOENT 失敗（cron 側＝Webhook 無しで通知も出ない）。本番 tier2 リーフは 10/5 のまま、県ハブは 10/12 ＝ glenfarclas-105 はハブ ¥10,681・リーフ ¥8,225（6/29）と食い違っていた。
+- **対応**: クリーンビルド（heap8192・EXIT0）→ precheck ✅（3,005）→ tier2 込みフル rsync（--exclude .git/_not-found/functions）→ deploy `da1c353705`。`weekly-yahoo-update.sh` に mkdir ロック（`/tmp/peatbid-weekly.lock`・pid 生存確認）を追加。**crontab の行はサンドボックスから編集不可（Operation not permitted）＝手動で削除が必要**（ロックで競合は防げるが、cron 側が先にロックを取ると Discord 通知が出ない）。
+- **データ不足12**: 10/5 十分→10/12 不足の6銘柄（yamazaki-25・hakushu-25・karuizawa-30・hanyu-card・chichibu-the-first・ichirosu-card）は件数減ではなく **10/10 品質ゲート**（平均/中央値>2 または 中央値<参考価格5%）。件数は 22〜300 で十分。表示は記事＝「状態別の目安」・tier2＝「集計中」、汚染中央値（26,935/467,830/31,900 等）の表示 0。price-history は空のまま（latest に insufficient=true で保持のみ）。残り6銘柄は 10/5 から継続して不足（n=2〜16）／bowmore は強制除外。
+- glenfarclas-105: キー修正が効き 10/12 に ¥10,681 n=34 取得（query は「…105 700ml 700ml」＝700ml が二重。6/29 点とクエリが異なり指数では「系列不連続」で除外）。本番 HTML の 2026-06-29 は price-history チャートの第1点（正当）。
