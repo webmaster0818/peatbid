@@ -333,3 +333,8 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **対応**: クリーンビルド（heap8192・EXIT0）→ precheck ✅（3,005）→ tier2 込みフル rsync（--exclude .git/_not-found/functions）→ deploy `da1c353705`。`weekly-yahoo-update.sh` に mkdir ロック（`/tmp/peatbid-weekly.lock`・pid 生存確認）を追加。**crontab の行はサンドボックスから編集不可（Operation not permitted）＝手動で削除が必要**（ロックで競合は防げるが、cron 側が先にロックを取ると Discord 通知が出ない）。
 - **データ不足12**: 10/5 十分→10/12 不足の6銘柄（yamazaki-25・hakushu-25・karuizawa-30・hanyu-card・chichibu-the-first・ichirosu-card）は件数減ではなく **10/10 品質ゲート**（平均/中央値>2 または 中央値<参考価格5%）。件数は 22〜300 で十分。表示は記事＝「状態別の目安」・tier2＝「集計中」、汚染中央値（26,935/467,830/31,900 等）の表示 0。price-history は空のまま（latest に insufficient=true で保持のみ）。残り6銘柄は 10/5 から継続して不足（n=2〜16）／bowmore は強制除外。
 - glenfarclas-105: キー修正が効き 10/12 に ¥10,681 n=34 取得（query は「…105 700ml 700ml」＝700ml が二重。6/29 点とクエリが異なり指数では「系列不連続」で除外）。本番 HTML の 2026-06-29 は price-history チャートの第1点（正当）。
+
+
+### 2026-10-12 成長ルーチン: sitemap lastmod
+- `scripts/generate-sitemap.mjs` の lastmod を「ビルド日」→「ページと参照データ（@/data の import）の最終コミット日」に変更。全URLが毎回同じ日付だと Google が lastmod を当てにせず、新規の受け皿記事が「Google が認識していない」まま残っていたため。
+- 記事を直したら **コミットしてから** `node scripts/generate-sitemap.mjs`（未コミットのファイルは当日扱い）→ ビルド → deploy。週次スクリプトは従来どおり自動で生成する。
