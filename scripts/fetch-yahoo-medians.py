@@ -96,6 +96,60 @@ MIN_SAMPLE = 20
 MAX_PAGES = 3
 TODAY = datetime.now().strftime("%Y-%m-%d")
 
+# ===== 出品タイトルによる絞り込み（2026-10-13）=====
+# 10/10 品質ゲートで「目安」表示に落ちた6銘柄は、クエリ結果に空瓶・空箱・別銘柄（山崎12年/NV・バランタイン30年・
+# 響30年）・「検:山崎25年/白州25年…」型のキーワード詰め込み出品が大量に混ざり、中央値が実物の数%になっていた。
+# ここに登録した slug だけ、検索結果 JSON の items（title/price/auctionId）を読み、
+#   require に一致し exclude（＋共通の JUNK）に一致しないタイトルの落札価格だけで中央値を出す。
+# 登録外の slug は従来どおり HTML 中の "price" を正規表現で拾う（＝他銘柄の結果は変わらない）。
+# 2026-10-13 の dry（実データ）で n>=20 かつ品質ゲート通過＝yamazaki-25 のみ。他5銘柄は本体の出品が
+# 180日で 0〜15 件しか無く insufficient のまま（汚染値より「目安」表示が正しい）。
+JUNK_RE = re.compile(
+    r"空[瓶箱]|空き[瓶箱]|空ボトル|箱のみ|ボトルなし|冊子のみ|小冊子|\d\s*枚"
+    r"|ミニ|miniature|検[:：]|検索|好きの方"
+    r"|セット|まとめ|[2-9２-９]\s*本(?!物)|[×x]\s*\d"
+)
+ML_RE = re.compile(r"(\d+)\s*(?:ml|ｍｌ|mL|ML)")
+
+TITLE_FILTERS = {
+    # 「山崎25年 700ml」: 山崎12年/18年/10年・山崎NV、キャパドニック25年等が混入。ミズナラ(48%)は別商品なので除外
+    "yamazaki-25": {"require": r"山崎\s*25\s*年", "exclude": r"ミズナラ"},
+    "hakushu-25": {"require": r"白州\s*25\s*年"},
+    # 「軽井沢 30年 ウイスキー」: バランタイン30年・響30年が大半。軽井沢30年の本体は 180日で2件
+    "karuizawa-30": {"require": r"軽井沢\s*30\s*年"},
+    # 羽生蒸溜所のカードシリーズ＝出品名は「イチローズモルト カードシリーズ」。現クエリは無関係な出品のみ
+    "hanyu-card": {"require": r"カード"},
+    # 「ザ・ファースト テン（秩父10年 2020）」は別ボトル
+    "chichibu-the-first": {"require": r"ザ[・\s]*ファースト(?![・\s]*テン)", "exclude": r"10\s*年"},
+    "ichirosu-card": {"require": r"カード"},
+}
+
+
+def title_ok(title: str, flt: dict) -> bool:
+    if not re.search(flt["require"], title):
+        return False
+    if JUNK_RE.search(title):
+        return False
+    ex = flt.get("exclude")
+    if ex and re.search(ex, title):
+        return False
+    if any(int(m) != 700 for m in ML_RE.findall(title)):
+        return False
+    return True
+
+
+def extract_items(html: str) -> list[dict]:
+    """検索結果ページの listing.items（title/price/auctionId）を取り出す。"""
+    start = html.find('"listing":{')
+    i = html.find('"items":[', start if start >= 0 else 0)
+    if i < 0:
+        return []
+    try:
+        items, _ = json.JSONDecoder().raw_decode(html[i + len('"items":'):])
+    except ValueError:
+        return []
+    return [it for it in items if isinstance(it, dict) and "price" in it and "title" in it]
+
 # brands.csv には載せない（＝銘柄ページ10系統を量産しない）が、
 # 受け皿ページ（glenfiddich-kaitori / ardbeg-nv-kaitori）で実勢中央値として使う銘柄。
 # main() は brands.csv の行を回すため、ここは別パスで取得して yahoo-medians.json に合流させる。
@@ -144,6 +198,55 @@ def iqr_filter(prices: list[int]) -> list[int]:
     lo = q1 - 1.5 * iqr
     hi = q3 + 1.5 * iqr
     return [p for p in s if lo <= p <= hi]
+
+
+def median_for_query_filtered(base_query: str, flt: dict, keep_titles: bool = False) -> dict:
+    """TITLE_FILTERS 登録銘柄用。出品タイトルで本体のみに絞ってから IQR→中央値（クエリ・ページ数・n>=20 は従来と同じ）。"""
+    query = f"{base_query} 700ml"
+    seen: dict[str, dict] = {}
+    pages_fetched = 0
+    for page in range(1, MAX_PAGES + 1):
+        b = 1 + (page - 1) * 50
+        url = f"https://auctions.yahoo.co.jp/closedsearch/closedsearch?p={urllib.parse.quote(query)}&b={b}&n=50"
+        try:
+            html = fetch(url)
+        except Exception as e:
+            return {"error": f"fetch_failed: {e}", "query_used": query, "fetched_at": TODAY}
+        items = extract_items(html)
+        pages_fetched += 1
+        if not items:
+            break
+        for it in items:
+            seen[str(it.get("auctionId"))] = it
+        if len(items) < 50:
+            break
+        if page < MAX_PAGES:
+            time.sleep(1.5)
+    kept, dropped = [], []
+    for it in seen.values():
+        p = it.get("price")
+        ok = isinstance(p, int) and 500 <= p <= 50_000_000 and title_ok(it["title"], flt)
+        (kept if ok else dropped).append(it)
+    prices = [it["price"] for it in kept]
+    filtered = iqr_filter(prices)
+    r = {
+        "query_used": query,
+        "pages_fetched": pages_fetched,
+        "raw_n": len(seen),
+        "title_filtered_n": len(kept),
+        "filtered_n": len(filtered),
+        "median": int(statistics.median(filtered)) if filtered else None,
+        "mean": int(statistics.mean(filtered)) if filtered else None,
+        "min": min(filtered) if filtered else None,
+        "max": max(filtered) if filtered else None,
+        "insufficient": len(filtered) < MIN_SAMPLE,
+        "fetched_at": TODAY,
+        "method": "title_filter",
+    }
+    if keep_titles:
+        r["_kept"] = sorted(((it["price"], it["title"]) for it in kept), reverse=True)
+        r["_dropped"] = sorted(((it["price"], it["title"]) for it in dropped), reverse=True)
+    return r
 
 
 def median_for_query(base_query: str) -> dict:
@@ -265,7 +368,12 @@ def write_history(slug: str, label: str, result: dict) -> None:
 
 
 def main():
-    print(f"🔍 Yahoo median fetch ({TODAY}) — {len(BRAND_QUERIES)} brands")
+    # --dry-run: 取得・判定だけしてファイルは書かない（--only slug1,slug2 で対象を絞る。TITLE_FILTERS 銘柄は残した/除いたタイトルを全件表示）
+    dry_run = "--dry-run" in sys.argv
+    only = set()
+    if "--only" in sys.argv:
+        only = set(sys.argv[sys.argv.index("--only") + 1].split(","))
+    print(f"🔍 Yahoo median fetch ({TODAY}) — {len(BRAND_QUERIES)} brands{' [DRY-RUN]' if dry_run else ''}")
 
     # Read brands.csv
     rows = []
@@ -287,8 +395,11 @@ def main():
         if not query:
             print(f"  [{i}/{len(rows)}] {slug}: SKIP (no query mapping)")
             continue
+        if only and slug not in only:
+            continue
         print(f"  [{i}/{len(rows)}] {slug} '{query}'...", end=" ", flush=True)
-        r = median_for_query(query)
+        flt = TITLE_FILTERS.get(slug)
+        r = median_for_query_filtered(query, flt, keep_titles=dry_run) if flt else median_for_query(query)
         # データ品質強制フラグ: クエリ汚染で中央値が実物と乖離する銘柄は insufficient 固定
         # bowmore-blackbowmore: ミニチュア/空瓶混入で¥4,000(実物は数百万円級)。クエリ精査まで実数を出さない
         if slug in {"bowmore-blackbowmore"}:
@@ -306,9 +417,22 @@ def main():
             row["yahoo_sample_n"] = r.get("filtered_n", 0)
             row["yahoo_fetched_at"] = r.get("fetched_at", TODAY)
             row["yahoo_query_used"] = r.get("query_used", "")
-            print(f"INSUFFICIENT n={r.get('filtered_n', 0)}")
+            print(f"INSUFFICIENT n={r.get('filtered_n', 0)}{' ' + r['quality_flag'] if r.get('quality_flag') else ''}")
+        if dry_run:
+            print(f"      raw={r.get('raw_n')} title_ok={r.get('title_filtered_n', '-')} iqr={r.get('filtered_n')} "
+                  f"median={r.get('median')} mean={r.get('mean')} min={r.get('min')} max={r.get('max')}")
+            for tag in ("_kept", "_dropped"):
+                for p, t in r.pop(tag, []):
+                    print(f"      {'○' if tag == '_kept' else '×'} {p:>9,} {t}")
+            time.sleep(0.8)
+            continue
+        r.pop("_kept", None); r.pop("_dropped", None)
         write_history(slug, row.get("name_ja", slug), r)
         time.sleep(0.8)
+
+    if dry_run:
+        print("\n(dry-run: brands.csv / yahoo-medians.json / price-history は未変更)")
+        return
 
     # brands.csv 外の受け皿用銘柄（EXTRA_SLUGS）も取得して results に合流させる。
     # ここを回さないと、週次でJSONが上書きされた際に受け皿ページの実数が消える。
