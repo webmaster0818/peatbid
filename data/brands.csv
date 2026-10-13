@@ -2,7 +2,7 @@ slug,name_ja,name_en,category,origin,age_years,bottle_size_ml,abv,rarity_tier,re
 yamazaki-nv,山崎ノンエイジ,Yamazaki NV,japanese-whisky,山崎蒸溜所,0,700,43,common,10100,サントリー山崎のノンエイジ。日本ウイスキーの代表的な定番品,14726,261,10100,linxas-verified,10100,variants=2,true,10067,274,2026-10-12,山崎 ノンエイジ ウイスキー 700ml
 yamazaki-12,山崎12年,Yamazaki 12 Year,japanese-whisky,山崎蒸溜所,12,700,43,mid,35000,サントリー山崎12年。終売報道後にプレミア化進行中,30912,5087,35000,linxas-verified,35000,variants=5,true,20950,268,2026-10-12,山崎12年 700ml
 yamazaki-18,山崎18年,Yamazaki 18 Year,japanese-whisky,山崎蒸溜所,18,700,43,high,93000,山崎18年。ウイスキーマガジン最高賞受賞の常連,88456,1559,93000,linxas-verified,93000,variants=4,true,92005,240,2026-10-12,山崎18年 700ml
-yamazaki-25,山崎25年,Yamazaki 25 Year,japanese-whisky,山崎蒸溜所,25,700,43,ultra,880000,山崎25年。プレミア中のプレミア。希少性極高,195827,410,880000,linxas-verified,880000,variants=4,true,,180,2026-10-12,山崎25年 700ml
+yamazaki-25,山崎25年,Yamazaki 25 Year,japanese-whisky,山崎蒸溜所,25,700,43,ultra,880000,山崎25年。プレミア中のプレミア。希少性極高,195827,410,880000,linxas-verified,880000,variants=4,true,864100,29,2026-10-13,山崎25年 700ml
 yamazaki-55,山崎55年,Yamazaki 55 Year,japanese-whisky,山崎蒸溜所,55,700,46,ultra-rare,30000000,山崎55年。100本限定発売のレジェンド,,,要査定,unreliable,,no-price-extracted,true,,8,2026-10-12,山崎55年 700ml
 hibiki-nv,響ジャパニーズハーモニー,Hibiki Japanese Harmony,japanese-whisky,サントリー,0,700,43,common,24000,響ノンエイジ。サントリー響シリーズの定番,21632,1525,24000,linxas-verified,24000,variants=3,true,10450,234,2026-10-12,響 ジャパニーズハーモニー 700ml
 hibiki-17,響17年,Hibiki 17 Year,japanese-whisky,サントリー,17,700,43,high,58000,響17年。終売後プレミアが続く名作,53656,911,58000,linxas-verified,58000,variants=2,true,46000,274,2026-10-12,響17年 700ml

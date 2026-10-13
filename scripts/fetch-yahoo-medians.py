@@ -373,6 +373,9 @@ def main():
     only = set()
     if "--only" in sys.argv:
         only = set(sys.argv[sys.argv.index("--only") + 1].split(","))
+        if not dry_run:
+            # 非 dry で --only を使うと yahoo-medians.json が対象銘柄だけで上書きされる
+            sys.exit("--only は --dry-run と併用のみ")
     print(f"🔍 Yahoo median fetch ({TODAY}) — {len(BRAND_QUERIES)} brands{' [DRY-RUN]' if dry_run else ''}")
 
     # Read brands.csv

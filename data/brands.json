@@ -42,9 +42,9 @@
     "category": "japanese-whisky",
     "origin": "山崎蒸溜所",
     "rarity_tier": "ultra",
-    "yahoo_median_jpy_180d": null,
-    "yahoo_sample_n": 180,
-    "yahoo_fetched_at": "2026-10-12",
+    "yahoo_median_jpy_180d": 864100,
+    "yahoo_sample_n": 29,
+    "yahoo_fetched_at": "2026-10-13",
     "yahoo_query_used": "山崎25年 700ml"
   },
   {

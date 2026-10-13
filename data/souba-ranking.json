@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-12",
-  "count": 39,
+  "updated": "2026-10-13",
+  "count": 40,
   "brands": [
     {
       "slug": "yamazaki-nv",
@@ -37,6 +37,18 @@
       "prev_median": 92400,
       "change_1w": -0.4,
       "change_2w": -0.4
+    },
+    {
+      "slug": "yamazaki-25",
+      "name": "山崎25年",
+      "category": "ジャパニーズ",
+      "origin": "山崎蒸溜所",
+      "rarity": "ultra",
+      "median": 864100,
+      "sample_n": 29,
+      "prev_median": null,
+      "change_1w": null,
+      "change_2w": null
     },
     {
       "slug": "hibiki-nv",

@@ -37,16 +37,17 @@
   },
   "yamazaki-25": {
     "query_used": "山崎25年 700ml",
-    "pages_fetched": 3,
-    "raw_n": 182,
-    "filtered_n": 180,
-    "median": 26935,
-    "mean": 357172,
-    "min": 11000,
-    "max": 1451998,
-    "insufficient": true,
-    "fetched_at": "2026-10-12",
-    "quality_flag": "mean/median=13.3,median<5%ref(880000)"
+    "pages_fetched": 2,
+    "raw_n": 92,
+    "title_filtered_n": 32,
+    "filtered_n": 29,
+    "median": 864100,
+    "mean": 864774,
+    "min": 700000,
+    "max": 1010000,
+    "insufficient": false,
+    "fetched_at": "2026-10-13",
+    "method": "title_filter"
   },
   "yamazaki-55": {
     "query_used": "山崎55年 700ml",
