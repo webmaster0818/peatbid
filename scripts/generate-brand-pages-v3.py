@@ -212,16 +212,16 @@ PARTNERS_DETAILED = [
     },
     {
         "name": "バイセル",
-        "url": "https://www.buysell-onlineshop.jp/",
+        "url": "https://buysell-kaitori.com/liquor/japanese-whisky/",
         "method": "出張/店頭/宅配",
-        "intro": "東証グロース上場のBuySell Technologiesが運営。年間累計買取件数430万件超の大手で、お酒・ウイスキー買取に注力中。**信頼性とスピードを両立**したい場合に最適です。",
+        "intro": "東証グロース上場のBuySell Technologiesが運営。累計買取点数4,800万点以上（2015〜2025年の合計・公式）の大手で、お酒・ウイスキー買取に注力中。**信頼性とスピードを両立**したい場合に最適です。",
         "strengths": ["東証グロース上場で社会的信頼性◎", "3チャネル対応（出張・店頭・宅配）", "CMでも知名度抜群"],
         "best_for": "**信頼性とスピード**を両立したい方",
     },
     {
         "name": "リカスタ",
         "url": "https://www.licasta.com/",
-        "method": "宅配/出張",
+        "method": "宅配/出張/店頭",
         "intro": "全国対応の宅配買取サービス。**店舗に行く時間がない方・地方在住の方**に最適。査定無料・キャンセル無料で気軽に試せます。",
         "strengths": ["全国対応の宅配買取", "査定無料・キャンセル無料", "送料・梱包キット無料"],
         "best_for": "**宅配で完結したい方** / 地方在住の方",
@@ -879,7 +879,7 @@ export default function {component_name}() {{
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
-              <a href="https://www.buysell-onlineshop.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
+              <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
               <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">リカスタで宅配買取</a>
             </div>
           </div>

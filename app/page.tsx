@@ -14,11 +14,11 @@ const services = [
     method: "出張/店頭/宅配",
     description: "東証グロース上場の大手。お酒・ウイスキー買取に注力",
     target: "信頼性とスピードを両立したい人",
-    url: "https://www.buysell-onlineshop.jp/",
+    url: "https://buysell-kaitori.com/liquor/japanese-whisky/",
   },
   {
     name: "リカスタ",
-    method: "宅配/出張",
+    method: "宅配/出張/店頭",
     description: "全国対応・無料査定。ジャパニーズウイスキー強化中",
     target: "宅配で完結したい人",
     url: "https://www.licasta.com/",

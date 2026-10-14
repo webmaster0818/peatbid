@@ -6,7 +6,7 @@ import priceData from "@/data/price-history/yoichi-20.json";
 
 export const metadata: Metadata = {
   title: '余市20年は開封済みでも売れる?【2026年10月最新】残量別の買取査定額と売却法',
-  description: '余市20年を開封済みで売る場合の査定額と注意点。残量別の価格目安、状態保持のコツ、開封済み歓迎の買取業者、売却前の準備まで完全解説。',
+  description: '余市20年を開封済みで売る場合の査定額と注意点。残量別の価格目安、状態保持のコツ、開封済みに対する業者ごとの対応、売却前の準備まで完全解説。',
 };
 
 function FaqSchema() {
@@ -58,7 +58,7 @@ export default function Yoichi20KaifuZumiPage() {
               <li><a href="#section-2" className="hover:underline">3. 開封済みの査定で重視される5要素</a></li>
               <li><a href="#section-3" className="hover:underline">4. 開封済みでも価値が高くなる条件</a></li>
               <li><a href="#section-4" className="hover:underline">5. 売却までの保管のコツ</a></li>
-              <li><a href="#section-5" className="hover:underline">6. 開封済みを買取してくれる業者</a></li>
+              <li><a href="#section-5" className="hover:underline">6. 開封済みに対する各社の対応</a></li>
               <li><a href="#section-6" className="hover:underline">7. 開封済みを高く売る5つのコツ</a></li>
               <li><a href="#section-7" className="hover:underline">8. 売れない場合の対処法</a></li>
             </ol>
@@ -126,12 +126,12 @@ export default function Yoichi20KaifuZumiPage() {
 
 適切な保管により、開封後数年間は香味・品質を保持できます。</li></ol>` }} />
 
-          <h2 id="section-5">6. 開封済みを買取してくれる業者</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid推奨の3社（ヒカカク・バイセル・リカスタ）は、いずれも開封済みでも査定対応可能です。
+          <h2 id="section-5">6. 開封済みに対する各社の対応</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid掲載の3社でも、開封済みの扱いは分かれます（各社公式サイト・2026年10月14日確認）。
 
-<strong>各社の開封済み買取の特徴</strong>:</p><ol><li><strong>ヒカカク！</strong> — 一括査定で開封済みも受付業者を絞り込み可能</li><li><strong>バイセル</strong> — 残量9割以上を主に扱う、それ以下は要相談</li><li><strong>リカスタ</strong> — 宅配で開封済みも対応、ただし運送中の漏れに注意
+<strong>各社の開封済み買取の特徴</strong>:</p><ol><li><strong>ヒカカク！</strong> — 査定・買取は紹介先の買取店が行うため、開封済みと明記して申し込み、各店の回答で受付可否を確認</li><li><strong>バイセル</strong> — 公式で開封済みのお酒は「買取できないことがほとんど」と案内（未開封が前提）</li><li><strong>リカスタ</strong> — 公式で「未開封品のみの買取対象」と案内
 
-業者によっては残量条件があるため、事前確認をおすすめします。</li></ol>` }} />
+開封済みは受付自体を断る業者もあるため、申し込み前に必ず確認してください。</li></ol>` }} />
 
           <h2 id="section-6">7. 開封済みを高く売る5つのコツ</h2>
           <div dangerouslySetInnerHTML={{ __html: `<ol><li><strong>早めの売却</strong> — 時間経過で香味揮発・酸化が進み価値減</li><li><strong>外箱・冊子を必ず添付</strong> — 付属品の有無は査定に影響</li><li><strong>複数業者比較</strong> — 開封済みでも数千〜数万円の差</li><li><strong>保管状態の写真記録</strong> — 適切に保管していたことを証明</li><li><strong>正直な状態申告</strong> — 残量・状態を正確に伝える</li></ol>` }} />
@@ -146,7 +146,7 @@ export default function Yoichi20KaifuZumiPage() {
             <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
-              <a href="https://www.buysell-onlineshop.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
+              <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
               <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">リカスタで宅配買取</a>
             </div>
           </div>
