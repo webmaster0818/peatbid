@@ -501,6 +501,7 @@ def render_page(b, all_brands):
     _sfaq = store_prices.faq(slug_base, name)
     if _sfaq:
         faqs.insert(1, _sfaq)
+    faqs = store_prices.apply_faqs(slug_base, faqs)
 
     # 機会バンド: 先頭FAQを「今の買取相場はいくら？」（中央値実数＋毎週更新明記）に置き換え
     if slug_base in BAND_BRAND_SLUGS and sufficient:
@@ -554,6 +555,11 @@ def render_page(b, all_brands):
             spark = sparkline_block(slug_base, name)
     store_block = store_prices.block(slug_base, name, yahoo_median if sufficient else None, fetched_at)
     store_toc = store_prices.toc_item(slug_base)
+    store_fake = store_prices.fake_extra(slug_base, name)
+    store_sell = store_prices.sell_extra(slug_base, name)
+    toc_fake = store_prices.toc_fake(slug_base)
+    toc_sell = store_prices.toc_sell(slug_base)
+    page_updated = store_prices.page_updated(slug_base, fetched_at)
 
     # 2026-10-11: 出典の無い「過去5年で累積30〜80%の上昇」を撤去。代わりに自社集計（price-history）の
     # 集計開始時点→最新の実数のみを出す。4点未満・品質除外・insufficient なら一文ごと出さない。
@@ -595,9 +601,9 @@ const tocItems = [
   {{ id: "price-reasons", label: "6. なぜこの価格になるのか" }},
   {{ id: "auction", label: "7. オークション落札データ" }},
   {{ id: "takaku-uru", label: "8. 高く売る7つの実践テクニック" }},
-  {{ id: "fake", label: "9. 偽物・贋作の見分け方" }},
+  {{ id: "fake", label: "9. 偽物・贋作の見分け方" }},{toc_fake}
   {{ id: "partners", label: "10. おすすめ買取業者3社" }},
-  {{ id: "process", label: "11. 売却プロセス5ステップ" }},
+  {{ id: "process", label: "11. 売却プロセス5ステップ" }},{toc_sell}
   {{ id: "faq", label: "12. よくある質問" }},
 ];
 
@@ -623,7 +629,7 @@ export default function {component_name}() {{
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{name}の買取相場と業者比較ガイド{MONTH_TAG.replace("最新】", "】")}</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: {fetched_at} / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: {page_updated} / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={{priceData as Parameters<typeof MarketPriceCard>[0]["data"]}} />
 
@@ -819,7 +825,7 @@ export default function {component_name}() {{
           </ol>
 {precheck_callout}
           <p>怪しいと思ったら、お酒買取の専門店で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
-
+{store_fake}
           <h2 id="partners">10. おすすめ買取業者3社の詳細レビュー</h2>
 
           <p>PeatBid編集部が{name}クラスの銘柄に強い買取業者を厳選しました。それぞれ得意領域が異なるため、目的別に使い分けるのがコツです。</p>
@@ -883,7 +889,7 @@ export default function {component_name}() {{
               <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-cream border border-amber text-amber-dark text-center text-sm font-bold py-3 rounded-lg hover:bg-gold-bg transition-colors">リカスタで宅配買取</a>
             </div>
           </div>
-
+{store_sell}
           <h2 id="faq">12. {name}に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">

@@ -115,6 +115,8 @@ def block(slug, name, yahoo_median, fetched_at):
             f'中央値は個人間の落札額、掲示価格は店がその場で買い取る額なので、両方を並べると「店に売るといくらになりそうか」の見当がつきます。</p>'
         )
     note = f'<p>{d["store_note"]}</p>' if d.get("store_note") else ""
+    if d.get("kyugata_note"):
+        note += f'\n          <p className="text-sm bg-cream/40 border border-amber/30 rounded-lg p-4 not-prose">{d["kyugata_note"]}</p>'
 
     out = f'''
           <h3 id="store-prices">{name}の買取店の掲示価格（店舗別比較・{_ymd(checked)}確認）</h3>
@@ -149,14 +151,32 @@ def block(slug, name, yahoo_median, fetched_at):
           </details>
 '''
 
+    out += _longterm(slug, d)
+
+    groups = d.get("record_groups")
     r = d.get("records")
-    if r:
+    if r and not groups:
         li = "".join(f"<li>{_ymd(dt)}　{item}　<strong>{price}</strong></li>" for dt, item, price in r["items"])
         out += f'''
           <p className="text-sm font-bold mt-6">{r["store"]}が公開している買取実績（抜粋）</p>
           <ul className="text-sm">{li}</ul>
           <p className="text-[11px] text-warm-gray">出典: {_a(r["url"], r["store"] + "の掲載ページ")}（掲載されている実績のうち日付の新しいもの・価格差が分かるものを抜粋）</p>
 '''
+    if groups:
+        out += f'''
+          <h3 id="store-records">{name}の買取実績（各店の公開分・日付つき）</h3>
+          <p>各店が自社サイトに載せている{name}の買取実績です。実績は「その日にその店で買い取った額」で、ボトルの状態や付属品が揃っているかは店によって書き方が違います（{_ymd(d["checked_at"])}確認）。</p>
+'''
+        for r in groups:
+            li = "".join(f"<li>{_ymd(dt)}　{item}　<strong>{price}</strong></li>" for dt, item, price in r["items"])
+            memo = r["note"]
+            out += f'''
+          <p className="text-sm font-bold mt-6">{r["store"]}</p>
+          <ul className="text-sm">{li}</ul>
+          <p className="text-[11px] text-warm-gray">出典: {_a(r["url"], r["store"] + "の掲載ページ")}（{memo}）</p>
+'''
+
+    out += _ceramic(name, d)
 
     lp = d.get("list_price")
     if lp:
@@ -183,6 +203,169 @@ def block(slug, name, yahoo_median, fetched_at):
           {ratio}
 '''
     return out
+
+
+def _hist_range(slug):
+    try:
+        h = json.loads((ROOT / "data" / "price-history" / f"{slug}.json").read_text(encoding="utf-8")).get("history") or []
+    except (FileNotFoundError, ValueError):
+        return None
+    h = [x for x in h if x.get("median_jpy")]
+    if not h:
+        return None
+    return h[0]["date"], h[-1]["date"], len(h)
+
+
+def _longterm(slug, d):
+    lt = d.get("longterm")
+    if not lt:
+        return ""
+    rows = "".join(
+        f'<tr className="border-b border-warm-border/60"><td className="py-1 pr-4">{m}</td><td className="py-1 text-right">{p}</td></tr>'
+        for m, p in lt["points"]
+    )
+    own = ""
+    hr = _hist_range(slug)
+    if hr and lt.get("own"):
+        own = "<p>" + lt["own"].format(hist_from=hr[0], hist_to=hr[1], hist_n=hr[2]) + "</p>"
+    ctx = f'<p>{lt["context"]}</p>' if lt.get("context") else ""
+    return f'''
+          <h3 id="longterm">長期の価格推移（2016〜2026年・店舗の買取価格表から）</h3>
+          <p>{lt["summary"]}</p>
+          <div className="overflow-x-auto my-4 not-prose">
+            <table className="text-sm"><thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-1 pr-4">時期</th><th className="py-1 text-right">買取価格（{lt["store"]}掲載）</th></tr></thead><tbody>{rows}</tbody></table>
+          </div>
+          <p className="text-[11px] text-warm-gray">出典: {_a(lt["url"], lt["store"] + "「響30年の買取」の価格推移表")}（全{lt["n_points"]}点から要点を抜粋。同店は参考価格で、金額を保証するものではないとしています）</p>
+          {own}
+          {ctx}
+'''
+
+
+def _ceramic(name, d):
+    c = d.get("ceramic")
+    if not c:
+        return ""
+    rows = "".join(
+        f'<tr className="border-b border-warm-border/60"><td className="py-2 pr-3">{st}</td><td className="py-2 pr-3">{it}</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">{pr}</td><td className="py-2 pr-3 text-xs">{when}</td><td className="py-2">{_a(u, "掲載ページ")}</td></tr>'
+        for st, it, pr, when, u in c["rows"]
+    )
+    return f'''
+          <h3 id="toki-bottle">有田焼・九谷焼ボトルの{name}の買取価格</h3>
+          <p>{c["intro"]}</p>
+          <div className="overflow-x-auto my-5 not-prose">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">店舗</th><th className="py-2 pr-3">ボトル</th><th className="py-2 pr-3 text-right">掲載の価格</th><th className="py-2 pr-3">時点・注記</th><th className="py-2">出典</th></tr></thead>
+              <tbody>{rows}</tbody>
+            </table>
+          </div>
+          <p>{c["note"]}</p>
+'''
+
+
+def fake_extra(slug, name):
+    """「9. 偽物・贋作の見分け方」の末尾に入れる新旧の見分け方（文章と表のみ・画像なし）。"""
+    d = get(slug)
+    sk = d.get("shinkyu") if d else None
+    if not sk:
+        return ""
+    rows = "".join(
+        f'<tr className="border-b border-warm-border/60"><th className="py-2 pr-3 text-left align-top whitespace-nowrap">{part}</th><td className="py-2 pr-3 align-top">{new}</td><td className="py-2 align-top">{old}</td></tr>'
+        for part, new, old in sk["rows"]
+    )
+    holo = "".join(f"<p>{x}</p>" for x in sk["holo"])
+    src = "・".join(_a(u, t) for t, u in sk["holo_src"])
+    return f'''
+          <h3 id="shinkyu">{name}の新型（現行）と旧型（金色の観音開き箱）の見分け方</h3>
+          <div className="overflow-x-auto my-5 not-prose">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">見る場所</th><th className="py-2 pr-3">現行ボトル（新型）</th><th className="py-2">旧ボトル（〜2007年頃・金色の観音開き箱）</th></tr></thead>
+              <tbody>{rows}</tbody>
+            </table>
+          </div>
+          <p className="text-sm font-bold">ホログラムシールの有無について</p>
+          {holo}
+          <p className="text-[11px] text-warm-gray">出典: {_a("https://linxas.shop/whiskey/hibiki/hibiki30years/", "LINXAS")}・{_a("https://www.sakekaitori.com/whisky/japanese_whiskey/hibiki_brand/hibiki30/", "ファイブニーズ")}・{_a("https://buysell-kaitori.com/column/liquor-hibiki/", "バイセル")}・{_a("https://daikichi-kaitori.jp/column/hibiki30nenkaitori/", "買取大吉")}の各ページ（2026-10-15確認）、{src}</p>
+          <p>{sk["note"]}</p>
+'''
+
+
+NTA_3105 = "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3105.htm"
+NTA_3152 = "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3152.htm"
+NTA_1900 = "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm"
+
+
+def sell_extra(slug, name):
+    """「11. 売却プロセス」の末尾に入れる空き瓶・空箱と税金の節。"""
+    d = get(slug)
+    if not d:
+        return ""
+    out = ""
+    e = d.get("empty")
+    if e:
+        li = "".join(f"<li>{_ymd(dt)}　{item}　<strong>{price}</strong></li>" for dt, item, price in e["items"])
+        out += f'''
+          <h3 id="akibin">{name}の空き瓶・空箱は売れる？</h3>
+          <p>売れる店があります。{e["store"]}は{name}の空き瓶の買取実績を公開しており、次の{len(e["items"])}件が載っています。</p>
+          <ul className="text-sm">{li}</ul>
+          <p className="text-[11px] text-warm-gray">出典: {_a(e["url"], e["store"] + "の掲載ページ")}（空き瓶の実績をすべて転記・{_ymd(d["checked_at"])}確認）</p>
+          <p>{e["daikichi"]}（出典: {_a("https://daikichi-kaitori.jp/column/hibiki30nenkaitori/", "買取大吉")}）</p>
+          <p>{e["caution"]}</p>
+'''
+    if d.get("tax"):
+        out += f'''
+          <h3 id="zeikin">{name}を売ったときの税金</h3>
+          <p>国税庁のタックスアンサー {_a(NTA_3105, "No.3105 譲渡所得の対象となる資産と課税方法")} は、「家具、じゅう器、通勤用の自動車、衣服などの生活に通常必要な動産の譲渡による所得」を課税しない所得としたうえで、「ただし、貴金属や宝石、書画、骨とうなどで、1個または1組の価額が30万円を超えるものの譲渡による所得は除きます」としています（令和8年4月1日現在法令等）。</p>
+          <p>ウイスキーがこの「書画、骨とうなど」に当たるかは同ページに書かれていません。ただ、{name}は1本で30万円を超える価格で取引されている（このページの店舗掲示価格・ヤフオク中央値）ため、「生活用品の売却だから非課税」と決めつけず、課税される前提で計算しておくのが安全です。</p>
+          <p>課税される場合は総合課税の譲渡所得で、計算は次のとおりです（{_a(NTA_3152, "No.3152 譲渡所得の計算のしかた（総合課税）")}）。</p>
+          <ul>
+            <li>譲渡所得の金額 ＝ 譲渡価額 −（取得費 ＋ 譲渡費用）− 50万円（特別控除。その年の譲渡益の合計から差し引く）</li>
+            <li>持っていた期間が5年以内なら短期（全額が課税対象）、5年を超えれば長期（半分だけが課税対象）</li>
+          </ul>
+          <p>会社員で給与を1か所から受けている人は、給与所得・退職所得以外の所得の合計が20万円を超えると確定申告が必要です（{_a(NTA_1900, "No.1900 給与所得者で確定申告が必要な人")}）。</p>
+          <p>計算例（仮定の数字）: 定価125,000円（税別・2022年3月まで）の{name}を税込137,500円で買って5年を超えて持ち、530,000円で1本売った（譲渡費用0円）場合、譲渡益は392,500円で、特別控除50万円の範囲に収まるため譲渡所得は0円です。同じ年にほかの高額品も売った場合は合計で判定します。購入時のレシートなど取得費が分かる資料は保管しておいてください。</p>
+          <p>相続したボトルや、繰り返し売買している場合などは扱いが変わることがあります。くわしくは <Link href="/articles/whisky-kaitori-zeikin/" className="text-amber-dark underline hover:text-burgundy">ウイスキー買取の税金</Link> の記事にまとめています。個別の判断は税務署・税理士に確認してください。</p>
+'''
+    return out
+
+
+def apply_faqs(slug, faqs):
+    """FAQ の置き換え（質問文の末尾一致）と追加。データが無ければ何もしない。"""
+    d = get(slug)
+    if not d:
+        return faqs
+    rep = d.get("faq_replace") or {}
+    out = []
+    for q, a in faqs:
+        for tail, na in rep.items():
+            if q.endswith(tail):
+                a = na
+        out.append((q, a))
+        if q.endswith("税金がかかりますか？"):
+            out.extend((eq, ea) for eq, ea in d.get("faq_extra") or [])
+    return out
+
+
+def page_updated(slug, fetched_at):
+    d = get(slug)
+    pu = d.get("page_updated") if d else None
+    return max(pu, fetched_at) if pu and fetched_at and fetched_at[:1].isdigit() else fetched_at
+
+
+def toc_fake(slug):
+    d = get(slug)
+    return '\n  { id: "shinkyu", label: "9-2. 新型・旧型の見分け方" },' if d and d.get("shinkyu") else ""
+
+
+def toc_sell(slug):
+    d = get(slug)
+    if not d:
+        return ""
+    t = ""
+    if d.get("empty"):
+        t += '\n  { id: "akibin", label: "11-2. 空き瓶・空箱の買取" },'
+    if d.get("tax"):
+        t += '\n  { id: "zeikin", label: "11-3. 売ったときの税金" },'
+    return t
 
 
 def faq(slug, name):
@@ -212,4 +395,10 @@ def desc_tail(slug):
 
 
 def toc_item(slug):
-    return '\n  { id: "store-prices", label: "4-2. 買取店の掲示価格・推移・定価" },' if get(slug) else ""
+    d = get(slug)
+    if not d:
+        return ""
+    t = '\n  { id: "store-prices", label: "4-2. 買取店の掲示価格・推移・定価" },'
+    if d.get("ceramic"):
+        t += '\n  { id: "toki-bottle", label: "4-3. 有田焼・九谷焼ボトル" },'
+    return t
