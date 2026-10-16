@@ -158,7 +158,7 @@ export default function ArdbegNvKaitoriPage() {
 
           <h2 id="current-price">2. 実勢価格（ヤフオク落札中央値・毎週更新）</h2>
 
-          <p>当サイトが毎週集計している、ヤフオク!の実落札データにもとづく中央値です。年数表記のないボトルと、比較用に10年を並べています。</p>
+          <p>当サイトが毎週集計している、ヤフオク!の実落札データにもとづく中央値です。年数表記のないボトルに加え、比較用に10年の数値を掲載しています。</p>
 
           <div className="table-wrapper">
             <table>

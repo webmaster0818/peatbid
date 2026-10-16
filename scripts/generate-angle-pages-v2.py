@@ -81,11 +81,11 @@ def render_takaku_uru(b):
     cat_label = CAT_LABEL.get(b["category"], "ウイスキー")
     return {
         "slug_suffix": "takaku-uru",
-        "title": f"{name}を高く売る方法【2026年最新】査定額を最大化する7つの完全ガイド",
+        "title": f"{name}を高く売る方法【2026年最新】査定額を上げる7つのポイント",
         "description": f"{name}を最高値で売るための実践ガイド。付属品・状態・売却タイミング・業者選び・保管方法・贋作対策・交渉術の7要素で査定額を最大化する具体策を完全解説。",
-        "h1": f"{name}を高く売る方法 — 査定額を最大化する完全ガイド",
+        "h1": f"{name}を高く売る方法 — 査定額を上げるためのポイント",
         "toc_label": "高く売る方法",
-        "intro": f"{name}は{cat_label}を代表する銘柄で、コレクター需要が高い1本。同じボトルでも、売り方ひとつで査定額が大きく変わります。本記事では、PeatBid編集部が推奨する**7つの実践テクニック**で{name}の査定額を最大化する方法を徹底解説します。",
+        "intro": f"{name}は{cat_label}を代表する銘柄で、コレクター需要が高い1本。同じボトルでも、売り方ひとつで査定額が大きく変わります。本記事では、PeatBid編集部が推奨する**7つの実践テクニック**で{name}の査定額を上げる方法をご説明します。",
         "sections": [
             ("コツ1: 付属品をすべて揃える",
              f"{name}の査定では、外箱・冊子・カートン・ホログラムシールの有無で**査定額が10〜20%変動**します。基準価格約{fmt(price)}に対し、付属品なしの場合は{fmt(int(price*0.8))}〜{fmt(int(price*0.9))}まで下がることが一般的です。\\n\\n外箱の状態も重要で、シミ・破れ・水濡れ跡があると更に-5〜10%。購入時の状態を維持する努力が、最終的に数万〜数十万円の差を生みます。\\n\\nまず家中を徹底的に探し、すべての付属品を集めてから売却を検討してください。"),
@@ -111,7 +111,7 @@ def render_nisemono_mikata(b):
     return {
         "slug_suffix": "nisemono-mikata",
         "title": f"{name}の偽物・贋作の見分け方【2026年完全版】コレクター必須の5チェックポイント",
-        "description": f"{name}の偽物・贋作を見分ける具体的なポイントを徹底解説。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。",
+        "description": f"{name}の偽物・贋作を見分ける具体的なポイントを解説します。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。",
         "h1": f"{name}の偽物・贋作の見分け方",
         "toc_label": "偽物・贋作の見分け方",
         "intro": f"{name}のような高額ウイスキーは、贋作リスクが高まる銘柄です。特に未開封・箱付きで{fmt(price)}前後の流通価格を持つ銘柄は、海外を中心に巧妙な贋作が出回ることもあります。本記事では、{name}の偽物を見抜く5つのチェックポイントと、不審なボトルへの対処法を解説します。",
@@ -139,8 +139,8 @@ def render_ranking(b):
     price = int(b["reference_price_jpy_2026_05"])
     return {
         "slug_suffix": "ranking",
-        "title": f"{name}の買取業者おすすめランキング【2026年最新】査定額・サービス・信頼性で徹底比較",
-        "description": f"{name}に強い買取業者をランキング形式で徹底比較。ヒカカク・バイセル・リカスタの査定スピード・査定額・サポート・信頼性を多角的に評価し、目的別おすすめを提示。",
+        "title": f"{name}の買取業者おすすめランキング【2026年最新】査定額・サービス・信頼性で比較",
+        "description": f"{name}に強い買取業者をランキング形式で比較。ヒカカク・バイセル・リカスタの査定スピード・査定額・サポート・信頼性を多角的に評価し、目的別おすすめを提示。",
         "h1": f"{name}の買取業者おすすめランキング",
         "toc_label": "買取業者ランキング",
         "intro": f"{name}を高く売るには、業者選びが最重要。同じ{fmt(price)}クラスのボトルでも、業者により**数万〜数十万円**の査定差が生まれます。本記事ではPeatBid編集部が選定基準に基づいて選んだ{name}に強い買取業者4社を、ランキング形式で比較します。",
@@ -168,7 +168,7 @@ def render_rekishi(b):
     return {
         "slug_suffix": "rekishi",
         "title": f"{name}の歴史と特徴【2026年完全版】蒸溜所・受賞歴・市場評価の根拠",
-        "description": f"{name}の歴史的背景、{origin}のストーリー、味わいの特徴、世界的評価、市場価値が高い理由を専門ライターが徹底解説。コレクター・購入検討者必読の銘柄完全ガイド。",
+        "description": f"{name}の歴史的背景、{origin}のストーリー、味わいの特徴、世界的評価、市場価値が高い理由を解説します。コレクター・購入検討者必読の銘柄解説です。",
         "h1": f"{name}の歴史と特徴",
         "toc_label": "歴史と特徴",
         "intro": f"{name}は{cat_label}を代表する銘柄の1つで、{origin}が手がける{age_label}のボトル。本記事では、銘柄の誕生背景、蒸溜所のストーリー、味わいの個性、世界的評価、そして二次流通市場で高値が定着している理由を解説します。",
@@ -315,7 +315,7 @@ def render_label_yogore(b):
     return {
         "slug_suffix": "label-yogore",
         "title": f"{name}のラベル汚れ・破れがあっても売れる？【2026年完全版】状態別査定額と保護方法",
-        "description": f"{name}のラベル汚れ・破れ・剥がれ・水濡れ跡がある場合の買取査定額を詳細解説。状態別の価格目安、ラベル保護の保管方法、業者選定まで完全ガイド。",
+        "description": f"{name}のラベル汚れ・破れ・剥がれ・水濡れ跡がある場合の買取査定額を詳細解説。状態別の価格目安、ラベル保護の保管方法、業者選定まで解説します。",
         "h1": f"{name}のラベル汚れ・破れがあっても売れる？",
         "toc_label": "ラベル汚れでも査定",
         "intro": f"長期保管した{name}のラベルが汚れた、破れた、水濡れ跡がついた——そんな場合でも、買取は可能です。本記事では、ラベルの状態が査定額にどう影響するか、状態別の価格目安と対処法を完全解説します。",
@@ -557,7 +557,7 @@ export default function {component_name}Page() {{
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">{name}</p>
             <p className="text-xs text-warm-gray mt-1">{cat_label} / {b["origin"]} / {age_label} / 希少度 {rarity_label} / 参考相場 {fmt(price)}前後</p>
-            <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/{b["slug"]}-kaitori/" className="text-amber-dark underline">{name}の買取相場 完全ガイドへ</Link></p>
+            <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/{b["slug"]}-kaitori/" className="text-amber-dark underline">{name}の買取相場ガイドへ</Link></p>
           </div>
 
           {{/* Table of Contents */}}

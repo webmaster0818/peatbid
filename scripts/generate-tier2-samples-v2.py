@@ -154,8 +154,8 @@ def build_page(pref_slug: str, brand_slug: str) -> str:
     p = PREFECTURES[pref_slug]
     b = BRANDS[brand_slug]
     title = f"【2026年最新】{p['name_ja']}で{b['name_ja']}を高く売る｜買取相場 {b['real_market_range']}・出張対応業者比較"
-    description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？最新買取相場 {b['real_market_range']}、{p['region']}地方の地元業者と全国業者を徹底比較。{b['recent_news']}"
-    h1 = f"{p['name_ja']}で{b['name_ja']}を高く売る完全ガイド"
+    description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？最新買取相場 {b['real_market_range']}、{p['region']}地方の地元業者と全国業者を比較。{b['recent_news']}"
+    h1 = f"{p['name_ja']}で{b['name_ja']}を高く売る方法"
 
     # Real shops + national dealers
     local_dealer_rows = "".join(

@@ -101,7 +101,7 @@ def build_page(pref_slug: str, brand_slug: str) -> str:
     b = BRANDS[brand_slug]
     title = f"【2026年最新】{p['name_ja']}で{b['name_ja']}を高く売る｜買取相場・出張対応業者比較"
     description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？最新買取相場 約{b['ref_price']:,}円、{p['region']}地方の出張買取対応業者、地域別の価格傾向を解説。"
-    h1 = f"{p['name_ja']}で{b['name_ja']}を高く売る完全ガイド"
+    h1 = f"{p['name_ja']}で{b['name_ja']}を高く売る方法"
 
     faq = [
         (f"{p['name_ja']}で{b['name_ja']}は出張買取してもらえますか？", f"はい。主要な買取専門業者（バイセル、お酒買取専門店、福ちゃんなど）は{p['name_ja']}全域を出張買取エリアにしています。{p['cities']}の主要駅近郊なら最短即日対応も可能です。"),

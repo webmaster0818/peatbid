@@ -281,7 +281,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {{
-  title: "{name}の買取相場【2026年最新】{fmt(price)}前後・状態別査定額と高く売る完全ガイド",
+  title: "{name}の買取相場【2026年最新】{fmt(price)}前後・状態別査定額と高く売る方法",
   description: "{name}（{name_en}）の最新買取相場、状態別査定額、蒸溜所の歴史、テイスティング、希少性、贋作リスク、おすすめ買取業者4社比較まで完全解説。コレクター・オーナー必読の決定版ガイド。",
 }};
 
@@ -325,7 +325,7 @@ export default function {component_name}() {{
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{name}の買取相場と高く売る完全ガイド</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{name}の買取相場と高く売る方法</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026年5月14日 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           {{/* Table of Contents */}}

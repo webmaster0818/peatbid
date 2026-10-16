@@ -173,7 +173,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {{
   title: "{name_ja}の買取相場【2026年最新】{format_price(base_price)}前後・状態別査定額と高く売る方法",
-  description: "{name_ja}（{name_en}）の最新買取相場と査定ポイント。{description}。状態別係数・付属品の影響・おすすめ買取業者まで完全ガイド。",
+  description: "{name_ja}（{name_en}）の最新買取相場と査定ポイント。{description}。状態別係数・付属品の影響・おすすめ買取業者まで解説します。",
 }};
 
 function FaqSchema() {{

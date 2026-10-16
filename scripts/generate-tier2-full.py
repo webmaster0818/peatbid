@@ -45,7 +45,7 @@ def load_brands():
 
 # H1 パターン（uniqueness確保のため5パターンを hash でローテート）
 H1_PATTERNS = [
-    "{pref}で{brand}を高く売る完全ガイド",
+    "{pref}で{brand}を高く売る方法",
     "{pref}の{brand}買取相場と高価買取のコツ",
     "{brand}を{pref}で売却する全手順",
     "{pref}エリア対応！{brand}買取の決定版",
@@ -53,7 +53,7 @@ H1_PATTERNS = [
 ]
 
 INTRO_PATTERNS = [
-    "{pref}（人口{pop}、主要都市: {cities}）で{brand}を売却したい方へ。本ページでは、{pref}における{brand}の最新買取相場・地元対応業者・高値売却のコツを徹底解説します。",
+    "{pref}（人口{pop}、主要都市: {cities}）で{brand}を売却したい方へ。本ページでは、{pref}における{brand}の最新買取相場・地元対応業者・高く売るためのポイントをご説明します。",
     "{brand}を{pref}で高く売るための情報を集約しました。{pref}には{pop}が暮らし、主要都市は{cities}。{region}地方を代表する経済圏で、ウイスキー買取の需要も活発です。",
     "{pref}にお住まいで{brand}をお持ちの方、本ページが売却の決定版ガイドです。{pop}を擁する{pref}（{cities}が主要都市）の買取事情を、業者比較・相場推移とともに解説します。",
     "「{pref}で{brand}を売りたい」という方のためのガイドです。{pref}は{region}地方の中核（人口{pop}、{cities}が主要都市）で、ウイスキー買取専門業者も多数対応しています。",
@@ -132,7 +132,7 @@ def build_page(brand: dict, pref_slug: str) -> str:
     )
 
     title = f"【2026年最新】{p['name_ja']}で{b['name_ja']}を高く売る｜買取相場・出張対応業者比較"
-    description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？最新買取相場 約{b['ref_price']:,}円、{p['region']}地方の地元業者と全国業者を徹底比較。"
+    description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？最新買取相場 約{b['ref_price']:,}円、{p['region']}地方の地元業者と全国業者を比較。"
 
     states = state_coef_text(b)
     state_rows = "".join(f"<tr><td>{s[0]}</td><td>約{s[1]:,}円</td><td>{s[2]}</td></tr>" for s in states)
