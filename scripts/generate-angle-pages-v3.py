@@ -8,6 +8,8 @@ import re
 import datetime
 from pathlib import Path
 
+import store_prices  # 2026-10-16: profile（複数エディション銘柄の産地/熟成/度数の表示上書き）
+
 # フュージョン打ち手②: 機会バンド(GSC pos8-30×imp30+)のtitle刷新＋12週スパークライン＋FAQ強化
 from opportunity_band import (
     BAND_ANGLE_SLUGS,
@@ -150,9 +152,13 @@ def brand_market_analysis(b):
     age = int(age_raw) if age_raw.isdigit() else 0
     age_jp = f"{age}年熟成" if age > 0 else "ノンエイジ（NV）"
     abv = (b.get("abv") or "").strip()
+    abv_disp = abv + '%' if abv else '—'
+    _pf = store_prices.profile(b["slug"])
+    if _pf:
+        origin, age_jp, abv_disp = _pf.get("maker", origin), _pf.get("age_short", age_jp), _pf.get("abv", abv_disp)
     rar = RARITY_JP.get(b.get("rarity_tier", ""), "—")
     paras = []
-    paras.append(f"**{name}**は{cat_jp}（{origin or '産地情報は各蒸溜所に準拠'}）の{age_jp}、度数{abv + '%' if abv else '—'}、希少度は{rar}に分類される銘柄です。")
+    paras.append(f"**{name}**は{cat_jp}（{origin or '産地情報は各蒸溜所に準拠'}）の{age_jp}、度数{abv_disp}、希少度は{rar}に分類される銘柄です。")
     if ok:
         pt = _price_tier(median)
         lq = _liq_tier(sample)
@@ -317,6 +323,9 @@ def render_rekishi(b):
     cat_label = CAT_LABEL.get(b["category"], "ウイスキー")
     age = int(b["age_years"]) if b["age_years"] else 0
     age_label = f"{age}年熟成" if age > 0 else "ノンエイジ"
+    _pf = store_prices.profile(b["slug"])
+    if _pf:
+        origin, age_label = _pf.get("maker", origin), _pf.get("age_short", age_label)
     return {
         "slug_suffix": "rekishi",
         "title": f"{name}の歴史・特徴と買取価値{MONTH_TAG}なぜ高い?市場評価の根拠",
@@ -652,6 +661,10 @@ def render_page(b, data):
     cat_label = CAT_LABEL.get(b["category"], "ウイスキー")
     age = int(b["age_years"]) if b["age_years"] else 0
     age_label = f"{age}年熟成" if age > 0 else "ノンエイジ"
+    _pf = store_prices.profile(b["slug"])
+    mini_origin = _pf.get("maker", b["origin"]) if _pf else b["origin"]
+    if _pf:
+        age_label = _pf.get("age_short", age_label)
     price = int(b["reference_price_jpy_2026_05"])
     rarity_label = {"common": "コモン", "mid": "ミッド", "high": "ハイ", "ultra": "ウルトラ", "ultra-rare": "ウルトラレア"}.get(b["rarity_tier"], b["rarity_tier"].upper())
 
@@ -823,7 +836,7 @@ export default function {component_name}Page() {{
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">{name}</p>
-            <p className="text-xs text-warm-gray mt-1">{cat_label} / {b["origin"]} / {age_label} / 希少度 {rarity_label} / 市場相場 {market_label}</p>
+            <p className="text-xs text-warm-gray mt-1">{cat_label} / {mini_origin} / {age_label} / 希少度 {rarity_label} / 市場相場 {market_label}</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/{b["slug"]}-kaitori/" className="text-amber-dark underline">{name}の買取相場 完全ガイドへ</Link></p>
           </div>
 

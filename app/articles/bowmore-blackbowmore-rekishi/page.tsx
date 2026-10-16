@@ -6,7 +6,7 @@ import priceData from "@/data/price-history/bowmore-blackbowmore.json";
 
 export const metadata: Metadata = {
   title: 'ブラックボウモアの歴史・特徴と買取価値【2026年10月最新】なぜ高い?市場評価の根拠',
-  description: 'ブラックボウモアの歴史的背景、アイラのストーリー、味わいの特徴、世界的評価、市場価値が高い理由を専門ライターが徹底解説。コレクター・購入検討者必読の銘柄完全ガイド。',
+  description: 'ブラックボウモアの歴史的背景、ボウモア蒸溜所（スコットランド・アイラ島）のストーリー、味わいの特徴、世界的評価、市場価値が高い理由を専門ライターが徹底解説。コレクター・購入検討者必読の銘柄完全ガイド。',
 };
 
 function FaqSchema() {
@@ -45,7 +45,7 @@ export default function BowmoreBlackbowmoreRekishiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">ブラックボウモア</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / ノンエイジ / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / ボウモア蒸溜所（スコットランド・アイラ島） / 29〜50年熟成（1964年蒸留） / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/bowmore-blackbowmore-kaitori/" className="text-amber-dark underline">ブラックボウモアの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -54,7 +54,7 @@ export default function BowmoreBlackbowmoreRekishiPage() {
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
               <li><a href="#section-0" className="hover:underline">1. ブラックボウモアの市場ポジションとデータ分析</a></li>
-              <li><a href="#section-1" className="hover:underline">2. アイラの創業と歴史</a></li>
+              <li><a href="#section-1" className="hover:underline">2. ボウモア蒸溜所（スコットランド・アイラ島）の創業と歴史</a></li>
               <li><a href="#section-2" className="hover:underline">3. ブラックボウモアの誕生背景</a></li>
               <li><a href="#section-3" className="hover:underline">4. ブラックボウモアの味わいプロファイル</a></li>
               <li><a href="#section-4" className="hover:underline">5. 世界的評価と受賞歴</a></li>
@@ -64,7 +64,7 @@ export default function BowmoreBlackbowmoreRekishiPage() {
             </ol>
           </div>
 
-          <p>ブラックボウモアはスコッチウイスキーを代表する銘柄の1つで、アイラが手がけるノンエイジのボトル。本記事では、銘柄の誕生背景、蒸溜所のストーリー、味わいの個性、世界的評価、そして二次流通市場で高値が定着している理由を解説します。</p>
+          <p>ブラックボウモアはスコッチウイスキーを代表する銘柄の1つで、ボウモア蒸溜所（スコットランド・アイラ島）が手がける29〜50年熟成（1964年蒸留）のボトル。本記事では、銘柄の誕生背景、蒸溜所のストーリー、味わいの個性、世界的評価、そして二次流通市場で高値が定着している理由を解説します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
@@ -77,13 +77,13 @@ export default function BowmoreBlackbowmoreRekishiPage() {
           </div>
 
           <h2 id="section-0">1. ブラックボウモアの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ブラックボウモア</strong>はスコッチウイスキー（アイラ）のノンエイジ（NV）、度数49%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>スコッチは蒸溜所・地域（アイラ）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ブラックボウモア</strong>はスコッチウイスキー（ボウモア蒸溜所（スコットランド・アイラ島））の29〜50年熟成（1964年蒸留）、度数40.5〜50%（エディションにより異なる）、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>スコッチは蒸溜所・地域（ボウモア蒸溜所（スコットランド・アイラ島））やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
-          <h2 id="section-1">2. アイラの創業と歴史</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>アイラはスコッチウイスキー業界で長い歴史を持つ蒸溜所/メーカー。創業以来、伝統的な製法と現代の品質管理を融合し、ブラックボウモアを含む数々の名作を世に送り出しています。</p><p>ジャパニーズウイスキーの場合は1923年の山崎蒸溜所創設以降、スコッチの場合は18〜19世紀に遡る歴史を持つ銘柄も多数あります。各蒸溜所が独自の蒸溜方法・水・樽選びで個性を表現し、それが今日の市場価値につながっています。</p>` }} />
+          <h2 id="section-1">2. ボウモア蒸溜所（スコットランド・アイラ島）の創業と歴史</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>ボウモア蒸溜所（スコットランド・アイラ島）はスコッチウイスキー業界で長い歴史を持つ蒸溜所/メーカー。創業以来、伝統的な製法と現代の品質管理を融合し、ブラックボウモアを含む数々の名作を世に送り出しています。</p><p>ジャパニーズウイスキーの場合は1923年の山崎蒸溜所創設以降、スコッチの場合は18〜19世紀に遡る歴史を持つ銘柄も多数あります。各蒸溜所が独自の蒸溜方法・水・樽選びで個性を表現し、それが今日の市場価値につながっています。</p>` }} />
 
           <h2 id="section-2">3. ブラックボウモアの誕生背景</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>ブラックボウモアは、アイラの長年の研究と職人技術の結晶。ノンエイジの長期にわたる樽熟成を経て、樽材から溶け出した成分と原酒が複雑に交差し、唯一無二の味わいが生まれます。</p><p>発売当時はスコッチウイスキーの品質を世界に示すフラッグシップ的位置付けで、限定的な生産量と高い品質基準により、コレクターや愛好家から絶大な支持を集めました。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>ブラックボウモアは、ボウモア蒸溜所（スコットランド・アイラ島）の長年の研究と職人技術の結晶。29〜50年熟成（1964年蒸留）の長期にわたる樽熟成を経て、樽材から溶け出した成分と原酒が複雑に交差し、唯一無二の味わいが生まれます。</p><p>発売当時はスコッチウイスキーの品質を世界に示すフラッグシップ的位置付けで、限定的な生産量と高い品質基準により、コレクターや愛好家から絶大な支持を集めました。</p>` }} />
 
           <h2 id="section-3">4. ブラックボウモアの味わいプロファイル</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキーの味わいは、原料・水・蒸溜方法・熟成樽・熟成期間で決まります。
@@ -93,7 +93,7 @@ export default function BowmoreBlackbowmoreRekishiPage() {
 これら全ての要素が組み合わさり、{age_label}の時間をかけて醸成されたのが{name}の味わいです。</li></ol>` }} />
 
           <h2 id="section-4">5. 世界的評価と受賞歴</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>ブラックボウモアを含むアイラの銘柄は、以下の国際品評会で度々受賞しています:</p><ol><li>ISC（インターナショナル・スピリッツ・チャレンジ）</li><li>ワールド・ウイスキー・アワード（WWA）</li><li>サンフランシスコ・ワールド・スピリッツ・コンペティション</li><li>ジム・マーレイ氏のウイスキー・バイブル</li><li>ウイスキー・マガジン・アワード
+          <div dangerouslySetInnerHTML={{ __html: `<p>ブラックボウモアを含むボウモア蒸溜所（スコットランド・アイラ島）の銘柄は、以下の国際品評会で度々受賞しています:</p><ol><li>ISC（インターナショナル・スピリッツ・チャレンジ）</li><li>ワールド・ウイスキー・アワード（WWA）</li><li>サンフランシスコ・ワールド・スピリッツ・コンペティション</li><li>ジム・マーレイ氏のウイスキー・バイブル</li><li>ウイスキー・マガジン・アワード
 
 この国際的評価が、二次流通市場での高値を支えています。受賞歴・専門家評価が「投資する価値のあるボトル」という認識を醸成しているのです。</li></ol>` }} />
 

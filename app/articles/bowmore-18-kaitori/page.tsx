@@ -74,6 +74,8 @@ export default function Bowmore18KaitoriPage() {
             <p className="text-sm text-ink">🔀 年代表記のないボウモア（No.1・スモールバッチ等）をお探しの方はこちら → <Link href="/articles/bowmore-nv-kaitori/" className="text-amber-dark underline font-bold">ボウモアの年代指定なし(NV)買取相場</Link></p>
           </div>
 
+          <p className="text-sm text-warm-gray my-4">1964年蒸留の「ブラックボウモア」（29年・30年・31年・42年・50年・DB5）をお持ちの方は <Link href="/articles/bowmore-blackbowmore-kaitori/" className="text-amber-dark underline">ブラックボウモア全6種の違いと買取相場</Link> をご覧ください。</p>
+
 
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。ボウモア18年は希少度<strong>ミッド</strong>クラスに位置し、終売・休売後の供給制限により価格上昇基調にある銘柄帯。市場流通量が徐々に減少し、二次流通価格は年単位で15〜30%上昇する傾向。</p>
 

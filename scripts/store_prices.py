@@ -118,10 +118,11 @@ def block(slug, name, yahoo_median, fetched_at):
     if d.get("kyugata_note"):
         note += f'\n          <p className="text-sm bg-cream/40 border border-amber/30 rounded-lg p-4 not-prose">{d["kyugata_note"]}</p>'
 
+    intro = d.get("store_intro") or f'各店が自社サイトに公開している{name}の参考買取価格を、PeatBid編集部が {checked} に各ページで確認した値です。「店舗側の更新日」は各ページに書かれている価格の更新日です。'
     out = f'''
           <h3 id="store-prices">{name}の買取店の掲示価格（店舗別比較・{_ymd(checked)}確認）</h3>
 
-          <p>各店が自社サイトに公開している{name}の参考買取価格を、PeatBid編集部が {checked} に各ページで確認した値です。「店舗側の更新日」は各ページに書かれている価格の更新日です。</p>
+          <p>{intro}</p>
 
           <div className="overflow-x-auto my-5 not-prose">
             <table className="w-full text-sm">
@@ -265,6 +266,8 @@ def _ceramic(name, d):
 def fake_extra(slug, name):
     """「9. 偽物・贋作の見分け方」の末尾に入れる新旧の見分け方（文章と表のみ・画像なし）。"""
     d = get(slug)
+    if d and d.get("identify"):
+        return _identify(name, d["identify"])
     sk = d.get("shinkyu") if d else None
     if not sk:
         return ""
@@ -353,7 +356,107 @@ def page_updated(slug, fetched_at):
 
 def toc_fake(slug):
     d = get(slug)
+    if d and d.get("identify"):
+        return '\n  { id: "edition-check", label: "9-2. どのエディションかの確かめ方" },'
     return '\n  { id: "shinkyu", label: "9-2. 新型・旧型の見分け方" },' if d and d.get("shinkyu") else ""
+
+
+# ---- 2026-10-16 追加: 銘柄の基本情報の上書き・エディション一覧・海外オークション・エディションの確かめ方 ----
+# brands.csv の origin（産地＝「アイラ」等）・age_years（0＝NV）・abv は1本の定番ボトル前提の列で、
+# ブラックボウモアのように複数エディションがある銘柄では誤記になる（「アイラが手がけるノンエイジ」「度数49%」）。
+# JSON の profile がある slug だけ表示を差し替える（brands.csv は tier2・週次パッチも読むので触らない）。
+
+def profile(slug):
+    d = get(slug)
+    p = d.get("profile") if d else None
+    return p if isinstance(p, dict) else {}
+
+
+def _month(s, month_tag):
+    return s.replace("{MONTH}", month_tag).replace("{MONTH_H1}", month_tag.replace("最新】", "】"))
+
+
+def title_full(slug, month_tag):
+    d = get(slug)
+    return _month(d["title_full"], month_tag) if d and d.get("title_full") else None
+
+
+def h1_full(slug, month_tag):
+    d = get(slug)
+    return _month(d["h1_full"], month_tag) if d and d.get("h1_full") else None
+
+
+def desc_full(slug):
+    d = get(slug)
+    return d.get("desc_full") if d else None
+
+
+def editions_block(slug, name):
+    """「1. 概要」の直後に入れる全エディション一覧（発売年・熟成・度数・本数・発売時価格・見分けるポイント）。"""
+    d = get(slug)
+    e = d.get("editions") if d else None
+    if not e:
+        return ""
+    rows = "".join(
+        '<tr className="border-b border-warm-border/60">'
+        + "".join(f'<td className="py-2 pr-3 align-top{" whitespace-nowrap" if i in (1, 2, 3) else ""}">{c}</td>' for i, c in enumerate(r))
+        + "</tr>"
+        for r in e["rows"]
+    )
+    src = "・".join(_a(u, t) for t, u in e["sources"])
+    return f'''
+          <h3 id="editions">{name}は全{len(e["rows"])}種｜エディション別の発売年・度数・本数</h3>
+          <div className="overflow-x-auto my-5 not-prose">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">エディション</th><th className="py-2 pr-3">発売</th><th className="py-2 pr-3">熟成</th><th className="py-2 pr-3">度数</th><th className="py-2 pr-3">本数</th><th className="py-2 pr-3">発売時の価格</th><th className="py-2">見分けるポイント</th></tr></thead>
+              <tbody>{rows}</tbody>
+            </table>
+          </div>
+          <p className="text-sm">{e["note"]}</p>
+          <p className="text-[11px] text-warm-gray">出典: {src}（{_ymd(d["checked_at"])}確認）</p>
+'''
+
+
+def toc_editions(slug):
+    d = get(slug)
+    return '\n  { id: "editions", label: "1-2. 全エディションの違い（発売年・度数・本数）" },' if d and d.get("editions") else ""
+
+
+def auction_block(slug, name):
+    """「7. オークション落札データ」の末尾に入れる海外オークションの結果（出典つき）。"""
+    d = get(slug)
+    a = d.get("auction") if d else None
+    if not a:
+        return ""
+    rows = "".join(
+        f'<tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap align-top">{when}</td><td className="py-2 pr-3 align-top">{item}</td><td className="py-2 pr-3 align-top font-bold">{res}</td><td className="py-2 align-top">{_a(u, src)}</td></tr>'
+        for when, item, res, src, u in a["items"]
+    )
+    return f'''
+          <h3 id="auction-results">{name}の海外オークション結果（出典つき）</h3>
+          <p>{a["intro"]}</p>
+          <div className="overflow-x-auto my-5 not-prose">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">時期</th><th className="py-2 pr-3">ボトル</th><th className="py-2 pr-3">結果</th><th className="py-2">出典</th></tr></thead>
+              <tbody>{rows}</tbody>
+            </table>
+          </div>
+'''
+
+
+def toc_auction(slug):
+    d = get(slug)
+    return '\n  { id: "auction-results", label: "7-2. 海外オークション結果" },' if d and d.get("auction") else ""
+
+
+def _identify(name, idf):
+    li = "".join(f"<li>{x}</li>" for x in idf["items"])
+    return f'''
+          <h3 id="edition-check">{name}はどのエディション？ラベルと箱での確かめ方</h3>
+          <p>{idf["intro"]}</p>
+          <ul>{li}</ul>
+          <p>{idf["caution"]}</p>
+'''
 
 
 def toc_sell(slug):
@@ -398,7 +501,7 @@ def toc_item(slug):
     d = get(slug)
     if not d:
         return ""
-    t = '\n  { id: "store-prices", label: "4-2. 買取店の掲示価格・推移・定価" },'
+    t = '\n  { id: "store-prices", label: "' + d.get("toc_label", "4-2. 買取店の掲示価格・推移・定価") + '" },'
     if d.get("ceramic"):
         t += '\n  { id: "toki-bottle", label: "4-3. 有田焼・九谷焼ボトル" },'
     return t

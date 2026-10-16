@@ -45,7 +45,7 @@ export default function BowmoreBlackbowmoreKihakuPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">ブラックボウモア</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / ノンエイジ / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / ボウモア蒸溜所（スコットランド・アイラ島） / 29〜50年熟成（1964年蒸留） / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/bowmore-blackbowmore-kaitori/" className="text-amber-dark underline">ブラックボウモアの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -78,7 +78,7 @@ export default function BowmoreBlackbowmoreKihakuPage() {
           </div>
 
           <h2 id="section-0">1. ブラックボウモアの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ブラックボウモア</strong>はスコッチウイスキー（アイラ）のノンエイジ（NV）、度数49%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>スコッチは蒸溜所・地域（アイラ）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ブラックボウモア</strong>はスコッチウイスキー（ボウモア蒸溜所（スコットランド・アイラ島））の29〜50年熟成（1964年蒸留）、度数40.5〜50%（エディションにより異なる）、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>スコッチは蒸溜所・地域（ボウモア蒸溜所（スコットランド・アイラ島））やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 希少性のランク評価</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ブラックボウモアは希少度カテゴリで「<strong>伝説級</strong>」に分類されます。希少度は以下の4要素で決まります:</p><ol><li>生産終了・休売の有無</li><li>市場流通量</li><li>コレクター需要</li><li>国際的評価

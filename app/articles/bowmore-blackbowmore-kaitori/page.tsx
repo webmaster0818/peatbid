@@ -5,24 +5,28 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/bowmore-blackbowmore.json";
 
 export const metadata: Metadata = {
-  title: 'ブラックボウモアの買取相場ガイド【2026年10月最新】状態別の目安',
-  description: 'ブラックボウモア（Black Bowmore）の買取相場ガイド。箱なし・開封済み等の状態別目安、買取業者3社の比較、高く売るコツ、贋作リスクまで網羅。',
+  title: 'ブラックボウモアとは？全6種の違いと買取相場【2026年10月最新】29年〜50年・DB5',
+  description: 'ブラックボウモア（1964年蒸留）の全6種＝29年・30年・31年ファイナル・42年・50年・DB5の発売年・度数・本数の違いと見分け方、買取店の掲示価格・買取実績（出典・確認日つき）、海外オークション結果をまとめました。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'ブラックボウモアの市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": 'ブラックボウモアの市場相場は現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": 'ブラックボウモアを高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": 'ブラックボウモアの開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' } }, { "@type": "Question", "name": 'ブラックボウモアは箱無しでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' } }, { "@type": "Question", "name": 'ブラックボウモアに偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": 'ブラックボウモアの保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": 'ブラックボウモアは税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'ブラックボウモアを売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": 'ブラックボウモアと他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'ブラックボウモアの市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": 'ブラックボウモアは「ブラックボウモア 700ml」でヤフオクを検索すると、ミニチュアや空き瓶の出品が混ざって中央値が実物とかけ離れた値になるため、PeatBid では落札中央値を出していません。2026-10-16 に確認した買取店の公開情報では、LINXAS が42年（箱あり）を参考買取価格〜1,500,000円（2026-01-26更新）、ストックラボが1993年瓶詰めのボトルを1,050,000円で買取（実績）、ウイスキー王国が未開封・箱付きの1964を993,000円で買取（実績）と掲載しています。エディションで値段が変わるので、29年・30年・31年・42年・50年のどれかを確かめてから査定に出してください。' } }, { "@type": "Question", "name": 'ブラックボウモアを高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": 'ブラックボウモアの開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' } }, { "@type": "Question", "name": 'ブラックボウモアは箱無しでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' } }, { "@type": "Question", "name": 'ブラックボウモアに偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": 'ブラックボウモアの保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": 'ブラックボウモアは税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'かかる場合があります。国税庁（タックスアンサー No.3105）は、生活に通常必要な動産の売却は課税しないとする一方、「貴金属や宝石、書画、骨とうなどで、1個または1組の価額が30万円を超えるもの」は除くとしています。ウイスキーがこれに当たるかは同ページに書かれていませんが、ブラックボウモアは1本で30万円を超える額で取引されるため、非課税と決めつけず確認が必要です。課税される場合は総合課税の譲渡所得で、売却額−（取得費＋譲渡費用）から特別控除50万円を引き、5年を超えて持っていた分は半分だけが課税対象です（No.3152）。給与を1か所から受けている会社員は、給与以外の所得が20万円を超えると確定申告が必要です（No.1900）。個別の判断は税務署・税理士に確認してください。' } }, { "@type": "Question", "name": 'ブラックボウモアは何種類ありますか？', "acceptedAnswer": { "@type": "Answer", "text": '1964年蒸留の原酒を使ったものは6種です。1993年の29年（ファーストエディション・50%・2,000本）、1994年の30年（セカンド・50%・2,000本）、1995年の31年（ファイナルエディション・49%・1,812本）、2007年の42年（40.5%・827本）、2016年の50年（40.9%・159本）、2020年のアストンマーティンとのコラボ「DB5 1964」（31年・49.6%・27本）です（出典: サザビーズ 2020-11-12 発表、Suntory Global Spirits、Aston Martin、土屋守氏のコラム、LINXAS）。' } }, { "@type": "Question", "name": 'ブラックボウモアの発売当時の値段はいくらでしたか？', "acceptedAnswer": { "@type": "Answer", "text": '1993年のファーストエディションは1本100ポンド（当時約2万円）と土屋守氏のコラムにあり、Dave Broom 氏の記事は80〜110ポンドとしています。42年は2,400ポンド、50年は16,000ポンド（米国の希望小売価格は25,000ドル）、DB5 1964は50,000ポンドで発売されました。' } }, { "@type": "Question", "name": 'ブラックボウモアを売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": 'ブラックボウモアと他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
 }
 
 const tocItems = [
   { id: "summary", label: "1. ブラックボウモアの概要" },
+  { id: "editions", label: "1-2. 全エディションの違い（発売年・度数・本数）" },
   { id: "distillery", label: "2. 蒸溜所の歴史と特徴" },
   { id: "tasting", label: "3. テイスティングノート" },
   { id: "current-price", label: "4. 現在の市場相場（Yahoo中央値）" },
+  { id: "store-prices", label: "4-2. 買取店の掲示価格・買取実績" },
   { id: "state-price", label: "5. 状態別の業界目安" },
   { id: "price-reasons", label: "6. なぜこの価格になるのか" },
   { id: "auction", label: "7. オークション落札データ" },
+  { id: "auction-results", label: "7-2. 海外オークション結果" },
   { id: "takaku-uru", label: "8. 高く売る7つの実践テクニック" },
   { id: "fake", label: "9. 偽物・贋作の見分け方" },
+  { id: "edition-check", label: "9-2. どのエディションかの確かめ方" },
   { id: "partners", label: "10. おすすめ買取業者3社" },
   { id: "process", label: "11. 売却プロセス5ステップ" },
   { id: "faq", label: "12. よくある質問" },
@@ -49,8 +53,8 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ブラックボウモアの買取相場と業者比較ガイド【2026年10月】</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-12 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ブラックボウモアとは？全6種の違いと買取相場・業者比較【2026年10月】</h1>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-16 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -66,7 +70,7 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
 
           <h2 id="summary">1. ブラックボウモアの概要</h2>
 
-          <p>ブラックボウモアはスコッチウイスキーを代表する銘柄の1つで、アイラが手がけるノンエイジ（NV）のボトルです。ブラックボウモア。1964年蒸留の伝説的ボトル。</p>
+          <p>ブラックボウモア（Black Bowmore）は、アイラ島のボウモア蒸溜所で<strong>1964年に蒸留した原酒</strong>を、オロロソシェリー樽で熟成させたシングルモルトのシリーズ名です。黒糖のように濃い色から「ブラック」と名付けられ、1993年の29年物から2020年のアストンマーティンとのコラボ「DB5 1964」まで、<strong>熟成年数・度数・本数の違う6種</strong>が出ています。ひとつの銘柄ではなく複数のボトルがあるため、売るときはまず<strong>どのエディションか</strong>を確かめることが大切です。</p>
 
           
 
@@ -81,33 +85,45 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
             <table>
               <tbody>
                 <tr><td><strong>カテゴリ</strong></td><td>スコッチウイスキー</td></tr>
-                <tr><td><strong>蒸溜所/メーカー</strong></td><td>アイラ</td></tr>
-                <tr><td><strong>熟成年数</strong></td><td>ノンエイジ（NV）</td></tr>
-                <tr><td><strong>アルコール度数</strong></td><td>49%</td></tr>
-                <tr><td><strong>容量</strong></td><td>700ml</td></tr>
+                <tr><td><strong>蒸溜所/メーカー</strong></td><td>ボウモア蒸溜所（スコットランド・アイラ島）</td></tr>
+                <tr><td><strong>熟成年数</strong></td><td>29年〜50年熟成（エディションにより異なる）</td></tr>
+                <tr><td><strong>アルコール度数</strong></td><td>40.5〜50%（エディションにより異なる）</td></tr>
+                <tr><td><strong>容量</strong></td><td>700ml（50年の米国向けは750ml）</td></tr>
                 <tr><td><strong>希少度</strong></td><td>ウルトラレア</td></tr>
                 <tr><td><strong>市場相場（Yahoo中央値）</strong></td><td><strong>市場相場データ蓄積中</strong></td></tr>
               </tbody>
             </table>
           </div>
 
-          <h2 id="distillery">2. アイラの歴史と特徴</h2>
+          <h3 id="editions">ブラックボウモアは全6種｜エディション別の発売年・度数・本数</h3>
+          <div className="overflow-x-auto my-5 not-prose">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">エディション</th><th className="py-2 pr-3">発売</th><th className="py-2 pr-3">熟成</th><th className="py-2 pr-3">度数</th><th className="py-2 pr-3">本数</th><th className="py-2 pr-3">発売時の価格</th><th className="py-2">見分けるポイント</th></tr></thead>
+              <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 align-top">ファーストエディション</td><td className="py-2 pr-3 align-top whitespace-nowrap">1993年</td><td className="py-2 pr-3 align-top whitespace-nowrap">29年</td><td className="py-2 pr-3 align-top whitespace-nowrap">50%</td><td className="py-2 pr-3 align-top">2,000本</td><td className="py-2 pr-3 align-top">£80〜110</td><td className="py-2 pr-3 align-top">黒ラベル・木箱</td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 align-top">セカンドエディション</td><td className="py-2 pr-3 align-top whitespace-nowrap">1994年</td><td className="py-2 pr-3 align-top whitespace-nowrap">30年</td><td className="py-2 pr-3 align-top whitespace-nowrap">50%</td><td className="py-2 pr-3 align-top">2,000本</td><td className="py-2 pr-3 align-top">£90〜</td><td className="py-2 pr-3 align-top">「BOTTLED 1994」の表記・木箱</td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 align-top">ファイナルエディション（3作目）</td><td className="py-2 pr-3 align-top whitespace-nowrap">1995年</td><td className="py-2 pr-3 align-top whitespace-nowrap">31年</td><td className="py-2 pr-3 align-top whitespace-nowrap">49%</td><td className="py-2 pr-3 align-top">1,812本 ※</td><td className="py-2 pr-3 align-top">£100〜150</td><td className="py-2 pr-3 align-top">「FINAL EDITION」「BOTTLED 1995」の表記・木箱</td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 align-top">42年</td><td className="py-2 pr-3 align-top whitespace-nowrap">2007年</td><td className="py-2 pr-3 align-top whitespace-nowrap">42年</td><td className="py-2 pr-3 align-top whitespace-nowrap">40.5%</td><td className="py-2 pr-3 align-top">827本</td><td className="py-2 pr-3 align-top">£2,400</td><td className="py-2 pr-3 align-top">下部ラベルに「AGED 42 YEARS」・化粧箱と木箱。ホワイト／ゴールドボウモアとの3部作の1本</td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 align-top">50年（ラストカスク）</td><td className="py-2 pr-3 align-top whitespace-nowrap">2016年</td><td className="py-2 pr-3 align-top whitespace-nowrap">50年</td><td className="py-2 pr-3 align-top whitespace-nowrap">40.9%</td><td className="py-2 pr-3 align-top">159本</td><td className="py-2 pr-3 align-top">£16,000（米国希望小売 $25,000）</td><td className="py-2 pr-3 align-top">木箱に「AGED 50 YEARS」</td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 align-top">DB5 1964（アストンマーティン）</td><td className="py-2 pr-3 align-top whitespace-nowrap">2020年</td><td className="py-2 pr-3 align-top whitespace-nowrap">31年</td><td className="py-2 pr-3 align-top whitespace-nowrap">49.6%</td><td className="py-2 pr-3 align-top">27本（うち販売25本）</td><td className="py-2 pr-3 align-top">£50,000</td><td className="py-2 pr-3 align-top">ボトルにDB5のピストンを封入・カーフスキンの箱</td></tr></tbody>
+            </table>
+          </div>
+          <p className="text-sm">※ファイナルエディションの本数は、ボウモア蒸溜所とサザビーズの発表（2020年）と土屋守氏のコラムが1,812本、Dave Broom 氏の記事（scotchwhisky.com 2016年）が1,182本で、資料によって異なります。発売時価格は英国での価格で、出典ごとに幅があります（ファーストは土屋氏コラムで1本100ポンド＝当時約2万円）。2007年の42年と2016年の50年は、度数が40%台まで下がっている点で1990年代の3本（49〜50%）と見分けられます。</p>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://www.sothebys.com/en/press/sothebys-to-offer-rare-opportunity-to-acquire-the-complete-black-bowmore-whisky-collection-direct-from-the-bowmore-distillery" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">サザビーズ プレスリリース（2020-11-12・発売年/熟成年数/本数）</a>・<a href="https://www.suntoryglobalspirits.com/news/black-bowmorer-1964-last-cask-be-rediscovered-arrives-us" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">Suntory Global Spirits（2017-06-12・50年の度数/本数/米国価格）</a>・<a href="https://www.astonmartin.com/en/our-world/news/2020/8/5/-strong-bowmore-strong-strong-and-aston-martin-unveil-first-collaboration-strong-" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">Aston Martin（2020-08・DB5の熟成/度数/本数/価格）</a>・<a href="https://scotchwhisky.com/magazine/in-depth/11657/black-bowmore-from-cask-to-cult-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">scotchwhisky.com Dave Broom（2016-11-07・発売時価格）</a>・<a href="https://www.toplot.jp/column/%E3%83%9C%E3%82%A6%E3%83%A2%E3%82%A2%E3%81%AE%E5%90%8D%E5%89%8D%E3%82%92%E4%B8%96%E7%95%8C%E4%B8%AD%E3%81%AB%E7%9F%A5%E3%82%89%E3%81%97%E3%82%81%E3%81%9F%E5%B9%BB%E3%81%AE%E3%83%96%E3%83%A9%E3%83%83/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">TOPLOT 土屋守（29〜31年の度数・本数）</a>・<a href="https://linxas.shop/whiskey/bowmore/blackbowmore42years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS（42年の度数・各ボトルのラベル表記）</a>（2026年10月16日確認）</p>
+
+          <h2 id="distillery">2. ボウモア蒸溜所（スコットランド・アイラ島）の歴史と特徴</h2>
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden mb-5 not-prose">
-            <Image src="/images/distillery-scotch.png" alt="アイラの蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+            <Image src="/images/distillery-scotch.png" alt="ボウモア蒸溜所（スコットランド・アイラ島）の蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
           </div>
 
           <p>スコットランド西海岸のアイラ島は、ピートウイスキーの聖地。ボウモア・ラフロイグ・アードベッグ・ラガヴーリンなど、独特のスモーキーな味わいで知られる蒸溜所が点在する。</p>
 
-          <p>アイラが生み出すスコッチウイスキーは、世界の主要品評会で度々受賞しており、二次流通市場でも継続的に高値で取引されています。蒸溜所の歴史と職人技術が、ブラックボウモアのような銘柄の市場価値を支えています。</p>
+          <p>ウイスキー評論家の土屋守氏のコラム（TOPLOT）によると、ボウモアは1779年創業でアイラ最古の蒸溜所。1964年蒸留の原酒は、ファーストフィルのオロロソシェリーバット（500リットル）に詰められ、海に面した第1熟成庫「No.1ヴォルツ」に置かれていました（出典: <a href="https://www.toplot.jp/column/%E3%83%9C%E3%82%A6%E3%83%A2%E3%82%A2%E3%81%AE%E5%90%8D%E5%89%8D%E3%82%92%E4%B8%96%E7%95%8C%E4%B8%AD%E3%81%AB%E7%9F%A5%E3%82%89%E3%81%97%E3%82%81%E3%81%9F%E5%B9%BB%E3%81%AE%E3%83%96%E3%83%A9%E3%83%83/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">TOPLOT「ボウモアの名前を世界中に知らしめた幻のブラックボウモア」</a>）。サントリーグローバルスピリッツの発表では、蒸留日は1964年11月5日です（出典: <a href="https://www.suntoryglobalspirits.com/news/black-bowmorer-1964-last-cask-be-rediscovered-arrives-us" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">Suntory Global Spirits 2017-06-12</a>）。</p>
+
+          <p>ボウモア蒸溜所（スコットランド・アイラ島）が生み出すスコッチウイスキーは、世界の主要品評会で度々受賞しており、二次流通市場でも継続的に高値で取引されています。蒸溜所の歴史と職人技術が、ブラックボウモアのような銘柄の市場価値を支えています。</p>
 
           <p>同じ蒸溜所の他の銘柄や、同年代の他銘柄との関連性を知ることで、ブラックボウモアの市場における立ち位置がより明確になります。下の関連銘柄リンクから他のグレード・他蒸溜所の銘柄も合わせてチェックすることをおすすめします。</p>
 
           <h2 id="tasting">3. テイスティングノート</h2>
 
-          <p>ブラックボウモアの味わいは、ノンエイジ（NV）の熟成期間中に樽から溶け出した成分と、アイラ独自の蒸溜技術が複雑に交差したものです。</p>
+          
 
-          <p>シェリー樽もしくはバーボン樽の特徴がストレートに表現された若々しい味わい。フルーツ・蜂蜜・バニラのアロマ。</p>
+          <p>公式のテイスティングノートはエディションごとに異なり、このページでは転載していません。参考として、買取店のLINXASは42年について「ドライフルーツやビターチョコレート、オークの深み」「シェリー由来の甘みとスパイス、穏やかなピート」と紹介しています（出典: <a href="https://linxas.shop/whiskey/bowmore/blackbowmore42years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS ブラックボウモア42年</a>）。</p>
 
           <p>飲用ではなくコレクション・投資目的で保有する場合、ボトルを開けずに保管することが価値維持の鉄則です。一度開けると、香味の揮発と空気接触による酸化が進み、二次流通市場での評価が大幅に下がります。</p>
 
@@ -124,6 +140,19 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">バイセル</a> — 東証グロース上場、出張・店頭・宅配の3チャネル対応</li>
             <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">福ちゃん</a> — 総合買取の大手、お酒査定にも対応</li>
           </ul>
+
+          <h3 id="store-prices">ブラックボウモアの買取店の掲示価格（店舗別比較・2026年10月16日確認）</h3>
+
+          <p>各店が自社サイトに載せているブラックボウモアの参考買取価格・買取実績を、PeatBid編集部が 2026-10-16 に各ページで確認した値です。どのエディションか（29年・30年・31年・42年など）で値段が変わるため、店の表記をそのまま載せています。「店舗側の更新日」は各ページに書かれている日付で、書かれていない場合は「記載なし」としました。</p>
+
+          <div className="overflow-x-auto my-5 not-prose">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">店舗</th><th className="py-2 pr-3">ボトル・条件</th><th className="py-2 pr-3 text-right">掲示価格</th><th className="py-2 pr-3">店舗側の更新日</th><th className="py-2">出典</th></tr></thead>
+              <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">ブラックボウモア42年 700ml<br /><span className="text-warm-gray text-xs">参考買取価格・箱あり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">〜1,500,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-01-26</td><td className="py-2"><a href="https://linxas.shop/whiskey/bowmore/blackbowmore42years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">ストックラボ</td><td className="py-2 pr-3">ブラックボウモア 1964 ファイナルエディション 1st 1964-1993（店の表記のまま）<br /><span className="text-warm-gray text-xs">買取実績（新宿本社）</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">1,050,000円</td><td className="py-2 pr-3 whitespace-nowrap">記載なし</td><td className="py-2"><a href="https://stock-lab.net/whisky/bowmore/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">ウイスキー王国</td><td className="py-2 pr-3">ブラック ボウモア 1964 700ml<br /><span className="text-warm-gray text-xs">買取実績・未開封・箱付き</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">993,000円</td><td className="py-2 pr-3 whitespace-nowrap">買取日「8月19日」（年の記載なし）</td><td className="py-2"><a href="https://whisky-oukoku.com/item/whisky/2078/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">買取センター.com</td><td className="py-2 pr-3">ブラックボウモア 30年<br /><span className="text-warm-gray text-xs">最高買取価格（上限の目安）</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">〜900,000円</td><td className="py-2 pr-3 whitespace-nowrap">記載なし</td><td className="py-2"><a href="https://kaitorisake.com/hinmoku/whisky/scotch-single-whisky/%E3%83%9C%E3%82%A6%E3%83%A2%E3%82%A2-2/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">ヒカカク！</td><td className="py-2 pr-3">ブラックボウモア 42年 シェリーカスク 40度 木箱付 1964年蒸溜 700ml<br /><span className="text-warm-gray text-xs">最高買取相場</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">450,000円</td><td className="py-2 pr-3 whitespace-nowrap">記載なし</td><td className="py-2"><a href="https://hikakaku.com/category/all-category/maker-brand/BOWMORE/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">おたからや</td><td className="py-2 pr-3">ブラックボウモア 1964 アイラシングルモルト スコッチ<br /><span className="text-warm-gray text-xs">参考買取価格</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">ASK（金額の掲載なし）</td><td className="py-2 pr-3 whitespace-nowrap">2022-01-26時点</td><td className="py-2"><a href="https://www.otakaraya.jp/result/liquor/whiskey/bowmore/121100/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr></tbody>
+            </table>
+          </div>
+          
+          <p>同じ「ブラックボウモア」でも、店によって載せているエディションが違います（LINXAS・ヒカカク！は42年、買取センター.comは30年、ストックラボは1993年瓶詰めのボトル）。金額の差はエディションの差でもあるので、手元のボトルの熟成年数（29・30・31・42・50年）と瓶詰め年をラベルで確かめてから比べてください。ヒカカク！は42年の度数を「40度」と表記していますが、LINXASの表では40.5%です。なお、お酒買取のライフバケーションは自社サイトで「2012年に買取させて頂いた時は25万円でしたが2016年現在、付属品が付いた場合で60万円以上」と書いています（出典: <a href="https://www.lv-liquor.com/whiskey/bowmore.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">ライフバケーション ボウモアの買取</a>・2026-10-16確認）。</p>
 
           <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
 
@@ -209,9 +238,9 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
 
           <ol>
             <li><strong>海外オークション落札データの動向</strong> — Sotheby's・Bonhams・Whisky Auctioneer等の落札結果が、日本の買取業者の仕入れ価格の基準となっています</li>
-            <li><strong>需給バランスと供給制限</strong> — ノンエイジ（NV）の長期熟成銘柄は供給量が物理的に限られており、需要拡大に応じて価格が上昇しやすい構造</li>
+            <li><strong>需給バランスと供給制限</strong> — 29〜50年熟成（1964年蒸留）の長期熟成銘柄は供給量が物理的に限られており、需要拡大に応じて価格が上昇しやすい構造</li>
             <li><strong>為替レートの影響</strong> — 円安局面では海外バイヤー（アジア富裕層・中華圏コレクター）の購買力が拡大し、国内相場も連動して上昇する傾向</li>
-            <li><strong>アイラの国際的評価</strong> — World Whiskies Awards、ISC等の品評会受賞歴が国際的需要を支え、長期保有のプレミアにつながる</li>
+            <li><strong>ボウモア蒸溜所（スコットランド・アイラ島）の国際的評価</strong> — World Whiskies Awards、ISC等の品評会受賞歴が国際的需要を支え、長期保有のプレミアにつながる</li>
             <li><strong>季節要因・贈答需要</strong> — 年末年始・お中元・お歳暮シーズンに需要が高まり、相場が上昇する</li>
           </ol>
 
@@ -231,6 +260,15 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
           <p>これらのオークションの落札データは、各サイトの「Past Results」アーカイブで閲覧可能です。日本の買取業者の査定額は、これらの海外データを基準に、輸送コスト・関税・業者マージンを考慮して算出されています。</p>
 
 
+
+          <h3 id="auction-results">ブラックボウモアの海外オークション結果（出典つき）</h3>
+          <p>海外では、ブラックボウモアは次の価格で取引されています。いずれもオークションの結果や予想価格で、日本の買取店がその値段で買い取るという意味ではありません。</p>
+          <div className="overflow-x-auto my-5 not-prose">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">時期</th><th className="py-2 pr-3">ボトル</th><th className="py-2 pr-3">結果</th><th className="py-2">出典</th></tr></thead>
+              <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap align-top">2018年1月</td><td className="py-2 pr-3 align-top">セカンドエディション（30年）1本</td><td className="py-2 pr-3 align-top font-bold">約12,000ポンド弱で落札（「almost £12,000」）</td><td className="py-2 align-top"><a href="https://scotchwhisky.com/magazine/in-depth/11657/black-bowmore-from-cask-to-cult-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">scotchwhisky.com</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap align-top">2021年初め</td><td className="py-2 pr-3 align-top">DB5 1964 1本</td><td className="py-2 pr-3 align-top font-bold">81,000ポンドで落札</td><td className="py-2 align-top"><a href="https://www.australianwhiskyauctions.com.au/news/1964-1995-black-bowmore-final-edition" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">Australian Whisky Auctions（2022-09-24の記事）</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap align-top">2022年8月頃</td><td className="py-2 pr-3 align-top">1993・1994・1995年の3本セット</td><td className="py-2 pr-3 align-top font-bold">40,000ポンドで落札（英国。2022年9月24日の記事で「先月」）</td><td className="py-2 align-top"><a href="https://www.australianwhiskyauctions.com.au/news/1964-1995-black-bowmore-final-edition" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">Australian Whisky Auctions</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap align-top">2021年春（香港）</td><td className="py-2 pr-3 align-top">5作（29・30・31・42・50年）を収めた蒸溜所の「Archive Cabinet」</td><td className="py-2 pr-3 align-top font-bold">予想価格 HK$4,000,000（US$500,000／£400,000）※落札額ではありません</td><td className="py-2 align-top"><a href="https://www.sothebys.com/en/press/sothebys-to-offer-rare-opportunity-to-acquire-the-complete-black-bowmore-whisky-collection-direct-from-the-bowmore-distillery" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">サザビーズ プレスリリース 2020-11-12</a></td></tr></tbody>
+            </table>
+          </div>
 
           <h2 id="takaku-uru">8. ブラックボウモアを高く売る7つの実践テクニック</h2>
 
@@ -261,6 +299,11 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
           </div>
 
           <p>怪しいと思ったら、お酒買取の専門店で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
+
+          <h3 id="edition-check">ブラックボウモアはどのエディション？ラベルと箱での確かめ方</h3>
+          <p>ブラックボウモアは見た目が似たボトルが多いので、真贋の前に「どのエディションか」をラベルで確かめると査定の話が早く進みます。各ボトルの手がかりは次のとおりです（エディション一覧の表も参照）。</p>
+          <ul><li><strong>熟成年数と瓶詰め年</strong>: 42年は29年・30年と見た目が似ているが、下のラベルに「AGED 42 YEARS」とある。30年は「BOTTLED 1994」、31年は「FINAL EDITION」「BOTTLED 1995」の表記（LINXAS）。</li><li><strong>度数</strong>: 1993〜1995年の3本は50%・50%・49%、42年は40.5%、50年は40.9%、DB5は49.6%。ラベルの度数とエディションが合っているかを見る。</li><li><strong>箱・ケース</strong>: 1990年代の3本と50年は木箱、42年は化粧箱と木箱（LINXAS）、DB5はカーフスキンの専用ケース（Aston Martin）。箱が揃っているかどうかで査定が変わる。</li><li><strong>シリアル番号</strong>: 数百〜2,000本の限定品なので、ボトル番号の記載があるかを確認し、査定時に伝える。</li></ul>
+          <p>ボウモアやアストンマーティンの公式には、一般向けの真贋の見分け方は公開されていません。上の項目は「どのボトルか」を確かめるためのもので、本物の保証にはなりません。数十万円以上の取引になるため、ブラックボウモアを扱った実績を公開している専門店で、写真査定ではなく実物の査定を受けてください。</p>
 
           <h2 id="partners">10. おすすめ買取業者3社の詳細レビュー</h2>
 
@@ -361,7 +404,7 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
           <h2 id="faq">12. ブラックボウモアに関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: 'ブラックボウモアの市場相場はいくらですか？', a: 'ブラックボウモアの市場相場は現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: 'ブラックボウモアを高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: 'ブラックボウモアの開封済みでも買取できますか？', a: 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' }, { q: 'ブラックボウモアは箱無しでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' }, { q: 'ブラックボウモアに偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' }, { q: 'ブラックボウモアの保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: 'ブラックボウモアは税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'ブラックボウモアを売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: 'ブラックボウモアと他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
+            {[{ q: 'ブラックボウモアの市場相場はいくらですか？', a: 'ブラックボウモアは「ブラックボウモア 700ml」でヤフオクを検索すると、ミニチュアや空き瓶の出品が混ざって中央値が実物とかけ離れた値になるため、PeatBid では落札中央値を出していません。2026-10-16 に確認した買取店の公開情報では、LINXAS が42年（箱あり）を参考買取価格〜1,500,000円（2026-01-26更新）、ストックラボが1993年瓶詰めのボトルを1,050,000円で買取（実績）、ウイスキー王国が未開封・箱付きの1964を993,000円で買取（実績）と掲載しています。エディションで値段が変わるので、29年・30年・31年・42年・50年のどれかを確かめてから査定に出してください。' }, { q: 'ブラックボウモアを高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: 'ブラックボウモアの開封済みでも買取できますか？', a: 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' }, { q: 'ブラックボウモアは箱無しでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' }, { q: 'ブラックボウモアに偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' }, { q: 'ブラックボウモアの保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: 'ブラックボウモアは税金がかかりますか？', a: 'かかる場合があります。国税庁（タックスアンサー No.3105）は、生活に通常必要な動産の売却は課税しないとする一方、「貴金属や宝石、書画、骨とうなどで、1個または1組の価額が30万円を超えるもの」は除くとしています。ウイスキーがこれに当たるかは同ページに書かれていませんが、ブラックボウモアは1本で30万円を超える額で取引されるため、非課税と決めつけず確認が必要です。課税される場合は総合課税の譲渡所得で、売却額−（取得費＋譲渡費用）から特別控除50万円を引き、5年を超えて持っていた分は半分だけが課税対象です（No.3152）。給与を1か所から受けている会社員は、給与以外の所得が20万円を超えると確定申告が必要です（No.1900）。個別の判断は税務署・税理士に確認してください。' }, { q: 'ブラックボウモアは何種類ありますか？', a: '1964年蒸留の原酒を使ったものは6種です。1993年の29年（ファーストエディション・50%・2,000本）、1994年の30年（セカンド・50%・2,000本）、1995年の31年（ファイナルエディション・49%・1,812本）、2007年の42年（40.5%・827本）、2016年の50年（40.9%・159本）、2020年のアストンマーティンとのコラボ「DB5 1964」（31年・49.6%・27本）です（出典: サザビーズ 2020-11-12 発表、Suntory Global Spirits、Aston Martin、土屋守氏のコラム、LINXAS）。' }, { q: 'ブラックボウモアの発売当時の値段はいくらでしたか？', a: '1993年のファーストエディションは1本100ポンド（当時約2万円）と土屋守氏のコラムにあり、Dave Broom 氏の記事は80〜110ポンドとしています。42年は2,400ポンド、50年は16,000ポンド（米国の希望小売価格は25,000ドル）、DB5 1964は50,000ポンドで発売されました。' }, { q: 'ブラックボウモアを売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: 'ブラックボウモアと他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>

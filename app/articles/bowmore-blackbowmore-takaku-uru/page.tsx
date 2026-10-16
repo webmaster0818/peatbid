@@ -45,7 +45,7 @@ export default function BowmoreBlackbowmoreTakakuUruPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">ブラックボウモア</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / ノンエイジ / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / ボウモア蒸溜所（スコットランド・アイラ島） / 29〜50年熟成（1964年蒸留） / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/bowmore-blackbowmore-kaitori/" className="text-amber-dark underline">ブラックボウモアの買取相場 完全ガイドへ</Link></p>
           </div>
 
@@ -73,7 +73,7 @@ export default function BowmoreBlackbowmoreTakakuUruPage() {
 
 
           <h2 id="section-0">1. ブラックボウモアの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ブラックボウモア</strong>はスコッチウイスキー（アイラ）のノンエイジ（NV）、度数49%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>スコッチは蒸溜所・地域（アイラ）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ブラックボウモア</strong>はスコッチウイスキー（ボウモア蒸溜所（スコットランド・アイラ島））の29〜50年熟成（1964年蒸留）、度数40.5〜50%（エディションにより異なる）、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>スコッチは蒸溜所・地域（ボウモア蒸溜所（スコットランド・アイラ島））やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. コツ1: 付属品をすべて揃える</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ブラックボウモアの査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。市場相場を基準として、付属品なしの場合は市場相場の80〜90%程度まで下がることが一般的です。</p><p>外箱の状態も重要で、シミ・破れ・水濡れ跡があると更に-5〜10%。購入時の状態を維持する努力が、最終的に数万〜数十万円の差を生みます。</p><p>まず家中を徹底的に探し、すべての付属品を集めてから売却を検討してください。</p>` }} />

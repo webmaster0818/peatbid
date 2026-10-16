@@ -280,6 +280,21 @@ def render_page(b, all_brands):
     rarity_label_map = {"common": "コモン", "mid": "ミッド", "high": "ハイ", "ultra": "ウルトラ", "ultra-rare": "ウルトラレア"}
     rarity_label = rarity_label_map.get(rarity, rarity.upper())
 
+    # 2026-10-16: 複数エディションがある銘柄（ブラックボウモア等）は brands.csv の origin/age/abv が誤記になるため、
+    # data/store-prices.json の profile がある slug だけ表示を差し替える（無い slug は従来どおり＝無変更）。
+    _pf = store_prices.profile(slug_base)
+    spec_age = _pf.get("age_label", age_label)
+    spec_abv = _pf.get("abv", f"{abv}%")
+    spec_size = _pf.get("size", f"{bottle_size}ml")
+    if _pf:
+        origin = _pf.get("maker", origin)
+        age_label = _pf.get("age_short", age_label)
+    summary_p = _pf.get("summary") or f"{name}は{cat_label}を代表する銘柄の1つで、{origin}が手がける{age_label}のボトルです。{description}。"
+    distillery_extra = f"\n          <p>{_pf['distillery_extra']}</p>\n" if _pf.get("distillery_extra") else ""
+    tasting_intro = "" if _pf.get("tasting") else f"<p>{name}の味わいは、{age_label}の熟成期間中に樽から溶け出した成分と、{origin}独自の蒸溜技術が複雑に交差したものです。</p>"
+    if _pf.get("tasting"):
+        tasting = _pf["tasting"]
+
     rows = state_table_rows_pct()
 
     # Related brands (same category, sorted by Yahoo median, top 6)
@@ -466,6 +481,17 @@ def render_page(b, all_brands):
         "springbank-15": ("/articles/springbank-nv-kaitori/", "スプリングバンクの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格"),
         "springbank-21": ("/articles/springbank-nv-kaitori/", "スプリングバンクの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格"),
     }
+    # 2026-10-16: 同じ蒸溜所の別格ボトルへの導線（「ブラックボウモア」11位台の押し上げ。関連銘柄カードは中央値順で
+    # insufficient のブラックボウモアが出ないため、ボウモア年数ページの本文から明示的にリンクする）
+    SIBLING_GUIDE = {
+        "bowmore-18": ("/articles/bowmore-blackbowmore-kaitori/", "1964年蒸留の「ブラックボウモア」（29年・30年・31年・42年・50年・DB5）をお持ちの方は", "ブラックボウモア全6種の違いと買取相場"),
+        "bowmore-25": ("/articles/bowmore-blackbowmore-kaitori/", "1964年蒸留の「ブラックボウモア」（29年・30年・31年・42年・50年・DB5）をお持ちの方は", "ブラックボウモア全6種の違いと買取相場"),
+    }
+    if slug_base in SIBLING_GUIDE:
+        _stgt, _slead, _slbl = SIBLING_GUIDE[slug_base]
+        intent_split_block += f'''
+          <p className="text-sm text-warm-gray my-4">{_slead} <Link href="{_stgt}" className="text-amber-dark underline">{_slbl}</Link> をご覧ください。</p>
+'''
     if slug_base in NV_GUIDE:
         _ntgt, _nlbl = NV_GUIDE[slug_base]
         intent_split_block += f'''
@@ -560,6 +586,16 @@ def render_page(b, all_brands):
     toc_fake = store_prices.toc_fake(slug_base)
     toc_sell = store_prices.toc_sell(slug_base)
     page_updated = store_prices.page_updated(slug_base, fetched_at)
+    _tf = store_prices.title_full(slug_base, MONTH_TAG)
+    if _tf:
+        meta_title = _tf
+    if store_prices.desc_full(slug_base):
+        meta_desc = store_prices.desc_full(slug_base)
+    h1_text = store_prices.h1_full(slug_base, MONTH_TAG) or f'{name}の買取相場と業者比較ガイド{MONTH_TAG.replace("最新】", "】")}'
+    editions_html = store_prices.editions_block(slug_base, name)
+    toc_editions = store_prices.toc_editions(slug_base)
+    auction_html = store_prices.auction_block(slug_base, name)
+    toc_auction = store_prices.toc_auction(slug_base)
 
     # 2026-10-11: 出典の無い「過去5年で累積30〜80%の上昇」を撤去。代わりに自社集計（price-history）の
     # 集計開始時点→最新の実数のみを出す。4点未満・品質除外・insufficient なら一文ごと出さない。
@@ -593,13 +629,13 @@ function FaqSchema() {{
 }}
 
 const tocItems = [
-  {{ id: "summary", label: "1. {name}の概要" }},
+  {{ id: "summary", label: "1. {name}の概要" }},{toc_editions}
   {{ id: "distillery", label: "2. 蒸溜所の歴史と特徴" }},
   {{ id: "tasting", label: "3. テイスティングノート" }},
   {{ id: "current-price", label: "4. 現在の市場相場（Yahoo中央値）" }},{store_toc}
   {{ id: "state-price", label: "5. 状態別の業界目安" }},
   {{ id: "price-reasons", label: "6. なぜこの価格になるのか" }},
-  {{ id: "auction", label: "7. オークション落札データ" }},
+  {{ id: "auction", label: "7. オークション落札データ" }},{toc_auction}
   {{ id: "takaku-uru", label: "8. 高く売る7つの実践テクニック" }},
   {{ id: "fake", label: "9. 偽物・贋作の見分け方" }},{toc_fake}
   {{ id: "partners", label: "10. おすすめ買取業者3社" }},
@@ -628,7 +664,7 @@ export default function {component_name}() {{
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{name}の買取相場と業者比較ガイド{MONTH_TAG.replace("最新】", "】")}</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{h1_text}</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: {page_updated} / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={{priceData as Parameters<typeof MarketPriceCard>[0]["data"]}} />
@@ -645,7 +681,7 @@ export default function {component_name}() {{
 
           <h2 id="summary">1. {name}の概要</h2>
 
-          <p>{name}は{cat_label}を代表する銘柄の1つで、{origin}が手がける{age_label}のボトルです。{description}。</p>
+          <p>{summary_p}</p>
 
           {nv_note}
 {intent_split_block}
@@ -657,15 +693,15 @@ export default function {component_name}() {{
               <tbody>
                 <tr><td><strong>カテゴリ</strong></td><td>{cat_label}</td></tr>
                 <tr><td><strong>蒸溜所/メーカー</strong></td><td>{origin}</td></tr>
-                <tr><td><strong>熟成年数</strong></td><td>{age_label}</td></tr>
-                <tr><td><strong>アルコール度数</strong></td><td>{abv}%</td></tr>
-                <tr><td><strong>容量</strong></td><td>{bottle_size}ml</td></tr>
+                <tr><td><strong>熟成年数</strong></td><td>{spec_age}</td></tr>
+                <tr><td><strong>アルコール度数</strong></td><td>{spec_abv}</td></tr>
+                <tr><td><strong>容量</strong></td><td>{spec_size}</td></tr>
                 <tr><td><strong>希少度</strong></td><td>{rarity_label}</td></tr>
                 <tr><td><strong>市場相場（Yahoo中央値）</strong></td><td><strong>{market_short}</strong></td></tr>
               </tbody>
             </table>
           </div>
-
+{editions_html}
           <h2 id="distillery">2. {origin}の歴史と特徴</h2>
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden mb-5 not-prose">
@@ -673,14 +709,14 @@ export default function {component_name}() {{
           </div>
 
           <p>{distillery_info}</p>
-
+{distillery_extra}
           <p>{origin}が生み出す{cat_label}は、世界の主要品評会で度々受賞しており、二次流通市場でも継続的に高値で取引されています。蒸溜所の歴史と職人技術が、{name}のような銘柄の市場価値を支えています。</p>
 
           <p>同じ蒸溜所の他の銘柄や、同年代の他銘柄との関連性を知ることで、{name}の市場における立ち位置がより明確になります。下の関連銘柄リンクから他のグレード・他蒸溜所の銘柄も合わせてチェックすることをおすすめします。</p>
 
           <h2 id="tasting">3. テイスティングノート</h2>
 
-          <p>{name}の味わいは、{age_label}の熟成期間中に樽から溶け出した成分と、{origin}独自の蒸溜技術が複雑に交差したものです。</p>
+          {tasting_intro}
 
           <p>{tasting}</p>
 
@@ -799,7 +835,7 @@ export default function {component_name}() {{
           <p>これらのオークションの落札データは、各サイトの「Past Results」アーカイブで閲覧可能です。日本の買取業者の査定額は、これらの海外データを基準に、輸送コスト・関税・業者マージンを考慮して算出されています。</p>
 
 {history_change_p}
-
+{auction_html}
           <h2 id="takaku-uru">8. {name}を高く売る7つの実践テクニック</h2>
 
           <ol>
