@@ -390,3 +390,8 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 検証: out/ 全3,008ファイルの表示テキスト＋JSON-LD で旧表現・§8 NG 語 68,524→0。外部リンクのドメイン別件数は本番と同一（ASP コードはサイト全体で0本のまま）。precheck ✅全項目OK（3,005）。
 - source 264283b4b…bad95ad73 ／ deploy 806de5e1a2。本番 / ・/tier2/tokyo/yamazaki-12-kaitori/・/articles/yamazaki-12-kaitori/ ほかで新文言を確認、/api/contact 400、robots Sitemap 行。
 - 未対応（事実・判断が要るもの）: 編集部紹介/メンバー紹介の経歴・人数（10年以上・専門書30冊・コレクター50名等）と methodology の算出方法（4情報源・±2σ・10点満点評価・月次更新）が実際の集計（ヤフオク180日中央値＋IQR・毎週）と食い違う／angle 生成器の出典なし数値（kihaku・auction-suii の年別上昇率・「5年で3〜5倍」・業者ランキングの総合スコア47/44/40・★評価）／tier2「未成年（18歳未満）…古物営業法により禁止」（他ページは20歳未満）／TOP「山崎25年は17年で17倍」・FAQ の2026年5月時点の相場・track-record の公開記事数506/URL 511（現在3,005）。
+
+### 2026-10-17 copy-audit 指摘の残り
+- ardbeg-nv-kaitori「並べています」→「掲載しています」。未使用の旧生成器（generate-angle-pages(-v2)・generate-brand-pages(-v2)・generate-tier2-full/samples(-v2)）の「完全ガイド」「徹底解説」「徹底比較」も言い換え（現行 v3/v4 は既に0）。
+- deploy の `_not-found/index.html`（10/8 の古いビルド・旧 description に「徹底比較」）を現行ビルドで上書き（rsync 除外は維持し、このファイルだけ cp）。
+- out/ の §8 NG 0・precheck 全項目OK（3,005）・copy-audit --n 60 で NG 0。source a8519bb9c / deploy 39abaead85。
