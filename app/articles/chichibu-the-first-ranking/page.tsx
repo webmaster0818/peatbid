@@ -139,7 +139,7 @@ export default function ChichibuTheFirstRankingPage() {
           <h2>関連記事</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
-            <Link href="/articles/chichibu-the-first-takaku-uru/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">高く売る方法</span><p className="text-sm font-bold mt-1">秩父ザファーストの高く売る方法</p></Link>
+            <Link href="/articles/chichibu-the-first-takaku-uru/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">高価売却のポイント</span><p className="text-sm font-bold mt-1">秩父ザファーストの高価売却のポイント</p></Link>
             <Link href="/articles/chichibu-the-first-nisemono-mikata/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">偽物の見分け方</span><p className="text-sm font-bold mt-1">秩父ザファーストの偽物の見分け方</p></Link>
             <Link href="/articles/chichibu-the-first-rekishi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">歴史と特徴</span><p className="text-sm font-bold mt-1">秩父ザファーストの歴史と特徴</p></Link>
             <Link href="/articles/chichibu-the-first-kihaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">希少性・投資価値</span><p className="text-sm font-bold mt-1">秩父ザファーストの希少性・投資価値</p></Link>

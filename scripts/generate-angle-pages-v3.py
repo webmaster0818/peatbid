@@ -725,7 +725,7 @@ def render_page(b, data):
     # Related angles (excluding current)
     _nise_label = "売る前チェック（真贋と相場）" if b["slug"] in PRECHECK_SLUGS else "偽物の見分け方"
     related_angles = [
-        ("takaku-uru", "高く売る方法"),
+        ("takaku-uru", "高価売却のポイント"),
         ("nisemono-mikata", _nise_label),
         ("ranking", "買取業者ランキング"),
         ("rekishi", "歴史と特徴"),

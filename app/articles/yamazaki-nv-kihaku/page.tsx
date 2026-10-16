@@ -140,7 +140,7 @@ export default function YamazakiNvKihakuPage() {
           <h2>関連記事</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
-            <Link href="/articles/yamazaki-nv-takaku-uru/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">高く売る方法</span><p className="text-sm font-bold mt-1">山崎ノンエイジの高く売る方法</p></Link>
+            <Link href="/articles/yamazaki-nv-takaku-uru/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">高価売却のポイント</span><p className="text-sm font-bold mt-1">山崎ノンエイジの高価売却のポイント</p></Link>
             <Link href="/articles/yamazaki-nv-nisemono-mikata/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">売る前チェック（真贋と相場）</span><p className="text-sm font-bold mt-1">山崎ノンエイジの売る前チェック（真贋と相場）</p></Link>
             <Link href="/articles/yamazaki-nv-ranking/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">買取業者ランキング</span><p className="text-sm font-bold mt-1">山崎ノンエイジの買取業者ランキング</p></Link>
             <Link href="/articles/yamazaki-nv-rekishi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">歴史と特徴</span><p className="text-sm font-bold mt-1">山崎ノンエイジの歴史と特徴</p></Link>

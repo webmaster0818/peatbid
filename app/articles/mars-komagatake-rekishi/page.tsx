@@ -137,7 +137,7 @@ export default function MarsKomagatakeRekishiPage() {
           <h2>関連記事</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
-            <Link href="/articles/mars-komagatake-takaku-uru/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">高く売る方法</span><p className="text-sm font-bold mt-1">マルス駒ヶ岳の高く売る方法</p></Link>
+            <Link href="/articles/mars-komagatake-takaku-uru/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">高価売却のポイント</span><p className="text-sm font-bold mt-1">マルス駒ヶ岳の高価売却のポイント</p></Link>
             <Link href="/articles/mars-komagatake-nisemono-mikata/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">偽物の見分け方</span><p className="text-sm font-bold mt-1">マルス駒ヶ岳の偽物の見分け方</p></Link>
             <Link href="/articles/mars-komagatake-ranking/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">買取業者ランキング</span><p className="text-sm font-bold mt-1">マルス駒ヶ岳の買取業者ランキング</p></Link>
             <Link href="/articles/mars-komagatake-kihaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">希少性・投資価値</span><p className="text-sm font-bold mt-1">マルス駒ヶ岳の希少性・投資価値</p></Link>

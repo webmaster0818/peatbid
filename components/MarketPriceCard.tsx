@@ -85,7 +85,7 @@ export default function MarketPriceCard({ data }: Props) {
       <div className="px-5 py-4 bg-gold-bg/40 border-b border-warm-border">
         <p className="text-xs font-bold text-ink mb-2">参考買取相場（各業者公式ページ）</p>
         <p className="text-[11px] text-warm-gray mb-3 leading-relaxed">
-          ※業者買取額は各社の在庫状況・キャンペーン・状態評価により変動します。最新の査定額は各業者ページで直接ご確認ください。
+          ※業者買取額は各社の在庫状況・キャンペーン・状態評価により変動します。最新の査定額は各業者のページでご確認ください。
         </p>
         <ul className="flex flex-wrap gap-2 text-sm">
           {DEALER_LINKS.map((d) => (

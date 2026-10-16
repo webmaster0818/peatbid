@@ -291,7 +291,7 @@ def render_page(b, all_brands):
         age_label = _pf.get("age_short", age_label)
     summary_p = _pf.get("summary") or f"{name}は{cat_label}の代表的な銘柄の一つで、{origin}が手がける{age_label}のボトルです。{description}。"
     distillery_extra = f"\n          <p>{_pf['distillery_extra']}</p>\n" if _pf.get("distillery_extra") else ""
-    tasting_intro = "" if _pf.get("tasting") else f"<p>{name}の味わいは、{age_label}の熟成期間中に樽から溶け出した成分と、{origin}独自の蒸溜技術が複雑に交差したものです。</p>"
+    tasting_intro = "" if _pf.get("tasting") else f"<p>{name}の味わいは、熟成期間中に樽から溶け出した成分と、{origin}の蒸溜技術によって形成されています。</p>"
     if _pf.get("tasting"):
         tasting = _pf["tasting"]
     if _pf.get("rarity_text"):
@@ -331,7 +331,7 @@ def render_page(b, all_brands):
 
     # Angle links for this brand
     angle_links_inline = [
-        ("takaku-uru", "高く売る方法"),
+        ("takaku-uru", "高価売却のポイント"),
         ("nisemono-mikata", "売る前チェック（真贋と相場）" if slug_base in PRECHECK_SLUGS else "偽物の見分け方"),
         ("ranking", "買取業者ランキング"),
         ("rekishi", "歴史と特徴"),
@@ -505,7 +505,7 @@ def render_page(b, all_brands):
          f"{name}の市場相場は{market_str}。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。"),
         (f"{name}を高く売るコツは？",
          "(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。"),
-        (f"{name}の開封済みでも買取できますか？",
+        (f"開封済みの{name}でも買取できますか？",
          "はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。"),
         (f"{name}は箱なしでも買取してもらえますか？",
          f"はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度{hako_yen}で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。"),
@@ -733,9 +733,9 @@ export default function {component_name}() {{
           <p>当サイトでは、以下の3業者のページへのリンクを参考として掲載しています（各社の最新の査定額・キャンペーンは、各社のページでご確認ください）。</p>
 
           <ul>
-            <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店</li>
-            <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">バイセル</a> — 東証グロース上場、出張・店頭・宅配の3チャネル対応</li>
-            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">福ちゃん</a> — 総合買取の大手、お酒査定にも対応</li>
+            <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店です</li>
+            <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">バイセル</a> — 東証グロース上場企業が運営し、出張・店頭・宅配の3つの方式に対応しています</li>
+            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">福ちゃん</a> — 総合買取の大手で、お酒の査定にも対応しています</li>
           </ul>
 {store_block}
           <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
