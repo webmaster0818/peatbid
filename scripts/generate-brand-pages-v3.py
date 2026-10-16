@@ -294,6 +294,8 @@ def render_page(b, all_brands):
     tasting_intro = "" if _pf.get("tasting") else f"<p>{name}の味わいは、{age_label}の熟成期間中に樽から溶け出した成分と、{origin}独自の蒸溜技術が複雑に交差したものです。</p>"
     if _pf.get("tasting"):
         tasting = _pf["tasting"]
+    if _pf.get("rarity_text"):
+        rarity_detailed = _pf["rarity_text"]
 
     rows = state_table_rows_pct()
 

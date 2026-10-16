@@ -79,7 +79,7 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
           </div>
 
 
-          <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。ブラックボウモアは希少度<strong>ウルトラレア</strong>クラスに位置し、市場流通量が極小、もしくは閉鎖蒸溜所のボトル。1本数百万円〜数千万円の取引が発生し、世界中のオークションで注目される伝説級の銘柄。</p>
+          <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。ブラックボウモアは希少度<strong>ウルトラレア</strong>クラスに位置し、1990年代の3本は各2,000本前後、42年は827本、50年は159本、DB5は27本と本数が限られ、日本の買取店でも100万円前後の買取実績・掲示価格が出ている銘柄です（下の表を参照）。</p>
 
           <div className="table-wrapper">
             <table>

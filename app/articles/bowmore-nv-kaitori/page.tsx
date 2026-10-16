@@ -230,7 +230,7 @@ export default function BowmoreNvKaitoriPage() {
             <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline font-bold">ウイスキーの「年代指定なし(NV)」とは？買取での扱いと相場の見方</Link></li>
             <li><Link href="/articles/bowmore-18-kaitori/" className="text-amber-dark hover:underline">ボウモア18年の買取相場</Link></li>
             <li><Link href="/articles/bowmore-25-kaitori/" className="text-amber-dark hover:underline">ボウモア25年の買取相場</Link></li>
-            <li><Link href="/articles/bowmore-blackbowmore-kaitori/" className="text-amber-dark hover:underline">ブラックボウモアの買取相場</Link></li>
+            <li><Link href="/articles/bowmore-blackbowmore-kaitori/" className="text-amber-dark hover:underline">ブラックボウモア（1964年蒸留・全6種）の違いと買取相場</Link></li>
             <li><Link href="/articles/bowmore-nisemono-mikata/" className="text-amber-dark hover:underline">ボウモアの偽物の見分け方・真贋ハブ</Link></li>
             <li><Link href="/articles/talisker-nv-kaitori/" className="text-amber-dark hover:underline">タリスカーの年代指定なし(NV)買取相場</Link></li>
             <li><Link href="/articles/laphroaig-nv-kaitori/" className="text-amber-dark hover:underline">ラフロイグの年代指定なし(NV)買取相場</Link></li>
