@@ -380,3 +380,13 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - title「ブラックボウモアとは？全6種の違いと買取相場【2026年10月最新】29年〜50年・DB5」、最終更新 2026-10-16。内部リンク: bowmore-18/25-kaitori（生成器 SIBLING_GUIDE）、bowmore-nv-kaitori（手書き・アンカー具体化）。
 - build（heap12288）EXIT0×2 → precheck ✅全項目OK（3,005）→ rsync（--exclude .git/_not-found/functions）→ source 99be03bca/f93615cc8/6c4fc6efe・deploy fd9f775a6f。本番 200・title/1,812本/〜1,500,000円 反映・「度数49%」「アイラが手がけるノンエイジ」0件・/api/contact 400・robots Sitemap 行。
 - ⚠️ 未対応: ①MarketPriceCard と 4章本文が「n<20 で不足」「n=82件」と食い違う（品質強制除外の表示が無い）②掲示価格は手動データ＝月替わりに再確認 ③竹鶴21年・グレンフィディック30年は今回未着手。
+
+### 2026-10-16 全文言のビジネス文書化（MediaXAI「全文言をビジネス文書基準で棚卸し」・writing-standards.md §8）✅本番反映済み
+- 対象: layout（description・フッター）／TOP／固定ページ8（about・content-policy・editorial・author・methodology・track-record・faq・contact）／手書き記事25本／相場ハブ4＋/tier2/一覧／生成器（brand v3・angle v3・真贋ハブ・県ハブ gen-tier2-area・store_prices・opportunity_band）とデータ文言（store-prices.json・brands.csv/brands_extra.py/prefectures_extra.py の説明文）／components（MarketPriceCard ほか）。です・ます調、「鉄則・要注意・徹底解説・完全ガイド・しましょう・最高値を引き出す・本気度・勇気」等を削除、見出しを宣言形に。用語: 蓄積中→集計中／未開封・完璧→未開封・付属品完備／Peatbid→PeatBid。
+- **tier2 リーフ2,397は全再生成禁止のため `scripts/patch-tier2-copy-biz-1016.py`**: 生成器のテンプレ行（{p['name_ja']} 等）を正規表現化して既存ページに適用（JSON-LD の \uXXXX 版も同時）。生成器にも同じ置換。冪等（2回目で変更なし）。⚠️ 先頭プレースホルダは文頭（。、？" > の直後）からしか始めない・値は「。」をまたがない（demand / collectibility_note は例外）・気候特性は「、」を含む——を守らないと前の文を食う（初回に「、気候特性（…）」の崩れ200ページ→修復済み）。
+- `patch-tier2-yahoo-freshness.py` は新旧どちらの文言（不足時の文・description の集計中文）にも当たるよう正規表現を更新。`--dry-run` で 変更0・検証NG0 を確認。⚠️ 不足ページの検証は「現在集計中」の出現数=3 を見ているので、新しい文に「現在集計中」を足さないこと。
+- 機械的な崩れの修正: 「約約9,500店」・カテゴリ slug（japanese-whisky）と希少度コード（midクラス）の生表示・「12年熟成の熟成期間中」・「5つのコツ」見出しに3項目（tier2）・TOP「3ステップ」に2項目・「| PeatBid | PeatBid」・本文中の `**…**` 生表示（editorial）。
+- 自サイトの事実の修正: TOP/実績の「500+銘柄」「毎日更新」→50銘柄・毎週更新、ジャパニーズ30/スコッチ20→32/18。出張買取のクーリング・オフの根拠を古物営業法→特定商取引法（消費者庁 特定商取引法ガイドで訪問購入8日以内を確認）。
+- 検証: out/ 全3,008ファイルの表示テキスト＋JSON-LD で旧表現・§8 NG 語 68,524→0。外部リンクのドメイン別件数は本番と同一（ASP コードはサイト全体で0本のまま）。precheck ✅全項目OK（3,005）。
+- source 264283b4b…bad95ad73 ／ deploy 806de5e1a2。本番 / ・/tier2/tokyo/yamazaki-12-kaitori/・/articles/yamazaki-12-kaitori/ ほかで新文言を確認、/api/contact 400、robots Sitemap 行。
+- 未対応（事実・判断が要るもの）: 編集部紹介/メンバー紹介の経歴・人数（10年以上・専門書30冊・コレクター50名等）と methodology の算出方法（4情報源・±2σ・10点満点評価・月次更新）が実際の集計（ヤフオク180日中央値＋IQR・毎週）と食い違う／angle 生成器の出典なし数値（kihaku・auction-suii の年別上昇率・「5年で3〜5倍」・業者ランキングの総合スコア47/44/40・★評価）／tier2「未成年（18歳未満）…古物営業法により禁止」（他ページは20歳未満）／TOP「山崎25年は17年で17倍」・FAQ の2026年5月時点の相場・track-record の公開記事数506/URL 511（現在3,005）。
