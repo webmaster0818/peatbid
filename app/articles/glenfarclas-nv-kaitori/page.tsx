@@ -169,7 +169,7 @@ export default function GlenfarclasNvKaitoriPage() {
           <ol>
             <li><strong>正面ラベル中央の数字を見る</strong> — 「10」「12」「15」「21」「25」などの数字と「YEARS OLD」の表記があれば、年数表記のあるボトルです。「<strong>105</strong>」とあればカスクストレングス（年代指定なし）です</li>
             <li><strong>「Heritage」等のボトル名を探す</strong> — 年数の数字がなく「Heritage」などの名称があればノンエイジのラインです</li>
-            <li><strong>度数表記を確認する</strong> — 105は<strong>60%</strong>と高度数。40〜46%台なら別のボトルの可能性が高いです</li>
+            <li><strong>度数表記を確認する</strong> — 105は<strong>60%</strong>と高度数。40〜46%台なら別のボトルであると考えられます</li>
             <li><strong>裏ラベル・肩ラベルも確認する</strong> — 正面が摩耗して読めない場合も、裏ラベルや化粧箱に名称・度数が残っていることがあります</li>
             <li><strong>それでも不明なら写真を添えて査定へ</strong> — ラベル摩耗・旧ボトルなどで特定できない場合は、正面・裏・キャップ・液面の写真を撮り、専門知識のある買取業者に判定してもらうのが確実です</li>
           </ol>

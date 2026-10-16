@@ -44,7 +44,7 @@ function FaqSchema() {
       { "@type": "Question", name: "山崎の偽物・贋作はありますか？", acceptedAnswer: { "@type": "Answer", text: "高額化に伴い模倣品が国内外で確認されています。ラベルの墨字書体・赤い角印、キャップの印字、ボトル底の刻印、液色、購入経路の整合性を確認し、不安な場合は専門業者で真贋鑑定を依頼してください。" } },
       { "@type": "Question", name: "古い山崎（オールドボトル）でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "旧ラベル・旧ロットはヴィンテージ価値が加算されるケースがあります。特に終売前の12年旧ボトルや特級表記の個体はコレクター需要から高値が付くことがあり、専門業者での査定を推奨します。" } },
       { "@type": "Question", name: "山崎55年はどのくらいの価値がありますか？", acceptedAnswer: { "@type": "Answer", text: "山崎55年は2020年に国内100本限定の抽選販売（希望小売価格300万円）で登場し、海外オークションでは数千万円規模で落札された実績があります。流通量が極端に少なく、最新の落札データで個別に確認する必要があります。" } },
-      { "@type": "Question", name: "査定後にキャンセルできますか？", acceptedAnswer: { "@type": "Answer", text: "多くの業者で査定後・契約前のキャンセルは可能です。出張買取はクーリングオフ対象になることが多いですが、約款は業者ごとに異なるため、契約前にキャンセル条件・期限を必ず確認してください。" } },
+      { "@type": "Question", name: "査定後にキャンセルできますか？", acceptedAnswer: { "@type": "Answer", text: "多くの業者で査定後・契約前のキャンセルは可能です。出張買取は多くの場合クーリングオフの対象となりますが、約款は業者ごとに異なるため、契約前にキャンセル条件・期限を必ず確認してください。" } },
     ],
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />;
@@ -338,7 +338,7 @@ export default function YamazakiKaitoriPage() {
             </details>
             <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
               <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q9. 査定後にキャンセルできますか？</summary>
-              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">多くの業者で査定後・契約前のキャンセルは可能です。出張買取はクーリングオフ対象になることが多いですが、約款は業者ごとに異なるため、契約前にキャンセル条件・期限を必ず確認してください。</div>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">多くの業者で査定後・契約前のキャンセルは可能です。出張買取は多くの場合クーリングオフの対象となりますが、約款は業者ごとに異なるため、契約前にキャンセル条件・期限を必ず確認してください。</div>
             </details>
             <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
               <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q10. 山崎を売るのに適した時期はいつですか？</summary>

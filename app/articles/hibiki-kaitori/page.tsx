@@ -43,8 +43,8 @@ function FaqSchema() {
       { "@type": "Question", name: "個人売買とプロ買取、どちらが有利ですか？", acceptedAnswer: { "@type": "Answer", text: "フリマアプリ・オークションは市場相場に近い金額で売却できる可能性がある一方、贋作トラブル・送料・梱包リスク・手数料が発生します。手間と保証を考えると、複数業者の相見積もりで売却するのが現実的な選択肢です。" } },
       { "@type": "Question", name: "査定で減額される主な理由は何ですか？", acceptedAnswer: { "@type": "Answer", text: "主な減額要因は (1)液面減少、(2)ラベル汚れ・破れ、(3)キャップ錆び、(4)外箱欠品・破損、(5)シリアル不鮮明、(6)保管環境の悪さによる劣化です。各要素ごとに業界目安の減額率があり、複合する場合は累積で影響します。" } },
       { "@type": "Question", name: "古い響でも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "古いロットはヴィンテージ価値が加算されるケースがあります。特に終売前の17年や旧ボトルデザインは、コレクター需要から高値が付く可能性があります。ヴィンテージ評価ができる専門業者での査定を推奨します。" } },
-      { "@type": "Question", name: "査定後にキャンセルできますか？", acceptedAnswer: { "@type": "Answer", text: "多くの業者で査定後・契約前のキャンセルは可能です。出張買取の場合もクーリングオフ対象になることが多いですが、業者ごとに約款が異なるため、契約前に必ずキャンセル条件・期限を確認してください。" } },
-      { "@type": "Question", name: "海外オークションに自分で出品する選択肢はありますか？", acceptedAnswer: { "@type": "Answer", text: "理論上可能ですが、出品手数料・落札手数料（合計15〜20%程度）、輸出書類・関税対応、梱包・配送のリスク管理、入金タイミングを考えると、個人での実施は現実的でないケースが多いです。海外バイヤー網を持つ業者を経由する方が、手取り・スピード両面で有利になる傾向があります。" } },
+      { "@type": "Question", name: "査定後にキャンセルできますか？", acceptedAnswer: { "@type": "Answer", text: "多くの業者で査定後・契約前のキャンセルは可能です。出張買取の場合も多くはクーリングオフの対象となりますが、業者ごとに約款が異なるため、契約前に必ずキャンセル条件・期限を確認してください。" } },
+      { "@type": "Question", name: "海外オークションに自分で出品する選択肢はありますか？", acceptedAnswer: { "@type": "Answer", text: "理論上可能ですが、出品手数料・落札手数料（合計15〜20%程度）、輸出書類・関税対応、梱包・配送のリスク管理、入金タイミングを考えると、個人で実施するのは容易ではありません。海外バイヤー網を持つ業者を経由する方が、手取り・スピード両面で有利になる傾向があります。" } },
     ],
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />;
@@ -378,11 +378,11 @@ export default function HibikiKaitoriPage() {
             </details>
             <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
               <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q9. 査定後にキャンセルできますか？</summary>
-              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">多くの業者で査定後・契約前のキャンセルは可能です。出張買取の場合もクーリングオフ対象になることが多いですが、業者ごとに約款が異なるため、契約前に必ず<strong>キャンセル条件・期限</strong>を確認してください。</div>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">多くの業者で査定後・契約前のキャンセルは可能です。出張買取の場合も多くはクーリングオフの対象となりますが、業者ごとに約款が異なるため、契約前に必ず<strong>キャンセル条件・期限</strong>を確認してください。</div>
             </details>
             <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
               <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q10. 海外オークションに自分で出品する選択肢はありますか？</summary>
-              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">理論上可能ですが、(1)出品手数料・落札手数料（合計15〜20%程度）、(2)輸出書類・関税対応、(3)梱包・配送のリスク管理、(4)入金タイミングを考えると、個人での実施は現実的でないケースが多いです。海外バイヤー網を持つ業者を経由する方が、手取り・スピード両面で有利になる傾向があります。</div>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">理論上可能ですが、(1)出品手数料・落札手数料（合計15〜20%程度）、(2)輸出書類・関税対応、(3)梱包・配送のリスク管理、(4)入金タイミングを考えると、個人で実施するのは容易ではありません。海外バイヤー網を持つ業者を経由する方が、手取り・スピード両面で有利になる傾向があります。</div>
             </details>
           </div>
 

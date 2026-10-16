@@ -132,7 +132,7 @@ export default function GlenmorangieKaitoriPage() {
             <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
               <li>グレンモーレンジは<strong>銘柄によって相場が5倍以上ちがいます</strong>。まず手元のボトルがどれかを確定させてください。</li>
               {g10 && <li>当サイト集計の実勢中央値: オリジナル10年 <strong>{yen("glenmorangie-10")}</strong> ／ 18年 <strong>{yen("glenmorangie-18")}</strong> ／ シグネット <strong>{yen("glenmorangie-signet")}</strong></li>}
-              <li><strong>年数表記がないボトル</strong>はシグネットの可能性が高いです（詳細は<a href="#nv" className="text-amber-dark underline">3章</a>）。</li>
+              <li><strong>年数表記がないボトル</strong>はシグネットである可能性が高いと考えられます（詳細は<a href="#nv" className="text-amber-dark underline">3章</a>）。</li>
               <li>掲載額は<strong>ヤフオクの実落札中央値＝市場価格</strong>です。業者の買取額はここから手数料等を引いた水準になります。</li>
             </ul>
           </div>
@@ -190,7 +190,7 @@ export default function GlenmorangieKaitoriPage() {
 
           <h2 id="nv">3. 年数表記のないボトル（シグネット）について</h2>
           <p>
-            「熟成年数がどこにも書かれていない」場合、グレンモーレンジでは<strong>シグネットである可能性が高い</strong>です。
+            「熟成年数がどこにも書かれていない」場合、グレンモーレンジでは<strong>シグネットである可能性が高い</strong>と考えられます。
             {signet && <>当サイトの実勢中央値は <strong>{yen("glenmorangie-signet")}</strong>（{nOf("glenmorangie-signet")}）で、ラインナップの中で最も高い水準です。</>}
             詳細は<Link href="/articles/glenmorangie-signet-kaitori/" className="text-amber-dark underline hover:text-burgundy">シグネットの買取相場ページ</Link>にまとめています。
           </p>
