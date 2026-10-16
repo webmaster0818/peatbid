@@ -305,7 +305,7 @@ export default function HibikiKaitoriPage() {
             <div className="border border-warm-border bg-white rounded-lg p-5">
               <p className="text-xs text-amber-dark font-bold mb-1">バイセル</p>
               <p className="text-sm font-bold mb-2">出張買取の全国対応力</p>
-              <p className="text-xs text-warm-gray leading-relaxed">全国出張対応・申込から最短当日訪問。複数本まとめ・引っ越し時の処分など、まとまった量で利便性が高い。</p>
+              <p className="text-xs text-warm-gray leading-relaxed">出張は離島を除く全国・申込から最短即日訪問（公式）。複数本まとめ・引っ越し時の処分など、まとまった量で利便性が高い。</p>
             </div>
             <div className="border border-warm-border bg-white rounded-lg p-5">
               <p className="text-xs text-amber-dark font-bold mb-1">福ちゃん</p>

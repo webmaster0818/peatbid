@@ -144,7 +144,7 @@ def build_page(brand: dict, pref_slug: str) -> str:
     # FAQs (vary content per page)
     faq = [
         (f"{p['name_ja']}で{b['name_ja']}は出張買取してもらえますか？",
-         f"はい。{p['name_ja']}（{p['cities']}）は{p['region']}地方の中核エリアで、{', '.join(d[0] for d in p['local_dealers'][:3])}など主要業者が出張買取対応エリアにしています。最短即日対応も可能です。"),
+         f"はい。{p['name_ja']}（{p['cities']}）は{p['region']}地方の中核エリアです。掲載しているバイセルは出張買取を「離島を除く日本全国」で受け付けており、申込から最短即日の訪問に対応しています（公式サイト・2026年10月16日確認）。福ちゃんも出張買取を行っていますが、対応エリアは公式サイトに記載がないため、申込時にご確認ください。"),
         (f"{p['name_ja']}の{b['name_ja']}買取相場は他県と差がありますか？",
          f"基本相場は全国共通ですが、{p['region']}地方は業者間競争があるため**相見積もりで高値が出やすい**傾向です。{b['name_ja']}は現在約<strong>{b['ref_price']:,}円</strong>が目安です。"),
         (f"{p['name_ja']}の店頭買取で{b['name_ja']}は売れますか？",

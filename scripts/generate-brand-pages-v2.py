@@ -130,7 +130,7 @@ PARTNERS_DETAILED = [
         "url": "https://hikakaku.com",
         "method": "一括査定",
         "intro": "ヒカカク！は最大20社の買取業者へ一括で見積もりを依頼できる比較プラットフォーム。希少銘柄ほど業者間の査定差が大きく、まず**相場感を把握する**目的で最適です。",
-        "strengths": ["最大20社一括査定（業界最多級）", "完全無料・しつこい営業なし", "ウイスキー・洋酒・ブランデー対応"],
+        "strengths": ["最大20社から一括査定（公式）", "査定は完全無料・納得できなければ買取依頼しなくてOK", "ウイスキー・洋酒・ブランデー対応"],
         "best_for": "**最高値を狙いたい方** / 初めての方",
     },
     {
@@ -517,16 +517,16 @@ export default function {component_name}() {{
                 <tr>
                   <th>業者</th>
                   <th>得意領域</th>
-                  <th>査定スピード</th>
+                  <th>査定スピード（各社公式・2026年10月16日確認）</th>
                   <th>査定額傾向</th>
                   <th>手数料</th>
                 </tr>
               </thead>
               <tbody>
-                <tr><td><strong>ヒカカク！</strong></td><td>一括査定（20社）</td><td>1〜2日</td><td>★★★★★</td><td>無料</td></tr>
-                <tr><td><strong>バイセル</strong></td><td>大手の安心感</td><td>即日〜2日</td><td>★★★★</td><td>無料</td></tr>
+                <tr><td><strong>ヒカカク！</strong></td><td>一括査定（最大20社）</td><td>査定結果メールは最短1日</td><td>★★★★★</td><td>無料</td></tr>
+                <tr><td><strong>バイセル</strong></td><td>大手の安心感</td><td>出張は最短即日訪問・その場で査定</td><td>★★★★</td><td>無料</td></tr>
                 
-                <tr><td><strong>リカスタ</strong></td><td>宅配買取</td><td>2〜5日</td><td>★★★★</td><td>無料</td></tr>
+                <tr><td><strong>リカスタ</strong></td><td>宅配買取</td><td>査定の連絡は1営業日以内（本数により2営業日以上）</td><td>★★★★</td><td>無料</td></tr>
               </tbody>
             </table>
           </div>

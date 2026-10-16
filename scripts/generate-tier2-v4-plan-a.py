@@ -161,7 +161,7 @@ def build_page(brand: dict, pref_slug: str) -> str:
     faqs = [
         (
             f"{p['name_ja']}で{b['name_ja']}は出張買取してもらえますか？",
-            f"はい。{p['name_ja']}（{p['cities']}）は{p['region']}地方の中核エリアで、{', '.join(d[0] for d in p['local_dealers'][:3])}など主要業者が出張買取対応エリアにしています。最短即日対応も可能です。",
+            f"はい。{p['name_ja']}（{p['cities']}）は{p['region']}地方の中核エリアです。掲載しているバイセルは出張買取を「離島を除く日本全国」で受け付けており、申込から最短即日の訪問に対応しています（公式サイト・2026年10月16日確認）。福ちゃんも出張買取を行っていますが、対応エリアは公式サイトに記載がないため、申込時にご確認ください。",
         ),
         (
             f"{p['name_ja']}の{b['name_ja']}市場相場は他県と差がありますか？",
@@ -343,7 +343,7 @@ export default function Page() {{
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店。{b['name_ja']}のような{b['rarity']}クラス銘柄の参考価格を公開</li>
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> — 東証グロース上場、出張・店頭・宅配の3チャネル対応。出張は離島を除き{p['name_ja']}全域に対応</li>
-            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 総合買取の大手、お酒査定にも対応。{p['cities']}を中心に対応</li>
+            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 総合買取の大手、お酒査定にも対応。出張・宅配・店舗の3方式（出張の対応エリアは公式サイトに記載がないため申込時に確認）</li>
             
           </ul>
 

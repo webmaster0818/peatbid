@@ -77,15 +77,15 @@ export default function Yoichi15RankingPage() {
                 <tr>
                   <th>業者</th>
                   <th>得意領域</th>
-                  <th>査定スピード</th>
+                  <th>査定スピード（各社公式・2026年10月16日確認）</th>
                   <th>査定額傾向</th>
                   <th>手数料</th>
                 </tr>
               </thead>
               <tbody>
-                <tr><td><strong>ヒカカク！</strong></td><td>一括査定（20社）</td><td>1〜2日</td><td>★★★★★</td><td>無料</td></tr>
-                <tr><td><strong>バイセル</strong></td><td>大手の安心感</td><td>即日〜2日</td><td>★★★★</td><td>無料</td></tr>
-                <tr><td><strong>リカスタ</strong></td><td>宅配買取</td><td>2〜5日</td><td>★★★★</td><td>無料</td></tr>
+                <tr><td><strong>ヒカカク！</strong></td><td>一括査定（最大20社）</td><td>査定結果メールは最短1日</td><td>★★★★★</td><td>無料</td></tr>
+                <tr><td><strong>バイセル</strong></td><td>大手の安心感</td><td>出張は最短即日訪問・その場で査定</td><td>★★★★</td><td>無料</td></tr>
+                <tr><td><strong>リカスタ</strong></td><td>宅配買取</td><td>査定の連絡は1営業日以内（本数により2営業日以上）</td><td>★★★★</td><td>無料</td></tr>
               </tbody>
             </table>
           </div>
@@ -99,7 +99,7 @@ export default function Yoichi15RankingPage() {
 以上の5項目を各業者ごとに10点満点で評価し、合計点でランキングを作成しました。</li></ol>` }} />
 
           <h2 id="section-2">3. 1位: ヒカカク！（一括査定で最高値発見）</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 47/50</strong></p><p>ヒカカク！は最大20社の買取業者へ一括で見積もりを依頼できる比較プラットフォーム。1サイトで業界最多級の見積もりが取得可能で、希少銘柄ほど業者間の査定差が大きいため、<strong>まずはヒカカクで相場感を把握する</strong>のが最短ルートです。</p><p><strong>強み</strong>: 業界最多級20社一括 / 完全無料 / 24時間Web依頼可能 / お酒・洋酒・ブランデー対応</p><p><strong>弱み</strong>: 一括査定なので業者から個別に連絡が来る / 一括査定後に専門店個別査定も推奨</p><p><strong>こんな人におすすめ</strong>: 最高値を効率的に狙いたい方、初めて買取を依頼する方</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 47/50</strong></p><p>ヒカカク！は最大20社の買取業者へ一括で見積もりを依頼できる比較プラットフォーム。1回の申し込みで最大20社から査定結果が届く仕組みで、希少銘柄ほど業者間の査定差が大きいため、<strong>まずはヒカカクで相場感を把握する</strong>のが最短ルートです。</p><p><strong>強み</strong>: 最大20社から一括査定 / 完全無料 / 24時間Web依頼可能 / お酒・洋酒・ブランデー対応</p><p><strong>弱み</strong>: 一括査定なので業者から個別に連絡が来る / 一括査定後に専門店個別査定も推奨</p><p><strong>こんな人におすすめ</strong>: 最高値を効率的に狙いたい方、初めて買取を依頼する方</p>` }} />
 
           <h2 id="section-3">4. 2位: バイセル（東証グロース上場の安心感）</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 44/50</strong></p><p>東証グロース上場のBuySell Technologies運営。累計買取点数4,800万点以上（2015〜2025年の合計・公式）の大手で、お酒・ウイスキー買取に注力中。<strong>信頼性とスピードを両立</strong>したい場合に最適です。</p><p><strong>強み</strong>: 東証グロース上場で社会的信頼性◎ / 3チャネル対応（出張・店頭・宅配） / CM放映で知名度抜群 / 一律無料</p><p><strong>弱み</strong>: 一括査定よりは査定額がやや低めの場合あり / 出張買取は離島が対象外</p><p><strong>こんな人におすすめ</strong>: 信頼性とスピードを両立したい方、大量にまとめて売りたい方</p>` }} />
