@@ -5,7 +5,7 @@ const URL = "https://peatbid.com/tier2/";
 
 export const metadata: Metadata = {
   title: "地域別ウイスキー買取相場｜47都道府県から探す",
-  description: "お住まいの都道府県からウイスキーの買取相場と地元対応業者を探せます。山崎・響・白州・マッカランなど50銘柄 × 47都道府県の市場相場（Yahoo中央値）と、出張・店頭・宅配対応の業者情報を掲載。",
+  description: "お住まいの都道府県から、ウイスキーの買取相場と地域の対応業者を検索できます。山崎・響・白州・マッカランなど50銘柄 × 47都道府県の市場相場（Yahoo中央値）と、出張・店頭・宅配対応の業者情報を掲載しています。",
   alternates: { canonical: URL },
   robots: { index: true, follow: true },
 };
@@ -28,7 +28,7 @@ export default function Page() {
         <p>
           お住まいの都道府県を選ぶと、その地域での <strong>ウイスキー50銘柄の市場相場（Yahoo Auctions 過去180日落札中央値）</strong> と、
           出張・店頭・宅配に対応する地元業者を確認できます。市場相場は全国共通ですが、業者の買取査定額は地域・業者により差が出るため、
-          複数業者の相見積もりが高値売却の近道です。
+          複数の業者で相見積もりを取ることをおすすめします。
         </p>
         <p className="text-sm">
           銘柄から探したい方は <Link href="/articles/" className="text-amber-dark underline hover:text-burgundy">銘柄一覧（全50銘柄）</Link>、

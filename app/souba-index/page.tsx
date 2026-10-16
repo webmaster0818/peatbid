@@ -13,8 +13,8 @@ const total = (idx.constituents as { total: number; japanese: number; scotch: nu
 const fmtDate = (d: string) => d.replace(/^\d{4}-0?(\d+)-0?(\d+)$/, "$1/$2");
 
 export const metadata: Metadata = {
-  title: `Peatbid買取相場指数｜ウイスキー買取市場の週次インデックス（最新 ${latest.index}）`,
-  description: `国産・スコッチ${total.total}銘柄のヤフオク実勢中央値を合成した「Peatbid買取相場指数」。基準週（${idx.base_date}）=100として週次で自動更新。最新値${latest.index}（前週比${wow >= 0 ? "+" : ""}${wow}）。出典明記での引用歓迎。`,
+  title: `PeatBid買取相場指数｜ウイスキー買取市場の週次インデックス（最新 ${latest.index}）`,
+  description: `国産・スコッチ${total.total}銘柄のヤフオク実勢中央値を合成した「PeatBid買取相場指数」です。基準週（${idx.base_date}）=100として週次で更新しています。最新値は${latest.index}（前週比${wow >= 0 ? "+" : ""}${wow}）です。出典を明記いただければ引用いただけます。`,
   alternates: { canonical: "https://peatbid.com/souba-index/" },
 };
 
@@ -45,7 +45,7 @@ export default function SoubaIndexPage() {
   const datasetSchema = {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    name: "Peatbid買取相場指数",
+    name: "PeatBid買取相場指数",
     description: `国産・スコッチ${total.total}銘柄のYahoo!オークション実勢中央値を合成した週次インデックス（基準週=100）`,
     url: "https://peatbid.com/souba-index/",
     license: "出典明記で引用可",
@@ -62,8 +62,8 @@ export default function SoubaIndexPage() {
       <nav aria-label="パンくずリスト" className="text-xs text-warm-gray mb-6">
         <Link href="/" className="hover:text-amber-dark">ホーム</Link> / <span>買取相場指数</span>
       </nav>
-      <h1 className="font-display text-2xl md:text-3xl font-semibold mb-2">Peatbid買取相場指数</h1>
-      <p className="text-sm text-warm-gray mb-8">ウイスキー買取市場の温度を1つの数字に。{total.total}銘柄のヤフオク実勢中央値を合成した週次インデックス（毎週月曜自動更新）。</p>
+      <h1 className="font-display text-2xl md:text-3xl font-semibold mb-2">PeatBid買取相場指数</h1>
+      <p className="text-sm text-warm-gray mb-8">ウイスキー買取市場の動向を1つの数値で示す指標です。{total.total}銘柄のヤフオク実勢中央値を合成した週次インデックスで、毎週月曜に更新しています。</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
         <div className="bg-cream/50 border-2 border-amber/40 rounded-xl p-5 text-center">
@@ -101,7 +101,7 @@ export default function SoubaIndexPage() {
 
       <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-10 text-center">
         <p className="font-bold text-ink mb-2">いま売り時か、この指数でわかる</p>
-        <p className="text-sm text-warm-gray mb-4">指数が高値圏なら手持ちボトルの売却好機の可能性。銘柄別の実勢は相場ランキングへ。</p>
+        <p className="text-sm text-warm-gray mb-4">指数が高い水準にある場合は、売却を検討する目安の一つとなります。銘柄別の実勢は相場ランキングでご確認ください。</p>
         <div className="flex flex-wrap justify-center gap-3">
           <Link href="/souba-ranking/" className="amber-cta inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm">銘柄別の相場ランキングを見る</Link>
           <Link href="/articles/" className="inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm border border-amber/50 text-amber-dark hover:bg-cream/50">全銘柄の買取ガイド一覧</Link>

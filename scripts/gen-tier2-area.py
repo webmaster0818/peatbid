@@ -16,9 +16,9 @@ def load_pref():
     return m.PREFECTURES
 
 BUYERS = [
-    ("バイセル", "https://buysell-kaitori.com/liquor/japanese-whisky/", "東証グロース上場の大手。出張・店頭・宅配の3チャネルに対応し、全国どこからでも依頼可能。", "宅配・出張・店頭"),
-    ("福ちゃん", "https://fuku-chan.jp/", "総合買取の大手で、お酒・ウイスキーの査定にも対応。出張・宅配・店舗の3方式（出張の対応エリアは公式サイトに記載なし）。", "出張・宅配・店舗"),
-    ("LINXAS", "https://linxas.shop/whiskey/", "ウイスキー買取の専門店。銘柄別の買取参考価格を公開しており、相場の目安を掴みやすい。", "宅配"),
+    ("バイセル", "https://buysell-kaitori.com/liquor/japanese-whisky/", "東証グロース上場企業が運営する買取大手です。出張・店頭・宅配の3つの方式に対応しています（出張は離島を除く全国）。", "宅配・出張・店頭"),
+    ("福ちゃん", "https://fuku-chan.jp/", "総合買取の大手で、お酒・ウイスキーの査定にも対応しています。出張・宅配・店舗の3つの方式があります（出張の対応エリアは公式サイトに記載がありません）。", "出張・宅配・店舗"),
+    ("LINXAS", "https://linxas.shop/whiskey/", "ウイスキー買取の専門店です。銘柄別の買取参考価格を公開しており、相場の目安を把握しやすい業者です。", "宅配"),
 ]
 
 def yen(n): return f"¥{int(round(n)):,}"
@@ -64,15 +64,15 @@ def gen(pref_key):
               "url": f'https://peatbid.com/tier2/{pref_key}/{b["slug"]}-kaitori/'} for i, b in enumerate(brands)]
     faqs = [
         (f"{name}から宅配買取の集荷に来てもらえますか？",
-         f"はい。本記事で紹介している業者はいずれも全国対応の宅配買取に対応しており、{name}（{cities}など県内全域）から集荷を依頼できます。多くは送料・査定料が無料です（最新の条件は各公式サイトでご確認ください）。"),
-        ("外箱やギャランティカードが無くても売れますか？",
-         "多くの場合、箱や付属品が無くても買取自体は可能です。ただし外箱・冊子・ギャランティカードが揃っていると、業界一般の目安として査定額が10〜20%程度上がる傾向があります。付属品はできるだけ揃えて査定に出すのがおすすめです。"),
-        (f"{name}でウイスキーを高く売るコツは？",
-         "最低でも3社、できれば複数社へ同時に査定を依頼し、相見積もりで最高額を選ぶのが基本です。付属品を揃える・状態を保つ・終売や限定銘柄は需要が高いタイミングを狙う、といった点も査定額に影響します。"),
+         f"はい。本記事で紹介している業者はいずれも全国対応の宅配買取に対応しており、{name}（{cities}など県内全域）から集荷を依頼できます。多くの業者は送料・査定料が無料です（最新の条件は各公式サイトでご確認ください）。"),
+        ("外箱やギャランティカードがなくても売れますか？",
+         "多くの場合、箱や付属品がなくても買取の対象となります。ただし、外箱・冊子・ギャランティカードが揃っていると、業界一般の目安として査定額が10〜20%程度上がる傾向があります。付属品はできるだけ揃えて査定に出すことをおすすめします。"),
+        (f"{name}でウイスキーを高く売るためのポイントは何ですか？",
+         "3社以上に同時に査定を依頼し、相見積もりで比較することが基本です。付属品を揃える、状態を保つ、終売や限定の銘柄は需要が高い時期に売却する、といった点も査定額に影響します。"),
         ("査定料・送料・キャンセル料はかかりますか？",
-         "全国対応の宅配買取では査定料・送料・キャンセル料が無料の業者が一般的です。ただし条件は業者・時期により異なり変動するため、申し込み前に各公式サイトで最新の条件を必ずご確認ください。"),
-        ("提示された買取額が相場より安い気がします。",
-         f"買取額は市場相場（本記事のYahoo中央値）をベースに、各社が在庫・キャンペーン・状態評価・利益率を加味して決めます。業界一般の目安として市場相場の60〜80%程度に収まることが多いため、複数社の見積もりを比較し、根拠を確認したうえで判断するのが安全です。"),
+         "全国対応の宅配買取では、査定料・送料・キャンセル料が無料の業者が一般的です。ただし、条件は業者・時期により異なるため、申し込み前に各公式サイトで最新の条件を必ずご確認ください。"),
+        ("提示された買取額が相場より安い場合は、どうすればよいですか？",
+         f"買取額は市場相場（本記事のYahoo中央値）をベースに、各社が在庫・キャンペーン・状態評価・利益率を加味して決めます。業界一般の目安として市場相場の60〜80%程度に収まることが多いため、複数社の見積もりを比較し、根拠を確認したうえでご判断ください。"),
     ]
     faq_html = "\n          ".join(
         f'<details className="border border-warm-border rounded-lg p-4 bg-white"><summary className="font-medium cursor-pointer">{esc(q)}</summary><p className="text-sm text-warm-gray mt-2 leading-relaxed">{esc(a)}</p></details>'
@@ -91,7 +91,7 @@ def gen(pref_key):
     itemlist_ld = {"@context": "https://schema.org", "@type": "ItemList", "name": f"{name}のウイスキー銘柄別 実売相場", "itemListElement": items}
 
     title = f"ウイスキー買取 {name}｜Yahoo実売中央値で見る相場とおすすめ業者【2026年最新】"
-    desc = f"{name}でウイスキーを売るなら。Yahoo!オークション過去180日の実落札中央値による銘柄別相場、買取目安、宅配買取のおすすめ業者比較、高く売るコツを掲載。{name}全域から送料無料で売却できます。"
+    desc = f"{name}でウイスキーを売却する方向けに、Yahoo!オークション過去180日の実落札中央値による銘柄別の相場、買取目安、宅配買取のおすすめ業者の比較、高く売るためのポイントを掲載しています。"
 
     top_brands = "・".join(b["name_ja"] for b in brands[:4])
     page = f'''import type {{ Metadata }} from "next";
@@ -128,14 +128,14 @@ export default function Page() {{
       <h1 className="font-display text-3xl md:text-4xl font-semibold mb-3">{name}のウイスキー買取｜実売相場とおすすめ業者</h1>
       <p className="text-warm-gray text-sm mb-2">最終更新: {UPDATED} / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link></p>
       <p className="text-sm text-warm-gray mb-8 leading-relaxed">
-        本ページの相場は<strong>Yahoo!オークション過去180日の実落札中央値</strong>（{fetched}時点）に基づく一次データです。{name}でウイスキーを売却する際の、銘柄別の相場・買取目安、宅配買取のおすすめ業者、高く売るコツをまとめています。
+        本ページの相場は<strong>Yahoo!オークション過去180日の実落札中央値</strong>（{fetched}時点）にもとづく一次データです。{name}でウイスキーを売却する際の、銘柄別の相場・買取目安、宅配買取のおすすめ業者、高く売るためのポイントをまとめています。
       </p>
 
       {{/* 1. 結論ボックス */}}
       <div className="border-2 border-amber/40 rounded-xl p-5 mb-10 bg-cream/40">
-        <p className="font-bold text-base mb-2">結論：{name}は「全国対応の宅配買取で相見積もり」が最短・確実</p>
+        <p className="font-bold text-base mb-2">{name}での売却方法について</p>
         <p className="text-sm leading-relaxed mb-4">
-          {name}（{region}地方・人口{pop}）は{cities}を中心に二次流通の需要があります。店舗へ持ち込む方法もありますが、<strong>全国対応の宅配買取なら{name}全域から送料無料で売却でき、複数社へ同時に査定を依頼して最高額を選べます</strong>。買取額は市場相場（下記Yahoo中央値）の60〜80%程度が業界一般の目安です。
+          {name}（{region}地方・人口{pop}）は{cities}を中心に二次流通の需要があります。店舗へ持ち込む方法もありますが、<strong>全国対応の宅配買取を利用すると、{name}全域から売却でき、複数社に同時に査定を依頼して比較できます</strong>（送料は多くの業者で無料です）。買取額は市場相場（下記Yahoo中央値）の60〜80%程度が業界一般の目安です。
         </p>
         <a href="#osusume" className="inline-block bg-amber-dark text-white text-sm font-bold py-2.5 px-5 rounded-lg hover:opacity-90 transition">おすすめの宅配買取業者を見る →</a>
         <p className="text-[10px] text-warm-gray mt-2">本ページは広告（アフィリエイト）を含みます。</p>
@@ -144,7 +144,7 @@ export default function Page() {{
       {{/* 2. 銘柄別 実売相場テーブル */}}
       <h2 id="souba" className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">{name}のウイスキー銘柄別 実売相場（Yahoo中央値）</h2>
       <p className="text-sm text-warm-gray mb-4 leading-relaxed">
-        過去180日のYahoo!オークション実落札データの中央値です（{fetched}時点）。<strong>買取目安</strong>は中央値の60〜80%で算出した業界一般の参考値で、実際の買取額は業者・状態・時期により変動します。銘柄名をタップすると{name}向けの詳細ページへ移動します。
+        過去180日のYahoo!オークション実落札データの中央値です（{fetched}時点）。<strong>買取目安</strong>は中央値の60〜80%で算出した業界一般の参考値であり、実際の買取額は業者・状態・時期により変動します。銘柄名をタップすると{name}向けの詳細ページへ移動します。
       </p>
       <div className="overflow-x-auto mb-3">
         <table className="w-full text-sm border-collapse">
@@ -160,37 +160,37 @@ export default function Page() {{
       <p className="text-xs text-warm-gray mb-12">※中央値＝過去180日のYahoo!オークション落札価格の中央値（外れ値除外後）。買取目安は中央値×60〜80%の参考レンジで、買取額を保証するものではありません。</p>
 
       {{/* 3. 高価買取のコツ */}}
-      <h2 className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">{name}でウイスキーを高く売る4つのコツ</h2>
+      <h2 className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">{name}でウイスキーを高く売る4つのポイント</h2>
       <ul className="space-y-3 text-sm leading-relaxed mb-12">
-        <li><strong>① 複数社で相見積もり</strong>：最低3社、できれば4〜5社へ同時に査定を依頼。同じ銘柄でも在庫・キャンペーン・査定基準の違いで、業界目安として10〜20%の差が出ることがあります。</li>
-        <li><strong>② 付属品を揃える</strong>：外箱・冊子・カートン・ギャランティカードが揃うと、業界一般の目安として査定額が10〜20%上がる傾向。購入時の状態を保ちましょう。</li>
-        <li><strong>③ 状態を保つ</strong>：ラベルの傷み・液面低下・キャップの状態は評価対象。直射日光・高温多湿を避けて保管します。</li>
-        <li><strong>④ 需要の高い銘柄・時期を狙う</strong>：終売・限定・ヴィンテージは需要が高く、海外オークションの上昇局面では国内査定も上がりやすい傾向があります。</li>
+        <li><strong>① 複数社で相見積もりを取る</strong>：3社以上、できれば4〜5社に同時に査定を依頼します。同じ銘柄でも在庫・キャンペーン・査定基準の違いで、業界目安として10〜20%の差が出ることがあります。</li>
+        <li><strong>② 付属品を揃える</strong>：外箱・冊子・カートン・ギャランティカードが揃うと、業界一般の目安として査定額が10〜20%上がる傾向があります。購入時の状態を保ってください。</li>
+        <li><strong>③ 状態を保つ</strong>：ラベルの傷み・液面の低下・キャップの状態は評価の対象です。直射日光・高温多湿を避けて保管します。</li>
+        <li><strong>④ 需要の高い時期に売る</strong>：終売・限定・ヴィンテージは需要が高く、海外オークションの上昇局面では国内査定も上がりやすい傾向があります。</li>
       </ul>
 
       {{/* 4. 売却方法の比較 */}}
       <h2 className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">売却方法の比較（宅配・出張・店頭）</h2>
       <div className="overflow-x-auto mb-4">
         <table className="w-full text-sm border-collapse">
-          <thead><tr className="bg-cream/60 text-left"><th className="px-3 py-2">方式</th><th className="px-3 py-2">手間</th><th className="px-3 py-2">スピード</th><th className="px-3 py-2">向く人</th></tr></thead>
+          <thead><tr className="bg-cream/60 text-left"><th className="px-3 py-2">方式</th><th className="px-3 py-2">手間</th><th className="px-3 py-2">スピード</th><th className="px-3 py-2">適している方</th></tr></thead>
           <tbody className="divide-y divide-warm-border">
-            <tr><td className="px-3 py-2 font-medium">宅配買取</td><td className="px-3 py-2">小（自宅で完結）</td><td className="px-3 py-2">数日</td><td className="px-3 py-2">{name}全域・本数が多い人・相見積もり重視</td></tr>
-            <tr><td className="px-3 py-2 font-medium">出張買取</td><td className="px-3 py-2">小（自宅査定）</td><td className="px-3 py-2">最短即日</td><td className="px-3 py-2">大量・運べない・対面で売りたい人</td></tr>
-            <tr><td className="px-3 py-2 font-medium">店頭買取</td><td className="px-3 py-2">中（持込）</td><td className="px-3 py-2">即日</td><td className="px-3 py-2">近隣に店舗があり少量を売りたい人</td></tr>
+            <tr><td className="px-3 py-2 font-medium">宅配買取</td><td className="px-3 py-2">小（自宅で完結）</td><td className="px-3 py-2">数日</td><td className="px-3 py-2">{name}全域の方・本数が多い方・相見積もりを重視する方</td></tr>
+            <tr><td className="px-3 py-2 font-medium">出張買取</td><td className="px-3 py-2">小（自宅査定）</td><td className="px-3 py-2">最短即日</td><td className="px-3 py-2">本数が多い方・持ち運びが難しい方・対面で売却したい方</td></tr>
+            <tr><td className="px-3 py-2 font-medium">店頭買取</td><td className="px-3 py-2">中（持込）</td><td className="px-3 py-2">即日</td><td className="px-3 py-2">近隣に店舗があり、少量を売却したい方</td></tr>
           </tbody>
         </table>
       </div>
-      <p className="text-sm text-warm-gray mb-12 leading-relaxed">{name}は全域をカバーする宅配買取が最も確実です。<strong>宅配の流れ＝①申し込み → ②梱包キット等で梱包 → ③集荷（送料無料が一般的）→ ④査定 → ⑤入金</strong>。査定額に納得できなければキャンセルも可能です（条件は各社で確認）。</p>
+      <p className="text-sm text-warm-gray mb-12 leading-relaxed">{name}では、全域から利用できる宅配買取をおすすめします。<strong>宅配買取の流れ：①申し込み → ②梱包キット等で梱包 → ③集荷（送料無料が一般的）→ ④査定 → ⑤入金</strong>。査定額に納得できない場合はキャンセルできます（条件は各社にご確認ください）。</p>
 
       {{/* 5. 県の売却事情 */}}
       <h2 className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">{name}でウイスキーを売るときのポイント</h2>
       <p className="text-sm text-warm-gray mb-12 leading-relaxed">
-        {name}は{region}地方の{pop}規模の県で、{cities}などに人口が集まります。{pref["demand"]}。大型のウイスキー専門買取店は都市部に集中しがちなため、{name}では<strong>全国対応の宅配・出張買取を活用すると、エリアを問わず複数社の査定を比較できます</strong>。古物営業法により売却時は本人確認書類（運転免許証・マイナンバーカード等）が必要です。
+        {name}は{region}地方の人口{pop}の県で、{cities}などに人口が集まっています。地域の特徴：{pref["demand"]}。大型のウイスキー専門買取店は都市部に集中する傾向があるため、{name}では<strong>全国対応の宅配・出張買取を活用すると、エリアを問わず複数社の査定を比較できます</strong>。古物営業法により売却時は本人確認書類（運転免許証・マイナンバーカード等）が必要です。
       </p>
 
       {{/* 6. おすすめ業者比較 */}}
-      <h2 id="osusume" className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">{name}対応：おすすめの宅配買取業者</h2>
-      <p className="text-sm text-warm-gray mb-4 leading-relaxed">いずれも全国対応で{name}から依頼できます。買取額は変動するため固定の金額は掲載せず、最新の査定額・キャンペーンは各公式サイトでご確認ください。<strong>迷ったら複数社へ同時査定</strong>がおすすめです。</p>
+      <h2 id="osusume" className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">{name}に対応するおすすめの宅配買取業者</h2>
+      <p className="text-sm text-warm-gray mb-4 leading-relaxed">いずれも全国対応で{name}から依頼できます。買取額は変動するため固定の金額は掲載せず、最新の査定額・キャンペーンは各公式サイトでご確認ください。<strong>複数社への同時査定</strong>をおすすめします。</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
             {buyers_html}
       </div>

@@ -23,7 +23,7 @@ const refFetchedAt = m["springbank-15"]?.fetched_at ?? "毎週月曜";
 export const metadata: Metadata = {
   title: "スプリングバンク買取価格【2026年10月】ノンエイジ・年代表記なしの相場と高く売る方法",
   description:
-    "年代表記のないスプリングバンクの常時流通はごく稀で、現行ラインの最年少は10年です。年代不明に見えるボトルの多くはラベル摩耗か限定品。年数の確認手順、10年・15年・21年の実勢価格比較（ヤフオク落札中央値・毎週更新）、高く売るコツと無料査定の使い方まで解説します。",
+    "年代表記のないスプリングバンクの常時流通はごく稀で、現行ラインの最年少は10年です。年代が不明に見えるボトルの多くは、ラベルの摩耗または限定品です。年数の確認手順、10年・15年・21年の実勢価格比較（ヤフオク落札中央値・毎週更新）、高く売るコツと無料査定の使い方まで解説します。",
   alternates: { canonical: "/articles/springbank-nv-kaitori/" },
 };
 
@@ -36,7 +36,7 @@ const faqs = [
     q: "スプリングバンクの年代指定なし（最年少の10年）の買取相場はいくらですか？",
     a: nvReady
       ? `現行ラインで最も若いスプリングバンク10年の今週の実勢中央値は${nvMedianStr}です（ヤフオク過去180日の実落札・IQR外れ値除去後の中央値・取得日 ${nvFetchedAt ?? "毎週月曜更新"}・毎週更新）。これは中古市場の実勢値であり、業者の買取査定額は状態・付属品・各社の在庫状況により変動します。`
-      : "スプリングバンク10年の実勢データは現在収集中です（毎週更新のため近日掲載予定）。参考として、当サイト集計の実勢中央値（毎週更新）はスプリングバンク15年が約3.5万円、21年が約9.9万円です。いずれも参考値で、買取額を保証するものではありません。",
+      : "スプリングバンク10年の実勢データは現在集計中です（毎週更新のため、近日掲載予定）。参考として、当サイト集計の実勢中央値（毎週更新）はスプリングバンク15年が約3.5万円、21年が約9.9万円です。いずれも参考値で、買取額を保証するものではありません。",
   },
   {
     q: "年数が読めないスプリングバンクはどう売ればいいですか？",
@@ -101,7 +101,7 @@ export default function SpringbankNvKaitoriPage() {
             <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
               <li>スプリングバンクの現行主力ラインは<strong>すべて年数表記あり</strong>で、<strong>最年少は10年</strong>。年数表記のないボトルの常時流通は<strong>ごく稀</strong>です。</li>
               <li>「年代指定なし」に見えるボトルの多くは、<strong>ラベルの摩耗・剥がれ</strong>か、年数表記の書式が異なる<strong>限定・特別リリース</strong>です。</li>
-              <li>まず裏ラベル・肩ラベル・化粧箱まで年数表記を探し、確認できたら該当年代のページ（<Link href="/articles/springbank-15-kaitori/" className="text-amber-dark underline">15年</Link>・<Link href="/articles/springbank-21-kaitori/" className="text-amber-dark underline">21年</Link>）で相場を確認しましょう。</li>
+              <li>まず裏ラベル・肩ラベル・化粧箱まで年数表記を探し、確認できたら該当年代のページ（<Link href="/articles/springbank-15-kaitori/" className="text-amber-dark underline">15年</Link>・<Link href="/articles/springbank-21-kaitori/" className="text-amber-dark underline">21年</Link>）で相場をご確認ください。</li>
               <li>特定できないボトルは<strong>写真を添えて専門業者の査定へ</strong>。自己判断で安売りしないことが重要です。</li>
             </ul>
           </div>
@@ -123,7 +123,7 @@ export default function SpringbankNvKaitoriPage() {
           <p>そのため「スプリングバンク 年代指定なし」でお調べの方のボトルは、実際には次のいずれかであるケースが大半です。</p>
 
           <ul>
-            <li><strong>ラベルの摩耗・剥がれ・褪色で年数が読めない</strong> — 長期保管品や旧ボトルに多いパターン。年数表記自体はもともと存在することがほとんどです</li>
+            <li><strong>ラベルの摩耗・剥がれ・褪色で年数が読めない</strong> — 長期保管品や旧ボトルに多く見られます。年数表記自体はもともと存在することがほとんどです</li>
             <li><strong>限定・特別リリースで年数表記の位置や書式が通常と異なる</strong> — スプリングバンクは少量の限定ボトルを多くリリースしており、正面ラベルの目立つ位置に年数がないデザインもあります</li>
           </ul>
 
@@ -134,7 +134,7 @@ export default function SpringbankNvKaitoriPage() {
           {nvReady ? (
             <p>現行ラインで最も若い<strong>スプリングバンク10年の今週の実勢中央値は {nvMedianStr}</strong> です（ヤフオク過去180日の実落札・IQR外れ値除去後の中央値{typeof nvRec?.filtered_n === "number" ? `・n=${nvRec.filtered_n}件` : ""}{nvFetchedAt ? `・取得日 ${nvFetchedAt}` : ""}・毎週更新）。これは中古市場の実勢値であり、特定の業者の買取価格ではありません。</p>
           ) : (
-            <p>現行ラインで最も若い<strong>スプリングバンク10年</strong>の実勢データは<strong>現在収集中です（毎週更新のため近日掲載予定）</strong>。先に集計が揃っている15年・21年の実勢中央値が、水準感の参考になります。</p>
+            <p>現行ラインで最も若い<strong>スプリングバンク10年</strong>の実勢データは<strong>現在集計中です（毎週更新のため、近日掲載予定）</strong>。先に集計が揃っている15年・21年の実勢中央値が、水準感の参考になります。</p>
           )}
 
           <div className="table-wrapper">
@@ -162,7 +162,7 @@ export default function SpringbankNvKaitoriPage() {
             </table>
           </div>
 
-          <p className="text-xs text-warm-gray">※中央値はヤフオク!の過去180日落札データをIQR外れ値除去後に当サイトが独自集計した参考値です（取得日 {refFetchedAt}・毎週月曜更新）。買取額を保証するものではなく、業者の査定額は状態・付属品・各社の在庫状況により変動します。限定ボトルは流通量が少なく、この表の水準が当てはまらない場合があります。</p>
+          <p className="text-xs text-warm-gray">※中央値はヤフオク!の過去180日落札データをIQR外れ値除去後に当サイトが独自に集計した参考値です（取得日 {refFetchedAt}・毎週月曜更新）。買取額を保証するものではなく、業者の査定額は状態・付属品・各社の在庫状況により変動します。限定ボトルは流通量が少なく、この表の水準が当てはまらない場合があります。</p>
 
           <p>熟成年数が上がるほど実勢は大きく上がります。<strong>年数の特定＝査定額の桁の特定</strong>と言ってよいほど差が出るため、売却前のボトル特定が重要です。</p>
 
@@ -187,7 +187,7 @@ export default function SpringbankNvKaitoriPage() {
           <ol>
             <li><strong>売る前にボトルを特定する</strong> — 年数・リリース名が確定するだけで、業者間の査定比較が正確にできるようになります</li>
             <li><strong>外箱・冊子など付属品を揃える</strong> — 箱は査定評価に加え、ボトル特定の証拠にもなります</li>
-            <li><strong>未開封のまま売る</strong> — 開封済みは大幅減額の傾向。液面の高さも査定要素です</li>
+            <li><strong>未開封のまま売る</strong> — 開封済みは大幅な減額となる傾向があります。液面の高さも査定要素です</li>
             <li><strong>複数業者で相見積もりを取る</strong> — 流通量の少ない銘柄ほど業者間の査定差が大きく出ます。最低3社での比較がおすすめです</li>
             <li><strong>ラベルの状態をこれ以上悪化させない</strong> — 摩耗したラベルを拭いたり剥がしたりせず、そのままの状態で査定に出してください</li>
           </ol>
@@ -198,7 +198,7 @@ export default function SpringbankNvKaitoriPage() {
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">スプリングバンクの無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">複数業者の査定を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
+            <p className="text-sm text-warm-gray text-center mb-4">複数の業者の査定額を比較できます。査定料・キャンセル料は無料です。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               
@@ -229,7 +229,7 @@ export default function SpringbankNvKaitoriPage() {
             <li><Link href="/articles/springbank-15-kaitori/" className="text-amber-dark hover:underline">スプリングバンク15年の買取相場</Link></li>
             <li><Link href="/articles/springbank-21-kaitori/" className="text-amber-dark hover:underline">スプリングバンク21年の買取相場</Link></li>
             <li><Link href="/articles/springbank-nisemono-mikata/" className="text-amber-dark hover:underline">スプリングバンクの偽物の見分け方（真贋ハブ）</Link></li>
-            <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline">ウイスキーの「年代指定なし(NV)」とは？買取での扱いと相場の見方</Link></li>
+            <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline">ウイスキーの「年代指定なし(NV)」の解説買取での扱いと相場の見方</Link></li>
             <li><Link href="/souba-ranking/" className="text-amber-dark hover:underline">ウイスキー買取相場ランキング（毎週更新）</Link></li>
           </ul>
 

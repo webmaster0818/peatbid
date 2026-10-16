@@ -5,22 +5,22 @@ const services = [
   {
     name: "ヒカカク！",
     method: "一括査定",
-    description: "最大20社へ無料で一括査定。最高入札を効率よく比較できる",
-    target: "とにかく最高値で売りたい人",
+    description: "最大20社に無料で一括査定を依頼でき、複数社の査定額を比較できます",
+    target: "複数社の査定額を比較したい方",
     url: "https://hikakaku.com",
   },
   {
     name: "バイセル",
     method: "出張/店頭/宅配",
-    description: "東証グロース上場の大手。お酒・ウイスキー買取に注力",
-    target: "信頼性とスピードを両立したい人",
+    description: "東証グロース上場の買取大手で、お酒・ウイスキーの買取に対応しています",
+    target: "出張買取を利用したい方",
     url: "https://buysell-kaitori.com/liquor/japanese-whisky/",
   },
   {
     name: "リカスタ",
     method: "宅配/出張/店頭",
-    description: "全国対応・無料査定。ジャパニーズウイスキー強化中",
-    target: "宅配で完結したい人",
+    description: "宅配・出張・店頭で買取を受け付けています（送料・査定料・キャンセル料は無料）",
+    target: "宅配で売却したい方",
     url: "https://www.licasta.com/",
   },
 ];
@@ -30,7 +30,7 @@ const featuredArticles = [
     href: "/articles/yamazaki-kaitori/",
     tag: "銘柄ガイド",
     title: "山崎の買取相場と高く売る方法【2026年最新】",
-    description: "NV・12年・18年・25年・55年まで、山崎全グレードの最新買取相場と査定のポイントを徹底解説。",
+    description: "NV・12年・18年・25年・55年まで、山崎の各グレードの買取相場と査定のポイントを解説しています。",
     image: "/images/article-yamazaki.png",
     tags: ["山崎", "サントリー", "高価買取"],
   },
@@ -38,7 +38,7 @@ const featuredArticles = [
     href: "/articles/hibiki-kaitori/",
     tag: "銘柄ガイド",
     title: "響の買取相場ガイド【2026年最新】17年・21年・30年",
-    description: "響シリーズの最新買取価格、終売銘柄のプレミア相場、ノンエイジ・ハーモニーまでカバー。",
+    description: "響シリーズの買取価格を、終売銘柄やノンエイジ（ジャパニーズハーモニー）も含めて掲載しています。",
     image: "/images/article-hibiki.png",
     tags: ["響", "終売", "ハーモニー"],
   },
@@ -46,7 +46,7 @@ const featuredArticles = [
     href: "/articles/hakushu-kaitori/",
     tag: "銘柄ガイド",
     title: "白州の買取相場ガイド — NV・12年・18年・25年",
-    description: "森のウイスキー・白州。終売後の急騰相場と、状態別の査定額を徹底解説。",
+    description: "白州の各グレードについて、相場の推移と状態別の査定の目安を解説しています。",
     image: "/images/article-hakushu.png",
     tags: ["白州", "森のウイスキー", "プレミア"],
   },
@@ -54,7 +54,7 @@ const featuredArticles = [
     href: "/articles/macallan-kaitori/",
     tag: "銘柄ガイド",
     title: "マッカランの買取相場 — 12年・18年・25年・30年",
-    description: "スコッチの王・マッカラン。シェリーオーク長期熟成の希少ボトルを高値で売る方法。",
+    description: "マッカランの長期熟成ボトルについて、買取相場と売却時のポイントを解説しています。",
     image: "/images/article-macallan.png",
     tags: ["マッカラン", "スコッチ", "シェリーオーク"],
   },
@@ -62,7 +62,7 @@ const featuredArticles = [
     href: "/articles/whisky-kaitori-souba/",
     tag: "相場情報",
     title: "ウイスキー買取相場一覧【2026年最新】",
-    description: "ジャパニーズ・スコッチ・バーボン主要50銘柄の最新相場を一覧で公開。状態別の係数も解説。",
+    description: "ジャパニーズ・スコッチの主要銘柄の相場を一覧で掲載しています。状態別の目安もあわせて解説しています。",
     image: "/images/article-souba.png",
     tags: ["相場", "一覧", "2026年"],
   },
@@ -70,16 +70,16 @@ const featuredArticles = [
     href: "/articles/whisky-takaku-uru/",
     tag: "売却ガイド",
     title: "ウイスキーを高く売る5つのコツ",
-    description: "相見積もり・付属品・売却タイミング・業者選び・状態保持。最高入札を引き出す実践テクニック。",
+    description: "相見積もり・付属品・売却時期・業者選び・保管状態の5点について解説しています。",
     image: "/images/article-takaku-uru.png",
     tags: ["高く売る", "コツ", "比較"],
   },
 ];
 
 const stats = [
-  { value: "500+", label: "対応銘柄" },
-  { value: "毎日", label: "相場更新" },
-  { value: "完全無料", label: "査定相談" },
+  { value: "50", label: "掲載銘柄" },
+  { value: "毎週", label: "相場更新" },
+  { value: "無料", label: "当サイトの利用" },
   { value: "PR", label: "比較・送客サイト" },
 ];
 
@@ -104,21 +104,21 @@ export default function Home() {
             Whisky Buyback × Highest Bid
           </p>
           <h1 className="font-display text-4xl md:text-6xl font-semibold leading-tight mb-5">
-            あなたのウイスキーに、
+            ウイスキーの買取相場と
             <br />
-            <span className="text-amber-light">最高入札を。</span>
+            <span className="text-amber-light">買取業者を比較できます</span>
           </h1>
           <p className="text-cream/85 text-base md:text-lg max-w-2xl leading-relaxed mb-8">
-            PeatBidは山崎・響・白州・マッカランなど主要銘柄の買取相場を毎日更新。
+            当サイトでは、山崎・響・白州・マッカランなど主要銘柄の買取相場を毎週更新しています。
             <br className="hidden md:block" />
-            信頼できる買取業者を一括比較し、最高値で売却するための実践ガイドをお届けします。
+            あわせて買取業者の特徴と、売却時に確認すべき点をご説明します。
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link
               href="/articles/whisky-kaitori-souba/"
               className="amber-cta inline-flex items-center justify-center px-7 py-4 rounded-lg text-base shadow-lg"
             >
-              今日の買取相場を見る
+              最新の買取相場を見る
             </Link>
             <a
               href="https://hikakaku.com"
@@ -126,7 +126,7 @@ export default function Home() {
               rel="noopener noreferrer nofollow"
               className="bg-cream/10 hover:bg-cream/15 border border-amber/40 inline-flex items-center justify-center px-7 py-4 rounded-lg text-base text-cream transition-colors"
             >
-              無料一括査定で最高値を調べる →
+              無料の一括査定を申し込む →
             </a>
           </div>
           <Link
@@ -136,7 +136,7 @@ export default function Home() {
             <span className="bg-amber/20 border border-amber/40 text-amber-light text-[10px] font-bold px-1.5 py-0.5 rounded tracking-wide">
               NEW
             </span>
-            今週の値上がり・値下がり銘柄ランキングを公開中 →
+            今週の値上がり・値下がり銘柄ランキングを掲載しています →
           </Link>
           <p className="text-xs text-cream/50 mt-4">
             ※当サイトはアフィリエイト広告（PR）を利用しています
@@ -165,16 +165,16 @@ export default function Home() {
             About PeatBid
           </p>
           <h2 className="font-display text-3xl md:text-4xl font-semibold text-ink text-center mb-6">
-            複数業者の入札を、シンプルに比べる。
+            相場の情報と買取業者の比較を掲載しています
           </h2>
           <p className="text-ink/80 leading-relaxed text-center mb-6">
-            ジャパニーズウイスキーは2018年以降、コレクター需要と国際的評価で価格が高騰しています。
+            ジャパニーズウイスキーは2018年以降、コレクター需要と国際的な評価の高まりにより価格が上昇しています。
             <br className="hidden md:block" />
-            山崎25年は<strong>17年で17倍</strong>、響30年は<strong>1本100万円超</strong>のプレミアがつくケースも珍しくありません。
+            山崎25年は<strong>17年で17倍</strong>、響30年は<strong>1本100万円超</strong>のプレミア価格が付く例もあります。
           </p>
           <p className="text-ink/80 leading-relaxed text-center">
-            一方で、買取業者によって査定額は<strong>数万円〜数十万円</strong>変わります。
-            PeatBidは、相場の透明化と業者比較を通じて、あなたの一本に最も高い入札を引き出すお手伝いをします。
+            一方で、査定額は買取業者によって<strong>数万円〜数十万円</strong>異なる場合があります。
+            当サイトでは、相場の情報と業者の比較を掲載し、売却先の検討を支援しています。
           </p>
         </div>
       </section>
@@ -189,7 +189,7 @@ export default function Home() {
             おすすめ買取業者3選
           </h2>
           <p className="text-warm-gray text-sm text-center mb-10">
-            ウイスキー買取に強い3社をPeatBid編集部が厳選。目的に合わせて使い分けるのがコツです。
+            ウイスキーの買取に対応している3社を、PeatBid編集部が選定しました。目的に応じてご利用ください。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {services.map((s) => (
@@ -211,7 +211,7 @@ export default function Home() {
                 <p className="text-sm text-ink/80 leading-relaxed mb-3">
                   {s.description}
                 </p>
-                <p className="text-xs text-warm-gray">こんな人に: {s.target}</p>
+                <p className="text-xs text-warm-gray">おすすめの方: {s.target}</p>
                 <p className="text-xs text-burgundy mt-3">PR ・ 公式サイトへ →</p>
               </a>
             ))}
@@ -282,12 +282,12 @@ export default function Home() {
             銘柄から相場を探す
           </h2>
           <p className="text-warm-gray text-sm text-center mb-10">
-            主要50銘柄の個別ページで、状態別の買取相場と査定ポイントを確認できます。
+            主要50銘柄の個別ページで、状態別の買取相場と査定のポイントをご確認いただけます。
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <p className="font-display text-lg font-semibold text-amber-dark mb-3 pb-2 border-b border-amber/40">ジャパニーズウイスキー（30銘柄）</p>
+              <p className="font-display text-lg font-semibold text-amber-dark mb-3 pb-2 border-b border-amber/40">ジャパニーズウイスキー（32銘柄）</p>
               <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-sm">
                 {[
                   { name: "山崎 NV", slug: "yamazaki-nv-kaitori" },
@@ -331,7 +331,7 @@ export default function Home() {
             </div>
 
             <div>
-              <p className="font-display text-lg font-semibold text-amber-dark mb-3 pb-2 border-b border-amber/40">スコッチウイスキー（20銘柄）</p>
+              <p className="font-display text-lg font-semibold text-amber-dark mb-3 pb-2 border-b border-amber/40">スコッチウイスキー（18銘柄）</p>
               <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-sm">
                 {[
                   { name: "マッカラン12年", slug: "macallan-12-kaitori" },
@@ -382,7 +382,7 @@ export default function Home() {
             都道府県別の市場相場ガイド
           </h2>
           <p className="text-warm-gray text-sm text-center mb-10">
-            お住まいの地域での50銘柄の市場相場と地元業者を、47都道府県別にご確認いただけます。
+            50銘柄の市場相場と地域の買取業者を、47都道府県別にご確認いただけます。
           </p>
           <div className="space-y-3">
             {[
@@ -420,19 +420,24 @@ export default function Home() {
             How It Works
           </p>
           <h2 className="font-display text-3xl md:text-4xl font-semibold text-ink text-center mb-10">
-            最高入札までの3ステップ
+            売却までの3ステップ
           </h2>
           <ol className="space-y-6">
             {[
               {
                 step: "01",
-                title: "売りたいボトルを確認",
-                desc: "銘柄・年代・付属品（箱・冊子）・状態を整理。当サイトでは銘柄別の査定ポイントを丁寧に解説しています。",
+                title: "売却するボトルを確認する",
+                desc: "銘柄・熟成年数・付属品（箱・冊子）・状態を確認します。当サイトでは銘柄別の査定のポイントを解説しています。",
+              },
+              {
+                step: "02",
+                title: "相場を確認し、査定を依頼する",
+                desc: "当サイトの相場ページで目安を確認したうえで、一括査定や複数の買取業者に査定を依頼します。",
               },
               {
                 step: "03",
-                title: "最高入札を選んで売却",
-                desc: "提示額の手取り（手数料込み）で比較し、最も高い業者を選択。当日中の入金も可能です。",
+                title: "査定額を比較して売却する",
+                desc: "手数料を差し引いた受取額で比較し、売却先を決定します。入金の時期は業者により異なります。",
               },
             ].map((s) => (
               <li key={s.step} className="flex gap-5 items-start">
@@ -455,12 +460,12 @@ export default function Home() {
       <section className="bg-peat text-cream">
         <div className="max-w-3xl mx-auto px-4 py-16 text-center">
           <h2 className="font-display text-3xl md:text-4xl font-semibold mb-4 text-amber">
-            まずは無料で査定を比較
+            無料の一括査定のご案内
           </h2>
           <p className="text-cream/80 text-sm md:text-base mb-8">
-            PeatBidの相場表と一括査定で、あなたの一本の最高入札を知ることから始めましょう。
+            当サイトの相場表で目安を確認したうえで、一括査定をご利用いただけます。
             <br className="hidden md:block" />
-            登録・査定はすべて無料です。
+            一括査定の申込み・査定は無料です。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
@@ -475,7 +480,7 @@ export default function Home() {
               href="/articles/whisky-kaitori-souba/"
               className="bg-cream/10 hover:bg-cream/15 border border-amber/40 inline-flex items-center justify-center px-8 py-4 rounded-lg text-cream transition-colors"
             >
-              相場表を確認する
+              相場表を見る
             </Link>
           </div>
         </div>

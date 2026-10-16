@@ -56,30 +56,34 @@ def load_brands():
     return brands
 
 
+CAT_JA = {"japanese-whisky": "ジャパニーズウイスキー", "scotch-whisky": "スコッチウイスキー"}
+
+CAT_JA = {"japanese-whisky": "ジャパニーズウイスキー", "scotch-whisky": "スコッチウイスキー"}
+
 H1_PATTERNS = [
-    "{pref}で{brand}を売却・査定する完全ガイド",
+    "{pref}で{brand}を売却・査定する際のガイド",
     "{pref}の{brand}市場相場と業者比較",
     "{brand}を{pref}で売る — 業者選びと相見積もりのコツ",
     "{pref}エリア対応の{brand}買取ガイド",
     "{brand}市場相場と業者比較【{pref}最新版】",
     "{brand}を{pref}で高く売る方法|相場・業者・査定のポイント",
     "{pref}対応|{brand}の買取査定・市場相場と業者選定",
-    "【{pref}】{brand}を売るなら知っておきたい業者比較と相場",
+    "【{pref}】{brand}の売却に向けた業者比較と相場",
     "{brand}の買取相場と{pref}対応業者の選び方",
-    "{pref}で{brand}を最高値で売却するための業者選定ガイド",
+    "{pref}で{brand}を高く売却するための業者選定ガイド",
 ]
 
 INTRO_PATTERNS = [
-    "{pref}（人口{pop}、{households}、主要都市: {cities}）で{brand}を売却したい方へ。本ページでは、{pref}における{brand}の **市場相場（Yahoo中央値）**・地元対応業者・複数業者で比較する手順を解説します。{pref}の{industries}を背景に、ウイスキー二次流通需要も活発です。",
-    "{brand}を{pref}で査定に出したい方のためのガイドです。{pref}には{pop}{households}が暮らし、主要都市は{cities}。{region}地方を代表する経済圏（県内総生産 約{gdp_label}）で、ウイスキー買取の需要も活発です。",
-    "「{pref}で{brand}を売りたい」という方のためのガイドです。{pref}は{region}地方の中核（人口{pop}、{households}、{cities}が主要都市）で、ウイスキー専門業者・大手総合業者の両方が出張・店頭・宅配で対応しています。1人あたり県民所得 {income} を背景に、富裕層・コレクター層の二次流通市場も成熟しています。",
-    "{brand}の買取を{pref}で検討中の方へ。{pop}が居住する{pref}（{cities}、{households}）には、地域密着業者と全国大手の両方が対応しており、相見積もりで高値が出やすい環境です。{pref}の酒類消費は{alcohol_rank}で、洋酒市場も活発。本ページでは Yahoo中央値ベースの市場相場と、3業者への参考リンクを掲載しています。",
-    "本ページは{pref}における{brand}の業者査定ガイドです。市場相場は Yahoo Auctions 過去180日の落札データ中央値（実勢データ）を使用し、業者買取額は3業者の公式ページへ直リンクして比較できる構成です。{pref}は{industries}を主要産業に持ち、可処分所得水準と相まって洋酒コレクター需要も一定規模あります。",
-    "{pref}（{region}地方・人口{pop}）で{brand}を売る方のための業者比較ガイドです。県内には酒類小売業免許場が{retail_stores}あり、{cities}を中心に出張・店頭・宅配の各方式で査定が受けられます。{climate}という気候特性も保管・査定時の参考にしてください。",
-    "{brand}を{pref}で査定・売却したい方へ。{pref}は1人あたり県民所得 {income}・県内総生産 約{gdp_label} の経済圏で、ウイスキー専門業者と大手総合業者の両方が出張・店頭・宅配で対応しています。本ページでは市場相場（Yahoo中央値）と3業者参考リンクを掲載。",
-    "{pref}（{cities}を中心とした{households}・{pop}）で {brand} を売る人のための完全ガイドです。{region}地方の経済圏では、酒類消費{alcohol_rank}を背景に二次流通市場も整っています。本ページの市場相場は Yahoo Auctions 中央値ベースで、各業者の最新査定額は3業者ページから直接ご確認いただけます。",
-    "「{pref}で{brand}は高く売れる？」という疑問にお答えします。{pref}は{industries}が主要産業、人口{pop}・{households}の経済圏で、{cities}を中心に酒類小売店約{retail_stores}が分布しています。専門業者・総合業者の出張査定が活発で、相見積もりがしやすい環境です。",
-    "{brand}を{pref}で売却検討の方へ。{pref}（{region}地方、1人あたり県民所得 {income}）には、ウイスキー専門業者（LINXAS等）と大手総合業者（バイセル・福ちゃん）が対応しています。{climate}という気候特性も{brand}の保管・査定の観点で関連します。本ページでは市場相場と業者選定ポイントを整理。",
+    "{pref}（人口{pop}、{households}、主要都市: {cities}）で{brand}の売却を検討している方向けのガイドです。本ページでは、{pref}における{brand}の **市場相場（Yahoo中央値）**・地元対応業者・複数業者で比較する手順を解説します。{pref}は{industries}を主要産業とする地域で、ウイスキーの二次流通の需要もあります。",
+    "{brand}を{pref}で査定に出したい方のためのガイドです。{pref}の人口は{pop}（{households}）で、主要都市は{cities}です。{region}地方の主要な経済圏（県内総生産 約{gdp_label}）で、ウイスキー買取の需要もあります。",
+    "「{pref}で{brand}を売りたい」という方のためのガイドです。{pref}は{region}地方の中核となる地域（人口{pop}、{households}、主要都市は{cities}）で、ウイスキー専門業者・大手総合業者の両方が出張・店頭・宅配で対応しています。1人あたり県民所得は{income}です。",
+    "{pref}で{brand}の買取を検討している方向けのガイドです。人口{pop}の{pref}（{cities}、{households}）では、地域密着の業者と全国対応の大手の両方が買取に対応しており、相見積もりを取りやすい環境です。{pref}の酒類消費は{alcohol_rank}です。本ページでは、Yahoo中央値にもとづく市場相場と、3業者への参考リンクを掲載しています。",
+    "本ページは{pref}における{brand}の業者査定ガイドです。市場相場は Yahoo Auctions 過去180日の落札データ中央値（実勢データ）を使用し、業者買取額は3業者の公式ページへ直リンクして比較できる構成です。{pref}は{industries}を主要産業とする地域です。",
+    "{pref}（{region}地方・人口{pop}）で{brand}を売却する方向けの業者比較ガイドです。県内には酒類小売業免許場が{retail_stores}あり、{cities}を中心に出張・店頭・宅配の各方式で査定が受けられます。気候特性（{climate}）も、保管・査定時の参考としてご確認ください。",
+    "{pref}で{brand}の査定・売却を検討している方向けのガイドです。{pref}は1人あたり県民所得 {income}・県内総生産 約{gdp_label} の経済圏で、ウイスキー専門業者と大手総合業者の両方が出張・店頭・宅配で対応しています。本ページでは、市場相場（Yahoo中央値）と3業者への参考リンクを掲載しています。",
+    "{pref}（{cities}を中心とした{households}・人口{pop}）で{brand}を売却する方向けのガイドです。{pref}の酒類消費は{alcohol_rank}です。本ページの市場相場は Yahoo Auctions 中央値ベースで、各業者の最新査定額は3業者ページから直接ご確認いただけます。",
+    "{pref}で{brand}を売却する際の相場と業者の選び方を解説します。{pref}は{industries}を主要産業とする、人口{pop}・{households}の地域で、{cities}を中心に酒類小売業の免許場が{retail_stores}あります。専門業者・総合業者が出張査定に対応しており、相見積もりを取りやすい環境です。",
+    "{pref}で{brand}の売却を検討している方向けのガイドです。{pref}（{region}地方、1人あたり県民所得 {income}）では、ウイスキー専門業者（LINXAS等）と大手総合業者（バイセル・福ちゃん）が買取に対応しています。気候特性（{climate}）は、{brand}の保管・査定にも関係します。本ページでは、市場相場と業者選定のポイントを整理しています。",
 ]
 
 
@@ -92,7 +96,7 @@ def hero_path(slug: str) -> str:
 
 def fmt(n):
     if n is None:
-        return "市場相場データ蓄積中"
+        return "市場相場データ集計中"
     return f"¥{n:,}"
 
 
@@ -108,7 +112,7 @@ def build_page(brand: dict, pref_slug: str) -> str:
     market_label = fmt(median) if sufficient else "現在集計中"
     median_str = (
         f"{fmt(median)}（Yahoo Auctions 過去180日の落札中央値、サンプル数 n={b['yahoo_n']}、取得日 {b['yahoo_date']}）"
-        if sufficient else f"現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません（取得日 {b['yahoo_date']}、サンプル数 n={b['yahoo_n']}）"
+        if sufficient else f"過去180日の落札データが20件に満たないため、市場相場の中央値は掲載していません（取得日 {b['yahoo_date']}、サンプル数 n={b['yahoo_n']}）"
     )
 
     pe = PREFECTURES_EXTRA.get(pref_slug, {})
@@ -139,7 +143,7 @@ def build_page(brand: dict, pref_slug: str) -> str:
         description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？市場相場 {market_label}（Yahoo Auctions 過去180日中央値）、{p['region']}地方の地元業者と3業者参考リンクを掲載。"
     else:
         title = f"【2026年最新】{p['name_ja']}で{b['name_ja']}を売る｜業者比較・買取査定ガイド"
-        description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？{p['region']}地方の地元業者と3業者参考リンクを掲載。市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。"
+        description = f"{p['name_ja']}（{p['cities']}）で{b['name_ja']}を売却するなら？{p['region']}地方の地元業者と3業者参考リンクを掲載。市場相場は集計中です。最新の査定額は各業者にご確認ください。"
 
     state_rows_html = "".join(
         f"<tr><td>{label}</td><td>{coef}</td></tr>"
@@ -165,15 +169,15 @@ def build_page(brand: dict, pref_slug: str) -> str:
         ),
         (
             f"{p['name_ja']}の{b['name_ja']}市場相場は他県と差がありますか？",
-            f"市場相場（Yahoo中央値）は全国共通ですが、業者買取額は地域や業者で異なります。{b['name_ja']}の現在の市場相場は {market_label}（Yahoo Auctions 中央値）。実際の業者査定は LINXAS / バイセル / 福ちゃん 各社ページでご確認ください。",
+            f"市場相場（Yahoo中央値）は全国共通ですが、業者買取額は地域や業者で異なります。{b['name_ja']}の現在の市場相場は {market_label}（Yahoo Auctions 中央値）です。実際の業者の査定額は、LINXAS / バイセル / 福ちゃん の各社ページでご確認ください。",
         ),
         (
             f"{p['name_ja']}の店頭買取で{b['name_ja']}は売れますか？",
-            f"はい、{p['cities']}を中心に専門店・お酒買取店で店頭買取可能です。{b['name_ja']}は{b['rarity']}クラスの銘柄のため、事前予約・専門査定士の同行を推奨します。",
+            f"はい、{p['cities']}を中心に、専門店・お酒の買取店で店頭買取を受けられます。高額なボトルの場合は、事前予約のうえ、専門の査定士による査定を受けることをおすすめします。",
         ),
         (
-            f"{b['name_ja']}を{p['name_ja']}で売るベストタイミングは？",
-            f"年末年始・お中元シーズン（11〜12月、6〜7月）が高値傾向。{p['region']}地方の業者は需要期に査定額が10〜15%上昇する傾向があります。早めの相見積もり推奨。",
+            f"{b['name_ja']}を{p['name_ja']}で売る時期はいつがよいですか？",
+            f"年末年始・お中元の時期（11〜12月、6〜7月）は高値の傾向があります。{p['region']}地方の業者は、需要期に査定額が10〜15%上昇する傾向があります。早めに相見積もりを取ることをおすすめします。",
         ),
     ]
 
@@ -266,8 +270,8 @@ export default function Page() {{
         <article className="prose">
           <div className="flex flex-wrap gap-2 mb-3 not-prose">
             <span className="bg-amber/15 text-amber-dark text-xs font-bold px-3 py-1 rounded-full">{p['region']}・{p['name_ja']}</span>
-            <span className="bg-burgundy/15 text-burgundy text-xs font-bold px-3 py-1 rounded-full">{b['category']}</span>
-            <span className="bg-amber/15 text-amber-dark text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
+            <span className="bg-burgundy/15 text-burgundy text-xs font-bold px-3 py-1 rounded-full">{CAT_JA.get(b['category'], b['category'])}</span>
+            <span className="bg-amber/15 text-amber-dark text-xs font-bold px-3 py-1 rounded-full">2026年版</span>
           </div>
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{h1}</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: {b['yahoo_date']} / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
@@ -276,8 +280,9 @@ export default function Page() {{
 
           <h2>1. {p['name_ja']}における{b['name_ja']}の市場概況</h2>
           <p>{intro}</p>
-          <p>{p['demand']}。そのため{b['name_ja']}のような{b['category']}カテゴリの銘柄も二次流通が活発で、複数の買取業者が出張・店頭・宅配で対応しています。</p>
-          <p>{p['name_ja']}には<strong>地域密着の専門業者</strong>と<strong>全国対応の大手</strong>の両方があるため、複数業者で見積もりを比較できる環境です。</p>
+          <p><strong>地域の市場の特徴</strong>: {p['demand']}</p>
+          <p>{b['name_ja']}のような銘柄は二次流通が活発で、複数の買取業者が出張・店頭・宅配で対応しています。</p>
+          <p>{p['name_ja']}には<strong>地域密着の専門業者</strong>と<strong>全国対応の大手</strong>の両方があるため、複数の業者で見積もりを比較できます。</p>
 
           <h2>2. {b['name_ja']}の市場相場（Yahoo中央値）</h2>
           <p>{b['name_ja']}の市場相場は<strong>{market_label}</strong>です（{median_str}）。{b['description']}</p>
@@ -297,7 +302,7 @@ export default function Page() {{
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※流通ステータスや後継品情報は2026年5月時点の公式情報に基づきます。海外オークション直近落札は参照時点のものであり、最新の市況は各オークションサイト公式で確認してください。</p>
+          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年5月時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
 
           <h2>3. 状態別の業界目安（パーセンテージ）</h2>
           <p>市場相場（Yahoo中央値）を基準（100%）とした業界一般の目安です。実際の査定額は業者により異なるため、最終的な金額は各業者ページでご確認ください。</p>
@@ -308,8 +313,8 @@ export default function Page() {{
             </table>
           </div>
 
-          <h2>4. {p['name_ja']}のウイスキー買取市場の特性（経済データから読み解く）</h2>
-          <p>{p['name_ja']}は{p['region']}地方に位置し、人口{p['population']}・{pe.get("households", "—")}を擁する経済圏です。ウイスキー二次流通の活発度を、公的統計データから読み解きます。</p>
+          <h2>4. {p['name_ja']}のウイスキー買取市場の特性（経済データ）</h2>
+          <p>{p['name_ja']}は{p['region']}地方に位置し、人口{p['population']}・{pe.get("households", "—")}の地域です。ウイスキーの二次流通に関係する公的統計データは、以下のとおりです。</p>
           <div className="table-wrapper not-prose">
             <table className="text-sm">
               <tbody>
@@ -323,61 +328,61 @@ export default function Page() {{
               </tbody>
             </table>
           </div>
-          <p>{p['name_ja']}の経済規模・所得水準・酒類消費動向は、ウイスキー二次流通市場の活発度を示す重要な指標です。<strong>{pe.get("alcohol_consumption_rank", "全国水準")}</strong>という酒類消費水準と、<strong>{pe.get("major_industries", "多様な産業基盤")}</strong>を主要産業に持つ経済構造から、{b['name_ja']}のような{b['category']}カテゴリの銘柄も安定した買取需要があると考えられます。</p>
+          <p>経済規模・所得水準・酒類消費の動向は、ウイスキーの二次流通市場の活発さを示す指標の一つです。{p['name_ja']}の酒類消費は<strong>{pe.get("alcohol_consumption_rank", "全国水準")}</strong>、主要産業は<strong>{pe.get("major_industries", "多様な産業基盤")}</strong>です。</p>
 
           <h2>5. {p['name_ja']}で{b['name_ja']}を売る — 業者の選び方と査定取得先</h2>
-          <p>{p['name_ja']}で{b['name_ja']}を売却する際の業者は大きく2タイプに分かれます。最高値を引き出すには、両方から相見積もりを取るのが鉄則です。</p>
+          <p>{p['name_ja']}で{b['name_ja']}を売却する際の業者は、大きく2つのタイプに分かれます。両方のタイプから相見積もりを取ることをおすすめします。</p>
 
           <h3 className="!mt-6">5-1. {p['name_ja']}の地元・対応買取業者</h3>
-          <p>{p['region']}地方を出張・店頭・宅配でカバーしている業者です。地域密着の専門知識と、足の早い対応が強み。{pe.get("main_stations", "県内主要駅")}周辺へのアクセスにも対応するケースが多いです。</p>
+          <p>{p['region']}地方で出張・店頭・宅配に対応している業者です。地域に密着した専門知識と、迅速な対応が強みです。{pe.get("main_stations", "県内主要駅")}周辺にも対応している場合が多くあります。</p>
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
               <tbody>{dealer_rows}</tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※対応状況は変動する場合があります。事前に公式サイトで確認するか、複数業者へ同時に査定依頼を出すのがおすすめです。</p>
+          <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>
 
           <h3 className="!mt-6">5-2. 全国対応の主要3業者（最新査定額の取得先）</h3>
-          <p>本サイトでは買取額の固定値は提示せず、各業者の最新の査定額・キャンペーン情報を以下の公式ページから直接確認できます。地元業者と合わせて、最低 3〜5 社で相見積もりするのが推奨です。</p>
+          <p>当サイトでは買取額の固定値は掲載していません。各業者の最新の査定額・キャンペーン情報は、以下の公式ページでご確認いただけます。地域の業者とあわせて、3〜5社で相見積もりを取ることをおすすめします。</p>
           <ul>
-            <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店。{b['name_ja']}のような{b['rarity']}クラス銘柄の参考価格を公開</li>
-            <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> — 東証グロース上場、出張・店頭・宅配の3チャネル対応。出張は離島を除き{p['name_ja']}全域に対応</li>
-            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 総合買取の大手、お酒査定にも対応。出張・宅配・店舗の3方式（出張の対応エリアは公式サイトに記載がないため申込時に確認）</li>
+            <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店です</li>
+            <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> — 東証グロース上場企業が運営し、出張・店頭・宅配の3つの方式に対応しています。出張は離島を除き{p['name_ja']}全域に対応しています</li>
+            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 総合買取の大手で、お酒の査定にも対応しています。出張・宅配・店舗の3つの方式があります（出張の対応エリアは公式サイトに記載がないため、申込時にご確認ください）</li>
             
           </ul>
 
           <h2>6. {b['name_ja']}の保管と輸送 — {p['name_ja']}の気候特性を踏まえて</h2>
-          <p>{p['name_ja']}は<strong>{pe.get("climate_type", "—")}</strong>という気候特性があり、{b['name_ja']}の保管・輸送時には以下に留意してください。</p>
+          <p>{p['name_ja']}の気候特性は「<strong>{pe.get("climate_type", "—")}</strong>」（気象庁の気候区分）です。{b['name_ja']}の保管・輸送の際は、以下の点にご留意ください。</p>
           <p><strong>保管時の基本</strong>: {be.get("storage_advice", "アルコール度数43%前後。直射日光・高温多湿を避け、15-20℃の冷暗所で縦置き保管。")}</p>
           <ul>
-            <li><strong>温度管理</strong>: {p['name_ja']}の{pe.get("climate_type", "気候")}を踏まえ、夏季は冷暗所、冬季は凍結を避ける（特に北日本・日本海側）</li>
-            <li><strong>湿度</strong>: 湿度50-70%が理想。湿度が低すぎるとコルク乾燥でリーカー化、高すぎるとラベル劣化</li>
-            <li><strong>振動回避</strong>: 縦置き保管が基本。横置きはコルク劣化を早めるため非推奨</li>
-            <li><strong>輸送時</strong>: 宅配買取の場合、緩衝材を十分に。割れた場合は買取不可になるため、業者指定の梱包方法に従う</li>
-            <li><strong>{p['name_ja']}特有の留意点</strong>: {pe.get("climate_type", "—")}の地域では、季節の温度差が大きい時期の発送は避ける（春・秋の安定期推奨）</li>
+            <li><strong>温度管理</strong>: 夏季は冷暗所で保管し、冬季は凍結を避けてください（特に北日本・日本海側）</li>
+            <li><strong>湿度</strong>: 湿度50〜70%が適しています。湿度が低すぎるとコルクが乾燥して液漏れの原因となり、高すぎるとラベルが劣化します</li>
+            <li><strong>振動の回避</strong>: 縦置きでの保管が基本です。横置きはコルクの劣化を早めるため、おすすめしません</li>
+            <li><strong>輸送時</strong>: 宅配買取の場合は、緩衝材を十分にご使用ください。破損した場合は買取不可となるため、業者が指定する梱包方法に従ってください</li>
+            <li><strong>発送の時期</strong>: 季節による温度差が大きい時期の発送は避け、春・秋の気候が安定した時期の発送をおすすめします</li>
           </ul>
 
           <h2>7. {b['name_ja']}の最新オークション動向と査定への影響</h2>
-          <p>{b['name_ja']}の市場価値は、国内市場（Yahoo Auctions）と海外オークションの両方で形成されます。直近の動向を踏まえて売却タイミングを判断しましょう。</p>
+          <p>{b['name_ja']}の市場価値は、国内市場（Yahoo Auctions）と海外オークションの両方で形成されます。直近の動向を踏まえて、売却の時期をご判断ください。</p>
           <ul>
             <li><strong>国内市場（Yahoo Auctions 過去180日中央値）</strong>: {market_label}（{median_str}）</li>
             <li><strong>海外オークション直近</strong>: {be.get("recent_overseas_auction", "情報なし")}</li>
             <li><strong>コレクション価値</strong>: {be.get("collectibility_note", "—")}</li>
             <li><strong>流通ステータス</strong>: {be.get("status", "—")}（{be.get("first_release_year", "—")}発売）</li>
           </ul>
-          <p>海外オークションで高値が付いた直後は、国内業者の買取査定額も上昇する傾向があります。逆に下落局面では業者の買取意欲も減退するため、上昇トレンドのタイミングで複数業者の相見積もりを取るのが理想です。</p>
+          <p>海外オークションで高値が付いた直後は、国内の業者の買取査定額も上昇する傾向があります。一方、下落の局面では業者の買取意欲も低下するため、上昇傾向の時期に複数の業者で相見積もりを取ることをおすすめします。</p>
 
-          <h2>8. {p['name_ja']}で{b['name_ja']}を高く売る5つのコツ</h2>
+          <h2>8. {p['name_ja']}で{b['name_ja']}を高く売る3つのポイント</h2>
           <ol>
             <li>
-              <strong>複数業者で相見積もり</strong>: 最低3社、できれば5社（地元業者+全国業者）の見積もりで最高値を選ぶことが鉄則です。同じ{b['name_ja']}でも業者ごとに在庫状況・キャンペーン・査定基準が異なり、業界目安として<strong>10〜20%の査定差</strong>が出ることは珍しくありません。{p['name_ja']}は{pe.get("alcohol_consumption_rank", "全国水準")}の酒類消費圏で、業者間の競争も活発なため、相見積もりによる引き上げ効果が出やすい地域です。同時査定（同日に複数業者へ依頼）で各社の本気度を引き出すと、より高い金額が提示される傾向があります。
+              <strong>複数の業者で相見積もりを取る</strong>: 3社以上、できれば5社（地域の業者と全国対応の業者）から見積もりを取り、比較することをおすすめします。同じ{b['name_ja']}でも業者ごとに在庫状況・キャンペーン・査定基準が異なり、業界の目安として<strong>10〜20%の査定差</strong>が生じる場合があります。同じ日に複数の業者へ査定を依頼すると、比較しやすくなります。
             </li>
             <li>
-              <strong>付属品を揃える</strong>: 外箱・冊子・カートン・保証書・ギャランティカードを揃えることで、業界目安として<strong>市場相場の10〜20%上昇</strong>します。特に{b['name_ja']}（{b['rarity']}クラス）のような銘柄では、付属品の有無が査定額に大きく影響します。発売当時の包装紙やコルク表面の状態、ボトルナンバーの読み取り可否も評価対象になるため、購入時の状態を可能な限り保持しておきましょう。{be.get("collectibility_note", "")}のような銘柄では、特に状態維持が査定額の差を生みます。
+              <strong>付属品を揃える</strong>: 外箱・冊子・カートン・保証書・ギャランティカードを揃えることで、業界の目安として<strong>市場相場の10〜20%</strong>査定額が上がります。{b['name_ja']}のような銘柄では、付属品の有無が査定額に大きく影響します。発売当時の包装紙やコルク表面の状態、ボトルナンバーの読み取りの可否も評価の対象となるため、購入時の状態をできる限り保ってください。
             </li>
             <li>
-              <strong>{p['region']}地方の需要期に売る</strong>: 年末年始（11〜12月）、お中元・お歳暮シーズン（6〜7月、11〜12月）、新生活前（2〜3月）が高値傾向です。これらの時期は贈答需要やコレクター需要が高まり、業者側の仕入れ意欲も上昇します。{p['name_ja']}では{pe.get("major_industries", "経済活動")}を背景に、年末年始と春先の需要期で査定額が<strong>10〜15%上昇</strong>する傾向があります。逆に夏場（8〜9月）や年明け（1月下旬〜2月）は需要が落ち着き、査定額もやや下がる傾向。{b['name_ja']}が{be.get("status", "")}の場合、海外オークションの動向も売却タイミングの参考になります。
+              <strong>需要期に売る</strong>: 年末年始（11〜12月）、お中元・お歳暮の時期（6〜7月、11〜12月）、新生活の前（2〜3月）は高値の傾向があります。これらの時期は贈答需要やコレクター需要が高まり、業者の仕入れ意欲も高まります。年末年始と春先の需要期には、査定額が<strong>10〜15%上昇</strong>する傾向があります。一方、夏場（8〜9月）や年明け（1月下旬〜2月）は需要が落ち着き、査定額もやや下がる傾向があります。海外オークションの動向も、売却の時期の参考になります。
             </li>
             
             
@@ -385,13 +390,13 @@ export default function Page() {{
 
           <h2>9. {p['name_ja']}の{b['name_ja']}買取で注意すべき点</h2>
           <ul>
-            <li><strong>身分証必須</strong>: 古物営業法により本人確認が必要（運転免許証・マイナンバーカード等）。出張査定でも事前に身分証の準備を。住所・氏名・生年月日が確認できる公的書類が必須で、健康保険証など顔写真がない書類の場合は補助書類（公共料金請求書等）が必要なケースもあります。</li>
-            <li><strong>未成年（18歳未満）は売却不可</strong>: 親権者の同意も不可。古物営業法により、未成年からの買取は厳格に禁止されています。所有者が未成年の場合、相続・贈与の手続きを経て成人が売却する形式を取る必要があります。</li>
+            <li><strong>本人確認書類が必要です</strong>: 古物営業法により、本人確認が必要です（運転免許証・マイナンバーカード等）。出張査定の場合も、事前に本人確認書類をご準備ください。住所・氏名・生年月日が確認できる公的書類が必要で、健康保険証など顔写真のない書類の場合は、補助書類（公共料金の請求書等）が必要な場合もあります。</li>
+            <li><strong>未成年（18歳未満）の方は売却できません</strong>: 親権者の同意がある場合も同様です。古物営業法により、未成年からの買取は厳格に禁止されています。所有者が未成年の場合は、相続・贈与の手続きを経て、成人が売却する必要があります。</li>
             
-            <li><strong>輸送リスク</strong>: 宅配買取の場合、緩衝材を十分に巻き、業者指定の梱包方法に従いましょう。{p['name_ja']}は{pe.get("climate_type", "気候特性")}があり、季節によっては輸送中の温度変化が品質に影響する場合があります。可能な限り温度変化の小さい時期（春・秋）の発送が理想です。輸送中の破損は買取不可になることが多く、業者の保険対象外のケースも。</li>
+            <li><strong>輸送のリスク</strong>: 宅配買取の場合は、緩衝材を十分に使用し、業者が指定する梱包方法に従ってください。季節によっては、輸送中の温度変化が品質に影響する場合があります。できる限り、温度変化の小さい時期（春・秋）の発送をおすすめします。輸送中の破損は買取不可となる場合が多く、業者の保険の対象外となる場合もあります。</li>
             
-            <li><strong>査定額の根拠を確認</strong>: 業者から提示された査定額の根拠（市場相場・在庫状況・状態評価）を必ず確認しましょう。透明性のある業者ほど、根拠を明確に説明します。{b['name_ja']}の市場相場（Yahoo中央値 {market_label}）と比較し、提示額が市場相場の60〜80%レンジから大きく外れる場合は、その理由を確認することが重要です。</li>
-            <li><strong>キャンセル・取消の取り扱い</strong>: 査定後すぐの即決を急かす業者は要注意。古物営業法により、買取後8日間のクーリングオフ（条件付き）が認められる場合があります。査定額に納得できない場合は、その場で断る勇気も大切。{p['name_ja']}内では業者間の競争が活発なため、即決を強要されることは少ないですが、念のため留意しましょう。</li>
+            <li><strong>査定額の根拠の確認</strong>: 業者から提示された査定額の根拠（市場相場・在庫状況・状態評価）を必ずご確認ください。透明性のある業者ほど、根拠を明確に説明する傾向があります。{b['name_ja']}の市場相場（Yahoo中央値 {market_label}）と比較し、提示額が市場相場の60〜80%の範囲から大きく外れる場合は、その理由をご確認ください。</li>
+            <li><strong>キャンセル・取消の取り扱い</strong>: 査定後すぐに契約を急がせる業者にはご注意ください。出張買取（訪問購入）の場合は、特定商取引法により8日以内のクーリング・オフが認められています（店頭への持ち込みは対象外です）。査定額に納得できない場合は、その場でお断りいただいて問題ありません。</li>
           </ul>
 
           <h2>10. よくある質問</h2>
@@ -406,7 +411,7 @@ export default function Page() {{
             </ul>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 {b['yahoo_date']}）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 {b['yahoo_date']}）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

@@ -120,7 +120,7 @@ BRANDS_EXTRA = {
         "first_release_year": "1994年",
         "distillery_official_url": "https://house.suntory.com/hibiki-whisky/hibiki-21-year-old",
         "flavor_profile": "ドライフルーツ、蜂蜜、サンダルウッド。複雑で深いシェリー香、長く優雅な余韻",
-        "storage_advice": "アルコール度数43%。長期熟成・希少品。温度15-18℃・湿度50-60%、振動・光遮断を徹底",
+        "storage_advice": "アルコール度数43%。長期熟成・希少品。温度15-18℃・湿度50-60%、振動・光を避けて保管",
         "recent_overseas_auction": "情報なし（個別ロット差大、Bonhams出品履歴あり）",
         "collectibility_note": "ISC・WWA など世界的賞の常連。投資・贈答双方の需要高",
     },
@@ -307,7 +307,7 @@ BRANDS_EXTRA = {
         "flavor_profile": "羽生蒸溜所原酒のシリーズ。ボトルごとに樽違いで個性が異なる。シェリー、バーボン、ミズナラ等多様な樽香",
         "storage_advice": "希少品、温湿度管理セラーで保管。コルク状態を年1回確認、振動・光を完全遮断",
         "recent_overseas_auction": "フルセット US$1.5M超 (Bonhams Hong Kong 2019過去落札最高値)",
-        "collectibility_note": "54本フルセットはコレクター垂涎の頂点。Bonhamsで世界最高額の日本ウイスキーセット記録",
+        "collectibility_note": "54本フルセットはコレクターの需要が特に高いセットです。Bonhamsで世界最高額の日本ウイスキーセット記録",
     },
     "ichirosu-double-distilleries": {
         "status": "限定品（完売）",
@@ -363,7 +363,7 @@ BRANDS_EXTRA = {
         "flavor_profile": "ボトルごとに異なる個性。シェリー、バーボン、ミズナラ、ポート等多様な樽違いで複雑な香味展開",
         "storage_advice": "閉鎖蒸溜所の超希少品、温湿度管理セラー必須。振動・光遮断、コルク状態定期確認",
         "recent_overseas_auction": "フルセット US$1.5M超 (Bonhams Hong Kong 2019、世界記録)",
-        "collectibility_note": "閉鎖蒸溜所原酒のカードシリーズはコレクター垂涎の頂点、ジャパニーズウイスキー最高峰投資対象",
+        "collectibility_note": "閉鎖蒸溜所原酒のカードシリーズはコレクターの需要が特に高く、ジャパニーズウイスキーの代表的な投資対象",
     },
     # ==========================================================================
     # The Macallan
@@ -446,8 +446,8 @@ BRANDS_EXTRA = {
         "successor_product": "なし（一回限り、1964年原酒は枯渇）",
         "first_release_year": "1993年（1st Edition 29年）",
         "distillery_official_url": "https://www.bowmore.com/",
-        "flavor_profile": "1964年蒸留の伝説的原酒、オロロソ・シェリー樽長期熟成。極めて濃密なドライフルーツ、ダークチョコレート、トロピカルフルーツ、極長い余韻",
-        "storage_advice": "アルコール度数42-49%。伝説的希少品、専用セラー必須。振動・光遮断、コルク状態を年1回確認",
+        "flavor_profile": "1964年蒸留の希少な原酒、オロロソ・シェリー樽長期熟成。極めて濃密なドライフルーツ、ダークチョコレート、トロピカルフルーツ、極長い余韻",
+        "storage_advice": "アルコール度数42-49%。希少品のため専用セラーでの保管を推奨。振動・光遮断、コルク状態を年1回確認",
         "recent_overseas_auction": "情報なし（個別ロット差大、出品時概ね£15,000〜£40,000帯、50年Last Caskは£60,000超実績）",
         "collectibility_note": "Bowmore最高峰、1993〜2016年の5回限定リリース。Sotheby's/Bonhams出品実績多数、投資対象として極上位",
     },
@@ -485,7 +485,7 @@ BRANDS_EXTRA = {
         "flavor_profile": "極めて強いピートと薬品香、潮の香り、シェリー樽の甘み、長く深い燻香の余韻",
         "storage_advice": "アルコール度数43-49%（年版による）。長期熟成・高額品、15-18℃の冷暗所・縦置き",
         "recent_overseas_auction": "情報なし（個別ロット差大、出品時概ね£400〜£700帯）",
-        "collectibility_note": "アイラ最強ピートの長期熟成、年版コレクター需要安定",
+        "collectibility_note": "ピートの強いアイラモルトの長期熟成、年版コレクター需要安定",
     },
     # ==========================================================================
     # Ardbeg
@@ -586,7 +586,7 @@ BRANDS_EXTRA = {
         "flavor_profile": "バーボン樽7本＋ミズナラ樽1本由来。若々しい果実香、バニラ、ミズナラの白檀香、3年熟成とは思えない複雑さ",
         "storage_advice": "アルコール度数61.8%（カスクストレングス）。高アルコールで長期保管に強い、15-20℃の冷暗所・縦置き",
         "recent_overseas_auction": "情報なし（個別ロット差大、出品時概ね£10,000〜£20,000帯）",
-        "collectibility_note": "秩父蒸溜所デビュー作、Whisky Advocate Japanese Whisky of the Year 受賞。コレクター垂涎の頂点",
+        "collectibility_note": "秩父蒸溜所デビュー作、Whisky Advocate Japanese Whisky of the Year 受賞。コレクターの需要が特に高い銘柄",
     },
     "mars-komagatake": {
         "status": "現行品",

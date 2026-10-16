@@ -112,13 +112,13 @@ def block(slug, name, yahoo_median, fetched_at):
             f'<p>標準的な700mlボトルの掲示価格は <strong>{lo:,}〜{hi:,}円</strong> で、'
             f'PeatBid が集計しているヤフオク落札中央値 <strong>{yahoo_median:,}円</strong>（取得日 {fetched_at}）の '
             f'<strong>{lo / yahoo_median * 100:.0f}〜{hi / yahoo_median * 100:.0f}%</strong> にあたります。'
-            f'中央値は個人間の落札額、掲示価格は店がその場で買い取る額なので、両方を並べると「店に売るといくらになりそうか」の見当がつきます。</p>'
+            f'中央値は個人間の落札額、掲示価格は店舗が買い取る際の参考額であり、両者を比較することで店舗に売却した場合のおおよその金額を把握できます。</p>'
         )
     note = f'<p>{d["store_note"]}</p>' if d.get("store_note") else ""
     if d.get("kyugata_note"):
         note += f'\n          <p className="text-sm bg-cream/40 border border-amber/30 rounded-lg p-4 not-prose">{d["kyugata_note"]}</p>'
 
-    intro = d.get("store_intro") or f'各店が自社サイトに公開している{name}の参考買取価格を、PeatBid編集部が {checked} に各ページで確認した値です。「店舗側の更新日」は各ページに書かれている価格の更新日です。'
+    intro = d.get("store_intro") or f'各店が自社サイトに公開している{name}の参考買取価格を、PeatBid編集部が {checked} に各ページで確認した値です。「店舗側の更新日」は、各ページに記載されている価格の更新日です。'
     out = f'''
           <h3 id="store-prices">{name}の買取店の掲示価格（店舗別比較・{_ymd(checked)}確認）</h3>
 
@@ -165,8 +165,8 @@ def block(slug, name, yahoo_median, fetched_at):
 '''
     if groups:
         out += f'''
-          <h3 id="store-records">{name}の買取実績（各店の公開分・日付つき）</h3>
-          <p>各店が自社サイトに載せている{name}の買取実績です。実績は「その日にその店で買い取った額」で、ボトルの状態や付属品が揃っているかは店によって書き方が違います（{_ymd(d["checked_at"])}確認）。</p>
+          <h3 id="store-records">{name}の買取実績（各店の公開分・日付付き）</h3>
+          <p>各店が自社サイトに掲載している{name}の買取実績です。実績は、その日にその店舗で買い取った金額であり、ボトルの状態や付属品の有無の記載方法は店舗により異なります（{_ymd(d["checked_at"])}確認）。</p>
 '''
         for r in groups:
             li = "".join(f"<li>{_ymd(dt)}　{item}　<strong>{price}</strong></li>" for dt, item, price in r["items"])
@@ -191,7 +191,7 @@ def block(slug, name, yahoo_median, fetched_at):
             ratio = (
                 f'<p>現在の希望小売価格 {lp["current_ex_tax"]:,}円（税別）は税込 {inc:,}円です。'
                 f'ヤフオク落札中央値 {yahoo_median:,}円 はその <strong>{yahoo_median / inc:.2f}倍</strong>。'
-                f'定価で手に入れたボトルでも、売れば定価を上回る水準で取引されているということです。</p>'
+                f'二次流通では、定価を上回る水準で取引されています。</p>'
             )
         out += f'''
           <h3 id="teika">{name}の定価（メーカー希望小売価格）の推移</h3>
@@ -307,8 +307,8 @@ def sell_extra(slug, name):
     if e:
         li = "".join(f"<li>{_ymd(dt)}　{item}　<strong>{price}</strong></li>" for dt, item, price in e["items"])
         out += f'''
-          <h3 id="akibin">{name}の空き瓶・空箱は売れる？</h3>
-          <p>売れる店があります。{e["store"]}は{name}の空き瓶の買取実績を公開しており、次の{len(e["items"])}件が載っています。</p>
+          <h3 id="akibin">{name}の空き瓶・空箱の買取</h3>
+          <p>空き瓶の買取に対応している店舗があります。{e["store"]}は{name}の空き瓶の買取実績を公開しており、次の{len(e["items"])}件が掲載されています。</p>
           <ul className="text-sm">{li}</ul>
           <p className="text-[11px] text-warm-gray">出典: {_a(e["url"], e["store"] + "の掲載ページ")}（空き瓶の実績をすべて転記・{_ymd(d["checked_at"])}確認）</p>
           <p>{e["daikichi"]}（出典: {_a("https://daikichi-kaitori.jp/column/hibiki30nenkaitori/", "買取大吉")}）</p>
@@ -318,15 +318,15 @@ def sell_extra(slug, name):
         out += f'''
           <h3 id="zeikin">{name}を売ったときの税金</h3>
           <p>国税庁のタックスアンサー {_a(NTA_3105, "No.3105 譲渡所得の対象となる資産と課税方法")} は、「家具、じゅう器、通勤用の自動車、衣服などの生活に通常必要な動産の譲渡による所得」を課税しない所得としたうえで、「ただし、貴金属や宝石、書画、骨とうなどで、1個または1組の価額が30万円を超えるものの譲渡による所得は除きます」としています（令和8年4月1日現在法令等）。</p>
-          <p>ウイスキーがこの「書画、骨とうなど」に当たるかは同ページに書かれていません。ただ、{name}は1本で30万円を超える価格で取引されている（このページの店舗掲示価格・ヤフオク中央値）ため、「生活用品の売却だから非課税」と決めつけず、課税される前提で計算しておくのが安全です。</p>
+          <p>ウイスキーがこの「書画、骨とうなど」に当たるかは、同ページには記載されていません。ただし、{name}は1本で30万円を超える価格で取引されている（本ページの店舗掲示価格・ヤフオク中央値）ため、生活用動産として非課税になると判断せず、課税される前提で計算しておくことをおすすめします。</p>
           <p>課税される場合は総合課税の譲渡所得で、計算は次のとおりです（{_a(NTA_3152, "No.3152 譲渡所得の計算のしかた（総合課税）")}）。</p>
           <ul>
             <li>譲渡所得の金額 ＝ 譲渡価額 −（取得費 ＋ 譲渡費用）− 50万円（特別控除。その年の譲渡益の合計から差し引く）</li>
-            <li>持っていた期間が5年以内なら短期（全額が課税対象）、5年を超えれば長期（半分だけが課税対象）</li>
+            <li>保有期間が5年以内の場合は短期（全額が課税対象）、5年を超える場合は長期（2分の1が課税対象）</li>
           </ul>
-          <p>会社員で給与を1か所から受けている人は、給与所得・退職所得以外の所得の合計が20万円を超えると確定申告が必要です（{_a(NTA_1900, "No.1900 給与所得者で確定申告が必要な人")}）。</p>
-          <p>計算例（仮定の数字）: 定価125,000円（税別・2022年3月まで）の{name}を税込137,500円で買って5年を超えて持ち、530,000円で1本売った（譲渡費用0円）場合、譲渡益は392,500円で、特別控除50万円の範囲に収まるため譲渡所得は0円です。同じ年にほかの高額品も売った場合は合計で判定します。購入時のレシートなど取得費が分かる資料は保管しておいてください。</p>
-          <p>相続したボトルや、繰り返し売買している場合などは扱いが変わることがあります。くわしくは <Link href="/articles/whisky-kaitori-zeikin/" className="text-amber-dark underline hover:text-burgundy">ウイスキー買取の税金</Link> の記事にまとめています。個別の判断は税務署・税理士に確認してください。</p>
+          <p>給与を1か所から受けている会社員の方は、給与所得・退職所得以外の所得の合計が20万円を超えると確定申告が必要です（{_a(NTA_1900, "No.1900 給与所得者で確定申告が必要な人")}）。</p>
+          <p>計算例（仮定の数字）: 定価125,000円（税別・2022年3月まで）の{name}を税込137,500円で買って5年を超えて持ち、530,000円で1本売った（譲渡費用0円）場合、譲渡益は392,500円で、特別控除50万円の範囲に収まるため譲渡所得は0円です。同じ年にほかの高額品も売却した場合は、合計で判定します。購入時のレシートなど、取得費が分かる資料は保管しておいてください。</p>
+          <p>相続したボトルや、繰り返し売買している場合などは、扱いが異なることがあります。詳しくは <Link href="/articles/whisky-kaitori-zeikin/" className="text-amber-dark underline hover:text-burgundy">ウイスキー買取の税金</Link> の記事で解説しています。個別の判断については、税務署・税理士にご確認ください。</p>
 '''
     return out
 
@@ -357,7 +357,7 @@ def page_updated(slug, fetched_at):
 def toc_fake(slug):
     d = get(slug)
     if d and d.get("identify"):
-        return '\n  { id: "edition-check", label: "9-2. どのエディションかの確かめ方" },'
+        return '\n  { id: "edition-check", label: "9-2. エディションの確認方法" },'
     return '\n  { id: "shinkyu", label: "9-2. 新型・旧型の見分け方" },' if d and d.get("shinkyu") else ""
 
 
@@ -433,7 +433,7 @@ def auction_block(slug, name):
         for when, item, res, src, u in a["items"]
     )
     return f'''
-          <h3 id="auction-results">{name}の海外オークション結果（出典つき）</h3>
+          <h3 id="auction-results">{name}の海外オークション結果（出典付き）</h3>
           <p>{a["intro"]}</p>
           <div className="overflow-x-auto my-5 not-prose">
             <table className="w-full text-sm">
@@ -452,7 +452,7 @@ def toc_auction(slug):
 def _identify(name, idf):
     li = "".join(f"<li>{x}</li>" for x in idf["items"])
     return f'''
-          <h3 id="edition-check">{name}はどのエディション？ラベルと箱での確かめ方</h3>
+          <h3 id="edition-check">{name}のエディションの確認方法（ラベルと箱）</h3>
           <p>{idf["intro"]}</p>
           <ul>{li}</ul>
           <p>{idf["caution"]}</p>
@@ -481,9 +481,9 @@ def faq(slug, name):
         return None
     parts = "、".join(f'{s["store"]} {s["price"]}（{s["item"]}・{s["updated"]}更新）' for s in main)
     return (
-        f"{name}の買取価格はお店によって違いますか？",
-        f"違います。{d['checked_at']} に各店の公開ページで確認した掲示価格は、{parts}でした。"
-        f"ボトルの仕様や付属品、店の在庫状況でも変わるため、売る前に複数の店で査定を取って比べてください。",
+        f"{name}の買取価格は店舗によって異なりますか？",
+        f"異なります。{d['checked_at']} に各店の公開ページで確認した掲示価格は、{parts}でした。"
+        f"ボトルの仕様や付属品、店舗の在庫状況によっても変わるため、売却前に複数の店舗で査定を受けて比較してください。",
     )
 
 

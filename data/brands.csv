@@ -23,7 +23,7 @@ yoichi-20,余市20年,Yoichi 20 Year,japanese-whisky,余市蒸溜所,20,700,52,u
 miyagikyo-nv,宮城峡ノンエイジ,Miyagikyo NV,japanese-whisky,宮城峡蒸溜所,0,700,45,common,17000,ニッカ宮城峡。仙台ふもとの蒸溜所,,,要詳細査定,no-reliable-source,,no-linxas,false,,2,2026-10-12,宮城峡 ノンエイジ 700ml
 miyagikyo-12,宮城峡12年,Miyagikyo 12 Year,japanese-whisky,宮城峡蒸溜所,12,700,45,mid,23000,宮城峡12年,34655,63,要詳細査定,no-reliable-source,,no-linxas,false,37398,22,2026-10-12,宮城峡12年 700ml
 miyagikyo-15,宮城峡15年,Miyagikyo 15 Year,japanese-whisky,宮城峡蒸溜所,15,700,45,high,33000,宮城峡15年。希少,50156,27,要詳細査定,no-reliable-source,,no-linxas,false,64899,24,2026-10-12,宮城峡15年 700ml
-ichirosu-card,イチローズモルト カードシリーズ,Ichiros Malt Card Series,japanese-whisky,ベンチャーウイスキー,0,700,46,ultra-rare,15000000,イチローズモルト カードシリーズ54本フルセット。コレクター垂涎,,,要詳細査定,no-reliable-source,,no-linxas,false,,22,2026-10-12,イチローズモルト カード 700ml
+ichirosu-card,イチローズモルト カードシリーズ,Ichiros Malt Card Series,japanese-whisky,ベンチャーウイスキー,0,700,46,ultra-rare,15000000,イチローズモルト カードシリーズ54本フルセット。コレクターの需要が高い銘柄,,,要詳細査定,no-reliable-source,,no-linxas,false,,22,2026-10-12,イチローズモルト カード 700ml
 ichirosu-double-distilleries,イチローズモルト ダブルディスティラリーズ,Ichiros Malt Double Distilleries,japanese-whisky,ベンチャーウイスキー,0,700,46,high,120000,イチローズモルト 羽生×秩父ブレンド,,,要詳細査定,no-reliable-source,,no-linxas,false,8500,254,2026-10-12,イチローズモルト ダブルディスティラリーズ 700ml
 ichirosu-mwr,イチローズモルト MWR,Ichiros Malt MWR,japanese-whisky,ベンチャーウイスキー,0,700,46,high,80000,イチローズモルト Mizunara Wood Reserve,,,要詳細査定,no-reliable-source,,no-linxas,false,7810,278,2026-10-12,イチローズモルト MWR 700ml
 karuizawa-12,軽井沢12年,Karuizawa 12 Year,japanese-whisky,軽井沢蒸溜所,12,700,40,ultra-rare,105000,軽井沢蒸溜所はすでに閉鎖。残存ボトルがプレミア化,,,105000,linxas-verified,105000,variants=2,true,76975,80,2026-10-12,軽井沢 12年 ウイスキー 700ml
@@ -36,10 +36,10 @@ macallan-30,マッカラン30年,Macallan 30 Year,scotch-whisky,スペイサイ�
 macallan-fine-rare,マッカラン ファイン&レア,Macallan Fine & Rare,scotch-whisky,スペイサイド,0,700,43,ultra-rare,5000000,マッカラン ファイン&レアシリーズ,,,要詳細査定,no-reliable-source,,no-linxas,false,,14,2026-10-12,マッカラン Fine Rare 700ml
 bowmore-18,ボウモア18年,Bowmore 18 Year,scotch-whisky,アイラ,18,700,43,mid,7000,ボウモア18年。アイラのスモーキー長期熟成,58955,160,7000,linxas-verified,7000,variants=1,true,10890,224,2026-10-12,ボウモア18年 700ml
 bowmore-25,ボウモア25年,Bowmore 25 Year,scotch-whisky,アイラ,25,700,43,high,33000,ボウモア25年,106427,138,33000,linxas-verified,33000,variants=1,true,71999,48,2026-10-12,ボウモア25年 700ml
-bowmore-blackbowmore,ブラックボウモア,Black Bowmore,scotch-whisky,アイラ,0,700,49,ultra-rare,1500000,ブラックボウモア。1964年蒸留の伝説的ボトル,,,1500000,linxas-verified,1500000,variants=1,true,,82,2026-10-12,ブラックボウモア 700ml
+bowmore-blackbowmore,ブラックボウモア,Black Bowmore,scotch-whisky,アイラ,0,700,49,ultra-rare,1500000,ブラックボウモア。1964年蒸留の希少ボトル,,,1500000,linxas-verified,1500000,variants=1,true,,82,2026-10-12,ブラックボウモア 700ml
 springbank-15,スプリングバンク15年,Springbank 15 Year,scotch-whisky,キャンベルタウン,15,700,46,mid,32000,スプリングバンク15年。クラフトな伝統製法,47452,122,32000,linxas-verified,32000,variants=1,true,35000,138,2026-10-12,スプリングバンク15年 700ml
 springbank-21,スプリングバンク21年,Springbank 21 Year,scotch-whisky,キャンベルタウン,21,700,46,high,68000,スプリングバンク21年。希少,104932,81,要詳細査定,no-reliable-source,,no-linxas,false,103613,60,2026-10-12,スプリングバンク21年 700ml
-laphroaig-25,ラフロイグ25年,Laphroaig 25 Year,scotch-whisky,アイラ,25,700,43,mid,60000,ラフロイグ25年。アイラ最強のピーティ,91709,75,要詳細査定,no-reliable-source,,no-linxas,false,66000,46,2026-10-12,ラフロイグ25年 700ml
+laphroaig-25,ラフロイグ25年,Laphroaig 25 Year,scotch-whisky,アイラ,25,700,43,mid,60000,ラフロイグ25年。アイラを代表するピーティな銘柄,91709,75,要詳細査定,no-reliable-source,,no-linxas,false,66000,46,2026-10-12,ラフロイグ25年 700ml
 ardbeg-uigeadail,アードベッグ ウーガダール,Ardbeg Uigeadail,scotch-whisky,アイラ,0,700,54,common,14000,アードベッグの主力品,21216,63,要詳細査定,no-reliable-source,,no-linxas,false,7750,114,2026-10-12,アードベッグ ウーガダール 700ml
 ardbeg-corryvreckan,アードベッグ コリーヴレッカン,Ardbeg Corryvreckan,scotch-whisky,アイラ,0,700,57,common,10000,アードベッグの強烈ピーティ,14795,53,要詳細査定,no-reliable-source,,no-linxas,false,8000,68,2026-10-12,アードベッグ コリーヴレッカン 700ml
 glenfiddich-30,グレンフィディック30年,Glenfiddich 30 Year,scotch-whisky,スペイサイド,30,700,40,high,46000,グレンフィディック30年,70769,30,要詳細査定,no-reliable-source,,no-linxas,false,60554,32,2026-10-12,グレンフィディック30年 700ml

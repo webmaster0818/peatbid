@@ -3,22 +3,22 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "サイト実績・統計データ",
-  description: "PeatBidの累計実績・カバレッジ・更新頻度の統計データを公開。中立的な情報源として、読者の信頼に応える運営実績を可視化しています。",
+  description: "PeatBidの累計実績・掲載範囲・更新頻度の統計データを掲載しています。",
 };
 
 const stats = [
-  { value: "500+", label: "対応銘柄数", desc: "ジャパニーズ・スコッチ・バーボン・アイリッシュ等" },
+  { value: "50", label: "掲載銘柄数", desc: "ジャパニーズ32銘柄・スコッチ18銘柄" },
   { value: "506", label: "公開記事数", desc: "銘柄ガイド+切り口別+ハブ記事" },
   { value: "511", label: "サイト内URL", desc: "sitemap.xml登録URL" },
   { value: "5源", label: "データソース", desc: "国内業者・海外オークション・個人取引・業界紙・公式情報" },
-  { value: "毎日", label: "相場チェック", desc: "海外オークション結果を日次モニタ" },
+  { value: "毎週", label: "相場更新", desc: "ヤフオク落札データの中央値を毎週月曜に更新" },
   { value: "8項目", label: "状態別係数", desc: "未開封完璧〜開封済み半分以下まで" },
-  { value: "100%", label: "無料査定推奨", desc: "PeatBid掲載3社すべて査定・キャンセル無料" },
+  { value: "100%", label: "無料査定推奨", desc: "掲載している3社は、いずれも査定・キャンセルが無料です" },
 ];
 
 const coverage = [
-  { region: "ジャパニーズウイスキー", count: 30, brands: "山崎、響、白州、竹鶴、余市、宮城峡、イチローズモルト、軽井沢、羽生、秩父、マルス" },
-  { region: "スコッチウイスキー", count: 20, brands: "マッカラン、ボウモア、スプリングバンク、ラフロイグ、アードベッグ、グレンフィディック、グレンファークラス、タリスカー、バルヴェニー、グレンモーレンジ" },
+  { region: "ジャパニーズウイスキー", count: 32, brands: "山崎、響、白州、竹鶴、余市、宮城峡、イチローズモルト、軽井沢、羽生、秩父、マルス" },
+  { region: "スコッチウイスキー", count: 18, brands: "マッカラン、ボウモア、スプリングバンク、ラフロイグ、アードベッグ、グレンフィディック、グレンファークラス、タリスカー、バルヴェニー、グレンモーレンジ" },
   { region: "切り口別解説", count: 9, brands: "高く売る/偽物見分け/業者ランキング/歴史/希少性/オークション推移/開封済み/箱なし/ラベル汚れ" },
   { region: "ハブ記事", count: 6, brands: "相場一覧、高く売るコツ、銘柄概要4本" },
 ];
@@ -49,7 +49,7 @@ export default function TrackRecordPage() {
 
       <section className="prose">
         <p>
-          PeatBidは透明性を重視する情報メディアとして、サイトの実績・カバレッジ・運営状況を公開しています。
+          当サイトでは、サイトの実績・掲載範囲・運営状況を公開しています。
           読者・パートナー業者の双方が、当サイトの信頼性を客観的に評価できる材料を提供することを目的としています。
         </p>
 
@@ -65,7 +65,7 @@ export default function TrackRecordPage() {
           ))}
         </div>
 
-        <h2>カバレッジ詳細</h2>
+        <h2>掲載範囲の詳細</h2>
 
         <div className="table-wrapper">
           <table>
@@ -103,8 +103,8 @@ export default function TrackRecordPage() {
           <li><strong>編集体制の公開</strong> — <Link href="/editorial/" className="text-burgundy underline">編集部紹介ページ</Link>で組織体制・専門性を開示</li>
           <li><strong>編集方針の公開</strong> — <Link href="/methodology/" className="text-burgundy underline">編集ポリシーページ</Link>で価格データ収集方法・更新頻度を公開</li>
           <li><strong>アフィリエイト関係の開示</strong> — 全ページに「PR」表記、編集方針ページで業者紹介の仕組みを説明</li>
-          <li><strong>記事の最終更新日表示</strong> — 各記事に明記、鮮度を読者が判断可能</li>
-          <li><strong>誤情報の即時訂正</strong> — 報告から24時間以内の訂正を目標、訂正履歴を公開</li>
+          <li><strong>記事の最終更新日表示</strong> — 各記事に明記し、情報の鮮度をご確認いただけるようにしています</li>
+          <li><strong>誤情報の訂正</strong> — 報告から24時間以内の訂正を目標とし、訂正履歴を公開</li>
           <li><strong>法令遵守の宣言</strong> — 古物営業法・景表法・特商法・個人情報保護法等の遵守を編集方針で明示</li>
         </ul>
 

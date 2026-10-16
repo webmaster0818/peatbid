@@ -15,7 +15,7 @@ const fetchedAt = b18?.fetched_at ?? b25?.fetched_at ?? "";
 export const metadata: Metadata = {
   title: "ボウモア買取価格【2026年10月】ノンエイジ・年代表記なしの相場と高く売る方法",
   description:
-    `ボウモアの「年代指定なし（NV/ノンエイジ）」はNo.1・スモールバッチ・レジェンドなどのボトルが該当します。${nvMedian ? `NVの実勢中央値は${yen(nvMedian)}（参考値）。` : "NVの実勢中央値は現在収集中（毎週更新）。"}年代付き（18年${yen(b18?.median)}・25年${yen(b25?.median)}）との比較、手元のボトルの見分け方、高く売るコツまで実データで解説。`,
+    `ボウモアの「年代指定なし（NV/ノンエイジ）」はNo.1・スモールバッチ・レジェンドなどのボトルが該当します。${nvMedian ? `NVの実勢中央値は${yen(nvMedian)}（参考値）です。` : "NVの実勢中央値は現在集計中です（毎週更新）。"}年代付き（18年${yen(b18?.median)}・25年${yen(b25?.median)}）との比較、お手元のボトルの見分け方、高く売るためのポイントを実データにもとづいて解説しています。`,
   alternates: { canonical: "/articles/bowmore-nv-kaitori/" },
 };
 
@@ -28,7 +28,7 @@ const faqs = [
     q: "年代指定なしのボウモアでも買取してもらえますか？相場はいくらですか？",
     a: nvMedian
       ? `はい、買取可能です。当サイト集計（ヤフオク過去180日落札・IQR外れ値除去）による年代指定なしボウモアの実勢中央値は${yen(nvMedian)}です（参考値であり、買取額を保証するものではありません）。比較として、年代付きのボウモア18年は${yen(b18?.median)}、25年は${yen(b25?.median)}です。実際の査定額は業者・状態により変動するため、複数社での相見積もりをおすすめします。`
-      : `はい、買取可能です。年代指定なし（NV）ボウモアの実勢中央値は現在データ収集中です（毎週更新のため近日掲載予定）。参考として、年代付きのボウモア18年は実勢中央値${yen(b18?.median)}、25年は${yen(b25?.median)}（${fetchedAt}時点・ヤフオク落札中央値）で、現行NVボトルは一般にこれより手頃な価格帯で取引されます。実際の査定額は業者・状態により変動するため、複数社での相見積もりをおすすめします。`,
+      : `はい、買取可能です。年代指定なし（NV）ボウモアの実勢中央値は現在集計中です（毎週更新のため、近日掲載予定）。参考として、年代付きのボウモア18年は実勢中央値${yen(b18?.median)}、25年は${yen(b25?.median)}（${fetchedAt}時点・ヤフオク落札中央値）で、現行NVボトルは一般にこれより手頃な価格帯で取引されます。実際の査定額は業者・状態により変動するため、複数社での相見積もりをおすすめします。`,
   },
   {
     q: "年代指定なしのボウモアを高く売るコツは？",
@@ -56,7 +56,7 @@ function FaqSchema() {
 }
 
 const tocItems = [
-  { id: "sokutou", label: "1. 年代指定なしのボウモア＝どのボトル？（即答）" },
+  { id: "sokutou", label: "1. 年代指定なしのボウモアに該当するボトル" },
   { id: "lineup", label: "2. 年数表記のないボウモアの主なボトルライン" },
   { id: "jissei", label: "3. 実勢データ（NV・年代付きの比較）" },
   { id: "miwakekata", label: "4. 手元のボトルの見分け方" },
@@ -91,9 +91,9 @@ export default function BowmoreNvKaitoriPage() {
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-5 mb-8 not-prose">
             <p className="font-bold text-ink mb-2">この記事の結論（30秒）</p>
             <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
-              <li>年数表記のないボウモア＝現行では<strong>「ボウモア No.1」</strong>が代表。ほかに旧流通の<strong>スモールバッチ・レジェンド</strong>、免税店向けの<strong>ゴールドリーフ／ブラックロック</strong>など。</li>
-              <li>{nvMedian ? <>NVの実勢中央値は<strong>{yen(nvMedian)}</strong>（ヤフオク落札・参考値）。</> : <>NVの実勢中央値は<strong>現在データ収集中</strong>（毎週更新のため近日掲載）。</>}年代付きは18年 <strong>{yen(b18?.median)}</strong>・25年 <strong>{yen(b25?.median)}</strong>。</li>
-              <li>ボトル名を特定して査定に出すのが高値のカギ。年数表記があるボトルは<Link href="/articles/bowmore-18-kaitori/" className="text-amber-dark underline">18年</Link>・<Link href="/articles/bowmore-25-kaitori/" className="text-amber-dark underline">25年</Link>の各ページへ。</li>
+              <li>年数表記のないボウモアは、現行品では<strong>「ボウモア No.1」</strong>が代表的です。このほか、旧流通品の<strong>スモールバッチ・レジェンド</strong>、免税店向けの<strong>ゴールドリーフ／ブラックロック</strong>などがあります。</li>
+              <li>{nvMedian ? <>NVの実勢中央値は<strong>{yen(nvMedian)}</strong>（ヤフオク落札・参考値）です。</> : <>NVの実勢中央値は<strong>現在集計中</strong>です（毎週更新のため、近日掲載予定）。</>}年代付きは18年 <strong>{yen(b18?.median)}</strong>・25年 <strong>{yen(b25?.median)}</strong>です。</li>
+              <li>ボトル名を特定してから査定に出すことが、適正な査定額につながります。年数表記があるボトルは<Link href="/articles/bowmore-18-kaitori/" className="text-amber-dark underline">18年</Link>・<Link href="/articles/bowmore-25-kaitori/" className="text-amber-dark underline">25年</Link>の各ページをご覧ください。</li>
             </ul>
           </div>
 
@@ -107,7 +107,7 @@ export default function BowmoreNvKaitoriPage() {
             </ol>
           </div>
 
-          <h2 id="sokutou">1. 年代指定なしのボウモア＝どのボトル？（即答）</h2>
+          <h2 id="sokutou">1. 年代指定なしのボウモアに該当するボトル</h2>
 
           <p>ラベルに「12年」「18年」などの熟成年数表記がないボウモアは、<strong>「ボウモア No.1（ナンバーワン）」</strong>である可能性が最も高いです。No.1は現行ラインナップのエントリーにあたるノンエイジ（NV）ボトルで、ファーストフィル・バーボン樽で熟成した原酒を主体としています。</p>
 
@@ -139,7 +139,7 @@ export default function BowmoreNvKaitoriPage() {
             </table>
           </div>
 
-          <p>同じ「年代指定なし」でも、<strong>どのボトルラインかによって市場での評価は異なります</strong>。特に旧流通品（スモールバッチ・レジェンド）や免税店限定品は現在入手しにくいため、状態が良ければ評価が乗る場合があります。査定に出す前にボトル名を確認しましょう。</p>
+          <p>同じ「年代指定なし」でも、<strong>どのボトルラインかによって市場での評価は異なります</strong>。特に旧流通品（スモールバッチ・レジェンド）や免税店限定品は現在入手しにくいため、状態が良ければ評価が乗る場合があります。査定に出す前に、ボトル名をご確認ください。</p>
 
           <p>なお、超高額で知られる<Link href="/articles/bowmore-blackbowmore-kaitori/" className="text-amber-dark underline">ブラックボウモア</Link>はヴィンテージ（蒸溜年）表記のある別格のコレクターズボトルで、本ページのNVボトルとは全く異なる価格帯です。</p>
 
@@ -179,28 +179,28 @@ export default function BowmoreNvKaitoriPage() {
           <p>「実家から出てきたボウモア、年代がわからない」という場合は、以下の順で確認すると特定できます。</p>
 
           <ol>
-            <li><strong>ラベル正面の数字を確認</strong> — 「12」「15」「18」「25」などの数字（YEARS OLD表記）があれば年代付きボトル。数字がなければNVボトルです</li>
+            <li><strong>ラベル正面の数字を確認</strong> — 「12」「15」「18」「25」などの数字（YEARS OLD表記）があれば、年代付きのボトルです。数字がなければNVボトルです</li>
             <li><strong>ボトル名の表記を確認</strong> — 「No.1」「SMALL BATCH」「LEGEND」「GOLD REEF」「BLACK ROCK」などの名称がラベルに記載されています。この名称がそのままボトルラインの特定材料になります</li>
-            <li><strong>キャップ・封緘の状態</strong> — 未開封かどうかで査定は大きく変わります。キャップシールの破れ・緩みがないか確認しましょう</li>
+            <li><strong>キャップ・封緘の状態</strong> — 未開封かどうかで査定は大きく変わります。キャップシールの破れ・緩みがないかご確認ください</li>
             <li><strong>ボトル形状・ラベルデザイン</strong> — 旧流通品（レジェンド等）は現行品とラベルデザインが異なります。デザインが古い場合は流通時期のヒントになります</li>
             <li><strong>裏ラベル・輸入シール</strong> — 正規輸入品には日本語の輸入者表示シールが貼られています。並行輸入品・免税店購入品はこれがない場合があり、その旨を業者に伝えると査定がスムーズです</li>
           </ol>
 
-          <p>どうしても特定できない場合は、無理に判断せず<strong>ボトル全体・ラベル正面・裏ラベルの写真を撮って査定に出す</strong>のが確実です。お酒買取専門店なら写真からボトルラインを特定してくれます。</p>
+          <p>どうしても特定できない場合は、無理に判断せず<strong>ボトル全体・ラベル正面・裏ラベルの写真を撮って査定に出す</strong>のが確実です。お酒の買取専門店では、写真からボトルの種類を特定できる場合があります。</p>
 
           <h2 id="takaku-uru">5. 年代指定なしのボウモアを高く売る5つのコツ</h2>
 
           <ol>
             <li><strong>外箱・カートンを揃える</strong> — 付属品の有無で査定額が変動します。箱がなくても売却は可能ですが、あれば必ず一緒に</li>
-            <li><strong>未開封のまま売る</strong> — 開封済みは大幅減額。飲まずに売ると決めたら開けないこと</li>
+            <li><strong>未開封のまま売る</strong> — 開封済みは大幅な減額となります。売却を予定している場合は開栓しないことをおすすめします</li>
             <li><strong>ボトル名を正確に伝える</strong> — 「ボウモアの年代なし」ではなく「ボウモア No.1」「スモールバッチ」と特定して伝えると、旧流通品・限定品の評価漏れを防げます</li>
-            <li><strong>複数業者で相見積もり</strong> — 同じボトルでも業者により査定額が10〜20%異なることがあります。最低3社での比較が鉄則</li>
-            <li><strong>適切な保管環境を維持</strong> — 直射日光を避け、縦置きで保管。液面低下・ラベル褪色は減額要因です</li>
+            <li><strong>複数業者で相見積もり</strong> — 同じボトルでも業者により査定額が10〜20%異なることがあります。3社以上で比較することをおすすめします</li>
+            <li><strong>適切な保管環境を保つ</strong> — 直射日光を避け、縦置きで保管してください。液面低下・ラベル褪色は減額要因です</li>
           </ol>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">年代指定なしのボウモアの無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">ボトル名が特定できなくても写真査定OK。複数業者の査定を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
+            <p className="text-sm text-warm-gray text-center mb-4">ボトル名が特定できない場合も、写真査定を利用できます。複数の業者の査定額を比較できます。査定料・キャンセル料は無料です。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               
@@ -227,7 +227,7 @@ export default function BowmoreNvKaitoriPage() {
 
           <h2>関連ページ</h2>
           <ul>
-            <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline font-bold">ウイスキーの「年代指定なし(NV)」とは？買取での扱いと相場の見方</Link></li>
+            <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline font-bold">ウイスキーの「年代指定なし(NV)」の解説買取での扱いと相場の見方</Link></li>
             <li><Link href="/articles/bowmore-18-kaitori/" className="text-amber-dark hover:underline">ボウモア18年の買取相場</Link></li>
             <li><Link href="/articles/bowmore-25-kaitori/" className="text-amber-dark hover:underline">ボウモア25年の買取相場</Link></li>
             <li><Link href="/articles/bowmore-blackbowmore-kaitori/" className="text-amber-dark hover:underline">ブラックボウモア（1964年蒸留・全6種）の違いと買取相場</Link></li>

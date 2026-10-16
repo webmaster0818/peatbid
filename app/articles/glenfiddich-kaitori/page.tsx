@@ -26,7 +26,7 @@ const fetchedAt = g12?.fetched_at ?? g30?.fetched_at ?? "毎週月曜";
 export const metadata: Metadata = {
   title: "グレンフィディック買取価格【2026年10月】12年・15年・18年・30年の相場と見分け方",
   description:
-    `グレンフィディックの買取相場を年代別に実データで掲載。12年${yen("glenfiddich-12") ?? "収集中"}・15年${yen("glenfiddich-15") ?? "収集中"}・18年${yen("glenfiddich-18") ?? "収集中"}・30年${yen("glenfiddich-30") ?? "収集中"}（ヤフオク実落札の中央値・毎週更新）。手元のボトルがどの年数かの見分け方、箱なし・開封済みの扱い、高く売るコツまで解説します。`,
+    `グレンフィディックの買取相場を、年代別に実データで掲載しています。12年${yen("glenfiddich-12") ?? "収集中"}・15年${yen("glenfiddich-15") ?? "収集中"}・18年${yen("glenfiddich-18") ?? "収集中"}・30年${yen("glenfiddich-30") ?? "収集中"}（ヤフオク実落札の中央値・毎週更新）です。手元のボトルがどの年数かの見分け方、箱なし・開封済みの扱い、高く売るコツまで解説します。`,
   alternates: { canonical: "/articles/glenfiddich-kaitori/" },
 };
 
@@ -35,7 +35,7 @@ const faqs = [
     q: "グレンフィディックの買取相場はいくらですか？",
     a: g12
       ? `年数によって大きく異なります。当サイト集計（ヤフオク過去180日の実落札・IQR外れ値除去後の中央値・取得日 ${fetchedAt}）では、12年${yen("glenfiddich-12")}、15年${yen("glenfiddich-15")}、18年${yen("glenfiddich-18")}、30年${yen("glenfiddich-30") ?? "収集中"}です。同じ「グレンフィディック」でも12年と30年では20倍以上の開きがあるため、まず手元のボトルの年数を確定させてください。`
-      : "実勢データを収集中です（毎週更新のため近日掲載予定）。",
+      : "実勢データは現在集計中です（毎週更新のため、近日掲載予定）。",
   },
   {
     q: "手元のグレンフィディックが何年ものか分かりません。どこを見ればいいですか？",
@@ -120,7 +120,7 @@ export default function GlenfiddichKaitoriPage() {
             <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
               <li>グレンフィディックは<strong>年数によって相場が桁違い</strong>。まずラベルの「◯ YEARS OLD」を確認してください。</li>
               {g12 && (
-                <li>ヤフオク実落札の中央値は<strong>12年{yen("glenfiddich-12")}／15年{yen("glenfiddich-15")}／18年{yen("glenfiddich-18")}</strong>（毎週更新）。</li>
+                <li>ヤフオク実落札の中央値は<strong>12年{yen("glenfiddich-12")}／15年{yen("glenfiddich-15")}／18年{yen("glenfiddich-18")}</strong>です（毎週更新）。</li>
               )}
               {g30 && <li>30年は<strong>{yen("glenfiddich-30")}</strong>と別水準。取り違えたまま査定に出すと損をしやすいポイントです。</li>}
               <li>年数表記のない実験的シリーズ（IPAカスク等）は<strong>実データが不足しているため数値は掲載していません</strong>。</li>
@@ -158,7 +158,7 @@ export default function GlenfiddichKaitoriPage() {
             </table>
           </div>
 
-          <p className="text-xs text-warm-gray">※中央値はヤフオク!の過去180日落札データをIQR外れ値除去後に当サイトが独自集計した参考値です（取得日 {fetchedAt}・毎週月曜更新）。買取額を保証するものではなく、業者の査定額は状態・付属品・各社の在庫状況により変動します。</p>
+          <p className="text-xs text-warm-gray">※中央値はヤフオク!の過去180日落札データをIQR外れ値除去後に当サイトが独自に集計した参考値です（取得日 {fetchedAt}・毎週月曜更新）。買取額を保証するものではなく、業者の査定額は状態・付属品・各社の在庫状況により変動します。</p>
 
           <h2 id="miwakekata">2. 手元のボトルが何年ものかの見分け方</h2>
 
@@ -216,7 +216,7 @@ export default function GlenfiddichKaitoriPage() {
             <li><strong>未開封のまま売る</strong> — 開封済みは大幅減額の傾向です</li>
             <li><strong>年数を正確に伝える</strong> — 12年と18年の取り違えは査定額に直結します</li>
             <li><strong>複数業者で相見積もりを取る</strong> — 18年以上は在庫状況で査定額が動きやすく、差が出ます</li>
-            <li><strong>保管状態を整える</strong> — 直射日光を避け、縦置き・温度変化の少ない場所で保管。液面低下・ラベル褪色は減額要因です</li>
+            <li><strong>保管状態を整える</strong> — 直射日光を避け、温度変化の少ない場所で縦置きで保管してください。液面低下・ラベル褪色は減額要因です</li>
           </ol>
 
           <h2 id="satei">6. 無料査定の使い方</h2>
@@ -225,7 +225,7 @@ export default function GlenfiddichKaitoriPage() {
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">グレンフィディックの無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">複数業者の査定を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
+            <p className="text-sm text-warm-gray text-center mb-4">複数の業者の査定額を比較できます。査定料・キャンセル料は無料です。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               
@@ -254,8 +254,8 @@ export default function GlenfiddichKaitoriPage() {
           <ul>
             <li><Link href="/articles/glenfiddich-30-kaitori/" className="text-amber-dark hover:underline font-bold">グレンフィディック30年の買取相場</Link></li>
             <li><Link href="/articles/glenfiddich-30-nisemono-mikata/" className="text-amber-dark hover:underline">グレンフィディック30年の偽物の見分け方</Link></li>
-            <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline">ウイスキーの「年代指定なし(NV)」とは？買取での扱いと相場の見方</Link></li>
-            <li><Link href="/articles/whisky-souba-kimarikata/" className="text-amber-dark hover:underline">ウイスキーの買取相場はどう決まる？査定6要素</Link></li>
+            <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline">ウイスキーの「年代指定なし(NV)」の解説買取での扱いと相場の見方</Link></li>
+            <li><Link href="/articles/whisky-souba-kimarikata/" className="text-amber-dark hover:underline">ウイスキーの買取相場の決まり方査定6要素</Link></li>
             <li><Link href="/souba-ranking/" className="text-amber-dark hover:underline">ウイスキー買取相場ランキング（毎週更新）</Link></li>
           </ul>
 

@@ -6,11 +6,11 @@ import priceData from "@/data/price-history/yoichi-15.json";
 
 export const metadata: Metadata = {
   title: '余市15年の偽物・贋作の見分け方【2026年10月最新】本物との違い5点（ラベル・キャップ・液面）と売却前チェック',
-  description: '余市15年の偽物・贋作を見分ける具体的なポイントを徹底解説。ラベル・キャップ・液色・ホログラム・購入経路の5要素から本物を確実に判定する方法と、被害時の対処法。',
+  description: '余市15年の偽物・贋作を見分けるポイントを解説しています。ラベル・キャップ・液色・ホログラム・購入経路の5つの確認方法と、被害に遭った場合の対処法を掲載しています。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '余市15年を売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' } }, { "@type": "Question", "name": '複数業者比較は本当に必要？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、必須です。同じ余市15年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' } }, { "@type": "Question", "name": '買取後のキャンセルは可能？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": '余市15年の売却益に税金はかかる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '余市15年を売るならどのタイミングがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '余市15年を売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' } }, { "@type": "Question", "name": '複数の業者の比較は必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、おすすめします。同じ余市15年でも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' } }, { "@type": "Question", "name": '買取後のキャンセルはできますか？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": '余市15年の売却益に税金はかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '余市15年を売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" } }] }) }} />;
 }
 
 export default function Yoichi15NisemonoMikataPage() {
@@ -46,7 +46,7 @@ export default function Yoichi15NisemonoMikataPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">余市15年</p>
             <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 15年熟成 / 希少度 ハイ / 市場相場 80,000円</p>
-            <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yoichi-15-kaitori/" className="text-amber-dark underline">余市15年の買取相場 完全ガイドへ</Link></p>
+            <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yoichi-15-kaitori/" className="text-amber-dark underline">余市15年の買取相場ガイド</Link></p>
           </div>
 
           {/* Table of Contents */}
@@ -64,69 +64,69 @@ export default function Yoichi15NisemonoMikataPage() {
             </ol>
           </div>
 
-          <p>余市15年のような高額ウイスキーは、贋作リスクが高まる銘柄です。特に未開封・箱付きで市場相場前後の流通価格を持つ銘柄は、海外を中心に巧妙な贋作が出回ることもあります。本記事では、余市15年の偽物を見抜く5つのチェックポイントと、不審なボトルへの対処法を解説します。</p>
+          <p>余市15年のような高額のウイスキーには、贋作のリスクがあります。海外を中心に、精巧な贋作が流通する例も報告されています。本記事では、余市15年の偽物を見分ける5つのチェックポイントと、不審なボトルへの対処法を解説します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは余市15年の落札が約86件確認でき、落札額の中央値は80,000円でした。一定の流通があり比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは余市15年の落札が約86件確認でき、落札額の中央値は80,000円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
           <h2 id="section-0">1. 余市15年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>余市15年</strong>はジャパニーズウイスキー（余市蒸溜所）の15年熟成、度数45%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>80,000円</strong>（流通サンプル86件、当サイト独自集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積りの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数業者の比較で適正額を見極めやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>余市15年</strong>はジャパニーズウイスキー（余市蒸溜所）の15年熟成、度数45%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>80,000円</strong>（流通サンプル86件、当サイトの集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積もりの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 贋作市場の実情</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>ジャパニーズウイスキーブーム以降、海外の二次流通市場では<strong>贋作ボトルの流通が確認</strong>されています。特に山崎・響・白州・軽井沢・羽生など希少銘柄では、巧妙に作られた贋作が個人間取引で出回ることがあります。</p><p>中国・東南アジアの一部地域では、本物の空き瓶に偽の液体を詰めて販売する手口も報告されています。高額帯の銘柄は、5チェックを徹底することが必須です。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>ジャパニーズウイスキーブーム以降、海外の二次流通市場では<strong>贋作ボトルの流通が確認</strong>されています。特に山崎・響・白州・軽井沢・羽生など希少銘柄では、精巧に作られた贋作が個人間取引で流通する例があります。</p><p>中国・東南アジアの一部地域では、本物の空き瓶に別の液体を詰めて販売する手口も報告されています。高額帯の銘柄では、5つのチェックを確実に行うことが必要です。</p>` }} />
 
           <h2 id="section-2">3. チェック1: ラベルの印刷品質</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>正規品はラベルの文字が<strong>鮮明・均一</strong>。フォント・字間・色合いがメーカー公式と一致します。一方、贋作には以下の特徴が見られます:</p><ol><li>文字のにじみ・かすれ</li><li>フォントの違い（似て非なる字形）</li><li>色ズレ・色ムラ</li><li>ラベルの紙質や光沢の違い</li><li>印刷位置の微妙なずれ
+          <div dangerouslySetInnerHTML={{ __html: `<p>正規品はラベルの文字が<strong>鮮明で均一</strong>です。書体・字間・色合いがメーカー公式のものと一致します。一方、贋作には以下の特徴が見られます。</p><ol><li>文字のにじみ・かすれ</li><li>書体の違い（似ているが異なる字形）</li><li>色ずれ・色むら</li><li>ラベルの紙質や光沢の違い</li><li>印刷位置の微妙なずれ
 
 10倍ルーペでラベル全体を確認し、メーカー公式画像と細部まで比較してください。</li></ol>` }} />
 
           <h2 id="section-3">4. チェック2: キャップ・封蝋・ホログラム</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>サントリー山崎・響、白州、マッカランなどは<strong>ホログラムシール</strong>が貼付されています。本物のホログラムは光の角度で色が変化し、立体感のある印刷が施されています。
+          <div dangerouslySetInnerHTML={{ __html: `<p>サントリー山崎・響、白州、マッカランなどは<strong>ホログラムシール</strong>が貼付されています。正規品のホログラムは光の角度で色が変化し、立体感のある印刷が施されています。
 
-贋作は:</p><ol><li>ホログラムの粗さ</li><li>光の反射が均一（本物は不均一）</li><li>印刷が平面的（立体感に欠ける）</li><li>シールの貼り方が雑
+贋作の特徴は以下のとおりです。</p><ol><li>ホログラムの粗さ</li><li>光の反射が均一（本物は不均一）</li><li>印刷が平面的（立体感に欠ける）</li><li>シールの貼り方が不正確
 
-キャップの締まり具合・封蝋の状態も確認ポイントです。本物は精密に封蝋されているのに対し、贋作は封蝋に隙間や違和感があることが多いです。</li></ol>` }} />
+キャップの締まり具合・封蝋の状態も確認してください。正規品は精密に封蝋されているのに対し、贋作は封蝋に隙間や不自然な点がある場合が多く見られます。</li></ol>` }} />
 
           <h2 id="section-4">5. チェック3: 液色と液面の状態</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>本物の余市15年は<strong>均一な琥珀色</strong>で透明感があります。贋作の特徴:</p><ol><li>色ムラ・濁り</li><li>沈殿物の存在</li><li>不自然に濃い/薄い色</li><li>気泡が永久に残る</li><li>振った時の液体の動きが不自然（粘度が異なる）
+          <div dangerouslySetInnerHTML={{ __html: `<p>本物の余市15年は<strong>均一な琥珀色</strong>で透明感があります。贋作の特徴は以下のとおりです。</p><ol><li>色むら・濁り</li><li>沈殿物の存在</li><li>不自然に濃い/薄い色</li><li>気泡が永久に残る</li><li>振った時の液体の動きが不自然（粘度が異なる）
 
-また、液面の高さも重要なチェックポイント。本物の余市15年は通常、肩口（首の付け根）の少し下まで液体があります。極端に液面が下がっている場合は、長期保管による「目減り」か、贋作の可能性があります。</li></ol>` }} />
+また、液面の高さも重要な確認項目です。正規品の余市15年は通常、肩口（首の付け根）の少し下まで液体があります。極端に液面が下がっている場合は、長期保管による「目減り」か、贋作の可能性があります。</li></ol>` }} />
 
           <h2 id="section-5">6. チェック4: 瓶の形状・刻印</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>公式ボトルは<strong>底面に刻印</strong>（ロット番号、製造所コード等）があります。贋作はこの刻印が:</p><ol><li>存在しない</li><li>印字パターンが異なる</li><li>不自然な深さ</li><li>ロット番号がメーカーの規則に合わない
+          <div dangerouslySetInnerHTML={{ __html: `<p>正規品のボトルには<strong>底面に刻印</strong>（ロット番号、製造所コード等）があります。贋作の場合、この刻印に以下の特徴が見られます。</p><ol><li>存在しない</li><li>印字パターンが異なる</li><li>不自然な深さ</li><li>ロット番号がメーカーの規則に合わない
 
 また、瓶の重量・厚みも正規品と微妙に違うことがあります。同じ銘柄を複数本所有している場合は、重さを比較してみてください。</li></ol>` }} />
 
           <h2 id="section-6">7. チェック5: 購入経路の信頼性</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>信頼度の高い購入経路</strong>:</p><ol><li>海外オークション（Sotheby's、Bonhams、Whisky Auctioneer）</li><li>正規流通店・百貨店リカーショップ</li><li>国内大手買取業者の販売部門</li><li>信頼できる個人コレクターの直接取引
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>信頼性の高い購入経路</strong></p><ol><li>海外オークション（Sotheby's、Bonhams、Whisky Auctioneer）</li><li>正規流通店・百貨店リカーショップ</li><li>国内大手買取業者の販売部門</li><li>信頼できる個人コレクターの直接取引
 
-<strong>リスクが高い経路</strong>:</li><li>個人間取引（メルカリ、ヤフオク）の無名出品者</li><li>海外（特に中華圏）の無名通販店</li><li>SNS・LINEでの個人取引</li><li>異常に安い「掘り出し物」
+<strong>リスクが高い購入経路</strong></li><li>個人間取引（メルカリ、ヤフオク）の無名出品者</li><li>海外（特に中華圏）の無名通販店</li><li>SNS・LINEでの個人取引</li><li>相場より極端に安い出品
 
-相場より20%以上安い余市15年は要警戒。「他では絶対手に入らない」と煽る業者・個人も典型的な贋作販売パターンです。</li></ol>` }} />
+相場より20%以上安い余市15年には注意が必要です。「他では入手できない」と購入を急がせる業者・個人も、贋作販売によく見られる例です。</li></ol>` }} />
 
           <h2 id="section-7">8. 不審なボトルを見つけた場合の対処法</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>自身が保有する余市15年が不審に見える場合、または購入を検討中のボトルが怪しい場合は、以下の手順で対処してください:</p><ol><li><strong>写真記録</strong> — ボトル全体・ラベル各角度・キャップ・底面の刻印を高解像度で撮影</li><li><strong>専門業者で鑑定査定</strong> — お酒買取の専門店で無料鑑定を依頼</li><li><strong>メーカーへの問い合わせ</strong> — サントリー・ニッカ等の公式お客様窓口にロット番号を伝えて真贋確認</li><li><strong>購入経路を遡る</strong> — 不正流通の可能性が高い場合は購入元に返品交渉</li><li><strong>警察への相談</strong> — 詐欺の可能性がある場合は最寄りの警察署で相談
+          <div dangerouslySetInnerHTML={{ __html: `<p>自身が保有する余市15年が不審に見える場合、または購入を検討中のボトルに不審な点がある場合は、以下の手順で対処してください。</p><ol><li><strong>写真記録</strong> — ボトル全体・ラベル各角度・キャップ・底面の刻印を高解像度で撮影</li><li><strong>専門業者で鑑定査定</strong> — お酒買取の専門店で無料鑑定を依頼</li><li><strong>メーカーへの問い合わせ</strong> — サントリー・ニッカ等の公式お客様窓口にロット番号を伝えて真贋確認</li><li><strong>購入経路を遡る</strong> — 不正流通の可能性が高い場合は購入元に返品交渉</li><li><strong>警察への相談</strong> — 詐欺の可能性がある場合は最寄りの警察署で相談
 
-贋作と判明した場合、買取業者は買取を拒否します。また、贋作と知りながら売却することは詐欺罪に該当する可能性があるため、誠実に対処することが重要です。</li></ol>` }} />
+贋作と判明した場合、買取業者は買取を拒否します。また、贋作と知りながら売却することは詐欺罪に該当する可能性があるため、誠実な対応が必要です。</li></ol>` }} />
 
           <div className="bg-burgundy/5 border-2 border-burgundy/30 rounded-xl p-6 my-8 not-prose">
-            <p className="text-xs text-burgundy font-bold tracking-wider mb-2">本物と確認できたら｜次のステップ</p>
-            <h3 className="font-display text-xl font-semibold text-ink mb-3 !mt-0 !border-none">あなたの余市15年、いま売るといくら？</h3>
-            <p className="text-sm text-warm-gray leading-relaxed mb-4">✅ 本物と確認できたら：余市15年の現在の実勢中央値は<strong className="text-ink">¥80,000</strong>（ヤフオク実落札 n=86件・毎週月曜更新・IQR外れ値除去後）です。保証額ではありませんが、売却判断の基準になります。価値が変わる前に、次の3ステップで納得して高く売りましょう。</p>
+            <p className="text-xs text-burgundy font-bold tracking-wider mb-2">真贋の確認後の手順</p>
+            <h3 className="font-display text-xl font-semibold text-ink mb-3 !mt-0 !border-none">余市15年の現在の買取相場</h3>
+            <p className="text-sm text-warm-gray leading-relaxed mb-4">真贋を確認した後の目安として、余市15年の現在の実勢中央値は<strong className="text-ink">¥80,000</strong>（ヤフオク実落札 n=86件・毎週月曜更新・IQR外れ値除去後）です。買取額を保証するものではありませんが、売却を判断する際の基準としてご利用いただけます。売却の際は、次の3つのステップをご確認ください。</p>
             <ol className="space-y-2 text-sm text-ink mb-4 list-none pl-0">
-              <li><span className="font-bold text-burgundy">STEP 1</span>　相場の詳細を見る → <Link href="/articles/yoichi-15-kaitori/" className="shingan-to-kaitori text-amber-dark underline">余市15年の買取相場 完全ガイド</Link></li>
-              <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るコツ → <Link href="/articles/yoichi-15-takaku-uru/" className="shingan-to-kaitori text-amber-dark underline">査定額を最大化する7つのコツ</Link></li>
-              <li><span className="font-bold text-burgundy">STEP 3</span>　複数業者で比較して申し込む（下の無料一括査定）</li>
+              <li><span className="font-bold text-burgundy">STEP 1</span>　相場の詳細を見る → <Link href="/articles/yoichi-15-kaitori/" className="shingan-to-kaitori text-amber-dark underline">余市15年の買取相場ガイド</Link></li>
+              <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るためのポイント → <Link href="/articles/yoichi-15-takaku-uru/" className="shingan-to-kaitori text-amber-dark underline">査定額を上げる7つのポイント</Link></li>
+              <li><span className="font-bold text-burgundy">STEP 3</span>　複数の業者を比較して申し込む（下記の無料一括査定）</li>
             </ol>
-            <p className="text-xs text-warm-gray">※相場は変動します。複数業者の比較で、その時点の最高値を引き出すのが確実です。査定は無料・キャンセル無料。</p>
+            <p className="text-xs text-warm-gray">※相場は変動します。複数の業者の査定額を比較することをおすすめします。査定料・キャンセル料は無料です。</p>
           </div>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
-            <h3 className="font-bold text-base mb-3 text-center">余市15年の無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
+            <h3 className="font-bold text-base mb-3 text-center">余市15年の無料一括査定のご案内</h3>
+            <p className="text-sm text-warm-gray text-center mb-4">複数の業者の査定額を比較できます。査定料・キャンセル料は無料です。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
@@ -137,7 +137,7 @@ export default function Yoichi15NisemonoMikataPage() {
           <h2>余市15年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '余市15年を売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' }, { q: '複数業者比較は本当に必要？', a: 'はい、必須です。同じ余市15年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' }, { q: '買取後のキャンセルは可能？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: '余市15年の売却益に税金はかかる？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '余市15年を売るならどのタイミングがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" }].map((faq) => (
+            {[{ q: '余市15年を売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' }, { q: '複数の業者の比較は必要ですか？', a: 'はい、おすすめします。同じ余市15年でも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' }, { q: '買取後のキャンセルはできますか？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: '余市15年の売却益に税金はかかりますか？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '余市15年を売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -158,13 +158,13 @@ export default function Yoichi15NisemonoMikataPage() {
             <Link href="/articles/yoichi-15-rekishi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">歴史と特徴</span><p className="text-sm font-bold mt-1">余市15年の歴史と特徴</p></Link>
             <Link href="/articles/yoichi-15-kihaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">希少性・投資価値</span><p className="text-sm font-bold mt-1">余市15年の希少性・投資価値</p></Link>
             <Link href="/articles/yoichi-15-auction-suii/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">オークション推移</span><p className="text-sm font-bold mt-1">余市15年のオークション推移</p></Link>
-            <Link href="/articles/yoichi-15-kaifu-zumi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">開封済みでも売れる</span><p className="text-sm font-bold mt-1">余市15年の開封済みでも売れる</p></Link>
-            <Link href="/articles/yoichi-15-hako-nashi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">箱なしでも買取</span><p className="text-sm font-bold mt-1">余市15年の箱なしでも買取</p></Link>
-            <Link href="/articles/yoichi-15-label-yogore/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ラベル汚れでも査定</span><p className="text-sm font-bold mt-1">余市15年のラベル汚れでも査定</p></Link>
-            <Link href="/articles/yoichi-15-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">余市15年の買取相場ガイド（完全版）</p></Link>
+            <Link href="/articles/yoichi-15-kaifu-zumi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">開封済みボトルの買取</span><p className="text-sm font-bold mt-1">余市15年の開封済みボトルの買取</p></Link>
+            <Link href="/articles/yoichi-15-hako-nashi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">箱なしボトルの買取</span><p className="text-sm font-bold mt-1">余市15年の箱なしボトルの買取</p></Link>
+            <Link href="/articles/yoichi-15-label-yogore/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ラベル汚れがある場合の査定</span><p className="text-sm font-bold mt-1">余市15年のラベル汚れがある場合の査定</p></Link>
+            <Link href="/articles/yoichi-15-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">余市15年の買取相場ガイド</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

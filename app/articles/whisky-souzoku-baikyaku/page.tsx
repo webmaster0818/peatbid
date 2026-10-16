@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "相続・遺品のウイスキーを売る｜手順・確認チェックリスト・税金の注意点【2026年】",
   description:
-    "相続や遺品整理で出てきたウイスキーを売る手順を解説。売る前の状態確認チェックリスト、まとめ売りで気をつけたい税金、高く売るための準備、複数業者の比較まで。価値の目安は実勢相場で確認。",
+    "相続や遺品整理で出てきたウイスキーを売る手順を解説しています。売る前の状態確認チェックリスト、まとめ売りで気をつけたい税金、高く売るための準備、複数の業者の比較についてもご説明します。価値の目安は実勢相場でご確認ください。",
   alternates: { canonical: "/articles/whisky-souzoku-baikyaku/" },
 };
 
@@ -20,7 +20,7 @@ const toc = [
 const faqs = [
   {
     q: "古いウイスキーでも売れますか？",
-    a: "未開封で状態が良ければ、古い銘柄でも売れることが多いです。終売・休売になった銘柄は希少価値が付くこともあります。一方で、開封済み・液面が大きく下がっている・ラベルがひどく劣化しているものは値が付きにくくなります。まずは銘柄と状態を確認しましょう。",
+    a: "未開封で状態が良ければ、古い銘柄でも売れることが多いです。終売・休売になった銘柄は希少価値が付くこともあります。一方で、開封済み・液面が大きく下がっている・ラベルがひどく劣化しているものは値が付きにくくなります。まずは銘柄と状態をご確認ください。",
   },
   {
     q: "本数が多いのですが、まとめて売れますか？",
@@ -60,9 +60,9 @@ export default function Page() {
         <div className="not-prose bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6">
           <p className="font-bold text-ink mb-2">この記事の結論（30秒）</p>
           <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
-            <li>まず<strong>銘柄・年数・容量・状態（未開封か/液面/付属品）</strong>を確認。</li>
-            <li>本数が多いなら<strong>出張・宅配買取</strong>でまとめて査定。</li>
-            <li>利益の合計が大きい場合は<strong>税金（譲渡所得）</strong>に注意。<Link href="/articles/whisky-kaitori-zeikin/">税金の記事</Link>参照。</li>
+            <li>まず<strong>銘柄・年数・容量・状態（未開封か/液面/付属品）</strong>を確認します。</li>
+            <li>本数が多いなら<strong>出張・宅配買取</strong>でまとめて査定を受けられます。</li>
+            <li>利益の合計が大きい場合は<strong>税金（譲渡所得）</strong>にご注意ください。<Link href="/articles/whisky-kaitori-zeikin/">税金の記事</Link>参照。</li>
             <li>価値の目安は<Link href="/souba-ranking/">相場ランキング</Link>で確認し、<strong>複数業者で比較</strong>。</li>
           </ul>
         </div>
@@ -78,11 +78,11 @@ export default function Page() {
 
         <h2 id="nagare">相続・遺品のウイスキーを売る全体の流れ</h2>
         <ol>
-          <li><strong>集める</strong>：保管場所（戸棚・押し入れ・倉庫）からボトルと付属品を集める。</li>
-          <li><strong>確認する</strong>：下のチェックリストで銘柄・状態を確認。</li>
-          <li><strong>相場を調べる</strong>：<Link href="/souba-ranking/">相場ランキング</Link>・各銘柄ページで目安を把握。</li>
-          <li><strong>査定する</strong>：本数が多ければ出張・宅配買取でまとめて。複数業者で比較。</li>
-          <li><strong>記録する</strong>：何を・いくらで売ったかを記録（税金の判断に必要）。</li>
+          <li><strong>集める</strong>：保管場所（戸棚・押し入れ・倉庫）からボトルと付属品を集めます。</li>
+          <li><strong>確認する</strong>：下のチェックリストで銘柄・状態を確認します。</li>
+          <li><strong>相場を調べる</strong>：<Link href="/souba-ranking/">相場ランキング</Link>・各銘柄ページで目安を把握します。</li>
+          <li><strong>査定する</strong>：本数が多い場合は、出張・宅配買取でまとめて査定を受けます。複数業者で比較。</li>
+          <li><strong>記録する</strong>：何を・いくらで売ったかを記録します（税金の判断に必要です）。</li>
         </ol>
 
         <h2 id="checklist">売る前の確認チェックリスト</h2>
@@ -99,8 +99,8 @@ export default function Page() {
         <h2 id="takaku">まとめ売りで損しないコツ</h2>
         <ul>
           <li><strong>付属品をそろえる</strong>：箱・冊子があるだけで査定額が上がります（<Link href="/articles/whisky-hokan-houhou/">保管方法</Link>）。</li>
-          <li><strong>高額銘柄は個別に確認</strong>：<Link href="/articles/yamazaki-18-kaitori/">山崎18年</Link>・<Link href="/articles/hibiki-30-kaitori/">響30年</Link> など高額品が混じっていないか。まとめて二束三文にしない。</li>
-          <li><strong>偽物が心配なら</strong>：<Link href="/articles/whisky-nisemono-miwakekata/">見分け方</Link>を確認し、不安なものは専門業者の査定へ。</li>
+          <li><strong>高額銘柄は個別に確認</strong>：<Link href="/articles/yamazaki-18-kaitori/">山崎18年</Link>・<Link href="/articles/hibiki-30-kaitori/">響30年</Link> など高額品が含まれていないかをご確認ください。まとめて二束三文にしない。</li>
+          <li><strong>偽物が心配なら</strong>：<Link href="/articles/whisky-nisemono-miwakekata/">見分け方</Link>を確認し、不安なものは専門業者に査定をご依頼ください。</li>
           <li><strong>一括査定を使う前に</strong>：キャンセル方法や電話連絡の多さなど、<Link href="/articles/hikakaku-sake-kaitori-kuchikomi/">ヒカカクの酒買取 口コミ・評判</Link>で注意点を確認しておくと、本数が多いときの段取りが立てやすくなります。</li>
         </ul>
 
@@ -116,9 +116,9 @@ export default function Page() {
         </p>
         <div className="not-prose bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 text-center">
           <p className="font-bold text-ink mb-2">遺品のウイスキーをまとめて査定</p>
-          <p className="text-sm text-warm-gray mb-4">無料一括査定で複数業者の入札を比較。出張・宅配対応の業者も見つかります。</p>
+          <p className="text-sm text-warm-gray mb-4">無料一括査定で、複数の業者の査定額を比較できます。出張・宅配対応の業者も見つかります。</p>
           <p className="text-xs text-warm-gray mb-3"><span className="inline-block align-middle border border-warm-gray/50 rounded px-1.5 py-0.5 mr-2 text-[11px] font-bold tracking-wide">PR</span>ヒカカク！（買取価格比較サイト・最大20社に一括査定）</p>
-          <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow sponsored" className="amber-cta inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm">無料一括査定で最高値を調べる →</a>
+          <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow sponsored" className="amber-cta inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm">無料一括査定を申し込む →</a>
         </div>
 
         <h2 id="faq">よくある質問</h2>

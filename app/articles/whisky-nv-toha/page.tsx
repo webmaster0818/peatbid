@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "ウイスキーの「年代指定なし(NV)」とは？買取での扱いと相場の見方【2026年】",
+  title: "ウイスキーの「年代指定なし(NV)」とは買取での扱いと相場の見方【2026年】",
   description:
-    "ウイスキーの「年代指定なし（ノンエイジ/NV）」の意味と、年数表記ありとの違い、買取査定での扱いを解説。山崎・白州・響・グレンファークラス・ボウモアなどのNVボトルの相場の見方と、高く売るための確認ポイントまで。",
+    "ウイスキーの「年代指定なし（ノンエイジ/NV）」の意味と、年数表記ありとの違い、買取査定での扱いを解説しています。山崎・白州・響・グレンファークラス・ボウモアなどのNVボトルの相場の見方と、高く売るための確認ポイントもご説明します。",
   alternates: { canonical: "/articles/whisky-nv-toha/" },
 };
 
@@ -51,7 +51,7 @@ export default function Page() {
 
       <article className="prose">
         <h1 className="font-display text-3xl md:text-4xl font-semibold !mt-0 mb-2">
-          ウイスキーの「年代指定なし(NV)」とは？買取での扱いと相場の見方
+          ウイスキーの「年代指定なし(NV)」とは買取での扱いと相場の見方
         </h1>
         <p className="text-warm-gray text-sm not-prose mb-6">
           最終更新: 2026-06-19 ／ 監修: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
@@ -61,9 +61,9 @@ export default function Page() {
           <p className="font-bold text-ink mb-2">この記事の結論（30秒）</p>
           <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
             <li>「年代指定なし(NV/ノンエイジ)」＝ラベルに<strong>熟成年数の表記がない</strong>ボトル。</li>
-            <li>年数表記は「最も若い原酒の年数」を示すルール。<strong>NV＝低品質ではない</strong>。</li>
-            <li>査定額は年数の有無より<strong>銘柄の人気・流通量・状態</strong>で決まる。</li>
-            <li>山崎・白州・響などの人気NVは中古相場が安定。実勢は<Link href="/souba-ranking/">相場ランキング</Link>で確認。</li>
+            <li>年数表記は「最も若い原酒の年数」を示すことになっています。<strong>NV＝低品質ではない</strong>。</li>
+            <li>査定額は年数の有無より<strong>銘柄の人気・流通量・状態</strong>で決まります。</li>
+            <li>山崎・白州・響などの人気のNVは、中古相場が安定しています。実勢は<Link href="/souba-ranking/">相場ランキング</Link>でご確認ください。</li>
           </ul>
         </div>
 
@@ -124,7 +124,7 @@ export default function Page() {
 
         <div className="not-prose bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 text-center">
           <p className="font-bold text-ink mb-2">手持ちのNVボトルの相場を知る</p>
-          <p className="text-sm text-warm-gray mb-4">年数表記がなくても人気銘柄なら相応の価格が付きます。無料一括査定で複数業者を比較。</p>
+          <p className="text-sm text-warm-gray mb-4">年数表記がなくても人気銘柄なら相応の価格が付きます。無料一括査定で、複数の業者を比較できます。</p>
           <p className="text-xs text-warm-gray mb-3"><span className="inline-block align-middle border border-warm-gray/50 rounded px-1.5 py-0.5 mr-2 text-[11px] font-bold tracking-wide">PR</span>ヒカカク！（買取価格比較サイト・最大20社に一括査定）</p>
           <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow sponsored" className="amber-cta inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm">無料一括査定で相場を調べる →</a>
         </div>

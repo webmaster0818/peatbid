@@ -5,7 +5,7 @@ import brands from "@/data/brands.json";
 const SITE_URL = "https://peatbid.com";
 
 export const metadata: Metadata = {
-  title: "ウイスキー買取 銘柄一覧｜相場・査定ガイド全リスト | PeatBid",
+  title: "ウイスキー買取 銘柄一覧｜相場・査定ガイド全リスト",
   description:
     "ウイスキー買取の銘柄別ガイド一覧。山崎・響・白州・マッカラン・アードベッグなど主要銘柄の買取相場（Yahoo!オークション実勢中央値）と、箱なし・開封済み・偽物の見分け方など切り口別ガイドへの入口です。",
 };
@@ -29,7 +29,7 @@ const CAT_LABEL: Record<string, string> = {
 
 function fmtYen(v: number | string | null): string {
   const n = typeof v === "string" ? parseInt(v, 10) : v;
-  if (!n || Number.isNaN(n) || n <= 0) return "相場データ蓄積中";
+  if (!n || Number.isNaN(n) || n <= 0) return "相場データ集計中";
   return `中央値 約${n.toLocaleString("ja-JP")}円`;
 }
 

@@ -60,7 +60,7 @@ export default function Page() {
       <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink mb-3 !mt-0">
         ウイスキー買取相場ランキング・ダッシュボード
       </h1>
-      <p className="text-sm text-warm-gray mb-2">市場全体の温度は <Link href="/souba-index/" className="text-amber-dark underline font-semibold">Peatbid買取相場指数（週次更新）</Link> でわかります。</p>
+      <p className="text-sm text-warm-gray mb-2">市場全体の温度は <Link href="/souba-index/" className="text-amber-dark underline font-semibold">PeatBid買取相場指数（週次更新）</Link> でわかります。</p>
       <p className="text-warm-gray text-sm mb-2">
         最終更新: {updated} ／ 監修: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
       </p>
@@ -182,7 +182,7 @@ export default function Page() {
       {/* 都道府県から探す(crawl hub) */}
       <section className="mb-10">
         <h2 className="font-display text-xl font-bold text-ink mb-3">都道府県から買取相場を探す</h2>
-        <p className="text-sm text-warm-gray mb-3">お住まいの地域のウイスキー買取相場・対応業者はこちらから。</p>
+        <p className="text-sm text-warm-gray mb-3">お住まいの地域のウイスキー買取相場・対応業者は、こちらからご確認いただけます。</p>
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2 text-sm">
           <Link href="/tier2/hokkaido/" className="text-amber-dark hover:underline">北海道</Link>
           <Link href="/tier2/aomori/" className="text-amber-dark hover:underline">青森県</Link>

@@ -143,7 +143,7 @@ def sparkline_block(slug, name):
         return f'''
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
             <p className="text-sm font-bold text-ink mb-2">{name}の買取相場推移（ヤフオク落札中央値）</p>{cur_html}
-            <p className="text-xs text-warm-gray leading-relaxed">週次推移グラフはデータ蓄積中です（毎週月曜の自動更新で今後グラフ化されます）。出典: ヤフオク実落札データ（過去180日・IQR外れ値除去後の中央値）。買取額を保証するものではありません。</p>
+            <p className="text-xs text-warm-gray leading-relaxed">週次推移のグラフは、集計期間が短いため表示していません（毎週月曜の更新でデータが揃い次第、表示します）。出典: ヤフオク実落札データ（過去180日・IQR外れ値除去後の中央値）。買取額を保証するものではありません。</p>
           </div>
 '''
 
@@ -203,7 +203,7 @@ def sparkline_block(slug, name):
     n_note = f"各点のサンプル数 n={min(n_vals):,}〜{max(n_vals):,}件" if n_vals else "サンプル数は各点の注記参照"
     caption = (
         f"期間 {hist[0]['date']}〜{hist[-1]['date']}（週次{nx}点・{n_note}）。"
-        f"出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜自動更新。買取額を保証するものではありません。"
+        f"出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。"
     )
 
     return f'''

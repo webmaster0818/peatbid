@@ -75,9 +75,10 @@ RE_S_BASIS = re.compile(r"(市場相場（Yahoo中央値 )" + YEN + r"）")
 RE_S2I_DESC = re.compile(r"売却するなら？市場相場 " + YEN + r"（Yahoo Auctions 過去180日中央値）、(.+?地方の地元業者と[34]業者参考リンクを掲載。)\"")
 
 # 不足 → 十分 への変換（sufficient=True 分岐と同文言）
-INSUFF_SENT = r"現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません（取得日 " + DATE + r"、サンプル数 n=\d+）"
+# 2026-10-16 文言をビジネス文書の表現に変更（旧文言のページにも当たるよう両方を受ける）
+INSUFF_SENT = r"(?:現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません|過去180日の落札データが20件に満たないため、市場相場の中央値は掲載していません)（取得日 " + DATE + r"、サンプル数 n=\d+）"
 RE_I_TITLE = re.compile(r"｜業者比較・買取査定ガイド\"")
-RE_I_DESC = re.compile(r"売却するなら？(.+?地方の地元業者と[34]業者参考リンクを掲載。)市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。\"")
+RE_I_DESC = re.compile(r"売却するなら？(.+?地方の地元業者と[34]業者参考リンクを掲載。)(?:市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。|市場相場は集計中です。最新の査定額は各業者にご確認ください。)\"")
 RE_I_FAQ = re.compile(r"(\\u306f )" + re.escape(LABEL_INSUFF_ESC) + r"(\\uff08Yahoo Auctions )")
 RE_I_MEDIAN = re.compile(r"(<strong>)" + LABEL_INSUFF + r"(</strong>です（)" + INSUFF_SENT)
 RE_I_LIST = re.compile(r"(</strong>: )" + LABEL_INSUFF + r"（" + INSUFF_SENT)
@@ -97,7 +98,7 @@ def median_sentence(median: int, n: int, date: str) -> str:
 
 
 def insuff_sentence(date: str, n: int) -> str:
-    return f"現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません（取得日 {date}、サンプル数 n={n}）"
+    return f"過去180日の落札データが20件に満たないため、市場相場の中央値は掲載していません（取得日 {date}、サンプル数 n={n}）"
 
 
 def apply_common(s: str, date: str) -> str:
@@ -132,7 +133,7 @@ def convert_insufficient_to_sufficient(s: str, median: int, n: int, date: str) -
 def convert_sufficient_to_insufficient(s: str, date: str, n: int) -> str:
     """(3) 十分 → 不足"""
     s = RE_S_TITLE.sub("｜業者比較・買取査定ガイド\"", s)
-    s = RE_S2I_DESC.sub(lambda m: "売却するなら？" + m.group(1) + "市場相場は現在データ蓄積中で、確定額は各業者の最新査定でご確認ください。\"", s)
+    s = RE_S2I_DESC.sub(lambda m: "売却するなら？" + m.group(1) + "市場相場は集計中です。最新の査定額は各業者にご確認ください。\"", s)
     s = RE_S_FAQ.sub(lambda m: m.group(1) + LABEL_INSUFF_ESC + m.group(2), s)
     s = RE_S_MEDIAN.sub(lambda m: m.group(1) + LABEL_INSUFF + m.group(2) + insuff_sentence(date, n), s)
     s = RE_S_LIST.sub(lambda m: m.group(1) + LABEL_INSUFF + "（" + insuff_sentence(date, n), s)

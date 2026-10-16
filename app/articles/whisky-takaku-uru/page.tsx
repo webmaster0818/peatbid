@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "【2026年最新】ウイスキーを高く売る5つのコツ — 最高入札を引き出す実践テクニック",
+  title: "【2026年最新】ウイスキーを高く売る5つのコツ — 査定額を上げるためのポイント",
   description:
-    "ウイスキーを最高値で売るための実践テクニックを徹底解説。相見積もり・付属品・売却タイミング・業者選び・状態保持の5つのコツで、最高入札を引き出します。",
+    "ウイスキーを高く売るためのポイントを解説しています。相見積もり・付属品・売却時期・業者選び・保管状態の5つの観点からご説明します。",
 };
 
 function FaqSchema() {
@@ -13,7 +13,7 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
-      { "@type": "Question", name: "ウイスキーを高く売る最大のコツは？", acceptedAnswer: { "@type": "Answer", text: "最大のコツは「複数業者で必ず相見積もりを取ること」。同じボトルでも業者により査定額に大きな差が出るため、市場相場を把握した上で最高値を提示した業者に売却するのが鉄則です。" } },
+      { "@type": "Question", name: "ウイスキーを高く売るために最も重要なことは何ですか？", acceptedAnswer: { "@type": "Answer", text: "最も重要なのは、複数の業者で相見積もりを取ることです。同じボトルでも業者により査定額に大きな差が出るため、市場相場を把握したうえで、最も高い査定額を提示した業者に売却することをおすすめします。" } },
       { "@type": "Question", name: "売り時はいつがベストですか？", acceptedAnswer: { "@type": "Answer", text: "業界的には需給が逼迫する年末年始・お中元時期が高値傾向。ただし価格は日々変動するため「自分が納得できる価格になったら売る」のが実践的です。" } },
       { "@type": "Question", name: "市場相場はどこで確認できますか？", acceptedAnswer: { "@type": "Answer", text: "本サイトでは Yahoo Auctions 過去180日の落札中央値（IQR外れ値除去後）を主要50銘柄について公開しています。各銘柄ページでサンプル数と取得日も合わせて確認できます。" } },
     ],
@@ -45,7 +45,7 @@ export default function WhiskyTakakuUruPage() {
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ウイスキーを高く売る5つのコツ</h1>
           <p className="text-warm-gray text-sm mb-8">最終更新: 2026-05-19</p>
 
-          <p>「家にある山崎18年、いくらで売れるのだろう？」「相続したウイスキーを少しでも高く売りたい」——同じボトルでも、売り方を間違えると損失になります。本記事では、PeatBid編集部が推奨する<strong>最高入札を引き出すための5つの実践テクニック</strong>を解説します。</p>
+          <p>「家にある山崎18年、いくらで売れるのだろう？」「相続したウイスキーを少しでも高く売りたい」——同じボトルでも、売り方によって査定額が大きく変わります。本記事では、PeatBid編集部が推奨する<strong>査定額を上げるための5つのポイント</strong>を解説します。</p>
 
           <p>まず売る前に必ず<Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark underline">市場相場（Yahoo中央値）一覧</Link>で対象銘柄の現在の相場感を把握してください。市場相場は業者買取額の基準になります。</p>
 
@@ -58,10 +58,10 @@ export default function WhiskyTakakuUruPage() {
             <li>本サイトの<Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark underline">市場相場一覧</Link>で対象銘柄の Yahoo中央値を確認 → 妥当な業者買取額の基準を把握</li>
             <li><strong>LINXAS</strong>（銘柄別の買取参考価格を公開）で具体的な業者公表値を確認</li>
             
-            <li>最高値を提示した業者に売却</li>
+            <li>最も高い査定額を提示した業者に売却</li>
           </ul>
 
-          <p><strong>1社だけで決めるのは絶対に避けましょう</strong>。査定無料・キャンセル無料の業者が多いため、複数業者を回るコストはほぼゼロです。</p>
+          <p><strong>1社だけで決めることはおすすめしません</strong>。査定無料・キャンセル無料の業者が多いため、複数業者を回るコストはほぼゼロです。</p>
 
           <h2>コツ2: 付属品をすべて揃える</h2>
 
@@ -82,7 +82,7 @@ export default function WhiskyTakakuUruPage() {
             </table>
           </div>
 
-          <p>探せば家のどこかにある可能性が高いので、売却前に必ず確認しましょう。実際の評価は業者により異なるため、最終的な査定額は各業者ページでご確認ください。</p>
+          <p>保管場所に残っている場合もあるため、売却前にご確認ください。実際の評価は業者により異なるため、最終的な査定額は各業者ページでご確認ください。</p>
 
           <h2>コツ3: 売却タイミングを見極める</h2>
 
@@ -113,7 +113,7 @@ export default function WhiskyTakakuUruPage() {
             <li><strong>お酒・洋酒の専門知識がある</strong>（公式サイトに銘柄別相場表がある）</li>
             <li><strong>査定料・キャンセル料・送料がすべて無料</strong></li>
             <li><strong>古物商許可・酒類販売業免許の両方を取得している</strong></li>
-            <li><strong>査定額の根拠（オークション相場・状態評価）を説明してくれる</strong></li>
+            <li><strong>査定額の根拠（オークション相場・状態評価）を説明する業者</strong></li>
             <li><strong>レビュー・口コミが安定している</strong></li>
           </ul>
 
@@ -128,7 +128,7 @@ export default function WhiskyTakakuUruPage() {
 
           <h2>コツ5: ボトルの状態保持</h2>
 
-          <p>査定額は<strong>ボトル本体の状態</strong>に大きく左右されます。長期保管しているコレクターも、売却前にこれだけはチェックしましょう。</p>
+          <p>査定額は<strong>ボトル本体の状態</strong>に大きく左右されます。長期保管している方も、売却前に以下の点をご確認ください。</p>
 
           <h3>保管環境の基本</h3>
           <ul>
@@ -162,7 +162,7 @@ export default function WhiskyTakakuUruPage() {
             <li>付属品を全て揃える</li>
             <li>状態を確認・整える</li>
             <li>複数業者に見積もり依頼（業者ページで個別査定）</li>
-            <li>最高値を提示した業者に売却</li>
+            <li>最も高い査定額を提示した業者に売却</li>
           </ol>
 
           <h2>関連記事</h2>

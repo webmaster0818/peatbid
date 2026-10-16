@@ -5,12 +5,12 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/bowmore-25.json";
 
 export const metadata: Metadata = {
-  title: 'ボウモア25年の歴史・特徴と買取価値【2026年10月最新】なぜ高い?市場評価の根拠',
-  description: 'ボウモア25年の歴史的背景、アイラのストーリー、味わいの特徴、世界的評価、市場価値が高い理由を専門ライターが徹底解説。コレクター・購入検討者必読の銘柄完全ガイド。',
+  title: 'ボウモア25年の歴史・特徴と買取価値【2026年10月最新】市場で評価される理由',
+  description: 'ボウモア25年の歴史的背景、アイラの沿革、味わいの特徴、世界的な評価、市場価値が高い理由を解説しています。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'ボウモア25年を売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' } }, { "@type": "Question", "name": '複数業者比較は本当に必要？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、必須です。同じボウモア25年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' } }, { "@type": "Question", "name": '買取後のキャンセルは可能？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": 'ボウモア25年の売却益に税金はかかる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'ボウモア25年を売るならどのタイミングがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'ボウモア25年を売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' } }, { "@type": "Question", "name": '複数の業者の比較は必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、おすすめします。同じボウモア25年でも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' } }, { "@type": "Question", "name": '買取後のキャンセルはできますか？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": 'ボウモア25年の売却益に税金はかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'ボウモア25年を売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" } }] }) }} />;
 }
 
 export default function Bowmore25RekishiPage() {
@@ -46,7 +46,7 @@ export default function Bowmore25RekishiPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">ボウモア25年</p>
             <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / アイラ / 25年熟成 / 希少度 ハイ / 市場相場 71,999円</p>
-            <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/bowmore-25-kaitori/" className="text-amber-dark underline">ボウモア25年の買取相場 完全ガイドへ</Link></p>
+            <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/bowmore-25-kaitori/" className="text-amber-dark underline">ボウモア25年の買取相場ガイド</Link></p>
           </div>
 
           {/* Table of Contents */}
@@ -64,11 +64,11 @@ export default function Bowmore25RekishiPage() {
             </ol>
           </div>
 
-          <p>ボウモア25年はスコッチウイスキーを代表する銘柄の1つで、アイラが手がける25年熟成のボトル。本記事では、銘柄の誕生背景、蒸溜所のストーリー、味わいの個性、世界的評価、そして二次流通市場で高値が定着している理由を解説します。</p>
+          <p>ボウモア25年はスコッチウイスキーの代表的な銘柄の一つで、アイラが手がける25年熟成のボトルです。本記事では、銘柄の誕生の背景、蒸溜所の沿革、味わいの特徴、世界的な評価、二次流通市場で高値が定着している理由を解説します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではボウモア25年の落札が約48件確認でき、落札額の中央値は71,999円でした。流通量がやや限定的で希少性が高めの銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではボウモア25年の落札が約48件確認でき、落札額の中央値は71,999円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -77,40 +77,40 @@ export default function Bowmore25RekishiPage() {
           </div>
 
           <h2 id="section-0">1. ボウモア25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ボウモア25年</strong>はスコッチウイスキー（アイラ）の25年熟成、度数43%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>71,999円</strong>（流通サンプル48件、当サイト独自集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定が上下しやすく、コンディション管理が効きます。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限定的で、コンディション次第で査定が伸びやすい傾向です。</p><p>スコッチは蒸溜所・地域（アイラ）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ボウモア25年</strong>はスコッチウイスキー（アイラ）の25年熟成、度数43%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>71,999円</strong>（流通サンプル48件、当サイトの集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定額が変動しやすく、状態の管理が査定額に影響します。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>スコッチは蒸溜所・地域（アイラ）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. アイラの創業と歴史</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>アイラはスコッチウイスキー業界で長い歴史を持つ蒸溜所/メーカー。創業以来、伝統的な製法と現代の品質管理を融合し、ボウモア25年を含む数々の名作を世に送り出しています。</p><p>ジャパニーズウイスキーの場合は1923年の山崎蒸溜所創設以降、スコッチの場合は18〜19世紀に遡る歴史を持つ銘柄も多数あります。各蒸溜所が独自の蒸溜方法・水・樽選びで個性を表現し、それが今日の市場価値につながっています。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>アイラは、スコッチウイスキーの蒸溜所・メーカーです。ボウモア25年を含む銘柄を製造しています。</p><p>ジャパニーズウイスキーの場合は1923年の山崎蒸溜所創設以降、スコッチの場合は18〜19世紀に遡る歴史を持つ銘柄も多数あります。各蒸溜所は独自の蒸溜方法・水・樽の選定によって個性を表現しており、それが現在の市場価値につながっています。</p>` }} />
 
           <h2 id="section-2">3. ボウモア25年の誕生背景</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>ボウモア25年は、アイラの長年の研究と職人技術の結晶。25年熟成の長期にわたる樽熟成を経て、樽材から溶け出した成分と原酒が複雑に交差し、唯一無二の味わいが生まれます。</p><p>発売当時はスコッチウイスキーの品質を世界に示すフラッグシップ的位置付けで、限定的な生産量と高い品質基準により、コレクターや愛好家から絶大な支持を集めました。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>ボウモア25年は、アイラが製造する25年熟成のボトルです。樽熟成の過程で樽材から溶け出した成分と原酒が合わさり、その銘柄ならではの味わいが生まれます。</p><p>生産量が限られていることから、コレクターや愛好家から高い評価を得ています。</p>` }} />
 
           <h2 id="section-3">4. ボウモア25年の味わいプロファイル</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキーの味わいは、原料・水・蒸溜方法・熟成樽・熟成期間で決まります。
 
 <strong>主要な構成要素</strong>:</p><ol><li>原料の麦芽（モルト）の質</li><li>仕込み水のミネラル成分</li><li>発酵に使う酵母の種類</li><li>ポットスチルの形状・蒸溜方法</li><li>熟成樽の種類（シェリー樽・バーボン樽・ミズナラ樽等）</li><li>熟成環境（温度・湿度）
 
-これら全ての要素が組み合わさり、{age_label}の時間をかけて醸成されたのが{name}の味わいです。</li></ol>` }} />
+これらの要素の組み合わせと熟成期間によって、{name}の味わいが形成されています。</li></ol>` }} />
 
           <h2 id="section-4">5. 世界的評価と受賞歴</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>ボウモア25年を含むアイラの銘柄は、以下の国際品評会で度々受賞しています:</p><ol><li>ISC（インターナショナル・スピリッツ・チャレンジ）</li><li>ワールド・ウイスキー・アワード（WWA）</li><li>サンフランシスコ・ワールド・スピリッツ・コンペティション</li><li>ジム・マーレイ氏のウイスキー・バイブル</li><li>ウイスキー・マガジン・アワード
+          <div dangerouslySetInnerHTML={{ __html: `<p>アイラの銘柄が評価を受けている主な国際品評会・評価には、以下があります。</p><ol><li>ISC（インターナショナル・スピリッツ・チャレンジ）</li><li>ワールド・ウイスキー・アワード（WWA）</li><li>サンフランシスコ・ワールド・スピリッツ・コンペティション</li><li>ジム・マーレイ氏のウイスキー・バイブル</li><li>ウイスキー・マガジン・アワード
 
-この国際的評価が、二次流通市場での高値を支えています。受賞歴・専門家評価が「投資する価値のあるボトル」という認識を醸成しているのです。</li></ol>` }} />
+こうした国際的な評価は、二次流通市場での価格に影響しています。</li></ol>` }} />
 
           <h2 id="section-5">6. 二次流通市場での位置付け</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>Sotheby's、Bonhams、Whisky Auctioneer</strong>等の海外オークションで、ボウモア25年は定期的に取引されており、落札データが国内買取相場の指標となっています。</p><p>特に終売や限定リリースの場合は、希少性プレミアが大きく乗ります。コレクター・投資需要が三つ巴で価格を支え、長期的な値上がり期待を生んでいます。</p><p>アジア富裕層・欧米コレクター・国内コレクターが市場参加者として競合する中、ボウモア25年の価値は中長期で見て高水準を維持する見通しです。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>Sotheby's、Bonhams、Whisky Auctioneer</strong>等の海外オークションでは、ボウモア25年と同じ価格帯の銘柄が取引されており、その落札データは国内の買取相場の指標の一つとなっています。</p><p>終売や限定リリースの銘柄では、希少性によるプレミア価格が付く傾向があります。</p>` }} />
 
           <h2 id="section-6">7. コレクター市場での需要動向</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>ボウモア25年の需要は以下の層から支えられています:</p><ol><li><strong>アジア富裕層</strong>（中国・香港・台湾・シンガポール）— ジャパニーズウイスキーブームの主要バイヤー</li><li><strong>欧米コレクター</strong>（米・英・独）— Sotheby's・Bonhamsの主要顧客</li><li><strong>国内コレクター・愛好家</strong>— SNS・ウイスキーバー文化の普及で増加中</li><li><strong>投資家・ファンド</strong>— 「液体資産」としての保有が増加
+          <div dangerouslySetInnerHTML={{ __html: `<p>ボウモア25年の主な需要層は以下のとおりです。</p><ol><li><strong>アジアの富裕層</strong>（中国・香港・台湾・シンガポール）</li><li><strong>欧米のコレクター</strong>（米・英・独）</li><li><strong>国内のコレクター・愛好家</strong></li><li><strong>投資家・ファンド</strong>
 
-この多様な需要構造が、ボウモア25年の市場価値を安定的に支えています。</li></ol>` }} />
+こうした需要層の広がりが、ボウモア25年の市場価値に影響しています。</li></ol>` }} />
 
           <h2 id="section-7">8. 今後の市場見通し</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>ボウモア25年を含むスコッチウイスキーの中長期見通しは、(1)世界的需要の継続、(2)供給制限、(3)新興市場の参入 の3要因が支え、<strong>高値推移が予想</strong>されます。</p><p>ただし短期は需給の振れにより上下動も発生します。「自分にとっての納得価格になったら売る」のが実践的な判断軸です。</p><p>長期保有を視野に入れる場合は、適切な保管と保険加入を検討し、5〜10年スパンでの値上がり期待を持つのが現実的です。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>ボウモア25年を含むスコッチウイスキーの中長期見通しは、(1)世界的需要の継続、(2)供給制限、(3)新興市場の参入 の3つが価格を支える要因として挙げられます。</p><p>ただし、短期的には需給により価格が上下します。将来の価格は保証されるものではないため、ご自身が納得できる価格かどうかを売却の判断基準とすることをおすすめします。</p><p>長期保有を検討する場合は、適切な保管と保険への加入もご検討ください。</p>` }} />
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
-            <h3 className="font-bold text-base mb-3 text-center">ボウモア25年の無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
+            <h3 className="font-bold text-base mb-3 text-center">ボウモア25年の無料一括査定のご案内</h3>
+            <p className="text-sm text-warm-gray text-center mb-4">複数の業者の査定額を比較できます。査定料・キャンセル料は無料です。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
@@ -121,7 +121,7 @@ export default function Bowmore25RekishiPage() {
           <h2>ボウモア25年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: 'ボウモア25年を売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' }, { q: '複数業者比較は本当に必要？', a: 'はい、必須です。同じボウモア25年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' }, { q: '買取後のキャンセルは可能？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: 'ボウモア25年の売却益に税金はかかる？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'ボウモア25年を売るならどのタイミングがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" }].map((faq) => (
+            {[{ q: 'ボウモア25年を売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' }, { q: '複数の業者の比較は必要ですか？', a: 'はい、おすすめします。同じボウモア25年でも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' }, { q: '買取後のキャンセルはできますか？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: 'ボウモア25年の売却益に税金はかかりますか？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'ボウモア25年を売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -142,14 +142,14 @@ export default function Bowmore25RekishiPage() {
             <Link href="/articles/bowmore-25-ranking/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">買取業者ランキング</span><p className="text-sm font-bold mt-1">ボウモア25年の買取業者ランキング</p></Link>
             <Link href="/articles/bowmore-25-kihaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">希少性・投資価値</span><p className="text-sm font-bold mt-1">ボウモア25年の希少性・投資価値</p></Link>
             <Link href="/articles/bowmore-25-auction-suii/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">オークション推移</span><p className="text-sm font-bold mt-1">ボウモア25年のオークション推移</p></Link>
-            <Link href="/articles/bowmore-25-kaifu-zumi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">開封済みでも売れる</span><p className="text-sm font-bold mt-1">ボウモア25年の開封済みでも売れる</p></Link>
-            <Link href="/articles/bowmore-25-hako-nashi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">箱なしでも買取</span><p className="text-sm font-bold mt-1">ボウモア25年の箱なしでも買取</p></Link>
-            <Link href="/articles/bowmore-25-label-yogore/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ラベル汚れでも査定</span><p className="text-sm font-bold mt-1">ボウモア25年のラベル汚れでも査定</p></Link>
-            <Link href="/articles/bowmore-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">ボウモア25年の買取相場ガイド（完全版）</p></Link>
-            <Link href="/articles/bowmore-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋ハブ</span><p className="text-sm font-bold mt-1">ボウモア（全種）の偽物の見分け方</p></Link>
+            <Link href="/articles/bowmore-25-kaifu-zumi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">開封済みボトルの買取</span><p className="text-sm font-bold mt-1">ボウモア25年の開封済みボトルの買取</p></Link>
+            <Link href="/articles/bowmore-25-hako-nashi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">箱なしボトルの買取</span><p className="text-sm font-bold mt-1">ボウモア25年の箱なしボトルの買取</p></Link>
+            <Link href="/articles/bowmore-25-label-yogore/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ラベル汚れがある場合の査定</span><p className="text-sm font-bold mt-1">ボウモア25年のラベル汚れがある場合の査定</p></Link>
+            <Link href="/articles/bowmore-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">ボウモア25年の買取相場ガイド</p></Link>
+            <Link href="/articles/bowmore-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">ボウモア（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

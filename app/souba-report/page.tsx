@@ -37,7 +37,7 @@ const yen = (n: number) => "¥" + Math.round(n).toLocaleString();
 
 export const metadata: Metadata = {
   title: `ウイスキー買取相場レポート【毎週更新】PeatBid買取相場指数 前週比${pct(ch1)}`,
-  description: `主要ウイスキー${nBrands}銘柄のヤフオク実落札中央値から算出する「PeatBid買取相場指数」の週次レポート。今週の指数は${index.latest.toFixed(2)}（前週比${pct(ch1)}）。上昇・下落TOP5、カテゴリ別サブ指数、算出方法を毎週月曜に自動更新で公開。出典明記で引用歓迎の一次データです。`,
+  description: `主要ウイスキー${nBrands}銘柄のヤフオク実落札中央値から算出する「PeatBid買取相場指数」の週次レポート。今週の指数は${index.latest.toFixed(2)}（前週比${pct(ch1)}）。上昇・下落TOP5、カテゴリ別サブ指数、算出方法を毎週月曜に更新して掲載しています。出典を明記いただければ引用いただける一次データです。`,
   alternates: { canonical: "/souba-report/" },
 };
 
@@ -162,7 +162,7 @@ function JsonLd() {
     "@context": "https://schema.org",
     "@type": "Dataset",
     name: "PeatBid買取相場指数（週次）",
-    description: `Yahoo!オークション過去180日落札データの週次中央値（IQR外れ値除去）から算出した、主要ウイスキー${nBrands}銘柄の合成指数（基準週${baseDate}=100）。毎週月曜自動更新。`,
+    description: `Yahoo!オークション過去180日落札データの週次中央値（IQR外れ値除去）から算出した、主要ウイスキー${nBrands}銘柄の合成指数（基準週${baseDate}=100）です。毎週月曜に更新しています。`,
     url,
     creator: { "@type": "Organization", name: "PeatBid編集部", url: "https://peatbid.com/editorial/" },
     dateModified: updated,
@@ -201,7 +201,7 @@ export default function Page() {
         ウイスキー買取相場レポート＆PeatBid買取相場指数
       </h1>
       <p className="text-warm-gray text-sm mb-2">
-        最終更新: {updated}（毎週月曜自動更新） ／ 監修: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
+        最終更新: {updated}（毎週月曜更新） ／ 監修: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
       </p>
       <p className="leading-relaxed mb-8">
         主要ウイスキー<strong>{nBrands}銘柄</strong>のヤフオク実落札中央値（過去180日・IQR外れ値除去）から算出する
@@ -234,7 +234,7 @@ export default function Page() {
         <Chart />
       </section>
       <p className="text-xs text-warm-gray mb-10">
-        ※現在{weeks}週分のデータで算出しています。毎週月曜の自動更新で系列が伸びていきます（将来の価格を予測するものではありません）。
+        ※現在{weeks}週分のデータで算出しています。毎週月曜の更新によりデータが追加されます（将来の価格を予測するものではありません）。
       </p>
 
       {/* 上昇/下落 TOP5 */}
@@ -282,7 +282,7 @@ export default function Page() {
 
       {/* 引用歓迎（被リンク資産） */}
       <section id="citation" className="mb-10 border border-amber/40 rounded-2xl p-6 bg-cream/50">
-        <h2 className="font-display text-lg font-bold text-ink mb-2 !mt-0">📊 出典明記で引用歓迎</h2>
+        <h2 className="font-display text-lg font-bold text-ink mb-2 !mt-0">引用について（出典の明記をお願いします）</h2>
         <p className="text-sm leading-relaxed mb-3">
           「PeatBid買取相場指数 {index.latest.toFixed(2)}（前週比{pct(ch1)}）」などの数値・チャート・TOP5は、
           <strong>出典の明記</strong>を条件にメディア・ブログ・SNS等でご自由に引用いただけます。
@@ -303,7 +303,7 @@ export default function Page() {
         <ul className="list-disc pl-5 space-y-1.5 text-sm">
           <li>📈 <Link href="/souba-index/" className="text-amber-dark underline">ウイスキー買取相場指数</Link> — 指数そのものの定義・長期系列</li>
           <li>🔼 <Link href="/souba-ranking/" className="text-amber-dark underline">買取相場ランキング・ダッシュボード</Link> — 高額相場・流通量ランキング</li>
-          <li>📚 <Link href="/souba-hakusho/" className="text-amber-dark underline">全国ウイスキー買取相場白書</Link> — 銘柄別の実勢中央値一覧（絶対値リファレンス）</li>
+          <li>📚 <Link href="/souba-hakusho/" className="text-amber-dark underline">全国ウイスキー買取相場白書</Link> — 銘柄別の実勢中央値一覧（金額の一覧）</li>
           <li>📝 <Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark underline">ウイスキー市場相場一覧</Link> — 全銘柄の市場相場と状態別の業界目安</li>
         </ul>
       </section>

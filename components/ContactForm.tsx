@@ -128,7 +128,7 @@ export default function ContactForm() {
       </button>
       {status === "error" && (
         <p className="text-sm text-burgundy">
-          送信に失敗しました。時間をおいて再度お試しいただくか、しばらく経っても解決しない場合は恐れ入りますが再度ご確認ください。
+          送信に失敗しました。恐れ入りますが、時間をおいて再度お試しください。
         </p>
       )}
     </form>

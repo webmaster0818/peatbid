@@ -23,7 +23,7 @@ const cormorant = Cormorant_Garamond({
 const SITE_NAME_JA = "ピートビッド";
 const SITE_URL = "https://peatbid.com";
 const SITE_DESCRIPTION =
-  "PeatBid（ピートビッド）はウイスキーの買取相場・最高入札を比較するガイドサイトです。山崎・響・白州・マッカランなど主要銘柄の最新買取相場、希少ボトルの査定ポイント、信頼できる買取業者を徹底比較。コレクター・相続・断捨離まで、あなたのウイスキーを最も高く売る方法が見つかります。";
+  "PeatBid（ピートビッド）は、ウイスキーの買取相場と買取業者の情報を掲載するガイドサイトです。山崎・響・白州・マッカランなど主要銘柄について、ヤフオク落札データの中央値にもとづく買取相場、状態別の査定の目安、買取業者の比較を掲載しています。";
 
 
 export const viewport: Viewport = {
@@ -213,9 +213,7 @@ function Footer() {
               {SITE_NAME}
             </p>
             <p className="text-sm text-cream/70 leading-relaxed">
-              ウイスキー買取の最高入札比較。
-              <br />
-              あなたの一本に、最高の値段を。
+              ウイスキーの買取相場と買取業者の情報を掲載しています。
             </p>
           </div>
           <div>

@@ -36,7 +36,7 @@ const faqs = [
     q: "グレンファークラスの年代指定なし（105等）の買取相場はいくらですか？",
     a: nvReady
       ? `当サイト集計（ヤフオク過去180日の実落札・IQR外れ値除去後の中央値）で、今週の実勢中央値は${nvMedianStr}です（取得日 ${nvFetchedAt ?? "毎週月曜更新"}・毎週更新）。これは中古市場の実勢値であり、業者の買取査定額は状態・付属品・各社の在庫状況により変動します。実際の査定額は複数業者の相見積もりでご確認ください。`
-      : "本ページのNV枠の実勢データは現在収集中です（毎週更新のため近日掲載予定）。グレンファークラス105の実勢中央値（毎週更新）は当サイトのグレンファークラス105買取相場ページに掲載しています。買取査定額は状態・付属品・各社の在庫状況により変動するため、価格を保証するものではありません。",
+      : "本ページのNV枠の実勢データは現在集計中です（毎週更新のため、近日掲載予定）。グレンファークラス105の実勢中央値（毎週更新）は当サイトのグレンファークラス105買取相場ページに掲載しています。買取査定額は状態・付属品・各社の在庫状況により変動するため、価格を保証するものではありません。",
   },
   {
     q: "年代指定なしのグレンファークラスを高く売るコツは？",
@@ -99,9 +99,9 @@ export default function GlenfarclasNvKaitoriPage() {
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 not-prose">
             <p className="font-bold text-ink mb-2">結論（30秒）</p>
             <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
-              <li>年代表記のないグレンファークラスの多くは <strong>「105 カスクストレングス」（60度）</strong>。ラベルの「105」は<strong>熟成年数ではなく度数由来の表記</strong>です。</li>
-              <li>ほかにノンエイジの<strong>「ヘリテージ」</strong>などもあります。まずラベルのボトル名を確認しましょう。</li>
-              <li>105の相場は25年などの年代物とはまったく別水準。<strong>取り違えたまま査定に出すと損</strong>をしやすいポイントです。</li>
+              <li>年代表記のないグレンファークラスの多くは、<strong>「105 カスクストレングス」（60度）</strong>。ラベルの「105」は<strong>熟成年数ではなく度数由来の表記</strong>です。</li>
+              <li>ほかにノンエイジの<strong>「ヘリテージ」</strong>などもあります。まず、ラベルのボトル名をご確認ください。</li>
+              <li>105の相場は、25年などの年代物とは水準が大きく異なります。<strong>取り違えたまま査定に出すと損</strong>をしやすいポイントです。</li>
               <li>「25年」など年数表記があるボトルは <Link href="/articles/glenfarclas-25-kaitori/" className="text-amber-dark underline">グレンファークラス25年の買取相場</Link> をご覧ください。</li>
             </ul>
           </div>
@@ -133,7 +133,7 @@ export default function GlenfarclasNvKaitoriPage() {
           {nvReady ? (
             <p>年代指定なし（105等）の枠の<strong>今週の実勢中央値は {nvMedianStr}</strong> です（ヤフオク過去180日の実落札・IQR外れ値除去後の中央値{typeof nvRec?.filtered_n === "number" ? `・n=${nvRec.filtered_n}件` : ""}{nvFetchedAt ? `・取得日 ${nvFetchedAt}` : ""}・毎週更新）。これは中古市場の実勢値であり、特定の業者の買取価格ではありません。</p>
           ) : (
-            <p>本ページのNV枠（年代指定なし）の実勢データは<strong>現在収集中です（毎週更新のため近日掲載予定）</strong>。なお、105単体の実勢中央値（ヤフオク実落札・毎週更新）は <Link href="/articles/glenfarclas-105-kaitori/" className="text-amber-dark underline">グレンファークラス105の買取相場ページ</Link> に掲載しています。あわせてご確認ください。</p>
+            <p>本ページのNV枠（年代指定なし）の実勢データは<strong>現在集計中です（毎週更新のため、近日掲載予定）</strong>。なお、105単体の実勢中央値（ヤフオク実落札・毎週更新）は <Link href="/articles/glenfarclas-105-kaitori/" className="text-amber-dark underline">グレンファークラス105の買取相場ページ</Link> に掲載しています。あわせてご確認ください。</p>
           )}
 
           <p>年数表記のあるボトルとの水準差の参考に、当サイトが毎週集計している実勢中央値を並べると次の通りです。</p>
@@ -158,7 +158,7 @@ export default function GlenfarclasNvKaitoriPage() {
             </table>
           </div>
 
-          <p className="text-xs text-warm-gray">※中央値はヤフオク!の過去180日落札データをIQR外れ値除去後に当サイトが独自集計した参考値です（取得日 {refFetchedAt}・毎週月曜更新）。買取額を保証するものではなく、業者の査定額は状態・付属品・各社の在庫状況により変動します。</p>
+          <p className="text-xs text-warm-gray">※中央値はヤフオク!の過去180日落札データをIQR外れ値除去後に当サイトが独自に集計した参考値です（取得日 {refFetchedAt}・毎週月曜更新）。買取額を保証するものではなく、業者の査定額は状態・付属品・各社の在庫状況により変動します。</p>
 
           <p>同じ「グレンファークラス」でも、105と25年では相場の桁が違います。査定に出す前に、<strong>手元のボトルがどちらなのかをラベルで確定させる</strong>ことが、適正価格で売る第一歩です。</p>
 
@@ -167,7 +167,7 @@ export default function GlenfarclasNvKaitoriPage() {
           <p>「年代がわからない」グレンファークラスは、次の順で確認すると特定できます。</p>
 
           <ol>
-            <li><strong>正面ラベル中央の数字を見る</strong> — 「10」「12」「15」「21」「25」などの数字＋「YEARS OLD」があれば年数表記ボトル。「<strong>105</strong>」とあればカスクストレングス（年代指定なし）です</li>
+            <li><strong>正面ラベル中央の数字を見る</strong> — 「10」「12」「15」「21」「25」などの数字と「YEARS OLD」の表記があれば、年数表記のあるボトルです。「<strong>105</strong>」とあればカスクストレングス（年代指定なし）です</li>
             <li><strong>「Heritage」等のボトル名を探す</strong> — 年数の数字がなく「Heritage」などの名称があればノンエイジのラインです</li>
             <li><strong>度数表記を確認する</strong> — 105は<strong>60%</strong>と高度数。40〜46%台なら別のボトルの可能性が高いです</li>
             <li><strong>裏ラベル・肩ラベルも確認する</strong> — 正面が摩耗して読めない場合も、裏ラベルや化粧箱に名称・度数が残っていることがあります</li>
@@ -182,10 +182,10 @@ export default function GlenfarclasNvKaitoriPage() {
 
           <ol>
             <li><strong>外箱・冊子など付属品を揃える</strong> — 付属品の有無で査定評価が変わります。部分的にでも残っていれば一緒に査定へ</li>
-            <li><strong>未開封のまま売る</strong> — 開封済みは大幅減額の傾向。コレクション目的なら開栓しない</li>
+            <li><strong>未開封のまま売る</strong> — 開封済みは大幅な減額となる傾向があります。コレクション目的なら開栓しない</li>
             <li><strong>ボトル名と度数を正確に伝える</strong> — 「105」「ヘリテージ」等の名称と60%等の度数を伝えると、年代物との取り違えによる査定ミスを防げます</li>
             <li><strong>複数業者で相見積もりを取る</strong> — 同じボトルでも業者により査定額が10〜20%異なることがあります</li>
-            <li><strong>保管状態を整える</strong> — 直射日光を避け、縦置き・温度変化の少ない場所で保管。液面低下・ラベル褪色は減額要因です</li>
+            <li><strong>保管状態を整える</strong> — 直射日光を避け、温度変化の少ない場所で縦置きで保管してください。液面低下・ラベル褪色は減額要因です</li>
           </ol>
 
           <h2 id="satei">5. 無料査定の使い方</h2>
@@ -194,7 +194,7 @@ export default function GlenfarclasNvKaitoriPage() {
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">グレンファークラスの無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">複数業者の査定を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
+            <p className="text-sm text-warm-gray text-center mb-4">複数の業者の査定額を比較できます。査定料・キャンセル料は無料です。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               
@@ -224,7 +224,7 @@ export default function GlenfarclasNvKaitoriPage() {
             <li><Link href="/articles/glenfarclas-105-kaitori/" className="text-amber-dark hover:underline font-bold">グレンファークラス105（年代指定なし）の買取相場</Link></li>
             <li><Link href="/articles/glenfarclas-25-kaitori/" className="text-amber-dark hover:underline">グレンファークラス25年の買取相場</Link></li>
             <li><Link href="/articles/glenfarclas-nisemono-mikata/" className="text-amber-dark hover:underline">グレンファークラスの偽物の見分け方（真贋ハブ）</Link></li>
-            <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline">ウイスキーの「年代指定なし(NV)」とは？買取での扱いと相場の見方</Link></li>
+            <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline">ウイスキーの「年代指定なし(NV)」の解説買取での扱いと相場の見方</Link></li>
             <li><Link href="/souba-ranking/" className="text-amber-dark hover:underline">ウイスキー買取相場ランキング（毎週更新）</Link></li>
           </ul>
 

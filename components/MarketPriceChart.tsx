@@ -47,7 +47,7 @@ export default function MarketPriceChart({ history }: Props) {
   if (points.length === 0) {
     return (
       <div className="w-full h-[180px] flex items-center justify-center bg-cream/30 rounded-lg">
-        <p className="text-xs text-warm-gray">価格履歴データ蓄積中（週次自動更新）</p>
+        <p className="text-xs text-warm-gray">価格履歴データは集計中です（毎週更新）</p>
       </div>
     );
   }
@@ -99,7 +99,7 @@ export default function MarketPriceChart({ history }: Props) {
       </div>
       {onlyOne && (
         <p className="text-center text-[11px] text-warm-gray mt-2">
-          ⚪︎ 履歴蓄積中（週次1ポイントずつ追加・現在 1 / 26ポイント目標）
+          履歴データ集計中（毎週1ポイントずつ追加しています）
         </p>
       )}
     </div>

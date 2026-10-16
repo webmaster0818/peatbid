@@ -6,18 +6,18 @@ const PUBLISHED = "2026-10-08";
 const UPDATED = "2026-10-09";
 const UPDATED_JA = "2026年10月9日";
 const URL = "https://peatbid.com/articles/hikakaku-sake-kaitori-kuchikomi/";
-const TITLE = "ヒカカクの酒買取 口コミ・評判は？ウイスキーを一括査定に出す流れと注意点【2026年10月】";
+const TITLE = "ヒカカクの酒買取の口コミ・評判｜ウイスキーを一括査定に出す手順と注意点【2026年10月】";
 const DESC =
-  "ヒカカク！でお酒・ウイスキーを売る前に知りたい口コミ・評判を、公式クチコミページの評価分布（総合3.4・1,083件）と傾向から整理。仕組み（無料・最大20社一括査定）、運営会社、ウイスキーを出すときの流れ、キャンセル・個人情報・電話連絡の注意点、向いている人まで出典付きで解説。";
+  "ヒカカク！でお酒・ウイスキーを売る前に確認いただきたい口コミ・評判を、公式クチコミページの評価分布（総合3.4・1,083件）と傾向から整理しています。仕組み（無料・最大20社一括査定）、運営会社、ウイスキーを査定に出す手順、キャンセル・個人情報・電話連絡の注意点、利用に適している方を、出典付きで解説しています。";
 
 const toc = [
   ["kekka", "結論：ヒカカクの酒買取はこんな人向け"],
   ["toha", "ヒカカク！とは（仕組み・運営会社・お酒カテゴリ）"],
-  ["nagare", "ウイスキーを一括査定に出す流れ"],
-  ["chuui", "お酒を出す前に知っておきたい注意点"],
+  ["nagare", "ウイスキーを一括査定に出す手順"],
+  ["chuui", "お酒を査定に出す前の注意点"],
   ["hyoban", "良い評判・気になる評判（出典付き）"],
   ["sake-kuchikomi", "お酒を売った人のクチコミ26件（当サイト集計）"],
-  ["muki", "向いている人・向かない人"],
+  ["muki", "利用に適している方・適していない方"],
   ["faq", "よくある質問"],
   ["shutten", "出典"],
 ];
@@ -28,7 +28,7 @@ const faqs = [
     a: "公式のよくあるご質問と使い方ガイドに「完全無料でご利用いただけます」と明記されています。利用規約第6条でも「当社がユーザーに対して請求する費用は原則無料」とされています。査定後に売らなくても費用はかかりません。",
   },
   {
-    q: "ヒカカク！自体がウイスキーを買い取ってくれるのですか？",
+    q: "ヒカカク！自体がウイスキーを買い取るのですか？",
     a: "いいえ。公式FAQに「ヒカカク！では買取業者のご紹介のみ行っており、査定や買取に関しましては直接買取業者よりご連絡」とあります。実際の査定額の提示や買取は、提携している各買取店が行います。",
   },
   {
@@ -68,7 +68,7 @@ function Cta({ title, lead }: { title: string; lead: string }) {
         rel="noopener noreferrer nofollow sponsored"
         className="amber-cta inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm"
       >
-        無料一括査定でウイスキーの最高値を調べる →
+        ウイスキーの無料一括査定を申し込む →
       </a>
     </div>
   );
@@ -126,7 +126,7 @@ export default function Page() {
 
       <article className="prose">
         <h1 className="font-display text-3xl md:text-4xl font-semibold !mt-0 mb-2">
-          ヒカカクの酒買取 口コミ・評判は？ウイスキーを一括査定に出す流れと注意点
+          ヒカカクの酒買取の口コミ・評判｜ウイスキーを一括査定に出す手順と注意点
         </h1>
         <p className="text-warm-gray text-sm not-prose mb-6">
           最終更新: {UPDATED_JA} ／ 執筆: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>
@@ -136,15 +136,15 @@ export default function Page() {
         <div id="kekka" className="not-prose bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6">
           <p className="font-bold text-ink mb-2">この記事の結論（30秒）</p>
           <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
-            <li>ヒカカク！は<strong>買取店を紹介する比較サイト</strong>で、自社では買い取らない。利用は<strong>完全無料</strong>、最大20社から査定結果がメールで届く。</li>
-            <li>お酒カテゴリは<strong>744社・53,001点</strong>の掲載（2026年10月9日時点の公式カテゴリページ表記）。ウイスキーは「日用品・コスメ・食品・お酒」カテゴリから選ぶ。</li>
-            <li>公式クチコミは<strong>総合3.4・1,083件</strong>。良い声は「一度の入力で複数社から返事」「買取不可でも丁寧」、気になる声は「電話が多い」「見積もり業者が少ない・1社だけ」。投稿は2021〜2023年に集中し、最新は2026年3月（当サイトが一覧1,078件を年別に集計）。</li>
-            <li>お酒を売った人の投稿は<strong>26件で、うち21件が星5</strong>（平均4.65）。不満は「参加する業者が少ない」「古酒・焼酎・日本酒は値が付きにくい」に集中。</li>
-            <li>向いているのは<strong>銘柄・本数が決まっていて、複数社の相見積もりを取りたい人</strong>。電話連絡を避けたい人や、1本だけ今すぐ現金化したい人には向かない。</li>
+            <li>ヒカカク！は<strong>買取店を紹介する比較サイト</strong>で、自社では買取を行っていません。利用は<strong>無料</strong>で、最大20社から査定結果がメールで届きます。</li>
+            <li>お酒カテゴリは<strong>744社・53,001点</strong>が掲載されています（2026年10月9日時点の公式カテゴリページの表記）。ウイスキーは「日用品・コスメ・食品・お酒」カテゴリから選択します。</li>
+            <li>公式クチコミは<strong>総合3.4・1,083件</strong>。良い声は「一度の入力で複数社から返事」「買取不可でも丁寧」、気になる声は「電話が多い」「見積もり業者が少ない・1社だけ」です。投稿は2021〜2023年に集中し、最新は2026年3月です（当サイトが一覧1,078件を年別に集計）。</li>
+            <li>お酒を売った人の投稿は<strong>26件で、うち21件が星5</strong>（平均4.65）です。不満は「参加する業者が少ない」「古酒・焼酎・日本酒は値が付きにくい」に集中しています。</li>
+            <li>向いているのは<strong>銘柄・本数が決まっていて、複数社の相見積もりを取りたい方</strong>です。電話連絡を避けたい方や、1本だけをすぐに現金化したい方には適していません。</li>
           </ul>
         </div>
 
-        <Cta title="ウイスキーの買取価格を複数社で比較" lead="銘柄・本数・状態を入力するだけ。査定額に納得できなければ売らなくてOKです。" />
+        <Cta title="ウイスキーの買取価格を複数社で比較" lead="銘柄・本数・状態を入力するだけ。査定額に納得できない場合は、売却する必要はありません。" />
 
         <nav className="not-prose border border-warm-border rounded-xl p-5 my-8" aria-label="目次">
           <p className="font-bold text-ink mb-3">目次</p>
@@ -165,44 +165,44 @@ export default function Page() {
             <tbody>
               <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2 w-36">サービス名</th><td className="px-3 py-2">ヒカカク！（買取価格比較サイト）</td></tr>
               <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">運営会社</th><td className="px-3 py-2">株式会社じげん（ZIGExN Co., Ltd.）東京都港区虎ノ門3-4-8／代表責任者 平尾 丈</td></tr>
-              <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">運営の変遷</th><td className="px-3 py-2">以前は株式会社ジラフが運営。2024年8月にジラフの会社分割で株式会社ヒカカクが新設され、じげんが全株式を取得、2024年10月1日に吸収合併（じげんの適時開示 2024年8月26日）。「運営はジラフ」と書かれた記事は旧情報です</td></tr>
-              <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">許可</th><td className="px-3 py-2">古物営業法に基づき都道府県公安委員会の許可を取得と表記。アフィリエイトプログラムを利用したサービス紹介を行う旨も明記</td></tr>
+              <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">運営の変遷</th><td className="px-3 py-2">以前は株式会社ジラフが運営していました。2024年8月にジラフの会社分割で株式会社ヒカカクが新設され、じげんが全株式を取得、2024年10月1日に吸収合併されました（じげんの適時開示 2024年8月26日）。「運営はジラフ」と書かれた記事は旧情報です</td></tr>
+              <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">許可</th><td className="px-3 py-2">古物営業法に基づき都道府県公安委員会の許可を取得していると表記しています。アフィリエイトプログラムを利用したサービス紹介を行う旨も明記</td></tr>
               <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">料金</th><td className="px-3 py-2">完全無料（利用規約第6条「当社がユーザーに対して請求する費用は原則無料」）</td></tr>
-              <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">査定社数</th><td className="px-3 py-2">最大20社から査定結果（買取不可の場合は返信が無いこともある）</td></tr>
+              <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">査定社数</th><td className="px-3 py-2">最大20社から査定結果（買取不可の場合は返信がないこともあります）</td></tr>
               <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">買取方法</th><td className="px-3 py-2">宅配・出張・店頭から最大3つを希望として選択</td></tr>
-              <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">お酒カテゴリ</th><td className="px-3 py-2">掲載 53,001点・744社。直近1年の買取実績は「最低1円〜最高4,400,000円」と表示。サブカテゴリにウイスキー・日本酒・焼酎・ワイン・シャンパン・ブランデー等</td></tr>
+              <tr className="border-b border-warm-border"><th className="text-left bg-cream px-3 py-2">お酒カテゴリ</th><td className="px-3 py-2">掲載 53,001点・744社。直近1年の買取実績は「最低1円〜最高4,400,000円」と表示されています。サブカテゴリにウイスキー・日本酒・焼酎・ワイン・シャンパン・ブランデー等</td></tr>
               <tr><th className="text-left bg-cream px-3 py-2">利用規模</th><td className="px-3 py-2">「月間300万人以上が利用する買取比較サイト」（使い方ガイドの記載）</td></tr>
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-warm-gray">※ 数値はいずれも2026年10月9日に公式サイトの各ページを確認したもの（前日10月8日は52,971点）。掲載点数・社数は日々変動します。</p>
+        <p className="text-xs text-warm-gray">※ 数値はいずれも2026年10月9日に公式サイトの各ページを確認したものです（前日10月8日は52,971点）。掲載点数・社数は日々変動します。</p>
         <p>
-          押さえておきたいのは、<strong>ヒカカク！自身は買取をしない</strong>という点です。公式FAQに「買取業者のご紹介のみ行っており、査定や買取に関しましては直接買取業者よりご連絡」とあり、利用規約第5条でも「一切の買取業務は行わず、金銭の授受には関与しない」「取引の成立・内容について保証しない」と定められています。
+          まず確認いただきたいのは、<strong>ヒカカク！自身は買取をしない</strong>という点です。公式FAQに「買取業者のご紹介のみ行っており、査定や買取に関しましては直接買取業者よりご連絡」とあり、利用規約第5条でも「一切の買取業務は行わず、金銭の授受には関与しない」「取引の成立・内容について保証しない」と定められています。
           つまり、査定額の妥当性や対応の良し悪しは<strong>紹介先の買取店ごとに違う</strong>ため、届いた査定を比べて選ぶ作業が利用者側に残ります。
         </p>
 
-        <h2 id="nagare">ウイスキーを一括査定に出す流れ</h2>
+        <h2 id="nagare">ウイスキーを一括査定に出す手順</h2>
         <p>公式の「査定申込の流れ」をもとに、ウイスキーを出す場合の実務に置き換えると次の5ステップです。</p>
         <ol>
           <li>
-            <strong>査定フォームを起動</strong>：トップの「一括査定・見積もり」から。写真でAI査定（品名・型番が分からなくてもOK）と、自分で入力する方式の2つが用意されています。
+            <strong>査定フォームを起動</strong>：トップの「一括査定・見積もり」から申し込みます。写真によるAI査定（品名・型番が分からない場合も利用できます）と、自分で入力する方式の2つが用意されています。
           </li>
           <li>
-            <strong>商品情報を入力</strong>：商品カテゴリは「日用品・コスメ・食品・お酒」を選び、商品名に銘柄・年数・容量（例：山崎 12年 700ml 箱あり）を入れます。商品状態は「新品・未開封」「中古美品」などから選択。
+            <strong>商品情報を入力</strong>：商品カテゴリは「日用品・コスメ・食品・お酒」を選び、商品名に銘柄・年数・容量（例：山崎 12年 700ml 箱あり）を入れます。商品状態は「新品・未開封」「中古美品」などから選択します。
             公式ガイドは「詳細などの任意項目を詳しく入力いただくとより正確な査定結果」としているので、<strong>未開封か・液面の高さ・箱や冊子の有無・ラベルの状態</strong>を備考に書いておくと、後の減額を避けやすくなります（<Link href="/articles/whisky-sell-guide/">売る前の基礎ガイド</Link>のチェックリスト参照）。
           </li>
           <li>
             <strong>お客様情報を入力</strong>：氏名・メール・電話番号・地域が必須で、買取方法（宅配・出張・店頭）を最大3つ選びます。公式フォームには「『宅配』にチェックを入れると、たくさん業者が見つかる可能性が高まります」と注記があります。本数が多いなら出張も入れておくと、まとめ売りに対応する業者が拾えます。
           </li>
           <li>
-            <strong>SMS認証→申込完了</strong>：携帯のSMSで届く6桁コードを入力して完了。登録アドレスに確認メールが届きます。
+            <strong>SMS認証→申込完了</strong>：携帯のSMSで届く6桁のコードを入力して完了します。登録アドレスに確認メールが届きます。
           </li>
           <li>
             <strong>査定結果を比較して業者を選ぶ</strong>：公式ガイドでは「最短1日」でメールが届くとされています。ここで<Link href="/souba-ranking/">相場ランキング</Link>や各銘柄の<Link href="/articles/whisky-kaitori-souba/">買取相場ページ</Link>と照らし、極端に低い提示を除外します。納得した業者にだけ買取を申し込みます。
           </li>
         </ol>
 
-        <h2 id="chuui">お酒を出す前に知っておきたい注意点</h2>
+        <h2 id="chuui">お酒を査定に出す前の注意点</h2>
         <p>公式FAQ・利用規約・プライバシーポリシーの記載から、ウイスキーを出す人が事前に知っておくべき点を抜き出します。</p>
         <h3>1. キャンセルは「各業者へ直接」</h3>
         <p>
@@ -218,7 +218,7 @@ export default function Page() {
         </p>
         <h3>4. 査定額は「実物を見て変わる」ことがある</h3>
         <p>
-          使い方ガイドのQ&amp;Aには「商品状態を詳しく鑑定する中で当初想定していた状態と違っていた際に買取価格が変更となる場合があります」とあります。ウイスキーは<strong>液面低下・ラベル汚れ・箱なし</strong>で差が付くので、<Link href="/articles/whisky-hokan-houhou/">保管状態</Link>を正直に書くのが結果的に早道です。
+          使い方ガイドのQ&amp;Aには「商品状態を詳しく鑑定する中で当初想定していた状態と違っていた際に買取価格が変更となる場合があります」とあります。ウイスキーは<strong>液面低下・ラベル汚れ・箱なし</strong>で差が付くので、<Link href="/articles/whisky-hokan-houhou/">保管状態</Link>を正確に記入することで、査定が円滑に進みます。
           一方で、あまりに不当な値下げをされた場合は「買取業者へ注意喚起を行うので、お問い合わせフォームからご連絡ください」とも案内されています。
         </p>
         <h3>5. 高額銘柄・偽物リスクは個別に確認</h3>
@@ -248,9 +248,9 @@ export default function Page() {
         </ul>
         <h3>気になる評判に多い内容</h3>
         <ul>
-          <li><strong>見積もり業者が少ない・1社しか来ない</strong>：「事前見積もりの業者数が少ない」「一社しか価格提示がなく桁違いに安かった」という星1の投稿があります。公式FAQも、商品によっては1社も返信が無いことがあると認めています。</li>
+          <li><strong>見積もり業者が少ない・1社しか来ない</strong>：「事前見積もりの業者数が少ない」「一社しか価格提示がなく桁違いに安かった」という星1の投稿があります。公式FAQも、商品によっては1社も返信がない場合があることを認めています。</li>
           <li><strong>電話がひっきりなしに来る</strong>：申込直後から電話が続いた、価格を明示せず「実物を見せてほしい」と言われたという星1の投稿があります。</li>
-          <li><strong>店舗で相場より低い提示</strong>：持ち込み後に相場変動を理由に低い額を出されたという声。実物査定で変わりうることは公式も明記しています。</li>
+          <li><strong>店舗で相場より低い提示</strong>：持ち込み後に相場変動を理由に低い額を出されたという声があります。実物査定で変わりうることは公式も明記しています。</li>
           <li><strong>操作が分かりにくい</strong>：返信方法が分からなかったという星3の投稿があり、会員登録・マイページの使い方は事前に確認した方が安心です。</li>
         </ul>
         <h3>お酒カテゴリのクチコミ欄で見える傾向</h3>
@@ -288,17 +288,17 @@ export default function Page() {
           </table>
         </div>
         <p>
-          ウイスキーを売る人が読み取れるのは3点です。1つ目は、<strong>流通量の多い定番銘柄は業者間の差が小さく、状態が見えにくいボトルや希少品ほど差が開く</strong>こと。マッカラン18年で大差がなく、コルクの状態が伝わりにくいスコッチや入手困難なジャパニーズでばらついたのはこの典型です。希少品ほど一括査定の意味があり、写真や備考で状態を伝えるほど差が縮まります。2つ目は、<strong>返ってくる業者は3〜5社程度</strong>という例が多いこと（社数が書かれた投稿ではシャンパン3点で4社、シャンパン・ウイスキーで4店舗、お酒8本で3店舗、お酒で5店舗）。最大20社が届くとは考えない方が現実的です。3つ目は、<strong>古酒・焼酎・日本酒など値の付きにくい酒は、提示が無いか低い</strong>ことで、こうした酒は相続のまとめ売りに混ぜる方が扱ってもらいやすくなります。
+          ウイスキーを売る人が読み取れるのは3点です。1つ目は、<strong>流通量の多い定番銘柄は業者間の差が小さく、状態が見えにくいボトルや希少品ほど差が開く</strong>こと。マッカラン18年で大差がなく、コルクの状態が伝わりにくいスコッチや入手困難なジャパニーズでばらついたのはこの典型です。希少品ほど一括査定の意味があり、写真や備考で状態を伝えるほど差が縮まります。2つ目は、<strong>返ってくる業者は3〜5社程度</strong>という例が多いこと（社数が書かれた投稿ではシャンパン3点で4社、シャンパン・ウイスキーで4店舗、お酒8本で3店舗、お酒で5店舗）。最大20社から返信が届くとは限りません。3つ目は、<strong>古酒・焼酎・日本酒など値の付きにくい酒は、提示がないか低い</strong>ことで、こうした酒は相続のまとめ売りに混ぜる方が扱ってもらいやすくなります。
         </p>
         <p>
-          手持ちの銘柄に一括査定を使うだけの価値があるかは、<Link href="/souba-ranking/">相場ランキング</Link>や各銘柄の買取ページにある実勢価格（取得日・件数つき）で先に見当を付けてください。
+          手持ちの銘柄に一括査定を使うだけの価値があるかは、<Link href="/souba-ranking/">相場ランキング</Link>や各銘柄の買取ページにある実勢価格（取得日・件数付き）で先に見当を付けてください。
         </p>
         <p className="text-xs text-warm-gray">※ 総合評価・星別の件数は公式サイトの表示を転記したものです。年別の件数・平均・割合と、お酒に関する投稿の抽出・要約は、公式の一覧（2026年10月9日時点）を当サイトが数えたものです。投稿本文の引用はしていません。表は26件のうち内容に具体性がある8件を抜き出したものです。</p>
 
-        <h2 id="muki">向いている人・向かない人</h2>
+        <h2 id="muki">利用に適している方・適していない方</h2>
         <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-4">
           <div className="border border-amber/40 bg-gold-bg rounded-xl p-4">
-            <p className="font-bold text-ink mb-2">向いている人</p>
+            <p className="font-bold text-ink mb-2">適している方</p>
             <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
               <li>銘柄・年数・本数がはっきりしていて、<strong>複数社の相見積もり</strong>を取りたい</li>
               <li>山崎・響・白州・マッカランなど<strong>相場差が出やすい銘柄</strong>を売る</li>
@@ -307,7 +307,7 @@ export default function Page() {
             </ul>
           </div>
           <div className="border border-warm-border rounded-xl p-4">
-            <p className="font-bold text-ink mb-2">向かない人</p>
+            <p className="font-bold text-ink mb-2">適していない方</p>
             <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
               <li>複数の業者からの<strong>電話連絡を避けたい</strong></li>
               <li>今日中に1本だけ現金化したい（店頭買取に直接持ち込む方が早い）</li>

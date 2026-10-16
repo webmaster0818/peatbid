@@ -4,7 +4,7 @@ import Image from "next/image";
 import brandsData from "@/data/brands.json";
 
 export const metadata: Metadata = {
-  title: "響の買取相場2026 — NV/17年/21年/30年の全銘柄を徹底解説 [業者比較+高く売る7つのコツ]",
+  title: "響の買取相場2026 — NV/17年/21年/30年の全銘柄を解説 [業者比較・高く売る7つのポイント]",
   description:
     "響シリーズ全銘柄（NV/17年/21年/30年）の市場相場（Yahoo Auctions 過去180日落札中央値）、銘柄ごとのテイスティング・価格背景、状態別の業界目安、高く売る7つのテクニック、偽物の見分け方、おすすめ業者3社比較、売却プロセス5ステップ、FAQ 10問まで網羅。",
 };
@@ -26,7 +26,7 @@ const fetchedDates = brands
 const latestFetch = fetchedDates[fetchedDates.length - 1] ?? "—";
 
 function formatJPY(n: number | null, sufficient: boolean): string {
-  if (!sufficient || n == null) return "市場相場データ蓄積中";
+  if (!sufficient || n == null) return "市場相場データ集計中";
   return `¥${n.toLocaleString("ja-JP")}`;
 }
 
@@ -39,7 +39,7 @@ function FaqSchema() {
       { "@type": "Question", name: "開封済みの響は買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "業者によりますが、開封済みは買取不可とする業者が多くなっています。買取対応している場合でも査定額は市場相場の20〜40%程度に下がります。未開封維持を強く推奨します。" } },
       { "@type": "Question", name: "箱や付属品がなくても売れますか？", acceptedAnswer: { "@type": "Answer", text: "本体のみでも買取可能ですが、業界目安として化粧箱付きより10〜25%減額になります。特に響21年・30年は付属品の影響が大きく、可能な限り元の状態で保管しておくことが重要です。" } },
       { "@type": "Question", name: "響17年は終売だと聞きましたが、今後相場はどうなりますか？", acceptedAnswer: { "@type": "Answer", text: "2018年の休売以降、流通在庫が減少し、相場は中長期的な上昇基調にあります。ただし短期的にはオークション需給で変動するため、本サイトの週次中央値で直近相場を確認した上で売却タイミングを判断してください。" } },
-      { "@type": "Question", name: "響と山崎、どちらが高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "同熟成年数で比較した場合、シングルモルトである山崎の方が二次流通価値は高い傾向です（特に12年以上）。ブレンデッドの響は安定した需要があり、流動性は高い。" } },
+      { "@type": "Question", name: "響と山崎、どちらが高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "同熟成年数で比較した場合、シングルモルトである山崎の方が二次流通価値は高い傾向です（特に12年以上）。ブレンデッドの響は安定した需要があり、流動性が高い傾向があります。" } },
       { "@type": "Question", name: "個人売買とプロ買取、どちらが有利ですか？", acceptedAnswer: { "@type": "Answer", text: "フリマアプリ・オークションは市場相場に近い金額で売却できる可能性がある一方、贋作トラブル・送料・梱包リスク・手数料が発生します。手間と保証を考えると、複数業者の相見積もりで売却するのが現実的な選択肢です。" } },
       { "@type": "Question", name: "査定で減額される主な理由は何ですか？", acceptedAnswer: { "@type": "Answer", text: "主な減額要因は (1)液面減少、(2)ラベル汚れ・破れ、(3)キャップ錆び、(4)外箱欠品・破損、(5)シリアル不鮮明、(6)保管環境の悪さによる劣化です。各要素ごとに業界目安の減額率があり、複合する場合は累積で影響します。" } },
       { "@type": "Question", name: "古い響でも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "古いロットはヴィンテージ価値が加算されるケースがあります。特に終売前の17年や旧ボトルデザインは、コレクター需要から高値が付く可能性があります。ヴィンテージ評価ができる専門業者での査定を推奨します。" } },
@@ -74,7 +74,7 @@ export default function HibikiKaitoriPage() {
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">響の市場相場と業者比較ガイド</h1>
           <p className="text-warm-gray text-sm mb-8">最終更新: {latestFetch}（週次自動取得）</p>
 
-          <p>サントリー響は、1989年に登場した日本を代表するブレンデッドウイスキー。山崎・白州・知多の3つの蒸溜所原酒をブレンドしたフラッグシップで、国際品評会での連続受賞、終売・休売による供給制限、アジア富裕層からの強い需要などを背景に、二次流通市場でも安定した高値で取引されています。</p>
+          <p>サントリー響は、1989年に発売された日本を代表するブレンデッドウイスキーです。山崎・白州・知多の3つの蒸溜所原酒をブレンドしたフラッグシップで、国際品評会での連続受賞、終売・休売による供給制限、アジア富裕層からの強い需要などを背景に、二次流通市場でも安定した高値で取引されています。</p>
 
           <p>本記事では、響シリーズの<strong>全銘柄を網羅</strong>し、それぞれの市場相場（Yahoo Auctions 過去180日落札中央値、IQR外れ値除去後）、特徴、価格背景、そして高値で売却するための実践テクニックまで一気通貫で解説します。</p>
 
@@ -87,7 +87,7 @@ export default function HibikiKaitoriPage() {
               <li>響を高く売るための実践テクニック7つ</li>
               <li>偽物・贋作を見分けるチェックポイント</li>
               <li>おすすめ買取業者3社の比較と選び方</li>
-              <li>売却プロセスの5ステップ完全ガイド</li>
+              <li>売却の5つのステップ</li>
             </ul>
           </div>
 
@@ -117,51 +117,51 @@ export default function HibikiKaitoriPage() {
             </table>
           </div>
 
-          <p className="text-xs text-warm-gray">※市場相場は Yahoo Auctions 過去180日の落札データ中央値（IQR外れ値除去後）。業者の買取査定額はこの市場相場をベースに各社の在庫・キャンペーン・状態評価で算出されます。最新の業者査定額は各業者ページでご確認ください。</p>
+          <p className="text-xs text-warm-gray">※市場相場は Yahoo Auctions 過去180日の落札データの中央値（IQR外れ値除去後）です。業者の買取査定額はこの市場相場をベースに各社の在庫・キャンペーン・状態評価で算出されます。最新の業者査定額は各業者ページでご確認ください。</p>
 
           <h2 id="each-lineup">響シリーズ 銘柄別ガイド</h2>
 
           <p>響は単一の商品ではなくシリーズで構成されており、銘柄ごとに価格帯・流通量・買い手層が大きく異なります。ここでは現行・代表的な4銘柄について、特徴・市場相場・価格背景を整理します。</p>
 
           <h3>響ジャパニーズハーモニー（NV）</h3>
-          <p>響シリーズの入門グレードで、年数表記のないノンエイジ。2015年の発売以来、世界中で響ブランドの裾野を広げてきました。Yahoo中央値は <strong>¥11,000前後</strong>と、響シリーズの中では比較的入手しやすい価格帯です。サンプル数 n=264 と流通量も多く、市場が安定しているのが特徴です。</p>
+          <p>響シリーズの入門グレードで、年数表記のないノンエイジです。2015年の発売以来、世界中で響ブランドの裾野を広げてきました。Yahoo中央値は <strong>¥11,000前後</strong>と、響シリーズの中では比較的入手しやすい価格帯です。サンプル数 n=264 と流通量も多く、市場が安定しているのが特徴です。</p>
           <ul>
             <li><strong>テイスティング傾向</strong>: 蜂蜜・オレンジピール・白檀のような甘やかさとフローラルな広がり。フィニッシュは短〜中程度で軽やか</li>
             <li><strong>買い手層</strong>: ウイスキー入門者から日常飲用層まで幅広い</li>
-            <li><strong>査定の効きどころ</strong>: 付属の化粧箱の有無、未開封・液面、ラベルの汚れ。比較的相場通りの査定が出やすい銘柄</li>
+            <li><strong>査定のポイント</strong>: 付属の化粧箱の有無、未開封・液面、ラベルの汚れ。比較的相場通りの査定が出やすい銘柄</li>
             <li><Link href="/articles/hibiki-nv-kaitori/">響ジャパニーズハーモニー 詳細ガイド →</Link></li>
           </ul>
 
           <h3>響17年</h3>
-          <p>長らく響シリーズの中核を担ってきた17年熟成。<strong>2018年に終売（公式には休売）</strong>が報じられて以降、市場流通量が急減し、現在のYahoo中央値は <strong>¥47,999前後</strong>と発売当時の数倍水準で取引されています。サンプル数 n=268 と取引は活発で、買取業者の在庫需要も継続的に高い水準です。</p>
+          <p>長年にわたり響シリーズの中核を担ってきた17年熟成のボトルです。<strong>2018年に終売（公式には休売）</strong>が報じられて以降、市場流通量が急減し、現在のYahoo中央値は <strong>¥47,999前後</strong>と発売当時の数倍水準で取引されています。サンプル数 n=268 と取引は活発で、買取業者の在庫需要も継続的に高い水準です。</p>
           <ul>
             <li><strong>テイスティング傾向</strong>: 山崎・白州モルトを軸に、ミズナラ樽由来の伽羅・香木様の余韻が長く続く。バランスの良い厚みと複雑性</li>
             <li><strong>買い手層</strong>: ジャパニーズウイスキー愛飲家、コレクター、海外バイヤー</li>
-            <li><strong>査定の効きどころ</strong>: 終売後ロットは付属品込みで査定が大きく変動。化粧箱・ホログラム・カートンの有無で <strong>20〜40%</strong> の差が出ます</li>
+            <li><strong>査定のポイント</strong>: 終売後ロットは付属品込みで査定が大きく変動。化粧箱・ホログラム・カートンの有無で <strong>20〜40%</strong> の差が出ます</li>
             <li><Link href="/articles/hibiki-17-kaitori/">響17年 詳細ガイド →</Link></li>
           </ul>
 
           <h3>響21年</h3>
-          <p>21年以上熟成原酒のみをブレンドした、響シリーズの最高峰の一つ。<strong>ISC（International Spirits Challenge）で2010年・2013年など複数回トロフィー受賞</strong>歴を持つフラッグシップです。Yahoo中央値は <strong>¥71,000前後</strong>、サンプル数 n=240。</p>
+          <p>21年以上熟成原酒のみをブレンドした、響シリーズの最高峰の一つです。<strong>ISC（International Spirits Challenge）で2010年・2013年など複数回トロフィー受賞</strong>歴を持つフラッグシップです。Yahoo中央値は <strong>¥71,000前後</strong>、サンプル数 n=240です。</p>
           <ul>
             <li><strong>テイスティング傾向</strong>: 熟したフルーツ、蜂蜜、シェリー樽由来の重層的な甘み、ミズナラの伽羅香。フィニッシュは非常に長い</li>
             <li><strong>買い手層</strong>: 中級〜上級コレクター、贈答用需要、海外オークション参加層</li>
-            <li><strong>査定の効きどころ</strong>: 付属品の有無、化粧箱の傷み、ラベルの色褪せ。シリアル管理や購入証明があれば査定が伸びる傾向</li>
+            <li><strong>査定のポイント</strong>: 付属品の有無、化粧箱の傷み、ラベルの色褪せ。シリアル管理や購入証明があれば査定が伸びる傾向</li>
             <li><Link href="/articles/hibiki-21-kaitori/">響21年 詳細ガイド →</Link></li>
           </ul>
 
           <h3>響30年</h3>
-          <p>響シリーズの頂点に位置する超長期熟成ボトル。年間生産本数が極端に限られ、Yahoo中央値は <strong>¥550,000前後</strong>、サンプル数 n=74 と、希少性が直接価格に反映される銘柄です。国内オークション・海外オークションの双方で高額落札が常態化しています。</p>
+          <p>響シリーズの頂点に位置する長期熟成ボトルです。年間生産本数が極端に限られ、Yahoo中央値は <strong>¥550,000前後</strong>、サンプル数 n=74 と、希少性が直接価格に反映される銘柄です。国内オークション・海外オークションの双方で高額落札が常態化しています。</p>
           <ul>
             <li><strong>テイスティング傾向</strong>: 深い琥珀色、濃厚なドライフルーツ、ナッツ、シガーボックス、ミズナラ由来の伽羅香が複合的に重なる</li>
             <li><strong>買い手層</strong>: 国内外コレクター、投資家、海外ハイエンドオークション参加層</li>
-            <li><strong>査定の効きどころ</strong>: 木箱・冊子・保証書・カートンが揃っているかが最重要。輸出向け査定ルートを持つ業者で大きな差が出ます</li>
+            <li><strong>査定のポイント</strong>: 木箱・冊子・保証書・カートンが揃っているかが最重要。輸出向け査定ルートを持つ業者で大きな差が出ます</li>
             <li><Link href="/articles/hibiki-30-kaitori/">響30年 詳細ガイド →</Link></li>
           </ul>
 
           <div className="bg-cream border border-warm-border rounded-lg p-5 my-6 not-prose">
             <p className="text-sm font-bold mb-2">編集部メモ：銘柄選びと売却タイミング</p>
-            <p className="text-sm text-warm-gray leading-relaxed">同じ「響」でも、年式が上がるにつれて<strong>付属品の重要度</strong>と<strong>査定業者の選定精度</strong>が査定額に与える影響が指数関数的に大きくなります。NV→17→21→30と進むほど、地元のリサイクルショップではなく<strong>ウイスキー専門業者・海外バイヤー網を持つ業者</strong>での査定が必須です。</p>
+            <p className="text-sm text-warm-gray leading-relaxed">同じ「響」でも、年式が上がるにつれて<strong>付属品の重要度</strong>と<strong>査定業者の選定精度</strong>が査定額に与える影響が指数関数的に大きくなります。NV→17→21→30と進むほど、地元のリサイクルショップではなく<strong>ウイスキー専門業者・海外バイヤー網を持つ業者</strong>での査定をおすすめします。</p>
           </div>
 
           <h2 id="history">響ブランドの歴史と市場価値の形成</h2>
@@ -170,13 +170,13 @@ export default function HibikiKaitoriPage() {
           <p>響は、サントリー創業90周年を記念して1989年に登場しました。当初は<strong>「響17年」</strong>のみのラインナップで、山崎・白州・知多原酒の高度なブレンドにより、ジャパニーズウイスキーの新基準を打ち立てた製品です。</p>
 
           <h3>2. 国際的品評会での連続受賞</h3>
-          <p>2003年以降、響17年・21年・30年は ISC（International Spirits Challenge）、WSC（Whisky Magazine Awards 等）で最高賞を複数回獲得。日本のブレンデッドウイスキーが世界最高水準であることを示し、海外コレクター需要を急拡大させました。</p>
+          <p>2003年以降、響17年・21年・30年は ISC（International Spirits Challenge）、WSC（Whisky Magazine Awards 等）で最高賞を複数回獲得しています。日本のブレンデッドウイスキーが世界最高水準であることを示し、海外コレクター需要を急拡大させました。</p>
 
           <h3>3. 2018年: 響17年の休売と市場急変</h3>
-          <p>2018年9月、サントリーは響17年の<strong>休売（事実上の終売）</strong>を発表。流通在庫が急減する中、コレクター・投資家・海外バイヤーが一斉に取得に動き、終売直前の希望小売価格を大きく上回る価格で取引される状況が定着しました。これは響シリーズ全体の市場価値再評価のきっかけとなっています。</p>
+          <p>2018年9月、サントリーは響17年の<strong>休売（事実上の終売）</strong>を発表しました。流通在庫が急減する中、コレクター・投資家・海外バイヤーが一斉に取得に動き、終売直前の希望小売価格を大きく上回る価格で取引される状況が定着しました。これは響シリーズ全体の市場価値再評価のきっかけとなっています。</p>
 
           <h3>4. アジア富裕層の参入</h3>
-          <p>2010年代後半以降、中国本土・香港・台湾・シンガポール・中東圏の富裕層がジャパニーズウイスキー市場に本格参入。ボウモア・マッカランと並んで響はアジア圏の二次流通市場で看板銘柄となり、国内相場を海外落札が押し上げる構造が定着しました。</p>
+          <p>2010年代後半以降、中国本土・香港・台湾・シンガポール・中東圏の富裕層がジャパニーズウイスキー市場に本格的に参入しています。ボウモア・マッカランと並んで響はアジア圏の二次流通市場で看板銘柄となり、国内相場を海外落札が押し上げる構造が定着しました。</p>
 
           <h3>5. 「液体資産」としての地位</h3>
           <p>近年、株式・債券・不動産以外の代替資産として、ジャパニーズウイスキーは<strong>「液体資産」</strong>と呼ばれる投資対象として認知されています。響はこのカテゴリーの中核銘柄で、ポートフォリオの一部として保有されるケースが増えています。</p>
@@ -230,10 +230,10 @@ export default function HibikiKaitoriPage() {
 
           <ol>
             <li>
-              <strong>付属品をすべて揃える</strong> — 外箱・冊子・カートン・ホログラムシールの有無で査定額は業界目安として10〜25%変動します。年式が上がる（21年・30年）ほど影響度が大きく、特に木箱・保証書は欠かさず保管しましょう。
+              <strong>付属品をすべて揃える</strong> — 外箱・冊子・カートン・ホログラムシールの有無で査定額は業界目安として10〜25%変動します。年式が上がる（21年・30年）ほど影響度が大きく、特に木箱・保証書は必ず保管してください。
             </li>
             <li>
-              <strong>未開封のまま売却する</strong> — 開封後の査定額は業界目安で市場相場の20〜40%まで下がります。コレクション・投資目的で取得した個体は未開封維持が鉄則です。
+              <strong>未開封のまま売却する</strong> — 開封後の査定額は業界目安で市場相場の20〜40%まで下がります。コレクション・投資目的で取得したボトルは、未開封のまま保管することをおすすめします。
             </li>
             <li>
               <strong>複数業者で必ず相見積もりを取る</strong> — 同じ響でも業者ごとの販路（国内卸 / 海外バイヤー網 / オークション出品）の違いで <strong>数万〜数十万円</strong>の差が出ます。最低3社、可能なら5社の見積もり比較を推奨します。
@@ -258,27 +258,27 @@ export default function HibikiKaitoriPage() {
 
           <h3>パッケージ・ラベルのチェック</h3>
           <ul>
-            <li><strong>箱の質感・印字</strong>: 正規品は紙質・箔押しの精度が高い。色味が薄い、印字がずれている、フォントが微妙に異なる場合は要注意</li>
+            <li><strong>箱の質感・印字</strong>: 正規品は紙質・箔押しの精度が高いのが特徴です。色味が薄い、印字がずれている、書体がわずかに異なる場合は注意が必要です</li>
             <li><strong>ラベルの貼付精度</strong>: わずかな傾き、糊のはみ出し、文字の滲みがあれば疑わしい</li>
             <li><strong>ホログラムシール</strong>: 響17年・21年・30年には正規品識別の要素が含まれており、角度を変えて見たときの輝き方が均一かを確認</li>
           </ul>
 
           <h3>ボトル本体のチェック</h3>
           <ul>
-            <li><strong>24面カット</strong>: 響のシグネチャーである24面カットボトル。面の角度・対称性が雑な個体は要注意</li>
+            <li><strong>24面カット</strong>: 響の特徴である24面カットのボトルです。面の角度・対称性が不正確なものは注意が必要です</li>
             <li><strong>ガラスの厚み・重量感</strong>: 正規品はしっかりとした重量があり、底面の刻印やロゴが鮮明</li>
             <li><strong>液面・色合い</strong>: 同年式・同熟成度の他個体と比較して、色味が極端に異なる場合は疑わしい</li>
           </ul>
 
           <h3>キャップ・封緘のチェック</h3>
           <ul>
-            <li><strong>キャップの色・印字</strong>: 響17年・21年などはキャップに細かな印字が施されている。版ずれ・かすれは要警戒</li>
+            <li><strong>キャップの色・印字</strong>: 響17年・21年などはキャップに細かな印字が施されています。版ずれ・かすれは要警戒</li>
             <li><strong>封緘シール</strong>: 開封防止の封緘が雑、または明らかに再貼付された痕跡がある場合は注意</li>
           </ul>
 
           <div className="bg-cream border border-warm-border rounded-lg p-5 my-6 not-prose">
             <p className="text-sm font-bold mb-2">編集部メモ：疑わしい場合は</p>
-            <p className="text-sm text-warm-gray leading-relaxed">「もしかして偽物では？」と少しでも感じたら、ウイスキー専門の買取業者で<strong>真贋鑑定を含む査定</strong>を依頼するのが安全です。専門業者は鑑定経験が豊富で、買取後の流通責任を負う立場から、無料で鑑定を行ってくれるケースが多くなっています。</p>
+            <p className="text-sm text-warm-gray leading-relaxed">「もしかして偽物では？」と少しでも感じたら、ウイスキー専門の買取業者で<strong>真贋鑑定を含む査定</strong>を依頼するのが安全です。専門業者は鑑定経験が豊富で、買取後の流通責任を負う立場から、無料で鑑定を行う場合が多くあります。</p>
           </div>
 
           <h2 id="partners">おすすめ買取業者3社の特徴と選び方</h2>
@@ -300,44 +300,44 @@ export default function HibikiKaitoriPage() {
             <div className="border border-warm-border bg-white rounded-lg p-5">
               <p className="text-xs text-amber-dark font-bold mb-1">LINXAS</p>
               <p className="text-sm font-bold mb-2">ウイスキー専門の高額査定路線</p>
-              <p className="text-xs text-warm-gray leading-relaxed">ジャパニーズウイスキー専門の査定体制。海外バイヤー網を持ち、響21年・30年など高額帯で強い見積もりが出やすい傾向。</p>
+              <p className="text-xs text-warm-gray leading-relaxed">ジャパニーズウイスキー専門の査定体制を整えています。海外の販路を持ち、響21年・30年など高額帯で高い見積もりが出やすい傾向があります。</p>
             </div>
             <div className="border border-warm-border bg-white rounded-lg p-5">
               <p className="text-xs text-amber-dark font-bold mb-1">バイセル</p>
               <p className="text-sm font-bold mb-2">出張買取の全国対応力</p>
-              <p className="text-xs text-warm-gray leading-relaxed">出張は離島を除く全国・申込から最短即日訪問（公式）。複数本まとめ・引っ越し時の処分など、まとまった量で利便性が高い。</p>
+              <p className="text-xs text-warm-gray leading-relaxed">出張は離島を除く全国に対応し、申込から最短即日で訪問します（公式）。複数本のまとめ売りや引っ越し時の処分など、まとまった量の売却に適しています。</p>
             </div>
             <div className="border border-warm-border bg-white rounded-lg p-5">
               <p className="text-xs text-amber-dark font-bold mb-1">福ちゃん</p>
               <p className="text-sm font-bold mb-2">古酒対応とバランス型</p>
-              <p className="text-xs text-warm-gray leading-relaxed">骨董・古酒を含めた幅広い取扱で、響NV〜17年など流通量の多い銘柄で安定した買取実績。</p>
+              <p className="text-xs text-warm-gray leading-relaxed">骨董・古酒を含めて幅広く取り扱っており、響NV〜17年など流通量の多い銘柄で安定した買取実績があります。</p>
             </div>
           </div>
 
-          <p className="text-xs text-warm-gray">※ 上記は各社の公式情報・編集部の独自評価に基づく。最終的な査定額は個別状況により異なるため、複数社の相見積もりを推奨します。アフィリエイトリンクを含みます。</p>
+          <p className="text-xs text-warm-gray">※ 上記は、各社の公式情報と編集部の独自評価にもとづきます。最終的な査定額は個別状況により異なるため、複数社の相見積もりを推奨します。アフィリエイトリンクを含みます。</p>
 
-          <h2 id="process">響を売却する5ステップ（完全ガイド）</h2>
+          <h2 id="process">響を売却する5ステップ</h2>
 
           <ol>
             <li>
               <strong>STEP 1: 銘柄・状態の確認</strong>
-              <p>手元の響がどのグレードか（NV / 17年 / 21年 / 30年）、付属品（外箱・冊子・カートン・ホログラム）が揃っているか、未開封かどうかを確認します。本記事の<a href="#lineup">相場一覧</a>で大まかな目安をつけましょう。</p>
+              <p>手元の響がどのグレードか（NV / 17年 / 21年 / 30年）、付属品（外箱・冊子・カートン・ホログラム）が揃っているか、未開封かどうかを確認します。本記事の<a href="#lineup">相場一覧</a>で、おおよその目安をご確認ください。</p>
             </li>
             <li>
               <strong>STEP 2: 複数業者で仮見積もりを取る</strong>
-              <p>専門業者・総合業者を含めて3〜5社の仮見積もりを依頼。各社のLINE査定・写真送信査定を活用すると効率的です。</p>
+              <p>専門業者・総合業者を含めて3〜5社に仮見積もりを依頼します。各社のLINE査定・写真送信査定を活用すると効率的です。</p>
             </li>
             <li>
               <strong>STEP 3: 査定方法を選ぶ</strong>
-              <p>主な選択肢は<strong>出張買取 / 宅配買取 / 店頭買取</strong>の3つ。1本のみであれば店頭または宅配、複数本・高額（21年・30年）であれば出張が便利です。</p>
+              <p>主な選択肢は<strong>出張買取 / 宅配買取 / 店頭買取</strong>の3つです。1本のみであれば店頭または宅配、複数本・高額（21年・30年）であれば出張が便利です。</p>
             </li>
             <li>
               <strong>STEP 4: 正式査定を受ける</strong>
-              <p>業者の鑑定担当者による正式査定を受け、提示金額を確認。査定明細（市場相場、状態評価、減額理由）を必ず確認し、納得した上で買取契約に進みます。</p>
+              <p>業者の鑑定担当者による正式な査定を受け、提示金額を確認します。査定明細（市場相場、状態評価、減額理由）を必ず確認し、納得した上で買取契約に進みます。</p>
             </li>
             <li>
               <strong>STEP 5: 支払い・引渡し</strong>
-              <p>多くの業者で当日現金支払または銀行振込（即日〜翌営業日）が選べます。クーリングオフ対応の有無、買取契約書の控え保管も忘れずに。</p>
+              <p>多くの業者で当日現金支払または銀行振込（即日〜翌営業日）が選べます。クーリングオフ対応の有無を確認し、買取契約書の控えを保管してください。</p>
             </li>
           </ol>
 
@@ -362,7 +362,7 @@ export default function HibikiKaitoriPage() {
             </details>
             <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
               <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q5. 響と山崎、どちらが高く売れますか？</summary>
-              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">同熟成年数で比較した場合、シングルモルトである山崎の方が二次流通価値は高い傾向です（特に12年以上）。ブレンデッドの響は安定した需要があり、流動性は高い。詳細は <Link href="/articles/yamazaki-kaitori/">山崎の市場相場ガイド</Link> を参照してください。</div>
+              <div className="px-4 pb-4 text-sm text-warm-gray leading-relaxed">同熟成年数で比較した場合、シングルモルトである山崎の方が二次流通価値は高い傾向です（特に12年以上）。ブレンデッドの響は安定した需要があり、流動性が高い傾向があります。詳細は <Link href="/articles/yamazaki-kaitori/">山崎の市場相場ガイド</Link> を参照してください。</div>
             </details>
             <details className="bg-white border border-warm-border rounded-lg overflow-hidden">
               <summary className="p-4 font-semibold text-sm cursor-pointer hover:bg-cream">Q6. 個人売買とプロ買取、どちらが有利ですか？</summary>

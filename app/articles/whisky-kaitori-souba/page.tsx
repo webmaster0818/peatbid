@@ -30,7 +30,7 @@ const fetchedDates = brands
 const latestFetch = fetchedDates[fetchedDates.length - 1] ?? "—";
 
 function formatJPY(n: number | null, sufficient: boolean): string {
-  if (!sufficient || n == null) return "市場相場データ蓄積中";
+  if (!sufficient || n == null) return "市場相場データ集計中";
   return `¥${n.toLocaleString("ja-JP")}`;
 }
 

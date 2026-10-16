@@ -5,12 +5,12 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/ichirosu-card.json";
 
 export const metadata: Metadata = {
-  title: 'イチローズモルト カードシリーズを高く売るには？買取相場と査定額を最大化する7つのコツ【2026年10月最新】',
-  description: 'イチローズモルト カードシリーズを最高値で売るための実践ガイド。付属品・状態・売却タイミング・業者選び・保管方法・贋作対策・交渉術の7要素で査定額を最大化する具体策を完全解説。',
+  title: 'イチローズモルト カードシリーズを高く売るには？買取相場と査定額を上げる7つのポイント【2026年10月最新】',
+  description: 'イチローズモルト カードシリーズを高く売るためのガイドです。付属品・状態・売却時期・業者選び・保管方法・贋作対策・交渉の7つの観点から、査定額を上げる方法を解説しています。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'イチローズモルト カードシリーズを売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' } }, { "@type": "Question", "name": '複数業者比較は本当に必要？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、必須です。同じイチローズモルト カードシリーズでも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' } }, { "@type": "Question", "name": '買取後のキャンセルは可能？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": 'イチローズモルト カードシリーズの売却益に税金はかかる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'イチローズモルト カードシリーズを売るならどのタイミングがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'イチローズモルト カードシリーズを売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' } }, { "@type": "Question", "name": '複数の業者の比較は必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、おすすめします。同じイチローズモルト カードシリーズでも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' } }, { "@type": "Question", "name": '買取後のキャンセルはできますか？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": 'イチローズモルト カードシリーズの売却益に税金はかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'イチローズモルト カードシリーズを売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" } }] }) }} />;
 }
 
 export default function IchirosuCardTakakuUruPage() {
@@ -31,12 +31,12 @@ export default function IchirosuCardTakakuUruPage() {
         </nav>
 
         <div className="article-hero mb-8">
-          <Image src="/images/heroes/ichirosu-card.png" alt='イチローズモルト カードシリーズを高く売る方法 — 査定額を最大化する完全ガイド' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
+          <Image src="/images/heroes/ichirosu-card.png" alt='イチローズモルト カードシリーズを高く売る方法 — 査定額を上げる7つのポイント' width={1200} height={440} className="w-full h-[220px] object-cover rounded-xl" priority />
           <div className="article-hero-overlay rounded-xl" />
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">イチローズモルト カードシリーズを高く売る方法 — 査定額を最大化する完全ガイド</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">イチローズモルト カードシリーズを高く売る方法 — 査定額を上げる7つのポイント</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-12 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
@@ -45,8 +45,8 @@ export default function IchirosuCardTakakuUruPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">イチローズモルト カードシリーズ</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ベンチャーウイスキー / ノンエイジ / 希少度 ウルトラレア / 市場相場 市場相場データ蓄積中</p>
-            <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/ichirosu-card-kaitori/" className="text-amber-dark underline">イチローズモルト カードシリーズの買取相場 完全ガイドへ</Link></p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ベンチャーウイスキー / ノンエイジ / 希少度 ウルトラレア / 市場相場 市場相場データ集計中</p>
+            <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/ichirosu-card-kaitori/" className="text-amber-dark underline">イチローズモルト カードシリーズの買取相場ガイド</Link></p>
           </div>
 
           {/* Table of Contents */}
@@ -54,55 +54,55 @@ export default function IchirosuCardTakakuUruPage() {
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
               <li><a href="#section-0" className="hover:underline">1. イチローズモルト カードシリーズの市場ポジションとデータ分析</a></li>
-              <li><a href="#section-1" className="hover:underline">2. コツ1: 付属品をすべて揃える</a></li>
-              <li><a href="#section-2" className="hover:underline">3. コツ2: 未開封の状態を維持</a></li>
-              <li><a href="#section-3" className="hover:underline">4. コツ3: 複数業者で相見積もり</a></li>
-              <li><a href="#section-4" className="hover:underline">5. コツ4: 売却タイミングを見極める</a></li>
-              <li><a href="#section-5" className="hover:underline">6. コツ5: 適切な保管環境</a></li>
-              <li><a href="#section-6" className="hover:underline">7. コツ6: 贋作対策と本物証明</a></li>
-              <li><a href="#section-7" className="hover:underline">8. コツ7: 交渉術 — 業者を競わせる</a></li>
+              <li><a href="#section-1" className="hover:underline">2. ポイント1: 付属品を揃える</a></li>
+              <li><a href="#section-2" className="hover:underline">3. ポイント2: 未開封の状態を保つ</a></li>
+              <li><a href="#section-3" className="hover:underline">4. ポイント3: 複数の業者で相見積もりを取る</a></li>
+              <li><a href="#section-4" className="hover:underline">5. ポイント4: 売却の時期を検討する</a></li>
+              <li><a href="#section-5" className="hover:underline">6. ポイント5: 適切な保管環境</a></li>
+              <li><a href="#section-6" className="hover:underline">7. ポイント6: 贋作対策と購入経路の証明</a></li>
+              <li><a href="#section-7" className="hover:underline">8. ポイント7: 査定額の交渉</a></li>
             </ol>
           </div>
 
-          <p>イチローズモルト カードシリーズはジャパニーズウイスキーを代表する銘柄で、コレクター需要が高い1本。同じボトルでも、売り方ひとつで査定額が大きく変わります。本記事では、PeatBid編集部が推奨する**7つの実践テクニック**でイチローズモルト カードシリーズの査定額を最大化する方法を徹底解説します。</p>
+          <p>イチローズモルト カードシリーズはジャパニーズウイスキーの代表的な銘柄の一つで、コレクターの需要が高いボトルです。同じボトルでも、売り方によって査定額は大きく変わります。本記事では、PeatBid編集部が推奨する**7つのポイント**をもとに、イチローズモルト カードシリーズの査定額を上げる方法を解説します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">イチローズモルト カードシリーズは二次流通の落札データが蓄積途上のため、本記事の金額は同クラス銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
+            <p className="text-sm text-ink leading-relaxed">イチローズモルト カードシリーズは二次流通の落札データが十分ではないため、本記事の金額は同じ価格帯の銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
 
 
           <h2 id="section-0">1. イチローズモルト カードシリーズの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>イチローズモルト カードシリーズ</strong>はジャパニーズウイスキー（ベンチャーウイスキー）のノンエイジ（NV）、度数46%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少なく、実勢中央値は現在データ蓄積中です。相場が固まりにくいため、複数業者の査定を取って実額を確認するのが安全です。</p><p>ジャパニーズウイスキーは世界的評価の高まりで需要が強く、特に終売・長期熟成銘柄は中長期で価格が伸びやすい傾向です。一方で短期は為替やオークション結果で振れるため、売り時の見極めが重要になります。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>イチローズモルト カードシリーズ</strong>はジャパニーズウイスキー（ベンチャーウイスキー）のノンエイジ（NV）、度数46%、希少度は超希少に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少ないため、実勢中央値は掲載していません。相場が定まりにくいため、複数の業者の査定で実際の金額をご確認ください。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
-          <h2 id="section-1">2. コツ1: 付属品をすべて揃える</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>イチローズモルト カードシリーズの査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。市場相場を基準として、付属品なしの場合は市場相場の80〜90%程度まで下がることが一般的です。</p><p>外箱の状態も重要で、シミ・破れ・水濡れ跡があると更に-5〜10%。購入時の状態を維持する努力が、最終的に数万〜数十万円の差を生みます。</p><p>まず家中を徹底的に探し、すべての付属品を集めてから売却を検討してください。</p>` }} />
+          <h2 id="section-1">2. ポイント1: 付属品を揃える</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>イチローズモルト カードシリーズの査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。市場相場を基準として、付属品なしの場合は市場相場の80〜90%程度まで下がるのが一般的です。</p><p>外箱の状態も査定に影響し、シミ・破れ・水濡れ跡があると、さらに5〜10%下がる場合があります。購入時の状態を保つことで、数万〜数十万円の差が生じる場合があります。</p><p>売却の前に、付属品が残っていないかご確認ください。</p>` }} />
 
-          <h2 id="section-2">3. コツ2: 未開封の状態を維持</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>イチローズモルト カードシリーズは開封済みになると査定額が大幅に下がり、未開封の30〜40%（市場相場の30〜40%程度前後）まで落ちます。</p><p>コレクション目的で購入したボトルは、絶対に開けずに保管してください。「ちょっと味見」が数十万円の損失につながります。</p><p>万一開封してしまった場合は、できるだけ早く売却するのが鉄則です。時間経過とともに香味揮発・酸化が進み、査定額が更に下がります。</p>` }} />
+          <h2 id="section-2">3. ポイント2: 未開封の状態を保つ</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>イチローズモルト カードシリーズは開封済みになると査定額が大幅に下がり、未開封の30〜40%（市場相場の30〜40%程度前後）まで落ちます。</p><p>コレクション目的で購入したボトルは、開栓せずに保管することをおすすめします。</p><p>開封した場合は、早めの売却をおすすめします。時間の経過とともに香味の揮発・酸化が進み、査定額がさらに下がります。</p>` }} />
 
-          <h2 id="section-3">4. コツ3: 複数業者で相見積もり</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>同じイチローズモルト カードシリーズでも、業者によって<strong>数万〜数十万円</strong>の査定差が生じます。1社だけで決めるのは絶対に避けるべきです。</p><p>推奨フロー: (1)ヒカカク等の一括査定サイトで5社以上から見積もり取得、(2)お酒買取に強い専門店（リカスタ等）に個別で2〜3社から見積もり、(3)合計7〜8社の見積もりを比較、(4)手取り額（手数料・送料込み）で最高値の業者を選定。</p><p>査定無料・キャンセル無料の業者ばかりなので、複数比較のコストはゼロです。</p>` }} />
+          <h2 id="section-3">4. ポイント3: 複数の業者で相見積もりを取る</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>同じイチローズモルト カードシリーズでも、業者によって<strong>数万〜数十万円</strong>の査定差が生じる場合があります。1社だけで決めることはおすすめしません。</p><p>推奨する手順: (1)一括査定サービスで5社以上から見積もりを取得する、(2)お酒の買取専門店（リカスタ等）2〜3社に個別に見積もりを依頼する、(3)合計7〜8社の見積もりを比較する、(4)手数料・送料を差し引いた受取額で業者を選定する。</p><p>掲載している業者は、いずれも査定料・キャンセル料が無料です。</p>` }} />
 
-          <h2 id="section-4">5. コツ4: 売却タイミングを見極める</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキーの相場は需給で動きます。<strong>高値傾向のタイミング</strong>は以下の通り:</p><ol><li>年末年始（12〜1月）— お正月需要・ボーナス商戦</li><li>お中元・お歳暮シーズン — 贈答需要</li><li>海外オークション直後 — Sotheby's・Bonhamsの落札データ反映</li><li>終売・休売報道直後 — 供給制限による急騰局面</li><li>アジア富裕層のイベント前後 — 中華圏の旧正月など
+          <h2 id="section-4">5. ポイント4: 売却の時期を検討する</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキーの相場は需給によって変動します。<strong>高値になりやすい時期</strong>は以下のとおりです。</p><ol><li>年末年始（12〜1月）— 正月の需要・賞与の時期</li><li>お中元・お歳暮の時期 — 贈答需要</li><li>海外オークションの直後 — Sotheby's・Bonhamsの落札データの反映</li><li>終売・休売の報道直後 — 供給制限による価格上昇</li><li>中華圏の旧正月の前後
 
-逆に、夏場（7〜8月）や経済ショック直後は需要が一時的に冷える傾向。急ぎでなければ、年末や終売報道後の数ヶ月以内に売却するのが理想的です。</li></ol>` }} />
+一方、夏場（7〜8月）や経済的な混乱の直後は、需要が一時的に落ち込む傾向があります。急ぎでなければ、年末や終売報道後の数か月以内の売却をおすすめします。</li></ol>` }} />
 
-          <h2 id="section-5">6. コツ5: 適切な保管環境</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>保管環境はボトルの状態を左右します。<strong>理想の保管条件</strong>:</p><ol><li>直射日光・蛍光灯を完全に避ける（ラベル褪色防止）</li><li>室温15〜20℃、湿度50〜70%</li><li>縦置き保管（横置きはコルク劣化、ワインと逆）</li><li>外箱に入れて保管（埃・摩擦から保護）</li><li>振動の少ない場所（高層階の上階や交通量の多い道路沿いは避ける）
+          <h2 id="section-5">6. ポイント5: 適切な保管環境</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>保管環境はボトルの状態に影響します。<strong>推奨する保管条件</strong>は以下のとおりです。</p><ol><li>直射日光・蛍光灯を避ける（ラベルの退色防止）</li><li>室温15〜20℃、湿度50〜70%</li><li>縦置きで保管する（横置きはコルクの劣化につながります。ワインとは逆です）</li><li>外箱に入れて保管する（埃・摩擦からの保護）</li><li>振動の少ない場所に置く
 
-クローゼットの暗所、専用ディスプレイケース、ワインセラーの低温帯などが適切です。キッチン・浴室付近は湿度・温度変化が激しいためNG。</li></ol>` }} />
+クローゼットの暗所、専用のディスプレイケース、ワインセラーの低温帯などが適しています。キッチン・浴室の付近は湿度・温度の変化が大きいため、避けてください。</li></ol>` }} />
 
-          <h2 id="section-6">7. コツ6: 贋作対策と本物証明</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>高額銘柄では、贋作・偽造ボトルの存在が査定に影響する場合があります。<strong>購入経路の正当性を証明</strong>できる材料を揃えておくと、査定がスムーズです:</p><p>- 購入時のレシート・領収書<br/>- 正規流通店の保証書<br/>- 海外オークションの落札証明<br/>- 開封・封蝋の写真記録</p><p>業者によっては、本物と判定するために蛍光X線分析（XRF）等の精密検査を行います。事前に証明書類を揃えておくと、その手間がカットされ、最終査定額にも好影響です。</p>` }} />
+          <h2 id="section-6">7. ポイント6: 贋作対策と購入経路の証明</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>高額銘柄では、贋作・偽造ボトルの存在が査定に影響する場合があります。<strong>購入経路の正当性を示す</strong>資料を揃えておくと、査定が円滑に進みます。</p><p>- 購入時のレシート・領収書<br/>- 正規流通店の保証書<br/>- 海外オークションの落札証明<br/>- 開封・封蝋の写真記録</p><p>業者によっては、本物と判定するために蛍光X線分析（XRF）等の精密検査を行います。事前に証明書類を揃えておくと、査定の手間が省け、査定額にも良い影響があります。</p>` }} />
 
-          <h2 id="section-7">8. コツ7: 交渉術 — 業者を競わせる</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>最高値を引き出す最後のテクニックが<strong>交渉</strong>です。複数業者の見積もりを取った後、最高値の業者に対して:</p><p>「他社では{name}に対して◯◯円の査定が出ています。これ以上の金額を提示できますか？」</p><p>と率直に伝えてみてください。多くの業者は最終手段として価格上乗せに応じる可能性があります。</p><p>特に希少銘柄や複数本のまとめ売りは交渉余地が大きく、5〜10%の上乗せも珍しくありません。<strong>遠慮せず、毅然と交渉</strong>することが最後の数万円を引き出すコツです。</p>` }} />
+          <h2 id="section-7">8. ポイント7: 査定額の交渉</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>最後のポイントは<strong>交渉</strong>です。複数の業者から見積もりを取った後、最も高い査定額を提示した業者に対して、次のようにお伝えください。</p><p>「他社では{name}に対して◯◯円の査定が出ています。これ以上の金額を提示できますか？」</p><p>業者によっては、価格の上乗せに応じる場合があります。</p><p>特に希少銘柄や複数本のまとめ売りは交渉の余地が大きく、5〜10%上乗せされる例もあります。</p>` }} />
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
-            <h3 className="font-bold text-base mb-3 text-center">イチローズモルト カードシリーズの無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
+            <h3 className="font-bold text-base mb-3 text-center">イチローズモルト カードシリーズの無料一括査定のご案内</h3>
+            <p className="text-sm text-warm-gray text-center mb-4">複数の業者の査定額を比較できます。査定料・キャンセル料は無料です。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
@@ -113,7 +113,7 @@ export default function IchirosuCardTakakuUruPage() {
           <h2>イチローズモルト カードシリーズに関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: 'イチローズモルト カードシリーズを売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' }, { q: '複数業者比較は本当に必要？', a: 'はい、必須です。同じイチローズモルト カードシリーズでも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' }, { q: '買取後のキャンセルは可能？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: 'イチローズモルト カードシリーズの売却益に税金はかかる？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'イチローズモルト カードシリーズを売るならどのタイミングがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" }].map((faq) => (
+            {[{ q: 'イチローズモルト カードシリーズを売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' }, { q: '複数の業者の比較は必要ですか？', a: 'はい、おすすめします。同じイチローズモルト カードシリーズでも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' }, { q: '買取後のキャンセルはできますか？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: 'イチローズモルト カードシリーズの売却益に税金はかかりますか？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'イチローズモルト カードシリーズを売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -134,14 +134,14 @@ export default function IchirosuCardTakakuUruPage() {
             <Link href="/articles/ichirosu-card-rekishi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">歴史と特徴</span><p className="text-sm font-bold mt-1">イチローズモルト カードシリーズの歴史と特徴</p></Link>
             <Link href="/articles/ichirosu-card-kihaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">希少性・投資価値</span><p className="text-sm font-bold mt-1">イチローズモルト カードシリーズの希少性・投資価値</p></Link>
             <Link href="/articles/ichirosu-card-auction-suii/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">オークション推移</span><p className="text-sm font-bold mt-1">イチローズモルト カードシリーズのオークション推移</p></Link>
-            <Link href="/articles/ichirosu-card-kaifu-zumi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">開封済みでも売れる</span><p className="text-sm font-bold mt-1">イチローズモルト カードシリーズの開封済みでも売れる</p></Link>
-            <Link href="/articles/ichirosu-card-hako-nashi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">箱なしでも買取</span><p className="text-sm font-bold mt-1">イチローズモルト カードシリーズの箱なしでも買取</p></Link>
-            <Link href="/articles/ichirosu-card-label-yogore/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ラベル汚れでも査定</span><p className="text-sm font-bold mt-1">イチローズモルト カードシリーズのラベル汚れでも査定</p></Link>
-            <Link href="/articles/ichirosu-card-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">イチローズモルト カードシリーズの買取相場ガイド（完全版）</p></Link>
-            <Link href="/articles/ichirosu-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋ハブ</span><p className="text-sm font-bold mt-1">イチローズモルト（全種）の偽物の見分け方</p></Link>
+            <Link href="/articles/ichirosu-card-kaifu-zumi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">開封済みボトルの買取</span><p className="text-sm font-bold mt-1">イチローズモルト カードシリーズの開封済みボトルの買取</p></Link>
+            <Link href="/articles/ichirosu-card-hako-nashi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">箱なしボトルの買取</span><p className="text-sm font-bold mt-1">イチローズモルト カードシリーズの箱なしボトルの買取</p></Link>
+            <Link href="/articles/ichirosu-card-label-yogore/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ラベル汚れがある場合の査定</span><p className="text-sm font-bold mt-1">イチローズモルト カードシリーズのラベル汚れがある場合の査定</p></Link>
+            <Link href="/articles/ichirosu-card-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">イチローズモルト カードシリーズの買取相場ガイド</p></Link>
+            <Link href="/articles/ichirosu-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">イチローズモルト（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "ウイスキーの偽物の見分け方｜売る前に確認したいチェックポイント【2026年】",
   description:
-    "高額ウイスキーの偽物・模倣品を売る前に確認したいチェックポイントを解説。ラベル・キャップシール・液色・購入経路など見るべき点と、自分で断定せず専門査定に回すべき危険サインまで。山崎・響など高額銘柄の売却前に。",
+    "高額ウイスキーの偽物・模倣品を売る前に確認したいチェックポイントを解説しています。ラベル・キャップシール・液色・購入経路など見るべき点と、自分で断定せず専門査定を依頼すべき注意点をご説明します。",
   alternates: { canonical: "/articles/whisky-nisemono-miwakekata/" },
 };
 
@@ -60,9 +60,9 @@ export default function Page() {
         <div className="not-prose bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6">
           <p className="font-bold text-ink mb-2">この記事の結論（30秒）</p>
           <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
-            <li>外観だけで<strong>本物と断定しない</strong>。あくまで「不安サインに気づく」ためのチェック。</li>
+            <li>外観だけで<strong>本物と断定しない</strong>。本記事のチェックは、注意すべき点に気付くためのものです。</li>
             <li>確認点＝<strong>ラベル・キャップシール・液色・容量・購入経路</strong>。</li>
-            <li>山崎・響など<strong>高額銘柄</strong>はリスクが相対的に高い。安すぎる出物は注意。</li>
+            <li>山崎・響など<strong>高額銘柄</strong>はリスクが相対的に高い銘柄です。安すぎる出物は注意。</li>
             <li>不安なら自分で鑑定せず<strong>信頼できる買取業者の査定</strong>へ。</li>
           </ul>
         </div>
@@ -108,11 +108,11 @@ export default function Page() {
 
         <h2 id="uru">不安なときの売り方</h2>
         <p>
-          真贋に不安があるボトルは、<strong>複数の買取業者の無料査定</strong>に出すのが現実的です。価格比較だけでなく、真贋面の指摘も得やすくなります。特に <Link href="/articles/yamazaki-18-kaitori/">山崎</Link>・<Link href="/articles/hibiki-30-kaitori/">響</Link>・<Link href="/articles/ichirosu-double-distilleries-kaitori/">イチローズモルト</Link> など高額銘柄は、専門性のある業者を選びましょう。
+          真贋に不安があるボトルは、<strong>複数の買取業者の無料査定</strong>に出すのが現実的です。価格比較だけでなく、真贋面の指摘も得やすくなります。特に <Link href="/articles/yamazaki-18-kaitori/">山崎</Link>・<Link href="/articles/hibiki-30-kaitori/">響</Link>・<Link href="/articles/ichirosu-double-distilleries-kaitori/">イチローズモルト</Link> など高額銘柄は、専門性のある業者を選ぶことをおすすめします。
         </p>
         <div className="not-prose bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 text-center">
           <p className="font-bold text-ink mb-2">高額銘柄こそ複数業者で査定</p>
-          <p className="text-sm text-warm-gray mb-4">無料一括査定で、価格と対応を比較。専門性のある業者が見つかります。</p>
+          <p className="text-sm text-warm-gray mb-4">無料一括査定で、価格と対応を比較できます。専門性のある業者が見つかります。</p>
           <p className="text-xs text-warm-gray mb-3"><span className="inline-block align-middle border border-warm-gray/50 rounded px-1.5 py-0.5 mr-2 text-[11px] font-bold tracking-wide">PR</span>ヒカカク！（買取価格比較サイト・最大20社に一括査定）</p>
           <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow sponsored" className="amber-cta inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm">無料一括査定で調べる →</a>
         </div>

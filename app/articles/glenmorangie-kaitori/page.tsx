@@ -7,7 +7,7 @@ import medians from "@/data/yahoo-medians.json";
 // GSC実測: 「グレンモーレンジ 年代指定なし 買取」pos8.0 / 「グレンモーレンジ シングルモルト〜年代指定なし 買取」pos10.9 /
 // 「グレンモーレンジ 買取」pos14.4〜19.7 が、いずれも /articles/glenmorangie-signet-kaitori/（シグネット単体のページ）に
 // 着地して0クリックだった。年代指定なしやブランド総称で探している人に、1商品のページを見せていたのが原因。
-// ⚠️ 価格は yahoo-medians.json の実測値のみ。データが無い銘柄は数値を出さない（架空値で埋めない）。
+// ⚠️ 価格は yahoo-medians.json の実測値のみ。データがない銘柄は数値を出さない（架空値で埋めない）。
 
 type MedianRec = { median?: number; filtered_n?: number; fetched_at?: string; insufficient?: boolean };
 const m = medians as unknown as Record<string, MedianRec | undefined>;
@@ -33,7 +33,7 @@ const fetchedAt = g10?.fetched_at ?? g18?.fetched_at ?? "毎週月曜";
 export const metadata: Metadata = {
   title: "グレンモーレンジ買取価格【2026年10月】10年・ラサンタ・キンタルバン・18年・シグネットの相場",
   description:
-    `グレンモーレンジの買取相場をラインナップ別に実データで掲載。オリジナル10年${yen("glenmorangie-10") ?? "収集中"}・ラサンタ${yen("glenmorangie-lasanta") ?? "収集中"}・キンタルバン${yen("glenmorangie-quinta-ruban") ?? "収集中"}・18年${yen("glenmorangie-18") ?? "収集中"}・シグネット${yen("glenmorangie-signet") ?? "収集中"}（ヤフオク実落札の中央値・毎週更新）。年数表記のないボトルの扱い、箱なし・開封済みの目安、高く売るコツまで解説します。`,
+    `グレンモーレンジの買取相場を、ラインナップ別に実データで掲載しています。オリジナル10年${yen("glenmorangie-10") ?? "収集中"}・ラサンタ${yen("glenmorangie-lasanta") ?? "収集中"}・キンタルバン${yen("glenmorangie-quinta-ruban") ?? "収集中"}・18年${yen("glenmorangie-18") ?? "収集中"}・シグネット${yen("glenmorangie-signet") ?? "収集中"}（ヤフオク実落札の中央値・毎週更新）です。年数表記のないボトルの扱い、箱なし・開封済みの目安、高く売るコツまで解説します。`,
   alternates: { canonical: "/articles/glenmorangie-kaitori/" },
 };
 
@@ -42,7 +42,7 @@ const faqs = [
     q: "グレンモーレンジの買取相場はいくらですか？",
     a: g10
       ? `ラインナップによって大きく異なります。当サイト集計（ヤフオク過去180日の実落札・IQR外れ値除去後の中央値・取得日 ${fetchedAt}）では、オリジナル10年${yen("glenmorangie-10")}、ラサンタ${yen("glenmorangie-lasanta")}、キンタルバン${yen("glenmorangie-quinta-ruban")}、ネクタードール${yen("glenmorangie-nectar-dor")}、18年${yen("glenmorangie-18")}、シグネット${yen("glenmorangie-signet")}です。これは落札された市場価格であり、業者の買取額はここから手数料等を引いた水準になります。`
-      : "実勢データを収集中です（毎週更新のため近日掲載予定）。",
+      : "実勢データは現在集計中です（毎週更新のため、近日掲載予定）。",
   },
   {
     q: "手元のグレンモーレンジがどの銘柄か分かりません。どこを見ればいいですか？",
@@ -132,7 +132,7 @@ export default function GlenmorangieKaitoriPage() {
             <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
               <li>グレンモーレンジは<strong>銘柄によって相場が5倍以上ちがいます</strong>。まず手元のボトルがどれかを確定させてください。</li>
               {g10 && <li>当サイト集計の実勢中央値: オリジナル10年 <strong>{yen("glenmorangie-10")}</strong> ／ 18年 <strong>{yen("glenmorangie-18")}</strong> ／ シグネット <strong>{yen("glenmorangie-signet")}</strong></li>}
-              <li><strong>年数表記が無いボトル</strong>はシグネットの可能性が高いです（詳細は<a href="#nv" className="text-amber-dark underline">3章</a>）。</li>
+              <li><strong>年数表記がないボトル</strong>はシグネットの可能性が高いです（詳細は<a href="#nv" className="text-amber-dark underline">3章</a>）。</li>
               <li>掲載額は<strong>ヤフオクの実落札中央値＝市場価格</strong>です。業者の買取額はここから手数料等を引いた水準になります。</li>
             </ul>
           </div>

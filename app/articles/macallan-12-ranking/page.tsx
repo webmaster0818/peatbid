@@ -5,12 +5,12 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/macallan-12.json";
 
 export const metadata: Metadata = {
-  title: 'マッカラン12年の買取おすすめ業者ランキング【2026年10月最新】査定額・スピードで徹底比較',
-  description: 'マッカラン12年に強い買取業者をランキング形式で徹底比較。ヒカカク・バイセル・リカスタの査定スピード・査定額・サポート・信頼性を多角的に評価し、目的別おすすめを提示。',
+  title: 'マッカラン12年の買取おすすめ業者ランキング【2026年10月最新】査定額・スピードを比較',
+  description: 'マッカラン12年の買取に対応している業者をランキング形式で比較しています。ヒカカク！・バイセル・リカスタの査定スピード・査定額・サポート・信頼性を評価し、目的別のおすすめを掲載しています。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'マッカラン12年を売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' } }, { "@type": "Question", "name": '複数業者比較は本当に必要？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、必須です。同じマッカラン12年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' } }, { "@type": "Question", "name": '買取後のキャンセルは可能？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": 'マッカラン12年の売却益に税金はかかる？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'マッカラン12年を売るならどのタイミングがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'マッカラン12年を売る前に何を準備すべき？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' } }, { "@type": "Question", "name": '複数の業者の比較は必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、おすすめします。同じマッカラン12年でも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' } }, { "@type": "Question", "name": '買取後のキャンセルはできますか？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": 'マッカラン12年の売却益に税金はかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'マッカラン12年を売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" } }] }) }} />;
 }
 
 export default function Macallan12RankingPage() {
@@ -46,7 +46,7 @@ export default function Macallan12RankingPage() {
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">マッカラン12年</p>
             <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 12年熟成 / 希少度 コモン / 市場相場 9,102円</p>
-            <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/macallan-12-kaitori/" className="text-amber-dark underline">マッカラン12年の買取相場 完全ガイドへ</Link></p>
+            <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/macallan-12-kaitori/" className="text-amber-dark underline">マッカラン12年の買取相場ガイド</Link></p>
           </div>
 
           {/* Table of Contents */}
@@ -55,18 +55,18 @@ export default function Macallan12RankingPage() {
             <ol className="space-y-1.5 text-sm text-amber-dark">
               <li><a href="#section-0" className="hover:underline">1. マッカラン12年の市場ポジションとデータ分析</a></li>
               <li><a href="#section-1" className="hover:underline">2. ランキングの選定基準</a></li>
-              <li><a href="#section-2" className="hover:underline">3. 1位: ヒカカク！（一括査定で最高値発見）</a></li>
-              <li><a href="#section-3" className="hover:underline">4. 2位: バイセル（東証グロース上場の安心感）</a></li>
-              <li><a href="#section-4" className="hover:underline">5. 3位: リカスタ（宅配買取で完結）</a></li>
-              <li><a href="#section-5" className="hover:underline">6. 業者選びの最適戦略</a></li>
+              <li><a href="#section-2" className="hover:underline">3. 1位: ヒカカク！（一括査定）</a></li>
+              <li><a href="#section-3" className="hover:underline">4. 2位: バイセル（東証グロース上場）</a></li>
+              <li><a href="#section-4" className="hover:underline">5. 3位: リカスタ（宅配買取）</a></li>
+              <li><a href="#section-5" className="hover:underline">6. 業者選びの手順</a></li>
             </ol>
           </div>
 
-          <p>マッカラン12年を高く売るには、業者選びが最重要です。実勢中央値9,102円クラスのボトルでも、業者間で概算約460〜1,370円（相場の5〜15%）の査定差が生じ得ます。本記事ではPeatBid編集部が選定基準に基づいて選んだマッカラン12年に強い買取業者3社を、ランキング形式で比較します。</p>
+          <p>マッカラン12年を高く売るためには、業者選びが重要です。実勢中央値9,102円クラスのボトルでも、業者間で概算約460〜1,370円（相場の5〜15%）の査定差が生じる場合があります。本記事では、PeatBid編集部が選定基準にもとづいて選んだマッカラン12年の買取に対応している業者3社を、ランキング形式で比較します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではマッカラン12年の落札が約288件確認でき、落札額の中央値は9,102円でした。取引が活発で換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではマッカラン12年の落札が約288件確認でき、落札額の中央値は9,102円でした。取引が活発で、換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -91,30 +91,28 @@ export default function Macallan12RankingPage() {
           </div>
 
           <h2 id="section-0">1. マッカラン12年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マッカラン12年</strong>はスコッチウイスキー（スペイサイド）の12年熟成、度数40%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>9,102円</strong>（流通サンプル288件、当サイト独自集計）。価格帯としては<strong>実用帯</strong>にあたり、回転が速く、状態が良ければスムーズに売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているぶん、付属品・状態の差が査定額に直結します。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気度で査定差が出るため、銘柄固有の相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マッカラン12年</strong>はスコッチウイスキー（スペイサイド）の12年熟成、度数40%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>9,102円</strong>（流通サンプル288件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. ランキングの選定基準</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部のマッカラン12年買取業者選定基準（5項目）:</p><ol><li><strong>専門知識</strong> — お酒・ウイスキー専門の鑑定力があるか</li><li><strong>査定スピード</strong> — 見積もり〜入金までの所要日数</li><li><strong>査定額の透明性</strong> — 価格根拠・状態評価の説明があるか</li><li><strong>手数料・キャンセル料</strong> — 完全無料か</li><li><strong>信頼性</strong> — 上場・古物商許可・口コミ評判
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部によるマッカラン12年の買取業者の選定基準（5項目）は以下のとおりです。</p><ol><li><strong>専門知識</strong> — お酒・ウイスキー専門の鑑定力があるか</li><li><strong>査定スピード</strong> — 見積もり〜入金までの所要日数</li><li><strong>査定額の透明性</strong> — 価格根拠・状態評価の説明があるか</li><li><strong>手数料・キャンセル料</strong> — 無料か</li><li><strong>信頼性</strong> — 上場・古物商許可・口コミ評判
 
 以上の5項目を各業者ごとに10点満点で評価し、合計点でランキングを作成しました。</li></ol>` }} />
 
-          <h2 id="section-2">3. 1位: ヒカカク！（一括査定で最高値発見）</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 47/50</strong></p><p>ヒカカク！は最大20社の買取業者へ一括で見積もりを依頼できる比較プラットフォーム。1回の申し込みで最大20社から査定結果が届く仕組みで、希少銘柄ほど業者間の査定差が大きいため、<strong>まずはヒカカクで相場感を把握する</strong>のが最短ルートです。</p><p><strong>強み</strong>: 最大20社から一括査定 / 完全無料 / 24時間Web依頼可能 / お酒・洋酒・ブランデー対応</p><p><strong>弱み</strong>: 一括査定なので業者から個別に連絡が来る / 一括査定後に専門店個別査定も推奨</p><p><strong>こんな人におすすめ</strong>: 最高値を効率的に狙いたい方、初めて買取を依頼する方</p>` }} />
+          <h2 id="section-2">3. 1位: ヒカカク！（一括査定）</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 47/50</strong></p><p>ヒカカク！は、最大20社の買取業者に一括で見積もりを依頼できる比較サービスです。1回の申し込みで最大20社から査定結果が届きます。希少銘柄ほど業者間の査定差が大きいため、<strong>最初に相場を把握する手段</strong>として適しています。</p><p><strong>強み</strong>: 最大20社から一括査定 / 無料 / Webで24時間申し込み可能 / お酒・洋酒・ブランデーに対応</p><p><strong>留意点</strong>: 一括査定のため、各業者から個別に連絡があります / 一括査定の後に専門店の個別査定もおすすめします</p><p><strong>おすすめの方</strong>: 複数社の査定額を効率よく比較したい方、初めて買取を依頼する方</p>` }} />
 
-          <h2 id="section-3">4. 2位: バイセル（東証グロース上場の安心感）</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 44/50</strong></p><p>東証グロース上場のBuySell Technologies運営。累計買取点数4,800万点以上（2015〜2025年の合計・公式）の大手で、お酒・ウイスキー買取に注力中。<strong>信頼性とスピードを両立</strong>したい場合に最適です。</p><p><strong>強み</strong>: 東証グロース上場で社会的信頼性◎ / 3チャネル対応（出張・店頭・宅配） / CM放映で知名度抜群 / 一律無料</p><p><strong>弱み</strong>: 一括査定よりは査定額がやや低めの場合あり / 出張買取は離島が対象外</p><p><strong>こんな人におすすめ</strong>: 信頼性とスピードを両立したい方、大量にまとめて売りたい方</p>` }} />
+          <h2 id="section-3">4. 2位: バイセル（東証グロース上場）</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 44/50</strong></p><p>東証グロース上場のBuySell Technologies運営。累計買取点数4,800万点以上（2015〜2025年の合計・公式）の買取大手で、お酒・ウイスキーの買取に対応しています。<strong>大手の業者に出張買取を依頼したい場合</strong>に適しています。</p><p><strong>強み</strong>: 東証グロース上場企業が運営 / 出張・店頭・宅配の3つの方式に対応 / テレビCMを放映 / 査定料等は無料</p><p><strong>留意点</strong>: 一括査定と比べて査定額がやや低い場合があります / 出張買取は離島が対象外です</p><p><strong>おすすめの方</strong>: 大手の業者に依頼したい方、まとめて売却したい方</p>` }} />
 
-          <h2 id="section-4">5. 3位: リカスタ（宅配買取で完結）</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 40/50</strong></p><p>リカスタは全国対応の宅配買取サービス。店舗に行く時間がない方、地方在住の方に最適。査定無料・キャンセル無料・送料・梱包キット無料で気軽に試せます。</p><p><strong>強み</strong>: 全国対応の宅配買取 / 査定・送料・キャンセル無料 / ジャパニーズウイスキーも積極買取 / Web完結</p><p><strong>弱み</strong>: 査定額は専門店比でやや低めのことがある / 店舗は大阪・新宿の2店のみ（ほかの地域は宅配か出張）</p><p><strong>こんな人におすすめ</strong>: 宅配で完結したい方、地方在住の方、複数本まとめて宅配で売りたい方</p>` }} />
+          <h2 id="section-4">5. 3位: リカスタ（宅配買取）</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>総合スコア: 40/50</strong></p><p>リカスタは、全国から宅配買取を受け付けているお酒の買取サービスです。店舗に行く時間がない方、地方にお住まいの方に適しています。査定料・キャンセル料・送料・梱包キットは無料です。</p><p><strong>強み</strong>: 全国から宅配買取を受付 / 査定料・送料・キャンセル料は無料 / ジャパニーズウイスキーの買取に対応 / Webで申し込み可能</p><p><strong>留意点</strong>: 査定額が専門店と比べてやや低い場合があります / 店舗は大阪・新宿の2店のみです（ほかの地域は宅配または出張）</p><p><strong>おすすめの方</strong>: 宅配で売却したい方、地方にお住まいの方、複数本をまとめて宅配で売却したい方</p>` }} />
 
-          <h2 id="section-5">6. 業者選びの最適戦略</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部が推奨する<strong>3ステップ戦略</strong>:</p><ol><li><strong>まずヒカカクで一括査定</strong> — 最大20社の相場感を把握</li><li><strong>専門店で個別査定</strong> — お酒買取に強い業者の査定で本当の市場価値を確認</li><li><strong>最高値の業者で売却</strong> — 手取り額（手数料・送料込み）で比較し最終決定
-
-この3ステップで、{name}の最高値を確実に引き出せます。</li></ol>` }} />
+          <h2 id="section-5">6. 業者選びの手順</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部が推奨する<strong>3つのステップ</strong>は以下のとおりです。</p><ol><li><strong>一括査定を依頼する</strong> — 最大20社の査定額で相場を把握します</li><li><strong>専門店に個別査定を依頼する</strong> — お酒の買取専門店の査定で市場価値を確認します</li><li><strong>査定額を比較して売却する</strong> — 手数料・送料を差し引いた受取額で比較し、売却先を決定します</li></ol>` }} />
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
-            <h3 className="font-bold text-base mb-3 text-center">マッカラン12年の無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
+            <h3 className="font-bold text-base mb-3 text-center">マッカラン12年の無料一括査定のご案内</h3>
+            <p className="text-sm text-warm-gray text-center mb-4">複数の業者の査定額を比較できます。査定料・キャンセル料は無料です。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
@@ -125,7 +123,7 @@ export default function Macallan12RankingPage() {
           <h2>マッカラン12年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: 'マッカラン12年を売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品をすべて揃える、(2)ボトルの状態を確認、(3)複数業者で見積もり、(4)本人確認書類を準備、(5)銀行口座（振込希望の場合）を準備、の5つが基本です。' }, { q: '複数業者比較は本当に必要？', a: 'はい、必須です。同じマッカラン12年でも業者によって**数万〜数十万円**の査定差が生まれます。ヒカカク等の一括査定+専門店個別査定の組み合わせで、最高値を引き出しましょう。' }, { q: '買取後のキャンセルは可能？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: 'マッカラン12年の売却益に税金はかかる？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円未満なら申告不要。5年超保有なら長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'マッカラン12年を売るならどのタイミングがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。" }].map((faq) => (
+            {[{ q: 'マッカラン12年を売る前に何を準備すべき？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' }, { q: '複数の業者の比較は必要ですか？', a: 'はい、おすすめします。同じマッカラン12年でも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' }, { q: '買取後のキャンセルはできますか？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: 'マッカラン12年の売却益に税金はかかりますか？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'マッカラン12年を売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -146,14 +144,14 @@ export default function Macallan12RankingPage() {
             <Link href="/articles/macallan-12-rekishi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">歴史と特徴</span><p className="text-sm font-bold mt-1">マッカラン12年の歴史と特徴</p></Link>
             <Link href="/articles/macallan-12-kihaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">希少性・投資価値</span><p className="text-sm font-bold mt-1">マッカラン12年の希少性・投資価値</p></Link>
             <Link href="/articles/macallan-12-auction-suii/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">オークション推移</span><p className="text-sm font-bold mt-1">マッカラン12年のオークション推移</p></Link>
-            <Link href="/articles/macallan-12-kaifu-zumi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">開封済みでも売れる</span><p className="text-sm font-bold mt-1">マッカラン12年の開封済みでも売れる</p></Link>
-            <Link href="/articles/macallan-12-hako-nashi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">箱なしでも買取</span><p className="text-sm font-bold mt-1">マッカラン12年の箱なしでも買取</p></Link>
-            <Link href="/articles/macallan-12-label-yogore/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ラベル汚れでも査定</span><p className="text-sm font-bold mt-1">マッカラン12年のラベル汚れでも査定</p></Link>
-            <Link href="/articles/macallan-12-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">マッカラン12年の買取相場ガイド（完全版）</p></Link>
-            <Link href="/articles/macallan-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋ハブ</span><p className="text-sm font-bold mt-1">マッカラン（全種）の偽物の見分け方</p></Link>
+            <Link href="/articles/macallan-12-kaifu-zumi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">開封済みボトルの買取</span><p className="text-sm font-bold mt-1">マッカラン12年の開封済みボトルの買取</p></Link>
+            <Link href="/articles/macallan-12-hako-nashi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">箱なしボトルの買取</span><p className="text-sm font-bold mt-1">マッカラン12年の箱なしボトルの買取</p></Link>
+            <Link href="/articles/macallan-12-label-yogore/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ラベル汚れがある場合の査定</span><p className="text-sm font-bold mt-1">マッカラン12年のラベル汚れがある場合の査定</p></Link>
+            <Link href="/articles/macallan-12-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">マッカラン12年の買取相場ガイド</p></Link>
+            <Link href="/articles/macallan-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">マッカラン（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

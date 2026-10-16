@@ -136,46 +136,46 @@ CAT_LABEL = {
 
 
 RARITY_DETAILED = {
-    "common": "現行品として安定流通しているが、銘柄によってはプレミア化の兆しあり。市場価値は中位だが、コレクター入門品として安定需要を持つ。",
-    "mid": "終売・休売後の供給制限により価格上昇基調にある銘柄帯。市場流通量が徐々に減少し、二次流通価格は年単位で15〜30%上昇する傾向。",
-    "high": "希少性と国際的評価により、二次流通市場で高値が定着している銘柄帯。コレクター・投資需要が支え、長期保有での価値増大が期待できる。",
-    "ultra": "極めて希少な長期熟成銘柄。Sotheby's・Bonhamsなどの海外オークションでの落札データが査定の基準となり、富裕層・コレクターの主要ターゲット。",
-    "ultra-rare": "市場流通量が極小、もしくは閉鎖蒸溜所のボトル。1本数百万円〜数千万円の取引が発生し、世界中のオークションで注目される伝説級の銘柄。",
+    "common": "現行品として安定して流通している銘柄帯です。銘柄によってはプレミア価格が付く場合があり、コレクターの入門品として安定した需要があります。",
+    "mid": "終売・休売後の供給制限により、価格が上昇傾向にある銘柄帯です。市場の流通量は徐々に減少しており、二次流通価格は年単位で15〜30%上昇する傾向があります。",
+    "high": "希少性と国際的な評価により、二次流通市場で高値が定着している銘柄帯です。コレクターや投資目的の需要に支えられています。",
+    "ultra": "極めて希少な長期熟成銘柄です。Sotheby's・Bonhamsなどの海外オークションの落札データが査定の基準となり、主な購入層は富裕層やコレクターです。",
+    "ultra-rare": "市場の流通量が極めて少ない銘柄、または閉鎖蒸溜所のボトルです。1本数百万円〜数千万円で取引される例があり、各国のオークションで注目されています。",
 }
 
 
 # Distillery profiles
 DISTILLERY_INFO = {
-    "山崎蒸溜所": "1923年（大正12年）創業、サントリーが京都・山崎に開設した日本最初の本格モルトウイスキー蒸溜所。三方を山に囲まれた湿潤な気候と、千利休が茶の湯に使った湧水「離宮の水」を仕込み水として用いる。山崎は日本のウイスキー文化発祥の地として、国際的評価も極めて高い。",
-    "白州蒸溜所": "1973年（昭和48年）創業、サントリーが山梨県北杜市・南アルプス山系の麓に開設した蒸溜所。標高約700メートルの森林に囲まれた立地と、ミネラル分の少ない軟水を使用。「森のウイスキー」と称される爽やかで軽快な味わいが特徴。",
-    "サントリー": "1899年創業のサントリーホールディングスは、日本最大のウイスキーメーカー。山崎・白州・知多の3つの蒸溜所を運営し、響をはじめとするブレンデッドウイスキーで国際的評価を確立している。",
-    "余市蒸溜所": "1934年（昭和9年）創業、ニッカウヰスキーの竹鶴政孝が北海道余市に開設。スコットランドに似た冷涼な気候と、海風・石炭直火蒸溜による力強いピーティな味わいが特徴。日本ウイスキーの父・竹鶴政孝の理想を体現する蒸溜所。",
-    "宮城峡蒸溜所": "1969年（昭和44年）創業、ニッカウヰスキーが宮城県仙台市・新川渓谷に開設した第2の蒸溜所。穏やかな気候と軟水によるフルーティで華やかな味わいが特徴。余市と対照的な、エレガントなモルト原酒を生み出す。",
-    "ニッカ": "1934年に竹鶴政孝が創業した「大日本果汁株式会社」を起源とする日本2大ウイスキーメーカーの一角。余市・宮城峡の2つの蒸溜所を擁し、竹鶴・余市・宮城峡など名作を世に送り出している。",
-    "ベンチャーウイスキー": "2007年、肥土伊知郎氏が埼玉県秩父に設立した独立系蒸溜所。閉鎖した羽生蒸溜所の原酒を活かしながら、秩父蒸溜所で独自のクラフトウイスキーを生産。「イチローズモルト」ブランドで世界中のコレクターから絶大な支持を集める。",
-    "軽井沢蒸溜所": "1955年〜2000年に長野県軽井沢で稼働した、現在は閉鎖済みの伝説的蒸溜所。残存ボトルは世界中のオークションで取引され、1本数百万円から数千万円の価格がつく。希少性ゆえに「日本ウイスキー界の聖杯」とも呼ばれる。",
-    "羽生蒸溜所": "1980年代〜2000年に埼玉県羽生で稼働した、閉鎖済み蒸溜所。残された原酒はベンチャーウイスキーが引き継ぎ、「イチローズモルト カードシリーズ」として伝説化。現在は1セット数千万円で取引される。",
-    "秩父蒸溜所": "ベンチャーウイスキーが埼玉県秩父に設立したクラフト蒸溜所。2008年蒸溜開始、初リリースの「ザ・ファースト」は世界中のコレクターが追い求める希少銘柄。",
-    "信州マルス蒸溜所": "1949年創業の本坊酒造が運営する長野県の蒸溜所。標高800メートル超の高地・冷涼気候を活かした熟成が特徴。クラフトウイスキーの先駆者の一つ。",
-    "スペイサイド": "スコットランド東部のスペイ川流域を中心とした、世界最大のウイスキー生産地。マッカラン・グレンフィディック・グレンファークラス・グレンリヴェットなど、世界的に有名な蒸溜所が集積。フルーティで華やかな味わいが特徴。",
-    "アイラ": "スコットランド西海岸のアイラ島は、ピートウイスキーの聖地。ボウモア・ラフロイグ・アードベッグ・ラガヴーリンなど、独特のスモーキーな味わいで知られる蒸溜所が点在する。",
-    "キャンベルタウン": "スコットランド南西部のキャンベルタウンは、かつて30以上の蒸溜所が稼働した「ウイスキーの首都」。現在はスプリングバンクなど数軒のみが伝統製法を守り続け、希少価値が高い。",
-    "ハイランド": "スコットランド北部・中央部の広大な地域。グレンモーレンジ・ダルモア・グレンドロナックなど、フルーティで複雑な味わいの蒸溜所が点在する。",
-    "スカイ": "スコットランド西海岸のスカイ島。タリスカー蒸溜所が唯一のシングルモルト蒸溜所として知られ、海風と火山地形が育むスモーキーで力強い味わいが特徴。",
+    "山崎蒸溜所": "1923年（大正12年）にサントリーが京都・山崎に開設した、日本最初の本格モルトウイスキー蒸溜所です。三方を山に囲まれた湿潤な気候のもと、千利休が茶の湯に使ったとされる湧水「離宮の水」を仕込み水に用いています。山崎は日本のウイスキー文化発祥の地とされ、国際的にも高く評価されています。",
+    "白州蒸溜所": "1973年（昭和48年）にサントリーが山梨県北杜市・南アルプス山系の麓に開設した蒸溜所です。標高約700メートルの森林に囲まれた立地で、ミネラル分の少ない軟水を使用しています。「森のウイスキー」と称される、爽やかで軽快な味わいが特徴です。",
+    "サントリー": "1899年創業のサントリーホールディングスは、日本最大のウイスキーメーカーです。山崎・白州・知多の3つの蒸溜所を運営し、響をはじめとするブレンデッドウイスキーで国際的な評価を得ています。",
+    "余市蒸溜所": "1934年（昭和9年）にニッカウヰスキーの竹鶴政孝が北海道余市に開設した蒸溜所です。スコットランドに似た冷涼な気候と、海風・石炭直火蒸溜による力強くピーティな味わいが特徴です。",
+    "宮城峡蒸溜所": "1969年（昭和44年）にニッカウヰスキーが宮城県仙台市・新川渓谷に開設した、同社2番目の蒸溜所です。穏やかな気候と軟水による、フルーティで華やかな味わいが特徴です。余市とは対照的な、軽やかなモルト原酒を生産しています。",
+    "ニッカ": "1934年に竹鶴政孝が創業した「大日本果汁株式会社」を起源とする、日本の主要ウイスキーメーカーの一つです。余市・宮城峡の2つの蒸溜所を運営し、竹鶴・余市・宮城峡などの銘柄を製造しています。",
+    "ベンチャーウイスキー": "2007年に肥土伊知郎氏が埼玉県秩父に設立した独立系蒸溜所です。閉鎖した羽生蒸溜所の原酒を活用しながら、秩父蒸溜所で独自のクラフトウイスキーを生産しています。「イチローズモルト」ブランドは、国内外のコレクターから高い評価を得ています。",
+    "軽井沢蒸溜所": "1955年〜2000年に長野県軽井沢で稼働し、現在は閉鎖されている蒸溜所です。残存するボトルは各国のオークションで取引され、1本数百万円から数千万円の価格が付く例があります。",
+    "羽生蒸溜所": "1980年代〜2000年に埼玉県羽生で稼働し、現在は閉鎖されている蒸溜所です。残された原酒はベンチャーウイスキーが引き継ぎ、「イチローズモルト カードシリーズ」としてリリースされました。同シリーズは1セット数千万円で取引される例があります。",
+    "秩父蒸溜所": "ベンチャーウイスキーが埼玉県秩父に設立したクラフト蒸溜所です。2008年に蒸溜を開始し、最初のリリースである「ザ・ファースト」は希少銘柄として知られています。",
+    "信州マルス蒸溜所": "本坊酒造が長野県で運営する蒸溜所です。標高800メートルを超える高地の冷涼な気候を活かした熟成が特徴です。",
+    "スペイサイド": "スコットランド北東部のスペイ川流域を中心とした、世界最大のウイスキー生産地です。マッカラン・グレンフィディック・グレンファークラス・グレンリヴェットなどの蒸溜所が集まっており、フルーティで華やかな味わいが特徴です。",
+    "アイラ": "スコットランド西海岸のアイラ島は、ピートを効かせたウイスキーの産地として知られています。ボウモア・ラフロイグ・アードベッグ・ラガヴーリンなど、スモーキーな味わいで知られる蒸溜所があります。",
+    "キャンベルタウン": "スコットランド南西部のキャンベルタウンは、かつて30以上の蒸溜所が稼働したウイスキーの産地です。現在稼働しているのはスプリングバンクなど数か所のみで、希少価値が高いとされています。",
+    "ハイランド": "スコットランド北部・中央部の広い地域です。グレンモーレンジ・ダルモア・グレンドロナックなど、フルーティで複雑な味わいの蒸溜所があります。",
+    "スカイ": "スコットランド西海岸のスカイ島です。タリスカー蒸溜所が代表的なシングルモルト蒸溜所として知られ、スモーキーで力強い味わいが特徴です。",
 }
 
 
 # Tasting notes by category × age tier
 TASTING_NOTES = {
     "japanese-whisky": {
-        "young": "フレッシュなフルーツの香り、リンゴ・梨・洋ナシのアロマが軽快に広がる。バニラ・蜂蜜の柔らかな甘み。フィニッシュは短〜中で、初心者にも飲みやすい繊細さ。",
-        "mid": "熟成感のあるドライフルーツ（レーズン・プラム）、シナモン・クローブのスパイス、ミズナラ樽からくる伽羅・白檀の和の香り。ふくよかな甘みと長いフィニッシュ。",
-        "old": "深いシェリー樽由来のドライフルーツケーキ、ダークチョコレート、煙草の葉、ミズナラ独特のオリエンタルな香り。複雑性が極まり、フィニッシュは数分続く。長期熟成の真髄。",
+        "young": "リンゴ・洋ナシなどのフレッシュな果実の香りが軽やかに広がり、バニラ・蜂蜜の柔らかな甘みがあります。フィニッシュは短めから中程度で、飲みやすい味わいです。",
+        "mid": "レーズン・プラムなどのドライフルーツ、シナモン・クローブのスパイス、ミズナラ樽由来の伽羅・白檀を思わせる香りがあります。ふくよかな甘みと長いフィニッシュが特徴です。",
+        "old": "シェリー樽由来のドライフルーツケーキ、ダークチョコレート、煙草の葉、ミズナラ樽由来のオリエンタルな香りがあります。複雑な味わいで、長いフィニッシュが続きます。",
     },
     "scotch-whisky": {
-        "young": "シェリー樽もしくはバーボン樽の特徴がストレートに表現された若々しい味わい。フルーツ・蜂蜜・バニラのアロマ。",
-        "mid": "シェリー樽熟成ではドライフルーツ・スパイス、バーボン樽熟成ではバニラ・キャラメル・フルーツが調和。樽の個性が立ち、味わいに深みが出る。",
-        "old": "長期熟成ならではの複雑性。シェリー由来のダークフルーツ、ピート由来のスモーキネス、樽材のオーク・タンニンが渾然一体となる。世界のコレクター垂涎の味わい。",
+        "young": "シェリー樽またはバーボン樽の特徴が素直に表れた、若々しい味わいです。フルーツ・蜂蜜・バニラの香りがあります。",
+        "mid": "シェリー樽熟成ではドライフルーツ・スパイス、バーボン樽熟成ではバニラ・キャラメル・フルーツの香りが調和し、樽の個性による深みがあります。",
+        "old": "長期熟成による複雑な味わいです。シェリー由来のダークフルーツ、ピート由来のスモーキーさ、樽材のオーク・タンニンが一体となっています。",
     },
 }
 
@@ -206,25 +206,25 @@ PARTNERS_DETAILED = [
         "name": "ヒカカク！",
         "url": "https://hikakaku.com",
         "method": "一括査定",
-        "intro": "ヒカカク！は最大20社の買取業者へ一括で見積もりを依頼できる比較プラットフォーム。希少銘柄ほど業者間の査定差が大きく、まず**相場感を把握する**目的で最適です。",
-        "strengths": ["最大20社から一括査定（公式）", "査定は完全無料・納得できなければ買取依頼しなくてOK", "ウイスキー・洋酒・ブランデー対応"],
-        "best_for": "**最高値を狙いたい方** / 初めての方",
+        "intro": "ヒカカク！は、最大20社の買取業者に一括で見積もりを依頼できる比較サービスです。希少銘柄ほど業者間の査定差が大きくなるため、**相場の把握**を目的とした利用に適しています。",
+        "strengths": ["最大20社から一括査定（公式）", "査定は無料で、査定額に納得できない場合は買取を依頼する必要はありません", "ウイスキー・洋酒・ブランデーに対応"],
+        "best_for": "**複数社の査定額を比較したい方** / 初めて売却する方",
     },
     {
         "name": "バイセル",
         "url": "https://buysell-kaitori.com/liquor/japanese-whisky/",
         "method": "出張/店頭/宅配",
-        "intro": "東証グロース上場のBuySell Technologiesが運営。累計買取点数4,800万点以上（2015〜2025年の合計・公式）の大手で、お酒・ウイスキー買取に注力中。**信頼性とスピードを両立**したい場合に最適です。",
-        "strengths": ["東証グロース上場で社会的信頼性◎", "3チャネル対応（出張・店頭・宅配）", "CMでも知名度抜群"],
-        "best_for": "**信頼性とスピード**を両立したい方",
+        "intro": "東証グロース上場のBuySell Technologiesが運営。累計買取点数4,800万点以上（2015〜2025年の合計・公式）の買取大手で、お酒・ウイスキーの買取に対応しています。**大手の業者に出張買取を依頼したい場合**に適しています。",
+        "strengths": ["東証グロース上場企業が運営", "出張・店頭・宅配の3つの方式に対応", "テレビCMを放映している大手"],
+        "best_for": "**大手の業者に依頼したい方**",
     },
     {
         "name": "リカスタ",
         "url": "https://www.licasta.com/",
         "method": "宅配/出張/店頭",
-        "intro": "全国対応の宅配買取サービス。**店舗に行く時間がない方・地方在住の方**に最適。査定無料・キャンセル無料で気軽に試せます。",
-        "strengths": ["全国対応の宅配買取", "査定無料・キャンセル無料", "送料・梱包キット無料"],
-        "best_for": "**宅配で完結したい方** / 地方在住の方",
+        "intro": "宅配・出張・店頭で買取を受け付けているお酒の買取サービスです。**店舗に行く時間がない方・地方にお住まいの方**に適しています。査定料・キャンセル料は無料です。",
+        "strengths": ["全国から宅配買取を受付", "査定料・キャンセル料は無料", "送料・梱包キットは無料"],
+        "best_for": "**宅配で売却したい方** / 地方にお住まいの方",
     },
 ]
 
@@ -232,7 +232,7 @@ PARTNERS_DETAILED = [
 def state_table_rows_pct():
     """業界一般の目安。(状態, 付属品, ％ラベル, lo%, hi%)。loが0=単一値(95-100は95,100)。"""
     return [
-        ("未開封・完璧", "箱・冊子・カートン揃い", "市場相場の95〜100%程度", 95, 100),
+        ("未開封・付属品完備", "箱・冊子・カートン揃い", "市場相場の95〜100%程度", 95, 100),
         ("未開封・箱なし", "ラベル良好", "市場相場の80〜90%程度", 80, 90),
         ("未開封・冊子なし", "外箱あり", "市場相場の85〜95%程度", 85, 95),
         ("未開封・ラベル軽度汚れ", "付属あり", "市場相場の75〜88%程度", 75, 88),
@@ -274,7 +274,7 @@ def render_page(b, all_brands):
 
     hero = get_hero_image(slug_base)
     distillery_image = "/images/distillery-japanese.png" if category == "japanese-whisky" else "/images/distillery-scotch.png"
-    distillery_info = DISTILLERY_INFO.get(origin, f"{origin}は{cat_label}業界で評価の高い蒸溜所/メーカー。長年の伝統と現代的な品質管理を融合し、世界基準のウイスキーを生産しています。")
+    distillery_info = DISTILLERY_INFO.get(origin, f"{origin}は、{cat_label}の蒸溜所・メーカーです。")
     tasting = get_tasting_note(category, age)
     rarity_detailed = RARITY_DETAILED.get(rarity, "")
     rarity_label_map = {"common": "コモン", "mid": "ミッド", "high": "ハイ", "ultra": "ウルトラ", "ultra-rare": "ウルトラレア"}
@@ -289,7 +289,7 @@ def render_page(b, all_brands):
     if _pf:
         origin = _pf.get("maker", origin)
         age_label = _pf.get("age_short", age_label)
-    summary_p = _pf.get("summary") or f"{name}は{cat_label}を代表する銘柄の1つで、{origin}が手がける{age_label}のボトルです。{description}。"
+    summary_p = _pf.get("summary") or f"{name}は{cat_label}の代表的な銘柄の一つで、{origin}が手がける{age_label}のボトルです。{description}。"
     distillery_extra = f"\n          <p>{_pf['distillery_extra']}</p>\n" if _pf.get("distillery_extra") else ""
     tasting_intro = "" if _pf.get("tasting") else f"<p>{name}の味わいは、{age_label}の熟成期間中に樽から溶け出した成分と、{origin}独自の蒸溜技術が複雑に交差したものです。</p>"
     if _pf.get("tasting"):
@@ -311,7 +311,7 @@ def render_page(b, all_brands):
     related_links_parts = []
     for r in related:
         rmed = r.get("yahoo_median_jpy_180d", "").strip()
-        rmed_label = f"市場相場 {fmt(int(rmed))}" if rmed.isdigit() and int(rmed) > 0 else "市場相場データ蓄積中"
+        rmed_label = f"市場相場 {fmt(int(rmed))}" if rmed.isdigit() and int(rmed) > 0 else "市場相場データ集計中"
         related_links_parts.append(
             f'            <Link href="/articles/{r["slug"]}-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">{r["name_ja"]} の買取相場</p><p className="text-xs text-warm-gray mt-1">{rmed_label}</p></Link>'
         )
@@ -337,12 +337,12 @@ def render_page(b, all_brands):
         ("rekishi", "歴史と特徴"),
         ("kihaku", "希少性・投資価値"),
         ("auction-suii", "オークション推移"),
-        ("kaifu-zumi", "開封済みでも売れる"),
-        ("hako-nashi", "箱なしでも買取"),
-        ("label-yogore", "ラベル汚れでも査定"),
+        ("kaifu-zumi", "開封済みボトルの買取"),
+        ("hako-nashi", "箱なしボトルの買取"),
+        ("label-yogore", "ラベル汚れがある場合の査定"),
     ]
     _fam = slug_base.split("-")[0]
-    _hub_li = (f'              <li><Link href="/articles/{_fam}-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">{HUB_FAMILIES[_fam]}（全種）の偽物の見分け方・真贋ハブ</Link></li>\n') if _fam in HUB_FAMILIES else ""
+    _hub_li = (f'              <li><Link href="/articles/{_fam}-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">{HUB_FAMILIES[_fam]}（全種）の偽物の見分け方</Link></li>\n') if _fam in HUB_FAMILIES else ""
     angle_links_html = _hub_li + "\n".join(
         f'              <li><Link href="/articles/{slug_base}-{a[0]}/" className="text-amber-dark hover:underline">{name}の{a[1]}</Link></li>'
         for a in angle_links_inline
@@ -373,8 +373,8 @@ def render_page(b, all_brands):
             <div dangerouslySetInnerHTML={{{{ __html: `{md_to_html(p["intro"])}` }}}} />
             <p className="text-sm font-bold mt-3 mb-2 text-ink">主な強み</p>
             <ul className="text-sm text-warm-gray list-disc list-inside">{strengths_html}</ul>
-            <div dangerouslySetInnerHTML={{{{ __html: `{md_to_html("こんな人におすすめ: " + p["best_for"])}` }}}} className="mt-2 text-sm" />
-            <a href="{p["url"]}" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta inline-block mt-3 px-5 py-2 rounded-lg text-sm">{p["name"]}で無料査定する →</a>
+            <div dangerouslySetInnerHTML={{{{ __html: `{md_to_html("おすすめの方: " + p["best_for"])}` }}}} className="mt-2 text-sm" />
+            <a href="{p["url"]}" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta inline-block mt-3 px-5 py-2 rounded-lg text-sm">{p["name"]}の無料査定を申し込む →</a>
           </div>'''
         partners_html_blocks.append(block)
     partners_html = "\n".join(partners_html_blocks)
@@ -384,14 +384,14 @@ def render_page(b, all_brands):
         market_str = f"{fmt(yahoo_median)}（Yahoo Auctions 過去180日の落札中央値、サンプル数 n={sample_n}、取得日 {fetched_at}）"
         market_short = fmt(yahoo_median)
     else:
-        market_str = "現在、過去180日の落札データが20件に満たないため市場相場の中央値は集計できていません"
-        market_short = "市場相場データ蓄積中"
+        market_str = "過去180日の落札データが20件に満たないため、市場相場の中央値は掲載していません"
+        market_short = "市場相場データ集計中"
 
     hako_yen = f"（{yen_range_pct(yahoo_median, 80, 90)}）" if sufficient else ""
     is_nv = slug_base.endswith("-nv") or slug_base.endswith("-105")
     nv_base_name = name.replace("ノンエイジ", "").replace("105", "").replace("（NV）", "").strip()
     nv_note = (
-        f'<p>なお、{name}はラベルに熟成年数の表記がないボトルで、オークションや買取店では「<strong>{nv_base_name} 年代指定なし</strong>」「<strong>{nv_base_name} NV（ノンヴィンテージ）</strong>」とも表記されます。いずれも本ページの相場が目安になります。</p>'
+        f'<p>なお、{name}はラベルに熟成年数の表記がないボトルで、オークションや買取店では「<strong>{nv_base_name} 年代指定なし</strong>」「<strong>{nv_base_name} NV（ノンヴィンテージ）</strong>」とも表記されます。いずれも本ページの相場を目安としてご利用いただけます。</p>'
         if is_nv else ""
     )
 
@@ -401,7 +401,7 @@ def render_page(b, all_brands):
     if slug_base in PRECHECK_SLUGS:
         precheck_callout = f'''
           <div className="bg-burgundy/5 border border-burgundy/30 rounded-xl p-4 my-5 not-prose">
-            <p className="text-sm text-ink">🔍 売却前の真贋確認はこちら → <Link href="/articles/{slug_base}-nisemono-mikata/" className="kaitori-to-shingan text-amber-dark underline font-bold">{name}を売る前に｜本物チェックと今の買取相場（3分チェック）</Link></p>
+            <p className="text-sm text-ink">売却前の真贋確認については、次のページをご覧ください → <Link href="/articles/{slug_base}-nisemono-mikata/" className="kaitori-to-shingan text-amber-dark underline font-bold">{name}を売る前に｜本物チェックと今の買取相場（3分チェック）</Link></p>
           </div>
 '''
 
@@ -450,8 +450,8 @@ def render_page(b, all_brands):
         "taketsuru-25": ("/articles/taketsuru-pure-kaitori/", "年数表記のない「竹鶴ピュアモルト」をお探しの方はこちら", "竹鶴ピュアモルトの買取相場ガイド"),
         # アードベッグ: 「アードベッグ 買取」がウーガダール/コリーヴレッカンの2ページに割れていた
         # （21.4位と26.1位で共食い）→ 銘柄横断の受け皿へ集約する
-        "ardbeg-uigeadail": ("/articles/ardbeg-nv-kaitori/", "どのアードベッグか特定できていない方・年代表記のないボトルをお持ちの方はこちら", "アードベッグの年代指定なし(NV)買取相場"),
-        "ardbeg-corryvreckan": ("/articles/ardbeg-nv-kaitori/", "どのアードベッグか特定できていない方・年代表記のないボトルをお持ちの方はこちら", "アードベッグの年代指定なし(NV)買取相場"),
+        "ardbeg-uigeadail": ("/articles/ardbeg-nv-kaitori/", "銘柄名が特定できていないアードベッグや、年代表記のないボトルをお持ちの方はこちら", "アードベッグの年代指定なし(NV)買取相場"),
+        "ardbeg-corryvreckan": ("/articles/ardbeg-nv-kaitori/", "銘柄名が特定できていないアードベッグや、年代表記のないボトルをお持ちの方はこちら", "アードベッグの年代指定なし(NV)買取相場"),
         # グレンフィディック: 総称「グレンフィディック 買取」が30年ページに着地していた
         "glenfiddich-30": ("/articles/glenfiddich-kaitori/", "12年・15年・18年など、お持ちのボトルの年数が30年以外の方はこちら", "グレンフィディックの買取相場（年代別）"),
         # グレンモーレンジ: 総称・年代指定なしの検索がシグネット単体のページに着地していた
@@ -497,33 +497,33 @@ def render_page(b, all_brands):
     if slug_base in NV_GUIDE:
         _ntgt, _nlbl = NV_GUIDE[slug_base]
         intent_split_block += f'''
-          <p className="text-sm text-warm-gray my-4">年代表記が見当たらないボトルの正体と実勢価格は <Link href="{_ntgt}" className="text-amber-dark underline">{_nlbl}</Link> で詳しく解説しています。</p>
+          <p className="text-sm text-warm-gray my-4">年代表記が見当たらないボトルの正体と実勢価格は <Link href="{_ntgt}" className="text-amber-dark underline">{_nlbl}</Link> で解説しています。</p>
 '''
 
     faqs = [
         (f"{name}の市場相場はいくらですか？",
          f"{name}の市場相場は{market_str}。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。"),
         (f"{name}を高く売るコツは？",
-         "(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。"),
+         "(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。"),
         (f"{name}の開封済みでも買取できますか？",
-         "はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。"),
-        (f"{name}は箱無しでも買取してもらえますか？",
-         f"はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度{hako_yen}で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。"),
+         "はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。"),
+        (f"{name}は箱なしでも買取してもらえますか？",
+         f"はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度{hako_yen}で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。"),
         (f"{name}に偽物・贋作はありますか？",
-         "高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。"),
+         "高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。"),
         (f"{name}の保管方法は？",
-         "(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。"),
+         "(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。"),
         (f"{name}は税金がかかりますか？",
          "年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。"),
-        (f"{name}を売るタイミングはいつがベスト？",
-         "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。"),
-        (f"{name}と他の銘柄、どっちを先に売るべき？",
-         "市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。"),
+        (f"{name}を売る時期はいつがよいですか？",
+         "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。"),
+        (f"{name}と他の銘柄は、どちらを先に売るべきですか？",
+         "市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。"),
     ]
     if is_nv:
         faqs.insert(1, (
             f"「{nv_base_name} 年代指定なし」と{name}は同じものですか？",
-            f"はい、同じものです。「{nv_base_name} 年代指定なし」「{nv_base_name} NV」は、熟成年数の表記がないボトル＝{name}を指す表記ゆれです。本ページの相場（{market_short}）がそのまま目安になります。",
+            f"はい、同じものです。「{nv_base_name} 年代指定なし」「{nv_base_name} NV」は、熟成年数の表記がないボトル（{name}）を指す別の表記です。本ページの相場（{market_short}）を目安としてご利用いただけます。",
         ))
 
     _sfaq = store_prices.faq(slug_base, name)
@@ -535,7 +535,7 @@ def render_page(b, all_brands):
     if slug_base in BAND_BRAND_SLUGS and sufficient:
         faqs[0] = (
             f"今の{name}の買取相場はいくらですか？",
-            f"{name}のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は{fmt(yahoo_median)}です（サンプル数 n={sample_n}、取得日 {fetched_at}・毎週月曜に自動更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。",
+            f"{name}のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は{fmt(yahoo_median)}です（サンプル数 n={sample_n}、取得日 {fetched_at}・毎週月曜に更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。",
         )
 
     faq_schema_json = "{" + '"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [' + ", ".join(
@@ -559,7 +559,7 @@ def render_page(b, all_brands):
     }
     title_name = TITLE_ALIAS.get(slug_base, name)
     meta_title = f"{title_name}の買取相場{MONTH_TAG}{market_short}｜箱なし・開封済みの査定額も" if sufficient else f"{title_name}の買取相場ガイド{MONTH_TAG}状態別の目安"
-    meta_desc = (f"{name}の買取相場は{market_short}が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者3社の比較、高く売るコツ、贋作リスクまで網羅。{name}を売る前に読む決定版ガイド。" if sufficient else f"{name}（{name_en}）の買取相場ガイド。箱なし・開封済み等の状態別目安、買取業者3社の比較、高く売るコツ、贋作リスクまで網羅。")
+    meta_desc = (f"{name}の買取相場は{market_short}が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格の目安、買取業者3社の比較、高く売るためのポイント、贋作のリスクについて解説しています。" if sufficient else f"{name}（{name_en}）の買取相場ガイドです。箱なし・開封済み等の状態別の目安、買取業者3社の比較、高く売るためのポイント、贋作のリスクについて解説しています。")
 
     # 機会バンド: 鮮度＋中央値実数をtitle/descに機械挿入（insufficientなら実数を出さず既存titleを維持）
     band_lm = band_latest(slug_base) if slug_base in BAND_BRAND_SLUGS else None
@@ -568,7 +568,7 @@ def render_page(b, all_brands):
         meta_title = band_title(title_name, _bmed, slug_base)
         meta_desc = (
             f"{title_name}の買取相場は{_bmed:,}円が目安（{UPDATE_NOTE}・過去180日のIQR外れ値除去後、n={_bn}件）。"
-            f"箱なし・開封済み等の状態別の査定目安、買取業者3社の比較、高く売るコツまで実データで解説。"
+            f"箱なし・開封済み等の状態別の査定の目安、買取業者3社の比較、高く売るためのポイントを実データにもとづいて解説しています。"
         )
     # 機会バンド: 12週スパークライン（点数<3なら「データ蓄積中」表示に自動フォールバック）
     spark = sparkline_block(slug_base, name) if slug_base in BAND_BRAND_SLUGS else ""
@@ -612,7 +612,7 @@ def render_page(b, all_brands):
                 f'          <p>PeatBid がヤフオク落札中央値の週次集計を始めた {_a["date"]} 時点の{name}は <strong>{_a["median_jpy"]:,}円</strong>（n={_a["sample_n"]}）、'
                 f'最新の {_b["date"]} は <strong>{_b["median_jpy"]:,}円</strong>（n={_b["sample_n"]}）で、この間の変化は <strong>{_chg:+.1f}%</strong> です'
                 f'（出典: PeatBid 集計・<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">算出方法</Link>）。'
-                f'集計期間が{len(_pts)}週分のため、数年単位の値動きはこのデータからは言えません。</p>\n'
+                f'集計期間が{len(_pts)}週分のため、数年単位の値動きについては、このデータからは判断できません。</p>\n'
             )
 
     content = f'''import type {{ Metadata }} from "next";
@@ -636,9 +636,9 @@ const tocItems = [
   {{ id: "tasting", label: "3. テイスティングノート" }},
   {{ id: "current-price", label: "4. 現在の市場相場（Yahoo中央値）" }},{store_toc}
   {{ id: "state-price", label: "5. 状態別の業界目安" }},
-  {{ id: "price-reasons", label: "6. なぜこの価格になるのか" }},
+  {{ id: "price-reasons", label: "6. 価格を左右する要因" }},
   {{ id: "auction", label: "7. オークション落札データ" }},{toc_auction}
-  {{ id: "takaku-uru", label: "8. 高く売る7つの実践テクニック" }},
+  {{ id: "takaku-uru", label: "8. 高く売るための7つのポイント" }},
   {{ id: "fake", label: "9. 偽物・贋作の見分け方" }},{toc_fake}
   {{ id: "partners", label: "10. おすすめ買取業者3社" }},
   {{ id: "process", label: "11. 売却プロセス5ステップ" }},{toc_sell}
@@ -688,7 +688,7 @@ export default function {component_name}() {{
           {nv_note}
 {intent_split_block}
 
-          <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。{name}は希少度<strong>{rarity_label}</strong>クラスに位置し、{rarity_detailed}</p>
+          <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。{name}は希少度<strong>{rarity_label}</strong>クラスに分類しています。{rarity_detailed}</p>
 
           <div className="table-wrapper">
             <table>
@@ -712,9 +712,9 @@ export default function {component_name}() {{
 
           <p>{distillery_info}</p>
 {distillery_extra}
-          <p>{origin}が生み出す{cat_label}は、世界の主要品評会で度々受賞しており、二次流通市場でも継続的に高値で取引されています。蒸溜所の歴史と職人技術が、{name}のような銘柄の市場価値を支えています。</p>
+          <p>{origin}の{cat_label}は、二次流通市場で継続的に取引されています。蒸溜所の歴史と製法は、{name}のような銘柄の市場価値に影響しています。</p>
 
-          <p>同じ蒸溜所の他の銘柄や、同年代の他銘柄との関連性を知ることで、{name}の市場における立ち位置がより明確になります。下の関連銘柄リンクから他のグレード・他蒸溜所の銘柄も合わせてチェックすることをおすすめします。</p>
+          <p>同じ蒸溜所の他の銘柄や同年代の銘柄と比べることで、{name}の市場における位置付けを確認できます。他のグレード・他の蒸溜所の銘柄は、ページ下部の関連銘柄のリンクからご覧いただけます。</p>
 
           <h2 id="tasting">3. テイスティングノート</h2>
 
@@ -722,15 +722,15 @@ export default function {component_name}() {{
 
           <p>{tasting}</p>
 
-          <p>飲用ではなくコレクション・投資目的で保有する場合、ボトルを開けずに保管することが価値維持の鉄則です。一度開けると、香味の揮発と空気接触による酸化が進み、二次流通市場での評価が大幅に下がります。</p>
+          <p>飲用ではなくコレクション・投資目的で保有する場合は、開栓せずに保管することが価値を保つための基本です。開栓すると、香味の揮発と空気との接触による酸化が進み、二次流通市場での評価が大きく下がります。</p>
 
           <h2 id="current-price">4. 現在の市場相場（Yahoo中央値）</h2>
 
           <p>{name}の市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>{market_short}</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n={sample_n}件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
 {spark}
-          <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、**最低3社、できれば4社以上で相見積もり**を取ることをおすすめします。</p>
+          <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、<strong>3社以上、できれば4社以上で相見積もり</strong>を取ることをおすすめします。</p>
 
-          <p>本サイトでは下記の3業者ページへのリンクを参考として提示しています（各社の最新の査定額・キャンペーンは直接ご確認ください）:</p>
+          <p>当サイトでは、以下の3業者のページへのリンクを参考として掲載しています（各社の最新の査定額・キャンペーンは、各社のページでご確認ください）。</p>
 
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店</li>
@@ -740,15 +740,15 @@ export default function {component_name}() {{
 {store_block}
           <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
 
-          <p>{name}の査定額は、ボトルの状態と付属品の有無により大きく変動します。以下は <strong>業界一般の目安（％）</strong> で、市場相場（Yahoo中央値）を基準とした概算レンジです。**実際の査定額は業者により異なります**ので、最終的な金額は各業者のページからご確認ください。</p>
+          <p>{name}の査定額は、ボトルの状態と付属品の有無により大きく変動します。以下は <strong>業界一般の目安（％）</strong> で、市場相場（Yahoo中央値）を基準とした概算レンジです。<strong>実際の査定額は業者により異なります</strong>ので、最終的な金額は各業者のページでご確認ください。</p>
 
           {{/* State condition gallery (5 images) */}}
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">
               <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
-                <Image src="/images/state-perfect.png" alt="未開封・箱付き完璧" fill sizes="200px" className="object-cover" />
+                <Image src="/images/state-perfect.png" alt="未開封・付属品完備" fill sizes="200px" className="object-cover" />
               </div>
-              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>完璧</p>
+              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>付属品完備</p>
             </div>
             <div className="text-center">
               <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
@@ -787,7 +787,7 @@ export default function {component_name}() {{
             </table>
           </div>
 
-          <p>未開封・完璧（箱・冊子・カートン揃い）を基準（100%）として、各状態の業界一般の目安は概ね上記の通りです。概算額は実勢中央値に各％を乗じた<strong>目安</strong>であり、<strong>業者により評価基準が異なる</strong>ため実際の査定額とは差が出ます。査定時には、業者が以下の要素を総合的に判断します:</p>
+          <p>未開封・付属品完備（箱・冊子・カートン揃い）を基準（100%）として、各状態の業界一般の目安は概ね上記の通りです。概算額は実勢中央値に各％を乗じた<strong>目安</strong>であり、<strong>業者により評価基準が異なる</strong>ため実際の査定額とは差が生じます。査定時には、業者が以下の要素を総合的に判断します。</p>
 
           <ul>
             <li>ボトル本体の傷・汚れ</li>
@@ -801,27 +801,27 @@ export default function {component_name}() {{
 
           <h3 id="hako-nashi-souba">{name}を箱なし・付属品なしで売る場合の買取相場</h3>
 
-          <p>「{name} 買取 箱無し」とお調べの方向けの目安です。未開封・箱なし（ラベル良好）の場合、業界一般の目安は<strong>市場相場の80〜90%程度{hako_yen}</strong>。外箱・冊子の揃った完品と比べて1〜2割の減額にとどまるため、<strong>箱がなくても売却を諦める必要はありません</strong>。</p>
+          <p>箱や付属品がない場合の目安です。未開封・箱なし（ラベル良好）の場合、業界一般の目安は<strong>市場相場の80〜90%程度{hako_yen}</strong>です。外箱・冊子の揃った完品と比べて1〜2割の減額が目安のため、<strong>箱がない場合でも売却は可能です</strong>。</p>
 
           <ul>
-            <li>減額幅は業者の評価基準によって差が出ます。箱なしの場合こそ<strong>複数業者の相見積もり</strong>が有効です</li>
-            <li>冊子・カートンなど<strong>一部の付属品だけでも残っていれば一緒に査定へ</strong>（部分的でも評価されます）</li>
-            <li>詳しくは<Link href="/articles/{slug_base}-hako-nashi/" className="text-amber-dark hover:underline">{name}は箱なしでも買取してもらえるかの徹底ガイド</Link>をご覧ください</li>
+            <li>減額幅は業者の評価基準によって異なります。箱なしの場合は特に<strong>複数業者での相見積もり</strong>が有効です</li>
+            <li>冊子・カートンなど<strong>一部の付属品が残っている場合は、あわせて査定に出してください</strong>（一部でも評価の対象になります）</li>
+            <li>詳しくは<Link href="/articles/{slug_base}-hako-nashi/" className="text-amber-dark hover:underline">{name}を箱なしで売る場合の解説</Link>をご覧ください</li>
           </ul>
 
-          <h2 id="price-reasons">6. なぜ{name}はこの価格になるのか</h2>
+          <h2 id="price-reasons">6. {name}の価格を左右する要因</h2>
 
-          <p>{name}の二次流通価格を決定づける主要な要因は5つあります:</p>
+          <p>{name}の二次流通価格を左右する主な要因は、次の5つです。</p>
 
           <ol>
-            <li><strong>海外オークション落札データの動向</strong> — Sotheby's・Bonhams・Whisky Auctioneer等の落札結果が、日本の買取業者の仕入れ価格の基準となっています</li>
-            <li><strong>需給バランスと供給制限</strong> — {age_label}の長期熟成銘柄は供給量が物理的に限られており、需要拡大に応じて価格が上昇しやすい構造</li>
-            <li><strong>為替レートの影響</strong> — 円安局面では海外バイヤー（アジア富裕層・中華圏コレクター）の購買力が拡大し、国内相場も連動して上昇する傾向</li>
-            <li><strong>{origin}の国際的評価</strong> — World Whiskies Awards、ISC等の品評会受賞歴が国際的需要を支え、長期保有のプレミアにつながる</li>
-            <li><strong>季節要因・贈答需要</strong> — 年末年始・お中元・お歳暮シーズンに需要が高まり、相場が上昇する</li>
+            <li><strong>海外オークション落札データの動向</strong> — Sotheby's・Bonhams・Whisky Auctioneer等の落札結果は、日本の買取業者の仕入れ価格の基準の一つとなっています</li>
+            <li><strong>需給バランスと供給制限</strong> — {age_label}の銘柄は供給量が限られており、需要が拡大すると価格が上昇しやすい傾向があります</li>
+            <li><strong>為替レートの影響</strong> — 円安の局面では海外の購入者の購買力が高まり、国内相場も連動して上昇する傾向があります</li>
+            <li><strong>{origin}の国際的評価</strong> — World Whiskies Awards、ISC等の品評会での評価は、国際的な需要に影響します</li>
+            <li><strong>季節要因・贈答需要</strong> — 年末年始・お中元・お歳暮の時期に需要が高まり、相場が上昇する傾向があります</li>
           </ol>
 
-          <p>これらの要因を総合的に踏まえると、{name}は{rarity_label}クラスの希少度を持つため、<strong>中長期で見れば価格安定〜上昇基調</strong>が予想されます。短期的な売り急ぎは避け、市場動向を見ながら最適なタイミングで売却するのが合理的です。</p>
+          <p>売却の時期は、上記の要因と市場の動向を確認したうえでご判断ください。将来の価格は保証されるものではありません。</p>
 
           <h2 id="auction">7. オークション落札データ</h2>
 
@@ -830,43 +830,43 @@ export default function {component_name}() {{
             <div className="absolute inset-0 bg-gradient-to-t from-peat/30 to-transparent" />
           </div>
 
-          <p>海外の主要オークションでは、{name}クラスの銘柄が継続的に取引されています。主要オークションプラットフォームと、それぞれの特徴は以下の通りです:</p>
+          <p>海外の主要オークションでは、{name}と同じ価格帯の銘柄が継続的に取引されています。主なオークションと、それぞれの特徴は以下のとおりです。</p>
 
-          <div dangerouslySetInnerHTML={{{{ __html: `<p><strong>Sotheby's（ニューヨーク・香港・ロンドン）</strong>: 月次〜四半期ごとに開催、プレミアム銘柄中心。<br/><strong>Bonhams（香港・ロンドン）</strong>: 同様にプレミアム銘柄。アジア富裕層が主要バイヤー。<br/><strong>Whisky Auctioneer（UK）</strong>: 月次オンラインオークション、中位銘柄まで幅広く扱う。<br/><strong>Just Whisky Auctions（UK）</strong>: 月次開催、コレクター向け。<br/><strong>Whisky Hammer（UK）</strong>: 月次オンライン、新興プレイヤー。</p>` }}}} />
+          <div dangerouslySetInnerHTML={{{{ __html: `<p><strong>Sotheby's（ニューヨーク・香港・ロンドン）</strong>: 月次〜四半期ごとに開催され、高額銘柄が中心です。<br/><strong>Bonhams（香港・ロンドン）</strong>: 高額銘柄が中心です。<br/><strong>Whisky Auctioneer（UK）</strong>: 月次のオンラインオークションで、中価格帯の銘柄まで幅広く扱っています。<br/><strong>Just Whisky Auctions（UK）</strong>: 月次で開催されています。<br/><strong>Whisky Hammer（UK）</strong>: 月次のオンラインオークションです。</p>` }}}} />
 
-          <p>これらのオークションの落札データは、各サイトの「Past Results」アーカイブで閲覧可能です。日本の買取業者の査定額は、これらの海外データを基準に、輸送コスト・関税・業者マージンを考慮して算出されています。</p>
+          <p>これらのオークションの落札データは、各サイトの「Past Results」で閲覧できます。日本の買取業者の査定額は、海外の落札データに加え、輸送コスト・関税・業者の利益を考慮して算出されるのが一般的です。</p>
 
 {history_change_p}
 {auction_html}
-          <h2 id="takaku-uru">8. {name}を高く売る7つの実践テクニック</h2>
+          <h2 id="takaku-uru">8. {name}を高く売るための7つのポイント</h2>
 
           <ol>
-            <li><strong>外箱・冊子・カートンを必ず揃える</strong> — 付属品の有無で査定額が10〜20%変動。シミ・破れがあると更に評価減</li>
-            <li><strong>未開封の状態を維持する</strong> — 開封済みは査定額が大幅減（20〜40%）。コレクション目的なら絶対に開けない</li>
-            <li><strong>複数業者で相見積もり</strong> — 同じボトルでも業者により数万〜数十万円の差。ヒカカク等の一括査定+専門店個別査定の組み合わせが鉄則</li>
-            <li><strong>適切な保管環境を維持</strong> — 直射日光・蛍光灯を避け、室温15〜20℃で縦置き保管。湿度・温度の急激な変化はNG</li>
-            <li><strong>売却タイミングを見極める</strong> — 年末年始・お中元・お歳暮シーズンが高値傾向。海外オークション結果直後も相場上昇のチャンス</li>
-            <li><strong>ボトリング年代を業者に伝える</strong> — 古いラベル・ロット番号は希少価値が乗ることがある</li>
-            <li><strong>状態を写真で記録</strong> — 事前に複数角度から撮影し、業者比較・トラブル防止に活用</li>
+            <li><strong>外箱・冊子・カートンを揃える</strong> — 付属品の有無により、査定額が10〜20%変動する場合があります。シミ・破れがあると、さらに評価が下がります</li>
+            <li><strong>未開封の状態を保つ</strong> — 開封済みの場合、査定額は大幅に下がります（20〜40%）。コレクション目的の場合は開栓しないことをおすすめします</li>
+            <li><strong>複数の業者で相見積もりを取る</strong> — 同じボトルでも、業者により数万〜数十万円の差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です</li>
+            <li><strong>適切な保管環境を保つ</strong> — 直射日光・蛍光灯を避け、室温15〜20℃で縦置きで保管してください。湿度・温度の急激な変化は避けてください</li>
+            <li><strong>売却の時期を検討する</strong> — 年末年始・お中元・お歳暮の時期は高値の傾向があります。海外オークションの結果が出た直後も、相場が上昇しやすい時期です</li>
+            <li><strong>ボトリングの年代を業者に伝える</strong> — 古いラベル・ロット番号は、希少価値として評価される場合があります</li>
+            <li><strong>状態を写真で記録する</strong> — 事前に複数の角度から撮影しておくと、業者の比較やトラブルの防止に役立ちます</li>
           </ol>
 
           <h2 id="fake">9. {name}の偽物・贋作の見分け方</h2>
 
-          <p>{name}のような流通価値のある銘柄では、贋作・偽造ボトルのリスクが存在します。本物を見抜くには以下の5つのチェックが有効です:</p>
+          <p>{name}のような取引価格の高い銘柄には、贋作・偽造ボトルのリスクがあります。真贋の確認には、以下の5点のチェックが有効です。</p>
 
           <ol>
-            <li><strong>ラベルの印刷品質</strong> — 正規品は文字が鮮明で色ズレなし。贋作はにじみ・かすれ・フォント違いが見られる</li>
-            <li><strong>キャップ・封蝋・ホログラム</strong> — サントリー山崎・響等はホログラムシール付き。贋作は光の反射が不均一</li>
-            <li><strong>液色と液面の状態</strong> — 本物は均一な琥珀色（透明感あり）。贋作は色ムラ・濁り・沈殿物</li>
-            <li><strong>瓶の形状と底面刻印</strong> — 正規品は底面にロット番号・製造所コードあり。贋作は刻印なし or 不自然</li>
-            <li><strong>購入経路の信頼性</strong> — 正規流通店・大手買取業者・海外オークション経由は信頼度高。個人間取引（メルカリ・ヤフオク）は要注意</li>
+            <li><strong>ラベルの印刷品質</strong> — 正規品は文字が鮮明で、色ずれがありません。贋作では、にじみ・かすれ・書体の違いが見られます</li>
+            <li><strong>キャップ・封蝋・ホログラム</strong> — サントリーの山崎・響等にはホログラムシールが貼付されています。贋作では光の反射が不均一な場合があります</li>
+            <li><strong>液色と液面の状態</strong> — 正規品は均一な琥珀色で、透明感があります。贋作では色むら・濁り・沈殿物が見られる場合があります</li>
+            <li><strong>瓶の形状と底面の刻印</strong> — 正規品は底面にロット番号・製造所コードがあります。贋作では刻印がない、または不自然な場合があります</li>
+            <li><strong>購入経路の信頼性</strong> — 正規流通店・大手買取業者・海外オークションで購入したものは信頼性が高いと考えられます。個人間取引（メルカリ・ヤフオク）で購入したものは注意が必要です</li>
           </ol>
 {precheck_callout}
-          <p>怪しいと思ったら、お酒買取の専門店で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
+          <p>疑わしい場合は、お酒の買取専門店に<strong>鑑定査定</strong>を依頼することをおすすめします。</p>
 {store_fake}
           <h2 id="partners">10. おすすめ買取業者3社の詳細レビュー</h2>
 
-          <p>PeatBid編集部が{name}クラスの銘柄に強い買取業者を厳選しました。それぞれ得意領域が異なるため、目的別に使い分けるのがコツです。</p>
+          <p>PeatBid編集部が、{name}と同じ価格帯の銘柄に対応している買取業者を選定しました。それぞれ得意とする領域が異なるため、目的に応じてご利用ください。</p>
 
           {{/* Comparison table */}}
           <div className="table-wrapper not-prose mb-6">
@@ -890,13 +890,13 @@ export default function {component_name}() {{
 
           {{/* Decision flowchart */}}
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-6 not-prose">
-            <p className="font-bold text-base mb-3 text-ink">🎯 どの業者を選ぶべきか</p>
+            <p className="font-bold text-base mb-3 text-ink">目的別の業者の選び方</p>
             <ul className="space-y-2 text-sm text-ink/85">
-              <li>✓ <strong>最高値を狙いたい</strong> → まずヒカカクで一括査定し、専門店で個別査定して比較</li>
-              <li>✓ <strong>急いで現金化したい</strong> → バイセルの店頭買取（即日現金化）</li>
-              <li>✓ <strong>地方在住・宅配で完結したい</strong> → リカスタの宅配買取</li>
-              <li>✓ <strong>希少銘柄を専門家に見てほしい</strong> → お酒買取専門店の個別査定</li>
-              <li>✓ <strong>大手の安心感を優先</strong> → バイセル（東証グロース上場）</li>
+              <li>✓ <strong>複数社の査定額を比較したい</strong> → ヒカカク！で一括査定を依頼し、専門店の個別査定と比較</li>
+              <li>✓ <strong>早く現金化したい</strong> → バイセルの出張買取（最短即日の訪問）</li>
+              <li>✓ <strong>地方にお住まいの方・宅配で売却したい方</strong> → リカスタの宅配買取</li>
+              <li>✓ <strong>希少銘柄を専門家に査定してほしい</strong> → お酒の買取専門店の個別査定</li>
+              <li>✓ <strong>大手の業者に依頼したい</strong> → バイセル（東証グロース上場）</li>
             </ul>
           </div>
 
@@ -906,21 +906,21 @@ export default function {component_name}() {{
 
           <h2 id="process">11. 売却プロセス5ステップ</h2>
 
-          <p>{name}を売却する際の標準的なプロセスを5ステップでまとめました:</p>
+          <p>{name}を売却する際の標準的な流れを、5つのステップにまとめました。</p>
 
           <ol>
-            <li><strong>状態確認・付属品準備</strong> — ボトル本体の状態を確認し、外箱・冊子・カートン等の付属品を揃える</li>
-            <li><strong>事前相場リサーチ</strong> — PeatBidなどで現在の相場を確認し、自分のボトルの目安価格を把握</li>
-            <li><strong>複数業者で見積もり依頼</strong> — ヒカカク！の一括査定で3〜5社、お酒買取の専門店に個別で2〜3社、計5〜8社で見積もり取得</li>
-            <li><strong>査定額比較・業者選定</strong> — 最高値だけでなく、手数料・キャンセル料・送料・支払い方法を総合判断</li>
-            <li><strong>売却契約・入金確認</strong> — 売却契約後、店頭買取なら即日現金、宅配買取なら1〜3営業日で銀行振込</li>
+            <li><strong>状態確認・付属品の準備</strong> — ボトル本体の状態を確認し、外箱・冊子・カートン等の付属品を揃えます</li>
+            <li><strong>相場の確認</strong> — 当サイトなどで現在の相場を確認し、お持ちのボトルの目安価格を把握します</li>
+            <li><strong>複数の業者への見積もり依頼</strong> — ヒカカク！の一括査定で3〜5社、お酒の買取専門店に個別で2〜3社、合計5〜8社から見積もりを取得します</li>
+            <li><strong>査定額の比較・業者の選定</strong> — 査定額だけでなく、手数料・キャンセル料・送料・支払い方法を含めて判断します</li>
+            <li><strong>売却契約・入金の確認</strong> — 売却契約後、店頭買取では即日現金、宅配買取では1〜3営業日での銀行振込が一般的です</li>
           </ol>
 
-          <p>このプロセス全体で<strong>1〜2週間</strong>を見込めば、最適なタイミングで売却できます。</p>
+          <p>全体の所要期間は<strong>1〜2週間</strong>が目安です。</p>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
-            <h3 className="font-bold text-base mb-3 text-center">{name}の無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
+            <h3 className="font-bold text-base mb-3 text-center">{name}の無料一括査定のご案内</h3>
+            <p className="text-sm text-warm-gray text-center mb-4">複数の業者の査定額を比較できます。査定料・キャンセル料は無料です。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
@@ -944,8 +944,8 @@ export default function {component_name}() {{
             ))}}
           </div>
 
-          <h2>{name}の他の切り口で読む</h2>
-          <p>{name}についてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
+          <h2>{name}に関するその他の解説</h2>
+          <p>{name}に関するテーマ別の解説は、以下のページをご覧ください。</p>
           <ul>
 {angle_links_html}
           </ul>
@@ -956,18 +956,18 @@ export default function {component_name}() {{
           </div>
 
           <h2>年代指定なし・注目銘柄の買取相場</h2>
-          <p>「年代指定なし（ノンエイジ／NV）」で検索されやすい主要銘柄の実勢買取相場です。ジャパニーズ・スコッチを横断して毎週更新しています。</p>
+          <p>「年代指定なし（ノンエイジ／NV）」で検索されやすい主要銘柄の実勢買取相場です。ジャパニーズ・スコッチの銘柄を対象に、毎週更新しています。</p>
           <ul>
 {cluster_links}
           </ul>
 
           <h2>熟成年数の表記がないボトルをお持ちの方へ</h2>
-          <p>ラベルに「12年」「25年」などの表記がないボトルは、買取店では「年代指定なし」「ノンエイジ」「NV（ノンヴィンテージ）」と呼ばれ、年数入りのボトルとは相場が別に付きます。銘柄ごとの相場は下記のページにまとめています。</p>
+          <p>ラベルに「12年」「25年」などの表記がないボトルは、買取店では「年代指定なし」「ノンエイジ」「NV（ノンヴィンテージ）」と呼ばれ、年数表記のあるボトルとは別に相場が形成されます。銘柄ごとの相場は、以下のページに掲載しています。</p>
           <ul>
 {nv_index_links}
           </ul>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 {fetched_at}）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 {fetched_at}）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
         </article>
       </div>
     </>

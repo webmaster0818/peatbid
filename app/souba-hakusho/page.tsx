@@ -18,7 +18,7 @@ const YEAR = updated.slice(0, 4);
 
 export const metadata: Metadata = {
   title: `全国ウイスキー買取相場白書${YEAR}｜主要${brands.length}銘柄の実勢買取相場一覧【${updated}更新】`,
-  description: `山崎・響・イチローズモルト・マッカラン・ボウモアなど主要ウイスキー${brands.length}銘柄の実勢買取相場（中央値）を一覧で公開。Yahoo!オークションの過去180日落札データをもとにした当サイト独自集計の一次データです。出典明記で引用歓迎。`,
+  description: `山崎・響・イチローズモルト・マッカラン・ボウモアなど主要ウイスキー${brands.length}銘柄の実勢買取相場（中央値）を一覧で掲載しています。Yahoo!オークションの過去180日の落札データをもとにした、当サイト独自集計の一次データです。出典を明記いただければ引用いただけます。`,
   alternates: { canonical: "/souba-hakusho/" },
 };
 
@@ -62,12 +62,12 @@ export default function Page() {
         全国ウイスキー買取相場白書 {YEAR}
       </h1>
       <p className="text-warm-gray text-sm mb-2">
-        最終更新: {updated}（毎週自動更新） ／ 監修: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
+        最終更新: {updated}（毎週更新） ／ 監修: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
       </p>
       <p className="leading-relaxed mb-8">
         主要ウイスキー<strong>{brands.length}銘柄</strong>の実勢買取相場（中央値）を、Yahoo!オークションの過去180日落札データ（IQR法で外れ値除去）から集計した
         <strong>当サイト独自の一次データ</strong>としてまとめた資料です。延べ<strong>{totalSamples.toLocaleString()}件</strong>の落札データにもとづきます。
-        メディア・ブログでの<strong>引用は出典明記を条件に歓迎</strong>します（本ページ末尾参照）。
+        メディア・ブログでの<strong>引用は、出典の明記を条件として受け付けて</strong>います（本ページ末尾参照）。
       </p>
 
       {/* ヘッドライン統計 */}

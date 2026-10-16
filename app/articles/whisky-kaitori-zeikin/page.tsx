@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "ウイスキー買取の税金｜確定申告は必要？課税されるケースを解説【2026年】",
+  title: "ウイスキー買取の税金｜確定申告の要否課税されるケースを解説【2026年】",
   description:
-    "ウイスキーを売ったときの税金（譲渡所得・特別控除50万円・1点30万円超の扱い・会社員の20万円ルール）を国税庁の考え方にもとづき整理。確定申告が必要になりやすいケースと、相場の確認方法まで。個別の判断は税務署・税理士へ。",
+    "ウイスキーを売ったときの税金（譲渡所得・特別控除50万円・1点30万円超の扱い・会社員の20万円ルール）を国税庁の考え方にもとづいて整理しています。確定申告が必要となりやすいケースと、相場の確認方法もご説明します。個別の判断については、税務署・税理士にご確認ください。",
   alternates: { canonical: "/articles/whisky-kaitori-zeikin/" },
 };
 
@@ -52,7 +52,7 @@ export default function Page() {
 
       <article className="prose">
         <h1 className="font-display text-3xl md:text-4xl font-semibold !mt-0 mb-2">
-          ウイスキー買取の税金｜確定申告は必要？課税されるケースを解説
+          ウイスキー買取の税金｜確定申告の要否課税されるケースを解説
         </h1>
         <p className="text-warm-gray text-sm not-prose mb-6">
           最終更新: 2026-06-19 ／ 監修: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
@@ -62,8 +62,8 @@ export default function Page() {
           <p className="font-bold text-ink mb-2">この記事の結論（30秒）</p>
           <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
             <li>個人が不用品として売る場合は<strong>譲渡所得</strong>になることが多い。</li>
-            <li>譲渡所得には<strong>年間50万円の特別控除</strong>。利益が控除内なら課税されないことが多い。</li>
-            <li><strong>1点30万円超の高額品・大量売却・転売目的の反復売買</strong>は申告が必要になりやすい。</li>
+            <li>譲渡所得には<strong>年間50万円の特別控除</strong>。利益が控除の範囲内であれば、課税されない場合が多くあります。</li>
+            <li><strong>1点30万円超の高額品・大量売却・転売目的の反復売買</strong>は、申告が必要となりやすいケースです。</li>
             <li>税額の最終判断は<strong>税務署・税理士</strong>へ。本記事は国税庁の一般的な考え方の整理です。</li>
           </ul>
         </div>
@@ -85,8 +85,8 @@ export default function Page() {
         <h2 id="shotoku">ウイスキー売却益はどの所得になるか</h2>
         <p>個人がウイスキーを売って得た利益は、状況により次のいずれかに分類されます。</p>
         <ul>
-          <li><strong>譲渡所得</strong>：生活で使っていた物・コレクションを単発で売却した場合の基本。多くの個人売却がこれにあたります。</li>
-          <li><strong>事業所得・雑所得</strong>：営利目的で継続的・反復的に売買している場合。いわゆる転売はこちら。</li>
+          <li><strong>譲渡所得</strong>：生活で使っていた物・コレクションを単発で売却した場合の基本的な区分です。多くの個人売却がこれにあたります。</li>
+          <li><strong>事業所得・雑所得</strong>：営利目的で継続的・反復的に売買している場合の区分です。いわゆる転売はこちら。</li>
         </ul>
         <p>
           なお「生活に通常必要な動産」の譲渡益は原則非課税ですが、<strong>1個または1組が30万円を超える貴金属・書画骨董など</strong>はこの非課税の対象外とされています。高額なウイスキーはこれに準じて<strong>譲渡所得として課税対象</strong>になり得ます。
@@ -95,7 +95,7 @@ export default function Page() {
         <h2 id="kazei">課税されやすい3つのケース</h2>
         <ol>
           <li><strong>高額品（目安：1点30万円超）</strong>：<Link href="/articles/hibiki-30-kaitori/">響30年</Link>・<Link href="/articles/yamazaki-18-kaitori/">山崎18年</Link> など高額銘柄は、非課税の対象から外れ譲渡所得として扱われ得ます。</li>
-          <li><strong>まとめ売り・大量売却</strong>：複数本の合計利益が特別控除（50万円）を超えると課税対象に。<Link href="/articles/whisky-souzoku-baikyaku/">相続・遺品でまとめて売る場合</Link>は特に注意。</li>
+          <li><strong>まとめ売り・大量売却</strong>：複数本の合計利益が特別控除（50万円）を超えると課税対象となります。<Link href="/articles/whisky-souzoku-baikyaku/">相続・遺品でまとめて売る場合</Link>は特にご注意ください。</li>
           <li><strong>転売目的の反復売買</strong>：継続的に売買して利益を得ていると、事業所得・雑所得として申告が必要になります。</li>
         </ol>
         <p>自分の売却額がこのラインに近いかは、まず<Link href="/souba-ranking/">相場ランキング</Link>や各銘柄の買取相場ページで<strong>実勢の水準</strong>を確認するのが第一歩です。</p>
@@ -117,12 +117,12 @@ export default function Page() {
         <h2 id="junbi">売る前に準備しておくこと</h2>
         <ul>
           <li><strong>購入時のレシート・明細</strong>：取得費を実額で計上でき、課税対象額を抑えられます。</li>
-          <li><strong>売却額の記録</strong>：いつ・いくらで売ったかを残す（複数本なら合計を把握）。</li>
+          <li><strong>売却額の記録</strong>：いつ・いくらで売ったかを記録します（複数本の場合は合計を把握します）。</li>
           <li><strong>付属品をそろえる</strong>：箱・冊子の有無で査定額が変わります（<Link href="/articles/whisky-hokan-houhou/">保管方法</Link>も参照）。</li>
         </ul>
         <div className="not-prose bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 text-center">
           <p className="font-bold text-ink mb-2">まずは売却額の目安を知る</p>
-          <p className="text-sm text-warm-gray mb-4">課税ラインに近いかは実勢相場の把握から。無料一括査定で複数業者の入札を比較できます。</p>
+          <p className="text-sm text-warm-gray mb-4">課税の基準に近いかどうかは、実勢相場を把握したうえでご判断ください。無料一括査定で複数業者の入札を比較できます。</p>
           <p className="text-xs text-warm-gray mb-3"><span className="inline-block align-middle border border-warm-gray/50 rounded px-1.5 py-0.5 mr-2 text-[11px] font-bold tracking-wide">PR</span>ヒカカク！（買取価格比較サイト・最大20社に一括査定）</p>
           <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow sponsored" className="amber-cta inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm">無料一括査定で相場を調べる →</a>
         </div>

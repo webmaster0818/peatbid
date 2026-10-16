@@ -59,7 +59,7 @@ export default function SpringbankKaitoriPage() {
             </p>
           </div>
 
-          <h2>まず「どのスプリングバンクか」を確認しましょう</h2>
+          <h2>スプリングバンクのボトルの確認方法</h2>
           <p>ボトル正面ラベルの中央〜下部に <strong>「AGED 15 YEARS」「15 YEARS OLD」</strong> などの年数表記があります。年数が確認できたら、下の年代別ページで相場・状態別査定・高く売るコツをご確認ください。年数表記がない場合は、ローカルバーレイやCV（カスクストレングス）などのノンエイジ（NAS）ボトルの可能性があります。</p>
 
           <h2>年代別の実勢買取相場（ヤフオク落札中央値・毎週更新）</h2>
@@ -85,7 +85,7 @@ export default function SpringbankKaitoriPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※中央値はヤフオク!の過去180日落札データをIQR外れ値除去後に当サイトが独自集計したもの（毎週月曜更新）。18年・25年・限定ボトル等は流通量が少なく、実際の査定は各業者でご確認ください。</p>
+          <p className="text-xs text-warm-gray">※中央値はヤフオク!の過去180日落札データをIQR外れ値除去後に当サイトが独自に集計したものです（毎週月曜更新）。18年・25年・限定ボトル等は流通量が少なく、実際の査定は各業者でご確認ください。</p>
 
           <h2>年数表記のない（年代指定なし）スプリングバンクの場合</h2>
           <p>年数表記のないローカルバーレイ・CV・ソサイエティボトルなどは、リリース年や度数、限定性によって相場が大きく変わります。年数表記がなく判断が難しい場合は、ボトルの正確な名称（例：Local Barley 10年、CV など）と度数・裏ラベルの情報を控えたうえで、専門知識のある買取業者で査定を受けるのが確実です。まずは複数業者での相見積もりをおすすめします。</p>
@@ -96,17 +96,17 @@ export default function SpringbankKaitoriPage() {
             <li>外箱・冊子など付属品を揃える（完品ほど高評価）</li>
             <li>未開封のまま売る（開封済みは減額傾向）</li>
             <li>年代・ボトル名を正確に伝える（別ボトルとの取り違えを防ぐ）</li>
-            <li>複数業者で相見積もりを取り、最高値の業者を選ぶ</li>
+            <li>複数の業者で相見積もりを取り、最も高い査定額を提示した業者を選ぶ</li>
           </ul>
 
           <h2>よくある質問</h2>
           <div className="not-prose space-y-3">
             <div className="border border-warm-border rounded-lg p-4">
-              <p className="font-bold text-ink mb-1">年代がわからないスプリングバンクはどう調べる？</p>
+              <p className="font-bold text-ink mb-1">年代が分からないスプリングバンクの調べ方</p>
               <p className="text-sm text-warm-gray">ラベルの「AGED 15 YEARS」等の年数表記を確認します。表記がなければローカルバーレイ/CV等のノンエイジボトルの可能性があります。</p>
             </div>
             <div className="border border-warm-border rounded-lg p-4">
-              <p className="font-bold text-ink mb-1">年代でどれくらい相場が違う？</p>
+              <p className="font-bold text-ink mb-1">年代による相場の違い</p>
               <p className="text-sm text-warm-gray">熟成年数が上がるほど高くなる傾向で、当サイト集計では15年 約3.5万円・21年 約9.7万円が目安です（毎週更新）。</p>
             </div>
           </div>

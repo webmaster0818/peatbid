@@ -48,7 +48,7 @@ const faqs = [
     q: "年代表記のないアードベッグの買取相場はいくらですか？",
     a: nvRangeStr
       ? `当サイト集計(ヤフオク過去180日の実落札・IQR外れ値除去後の中央値)では、年数表記のないボトルの実勢中央値は${nvRangeStr}の幅に収まっています(ウーガダール${yen("ardbeg-uigeadail") ?? "収集中"}／コリーヴレッカン${yen("ardbeg-corryvreckan") ?? "収集中"}・取得日 ${fetchedAt}・毎週更新)。これは中古市場の実勢値で、業者の買取査定額は状態・付属品・各社の在庫状況により変動します。`
-      : "本ページの実勢データは現在収集中です(毎週更新のため近日掲載予定)。",
+      : "本ページの実勢データは現在集計中です(毎週更新のため、近日掲載予定)。",
   },
   {
     q: "ウーガダールとコリーヴレッカンでは、どちらが高く売れますか？",
@@ -83,7 +83,7 @@ function FaqSchema() {
 }
 
 const tocItems = [
-  { id: "seitai", label: "1. 年代表記のないアードベッグ＝どのボトル？" },
+  { id: "seitai", label: "1. 年代表記のないアードベッグに該当するボトル" },
   { id: "current-price", label: "2. 実勢価格（ヤフオク落札中央値・毎週更新）" },
   { id: "miwakekata", label: "3. 手元のボトルの見分け方" },
   { id: "takaku-uru", label: "4. 高く売る5つのコツ" },
@@ -125,10 +125,10 @@ export default function ArdbegNvKaitoriPage() {
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 not-prose">
             <p className="font-bold text-ink mb-2">結論（30秒）</p>
             <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
-              <li>アードベッグは<strong>主力の多くが年数表記のないノンエイジ(NV)</strong>。ウーガダール／コリーヴレッカン／アンオーが代表です。</li>
+              <li>アードベッグは<strong>主力製品の多くが年数表記のないノンエイジ(NV)</strong>。ウーガダール／コリーヴレッカン／アンオーが代表です。</li>
               <li>「10年(TEN)」だけはラベルに年数が入ります。<strong>まずラベルの年数表記の有無</strong>を確認してください。</li>
               {nvRangeStr && (
-                <li>年数表記のないボトルの実勢中央値は<strong>{nvRangeStr}</strong>の幅（ヤフオク実落札・毎週更新）。</li>
+                <li>年数表記のないボトルの実勢中央値は<strong>{nvRangeStr}</strong>の範囲です（ヤフオク実落札・毎週更新）。</li>
               )}
               <li>限定リリースが多い銘柄です。<strong>ボトル名を正確に伝えないと現行品扱いで査定される</strong>ことがあります。</li>
             </ul>
@@ -143,7 +143,7 @@ export default function ArdbegNvKaitoriPage() {
             </ol>
           </div>
 
-          <h2 id="seitai">1. 年代表記のないアードベッグ＝どのボトル？</h2>
+          <h2 id="seitai">1. 年代表記のないアードベッグに該当するボトル</h2>
 
           <p>「アードベッグ 買取」「アードベッグ 年代指定なし 買取」で調べている方の多くは、<strong>ラベルに熟成年数が書かれていないボトル</strong>をお持ちです。アードベッグ（アイラ島）の現行ラインは、年数表記のないノンエイジが中心という点が、他のシングルモルトと大きく違います。</p>
 
@@ -178,14 +178,14 @@ export default function ArdbegNvKaitoriPage() {
             </table>
           </div>
 
-          <p className="text-xs text-warm-gray">※中央値はヤフオク!の過去180日落札データをIQR外れ値除去後に当サイトが独自集計した参考値です（取得日 {fetchedAt}・毎週月曜更新）。買取額を保証するものではなく、業者の査定額は状態・付属品・各社の在庫状況により変動します。限定リリースは本表に含みません。</p>
+          <p className="text-xs text-warm-gray">※中央値はヤフオク!の過去180日落札データをIQR外れ値除去後に当サイトが独自に集計した参考値です（取得日 {fetchedAt}・毎週月曜更新）。買取額を保証するものではなく、業者の査定額は状態・付属品・各社の在庫状況により変動します。限定リリースは本表に含みません。</p>
 
           <p>年数表記のないボトル同士（ウーガダール・コリーヴレッカン・アンオー）は<strong>おおむね同じ価格帯</strong>に収まっており、10年より一段高い水準です。つまりアードベッグの場合、「年数が書いていない＝安い」わけではありません。<strong>ボトル名を正確に伝えることが、適正な査定を受ける前提</strong>になります。</p>
 
           <h2 id="miwakekata">3. 手元のボトルの見分け方</h2>
 
           <ol>
-            <li><strong>ラベル中央の年数表記を見る</strong> — 「10」とあれば10年。数字がなければノンエイジです</li>
+            <li><strong>ラベル中央の年数表記を見る</strong> — 「10」とあれば10年です。数字がなければノンエイジです</li>
             <li><strong>ボトル名（英字）を読む</strong> — Uigeadail / Corryvreckan / An Oa のいずれかが記載されています</li>
             <li><strong>度数を確認する</strong> — 54.2%＝ウーガダール、57.1%＝コリーヴレッカン、46.6%＝アンオー、46%＝10年が目安です</li>
             <li><strong>限定品かどうかを確認する</strong> — 「Ardbeg Day」「Committee Release」等の記載や、通常と異なる箱・缶があれば限定リリースの可能性があります</li>
@@ -203,7 +203,7 @@ export default function ArdbegNvKaitoriPage() {
             <li><strong>未開封のまま売る</strong> — 開封済みは大幅減額の傾向です</li>
             <li><strong>ボトル名と度数を正確に伝える</strong> — 「アードベッグ」だけでは現行品の最安ラインで見積もられることがあります</li>
             <li><strong>複数業者で相見積もりを取る</strong> — 同じボトルでも業者により査定額が10〜20%異なることがあります</li>
-            <li><strong>保管状態を整える</strong> — 直射日光を避け、縦置き・温度変化の少ない場所で保管。液面低下・ラベル褪色は減額要因です</li>
+            <li><strong>保管状態を整える</strong> — 直射日光を避け、温度変化の少ない場所で縦置きで保管してください。液面低下・ラベル褪色は減額要因です</li>
           </ol>
 
           <h2 id="satei">5. 無料査定の使い方</h2>
@@ -212,7 +212,7 @@ export default function ArdbegNvKaitoriPage() {
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">アードベッグの無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">複数業者の査定を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
+            <p className="text-sm text-warm-gray text-center mb-4">複数の業者の査定額を比較できます。査定料・キャンセル料は無料です。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               
@@ -242,7 +242,7 @@ export default function ArdbegNvKaitoriPage() {
             <li><Link href="/articles/ardbeg-uigeadail-kaitori/" className="text-amber-dark hover:underline font-bold">アードベッグ ウーガダールの買取相場</Link></li>
             <li><Link href="/articles/ardbeg-corryvreckan-kaitori/" className="text-amber-dark hover:underline font-bold">アードベッグ コリーヴレッカンの買取相場</Link></li>
             <li><Link href="/articles/ardbeg-nisemono-mikata/" className="text-amber-dark hover:underline">アードベッグの偽物の見分け方（真贋ハブ）</Link></li>
-            <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline">ウイスキーの「年代指定なし(NV)」とは？買取での扱いと相場の見方</Link></li>
+            <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline">ウイスキーの「年代指定なし(NV)」の解説買取での扱いと相場の見方</Link></li>
             <li><Link href="/souba-ranking/" className="text-amber-dark hover:underline">ウイスキー買取相場ランキング（毎週更新）</Link></li>
           </ul>
 

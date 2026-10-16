@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "ウイスキーはなぜ高い？高騰の理由とジャパニーズ人気の背景【2026年】",
   description:
-    "ウイスキー、とくにジャパニーズウイスキーがなぜ高いのか、高騰の理由を解説。原酒不足・終売・世界的人気・投資需要・円安など価格を押し上げる要因を整理し、今後の売却判断に役立つ視点まで。",
+    "ウイスキー、とくにジャパニーズウイスキーがなぜ高いのか、高騰の理由を解説しています。原酒不足・終売・世界的人気・投資需要・円安など価格を押し上げる要因を整理し、売却の判断に役立つ観点をご説明します。",
   alternates: { canonical: "/articles/whisky-naze-takai/" },
 };
 
@@ -60,9 +60,9 @@ export default function Page() {
           <p className="font-bold text-ink mb-2">この記事の結論（30秒）</p>
           <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
             <li>高い理由＝<strong>①長い熟成で供給を増やせない ②終売・休売で希少化 ③世界的人気 ④投資需要 ⑤円安</strong>。</li>
-            <li>ジャパニーズは受賞で需要が急増した一方、原酒不足で供給が追いつかない。</li>
+            <li>ジャパニーズは受賞で需要が急増した一方、原酒不足により供給が追いついていません。</li>
             <li>ただし<strong>値上がりの継続は保証されない</strong>（需給・為替で上下）。</li>
-            <li>売り時は最新の<Link href="/souba-ranking/">相場ランキング</Link>で判断を。</li>
+            <li>売り時は最新の<Link href="/souba-ranking/">相場ランキング</Link>でご判断ください。</li>
           </ul>
         </div>
 
@@ -79,9 +79,9 @@ export default function Page() {
         <ol>
           <li><strong>熟成に時間がかかる</strong>：仕込みから出荷まで長い年月が必要で、需要が増えてもすぐ供給を増やせません。</li>
           <li><strong>終売・休売による希少化</strong>：原酒不足で年数表記品が休売・終売となり、中古に希少価値が乗ります（<Link href="/articles/whisky-nv-toha/">年代指定なしへの切替</Link>）。</li>
-          <li><strong>世界的な人気</strong>：国際的な賞の受賞などでブランド評価が上昇。</li>
-          <li><strong>投資・コレクター需要</strong>：資産として保有・売買する動きが価格を押し上げ。</li>
-          <li><strong>円安・海外需要</strong>：海外からの需要が強い局面では国内相場も上がりやすい。</li>
+          <li><strong>世界的な人気</strong>：国際的な賞の受賞などでブランドの評価が上昇しています。</li>
+          <li><strong>投資・コレクター需要</strong>：資産として保有・売買する動きが価格を押し上げています。</li>
+          <li><strong>円安・海外需要</strong>：海外からの需要が強い局面では国内相場も上がりやすい傾向があります。</li>
         </ol>
 
         <h2 id="japanese">ジャパニーズウイスキーが特に高い背景</h2>

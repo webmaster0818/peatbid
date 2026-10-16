@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "編集ポリシー・価格データ収集方法",
-  description: "PeatBidの編集ポリシーと、買取相場データの収集方法・更新頻度・信頼性ガイドラインを公開しています。透明性のある運営方針で、読者の信頼に応えます。",
+  description: "PeatBidの編集ポリシーと、買取相場データの収集方法・更新頻度・信頼性ガイドラインを公開しています。あわせて運営方針をご説明します。",
 };
 
 export default function MethodologyPage() {
@@ -25,7 +25,7 @@ export default function MethodologyPage() {
       <section className="prose">
         <p>
           本ページでは、PeatBidが買取相場を算出する方法・データソース・更新頻度・信頼性確保のための取り組みを公開します。
-          読者が情報の正確性を自身で評価できるよう、透明性を最大限重視しています。
+          読者が情報の正確性をご自身で評価できるよう、透明性の確保に努めています。
         </p>
 
         <h2>1. 価格データの収集方法</h2>
@@ -41,7 +41,7 @@ export default function MethodologyPage() {
         <h3>② 海外オークションの落札データ</h3>
         <p>
           Sotheby&apos;s、Bonhams、Whisky Auctioneer、Just Whisky Auctions、Whisky Hammerの公式公開アーカイブから、過去6〜12ヶ月の落札データを集計。
-          これらは国際的な市場価格の指標として最も信頼性が高く、希少銘柄の価格基準となります。
+          これらは国際的な市場価格の指標であり、希少銘柄の価格の基準となります。
         </p>
 
         <h3>③ 個人間二次流通の取引データ</h3>
@@ -88,12 +88,12 @@ export default function MethodologyPage() {
           <li><strong>専門知識</strong> — お酒・ウイスキー専門の鑑定力があるか</li>
           <li><strong>査定スピード</strong> — 見積もり〜入金までの所要日数</li>
           <li><strong>査定額の透明性</strong> — 価格根拠・状態評価の説明があるか</li>
-          <li><strong>手数料・キャンセル料</strong> — 完全無料か</li>
+          <li><strong>手数料・キャンセル料</strong> — 無料か</li>
           <li><strong>信頼性</strong> — 上場・古物商許可・口コミ評判</li>
         </ol>
 
         <p>これら5項目を10点満点で評価し、合計点でランキングを作成しています。
-        紹介料の有無は評価に一切影響しません。</p>
+        紹介料の有無は評価に影響しません。</p>
 
         <h2>5. アフィリエイト広告について</h2>
         <p>

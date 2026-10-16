@@ -108,11 +108,11 @@ export default function MarketPriceCard({ data }: Props) {
           検索クエリ: <code className="bg-cream/60 px-1 rounded">{query_used}</code>
         </p>
         <p>
-          価格履歴は週次自動更新で蓄積中（現在 {points} ポイント）。詳細は{" "}
+          価格履歴は毎週更新しています（現在 {points} ポイント）。詳細は{" "}
           <Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">
             編集ポリシー
           </Link>
-          を参照。
+          をご覧ください。
         </p>
       </div>
     </section>

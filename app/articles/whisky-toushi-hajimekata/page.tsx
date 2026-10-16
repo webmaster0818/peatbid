@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "ウイスキー投資の始め方｜相場の見方・銘柄選び・注意点を初心者向けに解説【2026年】",
   description:
-    "ウイスキー投資の始め方を初心者向けに解説。実勢相場の見方、値上がりしやすい銘柄の選び方、保管とリスク、売却（出口）まで。Yahoo!オークション落札データにもとづく当サイトの相場ランキングも活用できます。",
+    "ウイスキー投資の始め方を初心者の方向けに解説しています。実勢相場の見方、値上がりしやすい銘柄の選び方、保管とリスク、売却（出口）についてもご説明します。Yahoo!オークション落札データにもとづく当サイトの相場ランキングも活用できます。",
   alternates: { canonical: "/articles/whisky-toushi-hajimekata/" },
 };
 
@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "本物かどうか、偽物が心配です。",
-    a: "正規流通店・信頼できる店舗での購入が基本です。中古・オークションで買う場合は、ラベル・キャップシール・液面・購入証明を確認しましょう。各銘柄ページの「偽物の見分け方」も参考にしてください。",
+    a: "正規流通店・信頼できる店舗での購入が基本です。中古・オークションで買う場合は、ラベル・キャップシール・液面・購入証明をご確認ください。各銘柄ページの「偽物の見分け方」も参考にしてください。",
   },
   {
     q: "保管はどうすればよいですか？",
@@ -82,7 +82,7 @@ export default function Page() {
 
         <h2 id="what">ウイスキー投資とは（なぜ値上がりするのか）</h2>
         <p>
-          ウイスキー投資とは、希少性や需要の高いボトルを購入・保有し、価格が上がったタイミングで売却して差益を狙う考え方です。値上がりの背景には、<strong>①長期熟成・終売による供給の物理的な限界、②世界的なジャパニーズウイスキー人気、③コレクター・投資需要の拡大</strong>があります。一方で、飲まれて消費される嗜好品ゆえに「現存数が減り続ける」点も希少性を支えています。
+          ウイスキー投資とは、希少性や需要の高いボトルを購入・保有し、価格が上がったタイミングで売却して差益を得る考え方です。値上がりの背景には、<strong>①長期熟成・終売による供給の物理的な限界、②世界的なジャパニーズウイスキー人気、③コレクター・投資需要の拡大</strong>があります。一方で、飲まれて消費される嗜好品ゆえに「現存数が減り続ける」点も希少性を支えています。
         </p>
 
         <h2 id="souba">相場の見方｜実勢中央値と流通量をチェック</h2>
@@ -90,8 +90,8 @@ export default function Page() {
           相場を見るときは、定価や希望価格ではなく<strong>「実際にいくらで取引されたか（実勢価格）」</strong>を見ます。当サイトでは、Yahoo!オークションの過去180日の落札データから外れ値を除いた<strong>実勢中央値</strong>と、<strong>落札件数（流通量）</strong>を毎週集計しています。
         </p>
         <ul>
-          <li><strong>実勢中央値</strong>：その銘柄の「だいたいの取引価格」。週次の動きで値上がり/値下がりが分かります。</li>
-          <li><strong>流通量（落札件数）</strong>：多いほど取引が活発＝換金しやすく相場も安定。少ない銘柄は希少だが売り時を逃すと次の出物まで時間がかかることも。</li>
+          <li><strong>実勢中央値</strong>：その銘柄のおおよその取引価格です。週次の動きで値上がり/値下がりが分かります。</li>
+          <li><strong>流通量（落札件数）</strong>：多いほど取引が活発＝換金しやすく、相場も安定しています。少ない銘柄は希少だが売り時を逃すと次の出物まで時間がかかることがあります。</li>
         </ul>
         <p>
           銘柄ごとの数値と週次の推移は <Link href="/souba-ranking/">相場ランキング</Link> と各銘柄の買取相場ページで確認できます。
@@ -100,27 +100,27 @@ export default function Page() {
         <h2 id="select">投資に向く銘柄の選び方</h2>
         <p>初心者がまず押さえたいのは、<strong>需要が安定して相場が形成されている定番</strong>と、<strong>供給が止まった終売・長期熟成の希少銘柄</strong>です。</p>
         <ul>
-          <li><strong>定番（入りやすい）</strong>：<Link href="/articles/yamazaki-12-kaitori/">山崎12年</Link>・<Link href="/articles/hakushu-12-kaitori/">白州12年</Link> など。流通量が多く相場が読みやすい。</li>
-          <li><strong>プレミア（上値を狙う）</strong>：<Link href="/articles/yamazaki-18-kaitori/">山崎18年</Link>・<Link href="/articles/hibiki-21-kaitori/">響21年</Link>・<Link href="/articles/macallan-25-kaitori/">マッカラン25年</Link> など長期熟成・高評価銘柄。</li>
+          <li><strong>定番（入りやすい）</strong>：<Link href="/articles/yamazaki-12-kaitori/">山崎12年</Link>・<Link href="/articles/hakushu-12-kaitori/">白州12年</Link> など。流通量が多く相場が読みやすい銘柄です。</li>
+          <li><strong>プレミア（値上がりを期待する銘柄）</strong>：<Link href="/articles/yamazaki-18-kaitori/">山崎18年</Link>・<Link href="/articles/hibiki-21-kaitori/">響21年</Link>・<Link href="/articles/macallan-25-kaitori/">マッカラン25年</Link> など長期熟成・高評価銘柄。</li>
         </ul>
         <p className="text-sm text-warm-gray">※ どの銘柄も値動きがあり、上がり続ける保証はありません。購入前に必ず最新の相場を確認してください。</p>
 
         <h2 id="risk">リスクと注意点（嗜好品ゆえの前提）</h2>
         <ul>
-          <li><strong>価格変動</strong>：為替・流行・終売ニュースで上下。短期は振れやすい。</li>
-          <li><strong>流動性</strong>：売りたい時にすぐ買い手が付くとは限らない（特に超高額・希少銘柄）。</li>
-          <li><strong>真贋・状態</strong>：偽物や保管劣化のリスク。正規流通・適切な保管が前提。</li>
-          <li><strong>コスト</strong>：保管スペース、売却時の手数料・税（譲渡所得）も考慮。</li>
+          <li><strong>価格変動</strong>：為替・流行・終売のニュースにより上下します。短期は振れやすい。</li>
+          <li><strong>流動性</strong>：売りたい時にすぐ買い手が付くとは限りません（特に高額・希少銘柄）。</li>
+          <li><strong>真贋・状態</strong>：偽物や保管による劣化のリスクがあります。正規流通・適切な保管が前提となります。</li>
+          <li><strong>コスト</strong>：保管スペース、売却時の手数料・税（譲渡所得）も考慮する必要があります。</li>
         </ul>
-        <p>金融商品ではないため、<strong>余剰資金で、最悪は自分で飲んでも良いと思える範囲</strong>で楽しむのが鉄則です。</p>
+        <p>金融商品ではないため、<strong>余剰資金で、最悪は自分で飲んでも良いと思える範囲</strong>で楽しむことをおすすめします。</p>
 
         <h2 id="steps">始め方の5ステップ</h2>
         <ol>
-          <li><strong>相場を見る</strong>：<Link href="/souba-ranking/">相場ランキング</Link>で値動きと水準を把握。</li>
-          <li><strong>予算と銘柄を決める</strong>：まずは流通量の多い定番から。</li>
-          <li><strong>正規流通で購入</strong>：真贋リスクを避け、付属品を揃えて保管。</li>
-          <li><strong>適切に保管</strong>：未開封・立て置き・直射日光と高温を避ける。</li>
-          <li><strong>出口を準備</strong>：売却は複数業者で相見積り（下記）。</li>
+          <li><strong>相場を見る</strong>：<Link href="/souba-ranking/">相場ランキング</Link>で値動きと水準を把握します。</li>
+          <li><strong>予算と銘柄を決める</strong>：まずは流通量の多い定番銘柄から始めます。</li>
+          <li><strong>正規流通で購入</strong>：真贋リスクを避け、付属品を揃えて保管します。</li>
+          <li><strong>適切に保管</strong>：未開封・立て置き・直射日光と高温を避けます。</li>
+          <li><strong>出口を準備</strong>：売却は複数業者で相見積もりを取ります（下記参照）。</li>
         </ol>
 
         <h2 id="exit">出口戦略｜どこで・いつ売るか</h2>
@@ -129,9 +129,9 @@ export default function Page() {
         </p>
         <div className="not-prose bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 text-center">
           <p className="font-bold text-ink mb-2">手持ちのボトルの相場が気になったら</p>
-          <p className="text-sm text-warm-gray mb-4">まずは無料一括査定で、複数業者の入札を比較しましょう。</p>
+          <p className="text-sm text-warm-gray mb-4">無料一括査定で、複数の業者の査定額を比較できます。</p>
           <p className="text-xs text-warm-gray mb-3"><span className="inline-block align-middle border border-warm-gray/50 rounded px-1.5 py-0.5 mr-2 text-[11px] font-bold tracking-wide">PR</span>ヒカカク！（買取価格比較サイト・最大20社に一括査定）</p>
-          <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow sponsored" className="amber-cta inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm">無料一括査定で最高値を調べる →</a>
+          <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow sponsored" className="amber-cta inline-flex items-center justify-center px-6 py-3 rounded-lg text-sm">無料一括査定を申し込む →</a>
         </div>
 
         <h2 id="faq">よくある質問</h2>

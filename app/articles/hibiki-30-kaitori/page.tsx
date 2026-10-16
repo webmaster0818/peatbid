@@ -6,11 +6,11 @@ import priceData from "@/data/price-history/hibiki-30.json";
 
 export const metadata: Metadata = {
   title: '響30年の買取相場【2026年10月最新】535,125円｜8店の価格比較・新型/旧型/有田焼別',
-  description: '響30年の買取相場は535,125円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格目安、買取業者3社の比較、高く売るコツ、贋作リスクまで網羅。響30年を売る前に読む決定版ガイド。8店の掲示価格・実績、有田焼/九谷焼、空き瓶、税金も掲載。',
+  description: '響30年の買取相場は535,125円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格の目安、買取業者3社の比較、高く売るためのポイント、贋作のリスクについて解説しています。8店の掲示価格・実績、有田焼/九谷焼、空き瓶、税金も掲載。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '響30年の市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '響30年の市場相場は535,125円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=124、取得日 2026-10-12）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": '響30年の買取価格はお店によって違いますか？', "acceptedAnswer": { "@type": "Answer", "text": '違います。2026-10-15 に各店の公開ページで確認した掲示価格は、LINXAS（リンクサス） 530,000円（響30年 新型 ホログラム緑シール付き・2026-09-30更新）、ファイブニーズ 527,000円（響30年 700ml・2026-09-30更新）、サケウル（STOCK LAB） 475,000〜476,000円（響30年 ホログラムシールあり・2026-10-15更新）でした。ボトルの仕様や付属品、店の在庫状況でも変わるため、売る前に複数の店で査定を取って比べてください。' } }, { "@type": "Question", "name": '響30年を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' } }, { "@type": "Question", "name": '響30年の開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' } }, { "@type": "Question", "name": '響30年は箱無しでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約428,100〜481,610円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' } }, { "@type": "Question", "name": '響30年に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' } }, { "@type": "Question", "name": '響30年の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' } }, { "@type": "Question", "name": '響30年は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'かかる場合があります。国税庁（タックスアンサー No.3105）は、家具・衣服など生活に通常必要な動産の売却は課税しないとする一方、「貴金属や宝石、書画、骨とうなどで、1個または1組の価額が30万円を超えるもの」は除くとしています。ウイスキーがこの「書画、骨とうなど」に当たるかは同ページに書かれていませんが、響30年は1本で30万円を超えて取引されるため、非課税と決めつけず確認が必要です。課税される場合は総合課税の譲渡所得で、売却額−(取得費＋譲渡費用)から特別控除50万円（その年の譲渡益の合計から）を引き、5年を超えて持っていた分は半分だけが課税対象です（No.3152）。会社員（給与1か所）は給与・退職所得以外の所得の合計が20万円を超えると確定申告が必要です（No.1900）。個別の判断は税務署・税理士にご確認ください。' } }, { "@type": "Question", "name": '響30年の空き瓶や空箱だけでも売れますか？', "acceptedAnswer": { "@type": "Answer", "text": '店によります。LINXAS は響30年の空き瓶の買取実績を公開しており、2022-03-10〜2025-09-05 の7件で 2,500円〜20,000円でした（観音開きの空き瓶 20,000円、箱付きの空き瓶 12,000円など）。一方、バイセルは開封済みの響は基本的に買取が難しいとしています。空き瓶の実績を公開している店に事前に確認してください。' } }, { "@type": "Question", "name": '響30年の有田焼・九谷焼ボトルはいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '陶器ボトルは通常のボトルと別の限定品で、バイセルは有田焼ボトルを〜998,700円（2025年11月時点の上限目安）、買取大吉は有田焼90万〜120万円・九谷焼110万円以上（日付表記なし・記事公開2025-12-31）としています。専門店の響30年ページには陶器ボトルの掲示価格が無く、時点の古い値なので、個別に査定を取ってください。' } }, { "@type": "Question", "name": '響30年を売るタイミングはいつがベスト？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" } }, { "@type": "Question", "name": '響30年と他の銘柄、どっちを先に売るべき？', "acceptedAnswer": { "@type": "Answer", "text": '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '響30年の市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '響30年の市場相場は535,125円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=124、取得日 2026-10-12）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": '響30年の買取価格は店舗によって異なりますか？', "acceptedAnswer": { "@type": "Answer", "text": '異なります。2026-10-15 に各店の公開ページで確認した掲示価格は、LINXAS（リンクサス） 530,000円（響30年 新型 ホログラム緑シール付き・2026-09-30更新）、ファイブニーズ 527,000円（響30年 700ml・2026-09-30更新）、サケウル（STOCK LAB） 475,000〜476,000円（響30年 ホログラムシールあり・2026-10-15更新）でした。ボトルの仕様や付属品、店舗の在庫状況によっても変わるため、売却前に複数の店舗で査定を受けて比較してください。' } }, { "@type": "Question", "name": '響30年を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' } }, { "@type": "Question", "name": '響30年の開封済みでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' } }, { "@type": "Question", "name": '響30年は箱なしでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約428,100〜481,610円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' } }, { "@type": "Question", "name": '響30年に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' } }, { "@type": "Question", "name": '響30年の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' } }, { "@type": "Question", "name": '響30年は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'かかる場合があります。国税庁（タックスアンサー No.3105）は、家具・衣服など生活に通常必要な動産の売却は課税しないとする一方、「貴金属や宝石、書画、骨とうなどで、1個または1組の価額が30万円を超えるもの」は除くとしています。ウイスキーがこの「書画、骨とうなど」に当たるかは同ページに記載されていませんが、響30年は1本で30万円を超えて取引されるため、非課税と判断せず確認が必要です。課税される場合は総合課税の譲渡所得で、売却額−(取得費＋譲渡費用)から特別控除50万円（その年の譲渡益の合計から）を引き、保有期間が5年を超える場合は2分の1が課税対象です（No.3152）。給与を1か所から受けている会社員の方は給与・退職所得以外の所得の合計が20万円を超えると確定申告が必要です（No.1900）。個別の判断は税務署・税理士にご確認ください。' } }, { "@type": "Question", "name": '響30年の空き瓶や空箱だけでも売れますか？', "acceptedAnswer": { "@type": "Answer", "text": '店舗により異なります。LINXAS は響30年の空き瓶の買取実績を公開しており、2022-03-10〜2025-09-05 の7件で 2,500円〜20,000円でした（観音開きの空き瓶 20,000円、箱付きの空き瓶 12,000円など）。一方、バイセルは開封済みの響は基本的に買取が難しいとしています。空き瓶の実績を公開している店に事前に確認してください。' } }, { "@type": "Question", "name": '響30年の有田焼・九谷焼ボトルはいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '陶器ボトルは通常のボトルと別の限定品で、バイセルは有田焼ボトルを〜998,700円（2025年11月時点の上限目安）、買取大吉は有田焼90万〜120万円・九谷焼110万円以上（日付表記なし・記事公開2025-12-31）としています。専門店の響30年のページには陶器ボトルの掲示価格がなく、上記は時点の古い値のため、個別に査定を受けてください。' } }, { "@type": "Question", "name": '響30年を売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" } }, { "@type": "Question", "name": '響30年と他の銘柄は、どちらを先に売るべきですか？', "acceptedAnswer": { "@type": "Answer", "text": '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' } }] }) }} />;
 }
 
 const tocItems = [
@@ -21,9 +21,9 @@ const tocItems = [
   { id: "store-prices", label: "4-2. 買取店の掲示価格・推移・定価" },
   { id: "toki-bottle", label: "4-3. 有田焼・九谷焼ボトル" },
   { id: "state-price", label: "5. 状態別の業界目安" },
-  { id: "price-reasons", label: "6. なぜこの価格になるのか" },
+  { id: "price-reasons", label: "6. 価格を左右する要因" },
   { id: "auction", label: "7. オークション落札データ" },
-  { id: "takaku-uru", label: "8. 高く売る7つの実践テクニック" },
+  { id: "takaku-uru", label: "8. 高く売るための7つのポイント" },
   { id: "fake", label: "9. 偽物・贋作の見分け方" },
   { id: "shinkyu", label: "9-2. 新型・旧型の見分け方" },
   { id: "partners", label: "10. おすすめ買取業者3社" },
@@ -71,7 +71,7 @@ export default function Hibiki30KaitoriPage() {
 
           <h2 id="summary">1. 響30年の概要</h2>
 
-          <p>響30年はジャパニーズウイスキーを代表する銘柄の1つで、サントリーが手がける30年熟成のボトルです。響30年。ジャパニーズウイスキーの最高峰の一本。</p>
+          <p>響30年はジャパニーズウイスキーの代表的な銘柄の一つで、サントリーが手がける30年熟成のボトルです。響30年。ジャパニーズウイスキーの最高峰の一本。</p>
 
           
 
@@ -80,7 +80,7 @@ export default function Hibiki30KaitoriPage() {
           </div>
 
 
-          <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。響30年は希少度<strong>ウルトラ</strong>クラスに位置し、極めて希少な長期熟成銘柄。Sotheby's・Bonhamsなどの海外オークションでの落札データが査定の基準となり、富裕層・コレクターの主要ターゲット。</p>
+          <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。響30年は希少度<strong>ウルトラ</strong>クラスに分類しています。極めて希少な長期熟成銘柄です。Sotheby's・Bonhamsなどの海外オークションの落札データが査定の基準となり、主な購入層は富裕層やコレクターです。</p>
 
           <div className="table-wrapper">
             <table>
@@ -102,19 +102,19 @@ export default function Hibiki30KaitoriPage() {
             <Image src="/images/distillery-japanese.png" alt="サントリーの蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
           </div>
 
-          <p>1899年創業のサントリーホールディングスは、日本最大のウイスキーメーカー。山崎・白州・知多の3つの蒸溜所を運営し、響をはじめとするブレンデッドウイスキーで国際的評価を確立している。</p>
+          <p>1899年創業のサントリーホールディングスは、日本最大のウイスキーメーカーです。山崎・白州・知多の3つの蒸溜所を運営し、響をはじめとするブレンデッドウイスキーで国際的な評価を得ています。</p>
 
-          <p>サントリーが生み出すジャパニーズウイスキーは、世界の主要品評会で度々受賞しており、二次流通市場でも継続的に高値で取引されています。蒸溜所の歴史と職人技術が、響30年のような銘柄の市場価値を支えています。</p>
+          <p>サントリーのジャパニーズウイスキーは、二次流通市場で継続的に取引されています。蒸溜所の歴史と製法は、響30年のような銘柄の市場価値に影響しています。</p>
 
-          <p>同じ蒸溜所の他の銘柄や、同年代の他銘柄との関連性を知ることで、響30年の市場における立ち位置がより明確になります。下の関連銘柄リンクから他のグレード・他蒸溜所の銘柄も合わせてチェックすることをおすすめします。</p>
+          <p>同じ蒸溜所の他の銘柄や同年代の銘柄と比べることで、響30年の市場における位置付けを確認できます。他のグレード・他の蒸溜所の銘柄は、ページ下部の関連銘柄のリンクからご覧いただけます。</p>
 
           <h2 id="tasting">3. テイスティングノート</h2>
 
           <p>響30年の味わいは、30年熟成の熟成期間中に樽から溶け出した成分と、サントリー独自の蒸溜技術が複雑に交差したものです。</p>
 
-          <p>深いシェリー樽由来のドライフルーツケーキ、ダークチョコレート、煙草の葉、ミズナラ独特のオリエンタルな香り。複雑性が極まり、フィニッシュは数分続く。長期熟成の真髄。</p>
+          <p>シェリー樽由来のドライフルーツケーキ、ダークチョコレート、煙草の葉、ミズナラ樽由来のオリエンタルな香りがあります。複雑な味わいで、長いフィニッシュが続きます。</p>
 
-          <p>飲用ではなくコレクション・投資目的で保有する場合、ボトルを開けずに保管することが価値維持の鉄則です。一度開けると、香味の揮発と空気接触による酸化が進み、二次流通市場での評価が大幅に下がります。</p>
+          <p>飲用ではなくコレクション・投資目的で保有する場合は、開栓せずに保管することが価値を保つための基本です。開栓すると、香味の揮発と空気との接触による酸化が進み、二次流通市場での評価が大きく下がります。</p>
 
           <h2 id="current-price">4. 現在の市場相場（Yahoo中央値）</h2>
 
@@ -144,12 +144,12 @@ export default function Hibiki30KaitoriPage() {
               <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/31</text>
               <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">10/12</text>
             </svg>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-07-27〜2026-10-12（週次12点・各点のサンプル数 n=62〜124件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜自動更新。買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-07-27〜2026-10-12（週次12点・各点のサンプル数 n=62〜124件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
           </div>
 
-          <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、**最低3社、できれば4社以上で相見積もり**を取ることをおすすめします。</p>
+          <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、<strong>3社以上、できれば4社以上で相見積もり</strong>を取ることをおすすめします。</p>
 
-          <p>本サイトでは下記の3業者ページへのリンクを参考として提示しています（各社の最新の査定額・キャンペーンは直接ご確認ください）:</p>
+          <p>当サイトでは、以下の3業者のページへのリンクを参考として掲載しています（各社の最新の査定額・キャンペーンは、各社のページでご確認ください）。</p>
 
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店</li>
@@ -159,7 +159,7 @@ export default function Hibiki30KaitoriPage() {
 
           <h3 id="store-prices">響30年の買取店の掲示価格（店舗別比較・2026年10月15日確認）</h3>
 
-          <p>各店が自社サイトに公開している響30年の参考買取価格を、PeatBid編集部が 2026-10-15 に各ページで確認した値です。「店舗側の更新日」は各ページに書かれている価格の更新日です。</p>
+          <p>各店が自社サイトに公開している響30年の参考買取価格を、PeatBid編集部が 2026-10-15 に各ページで確認した値です。「店舗側の更新日」は、各ページに記載されている価格の更新日です。</p>
 
           <div className="overflow-x-auto my-5 not-prose">
             <table className="w-full text-sm">
@@ -167,9 +167,9 @@ export default function Hibiki30KaitoriPage() {
               <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">響30年 新型 ホログラム緑シール付き<br /><span className="text-warm-gray text-xs">箱あり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">530,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">響30年 新型 ホログラム無し<br /><span className="text-warm-gray text-xs">箱あり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">470,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">響30年 旧型<br /><span className="text-warm-gray text-xs">箱あり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">400,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">響30年 観音開き<br /><span className="text-warm-gray text-xs">箱あり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">600,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">響30年 花鳥風月<br /><span className="text-warm-gray text-xs">箱あり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">660,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">ファイブニーズ</td><td className="py-2 pr-3">響30年 700ml<br /><span className="text-warm-gray text-xs">参考買取価格</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">527,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://www.sakekaitori.com/whisky/japanese_whiskey/hibiki_brand/hibiki30/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">サケウル（STOCK LAB）</td><td className="py-2 pr-3">響30年 ホログラムシールあり<br /><span className="text-warm-gray text-xs">完品</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">475,000〜476,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-15</td><td className="py-2"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">サケウル（STOCK LAB）</td><td className="py-2 pr-3">響30年 ホログラムシールなし<br /><span className="text-warm-gray text-xs">完品</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">460,000〜461,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-15</td><td className="py-2"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">サケウル（STOCK LAB）</td><td className="py-2 pr-3">響30年<br /><span className="text-warm-gray text-xs">付属品欠如 or ダメージあり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">422,000〜423,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-15</td><td className="py-2"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">JOYLAB（ジョイラボ）</td><td className="py-2 pr-3">響30年<br /><span className="text-warm-gray text-xs">ページ上部の買取価格＝2026/09/11 名古屋店の買取実績</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">525,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-11</td><td className="py-2"><a href="https://joylab.jp/japanwhiskey/suntory/hibiki/aged-30/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">Life Vacation</td><td className="py-2 pr-3">響30年（種類の区別なし）<br /><span className="text-warm-gray text-xs">買取価格推移表の最新値・参考価格</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">530,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026年6月</td><td className="py-2"><a href="https://www.lv-liquor.com/whiskey/hibiki30nennkaitori.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">バイセル</td><td className="py-2 pr-3">響30年 現行商品<br /><span className="text-warm-gray text-xs">上限の目安・未開封の未使用品を想定</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">〜391,000円</td><td className="py-2 pr-3 whitespace-nowrap">2025年11月時点</td><td className="py-2"><a href="https://buysell-kaitori.com/column/liquor-hibiki/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">バイセル</td><td className="py-2 pr-3">響30年 旧ボトル（通称：観音開き）<br /><span className="text-warm-gray text-xs">上限の目安・未開封の未使用品を想定</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">〜467,500円</td><td className="py-2 pr-3 whitespace-nowrap">2025年11月時点</td><td className="py-2"><a href="https://buysell-kaitori.com/column/liquor-hibiki/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr></tbody>
             </table>
           </div>
-          <p>標準的な700mlボトルの掲示価格は <strong>475,000〜530,000円</strong> で、PeatBid が集計しているヤフオク落札中央値 <strong>535,125円</strong>（取得日 2026-10-12）の <strong>89〜99%</strong> にあたります。中央値は個人間の落札額、掲示価格は店がその場で買い取る額なので、両方を並べると「店に売るといくらになりそうか」の見当がつきます。</p>
-          <p>同じ店でも、ボトルの仕様（新型のホログラムシールの有無・旧型・観音開きの金箱・免税店向けの花鳥風月）と付属品で掲示価格が分かれています。LINXAS の掲示では、新型ホログラム付き 530,000円 と ホログラム無し 470,000円 で 60,000円、旧型 400,000円 とは 130,000円 の差があります。バイセルの値は2025年11月時点の上限目安で、他店（2026年9〜10月更新）とは時点が違います。</p>
-          <p className="text-sm bg-cream/40 border border-amber/30 rounded-lg p-4 not-prose">「旧型」「旧ボトル」が指すものは店によって違います。LINXAS は「旧型」（400,000円）と「観音開き」（600,000円）を別の行で掲示しており、LINXAS の旧型は観音開きとは別の扱いです。一方、バイセルは「旧ボトル（通称：観音開き）」、買取大吉は「旧ボトル（金箱・観音開き）」と、旧ボトル＝金色の観音開きの箱として価格を出しています。さらにファイブニーズは新モデルの外箱も「茶色の観音開き箱」と説明しています。査定を頼むときは「旧型」という言葉ではなく、箱の色と形・キャップの刻印・ホログラムシールの有無を伝えると、店ごとの呼び方の違いで話が食い違うのを防げます。</p>
+          <p>標準的な700mlボトルの掲示価格は <strong>475,000〜530,000円</strong> で、PeatBid が集計しているヤフオク落札中央値 <strong>535,125円</strong>（取得日 2026-10-12）の <strong>89〜99%</strong> にあたります。中央値は個人間の落札額、掲示価格は店舗が買い取る際の参考額であり、両者を比較することで店舗に売却した場合のおおよその金額を把握できます。</p>
+          <p>同じ店でも、ボトルの仕様（新型のホログラムシールの有無・旧型・観音開きの金箱・免税店向けの花鳥風月）と付属品で掲示価格が異なります。LINXAS の掲示では、新型ホログラム付き 530,000円 と ホログラム無し 470,000円 で 60,000円、旧型 400,000円 とは 130,000円 の差があります。バイセルの値は2025年11月時点の上限目安で、他店（2026年9〜10月更新）とは時点が異なります。</p>
+          <p className="text-sm bg-cream/40 border border-amber/30 rounded-lg p-4 not-prose">「旧型」「旧ボトル」が指すものは店舗によって異なります。LINXAS は「旧型」（400,000円）と「観音開き」（600,000円）を別の行で掲示しており、LINXAS の旧型は観音開きとは別の扱いです。一方、バイセルは「旧ボトル（通称：観音開き）」、買取大吉は「旧ボトル（金箱・観音開き）」と、旧ボトル＝金色の観音開きの箱として価格を出しています。さらにファイブニーズは新モデルの外箱も「茶色の観音開き箱」と説明しています。査定を依頼する際は、「旧型」という言葉ではなく、箱の色と形・キャップの刻印・ホログラムシールの有無を伝えると、店舗ごとの呼び方の違いによる行き違いを防げます。</p>
 
           <h3 id="store-trend">響30年の買取価格の推移（店舗の掲示価格・約2年分）</h3>
 
@@ -227,24 +227,24 @@ export default function Hibiki30KaitoriPage() {
           </details>
 
           <h3 id="longterm">長期の価格推移（2016〜2026年・店舗の買取価格表から）</h3>
-          <p>同店の表では、2016年12月の170,000円から2022年6月の790,000円まで上がり、その後は下がって2025年7月に490,000円、2026年6月は530,000円です。</p>
+          <p>同店の表では、2016年12月の170,000円から2022年6月の790,000円まで上昇し、その後は下落して2025年7月に490,000円、2026年6月は530,000円です。</p>
           <div className="overflow-x-auto my-4 not-prose">
             <table className="text-sm"><thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-1 pr-4">時期</th><th className="py-1 text-right">買取価格（Life Vacation掲載）</th></tr></thead><tbody><tr className="border-b border-warm-border/60"><td className="py-1 pr-4">2016年12月</td><td className="py-1 text-right">170,000円</td></tr><tr className="border-b border-warm-border/60"><td className="py-1 pr-4">2018年12月</td><td className="py-1 text-right">350,000円</td></tr><tr className="border-b border-warm-border/60"><td className="py-1 pr-4">2020年12月</td><td className="py-1 text-right">380,000円</td></tr><tr className="border-b border-warm-border/60"><td className="py-1 pr-4">2021年12月</td><td className="py-1 text-right">600,000円</td></tr><tr className="border-b border-warm-border/60"><td className="py-1 pr-4">2022年6月</td><td className="py-1 text-right">790,000円</td></tr><tr className="border-b border-warm-border/60"><td className="py-1 pr-4">2022年12月</td><td className="py-1 text-right">690,000円</td></tr><tr className="border-b border-warm-border/60"><td className="py-1 pr-4">2024年6月</td><td className="py-1 text-right">550,000〜640,000円</td></tr><tr className="border-b border-warm-border/60"><td className="py-1 pr-4">2025年7月</td><td className="py-1 text-right">490,000円</td></tr><tr className="border-b border-warm-border/60"><td className="py-1 pr-4">2026年6月</td><td className="py-1 text-right">530,000円</td></tr></tbody></table>
           </div>
           <p className="text-[11px] text-warm-gray">出典: <a href="https://www.lv-liquor.com/whiskey/hibiki30nennkaitori.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">Life Vacation「響30年の買取」の価格推移表</a>（全17点から要点を抜粋。同店は参考価格で、金額を保証するものではないとしています）</p>
-          <p>PeatBid の自前データはヤフオク落札中央値の週次集計で、範囲は 2026-05-25〜2026-10-12（21点）です。それより前の値動きはこのデータからは言えないため、上の店舗の表（出典つき）を参考に載せています。</p>
-          <p>あわせて、LINXAS の実績にも2022年5〜7月の「完備」810,000〜840,000円・「観音開き 完備」1,050,000円が並んでいます（上の買取実績）。同じ時期にサントリーの希望小売価格は2022年4月出荷分から125,000円→160,000円（税別）に改定されています（下の定価の表）。</p>
+          <p>PeatBid が集計しているデータはヤフオク落札中央値の週次集計で、範囲は 2026-05-25〜2026-10-12（21点）です。それより前の値動きはこのデータからは判断できないため、上記の店舗の表（出典付き）を参考として掲載しています。</p>
+          <p>あわせて、LINXAS の実績にも2022年5〜7月の「完備」810,000〜840,000円・「観音開き 完備」1,050,000円が掲載されています（上記の買取実績）。同じ時期にサントリーの希望小売価格は2022年4月出荷分から125,000円→160,000円（税別）に改定されています（下記の定価の表）。</p>
 
-          <h3 id="store-records">響30年の買取実績（各店の公開分・日付つき）</h3>
-          <p>各店が自社サイトに載せている響30年の買取実績です。実績は「その日にその店で買い取った額」で、ボトルの状態や付属品が揃っているかは店によって書き方が違います（2026年10月15日確認）。</p>
+          <h3 id="store-records">響30年の買取実績（各店の公開分・日付付き）</h3>
+          <p>各店が自社サイトに掲載している響30年の買取実績です。実績は、その日にその店舗で買い取った金額であり、ボトルの状態や付属品の有無の記載方法は店舗により異なります（2026年10月15日確認）。</p>
 
           <p className="text-sm font-bold mt-6">JOYLAB（ジョイラボ）</p>
           <ul className="text-sm"><li>2026年9月11日　名古屋店　<strong>525,000円</strong></li><li>2026年9月8日　渋谷店　<strong>520,000円</strong></li><li>2026年7月31日　浅草店　<strong>507,000円</strong></li><li>2025年12月17日　梅田店　<strong>448,000円</strong></li><li>2025年11月11日　札幌店　<strong>520,000円</strong></li><li>2025年10月3日　新宿店　<strong>495,000円</strong></li><li>2024年10月27日　心斎橋店　<strong>511,000円</strong></li><li>2024年8月26日　福岡天神店　<strong>605,000円</strong></li><li>2024年7月27日　仙台店　<strong>605,000円</strong></li></ul>
-          <p className="text-[11px] text-warm-gray">出典: <a href="https://joylab.jp/japanwhiskey/suntory/hibiki/aged-30/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">JOYLAB（ジョイラボ）の掲載ページ</a>（店舗名つきの実績9件（同ページ掲載分すべて。箱などの状態は記載なし））</p>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://joylab.jp/japanwhiskey/suntory/hibiki/aged-30/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">JOYLAB（ジョイラボ）の掲載ページ</a>（店舗名付きの実績9件（同ページ掲載分すべて。箱などの状態は記載なし））</p>
 
           <p className="text-sm font-bold mt-6">LINXAS（リンクサス）</p>
           <ul className="text-sm"><li>2025年2月3日　ホログラム付き 完備　<strong>540,000円</strong></li><li>2022年7月20日　観音開き 完備　<strong>1,050,000円</strong></li><li>2022年6月17日　完備　<strong>810,000円</strong></li><li>2022年6月12日　花鳥風月 完備　<strong>870,000円</strong></li><li>2022年6月1日　花鳥風月（箱・冊子付き）　<strong>910,000円</strong></li><li>2022年5月30日　完備　<strong>840,000円</strong></li><li>2022年2月10日　観音開き　<strong>900,000円</strong></li></ul>
-          <p className="text-[11px] text-warm-gray">出典: <a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS（リンクサス）の掲載ページ</a>（中身入りの実績7件（空き瓶の実績は下の「空き瓶・空箱」に分けて掲載））</p>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS（リンクサス）の掲載ページ</a>（中身入りの実績7件（空き瓶の実績は下記の「空き瓶・空箱」に分けて掲載））</p>
 
           <p className="text-sm font-bold mt-6">ファイブニーズ</p>
           <ul className="text-sm"><li>2025年8月31日　700ml　<strong>440,000円</strong></li><li>2025年6月19日　700ml　<strong>470,500円</strong></li><li>2025年1月20日　700ml　<strong>500,000円</strong></li><li>2024年8月20日　観音開き 700ml 箱付き　<strong>680,000円</strong></li><li>2024年8月5日　700ml 箱付き　<strong>600,000円</strong></li><li>2023年12月25日　700ml　<strong>615,000円</strong></li></ul>
@@ -262,7 +262,7 @@ export default function Hibiki30KaitoriPage() {
               <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">バイセル</td><td className="py-2 pr-3">有田焼ボトル</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">〜998,700円</td><td className="py-2 pr-3 text-xs">2025年11月時点（上限の目安・未開封想定）</td><td className="py-2"><a href="https://buysell-kaitori.com/column/liquor-hibiki/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">買取大吉</td><td className="py-2 pr-3">有田焼</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">90万〜120万円</td><td className="py-2 pr-3 text-xs">日付表記なし（記事公開 2025-12-31）。オークション等の買取市場全体で取引された金額と注記</td><td className="py-2"><a href="https://daikichi-kaitori.jp/column/hibiki30nenkaitori/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">買取大吉</td><td className="py-2 pr-3">九谷焼</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">110万円以上</td><td className="py-2 pr-3 text-xs">同上</td><td className="py-2"><a href="https://daikichi-kaitori.jp/column/hibiki30nenkaitori/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">まねきや</td><td className="py-2 pr-3">有田焼</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">900,000〜1,200,000円</td><td className="py-2 pr-3 text-xs">基準日の記載なし（記事公開 2024-12-19）</td><td className="py-2"><a href="https://manekiya.com/alcohol/column/60887" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">まねきや</td><td className="py-2 pr-3">九谷焼（限定ボトル）</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">1,100,000円以上</td><td className="py-2 pr-3 text-xs">同上</td><td className="py-2"><a href="https://manekiya.com/alcohol/column/60887" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr></tbody>
             </table>
           </div>
-          <p>PeatBid が確認した範囲では、LINXAS・ファイブニーズ・サケウル（STOCK LAB）・JOYLAB の響30年のページに陶器ボトルの掲示価格はありませんでした（2026-10-15確認）。上の値はいずれも1年近く前、または基準日のない記事の値で、出品数も少ない品です。ヤフオク中央値（このページの集計）も通常の700mlボトルが対象で、陶器ボトルは含めていません。売る場合は、陶器ボトルを扱った実績のある店で個別に査定を取ってください。</p>
+          <p>PeatBid が確認した範囲では、LINXAS・ファイブニーズ・サケウル（STOCK LAB）・JOYLAB の響30年のページに陶器ボトルの掲示価格はありませんでした（2026-10-15確認）。上記の値はいずれも1年近く前、または基準日のない記事の値で、出品数も少ない品です。ヤフオク中央値（本ページの集計）も通常の700mlボトルが対象で、陶器ボトルは含めていません。売却する場合は、陶器ボトルの取扱実績がある店舗で個別に査定を受けてください。</p>
 
           <h3 id="teika">響30年の定価（メーカー希望小売価格）の推移</h3>
           <div className="overflow-x-auto my-5 not-prose">
@@ -271,19 +271,19 @@ export default function Hibiki30KaitoriPage() {
               <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap">〜2022年3月</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">125,000円</td><td className="py-2 pr-3">響30年 700ml</td><td className="py-2"><a href="https://www.suntory.co.jp/news/article/14030.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">サントリー発表</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap">2022年4月〜2024年3月</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">160,000円</td><td className="py-2 pr-3">2022年4月1日出荷分から改定</td><td className="py-2"><a href="https://www.suntory.co.jp/news/article/14030.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">サントリー発表</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap">2024年4月〜2026年3月</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">360,000円</td><td className="py-2 pr-3">2024年4月1日出荷分から改定</td><td className="py-2"><a href="https://www.suntory.co.jp/news/article/14499.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">サントリー発表</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap">2026年4月〜</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">415,000円</td><td className="py-2 pr-3">2026年4月1日出荷分から改定（発表 2025-11-04 No.14932）</td><td className="py-2"><a href="https://www.suntory.co.jp/news/article/14932.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">サントリー発表</a></td></tr></tbody>
             </table>
           </div>
-          <p>現在の希望小売価格 415,000円（税別）は税込 456,500円です。ヤフオク落札中央値 535,125円 はその <strong>1.17倍</strong>。定価で手に入れたボトルでも、売れば定価を上回る水準で取引されているということです。</p>
+          <p>現在の希望小売価格 415,000円（税別）は税込 456,500円です。ヤフオク落札中央値 535,125円 はその <strong>1.17倍</strong>。二次流通では、定価を上回る水準で取引されています。</p>
 
           <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
 
-          <p>響30年の査定額は、ボトルの状態と付属品の有無により大きく変動します。以下は <strong>業界一般の目安（％）</strong> で、市場相場（Yahoo中央値）を基準とした概算レンジです。**実際の査定額は業者により異なります**ので、最終的な金額は各業者のページからご確認ください。</p>
+          <p>響30年の査定額は、ボトルの状態と付属品の有無により大きく変動します。以下は <strong>業界一般の目安（％）</strong> で、市場相場（Yahoo中央値）を基準とした概算レンジです。<strong>実際の査定額は業者により異なります</strong>ので、最終的な金額は各業者のページでご確認ください。</p>
 
           {/* State condition gallery (5 images) */}
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 my-5 not-prose">
             <div className="text-center">
               <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
-                <Image src="/images/state-perfect.png" alt="未開封・箱付き完璧" fill sizes="200px" className="object-cover" />
+                <Image src="/images/state-perfect.png" alt="未開封・付属品完備" fill sizes="200px" className="object-cover" />
               </div>
-              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>完璧</p>
+              <p className="text-[10px] text-warm-gray mt-1">未開封<br/>付属品完備</p>
             </div>
             <div className="text-center">
               <div className="relative w-full h-24 sm:h-28 rounded-lg overflow-hidden">
@@ -317,7 +317,7 @@ export default function Hibiki30KaitoriPage() {
                 <tr><th>状態</th><th>付属品</th><th>業界目安（市場相場対比）</th><th>概算額（中央値基準）</th></tr>
               </thead>
               <tbody>
-                <tr><td>未開封・完璧</td><td>箱・冊子・カートン揃い</td><td>市場相場の95〜100%程度</td><td><strong>約508,370〜535,120円</strong></td></tr>
+                <tr><td>未開封・付属品完備</td><td>箱・冊子・カートン揃い</td><td>市場相場の95〜100%程度</td><td><strong>約508,370〜535,120円</strong></td></tr>
                 <tr><td>未開封・箱なし</td><td>ラベル良好</td><td>市場相場の80〜90%程度</td><td><strong>約428,100〜481,610円</strong></td></tr>
                 <tr><td>未開封・冊子なし</td><td>外箱あり</td><td>市場相場の85〜95%程度</td><td><strong>約454,860〜508,370円</strong></td></tr>
                 <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td>市場相場の75〜88%程度</td><td><strong>約401,340〜470,910円</strong></td></tr>
@@ -329,7 +329,7 @@ export default function Hibiki30KaitoriPage() {
             </table>
           </div>
 
-          <p>未開封・完璧（箱・冊子・カートン揃い）を基準（100%）として、各状態の業界一般の目安は概ね上記の通りです。概算額は実勢中央値に各％を乗じた<strong>目安</strong>であり、<strong>業者により評価基準が異なる</strong>ため実際の査定額とは差が出ます。査定時には、業者が以下の要素を総合的に判断します:</p>
+          <p>未開封・付属品完備（箱・冊子・カートン揃い）を基準（100%）として、各状態の業界一般の目安は概ね上記の通りです。概算額は実勢中央値に各％を乗じた<strong>目安</strong>であり、<strong>業者により評価基準が異なる</strong>ため実際の査定額とは差が生じます。査定時には、業者が以下の要素を総合的に判断します。</p>
 
           <ul>
             <li>ボトル本体の傷・汚れ</li>
@@ -343,27 +343,27 @@ export default function Hibiki30KaitoriPage() {
 
           <h3 id="hako-nashi-souba">響30年を箱なし・付属品なしで売る場合の買取相場</h3>
 
-          <p>「響30年 買取 箱無し」とお調べの方向けの目安です。未開封・箱なし（ラベル良好）の場合、業界一般の目安は<strong>市場相場の80〜90%程度（約428,100〜481,610円）</strong>。外箱・冊子の揃った完品と比べて1〜2割の減額にとどまるため、<strong>箱がなくても売却を諦める必要はありません</strong>。</p>
+          <p>箱や付属品がない場合の目安です。未開封・箱なし（ラベル良好）の場合、業界一般の目安は<strong>市場相場の80〜90%程度（約428,100〜481,610円）</strong>です。外箱・冊子の揃った完品と比べて1〜2割の減額が目安のため、<strong>箱がない場合でも売却は可能です</strong>。</p>
 
           <ul>
-            <li>減額幅は業者の評価基準によって差が出ます。箱なしの場合こそ<strong>複数業者の相見積もり</strong>が有効です</li>
-            <li>冊子・カートンなど<strong>一部の付属品だけでも残っていれば一緒に査定へ</strong>（部分的でも評価されます）</li>
-            <li>詳しくは<Link href="/articles/hibiki-30-hako-nashi/" className="text-amber-dark hover:underline">響30年は箱なしでも買取してもらえるかの徹底ガイド</Link>をご覧ください</li>
+            <li>減額幅は業者の評価基準によって異なります。箱なしの場合は特に<strong>複数業者での相見積もり</strong>が有効です</li>
+            <li>冊子・カートンなど<strong>一部の付属品が残っている場合は、あわせて査定に出してください</strong>（一部でも評価の対象になります）</li>
+            <li>詳しくは<Link href="/articles/hibiki-30-hako-nashi/" className="text-amber-dark hover:underline">響30年を箱なしで売る場合の解説</Link>をご覧ください</li>
           </ul>
 
-          <h2 id="price-reasons">6. なぜ響30年はこの価格になるのか</h2>
+          <h2 id="price-reasons">6. 響30年の価格を左右する要因</h2>
 
-          <p>響30年の二次流通価格を決定づける主要な要因は5つあります:</p>
+          <p>響30年の二次流通価格を左右する主な要因は、次の5つです。</p>
 
           <ol>
-            <li><strong>海外オークション落札データの動向</strong> — Sotheby's・Bonhams・Whisky Auctioneer等の落札結果が、日本の買取業者の仕入れ価格の基準となっています</li>
-            <li><strong>需給バランスと供給制限</strong> — 30年熟成の長期熟成銘柄は供給量が物理的に限られており、需要拡大に応じて価格が上昇しやすい構造</li>
-            <li><strong>為替レートの影響</strong> — 円安局面では海外バイヤー（アジア富裕層・中華圏コレクター）の購買力が拡大し、国内相場も連動して上昇する傾向</li>
-            <li><strong>サントリーの国際的評価</strong> — World Whiskies Awards、ISC等の品評会受賞歴が国際的需要を支え、長期保有のプレミアにつながる</li>
-            <li><strong>季節要因・贈答需要</strong> — 年末年始・お中元・お歳暮シーズンに需要が高まり、相場が上昇する</li>
+            <li><strong>海外オークション落札データの動向</strong> — Sotheby's・Bonhams・Whisky Auctioneer等の落札結果は、日本の買取業者の仕入れ価格の基準の一つとなっています</li>
+            <li><strong>需給バランスと供給制限</strong> — 30年熟成の銘柄は供給量が限られており、需要が拡大すると価格が上昇しやすい傾向があります</li>
+            <li><strong>為替レートの影響</strong> — 円安の局面では海外の購入者の購買力が高まり、国内相場も連動して上昇する傾向があります</li>
+            <li><strong>サントリーの国際的評価</strong> — World Whiskies Awards、ISC等の品評会での評価は、国際的な需要に影響します</li>
+            <li><strong>季節要因・贈答需要</strong> — 年末年始・お中元・お歳暮の時期に需要が高まり、相場が上昇する傾向があります</li>
           </ol>
 
-          <p>これらの要因を総合的に踏まえると、響30年はウルトラクラスの希少度を持つため、<strong>中長期で見れば価格安定〜上昇基調</strong>が予想されます。短期的な売り急ぎは避け、市場動向を見ながら最適なタイミングで売却するのが合理的です。</p>
+          <p>売却の時期は、上記の要因と市場の動向を確認したうえでご判断ください。将来の価格は保証されるものではありません。</p>
 
           <h2 id="auction">7. オークション落札データ</h2>
 
@@ -372,40 +372,40 @@ export default function Hibiki30KaitoriPage() {
             <div className="absolute inset-0 bg-gradient-to-t from-peat/30 to-transparent" />
           </div>
 
-          <p>海外の主要オークションでは、響30年クラスの銘柄が継続的に取引されています。主要オークションプラットフォームと、それぞれの特徴は以下の通りです:</p>
+          <p>海外の主要オークションでは、響30年と同じ価格帯の銘柄が継続的に取引されています。主なオークションと、それぞれの特徴は以下のとおりです。</p>
 
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>Sotheby's（ニューヨーク・香港・ロンドン）</strong>: 月次〜四半期ごとに開催、プレミアム銘柄中心。<br/><strong>Bonhams（香港・ロンドン）</strong>: 同様にプレミアム銘柄。アジア富裕層が主要バイヤー。<br/><strong>Whisky Auctioneer（UK）</strong>: 月次オンラインオークション、中位銘柄まで幅広く扱う。<br/><strong>Just Whisky Auctions（UK）</strong>: 月次開催、コレクター向け。<br/><strong>Whisky Hammer（UK）</strong>: 月次オンライン、新興プレイヤー。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>Sotheby's（ニューヨーク・香港・ロンドン）</strong>: 月次〜四半期ごとに開催され、高額銘柄が中心です。<br/><strong>Bonhams（香港・ロンドン）</strong>: 高額銘柄が中心です。<br/><strong>Whisky Auctioneer（UK）</strong>: 月次のオンラインオークションで、中価格帯の銘柄まで幅広く扱っています。<br/><strong>Just Whisky Auctions（UK）</strong>: 月次で開催されています。<br/><strong>Whisky Hammer（UK）</strong>: 月次のオンラインオークションです。</p>` }} />
 
-          <p>これらのオークションの落札データは、各サイトの「Past Results」アーカイブで閲覧可能です。日本の買取業者の査定額は、これらの海外データを基準に、輸送コスト・関税・業者マージンを考慮して算出されています。</p>
+          <p>これらのオークションの落札データは、各サイトの「Past Results」で閲覧できます。日本の買取業者の査定額は、海外の落札データに加え、輸送コスト・関税・業者の利益を考慮して算出されるのが一般的です。</p>
 
-          <p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 時点の響30年は <strong>549,503円</strong>（n=72）、最新の 2026-10-12 は <strong>535,125円</strong>（n=124）で、この間の変化は <strong>-2.6%</strong> です（出典: PeatBid 集計・<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">算出方法</Link>）。集計期間が21週分のため、数年単位の値動きはこのデータからは言えません。</p>
+          <p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 時点の響30年は <strong>549,503円</strong>（n=72）、最新の 2026-10-12 は <strong>535,125円</strong>（n=124）で、この間の変化は <strong>-2.6%</strong> です（出典: PeatBid 集計・<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">算出方法</Link>）。集計期間が21週分のため、数年単位の値動きについては、このデータからは判断できません。</p>
 
 
-          <h2 id="takaku-uru">8. 響30年を高く売る7つの実践テクニック</h2>
+          <h2 id="takaku-uru">8. 響30年を高く売るための7つのポイント</h2>
 
           <ol>
-            <li><strong>外箱・冊子・カートンを必ず揃える</strong> — 付属品の有無で査定額が10〜20%変動。シミ・破れがあると更に評価減</li>
-            <li><strong>未開封の状態を維持する</strong> — 開封済みは査定額が大幅減（20〜40%）。コレクション目的なら絶対に開けない</li>
-            <li><strong>複数業者で相見積もり</strong> — 同じボトルでも業者により数万〜数十万円の差。ヒカカク等の一括査定+専門店個別査定の組み合わせが鉄則</li>
-            <li><strong>適切な保管環境を維持</strong> — 直射日光・蛍光灯を避け、室温15〜20℃で縦置き保管。湿度・温度の急激な変化はNG</li>
-            <li><strong>売却タイミングを見極める</strong> — 年末年始・お中元・お歳暮シーズンが高値傾向。海外オークション結果直後も相場上昇のチャンス</li>
-            <li><strong>ボトリング年代を業者に伝える</strong> — 古いラベル・ロット番号は希少価値が乗ることがある</li>
-            <li><strong>状態を写真で記録</strong> — 事前に複数角度から撮影し、業者比較・トラブル防止に活用</li>
+            <li><strong>外箱・冊子・カートンを揃える</strong> — 付属品の有無により、査定額が10〜20%変動する場合があります。シミ・破れがあると、さらに評価が下がります</li>
+            <li><strong>未開封の状態を保つ</strong> — 開封済みの場合、査定額は大幅に下がります（20〜40%）。コレクション目的の場合は開栓しないことをおすすめします</li>
+            <li><strong>複数の業者で相見積もりを取る</strong> — 同じボトルでも、業者により数万〜数十万円の差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です</li>
+            <li><strong>適切な保管環境を保つ</strong> — 直射日光・蛍光灯を避け、室温15〜20℃で縦置きで保管してください。湿度・温度の急激な変化は避けてください</li>
+            <li><strong>売却の時期を検討する</strong> — 年末年始・お中元・お歳暮の時期は高値の傾向があります。海外オークションの結果が出た直後も、相場が上昇しやすい時期です</li>
+            <li><strong>ボトリングの年代を業者に伝える</strong> — 古いラベル・ロット番号は、希少価値として評価される場合があります</li>
+            <li><strong>状態を写真で記録する</strong> — 事前に複数の角度から撮影しておくと、業者の比較やトラブルの防止に役立ちます</li>
           </ol>
 
           <h2 id="fake">9. 響30年の偽物・贋作の見分け方</h2>
 
-          <p>響30年のような流通価値のある銘柄では、贋作・偽造ボトルのリスクが存在します。本物を見抜くには以下の5つのチェックが有効です:</p>
+          <p>響30年のような取引価格の高い銘柄には、贋作・偽造ボトルのリスクがあります。真贋の確認には、以下の5点のチェックが有効です。</p>
 
           <ol>
-            <li><strong>ラベルの印刷品質</strong> — 正規品は文字が鮮明で色ズレなし。贋作はにじみ・かすれ・フォント違いが見られる</li>
-            <li><strong>キャップ・封蝋・ホログラム</strong> — サントリー山崎・響等はホログラムシール付き。贋作は光の反射が不均一</li>
-            <li><strong>液色と液面の状態</strong> — 本物は均一な琥珀色（透明感あり）。贋作は色ムラ・濁り・沈殿物</li>
-            <li><strong>瓶の形状と底面刻印</strong> — 正規品は底面にロット番号・製造所コードあり。贋作は刻印なし or 不自然</li>
-            <li><strong>購入経路の信頼性</strong> — 正規流通店・大手買取業者・海外オークション経由は信頼度高。個人間取引（メルカリ・ヤフオク）は要注意</li>
+            <li><strong>ラベルの印刷品質</strong> — 正規品は文字が鮮明で、色ずれがありません。贋作では、にじみ・かすれ・書体の違いが見られます</li>
+            <li><strong>キャップ・封蝋・ホログラム</strong> — サントリーの山崎・響等にはホログラムシールが貼付されています。贋作では光の反射が不均一な場合があります</li>
+            <li><strong>液色と液面の状態</strong> — 正規品は均一な琥珀色で、透明感があります。贋作では色むら・濁り・沈殿物が見られる場合があります</li>
+            <li><strong>瓶の形状と底面の刻印</strong> — 正規品は底面にロット番号・製造所コードがあります。贋作では刻印がない、または不自然な場合があります</li>
+            <li><strong>購入経路の信頼性</strong> — 正規流通店・大手買取業者・海外オークションで購入したものは信頼性が高いと考えられます。個人間取引（メルカリ・ヤフオク）で購入したものは注意が必要です</li>
           </ol>
 
-          <p>怪しいと思ったら、お酒買取の専門店で**鑑定査定**を依頼するのが最も確実です。専門業者は本物・贋作の判定経験が豊富で、無料で見抜いてくれます。</p>
+          <p>疑わしい場合は、お酒の買取専門店に<strong>鑑定査定</strong>を依頼することをおすすめします。</p>
 
           <h3 id="shinkyu">響30年の新型（現行）と旧型（金色の観音開き箱）の見分け方</h3>
           <div className="overflow-x-auto my-5 not-prose">
@@ -415,13 +415,13 @@ export default function Hibiki30KaitoriPage() {
             </table>
           </div>
           <p className="text-sm font-bold">ホログラムシールの有無について</p>
-          <p>サントリー広報は、偽造防止対策として「高酒齢」商品にホログラムシールを貼っていることを認めており、シール付きの製品は2022年2月以降に出荷されています（J-CAST ニュース 2022-06-17。対象に響30年を含む）。</p><p>さらにサントリーは2024年2月29日、複製や再貼付が難しい特殊加工のホログラムシールを「開封口」と「ボトル背面」の2か所に付けると発表しました。対象は響21年・響30年と山崎・白州の12/18/25年で、2024年3月製造分から。順次の切り替えのため、シールの無い商品もしばらく流通するとしています（グルメ Watch 2024-02-29）。</p><p>つまり、現行ボトルでもシールの無いものは正規に存在します。シールが無いことだけで偽物とは判断できず、LINXAS・サケウルが「ホログラム有り／無し」で別の価格を掲示しているのはこの違いです。</p>
+          <p>サントリー広報は、偽造防止対策として「高酒齢」商品にホログラムシールを貼っていることを認めており、シール付きの製品は2022年2月以降に出荷されています（J-CAST ニュース 2022-06-17。対象に響30年を含む）。</p><p>さらにサントリーは2024年2月29日、複製や再貼付が難しい特殊加工のホログラムシールを「開封口」と「ボトル背面」の2か所に付けると発表しました。対象は響21年・響30年と山崎・白州の12/18/25年で、2024年3月製造分から。順次切り替えるため、シールのない商品も当面流通するとしています（グルメ Watch 2024-02-29）。</p><p>このため、現行ボトルでもシールのない正規品があります。シールがないことだけで偽物とは判断できず、LINXAS・サケウルが「ホログラム有り／無し」で別の価格を掲示しているのはこの違いです。</p>
           <p className="text-[11px] text-warm-gray">出典: <a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS</a>・<a href="https://www.sakekaitori.com/whisky/japanese_whiskey/hibiki_brand/hibiki30/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">ファイブニーズ</a>・<a href="https://buysell-kaitori.com/column/liquor-hibiki/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">バイセル</a>・<a href="https://daikichi-kaitori.jp/column/hibiki30nenkaitori/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">買取大吉</a>の各ページ（2026-10-15確認）、<a href="https://www.j-cast.com/trend/2022/06/17439568.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">J-CAST ニュース（2022-06-17）</a>・<a href="https://gourmet.watch.impress.co.jp/docs/news/1572716.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">グルメ Watch（2024-02-29）</a></p>
-          <p>上の特徴は、各店の説明文とサントリーの発表をもとに文章でまとめたものです（画像は転載していません）。花鳥風月はラベルの無いクリスタルボトルに彫刻を施した免税店向けの限定品（LINXAS・まねきや）で、上の新旧どちらとも別に査定されます。</p>
+          <p>上記の特徴は、各店の説明文とサントリーの発表をもとにまとめたものです（画像は転載していません）。花鳥風月はラベルのないクリスタルボトルに彫刻を施した免税店向けの限定品（LINXAS・まねきや）で、上記の新型・旧型とは別に査定されます。</p>
 
           <h2 id="partners">10. おすすめ買取業者3社の詳細レビュー</h2>
 
-          <p>PeatBid編集部が響30年クラスの銘柄に強い買取業者を厳選しました。それぞれ得意領域が異なるため、目的別に使い分けるのがコツです。</p>
+          <p>PeatBid編集部が、響30年と同じ価格帯の銘柄に対応している買取業者を選定しました。それぞれ得意とする領域が異なるため、目的に応じてご利用ください。</p>
 
           {/* Comparison table */}
           <div className="table-wrapper not-prose mb-6">
@@ -445,13 +445,13 @@ export default function Hibiki30KaitoriPage() {
 
           {/* Decision flowchart */}
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-6 not-prose">
-            <p className="font-bold text-base mb-3 text-ink">🎯 どの業者を選ぶべきか</p>
+            <p className="font-bold text-base mb-3 text-ink">目的別の業者の選び方</p>
             <ul className="space-y-2 text-sm text-ink/85">
-              <li>✓ <strong>最高値を狙いたい</strong> → まずヒカカクで一括査定し、専門店で個別査定して比較</li>
-              <li>✓ <strong>急いで現金化したい</strong> → バイセルの店頭買取（即日現金化）</li>
-              <li>✓ <strong>地方在住・宅配で完結したい</strong> → リカスタの宅配買取</li>
-              <li>✓ <strong>希少銘柄を専門家に見てほしい</strong> → お酒買取専門店の個別査定</li>
-              <li>✓ <strong>大手の安心感を優先</strong> → バイセル（東証グロース上場）</li>
+              <li>✓ <strong>複数社の査定額を比較したい</strong> → ヒカカク！で一括査定を依頼し、専門店の個別査定と比較</li>
+              <li>✓ <strong>早く現金化したい</strong> → バイセルの出張買取（最短即日の訪問）</li>
+              <li>✓ <strong>地方にお住まいの方・宅配で売却したい方</strong> → リカスタの宅配買取</li>
+              <li>✓ <strong>希少銘柄を専門家に査定してほしい</strong> → お酒の買取専門店の個別査定</li>
+              <li>✓ <strong>大手の業者に依頼したい</strong> → バイセル（東証グロース上場）</li>
             </ul>
           </div>
 
@@ -461,53 +461,53 @@ export default function Hibiki30KaitoriPage() {
               <h3 className="font-display text-xl font-semibold text-ink !border-l-0 !pl-0 !mt-0">1位: ヒカカク！</h3>
               <span className="text-xs text-amber-dark tracking-wider">一括査定</span>
             </div>
-            <div dangerouslySetInnerHTML={{ __html: `<p>ヒカカク！は最大20社の買取業者へ一括で見積もりを依頼できる比較プラットフォーム。希少銘柄ほど業者間の査定差が大きく、まず<strong>相場感を把握する</strong>目的で最適です。</p>` }} />
+            <div dangerouslySetInnerHTML={{ __html: `<p>ヒカカク！は、最大20社の買取業者に一括で見積もりを依頼できる比較サービスです。希少銘柄ほど業者間の査定差が大きくなるため、<strong>相場の把握</strong>を目的とした利用に適しています。</p>` }} />
             <p className="text-sm font-bold mt-3 mb-2 text-ink">主な強み</p>
-            <ul className="text-sm text-warm-gray list-disc list-inside"><li>最大20社から一括査定（公式）</li><li>査定は完全無料・納得できなければ買取依頼しなくてOK</li><li>ウイスキー・洋酒・ブランデー対応</li></ul>
-            <div dangerouslySetInnerHTML={{ __html: `<p>こんな人におすすめ: <strong>最高値を狙いたい方</strong> / 初めての方</p>` }} className="mt-2 text-sm" />
-            <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta inline-block mt-3 px-5 py-2 rounded-lg text-sm">ヒカカク！で無料査定する →</a>
+            <ul className="text-sm text-warm-gray list-disc list-inside"><li>最大20社から一括査定（公式）</li><li>査定は無料で、査定額に納得できない場合は買取を依頼する必要はありません</li><li>ウイスキー・洋酒・ブランデーに対応</li></ul>
+            <div dangerouslySetInnerHTML={{ __html: `<p>おすすめの方: <strong>複数社の査定額を比較したい方</strong> / 初めて売却する方</p>` }} className="mt-2 text-sm" />
+            <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta inline-block mt-3 px-5 py-2 rounded-lg text-sm">ヒカカク！の無料査定を申し込む →</a>
           </div>
           <div className="bg-white border border-warm-border rounded-xl p-5 mb-4">
             <div className="flex items-baseline justify-between mb-2">
               <h3 className="font-display text-xl font-semibold text-ink !border-l-0 !pl-0 !mt-0">2位: バイセル</h3>
               <span className="text-xs text-amber-dark tracking-wider">出張/店頭/宅配</span>
             </div>
-            <div dangerouslySetInnerHTML={{ __html: `<p>東証グロース上場のBuySell Technologiesが運営。累計買取点数4,800万点以上（2015〜2025年の合計・公式）の大手で、お酒・ウイスキー買取に注力中。<strong>信頼性とスピードを両立</strong>したい場合に最適です。</p>` }} />
+            <div dangerouslySetInnerHTML={{ __html: `<p>東証グロース上場のBuySell Technologiesが運営。累計買取点数4,800万点以上（2015〜2025年の合計・公式）の買取大手で、お酒・ウイスキーの買取に対応しています。<strong>大手の業者に出張買取を依頼したい場合</strong>に適しています。</p>` }} />
             <p className="text-sm font-bold mt-3 mb-2 text-ink">主な強み</p>
-            <ul className="text-sm text-warm-gray list-disc list-inside"><li>東証グロース上場で社会的信頼性◎</li><li>3チャネル対応（出張・店頭・宅配）</li><li>CMでも知名度抜群</li></ul>
-            <div dangerouslySetInnerHTML={{ __html: `<p>こんな人におすすめ: <strong>信頼性とスピード</strong>を両立したい方</p>` }} className="mt-2 text-sm" />
-            <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta inline-block mt-3 px-5 py-2 rounded-lg text-sm">バイセルで無料査定する →</a>
+            <ul className="text-sm text-warm-gray list-disc list-inside"><li>東証グロース上場企業が運営</li><li>出張・店頭・宅配の3つの方式に対応</li><li>テレビCMを放映している大手</li></ul>
+            <div dangerouslySetInnerHTML={{ __html: `<p>おすすめの方: <strong>大手の業者に依頼したい方</strong></p>` }} className="mt-2 text-sm" />
+            <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta inline-block mt-3 px-5 py-2 rounded-lg text-sm">バイセルの無料査定を申し込む →</a>
           </div>
           <div className="bg-white border border-warm-border rounded-xl p-5 mb-4">
             <div className="flex items-baseline justify-between mb-2">
               <h3 className="font-display text-xl font-semibold text-ink !border-l-0 !pl-0 !mt-0">3位: リカスタ</h3>
               <span className="text-xs text-amber-dark tracking-wider">宅配/出張/店頭</span>
             </div>
-            <div dangerouslySetInnerHTML={{ __html: `<p>全国対応の宅配買取サービス。<strong>店舗に行く時間がない方・地方在住の方</strong>に最適。査定無料・キャンセル無料で気軽に試せます。</p>` }} />
+            <div dangerouslySetInnerHTML={{ __html: `<p>宅配・出張・店頭で買取を受け付けているお酒の買取サービスです。<strong>店舗に行く時間がない方・地方にお住まいの方</strong>に適しています。査定料・キャンセル料は無料です。</p>` }} />
             <p className="text-sm font-bold mt-3 mb-2 text-ink">主な強み</p>
-            <ul className="text-sm text-warm-gray list-disc list-inside"><li>全国対応の宅配買取</li><li>査定無料・キャンセル無料</li><li>送料・梱包キット無料</li></ul>
-            <div dangerouslySetInnerHTML={{ __html: `<p>こんな人におすすめ: <strong>宅配で完結したい方</strong> / 地方在住の方</p>` }} className="mt-2 text-sm" />
-            <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta inline-block mt-3 px-5 py-2 rounded-lg text-sm">リカスタで無料査定する →</a>
+            <ul className="text-sm text-warm-gray list-disc list-inside"><li>全国から宅配買取を受付</li><li>査定料・キャンセル料は無料</li><li>送料・梱包キットは無料</li></ul>
+            <div dangerouslySetInnerHTML={{ __html: `<p>おすすめの方: <strong>宅配で売却したい方</strong> / 地方にお住まいの方</p>` }} className="mt-2 text-sm" />
+            <a href="https://www.licasta.com/" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta inline-block mt-3 px-5 py-2 rounded-lg text-sm">リカスタの無料査定を申し込む →</a>
           </div>
           </div>
 
           <h2 id="process">11. 売却プロセス5ステップ</h2>
 
-          <p>響30年を売却する際の標準的なプロセスを5ステップでまとめました:</p>
+          <p>響30年を売却する際の標準的な流れを、5つのステップにまとめました。</p>
 
           <ol>
-            <li><strong>状態確認・付属品準備</strong> — ボトル本体の状態を確認し、外箱・冊子・カートン等の付属品を揃える</li>
-            <li><strong>事前相場リサーチ</strong> — PeatBidなどで現在の相場を確認し、自分のボトルの目安価格を把握</li>
-            <li><strong>複数業者で見積もり依頼</strong> — ヒカカク！の一括査定で3〜5社、お酒買取の専門店に個別で2〜3社、計5〜8社で見積もり取得</li>
-            <li><strong>査定額比較・業者選定</strong> — 最高値だけでなく、手数料・キャンセル料・送料・支払い方法を総合判断</li>
-            <li><strong>売却契約・入金確認</strong> — 売却契約後、店頭買取なら即日現金、宅配買取なら1〜3営業日で銀行振込</li>
+            <li><strong>状態確認・付属品の準備</strong> — ボトル本体の状態を確認し、外箱・冊子・カートン等の付属品を揃えます</li>
+            <li><strong>相場の確認</strong> — 当サイトなどで現在の相場を確認し、お持ちのボトルの目安価格を把握します</li>
+            <li><strong>複数の業者への見積もり依頼</strong> — ヒカカク！の一括査定で3〜5社、お酒の買取専門店に個別で2〜3社、合計5〜8社から見積もりを取得します</li>
+            <li><strong>査定額の比較・業者の選定</strong> — 査定額だけでなく、手数料・キャンセル料・送料・支払い方法を含めて判断します</li>
+            <li><strong>売却契約・入金の確認</strong> — 売却契約後、店頭買取では即日現金、宅配買取では1〜3営業日での銀行振込が一般的です</li>
           </ol>
 
-          <p>このプロセス全体で<strong>1〜2週間</strong>を見込めば、最適なタイミングで売却できます。</p>
+          <p>全体の所要期間は<strong>1〜2週間</strong>が目安です。</p>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
-            <h3 className="font-bold text-base mb-3 text-center">響30年の無料一括査定はこちら</h3>
-            <p className="text-sm text-warm-gray text-center mb-4">複数業者の入札を比較して、最高値を引き出しましょう。査定無料・キャンセル無料。</p>
+            <h3 className="font-bold text-base mb-3 text-center">響30年の無料一括査定のご案内</h3>
+            <p className="text-sm text-warm-gray text-center mb-4">複数の業者の査定額を比較できます。査定料・キャンセル料は無料です。</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="amber-cta block text-center text-sm py-3 rounded-lg">ヒカカク！で一括査定</a>
               <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-peat text-cream text-center text-sm font-bold py-3 rounded-lg hover:bg-peat-light transition-colors">バイセルで売却</a>
@@ -515,29 +515,29 @@ export default function Hibiki30KaitoriPage() {
             </div>
           </div>
 
-          <h3 id="akibin">響30年の空き瓶・空箱は売れる？</h3>
-          <p>売れる店があります。LINXAS（リンクサス）は響30年の空き瓶の買取実績を公開しており、次の7件が載っています。</p>
+          <h3 id="akibin">響30年の空き瓶・空箱の買取</h3>
+          <p>空き瓶の買取に対応している店舗があります。LINXAS（リンクサス）は響30年の空き瓶の買取実績を公開しており、次の7件が掲載されています。</p>
           <ul className="text-sm"><li>2025年9月5日　空き瓶　<strong>2,500円</strong></li><li>2024年7月7日　空き瓶　<strong>2,500円</strong></li><li>2024年3月22日　箱なし 空き瓶　<strong>2,500円</strong></li><li>2023年10月5日　箱付き（空き瓶）　<strong>12,000円</strong></li><li>2023年10月3日　【空き瓶】観音開き　<strong>8,000円</strong></li><li>2022年9月22日　観音 空瓶　<strong>20,000円</strong></li><li>2022年3月10日　空き瓶 完備　<strong>8,000円</strong></li></ul>
           <p className="text-[11px] text-warm-gray">出典: <a href="https://linxas.shop/whiskey/hibiki/hibiki30years/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS（リンクサス）の掲載ページ</a>（空き瓶の実績をすべて転記・2026年10月15日確認）</p>
           <p>買取大吉は、中身が空でも「数千～数万円と高値で取引されています」とし、理由にボトルがカガミクリスタル製であること、ボトルだけを集めるコレクターがいること、箱や冊子を後から揃えたい需要を挙げています（記事公開 2025-12-31）。（出典: <a href="https://daikichi-kaitori.jp/column/hibiki30nenkaitori/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">買取大吉</a>）</p>
-          <p>一方で、バイセルの同じ記事は開封済みの響を「基本的に買取が難しい」としており、空き瓶・空箱を買い取るかどうかは店によって違います。空き瓶を売るなら、LINXAS のように空き瓶の実績を公開している店に、箱・冊子の有無と瓶の状態（キャップ・ラベル）を伝えて事前に確認してください。</p>
+          <p>一方で、バイセルの同じ記事は開封済みの響を「基本的に買取が難しい」としており、空き瓶・空箱を買い取るかどうかは店舗によって異なります。空き瓶を売却する場合は、LINXAS のように空き瓶の実績を公開している店に、箱・冊子の有無と瓶の状態（キャップ・ラベル）を伝えて事前に確認してください。</p>
 
           <h3 id="zeikin">響30年を売ったときの税金</h3>
           <p>国税庁のタックスアンサー <a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3105.htm" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">No.3105 譲渡所得の対象となる資産と課税方法</a> は、「家具、じゅう器、通勤用の自動車、衣服などの生活に通常必要な動産の譲渡による所得」を課税しない所得としたうえで、「ただし、貴金属や宝石、書画、骨とうなどで、1個または1組の価額が30万円を超えるものの譲渡による所得は除きます」としています（令和8年4月1日現在法令等）。</p>
-          <p>ウイスキーがこの「書画、骨とうなど」に当たるかは同ページに書かれていません。ただ、響30年は1本で30万円を超える価格で取引されている（このページの店舗掲示価格・ヤフオク中央値）ため、「生活用品の売却だから非課税」と決めつけず、課税される前提で計算しておくのが安全です。</p>
+          <p>ウイスキーがこの「書画、骨とうなど」に当たるかは、同ページには記載されていません。ただし、響30年は1本で30万円を超える価格で取引されている（本ページの店舗掲示価格・ヤフオク中央値）ため、生活用動産として非課税になると判断せず、課税される前提で計算しておくことをおすすめします。</p>
           <p>課税される場合は総合課税の譲渡所得で、計算は次のとおりです（<a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3152.htm" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">No.3152 譲渡所得の計算のしかた（総合課税）</a>）。</p>
           <ul>
             <li>譲渡所得の金額 ＝ 譲渡価額 −（取得費 ＋ 譲渡費用）− 50万円（特別控除。その年の譲渡益の合計から差し引く）</li>
-            <li>持っていた期間が5年以内なら短期（全額が課税対象）、5年を超えれば長期（半分だけが課税対象）</li>
+            <li>保有期間が5年以内の場合は短期（全額が課税対象）、5年を超える場合は長期（2分の1が課税対象）</li>
           </ul>
-          <p>会社員で給与を1か所から受けている人は、給与所得・退職所得以外の所得の合計が20万円を超えると確定申告が必要です（<a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">No.1900 給与所得者で確定申告が必要な人</a>）。</p>
-          <p>計算例（仮定の数字）: 定価125,000円（税別・2022年3月まで）の響30年を税込137,500円で買って5年を超えて持ち、530,000円で1本売った（譲渡費用0円）場合、譲渡益は392,500円で、特別控除50万円の範囲に収まるため譲渡所得は0円です。同じ年にほかの高額品も売った場合は合計で判定します。購入時のレシートなど取得費が分かる資料は保管しておいてください。</p>
-          <p>相続したボトルや、繰り返し売買している場合などは扱いが変わることがあります。くわしくは <Link href="/articles/whisky-kaitori-zeikin/" className="text-amber-dark underline hover:text-burgundy">ウイスキー買取の税金</Link> の記事にまとめています。個別の判断は税務署・税理士に確認してください。</p>
+          <p>給与を1か所から受けている会社員の方は、給与所得・退職所得以外の所得の合計が20万円を超えると確定申告が必要です（<a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">No.1900 給与所得者で確定申告が必要な人</a>）。</p>
+          <p>計算例（仮定の数字）: 定価125,000円（税別・2022年3月まで）の響30年を税込137,500円で買って5年を超えて持ち、530,000円で1本売った（譲渡費用0円）場合、譲渡益は392,500円で、特別控除50万円の範囲に収まるため譲渡所得は0円です。同じ年にほかの高額品も売却した場合は、合計で判定します。購入時のレシートなど、取得費が分かる資料は保管しておいてください。</p>
+          <p>相続したボトルや、繰り返し売買している場合などは、扱いが異なることがあります。詳しくは <Link href="/articles/whisky-kaitori-zeikin/" className="text-amber-dark underline hover:text-burgundy">ウイスキー買取の税金</Link> の記事で解説しています。個別の判断については、税務署・税理士にご確認ください。</p>
 
           <h2 id="faq">12. 響30年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '響30年の市場相場はいくらですか？', a: '響30年の市場相場は535,125円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=124、取得日 2026-10-12）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: '響30年の買取価格はお店によって違いますか？', a: '違います。2026-10-15 に各店の公開ページで確認した掲示価格は、LINXAS（リンクサス） 530,000円（響30年 新型 ホログラム緑シール付き・2026-09-30更新）、ファイブニーズ 527,000円（響30年 700ml・2026-09-30更新）、サケウル（STOCK LAB） 475,000〜476,000円（響30年 ホログラムシールあり・2026-10-15更新）でした。ボトルの仕様や付属品、店の在庫状況でも変わるため、売る前に複数の店で査定を取って比べてください。' }, { q: '響30年を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数業者で相見積もりを取る、(4)直射日光を避け縦置き保管、(5)売却タイミングを年末年始・お中元シーズンに合わせる、の5つが基本です。' }, { q: '響30年の開封済みでも買取できますか？', a: 'はい、可能です。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅減額となる傾向があります（業者により評価基準が異なります）。蓋がしっかり閉まっており、ラベル・付属品の状態が良好であれば、より高い査定が期待できます。実際の査定額は各業者ページでご確認ください。' }, { q: '響30年は箱無しでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約428,100〜481,610円）で、完品と比べ1〜2割の減額にとどまります。冊子やカートンが部分的に残っている場合は一緒に査定に出すと評価されます。減額幅は業者により異なるため、箱なしの場合こそ複数社の相見積もりがおすすめです。' }, { q: '響30年に偽物・贋作はありますか？', a: '高額銘柄ほど贋作リスクが高まります。**ラベル印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5要素で本物・偽物を判断します。怪しい場合はお酒買取の専門知識を持つ業者で鑑定査定を依頼してください。' }, { q: '響30年の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃で湿度50〜70%、(3)縦置きで保管（横置きはコルク劣化）、(4)外箱に入れて保管、(5)振動の少ない場所で。長期保有の場合、ボトル保険の加入も検討に値します。' }, { q: '響30年は税金がかかりますか？', a: 'かかる場合があります。国税庁（タックスアンサー No.3105）は、家具・衣服など生活に通常必要な動産の売却は課税しないとする一方、「貴金属や宝石、書画、骨とうなどで、1個または1組の価額が30万円を超えるもの」は除くとしています。ウイスキーがこの「書画、骨とうなど」に当たるかは同ページに書かれていませんが、響30年は1本で30万円を超えて取引されるため、非課税と決めつけず確認が必要です。課税される場合は総合課税の譲渡所得で、売却額−(取得費＋譲渡費用)から特別控除50万円（その年の譲渡益の合計から）を引き、5年を超えて持っていた分は半分だけが課税対象です（No.3152）。会社員（給与1か所）は給与・退職所得以外の所得の合計が20万円を超えると確定申告が必要です（No.1900）。個別の判断は税務署・税理士にご確認ください。' }, { q: '響30年の空き瓶や空箱だけでも売れますか？', a: '店によります。LINXAS は響30年の空き瓶の買取実績を公開しており、2022-03-10〜2025-09-05 の7件で 2,500円〜20,000円でした（観音開きの空き瓶 20,000円、箱付きの空き瓶 12,000円など）。一方、バイセルは開封済みの響は基本的に買取が難しいとしています。空き瓶の実績を公開している店に事前に確認してください。' }, { q: '響30年の有田焼・九谷焼ボトルはいくらですか？', a: '陶器ボトルは通常のボトルと別の限定品で、バイセルは有田焼ボトルを〜998,700円（2025年11月時点の上限目安）、買取大吉は有田焼90万〜120万円・九谷焼110万円以上（日付表記なし・記事公開2025-12-31）としています。専門店の響30年ページには陶器ボトルの掲示価格が無く、時点の古い値なので、個別に査定を取ってください。' }, { q: '響30年を売るタイミングはいつがベスト？', a: "需要が高まる**年末年始・お中元・お歳暮シーズン**が高値傾向。海外オークション（Sotheby's等）の落札結果が反映された直後も価格上昇のチャンスです。また、終売・休売報道直後はプレミアが急上昇する局面もあります。" }, { q: '響30年と他の銘柄、どっちを先に売るべき？', a: '市場流動性・価格安定性・自身の保有目的を総合的に判断。希少度が高い銘柄ほど長期保有でプレミアが乗る傾向があるため、**急ぎでなければ希少銘柄は保有継続、流通量の多い銘柄から先に売却**するのが一つの戦略です。' }].map((faq) => (
+            {[{ q: '響30年の市場相場はいくらですか？', a: '響30年の市場相場は535,125円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=124、取得日 2026-10-12）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: '響30年の買取価格は店舗によって異なりますか？', a: '異なります。2026-10-15 に各店の公開ページで確認した掲示価格は、LINXAS（リンクサス） 530,000円（響30年 新型 ホログラム緑シール付き・2026-09-30更新）、ファイブニーズ 527,000円（響30年 700ml・2026-09-30更新）、サケウル（STOCK LAB） 475,000〜476,000円（響30年 ホログラムシールあり・2026-10-15更新）でした。ボトルの仕様や付属品、店舗の在庫状況によっても変わるため、売却前に複数の店舗で査定を受けて比較してください。' }, { q: '響30年を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' }, { q: '響30年の開封済みでも買取できますか？', a: 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' }, { q: '響30年は箱なしでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約428,100〜481,610円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' }, { q: '響30年に偽物・贋作はありますか？', a: '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' }, { q: '響30年の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' }, { q: '響30年は税金がかかりますか？', a: 'かかる場合があります。国税庁（タックスアンサー No.3105）は、家具・衣服など生活に通常必要な動産の売却は課税しないとする一方、「貴金属や宝石、書画、骨とうなどで、1個または1組の価額が30万円を超えるもの」は除くとしています。ウイスキーがこの「書画、骨とうなど」に当たるかは同ページに記載されていませんが、響30年は1本で30万円を超えて取引されるため、非課税と判断せず確認が必要です。課税される場合は総合課税の譲渡所得で、売却額−(取得費＋譲渡費用)から特別控除50万円（その年の譲渡益の合計から）を引き、保有期間が5年を超える場合は2分の1が課税対象です（No.3152）。給与を1か所から受けている会社員の方は給与・退職所得以外の所得の合計が20万円を超えると確定申告が必要です（No.1900）。個別の判断は税務署・税理士にご確認ください。' }, { q: '響30年の空き瓶や空箱だけでも売れますか？', a: '店舗により異なります。LINXAS は響30年の空き瓶の買取実績を公開しており、2022-03-10〜2025-09-05 の7件で 2,500円〜20,000円でした（観音開きの空き瓶 20,000円、箱付きの空き瓶 12,000円など）。一方、バイセルは開封済みの響は基本的に買取が難しいとしています。空き瓶の実績を公開している店に事前に確認してください。' }, { q: '響30年の有田焼・九谷焼ボトルはいくらですか？', a: '陶器ボトルは通常のボトルと別の限定品で、バイセルは有田焼ボトルを〜998,700円（2025年11月時点の上限目安）、買取大吉は有田焼90万〜120万円・九谷焼110万円以上（日付表記なし・記事公開2025-12-31）としています。専門店の響30年のページには陶器ボトルの掲示価格がなく、上記は時点の古い値のため、個別に査定を受けてください。' }, { q: '響30年を売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" }, { q: '響30年と他の銘柄は、どちらを先に売るべきですか？', a: '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -550,19 +550,19 @@ export default function Hibiki30KaitoriPage() {
             ))}
           </div>
 
-          <h2>響30年の他の切り口で読む</h2>
-          <p>響30年についてさらに詳しく知りたい方は、以下の切り口別解説も合わせてご覧ください。</p>
+          <h2>響30年に関するその他の解説</h2>
+          <p>響30年に関するテーマ別の解説は、以下のページをご覧ください。</p>
           <ul>
-              <li><Link href="/articles/hibiki-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">響（全種）の偽物の見分け方・真贋ハブ</Link></li>
+              <li><Link href="/articles/hibiki-nisemono-mikata/" className="text-amber-dark hover:underline font-bold">響（全種）の偽物の見分け方</Link></li>
               <li><Link href="/articles/hibiki-30-takaku-uru/" className="text-amber-dark hover:underline">響30年の高く売る方法</Link></li>
               <li><Link href="/articles/hibiki-30-nisemono-mikata/" className="text-amber-dark hover:underline">響30年の偽物の見分け方</Link></li>
               <li><Link href="/articles/hibiki-30-ranking/" className="text-amber-dark hover:underline">響30年の買取業者ランキング</Link></li>
               <li><Link href="/articles/hibiki-30-rekishi/" className="text-amber-dark hover:underline">響30年の歴史と特徴</Link></li>
               <li><Link href="/articles/hibiki-30-kihaku/" className="text-amber-dark hover:underline">響30年の希少性・投資価値</Link></li>
               <li><Link href="/articles/hibiki-30-auction-suii/" className="text-amber-dark hover:underline">響30年のオークション推移</Link></li>
-              <li><Link href="/articles/hibiki-30-kaifu-zumi/" className="text-amber-dark hover:underline">響30年の開封済みでも売れる</Link></li>
-              <li><Link href="/articles/hibiki-30-hako-nashi/" className="text-amber-dark hover:underline">響30年の箱なしでも買取</Link></li>
-              <li><Link href="/articles/hibiki-30-label-yogore/" className="text-amber-dark hover:underline">響30年のラベル汚れでも査定</Link></li>
+              <li><Link href="/articles/hibiki-30-kaifu-zumi/" className="text-amber-dark hover:underline">響30年の開封済みボトルの買取</Link></li>
+              <li><Link href="/articles/hibiki-30-hako-nashi/" className="text-amber-dark hover:underline">響30年の箱なしボトルの買取</Link></li>
+              <li><Link href="/articles/hibiki-30-label-yogore/" className="text-amber-dark hover:underline">響30年のラベル汚れがある場合の査定</Link></li>
           </ul>
 
           <h2>関連銘柄の買取相場</h2>
@@ -576,7 +576,7 @@ export default function Hibiki30KaitoriPage() {
           </div>
 
           <h2>年代指定なし・注目銘柄の買取相場</h2>
-          <p>「年代指定なし（ノンエイジ／NV）」で検索されやすい主要銘柄の実勢買取相場です。ジャパニーズ・スコッチを横断して毎週更新しています。</p>
+          <p>「年代指定なし（ノンエイジ／NV）」で検索されやすい主要銘柄の実勢買取相場です。ジャパニーズ・スコッチの銘柄を対象に、毎週更新しています。</p>
           <ul>
               <li><Link href="/articles/yamazaki-nv-kaitori/" className="text-amber-dark hover:underline">山崎ノンエイジ（NV・年代指定なし）の買取相場</Link></li>
               <li><Link href="/articles/hakushu-nv-kaitori/" className="text-amber-dark hover:underline">白州ノンエイジ（NV・年代指定なし）の買取相場</Link></li>
@@ -593,7 +593,7 @@ export default function Hibiki30KaitoriPage() {
           </ul>
 
           <h2>熟成年数の表記がないボトルをお持ちの方へ</h2>
-          <p>ラベルに「12年」「25年」などの表記がないボトルは、買取店では「年代指定なし」「ノンエイジ」「NV（ノンヴィンテージ）」と呼ばれ、年数入りのボトルとは相場が別に付きます。銘柄ごとの相場は下記のページにまとめています。</p>
+          <p>ラベルに「12年」「25年」などの表記がないボトルは、買取店では「年代指定なし」「ノンエイジ」「NV（ノンヴィンテージ）」と呼ばれ、年数表記のあるボトルとは別に相場が形成されます。銘柄ごとの相場は、以下のページに掲載しています。</p>
           <ul>
               <li><Link href="/articles/yamazaki-nv-kaitori/" className="text-amber-dark hover:underline">山崎の年代指定なし（ノンエイジ／NV）買取相場</Link></li>
               <li><Link href="/articles/hakushu-nv-kaitori/" className="text-amber-dark hover:underline">白州の年代指定なし（ノンエイジ／NV）買取相場</Link></li>
@@ -609,7 +609,7 @@ export default function Hibiki30KaitoriPage() {
               <li><Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark hover:underline">竹鶴の年代指定なし（ノンエイジ／NV）買取相場</Link></li>
           </ul>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者ページで直接ご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
         </article>
       </div>
     </>
