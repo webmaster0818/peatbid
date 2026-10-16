@@ -145,10 +145,12 @@ T = [
 LITERAL_PAGE = [
     (">japanese-whisky</span>", ">ジャパニーズウイスキー</span>"),
     (">scotch-whisky</span>", ">スコッチウイスキー</span>"),
+    ("未開封・完璧（箱・冊子揃い）", "未開封・付属品完備（箱・冊子揃い）"),  # 記事側の表記に統一
 ]
 GEN_LITERAL = [
     ("<span className=\"bg-burgundy/15 text-burgundy text-xs font-bold px-3 py-1 rounded-full\">{b['category']}</span>",
      "<span className=\"bg-burgundy/15 text-burgundy text-xs font-bold px-3 py-1 rounded-full\">{CAT_JA.get(b['category'], b['category'])}</span>"),
+    ('("未開封・完璧（箱・冊子揃い）",', '("未開封・付属品完備（箱・冊子揃い）",'),
     ("H1_PATTERNS = [", "CAT_JA = {\"japanese-whisky\": \"ジャパニーズウイスキー\", \"scotch-whisky\": \"スコッチウイスキー\"}\n\nH1_PATTERNS = ["),
 ]
 
