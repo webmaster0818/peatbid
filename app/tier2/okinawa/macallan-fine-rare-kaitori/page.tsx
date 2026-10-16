@@ -99,7 +99,7 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">1人あたり県民所得</th><td className="px-3 py-2">240万円（内閣府 R3年度確報）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">酒類消費量ランク</th><td className="px-3 py-2">全国46位前後（泡盛文化が強くウイスキー消費は限定的）（国税庁 酒のしおり R5年版）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">酒類小売業免許場数</th><td className="px-3 py-2">約1,100店（国税庁 R4年3月末）</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">気候特性</th><td className="px-3 py-2">亜熱帯海洋性／年中高温多湿、台風常襲、塩害多い、ウイスキー保管は徹底空調必須（気象庁 気候区分）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">気候特性</th><td className="px-3 py-2">亜熱帯海洋性／年中高温多湿、台風常襲、塩害多い、ウイスキーの保管には空調管理を推奨（気象庁 気候区分）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">主要産業</th><td className="px-3 py-2">観光(リゾート/インバウンド)・米軍基地関連・泡盛醸造・農業(さとうきび/パイン)・IT・物流</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">主要駅・路線</th><td className="px-3 py-2">那覇空港駅(沖縄都市モノレール ゆいレール)・県庁前駅(ゆいレール)・首里駅(ゆいレール)・てだこ浦西駅(ゆいレール)</td></tr>
               </tbody>
@@ -130,7 +130,7 @@ export default function Page() {
           </ul>
 
           <h2>6. マッカラン ファイン&レアの保管と輸送 — 沖縄県の気候特性を踏まえて</h2>
-          <p>沖縄県の気候特性は「<strong>亜熱帯海洋性／年中高温多湿、台風常襲、塩害多い、ウイスキー保管は徹底空調必須</strong>」（気象庁の気候区分）です。マッカラン ファイン&レアの保管・輸送の際は、以下の点にご留意ください。</p>
+          <p>沖縄県の気候特性は「<strong>亜熱帯海洋性／年中高温多湿、台風常襲、塩害多い、ウイスキーの保管には空調管理を推奨</strong>」（気象庁の気候区分）です。マッカラン ファイン&レアの保管・輸送の際は、以下の点にご留意ください。</p>
           <p><strong>保管時の基本</strong>: 超高額・希少品、専用セラー必須。温度15-18℃・湿度50-60%、振動・光を完全遮断</p>
           <ul>
             <li><strong>温度管理</strong>: 夏季は冷暗所で保管し、冬季は凍結を避けてください（特に北日本・日本海側）</li>

@@ -512,7 +512,7 @@ PREFECTURES_EXTRA = {
         "households": "61万世帯",
         "average_income": "240万円",
         "gdp_billion_jpy": "4,550",
-        "climate_type": "亜熱帯海洋性／年中高温多湿、台風常襲、塩害多い、ウイスキー保管は徹底空調必須",
+        "climate_type": "亜熱帯海洋性／年中高温多湿、台風常襲、塩害多い、ウイスキーの保管には空調管理を推奨",
         "alcohol_consumption_rank": "全国46位前後（泡盛文化が強くウイスキー消費は限定的）",
         "liquor_retail_stores": "約1,100店",
         "main_stations": "那覇空港駅(沖縄都市モノレール ゆいレール)・県庁前駅(ゆいレール)・首里駅(ゆいレール)・てだこ浦西駅(ゆいレール)",

@@ -181,7 +181,8 @@ def compile_pair(old: str, new: str, escaped: bool):
                 stops = ["。"] if t not in ("{p['demand']}", '{be.get("collectibility_note", "")}') else []
                 lead = i == 0 and lit == ""
                 if lead:
-                    stops += ["、", "？"]
+                    # 気候特性の値は「、」を含む（例: 亜熱帯海洋性／年中高温多湿、台風常襲…）ので「、」では止めない
+                    stops += ["？"] if t == "{climate}" else ["、", "？"]
                 if escaped:
                     tok = r'(?:\\u[0-9a-fA-F]{4}|[^\\\n<>"])'  # \uXXXX を1文字として扱う（途中から始めない）
                     neg = "|".join(re.escape(esc(c)) for c in stops)
