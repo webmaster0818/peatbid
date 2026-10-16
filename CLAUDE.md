@@ -395,3 +395,10 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - ardbeg-nv-kaitori「並べています」→「掲載しています」。未使用の旧生成器（generate-angle-pages(-v2)・generate-brand-pages(-v2)・generate-tier2-full/samples(-v2)）の「完全ガイド」「徹底解説」「徹底比較」も言い換え（現行 v3/v4 は既に0）。
 - deploy の `_not-found/index.html`（10/8 の古いビルド・旧 description に「徹底比較」）を現行ビルドで上書き（rsync 除外は維持し、このファイルだけ cp）。
 - out/ の §8 NG 0・precheck 全項目OK（3,005）・copy-audit --n 60 で NG 0。source a8519bb9c / deploy 39abaead85。
+
+### 2026-10-17 形容詞＋「です」止め（「〜が多いです」「〜が高いです」等）の言い換え
+- 対象（自サイトの文のみ・引用なし）: FAQ 3問／手書き記事10本（bowmore-nv・talisker-nv・laphroaig-nv・glenmorangie・glenfarclas-nv・glenfiddich・hibiki・yamazaki・whisky-souzoku-baikyaku・whisky-toushi-hajimekata）／未使用の旧生成器 generate-angle-pages(-v2).py。例:「見方が多いです」→「との見方が大勢です」、「可能性が高いです」→「であると考えられます」、「現実的でないケースが多いです」→「容易ではありません」。`<strong>…高い</strong>です` のようにタグをまたぐ形も検出・修正。
+- ⚠️ 依頼時の「tier2 約2,500件」はローカル checkout（origin/main より10コミット遅れ）の値。tier2 の「周辺へのアクセスにも対応するケースが多いです」等は 10/16 の patch-tier2-copy-biz-1016.py で既に解消済み（origin/main の tier2 は0件）。作業は origin/main からの worktree で実施。
+- 件数（本番 HTML の表示テキスト＋JSON-LD）: before 29（11ページ）→ after out/ 0。precheck ✅全項目OK（3,005）。ASP コード 0本のまま（本番と同一）。tier2 は rsync 除外のまま（テキスト変更なし）。
+- source df4d8718d ／ deploy f047e5a66f。
+- 未対応: tier2 kanagawa 2ページの「人口は9（20万人417万世帯）」の崩れ（920万人・417万世帯の誤組版と思われる）。ローカル ~/projects/peatbid main が origin より遅れたまま（週次 weekly-yahoo-update.sh はこの checkout で生成・push するため、追いつかせないと 10/16 以降の文言が週次で戻るおそれ）。
