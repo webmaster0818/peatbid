@@ -412,3 +412,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - `scripts/patch-brand-status-1017.py`（冪等・旧値は data/.brand-status-1017-old.json）。1回目 1,083ファイル／2回目 0。生成器 generate-tier2-v4-plan-a.py の注記を `be.get("status_as_of","2026年5月")` に。週次はリーフを再生成しない・freshness パッチはこの文字列に触れない。
 - source ccd0a4c2c/377eb78b3・deploy 8ad51d7c2e（CF 反映まで約17分）。本番: 10月17日注記 893／5月 1,504、/api/contact 400、robots Sitemap 行。
 - (続き) パーキング／DNS不在の「公式情報」リンクを削除（MediaXAI 指示・cleaning 10/13 と同扱い）: one-drinks.com（イチローズ card/DD/MWR・羽生カード）・chichibu-distillery.jp（秩父ザ・ファースト）。deploy 全HTML before 752/188（235ページ・全て tier2）→ after 0/0。brands_extra の URL を ""、生成器は空なら「—」（`official_cell`）。`scripts/patch-tier2-dead-official-links-1017.py`（冪等・235→0）。source 5fa37199b・deploy ae5f29d44a。本番 235ページで0件。
+
+### 2026-10-17 成長ルーチン12:00 C: グレンフィディック／竹鶴21年／富山県（GSC 11〜20位）✅本番反映済み
+- **グレンフィディック 買取**（19.8位・30年ページに着地）: 重複を作らず既存ハブ `/articles/glenfiddich-kaitori/`（手書き）を強化＝10〜50年の店舗掲示価格表（LINXAS 2026-09-30・ヒカカク！日付なし・ファイブニーズ実績日）、旧ボトル/陶器/限定品（ピュアモルト特級・18年エンシェントリザーブ・26年グランデクロンヌ・30年エジンバラ等）、定価（ブラウンフォーマンジャパン 2025-05-19 限定パッケージ 12/15/18年）・輸入元（2025-01-01〜ブラウンフォーマンジャパン）、FAQ1問。30年ページは store-prices.json に `glenfiddich-30`（仕様別の掲示価格＋ハブへの導線）。23年グランクリュは店舗掲示なし。
+- **竹鶴21年**: store-prices.json `taketsuru-21`＝5店の掲示価格（大黒屋 2026-10-14・LINXAS・サケウル・リカスタ・バイセル）、実績4店、2014年限定品3種（アサヒ 2014-03-07／06-18）、角瓶・旧ラベル・受賞記念ラベルの見分け方、FAQ2問。⚠️発売年2001年・定価15,000円・2020年3月末終売は店舗記載のみ（アサヒの終売リリースは見つからず、本文にもそう明記）。store_prices.py に editions の `heading`/`toc_label` 上書きを追加。
+- **富山県 /tier2/toyama/**: `data/local-buyers.json`（新設・県キー）を `gen-tier2-area.py` が読み、県内でお酒を買い取る26店（買取大吉18・おたからや洋酒記載4・銀座蔵や4）／お酒を扱わない店／出張対応（バイセル・LINXAS・銀座蔵や）／三郎丸蒸留所＋FAQ2問。JSON に無い県は無変更（47県再生成で差分は toyama のみ）＝週次 [4.4] でも維持。⚠️店舗は月替わりに再確認。
+- build EXIT0（heap12288）→ precheck ✅全項目OK（3,005）→ source 604e5554a / deploy c64af7f84f → 本番4URL 200・新title・/api/contact 400・robots Sitemap 行。Indexing API は4URLとも 429（未送信）。
