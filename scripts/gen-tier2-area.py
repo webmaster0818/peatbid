@@ -26,8 +26,54 @@ def r100(n): return int(round(n / 100.0)) * 100
 
 def esc(s): return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
+def load_local(pref_key):
+    """data/local-buyers.json（県内の実店舗・出張対応・県のウイスキー事情。各社公式で確認した分だけ）。無い県は None＝従来どおり。"""
+    try:
+        d = json.load(open(os.path.join(ROOT, "data/local-buyers.json"), encoding="utf-8"))
+    except FileNotFoundError:
+        return None
+    v = d.get(pref_key)
+    return v if isinstance(v, dict) else None
+
+
+def local_section(name, lb):
+    a = 'target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy"'
+    rows = "\n              ".join(
+        f'<tr className="border-b border-warm-border/60"><td className="px-3 py-2 whitespace-nowrap">{esc(s["city"])}</td><td className="px-3 py-2">{esc(s["brand"])} {esc(s["name"])}</td><td className="px-3 py-2">{esc(s["addr"])}</td><td className="px-3 py-2 whitespace-nowrap"><a href="{s["url"]}" {a}>店舗ページ</a></td></tr>'
+        for s in lb["stores"])
+    notes = "".join(f'<li><strong>{esc(b)}</strong>：{esc(t)}（<a href="{u}" {a}>公式</a>）</li>' for b, t, u in lb["brand_notes"])
+    disp = "".join(f'<li><strong>{esc(b)}</strong>：{esc(t)}（<a href="{u}" {a}>公式</a>）</li>' for b, t, u in lb["dispatch"])
+    ck = lb["checked_at"]
+    dist = ""
+    if lb.get("distillery"):
+        dist = f'''
+      <h3 className="font-bold text-lg mt-8 mb-2">{name}のウイスキー蒸留所</h3>
+      <p className="text-sm text-warm-gray mb-2 leading-relaxed">{esc(lb["distillery"])}</p>
+      <p className="text-[11px] text-warm-gray mb-8">出典: <a href="{lb["distillery_url"]}" {a}>若鶴酒造 三郎丸蒸留所 公式サイト</a>（{ck}確認）</p>'''
+    return f'''
+      {{/* 5-2. 県内の実店舗・出張対応（data/local-buyers.json） */}}
+      <h2 id="local-stores" className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">{name}内でお酒を買い取る店舗（{len(lb["stores"])}店・{ck}確認）</h2>
+      <p className="text-sm text-warm-gray mb-4 leading-relaxed">各社の公式サイトの店舗ページで、お酒（洋酒）の買取を確認できた{name}内の店舗です（PeatBid編集部が{ck}に確認）。営業時間や取扱品目は変わることがあるため、来店前に各店舗へご確認ください。</p>
+      <div className="overflow-x-auto mb-4 rounded-xl border border-warm-border">
+        <table className="w-full text-sm">
+          <thead className="bg-cream/60"><tr className="text-left text-xs text-warm-gray"><th className="px-3 py-2">市</th><th className="px-3 py-2">店舗</th><th className="px-3 py-2">住所（公式表記）</th><th className="px-3 py-2">出典</th></tr></thead>
+          <tbody>
+              {rows}
+          </tbody>
+        </table>
+      </div>
+      <ul className="text-sm text-warm-gray mb-4 leading-relaxed list-disc pl-5 space-y-1">{notes}</ul>
+      <p className="text-sm text-warm-gray mb-8 leading-relaxed">{esc(lb["not_liquor"])}</p>
+
+      <h3 className="font-bold text-lg mt-8 mb-2">{name}への出張買取（公式の記載）</h3>
+      <ul className="text-sm text-warm-gray mb-8 leading-relaxed list-disc pl-5 space-y-1">{disp}</ul>
+{dist}
+'''
+
+
 def gen(pref_key):
     pref = load_pref()[pref_key]
+    lb = load_local(pref_key)
     name = pref["name_ja"]; region = pref["region"]; pop = pref["population"]; cities = pref["cities"]
     city_list = cities.split("・")
     brands = json.load(open(os.path.join(ROOT, "data/brands.json"), encoding="utf-8"))
@@ -83,15 +129,26 @@ def gen(pref_key):
         {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://peatbid.com/"},
         {"@type": "ListItem", "position": 2, "name": "地域別買取", "item": "https://peatbid.com/tier2/"},
         {"@type": "ListItem", "position": 3, "name": f"{name}のウイスキー買取", "item": f"https://peatbid.com/tier2/{pref_key}/"}]}
+    if lb:
+        bl = sorted({s["brand"] for s in lb["stores"]})
+        faqs.insert(1, (f"{name}内に、店頭でウイスキーを売れる店はありますか？",
+            f"あります。PeatBid編集部が{lb['checked_at']}に各社公式の店舗ページで確認したところ、{name}内でお酒（洋酒）の買取を受け付けている店舗は{'・'.join(bl)}の計{len(lb['stores'])}店でした（店舗一覧は本ページに掲載）。買取大吉は一部の店舗でお酒を扱っていないと公式に記載しているため、来店前に店舗へご確認ください。"))
+        faqs.insert(2, (f"{name}に出張買取に来てもらえますか？",
+            "公式サイトに記載がある業者では、" + "／".join(f"{b}：{t}" for b, t, _ in lb["dispatch"]) + "。最新の対応エリアは各社にご確認ください。"))
     article_ld = {"@context": "https://schema.org", "@type": "Article",
                   "headline": f"{name}のウイスキー買取｜実売相場とおすすめ業者【2026年最新】",
-                  "datePublished": "2026-05-22", "dateModified": fetched,
+                  "datePublished": "2026-05-22", "dateModified": max(fetched, lb["checked_at"]) if lb else fetched,
                   "author": {"@type": "Organization", "name": "PeatBid編集部"},
                   "publisher": {"@type": "Organization", "name": "PeatBid"}}
     itemlist_ld = {"@context": "https://schema.org", "@type": "ItemList", "name": f"{name}のウイスキー銘柄別 実売相場", "itemListElement": items}
 
     title = f"ウイスキー買取 {name}｜Yahoo実売中央値で見る相場とおすすめ業者【2026年最新】"
     desc = f"{name}でウイスキーを売却する方向けに、Yahoo!オークション過去180日の実落札中央値による銘柄別の相場、買取目安、宅配買取のおすすめ業者の比較、高く売るためのポイントを掲載しています。"
+
+    if lb:
+        title = lb.get("title", title)
+        desc = lb.get("desc", desc)
+    local_html = local_section(name, lb) if lb else ""
 
     top_brands = "・".join(b["name_ja"] for b in brands[:4])
     page = f'''import type {{ Metadata }} from "next";
@@ -188,7 +245,7 @@ export default function Page() {{
         {name}は{region}地方の人口{pop}の県で、{cities}などに人口が集まっています。地域の特徴：{pref["demand"]}。大型のウイスキー専門買取店は都市部に集中する傾向があるため、{name}では<strong>全国対応の宅配・出張買取を活用すると、エリアを問わず複数社の査定を比較できます</strong>。古物営業法により売却時は本人確認書類（運転免許証・マイナンバーカード等）が必要です。
       </p>
 
-      {{/* 6. おすすめ業者比較 */}}
+{local_html}      {{/* 6. おすすめ業者比較 */}}
       <h2 id="osusume" className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">{name}に対応するおすすめの宅配買取業者</h2>
       <p className="text-sm text-warm-gray mb-4 leading-relaxed">いずれも全国対応で{name}から依頼できます。買取額は変動するため固定の金額は掲載せず、最新の査定額・キャンペーンは各公式サイトでご確認ください。<strong>複数社への同時査定</strong>をおすすめします。</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">

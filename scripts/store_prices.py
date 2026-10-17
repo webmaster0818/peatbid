@@ -405,7 +405,7 @@ def editions_block(slug, name):
     )
     src = "・".join(_a(u, t) for t, u in e["sources"])
     return f'''
-          <h3 id="editions">{name}は全{len(e["rows"])}種｜エディション別の発売年・度数・本数</h3>
+          <h3 id="editions">{e.get("heading") or f'{name}は全{len(e["rows"])}種｜エディション別の発売年・度数・本数'}</h3>
           <div className="overflow-x-auto my-5 not-prose">
             <table className="w-full text-sm">
               <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">エディション</th><th className="py-2 pr-3">発売</th><th className="py-2 pr-3">熟成</th><th className="py-2 pr-3">度数</th><th className="py-2 pr-3">本数</th><th className="py-2 pr-3">発売時の価格</th><th className="py-2">見分けるポイント</th></tr></thead>
@@ -419,7 +419,9 @@ def editions_block(slug, name):
 
 def toc_editions(slug):
     d = get(slug)
-    return '\n  { id: "editions", label: "1-2. 全エディションの違い（発売年・度数・本数）" },' if d and d.get("editions") else ""
+    if not (d and d.get("editions")):
+        return ""
+    return '\n  { id: "editions", label: "' + d["editions"].get("toc_label", "1-2. 全エディションの違い（発売年・度数・本数）") + '" },'
 
 
 def auction_block(slug, name):

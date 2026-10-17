@@ -1168,5 +1168,391 @@
         "1993年のファーストエディションは1本100ポンド（当時約2万円）と土屋守氏のコラムにあり、Dave Broom 氏の記事は80〜110ポンドとしています。42年は2,400ポンド、50年は16,000ポンド（米国の希望小売価格は25,000ドル）、DB5 1964は50,000ポンドで発売されました。"
       ]
     ]
+  },
+  "glenfiddich-30": {
+    "checked_at": "2026-10-17",
+    "page_updated": "2026-10-17",
+    "store_intro": "各店が自社サイトに公開しているグレンフィディック30年の参考買取価格を、PeatBid編集部が 2026-10-17 に各ページで確認した値です。「店舗側の更新日」は各ページに記載されている価格の更新日で、記載が無いものは「日付表記なし」としています。",
+    "stores": [
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "グレンフィディック 30年完備",
+        "cond": "付属品完備",
+        "price": "50,000円",
+        "low": 50000,
+        "high": 50000,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/glenfidick/"
+      },
+      {
+        "store": "ヒカカク！（最高買取相場）",
+        "item": "Glenfiddich 30年",
+        "cond": "状態の記載なし",
+        "price": "45,000円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://hikakaku.com/category/all-category/riquor/whisky/glenfiddich/"
+      },
+      {
+        "store": "ヒカカク！（最高買取相場）",
+        "item": "グレンフィディック 30年 エジンバラ 750ml",
+        "cond": "状態の記載なし",
+        "price": "220,000円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://hikakaku.com/category/all-category/riquor/whisky/glenfiddich/"
+      },
+      {
+        "store": "ヒカカク！（最高買取相場）",
+        "item": "グレンフィディック 30年 オールドボトル 700ml",
+        "cond": "状態の記載なし",
+        "price": "28,000円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://hikakaku.com/category/all-category/riquor/whisky/glenfiddich/"
+      }
+    ],
+    "store_note": "同じ「30年」でも、仕様によって掲示価格が大きく異なります。ヒカカク！の掲載では、通常の30年が45,000円、オールドボトルが28,000円、エジンバラ（750ml）が220,000円です。査定を依頼する際は、ラベルの表記と容量（700ml／750ml）を伝えてください。30年以外の年数（12年・15年・18年・21年・25年・40年・50年など）の掲示価格は <Link href=\"/articles/glenfiddich-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">グレンフィディックの買取相場（年代別）</Link> にまとめています。",
+    "desc_tail": "LINXAS・ヒカカク！の掲示価格も掲載。",
+    "title_tail": "店舗の掲示価格・仕様別",
+    "toc_label": "4-2. 買取店の掲示価格（仕様別）"
+  },
+  "taketsuru-21": {
+    "checked_at": "2026-10-17",
+    "page_updated": "2026-10-17",
+    "stores": [
+      {
+        "store": "大黒屋",
+        "item": "竹鶴 21年 ピュアモルト 箱有り（21年表記あり箱のみ）",
+        "cond": "箱あり",
+        "price": "61,000円",
+        "low": 61000,
+        "high": 61000,
+        "updated": "2026-10-14",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/taketsuru/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "竹鶴 21年 ピュアモルト 箱無し",
+        "cond": "箱なし",
+        "price": "58,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-14",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/taketsuru/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "竹鶴 21年 ピュアモルト 角瓶",
+        "cond": "—",
+        "price": "60,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-14",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/taketsuru/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "竹鶴 21年 ピュアモルト 旧ラベル／WWA 受賞記念ラベル",
+        "cond": "—",
+        "price": "各55,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-14",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/taketsuru/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "竹鶴 21年 ノンチルフィルタード",
+        "cond": "—",
+        "price": "60,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-14",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/taketsuru/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "竹鶴21年 現行",
+        "cond": "箱付／箱無",
+        "price": "61,000円／56,000円",
+        "low": 61000,
+        "high": 61000,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/nikka-taketsuru/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "竹鶴21年 ピュアモルト 角瓶／ノンチルフィルタード",
+        "cond": "—",
+        "price": "各65,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/nikka-taketsuru/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "竹鶴21年 ポートウッドフィニッシュ／マディラウッドフィニッシュ",
+        "cond": "—",
+        "price": "70,000円／75,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/nikka-taketsuru/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "竹鶴21年 ピュアモルト WWA受賞記念ラベル",
+        "cond": "—",
+        "price": "52,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/nikka-taketsuru/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "竹鶴21年 180ml",
+        "cond": "—",
+        "price": "10,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/nikka-taketsuru/"
+      },
+      {
+        "store": "サケウル（STOCK LAB）",
+        "item": "竹鶴 21年",
+        "cond": "箱あり",
+        "price": "62,000〜63,000円",
+        "low": 62000,
+        "high": 63000,
+        "updated": "2026-10-15",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/taketsuru/taketsuru-age21/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "竹鶴 21年 ギフトBOX付き／竹鶴 21年",
+        "cond": "箱あり／箱なし",
+        "price": "60,000円／56,000円",
+        "low": 60000,
+        "high": 60000,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/taketsuru-21yo/"
+      },
+      {
+        "store": "バイセル",
+        "item": "竹鶴21年（未開封・未使用品が前提）",
+        "cond": "—",
+        "price": "〜44,200円",
+        "low": null,
+        "high": null,
+        "updated": "2025年11月時点",
+        "url": "https://buysell-kaitori.com/column/liquor-taketsuru/"
+      }
+    ],
+    "store_note": "箱の有無による差は、大黒屋で3,000円（61,000円／58,000円）、LINXAS・リカスタで5,000円（61,000円／56,000円、60,000円／56,000円）です。大黒屋は「21年表記あり箱のみ」を箱ありとして扱っており、年数表記の無い竹鶴ピュアモルトの箱では箱ありの価格になりません。限定品（ポートウッド・マディラウッド・ノンチルフィルタード）と初期の角瓶は、店によって通常品より高い価格、または「お問い合わせ」としています。バイセルの値は2025年11月時点の上限目安で、他店（2026年9〜10月更新）とは時点が異なります。",
+    "record_groups": [
+      {
+        "store": "大黒屋",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/taketsuru/",
+        "note": "同ページの竹鶴21年の買取実績を全件転記",
+        "items": [
+          [
+            "2026-10-06",
+            "竹鶴 21年 ピュアモルト WWA 受賞記念ラベル",
+            "45,500円"
+          ],
+          [
+            "2026-08-16",
+            "竹鶴 21年 ピュアモルト 角瓶 箱付",
+            "60,000円"
+          ]
+        ]
+      },
+      {
+        "store": "サケウル（STOCK LAB）",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/taketsuru/taketsuru-age21/",
+        "note": "同ページの買取実績から竹鶴21年の新しいものを転記",
+        "items": [
+          [
+            "2025-07-18",
+            "竹鶴21年（渋谷・新宿・麻布・上野の各店）",
+            "各62,000円"
+          ]
+        ]
+      },
+      {
+        "store": "ファイブニーズ",
+        "url": "https://www.sakekaitori.com/knowledge/2505_taketsuru_21/",
+        "note": "同ページの買取実績を全件転記",
+        "items": [
+          [
+            "2025-07-10",
+            "竹鶴21年",
+            "45,000円"
+          ],
+          [
+            "2025-05-12",
+            "竹鶴21年",
+            "45,000円"
+          ],
+          [
+            "2025-01-22",
+            "竹鶴21年 ISC2009受賞記念ラベル",
+            "51,000円"
+          ],
+          [
+            "2024-11-07",
+            "竹鶴21年",
+            "58,000円"
+          ],
+          [
+            "2024-10-07",
+            "竹鶴21年",
+            "55,000円"
+          ]
+        ]
+      },
+      {
+        "store": "JOYLAB 広島本通店",
+        "url": "https://joylab.jp/purchase-information/taketsuru-21years/",
+        "note": "同ページの店頭・出張の買取実績を全件転記",
+        "items": [
+          [
+            "2024-08-23",
+            "竹鶴 21年",
+            "55,000円"
+          ],
+          [
+            "2024-05-25",
+            "竹鶴 21年",
+            "58,000円"
+          ],
+          [
+            "2024-03-13",
+            "竹鶴 21年",
+            "57,000円"
+          ],
+          [
+            "2024-02-03",
+            "竹鶴 21年",
+            "55,000円"
+          ],
+          [
+            "2023-10-18",
+            "竹鶴 21年",
+            "52,000円"
+          ],
+          [
+            "2023-07-05",
+            "竹鶴 21年",
+            "52,000円"
+          ],
+          [
+            "2023-05-07",
+            "竹鶴 21年",
+            "54,000円"
+          ]
+        ]
+      }
+    ],
+    "editions": {
+      "heading": "竹鶴21年の通常品と2014年の限定品（創業80周年記念3種）",
+      "rows": [
+        [
+          "竹鶴21年ピュアモルト（通常品）",
+          "2001年（店舗の記載）",
+          "21年",
+          "43%",
+          "—",
+          "15,000円（税別・終売前の定価。店舗の記載）",
+          "年数表記のある箱・ラベル。初期は角瓶、のち丸瓶（下記）"
+        ],
+        [
+          "竹鶴21年ピュアモルト ポートウッドフィニッシュ",
+          "2014年4月30日（国内）",
+          "21年",
+          "46%",
+          "約1,000本",
+          "オープン価格（参考価格20,000円・税別）",
+          "ラベルに「80th Anniversary Bottled in 2014」"
+        ],
+        [
+          "竹鶴21年ピュアモルト マディラウッドフィニッシュ",
+          "2014年7月2日（欧州向け）",
+          "21年",
+          "46%",
+          "約500本",
+          "市場想定価格 約280ユーロ",
+          "欧州向け。ラベルに「80th Anniversary Bottled in 2014」"
+        ],
+        [
+          "竹鶴21年ピュアモルト ノンチルフィルタード",
+          "2014年7月2日",
+          "21年",
+          "48%",
+          "約3,000本",
+          "オープン価格（参考小売価格18,000円・税別）",
+          "80周年記念の第二弾。度数48%"
+        ]
+      ],
+      "note": "限定品3種の発売日・本数・度数・価格は、アサヒビールの2014年3月7日と2014年6月18日のニュースリリースの記載です。通常品の発売年（2001年）と定価（15,000円・税別）は、メーカーの公式ページでは確認できなかったため、複数の買取店（ファイブニーズ・リカスタ・JOYLAB ほか）の記載によります。複数の買取店が記載している終売の時期（2020年3月末）も、アサヒビールのリリースでは確認できませんでした（2020年1月16日のリリースは、年数表記のない「竹鶴ピュアモルト」のリニューアルの発表で、17年・21年・25年には触れていません）。",
+      "sources": [
+        [
+          "アサヒビール 2014-03-07",
+          "https://www.asahibeer.co.jp/news/2014/0307.html"
+        ],
+        [
+          "アサヒビール 2014-06-18",
+          "https://www.asahibeer.co.jp/news/2014/0618.html"
+        ],
+        [
+          "ニッカウヰスキー 竹鶴",
+          "https://www.nikka.com/products/malt/taketsuru/"
+        ],
+        [
+          "アサヒビール 2020-01-16",
+          "https://www.asahibeer.co.jp/news/2020/0116.html"
+        ],
+        [
+          "ファイブニーズ",
+          "https://www.sakekaitori.com/knowledge/2505_taketsuru_21/"
+        ],
+        [
+          "リカスタ",
+          "https://www.licasta.com/item/whisky/taketsuru-21yo/"
+        ]
+      ],
+      "toc_label": "1-2. 通常品と限定品の違い（発売日・度数・本数）"
+    },
+    "identify": {
+      "intro": "竹鶴21年は、ボトルの世代やラベルの種類で店舗の掲示価格が分かれています（大黒屋は角瓶・旧ラベル・WWA受賞記念ラベル・箱の有無を別の行で掲示）。査定に出す前に、次の点を確認してください。",
+      "items": [
+        "<strong>年数表記</strong>: ラベルと箱に「21」の表記があるか。年数表記の無い「竹鶴ピュアモルト」（現行品）とは別の銘柄で、相場も大きく異なります（<Link href=\"/articles/taketsuru-pure-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴ピュアモルトの買取相場</Link>）。",
+        "<strong>瓶の形</strong>: LINXAS は、初期の竹鶴21年は角ばった角瓶で、2003年11月からコルク栓の丸瓶に変わったと説明しています（メーカーの公式な記載は確認できていません）。大黒屋・LINXAS とも角瓶を別の行で掲示しています。",
+        "<strong>ラベルの新旧</strong>: サケウル（STOCK LAB）は、新しいボトルはラベルが小さくゴールドのラインが入り、旧ボトルはラベルが大きくゴールドのラインの無いデザインと説明しています。",
+        "<strong>受賞記念ラベル・限定品</strong>: WWA・ISC の受賞記念ラベル、2014年の限定品（ポートウッド・マディラウッド・ノンチルフィルタード。ラベルに「80th Anniversary Bottled in 2014」）は、通常品と別の価格で扱われます。",
+        "<strong>容量</strong>: 700ml のほか 180ml のボトルがあります（LINXAS の掲示は 10,000円）。"
+      ],
+      "caution": "出典: <a href=\"https://linx-as.store/blogs/pedia/taketsuru-21-year-old-teika-naze-takai-why-expensive-end-of-sale\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">LINXAS（竹鶴21年の解説）</a>・<a href=\"https://www.stock-lab.com/osake-kaitori/whiskey/taketsuru/taketsuru-age21/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">サケウル</a>・<a href=\"https://kaitori.e-daikoku.com/liquor/whisky/taketsuru/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">大黒屋</a>・<a href=\"https://www.asahibeer.co.jp/news/2014/0307.html\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">アサヒビール 2014-03-07</a>（2026-10-17確認）。判別できない場合は、正面・背面・キャップ・箱の写真を添えて査定を依頼してください。"
+    },
+    "faq_extra": [
+      [
+        "竹鶴21年はいつ終売になりましたか？定価はいくらでしたか？",
+        "複数の買取店（JOYLAB・リカスタ・ファイブニーズ）は、2020年3月末で販売を終了したと記載しています。ただし、アサヒビールのニュースリリースでは終売の告知を確認できませんでした（2020年1月16日のリリースは年数表記のない竹鶴ピュアモルトのリニューアルの発表です）。終売前の定価は、店舗の記載では15,000円（税別）です。"
+      ],
+      [
+        "竹鶴21年の限定品（ポートウッド・ノンチルフィルタード等）は通常品より高く売れますか？",
+        "店舗の掲示では高い傾向があります。LINXAS は通常品（箱付）61,000円に対し、ポートウッドフィニッシュ70,000円・マディラウッドフィニッシュ75,000円・ノンチルフィルタード65,000円（2026-09-30更新）、大黒屋はノンチルフィルタード60,000円、ポートウッド・マディラウッドは「お問い合わせ」です（2026-10-14更新）。限定品はアサヒビールの発表で、ポートウッドが約1,000本、マディラウッドが約500本（欧州向け）、ノンチルフィルタードが約3,000本です。"
+      ]
+    ],
+    "title_tail": "5店の掲示価格・限定品・旧ラベル別",
+    "desc_tail": "大黒屋・LINXAS等5店の掲示価格、限定品3種、旧ラベル・角瓶の見分け方も掲載。",
+    "toc_label": "4-2. 買取店の掲示価格・買取実績"
   }
 }

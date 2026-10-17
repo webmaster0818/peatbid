@@ -1,0 +1,229 @@
+{
+  "_note": "県内でお酒の買取を受け付けている実店舗（各社公式の店舗ページで確認できたものだけ）。checked_at=PeatBid編集部の確認日。gen-tier2-area.py が読む。店舗の開閉は変わるため月替わりに再確認すること。",
+  "toyama": {
+    "checked_at": "2026-10-17",
+    "title": "ウイスキー買取 富山県｜県内でお酒を買い取る26店・出張対応とYahoo実売相場【2026年最新】",
+    "desc": "富山県でウイスキーを売る方向けに、県内でお酒を買い取る店舗（買取大吉18店・おたからや・銀座蔵や）、出張買取の対応、三郎丸蒸留所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
+    "stores": [
+      {
+        "brand": "買取大吉",
+        "city": "富山市",
+        "name": "富山婦中店",
+        "addr": "富山県富山市婦中町下轡田351-3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-fuchu/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "富山市",
+        "name": "富山千代田町店",
+        "addr": "富山県富山市千代田町3-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-chiyodamachi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "富山市",
+        "name": "富山県立中央病院前店",
+        "addr": "富山県富山市西長江1丁目7-17",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-chuobyoinmae/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "富山市",
+        "name": "富山秋吉店",
+        "addr": "富山県富山市秋吉191-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-akiyoshi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "富山市",
+        "name": "富山総曲輪店",
+        "addr": "富山県富山市総曲輪三丁目2-25",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-sogawa/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "富山市",
+        "name": "富山大町店",
+        "addr": "富山県富山市大町300番地",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-omachi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "富山市",
+        "name": "大阪屋ショップ五福店",
+        "addr": "富山県富山市五福5160",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/os-gofuku/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "富山市",
+        "name": "富山田中町店",
+        "addr": "富山県富山市田中町5丁目4-10",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-tanakamachi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "富山市",
+        "name": "富山呉羽店",
+        "addr": "富山県富山市呉羽町7162",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-kureha/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高岡市",
+        "name": "高岡京田店",
+        "addr": "富山県高岡市京田624-3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shop-5007221/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高岡市",
+        "name": "高岡向野店",
+        "addr": "富山県高岡市向野町5丁目33-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/takaoka-mukaino/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高岡市",
+        "name": "高岡野村店",
+        "addr": "富山県高岡市野村1553",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/takaoka-nomura/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高岡市",
+        "name": "高岡戸出店",
+        "addr": "富山県高岡市戸出町5丁目1番6号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/takaoka-toide/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "射水市",
+        "name": "アルビス大島店",
+        "addr": "富山県射水市本開発11 アルビス大島 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/albis-oshima/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "射水市",
+        "name": "明文堂書店 高岡射水店",
+        "addr": "富山県射水市坂東127番地1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mbd-takaokaimizu/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "射水市",
+        "name": "TSUTAYA BOOKSTORE 小杉町店",
+        "addr": "富山県射水市一条6番地13",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tb-kosugimachi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "滑川市",
+        "name": "滑川上小泉店",
+        "addr": "富山県滑川市上小泉字舘2139番1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/namerikawa-kamikoizumi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "砺波市",
+        "name": "砺波豊町店",
+        "addr": "富山県砺波市豊町2丁目13番15号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tonami-yutakamachi/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "高岡市",
+        "name": "宝町店",
+        "addr": "富山県高岡市宝町2-11 タカラビル1階",
+        "url": "https://www.otakaraya-shop.jp/takaramachi/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "射水市",
+        "name": "射水中野店",
+        "addr": "富山県射水市中野659-2",
+        "url": "https://www.otakaraya-shop.jp/imizunakano/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "氷見市",
+        "name": "氷見上泉店",
+        "addr": "富山県氷見市上泉25-1",
+        "url": "https://www.otakaraya-shop.jp/himikamiizumi/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "小矢部市",
+        "name": "石動店",
+        "addr": "富山県小矢部市石動町13−8",
+        "url": "https://www.otakaraya-shop.jp/isurugi/"
+      },
+      {
+        "brand": "銀座蔵や",
+        "city": "富山市",
+        "name": "アピタ富山東店",
+        "addr": "富山県富山市上冨居3丁目8番38号 アピタ富山東店2階",
+        "url": "https://ginzakuraya.jp/store/toyama_higashi/"
+      },
+      {
+        "brand": "銀座蔵や",
+        "city": "高岡市",
+        "name": "新高岡店",
+        "addr": "富山県高岡市京田121 向京ビル 1階",
+        "url": "https://ginzakuraya.jp/store/shintakaoka/"
+      },
+      {
+        "brand": "銀座蔵や",
+        "city": "高岡市",
+        "name": "新湊店",
+        "addr": "富山県高岡市中曽根2343 グリーンモール中曽根内",
+        "url": "https://ginzakuraya.jp/store/shinminato/"
+      },
+      {
+        "brand": "銀座蔵や",
+        "city": "砺波市",
+        "name": "MEGAドンキUNY砺波店",
+        "addr": "富山県砺波市太郎丸3丁目69番地 MEGAドン・キホーテUNY 1階",
+        "url": "https://ginzakuraya.jp/store/tonami/"
+      }
+    ],
+    "brand_notes": [
+      [
+        "買取大吉",
+        "品目に「お酒」。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」",
+        "https://www.kaitori-daikichi.jp/list/sake/store/toyama-ken/"
+      ],
+      [
+        "おたからや",
+        "県内の店舗のうち、店舗ページの買取品目に「洋酒」があるのは上記4店（2026-10-17確認）。4店とも店舗ページに出張買取の記載あり",
+        "https://www.otakaraya.jp/shop/toyama/"
+      ],
+      [
+        "銀座蔵や",
+        "県ページに「ウイスキー、ブランデー、ワイン、中国酒、スピリッツ系など」を買取と記載。県ページに、お酒の出張買取の対応エリアは富山県全域と記載",
+        "https://ginzakuraya.jp/sake-toyama/"
+      ]
+    ],
+    "not_liquor": "ハードオフ・オフハウス（富山市・高岡市）とブックオフ（県内4店）は、公式サイトの取扱ジャンル・取扱表でお酒を扱っていません。なんぼや（富山店・高岡店）とザ・ゴールドは、店舗ページにお酒の記載がありません。",
+    "dispatch": [
+      [
+        "バイセル",
+        "「富山市をはじめ、高岡市や射水市など富山県全域」「富山県全域の各市町村で対応可能」（季節・地域により即日対応が難しい場合ありと注記）。県内に店舗なし",
+        "https://buysell-kaitori.com/area/liquor-toyama/"
+      ],
+      [
+        "LINXAS",
+        "「富山県は無料出張エリア（中部）です。」「県内に店舗はありません。」宅配は1本から",
+        "https://linxas.shop/shops/toyama/"
+      ],
+      [
+        "銀座蔵や",
+        "県ページに、お酒の出張買取の対応エリアは富山県全域と記載。県内に店舗あり（上記）",
+        "https://ginzakuraya.jp/sake-toyama/"
+      ]
+    ],
+    "distillery": "富山県砺波市には、若鶴酒造の三郎丸蒸留所（富山県砺波市三郎丸208）があります。同社の公式サイトによると、1952年にウイスキーの製造を始め、1953年に初の自社ウイスキー「サンシャインウイスキー」を発売、2017年に「三郎丸蒸留所」として改修しました。2019年には高岡銅器の技術を使った鋳造製の蒸留器「ZEMON」を開発しています（老子製作所・富山県工業技術センターとの共同開発）。",
+    "distillery_url": "https://www.wakatsuru.co.jp/saburomaru/"
+  }
+}
