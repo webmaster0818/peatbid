@@ -75,7 +75,7 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">バーボン樽7本＋ミズナラ樽1本由来。若々しい果実香、バニラ、ミズナラの白檀香、3年熟成とは思えない複雑さ</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">秩父蒸溜所デビュー作、Whisky Advocate Japanese Whisky of the Year 受賞。コレクターの需要が特に高い銘柄</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">情報なし（個別ロット差大、出品時概ね£10,000〜£20,000帯）</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="http://www.chichibu-distillery.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">http://www.chichibu-distillery.jp/</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2">—</td></tr>
               </tbody>
             </table>
           </div>

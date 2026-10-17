@@ -75,7 +75,7 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">ボトルごとに異なる個性。シェリー、バーボン、ミズナラ、ポート等多様な樽違いで複雑な香味展開</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">閉鎖蒸溜所原酒のカードシリーズはコレクターの需要が特に高く、ジャパニーズウイスキーの代表的な投資対象</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">フルセット US$1.5M超 (Bonhams Hong Kong 2019、世界記録)</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.one-drinks.com/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.one-drinks.com/</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2">—</td></tr>
               </tbody>
             </table>
           </div>

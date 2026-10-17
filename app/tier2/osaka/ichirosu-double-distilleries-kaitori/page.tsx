@@ -75,7 +75,7 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">羽生蒸溜所と秩父蒸溜所の原酒ブレンド。シェリー樽の甘みと秩父若原酒の華やかさが調和、複雑な香味</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">閉鎖蒸溜所(羽生)原酒含有、年々プレミア化進行</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">情報なし（個別ロット差大、出品時概ね£800〜£1,500帯）</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.one-drinks.com/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.one-drinks.com/</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2">—</td></tr>
               </tbody>
             </table>
           </div>

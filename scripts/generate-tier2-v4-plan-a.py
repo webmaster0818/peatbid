@@ -117,6 +117,12 @@ def build_page(brand: dict, pref_slug: str) -> str:
 
     pe = PREFECTURES_EXTRA.get(pref_slug, {})
     be = BRANDS_EXTRA.get(slug, {})
+    # 公式URLが無い／使えない（パーキング等）銘柄はリンクを出さない（2026-10-17）
+    _ou = be.get("distillery_official_url", "")
+    official_cell = (
+        f'<a href="{_ou}" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">{_ou}</a>'
+        if _ou else "—"
+    )
 
     gdp_label = pe.get("gdp_billion_jpy", "—")
     try:
@@ -298,7 +304,7 @@ export default function Page() {{
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">{be.get("flavor_profile", "—")}</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">{be.get("collectibility_note", "—")}</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">{be.get("recent_overseas_auction", "—")}</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="{be.get('distillery_official_url', '#')}" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">{be.get('distillery_official_url', '—')}</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2">{official_cell}</td></tr>
               </tbody>
             </table>
           </div>

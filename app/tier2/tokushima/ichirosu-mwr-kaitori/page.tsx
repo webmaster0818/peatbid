@@ -75,7 +75,7 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">秩父原酒にミズナラ樽でリフィル。白檀・伽羅のオリエンタル香、複雑な果実味、長い余韻</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">MWR (Mizunara Wood Reserve) は秩父シリーズ代表作、安定したコレクター需要</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">情報なし（出品ロット差大）</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.one-drinks.com/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.one-drinks.com/</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2">—</td></tr>
               </tbody>
             </table>
           </div>

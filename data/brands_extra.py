@@ -12,7 +12,7 @@ PeatBid 50銘柄の補足データ（公式情報・公開オークション情�
 出典・ソース:
   - サントリーウイスキー公式: https://house.suntory.com/, https://www.suntory.co.jp/whisky/
   - ニッカウヰスキー公式: https://www.nikka.com/
-  - ベンチャーウイスキー（イチローズモルト/秩父）: https://www.one-drinks.com/, http://www.chichibu-distillery.jp/
+  - ベンチャーウイスキー（イチローズモルト/秩父）: 旧URL（one-drinks／chichibu-distillery）は 2026-10-17 にパーキング・DNS 不在を確認しリンク削除。公式URL未確認
   - The Macallan 公式: https://www.themacallan.com/
   - Bowmore 公式: https://www.bowmore.com/
   - Springbank 公式: https://springbank.scot/
@@ -315,7 +315,7 @@ BRANDS_EXTRA = {
         "status": "限定品（完売）",
         "successor_product": "なし（一回限り、羽生残原酒由来で再生産不可）",
         "first_release_year": "2005-2014年（54本順次リリース）",
-        "distillery_official_url": "https://www.one-drinks.com/",
+        "distillery_official_url": "",
         "flavor_profile": "羽生蒸溜所原酒のシリーズ。ボトルごとに樽違いで個性が異なる。シェリー、バーボン、ミズナラ等多様な樽香",
         "storage_advice": "希少品、温湿度管理セラーで保管。コルク状態を年1回確認、振動・光を完全遮断",
         "recent_overseas_auction": "フルセット US$1.5M超 (Bonhams Hong Kong 2019過去落札最高値)",
@@ -325,7 +325,7 @@ BRANDS_EXTRA = {
         "status": "限定品（完売）",
         "successor_product": "なし",
         "first_release_year": "2017年頃（順次リリース）",
-        "distillery_official_url": "https://www.one-drinks.com/",
+        "distillery_official_url": "",
         "flavor_profile": "羽生蒸溜所と秩父蒸溜所の原酒ブレンド。シェリー樽の甘みと秩父若原酒の華やかさが調和、複雑な香味",
         "storage_advice": "アルコール度数46%。15-20℃の冷暗所・縦置き、コルク状態定期確認",
         "recent_overseas_auction": "情報なし（個別ロット差大、出品時概ね£800〜£1,500帯）",
@@ -335,7 +335,7 @@ BRANDS_EXTRA = {
         "status": "現行品（限定リリース継続）",
         "successor_product": "なし（同シリーズ継続）",
         "first_release_year": "2013年",
-        "distillery_official_url": "https://www.one-drinks.com/",
+        "distillery_official_url": "",
         "flavor_profile": "秩父原酒にミズナラ樽でリフィル。白檀・伽羅のオリエンタル香、複雑な果実味、長い余韻",
         "storage_advice": "アルコール度数46%。直射日光・高温を避け縦置き。開栓後1年以内推奨",
         "recent_overseas_auction": "情報なし（出品ロット差大）",
@@ -371,7 +371,7 @@ BRANDS_EXTRA = {
         "status": "終売（2000年蒸溜所閉鎖、2004年解体、残原酒は2014年枯渇）",
         "successor_product": "なし（一回限り、再生産不可）",
         "first_release_year": "2005-2014年（54本順次リリース）",
-        "distillery_official_url": "https://www.one-drinks.com/",
+        "distillery_official_url": "",
         "flavor_profile": "ボトルごとに異なる個性。シェリー、バーボン、ミズナラ、ポート等多様な樽違いで複雑な香味展開",
         "storage_advice": "閉鎖蒸溜所の超希少品、温湿度管理セラー必須。振動・光遮断、コルク状態定期確認",
         "recent_overseas_auction": "フルセット US$1.5M超 (Bonhams Hong Kong 2019、世界記録)",
@@ -600,7 +600,7 @@ BRANDS_EXTRA = {
         "status": "終売（2011年リリース完売、7,400本限定）",
         "successor_product": "なし（一回限り、秩父シリーズの後続作品が継続）",
         "first_release_year": "2011年",
-        "distillery_official_url": "http://www.chichibu-distillery.jp/",
+        "distillery_official_url": "",
         "flavor_profile": "バーボン樽7本＋ミズナラ樽1本由来。若々しい果実香、バニラ、ミズナラの白檀香、3年熟成とは思えない複雑さ",
         "storage_advice": "アルコール度数61.8%（カスクストレングス）。高アルコールで長期保管に強い、15-20℃の冷暗所・縦置き",
         "recent_overseas_auction": "情報なし（個別ロット差大、出品時概ね£10,000〜£20,000帯）",

@@ -75,7 +75,7 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">羽生蒸溜所原酒のシリーズ。ボトルごとに樽違いで個性が異なる。シェリー、バーボン、ミズナラ等多様な樽香</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">54本フルセットはコレクターの需要が特に高いセットです。Bonhamsで世界最高額の日本ウイスキーセット記録</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">フルセット US$1.5M超 (Bonhams Hong Kong 2019過去落札最高値)</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.one-drinks.com/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.one-drinks.com/</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2">—</td></tr>
               </tbody>
             </table>
           </div>
