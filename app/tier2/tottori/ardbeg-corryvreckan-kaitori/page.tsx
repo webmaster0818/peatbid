@@ -75,11 +75,11 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">極めて強いピート、潮の香り、フレンチオーク樽由来のスパイシーさ、長く激しい燻香の余韻</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">Ardbeg強烈ピート派の代表、コレクション・常飲双方の需要</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">£60〜£90帯 (2026 Q1〜Q2, Whisky.Auction 標準700ml)</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.ardbeg.com/corryvreckan" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.ardbeg.com/corryvreckan</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.ardbeg.com/en-int/products/ardbeg-corryvreckan" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.ardbeg.com/en-int/products/ardbeg-corryvreckan</a></td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年5月時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
+          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年10月17日時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
 
           <h2>3. 状態別の業界目安（パーセンテージ）</h2>
           <p>市場相場（Yahoo中央値）を基準（100%）とした業界一般の目安です。実際の査定額は業者により異なるため、最終的な金額は各業者ページでご確認ください。</p>

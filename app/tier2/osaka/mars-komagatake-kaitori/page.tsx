@@ -75,11 +75,11 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">中央アルプスの高地熟成由来の柔らかい果実香、バニラ、軽やかなピート、滑らかな余韻</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">信州マルス蒸溜所の主力。リミテッドエディションは別途プレミア化</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">情報なし（小売流通主体）</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.hombo.co.jp/whisky/komagatake/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.hombo.co.jp/whisky/komagatake/</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.hombo.co.jp/product/mars-singlemalt-komagatake/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.hombo.co.jp/product/mars-singlemalt-komagatake/</a></td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年5月時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
+          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年10月17日時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
 
           <h2>3. 状態別の業界目安（パーセンテージ）</h2>
           <p>市場相場（Yahoo中央値）を基準（100%）とした業界一般の目安です。実際の査定額は業者により異なるため、最終的な金額は各業者ページでご確認ください。</p>

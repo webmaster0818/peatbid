@@ -75,7 +75,7 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">高ロースト麦芽由来のチョコレート・モカ、オレンジピール、シナモン、樽材のスパイス、長く深い余韻</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">ハイランド・グレンモーレンジ最高峰の常時品、ノンエイジでありながら高評価</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">£130〜£180帯 (2026 Q1〜Q2, Whisky.Auction 標準700ml)</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.glenmorangie.com/whisky/signet" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.glenmorangie.com/whisky/signet</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.glenmorangie.com/en-us/products/glenmorangie-signet" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.glenmorangie.com/en-us/products/glenmorangie-signet</a></td></tr>
               </tbody>
             </table>
           </div>

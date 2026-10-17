@@ -75,11 +75,11 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">オロロソ・シェリー樽のドライフルーツ、ダークチョコレート、樽材のスパイス、長く豊かな余韻</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">シェリー樽スペイサイドの王道、価格対品質比でコレクター・常飲双方の人気</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">£170〜£250帯 (2026 Q1〜Q2, Whisky.Auction 標準700ml)</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.glenfarclas.com/whisky/25-years-old/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.glenfarclas.com/whisky/25-years-old/</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://glenfarclas.com/whisky/the-aged-range/25-year-old-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://glenfarclas.com/whisky/the-aged-range/25-year-old-whisky/</a></td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年5月時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
+          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年10月17日時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
 
           <h2>3. 状態別の業界目安（パーセンテージ）</h2>
           <p>市場相場（Yahoo中央値）を基準（100%）とした業界一般の目安です。実際の査定額は業者により異なるため、最終的な金額は各業者ページでご確認ください。</p>

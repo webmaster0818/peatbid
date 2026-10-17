@@ -62,24 +62,24 @@ export default function Page() {
           <p>和歌山県には<strong>地域密着の専門業者</strong>と<strong>全国対応の大手</strong>の両方があるため、複数の業者で見積もりを比較できます。</p>
 
           <h2>2. 余市10年の市場相場（Yahoo中央値）</h2>
-          <p>余市10年の市場相場は<strong>¥23,320</strong>です（¥23,320（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=248、取得日 2026-10-12））。余市10年。終売後プレミア化</p>
+          <p>余市10年の市場相場は<strong>¥23,320</strong>です（¥23,320（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=248、取得日 2026-10-12））。余市10年。2015年8月末に販売終了し、2022年に数量限定で再発売</p>
           <p>業者の買取査定額は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。</p>
 
           <h3 className="!mt-6">2-1. 余市10年の基本プロフィール（公式情報）</h3>
           <div className="table-wrapper not-prose">
             <table className="text-sm">
               <tbody>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">流通ステータス</th><td className="px-3 py-2">終売（2015年生産終了、未再開）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">流通ステータス</th><td className="px-3 py-2">現行品（数量限定。2015年8月末に販売終了、2022年に数量限定で再発売）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">国内発売年</th><td className="px-3 py-2">1989年</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">後継品</th><td className="px-3 py-2">なし（年表記10/12/15/20が一斉終売、余市NVへ統合）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">後継品</th><td className="px-3 py-2">なし（同銘柄。2022年に数量限定で再発売）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">強いピートと潮の香り、シェリー樽の甘み、燻香の余韻</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">2015年終売後プレミア進行。年表記版は再販報道なし</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">2015年8月末の販売終了後にプレミア化。2022年に数量限定で再発売</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">情報なし（個別ロット差大）</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.nikka.com/distilleries/yoichi/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.nikka.com/distilleries/yoichi/</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.nikka.com/brands/yoichi_miyagikyo/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.nikka.com/brands/yoichi_miyagikyo/</a></td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年5月時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
+          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年10月17日時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
 
           <h2>3. 状態別の業界目安（パーセンテージ）</h2>
           <p>市場相場（Yahoo中央値）を基準（100%）とした業界一般の目安です。実際の査定額は業者により異なるため、最終的な金額は各業者ページでご確認ください。</p>
@@ -131,7 +131,7 @@ export default function Page() {
 
           <h2>6. 余市10年の保管と輸送 — 和歌山県の気候特性を踏まえて</h2>
           <p>和歌山県の気候特性は「<strong>太平洋側温帯／黒潮の影響で温暖、紀伊山地南部は多雨、冬も比較的温和</strong>」（気象庁の気候区分）です。余市10年の保管・輸送の際は、以下の点にご留意ください。</p>
-          <p><strong>保管時の基本</strong>: アルコール度数45%。終売の希少品、15-18℃の冷暗所・縦置き、コルク状態定期確認</p>
+          <p><strong>保管時の基本</strong>: アルコール度数45%。15-18℃の冷暗所・縦置き、コルク状態定期確認</p>
           <ul>
             <li><strong>温度管理</strong>: 夏季は冷暗所で保管し、冬季は凍結を避けてください（特に北日本・日本海側）</li>
             <li><strong>湿度</strong>: 湿度50〜70%が適しています。湿度が低すぎるとコルクが乾燥して液漏れの原因となり、高すぎるとラベルが劣化します</li>
@@ -145,8 +145,8 @@ export default function Page() {
           <ul>
             <li><strong>国内市場（Yahoo Auctions 過去180日中央値）</strong>: ¥23,320（¥23,320（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=248、取得日 2026-10-12））</li>
             <li><strong>海外オークション直近</strong>: 情報なし（個別ロット差大）</li>
-            <li><strong>コレクション価値</strong>: 2015年終売後プレミア進行。年表記版は再販報道なし</li>
-            <li><strong>流通ステータス</strong>: 終売（2015年生産終了、未再開）（1989年発売）</li>
+            <li><strong>コレクション価値</strong>: 2015年8月末の販売終了後にプレミア化。2022年に数量限定で再発売</li>
+            <li><strong>流通ステータス</strong>: 現行品（数量限定。2015年8月末に販売終了、2022年に数量限定で再発売）（1989年発売）</li>
           </ul>
           <p>海外オークションで高値が付いた直後は、国内の業者の買取査定額も上昇する傾向があります。一方、下落の局面では業者の買取意欲も低下するため、上昇傾向の時期に複数の業者で相見積もりを取ることをおすすめします。</p>
 

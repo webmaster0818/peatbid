@@ -75,7 +75,7 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">深いピート、シェリー樽のリッチさ、トロピカルフルーツ、樽材のスパイス、長く豊かな余韻</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">アイラ長期熟成の名作、コレクター需要堅調</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">情報なし（個別ロット差大、出品時概ね£500〜£800帯）</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.bowmore.com/whisky/bowmore-25-years-old" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.bowmore.com/whisky/bowmore-25-years-old</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.bowmore.com/whiskies/25-year-old" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.bowmore.com/whiskies/25-year-old</a></td></tr>
               </tbody>
             </table>
           </div>

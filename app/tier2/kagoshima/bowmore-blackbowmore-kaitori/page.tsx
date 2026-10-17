@@ -71,11 +71,11 @@ export default function Page() {
               <tbody>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">流通ステータス</th><td className="px-3 py-2">限定品（5回リリース、全完売）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">国内発売年</th><td className="px-3 py-2">1993年（1st Edition 29年）</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">後継品</th><td className="px-3 py-2">なし（一回限り、1964年原酒は枯渇）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">後継品</th><td className="px-3 py-2">なし（Black Bowmore コレクションは計5回のリリース。後年に Black Bowmore DB5 1964 を発売）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">1964年蒸留の希少な原酒、オロロソ・シェリー樽長期熟成。極めて濃密なドライフルーツ、ダークチョコレート、トロピカルフルーツ、極長い余韻</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">Bowmore最高峰、1993〜2016年の5回限定リリース。Sotheby's/Bonhams出品実績多数、投資対象として極上位</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">情報なし（個別ロット差大、出品時概ね£15,000〜£40,000帯、50年Last Caskは£60,000超実績）</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.bowmore.com/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.bowmore.com/</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.bowmore.com/whiskies/black-bowmore-50-year-old" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.bowmore.com/whiskies/black-bowmore-50-year-old</a></td></tr>
               </tbody>
             </table>
           </div>

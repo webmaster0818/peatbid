@@ -75,7 +75,7 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">ドライフルーツ、蜂蜜、サンダルウッド。複雑で深いシェリー香、長く優雅な余韻</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">ISC・WWA など世界的賞の常連。投資・贈答双方の需要高</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">情報なし（個別ロット差大、Bonhams出品履歴あり）</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://house.suntory.com/hibiki-whisky/hibiki-21-year-old" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://house.suntory.com/hibiki-whisky/hibiki-21-year-old</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://house.suntory.com/hibiki-whisky/hibiki-21-years-old" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://house.suntory.com/hibiki-whisky/hibiki-21-years-old</a></td></tr>
               </tbody>
             </table>
           </div>

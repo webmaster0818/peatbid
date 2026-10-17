@@ -1,0 +1,232 @@
+{
+ "yamazaki-nv": {
+  "status": "現行品",
+  "successor_product": "なし（同銘柄継続）",
+  "first_release_year": "1984年",
+  "distillery_official_url": "https://www.suntory.co.jp/whisky/yamazaki/",
+  "flavor_profile": "華やかな果実香にバニラ・蜂蜜の甘さ。口当たりは滑らかで、ミズナラ樽由来のほのかな伽羅の余韻が広がる",
+  "storage_advice": "アルコール度数43%。直射日光と高温多湿を避け、15-20℃前後の冷暗所で縦置き保管。開栓後は半年〜1年以内推奨",
+  "recent_overseas_auction": "情報なし（小売流通主体、海外オークション出品稀少）",
+  "collectibility_note": "現行流通品。終売報道なし。山崎シリーズの入門ボトルとして安定需要あり"
+ },
+ "taketsuru-pure": {
+  "status": "現行品（2020終売→2020新ボトル再発売）",
+  "successor_product": "竹鶴ピュアモルト（新ボトル, NV, 2020再発売）",
+  "first_release_year": "2000年（初代）／2020年（現行リニューアル）",
+  "distillery_official_url": "https://www.nikka.com/products/lineup/taketsuru/",
+  "flavor_profile": "余市と宮城峡のモルト原酒のブレンド。ドライフルーツ、軽やかなピート、シェリー樽由来の甘み、まろやかな余韻",
+  "storage_advice": "アルコール度数43%。直射日光・高温を避け縦置き。開栓後1年以内推奨",
+  "recent_overseas_auction": "情報なし（小売流通主体、新ボトルは出品稀少）",
+  "collectibility_note": "旧ボトル年表記版（17/21/25）は終売後プレミア化。新NVボトルは現行品で安定"
+ },
+ "taketsuru-17": {
+  "status": "終売（2020年生産終了）",
+  "successor_product": "なし（後継17年なし、竹鶴ピュアモルト NVへ統合）",
+  "first_release_year": "2000年",
+  "distillery_official_url": "https://www.nikka.com/products/lineup/taketsuru/",
+  "flavor_profile": "果実の甘み、シェリー樽の複雑さ、軽やかなピート香。バランスの取れた長期熟成由来の余韻",
+  "storage_advice": "アルコール度数43%。終売後の希少品、15-18℃の冷暗所・縦置き、コルク状態を定期確認",
+  "recent_overseas_auction": "£300〜£500帯 (2026 Q1〜Q2, Whisky Auctioneer)",
+  "collectibility_note": "WWA世界一複数回受賞。終売後プレミア化、コレクター需要堅調"
+ },
+ "taketsuru-21": {
+  "status": "終売（2020年生産終了）",
+  "successor_product": "なし（後継21年なし）",
+  "first_release_year": "2005年",
+  "distillery_official_url": "https://www.nikka.com/products/lineup/taketsuru/",
+  "flavor_profile": "完熟果実、シェリー樽のリッチさ、燻香、ナッツ、ダークチョコレート。深く長い余韻",
+  "storage_advice": "アルコール度数43%。終売・長期熟成品、温湿度管理推奨、振動を避け縦置き",
+  "recent_overseas_auction": "£600〜£1,200帯 (2026 Q1〜Q2, Whisky Auctioneer)",
+  "collectibility_note": "WWA最優秀ブレンデッドモルト受賞歴。終売プレミア進行中"
+ },
+ "taketsuru-25": {
+  "status": "終売（2020年生産終了）",
+  "successor_product": "なし",
+  "first_release_year": "2014年",
+  "distillery_official_url": "https://www.nikka.com/products/lineup/taketsuru/",
+  "flavor_profile": "極めて深いシェリー、ドライフルーツ、樽材のスパイス、長く豊かな余韻。長期熟成の極致",
+  "storage_advice": "アルコール度数43%。極希少品、温湿度管理セラー推奨",
+  "recent_overseas_auction": "情報なし（個別ロット差大、出品時概ね£1,500〜£3,000帯）",
+  "collectibility_note": "終売後プレミア急上昇。年産極小、コレクター需要極高"
+ },
+ "yoichi-nv": {
+  "status": "現行品",
+  "successor_product": "なし（同銘柄継続）",
+  "first_release_year": "1989年（シングルモルト余市として）／2015年（NVリニューアル）",
+  "distillery_official_url": "https://www.nikka.com/distilleries/yoichi/",
+  "flavor_profile": "石炭直火蒸留由来の力強いピート香、潮の香り、ドライフルーツ、複雑な樽香の重層",
+  "storage_advice": "アルコール度数45%。直射日光・高温を避け縦置き。開栓後1年以内推奨",
+  "recent_overseas_auction": "情報なし（小売流通主体）",
+  "collectibility_note": "現行流通品。北海道余市蒸溜所の代表ボトル"
+ },
+ "yoichi-10": {
+  "status": "終売（2015年生産終了、未再開）",
+  "successor_product": "なし（年表記10/12/15/20が一斉終売、余市NVへ統合）",
+  "first_release_year": "1989年",
+  "distillery_official_url": "https://www.nikka.com/distilleries/yoichi/",
+  "flavor_profile": "強いピートと潮の香り、シェリー樽の甘み、燻香の余韻",
+  "storage_advice": "アルコール度数45%。終売の希少品、15-18℃の冷暗所・縦置き、コルク状態定期確認",
+  "recent_overseas_auction": "情報なし（個別ロット差大）",
+  "collectibility_note": "2015年終売後プレミア進行。年表記版は再販報道なし"
+ },
+ "yoichi-15": {
+  "status": "終売（2015年生産終了）",
+  "successor_product": "なし",
+  "first_release_year": "1990年代",
+  "distillery_official_url": "https://www.nikka.com/distilleries/yoichi/",
+  "flavor_profile": "深い燻香、ドライフルーツ、ナッツ、潮香、長い余韻",
+  "storage_advice": "アルコール度数45%。終売・希少品、温湿度管理推奨、縦置き",
+  "recent_overseas_auction": "情報なし（出品稀少、個別ロット差大）",
+  "collectibility_note": "終売後プレミア進行。コレクター需要堅調"
+ },
+ "yoichi-20": {
+  "status": "終売（2015年生産終了）",
+  "successor_product": "なし",
+  "first_release_year": "2000年代",
+  "distillery_official_url": "https://www.nikka.com/distilleries/yoichi/",
+  "flavor_profile": "極めて濃厚な燻香、シェリー樽のドライフルーツ、潮香、長期熟成由来の深い余韻",
+  "storage_advice": "アルコール度数52%。終売・長期熟成品、温湿度管理セラー推奨",
+  "recent_overseas_auction": "情報なし（個別ロット差大、出品時概ね£2,000〜£4,000帯）",
+  "collectibility_note": "WWA最優秀シングルモルト受賞歴。終売後プレミア急上昇、投資対象として高評価"
+ },
+ "miyagikyo-nv": {
+  "status": "現行品",
+  "successor_product": "なし（同銘柄継続）",
+  "first_release_year": "1989年（シングルモルト宮城峡として）／2015年（NVリニューアル）",
+  "distillery_official_url": "https://www.nikka.com/distilleries/miyagikyo/",
+  "flavor_profile": "華やかな果実香、シェリー樽の甘み、滑らかな口当たり、ピートは控えめ",
+  "storage_advice": "アルコール度数45%。直射日光・高温を避け縦置き。開栓後1年以内推奨",
+  "recent_overseas_auction": "情報なし（小売流通主体）",
+  "collectibility_note": "現行流通品。仙台ふもとの宮城峡蒸溜所代表ボトル"
+ },
+ "miyagikyo-12": {
+  "status": "終売（2015年生産終了）",
+  "successor_product": "なし（年表記版終売、宮城峡NVへ統合）",
+  "first_release_year": "1989年",
+  "distillery_official_url": "https://www.nikka.com/distilleries/miyagikyo/",
+  "flavor_profile": "果実の甘み、シェリー樽の複雑さ、滑らかでフルーティーな余韻",
+  "storage_advice": "アルコール度数45%。終売の希少品、15-18℃の冷暗所・縦置き",
+  "recent_overseas_auction": "情報なし（出品稀少）",
+  "collectibility_note": "終売後プレミア進行。再販報道なし"
+ },
+ "miyagikyo-15": {
+  "status": "終売（2015年生産終了）",
+  "successor_product": "なし",
+  "first_release_year": "1990年代",
+  "distillery_official_url": "https://www.nikka.com/distilleries/miyagikyo/",
+  "flavor_profile": "完熟果実、シェリー樽の深い甘み、ナッツ、長く優雅な余韻",
+  "storage_advice": "アルコール度数45%。終売・希少品、温湿度管理推奨、縦置き",
+  "recent_overseas_auction": "情報なし（個別ロット差大）",
+  "collectibility_note": "終売後プレミア継続。コレクター需要堅調"
+ },
+ "mars-komagatake": {
+  "status": "現行品",
+  "successor_product": "なし（同銘柄継続、リミテッドエディション随時リリース）",
+  "first_release_year": "1992年（マルス駒ヶ岳シングルモルト初リリース）",
+  "distillery_official_url": "https://www.hombo.co.jp/whisky/komagatake/",
+  "flavor_profile": "中央アルプスの高地熟成由来の柔らかい果実香、バニラ、軽やかなピート、滑らかな余韻",
+  "storage_advice": "アルコール度数43%。直射日光・高温を避け縦置き。開栓後1年以内推奨",
+  "recent_overseas_auction": "情報なし（小売流通主体）",
+  "collectibility_note": "信州マルス蒸溜所の主力。リミテッドエディションは別途プレミア化"
+ },
+ "bowmore-18": {
+  "status": "現行品",
+  "successor_product": "なし（同銘柄継続）",
+  "first_release_year": "2007年（コアレンジ18年として）",
+  "distillery_official_url": "https://www.bowmore.com/whisky/bowmore-18-years-old",
+  "flavor_profile": "アイラ由来のピート、潮の香り、シェリー樽のドライフルーツ、トロピカルフルーツ、長く深い燻香の余韻",
+  "storage_advice": "アルコール度数43%。直射日光・高温を避け縦置き。開栓後1年以内推奨",
+  "recent_overseas_auction": "£90〜£140帯 (2026 Q1〜Q2, Whisky.Auction 標準700ml)",
+  "collectibility_note": "アイラ長期熟成の代表格、コレクション・常飲双方の需要"
+ },
+ "ardbeg-uigeadail": {
+  "status": "現行品",
+  "successor_product": "なし（同銘柄継続）",
+  "first_release_year": "2003年",
+  "distillery_official_url": "https://www.ardbeg.com/uigeadail",
+  "flavor_profile": "強いピート、シェリー樽由来のドライフルーツ、レーズン、ダークチョコレート、長く濃厚な燻香の余韻",
+  "storage_advice": "アルコール度数54.2%。直射日光・高温を避け縦置き。高アルコールのため長期保管に強い",
+  "recent_overseas_auction": "£70〜£100帯 (2026 Q1〜Q2, Whisky.Auction 標準700ml)",
+  "collectibility_note": "Ardbegコアレンジ、Jim Murray's Whisky Bible で世界一獲得歴あり、常飲・コレクション双方"
+ },
+ "ardbeg-corryvreckan": {
+  "status": "現行品",
+  "successor_product": "なし（同銘柄継続）",
+  "first_release_year": "2009年",
+  "distillery_official_url": "https://www.ardbeg.com/corryvreckan",
+  "flavor_profile": "極めて強いピート、潮の香り、フレンチオーク樽由来のスパイシーさ、長く激しい燻香の余韻",
+  "storage_advice": "アルコール度数57.1%。直射日光・高温を避け縦置き。高アルコールのため長期保管に強い",
+  "recent_overseas_auction": "£60〜£90帯 (2026 Q1〜Q2, Whisky.Auction 標準700ml)",
+  "collectibility_note": "Ardbeg強烈ピート派の代表、コレクション・常飲双方の需要"
+ },
+ "glenfarclas-25": {
+  "status": "現行品",
+  "successor_product": "なし（同銘柄継続）",
+  "first_release_year": "1990年代",
+  "distillery_official_url": "https://www.glenfarclas.com/whisky/25-years-old/",
+  "flavor_profile": "オロロソ・シェリー樽のドライフルーツ、ダークチョコレート、樽材のスパイス、長く豊かな余韻",
+  "storage_advice": "アルコール度数43%。長期熟成品、15-20℃の冷暗所・縦置き",
+  "recent_overseas_auction": "£170〜£250帯 (2026 Q1〜Q2, Whisky.Auction 標準700ml)",
+  "collectibility_note": "シェリー樽スペイサイドの王道、価格対品質比でコレクター・常飲双方の人気"
+ },
+ "talisker-25": {
+  "status": "現行品（年版リリース、年産量極小）",
+  "successor_product": "なし（同銘柄継続、年版で毎年新リリース）",
+  "first_release_year": "2004年",
+  "distillery_official_url": "https://www.malts.com/en-us/distilleries/talisker",
+  "flavor_profile": "スカイ島の海風、強い潮香、白胡椒、軽やかなピート、深い樽香、長く塩辛い余韻",
+  "storage_advice": "アルコール度数45.8%（年版による）。長期熟成品、15-18℃の冷暗所・縦置き",
+  "recent_overseas_auction": "£200〜£350帯 (2026 Q1〜Q2, Whisky.Auction 標準700ml)",
+  "collectibility_note": "スカイ島タリスカー長期熟成の代表、年版コレクターに人気"
+ },
+ "laphroaig-25": {
+  "status": "現行品（年版リリース、年産量極小）",
+  "successor_product": "なし（Cask Strength 25年として毎年新版）",
+  "first_release_year": "2007年",
+  "distillery_official_url": "https://www.laphroaig.com/our-whisky/laphroaig-25-year-old",
+  "flavor_profile": "極めて強いピートと薬品香、潮の香り、シェリー樽の甘み、長く深い燻香の余韻",
+  "storage_advice": "アルコール度数43-49%（年版による）。長期熟成・高額品、15-18℃の冷暗所・縦置き",
+  "recent_overseas_auction": "情報なし（個別ロット差大、出品時概ね£400〜£700帯）",
+  "collectibility_note": "ピートの強いアイラモルトの長期熟成、年版コレクター需要安定"
+ },
+ "bowmore-25": {
+  "status": "現行品（年産量極小）",
+  "successor_product": "なし（同銘柄継続）",
+  "first_release_year": "2007年",
+  "distillery_official_url": "https://www.bowmore.com/whisky/bowmore-25-years-old",
+  "flavor_profile": "深いピート、シェリー樽のリッチさ、トロピカルフルーツ、樽材のスパイス、長く豊かな余韻",
+  "storage_advice": "アルコール度数43%。長期熟成・高額品、15-18℃の冷暗所・縦置き、コルク状態定期確認",
+  "recent_overseas_auction": "情報なし（個別ロット差大、出品時概ね£500〜£800帯）",
+  "collectibility_note": "アイラ長期熟成の名作、コレクター需要堅調"
+ },
+ "bowmore-blackbowmore": {
+  "status": "限定品（5回リリース、全完売）",
+  "successor_product": "なし（一回限り、1964年原酒は枯渇）",
+  "first_release_year": "1993年（1st Edition 29年）",
+  "distillery_official_url": "https://www.bowmore.com/",
+  "flavor_profile": "1964年蒸留の希少な原酒、オロロソ・シェリー樽長期熟成。極めて濃密なドライフルーツ、ダークチョコレート、トロピカルフルーツ、極長い余韻",
+  "storage_advice": "アルコール度数42-49%。希少品のため専用セラーでの保管を推奨。振動・光遮断、コルク状態を年1回確認",
+  "recent_overseas_auction": "情報なし（個別ロット差大、出品時概ね£15,000〜£40,000帯、50年Last Caskは£60,000超実績）",
+  "collectibility_note": "Bowmore最高峰、1993〜2016年の5回限定リリース。Sotheby's/Bonhams出品実績多数、投資対象として極上位"
+ },
+ "hibiki-21": {
+  "status": "現行品（年産量極小）",
+  "successor_product": "なし（同銘柄継続）",
+  "first_release_year": "1994年",
+  "distillery_official_url": "https://house.suntory.com/hibiki-whisky/hibiki-21-year-old",
+  "flavor_profile": "ドライフルーツ、蜂蜜、サンダルウッド。複雑で深いシェリー香、長く優雅な余韻",
+  "storage_advice": "アルコール度数43%。長期熟成・希少品。温度15-18℃・湿度50-60%、振動・光を避けて保管",
+  "recent_overseas_auction": "情報なし（個別ロット差大、Bonhams出品履歴あり）",
+  "collectibility_note": "ISC・WWA など世界的賞の常連。投資・贈答双方の需要高"
+ },
+ "glenmorangie-signet": {
+  "status": "現行品",
+  "successor_product": "なし（同銘柄継続）",
+  "first_release_year": "2008年",
+  "distillery_official_url": "https://www.glenmorangie.com/whisky/signet",
+  "flavor_profile": "高ロースト麦芽由来のチョコレート・モカ、オレンジピール、シナモン、樽材のスパイス、長く深い余韻",
+  "storage_advice": "アルコール度数46%。直射日光・高温を避け縦置き。開栓後1年以内推奨",
+  "recent_overseas_auction": "£130〜£180帯 (2026 Q1〜Q2, Whisky.Auction 標準700ml)",
+  "collectibility_note": "ハイランド・グレンモーレンジ最高峰の常時品、ノンエイジでありながら高評価"
+ }
+}
