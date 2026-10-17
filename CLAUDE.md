@@ -411,3 +411,4 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **確認できず（5月のまま）32銘柄**: suntory.co.jp・themacallan.com・springbank.scot は 403、glenfiddich.com・thebalvenie.com は 429、one-drinks.com はドメインパーキング、chichibu-distillery.jp は DNS なし。
 - `scripts/patch-brand-status-1017.py`（冪等・旧値は data/.brand-status-1017-old.json）。1回目 1,083ファイル／2回目 0。生成器 generate-tier2-v4-plan-a.py の注記を `be.get("status_as_of","2026年5月")` に。週次はリーフを再生成しない・freshness パッチはこの文字列に触れない。
 - source ccd0a4c2c/377eb78b3・deploy 8ad51d7c2e（CF 反映まで約17分）。本番: 10月17日注記 893／5月 1,504、/api/contact 400、robots Sitemap 行。
+- (続き) パーキング／DNS不在の「公式情報」リンクを削除（MediaXAI 指示・cleaning 10/13 と同扱い）: one-drinks.com（イチローズ card/DD/MWR・羽生カード）・chichibu-distillery.jp（秩父ザ・ファースト）。deploy 全HTML before 752/188（235ページ・全て tier2）→ after 0/0。brands_extra の URL を ""、生成器は空なら「—」（`official_cell`）。`scripts/patch-tier2-dead-official-links-1017.py`（冪等・235→0）。source 5fa37199b・deploy ae5f29d44a。本番 235ページで0件。
