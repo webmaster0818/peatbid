@@ -402,3 +402,12 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 件数（本番 HTML の表示テキスト＋JSON-LD）: before 29（11ページ）→ after out/ 0。precheck ✅全項目OK（3,005）。ASP コード 0本のまま（本番と同一）。tier2 は rsync 除外のまま（テキスト変更なし）。
 - source df4d8718d ／ deploy f047e5a66f。
 - 未対応: tier2 kanagawa 2ページの「人口は9（20万人417万世帯）」の崩れ（920万人・417万世帯の誤組版と思われる）。ローカル ~/projects/peatbid main が origin より遅れたまま（週次 weekly-yahoo-update.sh はこの checkout で生成・push するため、追いつかせないと 10/16 以降の文言が週次で戻るおそれ）。
+
+### 2026-10-17 P1: tier2「流通ステータス・後継品」注記（2026年5月時点）を各社公式で再確認 ✅本番反映済み
+- 期限切れ検索（キャンペーン期日・「◯月◯日まで」「今月」「期間限定」等）は該当0件。【年月】表記は全て2026年10月（週次自動）。
+- 元データ = `data/brands_extra.py`（50銘柄。glenfarclas-105 はデータなし）→ tier2 リーフ 2,397 のプロフィール表のみが参照。
+- **公式で確認できた19銘柄**（注記を「2026年10月17日時点」に＝`status_as_of`）: yamazaki-nv（house.suntory.com）／竹鶴 pure・17・21・25（nikka.com/brands/taketsuru/・アサヒ 2020/0116・2012/0516）／余市 nv・10・15・20、宮城峡 nv・12・15（アサヒ 2015/0615_3「2015年8月末をもって販売を終了」・2022/0714_1 余市10年 数量限定再発売・nikka.com/brands/yoichi_miyagikyo/）／mars-komagatake（hombo.co.jp/product/mars-singlemalt-komagatake/）／bowmore-18（bowmore.com/whiskies/18-years-old）／ardbeg uigeadail・corryvreckan（ardbeg.com/en-int/products/…）／glenfarclas-25（glenfarclas.com/whisky/the-aged-range/25-year-old-whisky/）／talisker-25（malts.com 製品ページ「Limited edition」）／laphroaig-25（公式掲載の最新は 2023 Edition・在庫切れ）。
+- 値の修正: **余市10年 終売→現行品（2022年数量限定で再発売）**＋brands.csv description／竹鶴17・21・25「2020年生産終了」→「現行ラインアップに掲載なし」（終売年は公式記載なし）・竹鶴25 発売年 2014→2012／竹鶴 pure「2020終売→再発売」→「2020年3月31日リニューアル、数量限定」／余市・宮城峡 年表記版「2015年生産終了」→「2015年8月末で販売終了」／talisker-25・laphroaig-25 の「毎年新版」削除／blackbowmore 後継「一回限り、1964年原酒は枯渇」→5回リリース＋DB5／404 だった公式URL 11件差し替え（hibiki-21・bowmore-25・glenmorangie-signet 含む）。
+- **確認できず（5月のまま）32銘柄**: suntory.co.jp・themacallan.com・springbank.scot は 403、glenfiddich.com・thebalvenie.com は 429、one-drinks.com はドメインパーキング、chichibu-distillery.jp は DNS なし。
+- `scripts/patch-brand-status-1017.py`（冪等・旧値は data/.brand-status-1017-old.json）。1回目 1,083ファイル／2回目 0。生成器 generate-tier2-v4-plan-a.py の注記を `be.get("status_as_of","2026年5月")` に。週次はリーフを再生成しない・freshness パッチはこの文字列に触れない。
+- source ccd0a4c2c/377eb78b3・deploy 8ad51d7c2e（CF 反映まで約17分）。本番: 10月17日注記 893／5月 1,504、/api/contact 400、robots Sitemap 行。
