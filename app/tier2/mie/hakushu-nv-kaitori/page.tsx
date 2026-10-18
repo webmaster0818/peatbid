@@ -69,17 +69,17 @@ export default function Page() {
           <div className="table-wrapper not-prose">
             <table className="text-sm">
               <tbody>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">流通ステータス</th><td className="px-3 py-2">現行品（出荷制限あり）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">流通ステータス</th><td className="px-3 py-2">現行品（サントリー公式の商品情報に掲載）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">国内発売年</th><td className="px-3 py-2">2014年</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">後継品</th><td className="px-3 py-2">なし（同銘柄継続）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">青リンゴ、ミント、新緑の香り。爽やかなスモーキーさと甘いバニラの調和、軽やかな余韻</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">現行品、ハイボール需要で安定。終売報道なし</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">情報なし（小売流通主体）</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.suntory.co.jp/whisky/hakushu/lineup/hakushuNAS/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.suntory.co.jp/whisky/hakushu/lineup/hakushuNAS/</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://products.suntory.co.jp/d/4901777233911/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://products.suntory.co.jp/d/4901777233911/</a></td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年5月時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
+          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年10月18日時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
 
           <h2>3. 状態別の業界目安（パーセンテージ）</h2>
           <p>市場相場（Yahoo中央値）を基準（100%）とした業界一般の目安です。実際の査定額は業者により異なるため、最終的な金額は各業者ページでご確認ください。</p>
@@ -146,7 +146,7 @@ export default function Page() {
             <li><strong>国内市場（Yahoo Auctions 過去180日中央値）</strong>: ¥10,051（¥10,051（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=232、取得日 2026-10-12））</li>
             <li><strong>海外オークション直近</strong>: 情報なし（小売流通主体）</li>
             <li><strong>コレクション価値</strong>: 現行品、ハイボール需要で安定。終売報道なし</li>
-            <li><strong>流通ステータス</strong>: 現行品（出荷制限あり）（2014年発売）</li>
+            <li><strong>流通ステータス</strong>: 現行品（サントリー公式の商品情報に掲載）（2014年発売）</li>
           </ul>
           <p>海外オークションで高値が付いた直後は、国内の業者の買取査定額も上昇する傾向があります。一方、下落の局面では業者の買取意欲も低下するため、上昇傾向の時期に複数の業者で相見積もりを取ることをおすすめします。</p>
 

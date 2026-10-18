@@ -69,17 +69,17 @@ export default function Page() {
           <div className="table-wrapper not-prose">
             <table className="text-sm">
               <tbody>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">流通ステータス</th><td className="px-3 py-2">現行品（年産量極小）</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">流通ステータス</th><td className="px-3 py-2">現行品（年間生産本数千数百本の限定品。サントリー公式）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">国内発売年</th><td className="px-3 py-2">2005年</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">後継品</th><td className="px-3 py-2">なし（同銘柄継続）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">シェリー樽の濃厚なドライフルーツ、レーズン、ダークチョコレート。深い甘みと長い余韻、まろやかな樽香</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">プレミア中のプレミア。生産数極小で投資対象としても評価が高い</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">情報なし（個別ロット差大、Bonhams/Sotheby's 出品履歴あり）</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.suntory.co.jp/whisky/yamazaki/lineup/yamazaki25y/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.suntory.co.jp/whisky/yamazaki/lineup/yamazaki25y/</a></td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://products.suntory.co.jp/d/4901777347700/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://products.suntory.co.jp/d/4901777347700/</a></td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年5月時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
+          <p className="text-xs text-warm-gray">※流通ステータスや後継品の情報は、2026年10月18日時点の公式情報にもとづきます。海外オークションの直近の落札は参照時点のものです。最新の市況は、各オークションの公式サイトでご確認ください。</p>
 
           <h2>3. 状態別の業界目安（パーセンテージ）</h2>
           <p>市場相場（Yahoo中央値）を基準（100%）とした業界一般の目安です。実際の査定額は業者により異なるため、最終的な金額は各業者ページでご確認ください。</p>
@@ -146,7 +146,7 @@ export default function Page() {
             <li><strong>国内市場（Yahoo Auctions 過去180日中央値）</strong>: ¥864,100（¥864,100（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=29、取得日 2026-10-13））</li>
             <li><strong>海外オークション直近</strong>: 情報なし（個別ロット差大、Bonhams/Sotheby's 出品履歴あり）</li>
             <li><strong>コレクション価値</strong>: プレミア中のプレミア。生産数極小で投資対象としても評価が高い</li>
-            <li><strong>流通ステータス</strong>: 現行品（年産量極小）（2005年発売）</li>
+            <li><strong>流通ステータス</strong>: 現行品（年間生産本数千数百本の限定品。サントリー公式）（2005年発売）</li>
           </ul>
           <p>海外オークションで高値が付いた直後は、国内の業者の買取査定額も上昇する傾向があります。一方、下落の局面では業者の買取意欲も低下するため、上昇傾向の時期に複数の業者で相見積もりを取ることをおすすめします。</p>
 
