@@ -5,12 +5,12 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/yamazaki-nv.json";
 
 export const metadata: Metadata = {
-  title: '【毎週更新】山崎ノンエイジの買取相場｜ヤフオク落札中央値10,067円基準【2026年10月】',
-  description: '山崎ノンエイジの買取相場は10,067円が目安（毎週月曜更新・ヤフオク実落札の中央値・過去180日のIQR外れ値除去後、n=274件）。箱なし・開封済み等の状態別の査定の目安、買取業者3社の比較、高く売るためのポイントを実データにもとづいて解説しています。買取店3社の掲示価格比較と2年分の買取価格推移も掲載。',
+  title: '【毎週更新】山崎ノンエイジの買取相場｜ヤフオク落札中央値10,116円基準【2026年10月】',
+  description: '山崎ノンエイジの買取相場は10,116円が目安（毎週月曜更新・ヤフオク実落札の中央値・過去180日のIQR外れ値除去後、n=274件）。箱なし・開封済み等の状態別の査定の目安、買取業者3社の比較、高く売るためのポイントを実データにもとづいて解説しています。買取店3社の掲示価格比較と2年分の買取価格推移も掲載。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '今の山崎ノンエイジの買取相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '山崎ノンエイジのヤフオク実落札（過去180日・IQR外れ値除去）の中央値は10,067円です（サンプル数 n=274、取得日 2026-10-12・毎週月曜に更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": '山崎ノンエイジの買取価格は店舗によって異なりますか？', "acceptedAnswer": { "@type": "Answer", "text": '異なります。2026-10-11 に各店の公開ページで確認した掲示価格は、LINXAS（リンクサス） 9,600円（山崎NV 700ml・2026-09-30更新）、ファイブニーズ 9,500円（山崎NV 700ml・2026-09-30更新）、サケウル（STOCK LAB） 9,000〜10,000円（山崎 NV／NV 箱なし／NV 100周年・2026-10-09更新）でした。ボトルの仕様や付属品、店舗の在庫状況によっても変わるため、売却前に複数の店舗で査定を受けて比較してください。' } }, { "@type": "Question", "name": '「山崎 年代指定なし」と山崎ノンエイジは同じものですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、同じものです。「山崎 年代指定なし」「山崎 NV」は、熟成年数の表記がないボトル（山崎ノンエイジ）を指す別の表記です。本ページの相場（10,067円）を目安としてご利用いただけます。' } }, { "@type": "Question", "name": '山崎ノンエイジを高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' } }, { "@type": "Question", "name": '開封済みの山崎ノンエイジでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' } }, { "@type": "Question", "name": '山崎ノンエイジは箱なしでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約8,050〜9,060円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' } }, { "@type": "Question", "name": '山崎ノンエイジに偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' } }, { "@type": "Question", "name": '山崎ノンエイジの保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' } }, { "@type": "Question", "name": '山崎ノンエイジは税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '山崎ノンエイジを売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" } }, { "@type": "Question", "name": '山崎ノンエイジと他の銘柄は、どちらを先に売るべきですか？', "acceptedAnswer": { "@type": "Answer", "text": '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '今の山崎ノンエイジの買取相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '山崎ノンエイジのヤフオク実落札（過去180日・IQR外れ値除去）の中央値は10,116円です（サンプル数 n=274、取得日 2026-10-19・毎週月曜に更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": '山崎ノンエイジの買取価格は店舗によって異なりますか？', "acceptedAnswer": { "@type": "Answer", "text": '異なります。2026-10-11 に各店の公開ページで確認した掲示価格は、LINXAS（リンクサス） 9,600円（山崎NV 700ml・2026-09-30更新）、ファイブニーズ 9,500円（山崎NV 700ml・2026-09-30更新）、サケウル（STOCK LAB） 9,000〜10,000円（山崎 NV／NV 箱なし／NV 100周年・2026-10-09更新）でした。ボトルの仕様や付属品、店舗の在庫状況によっても変わるため、売却前に複数の店舗で査定を受けて比較してください。' } }, { "@type": "Question", "name": '「山崎 年代指定なし」と山崎ノンエイジは同じものですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、同じものです。「山崎 年代指定なし」「山崎 NV」は、熟成年数の表記がないボトル（山崎ノンエイジ）を指す別の表記です。本ページの相場（10,116円）を目安としてご利用いただけます。' } }, { "@type": "Question", "name": '山崎ノンエイジを高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' } }, { "@type": "Question", "name": '開封済みの山崎ノンエイジでも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' } }, { "@type": "Question", "name": '山崎ノンエイジは箱なしでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約8,090〜9,100円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' } }, { "@type": "Question", "name": '山崎ノンエイジに偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' } }, { "@type": "Question", "name": '山崎ノンエイジの保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' } }, { "@type": "Question", "name": '山崎ノンエイジは税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '山崎ノンエイジを売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" } }, { "@type": "Question", "name": '山崎ノンエイジと他の銘柄は、どちらを先に売るべきですか？', "acceptedAnswer": { "@type": "Answer", "text": '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' } }] }) }} />;
 }
 
 const tocItems = [
@@ -51,7 +51,7 @@ export default function YamazakiNvKaitoriPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎ノンエイジの買取相場と業者比較ガイド【2026年10月】</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-12 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -87,7 +87,7 @@ export default function YamazakiNvKaitoriPage() {
                 <tr><td><strong>アルコール度数</strong></td><td>43%</td></tr>
                 <tr><td><strong>容量</strong></td><td>700ml</td></tr>
                 <tr><td><strong>希少度</strong></td><td>コモン</td></tr>
-                <tr><td><strong>市場相場（Yahoo中央値）</strong></td><td><strong>10,067円</strong></td></tr>
+                <tr><td><strong>市場相場（Yahoo中央値）</strong></td><td><strong>10,116円</strong></td></tr>
               </tbody>
             </table>
           </div>
@@ -114,7 +114,7 @@ export default function YamazakiNvKaitoriPage() {
 
           <h2 id="current-price">4. 現在の市場相場（Yahoo中央値）</h2>
 
-          <p>山崎ノンエイジの市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>10,067円</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=274件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
+          <p>山崎ノンエイジの市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>10,116円</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=274件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
 
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
             <p className="text-sm font-bold text-ink mb-3">山崎ノンエイジの買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
@@ -122,25 +122,25 @@ export default function YamazakiNvKaitoriPage() {
               <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">10,175</text>
               <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">10,121</text>
               <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">10,067</text>
-              <polyline points="66.0,38.9 116.5,38.9 167.1,38.9 217.6,69.0 268.2,38.9 318.7,69.0 369.3,155.1 419.8,120.7 470.4,120.7 520.9,100.2 571.5,112.1 622.0,155.1" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="66.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-07-27: 10,175円（サンプル n=262件）</title></circle>
-              <circle cx="116.5" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-03: 10,175円（サンプル n=262件）</title></circle>
-              <circle cx="167.1" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-10: 10,175円（サンプル n=266件）</title></circle>
-              <circle cx="217.6" cy="69.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 10,147円（サンプル n=264件）</title></circle>
-              <circle cx="268.2" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 10,175円（サンプル n=266件）</title></circle>
-              <circle cx="318.7" cy="69.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 10,147円（サンプル n=268件）</title></circle>
-              <circle cx="369.3" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 10,067円（サンプル n=270件）</title></circle>
-              <circle cx="419.8" cy="120.7" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 10,099円（サンプル n=270件）</title></circle>
-              <circle cx="470.4" cy="120.7" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 10,099円（サンプル n=270件）</title></circle>
-              <circle cx="520.9" cy="100.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 10,118円（サンプル n=276件）</title></circle>
-              <circle cx="571.5" cy="112.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 10,107円（サンプル n=276件）</title></circle>
-              <circle cx="622.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 10,067円（サンプル n=274件）</title></circle>
-              <text x="618.0" y="145.1" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">10,067円</text>
-              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">7/27</text>
-              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/31</text>
-              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">10/12</text>
+              <polyline points="66.0,38.9 116.5,38.9 167.1,69.0 217.6,38.9 268.2,69.0 318.7,155.1 369.3,120.7 419.8,120.7 470.4,100.2 520.9,112.1 571.5,155.1 622.0,102.4" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-03: 10,175円（サンプル n=262件）</title></circle>
+              <circle cx="116.5" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-10: 10,175円（サンプル n=266件）</title></circle>
+              <circle cx="167.1" cy="69.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 10,147円（サンプル n=264件）</title></circle>
+              <circle cx="217.6" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 10,175円（サンプル n=266件）</title></circle>
+              <circle cx="268.2" cy="69.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 10,147円（サンプル n=268件）</title></circle>
+              <circle cx="318.7" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 10,067円（サンプル n=270件）</title></circle>
+              <circle cx="369.3" cy="120.7" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 10,099円（サンプル n=270件）</title></circle>
+              <circle cx="419.8" cy="120.7" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 10,099円（サンプル n=270件）</title></circle>
+              <circle cx="470.4" cy="100.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 10,118円（サンプル n=276件）</title></circle>
+              <circle cx="520.9" cy="112.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 10,107円（サンプル n=276件）</title></circle>
+              <circle cx="571.5" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 10,067円（サンプル n=274件）</title></circle>
+              <circle cx="622.0" cy="102.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 10,116円（サンプル n=274件）</title></circle>
+              <text x="618.0" y="92.4" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">10,116円</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/3</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/7</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">10/19</text>
             </svg>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-07-27〜2026-10-12（週次12点・各点のサンプル数 n=262〜276件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-03〜2026-10-19（週次12点・各点のサンプル数 n=262〜276件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
           </div>
 
           <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、<strong>3社以上、できれば4社以上で相見積もり</strong>を取ることをおすすめします。</p>
@@ -163,7 +163,7 @@ export default function YamazakiNvKaitoriPage() {
               <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">山崎NV 700ml<br /><span className="text-warm-gray text-xs">箱あり・箱なし同額</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">9,600円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/yamazaki/yamazakinv/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">ファイブニーズ</td><td className="py-2 pr-3">山崎NV 700ml<br /><span className="text-warm-gray text-xs">参考買取価格</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">9,500円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://www.sakekaitori.com/whisky/japanese_whiskey/yamazaki_brand/yamazakinv/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">サケウル（STOCK LAB）</td><td className="py-2 pr-3">山崎 NV／NV 箱なし／NV 100周年<br /><span className="text-warm-gray text-xs">3種とも同レンジ</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">9,000〜10,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-09</td><td className="py-2"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/yamazaki/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">山崎NV 180ml<br /><span className="text-warm-gray text-xs">箱あり</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">2,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-04</td><td className="py-2"><a href="https://linxas.shop/whiskey/yamazaki/yamazakinv/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr></tbody>
             </table>
           </div>
-          <p>標準的な700mlボトルの掲示価格は <strong>9,000〜10,000円</strong> で、PeatBid が集計しているヤフオク落札中央値 <strong>10,067円</strong>（取得日 2026-10-12）の <strong>89〜99%</strong> にあたります。中央値は個人間の落札額、掲示価格は店舗が買い取る際の参考額であり、両者を比較することで店舗に売却した場合のおおよその金額を把握できます。</p>
+          <p>標準的な700mlボトルの掲示価格は <strong>9,000〜10,000円</strong> で、PeatBid が集計しているヤフオク落札中央値 <strong>10,116円</strong>（取得日 2026-10-19）の <strong>89〜99%</strong> にあたります。中央値は個人間の落札額、掲示価格は店舗が買い取る際の参考額であり、両者を比較することで店舗に売却した場合のおおよその金額を把握できます。</p>
           
 
           <h3 id="store-trend">山崎ノンエイジの買取価格の推移（店舗の掲示価格・約2年分）</h3>
@@ -226,7 +226,7 @@ export default function YamazakiNvKaitoriPage() {
               <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap">2024年4月〜2026年3月</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">7,000円</td><td className="py-2 pr-3">シングルモルト 山崎 700ml（2024年4月1日出荷分から改定）</td><td className="py-2"><a href="https://www.suntory.co.jp/news/article/14499.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">サントリー発表</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 whitespace-nowrap">2026年4月〜</td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">7,500円</td><td className="py-2 pr-3">同上（2026年4月1日出荷分から改定・発表 2025-11-04 No.14932）</td><td className="py-2"><a href="https://www.suntory.co.jp/news/article/14932.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">サントリー発表</a></td></tr></tbody>
             </table>
           </div>
-          <p>現在の希望小売価格 7,500円（税別）は税込 8,250円です。ヤフオク落札中央値 10,067円 はその <strong>1.22倍</strong>。二次流通では、定価を上回る水準で取引されています。</p>
+          <p>現在の希望小売価格 7,500円（税別）は税込 8,250円です。ヤフオク落札中央値 10,116円 はその <strong>1.23倍</strong>。二次流通では、定価を上回る水準で取引されています。</p>
 
           <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
 
@@ -272,14 +272,14 @@ export default function YamazakiNvKaitoriPage() {
                 <tr><th>状態</th><th>付属品</th><th>業界目安（市場相場対比）</th><th>概算額（中央値基準）</th></tr>
               </thead>
               <tbody>
-                <tr><td>未開封・付属品完備</td><td>箱・冊子・カートン揃い</td><td>市場相場の95〜100%程度</td><td><strong>約9,560〜10,070円</strong></td></tr>
-                <tr><td>未開封・箱なし</td><td>ラベル良好</td><td>市場相場の80〜90%程度</td><td><strong>約8,050〜9,060円</strong></td></tr>
-                <tr><td>未開封・冊子なし</td><td>外箱あり</td><td>市場相場の85〜95%程度</td><td><strong>約8,560〜9,560円</strong></td></tr>
-                <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td>市場相場の75〜88%程度</td><td><strong>約7,550〜8,860円</strong></td></tr>
-                <tr><td>未開封・ラベル損傷</td><td>付属あり</td><td>市場相場の60〜75%程度</td><td><strong>約6,040〜7,550円</strong></td></tr>
-                <tr><td>未開封・液面減少</td><td>やや進行</td><td>市場相場の55〜70%程度</td><td><strong>約5,540〜7,050円</strong></td></tr>
-                <tr><td>開封済み・9割以上残</td><td>付属あり</td><td>市場相場の30〜40%程度</td><td><strong>約3,020〜4,030円</strong></td></tr>
-                <tr><td>開封済み・半分以下残</td><td>付属あり</td><td>市場相場の15〜25%程度</td><td><strong>約1,510〜2,520円</strong></td></tr>
+                <tr><td>未開封・付属品完備</td><td>箱・冊子・カートン揃い</td><td>市場相場の95〜100%程度</td><td><strong>約9,610〜10,120円</strong></td></tr>
+                <tr><td>未開封・箱なし</td><td>ラベル良好</td><td>市場相場の80〜90%程度</td><td><strong>約8,090〜9,100円</strong></td></tr>
+                <tr><td>未開封・冊子なし</td><td>外箱あり</td><td>市場相場の85〜95%程度</td><td><strong>約8,600〜9,610円</strong></td></tr>
+                <tr><td>未開封・ラベル軽度汚れ</td><td>付属あり</td><td>市場相場の75〜88%程度</td><td><strong>約7,590〜8,900円</strong></td></tr>
+                <tr><td>未開封・ラベル損傷</td><td>付属あり</td><td>市場相場の60〜75%程度</td><td><strong>約6,070〜7,590円</strong></td></tr>
+                <tr><td>未開封・液面減少</td><td>やや進行</td><td>市場相場の55〜70%程度</td><td><strong>約5,560〜7,080円</strong></td></tr>
+                <tr><td>開封済み・9割以上残</td><td>付属あり</td><td>市場相場の30〜40%程度</td><td><strong>約3,030〜4,050円</strong></td></tr>
+                <tr><td>開封済み・半分以下残</td><td>付属あり</td><td>市場相場の15〜25%程度</td><td><strong>約1,520〜2,530円</strong></td></tr>
               </tbody>
             </table>
           </div>
@@ -298,7 +298,7 @@ export default function YamazakiNvKaitoriPage() {
 
           <h3 id="hako-nashi-souba">山崎ノンエイジを箱なし・付属品なしで売る場合の買取相場</h3>
 
-          <p>箱や付属品がない場合の目安です。未開封・箱なし（ラベル良好）の場合、業界一般の目安は<strong>市場相場の80〜90%程度（約8,050〜9,060円）</strong>です。外箱・冊子の揃った完品と比べて1〜2割の減額が目安のため、<strong>箱がない場合でも売却は可能です</strong>。</p>
+          <p>箱や付属品がない場合の目安です。未開封・箱なし（ラベル良好）の場合、業界一般の目安は<strong>市場相場の80〜90%程度（約8,090〜9,100円）</strong>です。外箱・冊子の揃った完品と比べて1〜2割の減額が目安のため、<strong>箱がない場合でも売却は可能です</strong>。</p>
 
           <ul>
             <li>減額幅は業者の評価基準によって異なります。箱なしの場合は特に<strong>複数業者での相見積もり</strong>が有効です</li>
@@ -333,7 +333,7 @@ export default function YamazakiNvKaitoriPage() {
 
           <p>これらのオークションの落札データは、各サイトの「Past Results」で閲覧できます。日本の買取業者の査定額は、海外の落札データに加え、輸送コスト・関税・業者の利益を考慮して算出されるのが一般的です。</p>
 
-          <p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 時点の山崎ノンエイジは <strong>10,161円</strong>（n=244）、最新の 2026-10-12 は <strong>10,067円</strong>（n=274）で、この間の変化は <strong>-0.9%</strong> です（出典: PeatBid 集計・<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">算出方法</Link>）。集計期間が21週分のため、数年単位の値動きについては、このデータからは判断できません。</p>
+          <p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 時点の山崎ノンエイジは <strong>10,161円</strong>（n=244）、最新の 2026-10-19 は <strong>10,116円</strong>（n=274）で、この間の変化は <strong>-0.4%</strong> です（出典: PeatBid 集計・<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">算出方法</Link>）。集計期間が22週分のため、数年単位の値動きについては、このデータからは判断できません。</p>
 
 
           <h2 id="takaku-uru">8. 山崎ノンエイジを高く売るための7つのポイント</h2>
@@ -465,7 +465,7 @@ export default function YamazakiNvKaitoriPage() {
           <h2 id="faq">12. 山崎ノンエイジに関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '今の山崎ノンエイジの買取相場はいくらですか？', a: '山崎ノンエイジのヤフオク実落札（過去180日・IQR外れ値除去）の中央値は10,067円です（サンプル数 n=274、取得日 2026-10-12・毎週月曜に更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: '山崎ノンエイジの買取価格は店舗によって異なりますか？', a: '異なります。2026-10-11 に各店の公開ページで確認した掲示価格は、LINXAS（リンクサス） 9,600円（山崎NV 700ml・2026-09-30更新）、ファイブニーズ 9,500円（山崎NV 700ml・2026-09-30更新）、サケウル（STOCK LAB） 9,000〜10,000円（山崎 NV／NV 箱なし／NV 100周年・2026-10-09更新）でした。ボトルの仕様や付属品、店舗の在庫状況によっても変わるため、売却前に複数の店舗で査定を受けて比較してください。' }, { q: '「山崎 年代指定なし」と山崎ノンエイジは同じものですか？', a: 'はい、同じものです。「山崎 年代指定なし」「山崎 NV」は、熟成年数の表記がないボトル（山崎ノンエイジ）を指す別の表記です。本ページの相場（10,067円）を目安としてご利用いただけます。' }, { q: '山崎ノンエイジを高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' }, { q: '開封済みの山崎ノンエイジでも買取できますか？', a: 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' }, { q: '山崎ノンエイジは箱なしでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約8,050〜9,060円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' }, { q: '山崎ノンエイジに偽物・贋作はありますか？', a: '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' }, { q: '山崎ノンエイジの保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' }, { q: '山崎ノンエイジは税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '山崎ノンエイジを売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" }, { q: '山崎ノンエイジと他の銘柄は、どちらを先に売るべきですか？', a: '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' }].map((faq) => (
+            {[{ q: '今の山崎ノンエイジの買取相場はいくらですか？', a: '山崎ノンエイジのヤフオク実落札（過去180日・IQR外れ値除去）の中央値は10,116円です（サンプル数 n=274、取得日 2026-10-19・毎週月曜に更新）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: '山崎ノンエイジの買取価格は店舗によって異なりますか？', a: '異なります。2026-10-11 に各店の公開ページで確認した掲示価格は、LINXAS（リンクサス） 9,600円（山崎NV 700ml・2026-09-30更新）、ファイブニーズ 9,500円（山崎NV 700ml・2026-09-30更新）、サケウル（STOCK LAB） 9,000〜10,000円（山崎 NV／NV 箱なし／NV 100周年・2026-10-09更新）でした。ボトルの仕様や付属品、店舗の在庫状況によっても変わるため、売却前に複数の店舗で査定を受けて比較してください。' }, { q: '「山崎 年代指定なし」と山崎ノンエイジは同じものですか？', a: 'はい、同じものです。「山崎 年代指定なし」「山崎 NV」は、熟成年数の表記がないボトル（山崎ノンエイジ）を指す別の表記です。本ページの相場（10,116円）を目安としてご利用いただけます。' }, { q: '山崎ノンエイジを高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' }, { q: '開封済みの山崎ノンエイジでも買取できますか？', a: 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' }, { q: '山崎ノンエイジは箱なしでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約8,090〜9,100円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' }, { q: '山崎ノンエイジに偽物・贋作はありますか？', a: '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' }, { q: '山崎ノンエイジの保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' }, { q: '山崎ノンエイジは税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '山崎ノンエイジを売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" }, { q: '山崎ノンエイジと他の銘柄は、どちらを先に売るべきですか？', a: '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -495,12 +495,12 @@ export default function YamazakiNvKaitoriPage() {
 
           <h2>関連銘柄の買取相場</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
-            <Link href="/articles/yamazaki-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">山崎25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 864,100円</p></Link>
-            <Link href="/articles/hibiki-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">響30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 535,125円</p></Link>
-            <Link href="/articles/yoichi-20-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">余市20年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 220,550円</p></Link>
-            <Link href="/articles/taketsuru-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">竹鶴25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 192,300円</p></Link>
-            <Link href="/articles/yamazaki-18-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">山崎18年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 92,005円</p></Link>
-            <Link href="/articles/yoichi-15-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">余市15年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 80,000円</p></Link>
+            <Link href="/articles/yamazaki-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">山崎25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 867,100円</p></Link>
+            <Link href="/articles/hibiki-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">響30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 533,500円</p></Link>
+            <Link href="/articles/yoichi-20-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">余市20年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 250,861円</p></Link>
+            <Link href="/articles/taketsuru-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">竹鶴25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 193,600円</p></Link>
+            <Link href="/articles/yamazaki-18-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">山崎18年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 92,000円</p></Link>
+            <Link href="/articles/yoichi-15-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">余市15年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 79,999円</p></Link>
           </div>
 
           <h2>年代指定なし・注目銘柄の買取相場</h2>
@@ -535,7 +535,7 @@ export default function YamazakiNvKaitoriPage() {
               <li><Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark hover:underline">竹鶴の年代指定なし（ノンエイジ／NV）買取相場</Link></li>
           </ul>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
         </article>
       </div>
     </>

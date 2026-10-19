@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '本物の白州ノンエイジは今いくらで売れますか？', "acceptedAnswer": { "@type": "Answer", "text": '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は10,051円です（サンプル数 n=232件・毎週月曜に更新）。買取査定額は各業者の在庫状況・状態評価により変動するため、買取相場ページで詳細を確認のうえ、複数の業者の相見積もりで実際の金額をご確認ください。' } }, { "@type": "Question", "name": '白州ノンエイジを売る前に真贋チェックは必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、おすすめします。偽物の場合は買取を断られ、偽物と知りながら売却すると詐欺に問われる可能性もあります。本記事の「売る前の3分チェック」（ラベル・封緘・液面）を確認し、不審な点がある場合は、売却前にお酒の買取専門店の無料鑑定やメーカーの公式窓口で確認してから査定に出してください。' } }, { "@type": "Question", "name": '白州ノンエイジを売る前に何を準備すればよいですか？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' } }, { "@type": "Question", "name": '複数の業者の比較は必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、おすすめします。同じ白州ノンエイジでも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' } }, { "@type": "Question", "name": '買取後のキャンセルはできますか？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": '白州ノンエイジの売却益に税金はかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '白州ノンエイジを売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '本物の白州ノンエイジは今いくらで売れますか？', "acceptedAnswer": { "@type": "Answer", "text": '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は10,051円です（サンプル数 n=228件・毎週月曜に更新）。買取査定額は各業者の在庫状況・状態評価により変動するため、買取相場ページで詳細を確認のうえ、複数の業者の相見積もりで実際の金額をご確認ください。' } }, { "@type": "Question", "name": '白州ノンエイジを売る前に真贋チェックは必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、おすすめします。偽物の場合は買取を断られ、偽物と知りながら売却すると詐欺に問われる可能性もあります。本記事の「売る前の3分チェック」（ラベル・封緘・液面）を確認し、不審な点がある場合は、売却前にお酒の買取専門店の無料鑑定やメーカーの公式窓口で確認してから査定に出してください。' } }, { "@type": "Question", "name": '白州ノンエイジを売る前に何を準備すればよいですか？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' } }, { "@type": "Question", "name": '複数の業者の比較は必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、おすすめします。同じ白州ノンエイジでも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' } }, { "@type": "Question", "name": '買取後のキャンセルはできますか？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": '白州ノンエイジの売却益に税金はかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '白州ノンエイジを売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" } }] }) }} />;
 }
 
 export default function HakushuNvNisemonoMikataPage() {
@@ -37,7 +37,7 @@ export default function HakushuNvNisemonoMikataPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">白州ノンエイジを売る前に — 本物チェックと今の買取相場</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-12 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -69,12 +69,12 @@ export default function HakushuNvNisemonoMikataPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは白州ノンエイジの落札が約232件確認でき、落札額の中央値は10,051円でした。取引が活発で、換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは白州ノンエイジの落札が約228件確認でき、落札額の中央値は10,051円でした。取引が活発で、換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
           <h2 id="section-0">1. 白州ノンエイジの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>白州ノンエイジ</strong>はジャパニーズウイスキー（白州蒸溜所）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>10,051円</strong>（流通サンプル232件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>白州ノンエイジ</strong>はジャパニーズウイスキー（白州蒸溜所）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>10,051円</strong>（流通サンプル228件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 売る前の3分チェック（ラベル・封緘・液面）</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>白州ノンエイジを査定に出す前に、次の3点を確認しておくと売却が円滑に進みます（各項目の確認方法は、後述のチェック1〜5で解説します）。</p><ol><li><strong>ラベル</strong> — 文字のにじみ・かすれ・色ズレ・フォントの違和感がないか。メーカーの公式画像と細部まで見比べます</li><li><strong>キャップ・封緘</strong> — キャップの締まり具合、封緘の隙間や不自然さ、（採用銘柄では）ホログラムの立体感に違和感がないか</li><li><strong>液色・液面</strong> — 色ムラ・濁り・沈殿物がなく、液面が自然な目減りを超えて極端に下がっていないか
@@ -121,7 +121,7 @@ export default function HakushuNvNisemonoMikataPage() {
           <div className="bg-burgundy/5 border-2 border-burgundy/30 rounded-xl p-6 my-8 not-prose">
             <p className="text-xs text-burgundy font-bold tracking-wider mb-2">真贋の確認後の手順</p>
             <h3 className="font-display text-xl font-semibold text-ink mb-3 !mt-0 !border-none">白州ノンエイジの現在の実勢相場</h3>
-            <p className="text-sm text-warm-gray leading-relaxed mb-4">真贋を確認した後の目安として、白州ノンエイジの現在の実勢中央値は<strong className="text-ink">¥10,051</strong>（ヤフオク実落札 n=232件・毎週月曜更新・IQR外れ値除去後）です。買取額を保証するものではありませんが、売却を判断する際の基準としてご利用いただけます。売却の際は、次の3つのステップをご確認ください。</p>
+            <p className="text-sm text-warm-gray leading-relaxed mb-4">真贋を確認した後の目安として、白州ノンエイジの現在の実勢中央値は<strong className="text-ink">¥10,051</strong>（ヤフオク実落札 n=228件・毎週月曜更新・IQR外れ値除去後）です。買取額を保証するものではありませんが、売却を判断する際の基準としてご利用いただけます。売却の際は、次の3つのステップをご確認ください。</p>
             <ol className="space-y-2 text-sm text-ink mb-4 list-none pl-0">
               <li><span className="font-bold text-burgundy">STEP 1</span>　相場の詳細を見る → <Link href="/articles/hakushu-nv-kaitori/" className="shingan-to-kaitori text-amber-dark underline">白州ノンエイジの買取相場ガイド</Link></li>
               <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るためのポイント → <Link href="/articles/hakushu-nv-takaku-uru/" className="shingan-to-kaitori text-amber-dark underline">査定額を上げる7つのポイント</Link></li>
@@ -143,7 +143,7 @@ export default function HakushuNvNisemonoMikataPage() {
           <h2>白州ノンエイジに関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '本物の白州ノンエイジは今いくらで売れますか？', a: '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は10,051円です（サンプル数 n=232件・毎週月曜に更新）。買取査定額は各業者の在庫状況・状態評価により変動するため、買取相場ページで詳細を確認のうえ、複数の業者の相見積もりで実際の金額をご確認ください。' }, { q: '白州ノンエイジを売る前に真贋チェックは必要ですか？', a: 'はい、おすすめします。偽物の場合は買取を断られ、偽物と知りながら売却すると詐欺に問われる可能性もあります。本記事の「売る前の3分チェック」（ラベル・封緘・液面）を確認し、不審な点がある場合は、売却前にお酒の買取専門店の無料鑑定やメーカーの公式窓口で確認してから査定に出してください。' }, { q: '白州ノンエイジを売る前に何を準備すればよいですか？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' }, { q: '複数の業者の比較は必要ですか？', a: 'はい、おすすめします。同じ白州ノンエイジでも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' }, { q: '買取後のキャンセルはできますか？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: '白州ノンエイジの売却益に税金はかかりますか？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '白州ノンエイジを売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" }].map((faq) => (
+            {[{ q: '本物の白州ノンエイジは今いくらで売れますか？', a: '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は10,051円です（サンプル数 n=228件・毎週月曜に更新）。買取査定額は各業者の在庫状況・状態評価により変動するため、買取相場ページで詳細を確認のうえ、複数の業者の相見積もりで実際の金額をご確認ください。' }, { q: '白州ノンエイジを売る前に真贋チェックは必要ですか？', a: 'はい、おすすめします。偽物の場合は買取を断られ、偽物と知りながら売却すると詐欺に問われる可能性もあります。本記事の「売る前の3分チェック」（ラベル・封緘・液面）を確認し、不審な点がある場合は、売却前にお酒の買取専門店の無料鑑定やメーカーの公式窓口で確認してから査定に出してください。' }, { q: '白州ノンエイジを売る前に何を準備すればよいですか？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' }, { q: '複数の業者の比較は必要ですか？', a: 'はい、おすすめします。同じ白州ノンエイジでも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' }, { q: '買取後のキャンセルはできますか？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: '白州ノンエイジの売却益に税金はかかりますか？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '白州ノンエイジを売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -171,7 +171,7 @@ export default function HakushuNvNisemonoMikataPage() {
             <Link href="/articles/hakushu-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">白州（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

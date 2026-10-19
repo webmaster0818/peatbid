@@ -37,7 +37,7 @@ export default function Laphroaig25HakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ラフロイグ25年が箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-12 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -68,7 +68,7 @@ export default function Laphroaig25HakoNashiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではラフロイグ25年の落札が約46件確認でき、落札額の中央値は66,000円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではラフロイグ25年の落札が約42件確認でき、落札額の中央値は66,000円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -106,7 +106,7 @@ export default function Laphroaig25HakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. ラフロイグ25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ラフロイグ25年</strong>はスコッチウイスキー（アイラ）の25年熟成、度数43%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>66,000円</strong>（流通サンプル46件、当サイトの集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定額が変動しやすく、状態の管理が査定額に影響します。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>スコッチは蒸溜所・地域（アイラ）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>ラフロイグ25年</strong>はスコッチウイスキー（アイラ）の25年熟成、度数43%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>66,000円</strong>（流通サンプル42件、当サイトの集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定額が変動しやすく、状態の管理が査定額に影響します。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>スコッチは蒸溜所・地域（アイラ）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ラフロイグ25年の場合、実勢中央値<strong>66,000円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します。</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 66,000円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約56,100〜62,700円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約56,100〜60,720円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約52,800〜59,400円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約49,500〜56,100円（75〜85%）
@@ -183,7 +183,7 @@ export default function Laphroaig25HakoNashiPage() {
             <Link href="/articles/laphroaig-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">ラフロイグ25年の買取相場ガイド</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

@@ -37,7 +37,7 @@ export default function YamazakiNvKaifuZumiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎ノンエイジが開封済みでも売れる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-12 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function YamazakiNvKaifuZumiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">山崎ノンエイジ</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / ノンエイジ / 希少度 コモン / 市場相場 10,067円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / ノンエイジ / 希少度 コモン / 市場相場 10,116円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yamazaki-nv-kaitori/" className="text-amber-dark underline">山崎ノンエイジの買取相場ガイド</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function YamazakiNvKaifuZumiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎ノンエイジの落札が約274件確認でき、落札額の中央値は10,067円でした。取引が活発で、換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎ノンエイジの落札が約274件確認でき、落札額の中央値は10,116円でした。取引が活発で、換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -106,10 +106,10 @@ export default function YamazakiNvKaifuZumiPage() {
           </div>
 
           <h2 id="section-0">1. 山崎ノンエイジの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>山崎ノンエイジ</strong>はジャパニーズウイスキー（山崎蒸溜所）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>10,067円</strong>（流通サンプル274件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>山崎ノンエイジ</strong>はジャパニーズウイスキー（山崎蒸溜所）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>10,116円</strong>（流通サンプル274件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 開封済み山崎ノンエイジの査定額の目安</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>10,067円</strong>を基準として、開封済みは残量・状態により以下の範囲で査定されます。</p><ol><li><strong>9割以上残</strong>: 約3,020〜4,030円（30〜40%）</li><li><strong>7割以上残</strong>: 約2,520〜3,520円（25〜35%）</li><li><strong>5割以上残</strong>: 約2,010〜3,020円（20〜30%）</li><li><strong>3割以上残</strong>: 約1,010〜2,010円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合があります。空き瓶として数千円で買い取られる場合もあります
+          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>10,116円</strong>を基準として、開封済みは残量・状態により以下の範囲で査定されます。</p><ol><li><strong>9割以上残</strong>: 約3,030〜4,050円（30〜40%）</li><li><strong>7割以上残</strong>: 約2,530〜3,540円（25〜35%）</li><li><strong>5割以上残</strong>: 約2,020〜3,030円（20〜30%）</li><li><strong>3割以上残</strong>: 約1,010〜2,020円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合があります。空き瓶として数千円で買い取られる場合もあります
 
 開封済みは未開封と比べて査定額が大きく下がるため、コレクション品は開栓しないことをおすすめします。</li></ol>` }} />
 
@@ -182,7 +182,7 @@ export default function YamazakiNvKaifuZumiPage() {
             <Link href="/articles/yamazaki-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">山崎（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

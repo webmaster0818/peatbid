@@ -16,7 +16,7 @@ function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"\u4f50\u8cc0\u770c\u3067\u767d\u5dde18\u5e74\u306f\u51fa\u5f35\u8cb7\u53d6\u3057\u3066\u3082\u3089\u3048\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u306f\u3044\u3002\u4f50\u8cc0\u770c\uff08\u4f50\u8cc0\u30fb\u5510\u6d25\u30fb\u9ce5\u6816\u30fb\u4f0a\u4e07\u91cc\uff09\u306f\u4e5d\u5dde\u5730\u65b9\u306e\u4e2d\u6838\u30a8\u30ea\u30a2\u3067\u3059\u3002\u63b2\u8f09\u3057\u3066\u3044\u308b\u30d0\u30a4\u30bb\u30eb\u306f\u51fa\u5f35\u8cb7\u53d6\u3092\u300c\u96e2\u5cf6\u3092\u9664\u304f\u65e5\u672c\u5168\u56fd\u300d\u3067\u53d7\u3051\u4ed8\u3051\u3066\u304a\u308a\u3001\u7533\u8fbc\u304b\u3089\u6700\u77ed\u5373\u65e5\u306e\u8a2a\u554f\u306b\u5bfe\u5fdc\u3057\u3066\u3044\u307e\u3059\uff08\u516c\u5f0f\u30b5\u30a4\u30c8\u30fb2026\u5e7410\u670816\u65e5\u78ba\u8a8d\uff09\u3002\u798f\u3061\u3083\u3093\u3082\u51fa\u5f35\u8cb7\u53d6\u3092\u884c\u3063\u3066\u3044\u307e\u3059\u304c\u3001\u5bfe\u5fdc\u30a8\u30ea\u30a2\u306f\u516c\u5f0f\u30b5\u30a4\u30c8\u306b\u8a18\u8f09\u304c\u306a\u3044\u305f\u3081\u3001\u7533\u8fbc\u6642\u306b\u3054\u78ba\u8a8d\u304f\u3060\u3055\u3044\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u4f50\u8cc0\u770c\u306e\u767d\u5dde18\u5e74\u5e02\u5834\u76f8\u5834\u306f\u4ed6\u770c\u3068\u5dee\u304c\u3042\u308a\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5e02\u5834\u76f8\u5834\uff08Yahoo\u4e2d\u592e\u5024\uff09\u306f\u5168\u56fd\u5171\u901a\u3067\u3059\u304c\u3001\u696d\u8005\u8cb7\u53d6\u984d\u306f\u5730\u57df\u3084\u696d\u8005\u3067\u7570\u306a\u308a\u307e\u3059\u3002\u767d\u5dde18\u5e74\u306e\u73fe\u5728\u306e\u5e02\u5834\u76f8\u5834\u306f \u00a570,400\uff08Yahoo Auctions \u4e2d\u592e\u5024\uff09\u3067\u3059\u3002\u5b9f\u969b\u306e\u696d\u8005\u306e\u67fb\u5b9a\u984d\u306f\u3001LINXAS / \u30d0\u30a4\u30bb\u30eb / \u798f\u3061\u3083\u3093 \u306e\u5404\u793e\u30da\u30fc\u30b8\u3067\u3054\u78ba\u8a8d\u304f\u3060\u3055\u3044\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u4f50\u8cc0\u770c\u306e\u5e97\u982d\u8cb7\u53d6\u3067\u767d\u5dde18\u5e74\u306f\u58f2\u308c\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u306f\u3044\u3001\u4f50\u8cc0\u30fb\u5510\u6d25\u30fb\u9ce5\u6816\u30fb\u4f0a\u4e07\u91cc\u3092\u4e2d\u5fc3\u306b\u3001\u5c02\u9580\u5e97\u30fb\u304a\u9152\u306e\u8cb7\u53d6\u5e97\u3067\u5e97\u982d\u8cb7\u53d6\u3092\u53d7\u3051\u3089\u308c\u307e\u3059\u3002\u9ad8\u984d\u306a\u30dc\u30c8\u30eb\u306e\u5834\u5408\u306f\u3001\u4e8b\u524d\u4e88\u7d04\u306e\u3046\u3048\u3001\u5c02\u9580\u306e\u67fb\u5b9a\u58eb\u306b\u3088\u308b\u67fb\u5b9a\u3092\u53d7\u3051\u308b\u3053\u3068\u3092\u304a\u3059\u3059\u3081\u3057\u307e\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u767d\u5dde18\u5e74\u3092\u4f50\u8cc0\u770c\u3067\u58f2\u308b\u6642\u671f\u306f\u3044\u3064\u304c\u3088\u3044\u3067\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5e74\u672b\u5e74\u59cb\u30fb\u304a\u4e2d\u5143\u306e\u6642\u671f\uff0811\u301c12\u6708\u30016\u301c7\u6708\uff09\u306f\u9ad8\u5024\u306e\u50be\u5411\u304c\u3042\u308a\u307e\u3059\u3002\u4e5d\u5dde\u5730\u65b9\u306e\u696d\u8005\u306f\u3001\u9700\u8981\u671f\u306b\u67fb\u5b9a\u984d\u304c10\u301c15%\u4e0a\u6607\u3059\u308b\u50be\u5411\u304c\u3042\u308a\u307e\u3059\u3002\u65e9\u3081\u306b\u76f8\u898b\u7a4d\u3082\u308a\u3092\u53d6\u308b\u3053\u3068\u3092\u304a\u3059\u3059\u3081\u3057\u307e\u3059\u3002\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u4f50\u8cc0\u770c\u3067\u767d\u5dde18\u5e74\u3092\u9ad8\u304f\u58f2\u5374\u3059\u308b\u305f\u3081\u306e\u696d\u8005\u9078\u5b9a\u30ac\u30a4\u30c9\", \"datePublished\": \"2026-05-19\", \"dateModified\": \"2026-10-12\", \"author\": {\"@type\": \"Organization\", \"name\": \"PeatBid\u7de8\u96c6\u90e8\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"PeatBid\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u4f50\u8cc0\u770c\u3067\u767d\u5dde18\u5e74\u3092\u9ad8\u304f\u58f2\u5374\u3059\u308b\u305f\u3081\u306e\u696d\u8005\u9078\u5b9a\u30ac\u30a4\u30c9\", \"datePublished\": \"2026-05-19\", \"dateModified\": \"2026-10-19\", \"author\": {\"@type\": \"Organization\", \"name\": \"PeatBid\u7de8\u96c6\u90e8\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"PeatBid\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"areaServed\": {\"@type\": \"AdministrativeArea\", \"name\": \"\u4f50\u8cc0\u770c\"}, \"serviceType\": \"\u30a6\u30a4\u30b9\u30ad\u30fc\u8cb7\u53d6\u76f8\u5834\", \"provider\": {\"@type\": \"Organization\", \"name\": \"PeatBid\"}}" }} />
     </>
   );
@@ -51,7 +51,7 @@ export default function Page() {
             <span className="bg-amber/15 text-amber-dark text-xs font-bold px-3 py-1 rounded-full">2026年版</span>
           </div>
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">佐賀県で白州18年を高く売却するための業者選定ガイド</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-12 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -62,7 +62,7 @@ export default function Page() {
           <p>佐賀県には<strong>地域密着の専門業者</strong>と<strong>全国対応の大手</strong>の両方があるため、複数の業者で見積もりを比較できます。</p>
 
           <h2>2. 白州18年の市場相場（Yahoo中央値）</h2>
-          <p>白州18年の市場相場は<strong>¥70,400</strong>です（¥70,400（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=218、取得日 2026-10-12））。白州18年。希少性増加中</p>
+          <p>白州18年の市場相場は<strong>¥70,400</strong>です（¥70,400（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=222、取得日 2026-10-19））。白州18年。希少性増加中</p>
           <p>業者の買取査定額は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。</p>
 
           <h3 className="!mt-6">2-1. 白州18年の基本プロフィール（公式情報）</h3>
@@ -143,7 +143,7 @@ export default function Page() {
           <h2>7. 白州18年の最新オークション動向と査定への影響</h2>
           <p>白州18年の市場価値は、国内市場（Yahoo Auctions）と海外オークションの両方で形成されます。直近の動向を踏まえて、売却の時期をご判断ください。</p>
           <ul>
-            <li><strong>国内市場（Yahoo Auctions 過去180日中央値）</strong>: ¥70,400（¥70,400（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=218、取得日 2026-10-12））</li>
+            <li><strong>国内市場（Yahoo Auctions 過去180日中央値）</strong>: ¥70,400（¥70,400（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=222、取得日 2026-10-19））</li>
             <li><strong>海外オークション直近</strong>: 情報なし（個別ロット差大、出品時概ね£500〜£900帯）</li>
             <li><strong>コレクション価値</strong>: WWAなど受賞歴あり。年産量極小で実勢価格は定価の数倍</li>
             <li><strong>流通ステータス</strong>: 現行品（サントリー公式の商品情報に掲載）（2006年発売）</li>
@@ -235,7 +235,7 @@ export default function Page() {
             </ul>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

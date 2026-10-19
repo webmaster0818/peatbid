@@ -37,7 +37,7 @@ export default function Yamazaki18NisemonoMikataPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎18年の偽物・贋作の見分け方</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-12 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Yamazaki18NisemonoMikataPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">山崎18年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / 18年熟成 / 希少度 ハイ / 市場相場 92,005円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / 18年熟成 / 希少度 ハイ / 市場相場 92,000円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yamazaki-18-kaitori/" className="text-amber-dark underline">山崎18年の買取相場ガイド</Link></p>
           </div>
 
@@ -68,12 +68,12 @@ export default function Yamazaki18NisemonoMikataPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎18年の落札が約240件確認でき、落札額の中央値は92,005円でした。取引が活発で、換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎18年の落札が約266件確認でき、落札額の中央値は92,000円でした。取引が活発で、換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
           <h2 id="section-0">1. 山崎18年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>山崎18年</strong>はジャパニーズウイスキー（山崎蒸溜所）の18年熟成、度数43%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>92,005円</strong>（流通サンプル240件、当サイトの集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積もりの効果が高い価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>山崎18年</strong>はジャパニーズウイスキー（山崎蒸溜所）の18年熟成、度数43%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>92,000円</strong>（流通サンプル266件、当サイトの集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積もりの効果が高い価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 贋作市場の実情</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ジャパニーズウイスキーブーム以降、海外の二次流通市場では<strong>贋作ボトルの流通が確認</strong>されています。特に山崎・響・白州・軽井沢・羽生など希少銘柄では、精巧に作られた贋作が個人間取引で流通する例があります。</p><p>中国・東南アジアの一部地域では、本物の空き瓶に別の液体を詰めて販売する手口も報告されています。高額帯の銘柄では、5つのチェックを確実に行うことが必要です。</p>` }} />
@@ -115,7 +115,7 @@ export default function Yamazaki18NisemonoMikataPage() {
           <div className="bg-burgundy/5 border-2 border-burgundy/30 rounded-xl p-6 my-8 not-prose">
             <p className="text-xs text-burgundy font-bold tracking-wider mb-2">真贋の確認後の手順</p>
             <h3 className="font-display text-xl font-semibold text-ink mb-3 !mt-0 !border-none">山崎18年の現在の買取相場</h3>
-            <p className="text-sm text-warm-gray leading-relaxed mb-4">真贋を確認した後の目安として、山崎18年の現在の実勢中央値は<strong className="text-ink">¥92,005</strong>（ヤフオク実落札 n=240件・毎週月曜更新・IQR外れ値除去後）です。買取額を保証するものではありませんが、売却を判断する際の基準としてご利用いただけます。売却の際は、次の3つのステップをご確認ください。</p>
+            <p className="text-sm text-warm-gray leading-relaxed mb-4">真贋を確認した後の目安として、山崎18年の現在の実勢中央値は<strong className="text-ink">¥92,000</strong>（ヤフオク実落札 n=266件・毎週月曜更新・IQR外れ値除去後）です。買取額を保証するものではありませんが、売却を判断する際の基準としてご利用いただけます。売却の際は、次の3つのステップをご確認ください。</p>
             <ol className="space-y-2 text-sm text-ink mb-4 list-none pl-0">
               <li><span className="font-bold text-burgundy">STEP 1</span>　相場の詳細を見る → <Link href="/articles/yamazaki-18-kaitori/" className="shingan-to-kaitori text-amber-dark underline">山崎18年の買取相場ガイド</Link></li>
               <li><span className="font-bold text-burgundy">STEP 2</span>　高く売るためのポイント → <Link href="/articles/yamazaki-18-takaku-uru/" className="shingan-to-kaitori text-amber-dark underline">査定額を上げる7つのポイント</Link></li>
@@ -165,7 +165,7 @@ export default function Yamazaki18NisemonoMikataPage() {
             <Link href="/articles/yamazaki-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">山崎（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

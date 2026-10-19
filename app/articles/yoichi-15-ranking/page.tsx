@@ -37,7 +37,7 @@ export default function Yoichi15RankingPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">余市15年の買取業者おすすめランキング</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-12 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Yoichi15RankingPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">余市15年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 15年熟成 / 希少度 ハイ / 市場相場 80,000円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 余市蒸溜所 / 15年熟成 / 希少度 ハイ / 市場相場 79,999円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yoichi-15-kaitori/" className="text-amber-dark underline">余市15年の買取相場ガイド</Link></p>
           </div>
 
@@ -62,11 +62,11 @@ export default function Yoichi15RankingPage() {
             </ol>
           </div>
 
-          <p>余市15年を高く売るためには、業者選びが重要です。実勢中央値80,000円クラスのボトルでも、業者間で概算約4,000〜12,000円（相場の5〜15%）の査定差が生じる場合があります。本記事では、PeatBid編集部が選定基準にもとづいて選んだ余市15年の買取に対応している業者3社を、ランキング形式で比較します。</p>
+          <p>余市15年を高く売るためには、業者選びが重要です。実勢中央値79,999円クラスのボトルでも、業者間で概算約4,000〜12,000円（相場の5〜15%）の査定差が生じる場合があります。本記事では、PeatBid編集部が選定基準にもとづいて選んだ余市15年の買取に対応している業者3社を、ランキング形式で比較します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは余市15年の落札が約86件確認でき、落札額の中央値は80,000円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは余市15年の落札が約94件確認でき、落札額の中央値は79,999円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -91,7 +91,7 @@ export default function Yoichi15RankingPage() {
           </div>
 
           <h2 id="section-0">1. 余市15年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>余市15年</strong>はジャパニーズウイスキー（余市蒸溜所）の15年熟成、度数45%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>80,000円</strong>（流通サンプル86件、当サイトの集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積もりの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>余市15年</strong>はジャパニーズウイスキー（余市蒸溜所）の15年熟成、度数45%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>79,999円</strong>（流通サンプル94件、当サイトの集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定額が変動しやすく、状態の管理が査定額に影響します。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. ランキングの選定基準</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid編集部による余市15年の買取業者の選定基準（5項目）は以下のとおりです。</p><ol><li><strong>専門知識</strong> — お酒・ウイスキー専門の鑑定力があるか</li><li><strong>査定スピード</strong> — 見積もり〜入金までの所要日数</li><li><strong>査定額の透明性</strong> — 価格根拠・状態評価の説明があるか</li><li><strong>手数料・キャンセル料</strong> — 無料か</li><li><strong>信頼性</strong> — 上場・古物商許可・口コミ評判
@@ -150,7 +150,7 @@ export default function Yoichi15RankingPage() {
             <Link href="/articles/yoichi-15-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">余市15年の買取相場ガイド</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

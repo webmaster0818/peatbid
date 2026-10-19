@@ -37,7 +37,7 @@ export default function GlenmorangieSignetHakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンモーレンジ シグネットが箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-12 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function GlenmorangieSignetHakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">グレンモーレンジ シグネット</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / ハイランド / ノンエイジ / 希少度 ミッド / 市場相場 20,350円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / ハイランド / ノンエイジ / 希少度 ミッド / 市場相場 20,130円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/glenmorangie-signet-kaitori/" className="text-amber-dark underline">グレンモーレンジ シグネットの買取相場ガイド</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function GlenmorangieSignetHakoNashiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンモーレンジ シグネットの落札が約90件確認でき、落札額の中央値は20,350円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンモーレンジ シグネットの落札が約94件確認でき、落札額の中央値は20,130円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -106,12 +106,12 @@ export default function GlenmorangieSignetHakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. グレンモーレンジ シグネットの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンモーレンジ シグネット</strong>はスコッチウイスキー（ハイランド）のノンエイジ（NV）、度数46%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>20,350円</strong>（流通サンプル90件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>スコッチは蒸溜所・地域（ハイランド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンモーレンジ シグネット</strong>はスコッチウイスキー（ハイランド）のノンエイジ（NV）、度数46%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>20,130円</strong>（流通サンプル94件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>スコッチは蒸溜所・地域（ハイランド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>グレンモーレンジ シグネットの場合、実勢中央値<strong>20,350円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します。</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 20,350円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約17,300〜19,330円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約17,300〜18,720円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約16,280〜18,320円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約15,260〜17,300円（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>グレンモーレンジ シグネットの場合、実勢中央値<strong>20,130円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します。</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 20,130円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約17,110〜19,120円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約17,110〜18,520円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約16,100〜18,120円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約15,100〜17,110円（75〜85%）
 
-付属品の有無だけで、最大で<strong>約5,090円（相場の約25%）の差</strong>が生じる場合があります。</li></ol>` }} />
+付属品の有無だけで、最大で<strong>約5,030円（相場の約25%）の差</strong>が生じる場合があります。</li></ol>` }} />
 
           <h2 id="section-2">3. 外箱が査定に影響する理由</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は包装であると同時に、<strong>コレクター品として揃っていること</strong>を示す要素です。</p><ol><li><strong>二次流通市場での評価</strong> — 海外のコレクターは特に付属品が揃っていることを重視します</li><li><strong>真贋判定の手がかり</strong> — 箱と本体が一致していることが確認材料になります</li><li><strong>保管時の保護</strong> — 直射日光・摩擦・埃からボトルを守ります</li><li><strong>付属品の収納</strong> — 冊子・カートンをまとめて保管できます</li><li><strong>贈答品としての価値</strong> — 箱なしは贈答品としての再販が難しくなります
@@ -183,7 +183,7 @@ export default function GlenmorangieSignetHakoNashiPage() {
             <Link href="/articles/glenmorangie-signet-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">グレンモーレンジ シグネットの買取相場ガイド</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

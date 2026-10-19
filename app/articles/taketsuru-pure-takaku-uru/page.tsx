@@ -37,7 +37,7 @@ export default function TaketsuruPureTakakuUruPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">竹鶴ピュアモルトを高く売る方法 — 査定額を上げる7つのポイント</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-12 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function TaketsuruPureTakakuUruPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">竹鶴ピュアモルト</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / ノンエイジ / 希少度 コモン / 市場相場 12,400円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / ノンエイジ / 希少度 コモン / 市場相場 12,250円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark underline">竹鶴ピュアモルトの買取相場ガイド</Link></p>
           </div>
 
@@ -68,18 +68,18 @@ export default function TaketsuruPureTakakuUruPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは竹鶴ピュアモルトの落札が約286件確認でき、落札額の中央値は12,400円でした。取引が活発で、換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは竹鶴ピュアモルトの落札が約280件確認でき、落札額の中央値は12,250円でした。取引が活発で、換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
           <h2 id="section-0">1. 竹鶴ピュアモルトの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>竹鶴ピュアモルト</strong>はジャパニーズウイスキー（ニッカ）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>12,400円</strong>（流通サンプル286件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>竹鶴ピュアモルト</strong>はジャパニーズウイスキー（ニッカ）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>12,250円</strong>（流通サンプル280件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. ポイント1: 付属品を揃える</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>竹鶴ピュアモルトの査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。実勢中央値<strong>12,400円</strong>を基準とすると、付属品なしでは約9,920〜11,160円（相場の80〜90%）まで下がるのが一般的です。</p><p>外箱にシミ・破れ・水濡れ跡があると、さらに5〜10%下がる場合があります。付属品を揃えることで、約1,860円前後の差が生じる計算です。</p><p>売却の前に、付属品が残っていないかご確認ください。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>竹鶴ピュアモルトの査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。実勢中央値<strong>12,250円</strong>を基準とすると、付属品なしでは約9,800〜11,020円（相場の80〜90%）まで下がるのが一般的です。</p><p>外箱にシミ・破れ・水濡れ跡があると、さらに5〜10%下がる場合があります。付属品を揃えることで、約1,840円前後の差が生じる計算です。</p><p>売却の前に、付属品が残っていないかご確認ください。</p>` }} />
 
           <h2 id="section-2">3. ポイント2: 未開封の状態を保つ</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>竹鶴ピュアモルトは開封済みになると査定額が大幅に下がり、未開封の30〜40%＝約3,720〜4,960円前後まで落ちます。未開封であれば12,400円前後で売却できる可能性があり、差は大きくなります。</p><p>コレクション目的のボトルは、開栓せずに保管することをおすすめします。</p><p>開封した場合は、香味の揮発・酸化が進む前に、早めに売却することをおすすめします。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>竹鶴ピュアモルトは開封済みになると査定額が大幅に下がり、未開封の30〜40%＝約3,680〜4,900円前後まで落ちます。未開封であれば12,250円前後で売却できる可能性があり、差は大きくなります。</p><p>コレクション目的のボトルは、開栓せずに保管することをおすすめします。</p><p>開封した場合は、香味の揮発・酸化が進む前に、早めに売却することをおすすめします。</p>` }} />
 
           <h2 id="section-3">4. ポイント3: 複数の業者で相見積もりを取る</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>同じ竹鶴ピュアモルトでも、業者によって<strong>数万〜数十万円</strong>の査定差が生じる場合があります。1社だけで決めることはおすすめしません。</p><p>推奨する手順: (1)一括査定サービスで5社以上から見積もりを取得する、(2)お酒の買取専門店（リカスタ等）2〜3社に個別に見積もりを依頼する、(3)合計7〜8社の見積もりを比較する、(4)手数料・送料を差し引いた受取額で業者を選定する。</p><p>掲載している業者は、いずれも査定料・キャンセル料が無料です。</p>` }} />
@@ -140,7 +140,7 @@ export default function TaketsuruPureTakakuUruPage() {
             <Link href="/articles/taketsuru-pure-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">竹鶴ピュアモルトの買取相場ガイド</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-12）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

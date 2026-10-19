@@ -130,13 +130,19 @@
       "median_jpy": 20350,
       "sample_n": 90,
       "raw_n": 100
+    },
+    {
+      "date": "2026-10-19",
+      "median_jpy": 20130,
+      "sample_n": 94,
+      "raw_n": 104
     }
   ],
   "latest": {
-    "date": "2026-10-12",
-    "median_jpy": 20350,
-    "sample_n": 90,
-    "raw_n": 100,
+    "date": "2026-10-19",
+    "median_jpy": 20130,
+    "sample_n": 94,
+    "raw_n": 104,
     "insufficient": false
   },
   "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"
