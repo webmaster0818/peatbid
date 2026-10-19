@@ -3,13 +3,13 @@ import Link from "next/link";
 import Image from "next/image";
 import medians from "@/data/yahoo-medians.json";
 
-type MedianEntry = { median?: number; filtered_n?: number; fetched_at?: string; insufficient?: boolean };
+type MedianEntry = { median?: number | null; filtered_n?: number | null; fetched_at?: string; insufficient?: boolean };
 const m = medians as Record<string, MedianEntry | undefined>;
 const nv = m["bowmore-nv"];
 const nvMedian = nv && !nv.insufficient && nv.median ? nv.median : null;
 const b18 = m["bowmore-18"];
 const b25 = m["bowmore-25"];
-const yen = (v?: number) => (v ? `${v.toLocaleString("ja-JP")}円` : "—");
+const yen = (v?: number | null) => (v ? `${v.toLocaleString("ja-JP")}円` : "—");
 const fetchedAt = b18?.fetched_at ?? b25?.fetched_at ?? "";
 
 export const metadata: Metadata = {

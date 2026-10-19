@@ -3,12 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import medians from "@/data/yahoo-medians.json";
 
-type MedianEntry = { median?: number; filtered_n?: number; fetched_at?: string; insufficient?: boolean };
+type MedianEntry = { median?: number | null; filtered_n?: number | null; fetched_at?: string; insufficient?: boolean };
 const m = medians as Record<string, MedianEntry | undefined>;
 const nv = m["laphroaig-nv"];
 const nvMedian = nv && !nv.insufficient && nv.median ? nv.median : null;
 const l25 = m["laphroaig-25"];
-const yen = (v?: number) => (v ? `${v.toLocaleString("ja-JP")}円` : "—");
+const yen = (v?: number | null) => (v ? `${v.toLocaleString("ja-JP")}円` : "—");
 const fetchedAt = l25?.fetched_at ?? "";
 
 export const metadata: Metadata = {
