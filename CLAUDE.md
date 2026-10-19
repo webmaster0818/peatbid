@@ -426,3 +426,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - deploy HTML: 「2018年生産終了」188→0／「休売中（サントリー公式の表記）」0→188／10月18日注記 1,034（11銘柄×47×2）。build EXIT0（heap8192）×2・precheck ✅（3,005）・ASP計測リンク 0→0。source 3003a7ea3/3c31c57ef/bcfe999fe/7922e2361・deploy def889f2fd/41ebc5e3f2。
 - **確認できず（5月のまま）**: yamazaki-55（house.suntory.com 年齢確認フォーム）・macallan 5銘柄（themacallan.com の登録URLが全て404）・springbank 15/21（会員限定ページ）・glenfiddich-30・balvenie-portwood-21・bowmore-25・blackbowmore（年齢確認フォーム。フォーム入力での突破はしていない）・glenmorangie-signet（製品ページの本文が出ない）・イチローズ/羽生/秩父（公式なし）・glenfarclas-105（データなし）。
 - ⚠️ 判断待ち: 軽井沢12/30 の「公式情報」リンク先 karuizawawhiskydistillery.com は 2022年創業の新会社で、旧メルシャン軽井沢蒸溜所は「2012年に閉鎖・設備は解体」と記載＝当サイトの「2011年蒸溜所閉鎖、2016年解体」と食い違う（旧蒸溜所の公式ではないため未変更）。
+
+### 2026-10-19 週次更新（03:00）のビルド失敗 → 型修正して手動反映 ✅本番反映済み
+- **原因（tsc で確認）**: hanyu-card が 10/13 の TITLE_FILTERS で本体0件 → `data/yahoo-medians.json` に `median/mean/min/max: null`。`medians as Record<string, MedianEntry>`（`as unknown` なし）の手書き3本 bowmore-nv / laphroaig-nv / talisker-nv が TS2352 で失敗。他5本（ardbeg-nv・glenfarclas-nv・springbank-nv・glenfiddich・glenmorangie）は `as unknown as` で無関係。生成器に同じ型を出すものはない。
+- **修正**: 3本の `MedianEntry` を `median?: number | null; filtered_n?: number | null`、`yen(v?: number | null)`。⚠️ yahoo-medians.json を型付きで読む手書きページを増やすときは null を許す型にすること（insufficient 銘柄は null が入る）。
+- build（heap8192）EXIT0 → precheck ✅（3,005）→ tier2 込みフル rsync（--exclude .git/_not-found/functions）→ source a71f2dbd2/0a2cde2b7・deploy 757c1126f2。out/ と本番で「null円/NaN/undefined円」0件。羽生カードは記事＝「n<20 で不足」、tier2＝「現在集計中（取得日 2026-10-19、n=0）」、ランキング/指数/白書/県ハブには従来どおり非掲載。
+- ⚠️ 今回も crontab 側が先にロックを取り（launchd 側は「別の週次更新が実行中」で終了）、Webhook の無い cron 側で失敗したため Discord 通知が出なかった。crontab 行の削除は MediaXAI 操作待ち。
