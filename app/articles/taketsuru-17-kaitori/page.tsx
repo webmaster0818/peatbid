@@ -71,7 +71,7 @@ export default function Taketsuru17KaitoriPage() {
           
 
           <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
-            <p className="text-sm text-ink">🔀 年数表記のない「竹鶴ピュアモルト」をお探しの方はこちら → <Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark underline font-bold">竹鶴ピュアモルトの買取相場ガイド</Link></p>
+            <p className="text-sm text-ink">🔀 竹鶴の全ボトル（年数表記のないピュアモルト・12年・17年・21年・25年・35年）の買取価格を一覧で比べる場合はこちら → <Link href="/articles/taketsuru-kaitori/" className="text-amber-dark underline font-bold">竹鶴の買取価格一覧</Link></p>
           </div>
 
 
@@ -410,6 +410,7 @@ export default function Taketsuru17KaitoriPage() {
               <li><Link href="/articles/glenfiddich-30-kaitori/" className="text-amber-dark hover:underline">グレンフィディック30年の買取相場</Link></li>
               <li><Link href="/articles/glenfiddich-kaitori/" className="text-amber-dark hover:underline">グレンフィディック（年代別の一覧）の買取相場</Link></li>
               <li><Link href="/articles/glenmorangie-kaitori/" className="text-amber-dark hover:underline">グレンモーレンジ（ラインナップ別の一覧）の買取相場</Link></li>
+              <li><Link href="/articles/taketsuru-kaitori/" className="text-amber-dark hover:underline">竹鶴（ピュアモルト・12年〜35年の一覧）の買取相場</Link></li>
           </ul>
 
           <h2>熟成年数の表記がないボトルをお持ちの方へ</h2>

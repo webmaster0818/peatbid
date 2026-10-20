@@ -61,6 +61,9 @@ CLUSTER = [
     # N3②（2026-08-29）「グレンモーレンジ 年代指定なし 買取」pos8.0 等がシグネット単体の
     # ページに着地して0クリックだった。ラインナップ横断の受け皿を新設して受ける。
     ("glenmorangie", "グレンモーレンジ（ラインナップ別の一覧）"),
+    # 2026-10-20「竹鶴 買取」20.3位(imp126) が25年ページに着地。受け皿の taketsuru-pure は
+    # 「Discovered - currently not indexed」だった。ピュアモルト・12年〜35年の一覧ハブ（手書き）を新設して受ける。
+    ("taketsuru", "竹鶴（ピュアモルト・12年〜35年の一覧）"),
 ]
 
 # N1（2026-08-24）: 「◯◯ 年代指定なし 買取」クエリが、同じブランドの年数ページに着地して
@@ -445,9 +448,11 @@ def render_page(b, all_brands):
         "laphroaig-25": ("/articles/laphroaig-nv-kaitori/", "年代表記のないラフロイグ（セレクト・クォーターカスク等）をお探しの方はこちら", "ラフロイグの年代指定なし(NV)買取相場"),
         # 竹鶴: 年代表記のない竹鶴＝「竹鶴ピュアモルト」。専用NVページは作らず既存ページへ寄せる
         # （GSC実測では「竹鶴 買取」の中身は21年/25年など年代指定クエリが大半のため、新規URLは作らない判断）
-        "taketsuru-17": ("/articles/taketsuru-pure-kaitori/", "年数表記のない「竹鶴ピュアモルト」をお探しの方はこちら", "竹鶴ピュアモルトの買取相場ガイド"),
-        "taketsuru-21": ("/articles/taketsuru-pure-kaitori/", "年数表記のない「竹鶴ピュアモルト」をお探しの方はこちら", "竹鶴ピュアモルトの買取相場ガイド"),
-        "taketsuru-25": ("/articles/taketsuru-pure-kaitori/", "年数表記のない「竹鶴ピュアモルト」をお探しの方はこちら", "竹鶴ピュアモルトの買取相場ガイド"),
+        "taketsuru-17": ("/articles/taketsuru-kaitori/", "竹鶴の全ボトル（年数表記のないピュアモルト・12年・17年・21年・25年・35年）の買取価格を一覧で比べる場合はこちら", "竹鶴の買取価格一覧"),
+        "taketsuru-21": ("/articles/taketsuru-kaitori/", "竹鶴の全ボトル（年数表記のないピュアモルト・12年・17年・21年・25年・35年）の買取価格を一覧で比べる場合はこちら", "竹鶴の買取価格一覧"),
+        "taketsuru-25": ("/articles/taketsuru-kaitori/", "竹鶴の全ボトル（年数表記のないピュアモルト・12年・17年・21年・25年・35年）の買取価格を一覧で比べる場合はこちら", "竹鶴の買取価格一覧"),
+        # 2026-10-20 自動導線が taketsuru-pure 自身を指していた（NV_FAMILIES の slug が "-nv" でないため）→ 一覧ハブへ
+        "taketsuru-pure": ("/articles/taketsuru-kaitori/", "12年・17年・21年・25年など年数表記のある竹鶴をお持ちの方はこちら", "竹鶴の買取価格一覧"),
         # アードベッグ: 「アードベッグ 買取」がウーガダール/コリーヴレッカンの2ページに割れていた
         # （21.4位と26.1位で共食い）→ 銘柄横断の受け皿へ集約する
         "ardbeg-uigeadail": ("/articles/ardbeg-nv-kaitori/", "銘柄名が特定できていないアードベッグや、年代表記のないボトルをお持ちの方はこちら", "アードベッグの年代指定なし(NV)買取相場"),
@@ -459,7 +464,7 @@ def render_page(b, all_brands):
     }
     # 手書きのINTENT_SPLITに無くても、同ブランドのNVページが実在すれば自動で導線を作る
     _fam_nv = slug_base.split("-")[0]
-    if slug_base not in INTENT_SPLIT and not slug_base.endswith("-nv") and _fam_nv in NV_FAMILIES:
+    if slug_base not in INTENT_SPLIT and not slug_base.endswith("-nv") and _fam_nv in NV_FAMILIES and NV_FAMILIES[_fam_nv][0] != slug_base:
         _nvslug, _nvlabel = NV_FAMILIES[_fam_nv]
         INTENT_SPLIT[slug_base] = (
             f"/articles/{_nvslug}-kaitori/",
