@@ -33,8 +33,8 @@ type Props = {
 
 const DEALER_LINKS: { name: string; href: string }[] = [
   { name: "LINXAS", href: "https://linxas.shop/whiskey/" },
-  { name: "バイセル", href: "https://www.buysell-japan.jp/sake/" },
-  { name: "福ちゃん", href: "https://fukuchan.co.jp/oshina/sake/" },
+  { name: "バイセル", href: "https://buysell-kaitori.com/liquor/japanese-whisky/" },
+  { name: "福ちゃん", href: "https://fuku-chan.jp/liquor/" },
 ];
 
 function formatJPY(value: number | null): string {

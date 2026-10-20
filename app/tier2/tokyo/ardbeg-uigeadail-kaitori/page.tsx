@@ -125,7 +125,7 @@ export default function Page() {
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店です</li>
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> — 東証グロース上場企業が運営し、出張・店頭・宅配の3つの方式に対応しています。出張は離島を除き東京都全域に対応しています</li>
-            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 総合買取の大手で、お酒の査定にも対応しています。出張・宅配・店舗の3つの方式があります（出張の対応エリアは公式サイトに記載がないため、申込時にご確認ください）</li>
+            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 株式会社REGATEが運営する買取専門店で、お酒の査定にも対応しています。出張・宅配・店舗の3つの方式があります（出張の対応エリアは公式サイトに記載がないため、申込時にご確認ください）</li>
             
           </ul>
 
