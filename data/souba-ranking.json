@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "count": 40,
   "brands": [
     {
@@ -140,11 +140,11 @@
       "category": "ジャパニーズ",
       "origin": "ニッカ",
       "rarity": "common",
-      "median": 12250,
-      "sample_n": 280,
-      "prev_median": 12400,
-      "change_1w": -1.2,
-      "change_2w": 25.6
+      "median": 4950,
+      "sample_n": 67,
+      "prev_median": null,
+      "change_1w": null,
+      "change_2w": null
     },
     {
       "slug": "taketsuru-17",

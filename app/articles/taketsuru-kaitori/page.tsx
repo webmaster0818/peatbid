@@ -24,7 +24,16 @@ const nOf = (key: string): string => {
 };
 
 const t21 = rec("taketsuru-21");
-const fetchedAt = t21?.fetched_at ?? rec("taketsuru-17")?.fetched_at ?? "毎週月曜";
+const fetchedDates = ["taketsuru-pure", "taketsuru-17", "taketsuru-21", "taketsuru-25"]
+  .map((k) => rec(k)?.fetched_at)
+  .filter((d): d is string => typeof d === "string")
+  .sort();
+// 取得日が銘柄で異なる場合は「A〜B」と範囲で表記する
+const fetchedAt = fetchedDates.length
+  ? fetchedDates[0] === fetchedDates[fetchedDates.length - 1]
+    ? fetchedDates[0]
+    : `${fetchedDates[0]}〜${fetchedDates[fetchedDates.length - 1]}`
+  : "毎週月曜";
 
 const STORE_CHECKED = "2026-10-20";
 const DK = "https://kaitori.e-daikoku.com/liquor/whisky/taketsuru/";
@@ -44,7 +53,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "竹鶴の買取相場はいくらですか？",
-    a: `ボトルによって大きく異なります。${STORE_CHECKED} に確認した買取店の掲示価格は、年数表記のない竹鶴ピュアモルト（通常品）が2,500〜8,000円、12年が13,000〜18,000円、17年が27,000〜31,000円（ノンチルフィルタードは40,000〜50,000円）、21年が56,000〜61,000円（旧ラベル・記念ラベル・限定品は52,000〜75,000円）、25年が140,000〜185,000円、35年が445,000〜446,000円（サケウル。大黒屋・LINXASは問い合わせ）です。${t21 ? `当サイトのヤフオク落札中央値（取得日 ${fetchedAt}）は、17年${yen("taketsuru-17")}、21年${yen("taketsuru-21")}、25年${yen("taketsuru-25") ?? "集計中"}です。` : ""}`,
+    a: `ボトルによって大きく異なります。${STORE_CHECKED} に確認した買取店の掲示価格は、年数表記のない竹鶴ピュアモルト（通常品）が2,500〜8,000円、12年が13,000〜18,000円、17年が27,000〜31,000円（ノンチルフィルタードは40,000〜50,000円）、21年が56,000〜61,000円（旧ラベル・記念ラベル・限定品は52,000〜75,000円）、25年が140,000〜185,000円、35年が445,000〜446,000円（サケウル。大黒屋・LINXASは問い合わせ）です。${t21 ? `当サイトのヤフオク落札中央値（取得日 ${fetchedAt}）は、ピュアモルト${yen("taketsuru-pure") ?? "集計中"}、17年${yen("taketsuru-17")}、21年${yen("taketsuru-21")}、25年${yen("taketsuru-25") ?? "集計中"}です。` : ""}`,
   },
   {
     q: "竹鶴ピュアモルトの白ラベルと黒ラベルは、買取価格が違いますか？",
@@ -89,7 +98,7 @@ function FaqSchema() {
 
 const tocItems = [
   { id: "store-prices", label: "1. 竹鶴の買取価格一覧（ボトル別・3店の掲示価格）" },
-  { id: "current-price", label: "2. ヤフオク落札中央値（17年・21年・25年・毎週更新）" },
+  { id: "current-price", label: "2. ヤフオク落札中央値（ピュアモルト・17年・21年・25年・毎週更新）" },
   { id: "lineup", label: "3. 竹鶴のラインナップと発売・リニューアルの経緯" },
   { id: "miwakekata", label: "4. 手元の竹鶴がどのボトルかの見分け方" },
   { id: "jotai", label: "5. 箱なし・開封済みの扱い" },
@@ -119,6 +128,7 @@ const storeRows: Row[] = [
 ];
 
 const medianRows: { name: string; key: string; href: string }[] = [
+  { name: "竹鶴ピュアモルト（年数表記なし・白/黒ラベル）", key: "taketsuru-pure", href: "/articles/taketsuru-pure-kaitori/" },
   { name: "竹鶴17年", key: "taketsuru-17", href: "/articles/taketsuru-17-kaitori/" },
   { name: "竹鶴21年", key: "taketsuru-21", href: "/articles/taketsuru-21-kaitori/" },
   { name: "竹鶴25年", key: "taketsuru-25", href: "/articles/taketsuru-25-kaitori/" },
@@ -154,7 +164,7 @@ export default function TaketsuruKaitoriPage() {
               <li>竹鶴は<strong>年数表記の有無と年数で価格が大きく異なります</strong>。年数表記のないピュアモルトは2,500〜8,000円、25年は140,000〜185,000円です（{STORE_CHECKED}確認の店舗掲示価格）。</li>
               <li>年数表記のないピュアモルトは<strong>黒ラベルが白ラベルより高く</strong>掲示されています（例: LINXAS 8,000円／4,200円）。</li>
               <li>12年は<strong>700mlと660ml（角瓶）で価格が分かれます</strong>。17年・21年は角瓶・旧ラベル・受賞記念ラベル・限定品が別の価格です。</li>
-              {t21 && <li>ヤフオク落札中央値は<strong>17年{yen("taketsuru-17")}／21年{yen("taketsuru-21")}／25年{yen("taketsuru-25") ?? "集計中"}</strong>です（毎週更新）。</li>}
+              {t21 && <li>ヤフオク落札中央値は<strong>ピュアモルト{yen("taketsuru-pure") ?? "集計中"}／17年{yen("taketsuru-17")}／21年{yen("taketsuru-21")}／25年{yen("taketsuru-25") ?? "集計中"}</strong>です（毎週更新）。</li>}
             </ul>
           </div>
 
@@ -201,7 +211,7 @@ export default function TaketsuruKaitoriPage() {
             <li><Link href="/articles/taketsuru-25-kaitori/" className="text-amber-dark underline">竹鶴25年の買取相場</Link></li>
           </ul>
 
-          <h2 id="current-price">2. ヤフオク落札中央値（17年・21年・25年・毎週更新）</h2>
+          <h2 id="current-price">2. ヤフオク落札中央値（ピュアモルト・17年・21年・25年・毎週更新）</h2>
 
           <p>当サイトが毎週集計している、ヤフオク!の実落札データにもとづく中央値です。</p>
 
@@ -222,9 +232,9 @@ export default function TaketsuruKaitoriPage() {
             </table>
           </div>
 
-          <p className="text-xs text-warm-gray">※中央値はヤフオク!の過去180日落札データをIQR外れ値除去後に当サイトが独自に集計した参考値です（取得日 {fetchedAt}・毎週月曜更新）。買取額を保証するものではありません。年数表記のない竹鶴ピュアモルトは、検索結果に白ラベル・黒ラベルが区別なく含まれ、年数表記のあるボトルが混ざる可能性もあるため、このページには中央値を掲載していません（店舗の掲示価格は上の表をご覧ください）。12年・35年は集計の対象外です。</p>
+          <p className="text-xs text-warm-gray">※中央値はヤフオク!の過去180日落札データをIQR外れ値除去後に当サイトが独自に集計した参考値です（取得日 {fetchedAt}・毎週月曜更新）。買取額を保証するものではありません。竹鶴ピュアモルトの中央値は、出品タイトルに年数表記（12年・17年・21年・25年など）や限定品・複数本セットの表記がある出品を除き、白ラベル・黒ラベルを合わせて集計しています（2026-10-20 から。それ以前は年数表記品が混ざっていたため系列を破棄）。12年・35年は集計の対象外です。</p>
 
-          <p>中央値は個人間の落札額で、店舗の掲示価格は店舗が買い取る際の参考額です。2026-10-20 時点では、17年・21年の店舗の掲示価格は中央値に近い水準、25年は中央値を下回る水準です。</p>
+          <p>中央値は個人間の落札額で、店舗の掲示価格は店舗が買い取る際の参考額です。2026-10-20 時点では、ピュアモルト・17年・21年の店舗の掲示価格は中央値に近い水準、25年は中央値を下回る水準です。</p>
 
           <h2 id="lineup">3. 竹鶴のラインナップと発売・リニューアルの経緯</h2>
 

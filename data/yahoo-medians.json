@@ -162,14 +162,16 @@
   "taketsuru-pure": {
     "query_used": "竹鶴 ピュアモルト 700ml",
     "pages_fetched": 3,
-    "raw_n": 298,
-    "filtered_n": 280,
-    "median": 12250,
-    "mean": 18536,
+    "raw_n": 150,
+    "title_filtered_n": 67,
+    "filtered_n": 67,
+    "median": 4950,
+    "mean": 5732,
     "min": 3136,
-    "max": 67100,
+    "max": 8800,
     "insufficient": false,
-    "fetched_at": "2026-10-19"
+    "fetched_at": "2026-10-20",
+    "method": "title_filter"
   },
   "taketsuru-17": {
     "query_used": "竹鶴17年 700ml",
