@@ -432,3 +432,12 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **修正**: 3本の `MedianEntry` を `median?: number | null; filtered_n?: number | null`、`yen(v?: number | null)`。⚠️ yahoo-medians.json を型付きで読む手書きページを増やすときは null を許す型にすること（insufficient 銘柄は null が入る）。
 - build（heap8192）EXIT0 → precheck ✅（3,005）→ tier2 込みフル rsync（--exclude .git/_not-found/functions）→ source a71f2dbd2/0a2cde2b7・deploy 757c1126f2。out/ と本番で「null円/NaN/undefined円」0件。羽生カードは記事＝「n<20 で不足」、tier2＝「現在集計中（取得日 2026-10-19、n=0）」、ランキング/指数/白書/県ハブには従来どおり非掲載。
 - ⚠️ 今回も crontab 側が先にロックを取り（launchd 側は「別の週次更新が実行中」で終了）、Webhook の無い cron 側で失敗したため Discord 通知が出なかった。crontab 行の削除は MediaXAI 操作待ち。
+
+### 2026-10-20 朝ルーチン: GSC 表示上位3記事の掲載業者情報を公式と照合 ✅本番反映済み
+- 対象（GSC 9/22〜10/19・ページ別表示）: hakushu-nv-kaitori 485 / yamazaki-nv-kaitori 451 / taketsuru-21-kaitori 451。
+- 公式（10/20 curl）で一致: バイセル＝東証グロース 7685（buysell-technologies.com/ir/stock/）・4,800万点以上（2015〜2025年）・最短即日訪問・出張/店頭/宅配・TVCM／リカスタ＝株式会社リスタ・大阪店/新宿店・1営業日以内連絡（本数により2営業日以上）・送料/査定料/キャンセル料/返品送料無料・全国宅配／ヒカカク！＝最大20社・完全無料・査定結果メール最短1日／福ちゃん＝出張・宅配・店舗・手数料無料。
+- **食い違い→修正**（`scripts/patch-buyer-facts-1020.py`・冪等・app＋components＋生成器3本・2回目0・generate-brand-pages-v3／gen-tier2-area 再実行で差分0）:
+  - `components/MarketPriceCard.tsx`（相場カード＝2,907ページ）のバイセル `www.buysell-japan.jp/sake/` は **NXDOMAIN** → `buysell-kaitori.com/liquor/japanese-whisky/`。福ちゃん `fukuchan.co.jp/oshina/sake/` は **別会社（アストジャパン＝餃子店）で 404** → 公式のお酒ページ `fuku-chan.jp/liquor/`。
+  - 福ちゃん「総合買取の大手」（公式に記載なし）→ 会社概要どおり「株式会社REGATEが運営する買取専門店」（2,496ページ）。
+- deploy HTML before→after: fukuchan.co.jp 5,814→0／buysell-japan.jp 5,814→0／総合買取の大手 4,765→0／fuku-chan.jp/liquor/ 0→5,814。ASP計測リンク 0→0。build EXIT0（heap8192）→ precheck ✅（3,005）→ tier2 込みフル rsync（--exclude .git/_not-found/functions・3,229ファイル）。source f71cec611/918abf7bc・deploy d7976f700f（CF 反映まで約17分）。本番: 上位3記事＋tier2/県ハブで旧値0・/api/contact 400・robots Sitemap 行。
+- 触っていない: 店舗の掲示価格（hakushu/yamazaki は 10/11、竹鶴21年は 10/17 確認）、売却プロセスの一般論（「宅配は1〜3営業日で振込が一般的」「全体1〜2週間」＝特定業者の記載ではない）。
