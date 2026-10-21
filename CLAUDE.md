@@ -464,3 +464,13 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **食い違い→修正**: ①店舗名「サケウル（STOCK LAB）」は stock-lab.com のどのページにも出てこない（title/og:site_name＝「ストックラボ」・運営＝株式会社ストックラボ。blackbowmore 記事は既に「ストックラボ」表記）→ store-prices.json と手書き taketsuru-kaitori を「ストックラボ」に統一（deploy HTML 96→0・6記事）。②白州/山崎NV のストックラボ更新日 10/09→10/21（価格 9,000〜10,000円は同じ）・checked_at 10/21。③白州NV のファイブニーズ実績（「日付の新しいもの」を抜粋）に最新の 2026-08-07 白州 NV 700ml 7,000円が無かった→追加。LINXAS（白州 9,700円 6/6・180ml 1,800円 2/14／山崎 9,600円 9/30・180ml 2,000円 10/4）・ファイブニーズ（9,500円 9/30・27か月推移）は一致。
 - source 61d9007c9/27fa1d5b4・deploy e2ce382c16（フル rsync・--exclude .git/_not-found/functions）。build（heap8192）EXIT0・precheck ✅（3,006）。CF 反映まで約19分。本番6記事で旧表記0・Indexing 3/3（上位3記事）。
 - 未対応: tier2 北海道の地元業者表に「ストックラボ 北海道」（北海道全域・出張/宅配）とある（47リーフ）。公式の店舗一覧に北海道店があるかは未確認。
+
+### 2026-10-21 成長ルーチン12:00: 「ブラックボウモア」11.6位（imp56）の競合差分／竹鶴ピュアモルト受け皿の URL 確認 ✅本番反映済み
+- **ブラックボウモア**（/articles/bowmore-blackbowmore-kaitori/・10/20 クロール済み indexed）: 10/16 の追加（6種の表・買取6店・見分け方）と重ならない分だけ追加。単ワードの意図（どんな酒か・価格）向け。
+  - 海外オークション表に 2025〜2026 年の結果（従来は 2022 年まで）: Whisky.Auction ロット202677＝セカンド（30年・No.92/2,000・液面 Middle shoulder・使用感あり）7,000ポンド（2025-04-22終了）／Whisky Advocate 2026-10-16＝Whisky Auctioneer 9月オークション（10/5終了）で 50年ラストカスク 47,580ドル（記事の米ドル表記）。intro に「液面低下・ラベル傷みで落札額が下がる傾向」。
+  - エディション確認の項目に「ホワイト／ゴールドボウモアとの違い」（トリロジー: ブラック42年 2007 シェリー 40.5% 827本／ホワイト43年 2008 バーボン樽 42.8% 「/732」表記／ゴールド44年 2009 バーボン3+シェリー 42.4% 701本。出典=Scotch Whisky Auctions 第94回ロット094-0810 の記載＝不落札ロット、仕様の出典としてのみ使用）＋FAQ 2問（最近の落札価格／ホワイト・ゴールドとの違い）。
+  - title「ブラックボウモアとは？全6種の違い・**価格と**買取相場【…】29年〜50年・DB5」、description に「ホワイト／ゴールドとの見分け方」「2025〜2026年を含む落札価格」。page_updated 10-21。
+  - 不採用: Bonhams HK 2025-09 ファイナル（落札額がページに無い＝予想 HK$65,000〜95,000 のみ）、whiskyhunter（有料）、just-whisky 2019（不落札）。
+  - 変更は `data/store-prices.json` のみ → 生成器2本の再生成で差分は blackbowmore-kaitori 1本。sitemap はコミット後に `generate-sitemap.mjs`（git 日付）で lastmod 10-21（差分1行）。
+- **竹鶴ピュアモルト受け皿**: 実 URL＝`/articles/taketsuru-pure-kaitori/`（slug 違いではない。`-nv` は 404・存在しない）。本番 200・robots index,follow・canonical 自己・sitemap 掲載（lastmod 10-20）・内部リンク 395 ページ。GSC sitemap は 10/21 12:07 JST に読込（3,006 URL・エラー0）。URL 検査は 1回目「Discovered - currently not indexed」、2回目「URL is unknown to Google」（API の返答が揺れる）＝未クロール。sitemap 追加は不要。Indexing 通知を送った。
+- build（heap8192）EXIT0 → precheck ✅全項目OK（3,006）→ `*.txt` 削除（robots.txt 保全）→ フル rsync（--exclude .git/_not-found/functions）→ source a087876b3（＋sitemap 272b5d114）・deploy a50bde3151。CF 反映約3分。本番: 新 title 4・旧 title 0・47,580ドル 6・最終更新 10-21・/api/contact 400・robots Sitemap 行・ASP 計測リンク 0→0。Indexing 2/2 OK（blackbowmore・taketsuru-pure）。
