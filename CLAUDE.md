@@ -457,3 +457,10 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
   - price-history の旧系列（5/25〜10/19・5,775〜18,000円で乱高下＝混入）は破棄し 2026-10-20 の1点から（note に記載）。週次は同じ TITLE_FILTERS を通るので戻らない。
   - 週次 [2/7]〜[4.5/7] を手動実行（tier2 は `--slugs taketsuru-pure`＝47ページ）。日付だけ変わる真贋ハブ9本は戻した。竹鶴ハブの中央値表にピュアモルトを追加（取得日は銘柄で異なれば範囲表記）。
   - source e4d20326c/5db58c90e・deploy 0a42e44754。out/・deploy の「12,250円」0件、ASP 0。Indexing は送っていない（指示）。
+
+### 2026-10-21 朝ルーチン: 10/19 週次の本番反映確認＋GSC上位3記事の業者情報照合 ✅本番反映済み
+- **週次（10/19 03:00）**: ログどおりビルド失敗（hanyu-card null 型・10/19 に手動反映済み `757c1126f2`）。今日の本番で確認＝tier2 リーフ 2,397 の取得日は 2026-10-19（taketsuru-pure 47 は 10/20 再集計）・旧日付0／全リーフ「3業者」／og 一式（og:title/description/url/image/type/site_name＋twitter 4種）は deploy の index.html 3,008 で欠け0／robots の Sitemap 行あり／POST /api/contact {} → 400／out と deploy の差分は _not-found のみ。二重起動は 10/19 も発生（launchd 側が「別の週次更新が実行中」で終了＝ロックは効いている）。crontab 行は残存（MediaXAI 操作待ち）。
+- **GSC 9/23〜10/20 表示上位3**: hakushu-nv 487／taketsuru-21 453／yamazaki-nv 450（10/20 と同じ）。外部リンク全数の到達を確認（403 はサントリー/アサヒ/ニッカのボット遮断・429 は linx-as.store）。ASP 計測リンク 0→0。
+- **食い違い→修正**: ①店舗名「サケウル（STOCK LAB）」は stock-lab.com のどのページにも出てこない（title/og:site_name＝「ストックラボ」・運営＝株式会社ストックラボ。blackbowmore 記事は既に「ストックラボ」表記）→ store-prices.json と手書き taketsuru-kaitori を「ストックラボ」に統一（deploy HTML 96→0・6記事）。②白州/山崎NV のストックラボ更新日 10/09→10/21（価格 9,000〜10,000円は同じ）・checked_at 10/21。③白州NV のファイブニーズ実績（「日付の新しいもの」を抜粋）に最新の 2026-08-07 白州 NV 700ml 7,000円が無かった→追加。LINXAS（白州 9,700円 6/6・180ml 1,800円 2/14／山崎 9,600円 9/30・180ml 2,000円 10/4）・ファイブニーズ（9,500円 9/30・27か月推移）は一致。
+- source 61d9007c9/27fa1d5b4・deploy e2ce382c16（フル rsync・--exclude .git/_not-found/functions）。build（heap8192）EXIT0・precheck ✅（3,006）。
+- 未対応: tier2 北海道の地元業者表に「ストックラボ 北海道」（北海道全域・出張/宅配）とある（47リーフ）。公式の店舗一覧に北海道店があるかは未確認。
