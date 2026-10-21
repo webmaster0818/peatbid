@@ -1,7 +1,7 @@
 {
   "_note": "買取店が自社サイトに掲示している参考買取価格（手動確認・出典URL付き）。checked_at=PeatBid編集部が各ページを確認した日。数値は各ページの表示をそのまま転記（推計・加工なし）。月が変わったら再確認して更新すること。scripts/store_prices.py が generate-brand-pages-v3.py から読む。",
   "yamazaki-nv": {
-    "checked_at": "2026-10-11",
+    "checked_at": "2026-10-21",
     "stores": [
       {
         "store": "LINXAS（リンクサス）",
@@ -24,13 +24,13 @@
         "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/yamazaki_brand/yamazakinv/"
       },
       {
-        "store": "サケウル（STOCK LAB）",
+        "store": "ストックラボ",
         "item": "山崎 NV／NV 箱なし／NV 100周年",
         "cond": "3種とも同レンジ",
         "price": "9,000〜10,000円",
         "low": 9000,
         "high": 10000,
-        "updated": "2026-10-09",
+        "updated": "2026-10-21",
         "url": "https://www.stock-lab.com/osake-kaitori/whiskey/yamazaki/"
       },
       {
@@ -148,7 +148,7 @@
     "desc_tail": "買取店3社の掲示価格比較と2年分の買取価格推移も掲載。"
   },
   "hakushu-nv": {
-    "checked_at": "2026-10-11",
+    "checked_at": "2026-10-21",
     "stores": [
       {
         "store": "LINXAS（リンクサス）",
@@ -171,13 +171,13 @@
         "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/hakusyu_brand/hakusyunv/"
       },
       {
-        "store": "サケウル（STOCK LAB）",
+        "store": "ストックラボ",
         "item": "白州 NV／NV 100周年",
         "cond": "2種とも同レンジ",
         "price": "9,000〜10,000円",
         "low": 9000,
         "high": 10000,
-        "updated": "2026-10-09",
+        "updated": "2026-10-21",
         "url": "https://www.stock-lab.com/osake-kaitori/whiskey/hakushu/"
       },
       {
@@ -258,6 +258,11 @@
       "store": "ファイブニーズ",
       "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/hakusyu_brand/hakusyunv/",
       "items": [
+        [
+          "2026-08-07",
+          "白州 NV 700ml",
+          "7,000円"
+        ],
         [
           "2026-05-25",
           "白州 NV 100周年記念蒸溜所ラベル 700ml",
@@ -368,7 +373,7 @@
         "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/hibiki_brand/hibiki30/"
       },
       {
-        "store": "サケウル（STOCK LAB）",
+        "store": "ストックラボ",
         "item": "響30年 ホログラムシールあり",
         "cond": "完品",
         "price": "475,000〜476,000円",
@@ -378,7 +383,7 @@
         "url": "https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/"
       },
       {
-        "store": "サケウル（STOCK LAB）",
+        "store": "ストックラボ",
         "item": "響30年 ホログラムシールなし",
         "cond": "完品",
         "price": "460,000〜461,000円",
@@ -388,7 +393,7 @@
         "url": "https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/"
       },
       {
-        "store": "サケウル（STOCK LAB）",
+        "store": "ストックラボ",
         "item": "響30年",
         "cond": "付属品欠如 or ダメージあり",
         "price": "422,000〜423,000円",
@@ -563,7 +568,7 @@
       ]
     },
     "trend2": {
-      "store": "サケウル（STOCK LAB）",
+      "store": "ストックラボ",
       "label": "響30年（ホログラムシールあり 完品）の月別買取相場（同店の買取実績の月中央値・実績のない月は除外）",
       "url": "https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/",
       "items": [
@@ -819,7 +824,7 @@
         ]
       },
       {
-        "store": "サケウル（STOCK LAB）",
+        "store": "ストックラボ",
         "url": "https://www.stock-lab.com/osake-kaitori/whiskey/hibiki/hibiki-age30/",
         "note": "「新着買取実績」4件（店舗の地域名はページの表記）",
         "items": [
@@ -870,7 +875,7 @@
           "https://manekiya.com/alcohol/column/60887"
         ]
       ],
-      "note": "PeatBid が確認した範囲では、LINXAS・ファイブニーズ・サケウル（STOCK LAB）・JOYLAB の響30年のページに陶器ボトルの掲示価格はありませんでした（2026-10-15確認）。上記の値はいずれも1年近く前、または基準日のない記事の値で、出品数も少ない品です。ヤフオク中央値（本ページの集計）も通常の700mlボトルが対象で、陶器ボトルは含めていません。売却する場合は、陶器ボトルの取扱実績がある店舗で個別に査定を受けてください。"
+      "note": "PeatBid が確認した範囲では、LINXAS・ファイブニーズ・ストックラボ・JOYLAB の響30年のページに陶器ボトルの掲示価格はありませんでした（2026-10-15確認）。上記の値はいずれも1年近く前、または基準日のない記事の値で、出品数も少ない品です。ヤフオク中央値（本ページの集計）も通常の700mlボトルが対象で、陶器ボトルは含めていません。売却する場合は、陶器ボトルの取扱実績がある店舗で個別に査定を受けてください。"
     },
     "longterm": {
       "store": "Life Vacation",
@@ -987,7 +992,7 @@
       "holo": [
         "サントリーは公式ページ「ブランドを守る取り組みについてのご案内」で、響30年を含む響の一部製品に2種類のホログラムシールを貼付して出荷していると案内しています。①ボトル裏面のキャップシールに貼るホログラムシール（2022年2月以降を目途に出荷開始）と、②ボトル裏面のラベル上部に貼るホログラムシール（2024年3月以降製造分を目途に出荷開始予定）です。",
         "同じページで、出荷時期の異なる商品が市場に混在しているため「ホログラムシールのない商品・1種類のみ貼付商品・2種類貼付商品」があること、個別の商品の貼付時期は案内していないこと、この取り組みは「真贋判定を目的としたものではありません」と明記しています。",
-        "このため、現行ボトルでもシールのない正規品があります。シールがないことだけで偽物とは判断できません。LINXAS・サケウル・大黒屋が「ホログラム有り／無し」で別の価格を掲示しているのはこの違いです。",
+        "このため、現行ボトルでもシールのない正規品があります。シールがないことだけで偽物とは判断できません。LINXAS・ストックラボ・大黒屋が「ホログラム有り／無し」で別の価格を掲示しているのはこの違いです。",
         "大黒屋は「ホログラムシール有 響(QRコード)シール付」を別の行で掲示しています。サントリー公式のQRコードシールの案内は「サントリーウイスキー響 サントリーウイスキー100周年記念」について、ボトル裏面に二層式のQRコードシールを貼り、読み取り回数を確認できるとするもので、響30年の通常品にQRコードシールがあるかは公式ページに記載がありません。"
       ],
       "holo_src": [
@@ -1394,7 +1399,7 @@
         "url": "https://linxas.shop/whiskey/nikka-taketsuru/"
       },
       {
-        "store": "サケウル（STOCK LAB）",
+        "store": "ストックラボ",
         "item": "竹鶴 21年 箱あり／竹鶴 21年 箱なし",
         "cond": "箱あり／箱なし",
         "price": "60,000〜61,000円／お問い合わせ",
@@ -1444,7 +1449,7 @@
         ]
       },
       {
-        "store": "サケウル（STOCK LAB）",
+        "store": "ストックラボ",
         "url": "https://www.stock-lab.com/osake-kaitori/whiskey/taketsuru/taketsuru-age21/",
         "note": "同ページの買取実績から竹鶴21年の新しいものを転記",
         "items": [
@@ -1604,11 +1609,11 @@
       "items": [
         "<strong>年数表記</strong>: ラベルと箱に「21」の表記があるか。年数表記の無い「竹鶴ピュアモルト」（現行品）とは別の銘柄で、相場も大きく異なります（<Link href=\"/articles/taketsuru-pure-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴ピュアモルトの買取相場</Link>）。",
         "<strong>瓶の形</strong>: LINXAS は、初期の竹鶴21年は角ばった角瓶で、2003年11月からコルク栓の丸瓶に変わったと説明しています（メーカーの公式な記載は確認できていません）。大黒屋・LINXAS とも角瓶を別の行で掲示しています。",
-        "<strong>ラベルの新旧</strong>: サケウル（STOCK LAB）は、新しいボトルはラベルが小さくゴールドのラインが入り、旧ボトルはラベルが大きくゴールドのラインの無いデザインと説明しています。",
+        "<strong>ラベルの新旧</strong>: ストックラボは、新しいボトルはラベルが小さくゴールドのラインが入り、旧ボトルはラベルが大きくゴールドのラインの無いデザインと説明しています。",
         "<strong>受賞記念ラベル・限定品</strong>: WWA・ISC の受賞記念ラベル、2014年の限定品（ポートウッド・マディラウッド・ノンチルフィルタード。ラベルに「80th Anniversary Bottled in 2014」）は、通常品と別の価格で扱われます。",
         "<strong>容量</strong>: 700ml のほか 180ml のボトルがあります（LINXAS の掲示は 10,000円）。"
       ],
-      "caution": "出典: <a href=\"https://linx-as.store/blogs/pedia/taketsuru-21-year-old-teika-naze-takai-why-expensive-end-of-sale\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">LINXAS（竹鶴21年の解説）</a>・<a href=\"https://www.stock-lab.com/osake-kaitori/whiskey/taketsuru/taketsuru-age21/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">サケウル</a>・<a href=\"https://kaitori.e-daikoku.com/liquor/whisky/taketsuru/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">大黒屋</a>・<a href=\"https://www.asahibeer.co.jp/news/2014/0307.html\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">アサヒビール 2014-03-07</a>（2026-10-17確認）。判別できない場合は、正面・背面・キャップ・箱の写真を添えて査定を依頼してください。"
+      "caution": "出典: <a href=\"https://linx-as.store/blogs/pedia/taketsuru-21-year-old-teika-naze-takai-why-expensive-end-of-sale\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">LINXAS（竹鶴21年の解説）</a>・<a href=\"https://www.stock-lab.com/osake-kaitori/whiskey/taketsuru/taketsuru-age21/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">ストックラボ</a>・<a href=\"https://kaitori.e-daikoku.com/liquor/whisky/taketsuru/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">大黒屋</a>・<a href=\"https://www.asahibeer.co.jp/news/2014/0307.html\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">アサヒビール 2014-03-07</a>（2026-10-17確認）。判別できない場合は、正面・背面・キャップ・箱の写真を添えて査定を依頼してください。"
     },
     "faq_extra": [
       [
@@ -1639,7 +1644,7 @@
         "url": "https://kaitori.e-daikoku.com/liquor/whisky/taketsuru/"
       },
       {
-        "store": "サケウル（STOCK LAB）",
+        "store": "ストックラボ",
         "item": "竹鶴 25年 箱あり",
         "cond": "箱あり",
         "price": "170,000〜171,000円",
@@ -1649,7 +1654,7 @@
         "url": "https://www.stock-lab.com/osake-kaitori/whiskey/taketsuru/"
       },
       {
-        "store": "サケウル（STOCK LAB）",
+        "store": "ストックラボ",
         "item": "竹鶴 25年 箱なし",
         "cond": "箱なし",
         "price": "140,000〜141,000円",
@@ -1669,7 +1674,7 @@
         "url": "https://linxas.shop/whiskey/nikka-taketsuru/"
       }
     ],
-    "store_note": "箱の有無による差は、サケウルの掲示で30,000円（箱あり170,000〜171,000円／箱なし140,000〜141,000円）です。大黒屋・LINXAS は付属品がそろった「完品」「完備」の価格のみを掲示しています。竹鶴35年は大黒屋・LINXAS が「お問い合わせ」「ASK」、サケウルが445,000〜446,000円です。ほかの年数の掲示価格は <Link href=\"/articles/taketsuru-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴の買取価格一覧（ピュアモルト・12年〜35年）</Link> にまとめています。",
+    "store_note": "箱の有無による差は、ストックラボの掲示で30,000円（箱あり170,000〜171,000円／箱なし140,000〜141,000円）です。大黒屋・LINXAS は付属品がそろった「完品」「完備」の価格のみを掲示しています。竹鶴35年は大黒屋・LINXAS が「お問い合わせ」「ASK」、ストックラボが445,000〜446,000円です。ほかの年数の掲示価格は <Link href=\"/articles/taketsuru-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴の買取価格一覧（ピュアモルト・12年〜35年）</Link> にまとめています。",
     "record_groups": [
       {
         "store": "大黒屋",
@@ -1690,7 +1695,7 @@
       }
     ],
     "title_tail": "3店の掲示価格・箱なしの差",
-    "desc_tail": "大黒屋・サケウル・LINXASの掲示価格と買取実績も掲載。",
+    "desc_tail": "大黒屋・ストックラボ・LINXASの掲示価格と買取実績も掲載。",
     "toc_label": "4-2. 買取店の掲示価格（店舗別）"
   }
 }
