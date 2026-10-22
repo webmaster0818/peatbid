@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://peatbid.com/</loc><lastmod>2026-10-21</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
   <url><loc>https://peatbid.com/articles/</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://peatbid.com/tier2/</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://peatbid.com/tier2/</loc><lastmod>2026-10-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://peatbid.com/souba-ranking/</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://peatbid.com/souba-index/</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://peatbid.com/souba-hakusho/</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -573,7 +573,7 @@
   <url><loc>https://peatbid.com/tier2/gifu/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/gunma/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/hiroshima/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/hyogo/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/ibaraki/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/ishikawa/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -1170,57 +1170,57 @@
   <url><loc>https://peatbid.com/tier2/hiroshima/yoichi-15-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/tier2/hiroshima/yoichi-20-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/tier2/hiroshima/yoichi-nv-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/ardbeg-corryvreckan-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/ardbeg-uigeadail-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/balvenie-portwood-21-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/bowmore-18-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/bowmore-25-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/bowmore-blackbowmore-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/chichibu-the-first-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/glenfarclas-105-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/glenfarclas-25-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/glenfiddich-30-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/glenmorangie-signet-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/hakushu-12-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/hakushu-18-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/hakushu-25-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/hakushu-nv-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/hanyu-card-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/hibiki-17-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/hibiki-21-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/hibiki-30-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/hibiki-nv-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/ichirosu-card-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/ichirosu-double-distilleries-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/ichirosu-mwr-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/karuizawa-12-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/karuizawa-30-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/laphroaig-25-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/macallan-12-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/macallan-18-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/macallan-25-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/macallan-30-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/macallan-fine-rare-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/mars-komagatake-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/miyagikyo-12-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/miyagikyo-15-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/miyagikyo-nv-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/springbank-15-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/springbank-21-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/taketsuru-17-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/taketsuru-21-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/taketsuru-25-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/taketsuru-pure-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/talisker-25-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/yamazaki-12-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/yamazaki-18-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/yamazaki-25-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/yamazaki-55-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/yamazaki-nv-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/yoichi-10-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/yoichi-15-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/yoichi-20-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://peatbid.com/tier2/hokkaido/yoichi-nv-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/ardbeg-corryvreckan-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/ardbeg-uigeadail-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/balvenie-portwood-21-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/bowmore-18-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/bowmore-25-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/bowmore-blackbowmore-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/chichibu-the-first-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/glenfarclas-105-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/glenfarclas-25-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/glenfiddich-30-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/glenmorangie-signet-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/hakushu-12-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/hakushu-18-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/hakushu-25-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/hakushu-nv-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/hanyu-card-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/hibiki-17-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/hibiki-21-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/hibiki-30-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/hibiki-nv-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/ichirosu-card-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/ichirosu-double-distilleries-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/ichirosu-mwr-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/karuizawa-12-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/karuizawa-30-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/laphroaig-25-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/macallan-12-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/macallan-18-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/macallan-25-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/macallan-30-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/macallan-fine-rare-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/mars-komagatake-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/miyagikyo-12-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/miyagikyo-15-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/miyagikyo-nv-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/springbank-15-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/springbank-21-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/taketsuru-17-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/taketsuru-21-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/taketsuru-25-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/taketsuru-pure-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/talisker-25-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/yamazaki-12-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/yamazaki-18-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/yamazaki-25-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/yamazaki-55-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/yamazaki-nv-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/yoichi-10-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/yoichi-15-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/yoichi-20-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://peatbid.com/tier2/hokkaido/yoichi-nv-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/tier2/hyogo/ardbeg-corryvreckan-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/tier2/hyogo/ardbeg-uigeadail-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/tier2/hyogo/balvenie-portwood-21-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
