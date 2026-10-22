@@ -44,9 +44,12 @@ def _trend_svg(t, name):
     lo, hi = min(prices), max(prices)
     span = (hi - lo) or 1
     x0, x1, y0, y1 = 70, 622, 30, 160
+    # 横軸は月の通し番号で配置（実績の無い月を飛ばした系列でも時間の間隔が正しく出る。連続した系列では従来と同じ位置）
+    _ord = [int(m[:4]) * 12 + int(m[5:7]) for m in months]
+    _os = (_ord[-1] - _ord[0]) or 1
     pts = []
     for i, p in enumerate(prices):
-        x = x0 + (x1 - x0) * i / (n - 1)
+        x = x0 + (x1 - x0) * (_ord[i] - _ord[0]) / _os
         y = y1 - (y1 - y0) * (p - lo) / span
         pts.append((x, y, months[i], p))
     poly = " ".join(f"{x:.1f},{y:.1f}" for x, y, _, _ in pts)
@@ -69,7 +72,7 @@ def _trend_svg(t, name):
     first, last = prices[0], prices[-1]
     return f'''
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
-            <p className="text-sm font-bold text-ink mb-3">{t["label"]}の月次推移（{t["store"]}掲示・{_ym(months[0])}〜{_ym(months[-1])}）</p>
+            <p className="text-sm font-bold text-ink mb-3">{t["label"]}の月次推移（{t["store"]}掲示・{_ym(months[0])}〜{_ym(months[-1])}）</p>{(chr(10) + "            " + '<p className="text-[12px] text-warm-gray mb-2">' + t["lead"] + '</p>') if t.get("lead") else ""}
             <svg viewBox="0 0 640 205" role="img" aria-label="{name}の買取店掲示価格の月次推移グラフ" className="w-full h-auto">
               {grid}<polyline points="{poly}" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
               {dots}
@@ -80,7 +83,7 @@ def _trend_svg(t, name):
               <summary className="cursor-pointer">月別の数値を表で見る（{n}か月）</summary>
               <table className="mt-2"><tbody>{rows}</tbody></table>
             </details>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">出典: {_a(t["url"], t["store"] + "「" + t["label"] + "」の価格推移グラフ")}（同ページ掲載のグラフの値を転記）。店舗の参考価格であり、実際の買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">出典: {_a(t["url"], t["store"] + "「" + t["label"] + "」の価格推移グラフ")}（同ページ掲載のグラフの値を転記）。{t.get("source_note") or "店舗の参考価格であり、実際の買取額を保証するものではありません。"}</p>
           </div>
 '''
 
@@ -136,7 +139,7 @@ def block(slug, name, yahoo_median, fetched_at):
 
     if d.get("trend"):
         out += f'''
-          <h3 id="store-trend">{name}の買取価格の推移（店舗の掲示価格・約2年分）</h3>
+          <h3 id="store-trend">{d["trend"].get("heading") or f"{name}の買取価格の推移（店舗の掲示価格・約2年分）"}</h3>
 {_trend_svg(d["trend"], name)}'''
 
     t2 = d.get("trend2")
@@ -507,3 +510,41 @@ def toc_item(slug):
     if d.get("ceramic"):
         t += '\n  { id: "toki-bottle", label: "4-3. 有田焼・九谷焼ボトル" },'
     return t
+
+
+# ---- 2026-10-22 追加: ページ冒頭の要約表（「いくらで売れるか」を最初に示す） ----
+# store-prices.json の quick がある slug だけ、h1・最終更新の直下（相場カードの前）に入れる。
+# 値は JSON の手動確認値（各行に出典店と確認日）。ヤフオク中央値の行だけ生成時の brands.csv から自動。
+
+def quick_block(slug, name, yahoo_median, fetched_at):
+    d = get(slug)
+    q = d.get("quick") if d else None
+    if not q:
+        return ""
+    rows = "".join(
+        f'<tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">{lab}</th>'
+        f'<td className="py-2 pr-3 text-right font-bold whitespace-nowrap">{price}</td>'
+        f'<td className="py-2 text-xs text-warm-gray">{src}</td></tr>'
+        for lab, price, src in q["rows"]
+    )
+    if yahoo_median:
+        rows += (
+            f'<tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">参考: ヤフオク落札中央値（個人間の取引）</th>'
+            f'<td className="py-2 pr-3 text-right font-bold whitespace-nowrap">{yahoo_median:,}円</td>'
+            f'<td className="py-2 text-xs text-warm-gray">PeatBid 集計・取得日 {fetched_at}・毎週更新（店舗の買取額ではありません）</td></tr>'
+        )
+    lead = f'<p className="text-sm text-ink mb-3">{q["lead"]}</p>' if q.get("lead") else ""
+    note = f'<p className="text-[12px] text-warm-gray leading-relaxed mt-3">{q["note"]}</p>' if q.get("note") else ""
+    return f'''
+          <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
+            <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">{q["heading"]}</h2>
+            {lead}
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル・状態</th><th className="py-2 pr-3 text-right">買取価格（店舗の掲示）</th><th className="py-2">店舗・確認日</th></tr></thead>
+                <tbody>{rows}</tbody>
+              </table>
+            </div>
+            {note}
+          </section>
+'''

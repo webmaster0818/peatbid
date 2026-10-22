@@ -207,7 +207,7 @@ export default function TaketsuruKaitoriPage() {
           <ul>
             <li><Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark underline">竹鶴ピュアモルト（年数表記なし）の買取相場</Link></li>
             <li><Link href="/articles/taketsuru-17-kaitori/" className="text-amber-dark underline">竹鶴17年の買取相場</Link></li>
-            <li><Link href="/articles/taketsuru-21-kaitori/" className="text-amber-dark underline">竹鶴21年の買取相場</Link>（5店の掲示価格・2014年の限定品3種・旧ラベル/角瓶の見分け方）</li>
+            <li><Link href="/articles/taketsuru-21-kaitori/" className="text-amber-dark underline">竹鶴21年の買取価格</Link>（6店の掲示価格・箱の有無別・2014年の限定品3種・旧ラベル/角瓶の見分け方）</li>
             <li><Link href="/articles/taketsuru-25-kaitori/" className="text-amber-dark underline">竹鶴25年の買取相場</Link></li>
           </ul>
 

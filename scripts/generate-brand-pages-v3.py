@@ -603,6 +603,7 @@ def render_page(b, all_brands):
     toc_editions = store_prices.toc_editions(slug_base)
     auction_html = store_prices.auction_block(slug_base, name)
     toc_auction = store_prices.toc_auction(slug_base)
+    quick_html = store_prices.quick_block(slug_base, name, yahoo_median if sufficient else None, fetched_at)
 
     # 2026-10-11: 出典の無い「過去5年で累積30〜80%の上昇」を撤去。代わりに自社集計（price-history）の
     # 集計開始時点→最新の実数のみを出す。4点未満・品質除外・insufficient なら一文ごと出さない。
@@ -673,7 +674,7 @@ export default function {component_name}() {{
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{h1_text}</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: {page_updated} / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
-
+{quick_html}
           <MarketPriceCard data={{priceData as Parameters<typeof MarketPriceCard>[0]["data"]}} />
 
           {{/* Table of Contents */}}
