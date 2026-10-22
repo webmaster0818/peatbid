@@ -474,3 +474,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
   - 変更は `data/store-prices.json` のみ → 生成器2本の再生成で差分は blackbowmore-kaitori 1本。sitemap はコミット後に `generate-sitemap.mjs`（git 日付）で lastmod 10-21（差分1行）。
 - **竹鶴ピュアモルト受け皿**: 実 URL＝`/articles/taketsuru-pure-kaitori/`（slug 違いではない。`-nv` は 404・存在しない）。本番 200・robots index,follow・canonical 自己・sitemap 掲載（lastmod 10-20）・内部リンク 395 ページ。GSC sitemap は 10/21 12:07 JST に読込（3,006 URL・エラー0）。URL 検査は 1回目「Discovered - currently not indexed」、2回目「URL is unknown to Google」（API の返答が揺れる）＝未クロール。sitemap 追加は不要。Indexing 通知を送った。
 - build（heap8192）EXIT0 → precheck ✅全項目OK（3,006）→ `*.txt` 削除（robots.txt 保全）→ フル rsync（--exclude .git/_not-found/functions）→ source a087876b3（＋sitemap 272b5d114）・deploy a50bde3151。CF 反映約3分。本番: 新 title 4・旧 title 0・47,580ドル 6・最終更新 10-21・/api/contact 400・robots Sitemap 行・ASP 計測リンク 0→0。Indexing 2/2 OK（blackbowmore・taketsuru-pure）。
+
+### 2026-10-22 P2: tier2 北海道 地元業者表の公式照合（ストックラボ・ファイブニーズ）
+- **ストックラボ**（stock-lab.com 10/22確認）: 北海道の地域ページ「北海道は宅配買取エリアです」／店舗一覧27店に北海道店なし／出張は「関東・関西・沖縄などを中心とする一部地域」（宅配/出張/店頭エリア=東京・千葉・茨城・神奈川・大阪・兵庫・沖縄）。旧行「ストックラボ 北海道／北海道全域／出張・宅配／業界トップクラスのお酒買取実績」→「ストックラボ／北海道全域（道内に店舗なし）／宅配／公式で北海道は宅配買取エリア。出張買取は関東・関西・沖縄が中心」。`scripts/patch-tier2-hokkaido-stocklab-1022.py`（冪等・51→0）。
+- **追加1件 ファイブニーズ**（joylab.jp 10/22確認）: 店名は JOYLAB 札幌店（札幌市中央区南12条西6丁目・市電 中島公園通駅/行啓通駅 徒歩約4分）、店頭/出張/宅配、店舗一覧は JOYLAB 10店、札幌店ページ「北海道内全域対応」。旧「全国15店舗展開」「10年以上の実績」（記載なし）を置換。`scripts/patch-tier2-hokkaido-joylab-1022.py`（冪等・51→0）。
+- 両方とも `data/prefectures.py` の local_dealers も同値に変更（生成器 v4 が読む）。⚠️北海道リーフは 52 ディレクトリ中 51 リーフ（依頼の「47頁」ではない）。未照合: 大黒屋 質札幌店「札幌駅/大通駅徒歩4分・店頭・出張・質屋系列で即現金化」。
+- build（heap8192）EXIT0×2・precheck ✅（3,006）→ tier2/hokkaido のみ部分 rsync（*.txt 除外・functions 保持）＋sitemap。deploy HTML: 「ストックラボ 北海道」102→0／「全国15店舗展開」102→0／新行 各102。ASP 計測リンク 0→0。source 271afa51a/fc93b3d65/7ce1d3122・deploy 89ba147033/d02f45a191。
