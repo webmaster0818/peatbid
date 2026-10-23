@@ -163,32 +163,31 @@ export default function Yamazaki25KaitoriPage() {
 
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
             <p className="text-sm font-bold text-ink mb-3">山崎25年（新型 ホログラムシール有り 完品）の買取実績の月次推移（ストックラボ掲示・2023年11月〜2025年6月）</p>
-            <p className="text-[12px] text-warm-gray mb-2">買取実績の無い月は点がありません。同店のこのボトルの実績は2025年6月が最後で、2025年7月〜2026年9月は「買取実績なし」です。2025年4月の 490,000円 は同店のグラフの値のとおりです（状態の内訳は記載されていません）。</p>
+            <p className="text-[12px] text-warm-gray mb-2">買取実績の無い月は点がありません。同店のこのボトルの実績は2025年6月が最後で、2025年7月〜2026年9月は「買取実績なし」です。同店のグラフには2025年4月に 490,000円 の値がありますが、前後の月（2025年1月 955,000円・5月 885,000円）から大きく外れており、状態の内訳も記載されていないため、このグラフと表では除外しています。</p>
             <svg viewBox="0 0 640 205" role="img" aria-label="山崎25年の買取店掲示価格の月次推移グラフ" className="w-full h-auto">
               <line x1="70" y1="30.0" x2="622" y2="30.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="64" y="33.5" fontSize="10" fill="#807565" textAnchor="end">1,220,000</text>
-              <line x1="70" y1="95.0" x2="622" y2="95.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="64" y="98.5" fontSize="10" fill="#807565" textAnchor="end">855,000</text>
-              <line x1="70" y1="160.0" x2="622" y2="160.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="64" y="163.5" fontSize="10" fill="#807565" textAnchor="end">490,000</text>
-              <polyline points="70.0,60.3 128.1,30.0 157.2,32.7 215.3,33.6 302.4,53.2 331.5,54.2 418.6,72.7 476.7,77.2 563.9,160.0 592.9,89.7 622.0,89.7" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="70.0" cy="60.3" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2023年11月: 1,050,000円</title></circle>
+              <line x1="70" y1="95.0" x2="622" y2="95.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="64" y="98.5" fontSize="10" fill="#807565" textAnchor="end">1,052,500</text>
+              <line x1="70" y1="160.0" x2="622" y2="160.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="64" y="163.5" fontSize="10" fill="#807565" textAnchor="end">885,000</text>
+              <polyline points="70.0,96.0 128.1,30.0 157.2,35.8 215.3,37.8 302.4,80.4 331.5,82.8 418.6,123.1 476.7,132.8 592.9,160.0 622.0,160.0" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="70.0" cy="96.0" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2023年11月: 1,050,000円</title></circle>
               <circle cx="128.1" cy="30.0" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2024年1月: 1,220,000円</title></circle>
-              <circle cx="157.2" cy="32.7" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2024年2月: 1,205,000円</title></circle>
-              <circle cx="215.3" cy="33.6" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2024年4月: 1,200,000円</title></circle>
-              <circle cx="302.4" cy="53.2" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2024年7月: 1,090,000円</title></circle>
-              <circle cx="331.5" cy="54.2" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2024年8月: 1,084,000円</title></circle>
-              <circle cx="418.6" cy="72.7" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2024年11月: 980,000円</title></circle>
-              <circle cx="476.7" cy="77.2" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2025年1月: 955,000円</title></circle>
-              <circle cx="563.9" cy="160.0" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2025年4月: 490,000円</title></circle>
-              <circle cx="592.9" cy="89.7" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2025年5月: 885,000円</title></circle>
-              <circle cx="622.0" cy="89.7" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2025年6月: 885,000円</title></circle>
+              <circle cx="157.2" cy="35.8" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2024年2月: 1,205,000円</title></circle>
+              <circle cx="215.3" cy="37.8" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2024年4月: 1,200,000円</title></circle>
+              <circle cx="302.4" cy="80.4" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2024年7月: 1,090,000円</title></circle>
+              <circle cx="331.5" cy="82.8" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2024年8月: 1,084,000円</title></circle>
+              <circle cx="418.6" cy="123.1" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2024年11月: 980,000円</title></circle>
+              <circle cx="476.7" cy="132.8" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2025年1月: 955,000円</title></circle>
+              <circle cx="592.9" cy="160.0" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2025年5月: 885,000円</title></circle>
+              <circle cx="622.0" cy="160.0" r="3" fill="#8A5A18" stroke="#fff" strokeWidth="1"><title>2025年6月: 885,000円</title></circle>
               <text x="70.0" y="192" fontSize="10" fill="#807565" textAnchor="middle">2023年11月</text>
               <text x="331.5" y="192" fontSize="10" fill="#807565" textAnchor="middle">2024年8月</text>
               <text x="622.0" y="192" fontSize="10" fill="#807565" textAnchor="middle">2025年6月</text>
               
             </svg>
-            <p className="text-[12px] text-ink leading-relaxed mt-2">2023年11月 1,050,000円 → 2025年6月 885,000円（期間中の最高 1,220,000円・最低 490,000円）。</p>
+            <p className="text-[12px] text-ink leading-relaxed mt-2">2023年11月 1,050,000円 → 2025年6月 885,000円（期間中の最高 1,220,000円・最低 885,000円）。</p>
             <details className="mt-2 text-[12px] text-warm-gray">
-              <summary className="cursor-pointer">月別の数値を表で見る（11か月）</summary>
-              <table className="mt-2"><tbody><tr><td className="py-1 pr-4">2023年11月</td><td className="py-1 text-right">1,050,000円</td></tr><tr><td className="py-1 pr-4">2024年1月</td><td className="py-1 text-right">1,220,000円</td></tr><tr><td className="py-1 pr-4">2024年2月</td><td className="py-1 text-right">1,205,000円</td></tr><tr><td className="py-1 pr-4">2024年4月</td><td className="py-1 text-right">1,200,000円</td></tr><tr><td className="py-1 pr-4">2024年7月</td><td className="py-1 text-right">1,090,000円</td></tr><tr><td className="py-1 pr-4">2024年8月</td><td className="py-1 text-right">1,084,000円</td></tr><tr><td className="py-1 pr-4">2024年11月</td><td className="py-1 text-right">980,000円</td></tr><tr><td className="py-1 pr-4">2025年1月</td><td className="py-1 text-right">955,000円</td></tr><tr><td className="py-1 pr-4">2025年4月</td><td className="py-1 text-right">490,000円</td></tr><tr><td className="py-1 pr-4">2025年5月</td><td className="py-1 text-right">885,000円</td></tr><tr><td className="py-1 pr-4">2025年6月</td><td className="py-1 text-right">885,000円</td></tr></tbody></table>
+              <summary className="cursor-pointer">月別の数値を表で見る（10か月）</summary>
+              <table className="mt-2"><tbody><tr><td className="py-1 pr-4">2023年11月</td><td className="py-1 text-right">1,050,000円</td></tr><tr><td className="py-1 pr-4">2024年1月</td><td className="py-1 text-right">1,220,000円</td></tr><tr><td className="py-1 pr-4">2024年2月</td><td className="py-1 text-right">1,205,000円</td></tr><tr><td className="py-1 pr-4">2024年4月</td><td className="py-1 text-right">1,200,000円</td></tr><tr><td className="py-1 pr-4">2024年7月</td><td className="py-1 text-right">1,090,000円</td></tr><tr><td className="py-1 pr-4">2024年8月</td><td className="py-1 text-right">1,084,000円</td></tr><tr><td className="py-1 pr-4">2024年11月</td><td className="py-1 text-right">980,000円</td></tr><tr><td className="py-1 pr-4">2025年1月</td><td className="py-1 text-right">955,000円</td></tr><tr><td className="py-1 pr-4">2025年5月</td><td className="py-1 text-right">885,000円</td></tr><tr><td className="py-1 pr-4">2025年6月</td><td className="py-1 text-right">885,000円</td></tr></tbody></table>
             </details>
             <p className="text-[11px] text-warm-gray leading-relaxed mt-2">出典: <a href="https://www.stock-lab.com/osake-kaitori/whiskey/yamazaki/age25-2/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">ストックラボ「山崎25年（新型 ホログラムシール有り 完品）の買取実績」の価格推移グラフ</a>（同ページ掲載のグラフの値を転記）。ストックラボの買取実績にもとづく月ごとの中央値（税込換算・グラフの更新日 2026/10/07、2026-10-23 確認）であり、実際の買取額を保証するものではありません。</p>
           </div>
