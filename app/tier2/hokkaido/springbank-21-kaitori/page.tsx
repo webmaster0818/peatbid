@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>JOYLAB 札幌店（ファイブニーズ）</strong></td><td>札幌市中央区（市電 中島公園通駅・行啓通駅 徒歩約4分）</td><td>店頭・出張・宅配</td><td>札幌店は北海道内全域に対応。JOYLAB は全国10店（2026年10月22日確認）</td></tr><tr><td><strong>ストックラボ</strong></td><td>北海道全域（道内に店舗なし）</td><td>宅配</td><td>公式で北海道は「宅配買取エリア」。出張買取は関東・関西・沖縄が中心（2026年10月22日確認）</td></tr><tr><td><strong>大黒屋 質札幌店</strong></td><td>札幌駅/大通駅徒歩4分</td><td>店頭・出張</td><td>質屋系列で即現金化</td></tr></tbody>
+              <tbody><tr><td><strong>JOYLAB 札幌店（ファイブニーズ）</strong></td><td>札幌市中央区（市電 中島公園通駅・行啓通駅 徒歩約4分）</td><td>店頭・出張・宅配</td><td>札幌店は北海道内全域に対応。JOYLAB は全国10店（2026年10月22日確認）</td></tr><tr><td><strong>ストックラボ</strong></td><td>北海道全域（道内に店舗なし）</td><td>宅配</td><td>公式で北海道は「宅配買取エリア」。出張買取は関東・関西・沖縄が中心（2026年10月22日確認）</td></tr><tr><td><strong>大黒屋 質札幌店</strong></td><td>札幌市中央区北一条西3-3（地下鉄さっぽろ駅・大通駅 徒歩4分）</td><td>店頭</td><td>質屋（質預かり・買取）。店舗ページに「お酒買取」対応と記載。出張買取は札幌店の対応サービスに無し。10:00〜19:00・年中無休（年末年始除く）（2026年10月23日確認）</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>
