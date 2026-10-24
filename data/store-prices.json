@@ -1,7 +1,7 @@
 {
   "_note": "買取店が自社サイトに掲示している参考買取価格（手動確認・出典URL付き）。checked_at=PeatBid編集部が各ページを確認した日。数値は各ページの表示をそのまま転記（推計・加工なし）。月が変わったら再確認して更新すること。scripts/store_prices.py が generate-brand-pages-v3.py から読む。",
   "yamazaki-nv": {
-    "checked_at": "2026-10-21",
+    "checked_at": "2026-10-24",
     "stores": [
       {
         "store": "LINXAS（リンクサス）",
@@ -42,6 +42,106 @@
         "high": null,
         "updated": "2026-10-04",
         "url": "https://linxas.shop/whiskey/yamazaki/yamazakinv/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "山崎 NV シングルモルト 700ml",
+        "cond": "箱区分なし（1行）",
+        "price": "9,000円",
+        "low": 9000,
+        "high": 9000,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/yamazaki/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "山崎 NV 100周年記念ラベル 700ml",
+        "cond": "—",
+        "price": "9,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/yamazaki/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "山崎 NV 海外向けラベル 700ml",
+        "cond": "—",
+        "price": "7,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/yamazaki/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "山崎 NV 180ml ベビーボトル",
+        "cond": "—",
+        "price": "1,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/yamazaki/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "山崎NV 現行品 700ml",
+        "cond": "箱付き・箱なし同額",
+        "price": "9,500円",
+        "low": 9500,
+        "high": 9500,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/yamazaki-nv/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "山崎NV 100周年ラベル 700ml",
+        "cond": "箱付き・箱なし同額",
+        "price": "9,000円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/yamazaki-nv/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "山崎NV 180ml",
+        "cond": "—",
+        "price": "2,000円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/yamazaki-nv/"
+      },
+      {
+        "store": "キングラムリカー",
+        "item": "山崎（NV）700ml",
+        "cond": "箱の有無問わず／背面ラベルQRコード印字無は-1,000円",
+        "price": "9,600円",
+        "low": 9600,
+        "high": 9600,
+        "updated": "2026-10-21",
+        "url": "https://kingram-liquor.jp/lineup/435/"
+      },
+      {
+        "store": "キングラムリカー",
+        "item": "山崎 180ml",
+        "cond": "1取引5本まで",
+        "price": "2,100円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-21",
+        "url": "https://kingram-liquor.jp/lineup/1415/"
+      },
+      {
+        "store": "バイセル",
+        "item": "山崎 シングルモルト 700ml",
+        "cond": "未使用・付属品完備想定",
+        "price": "〜6,800円",
+        "low": null,
+        "high": 6800,
+        "updated": "2025-11（ページ注記）",
+        "url": "https://buysell-kaitori.com/liquor/yamazaki/"
       }
     ],
     "trend": {
@@ -145,10 +245,105 @@
       ],
       "current_ex_tax": 7500
     },
-    "desc_tail": "買取店3社の掲示価格比較と2年分の買取価格推移も掲載。"
+    "desc_tail": "7店の掲示価格比較（箱なし・100周年・海外向けラベル・180ml）と2019〜2026年の買取価格推移も掲載。",
+    "page_updated": "2026-10-24",
+    "store_note": "山崎NV（700ml）の掲示価格は、6店で 9,000〜10,000円 です（大黒屋 9,000円・リカスタ 9,500円・ファイブニーズ 9,500円・LINXAS 9,600円・キングラムリカー 9,600円・ストックラボ 9,000〜10,000円）。バイセルの掲示（〜6,800円）は2025年11月時点の値です。100周年記念ラベルは大黒屋・リカスタとも 9,000円 で、通常ラベルとの差は 0〜500円 です。大黒屋は<strong>海外向けラベル</strong>を 7,000円 と、国内品より 2,000円 低く掲示しています。キングラムリカーは「箱の有無問わず」9,600円 としたうえで、<strong>背面ラベルにQRコードの印字が無いボトルは -1,000円</strong> と記載しています（2026-10-21更新）。180ml は 1,000〜2,100円 です（大黒屋 1,000円・リカスタ／LINXAS 2,000円・キングラムリカー 2,100円）。",
+    "quick": {
+      "heading": "山崎NV（ノンエイジ）の買取価格（2026年10月24日確認）",
+      "lead": "買取店が自社サイトに掲示している山崎NV（年数表記なし）の買取価格をまとめました。店舗別の内訳と出典は <a href=\"#store-prices\" className=\"text-amber-dark underline hover:text-burgundy\">4-2. 買取店の掲示価格</a> にあります。",
+      "rows": [
+        [
+          "山崎NV 700ml（箱あり）",
+          "9,000〜10,000円",
+          "大黒屋 9,000円・リカスタ 9,500円・ファイブニーズ 9,500円・LINXAS 9,600円・キングラムリカー 9,600円・ストックラボ 9,000〜10,000円"
+        ],
+        [
+          "箱なし",
+          "9,500〜9,600円",
+          "LINXAS 9,600円・リカスタ 9,500円・キングラムリカー 9,600円（3店とも箱の有無で同額）。ストックラボの「NV 箱なし」も 9,000〜10,000円"
+        ],
+        [
+          "100周年記念ラベル",
+          "9,000円",
+          "大黒屋・リカスタ（ストックラボは通常品と同じ 9,000〜10,000円）"
+        ],
+        [
+          "海外向けラベル／QRコード印字の無いボトル",
+          "7,000円／-1,000円",
+          "大黒屋 海外向けラベル 7,000円／キングラムリカー 背面ラベルのQRコード印字無は 9,600円から -1,000円"
+        ],
+        [
+          "180ml",
+          "1,000〜2,100円",
+          "大黒屋 1,000円・リカスタ 2,000円・LINXAS 2,000円・キングラムリカー 2,100円"
+        ]
+      ],
+      "note": "店舗側の価格の更新日: ストックラボ 2026-10-21・キングラムリカー 2026-10-21・大黒屋 2026-10-19・LINXAS 2026-09-30／10-04（180ml）・ファイブニーズ 2026-09-30・リカスタ 記載なし。掲示価格は未開封・状態良好を前提にした参考額で、実際の買取額は査定で決まります。"
+    },
+    "longterm": {
+      "store": "LINXAS（リンクサス）",
+      "url": "https://linxas.shop/whiskey/yamazaki/yamazakinv/",
+      "label": "「山崎NV」の買取価格推移グラフ",
+      "heading": "長期の価格推移（2019〜2026年・LINXAS の買取価格グラフから）",
+      "points": [
+        [
+          "2019年1月",
+          "4,500円"
+        ],
+        [
+          "2020年1月",
+          "5,250円"
+        ],
+        [
+          "2021年6月",
+          "6,375円"
+        ],
+        [
+          "2022年5月",
+          "10,000円"
+        ],
+        [
+          "2022年11月",
+          "10,400円"
+        ],
+        [
+          "2023年1月",
+          "8,700円"
+        ],
+        [
+          "2023年12月",
+          "12,000円"
+        ],
+        [
+          "2024年3月",
+          "14,000円"
+        ],
+        [
+          "2024年10月",
+          "9,500円"
+        ],
+        [
+          "2025年8月",
+          "9,100円"
+        ],
+        [
+          "2026年6月",
+          "10,500円"
+        ],
+        [
+          "2026年10月",
+          "9,600円"
+        ]
+      ],
+      "n_points": 31,
+      "summary": "同店のグラフでは、2019年1月の 4,500円 から上昇し、2024年3月に 14,000円 と最も高くなった後、2024年10月に 9,500円 まで下がりました。2025年は 9,100〜9,500円、2026年は 9,300〜10,500円 で推移し、2026年10月は 9,600円 です。",
+      "source_note": "全31点から要点を抜粋（2026-10-24確認）。同ページのグラフには時系列の並びが前後する点（「2022/11 7,500円」）が1つあり、除外しています。店舗の参考価格であり、実際の買取額を保証するものではありません",
+      "context": "同じ時期に、サントリーの希望小売価格（税別）は 2024年4月出荷分から 7,000円、2026年4月出荷分から 7,500円 に改定されています（下記の定価の表）。"
+    },
+    "toc_label": "4-2. 買取店の掲示価格（7店）・推移・定価"
   },
   "hakushu-nv": {
-    "checked_at": "2026-10-21",
+    "checked_at": "2026-10-24",
     "stores": [
       {
         "store": "LINXAS（リンクサス）",
@@ -189,6 +384,96 @@
         "high": null,
         "updated": "2026-02-14",
         "url": "https://linxas.shop/whiskey/hakushu/hakushunon-age/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "白州 NV シングルモルト 700ml",
+        "cond": "—",
+        "price": "9,000円",
+        "low": 9000,
+        "high": 9000,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/hakushu/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "白州 NV 100周年記念ラベル",
+        "cond": "—",
+        "price": "9,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/hakushu/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "白州 NV 海外向けラベル",
+        "cond": "—",
+        "price": "7,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/hakushu/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "白州 NV 180ml ベビーボトル",
+        "cond": "—",
+        "price": "900円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/hakushu/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "白州NV 現行品 700ml",
+        "cond": "箱付き・箱なし同額",
+        "price": "9,500円",
+        "low": 9500,
+        "high": 9500,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/hakushu/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "白州NV 100周年ラベル 700ml",
+        "cond": "箱付き・箱なし同額",
+        "price": "9,000円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/hakushu/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "白州NV 180ml",
+        "cond": "—",
+        "price": "1,700円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/hakushu/"
+      },
+      {
+        "store": "キングラムリカー",
+        "item": "白州（NV）700ml",
+        "cond": "箱の有無問わず／QRコード印字無は-1,000円",
+        "price": "9,600円",
+        "low": 9600,
+        "high": 9600,
+        "updated": "2026-10-21",
+        "url": "https://kingram-liquor.jp/lineup/443/"
+      },
+      {
+        "store": "キングラムリカー",
+        "item": "白州 180ml",
+        "cond": "1取引5本まで",
+        "price": "2,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-21",
+        "url": "https://kingram-liquor.jp/lineup/1422/"
       }
     ],
     "trend": {
@@ -307,7 +592,110 @@
       ],
       "current_ex_tax": 7500
     },
-    "desc_tail": "買取店3社の掲示価格比較と2年分の買取価格推移も掲載。"
+    "desc_tail": "6店の掲示価格比較（箱なし・100周年・海外向けラベル・180ml）、2018〜2026年の買取価格推移（LINXAS）と月次推移も掲載。",
+    "page_updated": "2026-10-24",
+    "store_note": "白州NV（700ml）の掲示価格は、6店で 9,000〜10,000円 です（大黒屋 9,000円・リカスタ 9,500円・ファイブニーズ 9,500円・キングラムリカー 9,600円・LINXAS 9,700円・ストックラボ 9,000〜10,000円）。100周年記念ラベルは大黒屋・リカスタとも 9,000円、大黒屋は<strong>海外向けラベル</strong>を 7,000円 と国内品より 2,000円 低く掲示しています。キングラムリカーは「箱の有無問わず」9,600円 で、<strong>QRコードの印字が無いボトルは -1,000円</strong> と記載しています（2026-10-21更新）。180ml は 900〜2,000円 です（大黒屋 900円・リカスタ 1,700円・LINXAS 1,800円・キングラムリカー 2,000円）。",
+    "quick": {
+      "heading": "白州NV（ノンエイジ）の買取価格（2026年10月24日確認）",
+      "lead": "買取店が自社サイトに掲示している白州NV（年数表記なし）の買取価格です。2018年からの価格推移は <a href=\"#longterm\" className=\"text-amber-dark underline hover:text-burgundy\">長期の価格推移</a>、店舗別の内訳と出典は <a href=\"#store-prices\" className=\"text-amber-dark underline hover:text-burgundy\">4-2. 買取店の掲示価格</a> にあります。",
+      "rows": [
+        [
+          "白州NV 700ml（箱あり）",
+          "9,000〜10,000円",
+          "大黒屋 9,000円・リカスタ 9,500円・ファイブニーズ 9,500円・キングラムリカー 9,600円・LINXAS 9,700円・ストックラボ 9,000〜10,000円"
+        ],
+        [
+          "箱なし",
+          "9,500〜9,700円",
+          "LINXAS 9,700円・キングラムリカー 9,600円・リカスタ 9,500円（3店とも箱の有無で同額）"
+        ],
+        [
+          "100周年記念ラベル／海外向けラベル",
+          "9,000円／7,000円",
+          "大黒屋（100周年はリカスタも 9,000円）"
+        ],
+        [
+          "180ml",
+          "900〜2,000円",
+          "大黒屋 900円・リカスタ 1,700円・LINXAS 1,800円・キングラムリカー 2,000円"
+        ],
+        [
+          "価格推移（LINXAS）",
+          "4,125円 → 11,500円 → 9,700円",
+          "2018年6月 → 2024年3月（最高）→ 2026年6月"
+        ]
+      ],
+      "note": "店舗側の価格の更新日: キングラムリカー 2026-10-21・ストックラボ 2026-10-21・大黒屋 2026-10-19・ファイブニーズ 2026-09-30・LINXAS 2026-06-06・リカスタ 記載なし。掲示価格は未開封・状態良好を前提にした参考額で、実際の買取額は査定で決まります。"
+    },
+    "longterm": {
+      "store": "LINXAS（リンクサス）",
+      "url": "https://linxas.shop/whiskey/hakushu/hakushunon-age/",
+      "label": "「白州ノンエイジ」の買取価格推移グラフ",
+      "heading": "白州NVの買取価格の長期推移（2018〜2026年・LINXAS の買取価格グラフから）",
+      "points": [
+        [
+          "2018年6月",
+          "4,125円"
+        ],
+        [
+          "2019年6月",
+          "4,875円"
+        ],
+        [
+          "2020年6月",
+          "5,625円"
+        ],
+        [
+          "2021年11月",
+          "6,750円"
+        ],
+        [
+          "2022年2月",
+          "6,400円"
+        ],
+        [
+          "2022年7月",
+          "8,500円"
+        ],
+        [
+          "2023年1月",
+          "6,900円"
+        ],
+        [
+          "2023年9月",
+          "8,300円"
+        ],
+        [
+          "2023年12月",
+          "10,000円"
+        ],
+        [
+          "2024年3月",
+          "11,500円"
+        ],
+        [
+          "2024年10月",
+          "8,900円"
+        ],
+        [
+          "2025年8月",
+          "8,600円"
+        ],
+        [
+          "2026年4月",
+          "9,300円"
+        ],
+        [
+          "2026年6月",
+          "9,700円"
+        ]
+      ],
+      "n_points": 28,
+      "summary": "同店のグラフでは、2018年6月の 4,125円 から2021年11月の 6,750円 まで少しずつ上がり、2022年に 8,000〜8,500円、2024年3月に 11,500円 と最も高くなりました。その後は2024年10月に 8,900円 まで下がり、2025年は 8,600〜8,900円、2026年6月は 9,700円 です。",
+      "source_note": "全28点から要点を抜粋（2026-10-24確認）。店舗の参考価格であり、実際の買取額を保証するものではありません",
+      "context": "同じ時期に、サントリーの希望小売価格（税別）は 2024年4月出荷分から 7,000円、2026年4月出荷分から 7,500円 に改定されています（下記の定価の表）。キングラムリカーの買取実績（月ごと）でも、2025年9月 8,500円 → 2026年10月 9,600円 と上がっています。"
+    },
+    "toc_label": "4-2. 買取店の掲示価格（6店）・価格推移・定価"
   },
   "hibiki-30": {
     "checked_at": "2026-10-20",
@@ -1936,7 +2324,7 @@
       }
     ],
     "store_intro": "各店が自社サイトに公開している宮城峡NV（年数表記のないシングルモルト宮城峡・700ml）の参考買取価格を、PeatBid編集部が 2026-10-23 に各ページで確認した値です。「店舗側の更新日」は、各ページに記載されている価格の更新日です。大黒屋は「宮城峡 シングルモルト」、リカスタは「宮城峡 シングルモルト 新ラベル／旧ラベル」という名前で掲示しており、いずれも年数表記の無いボトルの行です。",
-    "store_note": "宮城峡NVの掲示価格は、5店で 2,500〜5,000円 の幅があります（最も低いのは大黒屋 2,500円、最も高いのはストックラボの上限 5,000円）。箱の有無で価格を分けているのは LINXAS だけで、箱付・箱無とも 3,700円 です。リカスタは新ラベル 3,400円・旧ラベル 3,300円 と、ラベルの新旧で 100円 の差をつけています。ピーテッドやグランデなど年数表記の無い限定品は、通常の宮城峡NVとは別の価格（7,000〜10,000円）で扱われます。10年・12年・15年は別の銘柄で、大黒屋の掲示は 10年 新ラベル 18,000円・12年 29,000円・15年 57,000円 です（2026-10-19更新）。年数表記のあるボトルは <Link href=\"/articles/miyagikyo-12-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">宮城峡12年の買取相場</Link>・<Link href=\"/articles/miyagikyo-15-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">宮城峡15年の買取相場</Link> をご覧ください。",
+    "store_note": "宮城峡NVの掲示価格は、5店で 2,500〜5,000円 の幅があります（最も低いのは大黒屋 2,500円、最も高いのはストックラボの上限 5,000円）。箱の有無で価格を分けているのは LINXAS だけで、箱付・箱無とも 3,700円 です。リカスタは新ラベル 3,400円・旧ラベル 3,300円 と、ラベルの新旧で 100円 の差をつけています。ピーテッドやグランデなど年数表記の無い限定品は、通常の宮城峡NVとは別の価格（7,000〜10,000円）で扱われます。10年・12年・15年は別の銘柄で、5店の掲示価格は 10年 18,000〜25,000円・12年 28,000〜32,000円・15年 52,000〜63,000円 です（2026-10-24確認）。宮城峡10年は新ラベルと旧ラベルで価格が異なります（大黒屋 新 18,000円・旧 22,000円）。年数表記のあるボトルは <Link href=\"/articles/miyagikyo-12-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">宮城峡12年の買取相場</Link>・<Link href=\"/articles/miyagikyo-15-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">宮城峡15年の買取相場</Link> をご覧ください。",
     "record_groups": [
       {
         "store": "LINXAS（リンクサス）",
@@ -2112,6 +2500,11 @@
           "直近の買取実績・月別中央値",
           "2,800〜4,000円",
           "LINXAS 2026-09-28 2,800円（2026年9月の最高額 3,700円・37本）／ストックラボ 2026年9月の月別中央値 4,000円"
+        ],
+        [
+          "参考: 年数表記のある宮城峡（10年／12年／15年）",
+          "18,000〜25,000円／28,000〜32,000円／52,000〜63,000円",
+          "5店の掲示価格（2026-10-24確認）。10年・12年は「宮城峡12年の買取価格」、15年は「宮城峡15年の買取価格」に店舗別の内訳"
         ]
       ],
       "note": "店舗側の価格の更新日: ストックラボ 2026-10-21・大黒屋 2026-10-19・LINXAS 2026-09-30・リカスタ／ファイブニーズ 記載なし。ヤフオクの落札データは過去180日で2件のため、落札中央値は出していません。掲示価格は未開封・状態良好を前提にした参考額で、実際の買取額は査定で決まります。"
@@ -2465,5 +2858,596 @@
     "title_full": "山崎25年の買取価格・相場{MONTH}新型79〜82万円・旧型80〜86万円｜6店比較・シール有無別",
     "h1_full": "山崎25年の買取価格・相場{MONTH_H1}6店の掲示価格と新型・旧型・ホログラムシールの差",
     "desc_full": "山崎25年の買取価格を6店の掲示価格で比較（2026年10月23日確認）。新型（ホログラムシール有り・完品）790,000〜820,000円、旧型（完品）800,000〜860,000円。シールの有無・リミテッドエディション・ベロアケースの価格、定価の推移、買取実績、ヤフオク落札中央値（毎週更新）も掲載。"
+  },
+  "miyagikyo-12": {
+    "checked_at": "2026-10-24",
+    "page_updated": "2026-10-24",
+    "stores": [
+      {
+        "store": "大黒屋",
+        "item": "宮城峡 12年 シングルモルト",
+        "cond": "参考上限",
+        "price": "29,000円",
+        "low": 29000,
+        "high": 29000,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "宮城峡12年",
+        "cond": "—",
+        "price": "28,000円",
+        "low": 28000,
+        "high": 28000,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/nikka-miyagikyo/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "宮城峡 12年",
+        "cond": "箱付き／箱なし",
+        "price": "32,000円／29,000円",
+        "low": 29000,
+        "high": 32000,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/nikka-miyagikyo/"
+      },
+      {
+        "store": "ストックラボ",
+        "item": "宮城峡 12年",
+        "cond": "—",
+        "price": "30,000円〜31,000円",
+        "low": 30000,
+        "high": 31000,
+        "updated": "2026-10-24",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age12/"
+      },
+      {
+        "store": "ファイブニーズ",
+        "item": "宮城峡 12年（参考買取価格）",
+        "cond": "—",
+        "price": "32,000円（「過去の買取価格」22,500円と併記）",
+        "low": 32000,
+        "high": 32000,
+        "updated": "日付表記なし",
+        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "宮城峡 12年 モルティ＆ソフト／フルーティ＆リッチ／シェリー＆スイート 500ml（別銘柄）",
+        "cond": "—",
+        "price": "28,000円／32,000円／33,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "【参考】宮城峡 10年 シングルモルト 新ラベル／旧ラベル",
+        "cond": "新ラベル／旧ラベル（参考上限）",
+        "price": "18,000円／22,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "【参考】宮城峡10年 新／宮城峡10年 旧",
+        "cond": "新:箱付／箱無、旧:区別なし",
+        "price": "新 19,000円／18,000円・旧 22,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/nikka-miyagikyo/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "【参考】宮城峡 10年",
+        "cond": "箱付き／箱なし",
+        "price": "25,000円／23,000円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/nikka-miyagikyo/"
+      },
+      {
+        "store": "ストックラボ",
+        "item": "【参考】宮城峡 10年",
+        "cond": "—",
+        "price": "21,000円〜22,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-24",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age10/"
+      },
+      {
+        "store": "ファイブニーズ",
+        "item": "【参考】宮城峡 10年（参考買取価格）",
+        "cond": "—",
+        "price": "22,000円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/"
+      }
+    ],
+    "store_intro": "各店が自社サイトに公開している宮城峡12年（シングルモルト宮城峡12年・700ml）の参考買取価格を、PeatBid編集部が 2026-10-24 に各ページで確認した値です。「店舗側の更新日」は、各ページに記載されている価格の更新日です。宮城峡10年はPeatBidに個別ページが無いため、【参考】として同じ表に載せています。",
+    "store_note": "宮城峡12年の掲示価格は、5店で 28,000〜32,000円 です（最も低いのは LINXAS 28,000円、最も高いのはリカスタの箱付き・ファイブニーズの 32,000円）。箱の有無で価格を分けているのはリカスタだけで、箱付き 32,000円・箱なし 29,000円 と 3,000円 の差があります。大黒屋が別に掲示している「モルティ＆ソフト」「フルーティ＆リッチ」「シェリー＆スイート」（500ml）は、通常の12年（700ml）とは別の商品です。<br />宮城峡10年は、5店で 18,000〜25,000円 です。大黒屋は新ラベル 18,000円・旧ラベル 22,000円、LINXAS は新ラベル 箱付 19,000円・箱無 18,000円・旧ラベル 22,000円 と、旧ラベルを新ラベルより高く掲示しています。15年は <Link href=\"/articles/miyagikyo-15-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">宮城峡15年の買取価格</Link>、年数表記の無いボトルは <Link href=\"/articles/miyagikyo-nv-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">宮城峡NV（ノンエイジ）の買取価格</Link> をご覧ください。",
+    "record_groups": [
+      {
+        "store": "ストックラボ",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age12/",
+        "note": "新着買取実績（掲示名「宮城狭12年」）",
+        "items": [
+          [
+            "2025-07-18",
+            "宮城峡12年（梅田・なんば）",
+            "各29,500円"
+          ],
+          [
+            "2025-07-18",
+            "宮城峡12年（千葉・甲府）",
+            "各30,000円"
+          ]
+        ]
+      },
+      {
+        "store": "ストックラボ（宮城峡10年）",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age10/",
+        "note": "新着買取実績（掲示名は「宮城狭10年」表記）",
+        "items": [
+          [
+            "2025-07-18",
+            "宮城峡10年（梅田・なんば・千葉・甲府の各店）",
+            "各22,500円"
+          ]
+        ]
+      },
+      {
+        "store": "ファイブニーズ（宮城峡10年）",
+        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/",
+        "note": "買取実績表（更新日 2026年10月12日時点）",
+        "items": [
+          [
+            "2026-05-10",
+            "ニッカ 宮城峡 10年 シングルモルト 45% 700ml",
+            "18,500円"
+          ]
+        ]
+      },
+      {
+        "store": "LINXAS（リンクサス）（宮城峡10年）",
+        "url": "https://linxas.shop/whiskey/nikka-miyagikyo/",
+        "note": "買取実績＋年別中央値 2021年 23,000円→2025年 23,000円",
+        "items": [
+          [
+            "2025-08-11",
+            "宮城峡10年",
+            "23,000円"
+          ]
+        ]
+      }
+    ],
+    "identify": {
+      "intro": "宮城峡は「宮城狭」と書かれることもありますが、正しくは「宮城峡（みやぎきょう）」です。査定に出す前に、次の点を確認してください。",
+      "items": [
+        "<strong>年数表記</strong>: ラベルの「10」「12」「15」の数字を確認してください。年数で掲示価格が大きく変わります（大黒屋 10年 新ラベル 18,000円・12年 29,000円・15年 57,000円、2026-10-19更新）。",
+        "<strong>10年の新旧ラベル</strong>: 大黒屋・LINXAS は10年の旧ラベルを 22,000円 と、新ラベル（18,000〜19,000円）より高く掲示しています。",
+        "<strong>容量</strong>: 大黒屋の「モルティ＆ソフト」「フルーティ＆リッチ」「シェリー＆スイート」の12年は500mlで、700mlの12年とは別の行で掲示されています（28,000〜33,000円）。",
+        "<strong>箱の有無</strong>: リカスタは12年 箱付き 32,000円・箱なし 29,000円、10年 箱付き 25,000円・箱なし 23,000円 と分けています。箱がある場合はあわせて査定に出してください。"
+      ],
+      "caution": "出典: <a href=\"https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age12/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">ストックラボ</a>・<a href=\"https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">大黒屋</a>・<a href=\"https://linxas.shop/whiskey/nikka-miyagikyo/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">LINXAS</a>・<a href=\"https://www.licasta.com/item/whisky/nikka-miyagikyo/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">リカスタ</a>・<a href=\"https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">ファイブニーズ</a>（2026-10-24確認）。判別できない場合は、正面・背面のラベルと箱の写真を添えて査定を依頼してください。"
+    },
+    "quick": {
+      "heading": "宮城峡12年の買取価格（2026年10月24日確認）",
+      "lead": "買取店が自社サイトに掲示している宮城峡12年（700ml・未開封）の買取価格です。宮城峡10年・15年の価格もあわせて載せています。店舗別の内訳と出典は <a href=\"#store-prices\" className=\"text-amber-dark underline hover:text-burgundy\">4-2. 買取店の掲示価格</a> にあります。",
+      "rows": [
+        [
+          "宮城峡12年（700ml）",
+          "28,000〜32,000円",
+          "LINXAS 28,000円・大黒屋 29,000円・ストックラボ 30,000〜31,000円・リカスタ 32,000円（箱付き）・ファイブニーズ 32,000円"
+        ],
+        [
+          "宮城峡12年 箱なし",
+          "29,000円",
+          "リカスタ（箱付きは 32,000円）。他の4店は箱の有無を分けずに掲示"
+        ],
+        [
+          "参考: 宮城峡10年",
+          "18,000〜25,000円",
+          "大黒屋 新18,000円/旧22,000円・LINXAS 新19,000円(箱付)/旧22,000円・ストックラボ 21,000〜22,000円・ファイブニーズ 22,000円・リカスタ 25,000円(箱付き)"
+        ],
+        [
+          "参考: 宮城峡15年",
+          "52,000〜63,000円",
+          "リカスタ 52,000円(箱なし)・LINXAS 55,000円・大黒屋 57,000円・ストックラボ 57,000〜58,000円・ファイブニーズ 63,000円"
+        ]
+      ],
+      "note": "店舗側の価格の更新日: ストックラボ 2026-10-24・大黒屋 2026-10-19・LINXAS 2026-09-30・リカスタ／ファイブニーズ 記載なし。掲示価格は未開封・状態良好を前提にした参考額で、実際の買取額は査定で決まります。ヤフオク落札中央値は個人間の取引の値で、店舗の掲示価格より高く出ています。"
+    },
+    "faq_extra": [
+      [
+        "宮城峡10年の買取価格はいくらですか？",
+        "2026-10-24 に各店のページで確認した掲示価格は、大黒屋 新ラベル 18,000円・旧ラベル 22,000円（2026-10-19更新）、LINXAS 新ラベル 箱付 19,000円・箱無 18,000円・旧ラベル 22,000円（2026-09-30更新）、ストックラボ 21,000〜22,000円、ファイブニーズ 22,000円、リカスタ 箱付き 25,000円・箱なし 23,000円 です。"
+      ],
+      [
+        "宮城峡12年は箱なしだといくら下がりますか？",
+        "リカスタは箱付き 32,000円・箱なし 29,000円 と、3,000円の差で掲示しています（2026-10-24確認）。大黒屋・LINXAS・ストックラボ・ファイブニーズは箱の有無を分けずに掲示しています。"
+      ]
+    ],
+    "toc_label": "4-2. 買取店の掲示価格・買取実績（10年の参考価格つき）",
+    "title_full": "宮城峡12年の買取価格・相場{MONTH}28,000〜32,000円｜5店比較・箱なし・10年/15年の価格",
+    "h1_full": "宮城峡12年の買取価格・相場{MONTH_H1}5店の掲示価格・買取実績（10年・15年の参考価格つき）",
+    "desc_full": "宮城峡12年の買取価格を5店の掲示価格で比較（2026年10月24日確認）。28,000〜32,000円、箱なし29,000円。宮城峡10年（新ラベル・旧ラベル 18,000〜25,000円）と15年の参考価格、各店の買取実績も掲載。"
+  },
+  "miyagikyo-15": {
+    "checked_at": "2026-10-24",
+    "page_updated": "2026-10-24",
+    "stores": [
+      {
+        "store": "大黒屋",
+        "item": "宮城峡 15年 シングルモルト",
+        "cond": "参考上限",
+        "price": "57,000円",
+        "low": 57000,
+        "high": 57000,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "宮城峡15年",
+        "cond": "—",
+        "price": "55,000円",
+        "low": 55000,
+        "high": 55000,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/nikka-miyagikyo/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "宮城峡 15年",
+        "cond": "箱なし（箱付きの掲示なし）",
+        "price": "52,000円",
+        "low": 52000,
+        "high": 52000,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/nikka-miyagikyo/"
+      },
+      {
+        "store": "ストックラボ",
+        "item": "宮城峡 15年",
+        "cond": "—",
+        "price": "57,000円〜58,000円",
+        "low": 57000,
+        "high": 58000,
+        "updated": "2026-10-24",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age15/"
+      },
+      {
+        "store": "ファイブニーズ",
+        "item": "宮城峡 15年（参考買取価格）",
+        "cond": "—",
+        "price": "63,000円（「過去の買取価格」45,000円と併記）",
+        "low": 63000,
+        "high": 63000,
+        "updated": "日付表記なし",
+        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/"
+      }
+    ],
+    "store_intro": "各店が自社サイトに公開している宮城峡15年（シングルモルト宮城峡15年・700ml）の参考買取価格を、PeatBid編集部が 2026-10-24 に各ページで確認した値です。「店舗側の更新日」は、各ページに記載されている価格の更新日です。",
+    "store_note": "宮城峡15年の掲示価格は、5店で 52,000〜63,000円 です（最も低いのはリカスタの箱なし 52,000円、最も高いのはファイブニーズ 63,000円）。リカスタは箱なしの価格だけを掲示しています。ファイブニーズは「過去の買取価格」として 45,000円 も併記しており、同ページの「最新の宮城峡の買取実績［10月24日更新］」欄には 15年 700ml 44,000円 の行があります（買取日の記載なし）。12年・10年は <Link href=\"/articles/miyagikyo-12-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">宮城峡12年の買取価格（10年の参考価格つき）</Link>、年数表記の無いボトルは <Link href=\"/articles/miyagikyo-nv-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">宮城峡NV（ノンエイジ）の買取価格</Link> をご覧ください。",
+    "record_groups": [
+      {
+        "store": "ストックラボ",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age15/",
+        "note": "新着買取実績（掲示名「宮城狭15年」）",
+        "items": [
+          [
+            "2025-07-18",
+            "宮城峡15年（梅田・なんば・千葉・甲府の各店）",
+            "各57,000円"
+          ]
+        ]
+      }
+    ],
+    "identify": {
+      "intro": "宮城峡は「宮城狭」と書かれることもありますが、正しくは「宮城峡（みやぎきょう）」です。査定に出す前に、次の点を確認してください。",
+      "items": [
+        "<strong>年数表記</strong>: ラベルの「15」を確認してください。12年は 28,000〜32,000円、10年は 18,000〜25,000円 と、店舗の掲示価格が大きく異なります（2026-10-24確認）。",
+        "<strong>箱の有無</strong>: リカスタは15年を箱なし 52,000円 で掲示しています（箱付きの掲示なし）。箱がある場合はあわせて査定に出してください。",
+        "<strong>限定品</strong>: 年数表記があっても、蒸溜所限定品や記念ボトルは通常の15年とは別の価格で扱われます。"
+      ],
+      "caution": "出典: <a href=\"https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age15/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">ストックラボ</a>・<a href=\"https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">大黒屋</a>・<a href=\"https://linxas.shop/whiskey/nikka-miyagikyo/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">LINXAS</a>・<a href=\"https://www.licasta.com/item/whisky/nikka-miyagikyo/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">リカスタ</a>・<a href=\"https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">ファイブニーズ</a>（2026-10-24確認）。判別できない場合は、正面・背面のラベルと箱の写真を添えて査定を依頼してください。"
+    },
+    "quick": {
+      "heading": "宮城峡15年の買取価格（2026年10月24日確認）",
+      "lead": "買取店が自社サイトに掲示している宮城峡15年（700ml・未開封）の買取価格です。店舗別の内訳と出典は <a href=\"#store-prices\" className=\"text-amber-dark underline hover:text-burgundy\">4-2. 買取店の掲示価格</a> にあります。",
+      "rows": [
+        [
+          "宮城峡15年（700ml）",
+          "52,000〜63,000円",
+          "リカスタ 52,000円(箱なし)・LINXAS 55,000円・大黒屋 57,000円・ストックラボ 57,000〜58,000円・ファイブニーズ 63,000円"
+        ],
+        [
+          "直近の買取実績",
+          "44,000〜57,000円",
+          "ストックラボ 2025-07-18 4店各57,000円／ファイブニーズ 44,000円（買取日の記載なし）"
+        ],
+        [
+          "参考: 宮城峡12年／10年",
+          "28,000〜32,000円／18,000〜25,000円",
+          "5店の掲示価格（10年は新ラベル・旧ラベルで差あり）"
+        ]
+      ],
+      "note": "店舗側の価格の更新日: ストックラボ 2026-10-24・大黒屋 2026-10-19・LINXAS 2026-09-30・リカスタ／ファイブニーズ 記載なし。掲示価格は未開封・状態良好を前提にした参考額で、実際の買取額は査定で決まります。"
+    },
+    "faq_extra": [
+      [
+        "宮城峡15年の買取価格は店舗でいくらですか？",
+        "2026-10-24 に確認した掲示価格は、リカスタ 52,000円（箱なし）・LINXAS 55,000円（2026-09-30更新）・大黒屋 57,000円（2026-10-19更新）・ストックラボ 57,000〜58,000円・ファイブニーズ 63,000円 です。"
+      ]
+    ],
+    "toc_label": "4-2. 買取店の掲示価格・買取実績",
+    "title_full": "宮城峡15年の買取価格・相場{MONTH}52,000〜63,000円｜5店比較・箱なし・買取実績",
+    "h1_full": "宮城峡15年の買取価格・相場{MONTH_H1}5店の掲示価格・買取実績",
+    "desc_full": "宮城峡15年の買取価格を5店の掲示価格で比較（2026年10月24日確認）。52,000〜63,000円。箱なしの掲示、ストックラボ・ファイブニーズの買取実績、12年・10年との価格差も掲載。"
+  },
+  "yoichi-nv": {
+    "checked_at": "2026-10-24",
+    "page_updated": "2026-10-24",
+    "stores": [
+      {
+        "store": "大黒屋",
+        "item": "余市 シングルモルト（年数表記なし）",
+        "cond": "参考上限",
+        "price": "3,000円",
+        "low": 3000,
+        "high": 3000,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/yoichi/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "余市 シングルモルト 新ラベル／旧ラベル",
+        "cond": "新ラベル／旧ラベル",
+        "price": "3,900円／3,600円",
+        "low": 3600,
+        "high": 3900,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/nikka-yoichi/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "余市NV",
+        "cond": "箱付／箱無",
+        "price": "3,900円／3,900円",
+        "low": 3900,
+        "high": 3900,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/nikkayoichi/"
+      },
+      {
+        "store": "ストックラボ",
+        "item": "余市NV",
+        "cond": "—",
+        "price": "4,300円〜5,300円",
+        "low": 4300,
+        "high": 5300,
+        "updated": "2026-10-24",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/yoichi/yoichi-nv/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "余市 ノンピーテッド／アロマティックイースト 2022／グランデ（年数表記なし限定品）",
+        "cond": "—",
+        "price": "8,000円／9,000円／8,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-19",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/yoichi/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "余市ノンピーテッド",
+        "cond": "—",
+        "price": "11,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/nikkayoichi/"
+      }
+    ],
+    "store_intro": "各店が自社サイトに公開している余市NV（年数表記のないシングルモルト余市・700ml）の参考買取価格を、PeatBid編集部が 2026-10-24 に各ページで確認した値です。「店舗側の更新日」は、各ページに記載されている価格の更新日です。大黒屋は「余市 シングルモルト」、リカスタは「余市 シングルモルト 新ラベル／旧ラベル」という名前で掲示しており、いずれも年数表記の無いボトルの行です。",
+    "store_note": "余市NVの掲示価格は、4店で 3,000〜5,300円 です（最も低いのは大黒屋 3,000円、最も高いのはストックラボの上限 5,300円）。LINXAS は箱付・箱無とも 3,900円 と同額、リカスタは新ラベル 3,900円・旧ラベル 3,600円 です。LINXAS の買取ランキング（2026年10月）では、2026年9月に余市ノンエイジを50本買い取り、1本あたりの最高額は 3,900円 と公開しています。ノンピーテッドやアロマティックイーストなど年数表記の無い限定品は、通常の余市NVとは別の価格（8,000〜11,000円）です。年数表記のある余市は <Link href=\"/articles/yoichi-10-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">余市10年の買取相場</Link>・<Link href=\"/articles/yoichi-15-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">余市15年</Link>・<Link href=\"/articles/yoichi-20-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">余市20年</Link> をご覧ください。",
+    "record_groups": [
+      {
+        "store": "ファイブニーズ",
+        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/yoichi_brand/",
+        "note": "「最新の余市の買取実績［10月24日更新］」から年数表記なしの余市700mlを転記",
+        "items": [
+          [
+            "2026-08-14",
+            "ニッカ 余市 NV シングルモルト 700ml 旧ラベル",
+            "3,000円"
+          ],
+          [
+            "2026-05-10",
+            "ニッカ 余市 NV シングルモルト 旧ボトル 700ml",
+            "4,000円"
+          ],
+          [
+            "2026-04-28",
+            "ニッカ 余市 NV シングルモルト 旧ラベル 700ml",
+            "3,800円"
+          ],
+          [
+            "2025-10-24",
+            "ニッカ 余市 NV シングルモルト 700ml",
+            "3,500円"
+          ]
+        ]
+      },
+      {
+        "store": "ストックラボ",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/yoichi/yoichi-nv/",
+        "note": "新着買取実績",
+        "items": [
+          [
+            "2025-11-30",
+            "余市 NV（姫路）",
+            "4,600円"
+          ],
+          [
+            "2025-07-29",
+            "余市 NV（渋谷・新宿・麻布）",
+            "各5,000円"
+          ]
+        ]
+      }
+    ],
+    "trend": {
+      "store": "ストックラボ",
+      "label": "余市NVの買取実績",
+      "url": "https://www.stock-lab.com/osake-kaitori/whiskey/yoichi/yoichi-nv/",
+      "months": [
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ],
+      "prices": [
+        4400,
+        4400,
+        4400,
+        4500,
+        5000,
+        5000,
+        5000,
+        5600,
+        5600,
+        5600,
+        5000,
+        5000,
+        5000,
+        5000,
+        5000,
+        5000,
+        4500,
+        5000,
+        5000,
+        5000,
+        4700,
+        5000,
+        5000,
+        5000,
+        4800,
+        4600,
+        4600,
+        4600,
+        4600,
+        4600,
+        4100,
+        3800,
+        3800,
+        4300,
+        4000,
+        3800
+      ],
+      "source_note": "ストックラボの買取実績にもとづく月ごとの中央値（税込換算・グラフの更新日 2026/10/07、2026-10-24 確認）であり、実際の買取額を保証するものではありません。",
+      "heading": "余市NVの買取価格の推移（ストックラボの買取実績・月別中央値）",
+      "lead": "2023年10月から2026年9月まで、36か月すべてに値があります。"
+    },
+    "identify": {
+      "intro": "「余市NV」は、ラベルに熟成年数の表記が無いシングルモルト余市のことです。店舗によって「NV」「ノンエイジ」「シングルモルト」と呼び方が異なります。査定に出す前に、次の点を確認してください。",
+      "items": [
+        "<strong>年数表記</strong>: ラベルに「10」「15」「20」などの年数が無いか。年数表記のあるボトルは別の銘柄で、掲示価格も大きく異なります。",
+        "<strong>ラベルの新旧</strong>: リカスタは新ラベル 3,900円・旧ラベル 3,600円 と分けて掲示しています。ファイブニーズの買取実績にも「旧ラベル」「旧ボトル」の行があります（3,000〜4,000円）。",
+        "<strong>限定品との違い</strong>: 「ノンピーテッド」「アロマティックイースト」「グランデ」などは年数表記が無くても通常の余市NVとは別の商品で、店舗の掲示価格も別です（大黒屋 ノンピーテッド 8,000円・アロマティックイースト 2022 9,000円・グランデ 8,000円、LINXAS ノンピーテッド 11,000円）。",
+        "<strong>箱の有無</strong>: LINXAS は箱付・箱無とも 3,900円 と同額で掲示しています。LINXAS の買取ランキングには「ノンエイジ ギフト箱」の行もあります。"
+      ],
+      "caution": "出典: <a href=\"https://www.stock-lab.com/osake-kaitori/whiskey/yoichi/yoichi-nv/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">ストックラボ</a>・<a href=\"https://www.licasta.com/item/whisky/nikka-yoichi/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">リカスタ</a>・<a href=\"https://kaitori.e-daikoku.com/liquor/whisky/yoichi/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">大黒屋</a>・<a href=\"https://linxas.shop/whiskey/nikkayoichi/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">LINXAS</a>・<a href=\"https://www.sakekaitori.com/whisky/japanese_whiskey/yoichi_brand/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">ファイブニーズ</a>（2026-10-24確認）。判別できない場合は、正面・背面のラベルと箱の写真を添えて査定を依頼してください。"
+    },
+    "quick": {
+      "heading": "余市NVの買取価格（2026年10月24日確認）",
+      "lead": "買取店が自社サイトに掲示している余市NV（年数表記なし・700ml・未開封）の買取価格をまとめました。店舗別の内訳と出典は <a href=\"#store-prices\" className=\"text-amber-dark underline hover:text-burgundy\">4-2. 買取店の掲示価格</a> にあります。",
+      "rows": [
+        [
+          "余市NV（700ml）",
+          "3,000〜5,300円",
+          "大黒屋 3,000円・リカスタ 3,900円・LINXAS 3,900円・ストックラボ 4,300〜5,300円"
+        ],
+        [
+          "箱なし",
+          "3,900円",
+          "LINXAS（箱付・箱無とも同額）。他の3店は箱の有無を分けずに掲示"
+        ],
+        [
+          "旧ラベル",
+          "3,600円",
+          "リカスタ（新ラベルは 3,900円）"
+        ],
+        [
+          "年数表記の無い限定品（ノンピーテッド等）",
+          "8,000〜11,000円",
+          "大黒屋 ノンピーテッド 8,000円・アロマティックイースト 2022 9,000円・LINXAS ノンピーテッド 11,000円"
+        ],
+        [
+          "直近の買取実績・月別中央値",
+          "3,000〜3,900円",
+          "ファイブニーズ 2026-08-14 3,000円（旧ラベル）／LINXAS 2026年9月の最高額 3,900円（50本）／ストックラボ 2026年9月の月別中央値 3,800円"
+        ]
+      ],
+      "note": "店舗側の価格の更新日: ストックラボ 2026-10-24・大黒屋 2026-10-19・LINXAS 2026-09-30・リカスタ 記載なし。掲示価格は未開封・状態良好を前提にした参考額で、実際の買取額は査定で決まります。"
+    },
+    "faq_extra": [
+      [
+        "余市NVの買取価格は上がっていますか？",
+        "ストックラボの買取実績の月別中央値（2026-10-24 確認）では、2023年10月 4,400円 → 2024年5〜7月 5,600円（期間中の最高）→ 2026年9月 3,800円 で、2025年後半から下がっています。"
+      ],
+      [
+        "余市NVは箱なしでも売れますか？",
+        "売れます。LINXAS は箱付・箱無とも 3,900円（2026-09-30更新）と同額で掲示しています。他の店舗は箱の有無を分けずに掲示しているため、箱がある場合はあわせて査定に出してください。"
+      ]
+    ],
+    "toc_label": "4-2. 買取店の掲示価格・推移・買取実績",
+    "title_full": "余市NV（ノンエイジ）の買取価格・相場{MONTH}3,000〜5,300円｜4店比較・箱なし・月別推移",
+    "h1_full": "余市NV（ノンエイジ）の買取価格・相場{MONTH_H1}4店の掲示価格・買取実績・月別推移",
+    "desc_full": "余市NV（ノンエイジ・年数表記なし）の買取価格を4店の掲示価格で比較（2026年10月24日確認）。3,000〜5,300円。箱なし・旧ラベルの扱い、ノンピーテッド等の限定品との違い、ストックラボの月別推移（2023年10月〜2026年9月）と各店の買取実績も掲載。"
   }
 }

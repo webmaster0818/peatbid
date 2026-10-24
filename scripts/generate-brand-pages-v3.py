@@ -424,9 +424,9 @@ def render_page(b, all_brands):
         "hibiki-17": ("/articles/hibiki-nv-kaitori/", "年代表記のない「響」（Japanese Harmony等のNV）をお探しの方はこちら", "響ノンエイジの買取相場ガイド"),
         "hibiki-21": ("/articles/hibiki-nv-kaitori/", "年代表記のない「響」（Japanese Harmony等のNV）をお探しの方はこちら", "響ノンエイジの買取相場ガイド"),
         "hibiki-30": ("/articles/hibiki-nv-kaitori/", "年代表記のない「響」（Japanese Harmony等のNV）をお探しの方はこちら", "響ノンエイジの買取相場ガイド"),
-        "yoichi-10": ("/articles/yoichi-nv-kaitori/", "年代表記のない「余市」（ノンエイジ／NV）をお探しの方はこちら", "余市ノンエイジの買取相場ガイド"),
-        "yoichi-15": ("/articles/yoichi-nv-kaitori/", "年代表記のない「余市」（ノンエイジ／NV）をお探しの方はこちら", "余市ノンエイジの買取相場ガイド"),
-        "yoichi-20": ("/articles/yoichi-nv-kaitori/", "年代表記のない「余市」（ノンエイジ／NV）をお探しの方はこちら", "余市ノンエイジの買取相場ガイド"),
+        "yoichi-10": ("/articles/yoichi-nv-kaitori/", "年代表記のない「余市」（ノンエイジ／NV）をお探しの方はこちら", "余市NV（ノンエイジ）の買取価格｜4店の掲示価格・月別推移"),
+        "yoichi-15": ("/articles/yoichi-nv-kaitori/", "年代表記のない「余市」（ノンエイジ／NV）をお探しの方はこちら", "余市NV（ノンエイジ）の買取価格｜4店の掲示価格・月別推移"),
+        "yoichi-20": ("/articles/yoichi-nv-kaitori/", "年代表記のない「余市」（ノンエイジ／NV）をお探しの方はこちら", "余市NV（ノンエイジ）の買取価格｜4店の掲示価格・月別推移"),
         "miyagikyo-12": ("/articles/miyagikyo-nv-kaitori/", "年代表記のない「宮城峡」（ノンエイジ／NV）をお探しの方はこちら", "宮城峡ノンエイジの買取相場ガイド"),
         "miyagikyo-15": ("/articles/miyagikyo-nv-kaitori/", "年代表記のない「宮城峡」（ノンエイジ／NV）をお探しの方はこちら", "宮城峡ノンエイジの買取相場ガイド"),
         # NV→年代付き代表（逆方向の回遊）
@@ -439,11 +439,11 @@ def render_page(b, all_brands):
         # ⚠️2026-08-04修正: 以前は汎用の whisky-nv-toha に流していたが、
         #   bowmore-nv / springbank-nv の専用ページが実在するため、そちらを直接指す。
         #   （P1で page.tsx に直接注入した導線は週次再生成で消えるため、ここへ移設した）
-        "springbank-15": ("/articles/springbank-nv-kaitori/", "年代表記のないスプリングバンクをお探しの方はこちら", "スプリングバンクの年代指定なし(NV)買取相場"),
-        "springbank-21": ("/articles/springbank-nv-kaitori/", "年代表記のないスプリングバンクをお探しの方はこちら", "スプリングバンクの年代指定なし(NV)買取相場"),
-        "bowmore-18": ("/articles/bowmore-nv-kaitori/", "年代表記のないボウモア（No.1・スモールバッチ等）をお探しの方はこちら", "ボウモアの年代指定なし(NV)買取相場"),
-        "bowmore-25": ("/articles/bowmore-nv-kaitori/", "年代表記のないボウモア（No.1・スモールバッチ等）をお探しの方はこちら", "ボウモアの年代指定なし(NV)買取相場"),
-        "bowmore-blackbowmore": ("/articles/bowmore-nv-kaitori/", "年代表記のないボウモア（No.1・スモールバッチ等）をお探しの方はこちら", "ボウモアの年代指定なし(NV)買取相場"),
+        "springbank-15": ("/articles/springbank-kaitori/", "10年・18年・25年・ローカルバーレイなど、ほかの年数や年代表記のないスプリングバンクの買取価格はこちら", "スプリングバンクの買取価格一覧（年数別の店舗掲示価格）"),
+        "springbank-21": ("/articles/springbank-kaitori/", "10年・18年・25年・ローカルバーレイなど、ほかの年数や年代表記のないスプリングバンクの買取価格はこちら", "スプリングバンクの買取価格一覧（年数別の店舗掲示価格）"),
+        "bowmore-18": ("/articles/bowmore-nv-kaitori/", "12年・15年・カモメラベルなど、ほかの年数や年代表記のないボウモアの買取価格はこちら", "ボウモアの買取相場（年数別・カモメラベル・NV）"),
+        "bowmore-25": ("/articles/bowmore-nv-kaitori/", "12年・15年・カモメラベルなど、ほかの年数や年代表記のないボウモアの買取価格はこちら", "ボウモアの買取相場（年数別・カモメラベル・NV）"),
+        "bowmore-blackbowmore": ("/articles/bowmore-nv-kaitori/", "12年・15年・カモメラベルなど、ほかの年数や年代表記のないボウモアの買取価格はこちら", "ボウモアの買取相場（年数別・カモメラベル・NV）"),
         "talisker-25": ("/articles/talisker-nv-kaitori/", "年代表記のないタリスカー（ストーム・スカイ等）をお探しの方はこちら", "タリスカーの年代指定なし(NV)買取相場"),
         "laphroaig-25": ("/articles/laphroaig-nv-kaitori/", "年代表記のないラフロイグ（セレクト・クォーターカスク等）をお探しの方はこちら", "ラフロイグの年代指定なし(NV)買取相場"),
         # 竹鶴: 年代表記のない竹鶴＝「竹鶴ピュアモルト」。専用NVページは作らず既存ページへ寄せる

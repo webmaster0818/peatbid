@@ -5,12 +5,12 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/miyagikyo-15.json";
 
 export const metadata: Metadata = {
-  title: '宮城峡15年の買取相場【2026年10月最新】64,899円｜箱なし・開封済みの査定額も',
-  description: '宮城峡15年の買取相場は64,899円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格の目安、買取業者3社の比較、高く売るためのポイント、贋作のリスクについて解説しています。',
+  title: '宮城峡15年の買取価格・相場【2026年10月最新】52,000〜63,000円｜5店比較・箱なし・買取実績',
+  description: '宮城峡15年の買取価格を5店の掲示価格で比較（2026年10月24日確認）。52,000〜63,000円。箱なしの掲示、ストックラボ・ファイブニーズの買取実績、12年・10年との価格差も掲載。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '宮城峡15年の市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '宮城峡15年の市場相場は64,899円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=24、取得日 2026-10-19）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": '宮城峡15年を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' } }, { "@type": "Question", "name": '開封済みの宮城峡15年でも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' } }, { "@type": "Question", "name": '宮城峡15年は箱なしでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約51,920〜58,410円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' } }, { "@type": "Question", "name": '宮城峡15年に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' } }, { "@type": "Question", "name": '宮城峡15年の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' } }, { "@type": "Question", "name": '宮城峡15年は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '宮城峡15年を売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" } }, { "@type": "Question", "name": '宮城峡15年と他の銘柄は、どちらを先に売るべきですか？', "acceptedAnswer": { "@type": "Answer", "text": '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '宮城峡15年の市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '宮城峡15年の市場相場は64,899円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=24、取得日 2026-10-19）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": '宮城峡15年の買取価格は店舗によって異なりますか？', "acceptedAnswer": { "@type": "Answer", "text": '異なります。2026-10-24 に各店の公開ページで確認した掲示価格は、大黒屋 57,000円（宮城峡 15年 シングルモルト・2026-10-19更新）、LINXAS（リンクサス） 55,000円（宮城峡15年・2026-09-30更新）、リカスタ 52,000円（宮城峡 15年・日付表記なし更新）、ストックラボ 57,000円〜58,000円（宮城峡 15年・2026-10-24更新）、ファイブニーズ 63,000円（「過去の買取価格」45,000円と併記）（宮城峡 15年（参考買取価格）・日付表記なし更新）でした。ボトルの仕様や付属品、店舗の在庫状況によっても変わるため、売却前に複数の店舗で査定を受けて比較してください。' } }, { "@type": "Question", "name": '宮城峡15年を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' } }, { "@type": "Question", "name": '開封済みの宮城峡15年でも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' } }, { "@type": "Question", "name": '宮城峡15年は箱なしでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約51,920〜58,410円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' } }, { "@type": "Question", "name": '宮城峡15年に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' } }, { "@type": "Question", "name": '宮城峡15年の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' } }, { "@type": "Question", "name": '宮城峡15年は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '宮城峡15年の買取価格は店舗でいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '2026-10-24 に確認した掲示価格は、リカスタ 52,000円（箱なし）・LINXAS 55,000円（2026-09-30更新）・大黒屋 57,000円（2026-10-19更新）・ストックラボ 57,000〜58,000円・ファイブニーズ 63,000円 です。' } }, { "@type": "Question", "name": '宮城峡15年を売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" } }, { "@type": "Question", "name": '宮城峡15年と他の銘柄は、どちらを先に売るべきですか？', "acceptedAnswer": { "@type": "Answer", "text": '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' } }] }) }} />;
 }
 
 const tocItems = [
@@ -18,11 +18,13 @@ const tocItems = [
   { id: "distillery", label: "2. 蒸溜所の歴史と特徴" },
   { id: "tasting", label: "3. テイスティングノート" },
   { id: "current-price", label: "4. 現在の市場相場（Yahoo中央値）" },
+  { id: "store-prices", label: "4-2. 買取店の掲示価格・買取実績" },
   { id: "state-price", label: "5. 状態別の業界目安" },
   { id: "price-reasons", label: "6. 価格を左右する要因" },
   { id: "auction", label: "7. オークション落札データ" },
   { id: "takaku-uru", label: "8. 高く売るための7つのポイント" },
   { id: "fake", label: "9. 偽物・贋作の見分け方" },
+  { id: "edition-check", label: "9-2. エディションの確認方法" },
   { id: "partners", label: "10. おすすめ買取業者3社" },
   { id: "process", label: "11. 売却プロセス5ステップ" },
   { id: "faq", label: "12. よくある質問" },
@@ -49,8 +51,20 @@ export default function Miyagikyo15KaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">宮城峡15年の買取相場と業者比較ガイド【2026年10月】</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">宮城峡15年の買取価格・相場【2026年10月】5店の掲示価格・買取実績</h1>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-24 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
+            <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">宮城峡15年の買取価格（2026年10月24日確認）</h2>
+            <p className="text-sm text-ink mb-3">買取店が自社サイトに掲示している宮城峡15年（700ml・未開封）の買取価格です。店舗別の内訳と出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格</a> にあります。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル・状態</th><th className="py-2 pr-3 text-right">買取価格（店舗の掲示）</th><th className="py-2">店舗・確認日</th></tr></thead>
+                <tbody><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">宮城峡15年（700ml）</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">52,000〜63,000円</td><td className="py-2 text-xs text-warm-gray">リカスタ 52,000円(箱なし)・LINXAS 55,000円・大黒屋 57,000円・ストックラボ 57,000〜58,000円・ファイブニーズ 63,000円</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">直近の買取実績</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">44,000〜57,000円</td><td className="py-2 text-xs text-warm-gray">ストックラボ 2025-07-18 4店各57,000円／ファイブニーズ 44,000円（買取日の記載なし）</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">参考: 宮城峡12年／10年</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">28,000〜32,000円／18,000〜25,000円</td><td className="py-2 text-xs text-warm-gray">5店の掲示価格（10年は新ラベル・旧ラベルで差あり）</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">参考: ヤフオク落札中央値（個人間の取引）</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">64,899円</td><td className="py-2 text-xs text-warm-gray">PeatBid 集計・取得日 2026-10-19・毎週更新（店舗の買取額ではありません）</td></tr></tbody>
+              </table>
+            </div>
+            <p className="text-[12px] text-warm-gray leading-relaxed mt-3">店舗側の価格の更新日: ストックラボ 2026-10-24・大黒屋 2026-10-19・LINXAS 2026-09-30・リカスタ／ファイブニーズ 記載なし。掲示価格は未開封・状態良好を前提にした参考額で、実際の買取額は査定で決まります。</p>
+          </section>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -115,6 +129,33 @@ export default function Miyagikyo15KaitoriPage() {
 
           <p>宮城峡15年の市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>64,899円</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=24件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
 
+          <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
+            <p className="text-sm font-bold text-ink mb-3">宮城峡15年の買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
+            <svg viewBox="0 0 640 210" role="img" aria-label="宮城峡15年のヤフオク落札中央値の週次推移グラフ" className="w-full h-auto">
+              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">68,805</text>
+              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">66,852</text>
+              <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">64,899</text>
+              <polyline points="66.0,38.9 116.5,38.9 167.1,120.9 217.6,120.9 268.2,137.3 318.7,122.4 369.3,122.4 419.8,89.6 470.4,122.4 520.9,155.1 571.5,155.1 622.0,155.1" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-03: 68,805円（サンプル n=20件）</title></circle>
+              <circle cx="116.5" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-10: 68,805円（サンプル n=20件）</title></circle>
+              <circle cx="167.1" cy="120.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 66,049円（サンプル n=20件）</title></circle>
+              <circle cx="217.6" cy="120.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 66,049円（サンプル n=20件）</title></circle>
+              <circle cx="268.2" cy="137.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 65,498円（サンプル n=24件）</title></circle>
+              <circle cx="318.7" cy="122.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 65,998円（サンプル n=22件）</title></circle>
+              <circle cx="369.3" cy="122.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 65,998円（サンプル n=22件）</title></circle>
+              <circle cx="419.8" cy="89.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 67,100円（サンプル n=22件）</title></circle>
+              <circle cx="470.4" cy="122.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 65,998円（サンプル n=26件）</title></circle>
+              <circle cx="520.9" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 64,899円（サンプル n=24件）</title></circle>
+              <circle cx="571.5" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 64,899円（サンプル n=24件）</title></circle>
+              <circle cx="622.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 64,899円（サンプル n=24件）</title></circle>
+              <text x="618.0" y="145.1" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">64,899円</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/3</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/7</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">10/19</text>
+            </svg>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-03〜2026-10-19（週次12点・各点のサンプル数 n=20〜26件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
+          </div>
+
           <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、<strong>3社以上、できれば4社以上で相見積もり</strong>を取ることをおすすめします。</p>
 
           <p>当サイトでは、以下の3業者のページへのリンクを参考として掲載しています（各社の最新の査定額・キャンペーンは、各社のページでご確認ください）。</p>
@@ -124,6 +165,26 @@ export default function Miyagikyo15KaitoriPage() {
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">バイセル</a> — 東証グロース上場企業が運営し、出張・店頭・宅配の3つの方式に対応しています</li>
             <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">福ちゃん</a> — 株式会社REGATEが運営する買取専門店で、お酒の査定にも対応しています</li>
           </ul>
+
+          <h3 id="store-prices">宮城峡15年の買取店の掲示価格（店舗別比較・2026年10月24日確認）</h3>
+
+          <p>各店が自社サイトに公開している宮城峡15年（シングルモルト宮城峡15年・700ml）の参考買取価格を、PeatBid編集部が 2026-10-24 に各ページで確認した値です。「店舗側の更新日」は、各ページに記載されている価格の更新日です。</p>
+
+          <div className="overflow-x-auto my-5 not-prose">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">店舗</th><th className="py-2 pr-3">ボトル・条件</th><th className="py-2 pr-3 text-right">掲示価格</th><th className="py-2 pr-3">店舗側の更新日</th><th className="py-2">出典</th></tr></thead>
+              <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">大黒屋</td><td className="py-2 pr-3">宮城峡 15年 シングルモルト<br /><span className="text-warm-gray text-xs">参考上限</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">57,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-19</td><td className="py-2"><a href="https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">宮城峡15年<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">55,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/nikka-miyagikyo/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">リカスタ</td><td className="py-2 pr-3">宮城峡 15年<br /><span className="text-warm-gray text-xs">箱なし（箱付きの掲示なし）</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">52,000円</td><td className="py-2 pr-3 whitespace-nowrap">日付表記なし</td><td className="py-2"><a href="https://www.licasta.com/item/whisky/nikka-miyagikyo/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">ストックラボ</td><td className="py-2 pr-3">宮城峡 15年<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">57,000円〜58,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-24</td><td className="py-2"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age15/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">ファイブニーズ</td><td className="py-2 pr-3">宮城峡 15年（参考買取価格）<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">63,000円（「過去の買取価格」45,000円と併記）</td><td className="py-2 pr-3 whitespace-nowrap">日付表記なし</td><td className="py-2"><a href="https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr></tbody>
+            </table>
+          </div>
+          <p>標準的な700mlボトルの掲示価格は <strong>52,000〜63,000円</strong> で、PeatBid が集計しているヤフオク落札中央値 <strong>64,899円</strong>（取得日 2026-10-19）の <strong>80〜97%</strong> にあたります。中央値は個人間の落札額、掲示価格は店舗が買い取る際の参考額であり、両者を比較することで店舗に売却した場合のおおよその金額を把握できます。</p>
+          <p>宮城峡15年の掲示価格は、5店で 52,000〜63,000円 です（最も低いのはリカスタの箱なし 52,000円、最も高いのはファイブニーズ 63,000円）。リカスタは箱なしの価格だけを掲示しています。ファイブニーズは「過去の買取価格」として 45,000円 も併記しており、同ページの「最新の宮城峡の買取実績［10月24日更新］」欄には 15年 700ml 44,000円 の行があります（買取日の記載なし）。12年・10年は <Link href="/articles/miyagikyo-12-kaitori/" className="text-amber-dark underline hover:text-burgundy">宮城峡12年の買取価格（10年の参考価格つき）</Link>、年数表記の無いボトルは <Link href="/articles/miyagikyo-nv-kaitori/" className="text-amber-dark underline hover:text-burgundy">宮城峡NV（ノンエイジ）の買取価格</Link> をご覧ください。</p>
+
+          <h3 id="store-records">宮城峡15年の買取実績（各店の公開分・日付付き）</h3>
+          <p>各店が自社サイトに掲載している宮城峡15年の買取実績です。実績は、その日にその店舗で買い取った金額であり、ボトルの状態や付属品の有無の記載方法は店舗により異なります（2026年10月24日確認）。</p>
+
+          <p className="text-sm font-bold mt-6">ストックラボ</p>
+          <ul className="text-sm"><li>2025年7月18日　宮城峡15年（梅田・なんば・千葉・甲府の各店）　<strong>各57,000円</strong></li></ul>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age15/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">ストックラボの掲載ページ</a>（新着買取実績（掲示名「宮城狭15年」））</p>
 
           <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
 
@@ -259,6 +320,11 @@ export default function Miyagikyo15KaitoriPage() {
 
           <p>疑わしい場合は、お酒の買取専門店に<strong>鑑定査定</strong>を依頼することをおすすめします。</p>
 
+          <h3 id="edition-check">宮城峡15年のエディションの確認方法（ラベルと箱）</h3>
+          <p>宮城峡は「宮城狭」と書かれることもありますが、正しくは「宮城峡（みやぎきょう）」です。査定に出す前に、次の点を確認してください。</p>
+          <ul><li><strong>年数表記</strong>: ラベルの「15」を確認してください。12年は 28,000〜32,000円、10年は 18,000〜25,000円 と、店舗の掲示価格が大きく異なります（2026-10-24確認）。</li><li><strong>箱の有無</strong>: リカスタは15年を箱なし 52,000円 で掲示しています（箱付きの掲示なし）。箱がある場合はあわせて査定に出してください。</li><li><strong>限定品</strong>: 年数表記があっても、蒸溜所限定品や記念ボトルは通常の15年とは別の価格で扱われます。</li></ul>
+          <p>出典: <a href="https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age15/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">ストックラボ</a>・<a href="https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">大黒屋</a>・<a href="https://linxas.shop/whiskey/nikka-miyagikyo/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS</a>・<a href="https://www.licasta.com/item/whisky/nikka-miyagikyo/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">リカスタ</a>・<a href="https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">ファイブニーズ</a>（2026-10-24確認）。判別できない場合は、正面・背面のラベルと箱の写真を添えて査定を依頼してください。</p>
+
           <h2 id="partners">10. おすすめ買取業者3社の詳細レビュー</h2>
 
           <p>PeatBid編集部が、宮城峡15年と同じ価格帯の銘柄に対応している買取業者を選定しました。それぞれ得意とする領域が異なるため、目的に応じてご利用ください。</p>
@@ -358,7 +424,7 @@ export default function Miyagikyo15KaitoriPage() {
           <h2 id="faq">12. 宮城峡15年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '宮城峡15年の市場相場はいくらですか？', a: '宮城峡15年の市場相場は64,899円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=24、取得日 2026-10-19）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: '宮城峡15年を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' }, { q: '開封済みの宮城峡15年でも買取できますか？', a: 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' }, { q: '宮城峡15年は箱なしでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約51,920〜58,410円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' }, { q: '宮城峡15年に偽物・贋作はありますか？', a: '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' }, { q: '宮城峡15年の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' }, { q: '宮城峡15年は税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '宮城峡15年を売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" }, { q: '宮城峡15年と他の銘柄は、どちらを先に売るべきですか？', a: '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' }].map((faq) => (
+            {[{ q: '宮城峡15年の市場相場はいくらですか？', a: '宮城峡15年の市場相場は64,899円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=24、取得日 2026-10-19）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: '宮城峡15年の買取価格は店舗によって異なりますか？', a: '異なります。2026-10-24 に各店の公開ページで確認した掲示価格は、大黒屋 57,000円（宮城峡 15年 シングルモルト・2026-10-19更新）、LINXAS（リンクサス） 55,000円（宮城峡15年・2026-09-30更新）、リカスタ 52,000円（宮城峡 15年・日付表記なし更新）、ストックラボ 57,000円〜58,000円（宮城峡 15年・2026-10-24更新）、ファイブニーズ 63,000円（「過去の買取価格」45,000円と併記）（宮城峡 15年（参考買取価格）・日付表記なし更新）でした。ボトルの仕様や付属品、店舗の在庫状況によっても変わるため、売却前に複数の店舗で査定を受けて比較してください。' }, { q: '宮城峡15年を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' }, { q: '開封済みの宮城峡15年でも買取できますか？', a: 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' }, { q: '宮城峡15年は箱なしでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約51,920〜58,410円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' }, { q: '宮城峡15年に偽物・贋作はありますか？', a: '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' }, { q: '宮城峡15年の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' }, { q: '宮城峡15年は税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '宮城峡15年の買取価格は店舗でいくらですか？', a: '2026-10-24 に確認した掲示価格は、リカスタ 52,000円（箱なし）・LINXAS 55,000円（2026-09-30更新）・大黒屋 57,000円（2026-10-19更新）・ストックラボ 57,000〜58,000円・ファイブニーズ 63,000円 です。' }, { q: '宮城峡15年を売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" }, { q: '宮城峡15年と他の銘柄は、どちらを先に売るべきですか？', a: '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>

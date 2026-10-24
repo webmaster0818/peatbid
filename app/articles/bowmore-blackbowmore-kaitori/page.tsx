@@ -75,7 +75,7 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
           
 
           <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
-            <p className="text-sm text-ink">🔀 年代表記のないボウモア（No.1・スモールバッチ等）をお探しの方はこちら → <Link href="/articles/bowmore-nv-kaitori/" className="text-amber-dark underline font-bold">ボウモアの年代指定なし(NV)買取相場</Link></p>
+            <p className="text-sm text-ink">🔀 12年・15年・カモメラベルなど、ほかの年数や年代表記のないボウモアの買取価格はこちら → <Link href="/articles/bowmore-nv-kaitori/" className="text-amber-dark underline font-bold">ボウモアの買取相場（年数別・カモメラベル・NV）</Link></p>
           </div>
 
 

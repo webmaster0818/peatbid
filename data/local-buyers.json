@@ -1,197 +1,239 @@
 {
   "_note": "県内でお酒の買取を受け付けている実店舗（各社公式の店舗ページで確認できたものだけ）。checked_at=PeatBid編集部の確認日。gen-tier2-area.py が読む。店舗の開閉は変わるため月替わりに再確認すること。",
   "toyama": {
-    "checked_at": "2026-10-17",
-    "title": "ウイスキー買取 富山県｜県内でお酒を買い取る26店・出張対応とYahoo実売相場【2026年最新】",
-    "desc": "富山県でウイスキーを売る方向けに、県内でお酒を買い取る店舗（買取大吉18店・おたからや・銀座蔵や）、出張買取の対応、三郎丸蒸留所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
+    "checked_at": "2026-10-24",
+    "title": "ウイスキー買取 富山県｜富山市・高岡市など県内でお酒を買い取る28店・営業時間・出張対応【2026年最新】",
+    "desc": "富山県でウイスキーを売る方向けに、富山市・高岡市・射水市など県内でお酒を買い取る28店（買取大吉19店・おたからや・銀座蔵や・ジュエルカフェ）の住所と営業時間、出張買取の対応、三郎丸蒸留所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
     "stores": [
       {
         "brand": "買取大吉",
         "city": "富山市",
         "name": "富山婦中店",
         "addr": "富山県富山市婦中町下轡田351-3",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-fuchu/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-fuchu/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "富山市",
         "name": "富山千代田町店",
         "addr": "富山県富山市千代田町3-2",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-chiyodamachi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-chiyodamachi/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "富山市",
         "name": "富山県立中央病院前店",
         "addr": "富山県富山市西長江1丁目7-17",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-chuobyoinmae/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-chuobyoinmae/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "富山市",
         "name": "富山秋吉店",
         "addr": "富山県富山市秋吉191-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-akiyoshi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-akiyoshi/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "富山市",
         "name": "富山総曲輪店",
         "addr": "富山県富山市総曲輪三丁目2-25",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-sogawa/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-sogawa/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "富山市",
         "name": "富山大町店",
         "addr": "富山県富山市大町300番地",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-omachi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-omachi/",
+        "hours": "10:00〜18:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "富山市",
         "name": "大阪屋ショップ五福店",
         "addr": "富山県富山市五福5160",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/os-gofuku/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/os-gofuku/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "富山市",
         "name": "富山田中町店",
         "addr": "富山県富山市田中町5丁目4-10",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-tanakamachi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-tanakamachi/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "富山市",
         "name": "富山呉羽店",
         "addr": "富山県富山市呉羽町7162",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-kureha/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toyama-kureha/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "高岡市",
         "name": "高岡京田店",
         "addr": "富山県高岡市京田624-3",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shop-5007221/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shop-5007221/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "高岡市",
         "name": "高岡向野店",
         "addr": "富山県高岡市向野町5丁目33-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/takaoka-mukaino/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/takaoka-mukaino/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "高岡市",
         "name": "高岡野村店",
         "addr": "富山県高岡市野村1553",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/takaoka-nomura/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/takaoka-nomura/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "高岡市",
         "name": "高岡戸出店",
         "addr": "富山県高岡市戸出町5丁目1番6号",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/takaoka-toide/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/takaoka-toide/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高岡市",
+        "name": "高岡末広店",
+        "addr": "富山県高岡市末広町7-7",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/takaoka-suehiro/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "射水市",
         "name": "アルビス大島店",
         "addr": "富山県射水市本開発11 アルビス大島 1階",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/albis-oshima/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/albis-oshima/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "射水市",
         "name": "明文堂書店 高岡射水店",
         "addr": "富山県射水市坂東127番地1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mbd-takaokaimizu/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mbd-takaokaimizu/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "射水市",
         "name": "TSUTAYA BOOKSTORE 小杉町店",
         "addr": "富山県射水市一条6番地13",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tb-kosugimachi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tb-kosugimachi/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "滑川市",
         "name": "滑川上小泉店",
         "addr": "富山県滑川市上小泉字舘2139番1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/namerikawa-kamikoizumi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/namerikawa-kamikoizumi/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "砺波市",
         "name": "砺波豊町店",
         "addr": "富山県砺波市豊町2丁目13番15号",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tonami-yutakamachi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tonami-yutakamachi/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "おたからや",
         "city": "高岡市",
         "name": "宝町店",
         "addr": "富山県高岡市宝町2-11 タカラビル1階",
-        "url": "https://www.otakaraya-shop.jp/takaramachi/"
+        "url": "https://www.otakaraya-shop.jp/takaramachi/",
+        "hours": "10:00〜18:00"
       },
       {
         "brand": "おたからや",
         "city": "射水市",
         "name": "射水中野店",
         "addr": "富山県射水市中野659-2",
-        "url": "https://www.otakaraya-shop.jp/imizunakano/"
+        "url": "https://www.otakaraya-shop.jp/imizunakano/",
+        "hours": "10:00〜18:00"
       },
       {
         "brand": "おたからや",
         "city": "氷見市",
         "name": "氷見上泉店",
         "addr": "富山県氷見市上泉25-1",
-        "url": "https://www.otakaraya-shop.jp/himikamiizumi/"
+        "url": "https://www.otakaraya-shop.jp/himikamiizumi/",
+        "hours": "10:00〜18:00・不定休"
       },
       {
         "brand": "おたからや",
         "city": "小矢部市",
         "name": "石動店",
         "addr": "富山県小矢部市石動町13−8",
-        "url": "https://www.otakaraya-shop.jp/isurugi/"
+        "url": "https://www.otakaraya-shop.jp/isurugi/",
+        "hours": "10:00〜18:00"
       },
       {
         "brand": "銀座蔵や",
         "city": "富山市",
         "name": "アピタ富山東店",
         "addr": "富山県富山市上冨居3丁目8番38号 アピタ富山東店2階",
-        "url": "https://ginzakuraya.jp/store/toyama_higashi/"
+        "url": "https://ginzakuraya.jp/store/toyama_higashi/",
+        "hours": "10:00〜18:00"
       },
       {
         "brand": "銀座蔵や",
         "city": "高岡市",
         "name": "新高岡店",
         "addr": "富山県高岡市京田121 向京ビル 1階",
-        "url": "https://ginzakuraya.jp/store/shintakaoka/"
+        "url": "https://ginzakuraya.jp/store/shintakaoka/",
+        "hours": "10:00〜18:00"
       },
       {
         "brand": "銀座蔵や",
         "city": "高岡市",
         "name": "新湊店",
         "addr": "富山県高岡市中曽根2343 グリーンモール中曽根内",
-        "url": "https://ginzakuraya.jp/store/shinminato/"
+        "url": "https://ginzakuraya.jp/store/shinminato/",
+        "hours": "10:00〜18:00・月曜定休"
       },
       {
         "brand": "銀座蔵や",
         "city": "砺波市",
         "name": "MEGAドンキUNY砺波店",
         "addr": "富山県砺波市太郎丸3丁目69番地 MEGAドン・キホーテUNY 1階",
-        "url": "https://ginzakuraya.jp/store/tonami/"
+        "url": "https://ginzakuraya.jp/store/tonami/",
+        "hours": "10:00〜18:00"
+      },
+      {
+        "brand": "ジュエルカフェ",
+        "city": "魚津市",
+        "name": "アイタウン魚津店",
+        "addr": "富山県魚津市相木1064番地1",
+        "url": "https://jewel-cafe.jp/shop/hokuriku/toyama/uozu/",
+        "hours": "10:00〜19:00（最終受付18:30）・定休日なし"
       }
     ],
     "brand_notes": [
       [
         "買取大吉",
-        "品目に「お酒」。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」",
+        "品目に「お酒」。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」。県ページの店舗は19店（2026-10-24確認・高岡末広店を追加）",
         "https://www.kaitori-daikichi.jp/list/sake/store/toyama-ken/"
       ],
       [
@@ -203,9 +245,14 @@
         "銀座蔵や",
         "県ページに「ウイスキー、ブランデー、ワイン、中国酒、スピリッツ系など」を買取と記載。県ページに、お酒の出張買取の対応エリアは富山県全域と記載",
         "https://ginzakuraya.jp/sake-toyama/"
+      ],
+      [
+        "ジュエルカフェ",
+        "アイタウン魚津店の店舗ページの買取品目に「お酒」、買取方法に出張・宅配・店頭と記載（2026-10-24確認）。公式の富山県の店舗はこの1店のみ",
+        "https://jewel-cafe.jp/shop/hokuriku/toyama/uozu/"
       ]
     ],
-    "not_liquor": "ハードオフ・オフハウス（富山市・高岡市）とブックオフ（県内4店）は、公式サイトの取扱ジャンル・取扱表でお酒を扱っていません。なんぼや（富山店・高岡店）とザ・ゴールドは、店舗ページにお酒の記載がありません。",
+    "not_liquor": "ハードオフ・オフハウス（富山市・高岡市）とブックオフ（県内4店）は、公式サイトの取扱ジャンル・取扱表でお酒を扱っていません。なんぼや（富山店・高岡店）とザ・ゴールドは、店舗ページにお酒の記載がありません。おたからやの高岡市の4店（本郷・新高岡・アルビス中田・赤祖父）は、店舗ページの買取品目に洋酒の記載がありません（2026-10-24確認）。",
     "dispatch": [
       [
         "バイセル",
@@ -224,6 +271,1437 @@
       ]
     ],
     "distillery": "富山県砺波市には、若鶴酒造の三郎丸蒸留所（富山県砺波市三郎丸208）があります。同社の公式サイトによると、1952年にウイスキーの製造を始め、1953年に初の自社ウイスキー「サンシャインウイスキー」を発売、2017年に「三郎丸蒸留所」として改修しました。2019年には高岡銅器の技術を使った鋳造製の蒸留器「ZEMON」を開発しています（老子製作所・富山県工業技術センターとの共同開発）。",
-    "distillery_url": "https://www.wakatsuru.co.jp/saburomaru/"
+    "distillery_url": "https://www.wakatsuru.co.jp/saburomaru/",
+    "checked_label": "2026-10-17・10-24",
+    "distillery_checked": "2026-10-17"
+  },
+  "wakayama": {
+    "checked_at": "2026-10-24",
+    "title": "ウイスキー買取 和歌山県｜県内でお酒を買い取る32店・出張対応とYahoo実売相場【2026年最新】",
+    "desc": "和歌山県でウイスキーを売る方向けに、県内でお酒を買い取る店舗（買取大吉26店・おたからや6店）、バイセル・福ちゃん等の出張買取の対応エリア、紀州熊野蒸溜所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
+    "stores": [
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "和歌山紀三井寺店",
+        "addr": "和歌山県和歌山市紀三井寺863-5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wakayama-kimiidera/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "和歌山神前店",
+        "addr": "和歌山県和歌山市神前160番地1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wakayama-kozaki/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "和歌山土入店",
+        "addr": "和歌山県和歌山市土入21-19",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wakayama-donyu-r/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "和歌山和歌浦東店",
+        "addr": "和歌山県和歌山市和歌浦東2丁目9-61",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wakayama-wakaurahigashi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "和歌山国体道路店",
+        "addr": "和歌山県和歌山市中島186-3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wakayama-kokutaidoro/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "和歌山内原店",
+        "addr": "和歌山県和歌山市内原867番地1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wakayama-uchihara/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "和歌山黒田店",
+        "addr": "和歌山県和歌山市黒田188-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wakayama-kuroda/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "和歌山狐島店",
+        "addr": "和歌山県和歌山市狐島267-30",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wakayama-kitsunejima/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "和歌山市駅前店",
+        "addr": "和歌山県和歌山市杉ノ馬場1丁目34",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wakayamashiekimae/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "和歌山四ヶ郷店",
+        "addr": "和歌山県和歌山市加納203-5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wakayama-shikago/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "イズミヤ和歌山店",
+        "addr": "和歌山県和歌山市新生町7-20 イズミヤ和歌山店 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/izumiya-wakayama/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "和歌山園部店",
+        "addr": "和歌山県和歌山市園部1416-1 1F",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wakayama-sonobe/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "紀伊川辺店",
+        "addr": "和歌山県和歌山市里6 ヤマイチPLAZA 紀伊川辺Ⅱ",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kii-kawanabe/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "マツゲン西浜店",
+        "addr": "和歌山県和歌山市西浜1026-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/matsugen-nishihama/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "和歌山市",
+        "name": "和歌山大浦街道店",
+        "addr": "和歌山市砂山南4丁目2番17号 砂山テナントⅡ 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ourakaido/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "岩出市",
+        "name": "ミレニア岩出店",
+        "addr": "和歌山県岩出市川尻31-5 ツインズビル1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/millenniacity-iwade/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "紀の川市",
+        "name": "イオンタウン貴志川店",
+        "addr": "和歌山県紀の川市貴志川町神戸字野手218",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/at-kishigawa/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "海南市",
+        "name": "海南船尾店",
+        "addr": "和歌山県海南市船尾365-12",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kainan-funoo/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "橋本市",
+        "name": "橋本市役所前店",
+        "addr": "和歌山県橋本市東家6丁目1-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hashimoto-shiyakusyomae/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "橋本市",
+        "name": "橋本高野口店",
+        "addr": "和歌山県橋本市神野々516-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hashimoto-koyaguchi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "有田市",
+        "name": "松源箕島店",
+        "addr": "和歌山県有田市箕島721番地の1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/matsugen-minoshima/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "有田市",
+        "name": "有田古江見店",
+        "addr": "和歌山県有田市古江見49-4",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/arida-koemi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "御坊市",
+        "name": "御坊湯川町店",
+        "addr": "和歌山県御坊市湯川町財部778-4",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/gobo-yukawacho/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "田辺市",
+        "name": "田辺東山店",
+        "addr": "和歌山県田辺市東山1-4-4",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tanabe-higashiyama/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "新宮市",
+        "name": "新宮駅前店",
+        "addr": "和歌山県新宮市徐福1丁目3-18",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shingu-ekimae/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "新宮市",
+        "name": "イオン新宮店",
+        "addr": "和歌山県新宮市橋本2-14-23",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ae-shingu/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "和歌山市",
+        "name": "オークワセントラルシティ和歌山店",
+        "addr": "和歌山県和歌山市小雑賀805-1",
+        "url": "https://www.otakaraya-shop.jp/okuwacentralcity-wakayama/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "和歌山市",
+        "name": "ザ・ロウズ西浜店",
+        "addr": "和歌山県和歌山市西浜938-2 ザ・ロウズ西浜店",
+        "url": "https://www.otakaraya-shop.jp/the-lows-nishihama/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "岩出市",
+        "name": "中黒店",
+        "addr": "和歌山県岩出市中黒字前島600-1",
+        "url": "https://www.otakaraya-shop.jp/nakakuro/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "紀の川市",
+        "name": "貴志川店",
+        "addr": "和歌山県紀の川市貴志川町長原94",
+        "url": "https://www.otakaraya-shop.jp/kishigawa/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "田辺市",
+        "name": "プライスカット下万呂店",
+        "addr": "和歌山県田辺市下万呂416-2 プライスカット下万呂店",
+        "url": "https://www.otakaraya-shop.jp/pricecut-shimomaro/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "御坊市",
+        "name": "42号薗店",
+        "addr": "和歌山県御坊市薗306-1",
+        "url": "https://www.otakaraya-shop.jp/42-sono/"
+      }
+    ],
+    "brand_notes": [
+      [
+        "買取大吉",
+        "品目に「お酒」。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」",
+        "https://www.kaitori-daikichi.jp/list/sake/store/wakayama-ken/"
+      ],
+      [
+        "おたからや",
+        "県ページ掲載18店のうち、店舗ページの買取品目に「洋酒」があるのは上記6店（2026-10-24確認）。6店とも店舗ページに出張買取の記載あり。串本店は品目に洋酒なし。フランチャイズ（合同会社福太）運営の10店（溝川店・イオンモール和歌山店ほか）は運営会社サイトの買取品目一覧に「お酒」（ウイスキー等）とあるが、店舗ごとの品目表示はないため一覧から除外",
+        "https://www.otakaraya.jp/shop/wakayama/"
+      ]
+    ],
+    "not_liquor": "なんぼや和歌山MIO店は、店舗ページの取扱ジャンルにお酒の記載がありません。大黒屋は和歌山市内に店舗がありません（公式店舗検索で「該当のエリアに店舗はございません」）。",
+    "dispatch": [
+      [
+        "バイセル",
+        "「和歌山市、田辺市、橋本市、紀の川市、岩出市など和歌山県全域の各市町村にて対応可能」「和歌山県内にバイセルの店舗はございません」（季節・地域により即日対応が難しい場合ありと注記）",
+        "https://buysell-kaitori.com/area/liquor-wakayama/"
+      ],
+      [
+        "LINXAS",
+        "「和歌山県は無料出張エリア（関西）です。和歌山市・田辺市・橋本市など県内全域に伺い」「県内に店舗はありません。近くの店舗は大阪の日本橋店と心斎橋店」宅配は1本から",
+        "https://linxas.shop/shops/wakayama/"
+      ],
+      [
+        "福ちゃん",
+        "「和歌山市をはじめ、田辺市、橋本市、紀の川市、海南市など、和歌山県全域がお酒買取対象エリア」出張買取は「1点からでもお伺いします！手数料は全て無料」",
+        "https://www.fuku-chan.info/liquor/area/wakayama/"
+      ],
+      [
+        "リカスタ",
+        "「和歌山県は出張買取 宅配買取エリアです」店頭買取は大阪店。出張は「商品の内容・商品数によって対応出来かねる場合がございます」と注記",
+        "https://www.licasta.com/areas/area_wakayama/"
+      ],
+      [
+        "大黒屋",
+        "出張買取（訪問査定）の対応エリアは和歌山県のうち「和歌山市、橋本市」。訪問査定対象品目に「酒」",
+        "https://kaitori.e-daikoku.com/visit/"
+      ],
+      [
+        "DEゴザル",
+        "「和歌山県は宅配・出張エリアです」「大量買取り希望の際は出張買取をご利用下さい」",
+        "https://osakedegozaru.com/areas/11363"
+      ]
+    ],
+    "distillery": "和歌山県上富田町には、プラム食品株式会社の紀州熊野蒸溜所があります。同社の公式サイトによると、1969年創立の同社が2019年5月に開設し、富田川の伏流水を使ってウイスキー・クラフトジン・ラム・リキュールを製造しています。ウイスキー「JAPAN MADE BLENDED MALT WHISKY 熊野」（43%・500ml）は、ノンピート麦芽で仕込み同蒸溜所で蒸溜し3年以上バーボン樽で熟成したモルトに、スコットランド産モルトをブレンドしてミズナラ樽でフィニッシュしたものと説明されています。",
+    "distillery_url": "https://www.tominosato.net/kishukumano-distillery.html",
+    "distillery_label": "紀州熊野蒸溜所 公式（富美の里／プラム食品）"
+  },
+  "ibaraki": {
+    "checked_at": "2026-10-24",
+    "title": "お酒買取 茨城県｜県内でウイスキーを買い取る87店・出張対応とYahoo実売相場【2026年最新】",
+    "desc": "茨城県でお酒・ウイスキーを売る方向けに、県内の買取店87店（買取大吉72店・おたからや11店・大黒屋・ストックラボほか）、出張買取の対応エリア、木内酒造の八郷蒸溜所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
+    "stores": [
+      {
+        "brand": "買取大吉",
+        "city": "境町",
+        "name": "境長井戸店",
+        "addr": "茨城県猿島郡境町大字長井戸1619-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sakai-nagaido/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "北茨城市",
+        "name": "北茨城磯原店",
+        "addr": "茨城県北茨城市磯原町磯原3丁目1番",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kitaibaraki-isohara/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "つくばみらい市",
+        "name": "つくばみらい谷井田店",
+        "addr": "茨城県つくばみらい市谷井田1938-9番地",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsukubamirai-yaita/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "つくばみらい市",
+        "name": "つくばみらい富士見ヶ丘店",
+        "addr": "茨城県つくばみらい市富士見ヶ丘1丁目29番地8",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsukubamirai-fujimigaoka/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "結城市",
+        "name": "結城中央町店",
+        "addr": "茨城県結城市中央町1丁目5-10",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yuki-chuocho/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "東茨城郡茨城町",
+        "name": "メガセンタートライアル桜の郷店",
+        "addr": "茨城県東茨城郡茨城町桜の郷1500の一部",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tr-sakuranosato/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "かすみがうら市",
+        "name": "かすみがうら上稲吉店",
+        "addr": "茨城県かすみがうら市上稲吉1945-5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kasumigaura-kamiinayoshi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "坂東市",
+        "name": "坂東岩井店",
+        "addr": "茨城県坂東市岩井3456-7",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/bando-iwai/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "行方市",
+        "name": "セイミヤモール麻生店",
+        "addr": "茨城県行方市麻生3288-50",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sm-aso/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "牛久市",
+        "name": "エスカード牛久店",
+        "addr": "茨城県牛久市牛久町280番地",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/escado-ushiku/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "牛久市",
+        "name": "ひたち野うしく西店",
+        "addr": "茨城県牛久市ひたち野西2丁目30-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hitachino-ushikunishi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "牛久市",
+        "name": "牛久中央店",
+        "addr": "茨城県牛久市中央4丁目24-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ushiku-chuo/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "稲敷市",
+        "name": "MEGAドン・キホーテUNY佐原東店",
+        "addr": "茨城県稲敷市西代1480 MEGAドン・キホーテUNY佐原東 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mdu-saharahigashi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "稲敷市",
+        "name": "稲敷江戸崎店",
+        "addr": "茨城県稲敷市江戸崎甲2135-5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/inashiki-edosaki/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "鉾田市",
+        "name": "セイミヤ鉾田安房店",
+        "addr": "茨城県鉾田市安房三角山1407-10",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/seimiya-hokotaanbo/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "神栖市",
+        "name": "神栖1丁目店",
+        "addr": "茨城県神栖市神栖1丁目4番10号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kamisu-1/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "神栖市",
+        "name": "神栖平泉店",
+        "addr": "茨城県神栖市平泉2-24",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kamisu-hiraizumi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "下妻市",
+        "name": "とりせん下妻店",
+        "addr": "茨城県下妻市下妻丙853 とりせん下妻店",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/torisen-shimotsuma/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "日立市",
+        "name": "シーマークスクエア店",
+        "addr": "茨城県日立市東滑川町5丁目1 シーマークスクエア1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sea-mark/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "日立市",
+        "name": "ヨークベニマル日立河原子町店",
+        "addr": "茨城県日立市河原子町1丁目4番1号 ヨークベニマル日立河原子町店",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yb-hitachikawaragocho/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "常陸大宮市",
+        "name": "ピサーロ常陸大宮店",
+        "addr": "茨城県常陸大宮市下村田2387 常陸大宮ショッピングセンター ピサーロ1F",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/psrlo-hitachioomiya/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "つくば市",
+        "name": "つくば天宝喜店",
+        "addr": "茨城県つくば市天宝喜413-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsukuba-amabouki/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "つくば市",
+        "name": "つくば東店",
+        "addr": "茨城県つくば市東2丁目9-17",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsukuba-higashi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "つくば市",
+        "name": "つくば遠東店",
+        "addr": "茨城県つくば市遠東768-3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsukuba-tohigashi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "つくば市",
+        "name": "スーパーセンタートライアルつくば学園都市店",
+        "addr": "茨城県つくば市学園の森3-12-6",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsukuba-gakuentoshi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "つくば市",
+        "name": "つくば柴崎店",
+        "addr": "茨城県つくば市柴崎1004-6",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsukuba-shibasaki/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "ひたちなか市",
+        "name": "ひたちなか中根店",
+        "addr": "茨城県ひたちなか市中根4819-6",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hitachinaka-nakane/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "ひたちなか市",
+        "name": "蔦屋書店 ひたちなか店",
+        "addr": "茨城県ひたちなか市新光町30-4",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ts-hitachinaka/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "ひたちなか市",
+        "name": "ヨークベニマル馬渡店",
+        "addr": "茨城県ひたちなか市馬渡2563-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yb-mawatari/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "ひたちなか市",
+        "name": "MEGAドン・キホーテ勝田店",
+        "addr": "茨城県ひたちなか市石川町1-1 MEGAドン・キホーテ勝田店1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/md-katsuta/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "ひたちなか市",
+        "name": "ひたちなか峰後店",
+        "addr": "茨城県ひたちなか市峰後11番8",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hitachinaka-mineushiro/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "ひたちなか市",
+        "name": "ひたちなか高場店",
+        "addr": "茨城県ひたちなか市高場1160",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hitachinaka-takaba/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "ひたちなか市",
+        "name": "ヨークベニマルひたちなか店",
+        "addr": "茨城県ひたちなか市東石川3614-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yb-hitachinaka/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "石岡市",
+        "name": "茨城石岡店",
+        "addr": "茨城県石岡市八軒台4-13",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ibaraki-ishioka/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "稲敷郡阿見町",
+        "name": "ピアシティ荒川本郷店",
+        "addr": "茨城県稲敷郡阿見町本郷3丁目1-1 ピアシティ荒川本郷",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/pc-arakawahongo/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "稲敷郡阿見町",
+        "name": "阿見中郷店",
+        "addr": "茨城県稲敷郡阿見町中郷3丁目1-8",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ami-nakago/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "笠間市",
+        "name": "スーパーセンタートライアル笠間店",
+        "addr": "茨城県笠間市旭町430-1 トライアル笠間店 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tr-kasama/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "鹿嶋市",
+        "name": "鹿嶋市役所通り店",
+        "addr": "茨城県鹿嶋市鉢形台1丁目4-3 グランジュールKoei 105号室",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kashima-shiyakusyodori/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "古河市",
+        "name": "古河駅西口店",
+        "addr": "茨城県古河市本町2-1-33",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kogaeki-nishiguchi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "古河市",
+        "name": "古河原町店",
+        "addr": "茨城県古河市原町18-27",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/koga-haramachi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "古河市",
+        "name": "マーケットシティ古河店",
+        "addr": "茨城県古河市松並2-18-10",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mc-koga/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "古河市",
+        "name": "古河小堤店",
+        "addr": "茨城県古河市小堤2010-13",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/koga-kozutsumi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "古河市",
+        "name": "イオン古河店",
+        "addr": "茨城県古河市旭町1丁目2-17 イオン古河店",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ae-koga-r/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "古河市",
+        "name": "古河諸川店",
+        "addr": "茨城県古河市諸川1220-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/koga-morokawa/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "常総市",
+        "name": "常総水海道諏訪店",
+        "addr": "茨城県常総市水海道諏訪町3284-4",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/joso-mitsukaidosuwa/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "常総市",
+        "name": "メガセンタートライアル石下店",
+        "addr": "茨城県常総市本石下4421-1 メガセンタートライアル石下店 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ms-trial-ishige/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "筑西市",
+        "name": "筑西一本松店",
+        "addr": "茨城県筑西市一本松1553-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/chikusei-ipponmatsu/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "筑西市",
+        "name": "メガセンタートライアル筑西店",
+        "addr": "茨城県筑西市玉戸1086-5 メガセンタートライアル筑西店 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tr-chikusei/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "土浦市",
+        "name": "土浦西並木店",
+        "addr": "茨城県土浦市西並木町3758",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsuchiura-nishinamiki-r/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "土浦市",
+        "name": "土浦神立店",
+        "addr": "茨城県土浦市神立町667番地45",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsuchiura-kandatsu/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "土浦市",
+        "name": "土浦荒川沖店",
+        "addr": "茨城県土浦市荒川沖288-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsuchiura-arakawaoki/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "土浦市",
+        "name": "土浦駅西口店",
+        "addr": "茨城県土浦市大和町5-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsuchiura-nishi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "土浦市",
+        "name": "土浦桜ヶ丘店",
+        "addr": "茨城県土浦市桜ヶ丘町13-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsuchiura-sakuragaoka/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "取手市",
+        "name": "アトレ取手店",
+        "addr": "茨城県取手市中央町2-5 アトレ取手 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/bh-toride/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "取手市",
+        "name": "取手青柳店",
+        "addr": "茨城県取手市青柳124-4",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toride-aoyanagi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "取手市",
+        "name": "取手藤代南店",
+        "addr": "茨城県取手市藤代南2丁目14-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toride-fujishirominami/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "取手市",
+        "name": "取手戸頭店",
+        "addr": "茨城県取手市戸頭7-2-17",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/toride-togashira/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "那珂郡東海村",
+        "name": "東海駅西店",
+        "addr": "茨城県那珂郡東海村舟石川駅西4-9-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tokaieki-nishi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "那珂市",
+        "name": "スーパーヒロセヤ 那珂店",
+        "addr": "茨城県那珂市飯田2708-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sh-naka/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "那珂市",
+        "name": "イオン那珂店",
+        "addr": "茨城県那珂市竹ノ内3-6-5 イオン那珂町店",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/aeon-naka/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "水戸市",
+        "name": "水戸三の丸店",
+        "addr": "茨城県水戸市三の丸1-1-4",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mito-sannomaru/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "水戸市",
+        "name": "ロゼオ水戸店",
+        "addr": "茨城県水戸市笠原町978番39、同40",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/roseo-mito/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "水戸市",
+        "name": "ヨークベニマル水戸笠原店",
+        "addr": "茨城県水戸市小吹町新山2582-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yb-mitokasahara/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "水戸市",
+        "name": "水戸駅南店",
+        "addr": "茨城県水戸市城南1-7-8",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mito-minami/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "水戸市",
+        "name": "水戸米沢店",
+        "addr": "茨城県水戸市米沢町166-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mito-yonezawa-r/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "水戸市",
+        "name": "水戸見川店",
+        "addr": "茨城県水戸市見川2丁目50-7",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mito-migawa/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "水戸市",
+        "name": "フレスポ赤塚店",
+        "addr": "茨城県水戸市河和田1丁目8番地 フレスポ赤塚",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/frespo-akatsuka/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "守谷市",
+        "name": "TXアベニュー守谷店",
+        "addr": "茨城県守谷市中央4-9 TXアベニュー守谷 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/txavenue-moriya/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "守谷市",
+        "name": "久保ヶ丘２丁目店",
+        "addr": "茨城県守谷市久保ケ丘2-16-8 久保ヶ丘ビル",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kubogaoka-2/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "龍ケ崎市",
+        "name": "竜ヶ崎ショッピングセンターサプラ店",
+        "addr": "茨城県龍ケ崎市小柴5丁目1-2 竜ヶ崎ショッピングセンターサプラ 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ryugasaki-sapla/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "龍ケ崎市",
+        "name": "龍ケ崎松ケ丘店",
+        "addr": "茨城県龍ケ崎市松ケ丘1-2-29",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ryugasaki-matsugaoka/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "龍ケ崎市",
+        "name": "龍ケ崎中根台店",
+        "addr": "茨城県龍ケ崎市中根台四丁目10番6号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ryugasaki-nakanedai/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "坂東市",
+        "name": "辺田店",
+        "addr": "茨城県坂東市辺田1147-10",
+        "url": "https://www.otakaraya-shop.jp/heta/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "つくばみらい市",
+        "name": "いな店",
+        "addr": "茨城県つくばみらい市谷井田1379-2",
+        "url": "https://www.otakaraya-shop.jp/i-na/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "鹿嶋市",
+        "name": "鹿嶋宮中店",
+        "addr": "茨城県鹿嶋市宮中5273-4 平和ビル1F",
+        "url": "https://www.otakaraya-shop.jp/kashimakyuchu/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "土浦市",
+        "name": "スーパーハリガエ土浦店",
+        "addr": "茨城県土浦市小岩田東1丁目2-36 スーパーハリガエ店舗内1階",
+        "url": "https://www.otakaraya-shop.jp/superharigae-tsuchiura/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "つくば市",
+        "name": "研究学園駅前店",
+        "addr": "茨城県つくば市研究学園5-15-16",
+        "url": "https://www.otakaraya-shop.jp/kenkyugakuen/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "土浦市",
+        "name": "６号東大通り入口店",
+        "addr": "茨城県土浦市中村南4丁目12-5 小林ビル102",
+        "url": "https://www.otakaraya-shop.jp/route6east/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "古河市",
+        "name": "あかやまJOY店",
+        "addr": "茨城県古河市雷電町1-18",
+        "url": "https://www.otakaraya-shop.jp/akayamajoy/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "古河市",
+        "name": "下辺見店",
+        "addr": "茨城県古河市下辺見2201 デコラシオン101",
+        "url": "https://www.otakaraya-shop.jp/shimohemi/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "日立市",
+        "name": "幸町店",
+        "addr": "茨城県日立市幸町1-15-8",
+        "url": "https://saiwai-cho-otakaraya.net/items/liquor.html"
+      },
+      {
+        "brand": "おたからや",
+        "city": "守谷市",
+        "name": "BRANCH守谷店",
+        "addr": "茨城県守谷市中央2丁目53番",
+        "url": "https://branch-moriya-otakaraya.net/items/liquor.html"
+      },
+      {
+        "brand": "おたからや",
+        "city": "守谷市",
+        "name": "本町店",
+        "addr": "茨城県守谷市本町211-4",
+        "url": "https://honcho-ten-otakaraya.net/items/liquor.html"
+      },
+      {
+        "brand": "大黒屋",
+        "city": "水戸市",
+        "name": "質水戸50号バイパス店",
+        "addr": "茨城県水戸市千波町2067-5",
+        "url": "https://kaitori.e-daikoku.com/liquor/shop/mito/"
+      },
+      {
+        "brand": "ストックラボ",
+        "city": "日立市",
+        "name": "茨城日立店",
+        "addr": "茨城県日立市東滑川町５丁目１−３ シーマークスクエア2階",
+        "url": "https://stock-lab.com/osake-kaitori/shop/ibaraki-hitachi/"
+      },
+      {
+        "brand": "質屋かんてい局",
+        "city": "つくば市",
+        "name": "つくば店",
+        "addr": "茨城県つくば市松代1丁目9-2",
+        "url": "https://kanteikyoku.jp/store/tsukuba/news/151741/"
+      },
+      {
+        "brand": "駅南やまご質店",
+        "city": "水戸市",
+        "name": "駅南やまご質店",
+        "addr": "茨城県水戸市桜川2-5-5",
+        "url": "https://yamago78.jp/trade/liquor/liquor/"
+      }
+    ],
+    "brand_notes": [
+      [
+        "買取大吉",
+        "県ページ掲載の72店すべてで、店舗ページの買取品目一覧に「お酒」あり。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」",
+        "https://www.kaitori-daikichi.jp/list/sake/store/ibaraki-ken/"
+      ],
+      [
+        "おたからや",
+        "公式店舗一覧の県内49店のうち、店舗ページの買取品目に「洋酒」（独自サイトの3店は「お酒」）があるのは上記11店（2026-10-24確認）。辺田店・いな店・鹿嶋宮中店・スーパーハリガエ土浦店は店舗ページに出張買取の記載あり",
+        "https://www.otakaraya.jp/shop/ibaraki/"
+      ],
+      [
+        "大黒屋",
+        "質水戸50号バイパス店のお酒ページに「ウイスキー・ブランデー・ワイン・シャンパン・日本酒・焼酎・貴州茅台酒など、洋酒・国産酒・古酒問わず高価買取」「出張買取も行っております」と記載。取扱サービスにも出張買取",
+        "https://kaitori.e-daikoku.com/liquor/shop/mito/"
+      ],
+      [
+        "ストックラボ",
+        "お酒買取専門店。茨城日立店の店舗ページに「日立市は無料で出張買取・宅配買取を対応」と記載し、店舗別のお酒買取価格一覧表（最終更新日時：2026/10/23）を掲載",
+        "https://stock-lab.com/osake-kaitori/shop/ibaraki-hitachi/"
+      ],
+      [
+        "質屋かんてい局",
+        "つくば店の公式ブログ（2026/09/22）で、ウイスキー・ブランデー・焼酎・中国酒・シャンパン・ワインなどのお酒・古酒の買取を案内。駐車場40台",
+        "https://kanteikyoku.jp/store/tsukuba/news/151741/"
+      ],
+      [
+        "駅南やまご質店",
+        "水戸市の質店。お酒（ウイスキー・ブランデー）の買取相場ページがあり、お酒の買取可能エリアとして県央・県北・鹿行・県南・県西の各地区の市町村を列挙",
+        "https://yamago78.jp/trade/liquor/liquor/"
+      ]
+    ],
+    "not_liquor": "おたからやの県内店舗のうち上記11店以外は、店舗ページの買取品目に洋酒・お酒の記載がありません（赤塚店はページが開けず未確認）。なんぼや（水戸エクセルみなみ店）は店舗ページの取扱ジャンルにお酒がありません。銀座蔵やは県内に店舗がなく、出張買取対応エリアにも茨城県は含まれていません。",
+    "dispatch": [
+      [
+        "バイセル",
+        "「水戸市をはじめ、つくば市や日立市など茨城県全域」「茨城県全域の各市町村にて対応可能」（季節・地域により出張査定や即日対応が難しい場合ありと注記）",
+        "https://buysell-kaitori.com/area/liquor-ibaraki/"
+      ],
+      [
+        "LINXAS",
+        "「茨城県は無料出張エリア（関東）です。」「県内に店舗はありません。」宅配は1本から",
+        "https://linxas.shop/shops/ibaragi/"
+      ],
+      [
+        "大黒屋",
+        "お酒の出張買取ページの訪問査定対象エリアに、茨城県は「水戸市、那珂市、ひたちなか市、小美玉市、笠間市、大洗町、茨城町、城里町、東海村」と記載（エリア内でも訪問できない場合ありと注記）",
+        "https://kaitori.e-daikoku.com/visit/liquor/"
+      ],
+      [
+        "ストックラボ",
+        "茨城日立店の出張買取対応地域として日立・多賀・大甕・高萩・東海・那珂・勝田など日立市周辺の地名を列挙",
+        "https://stock-lab.com/osake-kaitori/shop/ibaraki-hitachi/"
+      ],
+      [
+        "福ちゃん",
+        "「水戸市をはじめ、つくば市、土浦市、日立市、ひたちなか市など、茨城県全域がお酒買取対象エリア」",
+        "https://www.fuku-chan.info/liquor/area/ibaraki/"
+      ],
+      [
+        "リカスタ",
+        "「茨城県は宅配買取エリアです。」店舗は大阪・東京新宿の2店舗",
+        "https://www.licasta.com/areas/area_ibaraki/"
+      ]
+    ],
+    "distillery": "茨城県には、木内酒造（那珂市、1823年＝文政6年創業）のウイスキー蒸溜所があります。同社の沿革によると、2016年にビール製造拠点の額田醸造所の一角でウイスキー造りを始め、2020年に石岡市に八郷蒸溜所（茨城県石岡市須釜1300）を開設しました。ブランドは「日の丸ウイスキー」で、八郷蒸溜所では事前予約制の見学ツアーとブレンド体験を行っています。2026年10月1日には、大洗町の旧古川酒造店跡地に新たなウイスキー蒸溜所「磯の浜蒸溜所」を開設する事業（2027年春始動予定）への参画を発表しています。",
+    "distillery_url": "https://kiuchibrewery.co.jp/about/story/",
+    "distillery_label": "木内酒造 公式サイト（沿革・八郷蒸溜所）"
+  },
+  "nara": {
+    "checked_at": "2026-10-24",
+    "title": "お酒買取 奈良県｜県内でウイスキーを買い取る58店・出張対応とYahoo実売相場【2026年最新】",
+    "desc": "奈良県でお酒・ウイスキーを売る方向けに、県内の買取店58店（買取大吉45店・おたからや12店・リフレ館）、出張買取の対応エリア、曽爾村の神息酒造 奈良蒸溜所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
+    "stores": [
+      {
+        "brand": "買取大吉",
+        "city": "生駒郡斑鳩町",
+        "name": "法隆寺店",
+        "addr": "奈良県生駒郡斑鳩町興留5-1-34",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/horyuji/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "五條市",
+        "name": "五條今井店",
+        "addr": "奈良県五條市今井1丁目9番4号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/gojo-imai/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "生駒郡平群町",
+        "name": "マツゲン平群店",
+        "addr": "奈良県生駒郡平群町下垣内26-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/matsugen-heguri/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "北葛城郡河合町",
+        "name": "河合広瀬台店",
+        "addr": "奈良県北葛城郡河合町広瀬台3丁目3-9",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kawai-hirosedai/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "磯城郡田原本町",
+        "name": "田原本千代店",
+        "addr": "奈良県磯城郡田原本町千代379-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tawaramoto-chishiro/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "葛城市",
+        "name": "葛城南花内店",
+        "addr": "奈良県葛城市南花内87-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/minamihanauchi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "桜井市",
+        "name": "桜井東新堂店",
+        "addr": "奈良県桜井市東新堂488-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sakurai-higashishindo/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "桜井市",
+        "name": "桜井粟殿店",
+        "addr": "奈良県桜井市大字粟殿315番地の2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sakurai-odono/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "桜井市",
+        "name": "桜井安倍木材団地店",
+        "addr": "奈良県桜井市安倍木材団地2丁目4-20-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sakurai-abemokuzaidanchi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "天理市",
+        "name": "イオンタウン天理店",
+        "addr": "奈良県天理市東井戸堂町381 イオンタウン天理 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/at-tenri/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "天理市",
+        "name": "天理荒蒔店",
+        "addr": "奈良県天理市荒蒔町357-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tenri-aramaki/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "天理市",
+        "name": "プライスカット天理北店",
+        "addr": "奈良県天理市別所町223",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/pc-tenrikita/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "御所市",
+        "name": "ライフ御所店",
+        "addr": "奈良県御所市東松本30 ライフ御所店 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/life-gose/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "吉野郡大淀町",
+        "name": "ライフ大淀店",
+        "addr": "奈良県吉野郡大淀町土田243-1 ライフ大淀店",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/life-oyodo/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "生駒市",
+        "name": "生駒小明町店",
+        "addr": "奈良県生駒市小明町556-3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ikoma-komyocho/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "生駒市",
+        "name": "生駒中菜畑店",
+        "addr": "奈良県生駒市中菜畑1-1181-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ikoma-nakanabata/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "生駒市",
+        "name": "生駒北大和店",
+        "addr": "奈良県生駒市北大和1丁目23-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ikoma-kitayamato/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "生駒市",
+        "name": "グリーンヒルいこま店",
+        "addr": "奈良県生駒市元町1-13-1 グリーンヒルいこまB1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ghikoma/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "香芝市",
+        "name": "オークワ香芝南店",
+        "addr": "奈良県香芝市鎌田390-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/okuwa-kashibaminami/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "香芝市",
+        "name": "香芝畑店",
+        "addr": "奈良県香芝市畑3丁目887-4",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kashiba-hata/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "香芝市",
+        "name": "奈良エコール・マミ店",
+        "addr": "奈良県香芝市真美ケ丘6丁目10番地 エコール・マミ南館2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-ecollmami/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "橿原市",
+        "name": "橿原真菅店",
+        "addr": "奈良県橿原市北妙法寺町586",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kashihara-masuga/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "橿原市",
+        "name": "橿原神宮前店",
+        "addr": "奈良県橿原市石川町9‐1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kashiharajingumae/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "橿原市",
+        "name": "大和八木店",
+        "addr": "奈良県橿原市八木町1-8-18",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamato-yagi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "北葛城郡王寺町",
+        "name": "リーベル王寺店",
+        "addr": "奈良県北葛城郡王寺町久度2丁目3-1 りーべる王寺西館1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/liebell-oji/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "北葛城郡上牧町",
+        "name": "ラスパ西大和店",
+        "addr": "奈良県北葛城郡上牧町ささゆり台1丁目1-1 ラスパ西大和 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/raspa-nishiyamato/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "北葛城郡上牧町",
+        "name": "西大和店",
+        "addr": "奈良県北葛城郡上牧町上牧3456-3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nishiyamato/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "奈良市",
+        "name": "奈良押熊店",
+        "addr": "奈良県奈良市神功5-1-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-oshikuma/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "奈良市",
+        "name": "デイリーカナートイズミヤ新大宮店",
+        "addr": "奈良県奈良市三条添川町5-33 デイリーカナートイズミヤ新大宮 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/dq-izumiya-shinomiya/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "奈良市",
+        "name": "奈良三条通り店",
+        "addr": "奈良県奈良市今辻子町45番地3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-sanjodori-r/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "奈良市",
+        "name": "奈良富雄元町店",
+        "addr": "奈良県奈良市富雄元町2丁目5-20",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-tomiomotomachi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "奈良市",
+        "name": "奈良大宮店",
+        "addr": "奈良県奈良市大宮町3丁目5番38号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-omiya/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "奈良市",
+        "name": "奈良大安寺店",
+        "addr": "奈良県奈良市南京終町1丁目923-4",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-daianji/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "奈良市",
+        "name": "奈良登美ヶ丘店",
+        "addr": "奈良県奈良市中登美ヶ丘3丁目5番地",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-tomigaoka/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "奈良市",
+        "name": "奈良神殿店",
+        "addr": "奈良県奈良市神殿町650番地1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-kodono/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "奈良市",
+        "name": "イオンタウン富雄南店",
+        "addr": "奈良県奈良市石木町100-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/at-tomiominami/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "奈良市",
+        "name": "奈良柏木町店",
+        "addr": "奈良県奈良市柏木町421-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-kashiwagicho/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "奈良市",
+        "name": "オークワ奈良古市店",
+        "addr": "奈良県奈良市古市町796",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/okuwa-narafuruichi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "奈良市",
+        "name": "パラディ学園前店",
+        "addr": "奈良県奈良市学園北1丁目10番1号 パラディ学園前1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/p-gakuenmae/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大和郡山市",
+        "name": "イオンモール大和郡山店",
+        "addr": "奈良県大和郡山市下三橋町741 イオンモール大和郡山 3階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/am-yamatokoriyama/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大和郡山市",
+        "name": "大和郡山新町店",
+        "addr": "奈良県大和郡山市新町907-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamatokoriyama-shinmachi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大和高田市",
+        "name": "大和高田栄町店",
+        "addr": "奈良県大和高田市栄町3-18",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamatotakada-sakaemachi/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大和高田市",
+        "name": "トナリエ大和高田店",
+        "addr": "奈良県大和高田市幸町3-18",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tonarie-yamatotakada-r/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大和高田市",
+        "name": "KINSHO大和高田店",
+        "addr": "奈良県大和高田市片塩町12-20",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kinsho-yamatotakada/"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大和高田市",
+        "name": "スーパーおくやま高田店",
+        "addr": "奈良県大和高田市池尻171-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/so-takada/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "桜井市",
+        "name": "フレスポ桜井店",
+        "addr": "奈良県桜井市上之庄229番地 H棟2 フレスポ桜井",
+        "url": "https://www.otakaraya-shop.jp/frespo-sakurai/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "桜井市",
+        "name": "イオン桜井店",
+        "addr": "奈良県桜井市上之庄278-1 1階",
+        "url": "https://www.otakaraya-shop.jp/ionsakurai/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "桜井市",
+        "name": "桜井南店",
+        "addr": "奈良県桜井市谷259-1",
+        "url": "https://www.otakaraya-shop.jp/sakurai-minami/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "生駒郡平群町",
+        "name": "平群店",
+        "addr": "奈良県生駒郡平群町椿井449",
+        "url": "https://www.otakaraya-shop.jp/heguri/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "生駒郡斑鳩町",
+        "name": "法隆寺店",
+        "addr": "奈良県生駒郡斑鳩町法隆寺1丁目6-24",
+        "url": "https://www.otakaraya-shop.jp/horyuji/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "奈良市",
+        "name": "西ノ京店",
+        "addr": "奈良県奈良市七条町165-1",
+        "url": "https://www.otakaraya-shop.jp/nishinokyo/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "御所市",
+        "name": "スーパーセンターオークワ御所店",
+        "addr": "奈良県御所市室1185-2",
+        "url": "https://www.otakaraya-shop.jp/okuwa-gose/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "御所市",
+        "name": "青翔高校前店",
+        "addr": "奈良県御所市三室73-2",
+        "url": "https://www.otakaraya-shop.jp/seishoukoukoumae/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "磯城郡田原本町",
+        "name": "オークワ田原本インター店",
+        "addr": "奈良県磯城郡田原本町十六面71-1",
+        "url": "https://www.otakaraya-shop.jp/okuwa-tawaramotointer/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "橿原市",
+        "name": "白橿店",
+        "addr": "奈良県橿原市白橿町2丁目29-8",
+        "url": "https://www.otakaraya-shop.jp/shirakashi/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "橿原市",
+        "name": "ツインゲート店",
+        "addr": "奈良県橿原市葛本町201-2",
+        "url": "https://www.otakaraya-shop.jp/twingate/"
+      },
+      {
+        "brand": "おたからや",
+        "city": "橿原市",
+        "name": "畝傍御陵前店",
+        "addr": "奈良県橿原市栄和町103-4",
+        "url": "https://www.otakaraya-shop.jp/unebigoryomae/"
+      },
+      {
+        "brand": "リフレ館",
+        "city": "奈良市",
+        "name": "リフレ館",
+        "addr": "奈良県奈良市小西町29-1 リフレ館小西さくら通りビル1F",
+        "url": "https://www.rifrekan.com/item/alcohol.html"
+      }
+    ],
+    "brand_notes": [
+      [
+        "買取大吉",
+        "県ページ掲載の45店すべてで、店舗ページの買取品目一覧に「お酒」あり。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」",
+        "https://www.kaitori-daikichi.jp/list/sake/store/nara-ken/"
+      ],
+      [
+        "おたからや",
+        "公式店舗一覧の県内23店のうち、店舗ページの買取品目に「洋酒」があるのは上記12店（2026-10-24確認）。うちフレスポ桜井店・平群店・西ノ京店・桜井南店・青翔高校前店・白橿店は店舗ページに出張買取の記載あり",
+        "https://www.otakaraya.jp/shop/nara/"
+      ],
+      [
+        "リフレ館",
+        "奈良市小西町の買取店。お酒の買取品目ページで「ウイスキー買取はスコッチ、モルト、バーボン、国産ウイスキーまで幅広く買取」と記載",
+        "https://www.rifrekan.com/item/alcohol.html"
+      ]
+    ],
+    "not_liquor": "おたからやの県内店舗のうち上記12店以外（11店）は、店舗ページの買取品目に洋酒・お酒の記載がありません。なんぼや（近鉄百貨店生駒店・ならファミリー店）は店舗ページの取扱ジャンルにお酒がありません。大黒屋と銀座蔵やは公式店舗一覧に県内の店舗がありません。",
+    "dispatch": [
+      [
+        "バイセル",
+        "「奈良市をはじめ、橿原市や生駒市など奈良県全域」「奈良県全域の各市町村にて出張料無料で対応可能」（季節・地域により出張査定や即日対応が難しい場合ありと注記）",
+        "https://buysell-kaitori.com/area/liquor-nara/"
+      ],
+      [
+        "LINXAS",
+        "「奈良県は無料出張エリア（関西）です。」「県内に店舗はありません。近くの店舗は大阪日本橋店」宅配は1本から",
+        "https://linxas.shop/shops/nara/"
+      ],
+      [
+        "大黒屋",
+        "お酒の出張買取ページの訪問査定対象エリアに、奈良県は奈良市・大和高田市・大和郡山市・天理市・橿原市・桜井市・五條市・御所市・生駒市・香芝市・葛城市ほか13町村を記載（県内に店舗なし）",
+        "https://kaitori.e-daikoku.com/visit/liquor/"
+      ],
+      [
+        "リカスタ",
+        "「奈良県は 出張買取 宅配買取 エリアです」。店頭買取は大阪店",
+        "https://www.licasta.com/areas/area_nara/"
+      ],
+      [
+        "福ちゃん",
+        "「奈良市をはじめ、橿原市、生駒市、大和郡山市など、奈良県全域がお酒買取対象エリア」",
+        "https://www.fuku-chan.info/liquor/area/nara/"
+      ],
+      [
+        "ストックラボ",
+        "「奈良県は 宅配買取 エリアです。」（県内に店舗なし）",
+        "https://www.stock-lab.com/osake-kaitori/area/nara/"
+      ]
+    ],
+    "distillery": "奈良県曽爾村には、神息酒造の奈良蒸溜所があります。公式サイトによると、2021年に築約100年の古民家を改築して蒸溜所を開設し、仕込み水には日本名水のひとつである曽爾高原の水を使っています。ブランド「KAMIKI（神息）」は「世界初の吉野杉樽熟成ウイスキーブランド」を掲げ、オーク樽3年熟成・吉野杉樽フィニッシュのシングルモルトなどを販売。自社蒸溜所で蒸溜したウイスキーの販売は2026年頃を予定としています。なお、御所市の油長酒造が運営する大和蒸溜所はクラフトジンの蒸溜所です。",
+    "distillery_url": "https://www.kamikiwhisky.com/jp/",
+    "distillery_label": "Kamiki Whisky（神息酒造 奈良蒸溜所）公式サイト"
   }
 }

@@ -234,12 +234,12 @@ def _longterm(slug, d):
         own = "<p>" + lt["own"].format(hist_from=hr[0], hist_to=hr[1], hist_n=hr[2]) + "</p>"
     ctx = f'<p>{lt["context"]}</p>' if lt.get("context") else ""
     return f'''
-          <h3 id="longterm">長期の価格推移（2016〜2026年・店舗の買取価格表から）</h3>
+          <h3 id="longterm">{lt.get("heading") or "長期の価格推移（2016〜2026年・店舗の買取価格表から）"}</h3>
           <p>{lt["summary"]}</p>
           <div className="overflow-x-auto my-4 not-prose">
             <table className="text-sm"><thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-1 pr-4">時期</th><th className="py-1 text-right">買取価格（{lt["store"]}掲載）</th></tr></thead><tbody>{rows}</tbody></table>
           </div>
-          <p className="text-[11px] text-warm-gray">出典: {_a(lt["url"], lt["store"] + "「響30年の買取」の価格推移表")}（全{lt["n_points"]}点から要点を抜粋。同店は参考価格で、金額を保証するものではないとしています）</p>
+          <p className="text-[11px] text-warm-gray">出典: {_a(lt["url"], lt["store"] + (lt.get("label") or "「響30年の買取」の価格推移表"))}（{lt.get("source_note") or "全" + str(lt["n_points"]) + "点から要点を抜粋。同店は参考価格で、金額を保証するものではないとしています"}）</p>
           {own}
           {ctx}
 '''

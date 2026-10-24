@@ -38,9 +38,17 @@ def load_local(pref_key):
 
 def local_section(name, lb):
     a = 'target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy"'
+    has_h = any(s.get("hours") for s in lb["stores"])
     rows = "\n              ".join(
-        f'<tr className="border-b border-warm-border/60"><td className="px-3 py-2 whitespace-nowrap">{esc(s["city"])}</td><td className="px-3 py-2">{esc(s["brand"])} {esc(s["name"])}</td><td className="px-3 py-2">{esc(s["addr"])}</td><td className="px-3 py-2 whitespace-nowrap"><a href="{s["url"]}" {a}>店舗ページ</a></td></tr>'
+        f'<tr className="border-b border-warm-border/60"><td className="px-3 py-2 whitespace-nowrap">{esc(s["city"])}</td><td className="px-3 py-2">{esc(s["brand"])} {esc(s["name"])}</td><td className="px-3 py-2">{esc(s["addr"])}</td>'
+        + (f'<td className="px-3 py-2 text-xs">{esc(s.get("hours") or "—")}</td>' if has_h else "")
+        + f'<td className="px-3 py-2 whitespace-nowrap"><a href="{s["url"]}" {a}>店舗ページ</a></td></tr>'
         for s in lb["stores"])
+    # 市町村別の店舗数（2026-10-24 追加・「ウイスキー 買取 高岡」のような市名の検索向け）
+    from collections import Counter as _C
+    _cc = _C(s["city"] for s in lb["stores"])
+    city_line = "・".join(f"{c} {n}店" for c, n in _cc.most_common())
+    ck_label = lb.get("checked_label") or lb["checked_at"]
     notes = "".join(f'<li><strong>{esc(b)}</strong>：{esc(t)}（<a href="{u}" {a}>公式</a>）</li>' for b, t, u in lb["brand_notes"])
     disp = "".join(f'<li><strong>{esc(b)}</strong>：{esc(t)}（<a href="{u}" {a}>公式</a>）</li>' for b, t, u in lb["dispatch"])
     ck = lb["checked_at"]
@@ -49,14 +57,15 @@ def local_section(name, lb):
         dist = f'''
       <h3 className="font-bold text-lg mt-8 mb-2">{name}のウイスキー蒸留所</h3>
       <p className="text-sm text-warm-gray mb-2 leading-relaxed">{esc(lb["distillery"])}</p>
-      <p className="text-[11px] text-warm-gray mb-8">出典: <a href="{lb["distillery_url"]}" {a}>若鶴酒造 三郎丸蒸留所 公式サイト</a>（{ck}確認）</p>'''
+      <p className="text-[11px] text-warm-gray mb-8">出典: <a href="{lb["distillery_url"]}" {a}>{esc(lb.get("distillery_label") or "若鶴酒造 三郎丸蒸留所 公式サイト")}</a>（{lb.get("distillery_checked") or ck}確認）</p>'''
     return f'''
       {{/* 5-2. 県内の実店舗・出張対応（data/local-buyers.json） */}}
-      <h2 id="local-stores" className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">{name}内でお酒を買い取る店舗（{len(lb["stores"])}店・{ck}確認）</h2>
-      <p className="text-sm text-warm-gray mb-4 leading-relaxed">各社の公式サイトの店舗ページで、お酒（洋酒）の買取を確認できた{name}内の店舗です（PeatBid編集部が{ck}に確認）。営業時間や取扱品目は変わることがあるため、来店前に各店舗へご確認ください。</p>
+      <h2 id="local-stores" className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">{name}内でお酒を買い取る店舗（{len(lb["stores"])}店・{ck_label}確認）</h2>
+      <p className="text-sm text-warm-gray mb-4 leading-relaxed">各社の公式サイトの店舗ページで、お酒（洋酒）の買取を確認できた{name}内の店舗です（PeatBid編集部が{ck_label}に確認）。営業時間や取扱品目は変わることがあるため、来店前に各店舗へご確認ください。</p>
+      <p id="local-cities" className="text-sm text-ink mb-4 leading-relaxed"><strong>市町村別の店舗数</strong>：{city_line}</p>
       <div className="overflow-x-auto mb-4 rounded-xl border border-warm-border">
         <table className="w-full text-sm">
-          <thead className="bg-cream/60"><tr className="text-left text-xs text-warm-gray"><th className="px-3 py-2">市</th><th className="px-3 py-2">店舗</th><th className="px-3 py-2">住所（公式表記）</th><th className="px-3 py-2">出典</th></tr></thead>
+          <thead className="bg-cream/60"><tr className="text-left text-xs text-warm-gray"><th className="px-3 py-2">市</th><th className="px-3 py-2">店舗</th><th className="px-3 py-2">住所（公式表記）</th>{'<th className="px-3 py-2">営業時間（公式）</th>' if has_h else ""}<th className="px-3 py-2">出典</th></tr></thead>
           <tbody>
               {rows}
           </tbody>
@@ -132,7 +141,7 @@ def gen(pref_key):
     if lb:
         bl = sorted({s["brand"] for s in lb["stores"]})
         faqs.insert(1, (f"{name}内に、店頭でウイスキーを売れる店はありますか？",
-            f"あります。PeatBid編集部が{lb['checked_at']}に各社公式の店舗ページで確認したところ、{name}内でお酒（洋酒）の買取を受け付けている店舗は{'・'.join(bl)}の計{len(lb['stores'])}店でした（店舗一覧は本ページに掲載）。買取大吉は一部の店舗でお酒を扱っていないと公式に記載しているため、来店前に店舗へご確認ください。"))
+            f"あります。PeatBid編集部が{lb.get('checked_label') or lb['checked_at']}に各社公式の店舗ページで確認したところ、{name}内でお酒（洋酒）の買取を受け付けている店舗は{'・'.join(bl)}の計{len(lb['stores'])}店でした（店舗一覧は本ページに掲載）。買取大吉は一部の店舗でお酒を扱っていないと公式に記載しているため、来店前に店舗へご確認ください。"))
         faqs.insert(2, (f"{name}に出張買取に来てもらえますか？",
             "公式サイトに記載がある業者では、" + "／".join(f"{b}：{t}" for b, t, _ in lb["dispatch"]) + "。最新の対応エリアは各社にご確認ください。"))
     article_ld = {"@context": "https://schema.org", "@type": "Article",

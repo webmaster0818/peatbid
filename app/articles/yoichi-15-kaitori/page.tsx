@@ -71,7 +71,7 @@ export default function Yoichi15KaitoriPage() {
           
 
           <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 my-5 not-prose">
-            <p className="text-sm text-ink">🔀 年代表記のない「余市」（ノンエイジ／NV）をお探しの方はこちら → <Link href="/articles/yoichi-nv-kaitori/" className="text-amber-dark underline font-bold">余市ノンエイジの買取相場ガイド</Link></p>
+            <p className="text-sm text-ink">🔀 年代表記のない「余市」（ノンエイジ／NV）をお探しの方はこちら → <Link href="/articles/yoichi-nv-kaitori/" className="text-amber-dark underline font-bold">余市NV（ノンエイジ）の買取価格｜4店の掲示価格・月別推移</Link></p>
           </div>
 
 

@@ -13,9 +13,9 @@ const yen = (v?: number | null) => (v ? `${v.toLocaleString("ja-JP")}円` : "—
 const fetchedAt = b18?.fetched_at ?? b25?.fetched_at ?? "";
 
 export const metadata: Metadata = {
-  title: "ボウモア買取価格【2026年10月】ノンエイジ・年代表記なしの相場と高く売る方法",
+  title: "ボウモアの買取相場・買取価格【2026年10月】12年〜30年・カモメラベル・ノンエイジ｜店舗の掲示価格",
   description:
-    `ボウモアの「年代指定なし（NV/ノンエイジ）」はNo.1・スモールバッチ・レジェンドなどのボトルが該当します。${nvMedian ? `NVの実勢中央値は${yen(nvMedian)}（参考値）です。` : "NVの実勢中央値は現在集計中です（毎週更新）。"}年代付き（18年${yen(b18?.median)}・25年${yen(b25?.median)}）との比較、お手元のボトルの見分け方、高く売るためのポイントを実データにもとづいて解説しています。`,
+    `ボウモアの買取相場を年数別に整理（2026年10月24日確認）。現行12年 1,800〜3,000円・18年 6,000〜7,000円・25年 35,000〜38,000円、カモメラベル21年 80,000円前後など、大黒屋・LINXAS・ストックラボの掲示価格と買取実績を掲載。年代指定なし（NV/ノンエイジ）はNo.1・スモールバッチ・レジェンドなどのボトルが該当します。${nvMedian ? `NVの実勢中央値は${yen(nvMedian)}（参考値）です。` : "NVの実勢中央値は現在集計中です（毎週更新）。"}年代付き（18年${yen(b18?.median)}・25年${yen(b25?.median)}）との比較、お手元のボトルの見分け方、高く売るためのポイントを実データにもとづいて解説しています。`,
   alternates: { canonical: "/articles/bowmore-nv-kaitori/" },
 };
 
@@ -56,6 +56,7 @@ function FaqSchema() {
 }
 
 const tocItems = [
+  { id: "store-prices", label: "0. ボウモアの買取相場（年数別・カモメラベル）" },
   { id: "sokutou", label: "1. 年代指定なしのボウモアに該当するボトル" },
   { id: "lineup", label: "2. 年数表記のないボウモアの主なボトルライン" },
   { id: "jissei", label: "3. 実勢データ（NV・年代付きの比較）" },
@@ -75,7 +76,7 @@ export default function BowmoreNvKaitoriPage() {
             <li className="breadcrumb-sep" />
             <li><Link href="/articles/" className="hover:text-amber-dark transition-colors">銘柄一覧</Link></li>
             <li className="breadcrumb-sep" />
-            <li><span className="text-foreground">ボウモア 年代指定なし(NV)</span></li>
+            <li><span className="text-foreground">ボウモア買取相場</span></li>
           </ol>
         </nav>
 
@@ -85,14 +86,15 @@ export default function BowmoreNvKaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ボウモアの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格【2026年10月】</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-07-15 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ボウモアの買取相場・買取価格｜年数別・カモメラベル・年代指定なし(NV)の見分け方【2026年10月】</h1>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-24（店舗の掲示価格を追加） / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-5 mb-8 not-prose">
             <p className="font-bold text-ink mb-2">この記事の結論（30秒）</p>
             <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
               <li>年数表記のないボウモアは、現行品では<strong>「ボウモア No.1」</strong>が代表的です。このほか、旧流通品の<strong>スモールバッチ・レジェンド</strong>、免税店向けの<strong>ゴールドリーフ／ブラックロック</strong>などがあります。</li>
               <li>{nvMedian ? <>NVの実勢中央値は<strong>{yen(nvMedian)}</strong>（ヤフオク落札・参考値）です。</> : <>NVの実勢中央値は<strong>現在集計中</strong>です（毎週更新のため、近日掲載予定）。</>}年代付きは18年 <strong>{yen(b18?.median)}</strong>・25年 <strong>{yen(b25?.median)}</strong>です。</li>
+              <li>店舗の掲示価格（2026-10-24確認）は、現行の<strong>12年 1,800〜3,000円・18年 6,000〜7,000円・25年 35,000〜38,000円</strong>。旧ボトルの<strong>カモメラベル21年は 80,000円前後</strong>です（<a href="#store-prices" className="text-amber-dark underline">年数別の表</a>）。</li>
               <li>ボトル名を特定してから査定に出すことが、適正な査定額につながります。年数表記があるボトルは<Link href="/articles/bowmore-18-kaitori/" className="text-amber-dark underline">18年</Link>・<Link href="/articles/bowmore-25-kaitori/" className="text-amber-dark underline">25年</Link>の各ページをご覧ください。</li>
             </ul>
           </div>
@@ -106,6 +108,26 @@ export default function BowmoreNvKaitoriPage() {
               ))}
             </ol>
           </div>
+
+          <h2 id="store-prices">ボウモアの買取相場（年数別・カモメラベル・店舗の掲示価格、2026年10月24日確認）</h2>
+          <p>買取店が自社サイトに掲示しているボウモアの参考買取価格を、年数・ボトル別にまとめました。現行の12年・15年・18年は 1,800〜10,000円 ですが、旧ボトルの「カモメラベル」や限定品は数万〜十数万円で掲示されています。年数表記の有無に関係なく、まずラベルの種類を確認してください。</p>
+          <div className="overflow-x-auto my-5 not-prose">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">年数・ボトル</th><th className="py-2 pr-3">店舗の掲示価格（店舗側の更新日）</th><th className="py-2">買取実績（買取日）</th></tr></thead>
+              <tbody>
+                <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">12年（現行）</th><td className="py-2 pr-3 align-top">大黒屋 <strong>1,800円</strong>（10/19）・LINXAS 箱付/箱無 2,000円（9/30）・ストックラボ 2,000〜3,000円（10/24）</td><td className="py-2 align-top text-warm-gray">ファイブニーズ 2025-06-08 1,000円</td></tr>
+                <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">15年</th><td className="py-2 pr-3 align-top">大黒屋 シェリーカスクフィニッシュ <strong>4,000円</strong>・ダーケスト 10,000円（10/19）・LINXAS 3,500円（9/30）</td><td className="py-2 align-top text-warm-gray">ファイブニーズ 2025-03-30 シェリーカスク 4,000円</td></tr>
+                <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">18年</th><td className="py-2 pr-3 align-top">大黒屋 <strong>6,000円</strong>・ディープ＆コンプレックス 7,000円（10/19）・LINXAS 箱付/箱無 6,000円（9/30）・ストックラボ 6,000〜7,000円（10/24）</td><td className="py-2 align-top text-warm-gray">ファイブニーズ 2024-09-26 7,000円</td></tr>
+                <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">25年</th><td className="py-2 pr-3 align-top">大黒屋 <strong>38,000円</strong>（10/19）・LINXAS 箱あり 35,000円〜（2026-07-16）・バイセル 旧ラベル 〜60,000円（2025年11月時点）</td><td className="py-2 align-top text-warm-gray">—</td></tr>
+                <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">30年</th><td className="py-2 pr-3 align-top">LINXAS セラミックドラゴン 箱あり 〜130,000円（2026-06-15）・バイセル 30年 1984 〜127,500円（2025年11月時点）・大黒屋 30年 ドラゴン セラミック お問い合わせ</td><td className="py-2 align-top text-warm-gray">—</td></tr>
+                <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">カモメラベル・旧ボトル</th><td className="py-2 pr-3 align-top">大黒屋 8年 15,000円・12年 20,000円・12年 シルクプリント 22,000円・12年 エニグマ 30,000円・15年 マリナー 帆船ラベル 35,000円／カモメラベル 30,000円・21年（無印/1973/1974）各 <strong>80,000円</strong>（10/19）／LINXAS 8年 15,000円・12年 18,000円・シルクプリント 19,000円・21年 80,000円・21年 1974 100,000円（9/30）／バイセル 12年 旧ボトル 〜13,700円（2025年11月時点）</td><td className="py-2 align-top text-warm-gray">大黒屋 2026-10-20 21年 1974 箱付 80,000円／ファイブニーズ 2026-08-18 21年 1973 101,500円／2024-11-18 12年 ダンピー 1000ml 50,000円</td></tr>
+                <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">限定品</th><td className="py-2 pr-3 align-top">大黒屋 クラレット 134,000円・ダーケスト シェリーカスク カモメラベル 47,000円・ダスク／ドーン 各43,000円・16年 1989 45,000円（10/19）／LINXAS クラレット 100,000円・ダスク／ダーケスト／ドーン 各40,000円・バイセンテナリー 1779-1979 200,000円・10年 テンペスト 14,000円・10年 デビルズカスク 11,000円（9/30）</td><td className="py-2 align-top text-warm-gray">—</td></tr>
+                <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">ブラックボウモア</th><td className="py-2 pr-3 align-top">LINXAS 42年 〜1,500,000円（2026-01-26）</td><td className="py-2 align-top text-warm-gray">→ <Link href="/articles/bowmore-blackbowmore-kaitori/" className="text-amber-dark underline">ブラックボウモア全6種の価格</Link></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>ラベルにカモメ（海鳥）の絵が描かれた旧ボトルは、同じ年数の現行品の7〜10倍前後で掲示されています（12年: 現行 1,800〜3,000円／カモメラベル 18,000〜22,000円）。年数のあるボトルの詳細は <Link href="/articles/bowmore-18-kaitori/" className="text-amber-dark underline">ボウモア18年</Link>・<Link href="/articles/bowmore-25-kaitori/" className="text-amber-dark underline">ボウモア25年</Link> をご覧ください。</p>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://kaitori.e-daikoku.com/liquor/whisky/bowmore/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">大黒屋（ボウモアの買取価格・更新日 2026-10-19）</a>・<a href="https://linxas.shop/whiskey/bowmore/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS（ボウモアの買取価格表・最終更新 2026年9月30日）</a>・<a href="https://www.stock-lab.com/osake-kaitori/whiskey/bowmoa/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">ストックラボ</a>・<a href="https://www.sakekaitori.com/whisky/scotch_whiskey/bowmore_brand/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">ファイブニーズ（ボウモアの買取実績）</a>・<a href="https://buysell-kaitori.com/liquor/scotch/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">バイセル（スコッチの参考価格）</a>（PeatBid編集部が 2026-10-24 に各ページで確認。掲示価格は各店の参考額で、実際の買取額は状態・付属品・査定時期で変わります）</p>
 
           <h2 id="sokutou">1. 年代指定なしのボウモアに該当するボトル</h2>
 
