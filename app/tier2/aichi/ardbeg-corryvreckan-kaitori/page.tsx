@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>福ちゃん 名古屋</strong></td><td>愛知県名古屋市</td><td>出張・宅配・店頭</td><td>大手で中部全域カバー</td></tr><tr><td><strong>大黒屋 名古屋</strong></td><td>愛知県名古屋市</td><td>店頭・出張</td><td>質屋系列で安心、即現金化</td></tr><tr><td><strong>ファイブニーズ 名古屋</strong></td><td>愛知県名古屋市</td><td>出張・宅配</td><td>10年以上の実績</td></tr></tbody>
+              <tbody><tr><td><strong>福ちゃん 名古屋</strong></td><td>愛知県名古屋市</td><td>出張・宅配・店頭</td><td>大手で中部全域カバー</td></tr><tr><td><strong>大黒屋ブランド館 名古屋大須店</strong></td><td>名古屋市中区大須3-26-40（上前津駅 徒歩4分・大須観音駅 徒歩5分）</td><td>店頭</td><td>質屋（質預かり・買取）。店舗ページに「お酒(買取のみ)」と記載。出張買取は対応サービスに無し。10:30〜19:30・年中無休（年末年始除く）。名古屋市内には質名古屋栄買取センター（中区栄）もあり（2026年10月24日確認）</td></tr><tr><td><strong>ファイブニーズ 名古屋</strong></td><td>愛知県名古屋市</td><td>出張・宅配</td><td>10年以上の実績</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>
