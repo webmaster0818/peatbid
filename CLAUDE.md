@@ -531,3 +531,14 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - `scripts/patch-tier2-aichi-fukuchan-fiveneeds-1025.py`（冪等・愛知 51×2行＋北海道 52＋prefectures.py＋旧 v2 生成器）。
 - build（heap8192）EXIT0・precheck ✅（3,006）→ コミット後 sitemap → tier2/aichi・tier2/hokkaido 部分 rsync（*.txt 除外・functions 保持）＋sitemap（105ファイル M・削除0）。source d2dd5a59e/54685a76d・deploy c27a4a10ff（CF ビルド 00:27→00:52 UTC＝約25分）。ASP 計測リンク 0。本番 ?cb: 愛知2URL・北海道1URL 200・旧値0・新値あり・sitemap lastmod 10-25 105件・/api/contact 400・robots Sitemap 行。
 - 未対応（報告のみ）: 宮城の「福ちゃん 仙台／出張・宅配・店頭／全国大手」＝福ちゃんの店舗一覧に宮城の店は無い（仙台センターは事業所）→「店頭」は誤りの可能性。「バイセル 仙台／東証上場大手」も未照合。旧 v2 生成器の北海道行は旧値のまま（未使用）。
+
+### 2026-10-25 成長ルーチン12:00: GSC 10〜20位の9群（竹鶴25年・スプリングバンク21年・ラフロイグ・マッカラン12年・タリスカー・シグネット・イチローズ・石川/福井/高知/神奈川）✅本番反映済み
+- **URL検査（10/25）**: taketsuru-kaitori ハブ＝indexed（10/20 クロール）／taketsuru-25＝indexed だが最終クロール 10/06（ハブ新設前）／taketsuru-pure＝Discovered - not indexed／laphroaig-nv・talisker-nv＝**Crawled - not indexed**（NVクエリが25年に着地する原因）／springbank-kaitori・-21・glenmorangie-kaitori・macallan-12・tier2/ishikawa＝indexed。
+- **竹鶴**: 判断＝新ページは作らず、既存ハブ `/articles/taketsuru-kaitori/` を受け皿のまま、着地している25年ページの冒頭に「竹鶴25年と竹鶴の年数別早見表」（store-prices `quick`・NV白/黒・12・17・21・25・35年、各行から年数ページ/ハブへリンク）。title_full/h1/desc を「買取価格・相場…160,000〜185,000円｜3店比較・竹鶴の年数別早見表」。大黒屋（10/19）・ストックラボ（10/24更新・値は10/18と同じ）・LINXAS（9/30）を 10/25 に再確認、ハブの STORE_CHECKED/最終更新 10-25・ストックラボ更新日 10/24。
+- **store-prices.json 新設7銘柄**（10/25 各店ページで確認・サブエージェント調査を /tmp/pb1025/ で検算）: springbank-21（LINXAS 70,000/100,000円・ボトラーズ40,000円・大黒屋実績・ハブとの役割分担の文）／talisker-25（掲示は大黒屋 1975-2001 NCS 95,000円のみ・実績24,000〜82,400円）／laphroaig-25（LINXAS エディション別 35,000〜70,000円＋【参考・年数表記なし】セレクト/ロア/トリプルウッド）／macallan-12（6店・シェリーオーク/ダブル/トリプル/ファインオーク別）／glenmorangie-signet（掲示店なし・実績1件 8,000円 2023-12）／ichirosu-mwr（5店 5,000〜6,500円・WWR）／ichirosu-double-distilleries（新旧ラベル別）。**掲示価格を title に入れた＝月替わりに再確認して title も直す**。
+- `store_prices._ymd` が「YYYY-MM」（月単位の実績）を受けるように。
+- **ラフロイグNV（手書き）** に店舗の掲示価格の節（3章）・title/desc・FAQ・最終更新 10-25。
+- **角度ページ**（generate-angle-pages-v3）: 手書きブランド一覧ハブ（glenmorangie/taketsuru/springbank/macallan/glenfiddich-kaitori）への関連カードを追加（117ページ）＝「グレンモーレンジ 買取」がシグネットのランキングに着地していた対策。
+- **県ハブ**: local-buyers.json に ishikawa 26店（白山市は買取大吉 白山市松任店のみ・オリエンタル金沢蒸溜所）・fukui 23店・kochi 9店（仁淀川蒸留所）・kanagawa 166店（買取大吉158・大黒屋3・キングラム2・LINXAS/ファイブニーズ/ストックラボ・丹沢蒸溜所。おたからやは店舗別品目が無く未掲載）。石川 title に「金沢市・白山市」。
+- build（heap8192）EXIT0×2 → precheck ✅（3,006。1回目 talisker desc 164字・2回目 kanagawa desc 180字を短縮）→ フル rsync（--exclude .git/_not-found/functions）。source 77097ab6c/57def17f5・91d9c176b/055ef6410、deploy 5a2d2aca68・6ccd773874。ASP 計測リンク 0→0・hikakaku 1,212→1,212。
+- 未対応: talisker-nv（店舗の掲示が無く足す値が無い）・JOYLAB は 10/25 も 503（竹鶴21年の JOYLAB 値は 10/17 のまま）。
