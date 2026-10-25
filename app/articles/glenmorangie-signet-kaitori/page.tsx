@@ -5,8 +5,8 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/glenmorangie-signet.json";
 
 export const metadata: Metadata = {
-  title: 'グレンモーレンジ シグネットの買取相場【2026年10月最新】20,130円｜箱なし・開封済みの査定額も',
-  description: 'グレンモーレンジ シグネットの買取相場は20,130円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格の目安、買取業者3社の比較、高く売るためのポイント、贋作のリスクについて解説しています。',
+  title: 'グレンモーレンジ シグネットの買取価格・相場【2026年10月最新】買取実績と店舗の掲示状況｜10年・18年の価格も',
+  description: 'グレンモーレンジ シグネットの買取価格を確認（2026年10月25日）。主要な買取店の価格表にシグネットの行は無く、確認できた買取実績はファイブニーズの8,000円（2023年12月）。同じ店の10年・ラサンタ・18年の掲示価格、ヤフオク落札中央値（毎週更新）も掲載。',
 };
 
 function FaqSchema() {
@@ -18,6 +18,7 @@ const tocItems = [
   { id: "distillery", label: "2. 蒸溜所の歴史と特徴" },
   { id: "tasting", label: "3. テイスティングノート" },
   { id: "current-price", label: "4. 現在の市場相場（Yahoo中央値）" },
+  { id: "store-prices", label: "4-2. 買取店の掲示価格・推移・定価" },
   { id: "state-price", label: "5. 状態別の業界目安" },
   { id: "price-reasons", label: "6. 価格を左右する要因" },
   { id: "auction", label: "7. オークション落札データ" },
@@ -50,7 +51,19 @@ export default function GlenmorangieSignetKaitoriPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンモーレンジ シグネットの買取相場と業者比較ガイド【2026年10月】</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
+            <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">グレンモーレンジ シグネットの買取価格（2026年10月25日確認）</h2>
+            <p className="text-sm text-ink mb-3">買取店の自社サイトを確認したところ、シグネットの掲示価格はありませんでした。確認できた買取実績と、同じ店のグレンモーレンジ他銘柄の掲示価格をまとめています。出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格</a> にあります。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル・状態</th><th className="py-2 pr-3 text-right">買取価格（店舗の掲示）</th><th className="py-2">店舗・確認日</th></tr></thead>
+                <tbody><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">シグネット（700ml）の掲示価格</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">掲示なし</td><td className="py-2 text-xs text-warm-gray">ストックラボ・LINXAS・ファイブニーズ・リカスタの価格表に行なし（大黒屋は銘柄ページなし）</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">シグネットの買取実績</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">8,000円</td><td className="py-2 text-xs text-warm-gray">ファイブニーズ 2023-12-15（1件）。リカスタ 2023-12-25 は金額記載なし</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">【参考】10年 オリジナル</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">2,500〜3,500円</td><td className="py-2 text-xs text-warm-gray">ストックラボ（2026-10-24更新）</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">【参考】ラサンタ 12年</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">2,800〜3,800円</td><td className="py-2 text-xs text-warm-gray">ストックラボ</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">【参考】18年</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">6,000〜8,500円</td><td className="py-2 text-xs text-warm-gray">LINXAS エクストリームリィレア 6,000円・ストックラボ 7,500〜8,500円（18年 旧ボトル 750ml は LINXAS 13,000円）</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">参考: ヤフオク落札中央値（個人間の取引）</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">20,130円</td><td className="py-2 text-xs text-warm-gray">PeatBid 集計・取得日 2026-10-19・毎週更新（店舗の買取額ではありません）</td></tr></tbody>
+              </table>
+            </div>
+            <p className="text-[12px] text-warm-gray leading-relaxed mt-3">シグネットは掲示価格が無いため、査定は複数店に見積もりを取って比べてください。店舗側の価格の更新日: ストックラボ 2026-10-24・LINXAS 2026-09-30。</p>
+          </section>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -115,6 +128,33 @@ export default function GlenmorangieSignetKaitoriPage() {
 
           <p>グレンモーレンジ シグネットの市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>20,130円</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=94件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
 
+          <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
+            <p className="text-sm font-bold text-ink mb-3">グレンモーレンジ シグネットの買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
+            <svg viewBox="0 0 640 210" role="img" aria-label="グレンモーレンジ シグネットのヤフオク落札中央値の週次推移グラフ" className="w-full h-auto">
+              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">20,460</text>
+              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">20,295</text>
+              <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">20,130</text>
+              <polyline points="66.0,78.0 116.5,77.6 167.1,78.3 217.6,77.6 268.2,77.6 318.7,76.6 369.3,57.9 419.8,38.9 470.4,38.9 520.9,77.3 571.5,77.6 622.0,155.1" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="78.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-03: 20,349円（サンプル n=104件）</title></circle>
+              <circle cx="116.5" cy="77.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-10: 20,350円（サンプル n=106件）</title></circle>
+              <circle cx="167.1" cy="78.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 20,348円（サンプル n=98件）</title></circle>
+              <circle cx="217.6" cy="77.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 20,350円（サンプル n=94件）</title></circle>
+              <circle cx="268.2" cy="77.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 20,350円（サンプル n=94件）</title></circle>
+              <circle cx="318.7" cy="76.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 20,353円（サンプル n=94件）</title></circle>
+              <circle cx="369.3" cy="57.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 20,406円（サンプル n=100件）</title></circle>
+              <circle cx="419.8" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 20,460円（サンプル n=98件）</title></circle>
+              <circle cx="470.4" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 20,460円（サンプル n=98件）</title></circle>
+              <circle cx="520.9" cy="77.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 20,351円（サンプル n=92件）</title></circle>
+              <circle cx="571.5" cy="77.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 20,350円（サンプル n=90件）</title></circle>
+              <circle cx="622.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 20,130円（サンプル n=94件）</title></circle>
+              <text x="618.0" y="145.1" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">20,130円</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/3</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/7</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">10/19</text>
+            </svg>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-03〜2026-10-19（週次12点・各点のサンプル数 n=90〜106件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
+          </div>
+
           <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、<strong>3社以上、できれば4社以上で相見積もり</strong>を取ることをおすすめします。</p>
 
           <p>当サイトでは、以下の3業者のページへのリンクを参考として掲載しています（各社の最新の査定額・キャンペーンは、各社のページでご確認ください）。</p>
@@ -124,6 +164,34 @@ export default function GlenmorangieSignetKaitoriPage() {
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">バイセル</a> — 東証グロース上場企業が運営し、出張・店頭・宅配の3つの方式に対応しています</li>
             <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">福ちゃん</a> — 株式会社REGATEが運営する買取専門店で、お酒の査定にも対応しています</li>
           </ul>
+
+          <h3 id="store-prices">グレンモーレンジ シグネットの買取店の掲示価格（店舗別比較・2026年10月25日確認）</h3>
+
+          <p>2026-10-25 に PeatBid編集部が各店のグレンモーレンジのページを確認したところ、グレンモーレンジ シグネットの参考買取価格を価格表に掲示している店はありませんでした（ストックラボ・LINXAS・ファイブニーズ・リカスタ。大黒屋はグレンモーレンジの銘柄ページ自体がありません）。シグネットは買取実績（ファイブニーズ）だけが確認できたため、下の表は同じ店が掲示しているグレンモーレンジの他の銘柄を【参考】として載せています。</p>
+
+          <div className="overflow-x-auto my-5 not-prose">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">店舗</th><th className="py-2 pr-3">ボトル・条件</th><th className="py-2 pr-3 text-right">掲示価格</th><th className="py-2 pr-3">店舗側の更新日</th><th className="py-2">出典</th></tr></thead>
+              <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">ストックラボ</td><td className="py-2 pr-3">【参考】グレンモーレンジ 10年 オリジナル<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">2,500円〜3,500円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-24</td><td className="py-2"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/glenmorangie/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">ストックラボ</td><td className="py-2 pr-3">【参考】グレンモーレンジ ラサンタ 12年<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">2,800円〜3,800円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-24</td><td className="py-2"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/glenmorangie/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">ストックラボ</td><td className="py-2 pr-3">【参考】グレンモーレンジ 18年<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">7,500円〜8,500円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-24</td><td className="py-2"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/glenmorangie/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">ストックラボ</td><td className="py-2 pr-3">【参考】エックス バイ グレンモーレンジィ<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">1,500円〜2,500円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-24</td><td className="py-2"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/glenmorangie/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">【参考】グレンモーレンジ 14年 キンタ ルバン ポートカスクフィニッシュ<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">3,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/glenmorangie/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">【参考】グレンモーレンジ 18年 エクストリームリィレア<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">6,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/glenmorangie/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">【参考】グレンモーレンジ 18年 旧ボトル 750ml<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">13,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/glenmorangie/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">【参考】グレンモーレンジ 25年 700ml<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">50,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/glenmorangie/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr></tbody>
+            </table>
+          </div>
+          
+          <p>シグネットの掲示価格（価格表の行）は、確認した店のどこにもありませんでした。ファイブニーズの買取実績に「グレンモーレンジ シグネット 700ml 8,000円（買取日 2023-12-15）」が1件あり、リカスタの買取実績にも「グレンモーレンジ シグネット」（2023-12-25・新宿店・金額の記載なし）があります。どちらも2年近く前の1件のため、相場の目安としては参考程度です。<br />同じ店が掲示している他の銘柄は、ストックラボが 10年 オリジナル 2,500〜3,500円・ラサンタ 12年 2,800〜3,800円・18年 7,500〜8,500円（2026-10-24更新）、LINXAS が 18年 エクストリームリィレア 6,000円・18年 旧ボトル 750ml 13,000円・25年 50,000円（2026-09-30更新）です。<br />10年 オリジナル・18年・25年などグレンモーレンジの他のボトルは <Link href="/articles/glenmorangie-kaitori/" className="text-amber-dark underline hover:text-burgundy">グレンモーレンジの買取相場（ラインナップ別の一覧）</Link> をご覧ください。</p>
+
+          <h3 id="store-records">グレンモーレンジ シグネットの買取実績（各店の公開分・日付付き）</h3>
+          <p>各店が自社サイトに掲載しているグレンモーレンジ シグネットの買取実績です。実績は、その日にその店舗で買い取った金額であり、ボトルの状態や付属品の有無の記載方法は店舗により異なります（2026年10月25日確認）。</p>
+
+          <p className="text-sm font-bold mt-6">ファイブニーズ</p>
+          <ul className="text-sm"><li>2026年8月1日　グレンモーレンジ ザ オリジナル 12年 バーボンカスク 40％ 700ml　<strong>1,998円</strong></li><li>2026年5月11日　グレンモーレンジ 18年 700ml　<strong>8,000円</strong></li><li>2024年9月17日　グレンモーレンジ エクストリーム・レア 18年 700ml　<strong>6,000円</strong></li><li>2024年7月31日　グレンモーレンジ 12年 ラサンタ 700ml　<strong>3,000円</strong></li><li>2023年12月15日　グレンモーレンジ シグネット 700ml　<strong>8,000円</strong></li></ul>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://www.sakekaitori.com/whisky/scotch_whiskey/glenmorangie_brand/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">ファイブニーズの掲載ページ</a>（グレンモーレンジの買取実績（ページ掲載分。シグネットは1件））</p>
+
+          <p className="text-sm font-bold mt-6">LINXAS（リンクサス）</p>
+          <ul className="text-sm"><li>2026年7月10日　グレンモーレンジ10年オリジナル　<strong>1,500円</strong></li><li>2026年3月28日　グレンモーレンジィ エクストリームリーレア 18年　<strong>6,000円</strong></li><li>2025年1月10日　グレンモーレンジ18年箱付き　<strong>6,500円</strong></li><li>2025年1月9日　グレンモーレンジ18年旧　<strong>15,000円</strong></li></ul>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://linxas.shop/whiskey/glenmorangie/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">LINXAS（リンクサス）の掲載ページ</a>（買取実績＋年別中央値（18年箱付き 2022年 18,000円→2025年 10,750円）。シグネットの実績は掲載なし）</p>
+
+          <p className="text-sm font-bold mt-6">リカスタ</p>
+          <ul className="text-sm"><li>2023年12月25日　グレンモーレンジ シグネット（新宿店・店頭買取）　<strong>金額記載なし</strong></li><li>2025年1月14日　グレンモーレンジ 14年 ポートカスクフィニッシュ（新宿店・出張買取）　<strong>金額記載なし</strong></li></ul>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://www.licasta.com/item/whisky/glenmorangie" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">リカスタの掲載ページ</a>（買取実績（金額の記載なし））</p>
 
           <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
 

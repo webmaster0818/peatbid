@@ -1703,5 +1703,659 @@
     "distillery": "奈良県曽爾村には、神息酒造の奈良蒸溜所があります。公式サイトによると、2021年に築約100年の古民家を改築して蒸溜所を開設し、仕込み水には日本名水のひとつである曽爾高原の水を使っています。ブランド「KAMIKI（神息）」は「世界初の吉野杉樽熟成ウイスキーブランド」を掲げ、オーク樽3年熟成・吉野杉樽フィニッシュのシングルモルトなどを販売。自社蒸溜所で蒸溜したウイスキーの販売は2026年頃を予定としています。なお、御所市の油長酒造が運営する大和蒸溜所はクラフトジンの蒸溜所です。",
     "distillery_url": "https://www.kamikiwhisky.com/jp/",
     "distillery_label": "Kamiki Whisky（神息酒造 奈良蒸溜所）公式サイト"
+  },
+  "ishikawa": {
+    "checked_at": "2026-10-25",
+    "title": "ウイスキー買取 石川県｜金沢市・白山市など県内でお酒を買い取る26店・出張対応【2026年最新】",
+    "desc": "石川県でお酒・ウイスキーを売る方向けに、金沢市・白山市・小松市など県内の買取店26店（買取大吉20店・銀座蔵や4店・おたからや・大黒屋）、出張買取の対応エリア、金沢市のオリエンタル金沢蒸溜所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
+    "stores": [
+      {
+        "brand": "買取大吉",
+        "city": "加賀市",
+        "name": "フレスポ加賀店",
+        "addr": "石川県加賀市作見町ニ60番1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/frespo-kaga/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "加賀市",
+        "name": "ヤマキシ新加賀店",
+        "addr": "石川県加賀市桑原町ホ48-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamakishi-shinkaga/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川北町",
+        "name": "PLANT-3川北店",
+        "addr": "石川県能美郡川北町朝日63",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/plant3-kawakita/",
+        "hours": "10:00〜19:00・水曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "白山市",
+        "name": "白山市松任店",
+        "addr": "石川県白山市幸明町239-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hakusanshi-matto/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "内灘町",
+        "name": "コンフォモール内灘店",
+        "addr": "石川県河北郡内灘町千鳥台四丁目1番",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/cm-uchinada/",
+        "hours": "10:00〜17:30・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "金沢市",
+        "name": "MEGAドン・キホーテラパーク金沢店",
+        "addr": "石川県金沢市西泉4丁目11 MEGAドン・キホーテラパーク金沢 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/md-lapark-kanazawa/",
+        "hours": "10:00〜20:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "金沢市",
+        "name": "金沢野町店",
+        "addr": "石川県金沢市野町3丁目1番28号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kanazawa-nomachi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "金沢市",
+        "name": "金沢三馬店",
+        "addr": "石川県金沢市三馬2-252",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kanazawa-minma/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "金沢市",
+        "name": "金沢増泉店",
+        "addr": "石川県金沢市増泉4丁目1番1号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kanazawa-masuizumi/",
+        "hours": "10:00〜18:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "金沢市",
+        "name": "マイモールモリモト店",
+        "addr": "石川県金沢市吉原町ホ-1-6",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mm-morimoto/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "金沢市",
+        "name": "金沢中橋町店",
+        "addr": "石川県金沢市中橋町11番13号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kanazawa-nakabashimachi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "金沢市",
+        "name": "金沢もりの里店",
+        "addr": "石川県金沢市もりの里1丁目99番地",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kanazawa-morinosato/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "金沢市",
+        "name": "金沢三口新町店",
+        "addr": "石川県金沢市三口新町4丁目2-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mitsukuchishinmachi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "金沢市",
+        "name": "アルプラフーズマーケット大河端店",
+        "addr": "石川県金沢市大河端西2-15",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/afm-okobata/",
+        "hours": "9:30〜19:00・年中無休（年末年始除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "金沢市",
+        "name": "サンピア泉が丘店",
+        "addr": "石川県金沢市円光寺2-345 サンピア泉が丘1F",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sunpia-izumigaoka/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "金沢市",
+        "name": "金沢西南部店",
+        "addr": "石川県金沢市八日市出町843",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kanazawa-seinanbu/",
+        "hours": "10:00〜19:00・年中無休（年末年始除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "小松市",
+        "name": "小松長田南店",
+        "addr": "石川県小松市平面町カ237番地3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/komatsu-nagadaminami/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "小松市",
+        "name": "イオンモール新小松店",
+        "addr": "石川県小松市清六町315 イオンモール新小松 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ae-shinkomatsu/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "小松市",
+        "name": "明文堂書店 小松ツリーズ店",
+        "addr": "石川県小松市沖町451番地",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mbd-komatsu/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "野々市市",
+        "name": "イオン野々市南店",
+        "addr": "石川県野々市市上林4-747 イオン野々市南 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nonoichiminami-ae/",
+        "hours": "10:00〜19:00・年中無休（年末年始を除く）"
+      },
+      {
+        "brand": "おたからや",
+        "city": "七尾市",
+        "name": "七尾駅前御祓町店",
+        "addr": "石川県七尾市御祓町イ8-1",
+        "url": "https://www.otakaraya-shop.jp/nanaoekimisogicho/",
+        "hours": "10:00〜18:00・年中無休（年末年始は除く）"
+      },
+      {
+        "brand": "銀座蔵や",
+        "city": "金沢市",
+        "name": "東金沢店",
+        "addr": "石川県金沢市神宮寺1丁目16番22号",
+        "url": "https://ginzakuraya.jp/store/higashi_kanazawa/",
+        "hours": "10:00〜18:00・年末年始休み"
+      },
+      {
+        "brand": "銀座蔵や",
+        "city": "金沢市",
+        "name": "金沢工大前店",
+        "addr": "石川県金沢市三馬3丁目340",
+        "url": "https://ginzakuraya.jp/store/kanazawakodai/",
+        "hours": "10:00〜18:00・月曜定休"
+      },
+      {
+        "brand": "銀座蔵や",
+        "city": "津幡町",
+        "name": "アルプラザ津幡店",
+        "addr": "石川県河北郡北中条1丁目1番地 アルプラザ津幡店1階",
+        "url": "https://ginzakuraya.jp/store/tsubata/",
+        "hours": "10:00〜18:00・年末年始休み（施設の休みに準ずる）"
+      },
+      {
+        "brand": "銀座蔵や",
+        "city": "中能登町",
+        "name": "アルプラザ鹿島店",
+        "addr": "石川県鹿島郡中能登町井田と1−1 アルプラザ鹿島店 1階",
+        "url": "https://ginzakuraya.jp/store/kashima/",
+        "hours": "10:00〜18:00・年末年始休み（施設の休みに準ずる）"
+      },
+      {
+        "brand": "大黒屋",
+        "city": "金沢市",
+        "name": "質金沢買取センター",
+        "addr": "石川県金沢市片町1-1-21 KMビル",
+        "url": "https://kaitori.e-daikoku.com/liquor/shop/kanazawa/",
+        "hours": "10:00〜19:00・定休日なし"
+      }
+    ],
+    "brand_notes": [
+      [
+        "買取大吉",
+        "県ページ掲載の20店すべてで、店舗ページの買取品目一覧に「お酒」あり（白山市は白山市松任店）。品目に「お酒」。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」",
+        "https://www.kaitori-daikichi.jp/list/sake/store/isikawa-ken/"
+      ],
+      [
+        "おたからや",
+        "公式店舗一覧の県内14店のうち、店舗ページの買取品目に「洋酒」があるのは七尾駅前御祓町店のみ（2026-10-25確認）。同店の店舗ページに「出張買取も承ります！！」と記載",
+        "https://www.otakaraya.jp/shop/ishikawa/"
+      ],
+      [
+        "銀座蔵や",
+        "県内4店の店舗ページに「お酒買取」「ウイスキー、ブランデー、中国酒など。国産ウイスキーは高騰中です！」と記載。出張買取の対応エリアに石川県（白山市を含む19市町）を記載",
+        "https://ginzakuraya.jp/store/"
+      ],
+      [
+        "大黒屋",
+        "質金沢買取センターのお酒ページに「特にシャンパンや価格が高騰しているウイスキーは、多くのお客様から査定・買取させていただいております」と記載。公式のお酒買取店舗一覧で石川県はこの1店",
+        "https://kaitori.e-daikoku.com/liquor/shop/kanazawa/"
+      ]
+    ],
+    "not_liquor": "おたからやの県内店舗のうち七尾駅前御祓町店以外の13店は、店舗ページの買取品目に洋酒・お酒の記載がありません（白山市のイオン松任店を含む。同店ほか6店が載る運営会社サイトの買取可能商品一覧にもお酒の記載なし）。ジュエルカフェ イオンモール白山店（白山市）は店舗ページの買取品目にお酒がありません。なんぼや金沢クラソ・プレイス香林坊店は店舗ページの取扱ジャンルにお酒がありません。ストックラボ・リカスタ・LINXASは県内に店舗がありません（2026-10-25確認）。",
+    "dispatch": [
+      [
+        "バイセル",
+        "「金沢市、七尾市、小松市、輪島市、珠洲市、加賀市、羽咋市、かほく市、白山市、能美市など石川県全域の各市町村にて対応可能」「石川県全域で、出張買取と宅配買取をご利用頂けます」（季節・地域により出張査定や即日対応が難しい場合ありと注記）",
+        "https://buysell-kaitori.com/area/liquor-ishikawa/"
+      ],
+      [
+        "LINXAS",
+        "「石川県は無料出張エリア（中部）です。金沢市・白山市・小松市など県内全域に伺い」「県内に店舗はありません。北陸では福井県に福井飯塚BASE店があります。」宅配は1本から",
+        "https://linxas.shop/shops/ishikawa/"
+      ],
+      [
+        "大黒屋",
+        "お酒の出張買取ページの訪問査定対象エリアに、石川県は「金沢市、野々市市、白山市、能美市、川北町、小松市、加賀市、内灘町、津幡町、かほく市、宝達志水町、羽咋市、中能登町、七尾市、志賀町、穴水町、能登町、輪島市、珠洲市」と記載（エリア内でも訪問対応できない場合ありと注記）",
+        "https://kaitori.e-daikoku.com/visit/liquor/"
+      ],
+      [
+        "銀座蔵や",
+        "出張買取対応エリアに石川県「金沢市・七尾市・小松市・輪島市・珠洲市・加賀市・羽咋市・かほく市・白山市・能美市・野々市市」ほか8町を記載。「お品物は1点からお伺いします。」",
+        "https://ginzakuraya.jp/store/"
+      ],
+      [
+        "福ちゃん",
+        "「金沢市、白山市、小松市、加賀市など、石川県全域がお酒買取対象エリアです。」",
+        "https://www.fuku-chan.info/liquor/area/ishikawa/"
+      ],
+      [
+        "ファイブニーズ",
+        "愛知名古屋店の出張対応エリアに石川県「金沢市 七尾市 小松市 輪島市 珠洲市 加賀市 羽咋市 かほく市 白山市 能美市 野々市市etc」を記載（県内に店舗なし）",
+        "https://www.sakekaitori.com/shop/nagoya/"
+      ],
+      [
+        "リカスタ",
+        "「石川県は 宅配買取 エリアです」。店舗は大阪店・新宿店",
+        "https://www.licasta.com/areas/area_ishikawa/"
+      ],
+      [
+        "ストックラボ",
+        "「石川県は 宅配買取 エリアです。」（県内に店舗なし）",
+        "https://www.stock-lab.com/osake-kaitori/area/ishikawa/"
+      ]
+    ],
+    "distillery": "石川県金沢市には、オリエンタルブルーイングのオリエンタル金沢蒸溜所があります。同社の公式サイトによると、石川県初となるウイスキー製造免許を取得し、蒸溜所は金沢の奥座敷・湯涌温泉エリアにあります。2026年3月20日に、原材料の一部に国産米を使った同社初のウイスキー「金沢ウイスキー 白雷」（700ml・アルコール分40％・希望小売価格 税込5,500円、200mlもあり）を発売し、同日に金沢駅百番街「あんと」内に「オリエンタル金沢蒸溜所 あんと店」を開きました。",
+    "distillery_url": "https://orientalbrewing.com/hakurai/",
+    "distillery_label": "金沢ウイスキー白雷（オリエンタルブルーイング／オリエンタル金沢蒸溜所）公式サイト"
+  },
+  "fukui": {
+    "checked_at": "2026-10-25",
+    "title": "お酒買取 福井県｜県内でウイスキーを買い取る23店・出張対応とYahoo実売相場【2026年最新】",
+    "desc": "福井県でお酒・ウイスキーを売る方向けに、福井市・鯖江市・敦賀市など県内の買取店23店（買取大吉19店・キングラム3店・お酒買取専門店LINXAS）、出張買取の対応エリア、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
+    "stores": [
+      {
+        "brand": "買取大吉",
+        "city": "小浜市",
+        "name": "小浜駅前町店",
+        "addr": "福井県小浜市駅前町16-13",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/obama-ekimaecho/",
+        "hours": "9:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "敦賀市",
+        "name": "ワイプラザ グルメ館 敦賀店",
+        "addr": "福井県敦賀市櫛林9号4番1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wg-tsuruga/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "敦賀市",
+        "name": "MEGAドン・キホーテUNY敦賀店",
+        "addr": "福井県敦賀市中央町一丁目5番5号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/md-tsuruga/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "越前市",
+        "name": "越前市武生店",
+        "addr": "福井県越前市日野美2-18-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/echizenshi-takefu/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "坂井市",
+        "name": "坂井三国店",
+        "addr": "福井県坂井市三国町覚善2-30",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sakai-mikuni/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "坂井市",
+        "name": "福井春江店",
+        "addr": "福井県坂井市春江町新町3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fukui-harue/",
+        "hours": "10:00〜19:00・火曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "鯖江市",
+        "name": "アル・プラザ鯖江店",
+        "addr": "福井県鯖江市下河端町16字下町16-1 アル・プラザ鯖江 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ap-sabae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "鯖江市",
+        "name": "東鯖江店",
+        "addr": "福井県鯖江市東鯖江2丁目4-3フローレ NAGATO テナントA",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/higashisabae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "鯖江市",
+        "name": "福井西鯖江店",
+        "addr": "福井県鯖江市小黒町1-5-14",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fukui-nishisabae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "福井市",
+        "name": "福井ショッピングシティ・ベル店",
+        "addr": "福井県福井市花堂南2丁目16-1 福井ショッピングシティベル 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fukui-bell/",
+        "hours": "10:00〜20:00・年中無休(年末年始を除く)"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "福井市",
+        "name": "福井二の宮店",
+        "addr": "福井県福井市二の宮2丁目28-21",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fukui-ninomiya/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "福井市",
+        "name": "PLANT-3清水店",
+        "addr": "福井県福井市三留町21-4",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/plant3-shimizu/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "福井市",
+        "name": "福大前西福井駅前店",
+        "addr": "福井県福井市文京4丁目4-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fukudaimaenishi-fukuiekimae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "福井市",
+        "name": "ライフガーデン福井南店",
+        "addr": "福井県福井市下河北町5-1-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/lg-fukuiminami/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "福井市",
+        "name": "福井板垣店",
+        "addr": "福井県福井市板垣3丁目1613番",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fukui-itagaki/",
+        "hours": "10:00〜18:00・水曜、第2第3第4火曜日"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "福井市",
+        "name": "Aコープやしろ店",
+        "addr": "福井県福井市渕2-1711",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/acoop-yashiro/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "福井市",
+        "name": "福井文京店",
+        "addr": "福井県福井市文京7丁目18-28",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fukui-bunkyo/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "福井市",
+        "name": "福井米松店",
+        "addr": "福井県福井市米松2丁目21番47号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shop-5021435/",
+        "hours": "10:00〜18:00・年中無休（年末年始を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大野市",
+        "name": "ホームセンターみつわ九頭龍店",
+        "addr": "福井県大野市南新在家第35-38",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mitsuwa-kuzuryu/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "キングラム",
+        "city": "福井市",
+        "name": "福井本店",
+        "addr": "福井県福井市二の宮5-18-1",
+        "url": "https://kingram.jp/shop/fukuihonten/",
+        "hours": "10:00〜19:00・火曜定休"
+      },
+      {
+        "brand": "キングラム",
+        "city": "福井市",
+        "name": "福井米松店",
+        "addr": "福井県福井市長本町418",
+        "url": "https://kingram.jp/shop/fukuiyonematsu/",
+        "hours": "10:00〜19:00・火曜定休"
+      },
+      {
+        "brand": "キングラム",
+        "city": "福井市",
+        "name": "花堂店",
+        "addr": "福井県福井市花堂南2-7-3",
+        "url": "https://kingram.jp/shop/hanandou/",
+        "hours": "10:00〜19:00・火曜定休"
+      },
+      {
+        "brand": "LINXAS",
+        "city": "福井市",
+        "name": "福井飯塚BASE店",
+        "addr": "福井県福井市飯塚町13字13番地1他 メガドンキUNY福井店南別棟E",
+        "url": "https://linxas.shop/shops/fukui/",
+        "hours": "10:00〜19:00"
+      }
+    ],
+    "brand_notes": [
+      [
+        "買取大吉",
+        "県ページ掲載の18店と、中部地方の店舗一覧に載る大野市のホームセンターみつわ九頭龍店（県ページには未掲載）の計19店すべてで、店舗ページの買取品目一覧に「お酒」あり。品目に「お酒」。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」",
+        "https://www.kaitori-daikichi.jp/list/sake/store/hukui-ken/"
+      ],
+      [
+        "キングラム",
+        "県内3店の店舗ページに「酒買取」「出張買取」の表示があり、買取アイテムに「お酒」（ウイスキー・ブランデー・その他のお酒）を掲載",
+        "https://kingram.jp/shop/area/koushinetsuhokuriku/fukui/"
+      ],
+      [
+        "LINXAS",
+        "お酒買取専門店。福井飯塚BASE店のページに「ウイスキー・ブランデー・ワイン・シャンパン・日本酒・焼酎まで、1本から高価買取・査定料無料」「店頭買取のほか、送料無料の宅配買取や出張買取も承ります」と記載し、日付つきのウイスキー買取実績（2026年10月25日分まで）を掲載",
+        "https://linxas.shop/shops/fukui/"
+      ]
+    ],
+    "not_liquor": "おたからやの県内12店は、いずれも店舗ページの買取品目に洋酒・お酒の記載がありません（2026-10-25確認）。銀座蔵や・大黒屋は公式店舗一覧に県内の店舗がありません（出張は下記）。なんぼやは公式サイトに福井県の店舗ページがありません。",
+    "dispatch": [
+      [
+        "バイセル",
+        "「福井市、敦賀市、小浜市、大野市、勝山市、鯖江市、あわら市、越前市、坂井市など福井県全域の各市町村にて対応可能」（季節・地域により出張査定や即日対応が難しい場合ありと注記）",
+        "https://buysell-kaitori.com/area/liquor-fukui/"
+      ],
+      [
+        "LINXAS",
+        "福井飯塚BASE店のページに「店頭買取のほか、送料無料の宅配買取や出張買取も承ります」、福井県買取対象エリアとして福井市・坂井市・越前市・鯖江市・敦賀市・大野市・小浜市・あわら市・勝山市を記載",
+        "https://linxas.shop/shops/fukui/"
+      ],
+      [
+        "大黒屋",
+        "お酒の出張買取ページの訪問査定対象エリアに、福井県は「あわら市、坂井市、福井市、永平寺町、勝山市」と記載（エリア内でも訪問対応できない場合ありと注記）",
+        "https://kaitori.e-daikoku.com/visit/liquor/"
+      ],
+      [
+        "銀座蔵や",
+        "出張買取対応エリアに福井県「あわら市・池田町・永平寺町・越前市・越前町・おおい町・大野市・小浜市・勝山市・坂井市・鯖江市・高浜町・敦賀市・福井市・南越前町・美浜町・若狭町」を記載（県内に店舗なし）",
+        "https://ginzakuraya.jp/store/"
+      ],
+      [
+        "福ちゃん",
+        "「福井市をはじめ、坂井市、越前市、鯖江市、敦賀市など、福井県全域がお酒買取対象エリアです。」",
+        "https://www.fuku-chan.info/liquor/area/fukui/"
+      ],
+      [
+        "ファイブニーズ",
+        "愛知名古屋店の出張対応エリアに福井県「福井市 敦賀市 小浜市 大野市 勝山市 鯖江市 あわら市 越前市 坂井市etc」を記載（県内に店舗なし）",
+        "https://www.sakekaitori.com/shop/nagoya/"
+      ],
+      [
+        "リカスタ",
+        "「福井県は 宅配買取 エリアです」。店舗は大阪店・新宿店",
+        "https://www.licasta.com/areas/area_fukui/"
+      ],
+      [
+        "ストックラボ",
+        "「福井県は 宅配買取 エリアです。」（県内に店舗なし）",
+        "https://www.stock-lab.com/osake-kaitori/area/fukui/"
+      ]
+    ],
+    "distillery": "",
+    "distillery_url": "",
+    "distillery_label": ""
+  },
+  "kochi": {
+    "checked_at": "2026-10-25",
+    "title": "お酒買取 高知県｜県内でウイスキーを買い取る9店・出張対応とYahoo実売相場【2026年最新】",
+    "desc": "高知県でお酒・ウイスキーを売る方向けに、高知市・南国市・安芸市の買取大吉9店、バイセル・福ちゃん等の出張買取の対応エリア、仁淀川町の高知ウイスキー仁淀川蒸留所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
+    "stores": [
+      {
+        "brand": "買取大吉",
+        "city": "安芸市",
+        "name": "安芸庄之芝町店",
+        "addr": "高知県安芸市庄之芝町1-46",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/aki-shonoshibacho/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "南国市",
+        "name": "南国後免店",
+        "addr": "高知県南国市後免町1-1-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nankoku-gomen/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高知市",
+        "name": "高知本町店",
+        "addr": "高知県高知市本町5-1-15",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kochi-honmachi/",
+        "hours": "10:00〜19:00・水曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高知市",
+        "name": "高知若松店",
+        "addr": "高知県高知市若松町10-20",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kochi-wakamatsu/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高知市",
+        "name": "高知高須店",
+        "addr": "高知県高知市高須東町7-7",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kochi-takasu/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高知市",
+        "name": "高知はりまや町店",
+        "addr": "高知県高知市はりまや町3丁目1番地18",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kochi-harimayacho/",
+        "hours": "10:00〜18:00・水曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高知市",
+        "name": "Ａ・ＭＡＸ横浜店",
+        "addr": "高知県高知市横浜新町4-2403 エーマックス横浜店",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/amax-yokohama/",
+        "hours": "10:00〜18:30・年中無休（年末年始を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高知市",
+        "name": "イオン高知店",
+        "addr": "高知県高知市秦南町1丁目4-8 イオン高知1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ae-kochi/",
+        "hours": "10:00〜20:00・年中無休（年末年始、臨時休業を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高知市",
+        "name": "高知河ノ瀬店",
+        "addr": "高知県高知市河ノ瀬町30-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/gounose/",
+        "hours": "10:00〜18:00・水曜定休"
+      }
+    ],
+    "brand_notes": [
+      [
+        "買取大吉",
+        "県ページ掲載の9店すべてで、店舗ページの買取品目一覧に「お酒」あり。品目に「お酒」。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」",
+        "https://www.kaitori-daikichi.jp/list/sake/store/koti-ken/"
+      ]
+    ],
+    "not_liquor": "おたからやの県内10店は、いずれも店舗ページの買取品目に洋酒・お酒の記載がありません（2026-10-25確認）。大黒屋・銀座蔵や・なんぼや・キングラム・ジュエルカフェは公式サイトで県内の店舗を確認できませんでした。",
+    "dispatch": [
+      [
+        "バイセル",
+        "「高知市、室戸市、南国市、土佐市、四万十市、など高知県全域の各市町村にて出張料無料で対応可能できます」（季節・地域により出張査定や即日対応が難しい場合ありと注記）",
+        "https://buysell-kaitori.com/area/liquor-kochi/"
+      ],
+      [
+        "福ちゃん",
+        "「高知市をはじめ、南国市、四万十市、香南市など、高知県全域がお酒買取対象エリアです。」",
+        "https://www.fuku-chan.info/liquor/area/kouchi/"
+      ],
+      [
+        "LINXAS",
+        "「高知県は無料出張エリアの外のため、宅配買取を中心にご案内しています。」出張買取は「本数が多い場合や、お店の閉店・在庫の整理などはご相談ください。」宅配は1本から",
+        "https://linxas.shop/shops/kochi/"
+      ],
+      [
+        "リカスタ",
+        "「高知県は 宅配買取 エリアです」。店舗は大阪店・新宿店",
+        "https://www.licasta.com/areas/area_kouchi/"
+      ],
+      [
+        "ストックラボ",
+        "「高知県は 宅配買取 エリアです。」（県内に店舗なし）",
+        "https://www.stock-lab.com/osake-kaitori/area/kochi/"
+      ]
+    ],
+    "distillery": "高知県仁淀川町には、高知ウイスキー仁淀川蒸留所（高知県吾川郡仁淀川町竹ノ谷18-2）があります。公式サイトによると2026年3月にオープンした蒸留所で、「仁淀ブルー」と呼ばれる清流・仁淀川の流れる町で蒸留酒を造っています。商品として、仁淀川町産の紅茶とほうじ茶をキーボタニカルにしたジン「ニヨドドド」、「BLUE GIN IMUA」、ブレンデッドモルトウイスキー「滉」を紹介しています。",
+    "distillery_url": "https://kochi-whisky.com/?page_id=73",
+    "distillery_label": "高知ウイスキー仁淀川蒸留所 公式サイト（About）"
   }
 }

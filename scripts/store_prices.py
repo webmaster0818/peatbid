@@ -32,6 +32,8 @@ def _ym(s):
 
 
 def _ymd(s):
+    if s.count("-") == 1:  # 月単位の実績（例: LINXAS の月間ランキング）
+        return _ym(s)
     y, m, d = s.split("-")
     return f"{y}年{int(m)}月{int(d)}日"
 

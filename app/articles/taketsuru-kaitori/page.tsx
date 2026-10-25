@@ -35,7 +35,7 @@ const fetchedAt = fetchedDates.length
     : `${fetchedDates[0]}〜${fetchedDates[fetchedDates.length - 1]}`
   : "毎週月曜";
 
-const STORE_CHECKED = "2026-10-20";
+const STORE_CHECKED = "2026-10-25";
 const DK = "https://kaitori.e-daikoku.com/liquor/whisky/taketsuru/";
 const SL = "https://www.stock-lab.com/osake-kaitori/whiskey/taketsuru/";
 const LX = "https://linxas.shop/whiskey/nikka-taketsuru/";
@@ -57,11 +57,11 @@ const faqs = [
   },
   {
     q: "竹鶴ピュアモルトの白ラベルと黒ラベルは、買取価格が違いますか？",
-    a: "違います。年数表記のない竹鶴ピュアモルトについて、大黒屋は「白新ラベル」2,500円・「黒旧ラベル」6,500円（2026-10-19更新）、ストックラボは「NV 白ラベル」3,800〜4,800円・「NV 黒ラベル」7,000〜8,000円（2026-10-18更新）、LINXASは「NV白ラベル」4,200円・「NV黒ラベル」8,000円（2026-09-30更新）と、いずれの店も黒ラベルを高く掲示しています。",
+    a: "違います。年数表記のない竹鶴ピュアモルトについて、大黒屋は「白新ラベル」2,500円・「黒旧ラベル」6,500円（2026-10-19更新）、ストックラボは「NV 白ラベル」3,800〜4,800円・「NV 黒ラベル」7,000〜8,000円（2026-10-24更新）、LINXASは「NV白ラベル」4,200円・「NV黒ラベル」8,000円（2026-09-30更新）と、いずれの店も黒ラベルを高く掲示しています。",
   },
   {
     q: "竹鶴12年はいくらで売れますか？",
-    a: "大黒屋は700ml 16,000円・660ml 角瓶 15,000円・660ml 13,000円（2026-10-19更新）、ストックラボは丸瓶 17,000〜18,000円・角瓶 16,000〜17,000円（2026-10-18更新）、LINXASは700ml 箱付17,000円／箱無15,000円・660ml 角瓶 15,000円（2026-09-30更新）です。容量（700ml／660ml）と瓶の形で価格が分かれるため、査定の際は容量も伝えてください。",
+    a: "大黒屋は700ml 16,000円・660ml 角瓶 15,000円・660ml 13,000円（2026-10-19更新）、ストックラボは丸瓶 17,000〜18,000円・角瓶 16,000〜17,000円（2026-10-24更新）、LINXASは700ml 箱付17,000円／箱無15,000円・660ml 角瓶 15,000円（2026-09-30更新）です。容量（700ml／660ml）と瓶の形で価格が分かれるため、査定の際は容量も伝えてください。",
   },
   {
     q: "竹鶴は箱なしでも買取してもらえますか？",
@@ -156,7 +156,7 @@ export default function TaketsuruKaitoriPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">竹鶴の買取価格一覧｜ピュアモルト・12年・17年・21年・25年・35年の店舗別相場</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-20 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 not-prose">
             <p className="font-bold text-ink mb-2">結論（30秒）</p>
@@ -179,11 +179,11 @@ export default function TaketsuruKaitoriPage() {
 
           <h2 id="store-prices">1. 竹鶴の買取価格一覧（ボトル別・3店の掲示価格）</h2>
 
-          <p>各店が自社サイトに公開している竹鶴の参考買取価格を、PeatBid編集部が {STORE_CHECKED} に各ページで確認した値です。店舗側の更新日は、大黒屋 2026年10月19日、ストックラボ 2026年10月18日、LINXAS 2026年9月30日です。数値は各ページの表示をそのまま転記しています。</p>
+          <p>各店が自社サイトに公開している竹鶴の参考買取価格を、PeatBid編集部が {STORE_CHECKED} に各ページで確認した値です。店舗側の更新日は、大黒屋 2026年10月19日、ストックラボ 2026年10月24日、LINXAS 2026年9月30日です。数値は各ページの表示をそのまま転記しています。</p>
 
           <div className="overflow-x-auto my-5 not-prose">
             <table className="w-full text-sm">
-              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル</th><th className="py-2 pr-3 text-right">大黒屋（10/19更新）</th><th className="py-2 pr-3 text-right">ストックラボ（10/18更新）</th><th className="py-2 text-right">LINXAS（9/30更新）</th></tr></thead>
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル</th><th className="py-2 pr-3 text-right">大黒屋（10/19更新）</th><th className="py-2 pr-3 text-right">ストックラボ（10/24更新）</th><th className="py-2 text-right">LINXAS（9/30更新）</th></tr></thead>
               <tbody>
                 {storeRows.map((r) => (
                   <tr key={r.item} className="border-b border-warm-border/60">
