@@ -37,7 +37,7 @@ export default function Macallan30LabelYogorePage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">マッカラン30年のラベル汚れ・破れがあっても売れる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Macallan30LabelYogorePage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">マッカラン30年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 30年熟成 / 希少度 ウルトラ / 市場相場 396,000円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 30年熟成 / 希少度 ウルトラ / 市場相場 350,543円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/macallan-30-kaitori/" className="text-amber-dark underline">マッカラン30年の買取相場ガイド</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Macallan30LabelYogorePage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではマッカラン30年の落札が約54件確認でき、落札額の中央値は396,000円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではマッカラン30年の落札が約48件確認でき、落札額の中央値は350,543円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -106,13 +106,13 @@ export default function Macallan30LabelYogorePage() {
           </div>
 
           <h2 id="section-0">1. マッカラン30年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マッカラン30年</strong>はスコッチウイスキー（スペイサイド）の30年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>396,000円</strong>（流通サンプル54件、当サイトの集計）。価格帯としては<strong>超高額帯（1本数十万円規模）</strong>にあたり、真贋・状態の評価が特に厳しい価格帯で、専門知識を持つ業者ほど適正に評価する傾向があります。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マッカラン30年</strong>はスコッチウイスキー（スペイサイド）の30年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>350,543円</strong>（流通サンプル48件、当サイトの集計）。価格帯としては<strong>超高額帯（1本数十万円規模）</strong>にあたり、真贋・状態の評価が特に厳しい価格帯で、専門知識を持つ業者ほど適正に評価する傾向があります。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. ラベル状態の判定基準</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ラベルは、コレクター品の評価において重要な要素です。買取査定では、以下の状態を確認します。</p><ol><li><strong>新品同様</strong> — 印刷が鮮明で、しわ・汚れ・破れがない</li><li><strong>軽度の汚れ</strong> — 表面の埃・指紋・若干の変色</li><li><strong>シミ・水濡れ跡</strong> — 液体接触の痕跡</li><li><strong>破れ・欠け・剥がれ</strong> — 物理的損傷</li><li><strong>強い退色</strong> — 直射日光や蛍光灯による色あせ</li><li><strong>カビ・カビ跡</strong> — 湿度過多による劣化</li><li><strong>粘着テープ跡</strong> — 不適切な貼付・剥離跡</li></ol>` }} />
 
           <h2 id="section-2">3. ラベル状態別の査定額目安（マッカラン30年）</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>マッカラン30年の実勢中央値<strong>396,000円</strong>（新品同様=100%）に対し、ラベルの状態により次のように変動します。</p><ol><li><strong>新品同様</strong>: 396,000円（100%）</li><li><strong>軽度の汚れ</strong>: 約356,400円（90%程度）</li><li><strong>シミ・水濡れ跡</strong>: 約316,800円（80%程度）</li><li><strong>破れ・欠け</strong>: 約257,400円（65%程度）</li><li><strong>強い退色・大きな損傷</strong>: 約198,000円（50%程度）</li><li><strong>ラベル剥がれ（残あり）</strong>: 約158,400円（40%程度）</li><li><strong>ラベル完全消失</strong>: 約79,200円（20%程度。ヴィンテージとしての価値がある場合は例外）</li></ol>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>マッカラン30年の実勢中央値<strong>350,543円</strong>（新品同様=100%）に対し、ラベルの状態により次のように変動します。</p><ol><li><strong>新品同様</strong>: 350,543円（100%）</li><li><strong>軽度の汚れ</strong>: 約315,490円（90%程度）</li><li><strong>シミ・水濡れ跡</strong>: 約280,430円（80%程度）</li><li><strong>破れ・欠け</strong>: 約227,850円（65%程度）</li><li><strong>強い退色・大きな損傷</strong>: 約175,270円（50%程度）</li><li><strong>ラベル剥がれ（残あり）</strong>: 約140,220円（40%程度）</li><li><strong>ラベル完全消失</strong>: 約70,110円（20%程度。ヴィンテージとしての価値がある場合は例外）</li></ol>` }} />
 
           <h2 id="section-3">4. ラベル損傷が起きやすい原因</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>主な原因</strong></p><ol><li><strong>直射日光・蛍光灯</strong> — 退色・脆化</li><li><strong>湿度の高い場所</strong> — シミ・カビ</li><li><strong>段ボール直置き</strong> — シミ・吸湿</li><li><strong>粘着テープの貼り付け</strong> — 剥がし跡</li><li><strong>タンスや棚の埃</strong> — 表面汚れ</li><li><strong>指で頻繁に触る</strong> — 油脂による変色</li><li><strong>温度変化</strong> — ラベルの剥がれ</li><li><strong>化学物質の接触</strong> — 洗剤・芳香剤の蒸気</li></ol>` }} />
@@ -177,7 +177,7 @@ export default function Macallan30LabelYogorePage() {
             <Link href="/articles/macallan-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">マッカラン（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-26）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

@@ -37,7 +37,7 @@ export default function Karuizawa12KaifuZumiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">軽井沢12年が開封済みでも売れる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Karuizawa12KaifuZumiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">軽井沢12年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 軽井沢蒸溜所 / 12年熟成 / 希少度 ウルトラレア / 市場相場 76,950円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 軽井沢蒸溜所 / 12年熟成 / 希少度 ウルトラレア / 市場相場 76,975円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/karuizawa-12-kaitori/" className="text-amber-dark underline">軽井沢12年の買取相場ガイド</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Karuizawa12KaifuZumiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは軽井沢12年の落札が約82件確認でき、落札額の中央値は76,950円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは軽井沢12年の落札が約76件確認でき、落札額の中央値は76,975円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -106,10 +106,10 @@ export default function Karuizawa12KaifuZumiPage() {
           </div>
 
           <h2 id="section-0">1. 軽井沢12年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>軽井沢12年</strong>はジャパニーズウイスキー（軽井沢蒸溜所）の12年熟成、度数40%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>76,950円</strong>（流通サンプル82件、当サイトの集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定額が変動しやすく、状態の管理が査定額に影響します。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>軽井沢12年</strong>はジャパニーズウイスキー（軽井沢蒸溜所）の12年熟成、度数40%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>76,975円</strong>（流通サンプル76件、当サイトの集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定額が変動しやすく、状態の管理が査定額に影響します。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 開封済み軽井沢12年の査定額の目安</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>76,950円</strong>を基準として、開封済みは残量・状態により以下の範囲で査定されます。</p><ol><li><strong>9割以上残</strong>: 約23,080〜30,780円（30〜40%）</li><li><strong>7割以上残</strong>: 約19,240〜26,930円（25〜35%）</li><li><strong>5割以上残</strong>: 約15,390〜23,080円（20〜30%）</li><li><strong>3割以上残</strong>: 約7,700〜15,390円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合があります。空き瓶として数千円で買い取られる場合もあります
+          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>76,975円</strong>を基準として、開封済みは残量・状態により以下の範囲で査定されます。</p><ol><li><strong>9割以上残</strong>: 約23,090〜30,790円（30〜40%）</li><li><strong>7割以上残</strong>: 約19,240〜26,940円（25〜35%）</li><li><strong>5割以上残</strong>: 約15,400〜23,090円（20〜30%）</li><li><strong>3割以上残</strong>: 約7,700〜15,400円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合があります。空き瓶として数千円で買い取られる場合もあります
 
 開封済みは未開封と比べて査定額が大きく下がるため、コレクション品は開栓しないことをおすすめします。</li></ol>` }} />
 
@@ -181,7 +181,7 @@ export default function Karuizawa12KaifuZumiPage() {
             <Link href="/articles/karuizawa-12-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">軽井沢12年の買取相場ガイド</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-26）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

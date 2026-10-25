@@ -6,10 +6,10 @@
   "query_used": "イチローズモルト カード 700ml",
   "history": [],
   "latest": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "median_jpy": 660000,
-    "sample_n": 7,
-    "raw_n": 11,
+    "sample_n": 5,
+    "raw_n": 13,
     "insufficient": true
   },
   "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"

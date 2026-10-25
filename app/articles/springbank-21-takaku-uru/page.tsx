@@ -37,7 +37,7 @@ export default function Springbank21TakakuUruPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">スプリングバンク21年を高く売る方法 — 査定額を上げる7つのポイント</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Springbank21TakakuUruPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">スプリングバンク21年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / キャンベルタウン / 21年熟成 / 希少度 ハイ / 市場相場 101,611円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / キャンベルタウン / 21年熟成 / 希少度 ハイ / 市場相場 103,613円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/springbank-21-kaitori/" className="text-amber-dark underline">スプリングバンク21年の買取相場ガイド</Link></p>
           </div>
 
@@ -68,18 +68,18 @@ export default function Springbank21TakakuUruPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではスプリングバンク21年の落札が約60件確認でき、落札額の中央値は101,611円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではスプリングバンク21年の落札が約64件確認でき、落札額の中央値は103,613円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
           <h2 id="section-0">1. スプリングバンク21年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>スプリングバンク21年</strong>はスコッチウイスキー（キャンベルタウン）の21年熟成、度数46%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>101,611円</strong>（流通サンプル60件、当サイトの集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積もりの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>スコッチは蒸溜所・地域（キャンベルタウン）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>スプリングバンク21年</strong>はスコッチウイスキー（キャンベルタウン）の21年熟成、度数46%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>103,613円</strong>（流通サンプル64件、当サイトの集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積もりの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>スコッチは蒸溜所・地域（キャンベルタウン）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. ポイント1: 付属品を揃える</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>スプリングバンク21年の査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。実勢中央値<strong>101,611円</strong>を基準とすると、付属品なしでは約81,290〜91,450円（相場の80〜90%）まで下がるのが一般的です。</p><p>外箱にシミ・破れ・水濡れ跡があると、さらに5〜10%下がる場合があります。付属品を揃えることで、約15,240円前後の差が生じる計算です。</p><p>売却の前に、付属品が残っていないかご確認ください。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>スプリングバンク21年の査定では、外箱・冊子・カートン・ホログラムシールの有無で<strong>査定額が10〜20%変動</strong>します。実勢中央値<strong>103,613円</strong>を基準とすると、付属品なしでは約82,890〜93,250円（相場の80〜90%）まで下がるのが一般的です。</p><p>外箱にシミ・破れ・水濡れ跡があると、さらに5〜10%下がる場合があります。付属品を揃えることで、約15,540円前後の差が生じる計算です。</p><p>売却の前に、付属品が残っていないかご確認ください。</p>` }} />
 
           <h2 id="section-2">3. ポイント2: 未開封の状態を保つ</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>スプリングバンク21年は開封済みになると査定額が大幅に下がり、未開封の30〜40%＝約30,480〜40,640円前後まで落ちます。未開封であれば101,611円前後で売却できる可能性があり、差は大きくなります。</p><p>コレクション目的のボトルは、開栓せずに保管することをおすすめします。</p><p>開封した場合は、香味の揮発・酸化が進む前に、早めに売却することをおすすめします。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>スプリングバンク21年は開封済みになると査定額が大幅に下がり、未開封の30〜40%＝約31,080〜41,450円前後まで落ちます。未開封であれば103,613円前後で売却できる可能性があり、差は大きくなります。</p><p>コレクション目的のボトルは、開栓せずに保管することをおすすめします。</p><p>開封した場合は、香味の揮発・酸化が進む前に、早めに売却することをおすすめします。</p>` }} />
 
           <h2 id="section-3">4. ポイント3: 複数の業者で相見積もりを取る</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>同じスプリングバンク21年でも、業者によって<strong>数万〜数十万円</strong>の査定差が生じる場合があります。1社だけで決めることはおすすめしません。</p><p>推奨する手順: (1)一括査定サービスで5社以上から見積もりを取得する、(2)お酒の買取専門店（リカスタ等）2〜3社に個別に見積もりを依頼する、(3)合計7〜8社の見積もりを比較する、(4)手数料・送料を差し引いた受取額で業者を選定する。</p><p>掲載している業者は、いずれも査定料・キャンセル料が無料です。</p>` }} />
@@ -142,7 +142,7 @@ export default function Springbank21TakakuUruPage() {
             <Link href="/articles/springbank-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">スプリングバンク（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-26）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

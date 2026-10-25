@@ -37,7 +37,7 @@ export default function Yamazaki25HakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎25年が箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-19 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Yamazaki25HakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">山崎25年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / 25年熟成 / 希少度 ウルトラ / 市場相場 867,100円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 山崎蒸溜所 / 25年熟成 / 希少度 ウルトラ / 市場相場 854,149円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/yamazaki-25-kaitori/" className="text-amber-dark underline">山崎25年の買取相場ガイド</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Yamazaki25HakoNashiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎25年の落札が約30件確認でき、落札額の中央値は867,100円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは山崎25年の落札が約30件確認でき、落札額の中央値は854,149円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -106,12 +106,12 @@ export default function Yamazaki25HakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. 山崎25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>山崎25年</strong>はジャパニーズウイスキー（山崎蒸溜所）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>867,100円</strong>（流通サンプル30件、当サイトの集計）。価格帯としては<strong>超高額帯（1本数十万円規模）</strong>にあたり、真贋・状態の評価が特に厳しい価格帯で、専門知識を持つ業者ほど適正に評価する傾向があります。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>山崎25年</strong>はジャパニーズウイスキー（山崎蒸溜所）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>854,149円</strong>（流通サンプル30件、当サイトの集計）。価格帯としては<strong>超高額帯（1本数十万円規模）</strong>にあたり、真贋・状態の評価が特に厳しい価格帯で、専門知識を持つ業者ほど適正に評価する傾向があります。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>山崎25年の場合、実勢中央値<strong>867,100円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します。</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 867,100円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約737,040〜823,740円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約737,040〜797,730円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約693,680〜780,390円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約650,320〜737,040円（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>山崎25年の場合、実勢中央値<strong>854,149円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します。</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 854,149円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約726,030〜811,440円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約726,030〜785,820円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約683,320〜768,730円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約640,610〜726,030円（75〜85%）
 
-付属品の有無だけで、最大で<strong>約216,780円（相場の約25%）の差</strong>が生じる場合があります。</li></ol>` }} />
+付属品の有無だけで、最大で<strong>約213,540円（相場の約25%）の差</strong>が生じる場合があります。</li></ol>` }} />
 
           <h2 id="section-2">3. 外箱が査定に影響する理由</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は包装であると同時に、<strong>コレクター品として揃っていること</strong>を示す要素です。</p><ol><li><strong>二次流通市場での評価</strong> — 海外のコレクターは特に付属品が揃っていることを重視します</li><li><strong>真贋判定の手がかり</strong> — 箱と本体が一致していることが確認材料になります</li><li><strong>保管時の保護</strong> — 直射日光・摩擦・埃からボトルを守ります</li><li><strong>付属品の収納</strong> — 冊子・カートンをまとめて保管できます</li><li><strong>贈答品としての価値</strong> — 箱なしは贈答品としての再販が難しくなります
@@ -184,7 +184,7 @@ export default function Yamazaki25HakoNashiPage() {
             <Link href="/articles/yamazaki-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">山崎（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-19）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-26）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

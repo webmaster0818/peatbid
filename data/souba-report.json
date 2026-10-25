@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-26",
   "base_date": "2026-05-25",
-  "weeks": 20,
+  "weeks": 21,
   "n_brands": 36,
   "excluded": {
     "data_quality": [
@@ -19,14 +19,13 @@
       "yamazaki-55",
       "yoichi-nv"
     ],
-    "short_history": [
-      "taketsuru-pure"
-    ],
+    "short_history": [],
     "series_jump": [
       "talisker-25"
     ],
     "late_start": [
       "glenfarclas-105",
+      "taketsuru-pure",
       "yamazaki-25"
     ],
     "no_data": [],
@@ -133,11 +132,16 @@
         "date": "2026-10-19",
         "value": 101.46,
         "n": 36
+      },
+      {
+        "date": "2026-10-26",
+        "value": 101.74,
+        "n": 36
       }
     ],
-    "latest": 101.46,
-    "change_1w_pct": -0.26,
-    "change_4w_pct": -0.43
+    "latest": 101.74,
+    "change_1w_pct": 0.28,
+    "change_4w_pct": 0.17
   },
   "categories": {
     "japanese-whisky": {
@@ -243,10 +247,15 @@
           "date": "2026-10-19",
           "value": 98.82,
           "n": 22
+        },
+        {
+          "date": "2026-10-26",
+          "value": 99.25,
+          "n": 22
         }
       ],
-      "latest": 98.82,
-      "change_1w_pct": -0.06
+      "latest": 99.25,
+      "change_1w_pct": 0.44
     },
     "scotch-whisky": {
       "label": "スコッチ",
@@ -351,115 +360,120 @@
           "date": "2026-10-19",
           "value": 105.62,
           "n": 14
+        },
+        {
+          "date": "2026-10-26",
+          "value": 105.66,
+          "n": 14
         }
       ],
-      "latest": 105.62,
-      "change_1w_pct": -0.54
+      "latest": 105.66,
+      "change_1w_pct": 0.04
     }
   },
   "movers": {
     "up": [
       {
-        "slug": "yoichi-20",
-        "name": "余市20年",
+        "slug": "yoichi-10",
+        "name": "余市10年",
         "category": "japanese-whisky",
-        "median": 250861,
-        "prev_median": 220550,
-        "diff_jpy": 30311,
-        "change_pct": 13.74,
-        "sample_n": 56
+        "median": 27250,
+        "prev_median": 23100,
+        "diff_jpy": 4150,
+        "change_pct": 17.97,
+        "sample_n": 280
       },
       {
         "slug": "macallan-12",
         "name": "マッカラン12年",
         "category": "scotch-whisky",
-        "median": 9555,
-        "prev_median": 9102,
-        "diff_jpy": 453,
-        "change_pct": 4.98,
-        "sample_n": 288
+        "median": 10000,
+        "prev_median": 9555,
+        "diff_jpy": 445,
+        "change_pct": 4.66,
+        "sample_n": 290
       },
       {
-        "slug": "ardbeg-corryvreckan",
-        "name": "アードベッグ コリーヴレッカン",
-        "category": "scotch-whisky",
-        "median": 8249,
-        "prev_median": 8000,
-        "diff_jpy": 249,
-        "change_pct": 3.11,
-        "sample_n": 68
+        "slug": "hakushu-12",
+        "name": "白州12年",
+        "category": "japanese-whisky",
+        "median": 21000,
+        "prev_median": 20350,
+        "diff_jpy": 650,
+        "change_pct": 3.19,
+        "sample_n": 280
       },
       {
         "slug": "macallan-25",
         "name": "マッカラン25年",
         "category": "scotch-whisky",
-        "median": 205000,
-        "prev_median": 200000,
-        "diff_jpy": 5000,
-        "change_pct": 2.5,
-        "sample_n": 156
+        "median": 210874,
+        "prev_median": 205000,
+        "diff_jpy": 5874,
+        "change_pct": 2.87,
+        "sample_n": 164
       },
       {
-        "slug": "springbank-15",
-        "name": "スプリングバンク15年",
+        "slug": "glenfiddich-30",
+        "name": "グレンフィディック30年",
         "category": "scotch-whisky",
-        "median": 35500,
-        "prev_median": 35000,
-        "diff_jpy": 500,
-        "change_pct": 1.43,
-        "sample_n": 134
+        "median": 61856,
+        "prev_median": 60610,
+        "diff_jpy": 1246,
+        "change_pct": 2.06,
+        "sample_n": 36
       }
     ],
     "down": [
       {
-        "slug": "bowmore-25",
-        "name": "ボウモア25年",
+        "slug": "macallan-30",
+        "name": "マッカラン30年",
         "category": "scotch-whisky",
-        "median": 67499,
-        "prev_median": 71999,
-        "diff_jpy": -4500,
-        "change_pct": -6.25,
-        "sample_n": 44
-      },
-      {
-        "slug": "mars-komagatake",
-        "name": "マルス駒ヶ岳",
-        "category": "japanese-whisky",
-        "median": 7525,
-        "prev_median": 8000,
-        "diff_jpy": -475,
-        "change_pct": -5.94,
-        "sample_n": 286
+        "median": 350543,
+        "prev_median": 396000,
+        "diff_jpy": -45457,
+        "change_pct": -11.48,
+        "sample_n": 48
       },
       {
         "slug": "ichirosu-double-distilleries",
         "name": "イチローズモルト ダブルディスティラリーズ",
         "category": "japanese-whisky",
-        "median": 8030,
-        "prev_median": 8500,
-        "diff_jpy": -470,
-        "change_pct": -5.53,
+        "median": 7700,
+        "prev_median": 8030,
+        "diff_jpy": -330,
+        "change_pct": -4.11,
         "sample_n": 246
       },
       {
-        "slug": "glenfarclas-25",
-        "name": "グレンファークラス25年",
+        "slug": "ardbeg-corryvreckan",
+        "name": "アードベッグ コリーヴレッカン",
         "category": "scotch-whisky",
-        "median": 21723,
-        "prev_median": 22805,
-        "diff_jpy": -1082,
-        "change_pct": -4.74,
-        "sample_n": 82
+        "median": 8040,
+        "prev_median": 8249,
+        "diff_jpy": -209,
+        "change_pct": -2.53,
+        "sample_n": 74
       },
       {
-        "slug": "taketsuru-17",
-        "name": "竹鶴17年",
+        "slug": "bowmore-25",
+        "name": "ボウモア25年",
+        "category": "scotch-whisky",
+        "median": 66000,
+        "prev_median": 67499,
+        "diff_jpy": -1499,
+        "change_pct": -2.22,
+        "sample_n": 42
+      },
+      {
+        "slug": "miyagikyo-12",
+        "name": "宮城峡12年",
         "category": "japanese-whisky",
-        "median": 31758,
-        "prev_median": 32554,
-        "diff_jpy": -796,
-        "change_pct": -2.45,
-        "sample_n": 284
+        "median": 36699,
+        "prev_median": 37398,
+        "diff_jpy": -699,
+        "change_pct": -1.87,
+        "sample_n": 20
       }
     ]
   },

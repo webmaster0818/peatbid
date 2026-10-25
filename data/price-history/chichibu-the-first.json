@@ -6,10 +6,10 @@
   "query_used": "秩父 ザファースト 700ml",
   "history": [],
   "latest": {
-    "date": "2026-10-19",
-    "median_jpy": 55330,
-    "sample_n": 3,
-    "raw_n": 15,
+    "date": "2026-10-26",
+    "median_jpy": 52164,
+    "sample_n": 4,
+    "raw_n": 18,
     "insufficient": true
   },
   "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"
