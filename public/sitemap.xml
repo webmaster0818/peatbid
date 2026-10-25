@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://peatbid.com/</loc><lastmod>2026-10-24</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://peatbid.com/articles/</loc><lastmod>2026-10-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://peatbid.com/</loc><lastmod>2026-10-25</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://peatbid.com/articles/</loc><lastmod>2026-10-25</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://peatbid.com/tier2/</loc><lastmod>2026-10-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://peatbid.com/souba-ranking/</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://peatbid.com/souba-index/</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -128,7 +128,7 @@
   <url><loc>https://peatbid.com/articles/glenmorangie-signet-auction-suii/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/glenmorangie-signet-hako-nashi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/glenmorangie-signet-kaifu-zumi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://peatbid.com/articles/glenmorangie-signet-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/articles/glenmorangie-signet-kaitori/</loc><lastmod>2026-10-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/articles/glenmorangie-signet-kihaku/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/glenmorangie-signet-label-yogore/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/glenmorangie-signet-nisemono-mikata/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -243,7 +243,7 @@
   <url><loc>https://peatbid.com/articles/ichirosu-double-distilleries-auction-suii/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/ichirosu-double-distilleries-hako-nashi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/ichirosu-double-distilleries-kaifu-zumi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://peatbid.com/articles/ichirosu-double-distilleries-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/articles/ichirosu-double-distilleries-kaitori/</loc><lastmod>2026-10-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/articles/ichirosu-double-distilleries-kihaku/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/ichirosu-double-distilleries-label-yogore/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/ichirosu-double-distilleries-nisemono-mikata/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -253,7 +253,7 @@
   <url><loc>https://peatbid.com/articles/ichirosu-mwr-auction-suii/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/ichirosu-mwr-hako-nashi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/ichirosu-mwr-kaifu-zumi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://peatbid.com/articles/ichirosu-mwr-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/articles/ichirosu-mwr-kaitori/</loc><lastmod>2026-10-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/articles/ichirosu-mwr-kihaku/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/ichirosu-mwr-label-yogore/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/ichirosu-mwr-nisemono-mikata/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -284,7 +284,7 @@
   <url><loc>https://peatbid.com/articles/laphroaig-25-auction-suii/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/laphroaig-25-hako-nashi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/laphroaig-25-kaifu-zumi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://peatbid.com/articles/laphroaig-25-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/articles/laphroaig-25-kaitori/</loc><lastmod>2026-10-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/articles/laphroaig-25-kihaku/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/laphroaig-25-label-yogore/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/laphroaig-25-nisemono-mikata/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -295,7 +295,7 @@
   <url><loc>https://peatbid.com/articles/macallan-12-auction-suii/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/macallan-12-hako-nashi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/macallan-12-kaifu-zumi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://peatbid.com/articles/macallan-12-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/articles/macallan-12-kaitori/</loc><lastmod>2026-10-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/articles/macallan-12-kihaku/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/macallan-12-label-yogore/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/macallan-12-nisemono-mikata/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -397,7 +397,7 @@
   <url><loc>https://peatbid.com/articles/springbank-21-auction-suii/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/springbank-21-hako-nashi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/springbank-21-kaifu-zumi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://peatbid.com/articles/springbank-21-kaitori/</loc><lastmod>2026-10-24</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/articles/springbank-21-kaitori/</loc><lastmod>2026-10-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/articles/springbank-21-kihaku/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/springbank-21-label-yogore/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/springbank-21-nisemono-mikata/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -430,14 +430,14 @@
   <url><loc>https://peatbid.com/articles/taketsuru-25-auction-suii/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/taketsuru-25-hako-nashi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/taketsuru-25-kaifu-zumi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://peatbid.com/articles/taketsuru-25-kaitori/</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/articles/taketsuru-25-kaitori/</loc><lastmod>2026-10-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/articles/taketsuru-25-kihaku/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/taketsuru-25-label-yogore/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/taketsuru-25-nisemono-mikata/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/taketsuru-25-ranking/</loc><lastmod>2026-10-19</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/articles/taketsuru-25-rekishi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/taketsuru-25-takaku-uru/</loc><lastmod>2026-10-19</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://peatbid.com/articles/taketsuru-kaitori/</loc><lastmod>2026-10-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/articles/taketsuru-kaitori/</loc><lastmod>2026-10-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/articles/taketsuru-pure-auction-suii/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/taketsuru-pure-hako-nashi/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/taketsuru-pure-kaifu-zumi/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
@@ -451,7 +451,7 @@
   <url><loc>https://peatbid.com/articles/talisker-25-auction-suii/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/talisker-25-hako-nashi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/talisker-25-kaifu-zumi/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://peatbid.com/articles/talisker-25-kaitori/</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/articles/talisker-25-kaitori/</loc><lastmod>2026-10-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/articles/talisker-25-kihaku/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://peatbid.com/articles/talisker-25-label-yogore/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://peatbid.com/articles/talisker-25-nisemono-mikata/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -567,7 +567,7 @@
   <url><loc>https://peatbid.com/tier2/aomori/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/chiba/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/ehime/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://peatbid.com/tier2/fukui/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/tier2/fukui/</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/fukuoka/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/fukushima/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/gifu/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -576,12 +576,12 @@
   <url><loc>https://peatbid.com/tier2/hokkaido/</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/hyogo/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/ibaraki/</loc><lastmod>2026-10-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://peatbid.com/tier2/ishikawa/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/tier2/ishikawa/</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/iwate/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/kagawa/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/kagoshima/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/kanagawa/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://peatbid.com/tier2/kochi/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://peatbid.com/tier2/kochi/</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/kumamoto/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/kyoto/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://peatbid.com/tier2/mie/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
