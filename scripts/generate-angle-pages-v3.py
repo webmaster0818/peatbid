@@ -741,6 +741,13 @@ def render_page(b, data):
     )
     related_links += f'\n            <Link href="/articles/{b["slug"]}-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">{name}の買取相場ガイド</p></Link>'
     _fam = b["slug"].split("-")[0]
+    # 2026-10-25: 「グレンモーレンジ 買取」（年数なし）がシグネットのランキングに着地していた。
+    # 手書きのブランド一覧ハブ（ラインナップ・年数別）がある銘柄は、角度ページからもハブへ張る。
+    BRAND_HUBS = {"glenmorangie": ("glenmorangie-kaitori", "グレンモーレンジ"), "taketsuru": ("taketsuru-kaitori", "竹鶴"),
+                  "springbank": ("springbank-kaitori", "スプリングバンク"), "macallan": ("macallan-kaitori", "マッカラン"),
+                  "glenfiddich": ("glenfiddich-kaitori", "グレンフィディック")}
+    if _fam in BRAND_HUBS and (ROOT / "app" / "articles" / BRAND_HUBS[_fam][0]).exists():
+        related_links += f'\n            <Link href="/articles/{BRAND_HUBS[_fam][0]}/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ブランド一覧</span><p className="text-sm font-bold mt-1">{BRAND_HUBS[_fam][1]}の買取価格一覧（全ボトル）</p></Link>'
     if _fam in HUB_FAMILIES:
         related_links += f'\n            <Link href="/articles/{_fam}-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">{HUB_FAMILIES[_fam]}（全種）の偽物の見分け方</p></Link>'
 

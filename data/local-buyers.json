@@ -2357,5 +2357,1408 @@
     "distillery": "高知県仁淀川町には、高知ウイスキー仁淀川蒸留所（高知県吾川郡仁淀川町竹ノ谷18-2）があります。公式サイトによると2026年3月にオープンした蒸留所で、「仁淀ブルー」と呼ばれる清流・仁淀川の流れる町で蒸留酒を造っています。商品として、仁淀川町産の紅茶とほうじ茶をキーボタニカルにしたジン「ニヨドドド」、「BLUE GIN IMUA」、ブレンデッドモルトウイスキー「滉」を紹介しています。",
     "distillery_url": "https://kochi-whisky.com/?page_id=73",
     "distillery_label": "高知ウイスキー仁淀川蒸留所 公式サイト（About）"
+  },
+  "kanagawa": {
+    "checked_at": "2026-10-25",
+    "title": "ウイスキー買取 神奈川県｜横浜市神奈川区・小田原市など県内でお酒を買い取る166店・出張対応【2026年最新】",
+    "desc": "神奈川県でお酒・ウイスキーを売る方向けに、横浜市神奈川区（西神奈川・反町）・西区から小田原市・秦野市など県西部までの買取店166店（買取大吉158店・大黒屋・キングラム・LINXAS等）、出張買取の対応エリア、山北町の丹沢蒸溜所を掲載しています。",
+    "stores": [
+      {
+        "brand": "買取大吉",
+        "city": "横浜市神奈川区",
+        "name": "新子安駅前店",
+        "addr": "神奈川県横浜市神奈川区子安通3-289-3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shinkoyasu-ekimae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市神奈川区",
+        "name": "六角橋店",
+        "addr": "神奈川県横浜市神奈川区西神奈川3-5-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/rokkakubashi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市神奈川区",
+        "name": "反町1号店",
+        "addr": "神奈川県横浜市神奈川区泉町1-8",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tanmachi-1go/",
+        "hours": "平日10:00〜19:00／土日10:00〜18:00・火曜・祝日定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市神奈川区",
+        "name": "大口通商店街店",
+        "addr": "神奈川県横浜市神奈川区大口通127-21",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/oguchidori-syoutengai/",
+        "hours": "10:30〜18:30・木曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市西区",
+        "name": "藤棚一番街店",
+        "addr": "神奈川県横浜市西区中央2丁目6番7号 ソルビオス1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fujidana-ichibangai/",
+        "hours": "10:00〜19:00・水曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市西区",
+        "name": "横浜駅西口店",
+        "addr": "神奈川県横浜市西区南幸1-14-8",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yokohama-nishi/",
+        "hours": "10:00〜19:00・日曜定休"
+      },
+      {
+        "brand": "大黒屋",
+        "city": "横浜市西区",
+        "name": "質横浜モアーズ前店",
+        "addr": "神奈川県横浜市西区南幸1-2-3 共立ビル2F",
+        "url": "https://shichi.e-daikoku.com/shop/yokohama-mores/",
+        "hours": "10:00〜19:00・年中無休（年末年始除く）"
+      },
+      {
+        "brand": "大黒屋",
+        "city": "横浜市西区",
+        "name": "質横浜買取センター",
+        "addr": "神奈川県横浜市西区岡野1-12-13 千代田ビル1F",
+        "url": "https://shichi.e-daikoku.com/shop/yokohama-kaitori/",
+        "hours": "10:30〜19:30・年中無休（年末年始除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市港北区",
+        "name": "日吉駅前店",
+        "addr": "神奈川県横浜市港北区日吉2丁目4-14",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hiyoshiekimae-r/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市港北区",
+        "name": "菊名駅西口店",
+        "addr": "神奈川県横浜市港北区篠原北二丁目1番17号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kikunaeki-nishi/",
+        "hours": "10:00〜19:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市港北区",
+        "name": "妙蓮寺駅前店",
+        "addr": "神奈川県横浜市港北区菊名1-9-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/myorenjiekimae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市港北区",
+        "name": "新羽駅前店",
+        "addr": "神奈川県横浜市港北区新羽町1238-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nippaekimae/",
+        "hours": "10:00〜18:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市港北区",
+        "name": "大倉山駅前店",
+        "addr": "神奈川県横浜市港北区大倉山1丁目16番1号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/okurayamaekimae/",
+        "hours": "10:00〜19:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市港北区",
+        "name": "綱島店",
+        "addr": "神奈川県横浜市港北区綱島西2丁目2-18 ウエストⅡ 1階テナント",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsunashima/",
+        "hours": "10:00〜19:00（平日） 10:00〜18:00（土日祝）・不定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市中区",
+        "name": "横浜麦田町店",
+        "addr": "神奈川県横浜市中区麦田町四丁目99番地",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yokohama-mugitacho/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市中区",
+        "name": "横浜伊勢佐木町店",
+        "addr": "神奈川県横浜市中区伊勢佐木町6丁目143番地8",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yokohama-isezakicho/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市中区",
+        "name": "カトレヤプラザ伊勢佐木店",
+        "addr": "神奈川県横浜市中区伊勢佐木町1-5-4 カトレヤプラザ伊勢佐木１階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kanagawa-isezaki/",
+        "hours": "10:00〜20:00・年中無休（休館日・年末年始・臨時休業除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市中区",
+        "name": "石川町駅元町口店",
+        "addr": "神奈川県横浜市中区石川町2-62",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ishikawachoeki-motomachi/",
+        "hours": "10:00〜19:00・日曜定休"
+      },
+      {
+        "brand": "LINXAS",
+        "city": "横浜市中区",
+        "name": "神奈川横浜本店",
+        "addr": "神奈川県横浜市中区尾上町2-20 大和証券横浜ビル2F",
+        "url": "https://linxas.shop/shops/kanagawa/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "ファイブニーズ",
+        "city": "横浜市中区",
+        "name": "神奈川横浜店",
+        "addr": "神奈川県横浜市中区羽衣町3丁目63 羽衣ビル 1F",
+        "url": "https://www.sakekaitori.com/shop/yokohama/",
+        "hours": "10:00〜19:00（休憩13:00〜14:00）・木曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市保土ケ谷区",
+        "name": "保土ヶ谷駅東口店",
+        "addr": "神奈川県横浜市保土ケ谷区岩井町54",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hodogaya-higashi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市保土ケ谷区",
+        "name": "保土ケ谷西谷店",
+        "addr": "神奈川県横浜市保土ケ谷区西谷3-14-27",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hodogaya-nishiya/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市保土ケ谷区",
+        "name": "和田町駅前店",
+        "addr": "神奈川県横浜市保土ケ谷区星川3-6-18",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/wadamachi-ekimae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市保土ケ谷区",
+        "name": "保土ヶ谷天王町店",
+        "addr": "神奈川県横浜市保土ケ谷区天王町1-32-10 佐藤ビル 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hodogaya-tennocho-2/",
+        "hours": "10:00〜19:00・年中無休(年末年始を除く)"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市南区",
+        "name": "弘明寺駅前店",
+        "addr": "神奈川県横浜市南区通町4-115",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/gumyojiekimae/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市南区",
+        "name": "いなげや横浜東蒔田店",
+        "addr": "神奈川県横浜市南区東蒔田町3-15 いなげや横浜東蒔田店 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yokohama-higashimaita/",
+        "hours": "10:00〜19:00・年中無休(年末年始・臨時休業除く)"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市戸塚区",
+        "name": "戸塚平戸町店",
+        "addr": "神奈川県横浜市戸塚区平戸町475",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/totsuka-hiradocho-r/",
+        "hours": "11:00〜19:00・木曜・土曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市戸塚区",
+        "name": "トツカーナモール店",
+        "addr": "神奈川県横浜市戸塚区戸塚町16番地1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/totsukana-mall/",
+        "hours": "10:00〜20:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市旭区",
+        "name": "四季の森フォレオ店",
+        "addr": "神奈川県横浜市旭区上白根3丁目41-1 四季の森フォレオ 3階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shikinomori-foleo/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市旭区",
+        "name": "ジョイナステラス二俣川店",
+        "addr": "神奈川県横浜市旭区二俣川1丁目3-2 ジョイナステラス3 4階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/jt-futamata-gawa/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市旭区",
+        "name": "イトーヨーカドー若葉台店",
+        "addr": "神奈川県横浜市旭区若葉台3丁目7-1 イトーヨーカドー若葉台店 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/iy-wakabadai/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市旭区",
+        "name": "希望ヶ丘駅南口店",
+        "addr": "神奈川県横浜市旭区中希望が丘99-31",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kibogaoka-minami-r/",
+        "hours": "10:00〜19:00・月曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市旭区",
+        "name": "旭鶴ケ峰店",
+        "addr": "神奈川県横浜市旭区鶴ヶ峰1-7-10",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/asahi-tsurugamine/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市旭区",
+        "name": "三ツ境駅前店",
+        "addr": "神奈川県横浜市旭区笹野台1丁目1-28",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mitsukyo-ekimae/",
+        "hours": "10:00〜18:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市栄区",
+        "name": "栄上郷町店",
+        "addr": "神奈川県横浜市栄区上郷町49-5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sakae-kamigocho/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市栄区",
+        "name": "横浜公田店",
+        "addr": "神奈川県横浜市栄区公田町161番5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yokohama-kuden/",
+        "hours": "10:00〜18:00・水曜、第2、第４日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市泉区",
+        "name": "相鉄ライフやよい台店",
+        "addr": "神奈川県横浜市泉区弥生台16-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sl-yayoidai/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市泉区",
+        "name": "緑園都市駅前店",
+        "addr": "神奈川県横浜市泉区緑園2丁目1番1号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ryokuen-toshi/",
+        "hours": "10:00〜19:00・木曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市泉区",
+        "name": "いずみ野駅前店",
+        "addr": "神奈川県横浜市泉区和泉町5736 相鉄いずみ野駅構内",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/izumino-ekimae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市泉区",
+        "name": "相鉄ライフいずみ中央店",
+        "addr": "神奈川県横浜市泉区和泉中央南5-4-13 相鉄ライフいずみ中央",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sl-izumichuo/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市泉区",
+        "name": "中田駅前店",
+        "addr": "神奈川県横浜市泉区中田南４丁目１−３８",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nakadaekimae/",
+        "hours": "10:00〜18:00・水曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市港南区",
+        "name": "上永谷駅前店",
+        "addr": "神奈川県横浜市港南区丸山台1-13-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kaminagayaekimae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市港南区",
+        "name": "港南台214ビル店",
+        "addr": "神奈川県横浜市港南区港南台3-3-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/konandai214/",
+        "hours": "10:00〜19:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市港南区",
+        "name": "上大岡店",
+        "addr": "横浜市港南区上大岡西1丁目17番28号\t第25太蔵ビル 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kamiooka/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市瀬谷区",
+        "name": "相鉄ライフ三ツ境店",
+        "addr": "神奈川県横浜市瀬谷区三ツ境2-19 相鉄ライフ三ツ境 4階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sl-mitsukyo/",
+        "hours": "10:00〜20:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市瀬谷区",
+        "name": "瀬谷駅南口店",
+        "addr": "神奈川県横浜市瀬谷区瀬谷4丁目5-5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/seyaeki-minami/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市磯子区",
+        "name": "横浜磯子西町店",
+        "addr": "神奈川県横浜市磯子区西町3-17",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yokohamaisogo-nishicho/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市磯子区",
+        "name": "イトーヨーカドー洋光台店",
+        "addr": "神奈川県横浜市磯子区洋光台3-10-3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/iy-yokodai-r/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市磯子区",
+        "name": "磯子杉田2丁目店",
+        "addr": "神奈川県横浜市磯子区杉田2-3-11",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/isogo-sugita2/",
+        "hours": "10:00〜19:00・年中無休（年末年始除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市磯子区",
+        "name": "ピーコックストア磯子店",
+        "addr": "神奈川県横浜市磯子区森1-6 ピーコックストア 磯子店",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/peacock-isogo/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市緑区",
+        "name": "ダイエー十日市場店",
+        "addr": "神奈川県横浜市緑区十日市場町818-2 ダイエー十日市場店 3階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/daiei-tokaichiba/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市緑区",
+        "name": "長津田駅南口店",
+        "addr": "神奈川県横浜市緑区長津田5丁目2番2号井上第３ビル",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nagatsuta-minami/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市緑区",
+        "name": "横浜竹山店",
+        "addr": "神奈川県横浜市緑区竹山3-1-8",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yokohama-takeyama/",
+        "hours": "10:00〜18:30・水曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市緑区",
+        "name": "横浜霧が丘店",
+        "addr": "神奈川県横浜市緑区霧が丘二丁目14番地1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yokohama-kirigaoka/",
+        "hours": "10:00〜18:00・火曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市緑区",
+        "name": "中山駅南口店",
+        "addr": "神奈川県横浜市緑区中山4丁目31-21",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nakayama-minami/",
+        "hours": "10:00〜19:00・火曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市都筑区",
+        "name": "都筑ふれあいの丘駅前店",
+        "addr": "神奈川県横浜市都筑区葛が谷4-6",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsuzukifureainooka-ekimae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市都筑区",
+        "name": "センター北店",
+        "addr": "神奈川県横浜市都筑区中川中央1-22-18",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/centerkita/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市都筑区",
+        "name": "東急ストア仲町台店",
+        "addr": "神奈川県横浜市都筑区仲町台1-4-7 東急ストア仲町台店 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tokyustore-nakamachidai/",
+        "hours": "10:00〜19:00・火曜・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市金沢区",
+        "name": "アピタ金沢文庫店",
+        "addr": "神奈川県横浜市金沢区釜利谷東2丁目1-1 アピタ金沢文庫 3階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/a-kanazawa-bunko/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市金沢区",
+        "name": "能見台駅前店",
+        "addr": "神奈川県横浜市金沢区能見台通4-1 MQプラザ1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nokendaiekimae/",
+        "hours": "10:00〜19:00・水曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市金沢区",
+        "name": "イオン金沢シーサイド店",
+        "addr": "神奈川県横浜市金沢区並木2丁目13-1 イオン金沢シーサイド店3階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ae-kanazawa-seaside/",
+        "hours": "10:00〜19:00 （第2・第4木曜日は10:00〜14:00）・年中無休（年末年始除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市金沢区",
+        "name": "サニーマート金沢八景店",
+        "addr": "神奈川県横浜市金沢区泥亀1丁目25番4号 金沢八景第2京急ビル 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sm-kanazawahakkei/",
+        "hours": "10:00〜19:00・水曜日（年末年始除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市青葉区",
+        "name": "イトーヨーカドー たまプラーザ店",
+        "addr": "神奈川県横浜市青葉区美しが丘1丁目6-1 イトーヨーカドー たまプラーザ 3階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/iy-tamaplaza/",
+        "hours": "10:00〜21:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市青葉区",
+        "name": "田奈駅前店",
+        "addr": "神奈川県横浜市青葉区田奈町78-20",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tana-ekimae/",
+        "hours": "10:00〜18:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市青葉区",
+        "name": "江田駅西口店",
+        "addr": "神奈川県横浜市青葉区荏田北3-2-4",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/edaeki-nishi/",
+        "hours": "10:00〜19:00・年中無休（臨時休業あり）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市青葉区",
+        "name": "横浜あざみ野店",
+        "addr": "神奈川県横浜市青葉区あざみ野1-3-3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yokohama-azamino/",
+        "hours": "10:00〜19:00・年中無休（年末年始を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市青葉区",
+        "name": "青葉台桜台店",
+        "addr": "神奈川県横浜市青葉区桜台29-1 イサミビルI 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/aobadai-sakuradai/",
+        "hours": "10:00〜19:00・年中無休（年末年始除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市青葉区",
+        "name": "すすき野とうきゅう店",
+        "addr": "神奈川県横浜市青葉区すすき野2丁目5-4 すすき野とうきゅう 2F",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/susukino-tokyu/",
+        "hours": "10:00〜19:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市青葉区",
+        "name": "たまプラーザ店",
+        "addr": "神奈川県横浜市青葉区美しが丘2-20-20 ホワイトハウス1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tamaplaza/",
+        "hours": "10:00〜17:00・土曜日・日曜日・祝日（臨時営業日を設ける場合がございます）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市青葉区",
+        "name": "市が尾駅前店",
+        "addr": "神奈川県横浜市青葉区市ヶ尾町1153-3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ichigaoekimae/",
+        "hours": "10:00〜19:00・年中無休（臨時休業を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市鶴見区",
+        "name": "鶴見駅西口店",
+        "addr": "神奈川県横浜市鶴見区豊岡町2-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsurumieki-nishi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市鶴見区",
+        "name": "鶴見矢向店",
+        "addr": "神奈川県横浜市鶴見区矢向6丁目12-13",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsurumi-yako/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市鶴見区",
+        "name": "生麦駅西口店",
+        "addr": "神奈川県横浜市鶴見区岸谷1丁目24番1号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/namamugi-nishi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市鶴見区",
+        "name": "レアールつくの商店街店",
+        "addr": "神奈川県横浜市鶴見区佃野町22-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/l-tsukuno/",
+        "hours": "10:00〜19:00・年中無休（臨時休業あり）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横浜市鶴見区",
+        "name": "鶴見店",
+        "addr": "神奈川県横浜市鶴見区鶴見中央 4丁目15番12号 鵜飼貸店舗 1階 101号室",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tsurumi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市中原区",
+        "name": "川崎小杉法政通り店",
+        "addr": "神奈川県川崎市中原区小杉町3-22-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kawasakikosugi-hoseidori/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市中原区",
+        "name": "川崎小杉御殿町店",
+        "addr": "神奈川県川崎市中原区小杉御殿町1丁目974-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kawasaki-kosugigotencho/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市中原区",
+        "name": "平間銀座店",
+        "addr": "神奈川県川崎市中原区田尻町58",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hirama-ginza/",
+        "hours": "10:00〜19:00・水曜、第2.第4日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市中原区",
+        "name": "武蔵新城店",
+        "addr": "神奈川県川崎市中原区新城1-15-7",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/musashi-shinjo/",
+        "hours": "10:00〜18:30・年中無休（臨時休業を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市中原区",
+        "name": "新丸子店",
+        "addr": "神奈川県川崎市中原区新丸子東一丁目982番地5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shinmaruko/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市中原区",
+        "name": "元住吉店",
+        "addr": "神奈川県川崎市中原区木月2-2-36 フードショップオズ",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/motosumiyoshi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "キングラム",
+        "city": "川崎市中原区",
+        "name": "武蔵新城店",
+        "addr": "神奈川県川崎市中原区上新城2-3-12",
+        "url": "https://kingram.jp/shop/musashishinjou/",
+        "hours": "10:00〜19:00"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市多摩区",
+        "name": "読売ランド前駅南店",
+        "addr": "神奈川県川崎市多摩区西生田4-1-6",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yomiurilandmaeeki-minami/",
+        "hours": "10:00〜19:00・年中無休（年末年始を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市多摩区",
+        "name": "登戸駅前店",
+        "addr": "神奈川県川崎市多摩区登戸3418-5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/noborito-ekimae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市多摩区",
+        "name": "生田駅北口店",
+        "addr": "神奈川県川崎市多摩区生田7丁目7番3号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ikuta-kita/",
+        "hours": "10:00〜19:00・日曜・月曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市多摩区",
+        "name": "川崎中野島店",
+        "addr": "神奈川県川崎市多摩区中野島1-10-5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kawasaki-nakanoshima/",
+        "hours": "10:00〜19:00・年中無休（年末年始除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市多摩区",
+        "name": "稲田堤駅前店",
+        "addr": "神奈川県川崎市多摩区菅2-2-3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/inadazutsumiekimae-r/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市多摩区",
+        "name": "向ヶ丘遊園駅前店",
+        "addr": "神奈川県川崎市多摩区登戸2071‐3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mukogaokayuen-ekimae/",
+        "hours": "10:00〜19:00・年中無休(臨時休業除く)"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市多摩区",
+        "name": "久地駅西店",
+        "addr": "神奈川県川崎市多摩区宿河原6-32-5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kujieki-nishi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市宮前区",
+        "name": "川崎野川店",
+        "addr": "神奈川県川崎市宮前区野川本町3丁目25番28号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kawasaki-nogawa/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市宮前区",
+        "name": "川崎東有馬店",
+        "addr": "神奈川県川崎市宮前区東有馬5丁目26-10",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kawasaki-higashiarima/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市川崎区",
+        "name": "川崎アゼリア店",
+        "addr": "神奈川県川崎市川崎区駅前本町26-2 川崎アゼリア 地下1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kawasaki-azalea/",
+        "hours": "10:00〜21:00（12/31は10:00〜19:00）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市川崎区",
+        "name": "京急ストア八丁畷店",
+        "addr": "神奈川県川崎市川崎区池田1丁目16番1号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hatcho-nawate/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市川崎区",
+        "name": "コーナン川崎小田栄店",
+        "addr": "神奈川県川崎市川崎区小田栄2-3-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kawasaki-odasakae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "大黒屋",
+        "city": "川崎市川崎区",
+        "name": "ブランド館 川崎店",
+        "addr": "神奈川県川崎市川崎区砂子2-3-12 第40東京ビル1F",
+        "url": "https://shichi.e-daikoku.com/shop/kawasaki/",
+        "hours": "10:30〜19:30・年中無休（年末年始除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市幸区",
+        "name": "かしまだ駅前通り店",
+        "addr": "神奈川県川崎市幸区下平間111番地6",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kashimada-ekimaedori/",
+        "hours": "11:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市幸区",
+        "name": "川崎南加瀬店",
+        "addr": "神奈川県川崎市幸区南加瀬4-27-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kawasaki-minamikase/",
+        "hours": "10:00〜19:00・年中無休(年末年始除く)"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市高津区",
+        "name": "溝の口店",
+        "addr": "神奈川県川崎市高津区下作延1丁目1-3 ハピネス溝の口 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mizonokuchi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "ストックラボ",
+        "city": "川崎市高津区",
+        "name": "溝の口店",
+        "addr": "神奈川県川崎市高津区溝口2丁目10-36-101",
+        "url": "https://www.stock-lab.com/osake-kaitori/shop/mizonokuchi/",
+        "hours": "11:00〜20:00・定休日なし（臨時休業・年末年始を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市麻生区",
+        "name": "Odakyu OX 栗平店",
+        "addr": "神奈川県川崎市麻生区栗平二丁目3番5号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/oox-kurihira/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "川崎市麻生区",
+        "name": "新百合ヶ丘駅前店",
+        "addr": "神奈川県川崎市麻生区万福寺三丁目1番2号 Odakyu OX 万福寺店 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shinyurigaoka-ekimae/",
+        "hours": "10:00〜19:00・年中無休/施設の営業日に準ずる"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市中央区",
+        "name": "相模原上溝店",
+        "addr": "神奈川県相模原市中央区上溝7丁目17-19",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sagamihara-kamimizo/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市中央区",
+        "name": "淵野辺駅北口店",
+        "addr": "神奈川県相模原市中央区淵野辺3丁目6-18-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fuchinobe-kita/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市中央区",
+        "name": "相模原店",
+        "addr": "神奈川県相模原市中央区相模原1丁目2番1号 買取大吉 相模原店",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sagamihara-r/",
+        "hours": "10:00〜19:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市南区",
+        "name": "相模大野ジョイモアーズ店",
+        "addr": "神奈川県相模原市南区相模大野3丁目9-1 相模大野ジョイモアーズ店 5階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sagamiono-mores/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市南区",
+        "name": "相模女子大学前店",
+        "addr": "神奈川県相模原市南区相模大野5-27-41",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sagami-joshidaigakumae/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市南区",
+        "name": "相模原若松店",
+        "addr": "神奈川県相模原市南区若松5-20-6",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sagamihara-wakamatsu/",
+        "hours": "10:00〜18:00・年中無休（臨時休業を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市南区",
+        "name": "相模原東林間店",
+        "addr": "神奈川県相模原市南区上鶴間7丁目2-14",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sagamihara-higashirinkan/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市南区",
+        "name": "minanoba相模原店",
+        "addr": "神奈川県相模原市南区南台3丁目1番30号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/m-sagamihara/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市南区",
+        "name": "古淵駅前店",
+        "addr": "神奈川県相模原市南区古淵2-16-3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kobuchiekimae/",
+        "hours": "10:00〜19:00・年中無休（年末年始を除く）"
+      },
+      {
+        "brand": "キングラム",
+        "city": "相模原市南区",
+        "name": "相模大野店",
+        "addr": "神奈川県相模原市南区相模大野3丁目13-11 YS-3ビル 1階",
+        "url": "https://kingram.jp/shop/sagamiono/",
+        "hours": "10:00〜19:00"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市緑区",
+        "name": "たからやフレサ 相模湖店",
+        "addr": "神奈川県相模原市緑区寸沢嵐933-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tf-sagamiko/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市緑区",
+        "name": "COTOE橋本店",
+        "addr": "神奈川県相模原市緑区西橋本5丁目4-3 COTOE橋本 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/cotoe-hashimoto/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市緑区",
+        "name": "ダイエー津久井店",
+        "addr": "神奈川県相模原市緑区中野997-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/daiei-tsukui/",
+        "hours": "10:00〜19:00・年中無休（年末年始を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市緑区",
+        "name": "Aコープ城山店",
+        "addr": "神奈川県相模原市緑区向原2-1-1 Aコープ城山店",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/acoop-shiroyama/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "相模原市緑区",
+        "name": "イオン橋本店",
+        "addr": "神奈川県相模原市緑区橋本6丁目2-1 イオン橋本店 5F",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shop-2682/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "南足柄市",
+        "name": "大雄山ヴェルミ店",
+        "addr": "神奈川県南足柄市関本565-5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/daiyuzan-welmi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "厚木市",
+        "name": "たからやフレサ 上荻野店",
+        "addr": "神奈川県厚木市上荻野796-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tf-kamiogino/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "厚木市",
+        "name": "厚木妻田店",
+        "addr": "神奈川県厚木市妻田北1-13-14",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/atsugi-tsumada/",
+        "hours": "10:00〜19:00・水曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "厚木市",
+        "name": "厚木ガーデンシティ店",
+        "addr": "神奈川県厚木市中町1-5-10 厚木ガーデンシティビル4階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/atsugi-gc/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大和市",
+        "name": "大和下鶴間店",
+        "addr": "神奈川県大和市下鶴間692-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamato-shimotsuruma-r/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大和市",
+        "name": "いなげや大和桜ヶ丘店",
+        "addr": "神奈川県大和市福田二丁目7-4",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamato-sakuragaoka/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大和市",
+        "name": "南林間駅西口店",
+        "addr": "神奈川県大和市南林間1-5-8",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/minamirinkaneki-nishi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大和市",
+        "name": "大和店",
+        "addr": "神奈川県大和市中央1丁目4番19号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamato/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大和市",
+        "name": "大和高座渋谷駅前店",
+        "addr": "神奈川県大和市渋谷5-37-9",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamato-koza-shibuya/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "小田原市",
+        "name": "ダイナシティ小田原店",
+        "addr": "神奈川県小田原市中里208 ダイナシティウエスト 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/dynacity-odawara/",
+        "hours": "10:00〜20:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "小田原市",
+        "name": "小田原ダイヤ街店",
+        "addr": "神奈川県小田原市栄町2-9-7",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/odawara-daiyagai/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "平塚市",
+        "name": "平塚菫平店",
+        "addr": "神奈川県平塚市菫平9-11",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hiratsuka-sumiredaira/",
+        "hours": "10:00〜19:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "平塚市",
+        "name": "OSC湘南シティ店",
+        "addr": "神奈川県平塚市代官町33番1号 OSC湘南シティ",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/oscshonan-city/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "平塚市",
+        "name": "マックスバリュ平塚四之宮店",
+        "addr": "神奈川県平塚市四之宮2-18-26 マックスバリュ平塚四之宮店",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hiratsuka-shinomiya/",
+        "hours": "10:00〜19:00・月曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "座間市",
+        "name": "イオンモール座間店",
+        "addr": "神奈川県座間市広野台2丁目10-4 イオンモール座間 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/am-zama/",
+        "hours": "10:00〜20:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "座間市",
+        "name": "相武台前駅北口店",
+        "addr": "神奈川県座間市相武台1-34-16",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sobudaimae-kita/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "座間市",
+        "name": "MEGAドン・キホーテUNY座間店",
+        "addr": "神奈川県座間市入谷西2-57-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/md-zama/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "愛甲郡愛川町",
+        "name": "たからやフレサ 半原店",
+        "addr": "神奈川県愛甲郡愛川町半原2456-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tf-hanbara/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横須賀市",
+        "name": "サンビーチ追浜店",
+        "addr": "神奈川県横須賀市追浜本町1丁目28-5 サンビーチ追浜 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/oppama-r/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横須賀市",
+        "name": "横須賀武店",
+        "addr": "神奈川県横須賀市武三丁目21番1号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yokosuka-take/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横須賀市",
+        "name": "横須賀衣笠栄町店",
+        "addr": "神奈川県横須賀市衣笠栄町1-70",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yokosuka-kinukasasakaecho/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横須賀市",
+        "name": "YRP野比駅前店",
+        "addr": "神奈川県横須賀市野比1-9-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yrp-nobi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横須賀市",
+        "name": "北久里浜店",
+        "addr": "神奈川県横須賀市根岸町3-15-23",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kitakurihama/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "横須賀市",
+        "name": "横須賀中央店",
+        "addr": "神奈川県横須賀市若松町1-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yokosukachuo/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "海老名市",
+        "name": "ららぽーと海老名店",
+        "addr": "神奈川県海老名市扇町13-1 ららぽーと海老名 4階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/lalaport-ebina/",
+        "hours": "【平日】【日・祝】10:00〜20:00 【土】10:00〜21:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "海老名市",
+        "name": "イオン海老名店",
+        "addr": "神奈川県海老名市中央3-2-5 イオン海老名店2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sp-ebina/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "海老名市",
+        "name": "相鉄ライフさがみ野店",
+        "addr": "神奈川県海老名市東柏ケ谷３丁目３−１５ 相鉄ライフさがみ野店",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sl-sagamino/",
+        "hours": "10:00〜20:00・年中無休(臨時休業を除く)"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "秦野市",
+        "name": "渋沢駅南口店",
+        "addr": "神奈川県秦野市曲松1-2-19",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shibusawaeki-minami/",
+        "hours": "10:00〜18:00・水曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "秦野市",
+        "name": "ヨークフーズ西大竹店",
+        "addr": "神奈川県秦野市尾尻875 ヨークフーズ西大竹 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yf-nishioodake/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "秦野市",
+        "name": "イオン秦野店",
+        "addr": "神奈川県秦野市入船町12-1 イオン秦野店 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ae-hadano/",
+        "hours": "10:00〜20:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "秦野市",
+        "name": "東海大学駅前店",
+        "addr": "神奈川県秦野市南矢名1-14-8",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tokaidaigaku-ekimae/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "秦野市",
+        "name": "マックスバリュ秦野渋沢店",
+        "addr": "神奈川県秦野市堀川119-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mv-hadanoshibusawa/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "綾瀬市",
+        "name": "MEGAドン・キホーテ綾瀬店",
+        "addr": "神奈川県綾瀬市大上2-1-1 MEGAドン・キホーテ綾瀬店",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/mdq-ayase/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "綾瀬市",
+        "name": "マルエツ綾瀬店",
+        "addr": "神奈川県綾瀬市上土棚南1-8-25 マルエツ綾瀬店 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/maruetsu-ayase/",
+        "hours": "10:00〜19:00・水曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "茅ヶ崎市",
+        "name": "ブランチ茅ヶ崎3店",
+        "addr": "神奈川県茅ヶ崎市浜見平10-2 ブランチ茅ヶ崎3 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/branch/",
+        "hours": "10:00〜19:00・年中無休/施設の営業日に準ずる"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "茅ヶ崎市",
+        "name": "BLiX茅ヶ崎店",
+        "addr": "神奈川県茅ヶ崎市新栄町11-8",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/blix-chigasaki/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "茅ヶ崎市",
+        "name": "茅ヶ崎高田店",
+        "addr": "神奈川県茅ヶ崎市高田4丁目5-13 BELA ViSTA湘南",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/chigasaki-takata/",
+        "hours": "10:00〜19:00・年中無休（臨時休業を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "藤沢市",
+        "name": "藤沢店",
+        "addr": "神奈川県藤沢市南藤沢22-2 春日ビル 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fujisawa/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "藤沢市",
+        "name": "ミスターマックス湘南藤沢店",
+        "addr": "神奈川県藤沢市辻堂新町4丁目3-5 ミスターマックス湘南藤沢 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shop-10044/",
+        "hours": "10:00〜20:00・年中無休（年末年始を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "藤沢市",
+        "name": "藤沢鵠沼海岸店",
+        "addr": "神奈川県藤沢市鵠沼海岸7丁目10-28",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fujisawa-kugenumakaigan/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "藤沢市",
+        "name": "藤沢本町店",
+        "addr": "神奈川県藤沢市本町4-7-13",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fujisawa-honcho/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "藤沢市",
+        "name": "藤沢善行坂店",
+        "addr": "神奈川県藤沢市善行坂1-5-23",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/fujisawa-zengyozaka/",
+        "hours": "10:00〜19:00・火曜日 祝日の月曜日"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "藤沢市",
+        "name": "湘南台店",
+        "addr": "神奈川県藤沢市湘南台1-14-19 K・フラット1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/shonandai/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "足柄上郡中井町",
+        "name": "足柄中井町店",
+        "addr": "神奈川県足柄上郡中井町井ノ口1848-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ashigara-nakaimachi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "足柄上郡大井町",
+        "name": "足柄大井町店",
+        "addr": "神奈川県足柄上郡大井町上大井75-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ashigara-oimachi/",
+        "hours": "10:00〜18:30・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "逗子市",
+        "name": "逗子店",
+        "addr": "神奈川県逗子市逗子5-2-49",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/zushi/",
+        "hours": "10:00〜19:00・年中無休（年末年始除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "鎌倉市",
+        "name": "鎌倉店",
+        "addr": "神奈川県鎌倉市小町1丁目5-23 今川ビル 1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kamakura/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "鎌倉市",
+        "name": "鎌倉梶原店",
+        "addr": "神奈川県鎌倉市梶原240番3 2階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kamakurakajiwara/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "鎌倉市",
+        "name": "大船店",
+        "addr": "神奈川県鎌倉市大船1-22-1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ofuna/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "高座郡寒川町",
+        "name": "寒川店",
+        "addr": "神奈川県高座郡寒川町岡田6-8-12",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/samukawa/",
+        "hours": "10:00〜19:00 日曜日・祝祭日 10:00〜18:00・水曜定休"
+      }
+    ],
+    "brand_notes": [
+      [
+        "買取大吉",
+        "県ページ掲載の158店すべてで、店舗ページの買取品目一覧に「お酒」あり（2026-10-25に全店確認）。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。横浜市神奈川区では六角橋店（西神奈川3-5-1）・反町1号店・新子安駅前店・大口通商店街店の4店",
+        "https://www.kaitori-daikichi.jp/list/sake/store/kanagawa-ken/"
+      ],
+      [
+        "大黒屋",
+        "質店舗一覧の県内4店のうち、店舗ページにお酒買取の記載があるのは横浜モアーズ前店（「お酒買取、金券チケット類の買取、外貨両替も行っております」）・横浜買取センター（「お酒(買取のみ)」）・ブランド館 川崎店（「お酒(買取のみ)」）の3店",
+        "https://shichi.e-daikoku.com/shop/"
+      ],
+      [
+        "LINXAS",
+        "お酒買取専門店。県内の店舗は神奈川横浜本店（関内駅から徒歩3分）のみ。店舗ページに「神奈川区から見れば店舗は南方向です」と案内あり",
+        "https://linxas.shop/shops/kanagawa/"
+      ],
+      [
+        "ファイブニーズ",
+        "お酒買取専門店。県内の店舗は神奈川横浜店（横浜市中区羽衣町）",
+        "https://www.sakekaitori.com/shop/yokohama/"
+      ],
+      [
+        "ストックラボ",
+        "お酒買取専門店。神奈川県ページに「神奈川県には営業中の店舗があります。溝の口店」と記載。横浜店（横浜市西区南幸2丁目12-5）は店舗一覧で［臨時休業中］表示のため掲載していません",
+        "https://www.stock-lab.com/osake-kaitori/area/kanagawa/"
+      ],
+      [
+        "キングラム",
+        "神奈川県の店舗一覧の2店（相模大野店・武蔵新城店）とも、サービス欄に「酒買取」の記載あり",
+        "https://kingram.jp/shop/area/kanto/kanagawa/"
+      ]
+    ],
+    "not_liquor": "なんぼやの県内20店は、いずれも店舗ページの取扱ジャンル（ブランド総合・時計・金・貴金属・ロレックス・宝石・バッグ・食器・服・骨董品）にお酒がありません。大黒屋 質関内買取センターは店舗ページにお酒の記載がありません。銀座蔵やとリカスタは公式店舗一覧に県内の店舗がありません（出張買取は対応）。おたからやは公式店舗一覧に県内店舗（横浜市神奈川区鶴屋町の横浜本店など）がありますが、店舗ページに店舗別の買取品目一覧がなく洋酒の取扱いを確認できなかったため掲載していません。JOYLAB（joylab.jp）は2026-10-25時点でサイトが開けませんでした（HTTP 503）。",
+    "dispatch": [
+      [
+        "バイセル",
+        "「横浜市をはじめ、川崎市や相模原市など神奈川県全域」「横浜市（鶴見区・神奈川区・西区・中区など）、川崎市（川崎区・幸区・中原区・高津区など）、相模原市、横須賀市、 平塚市、 鎌倉市、 藤沢市など神奈川県全域の各市町村にて対応可能」（季節事情または地域により出張査定や最短即日対応が難しい場合ありと注記）",
+        "https://buysell-kaitori.com/area/liquor-kanagawa/"
+      ],
+      [
+        "LINXAS",
+        "県内店舗は横浜本店。「店頭買取・宅配買取・出張買取など、ライフスタイルに合わせた方法をお選びいただけます」「ご利用時の費用はすべて無料！」",
+        "https://linxas.shop/shops/kanagawa/"
+      ],
+      [
+        "大黒屋",
+        "お酒の出張買取ページの訪問査定対象エリアに、神奈川県は横浜市・川崎市・鎌倉市・藤沢市・相模原市・横須賀市・平塚市・小田原市・茅ヶ崎市・逗子市・三浦市・秦野市・厚木市・大和市・伊勢原市・海老名市・座間市・南足柄市・綾瀬市を記載",
+        "https://kaitori.e-daikoku.com/visit/liquor/"
+      ],
+      [
+        "リカスタ",
+        "「神奈川県は 出張買取 宅配買取 エリアです」「神奈川区・鶴見区・西区・中区・南区など、神奈川県内どこからでもお気軽にお申し込みいただけます」。店頭買取は東京・大阪の店舗",
+        "https://www.licasta.com/areas/area_kanagawa/"
+      ],
+      [
+        "福ちゃん",
+        "「横浜市をはじめ、川崎市、相模原市、横須賀市など、神奈川県全域がお酒買取対象エリアです」",
+        "https://www.fuku-chan.info/liquor/area/kanagawa/"
+      ],
+      [
+        "ストックラボ",
+        "神奈川県ページで宅配買取・出張買取を案内。「店舗がお近くにない場合は、宅配買取もご利用いただけます」。県内の買取対応地域に小田原市・南足柄市・平塚市・伊勢原市などを記載",
+        "https://www.stock-lab.com/osake-kaitori/area/kanagawa/"
+      ]
+    ],
+    "distillery": "神奈川県足柄上郡山北町には丹沢蒸溜所（Distillery TANZAWA）があります。公式サイトによると所在地は山北町中川822-1（ウェアハウスは山北町玄倉515）で、紀州備長炭による濾過（Bincho Charcoal Filtering）や丹沢の天然水を掲げています。2026年1月21日に自社原酒の蒸溜を開始し、運営は「株式会社DELIもっと」から分社化した「株式会社ゼロイチウイスキー」です。茅ヶ崎市の熊澤酒造も公式サイトの商品分類に「ウイスキー」を設けています。",
+    "distillery_url": "https://tanzawa-distillery.com/",
+    "distillery_label": "丹沢蒸溜所（Distillery TANZAWA）公式サイト"
   }
 }

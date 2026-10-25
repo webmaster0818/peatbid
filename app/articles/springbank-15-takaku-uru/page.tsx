@@ -138,6 +138,7 @@ export default function Springbank15TakakuUruPage() {
             <Link href="/articles/springbank-15-hako-nashi/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">箱なしボトルの買取</span><p className="text-sm font-bold mt-1">スプリングバンク15年の箱なしボトルの買取</p></Link>
             <Link href="/articles/springbank-15-label-yogore/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ラベル汚れがある場合の査定</span><p className="text-sm font-bold mt-1">スプリングバンク15年のラベル汚れがある場合の査定</p></Link>
             <Link href="/articles/springbank-15-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">スプリングバンク15年の買取相場ガイド</p></Link>
+            <Link href="/articles/springbank-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ブランド一覧</span><p className="text-sm font-bold mt-1">スプリングバンクの買取価格一覧（全ボトル）</p></Link>
             <Link href="/articles/springbank-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">スプリングバンク（全種）の偽物の見分け方</p></Link>
           </div>
 
