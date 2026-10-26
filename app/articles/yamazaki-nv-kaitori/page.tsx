@@ -50,12 +50,12 @@ export default function YamazakiNvKaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎ノンエイジの買取相場と業者比較ガイド【2026年10月】</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎ノンエイジ（NV）の買取相場・買取価格【2026年10月】箱あり・箱無しの差と7店の掲示価格</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
             <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">山崎NV（ノンエイジ）の買取価格（2026年10月24日確認）</h2>
-            <p className="text-sm text-ink mb-3">買取店が自社サイトに掲示している山崎NV（年数表記なし）の買取価格をまとめました。店舗別の内訳と出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格</a> にあります。</p>
+            <p className="text-sm text-ink mb-3"><strong>山崎ノンエイジ（NV・700ml）の買取相場は、箱ありで 9,000〜10,000円、箱無しで 9,500〜9,600円</strong> です（2026年10月24日確認・店舗の掲示）。LINXAS・リカスタ・キングラムリカーの3店は箱の有無で同じ価格を掲示しており、箱が無いことで大きく下がるわけではありません。店舗別の内訳と出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格</a> にあります。</p>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル・状態</th><th className="py-2 pr-3 text-right">買取価格（店舗の掲示）</th><th className="py-2">店舗・確認日</th></tr></thead>

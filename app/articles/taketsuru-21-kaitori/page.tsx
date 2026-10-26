@@ -57,7 +57,7 @@ export default function Taketsuru21KaitoriPage() {
 
           <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
             <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">竹鶴21年の買取価格（2026年10月22日確認）</h2>
-            <p className="text-sm text-ink mb-3">買取店が自社サイトに掲示している竹鶴21年（700ml・未開封）の買取価格を、ボトルの種類と箱の有無ごとにまとめました。店舗別の内訳と出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格</a> にあります。</p>
+            <p className="text-sm text-ink mb-3">買取店が自社サイトに掲示している竹鶴21年（700ml・未開封）の買取価格を、ボトルの種類と箱の有無ごとにまとめました。店舗別の内訳と出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格</a> にあります。 竹鶴21年以外（ピュアモルト・12年・17年・25年・限定品）を含む「竹鶴」全体の買取価格は <Link href="/articles/taketsuru-kaitori/" className="text-amber-dark underline hover:text-burgundy">竹鶴の買取価格一覧</Link> にまとめています。</p>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル・状態</th><th className="py-2 pr-3 text-right">買取価格（店舗の掲示）</th><th className="py-2">店舗・確認日</th></tr></thead>

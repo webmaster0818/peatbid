@@ -56,6 +56,18 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ブラックボウモアとは？全6種の違いと買取相場・業者比較【2026年10月】</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
+          <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
+            <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">ブラックボウモアの値段・買取価格の早見表（2026年10月16日・21日確認）</h2>
+            <p className="text-sm text-ink mb-3">ブラックボウモアの値段は、エディション（29年・30年・31年・42年・50年・DB5）とボトルの状態で大きく変わります。国内の買取店が公開している掲示価格・買取実績と、海外オークションの落札額を先にまとめました。エディションごとの違いは <a href="#editions" className="text-amber-dark underline hover:text-burgundy">1-2. 全エディションの違い</a>、店舗別の内訳と出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格・買取実績</a> にあります。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル・状態</th><th className="py-2 pr-3 text-right">買取価格（店舗の掲示）</th><th className="py-2">店舗・確認日</th></tr></thead>
+                <tbody><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">42年（2007年瓶詰め・箱あり）</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">〜1,500,000円</td><td className="py-2 text-xs text-warm-gray">LINXAS 参考買取価格（2026-01-26 更新）。ヒカカク！の最高買取相場は 450,000円</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">1964年蒸溜（29〜31年の3作）の買取実績</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">993,000〜1,050,000円</td><td className="py-2 text-xs text-warm-gray">ストックラボ 1,050,000円（新宿本社・日付記載なし）・ウイスキー王国 993,000円（未開封・箱付き）</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">30年（セカンドエディション）の上限の目安</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">〜900,000円</td><td className="py-2 text-xs text-warm-gray">買取センター.com の最高買取価格（記載日なし）</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">海外オークションの落札額（30年）</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">7,000ポンド</td><td className="py-2 text-xs text-warm-gray">Whisky.Auction 2025年4月22日終了（液面 Middle shoulder・使用感ありと記載）</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">海外オークションの落札額（50年・DB5）</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">47,580ドル／81,000ポンド</td><td className="py-2 text-xs text-warm-gray">50年: Whisky Auctioneer 2026年10月5日終了（Whisky Advocate 2026-10-16）／DB5: 2021年初め（Australian Whisky Auctions）</td></tr></tbody>
+              </table>
+            </div>
+            <p className="text-[12px] text-warm-gray leading-relaxed mt-3">掲示価格・実績は各店の参考額で、実際の買取額は液面の高さ・ラベルや木箱の状態・付属品で変わります。海外オークションの金額は落札額であり、日本の買取店がその額で買い取るという意味ではありません。ヤフオクの落札データは過去180日で20件未満のため、落札中央値は出していません。</p>
+          </section>
+
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Table of Contents */}

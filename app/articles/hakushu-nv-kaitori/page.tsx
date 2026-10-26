@@ -50,12 +50,12 @@ export default function HakushuNvKaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">白州ノンエイジの買取相場と業者比較ガイド【2026年10月】</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">白州ノンエイジ（NV）の買取価格・相場【2026年10月】6店の掲示価格と2018年からの推移</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
             <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">白州NV（ノンエイジ）の買取価格（2026年10月24日確認）</h2>
-            <p className="text-sm text-ink mb-3">買取店が自社サイトに掲示している白州NV（年数表記なし）の買取価格です。2018年からの価格推移は <a href="#longterm" className="text-amber-dark underline hover:text-burgundy">長期の価格推移</a>、店舗別の内訳と出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格</a> にあります。</p>
+            <p className="text-sm text-ink mb-3"><strong>白州ノンエイジ（NV・700ml）の買取価格は、6店の掲示で 9,000〜10,000円</strong> です（2026年10月24日確認）。箱の有無で価格を分けない店が多く、箱なしでも 9,500〜9,700円 が掲示されています。下の表は買取店が自社サイトに掲示している価格です。2018年からの価格推移は <a href="#longterm" className="text-amber-dark underline hover:text-burgundy">長期の価格推移</a>、店舗別の内訳と出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格</a> にあります。 年数表記のある白州（12年・18年・25年）は <Link href="/articles/hakushu-kaitori/" className="text-amber-dark underline hover:text-burgundy">白州の全グレード一覧</Link> から各ページへ進めます。</p>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル・状態</th><th className="py-2 pr-3 text-right">買取価格（店舗の掲示）</th><th className="py-2">店舗・確認日</th></tr></thead>
