@@ -45,7 +45,7 @@ export default function MarsKomagatakeHakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">マルス駒ヶ岳</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 信州マルス蒸溜所 / ノンエイジ / 希少度 コモン / 市場相場 7,500円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 本坊酒造 マルス駒ヶ岳蒸溜所 / ノンエイジ / 希少度 コモン / 市場相場 7,500円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/mars-komagatake-kaitori/" className="text-amber-dark underline">マルス駒ヶ岳の買取相場ガイド</Link></p>
           </div>
 
@@ -106,7 +106,7 @@ export default function MarsKomagatakeHakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. マルス駒ヶ岳の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マルス駒ヶ岳</strong>はジャパニーズウイスキー（信州マルス蒸溜所）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>7,500円</strong>（流通サンプル284件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マルス駒ヶ岳</strong>はジャパニーズウイスキー（本坊酒造 マルス駒ヶ岳蒸溜所）のノンエイジ（NV）、度数45%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>7,500円</strong>（流通サンプル284件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>マルス駒ヶ岳の場合、実勢中央値<strong>7,500円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します。</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 7,500円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約6,380〜7,120円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約6,380〜6,900円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約6,000〜6,750円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約5,620〜6,380円（75〜85%）

@@ -6,7 +6,7 @@ import priceData from "@/data/price-history/mars-komagatake.json";
 
 export const metadata: Metadata = {
   title: 'マルス駒ヶ岳の歴史・特徴と買取価値【2026年10月最新】市場で評価される理由',
-  description: 'マルス駒ヶ岳の歴史的背景、信州マルス蒸溜所の沿革、味わいの特徴、世界的な評価、市場価値が高い理由を解説しています。',
+  description: 'マルス駒ヶ岳の歴史的背景、本坊酒造 マルス駒ヶ岳蒸溜所の沿革、味わいの特徴、世界的な評価、市場価値が高い理由を解説しています。',
 };
 
 function FaqSchema() {
@@ -45,7 +45,7 @@ export default function MarsKomagatakeRekishiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">マルス駒ヶ岳</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 信州マルス蒸溜所 / ノンエイジ / 希少度 コモン / 市場相場 7,500円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 本坊酒造 マルス駒ヶ岳蒸溜所 / ノンエイジ / 希少度 コモン / 市場相場 7,500円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/mars-komagatake-kaitori/" className="text-amber-dark underline">マルス駒ヶ岳の買取相場ガイド</Link></p>
           </div>
 
@@ -54,7 +54,7 @@ export default function MarsKomagatakeRekishiPage() {
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
               <li><a href="#section-0" className="hover:underline">1. マルス駒ヶ岳の市場ポジションとデータ分析</a></li>
-              <li><a href="#section-1" className="hover:underline">2. 信州マルス蒸溜所の創業と歴史</a></li>
+              <li><a href="#section-1" className="hover:underline">2. 本坊酒造 マルス駒ヶ岳蒸溜所の創業と歴史</a></li>
               <li><a href="#section-2" className="hover:underline">3. マルス駒ヶ岳の誕生背景</a></li>
               <li><a href="#section-3" className="hover:underline">4. マルス駒ヶ岳の味わいプロファイル</a></li>
               <li><a href="#section-4" className="hover:underline">5. 世界的評価と受賞歴</a></li>
@@ -64,7 +64,7 @@ export default function MarsKomagatakeRekishiPage() {
             </ol>
           </div>
 
-          <p>マルス駒ヶ岳はジャパニーズウイスキーの代表的な銘柄の一つで、信州マルス蒸溜所が手がけるノンエイジのボトルです。本記事では、銘柄の誕生の背景、蒸溜所の沿革、味わいの特徴、世界的な評価、二次流通市場で高値が定着している理由を解説します。</p>
+          <p>マルス駒ヶ岳はジャパニーズウイスキーの代表的な銘柄の一つで、本坊酒造 マルス駒ヶ岳蒸溜所が手がけるノンエイジのボトルです。本記事では、銘柄の誕生の背景、蒸溜所の沿革、味わいの特徴、世界的な評価、二次流通市場で高値が定着している理由を解説します。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
@@ -77,13 +77,13 @@ export default function MarsKomagatakeRekishiPage() {
           </div>
 
           <h2 id="section-0">1. マルス駒ヶ岳の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マルス駒ヶ岳</strong>はジャパニーズウイスキー（信州マルス蒸溜所）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>7,500円</strong>（流通サンプル284件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マルス駒ヶ岳</strong>はジャパニーズウイスキー（本坊酒造 マルス駒ヶ岳蒸溜所）のノンエイジ（NV）、度数45%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>7,500円</strong>（流通サンプル284件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
-          <h2 id="section-1">2. 信州マルス蒸溜所の創業と歴史</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>信州マルス蒸溜所は、ジャパニーズウイスキーの蒸溜所・メーカーです。マルス駒ヶ岳を含む銘柄を製造しています。</p><p>ジャパニーズウイスキーの場合は1923年の山崎蒸溜所創設以降、スコッチの場合は18〜19世紀に遡る歴史を持つ銘柄も多数あります。各蒸溜所は独自の蒸溜方法・水・樽の選定によって個性を表現しており、それが現在の市場価値につながっています。</p>` }} />
+          <h2 id="section-1">2. 本坊酒造 マルス駒ヶ岳蒸溜所の創業と歴史</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>本坊酒造 マルス駒ヶ岳蒸溜所は、ジャパニーズウイスキーの蒸溜所・メーカーです。マルス駒ヶ岳を含む銘柄を製造しています。</p><p>ジャパニーズウイスキーの場合は1923年の山崎蒸溜所創設以降、スコッチの場合は18〜19世紀に遡る歴史を持つ銘柄も多数あります。各蒸溜所は独自の蒸溜方法・水・樽の選定によって個性を表現しており、それが現在の市場価値につながっています。</p>` }} />
 
           <h2 id="section-2">3. マルス駒ヶ岳の誕生背景</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>マルス駒ヶ岳は、信州マルス蒸溜所が製造するノンエイジのボトルです。樽熟成の過程で樽材から溶け出した成分と原酒が合わさり、その銘柄ならではの味わいが生まれます。</p><p>生産量が限られていることから、コレクターや愛好家から高い評価を得ています。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>マルス駒ヶ岳は、本坊酒造 マルス駒ヶ岳蒸溜所が製造するノンエイジのボトルです。樽熟成の過程で樽材から溶け出した成分と原酒が合わさり、その銘柄ならではの味わいが生まれます。</p><p>生産量が限られていることから、コレクターや愛好家から高い評価を得ています。</p>` }} />
 
           <h2 id="section-3">4. マルス駒ヶ岳の味わいプロファイル</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ウイスキーの味わいは、原料・水・蒸溜方法・熟成樽・熟成期間で決まります。
@@ -93,7 +93,7 @@ export default function MarsKomagatakeRekishiPage() {
 これらの要素の組み合わせと熟成期間によって、{name}の味わいが形成されています。</li></ol>` }} />
 
           <h2 id="section-4">5. 世界的評価と受賞歴</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>信州マルス蒸溜所の銘柄が評価を受けている主な国際品評会・評価には、以下があります。</p><ol><li>ISC（インターナショナル・スピリッツ・チャレンジ）</li><li>ワールド・ウイスキー・アワード（WWA）</li><li>サンフランシスコ・ワールド・スピリッツ・コンペティション</li><li>ジム・マーレイ氏のウイスキー・バイブル</li><li>ウイスキー・マガジン・アワード
+          <div dangerouslySetInnerHTML={{ __html: `<p>本坊酒造 マルス駒ヶ岳蒸溜所の銘柄が評価を受けている主な国際品評会・評価には、以下があります。</p><ol><li>ISC（インターナショナル・スピリッツ・チャレンジ）</li><li>ワールド・ウイスキー・アワード（WWA）</li><li>サンフランシスコ・ワールド・スピリッツ・コンペティション</li><li>ジム・マーレイ氏のウイスキー・バイブル</li><li>ウイスキー・マガジン・アワード
 
 こうした国際的な評価は、二次流通市場での価格に影響しています。</li></ol>` }} />
 

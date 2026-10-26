@@ -14,7 +14,7 @@ const fetchedAt = l25?.fetched_at ?? "";
 export const metadata: Metadata = {
   title: "ラフロイグ 年代指定なしの買取価格【2026年10月】セレクト2,000〜3,500円・ロア・トリプルウッド｜店舗の掲示価格",
   description:
-    "ラフロイグの年代指定なし（NV）の買取価格を店舗の掲示価格で確認（2026年10月25日）。セレクト2,000〜3,500円、ロア6,000円、トリプルウッド10,000円。PXカスクの買取実績、10年・25年との比較、ボトルの見分け方も掲載しています。",
+    "ラフロイグの年代指定なし（NV）の買取価格を店舗の掲示価格で確認（2026年10月26日）。セレクト2,000〜3,500円、クォーターカスク3,000円、ロア6,000円、トリプルウッド10,000円。PXカスクの買取実績、10年・25年との比較、ボトルの見分け方も掲載しています。",
   alternates: { canonical: "/articles/laphroaig-nv-kaitori/" },
 };
 
@@ -86,7 +86,7 @@ export default function LaphroaigNvKaitoriPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ラフロイグの年代指定なし(NV)買取相場｜ボトルの見分け方と実勢価格【2026年10月】</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-25 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-5 mb-8 not-prose">
             <p className="font-bold text-ink mb-2">この記事の結論（30秒）</p>
@@ -153,17 +153,17 @@ export default function LaphroaigNvKaitoriPage() {
                 <tr><th>店舗</th><th>ボトル</th><th>掲示価格</th><th>店舗側の更新日</th></tr>
               </thead>
               <tbody>
-                <tr><td>LINXAS（リンクサス）</td><td>ラフロイグセレクト</td><td><strong>2,000円/2,000円</strong></td><td>2026-09-30</td></tr><tr><td>ストックラボ</td><td>ラフロイグ セレクト</td><td><strong>2,500円〜3,500円</strong></td><td>2026-10-24</td></tr><tr><td>LINXAS（リンクサス）</td><td>ラフロイグロア</td><td><strong>6,000円</strong></td><td>2026-09-30</td></tr><tr><td>LINXAS（リンクサス）</td><td>ラフロイグカーディストリプルウッド</td><td><strong>10,000円</strong></td><td>2026-09-30</td></tr><tr><td>LINXAS（リンクサス）</td><td>【参考】ラフロイグカーディス200周年記念2015（限定品）</td><td><strong>27,000円</strong></td><td>2026-09-30</td></tr><tr><td>LINXAS（リンクサス）</td><td>【参考】ラフロイグ10年新</td><td><strong>3,000円/2,500円</strong></td><td>2026-09-30</td></tr><tr><td>ストックラボ</td><td>【参考】ラフロイグ 10年</td><td><strong>3,500円〜4,500円</strong></td><td>2026-10-24</td></tr>
+                <tr><td>LINXAS（リンクサス）</td><td>ラフロイグセレクト</td><td><strong>2,000円/2,000円</strong></td><td>2026-09-30</td></tr><tr><td>ストックラボ</td><td>ラフロイグ セレクト</td><td><strong>2,500円〜3,500円</strong></td><td>2026-10-24</td></tr><tr><td>LINXAS（リンクサス）</td><td>ラフロイグロア</td><td><strong>6,000円</strong></td><td>2026-09-30</td></tr><tr><td>LINXAS（リンクサス）</td><td>ラフロイグカーディストリプルウッド</td><td><strong>10,000円</strong></td><td>2026-09-30</td></tr><tr><td>LINXAS（リンクサス）</td><td>ラフロイグクォーターカスク 700ml（箱あり）</td><td><strong>3,000円</strong></td><td>2026-02-12</td></tr><tr><td>LINXAS（リンクサス）</td><td>【参考】ラフロイグカーディス200周年記念2015（限定品）</td><td><strong>27,000円</strong></td><td>2026-09-30</td></tr><tr><td>LINXAS（リンクサス）</td><td>【参考】ラフロイグ10年新</td><td><strong>3,000円/2,500円</strong></td><td>2026-09-30</td></tr><tr><td>ストックラボ</td><td>【参考】ラフロイグ 10年</td><td><strong>3,500円〜4,500円</strong></td><td>2026-10-24</td></tr>
               </tbody>
             </table>
           </div>
 
-          <p>セレクトは LINXAS が箱付・箱無とも 2,000円、ストックラボが 2,500〜3,500円 です。ロアは 6,000円、トリプルウッド（LINXAS の表記は「カーディストリプルウッド」）は 10,000円 で、同じ年数表記なしでもボトルによって5倍の差があります。<strong>クォーターカスクと PXカスクは、確認した店の価格表に行がありません</strong>（2026-10-25時点）。ストックラボの月別買取相場では、セレクトは 2025年2月〜2026年4月に 1,800〜2,500円 で推移しています（2026年5〜9月は実績なし）。</p>
+          <p>セレクトは LINXAS が箱付・箱無とも 2,000円、ストックラボが 2,500〜3,500円 です。ロアは 6,000円、トリプルウッド（LINXAS の表記は「カーディストリプルウッド」）は 10,000円 で、同じ年数表記なしでもボトルによって5倍の差があります。クォーターカスクは LINXAS の個別ページに箱あり <strong>3,000円</strong>（価格更新日 2026-02-12。総合価格表には行がありません）、<strong>PXカスクは確認した店の価格表に行がありません</strong>（2026-10-26時点）。ストックラボの月別買取相場では、セレクトは 2025年2月〜2026年4月に 1,800〜2,500円 で推移しています（2026年5〜9月は実績なし）。</p>
 
           <p className="text-sm font-bold mt-4">各店が公開している買取実績（年数表記なし）</p>
-          <ul className="text-sm"><li>2026-06-02　ラフロイグ PX カスク 1000ml　<strong>7,500円</strong>（ファイブニーズ）</li><li>2024-08-10　ラフロイグ セレクト 350ml　<strong>500円</strong>（ファイブニーズ）</li><li>2024-07-30　ラフロイグ カーディス 2024 700ml　<strong>16,000円</strong>（ファイブニーズ）</li><li>2025-01-16　ラフロイグ セレクト　<strong>2,000円</strong>（LINXAS（リンクサス））</li><li>2026-09-03　【参考】ラフロイグ 10年 オリジナル カスクストレングス バッチ016 58.5% 700ml　<strong>9,500円</strong>（ファイブニーズ）</li><li>2026-05-02　【参考】ラフロイグ 10年 旧ボトル 700ml　<strong>11,000円</strong>（ファイブニーズ）</li><li>2024-12-07　【参考】ラフロイグ シングルモルト 10年 750ml　<strong>2,500円</strong>（ファイブニーズ）</li><li>2024-08-12　【参考】ラフロイグ 10年 700ml　<strong>3,000円</strong>（ファイブニーズ）</li></ul>
+          <ul className="text-sm"><li>2026-06-02　ラフロイグ PX カスク 1000ml　<strong>7,500円</strong>（ファイブニーズ）</li><li>2024-08-10　ラフロイグ セレクト 350ml　<strong>500円</strong>（ファイブニーズ）</li><li>2024-07-30　ラフロイグ カーディス 2024 700ml　<strong>16,000円</strong>（ファイブニーズ）</li><li>2025-01-16　ラフロイグ セレクト　<strong>2,000円</strong>（LINXAS（リンクサス））</li><li>2026-10-12　【参考】ラフロイグ10年 オリジナルカスクストレングス　<strong>50,000円</strong>（LINXAS（リンクサス））</li><li>2026-06-09　【参考】ラフロイグ 10年 旧ボトル 箱付　<strong>10,000円</strong>（大黒屋）</li><li>2026-09-03　【参考】ラフロイグ 10年 オリジナル カスクストレングス バッチ016 58.5% 700ml　<strong>9,500円</strong>（ファイブニーズ）</li><li>2026-05-02　【参考】ラフロイグ 10年 旧ボトル 700ml　<strong>11,000円</strong>（ファイブニーズ）</li><li>2024-12-07　【参考】ラフロイグ シングルモルト 10年 750ml　<strong>2,500円</strong>（ファイブニーズ）</li><li>2024-08-12　【参考】ラフロイグ 10年 700ml　<strong>3,000円</strong>（ファイブニーズ）</li></ul>
 
-          <p className="text-[11px] text-warm-gray">出典: <a href="https://linxas.shop/whiskey/laphroaig/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS「ラフロイグ 買取」</a>・<a href="https://www.stock-lab.com/osake-kaitori/whiskey/laphroaig/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">ストックラボ「ラフロイグの買取」</a>・<a href="https://www.sakekaitori.com/whisky/scotch_whiskey/laphroaig_brand/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">ファイブニーズ「ラフロイグ」</a>（2026-10-25確認）。各店の参考価格であり、実際の買取額を保証するものではありません。大黒屋・リカスタ・買取大吉では、確認した範囲で年数表記のないラフロイグの掲示価格は見つかりませんでした。</p>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://linxas.shop/whiskey/laphroaig/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS「ラフロイグ 買取」</a>・<a href="https://www.stock-lab.com/osake-kaitori/whiskey/laphroaig/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">ストックラボ「ラフロイグの買取」</a>・<a href="https://www.sakekaitori.com/whisky/scotch_whiskey/laphroaig_brand/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">ファイブニーズ「ラフロイグ」</a>・<a href="https://linxas.shop/whiskey/laphroaig/laphroaigquartercask/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS「ラフロイグクォーターカスク 買取」</a>・<a href="https://kaitori.e-daikoku.com/liquor/whisky/laphroaig/ex/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">大黒屋「ラフロイグ買取実績」</a>（2026-10-26確認）。各店の参考価格であり、実際の買取額を保証するものではありません。大黒屋・リカスタ・買取大吉では、確認した範囲で年数表記のないラフロイグの掲示価格は見つかりませんでした。</p>
 
           <h2 id="jissei">3-2. ヤフオク実勢データ（NV・年代付きの比較）</h2>
 

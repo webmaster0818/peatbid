@@ -45,7 +45,7 @@ export default function MarsKomagatakeLabelYogorePage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">マルス駒ヶ岳</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 信州マルス蒸溜所 / ノンエイジ / 希少度 コモン / 市場相場 7,500円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 本坊酒造 マルス駒ヶ岳蒸溜所 / ノンエイジ / 希少度 コモン / 市場相場 7,500円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/mars-komagatake-kaitori/" className="text-amber-dark underline">マルス駒ヶ岳の買取相場ガイド</Link></p>
           </div>
 
@@ -106,7 +106,7 @@ export default function MarsKomagatakeLabelYogorePage() {
           </div>
 
           <h2 id="section-0">1. マルス駒ヶ岳の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マルス駒ヶ岳</strong>はジャパニーズウイスキー（信州マルス蒸溜所）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>7,500円</strong>（流通サンプル284件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>マルス駒ヶ岳</strong>はジャパニーズウイスキー（本坊酒造 マルス駒ヶ岳蒸溜所）のノンエイジ（NV）、度数45%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>7,500円</strong>（流通サンプル284件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. ラベル状態の判定基準</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>ラベルは、コレクター品の評価において重要な要素です。買取査定では、以下の状態を確認します。</p><ol><li><strong>新品同様</strong> — 印刷が鮮明で、しわ・汚れ・破れがない</li><li><strong>軽度の汚れ</strong> — 表面の埃・指紋・若干の変色</li><li><strong>シミ・水濡れ跡</strong> — 液体接触の痕跡</li><li><strong>破れ・欠け・剥がれ</strong> — 物理的損傷</li><li><strong>強い退色</strong> — 直射日光や蛍光灯による色あせ</li><li><strong>カビ・カビ跡</strong> — 湿度過多による劣化</li><li><strong>粘着テープ跡</strong> — 不適切な貼付・剥離跡</li></ol>` }} />

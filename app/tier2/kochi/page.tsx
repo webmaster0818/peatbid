@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-const TITLE = "お酒買取 高知県｜県内でウイスキーを買い取る9店・出張対応とYahoo実売相場【2026年最新】";
-const DESC = "高知県でお酒・ウイスキーを売る方向けに、高知市・南国市・安芸市の買取大吉9店、バイセル・福ちゃん等の出張買取の対応エリア、仁淀川町の高知ウイスキー仁淀川蒸留所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。";
+const TITLE = "お酒買取 高知県｜県内でウイスキーを買い取る13店・出張対応とYahoo実売相場【2026年最新】";
+const DESC = "高知県でお酒・ウイスキーを売る方向けに、高知市・南国市・安芸市・いの町の買取大吉9店・買取店わかば4店、バイセル・福ちゃん等の出張買取の対応エリア、仁淀川町の高知ウイスキー仁淀川蒸留所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。";
 const URL = "https://peatbid.com/tier2/kochi/";
 
 export const metadata: Metadata = {
@@ -133,9 +133,9 @@ export default function Page() {
 
 
       {/* 5-2. 県内の実店舗・出張対応（data/local-buyers.json） */}
-      <h2 id="local-stores" className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">高知県内でお酒を買い取る店舗（9店・2026-10-25確認）</h2>
-      <p className="text-sm text-warm-gray mb-4 leading-relaxed">各社の公式サイトの店舗ページで、お酒（洋酒）の買取を確認できた高知県内の店舗です（PeatBid編集部が2026-10-25に確認）。営業時間や取扱品目は変わることがあるため、来店前に各店舗へご確認ください。</p>
-      <p id="local-cities" className="text-sm text-ink mb-4 leading-relaxed"><strong>市町村別の店舗数</strong>：高知市 7店・安芸市 1店・南国市 1店</p>
+      <h2 id="local-stores" className="font-display text-xl md:text-2xl font-semibold mt-10 mb-3">高知県内でお酒を買い取る店舗（13店・2026-10-25（買取店わかばは2026-10-26）確認）</h2>
+      <p className="text-sm text-warm-gray mb-4 leading-relaxed">各社の公式サイトの店舗ページで、お酒（洋酒）の買取を確認できた高知県内の店舗です（PeatBid編集部が2026-10-25（買取店わかばは2026-10-26）に確認）。営業時間や取扱品目は変わることがあるため、来店前に各店舗へご確認ください。</p>
+      <p id="local-cities" className="text-sm text-ink mb-4 leading-relaxed"><strong>市町村別の店舗数</strong>：高知市 9店・南国市 2店・安芸市 1店・いの町 1店</p>
       <div className="overflow-x-auto mb-4 rounded-xl border border-warm-border">
         <table className="w-full text-sm">
           <thead className="bg-cream/60"><tr className="text-left text-xs text-warm-gray"><th className="px-3 py-2">市</th><th className="px-3 py-2">店舗</th><th className="px-3 py-2">住所（公式表記）</th><th className="px-3 py-2">営業時間（公式）</th><th className="px-3 py-2">出典</th></tr></thead>
@@ -149,10 +149,14 @@ export default function Page() {
               <tr className="border-b border-warm-border/60"><td className="px-3 py-2 whitespace-nowrap">高知市</td><td className="px-3 py-2">買取大吉 Ａ・ＭＡＸ横浜店</td><td className="px-3 py-2">高知県高知市横浜新町4-2403 エーマックス横浜店</td><td className="px-3 py-2 text-xs">10:00〜18:30・年中無休（年末年始を除く）</td><td className="px-3 py-2 whitespace-nowrap"><a href="https://www.kaitori-daikichi.jp/list/sake/store/amax-yokohama/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">店舗ページ</a></td></tr>
               <tr className="border-b border-warm-border/60"><td className="px-3 py-2 whitespace-nowrap">高知市</td><td className="px-3 py-2">買取大吉 イオン高知店</td><td className="px-3 py-2">高知県高知市秦南町1丁目4-8 イオン高知1階</td><td className="px-3 py-2 text-xs">10:00〜20:00・年中無休（年末年始、臨時休業を除く）</td><td className="px-3 py-2 whitespace-nowrap"><a href="https://www.kaitori-daikichi.jp/list/sake/store/ae-kochi/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">店舗ページ</a></td></tr>
               <tr className="border-b border-warm-border/60"><td className="px-3 py-2 whitespace-nowrap">高知市</td><td className="px-3 py-2">買取大吉 高知河ノ瀬店</td><td className="px-3 py-2">高知県高知市河ノ瀬町30-2</td><td className="px-3 py-2 text-xs">10:00〜18:00・水曜定休</td><td className="px-3 py-2 whitespace-nowrap"><a href="https://www.kaitori-daikichi.jp/list/sake/store/gounose/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">店舗ページ</a></td></tr>
+              <tr className="border-b border-warm-border/60"><td className="px-3 py-2 whitespace-nowrap">高知市</td><td className="px-3 py-2">買取店わかば サンシャインクロバ福井店</td><td className="px-3 py-2">高知県高知市福井町1198-1 サンシャインクロバ福井店 西入口横</td><td className="px-3 py-2 text-xs">10:00〜18:00（最終受付17:00）・月曜・年末年始休</td><td className="px-3 py-2 whitespace-nowrap"><a href="https://wakaba-shop.jp/shop/kouchi-clova-fukui/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">店舗ページ</a></td></tr>
+              <tr className="border-b border-warm-border/60"><td className="px-3 py-2 whitespace-nowrap">高知市</td><td className="px-3 py-2">買取店わかば 高知大丸店</td><td className="px-3 py-2">高知県高知市帯屋町1丁目1-9 高知大丸東館 B1F</td><td className="px-3 py-2 text-xs">10:00〜18:00（最終受付17:00）・不定休・年末年始休</td><td className="px-3 py-2 whitespace-nowrap"><a href="https://wakaba-shop.jp/shop/ino/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">店舗ページ</a></td></tr>
+              <tr className="border-b border-warm-border/60"><td className="px-3 py-2 whitespace-nowrap">南国市</td><td className="px-3 py-2">買取店わかば サンシャインカルディア南国店</td><td className="px-3 py-2">高知県南国市後免町144-2 サンシャインカルディア店 1F</td><td className="px-3 py-2 text-xs">10:00〜18:00（最終受付17:00）・不定休・年末年始休</td><td className="px-3 py-2 whitespace-nowrap"><a href="https://wakaba-shop.jp/shop/kouchi-nankoku/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">店舗ページ</a></td></tr>
+              <tr className="border-b border-warm-border/60"><td className="px-3 py-2 whitespace-nowrap">いの町</td><td className="px-3 py-2">買取店わかば 高知サニーアクシスいの店</td><td className="px-3 py-2">高知県吾川郡いの町205 サニーアクシスいの店 1F</td><td className="px-3 py-2 text-xs">10:00〜19:00（最終受付18:00）・不定休・年末年始休</td><td className="px-3 py-2 whitespace-nowrap"><a href="https://wakaba-shop.jp/shop/axisino/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">店舗ページ</a></td></tr>
           </tbody>
         </table>
       </div>
-      <ul className="text-sm text-warm-gray mb-4 leading-relaxed list-disc pl-5 space-y-1"><li><strong>買取大吉</strong>：県ページ掲載の9店すべてで、店舗ページの買取品目一覧に「お酒」あり。品目に「お酒」。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」（<a href="https://www.kaitori-daikichi.jp/list/sake/store/koti-ken/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">公式</a>）</li></ul>
+      <ul className="text-sm text-warm-gray mb-4 leading-relaxed list-disc pl-5 space-y-1"><li><strong>買取大吉</strong>：県ページ掲載の9店すべてで、店舗ページの買取品目一覧に「お酒」あり。品目に「お酒」。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」（<a href="https://www.kaitori-daikichi.jp/list/sake/store/koti-ken/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">公式</a>）</li><li><strong>買取店わかば</strong>：県内4店すべてで、店舗ページの「主な買取商品一覧」に「お酒買取」あり。会社情報に関連会社としてバイセルを記載（2026-10-26確認）（<a href="https://wakaba-shop.jp/shop/zenkoku_all/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">公式</a>）</li></ul>
       <p className="text-sm text-warm-gray mb-8 leading-relaxed">おたからやの県内10店は、いずれも店舗ページの買取品目に洋酒・お酒の記載がありません（2026-10-25確認）。大黒屋・銀座蔵や・なんぼや・キングラム・ジュエルカフェは公式サイトで県内の店舗を確認できませんでした。</p>
 
       <h3 className="font-bold text-lg mt-8 mb-2">高知県への出張買取（公式の記載）</h3>

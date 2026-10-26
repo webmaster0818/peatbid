@@ -5,19 +5,21 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/mars-komagatake.json";
 
 export const metadata: Metadata = {
-  title: 'マルス駒ヶ岳の買取相場【2026年10月最新】7,500円｜箱なし・開封済みの査定額も',
-  description: 'マルス駒ヶ岳の買取相場は7,500円が目安（Yahoo Auctions 過去180日落札中央値ベース）。箱なし・開封済み等の状態別の買取価格の目安、買取業者3社の比較、高く売るためのポイント、贋作のリスクについて解説しています。',
+  title: 'マルス駒ヶ岳の買取価格・相場【2026年10月最新】40周年記念ボトルの買取実績18,000円・定価｜限定品別',
+  description: 'シングルモルト駒ヶ岳の買取価格（2026年10月26日確認）。40周年記念ボトル（40th Anniversary Special Edition・約5,000本・定価29,700円）の買取実績18,000円、定番品の実績、限定品の掲示価格7,500〜20,000円、本坊酒造公式の仕様を掲載。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'マルス駒ヶ岳の市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": 'マルス駒ヶ岳の市場相場は7,500円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=284、取得日 2026-10-26）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": 'マルス駒ヶ岳を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' } }, { "@type": "Question", "name": '開封済みのマルス駒ヶ岳でも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' } }, { "@type": "Question", "name": 'マルス駒ヶ岳は箱なしでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約6,000〜6,750円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' } }, { "@type": "Question", "name": 'マルス駒ヶ岳に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' } }, { "@type": "Question", "name": 'マルス駒ヶ岳の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' } }, { "@type": "Question", "name": 'マルス駒ヶ岳は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'マルス駒ヶ岳を売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" } }, { "@type": "Question", "name": 'マルス駒ヶ岳と他の銘柄は、どちらを先に売るべきですか？', "acceptedAnswer": { "@type": "Answer", "text": '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": 'マルス駒ヶ岳の市場相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": 'マルス駒ヶ岳の市場相場は7,500円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=284、取得日 2026-10-26）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' } }, { "@type": "Question", "name": 'マルス駒ヶ岳を高く売るコツは？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' } }, { "@type": "Question", "name": '開封済みのマルス駒ヶ岳でも買取できますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' } }, { "@type": "Question", "name": 'マルス駒ヶ岳は箱なしでも買取してもらえますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約6,000〜6,750円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' } }, { "@type": "Question", "name": 'マルス駒ヶ岳に偽物・贋作はありますか？', "acceptedAnswer": { "@type": "Answer", "text": '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' } }, { "@type": "Question", "name": 'マルス駒ヶ岳の保管方法は？', "acceptedAnswer": { "@type": "Answer", "text": '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' } }, { "@type": "Question", "name": 'マルス駒ヶ岳は税金がかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '駒ヶ岳40周年記念ボトルはいくらで売れますか？', "acceptedAnswer": { "@type": "Answer", "text": '2026-10-26 時点で、大黒屋・LINXAS・ストックラボ・ファイブニーズ・キングラムリカーの価格表に40周年記念ボトル（シングルモルト駒ヶ岳 40th Anniversary Special Edition）の行はありません。さすがやが 2026年2月20日・2月14日に各18,000円（付属品完備）で買い取った実績を公開しています。本坊酒造の公式情報では、2025年12月上旬発売・約5,000本・700ml・50%・希望小売価格 29,700円（税込）で、表示は「生産終了」です。' } }, { "@type": "Question", "name": 'マルス駒ヶ岳を売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" } }, { "@type": "Question", "name": 'マルス駒ヶ岳と他の銘柄は、どちらを先に売るべきですか？', "acceptedAnswer": { "@type": "Answer", "text": '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' } }] }) }} />;
 }
 
 const tocItems = [
   { id: "summary", label: "1. マルス駒ヶ岳の概要" },
+  { id: "editions", label: "1-2. 40周年記念ボトルと定番品の違い" },
   { id: "distillery", label: "2. 蒸溜所の歴史と特徴" },
   { id: "tasting", label: "3. テイスティングノート" },
   { id: "current-price", label: "4. 現在の市場相場（Yahoo中央値）" },
+  { id: "store-prices", label: "4-2. 買取店の掲示価格・40周年記念ボトルの買取実績" },
   { id: "state-price", label: "5. 状態別の業界目安" },
   { id: "price-reasons", label: "6. 価格を左右する要因" },
   { id: "auction", label: "7. オークション落札データ" },
@@ -49,8 +51,20 @@ export default function MarsKomagatakeKaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">マルス駒ヶ岳の買取相場と業者比較ガイド【2026年10月】</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">マルス駒ヶ岳の買取価格・相場【2026年10月】40周年記念ボトル・定番品・限定品別</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
+            <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">駒ヶ岳の買取価格の早見表（40周年記念ボトル・定番品・限定品／2026年10月26日確認）</h2>
+            <p className="text-sm text-ink mb-3">2026-10-26 時点で、40周年記念ボトルと定番品を価格表に掲示している大手の買取店は確認できなかったため、買取実績と限定品の掲示価格をまとめました。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル・状態</th><th className="py-2 pr-3 text-right">買取価格（店舗の掲示）</th><th className="py-2">店舗・確認日</th></tr></thead>
+                <tbody><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">40th Anniversary Special Edition（2025年12月発売・約5,000本）</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">18,000円（実績）</td><td className="py-2 text-xs text-warm-gray">さすがや 2026-02-20・2026-02-14 各18,000円（付属品完備）。希望小売価格 29,700円（税込）</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">シングルモルト駒ヶ岳（定番品・45%）</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">5,900円（実績）</td><td className="py-2 text-xs text-warm-gray">ファイブニーズ 2025-11-20。希望小売価格 7,920円（税込）</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">限定品・エディション違い（掲示価格）</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">7,500〜20,000円</td><td className="py-2 text-xs text-warm-gray">LINXAS ネイチャーオブ信州 7,500〜8,000円・ダブルカスク 2019 10,000円・屋久島エイジング 15,000円・バーボンバレル 2014 20,000円（9/30更新）</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">シングルカスク（長期熟成）</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">35,000〜105,000円（実績）</td><td className="py-2 text-xs text-warm-gray">大黒屋 28年・27年 各105,000円（2026-08-29）・2016-2021 35,000円</td></tr><tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal">参考: ヤフオク落札中央値（個人間の取引）</th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">7,500円</td><td className="py-2 text-xs text-warm-gray">PeatBid 集計・取得日 2026-10-26・毎週更新（店舗の買取額ではありません）</td></tr></tbody>
+              </table>
+            </div>
+            <p className="text-[12px] text-warm-gray leading-relaxed mt-3">掲示価格・実績は各店の参考額で、実際の買取額は状態・付属品・査定時期で変わります。</p>
+          </section>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -66,7 +80,7 @@ export default function MarsKomagatakeKaitoriPage() {
 
           <h2 id="summary">1. マルス駒ヶ岳の概要</h2>
 
-          <p>マルス駒ヶ岳はジャパニーズウイスキーの代表的な銘柄の一つで、信州マルス蒸溜所が手がけるノンエイジ（NV）のボトルです。マルス駒ヶ岳シングルモルト。</p>
+          <p>マルス駒ヶ岳はジャパニーズウイスキーの代表的な銘柄の一つで、本坊酒造 マルス駒ヶ岳蒸溜所が手がけるノンエイジ（NV）のボトルです。マルス駒ヶ岳シングルモルト。</p>
 
           
 
@@ -77,9 +91,9 @@ export default function MarsKomagatakeKaitoriPage() {
             <table>
               <tbody>
                 <tr><td><strong>カテゴリ</strong></td><td>ジャパニーズウイスキー</td></tr>
-                <tr><td><strong>蒸溜所/メーカー</strong></td><td>信州マルス蒸溜所</td></tr>
+                <tr><td><strong>蒸溜所/メーカー</strong></td><td>本坊酒造 マルス駒ヶ岳蒸溜所</td></tr>
                 <tr><td><strong>熟成年数</strong></td><td>ノンエイジ（NV）</td></tr>
-                <tr><td><strong>アルコール度数</strong></td><td>43%</td></tr>
+                <tr><td><strong>アルコール度数</strong></td><td>45%</td></tr>
                 <tr><td><strong>容量</strong></td><td>700ml</td></tr>
                 <tr><td><strong>希少度</strong></td><td>コモン</td></tr>
                 <tr><td><strong>市場相場（Yahoo中央値）</strong></td><td><strong>7,500円</strong></td></tr>
@@ -87,21 +101,31 @@ export default function MarsKomagatakeKaitoriPage() {
             </table>
           </div>
 
-          <h2 id="distillery">2. 信州マルス蒸溜所の歴史と特徴</h2>
+          <h3 id="editions">駒ヶ岳の主なボトル｜40周年記念ボトルと定番品の仕様（本坊酒造公式）</h3>
+          <div className="overflow-x-auto my-5 not-prose">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">エディション</th><th className="py-2 pr-3">発売</th><th className="py-2 pr-3">熟成</th><th className="py-2 pr-3">度数</th><th className="py-2 pr-3">本数</th><th className="py-2 pr-3">発売時の価格</th><th className="py-2">見分けるポイント</th></tr></thead>
+              <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 align-top">シングルモルト駒ヶ岳 40th Anniversary Special Edition</td><td className="py-2 pr-3 align-top whitespace-nowrap">2025年12月上旬</td><td className="py-2 pr-3 align-top whitespace-nowrap">1980〜2020年代の原酒（瓶詰 2025年11月）</td><td className="py-2 pr-3 align-top whitespace-nowrap">50%</td><td className="py-2 pr-3 align-top">約5,000本</td><td className="py-2 pr-3 align-top">希望小売価格 29,700円（税込）・27,000円（税抜）</td><td className="py-2 pr-3 align-top">マルス駒ヶ岳蒸溜所の竣工40周年記念。化粧箱入り・ノンチルフィルター。公式の表示は「生産終了」</td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3 align-top">シングルモルト駒ヶ岳（定番品）</td><td className="py-2 pr-3 align-top whitespace-nowrap">—</td><td className="py-2 pr-3 align-top whitespace-nowrap">年数表記なし</td><td className="py-2 pr-3 align-top whitespace-nowrap">45%</td><td className="py-2 pr-3 align-top">—</td><td className="py-2 pr-3 align-top">希望小売価格 7,920円（税込・700ml）</td><td className="py-2 pr-3 align-top">バーボンバレル・シェリー・ポート・ワインカスクなどの原酒。200ml（2,750円）もあり</td></tr></tbody>
+            </table>
+          </div>
+          <p className="text-sm">1985年に操業を開始したマルス駒ヶ岳蒸溜所が2025年に竣工40周年を迎えたことを記念したボトルです（本坊酒造 2025年12月2日の新商品案内）。樽はバーボン樽・シェリー樽・アメリカンホワイトオーク樽など、熟成地はマルス駒ヶ岳蒸溜所・マルス津貫蒸溜所・マルス屋久島エージングセラーです。</p>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://www.hombo.co.jp/product/mars-singlemalt-komagatake-40th-anniversary-special-edition/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">本坊酒造「シングルモルト駒ヶ岳 40th Anniversary Special Edition」</a>・<a href="https://www.hombo.co.jp/2025/new-product/20251202-newproduct-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">本坊酒造 新商品のご案内（2025年12月2日）</a>・<a href="https://www.hombo.co.jp/product/mars-singlemalt-komagatake/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">本坊酒造「シングルモルト駒ヶ岳」</a>（2026年10月26日確認）</p>
+
+          <h2 id="distillery">2. 本坊酒造 マルス駒ヶ岳蒸溜所の歴史と特徴</h2>
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden mb-5 not-prose">
-            <Image src="/images/distillery-japanese.png" alt="信州マルス蒸溜所の蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+            <Image src="/images/distillery-japanese.png" alt="本坊酒造 マルス駒ヶ岳蒸溜所の蒸溜所イメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
           </div>
 
           <p>本坊酒造が長野県で運営する蒸溜所です。標高800メートルを超える高地の冷涼な気候を活かした熟成が特徴です。</p>
 
-          <p>信州マルス蒸溜所のジャパニーズウイスキーは、二次流通市場で継続的に取引されています。蒸溜所の歴史と製法は、マルス駒ヶ岳のような銘柄の市場価値に影響しています。</p>
+          <p>本坊酒造 マルス駒ヶ岳蒸溜所のジャパニーズウイスキーは、二次流通市場で継続的に取引されています。蒸溜所の歴史と製法は、マルス駒ヶ岳のような銘柄の市場価値に影響しています。</p>
 
           <p>同じ蒸溜所の他の銘柄や同年代の銘柄と比べることで、マルス駒ヶ岳の市場における位置付けを確認できます。他のグレード・他の蒸溜所の銘柄は、ページ下部の関連銘柄のリンクからご覧いただけます。</p>
 
           <h2 id="tasting">3. テイスティングノート</h2>
 
-          <p>マルス駒ヶ岳の味わいは、熟成期間中に樽から溶け出した成分と、信州マルス蒸溜所の蒸溜技術によって形成されています。</p>
+          <p>マルス駒ヶ岳の味わいは、熟成期間中に樽から溶け出した成分と、本坊酒造 マルス駒ヶ岳蒸溜所の蒸溜技術によって形成されています。</p>
 
           <p>リンゴ・洋ナシなどのフレッシュな果実の香りが軽やかに広がり、バニラ・蜂蜜の柔らかな甘みがあります。フィニッシュは短めから中程度で、飲みやすい味わいです。</p>
 
@@ -110,6 +134,33 @@ export default function MarsKomagatakeKaitoriPage() {
           <h2 id="current-price">4. 現在の市場相場（Yahoo中央値）</h2>
 
           <p>マルス駒ヶ岳の市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>7,500円</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=284件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
+
+          <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
+            <p className="text-sm font-bold text-ink mb-3">マルス駒ヶ岳の買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
+            <svg viewBox="0 0 640 210" role="img" aria-label="マルス駒ヶ岳のヤフオク落札中央値の週次推移グラフ" className="w-full h-auto">
+              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">9,000</text>
+              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">8,250</text>
+              <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">7,500</text>
+              <polyline points="66.0,97.2 116.5,80.1 167.1,54.6 217.6,75.9 268.2,38.9 318.7,54.4 369.3,88.5 419.8,97.0 470.4,88.6 520.9,116.4 571.5,153.2 622.0,155.1" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="97.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-10: 8,248円（サンプル n=286件）</title></circle>
+              <circle cx="116.5" cy="80.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 8,468円（サンプル n=286件）</title></circle>
+              <circle cx="167.1" cy="54.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 8,798円（サンプル n=286件）</title></circle>
+              <circle cx="217.6" cy="75.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 8,523円（サンプル n=286件）</title></circle>
+              <circle cx="268.2" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 9,000円（サンプル n=290件）</title></circle>
+              <circle cx="318.7" cy="54.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 8,800円（サンプル n=290件）</title></circle>
+              <circle cx="369.3" cy="88.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 8,360円（サンプル n=282件）</title></circle>
+              <circle cx="419.8" cy="97.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 8,250円（サンプル n=282件）</title></circle>
+              <circle cx="470.4" cy="88.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 8,358円（サンプル n=286件）</title></circle>
+              <circle cx="520.9" cy="116.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 8,000円（サンプル n=290件）</title></circle>
+              <circle cx="571.5" cy="153.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 7,525円（サンプル n=286件）</title></circle>
+              <circle cx="622.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 7,500円（サンプル n=284件）</title></circle>
+              <text x="618.0" y="145.1" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">7,500円</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/10</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/14</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">10/26</text>
+            </svg>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-10〜2026-10-26（週次12点・各点のサンプル数 n=282〜290件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
+          </div>
 
           <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、<strong>3社以上、できれば4社以上で相見積もり</strong>を取ることをおすすめします。</p>
 
@@ -120,6 +171,34 @@ export default function MarsKomagatakeKaitoriPage() {
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">バイセル</a> — 東証グロース上場企業が運営し、出張・店頭・宅配の3つの方式に対応しています</li>
             <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">福ちゃん</a> — 株式会社REGATEが運営する買取専門店で、お酒の査定にも対応しています</li>
           </ul>
+
+          <h3 id="store-prices">マルス駒ヶ岳の買取店の掲示価格（店舗別比較・2026年10月26日確認）</h3>
+
+          <p>各店が自社サイトに公開している駒ヶ岳の参考買取価格と買取実績を、PeatBid編集部が 2026-10-26 に各ページで確認した値です。2026-10-26 時点で、40周年記念ボトル（40th Anniversary Special Edition）と定番のシングルモルト駒ヶ岳を価格表に掲示している大手の買取店は確認できませんでした（大黒屋・LINXAS・ストックラボ・ファイブニーズ・キングラムリカー）。掲示があるのは限定品・旧エディションです。</p>
+
+          <div className="overflow-x-auto my-5 not-prose">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">店舗</th><th className="py-2 pr-3">ボトル・条件</th><th className="py-2 pr-3 text-right">掲示価格</th><th className="py-2 pr-3">店舗側の更新日</th><th className="py-2">出典</th></tr></thead>
+              <tbody><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">【参考】駒ヶ岳 ダブルカスク 2019<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">10,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/honbo-mars/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">【参考】駒ヶ岳 ザ・リバイバル 2011<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">11,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/honbo-mars/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">【参考】駒ヶ岳 ネイチャーオブ信州 蒲公英／小彼岸桜／竜胆<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">7,500円／8,000円／8,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/honbo-mars/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">【参考】駒ヶ岳 バーボンバレル 2015 シングルカスク／2014<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">13,000円／20,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/honbo-mars/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">LINXAS（リンクサス）</td><td className="py-2 pr-3">【参考】駒ヶ岳 屋久島エイジング 2019／2014<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">各15,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-09-30</td><td className="py-2"><a href="https://linxas.shop/whiskey/honbo-mars/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr><tr className="border-b border-warm-border/60"><td className="py-2 pr-3">大黒屋</td><td className="py-2 pr-3">【参考】イチローズモルト ダブルディスティラリーズ 秩父×駒ヶ岳 2021<br /><span className="text-warm-gray text-xs">—</span></td><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">24,000円</td><td className="py-2 pr-3 whitespace-nowrap">2026-10-25</td><td className="py-2"><a href="https://kaitori.e-daikoku.com/liquor/whisky/ichiros-malt/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">掲載ページ</a></td></tr></tbody>
+            </table>
+          </div>
+          
+          <p>40周年記念ボトルの買取実績は、さすがやが 2026年2月に2件（いずれも 18,000円・付属品完備）を公開しています。希望小売価格 29,700円（税込）の約6割です。定番のシングルモルト駒ヶ岳（45%）は、ファイブニーズが 2025-11-20 に 5,900円 で買い取った実績を公開しています。限定品・エディション違いはボトルによって 4,000〜20,000円 と幅があるため、ラベルの年号（Bottled in）とエディション名を確認してから査定に出してください。</p>
+
+          <h3 id="store-records">マルス駒ヶ岳の買取実績（各店の公開分・日付付き）</h3>
+          <p>各店が自社サイトに掲載しているマルス駒ヶ岳の買取実績です。実績は、その日にその店舗で買い取った金額であり、ボトルの状態や付属品の有無の記載方法は店舗により異なります（2026年10月26日確認）。</p>
+
+          <p className="text-sm font-bold mt-6">さすがや</p>
+          <ul className="text-sm"><li>2026年2月20日　シングルモルト駒ヶ岳 40th Anniversary Special Edition（イオンタウン知花店・付属品あり）　<strong>18,000円</strong></li><li>2026年2月14日　駒ヶ岳 40周年 700ml（エスパル福島店・箱や付属品完備）　<strong>18,000円</strong></li></ul>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://sasugaya.jp/item/alcohol/365905/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">さすがやの掲載ページ</a>（40周年記念ボトルの買取実績2件（さすがやの各店の買取実績ページ））</p>
+
+          <p className="text-sm font-bold mt-6">ファイブニーズ</p>
+          <ul className="text-sm"><li>2025年11月20日　マルス 駒ヶ岳 シングルモルト 45% 700ml　<strong>5,900円</strong></li><li>2025年11月3日　マルス 駒ヶ岳 2023 エディション シングルモルト 50% 700ml　<strong>3,000円</strong></li><li>2024年9月17日　マルス 駒ヶ岳 シングルモルト 藤田寛之 スペシャルセレクト 50％ 700ml　<strong>5,000円</strong></li><li>2024年8月1日　マルス 駒ヶ岳 2024 IPA カスク フィニッシュ 700ml　<strong>8,000円</strong></li></ul>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://www.sakekaitori.com/whisky/japanese_whiskey/honboumars_brand/komagatake_brand/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">ファイブニーズの掲載ページ</a>（駒ヶ岳のページに掲載の買取実績）</p>
+
+          <p className="text-sm font-bold mt-6">大黒屋</p>
+          <ul className="text-sm"><li>2026年8月29日　シングルカスク 駒ヶ岳 28年 1991-2019 アメリカンホワイトオーク 箱付　<strong>105,000円</strong></li><li>2026年8月29日　シングルカスク 駒ヶ岳 27年 1990-2018 アメリカンホワイトオーク 箱付　<strong>105,000円</strong></li><li>2025年9月28日　駒ヶ岳 シングルカスク 2016-2021 シェリーホグスヘッド 箱付　<strong>35,000円</strong></li></ul>
+          <p className="text-[11px] text-warm-gray">出典: <a href="https://kaitori.e-daikoku.com/liquor/whisky/mars/ex/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy">大黒屋の掲載ページ</a>（マルスウイスキーの買取実績のうち駒ヶ岳のシングルカスク）</p>
 
           <h2 id="state-price">5. 状態別の業界目安（パーセンテージ）</h2>
 
@@ -207,7 +286,7 @@ export default function MarsKomagatakeKaitoriPage() {
             <li><strong>海外オークション落札データの動向</strong> — Sotheby's・Bonhams・Whisky Auctioneer等の落札結果は、日本の買取業者の仕入れ価格の基準の一つとなっています</li>
             <li><strong>需給バランスと供給制限</strong> — ノンエイジ（NV）の銘柄は供給量が限られており、需要が拡大すると価格が上昇しやすい傾向があります</li>
             <li><strong>為替レートの影響</strong> — 円安の局面では海外の購入者の購買力が高まり、国内相場も連動して上昇する傾向があります</li>
-            <li><strong>信州マルス蒸溜所の国際的評価</strong> — World Whiskies Awards、ISC等の品評会での評価は、国際的な需要に影響します</li>
+            <li><strong>本坊酒造 マルス駒ヶ岳蒸溜所の国際的評価</strong> — World Whiskies Awards、ISC等の品評会での評価は、国際的な需要に影響します</li>
             <li><strong>季節要因・贈答需要</strong> — 年末年始・お中元・お歳暮の時期に需要が高まり、相場が上昇する傾向があります</li>
           </ol>
 
@@ -354,7 +433,7 @@ export default function MarsKomagatakeKaitoriPage() {
           <h2 id="faq">12. マルス駒ヶ岳に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: 'マルス駒ヶ岳の市場相場はいくらですか？', a: 'マルス駒ヶ岳の市場相場は7,500円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=284、取得日 2026-10-26）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: 'マルス駒ヶ岳を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' }, { q: '開封済みのマルス駒ヶ岳でも買取できますか？', a: 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' }, { q: 'マルス駒ヶ岳は箱なしでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約6,000〜6,750円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' }, { q: 'マルス駒ヶ岳に偽物・贋作はありますか？', a: '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' }, { q: 'マルス駒ヶ岳の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' }, { q: 'マルス駒ヶ岳は税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'マルス駒ヶ岳を売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" }, { q: 'マルス駒ヶ岳と他の銘柄は、どちらを先に売るべきですか？', a: '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' }].map((faq) => (
+            {[{ q: 'マルス駒ヶ岳の市場相場はいくらですか？', a: 'マルス駒ヶ岳の市場相場は7,500円（Yahoo Auctions 過去180日の落札中央値、サンプル数 n=284、取得日 2026-10-26）。業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動するため、最新の査定額は LINXAS / バイセル / 福ちゃん など各業者のページで直接ご確認ください。' }, { q: 'マルス駒ヶ岳を高く売るコツは？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)未開封のまま売る、(3)複数の業者で相見積もりを取る、(4)直射日光を避けて縦置きで保管する、(5)売却の時期を年末年始・お中元の時期に合わせる、の5点が基本です。' }, { q: '開封済みのマルス駒ヶ岳でも買取できますか？', a: 'はい、買取の対象となる場合があります。業界一般の目安として、残量9割以上の場合は市場相場の30〜40%程度、半分以下では大幅な減額となる傾向があります（評価基準は業者により異なります）。蓋が確実に閉まっており、ラベル・付属品の状態が良好であれば、査定額が高くなる傾向があります。実際の査定額は各業者のページでご確認ください。' }, { q: 'マルス駒ヶ岳は箱なしでも買取してもらえますか？', a: 'はい、買取可能です。未開封・箱なし（ラベル良好）の業界一般の目安は市場相場の80〜90%程度（約6,000〜6,750円）で、完品と比べて1〜2割の減額が目安です。冊子やカートンが一部でも残っている場合は、あわせて査定に出すと評価の対象になります。減額幅は業者により異なるため、箱なしの場合は特に複数社での相見積もりをおすすめします。' }, { q: 'マルス駒ヶ岳に偽物・贋作はありますか？', a: '高額銘柄ほど贋作のリスクが高くなります。**ラベルの印刷品質・キャップとホログラム・液色・瓶の刻印・購入経路の信頼性**の5点で確認します。疑わしい場合は、お酒の買取に関する専門知識を持つ業者に鑑定査定をご依頼ください。' }, { q: 'マルス駒ヶ岳の保管方法は？', a: '(1)直射日光・蛍光灯を避ける、(2)室温15〜20℃・湿度50〜70%を保つ、(3)縦置きで保管する（横置きはコルクの劣化につながります）、(4)外箱に入れて保管する、(5)振動の少ない場所に置く、の5点が基本です。長期保有の場合は、保険への加入もご検討ください。' }, { q: 'マルス駒ヶ岳は税金がかかりますか？', a: '年間の売却益が50万円を超え、給与所得者の場合に他の所得と合わせて20万円を超えると、譲渡所得として確定申告が必要です。保有期間5年超の場合、長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '駒ヶ岳40周年記念ボトルはいくらで売れますか？', a: '2026-10-26 時点で、大黒屋・LINXAS・ストックラボ・ファイブニーズ・キングラムリカーの価格表に40周年記念ボトル（シングルモルト駒ヶ岳 40th Anniversary Special Edition）の行はありません。さすがやが 2026年2月20日・2月14日に各18,000円（付属品完備）で買い取った実績を公開しています。本坊酒造の公式情報では、2025年12月上旬発売・約5,000本・700ml・50%・希望小売価格 29,700円（税込）で、表示は「生産終了」です。' }, { q: 'マルス駒ヶ岳を売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。また、終売・休売の報道直後にプレミア価格が上昇する場合もあります。" }, { q: 'マルス駒ヶ岳と他の銘柄は、どちらを先に売るべきですか？', a: '市場の流動性・価格の安定性・ご自身の保有目的を踏まえてご判断ください。希少度が高い銘柄ほど長期保有でプレミア価格が付く傾向があるため、**急ぎでなければ希少銘柄は保有を続け、流通量の多い銘柄から先に売却する**方法があります。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>

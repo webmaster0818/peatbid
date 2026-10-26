@@ -2243,8 +2243,8 @@
   },
   "kochi": {
     "checked_at": "2026-10-25",
-    "title": "お酒買取 高知県｜県内でウイスキーを買い取る9店・出張対応とYahoo実売相場【2026年最新】",
-    "desc": "高知県でお酒・ウイスキーを売る方向けに、高知市・南国市・安芸市の買取大吉9店、バイセル・福ちゃん等の出張買取の対応エリア、仁淀川町の高知ウイスキー仁淀川蒸留所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
+    "title": "お酒買取 高知県｜県内でウイスキーを買い取る13店・出張対応とYahoo実売相場【2026年最新】",
+    "desc": "高知県でお酒・ウイスキーを売る方向けに、高知市・南国市・安芸市・いの町の買取大吉9店・買取店わかば4店、バイセル・福ちゃん等の出張買取の対応エリア、仁淀川町の高知ウイスキー仁淀川蒸留所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
     "stores": [
       {
         "brand": "買取大吉",
@@ -2317,6 +2317,38 @@
         "addr": "高知県高知市河ノ瀬町30-2",
         "url": "https://www.kaitori-daikichi.jp/list/sake/store/gounose/",
         "hours": "10:00〜18:00・水曜定休"
+      },
+      {
+        "brand": "買取店わかば",
+        "city": "高知市",
+        "name": "サンシャインクロバ福井店",
+        "addr": "高知県高知市福井町1198-1 サンシャインクロバ福井店 西入口横",
+        "url": "https://wakaba-shop.jp/shop/kouchi-clova-fukui/",
+        "hours": "10:00〜18:00（最終受付17:00）・月曜・年末年始休"
+      },
+      {
+        "brand": "買取店わかば",
+        "city": "高知市",
+        "name": "高知大丸店",
+        "addr": "高知県高知市帯屋町1丁目1-9 高知大丸東館 B1F",
+        "url": "https://wakaba-shop.jp/shop/ino/",
+        "hours": "10:00〜18:00（最終受付17:00）・不定休・年末年始休"
+      },
+      {
+        "brand": "買取店わかば",
+        "city": "南国市",
+        "name": "サンシャインカルディア南国店",
+        "addr": "高知県南国市後免町144-2 サンシャインカルディア店 1F",
+        "url": "https://wakaba-shop.jp/shop/kouchi-nankoku/",
+        "hours": "10:00〜18:00（最終受付17:00）・不定休・年末年始休"
+      },
+      {
+        "brand": "買取店わかば",
+        "city": "いの町",
+        "name": "高知サニーアクシスいの店",
+        "addr": "高知県吾川郡いの町205 サニーアクシスいの店 1F",
+        "url": "https://wakaba-shop.jp/shop/axisino/",
+        "hours": "10:00〜19:00（最終受付18:00）・不定休・年末年始休"
       }
     ],
     "brand_notes": [
@@ -2324,6 +2356,11 @@
         "買取大吉",
         "県ページ掲載の9店すべてで、店舗ページの買取品目一覧に「お酒」あり。品目に「お酒」。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」",
         "https://www.kaitori-daikichi.jp/list/sake/store/koti-ken/"
+      ],
+      [
+        "買取店わかば",
+        "県内4店すべてで、店舗ページの「主な買取商品一覧」に「お酒買取」あり。会社情報に関連会社としてバイセルを記載（2026-10-26確認）",
+        "https://wakaba-shop.jp/shop/zenkoku_all/"
       ]
     ],
     "not_liquor": "おたからやの県内10店は、いずれも店舗ページの買取品目に洋酒・お酒の記載がありません（2026-10-25確認）。大黒屋・銀座蔵や・なんぼや・キングラム・ジュエルカフェは公式サイトで県内の店舗を確認できませんでした。",
@@ -2356,7 +2393,8 @@
     ],
     "distillery": "高知県仁淀川町には、高知ウイスキー仁淀川蒸留所（高知県吾川郡仁淀川町竹ノ谷18-2）があります。公式サイトによると2026年3月にオープンした蒸留所で、「仁淀ブルー」と呼ばれる清流・仁淀川の流れる町で蒸留酒を造っています。商品として、仁淀川町産の紅茶とほうじ茶をキーボタニカルにしたジン「ニヨドドド」、「BLUE GIN IMUA」、ブレンデッドモルトウイスキー「滉」を紹介しています。",
     "distillery_url": "https://kochi-whisky.com/?page_id=73",
-    "distillery_label": "高知ウイスキー仁淀川蒸留所 公式サイト（About）"
+    "distillery_label": "高知ウイスキー仁淀川蒸留所 公式サイト（About）",
+    "checked_label": "2026-10-25（買取店わかばは2026-10-26）"
   },
   "kanagawa": {
     "checked_at": "2026-10-25",
@@ -3760,5 +3798,427 @@
     "distillery": "神奈川県足柄上郡山北町には丹沢蒸溜所（Distillery TANZAWA）があります。公式サイトによると所在地は山北町中川822-1（ウェアハウスは山北町玄倉515）で、紀州備長炭による濾過（Bincho Charcoal Filtering）や丹沢の天然水を掲げています。2026年1月21日に自社原酒の蒸溜を開始し、運営は「株式会社DELIもっと」から分社化した「株式会社ゼロイチウイスキー」です。茅ヶ崎市の熊澤酒造も公式サイトの商品分類に「ウイスキー」を設けています。",
     "distillery_url": "https://tanzawa-distillery.com/",
     "distillery_label": "丹沢蒸溜所（Distillery TANZAWA）公式サイト"
+  },
+  "oita": {
+    "checked_at": "2026-10-26",
+    "title": "お酒買取 大分県｜県内でウイスキーを買い取る44店・出張対応とYahoo実売相場【2026年最新】",
+    "desc": "大分県でお酒・ウイスキーを売る方向けに、大分市・別府市・中津市・佐伯市などの買取大吉・おたからや・ジュエルカフェ・買取店わかばの店舗、バイセル・福ちゃん・LINXAS等の出張買取の対応エリア、竹田市の久住蒸溜所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
+    "stores": [
+      {
+        "brand": "買取大吉",
+        "city": "大分市",
+        "name": "大分店",
+        "addr": "大分県大分市古国府五丁目1番36-101号 スターブル古国府",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/oita/",
+        "hours": "10:00〜18:00・年中無休（年末年始、臨時休業を除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大分市",
+        "name": "大分駅前店",
+        "addr": "大分県大分市中央町2丁目3番19号大津ビル１F",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/oita-ekimae/",
+        "hours": "10:00〜18:00・毎週日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大分市",
+        "name": "パークプレイス大分店",
+        "addr": "大分県大分市公園通り西２丁目１番 パークプレイス大分1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/pp-oita/",
+        "hours": "10:00〜19:00・年中無休（年末年始除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大分市",
+        "name": "大分わさだ店",
+        "addr": "大分県大分市玉沢683-2",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/oita-wasada/",
+        "hours": "10:00〜18:00・年中無休（臨時休業および年始年末は除く）"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大分市",
+        "name": "大分牧店",
+        "addr": "大分県大分市牧2丁目1番12号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/oita-maki/",
+        "hours": "10:00〜18:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大分市",
+        "name": "大分下郡店",
+        "addr": "大分県大分市下郡3153-12 アクロスガーデン下郡",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/oita-shimogori/",
+        "hours": "10:00〜18:00・水曜・第2第4木曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "大分市",
+        "name": "大分戸次店",
+        "addr": "大分県大分市大字中戸次5927番3",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/oita-hetsugi/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "中津市",
+        "name": "ゆめタウン中津店",
+        "addr": "大分県中津市蛭子町3丁目99 ゆめタウン・中津1階",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yt-nakatsu/",
+        "hours": "10:00〜19:00・第1・第3・第5水曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "宇佐市",
+        "name": "宇佐石田店",
+        "addr": "大分県宇佐市石田66番地1",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/usa-ishida/",
+        "hours": "10:00〜19:00・木曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "日田市",
+        "name": "日田上城内町店",
+        "addr": "大分県日田市上城内町1-12",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hita-kamijonaimachi/",
+        "hours": "10:00〜17:00・水曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "佐伯市",
+        "name": "佐伯蟹田店",
+        "addr": "大分県佐伯市蟹田8番36号",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/saiki-ganda/",
+        "hours": "10:00〜18:00・日曜定休"
+      },
+      {
+        "brand": "買取大吉",
+        "city": "日出町",
+        "name": "速見日出店",
+        "addr": "大分県速見郡日出町3888-5",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/hayami-hiji/",
+        "hours": "10:00〜18:00・日曜定休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "大分市",
+        "name": "下郡店",
+        "addr": "大分県大分市下郡北3丁目24-11",
+        "url": "https://shimogori-otakaraya.net/",
+        "hours": "10:00〜18:00・不定休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "大分市",
+        "name": "南大分大道バイパス店",
+        "addr": "大分県大分市羽屋新町3-1-11",
+        "url": "https://iy-oofuna-otakaraya.net/shop/minamioita-omichi-bp/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "大分市",
+        "name": "トキハインダストリーアテオ学園台センター店",
+        "addr": "大分県大分市東野台2-1-1 トキハインダストリーアテオ学園台センター店",
+        "url": "https://iy-oofuna-otakaraya.net/shop/tia-gakuendai/",
+        "hours": "10:00〜18:30・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "大分市",
+        "name": "大分金池店",
+        "addr": "大分県大分市金池町3-6-1",
+        "url": "https://iy-oofuna-otakaraya.net/shop/oita-kanaike/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "大分市",
+        "name": "新川浜町店",
+        "addr": "大分県大分市勢家1077-1",
+        "url": "https://iy-oofuna-otakaraya.net/shop/shinkawa-hamamachi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "大分市",
+        "name": "大分賀来店",
+        "addr": "大分県大分市賀来南3-4-53 マックスバリュ賀来店敷地内",
+        "url": "https://iy-oofuna-otakaraya.net/shop/oita-kaku/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "大分市",
+        "name": "トキハインダストリーアテオ光吉店",
+        "addr": "大分県大分市光吉2009-4",
+        "url": "https://iy-oofuna-otakaraya.net/shop/tia-mitsuyoshi/",
+        "hours": "10:00〜18:30・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "大分市",
+        "name": "アクロスプラザ森町店",
+        "addr": "大分県大分市森町181-1 アクロスプラザ森町店敷地内",
+        "url": "https://iy-oofuna-otakaraya.net/shop/ap-morimachi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "大分市",
+        "name": "イオン光吉店",
+        "addr": "大分県大分市光吉825-1 イオン光吉店1F",
+        "url": "https://iy-oofuna-otakaraya.net/shop/aeon-mitsuyoshi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "大分市",
+        "name": "高城店",
+        "addr": "大分県大分市新栄町1-33",
+        "url": "https://www.otakaraya-shop.jp/takajoten/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "大分市",
+        "name": "フレスポ春日浦店",
+        "addr": "大分県大分市王子北町5-9 フレスポ春日浦店2F",
+        "url": "https://www.otakaraya-shop.jp/frespokasugaura/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "別府市",
+        "name": "別府的ヶ浜店",
+        "addr": "大分県別府市南的ヶ浜町5番19号",
+        "url": "https://beppumatogahama-otakaraya.net/",
+        "hours": "10:00〜19:00・年中無休（年末年始を除く）"
+      },
+      {
+        "brand": "おたからや",
+        "city": "別府市",
+        "name": "別府石垣店",
+        "addr": "大分県別府市石垣西3丁目9-38",
+        "url": "https://beppuishigaki-otakaraya.net/",
+        "hours": "10:00〜18:00・日曜定休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "別府市",
+        "name": "別府横断道路店",
+        "addr": "大分県別府市石垣西10丁目10番4号",
+        "url": "https://beppuodandoro-otakaraya.net/",
+        "hours": "10:00〜18:00・土曜定休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "別府市",
+        "name": "別府中島店",
+        "addr": "大分県別府市中島町16-25",
+        "url": "https://beppu-nakashima-otakaraya.net/",
+        "hours": "10:00〜18:00・日曜定休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "別府市",
+        "name": "別府浜町店",
+        "addr": "大分県別府市浜町16-2",
+        "url": "https://iy-oofuna-otakaraya.net/shop/beppu-hamamachi/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "中津市",
+        "name": "下池永店",
+        "addr": "大分県中津市下池永868-1",
+        "url": "https://www.otakaraya-shop.jp/shimoikenaga/",
+        "hours": "10:00〜18:00・月曜定休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "佐伯市",
+        "name": "ホームワイド佐伯南店",
+        "addr": "大分県佐伯市池田字吉平新地2194",
+        "url": "https://iy-oofuna-otakaraya.net/shop/hw-saikiminami/",
+        "hours": "10:00〜18:30・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "佐伯市",
+        "name": "ホームワイド鶴岡店",
+        "addr": "大分県佐伯市鶴岡西町2-245",
+        "url": "https://iy-oofuna-otakaraya.net/shop/hw-tsuruoka/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "杵築市",
+        "name": "杵築塩田店",
+        "addr": "大分県杵築市杵築665-510",
+        "url": "https://www.otakaraya-shop.jp/kitsukienden/",
+        "hours": "10:00〜18:30・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "豊後大野市",
+        "name": "トキハインダストリー三重店",
+        "addr": "大分県豊後大野市三重町市場447-1 トキハインダストリー三重店1F",
+        "url": "https://iy-oofuna-otakaraya.net/shop/ti-mie/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "日出町",
+        "name": "リブホール川崎店",
+        "addr": "大分県速見郡日出町川崎字新田837-1",
+        "url": "https://livewhole-kawasaki-otakaraya.net/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "日出町",
+        "name": "日出店",
+        "addr": "大分県速見郡日出町3870-1 恵夢プラザⅡ1階",
+        "url": "https://www.otakaraya-shop.jp/hiji/",
+        "hours": "10:00〜18:00・年中無休"
+      },
+      {
+        "brand": "ジュエルカフェ",
+        "city": "大分市",
+        "name": "イオン高城店",
+        "addr": "大分県大分市高城西町28-1イオン高城店1Ｆ",
+        "url": "https://jewel-cafe.jp/shop/kyusyu/oita/aeon-takajo/",
+        "hours": "10:00〜19:00・定休日なし"
+      },
+      {
+        "brand": "ジュエルカフェ",
+        "city": "大分市",
+        "name": "あけのアクロスタウン店",
+        "addr": "大分県大分市明野東1-1-1あけのアクロスタウン１Ｆ",
+        "url": "https://jewel-cafe.jp/shop/kyusyu/oita/akeno-acrosstown/",
+        "hours": "10:00〜19:00・定休日なし"
+      },
+      {
+        "brand": "ジュエルカフェ",
+        "city": "大分市",
+        "name": "トキハインダストリー若草公園店",
+        "addr": "大分県大分市中央町2-5-3トキハインダストリー若草公園店1F",
+        "url": "https://jewel-cafe.jp/shop/kyusyu/oita/tokiwa-industry-wakakusa/",
+        "hours": "10:00〜18:00・定休日なし"
+      },
+      {
+        "brand": "ジュエルカフェ",
+        "city": "大分市",
+        "name": "トキハわさだタウン店",
+        "addr": "大分県大分市大字玉沢楠本755−1トキハわさだタウン1F",
+        "url": "https://jewel-cafe.jp/shop/kyusyu/oita/tokiwa-wasadatown/",
+        "hours": "10:00〜19:00・定休日なし"
+      },
+      {
+        "brand": "ジュエルカフェ",
+        "city": "中津市",
+        "name": "トキハインダストリー中津店",
+        "addr": "大分県中津市大字大新田六番通276番 フレスポ中津北内 トキハインダストリー中津店内1F",
+        "url": "https://jewel-cafe.jp/shop/kyusyu/oita/tokiwa-industry-nakatsu/",
+        "hours": "10:00〜17:00・土曜定休"
+      },
+      {
+        "brand": "ジュエルカフェ",
+        "city": "佐伯市",
+        "name": "トキハインダストリー佐伯店",
+        "addr": "大分県佐伯市大字池田2064トキハインダストリー佐伯1F",
+        "url": "https://jewel-cafe.jp/shop/kyusyu/oita/tokiwa-industry-saeki/",
+        "hours": "10:00〜19:00・定休日なし"
+      },
+      {
+        "brand": "買取店わかば",
+        "city": "中津市",
+        "name": "中津イオンモール三光店",
+        "addr": "大分県中津市三光佐知1032 イオンモール三光 2F",
+        "url": "https://wakaba-shop.jp/shop/sankoh/",
+        "hours": "10:00〜20:00（最終受付19:00）・年末年始休"
+      },
+      {
+        "brand": "買取店わかば",
+        "city": "日田市",
+        "name": "イオン日田店",
+        "addr": "大分県日田市南元町14-22 イオン日田店店内1F",
+        "url": "https://wakaba-shop.jp/shop/oita-hita/",
+        "hours": "10:00〜19:00・年末年始休"
+      },
+      {
+        "brand": "買取店わかば",
+        "city": "豊後高田市",
+        "name": "トキハインダストリー豊後高田店",
+        "addr": "大分県豊後高田市新町2026 トキハインダストリー豊後高田店 1F",
+        "url": "https://wakaba-shop.jp/shop/bungotakada/",
+        "hours": "10:00〜18:00・年末年始休"
+      }
+    ],
+    "brand_notes": [
+      [
+        "買取大吉",
+        "県ページ掲載の12店すべてで、店舗ページの買取品目一覧に「お酒」あり。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」",
+        "https://www.kaitori-daikichi.jp/list/sake/store/oita-ken/"
+      ],
+      [
+        "おたからや",
+        "公式店舗一覧の県内28店のうち、店舗ページの買取品目に「洋酒」または「お酒」があるのは23店（2026-10-26確認）。",
+        "https://www.otakaraya.jp/shop/oita/"
+      ],
+      [
+        "ジュエルカフェ",
+        "県内7店のうち、店舗ページの買取品目に「お酒」があるのは6店。トキハ別府店は「※当店は金券、お酒の買取は承っておりません。」と記載",
+        "https://jewel-cafe.jp/shop/kyusyu/oita/"
+      ],
+      [
+        "買取店わかば",
+        "県内4店のうち、店舗ページの「主な買取商品一覧」に「お酒買取」があるのは3店（フードウェイアクロスプラザ大分駅南店は記載なし）",
+        "https://wakaba-shop.jp/shop/zenkoku_all/"
+      ]
+    ],
+    "not_liquor": "おたからやの県内5店（イオンタウン豊後高田店・ミスターマックス宇佐店は公式店舗ページに店舗別の買取品目一覧がなく確認できず、大分わさだ店・花津留店・四日市店は店舗ページにお酒・洋酒の記載なし）、ジュエルカフェ トキハ別府店（お酒の買取不可と明記）、買取店わかば フードウェイアクロスプラザ大分駅南店、なんぼや アミュプラザおおいた店（取扱ジャンルにお酒なし）、リサイクルマートの県内3店（店舗ページに酒の記載なし）は掲載していません。大黒屋・キングラム・銀座蔵や・ストックラボ・LINXAS・リカスタ・ファイブニーズ・バイセルは公式サイトで県内の店舗を確認できませんでした（2026-10-26確認）。",
+    "dispatch": [
+      [
+        "バイセル",
+        "「大分市・別府市・中津市・佐伯市、日田市、宇佐市、臼杵市など大分県全域の各市町村にて対応可能です。」（季節事情または地域により出張査定や最短即日対応が難しい場合ありと注記）",
+        "https://buysell-kaitori.com/area/liquor-oita/"
+      ],
+      [
+        "福ちゃん",
+        "「大分市をはじめ、別府市、中津市、佐伯市、日田市など、大分県全域がお酒買取対象エリアです。」",
+        "https://www.fuku-chan.info/liquor/area/oita/"
+      ],
+      [
+        "LINXAS",
+        "「大分県は無料出張エリア（九州）です。大分市・別府市・中津市・宇佐市などに伺い、査定額にご納得いただければその場で現金でお支払いします。」店頭は「県内に店舗はありません。九州では福岡天神店があります。」宅配は1本から",
+        "https://linxas.shop/shops/oita/"
+      ],
+      [
+        "大黒屋",
+        "お酒の出張買取ページの訪問査定対象エリアに、大分県は「大分市、別府市、中津市、日田市、佐伯市、臼杵市、津久見市、竹田市、豊後高田市、杵築市、宇佐市、豊後大野市、由布市、国東市、東国東郡姫島村、速見郡日出町、玖珠郡(九重町、玖珠町)」と記載（エリア内でも訪問対応できない場合ありと注記）",
+        "https://kaitori.e-daikoku.com/visit/liquor/"
+      ],
+      [
+        "ファイブニーズ",
+        "福岡博多店のページに「当店では福岡県内に加え、佐賀県、長崎県、大分県と広範囲に渡って買取を行っております。ご来店がむずかしい遠方のお客様でも出張対応が可能です」と記載（県内に店舗なし）",
+        "https://www.sakekaitori.com/shop/hukuokahakata/"
+      ],
+      [
+        "リカスタ",
+        "「大分県は 宅配買取 エリアです」「大分県全域から送料無料でご利用いただける宅配買取サービスです。」",
+        "https://www.licasta.com/areas/area_ooita/"
+      ],
+      [
+        "ストックラボ",
+        "「大分県は 宅配買取 エリアです。」（県内に店舗なし）",
+        "https://www.stock-lab.com/osake-kaitori/area/oita/"
+      ]
+    ],
+    "distillery": "大分県竹田市久住町には、久住蒸溜所（大分県竹田市久住町大字久住6426）があります。公式サイトによると、小早川酒造の跡地を取得して建てた蒸溜所で、2021年1月にウイスキー製造免許を取得し、2021年2月27日に初蒸溜を行いました。スコットランドのフォーサイス社製ポットスチル（初溜釜2500L・再溜釜1800L）と木製発酵槽5基を備え、麦芽の約1割は県内の契約農家に委託栽培した大麦を使っています。商品として「シングルモルト久住 tabi #01」「michi RD.26」などを紹介しています。",
+    "distillery_url": "https://kujudistillery.jp/distillery/",
+    "distillery_label": "久住蒸溜所 公式サイト（久住蒸溜所について）"
   }
 }
