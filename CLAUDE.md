@@ -586,3 +586,4 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 訂正: springbank-kaitori の FAQ（schema・本文）「21年 約9.7万円」→ souba-ranking から自動（10/26: 15年 約3.6万・21年 約10.4万円）。
 - 公式照合（10/27）: LINXAS スプリングバンク（9/30更新）・大黒屋 竹鶴（**10/26 更新**・値は 10/25 と同じ）＝ハブの値と一致。
 - build（heap8192）EXIT0 → precheck ✅（3,006）→ コミット後 sitemap → `*.txt` 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions）。source af9831a02/35403c60d・deploy 1049a72ffe。ASP 0→0・hikakaku 1,212→1,212。
+- CF 反映約1分（03:11 push→03:12 UTC）。本番 ?cb: 8URL 200・新文言あり・旧値0・ASP 0・/api/contact 400・robots Sitemap 行。**Indexing 2本（springbank-kaitori・taketsuru-kaitori）は 429＝未送信**。
