@@ -574,5 +574,5 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **公式**（10/27再確認）: shichi.e-daikoku.com/shop/（質店舗一覧）に「宮城」「仙台」0件（同ページに北海道/札幌・愛知/名古屋あり＝取得正常）、/shop/sendai/ 404、www.e-daikoku.com /shop/・トップも 0件 → 行ごと削除。
 - 件数表記: 宮城リーフに地元業者表の件数を数える文言は無い（「3〜5社で相見積もり」「全国対応の主要3業者」は別の話）＝本文修正なし。表はバイセル・福ちゃんの2行に。
 - `scripts/patch-tier2-miyagi-daikoku-remove-1027.py`（冪等・app 51＋prefectures.py）。出現数 src 51→0 / deploy 102（51ファイル）→0。
-- build（heap8192）EXIT0・precheck ✅（3,006）→ tier2/miyagi のみ部分 rsync（*.txt・__next* 除外・functions 保持）・参照 static 15件 deploy に存在。source 6fbd9ae2d・deploy 3b78c59e45。
+- build（heap8192）EXIT0・precheck ✅（3,006）→ tier2/miyagi のみ部分 rsync（*.txt・__next* 除外・functions 保持）・参照 static 15件 deploy に存在。source 6fbd9ae2d・deploy 3b78c59e45（＋空コミット 23977b56e2：00:25 push 後20分未反映。00:48 UTC 反映）。本番 ?cb: 宮城51リーフ 旧行0・バイセル行あり（51/51）・県ハブ 200・/api/contact 400・robots Sitemap 行。
 - 北海道行（A JOYLAB 札幌店のまま／B ファイブニーズ 北海道札幌店）は判断待ちで未変更。10/27: joylab.jp 503（メンテナンス中）継続。**sakekaitori.com/shop/sapporo/ の住所が「中央区大通西15丁目2-1 ラスコム15ビル 1-A」に（10/25 記録の北5条西25-4-18 と違う）・店舗受付 10:00〜19:00** → B 採用時はこの住所で。
