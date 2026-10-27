@@ -587,3 +587,11 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 公式照合（10/27）: LINXAS スプリングバンク（9/30更新）・大黒屋 竹鶴（**10/26 更新**・値は 10/25 と同じ）＝ハブの値と一致。
 - build（heap8192）EXIT0 → precheck ✅（3,006）→ コミット後 sitemap → `*.txt` 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions）。source af9831a02/35403c60d・deploy 1049a72ffe。ASP 0→0・hikakaku 1,212→1,212。
 - CF 反映約1分（03:11 push→03:12 UTC）。本番 ?cb: 8URL 200・新文言あり・旧値0・ASP 0・/api/contact 400・robots Sitemap 行。**Indexing 2本（springbank-kaitori・taketsuru-kaitori）は 429＝未送信**。
+
+### 2026-10-27 16:00 遅れ挽回（2回目）: 6ページ＋県ハブ47の全国導線 ✅本番反映済み
+- GSC 9/27〜10/24（query+page）: 「ウイスキー 買取」imp110・10.0位が /tier2/kumamoto/ に着地（全国語の主ページ＝トップ / は表示なし）。「余市 nv/ノンエイジ 買取」は yoichi-10 に着地（**yoichi-nv は URL 検査で「URL is unknown to Google」のまま**・sitemap/内部リンク20本超・200・index）。「山崎 ノンエイジ 買取」は yamazaki-nv-kaitori 46／hako-nashi 9。「宮城狭10年 買取」は NV に着地（18.5位）。
+- 県ハブ47: 結論ボックスに「全国対応の買取業者と銘柄別の買取相場 → /（トップ）」の文脈リンク（`scripts/patch-tier2-national-link-toyama-lead-1027.py`・冪等・data-national-link）。富山県ハブ: 結論ボックスを店頭28店（市町村別・チェーン別・営業時間）・出張（バイセル/LINXAS 公式の文言）・宅配の答えに（title は 10/24 変更＝据え置き）。
+- 生成器: brand-v3 に `INTENT_BANNER`（yoichi-10 の h1 直下に「年数表記なしのNVは別商品・3,000〜5,300円 → yoichi-nv」）。angle-v3 に `ANGLE_LEAD`（(slug,角度)→冒頭ボックス）: yamazaki-nv-hako-nashi＝箱を無くした場合の手順に役割を限定し価格は主ページへ（10/26 の箱あり/無しの値は重ねて書かない）／taketsuru-pure-nisemono-mikata＝冒頭の答え（メーカーの偽造品のお知らせは確認範囲で無し・2020/3/31 リニューアルの旧ボトル・年数表記品との取り違え・売る前の3点）。
+- miyagikyo-nv（store-prices）: identify と FAQ に宮城峡10年（アサヒビール 2025-09-09 発表「2015年以来10年ぶり」・700ml・45%・税込13,200円・国内9,000本・システム障害で延期→**2026-02-03 から数量限定で順次発売**・和紙ラベル／深緑のキャップシール）。
+- 落ちたページ: hibiki-30＝9/25 から表示減＋9/29 から順位低下（10/17 クロール済み・サイト側の変更なし）＝原因不明で触らず。hakushu-12＝順位・表示は横ばい（クリック 4→2 の揺れ）。glenfiddich-kaitori＝表示が一桁（2→0 の揺れ）。yamazaki-nv＝順位は改善（9.6→8.3）・表示減（需要減）＋hako-nashi とのカニバリ（今回書き分け）。
+- build（heap8192）EXIT0 → precheck ✅（3,006）→ sitemap → *.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions）。source 607e0920e/b9123efde・deploy 6f492bee3e。ASP 0→0・hikakaku 1,212→1,212。
