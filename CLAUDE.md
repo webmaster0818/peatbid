@@ -569,3 +569,10 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 余市20年（9/29以降 20位→60位台）: `yoichi-20` 新設（10/26 取得の各店ページ: ファイブニーズ 193,000・大黒屋 190,000（10/25）・ストックラボ 180,000〜181,000（10/24）・リカスタ 170,000/箱なし150,000・LINXAS 150,000（9/30）、20年貯蔵 1984〜1990 LINXAS 220,000〜500,000円、大黒屋実績 2026-09-10 190,000円）。title/h1/desc も店舗レンジに。**掲示価格を title に入れた＝月替わりに再確認**。
 - 落ちたページの URL 検査（10/26）: yamazaki-18-kaifu-zumi のみ Crawled - not indexed（9/21）、他は indexed。hibiki-30/yoichi-20/miyagikyo-15 の順位低下は 9/25〜29 に発生（サイト側のコミットなし）。
 - build（heap8192）EXIT0 → precheck ✅（3,006）→ `*.txt` 削除 → フル rsync（--exclude .git/_not-found/functions）。source 25fb945d0・deploy 9fb3d110b6（CF 反映約3分）。ASP 0→0・hikakaku 1,212→1,212。Indexing 10/10。
+
+### 2026-10-27 朝ルーチン: tier2 宮城 地元業者表「大黒屋 質仙台店」を削除（既定案A・10/26宣言・回答なし）
+- **公式**（10/27再確認）: shichi.e-daikoku.com/shop/（質店舗一覧）に「宮城」「仙台」0件（同ページに北海道/札幌・愛知/名古屋あり＝取得正常）、/shop/sendai/ 404、www.e-daikoku.com /shop/・トップも 0件 → 行ごと削除。
+- 件数表記: 宮城リーフに地元業者表の件数を数える文言は無い（「3〜5社で相見積もり」「全国対応の主要3業者」は別の話）＝本文修正なし。表はバイセル・福ちゃんの2行に。
+- `scripts/patch-tier2-miyagi-daikoku-remove-1027.py`（冪等・app 51＋prefectures.py）。出現数 src 51→0 / deploy 102（51ファイル）→0。
+- build（heap8192）EXIT0・precheck ✅（3,006）→ tier2/miyagi のみ部分 rsync（*.txt・__next* 除外・functions 保持）・参照 static 15件 deploy に存在。source 6fbd9ae2d・deploy 3b78c59e45。
+- 北海道行（A JOYLAB 札幌店のまま／B ファイブニーズ 北海道札幌店）は判断待ちで未変更。10/27: joylab.jp 503（メンテナンス中）継続。**sakekaitori.com/shop/sapporo/ の住所が「中央区大通西15丁目2-1 ラスコム15ビル 1-A」に（10/25 記録の北5条西25-4-18 と違う）・店舗受付 10:00〜19:00** → B 採用時はこの住所で。
