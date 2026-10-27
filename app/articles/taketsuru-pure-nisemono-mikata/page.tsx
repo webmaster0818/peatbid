@@ -39,6 +39,11 @@ export default function TaketsuruPureNisemonoMikataPage() {
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">竹鶴ピュアモルトの偽物・贋作の見分け方</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
+          <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm font-bold text-ink mb-2">竹鶴の偽物について（先に結論）</p>
+            <div className="text-sm text-ink leading-relaxed"><ul className="list-disc pl-5 space-y-1"><li>PeatBid編集部が確認した範囲（2026-10-27）では、ニッカウヰスキー（アサヒビール）が竹鶴の偽造品について注意を呼びかけた公式のお知らせは見つかりませんでした。</li><li>竹鶴ピュアモルトは<strong>2020年3月31日にリニューアル</strong>しています（アサヒビール 2020年1月16日発表）。ラベルの意匠が手元のボトルと現行品で違っても、<strong>リニューアル前の旧ボトル</strong>の可能性があり、それだけで偽物とは言えません。</li><li>年数表記の無いピュアモルトと、<strong>12年・17年・21年・25年</strong>などの年数表記品は別の商品で、買取価格も大きく違います。ラベルの年数表記を先に確認してください（<Link href="/articles/taketsuru-kaitori/" className="text-amber-dark underline">竹鶴の買取価格一覧（全ボトル）</Link>）。</li><li>売る前に自分で見るのは、<strong>キャップシールの破れ・開封の跡</strong>、<strong>液面</strong>（自然な目減りを超えて減っていないか）、<strong>購入経路</strong>（相場より極端に安い個人出品で買ったものか）の3点です。判断できない場合は、ラベル表・裏と箱の写真を添えて買取店の査定（無料）に出してください。</li></ul></div>
+          </div>
+
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Brand mini profile */}

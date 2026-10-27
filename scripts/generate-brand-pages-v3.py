@@ -616,7 +616,18 @@ def render_page(b, all_brands):
         "taketsuru-25": ("/articles/taketsuru-kaitori/", "竹鶴", "ピュアモルト（年数表記なし）・12年・17年・21年・35年・限定品", "竹鶴の買取価格一覧（全ボトル・7店比較）"),
         "taketsuru-pure": ("/articles/taketsuru-kaitori/", "竹鶴", "12年・17年・21年・25年・35年・限定品", "竹鶴の買取価格一覧（全ボトル・7店比較）"),
     }
+    # 2026-10-27 16時: 「余市 nv 買取」「余市 ノンエイジ 買取」が余市10年に着地（GSC 9/27〜10/24・yoichi-nv は URL 検査で未認識）。
+    # 10年ページの h1 直下で、年数表記なし（NV）は別商品であることと主ページを示す。
+    INTENT_BANNER = {
+        "yoichi-10": 'このページは<strong>ラベルに「10」の年数表記がある余市10年</strong>の買取価格です。年数表記の無い<strong>余市（ノンエイジ・NV）</strong>は別の商品で、買取店の掲示価格は 3,000〜5,300円（2026-10-24確認）と大きく異なります。余市NVを売る場合は <Link href="/articles/yoichi-nv-kaitori/" className="text-amber-dark underline font-bold">余市NV（ノンエイジ）の買取価格・相場 →</Link>',
+    }
     hub_banner_html = ""
+    if slug_base in INTENT_BANNER:
+        hub_banner_html = f'''
+          <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm text-ink leading-relaxed">{INTENT_BANNER[slug_base]}</p>
+          </div>
+'''
     if slug_base in HUB_BANNER:
         _hb_href, _hb_brand, _hb_scope, _hb_label = HUB_BANNER[slug_base]
         hub_banner_html = f'''

@@ -42,6 +42,7 @@ export default function Page() {
           奈良県（関西地方・人口130万人）は奈良・橿原・生駒・大和郡山を中心に二次流通の需要があります。店舗へ持ち込む方法もありますが、<strong>全国対応の宅配買取を利用すると、奈良県全域から売却でき、複数社に同時に査定を依頼して比較できます</strong>（送料は多くの業者で無料です）。買取額は市場相場（下記Yahoo中央値）の60〜80%程度が業界一般の目安です。
         </p>
         <a href="#osusume" className="inline-block bg-amber-dark text-white text-sm font-bold py-2.5 px-5 rounded-lg hover:opacity-90 transition">おすすめの宅配買取業者を見る →</a>
+        <p data-national-link="1" className="text-sm text-warm-gray mt-3 leading-relaxed">県を限らず、全国対応の買取業者と銘柄別の買取相場を比べる場合は <Link href="/" className="text-amber-dark underline hover:text-burgundy">ウイスキー買取の業者比較と相場（全国）→</Link></p>
         <p className="text-[10px] text-warm-gray mt-2">本ページは広告（アフィリエイト）を含みます。</p>
       </div>
 

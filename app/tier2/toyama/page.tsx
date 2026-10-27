@@ -37,11 +37,14 @@ export default function Page() {
 
       {/* 1. 結論ボックス */}
       <div className="border-2 border-amber/40 rounded-xl p-5 mb-10 bg-cream/40">
-        <p className="font-bold text-base mb-2">富山県での売却方法について</p>
-        <p className="text-sm leading-relaxed mb-4">
-          富山県（中部地方・人口105万人）は富山・高岡・砺波・射水を中心に二次流通の需要があります。店舗へ持ち込む方法もありますが、<strong>全国対応の宅配買取を利用すると、富山県全域から売却でき、複数社に同時に査定を依頼して比較できます</strong>（送料は多くの業者で無料です）。買取額は市場相場（下記Yahoo中央値）の60〜80%程度が業界一般の目安です。
-        </p>
+        <p className="font-bold text-base mb-2">富山県でウイスキーを売る先（先に結論）</p>
+        <ul className="text-sm leading-relaxed mb-4 list-disc pl-5 space-y-1">
+          <li><strong>店頭</strong>：県内でお酒の買取を確認できた店舗は<strong>28店</strong>（富山市 10店・高岡市 8店・射水市 4店・砺波市 2店・滑川市・氷見市・小矢部市・魚津市 各1店）。内訳は買取大吉 19店・おたからや 4店・銀座蔵や 4店・ジュエルカフェ 1店で、営業時間は各店の公式で 10:00〜18:00 または 10:00〜19:00 です（<a href="#local-stores" className="text-amber-dark underline hover:text-burgundy">店舗一覧</a>・2026-10-17／10-24確認）。</li>
+          <li><strong>出張</strong>：バイセルは「富山県全域の各市町村で対応可能」、LINXAS は「富山県は無料出張エリア」と公式に記載しています（どちらも県内に店舗なし）。</li>
+          <li><strong>宅配</strong>：全国対応の宅配買取なら県内どこからでも送れて、複数社の査定を比べられます。買取額は市場相場（下記のヤフオク落札中央値）の60〜80%程度が業界一般の目安です。</li>
+        </ul>
         <a href="#osusume" className="inline-block bg-amber-dark text-white text-sm font-bold py-2.5 px-5 rounded-lg hover:opacity-90 transition">おすすめの宅配買取業者を見る →</a>
+        <p data-national-link="1" className="text-sm text-warm-gray mt-3 leading-relaxed">県を限らず、全国対応の買取業者と銘柄別の買取相場を比べる場合は <Link href="/" className="text-amber-dark underline hover:text-burgundy">ウイスキー買取の業者比較と相場（全国）→</Link></p>
         <p className="text-[10px] text-warm-gray mt-2">本ページは広告（アフィリエイト）を含みます。</p>
       </div>
 

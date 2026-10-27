@@ -796,6 +796,39 @@ def render_page(b, data):
           </div>
 '''
 
+    # 2026-10-27 16時: 角度ページ固有の「冒頭の答え／役割の書き分け」（h1 直下・MarketPriceCard より前）。
+    # (銘柄slug, 角度) → (見出し, 本文HTML)。値は出典つきの確認済みの事実だけ。
+    ANGLE_LEAD = {
+        # 「山崎 ノンエイジ 買取」で yamazaki-nv-kaitori（主）と表示を分け合っていた（GSC 9/27〜10/24）。
+        # 価格（箱あり/箱無しの店舗別）は主ページに置き、ここは箱を無くした場合の手順に限る＝価格は重ねて書かない。
+        ("yamazaki-nv", "hako-nashi"): (
+            "このページの範囲",
+            '山崎ノンエイジの<strong>外箱を無くした・最初から箱が無い場合の手順</strong>（箱の探し方、代用の箱を使わない理由、空き箱の入手先、箱なしで高く売るコツ）をまとめたページです。'
+            '<strong>山崎ノンエイジの買取価格（買取店の掲示価格・箱あり／箱無し別・月別推移）</strong>は、主ページ '
+            '<Link href="/articles/yamazaki-nv-kaitori/" className="text-amber-dark underline font-bold">山崎ノンエイジの買取相場 →</Link> にまとめています。'
+            '下の「箱なしによる査定額の影響」は、ヤフオク落札中央値に業界一般の割合を掛けた目安で、店舗の掲示価格ではありません。'
+        ),
+        # 「竹鶴 偽物」6.2位・imp38（GSC 9/27〜10/24）。冒頭に答えが無く、汎用の5チェックから始まっていた。
+        ("taketsuru-pure", "nisemono-mikata"): (
+            "竹鶴の偽物について（先に結論）",
+            '<ul className="list-disc pl-5 space-y-1">'
+            '<li>PeatBid編集部が確認した範囲（2026-10-27）では、ニッカウヰスキー（アサヒビール）が竹鶴の偽造品について注意を呼びかけた公式のお知らせは見つかりませんでした。</li>'
+            '<li>竹鶴ピュアモルトは<strong>2020年3月31日にリニューアル</strong>しています（アサヒビール 2020年1月16日発表）。ラベルの意匠が手元のボトルと現行品で違っても、<strong>リニューアル前の旧ボトル</strong>の可能性があり、それだけで偽物とは言えません。</li>'
+            '<li>年数表記の無いピュアモルトと、<strong>12年・17年・21年・25年</strong>などの年数表記品は別の商品で、買取価格も大きく違います。ラベルの年数表記を先に確認してください（<Link href="/articles/taketsuru-kaitori/" className="text-amber-dark underline">竹鶴の買取価格一覧（全ボトル）</Link>）。</li>'
+            '<li>売る前に自分で見るのは、<strong>キャップシールの破れ・開封の跡</strong>、<strong>液面</strong>（自然な目減りを超えて減っていないか）、<strong>購入経路</strong>（相場より極端に安い個人出品で買ったものか）の3点です。判断できない場合は、ラベル表・裏と箱の写真を添えて買取店の査定（無料）に出してください。</li>'
+            '</ul>'
+        ),
+    }
+    angle_lead_html = ""
+    if (b["slug"], angle_suffix) in ANGLE_LEAD:
+        _al_h, _al_body = ANGLE_LEAD[(b["slug"], angle_suffix)]
+        angle_lead_html = f'''
+          <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm font-bold text-ink mb-2">{_al_h}</p>
+            <div className="text-sm text-ink leading-relaxed">{_al_body}</div>
+          </div>
+'''
+
     content = f'''import type {{ Metadata }} from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -836,7 +869,7 @@ export default function {component_name}Page() {{
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{data["h1"]}</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: {fetched_at} / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
-
+{angle_lead_html}
           <MarketPriceCard data={{priceData as Parameters<typeof MarketPriceCard>[0]["data"]}} />
 
           {{/* Brand mini profile */}}

@@ -54,6 +54,10 @@ export default function Yoichi10KaitoriPage() {
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">余市10年の買取価格・相場【2026年10月】現行品・旧ボトル別の6店比較と月別推移</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
+          <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm text-ink leading-relaxed">このページは<strong>ラベルに「10」の年数表記がある余市10年</strong>の買取価格です。年数表記の無い<strong>余市（ノンエイジ・NV）</strong>は別の商品で、買取店の掲示価格は 3,000〜5,300円（2026-10-24確認）と大きく異なります。余市NVを売る場合は <Link href="/articles/yoichi-nv-kaitori/" className="text-amber-dark underline font-bold">余市NV（ノンエイジ）の買取価格・相場 →</Link></p>
+          </div>
+
           <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
             <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">余市10年の買取価格の早見表（2026年10月26日確認）</h2>
             <p className="text-sm text-ink mb-3">買取店が自社サイトに掲示している余市10年の買取価格を、現行品と旧ボトルに分けてまとめました。</p>

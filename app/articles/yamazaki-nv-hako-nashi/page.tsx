@@ -39,6 +39,11 @@ export default function YamazakiNvHakoNashiPage() {
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎ノンエイジが箱なしでも買取できる？</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
+          <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm font-bold text-ink mb-2">このページの範囲</p>
+            <div className="text-sm text-ink leading-relaxed">山崎ノンエイジの<strong>外箱を無くした・最初から箱が無い場合の手順</strong>（箱の探し方、代用の箱を使わない理由、空き箱の入手先、箱なしで高く売るコツ）をまとめたページです。<strong>山崎ノンエイジの買取価格（買取店の掲示価格・箱あり／箱無し別・月別推移）</strong>は、主ページ <Link href="/articles/yamazaki-nv-kaitori/" className="text-amber-dark underline font-bold">山崎ノンエイジの買取相場 →</Link> にまとめています。下の「箱なしによる査定額の影響」は、ヤフオク落札中央値に業界一般の割合を掛けた目安で、店舗の掲示価格ではありません。</div>
+          </div>
+
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Brand mini profile */}
