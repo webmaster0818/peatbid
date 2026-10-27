@@ -576,3 +576,13 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - `scripts/patch-tier2-miyagi-daikoku-remove-1027.py`（冪等・app 51＋prefectures.py）。出現数 src 51→0 / deploy 102（51ファイル）→0。
 - build（heap8192）EXIT0・precheck ✅（3,006）→ tier2/miyagi のみ部分 rsync（*.txt・__next* 除外・functions 保持）・参照 static 15件 deploy に存在。source 6fbd9ae2d・deploy 3b78c59e45（＋空コミット 23977b56e2：00:25 push 後20分未反映。00:48 UTC 反映）。本番 ?cb: 宮城51リーフ 旧行0・バイセル行あり（51/51）・県ハブ 200・/api/contact 400・robots Sitemap 行。
 - 北海道行（A JOYLAB 札幌店のまま／B ファイブニーズ 北海道札幌店）は判断待ちで未変更。10/27: joylab.jp 503（メンテナンス中）継続。**sakekaitori.com/shop/sapporo/ の住所が「中央区大通西15丁目2-1 ラスコム15ビル 1-A」に（10/25 記録の北5条西25-4-18 と違う）・店舗受付 10:00〜19:00** → B 採用時はこの住所で。
+
+### 2026-10-27 成長ルーチン12:00: 「スプリングバンク 買取」「竹鶴 買取」のカニバリ（年数ページ着地）
+- GSC 9/27〜10/24 query+page（完全一致）: 竹鶴 買取＝taketsuru-25 imp139・19.2位／taketsuru-21 imp88・30.5位、スプリングバンク 買取＝springbank-21 imp21・11.8位／springbank-15 imp11・24.8位。**ハブ2本はこのクエリで表示0**。
+- WebSearch（米国向けで Google.co.jp 順位の再現は不可）: 上位は大黒屋「ニッカ竹鶴買取｜…」・LINXAS「スプリングバンク 買取 ｜…」「ニッカ竹鶴 買取 ｜…」・ライフバケーション「スプリングバンク買取│…」・LIQUORJOY など **すべて銘柄単位のハブ型**、title 先頭が「<銘柄>買取」。
+- 生成器 `HUB_BANNER`（generate-brand-pages-v3）: springbank-15/21・taketsuru-17/21/25/pure の **h1 直下（早見表より前）**に「このページは◯◯だけの買取価格です。◯◯の買取相場を全年数で比べる場合は → ハブ」。週次再生成でも残る。
+- 竹鶴25年: h1_full から「竹鶴の年数別早見表」を外し 25年特化、desc も同様、quick 見出し「竹鶴25年の買取価格の早見表」・他年数の行に「参考:」。**title_full には「竹鶴の年数別早見表」が残る（10/25 変更＝7日ルール。11/02 以降に外す）**。
+- ハブ: taketsuru-kaitori h1「竹鶴買取｜…の買取価格一覧と店舗別相場」＋冒頭に年数別ページのリンク行（title は 10/26 変更のため据え置き）。springbank-kaitori 冒頭に「スプリングバンクの買取相場を…1ページに」＋年数別リンク行、店舗表の 15年/21年 行をリンク化。
+- 訂正: springbank-kaitori の FAQ（schema・本文）「21年 約9.7万円」→ souba-ranking から自動（10/26: 15年 約3.6万・21年 約10.4万円）。
+- 公式照合（10/27）: LINXAS スプリングバンク（9/30更新）・大黒屋 竹鶴（**10/26 更新**・値は 10/25 と同じ）＝ハブの値と一致。
+- build（heap8192）EXIT0 → precheck ✅（3,006）→ コミット後 sitemap → `*.txt` 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions）。source af9831a02/35403c60d・deploy 1049a72ffe。ASP 0→0・hikakaku 1,212→1,212。
