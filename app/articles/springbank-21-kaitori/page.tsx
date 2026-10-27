@@ -53,6 +53,10 @@ export default function Springbank21KaitoriPage() {
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">スプリングバンク21年の買取相場と業者比較ガイド【2026年10月】</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
+          <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm text-ink leading-relaxed">このページは<strong>スプリングバンク21年</strong>だけの買取価格です。スプリングバンクの買取相場を全年数で比べる場合（10年・15年・18年・25年〜50年・ローカルバーレイ・CV・旧ボトル）は <Link href="/articles/springbank-kaitori/" className="text-amber-dark underline font-bold">スプリングバンクの買取相場一覧（全年数） →</Link></p>
+          </div>
+
           <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
             <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">スプリングバンク21年の買取価格（2026年10月25日確認）</h2>
             <p className="text-sm text-ink mb-3">店舗が掲示している21年の参考買取価格は 70,000〜100,000円 です（LINXAS）。大黒屋の買取実績は 2026年4月・6月にいずれも 100,000円 です。 ほかの年数は <Link href="/articles/springbank-kaitori/" className="text-amber-dark underline hover:text-burgundy">スプリングバンクの買取価格一覧</Link> をご覧ください。</p>

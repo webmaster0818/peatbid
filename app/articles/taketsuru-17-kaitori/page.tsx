@@ -52,6 +52,10 @@ export default function Taketsuru17KaitoriPage() {
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">竹鶴17年の買取相場と業者比較ガイド【2026年10月】</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
+          <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm text-ink leading-relaxed">このページは<strong>竹鶴17年</strong>だけの買取価格です。竹鶴の買取相場を全年数で比べる場合（ピュアモルト（年数表記なし）・12年・21年・25年・35年・限定品）は <Link href="/articles/taketsuru-kaitori/" className="text-amber-dark underline font-bold">竹鶴の買取価格一覧（全ボトル・7店比較） →</Link></p>
+          </div>
+
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Table of Contents */}

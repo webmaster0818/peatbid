@@ -184,7 +184,7 @@ export default function TaketsuruKaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">竹鶴の買取価格一覧｜ピュアモルト・12年・17年・21年・25年・35年の店舗別相場</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">竹鶴買取｜ピュアモルト・12年・17年・21年・25年・35年の買取価格一覧と店舗別相場</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 not-prose">
@@ -196,6 +196,11 @@ export default function TaketsuruKaitoriPage() {
               <li>12年は<strong>700mlと660ml（角瓶）で価格が分かれます</strong>。17年・21年は角瓶・旧ラベル・受賞記念ラベル・限定品が別の価格です。</li>
               {t21 && <li>ヤフオク落札中央値は<strong>ピュアモルト{yen("taketsuru-pure") ?? "集計中"}／17年{yen("taketsuru-17")}／21年{yen("taketsuru-21")}／25年{yen("taketsuru-25") ?? "集計中"}</strong>です（毎週更新）。</li>}
             </ul>
+          </div>
+
+          <div className="bg-cream/40 border border-amber/40 rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm text-ink leading-relaxed">竹鶴の買取相場を、年数表記のないピュアモルトから12年〜35年・限定品まで、このページで一覧にしています。年数が分かっている方は、年数別の詳しいページ（実績・見分け方・箱の有無）もご覧ください。</p>
+            <p className="text-sm text-ink mt-2"><strong>年数別の詳しいページ:</strong> <Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark underline">ピュアモルト（年数表記なし）</Link>／<Link href="/articles/taketsuru-17-kaitori/" className="text-amber-dark underline">竹鶴17年</Link>／<Link href="/articles/taketsuru-21-kaitori/" className="text-amber-dark underline">竹鶴21年</Link>／<Link href="/articles/taketsuru-25-kaitori/" className="text-amber-dark underline">竹鶴25年</Link></p>
           </div>
 
           <div className="bg-cream/40 border border-amber/30 rounded-xl p-5 mb-8 not-prose">

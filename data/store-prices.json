@@ -2371,8 +2371,8 @@
     "desc_tail": "大黒屋・ストックラボ・LINXAS・リカスタ・買取エリートなど7店の掲示価格と買取実績も掲載。",
     "toc_label": "4-2. 買取店の掲示価格（店舗別）",
     "quick": {
-      "heading": "竹鶴25年と竹鶴の年数別 買取価格の早見表（2026年10月26日確認）",
-      "lead": "買取店が自社サイトに掲示している竹鶴の買取価格（未開封）を、25年を先頭に年数別にまとめました。各行のリンク先で、その年数の詳しい価格・買取実績・見分け方を確認できます。全ボトル（限定品を含む）の店舗別一覧は <Link href=\"/articles/taketsuru-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴の買取価格一覧</Link> にあります。",
+      "heading": "竹鶴25年の買取価格の早見表（2026年10月26日確認）",
+      "lead": "買取店が自社サイトに掲示している竹鶴25年（未開封）の買取価格です。下の段は比較用に、ほかの年数の掲示価格を参考として載せています。竹鶴の全ボトル（限定品を含む）の店舗別一覧は <Link href=\"/articles/taketsuru-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴の買取価格一覧</Link> にあります。",
       "rows": [
         [
           "竹鶴25年（完品・箱あり）",
@@ -2385,32 +2385,32 @@
           "ストックラボ（10/24更新）"
         ],
         [
-          "<Link href=\"/articles/taketsuru-pure-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴ピュアモルト（年数表記なし）白ラベル</Link>",
+          "参考: <Link href=\"/articles/taketsuru-pure-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴ピュアモルト（年数表記なし）白ラベル</Link>",
           "2,500〜5,000円",
           "大黒屋 2,500円・LINXAS 4,200円・ストックラボ 4,000〜5,000円"
         ],
         [
-          "<Link href=\"/articles/taketsuru-pure-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴ピュアモルト（年数表記なし）黒ラベル</Link>",
+          "参考: <Link href=\"/articles/taketsuru-pure-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴ピュアモルト（年数表記なし）黒ラベル</Link>",
           "6,000〜8,000円",
           "大黒屋 6,000円・ストックラボ 6,500〜7,500円・LINXAS 8,000円"
         ],
         [
-          "<Link href=\"/articles/taketsuru-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴12年（700ml）</Link>",
+          "参考: <Link href=\"/articles/taketsuru-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴12年（700ml）</Link>",
           "15,000〜18,000円",
           "大黒屋 16,000円・LINXAS 箱付 17,000円／箱無 15,000円・ストックラボ（丸瓶）17,000〜18,000円"
         ],
         [
-          "<Link href=\"/articles/taketsuru-17-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴17年（箱あり）</Link>",
+          "参考: <Link href=\"/articles/taketsuru-17-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴17年（箱あり）</Link>",
           "30,000〜31,000円",
           "大黒屋 31,000円（17年表記の箱）・LINXAS 31,000円・ストックラボ 30,000〜31,000円（箱なしは大黒屋・LINXAS 27,000円）"
         ],
         [
-          "<Link href=\"/articles/taketsuru-21-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴21年（箱あり）</Link>",
+          "参考: <Link href=\"/articles/taketsuru-21-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴21年（箱あり）</Link>",
           "60,000〜61,000円",
           "大黒屋 61,000円（21年表記の箱）・LINXAS 61,000円・ストックラボ 60,000〜61,000円（箱なしは大黒屋 58,000円・LINXAS 56,000円）"
         ],
         [
-          "<Link href=\"/articles/taketsuru-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴35年</Link>",
+          "参考: <Link href=\"/articles/taketsuru-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">竹鶴35年</Link>",
           "445,000〜550,000円",
           "ストックラボ 445,000〜446,000円・買取エリート 〜550,000円（大黒屋は「お問い合わせ」、LINXAS は「ASK」）"
         ]
@@ -2418,8 +2418,8 @@
       "note": "店舗側の価格の更新日: 買取エリート 2026-10-26・大黒屋 2026-10-25・ストックラボ 2026-10-24・買取虎福 2026-09-14・LINXAS 2026-09-30・リカスタ／ファイブニーズ 記載なし（いずれも 2026-10-26 に各ページで確認）。竹鶴25年は、モルト原酒だけを合わせた「ピュアモルト」で、ストックラボは現在の分類でいう「ブレンデッドモルト」にあたると説明しています（グレーンを合わせた「ブレンデッドウイスキー」は竹鶴35年）。年数表記の無い竹鶴ピュアモルトは、白ラベル（現行）と黒ラベル（旧）で掲示価格が異なります。掲示価格は未開封・状態良好を前提にした参考額で、実際の買取額は査定で決まります。"
     },
     "title_full": "竹鶴25年の買取価格・相場{MONTH}160,000〜185,000円｜7店比較・月別推移・竹鶴の年数別早見表",
-    "h1_full": "竹鶴25年の買取価格・相場{MONTH_H1}7店の掲示価格・月別推移と竹鶴の年数別早見表",
-    "desc_full": "竹鶴25年ピュアモルトの買取価格を7店の掲示価格で比較（2026年10月26日確認）。完品・箱あり160,000〜185,000円、箱なし140,000〜141,000円。ストックラボの月別推移、ブレンデッドモルトとしての位置づけ、竹鶴の年数別早見表も掲載。",
+    "h1_full": "竹鶴25年の買取価格・相場{MONTH_H1}7店の掲示価格（完品・箱なし）と月別推移",
+    "desc_full": "竹鶴25年ピュアモルトの買取価格を7店の掲示価格で比較（2026年10月26日確認）。完品・箱あり160,000〜185,000円、箱なし140,000〜141,000円。ストックラボの月別推移、ブレンデッドモルトとしての位置づけも。ほかの年数は竹鶴の買取価格一覧へ。",
     "store_intro": "各店が自社サイトに公開している竹鶴25年（ピュアモルト・700ml）の参考買取価格を、PeatBid編集部が 2026-10-26 に各ページで確認した値です。「店舗側の更新日」は、各ページに記載されている価格の更新日です。リカスタは外装の段ボールの有無で3段階に分けて掲示しています。",
     "trend": {
       "store": "ストックラボ",

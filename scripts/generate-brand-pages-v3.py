@@ -605,6 +605,26 @@ def render_page(b, all_brands):
     toc_auction = store_prices.toc_auction(slug_base)
     quick_html = store_prices.quick_block(slug_base, name, yahoo_median if sufficient else None, fetched_at)
 
+    # 2026-10-27: 銘柄名だけの大きな語（「竹鶴 買取」「スプリングバンク 買取」）が年数ページに着地していた（GSC 9/27〜10/24）。
+    # 年数ページは年数に特化させ、h1 直下（早見表より前）で銘柄全体の受け皿＝手書きハブへ明示的に送る。
+    # 値=(ハブのパス, 銘柄名, ハブの範囲の説明, リンク文言)。ハブ側にも年数ページへのリンク表がある。
+    HUB_BANNER = {
+        "springbank-15": ("/articles/springbank-kaitori/", "スプリングバンク", "10年・18年・21年・25年〜50年・ローカルバーレイ・CV・旧ボトル", "スプリングバンクの買取相場一覧（全年数）"),
+        "springbank-21": ("/articles/springbank-kaitori/", "スプリングバンク", "10年・15年・18年・25年〜50年・ローカルバーレイ・CV・旧ボトル", "スプリングバンクの買取相場一覧（全年数）"),
+        "taketsuru-17": ("/articles/taketsuru-kaitori/", "竹鶴", "ピュアモルト（年数表記なし）・12年・21年・25年・35年・限定品", "竹鶴の買取価格一覧（全ボトル・7店比較）"),
+        "taketsuru-21": ("/articles/taketsuru-kaitori/", "竹鶴", "ピュアモルト（年数表記なし）・12年・17年・25年・35年・限定品", "竹鶴の買取価格一覧（全ボトル・7店比較）"),
+        "taketsuru-25": ("/articles/taketsuru-kaitori/", "竹鶴", "ピュアモルト（年数表記なし）・12年・17年・21年・35年・限定品", "竹鶴の買取価格一覧（全ボトル・7店比較）"),
+        "taketsuru-pure": ("/articles/taketsuru-kaitori/", "竹鶴", "12年・17年・21年・25年・35年・限定品", "竹鶴の買取価格一覧（全ボトル・7店比較）"),
+    }
+    hub_banner_html = ""
+    if slug_base in HUB_BANNER:
+        _hb_href, _hb_brand, _hb_scope, _hb_label = HUB_BANNER[slug_base]
+        hub_banner_html = f'''
+          <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm text-ink leading-relaxed">このページは<strong>{name}</strong>だけの買取価格です。{_hb_brand}の買取相場を全年数で比べる場合（{_hb_scope}）は <Link href="{_hb_href}" className="text-amber-dark underline font-bold">{_hb_label} →</Link></p>
+          </div>
+'''
+
     # 2026-10-11: 出典の無い「過去5年で累積30〜80%の上昇」を撤去。代わりに自社集計（price-history）の
     # 集計開始時点→最新の実数のみを出す。4点未満・品質除外・insufficient なら一文ごと出さない。
     history_change_p = ""
@@ -674,7 +694,7 @@ export default function {component_name}() {{
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{h1_text}</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: {page_updated} / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
-{quick_html}
+{hub_banner_html}{quick_html}
           <MarketPriceCard data={{priceData as Parameters<typeof MarketPriceCard>[0]["data"]}} />
 
           {{/* Table of Contents */}}

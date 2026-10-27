@@ -14,13 +14,19 @@ const YEARS = [
   { slug: "springbank-21-kaitori", label: "スプリングバンク21年", key: "springbank-21" },
 ];
 
+// 2026-10-27: FAQ の「21年 約9.7万円」が自社集計（10/26 103,613円）と食い違っていた → 集計値から自動で出す
+const manYen = (key: string): string => {
+  const b = (ranking as { brands: B[] }).brands.find((x) => x.slug === key);
+  return b ? `約${(Math.round(b.median / 1000) / 10).toFixed(1)}万円` : "集計中";
+};
+
 function FaqSchema() {
   const d = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "年代（熟成年数）がわからないスプリングバンクはどう調べますか？", acceptedAnswer: { "@type": "Answer", text: "ボトル正面ラベルの中央〜下部に「AGED 15 YEARS」「15 YEARS OLD」などの年数表記があります。年数表記がない場合はローカルバーレイやCV（カスクストレングス）等のノンエイジ（NAS）ボトルの可能性があります。年数が確認できたら、その年代の買取ページで相場をご確認ください。" } },
-      { "@type": "Question", name: "スプリングバンクの買取相場は年代でどれくらい違いますか？", acceptedAnswer: { "@type": "Answer", text: "熟成年数が上がるほど高くなる傾向があります。当サイトのヤフオク実落札中央値では、15年が約3.5万円、21年が約9.7万円が目安です（毎週更新）。ボトルの状態・付属品・流通量により変動します。" } },
+      { "@type": "Question", name: "スプリングバンクの買取相場は年代でどれくらい違いますか？", acceptedAnswer: { "@type": "Answer", text: `熟成年数が上がるほど高くなる傾向があります。当サイトのヤフオク実落札中央値では、15年が${manYen("springbank-15")}、21年が${manYen("springbank-21")}が目安です（毎週更新）。ボトルの状態・付属品・流通量により変動します。` } },
       { "@type": "Question", name: "スプリングバンク10年・15年・18年の買取価格はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "2026年10月24日に確認した LINXAS の掲示価格（2026年9月30日更新）は、10年 箱付 15,000円・箱無 14,000円、15年 箱付 30,000円・箱無 27,000円、18年 箱付 48,000円・箱無 45,000円 です。大黒屋は18年を 2026年5月28日に 45,000円、ファイブニーズは10年を 2026年8月30日に 14,000円 で買い取った実績を公開しています。" } },
       { "@type": "Question", name: "どの年代のスプリングバンクでも買取してもらえますか？", acceptedAnswer: { "@type": "Answer", text: "多くの買取業者は年代を問わず査定に対応しています。高額になりやすいのは長期熟成・終売・限定ボトルです。まず手元のボトルの年代を確認し、複数業者で相見積もりを取るのがおすすめです。" } },
     ],
@@ -56,8 +62,9 @@ export default function SpringbankKaitoriPage() {
 
           <div className="rounded-lg bg-cream/60 border border-amber-dark/20 p-4 my-6 not-prose">
             <p className="text-sm text-ink leading-relaxed">
-              スプリングバンクは<strong>15年・18年・21年・25年</strong>などの年代ラインナップに加え、ローカルバーレイやCVといった年数表記のないボトルもあります。買取相場は<strong>年代・ボトルによって大きく異なる</strong>ため、まずお手元のボトルがどれかを確認し、該当ページで相場をご覧ください。
+              スプリングバンクの買取相場を、10年〜50年の年数別・ローカルバーレイ・CV・旧ボトルまで1ページにまとめています。スプリングバンクは<strong>15年・18年・21年・25年</strong>などの年代ラインナップに加え、ローカルバーレイやCVといった年数表記のないボトルもあります。買取相場は<strong>年代・ボトルによって大きく異なる</strong>ため、まずお手元のボトルがどれかを確認し、該当ページで相場をご覧ください。
             </p>
+            <p className="text-sm text-ink mt-3"><strong>年数別の詳しいページ:</strong> <Link href="/articles/springbank-15-kaitori/" className="text-amber-dark underline">スプリングバンク15年の買取価格</Link>／<Link href="/articles/springbank-21-kaitori/" className="text-amber-dark underline">スプリングバンク21年の買取価格</Link>／<Link href="/articles/springbank-nv-kaitori/" className="text-amber-dark underline">年数表記なし（ローカルバーレイ・CVなど）</Link></p>
           </div>
 
           <h2 id="store-prices">スプリングバンクの年数別 買取価格（店舗の掲示価格・2026年10月26日確認）</h2>
@@ -70,10 +77,10 @@ export default function SpringbankKaitoriPage() {
                 <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">10年</th><td className="py-2 pr-3 align-top">キングラムリカー <strong>17,000円</strong>（10/21・買取強化中）／LINXAS 箱付 15,000円・箱無 14,000円（9/30）</td><td className="py-2 align-top text-warm-gray">ファイブニーズ 2026-08-30 14,000円／2026-07-01 1998-2009 Bar.アーガイル10周年記念ラベル 38,500円／2025-06-21 旧ボトル 46% 20,000円</td></tr>
                 <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">11年 ランドレッツ＆キルダキンズ</th><td className="py-2 pr-3 align-top">—</td><td className="py-2 align-top text-warm-gray">大黒屋 2026-08-20 2001-2012 60,000円</td></tr>
                 <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">12年 カスクストレングス</th><td className="py-2 pr-3 align-top">—（掲示なし）</td><td className="py-2 align-top text-warm-gray">ファイブニーズ 2026-06-21 29,500円（55.5%）／2025-05-04 旧ラベル 23,000円</td></tr>
-                <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">15年</th><td className="py-2 pr-3 align-top">キングラムリカー <strong>32,000円</strong>（10/21・買取強化中）／LINXAS 箱付 30,000円・箱無 27,000円（9/30）</td><td className="py-2 align-top text-warm-gray">ファイブニーズ 2025-01-20 23,500円</td></tr>
+                <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold"><Link href="/articles/springbank-15-kaitori/" className="text-amber-dark underline">15年</Link></th><td className="py-2 pr-3 align-top">キングラムリカー <strong>32,000円</strong>（10/21・買取強化中）／LINXAS 箱付 30,000円・箱無 27,000円（9/30）</td><td className="py-2 align-top text-warm-gray">ファイブニーズ 2025-01-20 23,500円</td></tr>
                 <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">17年 シェリーウッド</th><td className="py-2 pr-3 align-top">—</td><td className="py-2 align-top text-warm-gray">大黒屋 2026-10-23 箱付 65,000円</td></tr>
                 <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">18年</th><td className="py-2 pr-3 align-top">LINXAS 箱付 <strong>48,000円</strong>・箱無 45,000円（9/30）</td><td className="py-2 align-top text-warm-gray">大黒屋 2026-05-28 45,000円／2026-03-13 2006-2025 ウィスク・イー25周年記念ラベル シェリーカスク 70,000円／2026-01-19 40,000円</td></tr>
-                <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">21年</th><td className="py-2 pr-3 align-top">LINXAS リミテッドエディション <strong>70,000円</strong>・キャンベルタウンモルト 箱付き 100,000円（9/30）</td><td className="py-2 align-top text-warm-gray">大黒屋 2026-06-04 リミテッドエディション 100,000円／2026-04-26 箱付 100,000円</td></tr>
+                <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold"><Link href="/articles/springbank-21-kaitori/" className="text-amber-dark underline">21年</Link></th><td className="py-2 pr-3 align-top">LINXAS リミテッドエディション <strong>70,000円</strong>・キャンベルタウンモルト 箱付き 100,000円（9/30）</td><td className="py-2 align-top text-warm-gray">大黒屋 2026-06-04 リミテッドエディション 100,000円／2026-04-26 箱付 100,000円</td></tr>
                 <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">25年</th><td className="py-2 pr-3 align-top">LINXAS リミテッドエディション 紙箱 <strong>140,000円</strong>・金 130,000円・木箱 200,000円、キャンベルタウンモルト 150,000円（9/30）／大黒屋 リミテッドエディション 木箱 200,000円（10/25）</td><td className="py-2 align-top text-warm-gray">LINXAS 2026年9月の最高額 203,000円（2本）</td></tr>
                 <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">28年 ピュアモルト</th><td className="py-2 pr-3 align-top">LINXAS <strong>120,000円</strong>（総合価格表 10/26更新）</td><td className="py-2 align-top text-warm-gray">—</td></tr>
                 <tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left align-top whitespace-nowrap font-bold">30年</th><td className="py-2 pr-3 align-top">LINXAS <strong>200,000円</strong>（9/30）</td><td className="py-2 align-top text-warm-gray">大黒屋 2026-04-05 リミテッドリリース 箱付 220,000円／LINXAS 2026年9月の最高額 180,000円</td></tr>
@@ -140,7 +147,7 @@ export default function SpringbankKaitoriPage() {
             </div>
             <div className="border border-warm-border rounded-lg p-4">
               <p className="font-bold text-ink mb-1">年代による相場の違い</p>
-              <p className="text-sm text-warm-gray">熟成年数が上がるほど高くなる傾向で、当サイト集計では15年 約3.5万円・21年 約9.7万円が目安です（毎週更新）。</p>
+              <p className="text-sm text-warm-gray">熟成年数が上がるほど高くなる傾向で、当サイト集計では15年 {manYen("springbank-15")}・21年 {manYen("springbank-21")}が目安です（毎週更新）。</p>
             </div>
           </div>
 
