@@ -595,3 +595,8 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - miyagikyo-nv（store-prices）: identify と FAQ に宮城峡10年（アサヒビール 2025-09-09 発表「2015年以来10年ぶり」・700ml・45%・税込13,200円・国内9,000本・システム障害で延期→**2026-02-03 から数量限定で順次発売**・和紙ラベル／深緑のキャップシール）。
 - 落ちたページ: hibiki-30＝9/25 から表示減＋9/29 から順位低下（10/17 クロール済み・サイト側の変更なし）＝原因不明で触らず。hakushu-12＝順位・表示は横ばい（クリック 4→2 の揺れ）。glenfiddich-kaitori＝表示が一桁（2→0 の揺れ）。yamazaki-nv＝順位は改善（9.6→8.3）・表示減（需要減）＋hako-nashi とのカニバリ（今回書き分け）。
 - build（heap8192）EXIT0 → precheck ✅（3,006）→ sitemap → *.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions）。source 607e0920e/b9123efde・deploy 6f492bee3e。ASP 0→0・hikakaku 1,212→1,212。
+
+### 2026-10-28 朝ルーチン: 「バイセル — 東証グロース上場企業」の公式照合（一致・変更なし）／北海道行の差し替えを wip に用意
+- **公式（10/28 curl）**: BuySell Technologies IR「株式基本情報」＝証券コード 7685・上場証券取引所「東京証券取引所グロース」（buysell-technologies.com/ir/stock/）／会社概要「7685（東京証券取引所グロース市場）」（/corporate/overview/）／バイセルのお酒ページ「株式会社BuySell Technologies 東証グロース上場」（buysell-kaitori.com/liquor/）。トップは「東証上場企業が運営」。WebSearch でもプライム市場への変更の発表は見当たらず。→ サイトの「東証グロース上場企業が運営」（tier2 2,398か所＋県ハブ・記事・生成器）は**公式どおり＝修正なし・デプロイなし**。本番 ?cb も同表記。⚠️ IR サイトは www 付きだと証明書エラー（www なしで取得）。
+- 未対応（報告のみ）: 約40県リーフの地元業者表のバイセル行「◯◯県全域／出張・宅配／東証上場大手」＝「大手」は公式に無い言い方・宮城（10/26）と同じく「店頭」が抜けている可能性（未照合）。
+- **北海道行（既定案B・10/29 実行）**: ブランチ `wip/hokkaido-fiveneeds-1029`（ba109580a・origin に push 済み・main 未マージ）。`scripts/patch-tier2-hokkaido-fiveneeds-1029.py`（冪等・51→0・prefectures.py 1）。sakekaitori.com /shop/sapporo/・/shop/（10/28確認）: 〒060-0042 札幌市中央区大通西15丁目2-1 ラスコム15ビル 1-A・市電 西15丁目停留場 徒歩4分・西18丁目駅 徒歩5分・店舗受付 10:00〜19:00・**定休日 木曜日・日曜日**（3か所一致。同ページの「水曜日・土曜日」は宮城仙台店）・「2025年11月8日移転リニューアルオープン」・店頭/出張/宅配・出張エリア 札幌市10区＋道内各市。joylab.jp は 10/28 も 503。wip はビルド未実施（明日 main にマージ後に build→precheck→tier2/hokkaido 部分 rsync）。
