@@ -90,6 +90,33 @@ export default function ArticlesIndexPage() {
           <Link href="/souba-ranking/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">今週の相場ランキング</Link>
         </div>
 
+        <section className="mb-10">
+          <h2 className="font-display text-xl font-semibold text-ink mb-3 pb-2 border-b border-warm-border">銘柄ごとのまとめ（全年数・年数表記なし）</h2>
+          <p className="text-xs text-warm-gray mb-3">年数ごとのページの前に、銘柄全体の買取価格を1ページで比べられます。</p>
+          <div className="flex flex-wrap gap-2 not-prose">
+            {[
+              { name: "山崎", slug: "yamazaki-kaitori" },
+              { name: "響", slug: "hibiki-kaitori" },
+              { name: "白州", slug: "hakushu-kaitori" },
+              { name: "竹鶴", slug: "taketsuru-kaitori" },
+              { name: "マッカラン", slug: "macallan-kaitori" },
+              { name: "スプリングバンク", slug: "springbank-kaitori" },
+              { name: "ボウモア", slug: "bowmore-nv-kaitori" },
+              { name: "グレンフィディック", slug: "glenfiddich-kaitori" },
+              { name: "グレンモーレンジ", slug: "glenmorangie-kaitori" },
+              { name: "アードベッグ（年数表記なし）", slug: "ardbeg-nv-kaitori" },
+              { name: "ラフロイグ（年数表記なし）", slug: "laphroaig-nv-kaitori" },
+              { name: "タリスカー（年数表記なし）", slug: "talisker-nv-kaitori" },
+              { name: "スプリングバンク（年数表記なし）", slug: "springbank-nv-kaitori" },
+              { name: "グレンファークラス（年数表記なし）", slug: "glenfarclas-nv-kaitori" },
+            ].map((b) => (
+              <Link key={b.slug} href={`/articles/${b.slug}/`} className="text-sm bg-white border border-warm-border text-ink rounded-lg px-3 py-2 hover:border-amber/50 hover:text-amber-dark">
+                {b.name}の買取
+              </Link>
+            ))}
+          </div>
+        </section>
+
         <div className="space-y-10">
           {CAT_ORDER.map((cat) => {
             const list = grouped[cat];

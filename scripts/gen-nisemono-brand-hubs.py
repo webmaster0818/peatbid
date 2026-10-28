@@ -89,6 +89,23 @@ def esc(t):  # for backtick template
     return t.replace('\\', '\\\\').replace('`', '\\`').replace('${', '\\${')
 
 
+# 冒頭の答え（2026-10-28 16時 遅れ挽回）: 「響 偽物」7.1位・imp28／「響 偽物 見分け方」8.2位（GSC 9/28〜10/25）。
+# 汎用の5チェックから始まっていて、響に固有の事実（摘発例・ホログラムシールの対象と出荷時期）が冒頭に無かった。
+# 出典: J-CAST トレンド 2022-06-17（サントリーホールディングス広報への取材）。サントリー公式FAQ は 10/28 403 で取得できず＝使っていない。
+BRAND_LEAD = {
+    "hibiki": (
+        "響の偽物について（先に結論）",
+        '<ul className="list-disc pl-5 space-y-1">'
+        '<li><strong>響の偽物は実際に摘発されています。</strong>2018年8月、フリマサイトで偽の「響30年」を販売したとして2人が商標法違反と詐欺の疑いで逮捕され、古物店に偽ウイスキーを買い取らせた容疑でも起訴されました（J-CAST トレンド 2022年6月17日が報道を引用）。</li>'
+        '<li>サントリーホールディングス広報によると、偽造防止のため<strong>響30年・響21年・響 BLENDER\'S CHOICE・響 JAPANESE HARMONY（いずれも700ml）</strong>のキャップに<strong>ホログラムシール</strong>を貼っており、シール付きの製品は<strong>2022年2月以降の出荷</strong>です（同記事・免税品や限定品など一部は記載なし）。</li>'
+        '<li>そのため、<strong>2022年1月以前に出荷されたボトルや、上の一覧に無いボトル（響17年・響12年など）にシールが無いことだけでは、偽物とは判断できません</strong>。反対に、2022年2月以降の現行品で一覧のボトルなのにシールが無い・剥がした跡がある場合は、査定時に申告して確認を受けてください。</li>'
+        '<li>売る前に自分で見るのは、<strong>キャップ・封緘の破れや開封の跡</strong>、<strong>液面</strong>（自然な目減りを超えて減っていないか）、<strong>購入経路</strong>（相場より極端に安い個人出品で買ったものか）の3点です。判断できない場合は、ラベル表・裏、キャップ、箱の写真を添えて買取店の査定（無料）に出してください（<Link href="/articles/hibiki-kaitori/" className="text-amber-dark underline">響の買取相場（全ボトル）</Link>）。</li>'
+        '</ul>'
+        '<p className="text-[11px] text-warm-gray mt-2">出典: <a href="https://www.j-cast.com/trend/2022/06/17439568.html" target="_blank" rel="noopener noreferrer nofollow" className="underline">J-CAST トレンド「サントリー高級ウイスキー「偽物対策」か フタに「ホログラムシール」」（2022-06-17）</a>（PeatBid編集部 2026-10-28 確認）</p>'
+    ),
+}
+
+
 def build(base, name, hero, variants):
     title = f"{name}の偽物・贋作の見分け方{MONTH}本物との違い5点と各ボトル別の真贋・買取ガイド"
     desc = f"{name}の偽物・贋作を見分ける5つのチェック（ラベル・キャップ・液面・刻印・購入経路）と、本物と確認できた後の売却手順を解説しています。{name}12年・18年・25年・NV等、各ボトルの真贋と買取相場のページもご案内しています。"
@@ -121,6 +138,15 @@ def build(base, name, hero, variants):
                 f'              <li className="flex flex-wrap items-baseline gap-x-2"><span className="font-bold text-ink">{lbl}</span><span className="text-xs text-warm-gray">実勢データ集計中のため、金額は掲載していません</span><Link href="/articles/{vs}-kaitori/" className="shingan-to-kaitori text-amber-dark underline text-xs">相場ページへ →</Link></li>'
             )
     price_list = "\n".join(price_items)
+    lead_html = ""
+    if base in BRAND_LEAD:
+        _lh, _lb = BRAND_LEAD[base]
+        lead_html = f'''
+          <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm font-bold text-ink mb-2">{_lh}</p>
+            <div className="text-sm text-ink leading-relaxed">{_lb}</div>
+          </div>
+'''
     faq_json = '{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [' + ", ".join(
         '{ "@type": "Question", "name": ' + repr(q) + ', "acceptedAnswer": { "@type": "Answer", "text": ' + repr(a) + " } }"
         for q, a in FAQS(name)) + "] }"
@@ -169,7 +195,7 @@ export default function {comp}() {{
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{name}（全種）の偽物・贋作の見分け方</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: {TODAY} / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
-
+{lead_html}
           <p>{name}は人気・高額帯のため、二次流通で贋作リスクが意識される銘柄です。本記事では、{name}に共通する<strong>真贋チェック5点（ラベル・キャップ／封緘・液色／液面・底面刻印・購入経路）</strong>と、本物と確認できた後の売却手順を解説します。各ボトル（12年・18年・25年・NV等）の個別の見分け方・買取相場は、以下のリンクからご確認いただけます。なお<strong>真贋の最終判断は専門店の鑑定・メーカー確認</strong>をご利用ください（本記事は一般的な手引きです）。</p>
 
           {{/* ボトル別ハブ */}}

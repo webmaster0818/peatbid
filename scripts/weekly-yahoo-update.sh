@@ -150,6 +150,9 @@ spec = importlib.util.spec_from_file_location('p', '$SRC/data/prefectures.py')
 m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
 print(' '.join(m.PREFECTURES.keys()))
 ") 2>&1 | tail -2
+# 再生成で消える手当て（冪等）: 47県ハブ→全国トップ導線＋富山の結論ボックス（10/27）・熊本の結論ボックス（10/28）
+/opt/homebrew/bin/python3 scripts/patch-tier2-national-link-toyama-lead-1027.py 2>&1 | tail -2
+/opt/homebrew/bin/python3 scripts/patch-tier2-kumamoto-lead-1028.py 2>&1 | tail -1
 
 echo "[$(date '+%H:%M:%S')] 📈 [4.5/7] 相場ランキング・データ再生成（B：更新型コンテンツ）"
 /opt/homebrew/bin/python3 scripts/generate-souba-ranking.py

@@ -361,6 +361,27 @@ export default function Home() {
             </div>
           </div>
 
+          <div className="mt-8 text-sm">
+            <p className="font-display text-base font-semibold text-amber-dark mb-2">銘柄ごとのまとめ（全年数の買取価格を1ページで比較）</p>
+            <div className="flex flex-wrap gap-x-4 gap-y-1.5">
+              {[
+                { name: "山崎", slug: "yamazaki-kaitori" },
+                { name: "響", slug: "hibiki-kaitori" },
+                { name: "白州", slug: "hakushu-kaitori" },
+                { name: "竹鶴", slug: "taketsuru-kaitori" },
+                { name: "マッカラン", slug: "macallan-kaitori" },
+                { name: "スプリングバンク", slug: "springbank-kaitori" },
+                { name: "ボウモア", slug: "bowmore-nv-kaitori" },
+                { name: "グレンフィディック", slug: "glenfiddich-kaitori" },
+                { name: "グレンモーレンジ", slug: "glenmorangie-kaitori" },
+              ].map((b) => (
+                <Link key={b.slug} href={`/articles/${b.slug}/`} className="text-ink/80 hover:text-amber-dark hover:underline transition-colors">
+                  {b.name}の買取 →
+                </Link>
+              ))}
+            </div>
+          </div>
+
           <p className="text-center mt-8 flex flex-col sm:flex-row gap-2 sm:gap-6 justify-center items-center">
             <Link href="/articles/" className="text-amber-dark font-semibold underline underline-offset-4 hover:text-burgundy transition-colors">
               全50銘柄の相場一覧を見る →
