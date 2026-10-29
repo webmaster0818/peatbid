@@ -6,7 +6,7 @@ import priceData from "@/data/price-history/miyagikyo-nv.json";
 
 export const metadata: Metadata = {
   title: '宮城峡NV（ノンエイジ）の買取価格・相場【2026年10月最新】2,500〜5,000円｜5店比較・箱なし・月別推移',
-  description: '宮城峡NV（ノンエイジ・年数表記なし）の買取価格を5店の掲示価格で比較（2026年10月23日確認）。2,500〜5,000円。箱なしの扱い、新旧ラベル、ピーテッド等の限定品との違い、ストックラボの月別推移（2023年10月〜2026年9月）と各店の買取実績も掲載。',
+  description: '宮城峡NV（ノンエイジ・年数表記なし）の買取相場は5店の掲示価格で2,500〜5,000円（2026年10月23日確認）。箱なしの扱い、新旧ラベル、ピーテッド等の限定品との違い、10年・12年・15年の買取価格、ストックラボの月別推移と各店の買取実績も掲載。',
 };
 
 function FaqSchema() {
@@ -56,7 +56,7 @@ export default function MiyagikyoNvKaitoriPage() {
 
           <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
             <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">宮城峡NVと年数別（10年・12年・15年）の買取価格（2026年10月23日・24日確認）</h2>
-            <p className="text-sm text-ink mb-3">「宮城峡」の買取価格を、年数表記の無いNVを先頭に年数別にまとめました。NV（700ml・未開封）は 5店の掲示で 2,500〜5,000円 です。店舗別の内訳と出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格</a> にあります。</p>
+            <p className="text-sm text-ink mb-3">「宮城峡」の買取価格・買取相場を、年数表記の無いNVを先頭に年数別にまとめました。NV（700ml・未開封）は 5店の掲示で 2,500〜5,000円 です。店舗別の内訳と出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格</a> にあります。</p>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル・状態</th><th className="py-2 pr-3 text-right">買取価格（店舗の掲示）</th><th className="py-2">店舗・確認日</th></tr></thead>

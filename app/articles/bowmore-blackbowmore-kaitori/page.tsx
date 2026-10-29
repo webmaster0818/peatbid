@@ -5,8 +5,8 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/bowmore-blackbowmore.json";
 
 export const metadata: Metadata = {
-  title: 'ブラックボウモアとは？全6種の違い・価格と買取相場【2026年10月最新】29年〜50年・DB5',
-  description: 'ブラックボウモア（1964年蒸留）の全6種＝29年・30年・31年ファイナル・42年・50年・DB5の発売年・度数・本数の違い、ホワイト／ゴールドボウモアとの見分け方、買取店の掲示価格・買取実績（出典・確認日付き）、2025〜2026年を含む海外オークションの落札価格を掲載しています。',
+  title: 'ブラックボウモアの値段・買取相場【2026年10月最新】買取実績99万〜105万円｜全6種（29年〜50年・DB5）の違い',
+  description: 'ブラックボウモアの値段は、1964年蒸留の29〜31年で買取実績993,000〜1,050,000円、42年はLINXASの参考買取価格で〜1,500,000円（2026年10月29日確認）。全6種（29年・30年・31年・42年・50年・DB5）の違い、見分け方、海外オークションの落札額も掲載。',
 };
 
 function FaqSchema() {
