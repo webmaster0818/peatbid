@@ -614,3 +614,12 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - source b66399faa（merge）/3323b0a98（確認日）/de61e2207（sitemap）→ build（heap8192）EXIT0 → precheck ✅（3,006）→ *.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId マニフェスト5件のみ）→ deploy c3f97eb6cc（00:25 UTC push・00:41 反映＝約16分）。hikakaku 1,212→1,212・ASP 0→0。
 - 本番 ?cb: 北海道51リーフ 新行 51/51・旧値（JOYLAB/中島公園通駅）0・非200 0／県ハブ 200／/api/contact 400／robots Sitemap 行。他ページの JOYLAB（神奈川ハブの文・記事2本・store-prices）は北海道行と無関係で対象外。Indexing は未送信。
 - **バイセル行「東証上場大手」（P3・報告のみ・未変更）**: prefectures.py 39県・app 1,989ファイル。公式の liquor/トップに「大手」0件（「東証グロース上場」「東証上場企業が運営」）。公式 /store/ の店頭買取の県一覧（30都府県）と照合 → 39県のうち **店頭あり23県**（青森・千葉・愛媛・福島・岐阜・群馬・広島・兵庫・岩手・香川・鹿児島・熊本・三重・長野・奈良・沖縄・佐賀・埼玉・静岡・栃木・徳島・鳥取・和歌山）＝表の方式「出張・宅配」から店頭が抜けている／**店頭なし16県**（秋田・福井・茨城・石川・高知・宮崎・長崎・新潟・大分・岡山・滋賀・島根・富山・山形・山口・山梨）。各店舗がお酒を店頭で買い取るかは店舗ごとに未照合。
+
+### 2026-10-29 16:00 遅れ挽回（4回目）: 白州NV・ブラックボウモア title/desc（検索語＋答え）・宮城峡NV desc ✅本番反映済み
+- title 7日ルール確認（growth/log.md・changes.jsonl・deploy 履歴）: 白州NV の title は 10/05 以前から不変、ブラックボウモアは 10/21 が最後＝どちらも変更可。宮城峡NV は 10/23 変更＝title 据え置き（desc・冒頭のみ）。
+- 白州NV（「白州 ノンエイジ 買取価格」8.6位・CTR 低）: `title_full`／`desc_full` を新設＝「白州ノンエイジ（NV）の買取価格【月】9,000〜10,000円｜6店比較・箱なし・2018年からの推移」。10/29 に大黒屋（9,000円・10/29更新）・ストックラボ（9,000〜10,000円・10/27更新）・LINXAS（9,700円）・ファイブニーズ（9,500円）・キングラム（9,600円）を再確認（リカスタは JS 描画で未確認＝10/24 値のまま）。
+- ブラックボウモア（「ブラックボウモア」10.1位・「値段」8.2位）: title「ブラックボウモアの値段・買取相場【月】買取実績99万〜105万円｜全6種（29年〜50年・DB5）の違い」、desc に実績額と42年 LINXAS 〜150万円（10/29 各店ページで再確認）。
+- 宮城峡NV: desc 先頭「買取相場は5店の掲示価格で2,500〜5,000円」・冒頭リードに「買取相場」。
+- 変更は data/store-prices.json のみ（brand-v3 再生成で差分3ページ＝週次再生成でも残る）。sitemap lastmod は3ページだけ 10-29。
+- build（heap8192）EXIT0 → precheck ✅（3,006）→ *.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions）。source dcc5c3071/3f9082739・deploy 0053f3b0b3。ASP 0→0・hikakaku href 607→607。
+- クロール確認（URL検査 10/29）: 修正後クロールは yamazaki-nv（10/28）と taketsuru-25（10/27）のみ。springbank-kaitori 8/07・miyagikyo-15 10/08・yoichi-20 10/12・miyagikyo-nv 10/15・taketsuru-kaitori/yoichi-10/hako-nashi/bowmore-black/springbank-15 10/20・hakushu-nv 10/24＝修正前。TOP・/articles/ から1クリック（hako-nashi・kaifu-zumi は銘柄ページ経由の2クリック）・sitemap lastmod 10-26/27 で届いている＝導線追加なし・Indexing 再通知。yoichi-nv は URL is unknown のまま。
