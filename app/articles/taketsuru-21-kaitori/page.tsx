@@ -5,8 +5,8 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/taketsuru-21.json";
 
 export const metadata: Metadata = {
-  title: '竹鶴21年の買取価格・相場【2026年10月最新】箱あり60,000〜61,000円｜6店比較・箱なし・限定品別',
-  description: '竹鶴21年の買取価格を6店の掲示価格で比較（2026年10月22日確認）。通常品は箱あり60,000〜61,000円・箱なし56,000〜58,000円。角瓶・旧ラベル・2014年限定品の価格、買取実績と月別推移、ヤフオク落札中央値（毎週更新）も掲載。',
+  title: '竹鶴21年の買取価格・相場・推移【2026年10月最新】箱あり60,000〜61,000円｜6店比較・箱なし・限定品別',
+  description: '竹鶴21年の買取価格を6店の掲示価格で比較（2026年10月22日確認）。通常品は箱あり60,000〜61,000円・箱なし56,000〜58,000円。価格推移は買取実績の月別中央値で2024年9月43,000円→2026年9月61,000円。角瓶・限定品の価格も掲載。',
 };
 
 function FaqSchema() {
@@ -52,7 +52,7 @@ export default function Taketsuru21KaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">竹鶴21年の買取価格・相場【2026年10月】6店の掲示価格と箱の有無・ボトル別の差</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">竹鶴21年の買取価格・相場【2026年10月】6店の掲示価格・価格推移と箱の有無・ボトル別の差</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
@@ -60,8 +60,8 @@ export default function Taketsuru21KaitoriPage() {
           </div>
 
           <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
-            <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">竹鶴21年の買取価格（2026年10月22日確認）</h2>
-            <p className="text-sm text-ink mb-3">買取店が自社サイトに掲示している竹鶴21年（700ml・未開封）の買取価格を、ボトルの種類と箱の有無ごとにまとめました。店舗別の内訳と出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格</a> にあります。 竹鶴21年以外（ピュアモルト・12年・17年・25年・限定品）を含む「竹鶴」全体の買取価格は <Link href="/articles/taketsuru-kaitori/" className="text-amber-dark underline hover:text-burgundy">竹鶴の買取価格一覧</Link> にまとめています。</p>
+            <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">竹鶴21年の買取価格と価格推移（2026年10月22日確認）</h2>
+            <p className="text-sm text-ink mb-3"><strong>価格推移（先に結論）:</strong> ストックラボの買取実績（箱あり・月別中央値）は、2024年9月の43,000円を底に上がり、2026年9月は61,000円で2023年12月以降の最高です（2023年12月 47,000円・2025年10月 52,000円。<a href="#store-trend" className="text-amber-dark underline hover:text-burgundy">月別の推移</a>・グラフ更新 2026/10/07、2026-10-30 確認）。ヤフオク落札中央値は 2026-05-25 の62,549円から 2026-10-26 の63,449円で、ほぼ横ばいです。終売前の定価は15,000円（税別・店舗の記載）でした。</p><p className="text-sm text-ink mb-3">買取店が自社サイトに掲示している竹鶴21年（700ml・未開封）の買取価格を、ボトルの種類と箱の有無ごとにまとめました。店舗別の内訳と出典は <a href="#store-prices" className="text-amber-dark underline hover:text-burgundy">4-2. 買取店の掲示価格</a> にあります。 竹鶴21年以外（ピュアモルト・12年・17年・25年・限定品）を含む「竹鶴」全体の買取価格は <Link href="/articles/taketsuru-kaitori/" className="text-amber-dark underline hover:text-burgundy">竹鶴の買取価格一覧</Link> にまとめています。</p>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル・状態</th><th className="py-2 pr-3 text-right">買取価格（店舗の掲示）</th><th className="py-2">店舗・確認日</th></tr></thead>

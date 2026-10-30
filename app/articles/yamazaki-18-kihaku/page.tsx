@@ -39,6 +39,11 @@ export default function Yamazaki18KihakuPage() {
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">山崎18年の希少性と投資価値</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
+          <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm font-bold text-ink mb-2">山崎18年の価格推移（先に結論・2026-10-30 確認）</p>
+            <div className="text-sm text-ink leading-relaxed"><ul className="list-disc pl-5 space-y-1"><li><strong>買取価格は2024年春がピークで、その後下がり、2026年は戻りつつあります。</strong>ストックラボの買取実績（ホログラムシール有り・箱有・月別中央値）は、2023年10月 91,000円 → <strong>2024年4月 121,500円（最高）</strong> → <strong>2025年10月 81,500円（最低）</strong> → 2026年9月 91,000円です（<a href="https://www.stock-lab.com/osake-kaitori/whiskey/yamazaki/age18-2/" target="_blank" rel="noopener" className="text-amber-dark underline">ストックラボ 山崎18年の買取価格</a>・グラフ更新 2026/10/07）。</li><li>同店の現在の掲示価格（2026年10月30日更新）は、ホログラムシール有り・箱有 88,000〜89,000円／シールなし・箱有 80,000〜81,000円／シール有り・箱なし 77,000〜78,000円／シールなし・箱なし 68,000〜69,000円です。</li><li>ヤフオク落札中央値（PeatBid 集計・過去180日）は、2026-05-25 の93,240円から 2026-10-26 の91,299円で、ほぼ横ばいです。</li><li><strong>10年後の価格の予想:</strong> メーカーや公的機関が出している将来価格の予測はありません。上の実績のとおり、2024年4月から2025年10月の1年半で約12万円から約8万円まで下がった銘柄で、値上がりは保証されません。下の「3. 価格推移の歴史」はジャパニーズウイスキー全体の一般的な流れです。</li><li>今の買取相場を店舗別に比べる場合は <Link href="/articles/yamazaki-18-kaitori/" className="text-amber-dark underline font-bold">山崎18年の買取相場 →</Link></li></ul></div>
+          </div>
+
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
           {/* Brand mini profile */}
