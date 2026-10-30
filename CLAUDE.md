@@ -623,3 +623,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 変更は data/store-prices.json のみ（brand-v3 再生成で差分3ページ＝週次再生成でも残る）。sitemap lastmod は3ページだけ 10-29。
 - build（heap8192）EXIT0 → precheck ✅（3,006）→ *.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions）。source dcc5c3071/3f9082739・deploy 0053f3b0b3。ASP 0→0・hikakaku href 607→607。
 - クロール確認（URL検査 10/29）: 修正後クロールは yamazaki-nv（10/28）と taketsuru-25（10/27）のみ。springbank-kaitori 8/07・miyagikyo-15 10/08・yoichi-20 10/12・miyagikyo-nv 10/15・taketsuru-kaitori/yoichi-10/hako-nashi/bowmore-black/springbank-15 10/20・hakushu-nv 10/24＝修正前。TOP・/articles/ から1クリック（hako-nashi・kaifu-zumi は銘柄ページ経由の2クリック）・sitemap lastmod 10-26/27 で届いている＝導線追加なし・Indexing 再通知。yoichi-nv は URL is unknown のまま。
+
+### 2026-10-30 朝ルーチン: バイセル店頭23県×80店の「お酒」店頭買取を公式で照合（判断材料・本番変更なし）
+- 記録: `research/buysell-store-liquor-2026-10-30.md`（県別・店舗別の表）／同 `.json`。取得元はすべて buysell-kaitori.com（店舗検索 API `/wp-json/bsportal/v1/stores` を県名で・店舗ページ80本・県のお酒買取ページ `/area/liquor-<県>/` 23本）。
+- 結果: 80店＝**あり15／なし0／記載なし65**。「お酒を扱わない」と明記した店は0。ありが1店以上の県＝10（青森・岩手・群馬・埼玉・長野・岐阜・和歌山・香川・愛媛・熊本）、全店記載なし＝13（福島・栃木・千葉・静岡・三重・兵庫・奈良・鳥取・広島・徳島・佐賀・鹿児島・沖縄）。根拠は県お酒ページの店頭のお酒実績の店名・店舗ページの買取実績・FC店の「お酒買取強化」。
+- サイトがバイセルの店舗を酒の店頭買取先として案内しているのは熊本ハブの はません店のみ＝あり（実績3件）→ 事実誤りなし・デプロイなし。
+- 未対応（報告のみ）: 公式の和歌山/香川のお酒ページが「県内に店舗はございません」と書きつつ店舗案内に和歌山ミオ店／高松2店を載せている。和歌山県ハブ（app/tier2/wakayama・local-buyers.json）はこの文を引用＝和歌山ミオ店（店頭のお酒実績あり）が「県内でお酒を買い取る32店」から漏れている。福島の唯一の店 イオンモール伊達店は 11/27 開業。
