@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>バイセル 和歌山</strong></td><td>和歌山県全域</td><td>出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん 和歌山</strong></td><td>和歌山県和歌山市</td><td>出張・宅配</td><td>全国大手</td></tr><tr><td><strong>リサイクルマート和歌山</strong></td><td>和歌山県和歌山市</td><td>店頭</td><td>地元密着</td></tr></tbody>
+              <tbody><tr><td><strong>バイセル 和歌山ミオ店</strong></td><td>和歌山市美園町5-61 和歌山ミオ 本館3F（JR和歌山駅直結）。出張は和歌山県全域</td><td>店頭・出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん 和歌山</strong></td><td>和歌山県和歌山市</td><td>出張・宅配</td><td>全国大手</td></tr><tr><td><strong>リサイクルマート和歌山</strong></td><td>和歌山県和歌山市</td><td>店頭</td><td>地元密着</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>
