@@ -22,3 +22,11 @@ if OLD_H in t:
     print("kumamoto lead replaced")
 else:
     print("kumamoto lead: already done")
+# 2026-10-31 16時: 本文は 10/28 に更新したのに「最終更新」が生成器の共通値（2026-06-23）のままだった → 10/28 に（冪等）
+t = P.read_text()
+OLD_U = "最終更新: 2026-06-23 / 監修"
+if OLD_U in t:
+    P.write_text(t.replace(OLD_U, "最終更新: 2026-10-28 / 監修", 1))
+    print("kumamoto updated-date fixed")
+else:
+    print("kumamoto updated-date: already done")

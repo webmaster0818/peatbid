@@ -30,7 +30,7 @@ export default function Page() {
       </nav>
 
       <h1 className="font-display text-3xl md:text-4xl font-semibold mb-3">熊本県のウイスキー買取｜実売相場とおすすめ業者</h1>
-      <p className="text-warm-gray text-sm mb-2">最終更新: 2026-06-23 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link></p>
+      <p className="text-warm-gray text-sm mb-2">最終更新: 2026-10-28 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link></p>
       <p className="text-sm text-warm-gray mb-8 leading-relaxed">
         本ページの相場は<strong>Yahoo!オークション過去180日の実落札中央値</strong>（2026-10-26時点）にもとづく一次データです。熊本県でウイスキーを売却する際の、銘柄別の相場・買取目安、宅配買取のおすすめ業者、高く売るためのポイントをまとめています。
       </p>

@@ -51,8 +51,12 @@ export default function Miyagikyo12KaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">宮城峡12年の買取価格・相場【2026年10月】5店の掲示価格・買取実績（10年・15年の参考価格つき）</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">宮城峡12年の買取価格・相場【2026年10月】5店の掲示価格・買取実績（宮城峡10年の参考価格つき）</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm text-ink leading-relaxed">このページは<strong>宮城峡12年</strong>だけの買取価格です。宮城峡の買取相場を全年数で比べる場合（NV（ノンエイジ）・10年・15年・ピーテッド等の限定品）は <Link href="/articles/miyagikyo-nv-kaitori/" className="text-amber-dark underline font-bold">宮城峡の買取価格一覧（NV・年数別・5店比較） →</Link></p>
+          </div>
 
           <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
             <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">宮城峡12年の買取価格（2026年10月24日確認）</h2>

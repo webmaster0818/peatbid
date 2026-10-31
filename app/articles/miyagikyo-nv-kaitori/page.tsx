@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/miyagikyo-nv.json";
 
 export const metadata: Metadata = {
-  title: '宮城峡NV（ノンエイジ）の買取価格・相場【2026年10月最新】2,500〜5,000円｜5店比較・箱なし・月別推移',
+  title: '宮城峡の買取価格・相場【2026年10月最新】NV（ノンエイジ）2,500〜5,000円・10年/12年/15年｜5店比較・月別推移',
   description: '宮城峡NV（ノンエイジ・年数表記なし）の買取相場は5店の掲示価格で2,500〜5,000円（2026年10月23日確認）。箱なしの扱い、新旧ラベル、ピーテッド等の限定品との違い、10年・12年・15年の買取価格、ストックラボの月別推移と各店の買取実績も掲載。',
 };
 
@@ -51,7 +51,7 @@ export default function MiyagikyoNvKaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">宮城峡NV（ノンエイジ）の買取価格・相場【2026年10月】5店の掲示価格・買取実績・月別推移</h1>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">宮城峡買取｜NV（ノンエイジ）・10年・12年・15年の買取価格【2026年10月】5店の掲示価格・買取実績・月別推移</h1>
           <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
