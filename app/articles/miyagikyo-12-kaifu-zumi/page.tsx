@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/miyagikyo-12.json";
 
 export const metadata: Metadata = {
-  title: '宮城峡12年は開封済みでも売れる?【2026年10月最新】残量別の買取査定額と売却方法',
+  title: '宮城峡12年は開封済みでも売れる?【2026年11月最新】残量別の買取査定額と売却方法',
   description: '宮城峡12年を開封済みで売る場合の査定額と注意点を解説しています。残量別の価格の目安、状態を保つ方法、開封済みに対する業者ごとの対応、売却前の準備を掲載しています。',
 };
 
@@ -37,7 +37,7 @@ export default function Miyagikyo12KaifuZumiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">宮城峡12年が開封済みでも売れる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-02 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Miyagikyo12KaifuZumiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">宮城峡12年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 宮城峡蒸溜所 / 12年熟成 / 希少度 ミッド / 市場相場 36,699円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / 宮城峡蒸溜所 / 12年熟成 / 希少度 ミッド / 市場相場 市場相場データ集計中</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/miyagikyo-12-kaitori/" className="text-amber-dark underline">宮城峡12年の買取相場ガイド</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Miyagikyo12KaifuZumiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは宮城峡12年の落札が約20件確認でき、落札額の中央値は36,699円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">宮城峡12年は二次流通の落札データが十分ではないため、本記事の金額は同じ価格帯の銘柄を参考にした一般的な目安です。最新の実勢は各買取業者の査定でご確認ください。</p>
           </div>
 
 
@@ -106,12 +106,10 @@ export default function Miyagikyo12KaifuZumiPage() {
           </div>
 
           <h2 id="section-0">1. 宮城峡12年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>宮城峡12年</strong>はジャパニーズウイスキー（宮城峡蒸溜所）の12年熟成、度数45%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>36,699円</strong>（流通サンプル20件、当サイトの集計）。価格帯としては<strong>中位帯</strong>にあたり、付属品の有無や保管状態で査定額が変動しやすく、状態の管理が査定額に影響します。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>宮城峡12年</strong>はジャパニーズウイスキー（宮城峡蒸溜所）の12年熟成、度数45%、希少度は中程度の希少度に分類される銘柄です。</p><p>本銘柄は二次流通の落札サンプルが少ないため、実勢中央値は掲載していません。相場が定まりにくいため、複数の業者の査定で実際の金額をご確認ください。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 開封済み宮城峡12年の査定額の目安</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>36,699円</strong>を基準として、開封済みは残量・状態により以下の範囲で査定されます。</p><ol><li><strong>9割以上残</strong>: 約11,010〜14,680円（30〜40%）</li><li><strong>7割以上残</strong>: 約9,170〜12,840円（25〜35%）</li><li><strong>5割以上残</strong>: 約7,340〜11,010円（20〜30%）</li><li><strong>3割以上残</strong>: 約3,670〜7,340円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合があります。空き瓶として数千円で買い取られる場合もあります
-
-開封済みは未開封と比べて査定額が大きく下がるため、コレクション品は開栓しないことをおすすめします。</li></ol>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの市場相場を基準として、開封済みは状態により以下の範囲で査定されます。</p><ol><li><strong>9割以上残</strong>: 市場相場の30〜40%程度</li><li><strong>7割以上残</strong>: 市場相場の25〜35%程度</li><li><strong>5割以上残</strong>: 市場相場の20〜30%程度</li><li><strong>3割以上残</strong>: 基準の10〜20%</li><li><strong>1割以下残</strong>: 買取不可の場合があります。空き瓶として数千円で買い取られる場合もあります</li></ol>` }} />
 
           <h2 id="section-2">3. 開封済みの査定で重視される5要素</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>開封済みボトルの査定では、以下の5つの要素が総合的に評価されます。</p><ol><li><strong>残量</strong> — 多いほど評価額が高くなります。9割以上が査定の目安です</li><li><strong>保管状態</strong> — コルクの劣化・香味の揮発の度合い</li><li><strong>付属品</strong> — 外箱・冊子・カートンの有無</li><li><strong>ラベルの状態</strong> — 未開封品と同様に評価されます</li><li><strong>キャップ・栓の状態</strong> — 確実に閉まっているか、隙間からの揮発がないか
@@ -181,7 +179,7 @@ export default function Miyagikyo12KaifuZumiPage() {
             <Link href="/articles/miyagikyo-12-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">宮城峡12年の買取相場ガイド</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-26）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-02）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

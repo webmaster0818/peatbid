@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/hanyu-card.json";
 
 export const metadata: Metadata = {
-  title: '羽生カードシリーズを高く売るには？買取相場と査定額を上げる7つのポイント【2026年10月最新】',
+  title: '羽生カードシリーズを高く売るには？買取相場と査定額を上げる7つのポイント【2026年11月最新】',
   description: '羽生カードシリーズを高く売るためのガイドです。付属品・状態・売却時期・業者選び・保管方法・贋作対策・交渉の7つの観点から、査定額を上げる方法を解説しています。',
 };
 
@@ -37,7 +37,7 @@ export default function HanyuCardTakakuUruPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">羽生カードシリーズを高く売る方法 — 査定額を上げる7つのポイント</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-02 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -140,7 +140,7 @@ export default function HanyuCardTakakuUruPage() {
             <Link href="/articles/hanyu-card-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">銘柄ガイド</span><p className="text-sm font-bold mt-1">羽生カードシリーズの買取相場ガイド</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-26）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-02）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/bowmore-blackbowmore.json";
 
 export const metadata: Metadata = {
-  title: 'ブラックボウモアの値段・買取相場【2026年10月最新】買取実績99万〜105万円｜全6種（29年〜50年・DB5）の違い',
+  title: 'ブラックボウモアの値段・買取相場【2026年11月最新】買取実績99万〜105万円｜全6種（29年〜50年・DB5）の違い',
   description: 'ブラックボウモアの値段は、1964年蒸留の29〜31年で買取実績993,000〜1,050,000円、42年はLINXASの参考買取価格で〜1,500,000円（2026年10月29日確認）。全6種（29年・30年・31年・42年・50年・DB5）の違い、見分け方、海外オークションの落札額も掲載。',
 };
 
@@ -53,8 +53,8 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
         </div>
 
         <article className="prose">
-          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ブラックボウモアとは？全6種の違いと買取相場・業者比較【2026年10月】</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">ブラックボウモアとは？全6種の違いと買取相場・業者比較【2026年11月】</h1>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-02 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
             <h2 id="quick-price" className="text-lg font-bold text-ink mb-2">ブラックボウモアの値段・買取価格の早見表（2026年10月16日・21日確認）</h2>
@@ -141,7 +141,7 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
 
           <h2 id="current-price">4. 現在の市場相場（Yahoo中央値）</h2>
 
-          <p>ブラックボウモアの市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>市場相場データ集計中</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=84件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
+          <p>ブラックボウモアの市場相場は、本記事冒頭の <strong>市場相場カード</strong> に記載の通り <strong>市場相場データ集計中</strong> です。これは Yahoo Auctions の過去180日の落札データから IQR 外れ値を除去した上で算出した中央値（n=86件）であり、特定の業者の買取価格ではなく、二次流通市場の実勢値を反映しています。</p>
 
           <p>業者の<strong>買取査定額</strong>は、この市場相場をベースに各社が在庫状況・キャンペーン・状態評価・利益率を加味して算出するため、市場相場よりも低めに出るのが一般的です（業界一般の目安として市場相場の60〜80%程度のレンジ）。同じボトルでも業者により査定額が<strong>10〜20%</strong>異なることもあるため、<strong>3社以上、できれば4社以上で相見積もり</strong>を取ることをおすすめします。</p>
 
@@ -447,11 +447,11 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
           <h2>関連銘柄の買取相場</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
             <Link href="/articles/macallan-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 350,543円</p></Link>
-            <Link href="/articles/macallan-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 210,874円</p></Link>
-            <Link href="/articles/springbank-21-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">スプリングバンク21年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 103,613円</p></Link>
+            <Link href="/articles/macallan-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">マッカラン25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 210,000円</p></Link>
+            <Link href="/articles/springbank-21-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">スプリングバンク21年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 97,074円</p></Link>
+            <Link href="/articles/bowmore-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">ボウモア25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 67,499円</p></Link>
             <Link href="/articles/laphroaig-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">ラフロイグ25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 66,750円</p></Link>
-            <Link href="/articles/bowmore-25-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">ボウモア25年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 66,000円</p></Link>
-            <Link href="/articles/glenfiddich-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">グレンフィディック30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 61,856円</p></Link>
+            <Link href="/articles/glenfiddich-30-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">関連銘柄</span><p className="text-sm font-bold mt-1">グレンフィディック30年 の買取相場</p><p className="text-xs text-warm-gray mt-1">市場相場 64,900円</p></Link>
           </div>
 
           <h2>年代指定なし・注目銘柄の買取相場</h2>
@@ -489,7 +489,7 @@ export default function BowmoreBlackbowmoreKaitoriPage() {
               <li><Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark hover:underline">竹鶴の年代指定なし（ノンエイジ／NV）買取相場</Link></li>
           </ul>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-26）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-02）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>
         </article>
       </div>
     </>

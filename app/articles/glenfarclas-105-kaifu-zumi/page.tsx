@@ -5,7 +5,7 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/glenfarclas-105.json";
 
 export const metadata: Metadata = {
-  title: 'グレンファークラス105は開封済みでも売れる?【2026年10月最新】残量別の買取査定額と売却方法',
+  title: 'グレンファークラス105は開封済みでも売れる?【2026年11月最新】残量別の買取査定額と売却方法',
   description: 'グレンファークラス105を開封済みで売る場合の査定額と注意点を解説しています。残量別の価格の目安、状態を保つ方法、開封済みに対する業者ごとの対応、売却前の準備を掲載しています。',
 };
 
@@ -37,7 +37,7 @@ export default function Glenfarclas105KaifuZumiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンファークラス105が開封済みでも売れる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-26 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-02 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Glenfarclas105KaifuZumiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">グレンファークラス105</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / ノンエイジ / 希少度 コモン / 市場相場 10,681円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / ノンエイジ / 希少度 コモン / 市場相場 9,075円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/glenfarclas-105-kaitori/" className="text-amber-dark underline">グレンファークラス105の買取相場ガイド</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Glenfarclas105KaifuZumiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンファークラス105の落札が約34件確認でき、落札額の中央値は10,681円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンファークラス105の落札が約34件確認でき、落札額の中央値は9,075円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -106,10 +106,10 @@ export default function Glenfarclas105KaifuZumiPage() {
           </div>
 
           <h2 id="section-0">1. グレンファークラス105の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンファークラス105</strong>はスコッチウイスキー（スペイサイド）のノンエイジ（NV）、度数60%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>10,681円</strong>（流通サンプル34件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンファークラス105</strong>はスコッチウイスキー（スペイサイド）のノンエイジ（NV）、度数60%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>9,075円</strong>（流通サンプル34件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 開封済みグレンファークラス105の査定額の目安</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>10,681円</strong>を基準として、開封済みは残量・状態により以下の範囲で査定されます。</p><ol><li><strong>9割以上残</strong>: 約3,200〜4,270円（30〜40%）</li><li><strong>7割以上残</strong>: 約2,670〜3,740円（25〜35%）</li><li><strong>5割以上残</strong>: 約2,140〜3,200円（20〜30%）</li><li><strong>3割以上残</strong>: 約1,070〜2,140円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合があります。空き瓶として数千円で買い取られる場合もあります
+          <div dangerouslySetInnerHTML={{ __html: `<p>未開封・箱付きの実勢中央値<strong>9,075円</strong>を基準として、開封済みは残量・状態により以下の範囲で査定されます。</p><ol><li><strong>9割以上残</strong>: 約2,720〜3,630円（30〜40%）</li><li><strong>7割以上残</strong>: 約2,270〜3,180円（25〜35%）</li><li><strong>5割以上残</strong>: 約1,820〜2,720円（20〜30%）</li><li><strong>3割以上残</strong>: 約910〜1,820円（10〜20%）</li><li><strong>1割以下残</strong>: 買取不可の場合があります。空き瓶として数千円で買い取られる場合もあります
 
 開封済みは未開封と比べて査定額が大きく下がるため、コレクション品は開栓しないことをおすすめします。</li></ol>` }} />
 
@@ -182,7 +182,7 @@ export default function Glenfarclas105KaifuZumiPage() {
             <Link href="/articles/glenfarclas-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">グレンファークラス（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-10-26）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-02）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>
