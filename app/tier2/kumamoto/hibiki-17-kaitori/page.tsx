@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>バイセル 熊本</strong></td><td>熊本県全域</td><td>出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん 熊本</strong></td><td>熊本県熊本市</td><td>出張・宅配</td><td>全国大手</td></tr><tr><td><strong>リサイクルマート熊本</strong></td><td>熊本県熊本市</td><td>店頭</td><td>地元密着</td></tr></tbody>
+              <tbody><tr><td><strong>バイセル 熊本</strong></td><td>熊本県全域</td><td>出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん 熊本</strong></td><td>熊本県熊本市</td><td>出張・宅配</td><td>全国大手</td></tr><tr><td><strong>リサイクルマート（熊本市内4店）</strong></td><td>熊本県熊本市（熊本戸島店＝東区戸島西2丁目5-27／ゆめマート田崎店＝西区田崎2丁目5-1 ゆめマート田崎店1F／麻生田店＝北区麻生田2丁目3-7／富合店＝南区富合町田尻165-1）</td><td>店頭・出張</td><td>公式の取扱商品に「飲まないお酒（ウイスキー・ブランデー）」。麻生田店の店舗ページに「お酒の買取強化中！！」（2026/10/25）、他3店はお酒の記載なし。持ち込み前に店舗へ電話で確認（公式の案内）（2026年11月2日確認）</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>

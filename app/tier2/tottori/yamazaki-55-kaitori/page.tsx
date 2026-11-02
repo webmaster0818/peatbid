@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>バイセル 鳥取</strong></td><td>鳥取県全域</td><td>宅配・出張</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん 鳥取</strong></td><td>鳥取県全域</td><td>宅配・出張</td><td>全国大手</td></tr><tr><td><strong>リサイクルマート鳥取</strong></td><td>鳥取県鳥取市</td><td>店頭</td><td>地元密着</td></tr></tbody>
+              <tbody><tr><td><strong>バイセル 鳥取</strong></td><td>鳥取県全域</td><td>宅配・出張</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん 鳥取</strong></td><td>鳥取県全域</td><td>宅配・出張</td><td>全国大手</td></tr><tr><td><strong>リサイクルマート安長店</strong></td><td>鳥取県鳥取市岩吉170-1</td><td>店頭・出張</td><td>公式の取扱商品に「飲まないお酒（ウイスキー・ブランデー）」。店舗ページのブログに「金・プラチナ・お酒の買取ならお任せ」（2023/05/03）。持ち込み前に店舗へ電話で確認（公式の案内）（2026年11月2日確認）</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>

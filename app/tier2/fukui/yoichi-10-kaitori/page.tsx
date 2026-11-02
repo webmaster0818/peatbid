@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>バイセル 福井</strong></td><td>福井県全域</td><td>出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん 福井</strong></td><td>福井県福井市</td><td>出張・宅配</td><td>全国大手</td></tr><tr><td><strong>リサイクルマート福井</strong></td><td>福井県福井市</td><td>店頭</td><td>地元密着</td></tr></tbody>
+              <tbody><tr><td><strong>バイセル 福井</strong></td><td>福井県全域</td><td>出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん 福井</strong></td><td>福井県福井市</td><td>出張・宅配</td><td>全国大手</td></tr><tr><td><strong>リサイクルマート（福井市内3店）</strong></td><td>福井県福井市（新田塚店＝新田塚2丁目34-3／福井二の宮店＝ニの宮3-4-9／福井板垣店＝板垣3-1618）</td><td>店頭（二の宮店・板垣店は出張も）</td><td>公式の取扱商品に「飲まないお酒（ウイスキー・ブランデー）」。店舗ページにお酒の記載なし＝持ち込み前に店舗へ電話で確認（公式の案内）（2026年11月2日確認）</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>
