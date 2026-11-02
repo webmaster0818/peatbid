@@ -535,6 +535,8 @@ def quick_block(slug, name, yahoo_median, fetched_at):
             f'<td className="py-2 pr-3 text-right font-bold whitespace-nowrap">{yahoo_median:,}円</td>'
             f'<td className="py-2 text-xs text-warm-gray">PeatBid 集計・取得日 {fetched_at}・毎週更新（店舗の買取額ではありません）</td></tr>'
         )
+    # 2026-11-02: 列見出しを JSON の "cols" で上書き可（店別の表など）。未指定は従来どおり
+    c1, c2, c3 = q.get("cols") or ("ボトル・状態", "買取価格（店舗の掲示）", "店舗・確認日")
     lead = f'<p className="text-sm text-ink mb-3">{q["lead"]}</p>' if q.get("lead") else ""
     note = f'<p className="text-[12px] text-warm-gray leading-relaxed mt-3">{q["note"]}</p>' if q.get("note") else ""
     return f'''
@@ -543,7 +545,7 @@ def quick_block(slug, name, yahoo_median, fetched_at):
             {lead}
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
-                <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">ボトル・状態</th><th className="py-2 pr-3 text-right">買取価格（店舗の掲示）</th><th className="py-2">店舗・確認日</th></tr></thead>
+                <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">{c1}</th><th className="py-2 pr-3 text-right">{c2}</th><th className="py-2">{c3}</th></tr></thead>
                 <tbody>{rows}</tbody>
               </table>
             </div>
