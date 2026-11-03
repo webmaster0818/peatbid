@@ -65,7 +65,7 @@ export default function Page() {
           ウイスキーを売る前に知るべき基礎ガイド
         </h1>
         <p className="text-warm-gray text-sm not-prose mb-6">
-          最終更新: 2026-06-19 ／ 監修: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
+          最終更新: 2026-06-19 ／ 編集: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
         </p>
 
         <p>

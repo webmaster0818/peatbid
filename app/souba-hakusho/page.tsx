@@ -62,7 +62,7 @@ export default function Page() {
         全国ウイスキー買取相場白書 {YEAR}
       </h1>
       <p className="text-warm-gray text-sm mb-2">
-        最終更新: {updated}（毎週更新） ／ 監修: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
+        最終更新: {updated}（毎週更新） ／ 編集: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
       </p>
       <p className="leading-relaxed mb-8">
         主要ウイスキー<strong>{brands.length}銘柄</strong>の実勢買取相場（中央値）を、Yahoo!オークションの過去180日落札データ（IQR法で外れ値除去）から集計した

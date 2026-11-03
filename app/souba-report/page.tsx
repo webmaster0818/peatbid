@@ -201,7 +201,7 @@ export default function Page() {
         ウイスキー買取相場レポート＆PeatBid買取相場指数
       </h1>
       <p className="text-warm-gray text-sm mb-2">
-        最終更新: {updated}（毎週月曜更新） ／ 監修: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
+        最終更新: {updated}（毎週月曜更新） ／ 編集: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
       </p>
       <p className="leading-relaxed mb-8">
         主要ウイスキー<strong>{nBrands}銘柄</strong>のヤフオク実落札中央値（過去180日・IQR外れ値除去）から算出する

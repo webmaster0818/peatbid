@@ -54,7 +54,7 @@ export default function Page() {
           相続・遺品のウイスキーを売る｜手順・チェックリスト・税金の注意
         </h1>
         <p className="text-warm-gray text-sm not-prose mb-6">
-          最終更新: 2026-06-19 ／ 監修: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
+          最終更新: 2026-06-19 ／ 編集: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
         </p>
 
         <div className="not-prose bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6">

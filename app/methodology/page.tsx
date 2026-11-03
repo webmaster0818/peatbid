@@ -20,7 +20,7 @@ export default function MethodologyPage() {
       </nav>
 
       <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">PeatBid 編集ポリシー</h1>
-      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年5月14日 / 監修: PeatBid編集部</p>
+      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年5月14日 / 編集: PeatBid編集部</p>
 
       <section className="prose">
         <p>

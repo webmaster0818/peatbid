@@ -68,7 +68,7 @@ export default function Page() {{
       </nav>
 
       <h1 className="font-display text-3xl md:text-4xl font-semibold mb-4">地域別ウイスキー買取相場｜47都道府県から探す</h1>
-      <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-22 / 監修: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link></p>
+      <p className="text-warm-gray text-sm mb-6">最終更新: 2026-05-22 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link></p>
 
       <section className="prose mb-8">
         <p>

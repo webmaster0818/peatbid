@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageOpenGraph } from "@/lib/og";
 
-const PAGE_TITLE = "編集部メンバー紹介";
+const PAGE_TITLE = "PeatBid編集部について（記事の作成体制）";
 const PAGE_DESC =
-  "PeatBid（ピートビッド）編集部の主要メンバーをご紹介します。各メンバーの担当領域と経歴を掲載しています。";
+  "PeatBid（ピートビッド）の記事は PeatBid編集部が作成しています。個人の著者名・外部の監修者は置いていません。相場データの集め方と、業者情報の確認方法を記載しています。";
 const PAGE_URL = "https://peatbid.com/author/";
 
 export const metadata: Metadata = {
@@ -14,72 +14,41 @@ export const metadata: Metadata = {
   openGraph: pageOpenGraph({ type: "article", title: PAGE_TITLE, description: PAGE_DESC, url: PAGE_URL }),
 };
 
-const AUTHORS = [
+const WORKS = [
   {
-    name: "編集長 / 監修統括",
-    role: "ウイスキー業界アナリスト",
-    bio: "ウイスキー業界で10年以上の実務経験を持つアナリストです。国内外オークションの落札データを継続的に確認し、Sotheby's・Bonhams・Whisky Auctioneer等の主要オークションの結果を月次で取りまとめています。各記事の価格データ・市場分析の最終監修を担当しています。",
-    credentials: [
-      "ウイスキー市場分析 10年以上",
-      "海外オークション継続観測 6年",
-      "ボトル真贋判定経験者",
-    ],
+    title: "ヤフオクの落札データの集計（毎週月曜）",
+    body: "ヤフオクの落札結果から、銘柄ごとに過去180日の落札価格を取得し、外れ値（第1・第3四分位から四分位範囲の1.5倍を超えて離れた値）を除いた中央値と件数を集計しています。各ページの相場欄には、取得日とサンプル数（n）を記載しています。",
   },
   {
-    name: "リサーチ担当",
-    role: "買取市場リサーチャー",
-    bio: "国内の主要買取業者（LINXAS・バイセル・福ちゃん・大黒屋等）の買取相場・キャンペーン情報・買取実績を確認し、銘柄ごとの相場推移と業者比較のデータを編集部に提供しています。",
-    credentials: [
-      "国内買取業者 20社以上の継続調査",
-      "Yahoo Auctions 過去5年間の落札データ集約",
-      "終売・限定リリース情報の早期収集",
-    ],
+    title: "買取店の掲示価格の確認",
+    body: "買取店が自社サイトに公開している参考買取価格は、PeatBid編集部が各店のページを開いて確認した値だけを掲載し、確認日と店舗側の更新日を記載しています。",
   },
   {
-    name: "ファクトチェック責任者",
-    role: "シニアエディター",
-    bio: "全記事の数値情報（価格・年式・容量・度数）を二重に確認しています。蒸溜所の公式情報・業界紙・専門書を参照し、誤情報の混入防止に努めています。",
-    credentials: [
-      "編集・校正経験 15年以上",
-      "ウイスキー専門書 30冊以上の参照",
-      "蒸溜所公式情報の継続フォロー",
-    ],
-  },
-  {
-    name: "監修パートナー（外部）",
-    role: "ウイスキーバー運営者・買取業界人脈",
-    bio: "全国のウイスキーバー運営者・お酒買取業者・コレクター等、業界に関わる外部パートナーが編集部と連携し、実務にもとづく知見を記事に反映しています。",
-    credentials: [
-      "ウイスキーバー運営10年以上",
-      "コレクター人脈（国内50名以上）",
-      "業界イベント・テイスティング会への定期参加",
-    ],
+    title: "店舗・対応エリアの照合",
+    body: "都道府県別ページの業者表は、各社公式の店舗一覧・店舗ページと照合しています。県内に店舗が無いことを公式で確認した業者は、表から外しています。",
   },
 ];
 
 export default function AuthorPage() {
-  const personSchemas = AUTHORS.map((author) => ({
+  const orgSchema = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    name: author.name,
-    jobTitle: author.role,
-    description: author.bio,
-    worksFor: {
+    "@type": "Organization",
+    name: "PeatBid編集部",
+    url: "https://peatbid.com/author/",
+    description: PAGE_DESC,
+    parentOrganization: {
       "@type": "Organization",
       name: "PeatBid",
       url: "https://peatbid.com",
     },
-  }));
+  };
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-10 md:py-16">
-      {personSchemas.map((schema, i) => (
-        <script
-          key={i}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-      ))}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+      />
 
       <nav aria-label="パンくずリスト" className="text-xs text-warm-gray mb-6">
         <ol className="flex items-center gap-1">
@@ -87,49 +56,32 @@ export default function AuthorPage() {
           <li className="breadcrumb-sep" />
           <li><Link href="/editorial/" className="hover:text-amber-dark transition-colors">編集部紹介</Link></li>
           <li className="breadcrumb-sep" />
-          <li><span className="text-foreground">編集部メンバー</span></li>
+          <li><span className="text-foreground">記事の作成体制</span></li>
         </ol>
       </nav>
 
-      <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">PeatBid 編集部メンバー</h1>
-      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年5月21日</p>
+      <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">PeatBid編集部について</h1>
+      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年11月3日</p>
 
       <section className="prose max-w-none">
         <p className="mb-6">
-          PeatBid 編集部は、ウイスキー業界・買取市場・オークション動向の専門知識を持つ複数の編集者・リサーチャー・外部監修パートナーで構成されています。
-          各メンバーの経歴・専門領域は以下のとおりです。
+          PeatBid の記事は、運営者である <strong>PeatBid編集部</strong> が作成しています。
+          個人の著者名は掲載していません。また、外部の監修者（ウイスキー業界の専門家・買取業者等）による監修は受けていません。
         </p>
 
-        <div className="space-y-6 mb-10 not-prose">
-          {AUTHORS.map((author) => (
-            <div key={author.name} className="bg-white border border-warm-border rounded-2xl p-6">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-14 h-14 rounded-full bg-amber/20 flex items-center justify-center text-amber-dark font-bold text-xl">
-                  {author.name.charAt(0)}
-                </div>
-                <div>
-                  <h2 className="font-display text-xl font-bold mb-1">{author.name}</h2>
-                  <p className="text-sm text-amber-dark">{author.role}</p>
-                </div>
-              </div>
-              <p className="text-sm text-foreground/80 leading-relaxed mb-3">{author.bio}</p>
-              <div className="bg-cream rounded-lg p-4">
-                <p className="text-xs font-bold text-warm-gray mb-2">実績・専門領域</p>
-                <ul className="list-disc pl-5 space-y-1 text-sm text-foreground/80">
-                  {author.credentials.map((c, i) => (
-                    <li key={i}>{c}</li>
-                  ))}
-                </ul>
-              </div>
+        <h2 className="font-display text-2xl font-bold mt-10 mb-4">編集部が行っていること</h2>
+        <div className="space-y-4 mb-10 not-prose">
+          {WORKS.map((w) => (
+            <div key={w.title} className="bg-white border border-warm-border rounded-2xl p-6">
+              <h3 className="font-display text-lg font-bold mb-2">{w.title}</h3>
+              <p className="text-sm text-foreground/80 leading-relaxed">{w.body}</p>
             </div>
           ))}
         </div>
 
-        <h2 className="font-display text-2xl font-bold mt-10 mb-4">編集部としての姿勢</h2>
+        <h2 className="font-display text-2xl font-bold mt-10 mb-4">誤りのご連絡</h2>
         <p>
-          PeatBid 編集部は、個人名ではなく <strong>編集部全体の合議制</strong> で記事を作成・公開しています。
-          ウイスキー市場は変動が大きく、個人の判断よりも複数の視点による相互レビューが重要と考えるためです。
-          記事内の数値情報・市場分析・業者評価は、リサーチ担当→編集長監修→ファクトチェック責任者の3段階チェックを経て公開されます。
+          記事内の価格・店舗情報などに誤りがありましたら、<Link href="/contact/" className="text-amber-dark hover:text-burgundy underline">お問い合わせフォーム</Link>からご連絡ください。公式の情報で確認のうえ訂正します。
         </p>
 
         <h2 className="font-display text-2xl font-bold mt-10 mb-4">関連ページ</h2>

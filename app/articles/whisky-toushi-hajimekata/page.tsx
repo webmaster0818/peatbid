@@ -55,7 +55,7 @@ export default function Page() {
           ウイスキー投資の始め方｜相場の見方・銘柄選び・注意点
         </h1>
         <p className="text-warm-gray text-sm not-prose mb-6">
-          最終更新: 2026-06-09 ／ 監修: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
+          最終更新: 2026-06-09 ／ 編集: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
         </p>
 
         <p>
