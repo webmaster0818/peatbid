@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>バイセル 佐賀</strong></td><td>佐賀県全域</td><td>宅配・出張</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん 佐賀</strong></td><td>佐賀県佐賀市</td><td>宅配・出張</td><td>全国大手</td></tr><tr><td><strong>リサイクルマート佐賀店</strong></td><td>佐賀県佐賀市開成5丁目13-33</td><td>店頭・出張</td><td>公式の取扱商品に「飲まないお酒（ウイスキー・ブランデー）」。店舗ページにお酒の記載なし＝持ち込み前に店舗へ電話で確認（公式の案内）（2026年11月2日確認）</td></tr></tbody>
+              <tbody><tr><td><strong>バイセル 佐賀</strong></td><td>佐賀県全域</td><td>宅配・出張</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん</strong></td><td>佐賀県内に店舗・事業所なし</td><td>出張・宅配</td><td>株式会社REGATEが運営する買取専門店。店舗一覧（11店）・会社概要の事業所（14拠点）に佐賀県はありません。お酒の買取ページに出張・宅配・店舗の3方式を記載。出張の対応エリアの記載なし（2026年11月3日確認）</td></tr><tr><td><strong>リサイクルマート佐賀店</strong></td><td>佐賀県佐賀市開成5丁目13-33</td><td>店頭・出張</td><td>公式の取扱商品に「飲まないお酒（ウイスキー・ブランデー）」。店舗ページにお酒の記載なし＝持ち込み前に店舗へ電話で確認（公式の案内）（2026年11月2日確認）</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>
