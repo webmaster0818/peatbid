@@ -3,36 +3,13 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "編集部紹介",
-  description: "PeatBid（ピートビッド）編集部の体制・専門性・編集方針をご紹介します。買取相場・銘柄情報・売却時の注意点を掲載しています。",
+  description: "PeatBid（ピートビッド）編集部の運営体制・編集方針・データの集め方をご案内します。買取相場・銘柄情報・売却時の注意点を掲載しています。",
 };
-
-const editorRoles = [
-  {
-    role: "編集長 / コンテンツ責任者",
-    description:
-      "ウイスキー業界・買取市場の動向を統括し、記事の品質基準・編集方針の策定に責任を負います。海外オークション（Sotheby's、Bonhams、Whisky Auctioneer等）の落札データを定期的に確認し、相場の客観性の確保に努めています。",
-  },
-  {
-    role: "リサーチチーム",
-    description:
-      "国内外の買取業者・オークション・小売店の価格データを収集し、各銘柄の流通量・終売情報・限定リリース情報を確認しています。",
-  },
-  {
-    role: "ファクトチェック担当",
-    description:
-      "記事公開前に、価格データ・銘柄スペック・歴史的事実・法規制情報の正確性を検証し、誤情報の混入防止を担当しています。",
-  },
-  {
-    role: "監修パートナー",
-    description:
-      "ウイスキーバー運営者・お酒買取業者・コレクター等、業界に関わる外部パートナーが記事を監修し、実務にもとづく知見を反映しています。",
-  },
-];
 
 const policies = [
   {
     title: "事実に基づく情報提供",
-    body: "全ての価格情報は、公式買取業者の公開データ、海外オークションの落札結果、信頼できる業界紙の調査をベースに算出します。憶測・伝聞に基づく相場提示は行いません。",
+    body: "価格情報は、買取店が自社サイトに公開している掲示価格と、ヤフオクの落札結果を当サイトで集計した中央値にもとづいて掲載します。いずれも確認日または取得日を併記します。",
   },
   {
     title: "中立性の維持",
@@ -40,7 +17,7 @@ const policies = [
   },
   {
     title: "鮮度の確保",
-    body: "相場データは月次以上の頻度で見直し、終売・限定リリース等の重要な市場変化は即座に反映します。各記事には最終更新日を明記しています。",
+    body: "ヤフオクの相場データは毎週月曜に更新します。買取店の掲示価格は、月替わりを目安に再確認します。各記事には最終更新日を明記しています。",
   },
   {
     title: "透明性の確保",
@@ -64,30 +41,20 @@ export default function EditorialPage() {
       </nav>
 
       <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">PeatBid 編集部紹介</h1>
-      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年5月14日</p>
+      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年11月4日</p>
 
       <section className="prose">
         <p>
-          PeatBid（ピートビッド）はウイスキー買取の比較・解説に特化した情報メディアです。
-          編集部はウイスキー業界・買取市場・オークション動向に精通したスタッフで構成され、
-          コレクター・愛好家・売却を検討している方に役立つ情報の提供を目的としています。
+          PeatBid（ピートビッド）は、ウイスキー買取の比較・解説に特化した情報メディアです。
+          ウイスキーの売却を検討されている方に、相場データ・買取店の掲示価格・売却時の注意点をご案内することを目的としています。
         </p>
 
         <h2>編集部の体制</h2>
         <p>
-          PeatBidは、個人名ではなく<strong>編集部全体の合議制</strong>で記事を作成・公開しています。
-          ウイスキー市場は変動が大きく、単一の編集者では把握しきれないためです。
-          各セクションの専門家が連携し、相互レビューを経て公開する体制を取っています。
+          PeatBidは組織として運営しており、記事は<strong>PeatBid編集部</strong>の名義で作成・公開しています。
+          個人の著者名や役職は掲載しておりません。また、外部の専門家による監修は受けておりません。
+          編集部が行っている作業は、<Link href="/author/" className="text-burgundy underline">記事の作成体制</Link>のページでもご説明しています。
         </p>
-
-        <div className="not-prose space-y-4 my-6">
-          {editorRoles.map((e) => (
-            <div key={e.role} className="bg-white border border-warm-border rounded-xl p-5">
-              <p className="font-display text-lg font-semibold text-ink mb-2">{e.role}</p>
-              <p className="text-sm text-ink/80 leading-relaxed">{e.description}</p>
-            </div>
-          ))}
-        </div>
 
         <h2>編集方針</h2>
         <p>
@@ -107,24 +74,23 @@ export default function EditorialPage() {
 
         <h2>記事制作プロセス</h2>
         <ol>
-          <li><strong>市場データ収集</strong> — 買取業者の公式サイト・海外オークション・業界紙から価格情報を取得</li>
-          <li><strong>銘柄プロファイル整理</strong> — 蒸溜所・年代・希少度・流通状況を整理</li>
-          <li><strong>編集会議で構成決定</strong> — 読者ニーズに即した切り口・FAQを設計</li>
-          <li><strong>記事執筆</strong> — リサーチャー＋編集長による起草</li>
-          <li><strong>ファクトチェック</strong> — 価格・スペック・法規制情報を独立検証</li>
-          <li><strong>監修パートナー確認</strong> — 業界実務に即した記述になっているかを最終確認</li>
-          <li><strong>公開</strong> — 最終更新日を明記して公開</li>
-          <li><strong>定期見直し</strong> — 市場の変動に応じて更新</li>
+          <li><strong>相場データの集計</strong> — ヤフオクの落札結果から、銘柄ごとに過去180日の落札価格を取得し、外れ値を除いた中央値と件数を毎週月曜に集計します</li>
+          <li><strong>掲示価格の確認</strong> — 買取店が自社サイトに公開している参考買取価格を各店のページで確認し、確認日と店舗側の更新日を併記します</li>
+          <li><strong>店舗・業者情報の照合</strong> — 店舗の所在地や買取方法を、各社公式の店舗一覧・店舗ページ・会社概要と照合します</li>
+          <li><strong>記事の作成・更新</strong> — 確認した情報をもとに、売却を検討されている方の疑問に沿って構成します</li>
+          <li><strong>公開前の点検</strong> — 内部リンク切れやページ情報の不備を、書き出したページ全体に対して機械的に点検します</li>
+          <li><strong>公開</strong> — 最終更新日を明記して公開します</li>
+          <li><strong>見直し</strong> — 相場データを毎週更新します。誤りのご連絡をいただいた場合は、公式の情報で確認のうえ訂正します</li>
         </ol>
 
         <h2>データソース</h2>
-        <p>PeatBidが参照する主なデータソース:</p>
+        <p>PeatBidが参照している主なデータソースは、以下のとおりです。</p>
         <ul>
-          <li><strong>海外オークション</strong> — Sotheby's、Bonhams、Whisky Auctioneer、Just Whisky Auctions、Whisky Hammer</li>
-          
-          <li><strong>公式メーカー情報</strong> — サントリー、ニッカ、ベンチャーウイスキー</li>
-          <li><strong>業界統計</strong> — Knight Frank Luxury Investment Index、Rare Whisky 101 等</li>
-          <li><strong>政府・公的機関</strong> — 国税庁、消費者庁、警察庁（古物営業法）</li>
+          <li><strong>ヤフオクの落札結果</strong> — 相場（中央値）の集計に使用しています</li>
+          <li><strong>買取店の公式サイト</strong> — LINXAS、大黒屋、ストックラボ、リカスタ、ファイブニーズ等が公開している参考買取価格を、確認日とともに掲載しています</li>
+          <li><strong>各社公式の店舗情報</strong> — 店舗一覧・店舗ページ・会社概要を、業者情報の照合に使用しています</li>
+          <li><strong>メーカー公式情報</strong> — サントリー、ニッカ等の公式サイトを、銘柄情報の参照先としています</li>
+          <li><strong>海外オークションの結果</strong> — 相場の集計には使用していません。一部の記事で、落札額と出典を確認できた結果のみ、出典URLとともに掲載しています</li>
         </ul>
 
         <h2>お問い合わせ</h2>
