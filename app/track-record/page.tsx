@@ -8,11 +8,10 @@ export const metadata: Metadata = {
 
 const stats = [
   { value: "50", label: "掲載銘柄数", desc: "ジャパニーズ32銘柄・スコッチ18銘柄" },
-  { value: "506", label: "公開記事数", desc: "銘柄ガイド+切り口別+ハブ記事" },
-  { value: "511", label: "サイト内URL", desc: "sitemap.xml登録URL" },
-  { value: "5源", label: "データソース", desc: "国内業者・海外オークション・個人取引・業界紙・公式情報" },
+  { value: "545", label: "公開記事数", desc: "銘柄ガイド+切り口別+解説記事（都道府県別ページを除く）" },
+  { value: "3,006", label: "サイト内URL", desc: "sitemap.xml登録URL（都道府県別ページ2,445を含む）" },
+  { value: "2種", label: "価格データの情報源", desc: "ヤフオクの落札結果・買取店の掲示価格" },
   { value: "毎週", label: "相場更新", desc: "ヤフオク落札データの中央値を毎週月曜に更新" },
-  { value: "8項目", label: "状態別係数", desc: "未開封完璧〜開封済み半分以下まで" },
   { value: "100%", label: "無料査定推奨", desc: "掲載している3社は、いずれも査定・キャンセルが無料です" },
 ];
 
@@ -20,7 +19,7 @@ const coverage = [
   { region: "ジャパニーズウイスキー", count: 32, brands: "山崎、響、白州、竹鶴、余市、宮城峡、イチローズモルト、軽井沢、羽生、秩父、マルス" },
   { region: "スコッチウイスキー", count: 18, brands: "マッカラン、ボウモア、スプリングバンク、ラフロイグ、アードベッグ、グレンフィディック、グレンファークラス、タリスカー、バルヴェニー、グレンモーレンジ" },
   { region: "切り口別解説", count: 9, brands: "高く売る/偽物見分け/業者ランキング/歴史/希少性/オークション推移/開封済み/箱なし/ラベル汚れ" },
-  { region: "ハブ記事", count: 6, brands: "相場一覧、高く売るコツ、銘柄概要4本" },
+  { region: "解説記事・銘柄別の総合ページ", count: 35, brands: "相場一覧、高く売るコツ、税金、保管方法、銘柄別の総合ページなど" },
 ];
 
 const milestones = [
@@ -45,7 +44,7 @@ export default function TrackRecordPage() {
       </nav>
 
       <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">PeatBid サイト実績・統計データ</h1>
-      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年5月14日 / 編集: PeatBid編集部</p>
+      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年11月4日 / 編集: PeatBid編集部</p>
 
       <section className="prose">
         <p>
@@ -100,7 +99,7 @@ export default function TrackRecordPage() {
           PeatBid は以下の取り組みで運営の透明性を確保しています:
         </p>
         <ul>
-          <li><strong>編集体制の公開</strong> — <Link href="/editorial/" className="text-burgundy underline">編集部紹介ページ</Link>で組織体制・専門性を開示</li>
+          <li><strong>編集体制の公開</strong> — <Link href="/editorial/" className="text-burgundy underline">編集部紹介ページ</Link>で運営体制・編集部の作業内容を開示</li>
           <li><strong>編集方針の公開</strong> — <Link href="/methodology/" className="text-burgundy underline">編集ポリシーページ</Link>で価格データ収集方法・更新頻度を公開</li>
           <li><strong>アフィリエイト関係の開示</strong> — 全ページに「PR」表記、編集方針ページで業者紹介の仕組みを説明</li>
           <li><strong>記事の最終更新日表示</strong> — 各記事に明記し、情報の鮮度をご確認いただけるようにしています</li>
@@ -109,17 +108,21 @@ export default function TrackRecordPage() {
         </ul>
 
         <h2>外部リンク・引用先</h2>
-        <p>PeatBidが信頼性を担保するために定期参照している主要な情報源:</p>
+        <p>PeatBidが参照している主な情報源は、以下のとおりです。</p>
         <ul>
+          <li>ヤフオクの落札結果（相場の中央値の集計に使用しています）</li>
+          <li>買取店の公式サイト（参考買取価格を、確認日とともに掲載しています）</li>
+          <li>各社公式の店舗一覧・店舗ページ・会社概要（業者情報の照合に使用しています）</li>
           <li>サントリーホールディングス公式（<a href="https://www.suntory.co.jp/" target="_blank" rel="noopener noreferrer nofollow">suntory.co.jp</a>）</li>
           <li>ニッカウヰスキー公式（<a href="https://www.nikka.com/" target="_blank" rel="noopener noreferrer nofollow">nikka.com</a>）</li>
           <li>ベンチャーウイスキー秩父蒸溜所（<a href="https://chichibu-distillery.co.jp/" target="_blank" rel="noopener noreferrer nofollow">chichibu-distillery.co.jp</a>）</li>
-          <li>Sotheby&apos;s Wine &amp; Spirits（<a href="https://www.sothebys.com/en/buy/wine-spirits" target="_blank" rel="noopener noreferrer nofollow">sothebys.com</a>）</li>
-          <li>Bonhams Whisky Auctions（<a href="https://www.bonhams.com/" target="_blank" rel="noopener noreferrer nofollow">bonhams.com</a>）</li>
-          <li>Whisky Auctioneer（<a href="https://www.whiskyauctioneer.com/" target="_blank" rel="noopener noreferrer nofollow">whiskyauctioneer.com</a>）</li>
           <li>国税庁 酒類関連法令</li>
-          <li>消費者庁 景品表示法・ステマ規制ガイドライン</li>
         </ul>
+
+        <p>
+          海外オークションの落札結果は、相場の集計には使用していません。
+          一部の記事で、落札額と出典を確認できた個別の結果のみ、出典URLとともに掲載しています。
+        </p>
 
         <h2>お問い合わせ・データ訂正</h2>
         <p>

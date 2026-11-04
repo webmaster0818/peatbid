@@ -66,19 +66,22 @@ export default function ContentPolicyPage() {
               <strong>企画設計</strong>: 読者が必要とする情報と、意思決定に必要な論点を調査したうえで、記事の構成・取り上げる論点を設計します。
             </li>
             <li>
-              <strong>データ収集</strong>: 海外オークション（Sotheby&apos;s、Bonhams、Whisky Auctioneer等）の落札データ、買取業者公式の価格表、業界紙の調査データを収集し、相場の客観性を担保します。憶測・伝聞に基づく数値は使用しません。
+              <strong>データ収集</strong>: ヤフオクの過去180日の落札結果を銘柄ごとに毎週月曜に取得し、中央値と件数を集計します。あわせて、買取店が自社サイトに公開している掲示価格を各店のページで確認し、確認日と店舗側の更新日を併記します。海外オークションの落札結果や業界紙の調査は、相場の集計には使用していません。
             </li>
             <li>
               <strong>ライティング</strong>: 読み手が理解しやすい表現を用い、要点を先に示す構成で執筆します。
             </li>
             <li>
-              <strong>ファクトチェック</strong>: 公開前に、価格データ・銘柄スペック・歴史的事実・法規制情報の正確性を独立して検証します。
+              <strong>店舗・業者情報の照合</strong>: 店舗の所在地や買取方法を、各社公式の店舗一覧・店舗ページ・会社概要と照合します。
             </li>
             <li>
-              <strong>公開</strong>: ファクトチェックを通過した記事のみを公開します。
+              <strong>公開前の点検</strong>: 内部リンク切れやページ情報の不備を、書き出したページ全体に対して機械的に点検します。
             </li>
             <li>
-              <strong>定期更新</strong>: 公開後も相場の変動・業者情報の変化を追跡し、定期的に内容を更新します。記事末尾に「最終更新日」を明示します。
+              <strong>公開</strong>: 点検を通過したページを公開します。
+            </li>
+            <li>
+              <strong>更新</strong>: 相場データは毎週月曜に更新します。買取店の掲示価格は月替わりを目安に再確認し、都道府県別ページの業者表は各社公式の店舗一覧と順次照合します。各記事の上部に「最終更新」を明示します。
             </li>
           </ol>
         </section>
@@ -129,14 +132,14 @@ export default function ContentPolicyPage() {
         <section>
           <h2 className="text-lg font-bold mb-3 border-b border-warm-border pb-2">7. 利益相反の管理</h2>
           <p>
-            ウイスキー業界・買取業界の関係者が記事の執筆・監修に関わる場合、その関係性を記事内に開示します。記事の客観性を担保するため、関係者が直接利害を有する銘柄・業者についての評価記事は、第三者によるレビューを経て公開します。
+            当サイトの記事は、外部の専門家や買取業者による監修を受けておりません。今後、ウイスキー業界・買取業界の関係者が記事の作成に関わる場合は、その関係性を記事内に開示します。
           </p>
         </section>
 
         <section>
-          <h2 className="text-lg font-bold mb-3 border-b border-warm-border pb-2">8. 専門性の担保</h2>
+          <h2 className="text-lg font-bold mb-3 border-b border-warm-border pb-2">8. 記事の作成体制</h2>
           <p>
-            記事の執筆・監修は、ウイスキー市場・買取市場・関連法規制について十分な知識と経験を有する編集部メンバーが担当します。詳細な体制は<Link href="/editorial/" className="text-amber-dark underline">編集部紹介</Link>をご参照ください。
+            記事はPeatBid編集部の名義で作成・公開しており、個人の著者名や役職は掲載しておりません。編集部が行っている作業は<Link href="/editorial/" className="text-amber-dark underline">編集部紹介</Link>をご参照ください。
           </p>
         </section>
 
@@ -149,7 +152,7 @@ export default function ContentPolicyPage() {
 
         <p className="text-xs text-warm-gray pt-4 border-t border-warm-border">
           制定日: 2026年5月<br />
-          最終更新日: 2026年6月3日
+          最終更新日: 2026年11月4日
         </p>
       </div>
     </div>

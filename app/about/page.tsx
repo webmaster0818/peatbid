@@ -54,7 +54,7 @@ export default function AboutPage() {
             「PeatBid」は、ウイスキーの売却を検討している方に向けて、公正で分かりやすい買取相場の情報と業者の比較を掲載するWebメディアです。
           </p>
           <p className="mb-3">
-            ジャパニーズウイスキー・スコッチ・バーボン・アイリッシュ等の市場に関する知見を持つ編集部が、相場データ、買取業者の特徴、希少ボトルの査定基準、売却時の注意点を掲載しています。
+            PeatBid編集部が、ヤフオクの落札結果の集計と、買取店の掲示価格・店舗情報の確認をもとに、ジャパニーズウイスキーとスコッチを中心に、相場データ、買取業者の特徴、希少ボトルの査定基準、売却時の注意点を掲載しています。外部の専門家や買取業者による監修は受けておりません。
           </p>
           <p>
             読者の状況に応じた売却方法を検討いただけるよう、中立的な立場で記事を作成しています。
@@ -76,7 +76,7 @@ export default function AboutPage() {
           <ul className="list-disc list-inside space-y-2">
             <li>事実に基づいた正確な情報を提供します</li>
             <li>メリットだけでなくデメリットも公平に記載します</li>
-            <li>定期的にオークション相場データを更新し、最新の相場を反映します</li>
+            <li>ヤフオクの落札データを毎週月曜に集計し、相場に反映します</li>
             <li>読者の利益を優先して記事を作成します</li>
             <li>古物営業法・景品表示法・酒類販売業免許関連法を遵守します</li>
             <li>未成年（20歳未満）の方に対しては酒類関連の取引を案内しません</li>
@@ -98,7 +98,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <Link href="/editorial/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow">
               <span className="text-xs text-amber-dark font-bold">編集部紹介</span>
-              <p className="text-sm font-bold mt-1">体制・専門性</p>
+              <p className="text-sm font-bold mt-1">運営体制・作業内容</p>
             </Link>
             <Link href="/methodology/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow">
               <span className="text-xs text-amber-dark font-bold">編集ポリシー</span>
