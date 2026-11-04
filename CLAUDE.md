@@ -684,3 +684,8 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - ⚠️ハブ taketsuru-kaitori の白黒 FAQ・表は 10/24〜25 の値（大黒屋 10/25・ストックラボ 10/24・リカスタ 10月版）のまま（10日ルールで据え置き）。金額は 11/3 と同じ。
 - sitemap: 再生成すると今朝の C3（監修→編集）コミットで / ・/articles/ ・/author/ 等が 11-03 になる → 戻して taketsuru-pure-kaitori 1行だけ 11-03。
 - build（heap8192）EXIT0 → precheck ✅（3,006）→ *.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions）。source 41fd68f9f/796b7beee・deploy fe2d9bd649。ASP 0→0・hikakaku href 606→606。Indexing は未送信（16時に taketsuru-pure-kaitori）。
+
+### 2026-11-04 朝ルーチン: /editorial/・/methodology/ を実施内容だけに ✅本番反映済み
+- /editorial/: 役職カード（編集長・リサーチチーム・ファクトチェック担当・監修パートナー）・「合議制」「精通したスタッフ」・編集会議／監修パートナー確認の工程を削除。工程とデータソースは実施記録のあるもの（ヤフオク中央値・掲示価格の確認・公式照合・precheck）に。/methodology/ §1〜3 を同様に（4情報源・±2σ・係数・複数人クロスチェック・メルカリ・四半期見直しを削除）。海外オークションは store-prices.json のブラックボウモア1記事だけが出典URL付き＝「集計には使わず、一部記事で個別掲載」と記載。sitemap は2ページだけ lastmod 11-04（generate-sitemap は 11/3 の一括コミットで2,989行動くので全体更新しない）。
+- 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知。
+- 未対応（報告のみ）: /content-policy/ のデータ収集・ファクトチェック工程、/track-record/「5源」「8項目」・公開記事数506、/faq/ の Sotheby's、/about/「知見を持つ編集部」、/methodology/ §4・/editorial/ 方針2 の5項目10点満点と記事の「総合スコア」51本、§6 24時間訂正・訂正履歴、記事テンプレの Sotheby's 言及（auction-suii 51本ほか）。
