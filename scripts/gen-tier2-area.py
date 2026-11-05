@@ -104,6 +104,9 @@ def gen(pref_key):
 
     buyer_rows = []
     for nm, url, desc, ch in BUYERS:
+        # 2026-11-05: 和歌山は公式のエリアページ（fuku-chan.info/liquor/area/wakayama/）で確認済み。他県は件数のみ報告（判断待ち）
+        if pref_key == "wakayama" and nm == "福ちゃん":
+            desc = desc.replace("（出張の対応エリアは公式サイトに記載がありません）", "（公式のエリアページに「和歌山県全域がお酒買取対象エリアです」と記載されています）")
         buyer_rows.append(
             f'<div className="border border-warm-border rounded-xl p-4 bg-white">'
             f'<div className="flex items-center justify-between gap-3 mb-2"><p className="font-bold text-foreground">{nm}</p>'

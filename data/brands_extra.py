@@ -81,7 +81,7 @@ BRANDS_EXTRA = {
         "distillery_official_url": "https://products.suntory.co.jp/d/4901777347700/",
         "flavor_profile": "シェリー樽の濃厚なドライフルーツ、レーズン、ダークチョコレート。深い甘みと長い余韻、まろやかな樽香",
         "storage_advice": "アルコール度数43%。長期熟成品ゆえコルク状態を年1回確認、温度15-18℃・湿度50-60%の冷暗所で縦置き",
-        "recent_overseas_auction": "情報なし（個別ロット差大、Bonhams/Sotheby's 出品履歴あり）",
+        "recent_overseas_auction": "情報なし（個別ロット差大）",
         "collectibility_note": "プレミア中のプレミア。生産数極小で投資対象としても評価が高い",
         "status_as_of": "2026年10月18日",
     },
@@ -373,7 +373,7 @@ BRANDS_EXTRA = {
         "flavor_profile": "極めて深いシェリー樽香、ドライフルーツ、ダークチョコレート、樽材のスパイス、極長い余韻",
         "storage_advice": "閉鎖蒸溜所の超希少品、専用セラー必須。温度15-18℃・湿度50-60%、振動・光を完全遮断",
         "recent_overseas_auction": "情報なし（個別ロット差大、出品時概ね£15,000〜£40,000帯）",
-        "collectibility_note": "閉鎖蒸溜所の長期熟成品。Bonhams/Sotheby's 出品実績多数、投資対象として最上位",
+        "collectibility_note": "閉鎖蒸溜所の長期熟成品です",
     },
     # ==========================================================================
     # 羽生蒸溜所（閉鎖）
@@ -438,8 +438,8 @@ BRANDS_EXTRA = {
         "distillery_official_url": "https://www.themacallan.com/en/whiskies/exceptional-cask-series/fine-rare",
         "flavor_profile": "ヴィンテージごとに異なる個性。1926年〜1990年代までのシングルカスク・ヴィンテージ表記、極めて深い樽香",
         "storage_advice": "超高額・希少品、専用セラー必須。温度15-18℃・湿度50-60%、振動・光を完全遮断",
-        "recent_overseas_auction": "Macallan 1926 (Fine & Rare) £2.7M (Sotheby's 2023、ボトル単体世界最高額)",
-        "collectibility_note": "ウイスキー投資の頂点。Sotheby's/Bonhams で歴代世界記録を更新する常連シリーズ",
+        "recent_overseas_auction": "The Macallan 1926 Fine & Rare ラベル 1,452,000ポンド（2019年）／同 Valerio Adami ラベル 2,187,500ポンド（2023年11月18日）。いずれもサザビーズ（<a href=\"https://www.sothebys.com/en/articles/the-macallan-valerio-adami-60-year-old-revisiting-the-most-expensive-whisky-ever-sold\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline\">出典</a>）",
+        "collectibility_note": "ヴィンテージ別に展開する長期熟成のシリーズです",
     },
     # ==========================================================================
     # Bowmore
@@ -473,7 +473,7 @@ BRANDS_EXTRA = {
         "flavor_profile": "1964年蒸留の希少な原酒、オロロソ・シェリー樽長期熟成。極めて濃密なドライフルーツ、ダークチョコレート、トロピカルフルーツ、極長い余韻",
         "storage_advice": "アルコール度数42-49%。希少品のため専用セラーでの保管を推奨。振動・光遮断、コルク状態を年1回確認",
         "recent_overseas_auction": "情報なし（個別ロット差大、出品時概ね£15,000〜£40,000帯、50年Last Caskは£60,000超実績）",
-        "collectibility_note": "Bowmore最高峰、1993〜2016年の5回限定リリース。Sotheby's/Bonhams出品実績多数、投資対象として極上位",
+        "collectibility_note": "1993〜2016年の5回限定リリースです",
     },
     # ==========================================================================
     # Springbank

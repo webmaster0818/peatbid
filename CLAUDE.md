@@ -701,3 +701,11 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 次回: 冒頭 quick を白州NV と同じ店別の表（cols 指定・store-prices.json の yamazaki-nv）にする。店側の更新日は上記から変わっているので、その日に再確認。title は 11/2 の週次で月タグ等が動いた扱い。
 - /tier2/wakayama/: 10/31（2103cf183）に店舗追加・title（32→33店）変更あり＝対象外。カードの福ちゃん「出張の対応エリアは公式サイトに記載がありません」と、同ページ引用の公式「和歌山県全域がお酒買取対象エリア」が食い違って見える（共通文言。公式は今日未照合・未修正）。
 - WebSearch は米国向けで日本の上位10件は取れず（ヒカカクのブログ・uridoki・aucfan のみ）。
+
+### 2026-11-05 朝ルーチン: 記事テンプレの Sotheby's 言及・auction-suii の「落札データから分析」を /methodology/ に一致
+- /methodology/「海外オークションは集計に使用していない・個別の結果は出典URLつきのみ」に対し、記事テンプレが「Sotheby's 等の価格データから分析」「落札データが査定・買取相場の指標」と書いていた。生成器（brand-v3・angle-v3・gen-nisemono-brand-hubs・generate-hub-pages）を修正。旧 v1/v2 は週次で未使用のため未修正。
+- auction-suii 51本: 「過去5年の年別上昇率・累計3〜5倍」「地域別5〜15%の価格差」「今後の見通し」（全銘柄同文・出典なし）を廃止し、price-history の実数（集計開始→最新・最高・最低週）＋12週スパークライン＋集計手順＋海外オークションの扱いに。title 末尾「国内外データ分析」→「ヤフオク落札データ」。中央値を出せない13本は推移なしと明記（title は据え置き＝判断待ち）。
+- 本番 HTML: Sotheby's/サザビーズ 710→48頁。残りは出典つき2種＝bowmore-blackbowmore-kaitori（プレスリリース）・tier2 macallan-fine-rare 47頁。後者は「£2.7M」が米ドル額の誤記だったので、サザビーズの記事で £2,187,500（Valerio Adami・2023-11-18）／£1,452,000（Fine & Rare・2019）に訂正し出典リンク（`scripts/patch-tier2-sotheby-1105.py`・brands_extra.py も同文）。
+- 和歌山 福ちゃん: 公式は2ドメイン。fuku-chan.jp に地域の記載なし／fuku-chan.info/liquor/area/wakayama/ に「和歌山県全域がお酒買取対象エリアです」（11/5）。和歌山のみ修正（51リーフ＋ハブ＋prefectures.py・`scripts/patch-tier2-wakayama-fukuchan-area-1105.py`・gen-tier2-area の和歌山分岐）。
+- 未対応: 他46県の「記載がありません」は未修正（fuku-chan.info の同じ文言は 44県で確認・和歌山含む）。
+- sitemap は変更758ページだけ lastmod 11-05（generate-sitemap は未実行）。

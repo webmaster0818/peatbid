@@ -73,8 +73,8 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">国内発売年</th><td className="px-3 py-2">2002年（Fine & Rare シリーズ開始）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">後継品</th><td className="px-3 py-2">なし（ヴィンテージ別に順次リリース継続）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">ヴィンテージごとに異なる個性。1926年〜1990年代までのシングルカスク・ヴィンテージ表記、極めて深い樽香</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">ウイスキー投資の頂点。Sotheby's/Bonhams で歴代世界記録を更新する常連シリーズ</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">Macallan 1926 (Fine & Rare) £2.7M (Sotheby's 2023、ボトル単体世界最高額)</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">ヴィンテージ別に展開する長期熟成のシリーズです</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">The Macallan 1926 Fine & Rare ラベル 1,452,000ポンド（2019年）／同 Valerio Adami ラベル 2,187,500ポンド（2023年11月18日）。いずれもサザビーズ（<a href="https://www.sothebys.com/en/articles/the-macallan-valerio-adami-60-year-old-revisiting-the-most-expensive-whisky-ever-sold" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">出典</a>）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.themacallan.com/en/whiskies/exceptional-cask-series/fine-rare" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.themacallan.com/en/whiskies/exceptional-cask-series/fine-rare</a></td></tr>
               </tbody>
             </table>
@@ -144,8 +144,8 @@ export default function Page() {
           <p>マッカラン ファイン&レアの市場価値は、国内市場（Yahoo Auctions）と海外オークションの両方で形成されます。直近の動向を踏まえて、売却の時期をご判断ください。</p>
           <ul>
             <li><strong>国内市場（Yahoo Auctions 過去180日中央値）</strong>: 現在集計中（過去180日の落札データが20件に満たないため、市場相場の中央値は掲載していません（取得日 2026-11-02、サンプル数 n=6））</li>
-            <li><strong>海外オークション直近</strong>: Macallan 1926 (Fine & Rare) £2.7M (Sotheby's 2023、ボトル単体世界最高額)</li>
-            <li><strong>コレクション価値</strong>: ウイスキー投資の頂点。Sotheby's/Bonhams で歴代世界記録を更新する常連シリーズ</li>
+            <li><strong>海外オークション直近</strong>: The Macallan 1926 Fine & Rare ラベル 1,452,000ポンド（2019年）／同 Valerio Adami ラベル 2,187,500ポンド（2023年11月18日）。いずれもサザビーズ（<a href="https://www.sothebys.com/en/articles/the-macallan-valerio-adami-60-year-old-revisiting-the-most-expensive-whisky-ever-sold" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">出典</a>）</li>
+            <li><strong>コレクション価値</strong>: ヴィンテージ別に展開する長期熟成のシリーズです</li>
             <li><strong>流通ステータス</strong>: 限定品（ヴィンテージシリーズ、各ロット完売）（2002年（Fine & Rare シリーズ開始）発売）</li>
           </ul>
           <p>海外オークションで高値が付いた直後は、国内の業者の買取査定額も上昇する傾向があります。一方、下落の局面では業者の買取意欲も低下するため、上昇傾向の時期に複数の業者で相見積もりを取ることをおすすめします。</p>

@@ -92,7 +92,6 @@ export default function WhiskyTakakuUruPage() {
           <ul>
             <li><strong>年末年始（12月〜1月）</strong> — お正月需要、ボーナス商戦</li>
             <li><strong>お中元・お歳暮シーズン</strong> — 贈答需要</li>
-            <li><strong>海外オークションの直前後</strong> — Sotheby&apos;s・Bonhamsの落札結果が反映される</li>
             <li><strong>終売・休売報道直後</strong> — 供給制限による高騰期</li>
           </ul>
 

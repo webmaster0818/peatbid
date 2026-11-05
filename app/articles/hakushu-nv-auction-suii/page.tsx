@@ -5,12 +5,12 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/hakushu-nv.json";
 
 export const metadata: Metadata = {
-  title: '白州ノンエイジのオークション相場推移と買取価格【2026年11月最新】国内外データ分析',
-  description: "白州ノンエイジの国内外のオークション相場の推移を解説しています。Sotheby's・Bonhams・Whisky Auctioneerの落札データにもとづく価格動向、過去5年の推移、今後の見通しを掲載しています。",
+  title: '白州ノンエイジのオークション相場推移と買取価格【2026年11月最新】ヤフオク落札データ',
+  description: '白州ノンエイジのヤフオク落札価格の推移を、毎週月曜に集計した中央値で掲載しています。集計の対象はヤフオクの過去180日の落札結果で、海外オークションの結果は含みません。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '白州ノンエイジを売る前に何を準備すればよいですか？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' } }, { "@type": "Question", "name": '複数の業者の比較は必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、おすすめします。同じ白州ノンエイジでも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' } }, { "@type": "Question", "name": '買取後のキャンセルはできますか？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": '白州ノンエイジの売却益に税金はかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '白州ノンエイジを売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '白州ノンエイジを売る前に何を準備すればよいですか？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' } }, { "@type": "Question", "name": '複数の業者の比較は必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、おすすめします。同じ白州ノンエイジでも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' } }, { "@type": "Question", "name": '買取後のキャンセルはできますか？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": '白州ノンエイジの売却益に税金はかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": '白州ノンエイジを売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": '需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。' } }] }) }} />;
 }
 
 export default function HakushuNvAuctionSuiiPage() {
@@ -54,68 +54,67 @@ export default function HakushuNvAuctionSuiiPage() {
             <p className="font-bold text-base mb-3 text-ink">📑 目次</p>
             <ol className="space-y-1.5 text-sm text-amber-dark">
               <li><a href="#section-0" className="hover:underline">1. 白州ノンエイジの市場ポジションとデータ分析</a></li>
-              <li><a href="#section-1" className="hover:underline">2. 過去5年の価格推移</a></li>
-              <li><a href="#section-2" className="hover:underline">3. 主要オークションプラットフォーム</a></li>
-              <li><a href="#section-3" className="hover:underline">4. 価格を動かす5つの要因</a></li>
-              <li><a href="#section-4" className="hover:underline">5. 地域別の価格特性</a></li>
-              <li><a href="#section-5" className="hover:underline">6. 今後の見通し（中長期）</a></li>
-              <li><a href="#section-6" className="hover:underline">7. オークションデータの確認方法</a></li>
-              <li><a href="#section-7" className="hover:underline">8. 国内と海外での売却の比較</a></li>
+              <li><a href="#section-1" className="hover:underline">2. 週次の落札中央値の推移</a></li>
+              <li><a href="#section-2" className="hover:underline">3. 落札中央値の集計方法</a></li>
+              <li><a href="#section-3" className="hover:underline">4. 海外オークションの扱い</a></li>
+              <li><a href="#section-4" className="hover:underline">5. 国内と海外での売却の違い</a></li>
             </ol>
           </div>
 
-          <p>白州ノンエイジの国内の買取相場は、海外オークションの落札結果に連動する傾向があります。本記事では、Sotheby's、Bonhams、Whisky Auctioneer等の主要オークションで取引された価格データから、相場の動向と今後の見通しを分析します。</p>
+          <p>白州ノンエイジの相場の動きを、ヤフオクの落札結果から毎週集計した中央値で掲載します。個人間取引の落札価格であり、買取店の査定額とは異なります。</p>
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
             <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは白州ノンエイジの落札が約236件確認でき、落札額の中央値は10,051円でした。取引が活発で、換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
+          <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
+            <p className="text-sm font-bold text-ink mb-3">白州ノンエイジの買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
+            <svg viewBox="0 0 640 210" role="img" aria-label="白州ノンエイジのヤフオク落札中央値の週次推移グラフ" className="w-full h-auto">
+              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">10,051</text>
+              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">10,026</text>
+              <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">10,000</text>
+              <polyline points="66.0,155.1 116.5,155.1 167.1,132.3 217.6,38.9 268.2,38.9 318.7,38.9 369.3,38.9 419.8,38.9 470.4,38.9 520.9,38.9 571.5,38.9 622.0,38.9" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 10,000円（サンプル n=218件）</title></circle>
+              <circle cx="116.5" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 10,000円（サンプル n=220件）</title></circle>
+              <circle cx="167.1" cy="132.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 10,010円（サンプル n=220件）</title></circle>
+              <circle cx="217.6" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 10,051円（サンプル n=242件）</title></circle>
+              <circle cx="268.2" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 10,051円（サンプル n=230件）</title></circle>
+              <circle cx="318.7" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 10,051円（サンプル n=218件）</title></circle>
+              <circle cx="369.3" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 10,051円（サンプル n=228件）</title></circle>
+              <circle cx="419.8" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 10,051円（サンプル n=230件）</title></circle>
+              <circle cx="470.4" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 10,051円（サンプル n=232件）</title></circle>
+              <circle cx="520.9" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 10,051円（サンプル n=228件）</title></circle>
+              <circle cx="571.5" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 10,051円（サンプル n=238件）</title></circle>
+              <circle cx="622.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 10,051円（サンプル n=236件）</title></circle>
+              <text x="618.0" y="28.9" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">10,051円</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/17</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/21</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/2</text>
+            </svg>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-17〜2026-11-02（週次12点・各点のサンプル数 n=218〜242件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
+          </div>
+
 
           <div className="relative w-full h-[200px] md:h-[260px] rounded-xl overflow-hidden my-6 not-prose">
-            <Image src="/images/auction-scene.png" alt="海外オークションでの希少ウイスキー取引" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
+            <Image src="/images/auction-scene.png" alt="ウイスキーのオークションのイメージ" fill sizes="(max-width: 768px) 100vw, 800px" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-peat/30 to-transparent" />
           </div>
 
           <h2 id="section-0">1. 白州ノンエイジの市場ポジションとデータ分析</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>白州ノンエイジ</strong>はジャパニーズウイスキー（白州蒸溜所）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>10,051円</strong>（流通サンプル236件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
-          <h2 id="section-1">2. 過去5年の価格推移</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>白州ノンエイジの二次流通価格は、過去5年で大きく上昇しています。
+          <h2 id="section-1">2. 週次の落札中央値の推移</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 の白州ノンエイジは <strong>10,001円</strong>（n=290件）、最新の 2026-11-02 は <strong>10,051円</strong>（n=236件）で、この間の変化は <strong>+0.5%</strong> です。</p><p>集計した24週のうち、最も高い週は <strong>10,065円</strong>（2026-06-01）、最も低い週は <strong>9,900円</strong>（2026-06-15）です。</p><p>各週の値は過去180日分の落札結果の集計のため、週ごとの変化は緩やかに表れます。集計期間が24週分のため、数年単位の値動きについては、このデータからは判断できません。</p>` }} />
 
-<strong>年別推移の目安</strong>:</p><ol><li>2020年: コロナ禍で一時減速、年末から回復</li><li>2021年: アジア富裕層の参入加速、年間+30〜50%</li><li>2022年: 価格急騰、年間+50〜80%</li><li>2023年: 上昇ペース緩和、年間+10〜20%</li><li>2024〜2025年: 安定推移、+5〜15%</li><li>2026年: 高値維持、現在は実勢の中央値前後
+          <h2 id="section-2">3. 落札中央値の集計方法</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>集計の手順は、以下のとおりです（<a href="/methodology/">算出方法</a>）。</p><ol><li>銘柄ごとに定めた検索語で、700mlボトルの落札結果を取得します</li><li>第1・第3四分位から四分位範囲の1.5倍を超えて離れた値を、外れ値として除外します</li><li>残った落札価格の中央値と件数を算出します</li><li>件数が20件未満の場合は、データ不足として中央値を掲載しません</li></ol>` }} />
 
-この5年間の累計では<strong>約3〜5倍</strong>の上昇となっています。</li></ol>` }} />
+          <h2 id="section-3">4. 海外オークションの扱い</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>海外オークションの落札結果は、相場の集計には使用していません。一部の記事で、落札額と出典を確認できた個別の結果のみ、出典URLとともに掲載しています。</p><p>海外オークションの結果をお調べになる場合は、各オークション会社の公式サイトをご確認ください。</p>` }} />
 
-          <h2 id="section-2">3. 主要オークションプラットフォーム</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>白州ノンエイジと同じ価格帯の銘柄が取引される主なオークションは、以下のとおりです。</p><ol><li><strong>Sotheby's（ニューヨーク・香港・ロンドン）</strong> — 月次〜四半期ごとに開催され、高額銘柄が中心です。</li><li><strong>Bonhams（香港・ロンドン）</strong> — 高額銘柄が中心です。</li><li><strong>Whisky Auctioneer（UK）</strong> — 月次のオンラインオークションで、中価格帯の銘柄まで幅広く扱っています。</li><li><strong>Just Whisky Auctions（UK）</strong> — 月次で開催されています。</li><li><strong>Whisky Hammer（UK）</strong> — 月次のオンラインオークションです。</li><li><strong>Acker Wines（香港・ニューヨーク）</strong> — 高額ボトルが中心です。</li></ol>` }} />
-
-          <h2 id="section-3">4. 価格を動かす5つの要因</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>1. 海外オークションの落札データ</strong> — 影響が最も大きく、月次の落札結果が業者の仕入れ価格の基準の一つとなります<br/><strong>2. 為替の動向</strong> — 円安の局面では海外の購入者に有利となり、国内価格が上昇する傾向があります<br/><strong>3. 終売・限定リリースの報道</strong> — 供給制限により価格が上昇する場合があります<br/><strong>4. アジアの富裕層の需要</strong> — 中華圏の経済動向と連動する傾向があります<br/><strong>5. 季節要因（年末年始・お中元）</strong> — 贈答需要により価格が上昇する傾向があります</p>` }} />
-
-          <h2 id="section-4">5. 地域別の価格特性</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>地域別の価格水準</strong></p><ol><li><strong>香港・シンガポール</strong> — 富裕層が多く、価格水準が高い地域です</li><li><strong>ニューヨーク</strong> — 高額銘柄の取引が中心です</li><li><strong>ロンドン</strong> — ウイスキー取引の中心地の一つです</li><li><strong>東京</strong> — 国内取引の中心です</li><li><strong>上海・北京</strong> — 需要が拡大している地域です
-
-同じ白州ノンエイジでも、地域によって5〜15%の価格差が生じます。海外オークションのほうが高値となる場合があり、輸送・関税を考慮しても国内での売却より有利な例もあります。</li></ol>` }} />
-
-          <h2 id="section-5">6. 今後の見通し（中長期）</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>白州ノンエイジの中長期の価格を支える要因として、以下の3点が挙げられます。</p><ol><li>世界的需要の継続（コレクター層拡大）</li><li>供給制限（長期熟成銘柄の物理的限界）</li><li>新興市場の参入（インド、中東、東南アジア）
-
-ただし、短期的には需給により価格が上下します。為替・地政学リスク・経済情勢などにより、一時的に価格が下落する可能性もあります。</li></ol>` }} />
-
-          <h2 id="section-6">7. オークションデータの確認方法</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>個人でも確認できる情報源</strong></p><ol><li><strong>Whisky Auctioneer の Past Results 検索</strong> — 過去の落札データを無料で閲覧できます</li><li><strong>Sotheby's の Whisky Department アーカイブ</strong> — 各オークションの結果を公開しています</li><li><strong>Bonhams の Past Auctions</strong> — 落札価格を確認できます</li><li><strong>Whisky Stats（whiskystats.net）</strong> — 月額有料のサービスで、詳細なデータを提供しています</li><li><strong>PeatBid 銘柄ページ</strong> — 主要50銘柄の相場を毎週更新しています
-
-これらのデータを参考にすることで、お持ちのボトルの市場価値を客観的に把握できます。</li></ol>` }} />
-
-          <h2 id="section-7">8. 国内と海外での売却の比較</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>国内売却のメリット</strong>:</p><ol><li>手続きが簡便（業者と直接やり取り）</li><li>即日現金化可能</li><li>国際輸送・関税不要</li><li>トラブル時の対応が容易
-
-<strong>海外オークション売却のメリット</strong>:</li><li>高値が期待できる（特に希少銘柄）</li><li>富裕層バイヤーへのアクセス</li><li>透明性の高い価格決定
-
-<strong>海外売却のデメリット</strong>:</li><li>国際輸送費（数万円〜）</li><li>関税・代理人手数料</li><li>為替リスク</li><li>手続きの複雑性
-
-一般的には、特に希少な銘柄は海外オークション、それ以外は国内の買取業者の利用が現実的です。</li></ol>` }} />
+          <h2 id="section-4">5. 国内と海外での売却の違い</h2>
+          <div dangerouslySetInnerHTML={{ __html: `<p>国内の買取業者に売却する場合は、業者と直接やり取りでき、国際輸送や関税の手続きは不要です。</p><p>海外オークションに出品する場合は、国際輸送費・関税・手数料が発生し、為替の影響も受けます。手数料や出品の条件は、各オークション会社の公式サイトでご確認ください。</p>` }} />
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-6 my-8 not-prose">
             <h3 className="font-bold text-base mb-3 text-center">白州ノンエイジの無料一括査定のご案内</h3>
@@ -130,7 +129,7 @@ export default function HakushuNvAuctionSuiiPage() {
           <h2>白州ノンエイジに関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '白州ノンエイジを売る前に何を準備すればよいですか？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' }, { q: '複数の業者の比較は必要ですか？', a: 'はい、おすすめします。同じ白州ノンエイジでも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' }, { q: '買取後のキャンセルはできますか？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: '白州ノンエイジの売却益に税金はかかりますか？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '白州ノンエイジを売る時期はいつがよいですか？', a: "需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。海外オークション（Sotheby's等）の落札結果が反映された直後も、価格が上昇しやすい時期です。" }].map((faq) => (
+            {[{ q: '白州ノンエイジを売る前に何を準備すればよいですか？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' }, { q: '複数の業者の比較は必要ですか？', a: 'はい、おすすめします。同じ白州ノンエイジでも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' }, { q: '買取後のキャンセルはできますか？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: '白州ノンエイジの売却益に税金はかかりますか？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: '白州ノンエイジを売る時期はいつがよいですか？', a: '需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>

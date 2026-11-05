@@ -73,7 +73,7 @@ export default function Page() {
                 <tr><th className="text-left bg-cream/30 px-3 py-2">国内発売年</th><td className="px-3 py-2">1993年（1st Edition 29年）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">後継品</th><td className="px-3 py-2">なし（Black Bowmore コレクションは計5回のリリース。後年に Black Bowmore DB5 1964 を発売）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">テイスティング特徴</th><td className="px-3 py-2">1964年蒸留の希少な原酒、オロロソ・シェリー樽長期熟成。極めて濃密なドライフルーツ、ダークチョコレート、トロピカルフルーツ、極長い余韻</td></tr>
-                <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">Bowmore最高峰、1993〜2016年の5回限定リリース。Sotheby's/Bonhams出品実績多数、投資対象として極上位</td></tr>
+                <tr><th className="text-left bg-cream/30 px-3 py-2">コレクション価値</th><td className="px-3 py-2">1993〜2016年の5回限定リリースです</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">海外オークション直近</th><td className="px-3 py-2">情報なし（個別ロット差大、出品時概ね£15,000〜£40,000帯、50年Last Caskは£60,000超実績）</td></tr>
                 <tr><th className="text-left bg-cream/30 px-3 py-2">公式情報</th><td className="px-3 py-2"><a href="https://www.bowmore.com/whiskies/black-bowmore-50-year-old" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">https://www.bowmore.com/whiskies/black-bowmore-50-year-old</a></td></tr>
               </tbody>
@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>バイセル 和歌山ミオ店</strong></td><td>和歌山市美園町5-61 和歌山ミオ 本館3F（JR和歌山駅直結）。出張は和歌山県全域</td><td>店頭・出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん</strong></td><td>和歌山県内に店舗・事業所なし</td><td>出張・宅配</td><td>株式会社REGATEが運営する買取専門店。店舗一覧（11店）・会社概要の事業所（14拠点）に和歌山県はありません。お酒の買取ページに出張・宅配・店舗の3方式を記載。出張の対応エリアの記載なし（2026年11月1日確認）</td></tr></tbody>
+              <tbody><tr><td><strong>バイセル 和歌山ミオ店</strong></td><td>和歌山市美園町5-61 和歌山ミオ 本館3F（JR和歌山駅直結）。出張は和歌山県全域</td><td>店頭・出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん</strong></td><td>和歌山県内に店舗・事業所なし</td><td>出張・宅配</td><td>株式会社REGATEが運営する買取専門店。店舗一覧（11店）・会社概要の事業所（14拠点）に和歌山県はありません。お酒の買取ページに出張・宅配・店舗の3方式を記載。出張の対応エリアは公式のエリアページに「和歌山県全域がお酒買取対象エリアです」と記載（2026年11月5日確認）</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>
@@ -125,7 +125,7 @@ export default function Page() {
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店です</li>
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> — 東証グロース上場企業が運営し、出張・店頭・宅配の3つの方式に対応しています。出張は離島を除き和歌山県全域に対応しています</li>
-            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 株式会社REGATEが運営する買取専門店で、お酒の査定にも対応しています。出張・宅配・店舗の3つの方式があります（出張の対応エリアは公式サイトに記載がないため、申込時にご確認ください）</li>
+            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 株式会社REGATEが運営する買取専門店で、お酒の査定にも対応しています。出張・宅配・店舗の3つの方式があります（公式のエリアページに「和歌山県全域がお酒買取対象エリアです」と記載されています）</li>
             
           </ul>
 
@@ -145,7 +145,7 @@ export default function Page() {
           <ul>
             <li><strong>国内市場（Yahoo Auctions 過去180日中央値）</strong>: 現在集計中（過去180日の落札データが20件に満たないため、市場相場の中央値は掲載していません（取得日 2026-11-02、サンプル数 n=86））</li>
             <li><strong>海外オークション直近</strong>: 情報なし（個別ロット差大、出品時概ね£15,000〜£40,000帯、50年Last Caskは£60,000超実績）</li>
-            <li><strong>コレクション価値</strong>: Bowmore最高峰、1993〜2016年の5回限定リリース。Sotheby's/Bonhams出品実績多数、投資対象として極上位</li>
+            <li><strong>コレクション価値</strong>: 1993〜2016年の5回限定リリースです</li>
             <li><strong>流通ステータス</strong>: 限定品（5回リリース、全完売）（1993年（1st Edition 29年）発売）</li>
           </ul>
           <p>海外オークションで高値が付いた直後は、国内の業者の買取査定額も上昇する傾向があります。一方、下落の局面では業者の買取意欲も低下するため、上昇傾向の時期に複数の業者で相見積もりを取ることをおすすめします。</p>
