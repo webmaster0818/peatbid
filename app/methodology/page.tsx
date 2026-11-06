@@ -20,7 +20,7 @@ export default function MethodologyPage() {
       </nav>
 
       <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">PeatBid 編集ポリシー</h1>
-      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年11月4日 / 編集: PeatBid編集部</p>
+      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年11月6日 / 編集: PeatBid編集部</p>
 
       <section className="prose">
         <p>
@@ -105,18 +105,16 @@ export default function MethodologyPage() {
 
         <h2>6. 誤情報の訂正方針</h2>
         <p>
-          記事内に誤りや古い情報が含まれていることが判明した場合、24時間以内に訂正することを目標としています。
-          訂正履歴は、対象記事のフッターに「訂正履歴」として記載します。
+          記事内に誤りや古い情報が含まれていることが判明した場合、公式の情報などで確認のうえ訂正します。
         </p>
         <p>
           読者から誤り報告を受けた場合の対応フロー:
         </p>
         <ol>
-          <li><strong>受領</strong> — お問い合わせフォームより受領、編集部内に共有</li>
-          <li><strong>検証</strong> — 1営業日以内に事実関係を独立検証</li>
-          <li><strong>訂正</strong> — 検証結果が誤りを認定した場合、24時間以内に記事を訂正</li>
-          <li><strong>記録</strong> — 訂正履歴を記事フッターに追記</li>
-          <li><strong>返答</strong> — 報告者に対応結果を返信</li>
+          <li><strong>受領</strong> — お問い合わせフォームから受け付けます</li>
+          <li><strong>確認</strong> — 公式の情報や出典で事実関係を確認します</li>
+          <li><strong>訂正</strong> — 誤りと確認できた箇所を訂正します</li>
+          <li><strong>返答</strong> — 内容に応じて、ご連絡先へ返信します</li>
         </ol>
 
         <h2>7. 著作権・引用ポリシー</h2>

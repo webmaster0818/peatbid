@@ -114,7 +114,7 @@ const navLinks = [
 // Hub / discovery links — surfaced site-wide so every page links into the
 // main hubs (improves crawl depth & internal-link distribution).
 const hubLinks = [
-  { href: "/articles/", label: "銘柄一覧（全50銘柄）", short: "銘柄一覧" },
+  { href: "/articles/", label: "銘柄一覧（全51銘柄）", short: "銘柄一覧" },
   { href: "/tier2/", label: "地域別の買取相場（47都道府県）", short: "地域別買取" },
   { href: "/souba-ranking/", label: "相場ランキング", short: "相場ランキング" },
   { href: "/souba-index/", label: "買取相場指数", short: "相場指数" },

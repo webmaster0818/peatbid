@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const stats = [
-  { value: "50", label: "掲載銘柄数", desc: "ジャパニーズ32銘柄・スコッチ18銘柄" },
+  { value: "51", label: "掲載銘柄数", desc: "ジャパニーズ32銘柄・スコッチ19銘柄" },
   { value: "545", label: "公開記事数", desc: "銘柄ガイド+切り口別+解説記事（都道府県別ページを除く）" },
   { value: "3,006", label: "サイト内URL", desc: "sitemap.xml登録URL（都道府県別ページ2,445を含む）" },
   { value: "2種", label: "価格データの情報源", desc: "ヤフオクの落札結果・買取店の掲示価格" },
@@ -17,17 +17,17 @@ const stats = [
 
 const coverage = [
   { region: "ジャパニーズウイスキー", count: 32, brands: "山崎、響、白州、竹鶴、余市、宮城峡、イチローズモルト、軽井沢、羽生、秩父、マルス" },
-  { region: "スコッチウイスキー", count: 18, brands: "マッカラン、ボウモア、スプリングバンク、ラフロイグ、アードベッグ、グレンフィディック、グレンファークラス、タリスカー、バルヴェニー、グレンモーレンジ" },
+  { region: "スコッチウイスキー", count: 19, brands: "マッカラン、ボウモア、スプリングバンク、ラフロイグ、アードベッグ、グレンフィディック、グレンファークラス、タリスカー、バルヴェニー、グレンモーレンジ" },
   { region: "切り口別解説", count: 9, brands: "高く売る/偽物見分け/業者ランキング/歴史/希少性/オークション推移/開封済み/箱なし/ラベル汚れ" },
   { region: "解説記事・銘柄別の総合ページ", count: 35, brands: "相場一覧、高く売るコツ、税金、保管方法、銘柄別の総合ページなど" },
 ];
 
 const milestones = [
   { date: "2026-05-12", event: "サイト公開（peatbid.com）" },
-  { date: "2026-05-12", event: "PeatBid Phase 1 PSEO完了（506ページ達成）" },
-  { date: "2026-05-13", event: "Plan A: 全506ページのコンテンツ3〜5倍化完了" },
-  { date: "2026-05-14", event: "Plan B: ビジュアル強化・業者比較表追加" },
-  { date: "2026-05-14", event: "Plan C: E-E-A-T 強化（編集部紹介・編集ポリシー・実績ページ公開）" },
+  { date: "2026-05-12", event: "銘柄別・切り口別の記事を公開（公開記事506本）" },
+  { date: "2026-05-13", event: "銘柄別・切り口別の記事の本文を拡充" },
+  { date: "2026-05-14", event: "記事に画像と業者比較表を追加" },
+  { date: "2026-05-14", event: "編集部紹介・編集ポリシー・サイト実績の各ページを公開" },
 ];
 
 export default function TrackRecordPage() {
@@ -44,7 +44,7 @@ export default function TrackRecordPage() {
       </nav>
 
       <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">PeatBid サイト実績・統計データ</h1>
-      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年11月4日 / 編集: PeatBid編集部</p>
+      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年11月6日 / 編集: PeatBid編集部</p>
 
       <section className="prose">
         <p>
@@ -103,7 +103,7 @@ export default function TrackRecordPage() {
           <li><strong>編集方針の公開</strong> — <Link href="/methodology/" className="text-burgundy underline">編集ポリシーページ</Link>で価格データ収集方法・更新頻度を公開</li>
           <li><strong>アフィリエイト関係の開示</strong> — 全ページに「PR」表記、編集方針ページで業者紹介の仕組みを説明</li>
           <li><strong>記事の最終更新日表示</strong> — 各記事に明記し、情報の鮮度をご確認いただけるようにしています</li>
-          <li><strong>誤情報の訂正</strong> — 報告から24時間以内の訂正を目標とし、訂正履歴を公開</li>
+          <li><strong>誤情報の訂正</strong> — ご連絡いただいた内容を公式の情報などで確認し、誤りであれば訂正します</li>
           <li><strong>法令遵守の宣言</strong> — 古物営業法・景表法・特商法・個人情報保護法等の遵守を編集方針で明示</li>
         </ul>
 
@@ -127,8 +127,8 @@ export default function TrackRecordPage() {
         <h2>お問い合わせ・データ訂正</h2>
         <p>
           サイト掲載情報の誤り・改善提案・パートナー業者からの掲載相談など、
-          編集部へのお問い合わせは <Link href="/about/" className="text-burgundy underline">運営者情報ページ</Link> からご連絡ください。
-          24時間以内に編集部内で共有し、検証・対応します。
+          編集部へのお問い合わせは <Link href="/contact/" className="text-burgundy underline">お問い合わせフォーム</Link> からご連絡ください。
+          内容を確認のうえ対応します。
         </p>
 
         <h2>関連情報</h2>

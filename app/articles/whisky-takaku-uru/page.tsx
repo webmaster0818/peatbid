@@ -15,7 +15,7 @@ function FaqSchema() {
     mainEntity: [
       { "@type": "Question", name: "ウイスキーを高く売るために最も重要なことは何ですか？", acceptedAnswer: { "@type": "Answer", text: "最も重要なのは、複数の業者で相見積もりを取ることです。同じボトルでも業者により査定額に大きな差が出るため、市場相場を把握したうえで、最も高い査定額を提示した業者に売却することをおすすめします。" } },
       { "@type": "Question", name: "売り時はいつがベストですか？", acceptedAnswer: { "@type": "Answer", text: "業界的には需給が逼迫する年末年始・お中元時期が高値傾向。ただし価格は日々変動するため「自分が納得できる価格になったら売る」のが実践的です。" } },
-      { "@type": "Question", name: "市場相場はどこで確認できますか？", acceptedAnswer: { "@type": "Answer", text: "本サイトでは Yahoo Auctions 過去180日の落札中央値（IQR外れ値除去後）を主要50銘柄について公開しています。各銘柄ページでサンプル数と取得日も合わせて確認できます。" } },
+      { "@type": "Question", name: "市場相場はどこで確認できますか？", acceptedAnswer: { "@type": "Answer", text: "本サイトでは Yahoo Auctions 過去180日の落札中央値（IQR外れ値除去後）を、掲載51銘柄のうち落札データが十分な銘柄について公開しています。各銘柄ページでサンプル数と取得日も合わせて確認できます。" } },
     ],
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />;

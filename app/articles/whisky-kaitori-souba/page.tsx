@@ -4,9 +4,9 @@ import Image from "next/image";
 import brandsData from "@/data/brands.json";
 
 export const metadata: Metadata = {
-  title: "【2026年最新】ウイスキー市場相場一覧 — 主要50銘柄のYahoo中央値",
+  title: "【2026年最新】ウイスキー市場相場一覧 — 主要51銘柄のYahoo中央値",
   description:
-    "ジャパニーズ・スコッチ主要50銘柄のウイスキー市場相場をYahoo Auctions過去180日落札中央値で公開。山崎・響・白州・マッカランなど人気銘柄を一覧で確認。",
+    "ジャパニーズ・スコッチ主要51銘柄のウイスキー市場相場をYahoo Auctions過去180日落札中央値で公開。山崎・響・白州・マッカランなど人気銘柄を一覧で確認。",
 };
 
 type Brand = {
@@ -50,7 +50,7 @@ function FaqSchema() {
 export default function WhiskyKaitoriSoubaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u30102026\u5e74\u6700\u65b0\u3011\u30a6\u30a4\u30b9\u30ad\u30fc\u5e02\u5834\u76f8\u5834\u4e00\u89a7\", \"description\": \"\u30b8\u30e3\u30d1\u30cb\u30fc\u30ba\u30fb\u30b9\u30b3\u30c3\u30c1\u4e3b\u898150\u9298\u67c4\u306e\u30a6\u30a4\u30b9\u30ad\u30fc\u5e02\u5834\u76f8\u5834\u3092Yahoo Auctions\u904e\u53bb180\u65e5\u843d\u672d\u4e2d\u592e\u5024\u3067\u516c\u958b\u3002\u5c71\u5d0e\u30fb\u97ff\u30fb\u767d\u5dde\u30fb\u30de\u30c3\u30ab\u30e9\u30f3\u306a\u3069\u4eba\u6c17\u9298\u67c4\u3092\u4e00\u89a7\u3067\u78ba\u8a8d\u3002\", \"url\": \"https://peatbid.com/articles/whisky-kaitori-souba/\", \"datePublished\": \"2026-05-14T00:00:00+09:00\", \"dateModified\": \"2026-05-18T00:00:00+09:00\", \"author\": {\"@type\": \"Organization\", \"name\": \"PeatBid\u7de8\u96c6\u90e8\", \"url\": \"https://peatbid.com/editorial/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"PeatBid\", \"url\": \"https://peatbid.com\"}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://peatbid.com/articles/whisky-kaitori-souba/\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u30102026\u5e74\u6700\u65b0\u3011\u30a6\u30a4\u30b9\u30ad\u30fc\u5e02\u5834\u76f8\u5834\u4e00\u89a7\", \"description\": \"\u30b8\u30e3\u30d1\u30cb\u30fc\u30ba\u30fb\u30b9\u30b3\u30c3\u30c1\u4e3b\u898151\u9298\u67c4\u306e\u30a6\u30a4\u30b9\u30ad\u30fc\u5e02\u5834\u76f8\u5834\u3092Yahoo Auctions\u904e\u53bb180\u65e5\u843d\u672d\u4e2d\u592e\u5024\u3067\u516c\u958b\u3002\u5c71\u5d0e\u30fb\u97ff\u30fb\u767d\u5dde\u30fb\u30de\u30c3\u30ab\u30e9\u30f3\u306a\u3069\u4eba\u6c17\u9298\u67c4\u3092\u4e00\u89a7\u3067\u78ba\u8a8d\u3002\", \"url\": \"https://peatbid.com/articles/whisky-kaitori-souba/\", \"datePublished\": \"2026-05-14T00:00:00+09:00\", \"dateModified\": \"2026-05-18T00:00:00+09:00\", \"author\": {\"@type\": \"Organization\", \"name\": \"PeatBid\u7de8\u96c6\u90e8\", \"url\": \"https://peatbid.com/editorial/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"PeatBid\", \"url\": \"https://peatbid.com\"}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://peatbid.com/articles/whisky-kaitori-souba/\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"\u30db\u30fc\u30e0\", \"item\": \"https://peatbid.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"\u30a6\u30a4\u30b9\u30ad\u30fc\u5e02\u5834\u76f8\u5834\u4e00\u89a7\"}]}" }} />
       <FaqSchema />
       <div className="max-w-3xl mx-auto px-4 py-10 md:py-16">
@@ -71,7 +71,7 @@ export default function WhiskyKaitoriSoubaPage() {
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">【2026年最新】ウイスキー市場相場一覧</h1>
           <p className="text-warm-gray text-sm mb-8">最終更新: {latestFetch}（週次自動取得）</p>
 
-          <p>PeatBid編集部が、ジャパニーズ・スコッチを中心に主要50銘柄の<strong>市場相場（Yahoo Auctions 過去180日落札中央値、IQR外れ値除去後）</strong>を一覧で公開します。業者の買取査定額はこの市場相場をベースに各社が在庫・状態・キャンペーンで算出するため、最新の業者査定額は <a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> / <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> / <a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> /  など各業者ページで直接ご確認ください。</p>
+          <p>PeatBid編集部が、ジャパニーズ・スコッチを中心に主要51銘柄の<strong>市場相場（Yahoo Auctions 過去180日落札中央値、IQR外れ値除去後）</strong>を一覧で公開します（落札データが20件に満たない銘柄は「集計中」と表示します）。業者の買取査定額はこの市場相場をベースに各社が在庫・状態・キャンペーンで算出するため、最新の業者査定額は <a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> / <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> / <a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> /  など各業者ページで直接ご確認ください。</p>
 
           <h2>ジャパニーズウイスキー 市場相場（{japanese.length}銘柄）</h2>
 

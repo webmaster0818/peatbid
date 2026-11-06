@@ -27,7 +27,7 @@ def region_blocks() -> str:
         cards = "\n".join(
             f'''          <Link href="/tier2/{slug}/" className="block bg-white border border-warm-border rounded-lg px-4 py-3 hover:shadow-md hover:border-amber/50 transition-all">
             <p className="font-bold text-sm text-foreground">{p["name_ja"]}</p>
-            <p className="text-xs text-warm-gray mt-0.5">{p["cities"].split("・")[0]}ほか・50銘柄</p>
+            <p className="text-xs text-warm-gray mt-0.5">{p["cities"].split("・")[0]}ほか・51銘柄</p>
           </Link>'''
             for slug, p in prefs
         )
@@ -51,7 +51,7 @@ const URL = "https://peatbid.com/tier2/";
 
 export const metadata: Metadata = {{
   title: "地域別ウイスキー買取相場｜47都道府県から探す",
-  description: "お住まいの都道府県からウイスキーの買取相場と地元対応業者を探せます。山崎・響・白州・マッカランなど50銘柄 × 47都道府県の市場相場（Yahoo中央値）と、出張・店頭・宅配対応の業者情報を掲載。",
+  description: "お住まいの都道府県からウイスキーの買取相場と地元対応業者を探せます。山崎・響・白州・マッカランなど51銘柄 × 47都道府県の市場相場（Yahoo中央値）と、出張・店頭・宅配対応の業者情報を掲載。",
   alternates: {{ canonical: URL }},
   robots: {{ index: true, follow: true }},
 }};
@@ -72,12 +72,12 @@ export default function Page() {{
 
       <section className="prose mb-8">
         <p>
-          お住まいの都道府県を選ぶと、その地域での <strong>ウイスキー50銘柄の市場相場（Yahoo Auctions 過去180日落札中央値）</strong> と、
+          お住まいの都道府県を選ぶと、その地域での <strong>ウイスキー51銘柄の市場相場（Yahoo Auctions 過去180日落札中央値。データが十分な銘柄のみ）</strong> と、
           出張・店頭・宅配に対応する地元業者を確認できます。市場相場は全国共通ですが、業者の買取査定額は地域・業者により差が出るため、
-          複数業者の相見積もりが高値売却の近道です。
+          複数の業者で相見積もりを取ることをおすすめします。
         </p>
         <p className="text-sm">
-          銘柄から探したい方は <Link href="/articles/" className="text-amber-dark underline hover:text-burgundy">銘柄一覧（全50銘柄）</Link>、
+          銘柄から探したい方は <Link href="/articles/" className="text-amber-dark underline hover:text-burgundy">銘柄一覧（全51銘柄）</Link>、
           今週の値動きは <Link href="/souba-ranking/" className="text-amber-dark underline hover:text-burgundy">相場ランキング</Link> をご覧ください。
         </p>
       </section>
@@ -87,7 +87,7 @@ export default function Page() {{
       <div className="bg-cream/40 border border-amber/30 rounded-2xl p-6 my-10">
         <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">関連ページ</h2>
         <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
-          <li><Link href="/articles/" className="text-amber-dark hover:text-burgundy underline">銘柄一覧（全50銘柄の買取相場）</Link></li>
+          <li><Link href="/articles/" className="text-amber-dark hover:text-burgundy underline">銘柄一覧（全51銘柄の買取相場）</Link></li>
           <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー市場相場一覧</Link></li>
           <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
           <li><Link href="/souba-ranking/" className="text-amber-dark hover:text-burgundy underline">相場ランキング（今週の値上がり・値下がり）</Link></li>

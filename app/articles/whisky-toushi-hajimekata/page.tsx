@@ -65,7 +65,7 @@ export default function Page() {
         <div className="not-prose bg-cream border border-amber/30 rounded-xl p-4 my-6">
           <p className="text-sm font-bold text-amber-dark mb-1">まず相場をチェック</p>
           <p className="text-sm text-ink/80">
-            主要50銘柄の<strong>今週の値上がり/値下がり・実勢中央値</strong>は{" "}
+            主要銘柄の<strong>今週の値上がり/値下がり・実勢中央値</strong>は{" "}
             <Link href="/souba-ranking/" className="text-amber-dark underline font-semibold">相場ランキング・ダッシュボード</Link>{" "}
             で毎週更新しています。投資判断の出発点にどうぞ。
           </p>

@@ -77,7 +77,7 @@ const featuredArticles = [
 ];
 
 const stats = [
-  { value: "50", label: "掲載銘柄" },
+  { value: "51", label: "掲載銘柄" },
   { value: "毎週", label: "相場更新" },
   { value: "無料", label: "当サイトの利用" },
   { value: "PR", label: "比較・送客サイト" },
@@ -282,7 +282,7 @@ export default function Home() {
             銘柄から相場を探す
           </h2>
           <p className="text-warm-gray text-sm text-center mb-10">
-            主要50銘柄の個別ページで、状態別の買取相場と査定のポイントをご確認いただけます。
+            主要51銘柄の個別ページで、状態別の買取相場と査定のポイントをご確認いただけます。
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -331,7 +331,7 @@ export default function Home() {
             </div>
 
             <div>
-              <p className="font-display text-lg font-semibold text-amber-dark mb-3 pb-2 border-b border-amber/40">スコッチウイスキー（18銘柄）</p>
+              <p className="font-display text-lg font-semibold text-amber-dark mb-3 pb-2 border-b border-amber/40">スコッチウイスキー（19銘柄）</p>
               <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-sm">
                 {[
                   { name: "マッカラン12年", slug: "macallan-12-kaitori" },
@@ -349,6 +349,7 @@ export default function Home() {
                   { name: "アードベッグ コリーヴレッカン", slug: "ardbeg-corryvreckan-kaitori" },
                   { name: "グレンフィディック30年", slug: "glenfiddich-30-kaitori" },
                   { name: "グレンファークラス25年", slug: "glenfarclas-25-kaitori" },
+                  { name: "グレンファークラス105", slug: "glenfarclas-105-kaitori" },
                   { name: "タリスカー25年", slug: "talisker-25-kaitori" },
                   { name: "バルヴェニー ポート21年", slug: "balvenie-portwood-21-kaitori" },
                   { name: "グレンモーレンジ シグネット", slug: "glenmorangie-signet-kaitori" },
@@ -384,7 +385,7 @@ export default function Home() {
 
           <p className="text-center mt-8 flex flex-col sm:flex-row gap-2 sm:gap-6 justify-center items-center">
             <Link href="/articles/" className="text-amber-dark font-semibold underline underline-offset-4 hover:text-burgundy transition-colors">
-              全50銘柄の相場一覧を見る →
+              全51銘柄の相場一覧を見る →
             </Link>
             <Link href="/tier2/" className="text-amber-dark font-semibold underline underline-offset-4 hover:text-burgundy transition-colors">
               地域別（47都道府県）の買取相場を見る →
@@ -403,7 +404,7 @@ export default function Home() {
             都道府県別の市場相場ガイド
           </h2>
           <p className="text-warm-gray text-sm text-center mb-10">
-            50銘柄の市場相場と地域の買取業者を、47都道府県別にご確認いただけます。
+            51銘柄の市場相場と地域の買取業者を、47都道府県別にご確認いただけます。
           </p>
           <div className="space-y-3">
             {[

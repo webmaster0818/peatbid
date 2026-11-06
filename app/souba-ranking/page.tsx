@@ -21,7 +21,7 @@ const updated = data.updated as string;
 export const metadata: Metadata = {
   title: `ウイスキー買取相場ランキング・ダッシュボード【${updated}更新】値上がり/値下がり銘柄`,
   description:
-    "主要ウイスキー50銘柄の実勢買取相場を毎週更新。今週の値上がり・値下がり銘柄ランキング、高額相場ランキング、流通量ランキングを、Yahoo!オークションの落札データにもとづく当サイト独自集計で公開します。",
+    `主要ウイスキー${brands.length}銘柄の実勢買取相場を毎週更新。今週の値上がり・値下がり銘柄ランキング、高額相場ランキング、流通量ランキングを、Yahoo!オークションの落札データにもとづく当サイト独自集計で公開します。`,
   alternates: { canonical: "/souba-ranking/" },
 };
 

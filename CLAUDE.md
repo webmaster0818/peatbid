@@ -718,3 +718,12 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **未対応（報告のみ）**: §5・箱なし節の「未開封・箱なし＝市場相場の80〜90%（約8,140〜9,160円）」は全銘柄共通テンプレの目安で、4店の掲示「箱ありと同額」と食い違って読める。今日の範囲外なので触っていない。desc から「買取業者3社の比較」は消えたが本文 §10 の3社節は不変。
 - **/tier2/wakayama/**: 福ちゃんの食い違いは今朝の c8968f931 で訂正済み。fuku-chan.info/liquor/area/wakayama/「和歌山県全域がお酒買取対象エリアです」を 11/5 に再確認、本番の「公式に記載なし」0件。追加の変更なし。
 - 実装は data/store-prices.json のみ。brand-v3 再生成で差分は本ページのみ。sitemap は朝に 11-05 済みで差分なし。build（heap8192）EXIT0・precheck ✅（3,006）・ASP 0→0・hikakaku href 613→613・削除は旧 buildId 5件のみ。Indexing は未送信（16時）。
+
+### 2026-11-06 朝ルーチン: /track-record/ の社内用語・掲載銘柄 51 表記・24時間訂正の約束を削除／大分 福ちゃん行
+- **/track-record/「サイトの歩み」**: Plan A/B/C・Phase 1 PSEO・E-E-A-T を読者向けの内容に（事実は 5/12〜14 の git log のとおり）。問い合わせ先の誘導を /about/ → /contact/ に（/about/ にフォーム直リンクなし）。
+- **掲載銘柄 50→51（スコッチ 18→19）**: ナビ（全ページ）・TOP（統計・見出し・リンク一覧にグレンファークラス105を追加）・/track-record/・/tier2/（generate-tier2-index.py も修正。生成器は文1か所が本番と古かったので本番に合わせた）・whisky-kaitori-souba（title は数字のみ・JSON-LD は \u エスケープ）。⚠️中央値が出せるのは39銘柄（souba-ranking は39）→「51銘柄の中央値」と読める箇所に「落札データが十分な銘柄」旨を追記、whisky-toushi は「主要銘柄」、souba-ranking の description は brands.length に。
+- **24時間以内の訂正（/methodology/ §6・/track-record/）を削除**: 確認結果＝①記事に「訂正履歴」が0ページ（ポリシー2ページの文言のみ）②読者の誤り報告を受けて訂正した記録が memory・Discord・git log に無い③フォーム自体が 6/14〜10/5 に送信不能だった。11/5 の macallan 等の訂正でも履歴は書いていない。→ 確認のうえ訂正する、という実施内容に。「独立検証」「1営業日以内」「訂正履歴」も削除。
+- **大分 福ちゃん行**（11/6 curl）: 店舗一覧11店・事業所14拠点に大分なし→佐賀 11/3 と同じ形に（`scripts/patch-tier2-oita-fukuchan-1106.py`・app 51＋prefectures.py）。出張エリアの文言は A/B 待ちなので書かない（公式 fuku-chan.info/liquor/area/oita/ は「大分県全域」）。バイセル行は /area/liquor-oita/「大分県全域の各市町村にて対応可能」と一致＝変更なし。
+- 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4 と同じ）。
+- 未対応（報告のみ）: /content-policy/ §6「重大な誤りは訂正の事実・内容を明示」も履歴の実績なし／/track-record/「パートナー業者」「全ページに PR 表記」は未照合／総合スコア・5項目10点満点は判断待ち。
+- sitemap は track-record・methodology・大分リーフ51だけ lastmod 11-06（数字だけの変更の TOP 等は据え置き）。build（heap8192）EXIT0・precheck ✅（3,006）・ASP 0→0・hikakaku href 607→607。
