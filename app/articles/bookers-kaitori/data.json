@@ -1,0 +1,89 @@
+{
+  "slug": "bookers-kaitori",
+  "yahoo": {
+    "label": "年号つきバッチ（2014〜2026年表記）の750ml・1本出品",
+    "query": "ブッカーズ",
+    "volume_ml": 750,
+    "fetched_at": "2026-11-07",
+    "end_date_from": "2026-08-23",
+    "end_date_to": "2026-11-06",
+    "raw_n": 150,
+    "title_filtered_n": 84,
+    "filtered_n": 76,
+    "median": 14300,
+    "mean": 14176,
+    "min": 11500,
+    "max": 16500,
+    "insufficient": false,
+    "regex": {
+      "require": "ブッカーズ|BOOKER[’']?S|Booker[’']?s|Bookers",
+      "require_batch_year": "(?<![\\d.])20(1[4-9]|2[0-6])(?![\\d.%])",
+      "exclude": "NIKE|ナイキ|ライ\\b|ライウイスキー|Rye|RYE|山崎|梅酒|ワイルドターキー|フォアローゼス|ブラントン|ベイカーズ|BAKER|ノブクリーク",
+      "junk": "fetch-yahoo-medians.py JUNK_RE（空瓶・箱のみ・ミニ・検索・セット・まとめ・2〜9本 等）",
+      "volume": "タイトルに750以外のml表記がある出品は除外"
+    },
+    "method": "IQR（1.5倍）外れ値除去後の中央値。n<20は中央値を出さない",
+    "q1": 13507,
+    "q3": 14800
+  },
+  "old_bottles": {
+    "note": "アルファベット入りの旧バッチ番号（C90-K-28・B95-C-31・C-K-03-82 等）や「Booker Noe's」「特級」表記の旧ボトル。ボトルごとの差が大きいため中央値は出していない",
+    "examples": [
+      {
+        "price": 21550,
+        "title": "ブッカーズ 7年 750ml 62.1% C-K-03-82 木箱",
+        "end": "2026-10-31"
+      },
+      {
+        "price": 26000,
+        "title": "ブッカーズ B95-C-31 750ml 63%",
+        "end": "2026-10-25"
+      },
+      {
+        "price": 34999,
+        "title": "ブッカーズ ノエ 7年10カ月 C90-K-28 750ml 63.15%",
+        "end": "2026-09-30"
+      },
+      {
+        "price": 70999,
+        "title": "ブッカーズ 1986年 オールドボトル 木箱付き 750ml",
+        "end": "2026-09-21"
+      },
+      {
+        "price": 99000,
+        "title": "Booker Noe's ブッカーズ 特級 750ml 63% 箱付",
+        "end": "2026-10-13"
+      },
+      {
+        "price": 103000,
+        "title": "Booker Noe's ブッカーズ ノエ C-E-15-84 750ml 62.6% 箱付",
+        "end": "2026-10-12"
+      }
+    ]
+  },
+  "official": {
+    "checked_at": "2026-11-07",
+    "suntory_product": {
+      "url": "https://products.suntory.co.jp/d/080686011408/",
+      "name": "ブッカーズ2025 750ml瓶",
+      "volume_ml": 750,
+      "abv": "63%",
+      "jan": "080686011408",
+      "price_jpy_ex_tax": 10000,
+      "status": "製造を終了しました",
+      "note": "数量限定"
+    },
+    "bookers_about": "https://www.beamdistilling.com/bookersbourbon/about-bookers",
+    "bookers_top": "https://www.beamdistilling.com/bookersbourbon",
+    "batch_2025_01_us": {
+      "url": "https://www.beamdistilling.com/bookersbourbon/whiskies/2025-01-barrys-batch-bourbon",
+      "age": "7 years, 2 months, 4 days",
+      "proof": 125.7
+    },
+    "batch_2026_02_us": {
+      "url": "https://www.beamdistilling.com/bookersbourbon/whiskies/2026-02-milkshake-batch-bourbon",
+      "age": "7 years, 6 months, 12 days",
+      "proof": 124.4
+    }
+  }
+}

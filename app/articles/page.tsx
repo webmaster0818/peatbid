@@ -82,6 +82,7 @@ export default function ArticlesIndexPage() {
           <Link href="/articles/whisky-kaitori-zeikin/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">買取の税金・確定申告</Link>
           <Link href="/articles/whisky-naze-takai/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">なぜ高い？高騰の理由</Link>
           <Link href="/articles/whisky-hokan-houhou/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">保管方法</Link>
+          <Link href="/articles/whisky-alcohol-dosu/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">アルコール度数</Link>
           <Link href="/articles/whisky-nisemono-miwakekata/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">偽物の見分け方</Link>
           <Link href="/articles/whisky-nv-toha/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">年代指定なし(NV)とは</Link>
           <Link href="/articles/whisky-souzoku-baikyaku/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">相続・遺品のウイスキーを売る</Link>
@@ -109,6 +110,10 @@ export default function ArticlesIndexPage() {
               { name: "タリスカー（年数表記なし）", slug: "talisker-nv-kaitori" },
               { name: "スプリングバンク（年数表記なし）", slug: "springbank-nv-kaitori" },
               { name: "グレンファークラス（年数表記なし）", slug: "glenfarclas-nv-kaitori" },
+              { name: "響 ブロッサムハーモニー", slug: "hibiki-blossom-harmony-kaitori" },
+              { name: "イチローズモルト ワインウッドリザーブ", slug: "ichirosu-wwr-kaitori" },
+              { name: "厚岸", slug: "akkeshi-kaitori" },
+              { name: "ブッカーズ", slug: "bookers-kaitori" },
             ].map((b) => (
               <Link key={b.slug} href={`/articles/${b.slug}/`} className="text-sm bg-white border border-warm-border text-ink rounded-lg px-3 py-2 hover:border-amber/50 hover:text-amber-dark">
                 {b.name}の買取

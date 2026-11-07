@@ -1,0 +1,91 @@
+{
+  "yahoo": {
+    "query_used": "イチローズモルト ワインウッドリザーブ 700ml",
+    "method": "title_filter（scripts/fetch-yahoo-medians.py median_for_query_filtered）",
+    "require_regex": "ワイン\\s*ウッド|WWR|Wine\\s*Wood|WINE\\s*WOOD",
+    "exclude_regex": "ミズナラ|MWR|ダブルディスティラリーズ|ホワイトラベル|カード|秩父|羽生|200\\s*ml|180\\s*ml",
+    "pages_fetched": 3,
+    "raw_n": 150,
+    "title_filtered_n": 131,
+    "filtered_n": 115,
+    "median": 6330,
+    "mean": 6362,
+    "min": 5498,
+    "max": 7370,
+    "insufficient": false,
+    "fetched_at": "2026-11-07",
+    "titles_checked": "_kept 131件を目視。全件が 700ml 1本の本体（未開栓・箱付/箱なし）。セット・2〜4本・ミズナラとの組み合わせは除外側に入っていることを確認"
+  },
+  "stores_checked_at": "2026-11-07",
+  "stores": [
+    {
+      "name": "大黒屋",
+      "item": "イチローズモルト ワインウッドリザーブ 700ml",
+      "price": "4,000円",
+      "low": 4000,
+      "high": 4000,
+      "updated": "2026-11-06",
+      "url": "https://kaitori.e-daikoku.com/liquor/whisky/ichiros-malt/",
+      "mwr_price_same_day": "5,000円"
+    },
+    {
+      "name": "リカスタ",
+      "item": "イチローズモルト ワイン ウッド リザーブ WWR 箱付き",
+      "price": "4,500円",
+      "low": 4500,
+      "high": 4500,
+      "updated": "日付表記なし",
+      "url": "https://www.licasta.com/item/whisky/ichirosmalt-wine",
+      "mwr_price_same_day": "5,000円"
+    },
+    {
+      "name": "LINXAS（リンクサス）",
+      "item": "イチローズモルトワインウッド（完備）",
+      "price": "5,000円",
+      "low": 5000,
+      "high": 5000,
+      "updated": "2026-11-02",
+      "url": "https://linxas.shop/whiskey/ichi-rose-malt/",
+      "mwr_price_same_day": "6,500円"
+    },
+    {
+      "name": "キングラムリカー",
+      "item": "イチローズモルト ワインウッドリザーブ 箱有（箱無は −2,000円）",
+      "price": "5,000円",
+      "low": 5000,
+      "high": 5000,
+      "updated": "2026-11-06",
+      "url": "https://kingram-liquor.jp/price-list/",
+      "mwr_price_same_day": "6,500円"
+    },
+    {
+      "name": "ストックラボ",
+      "item": "イチローズモルト ワインウッドリザーブ",
+      "price": "5,000〜6,000円",
+      "low": 5000,
+      "high": 6000,
+      "updated": "2026-11-06",
+      "url": "https://www.stock-lab.com/osake-kaitori/whiskey/ichirosmalt/ichirosmalt-woodreserve/",
+      "mwr_price_same_day": "5,000〜6,000円"
+    },
+    {
+      "name": "買取大吉",
+      "item": "Ichiro's Malt イチローズモルト ワインウッドリザーブ ウィスキー 700ml 46％",
+      "price": "6,000円",
+      "low": 6000,
+      "high": 6000,
+      "updated": "日付表記なし",
+      "url": "https://www.kaitori-daikichi.jp/list/sake/whisky/ichiros-malt/",
+      "mwr_price_same_day": "6,000円"
+    }
+  ],
+  "stocklab_monthly": {
+    "range": "2023年11月〜2026年10月",
+    "high": "8,000円（2024年1月）",
+    "low": "4,000円（2024年2月）",
+    "latest": "4,500円（2026年10月）",
+    "page_updated": "2026/11/07 11:14",
+    "note": "ストックラボの自社買取実績の月別中央値（同社ページの記載）"
+  },
+  "stores_mwr_note": "同じ店のミズナラウッドリザーブ（MWR）の掲示価格。2026-11-07 確認（ストックラボは MWR 個別ページ・最終更新 2026-11-06）"
+}

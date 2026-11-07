@@ -130,6 +130,7 @@ export default function HibikiKaitoriPage() {
             <li><strong>買い手層</strong>: ウイスキー入門者から日常飲用層まで幅広い</li>
             <li><strong>査定のポイント</strong>: 付属の化粧箱の有無、未開封・液面、ラベルの汚れ。比較的相場通りの査定が出やすい銘柄</li>
             <li><Link href="/articles/hibiki-nv-kaitori/">響ジャパニーズハーモニー 詳細ガイド →</Link></li>
+            <li><Link href="/articles/hibiki-blossom-harmony-kaitori/">響 ブロッサムハーモニー（2021〜2026年版）の買取相場 →</Link></li>
           </ul>
 
           <h3>響17年</h3>

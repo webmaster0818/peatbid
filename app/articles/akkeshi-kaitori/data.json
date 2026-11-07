@@ -1,0 +1,81 @@
+{
+  "source": "ヤフオク 落札相場検索（過去180日）",
+  "method": "出品タイトルで対象ボトル（700ml・単品）に絞り込み→IQR 1.5倍で外れ値除去→中央値。n<20 は中央値を掲載しない",
+  "bottles": {
+    "kanro": {
+      "name": "厚岸シングルモルトウイスキー 寒露",
+      "sekki": "寒露",
+      "median": 50025,
+      "filtered_n": 22,
+      "title_filtered_n": 23,
+      "raw_n": 25,
+      "insufficient": false,
+      "fetched_at": "2026-11-07",
+      "query": "厚岸 寒露 700ml",
+      "regex": {
+        "require": "厚岸.*寒露|寒露.*厚岸",
+        "exclude": "立春|雨水|啓蟄|春分|清明|穀雨|立夏|小満|芒種|夏至|小暑|大暑|立秋|処暑|白露|秋分|霜降|立冬|小雪|大雪|冬至|小寒|大寒|サロルンカムイ|SARORUNKAMUY|FOUNDATIONS|ファウンデーション|NEW\\s*BORN|ニューボーン|カムイ|北斎|HOKUSAI|200\\s*ml|空|箱だけ"
+      }
+    },
+    "usui": {
+      "name": "厚岸ブレンデッドウイスキー 雨水",
+      "sekki": "雨水",
+      "median": 18000,
+      "filtered_n": 20,
+      "title_filtered_n": 21,
+      "raw_n": 21,
+      "insufficient": false,
+      "fetched_at": "2026-11-07",
+      "query": "厚岸 雨水 700ml",
+      "regex": {
+        "require": "厚岸.*雨水|雨水.*厚岸",
+        "exclude": "立春|啓蟄|春分|清明|穀雨|立夏|小満|芒種|夏至|小暑|大暑|立秋|処暑|白露|秋分|寒露|霜降|立冬|小雪|大雪|冬至|小寒|大寒|サロルンカムイ|SARORUNKAMUY|FOUNDATIONS|ファウンデーション|NEW\\s*BORN|ニューボーン|カムイ|北斎|HOKUSAI|200\\s*ml|空|箱だけ"
+      }
+    },
+    "boshu": {
+      "name": "厚岸シングルモルトジャパニーズウイスキー 芒種",
+      "sekki": "芒種",
+      "median": null,
+      "filtered_n": 15,
+      "title_filtered_n": 15,
+      "raw_n": 16,
+      "insufficient": true,
+      "fetched_at": "2026-11-07",
+      "query": "厚岸 芒種 700ml",
+      "regex": {
+        "require": "厚岸.*芒種|芒種.*厚岸",
+        "exclude": "立春|雨水|啓蟄|春分|清明|穀雨|立夏|小満|夏至|小暑|大暑|立秋|処暑|白露|秋分|寒露|霜降|立冬|小雪|大雪|冬至|小寒|大寒|サロルンカムイ|SARORUNKAMUY|FOUNDATIONS|ファウンデーション|NEW\\s*BORN|ニューボーン|カムイ|北斎|HOKUSAI|200\\s*ml|空|箱だけ"
+      }
+    },
+    "ritto": {
+      "name": "厚岸シングルモルトジャパニーズウイスキー 立冬",
+      "sekki": "立冬",
+      "median": null,
+      "filtered_n": 16,
+      "title_filtered_n": 17,
+      "raw_n": 18,
+      "insufficient": true,
+      "fetched_at": "2026-11-07",
+      "query": "厚岸 立冬 700ml",
+      "regex": {
+        "require": "厚岸.*立冬|立冬.*厚岸",
+        "exclude": "立春|雨水|啓蟄|春分|清明|穀雨|立夏|小満|芒種|夏至|小暑|大暑|立秋|処暑|白露|秋分|寒露|霜降|小雪|大雪|冬至|小寒|大寒|サロルンカムイ|SARORUNKAMUY|FOUNDATIONS|ファウンデーション|NEW\\s*BORN|ニューボーン|カムイ|北斎|HOKUSAI|200\\s*ml|空|箱だけ"
+      }
+    },
+    "daikan": {
+      "name": "厚岸ブレンデッドウイスキー 大寒",
+      "sekki": "大寒",
+      "median": 18500,
+      "filtered_n": 27,
+      "title_filtered_n": 27,
+      "raw_n": 28,
+      "insufficient": false,
+      "fetched_at": "2026-11-07",
+      "query": "厚岸 大寒 700ml",
+      "regex": {
+        "require": "厚岸.*大寒|大寒.*厚岸",
+        "exclude": "立春|雨水|啓蟄|春分|清明|穀雨|立夏|小満|芒種|夏至|小暑|大暑|立秋|処暑|白露|秋分|寒露|霜降|立冬|小雪|大雪|冬至|小寒|サロルンカムイ|SARORUNKAMUY|FOUNDATIONS|ファウンデーション|NEW\\s*BORN|ニューボーン|カムイ|北斎|HOKUSAI|200\\s*ml|空|箱だけ"
+      }
+    }
+  }
+}

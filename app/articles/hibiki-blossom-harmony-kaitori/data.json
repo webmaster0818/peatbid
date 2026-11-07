@@ -1,0 +1,107 @@
+{
+  "_note": "響 BLOSSOM HARMONY 年版別のヤフオク実落札中央値。scripts/fetch-yahoo-medians.py の median_for_query_filtered で取得（closedsearch・最大3ページ）。require/exclude と共通JUNK_RE・700ml以外除外でタイトル絞り込み→IQR外れ値除去→中央値。取得後に残したタイトルを目視確認し、別商品との同梱出品（ブレンダーズチョイス同梱・他銘柄名の列挙）を removed_after_review として除外して再計算。filtered_n<20 の年版は数値を出さない。",
+  "fetched_at": "2026-11-07",
+  "editions": {
+    "2021": {
+      "edition": "響 BLOSSOM HARMONY 2021",
+      "median": 25999,
+      "filtered_n": 67,
+      "title_filtered_n": 71,
+      "raw_n": 89,
+      "min": 23300,
+      "max": 28600,
+      "insufficient": false,
+      "fetched_at": "2026-11-07",
+      "query": "響 ブロッサムハーモニー 2021 700ml",
+      "regex_require": "(?i)(ブロッサム|blossom)(?=.*2021)|2021(?=.*(ブロッサム|blossom))",
+      "regex_exclude": "(?i)2019|2020|2022|2023|2024|2025|2026|2027|グラス|カートン|化粧箱のみ|ケースのみ|紙袋のみ|ショッパー|ポスター|50\\s*ml|180\\s*ml|350\\s*ml|ブレンダーズ|BLENDER|山崎|白州|知多|JAPANESE\\s*HARMONY",
+      "common_exclude": "fetch-yahoo-medians.py JUNK_RE（空瓶・箱のみ・ミニ・セット・まとめ・2〜9本・×数字）＋700ml以外",
+      "removed_after_review": []
+    },
+    "2022": {
+      "edition": "響 BLOSSOM HARMONY 2022",
+      "median": 19250,
+      "filtered_n": 81,
+      "title_filtered_n": 82,
+      "raw_n": 91,
+      "min": 16500,
+      "max": 22000,
+      "insufficient": false,
+      "fetched_at": "2026-11-07",
+      "query": "響 ブロッサムハーモニー 2022 700ml",
+      "regex_require": "(?i)(ブロッサム|blossom)(?=.*2022)|2022(?=.*(ブロッサム|blossom))",
+      "regex_exclude": "(?i)2019|2020|2021|2023|2024|2025|2026|2027|グラス|カートン|化粧箱のみ|ケースのみ|紙袋のみ|ショッパー|ポスター|50\\s*ml|180\\s*ml|350\\s*ml|ブレンダーズ|BLENDER|山崎|白州|知多|JAPANESE\\s*HARMONY",
+      "common_exclude": "fetch-yahoo-medians.py JUNK_RE（空瓶・箱のみ・ミニ・セット・まとめ・2〜9本・×数字）＋700ml以外",
+      "removed_after_review": []
+    },
+    "2023": {
+      "edition": "響 BLOSSOM HARMONY 2023",
+      "median": 18500,
+      "filtered_n": 106,
+      "title_filtered_n": 115,
+      "raw_n": 122,
+      "min": 16929,
+      "max": 20350,
+      "insufficient": false,
+      "fetched_at": "2026-11-07",
+      "query": "響 ブロッサムハーモニー 2023 700ml",
+      "regex_require": "(?i)(ブロッサム|blossom)(?=.*2023)|2023(?=.*(ブロッサム|blossom))",
+      "regex_exclude": "(?i)2019|2020|2021|2022|2024|2025|2026|2027|グラス|カートン|化粧箱のみ|ケースのみ|紙袋のみ|ショッパー|ポスター|50\\s*ml|180\\s*ml|350\\s*ml|ブレンダーズ|BLENDER|山崎|白州|知多|JAPANESE\\s*HARMONY",
+      "common_exclude": "fetch-yahoo-medians.py JUNK_RE（空瓶・箱のみ・ミニ・セット・まとめ・2〜9本・×数字）＋700ml以外",
+      "removed_after_review": [
+        "■響 ブロッサム　 ハーモニー 2023年 1本　響　ひびき　ブレンダーズチョイス700ml 1本■"
+      ]
+    },
+    "2024": {
+      "edition": "響 BLOSSOM HARMONY 2024",
+      "median": 19999,
+      "filtered_n": 38,
+      "title_filtered_n": 41,
+      "raw_n": 41,
+      "min": 18000,
+      "max": 22330,
+      "insufficient": false,
+      "fetched_at": "2026-11-07",
+      "query": "響 ブロッサムハーモニー 2024 700ml",
+      "regex_require": "(?i)(ブロッサム|blossom)(?=.*2024)|2024(?=.*(ブロッサム|blossom))",
+      "regex_exclude": "(?i)2019|2020|2021|2022|2023|2025|2026|2027|グラス|カートン|化粧箱のみ|ケースのみ|紙袋のみ|ショッパー|ポスター|50\\s*ml|180\\s*ml|350\\s*ml|ブレンダーズ|BLENDER|山崎|白州|知多|JAPANESE\\s*HARMONY",
+      "common_exclude": "fetch-yahoo-medians.py JUNK_RE（空瓶・箱のみ・ミニ・セット・まとめ・2〜9本・×数字）＋700ml以外",
+      "removed_after_review": []
+    },
+    "2025": {
+      "edition": "響 BLOSSOM HARMONY 2025",
+      "median": 19689,
+      "filtered_n": 46,
+      "title_filtered_n": 47,
+      "raw_n": 59,
+      "min": 16500,
+      "max": 22000,
+      "insufficient": false,
+      "fetched_at": "2026-11-07",
+      "query": "響 ブロッサムハーモニー 2025 700ml",
+      "regex_require": "(?i)(ブロッサム|blossom)(?=.*2025)|2025(?=.*(ブロッサム|blossom))",
+      "regex_exclude": "(?i)2019|2020|2021|2022|2023|2024|2026|2027|グラス|カートン|化粧箱のみ|ケースのみ|紙袋のみ|ショッパー|ポスター|50\\s*ml|180\\s*ml|350\\s*ml|ブレンダーズ|BLENDER|山崎|白州|知多|JAPANESE\\s*HARMONY",
+      "common_exclude": "fetch-yahoo-medians.py JUNK_RE（空瓶・箱のみ・ミニ・セット・まとめ・2〜9本・×数字）＋700ml以外",
+      "removed_after_review": []
+    },
+    "2026": {
+      "edition": "響 BLOSSOM HARMONY 2026",
+      "median": 19250,
+      "filtered_n": 97,
+      "title_filtered_n": 103,
+      "raw_n": 150,
+      "min": 17050,
+      "max": 21400,
+      "insufficient": false,
+      "fetched_at": "2026-11-07",
+      "query": "響 ブロッサムハーモニー 2026 700ml",
+      "regex_require": "(?i)(ブロッサム|blossom)(?=.*2026)|2026(?=.*(ブロッサム|blossom))",
+      "regex_exclude": "(?i)2019|2020|2021|2022|2023|2024|2025|2027|グラス|カートン|化粧箱のみ|ケースのみ|紙袋のみ|ショッパー|ポスター|50\\s*ml|180\\s*ml|350\\s*ml|ブレンダーズ|BLENDER|山崎|白州|知多|JAPANESE\\s*HARMONY",
+      "common_exclude": "fetch-yahoo-medians.py JUNK_RE（空瓶・箱のみ・ミニ・セット・まとめ・2〜9本・×数字）＋700ml以外",
+      "removed_after_review": [
+        "■響 ブロッサム　 ハーモニー 2026年 1本　響　ひびき　ブレンダーズチョイス700ml 1本■",
+        "サントリー 響 BLOSSOM HARMONY 2026 ブロッサムハーモニー 700ml 箱付き　山崎　白州　響　"
+      ]
+    }
+  }
+}
