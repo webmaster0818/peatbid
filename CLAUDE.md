@@ -735,3 +735,12 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **/articles/taketsuru-25-kaitori/**: NV 行2本とも taketsuru-pure へリンク済み・自分自身へのリンクなし＝変更なし。
 - **変更なし（10日ルール）**: taketsuru-21（10/30 title・lead）・bowmore-blackbowmore（10/29 title・desc）。両方とも冒頭に早見表はある。ブラックボウモアは店別の型ではなくエディション別で確認日が 10/16・21 のまま＝次回候補。
 - sitemap は2ページだけ lastmod 11-06。build（heap8192）EXIT0・precheck ✅（3,006）・ASP 0→0・hikakaku href 606→606。
+
+### 2026-11-07 朝ルーチン: /track-record/・/content-policy/ §6 を実データに合わせて修正／鹿児島 福ちゃん行
+- **「全ページに PR 表記」＝事実**: deploy の HTML 3,009/3,009 に footer「※本サイトはプロモーション(PR)を含みます。」（layout.tsx）。ただし各リンク横の表記ではないので「全ページのフッターに…と表示」に明記。
+- **「パートナー業者」＝裏づけなし→削除（2か所）**: ASP 計測リンク 0本・hikakaku は生URL 606 本。記録にあるのは felmat ヒカカクの提携承認（10/22・コード未設置）のみで、送客している業者との契約記録は memory・本 CLAUDE.md に見当たらない。冒頭は読者向けの説明に、問い合わせ欄は「買取業者様からの掲載のご相談」（フォームの区分と同じ）に。
+- **/content-policy/ §6「重大な誤りは訂正の事実・内容を明示」＝実績なし→実際の運用に**: 記事 546 本の表示テキストに「訂正／お詫び／更新履歴／修正履歴／誤記」0件。11/5 の macallan・11/6 の税金記事の訂正でも訂正表示はしていない。「速やかに」「常時」も削除（フォームは 6/14〜10/5 に送信不能）。「最終更新日を更新する」とも書いていない: macallan-12-kaitori は 11/5 に訂正したが表示は 11-02 のまま。
+- **鹿児島 福ちゃん行**（11/7 curl）: 店舗一覧11店・事業所14拠点に鹿児島なし→大分 11/6 と同じ形に（`scripts/patch-tier2-kagoshima-fukuchan-1107.py`・app 51＋prefectures.py）。公式 fuku-chan.info/liquor/area/kagoshima/ は「鹿児島県全域がお酒買取対象エリア」だが A/B 待ちなので書かない。バイセル行は /area/liquor-kagoshima/「鹿児島県全域の各市町村にて対応可能」と一致＝変更なし。天文館金生通り店は店舗固有のお酒の記載がないので方式に店頭は足さない。
+- 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4・11/6 と同じ）。
+- 未対応（判断待ちとして報告）: /methodology/ §5「複数の買取業者と業務提携を結び…紹介料を受け取っています」・/content-policy/ §4「紹介料収入により運営」「アフィリエイトリンクには PR 等の表記」は ASP 0本の現状と合わない。
+- sitemap は track-record・content-policy・鹿児島リーフ51だけ lastmod 11-07。build（heap8192）EXIT0・precheck ✅（3,006）・ASP 0→0・hikakaku href 606→606・削除は旧 buildId のみ。source 3f9fa07fe・deploy 6b78b15c83（CF 反映 約9分）。Indexing は未送信。
