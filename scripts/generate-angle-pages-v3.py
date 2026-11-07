@@ -826,13 +826,18 @@ def render_page(b, data):
     # (銘柄slug, 角度) → (見出し, 本文HTML)。値は出典つきの確認済みの事実だけ。
     ANGLE_LEAD = {
         # 「山崎 ノンエイジ 買取」で yamazaki-nv-kaitori（主）と表示を分け合っていた（GSC 9/27〜10/24）。
-        # 価格（箱あり/箱無しの店舗別）は主ページに置き、ここは箱を無くした場合の手順に限る＝価格は重ねて書かない。
+        # 2026-11-07: 「山崎 ノンエイジ 買取相場 箱無し」30@6.1 の答えを冒頭に。箱なしを掲示する4店だけ。全店の比較・推移は主ページ。
         ("yamazaki-nv", "hako-nashi"): (
-            "このページの範囲",
-            '山崎ノンエイジの<strong>外箱を無くした・最初から箱が無い場合の手順</strong>（箱の探し方、代用の箱を使わない理由、空き箱の入手先、箱なしで高く売るコツ）をまとめたページです。'
-            '<strong>山崎ノンエイジの買取価格（買取店の掲示価格・箱あり／箱無し別・月別推移）</strong>は、主ページ '
-            '<Link href="/articles/yamazaki-nv-kaitori/" className="text-amber-dark underline font-bold">山崎ノンエイジの買取相場 →</Link> にまとめています。'
-            '下の「箱なしによる査定額の影響」は、ヤフオク落札中央値に業界一般の割合を掛けた目安で、店舗の掲示価格ではありません。'
+            "山崎ノンエイジの箱なしの買取価格（先に結論・2026年11月7日確認）",
+            '<p className="mb-2"><strong>箱なしの価格を掲示している4店は 9,000〜10,000円 で、4店とも箱ありと同じ金額です。</strong>掲示は700ml・未開封を前提にした参考額で、実際の買取額は査定で決まります。</p>'
+            '<div className="overflow-x-auto"><table className="w-full text-sm mb-2"><thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="py-2 pr-3">店舗</th><th className="py-2 pr-3 text-right">箱なし</th><th className="py-2 pr-3 text-right">箱あり</th><th className="py-2">条件・店舗側の更新日</th></tr></thead><tbody>'
+            '<tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal"><a href="https://www.stock-lab.com/osake-kaitori/whiskey/yamazaki/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">ストックラボ</a></th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">9,000〜10,000円</td><td className="py-2 pr-3 text-right whitespace-nowrap">9,000〜10,000円</td><td className="py-2 text-xs text-warm-gray">最終更新 2026-11-06</td></tr>'
+            '<tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal"><a href="https://linxas.shop/whiskey/yamazaki/yamazakinv/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS（リンクサス）</a></th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">9,600円</td><td className="py-2 pr-3 text-right whitespace-nowrap">9,600円</td><td className="py-2 text-xs text-warm-gray">価格更新日 2026-09-30</td></tr>'
+            '<tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal"><a href="https://kingram-liquor.jp/lineup/435/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">キングラムリカー</a></th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">9,600円</td><td className="py-2 pr-3 text-right whitespace-nowrap">9,600円</td><td className="py-2 text-xs text-warm-gray">箱の有無問わず・背面ラベルのQRコード印字が無いものは -1,000円／更新日 2026-11-06</td></tr>'
+            '<tr className="border-b border-warm-border/60"><th scope="row" className="py-2 pr-3 text-left font-normal"><a href="https://www.licasta.com/item/whisky/yamazaki-nv/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">リカスタ</a></th><td className="py-2 pr-3 text-right font-bold whitespace-nowrap">9,500円</td><td className="py-2 pr-3 text-right whitespace-nowrap">9,500円</td><td className="py-2 text-xs text-warm-gray">現行品（100周年ラベルは箱の有無とも 9,000円）／日付表記なし</td></tr>'
+            '</tbody></table></div>'
+            '<p className="mb-2">大黒屋（9,000円・11/6 更新）とファイブニーズ（9,500円・9/30 更新）は箱の有無を分けて掲示していません。全店の比較と月別の推移は <Link href="/articles/yamazaki-nv-kaitori/" className="text-amber-dark underline font-bold">山崎ノンエイジの買取相場 →</Link></p>'
+            '<p>このページの以降は、<strong>外箱を無くした・最初から箱が無い場合の手順</strong>です。下の「箱なしによる査定額の影響」は、ヤフオク落札中央値に業界一般の割合を掛けた目安で、店舗の掲示価格ではありません（上の4店の掲示は箱ありと同額です）。</p>'
         ),
         # 「竹鶴 偽物」6.2位・imp38（GSC 9/27〜10/24）。冒頭に答えが無く、汎用の5チェックから始まっていた。
         ("taketsuru-pure", "nisemono-mikata"): (
@@ -857,6 +862,14 @@ def render_page(b, data):
             '</ul>'
         ),
     }
+    # 2026-11-07: 個別の description・表示の更新日（週次の fetched_at のほうが新しければそちら）
+    ANGLE_DESC = {
+        "yamazaki-nv-hako-nashi": "山崎ノンエイジの箱なしの買取価格は、掲示4店（ストックラボ・LINXAS・キングラムリカー・リカスタ）で 9,000〜10,000円、4店とも箱ありと同額です（2026年11月7日確認）。外箱を無くした場合の手順も掲載しています。",
+    }
+    ANGLE_UPDATED = {"yamazaki-nv-hako-nashi": "2026-11-07"}
+    if slug in ANGLE_DESC:
+        data["description"] = ANGLE_DESC[slug]
+    display_updated = max(ANGLE_UPDATED.get(slug, ""), fetched_at) if fetched_at[:1].isdigit() else fetched_at
     angle_lead_html = ""
     if (b["slug"], angle_suffix) in ANGLE_LEAD:
         _al_h, _al_body = ANGLE_LEAD[(b["slug"], angle_suffix)]
@@ -906,7 +919,7 @@ export default function {component_name}Page() {{
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">{data["h1"]}</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: {fetched_at} / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: {display_updated} / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 {angle_lead_html}
           <MarketPriceCard data={{priceData as Parameters<typeof MarketPriceCard>[0]["data"]}} />
 

@@ -93,15 +93,17 @@ def esc(t):  # for backtick template
 # 汎用の5チェックから始まっていて、響に固有の事実（摘発例・ホログラムシールの対象と出荷時期）が冒頭に無かった。
 # 出典: J-CAST トレンド 2022-06-17（サントリーホールディングス広報への取材）。サントリー公式FAQ は 10/28 403 で取得できず＝使っていない。
 BRAND_LEAD = {
+    # 2026-11-07: 公式の案内（シールの無い商品も混在・「真贋判定を目的としたものではありません」）に合わせて修正。「シール無し＝要確認」と読める文を削除。
     "hibiki": (
         "響の偽物について（先に結論）",
         '<ul className="list-disc pl-5 space-y-1">'
         '<li><strong>響の偽物は実際に摘発されています。</strong>2018年8月、フリマサイトで偽の「響30年」を販売したとして2人が商標法違反と詐欺の疑いで逮捕され、古物店に偽ウイスキーを買い取らせた容疑でも起訴されました（J-CAST トレンド 2022年6月17日が報道を引用）。</li>'
-        '<li>サントリーホールディングス広報によると、偽造防止のため<strong>響30年・響21年・響 BLENDER\'S CHOICE・響 JAPANESE HARMONY（いずれも700ml）</strong>のキャップに<strong>ホログラムシール</strong>を貼っており、シール付きの製品は<strong>2022年2月以降の出荷</strong>です（同記事・免税品や限定品など一部は記載なし）。</li>'
-        '<li>そのため、<strong>2022年1月以前に出荷されたボトルや、上の一覧に無いボトル（響17年・響12年など）にシールが無いことだけでは、偽物とは判断できません</strong>。反対に、2022年2月以降の現行品で一覧のボトルなのにシールが無い・剥がした跡がある場合は、査定時に申告して確認を受けてください。</li>'
-        '<li>売る前に自分で見るのは、<strong>キャップ・封緘の破れや開封の跡</strong>、<strong>液面</strong>（自然な目減りを超えて減っていないか）、<strong>購入経路</strong>（相場より極端に安い個人出品で買ったものか）の3点です。判断できない場合は、ラベル表・裏、キャップ、箱の写真を添えて買取店の査定（無料）に出してください（<Link href="/articles/hibiki-kaitori/" className="text-amber-dark underline">響の買取相場（全ボトル）</Link>）。</li>'
+        '<li><strong>ホログラムシールが無いことだけでは、偽物とは判断できません。</strong>サントリーは一部の製品にホログラムシールを貼っていますが（キャップ部分は2022年2月以降の出荷・開封口とボトル背面の2か所は2024年3月製造分から）、出荷時期の違いでシールの無い商品・1種類の商品・2種類の商品が混在しているとし、この取り組みは「真贋判定を目的としたものではありません」と案内しています。</li>'
+        '<li>シールの対象として報じられている響は、<strong>響30年・響21年</strong>（2022年・2024年の両方）と<strong>響 BLENDER\'S CHOICE・響 JAPANESE HARMONY（いずれも700ml）</strong>（2022年）です。2022年の一覧は通年販売品で、免税品や限定品など一部は記載がありません。</li>'
+        '<li><strong>響 マスターズセレクト</strong>は上の一覧にありません。マスターズセレクトの偽物についてメーカーや公的機関が注意を呼びかけた情報は、PeatBid編集部が確認した範囲（2026-11-07）では見つかりませんでした。一覧に無いことを理由に偽物と判断することはできません。</li>'
+        '<li>売る前に自分で見るのは、<strong>キャップ・封緘の破れや開封の跡</strong>（シールを剥がした跡を含む）、<strong>液面</strong>（自然な目減りを超えて減っていないか）、<strong>購入経路</strong>（相場より極端に安い個人出品で買ったものか）の3点です。判断できない場合は、ラベル表・裏、キャップ、箱の写真を添えて買取店の査定（無料）に出してください（<Link href="/articles/hibiki-kaitori/" className="text-amber-dark underline">響の買取相場（全ボトル）</Link>）。</li>'
         '</ul>'
-        '<p className="text-[11px] text-warm-gray mt-2">出典: <a href="https://www.j-cast.com/trend/2022/06/17439568.html" target="_blank" rel="noopener noreferrer nofollow" className="underline">J-CAST トレンド「サントリー高級ウイスキー「偽物対策」か フタに「ホログラムシール」」（2022-06-17）</a>（PeatBid編集部 2026-10-28 確認）</p>'
+        '<p className="text-[11px] text-warm-gray mt-2">出典: <a href="https://www.suntory.co.jp/whisky/qrcodesticker/manual-hibiki/" target="_blank" rel="noopener noreferrer nofollow" className="underline">サントリー「ブランドを守る取り組みについてのご案内」</a>（PeatBid編集部 2026-10-18 確認）・<a href="https://www.suntory.co.jp/news/article/14552.html" target="_blank" rel="noopener noreferrer nofollow" className="underline">サントリー ニュースリリース（2024-02-29）</a>・<a href="https://gourmet.watch.impress.co.jp/docs/news/1572716.html" target="_blank" rel="noopener noreferrer nofollow" className="underline">グルメ Watch（2024-02-29）</a>・<a href="https://www.j-cast.com/trend/2022/06/17439568.html" target="_blank" rel="noopener noreferrer nofollow" className="underline">J-CAST トレンド（2022-06-17）</a>（グルメ Watch・J-CAST は 2026-11-07 確認）</p>'
     ),
 }
 
@@ -111,6 +113,8 @@ def build(base, name, hero, variants):
     desc = f"{name}の偽物・贋作を見分ける5つのチェック（ラベル・キャップ・液面・刻印・購入経路）と、本物と確認できた後の売却手順を解説しています。{name}12年・18年・25年・NV等、各ボトルの真贋と買取相場のページもご案内しています。"
     comp = "".join(p.capitalize() for p in f"{base}-nisemono-mikata".replace("-", " ").split()) + "Page"
     secs = checks(name)
+    if base == "hibiki":  # 2026-11-07: 公式は「真贋判定を目的としたものではありません」。共通文の「真贋要素」は響のページでは使わない
+        secs = [(h, ("響の一部の製品にはホログラムシールがありますが、冒頭のとおりシールの無い正規の商品も流通しており、サントリーはこの取り組みを真贋判定を目的としたものではないと案内しています。シールだけで判断せず、キャップの締まり具合・封緘の状態（破れ・隙間や不自然な点）もご確認ください。") if h.startswith("チェック2") else b) for h, b in secs]
     toc = "\n".join(f'              <li><a href="#s{i}" className="hover:underline">{i+1}. {s[0]}</a></li>' for i, s in enumerate(secs))
     body = "\n\n".join(
         f'          <h2 id="s{i}">{i+1}. {s[0]}</h2>\n          <p>{s[1]}</p>'
