@@ -44,12 +44,12 @@ export default function TrackRecordPage() {
       </nav>
 
       <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">PeatBid サイト実績・統計データ</h1>
-      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年11月6日 / 編集: PeatBid編集部</p>
+      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年11月7日 / 編集: PeatBid編集部</p>
 
       <section className="prose">
         <p>
           当サイトでは、サイトの実績・掲載範囲・運営状況を公開しています。
-          読者・パートナー業者の双方が、当サイトの信頼性を客観的に評価できる材料を提供することを目的としています。
+          読者の皆さまが当サイトの信頼性をご判断いただくための材料として掲載しています。
         </p>
 
         <h2>サイト統計</h2>
@@ -101,7 +101,7 @@ export default function TrackRecordPage() {
         <ul>
           <li><strong>編集体制の公開</strong> — <Link href="/editorial/" className="text-burgundy underline">編集部紹介ページ</Link>で運営体制・編集部の作業内容を開示</li>
           <li><strong>編集方針の公開</strong> — <Link href="/methodology/" className="text-burgundy underline">編集ポリシーページ</Link>で価格データ収集方法・更新頻度を公開</li>
-          <li><strong>アフィリエイト関係の開示</strong> — 全ページに「PR」表記、編集方針ページで業者紹介の仕組みを説明</li>
+          <li><strong>アフィリエイト関係の開示</strong> — 全ページのフッターに「本サイトはプロモーション(PR)を含みます」と表示し、編集方針ページで業者紹介の仕組みを説明しています</li>
           <li><strong>記事の最終更新日表示</strong> — 各記事に明記し、情報の鮮度をご確認いただけるようにしています</li>
           <li><strong>誤情報の訂正</strong> — ご連絡いただいた内容を公式の情報などで確認し、誤りであれば訂正します</li>
           <li><strong>法令遵守の宣言</strong> — 古物営業法・景表法・特商法・個人情報保護法等の遵守を編集方針で明示</li>
@@ -126,7 +126,7 @@ export default function TrackRecordPage() {
 
         <h2>お問い合わせ・データ訂正</h2>
         <p>
-          サイト掲載情報の誤り・改善提案・パートナー業者からの掲載相談など、
+          サイト掲載情報の誤り・改善提案・買取業者様からの掲載のご相談など、
           編集部へのお問い合わせは <Link href="/contact/" className="text-burgundy underline">お問い合わせフォーム</Link> からご連絡ください。
           内容を確認のうえ対応します。
         </p>

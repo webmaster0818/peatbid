@@ -122,10 +122,10 @@ export default function ContentPolicyPage() {
         <section>
           <h2 className="text-lg font-bold mb-3 border-b border-warm-border pb-2">6. 訂正・更新の方針</h2>
           <p className="mb-3">
-            記事公開後に誤りが判明した場合、または相場・業者情報に重要な変更があった場合、速やかに該当箇所を訂正・更新します。重大な誤りについては、訂正の事実・内容を明示する形で表示します。
+            記事公開後に誤りが判明した場合、または相場・業者情報に重要な変更があった場合は、公式の情報などで確認のうえ、該当箇所を訂正・更新します。訂正の内容を記事内に個別に表示する運用は行っておりません。
           </p>
           <p>
-            誤情報のご指摘・更新のご依頼は、お問い合わせフォームより常時受け付けています。
+            誤情報のご指摘・更新のご依頼は、お問い合わせフォームより受け付けています。
           </p>
         </section>
 
@@ -152,7 +152,7 @@ export default function ContentPolicyPage() {
 
         <p className="text-xs text-warm-gray pt-4 border-t border-warm-border">
           制定日: 2026年5月<br />
-          最終更新日: 2026年11月4日
+          最終更新日: 2026年11月7日
         </p>
       </div>
     </div>
