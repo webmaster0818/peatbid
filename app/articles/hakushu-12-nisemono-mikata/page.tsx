@@ -6,7 +6,7 @@ import priceData from "@/data/price-history/hakushu-12.json";
 
 export const metadata: Metadata = {
   title: '白州12年の偽物・贋作の見分け方【2026年11月最新】本物との違い5点（ラベル・キャップ・液面）と売却前チェック',
-  description: '白州12年の偽物・贋作を見分けるポイントを解説しています。ラベル・キャップ・液色・ホログラム・購入経路の5つの確認方法と、被害に遭った場合の対処法を掲載しています。',
+  description: '白州12年の偽物の見分け方。ホログラムシールはキャップ部分が2022年2月以降の出荷、開封口と背面の2か所が2024年3月製造分からで、シールの無い商品も流通しています。2021年再発売時のラベル変更、売る前の3点チェックと買取価格も掲載。',
 };
 
 function FaqSchema() {
@@ -37,7 +37,12 @@ export default function Hakushu12NisemonoMikataPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">白州12年の偽物・贋作の見分け方</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-02 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-08 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+
+          <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
+            <p className="text-sm font-bold text-ink mb-2">白州12年の偽物の見分け方（先に結論・2026年11月8日確認）</p>
+            <div className="text-sm text-ink leading-relaxed"><ul className="list-disc pl-5 space-y-1"><li><strong>ホログラムシールは確認の手がかりになりますが、シールが無いことだけでは偽物とは判断できません。</strong>キャップ部分にシールを貼った製品は2022年2月以降に出荷されており（製品により時期は異なる）、通年販売品の一覧に白州12年 700ml が含まれています（サントリーホールディングス広報への取材・J-CAST トレンド 2022年6月17日）。さらに<strong>2024年3月製造分から</strong>は「開封口」「ボトル背面」の2か所に複製や再貼付が難しいシールを貼っていますが、順次切り替えのため添付のない商品もしばらく流通するとされています（グルメ Watch 2024年2月29日）。</li><li><strong>ラベルが手元のボトルと違っても、旧ボトルの可能性があります。</strong>白州12年は2018年に休売となり、2021年3月30日に数量限定で再発売された際にラベルの英字をブランドカラーの緑に変更しています（グルメ Watch 2021年3月30日）。それ以前のボトルはラベルの意匠が違います。</li><li>売る前に自分で見るのは、<strong>キャップ・封緘の破れや開封の跡</strong>（シールを剥がした跡を含む）、<strong>液面</strong>（自然な目減りを超えて減っていないか）、<strong>購入経路</strong>（相場より極端に安い個人出品で買ったものか）の3点です。判断できない場合は、ラベル表・裏、キャップ、箱の写真を添えて買取店の査定（無料）に出してください。</li><li>本物と確認できた後の買取価格は、店舗の掲示で 18,000〜20,000円（現行のシングルモルト・700ml・2026年11月8日確認）です。ラベルが「ピュアモルト」の旧ボトルは別の価格です（<Link href="/articles/hakushu-12-kaitori/" className="text-amber-dark underline font-bold">白州12年の買取価格（5店の比較） →</Link>）。</li></ul><p className="text-[11px] text-warm-gray mt-2">出典: <a href="https://gourmet.watch.impress.co.jp/docs/news/1572716.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">グルメ Watch（2024-02-29）</a>・<a href="https://www.j-cast.com/trend/2022/06/17439568.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">J-CAST トレンド（2022-06-17）</a>・<a href="https://gourmet.watch.impress.co.jp/docs/news/1315154.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">グルメ Watch（2021-03-30）</a>（いずれも 2026-11-08 確認）。下の5つのチェックは一般的な確認方法で、白州12年に固有の情報ではありません。</p></div>
+          </div>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 

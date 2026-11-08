@@ -7488,5 +7488,340 @@
     "title_full": "白州25年の買取価格・相場{MONTH}新型38〜43万円・旧型41〜43万円｜6店比較",
     "h1_full": "白州25年の買取価格・相場{MONTH_H1}6店の掲示価格と新型・旧型・シールの差",
     "desc_full": "白州25年の買取価格を6店の掲示価格で比較（2026年11月7日確認）。新型380,000〜430,000円、旧型410,000〜430,000円。シールの有無・リミテッドエディション別の価格、2024年からの月別推移、買取実績も掲載。"
+  },
+  "hakushu-12": {
+    "checked_at": "2026-11-08",
+    "page_updated": "2026-11-08",
+    "profile": {
+      "summary": "白州12年は、サントリーが白州蒸溜所（山梨県北杜市）で造るシングルモルトウイスキーで、酒齢12年以上のモルト原酒を使ったボトルです（700ml・43%）。原酒不足で2018年に休売となり、<strong>2021年3月30日に数量限定で全国再発売</strong>されています（終売ではありません。<a href=\"https://gourmet.watch.impress.co.jp/docs/news/1315154.html\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline\">グルメ Watch 2021-03-30</a>）。"
+    },
+    "store_intro": "各店が自社サイトに公開している白州12年の参考買取価格を、PeatBid編集部が 2026-11-08 に各ページで確認した値です。「店舗側の更新日」は、各ページに記載されている価格の更新日です。白州12年は、現行の「シングルモルト」と、ラベルが「ピュアモルト」の旧ボトルで価格が大きく違うため、行を分けて掲載しています。",
+    "stores": [
+      {
+        "store": "ストックラボ",
+        "item": "白州 12年／白州 12年 箱なし／白州 12年 100周年",
+        "cond": "3行とも同レンジ",
+        "price": "19,000円〜20,000円",
+        "low": 19000,
+        "high": 20000,
+        "updated": "2026-11-06",
+        "url": "https://www.stock-lab.com/osake-kaitori/whiskey/hakushu/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "白州12年 700ml",
+        "cond": "箱あり",
+        "price": "19,300円",
+        "low": 19300,
+        "high": 19300,
+        "updated": "2026-10-04",
+        "url": "https://linxas.shop/whiskey/hakushu/hakushu12years/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "白州12年 700ml",
+        "cond": "箱なし",
+        "price": "18,800円",
+        "low": null,
+        "high": null,
+        "updated": "2026-10-04",
+        "url": "https://linxas.shop/whiskey/hakushu/hakushu12years/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "白州 12年 現行品",
+        "cond": "箱付き",
+        "price": "19,300円",
+        "low": 19300,
+        "high": 19300,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/hakushu/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "白州 12年 現行品",
+        "cond": "箱なし",
+        "price": "19,000円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/hakushu/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "白州 12年 現行品 ※QRシールなし",
+        "cond": "箱付き",
+        "price": "18,500円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/hakushu/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "白州 12年 現行品 ※ホログラムシールなし",
+        "cond": "箱付き",
+        "price": "17,000円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/hakushu/"
+      },
+      {
+        "store": "リカスタ",
+        "item": "白州 12年 100周年ラベル",
+        "cond": "箱付き／箱なし",
+        "price": "19,500円／19,000円",
+        "low": null,
+        "high": null,
+        "updated": "日付表記なし",
+        "url": "https://www.licasta.com/item/whisky/hakushu/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "白州 12年 シングルモルト ホログラムシール有",
+        "cond": "箱有・箱無/箱ダメージ有 同額",
+        "price": "19,000円",
+        "low": 19000,
+        "high": 19000,
+        "updated": "2026-11-07",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/hakushu/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "白州 12年 シングルモルト ホログラムシール無",
+        "cond": "箱有・箱無 同額",
+        "price": "18,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-11-07",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/hakushu/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "白州 12年 シングルモルト 100周年記念ラベル",
+        "cond": "箱有・箱無 同額",
+        "price": "19,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-11-07",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/hakushu/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "白州 12年 シングルモルト 旧品",
+        "cond": "箱有・箱無 同額",
+        "price": "17,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-11-07",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/hakushu/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "白州 12年 シングルモルト 海外向けラベル",
+        "cond": "箱有・箱無 同額",
+        "price": "16,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-11-07",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/hakushu/"
+      },
+      {
+        "store": "買取エリート",
+        "item": "サントリー白州 12年 シングルモルト",
+        "cond": "買取上限価格",
+        "price": "〜18,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-11-08",
+        "url": "https://kaitori-off.net/liquor/whisky/hakushu/12years"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "白州12年 ピュアモルト金フチ（旧ラベル）",
+        "cond": "箱あり／箱なし",
+        "price": "40,000円／34,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/hakushu/hakushu12years/"
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "item": "白州12年 ピュアモルト響マーク（旧ラベル）",
+        "cond": "箱あり／箱なし",
+        "price": "35,000円／30,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-09-30",
+        "url": "https://linxas.shop/whiskey/hakushu/hakushu12years/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "白州 12年 ピュアモルト 700ml",
+        "cond": "箱有／箱無・箱ダメージ有",
+        "price": "35,000円／32,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-11-07",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/hakushu/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "白州 12年 ピュアモルト 旧ラベル 750ml",
+        "cond": "箱有／箱無・箱ダメージ有",
+        "price": "38,000円／35,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-11-07",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/hakushu/"
+      },
+      {
+        "store": "買取エリート",
+        "item": "サントリー白州 12年 ピュアモルト",
+        "cond": "買取上限価格",
+        "price": "〜33,000円",
+        "low": null,
+        "high": null,
+        "updated": "2026-11-08",
+        "url": "https://kaitori-off.net/liquor/whisky/hakushu/12years"
+      }
+    ],
+    "store_note": "現行のシングルモルト（700ml・ホログラムシール有り・箱あり）の掲示は 19,000〜20,000円（大黒屋 19,000円・LINXAS 19,300円・リカスタ 19,300円・ストックラボ 19,000〜20,000円）で、買取エリートは上限 18,000円 です。<strong>箱なし</strong>は 18,800〜20,000円（LINXAS 18,800円・リカスタ 19,000円・大黒屋 19,000円＝箱有と同額・ストックラボ 19,000〜20,000円＝箱ありと同レンジ）で、箱の有無による差は 0〜500円 です。ホログラムシールの無いものは 大黒屋 18,000円・リカスタ 17,000円 と、シール有りより 1,000〜2,300円 低く掲示されています。ラベルが「ピュアモルト」の旧ボトルは 30,000〜40,000円（箱あり 35,000〜40,000円・箱なし 30,000〜35,000円）で、現行品の約2倍です。",
+    "record_groups": [
+      {
+        "store": "ファイブニーズ",
+        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/hakusyu_brand/hakusyu12/",
+        "note": "同ページの買取実績を転記（2026-11-08 確認）。同ページの参考買取価格 24,500円 は「2024年3月25日時点」の表示のため掲示価格の表には入れていません",
+        "items": [
+          [
+            "2026-08-05",
+            "サントリー 白州 12年 シングルモルト 700ml",
+            "18,000円"
+          ],
+          [
+            "2026-05-11",
+            "サントリー 白州 12年 シングルモルト 700ml",
+            "16,000円"
+          ],
+          [
+            "2026-05-10",
+            "サントリー 白州 12年 シングルモルト 700ml",
+            "17,700円"
+          ],
+          [
+            "2025-11-03",
+            "サントリー 白州 12年 シングルモルト 700ml",
+            "17,000円"
+          ],
+          [
+            "2024-11-25",
+            "サントリー 白州 12年 シングルモルト 700ml",
+            "14,500円"
+          ]
+        ]
+      },
+      {
+        "store": "LINXAS（リンクサス）",
+        "url": "https://linxas.shop/whiskey/hakushu/hakushu12years/",
+        "note": "同ページの買取実績を転記（2026-11-08 確認）",
+        "items": [
+          [
+            "2026-10-14",
+            "白州12年",
+            "15,500円"
+          ],
+          [
+            "2025-01-22",
+            "白州12年 箱付き",
+            "17,500円"
+          ],
+          [
+            "2022-07-09",
+            "白州12年 旧ボトル",
+            "39,000円"
+          ],
+          [
+            "2022-02-13",
+            "白州12年 ピュアモルト 旧ラベル",
+            "60,000円"
+          ]
+        ]
+      }
+    ],
+    "identify": {
+      "intro": "白州12年は、ラベルの表記とシールの有無で店舗の掲示価格が分かれています。査定に出す前に、次の点を確認してください。",
+      "items": [
+        "<strong>「SINGLE MALT」か「PURE MALT」か</strong>: 現行品はシングルモルトです。ラベルが「ピュアモルト」の旧ボトルは各店が別の行で掲示しており、30,000〜40,000円 と現行品の約2倍です（LINXAS は「金フチ」「響マーク」で分けています）。",
+        "<strong>2021年の再発売品</strong>: サントリーは2021年3月30日の数量限定再発売で、ラベルの英字をブランドカラーの緑に変更したと説明しています（<a href=\"https://gourmet.watch.impress.co.jp/docs/news/1315154.html\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline\">グルメ Watch 2021-03-30</a>）。",
+        "<strong>ホログラムシール</strong>: キャップ部分にシールを貼った製品は2022年2月以降に出荷されています（製品により時期は異なる。サントリーホールディングス広報への取材・通年品の一覧に白州12年 700ml。<a href=\"https://www.j-cast.com/trend/2022/06/17439568.html\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline\">J-CAST トレンド 2022-06-17</a>）、開封口とボトル背面の2か所のシールは<strong>2024年3月製造分から</strong>で、順次切り替えのため添付のない商品もしばらく流通するとされています（<a href=\"https://gourmet.watch.impress.co.jp/docs/news/1572716.html\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline\">グルメ Watch 2024-02-29</a>）。シールが無いことだけで偽物とは判断できませんが、掲示価格はシールの有無で分かれます（大黒屋 シール有 19,000円／無 18,000円）。",
+        "<strong>100周年記念ラベル・海外向けラベル</strong>: 100周年記念ラベルは 大黒屋 19,000円・リカスタ 19,500円（箱なし 19,000円）・ストックラボ 19,000〜20,000円で現行品とほぼ同じ、海外向けラベルは大黒屋で 16,000円 です。"
+      ],
+      "caution": "掲示価格は各店の参考額で、実際の買取額はボトルの状態や査定時期で変わります。手元のボトルの種類が分からない場合は、ラベル表・裏と箱の写真を送って店に確認してください。"
+    },
+    "faq_replace": {
+      "箱なしでも買取してもらえますか？": "はい、買取の対象です。2026-11-08 に各店の掲載ページで確認した箱なしの掲示は 18,800〜20,000円（LINXAS 18,800円・リカスタ 19,000円・大黒屋 19,000円・ストックラボ 19,000〜20,000円）で、箱ありとの差は 0〜500円 でした（大黒屋とストックラボは箱の有無で同額・同レンジ）。冊子やカートンが残っている場合はあわせて査定に出してください。"
+    },
+    "faq_extra": [
+      [
+        "ラベルが「PURE MALT」の白州12年はいくらですか？",
+        "2026-11-08 に確認した掲示価格では、現行のシングルモルトとは別の行で 30,000〜40,000円 です（LINXAS 金フチ 箱あり 40,000円／箱なし 34,000円・響マーク 35,000円／30,000円、大黒屋 700ml 箱有 35,000円／箱無 32,000円・750ml 38,000円／35,000円、買取エリート 上限 33,000円）。"
+      ],
+      [
+        "白州12年は終売したのですか？",
+        "終売ではありません。原酒不足で2018年に休売となり、サントリーは2021年3月30日に数量限定で全国再発売しています（グルメ Watch 2021-03-30）。"
+      ]
+    ],
+    "toc_label": "4-2. 買取店の掲示価格・買取実績",
+    "quick": {
+      "heading": "白州12年の店舗別の買取価格（2026年11月8日確認）",
+      "cols": [
+        "店舗",
+        "買取価格（700ml・現行・掲示）",
+        "箱なし・シールの条件・店舗側の更新日"
+      ],
+      "lead": "<strong>白州12年（現行のシングルモルト・700ml・未開封）の買取価格は、5店の掲示で 18,000〜20,000円</strong> です（2026年11月8日に5店の掲載ページを確認）。<strong>箱なしでも 18,800〜20,000円</strong> で、箱の有無で価格を分けない店（大黒屋・ストックラボ）もあります。ラベルが「ピュアモルト」の旧ボトルは別の価格で 30,000〜40,000円 です。店ごとの出典リンクは <a href=\"#store-prices\" className=\"text-amber-dark underline hover:text-burgundy\">4-2. 買取店の掲示価格</a>、ラベル・シールの確認方法は <a href=\"#edition-check\" className=\"text-amber-dark underline hover:text-burgundy\">9-2. エディションの確認方法</a> にあります。年数表記のない白州は <Link href=\"/articles/hakushu-nv-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">白州ノンエイジの買取価格</Link>、全グレードは <Link href=\"/articles/hakushu-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">白州の全グレード一覧</Link> へ。",
+      "rows": [
+        [
+          "ストックラボ",
+          "19,000〜20,000円",
+          "箱なし・100周年も同レンジ／最終更新 2026-11-06"
+        ],
+        [
+          "LINXAS（リンクサス）",
+          "19,300円",
+          "箱あり。箱なし 18,800円／価格更新日 2026-10-04"
+        ],
+        [
+          "リカスタ",
+          "19,300円",
+          "現行品・箱付き。箱なし 19,000円・QRシールなし 18,500円・ホログラムシールなし 17,000円（100周年ラベル 19,500円）／日付表記なし"
+        ],
+        [
+          "大黒屋",
+          "19,000円",
+          "ホログラムシール有・箱有／箱無 同額（シール無 18,000円・旧品 17,000円・海外向けラベル 16,000円・100周年 19,000円）／更新日 2026-11-07"
+        ],
+        [
+          "買取エリート",
+          "〜18,000円",
+          "シングルモルトの買取上限価格／更新日 2026-11-08"
+        ],
+        [
+          "旧ラベル「ピュアモルト」（参考）",
+          "30,000〜40,000円",
+          "LINXAS 金フチ 40,000円（箱なし 34,000円）・響マーク 35,000円（30,000円）・大黒屋 35,000円（箱無 32,000円）・買取エリート 〜33,000円"
+        ],
+        [
+          "買取実績（参考）",
+          "15,500〜18,000円",
+          "ファイブニーズ 18,000円（2026-08-05）・LINXAS 15,500円（2026-10-14）"
+        ]
+      ],
+      "note": "PeatBid編集部が 2026-11-08 に各店の掲載ページで確認した値です（店舗側の更新日は各ページの記載）。掲示価格は未開封・状態良好を前提にした参考額で、実際の買取額は査定で決まります。買取実績は掲示価格より低い例もあります。"
+    },
+    "h1_full": "白州12年の買取価格・相場{MONTH_H1}5店の掲示価格と箱なし・旧ラベルの差",
+    "desc_full": "白州12年の買取価格は5店の掲示で18,000〜20,000円、箱なしも18,800〜20,000円（2026年11月8日確認）。旧ラベル「ピュアモルト」は30,000〜40,000円。店別の表、シールの有無による差、買取実績も掲載。"
   }
 }
