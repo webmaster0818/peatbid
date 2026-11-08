@@ -758,5 +758,5 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 ### 2026-11-08 朝ルーチン: /track-record/ の数値をビルド出力に合わせて修正（precheck 不合格のため本番未反映）
 - 「パートナー業者」は 11/7 に削除済み＝ソース・deploy HTML とも 0件。「全ページのフッターに PR 表記」は deploy の HTML 3,014/3,014 に footer「※本サイトはプロモーション(PR)を含みます。」＝事実どおり。
 - 11/7 14:48 の kw-expansion（5記事追加・deploy 9038f5424f）で数値が古くなっていた: 公開記事数 545→550・サイト内URL 3,006→3,011（sitemap の loc 数）・「解説記事・銘柄別の総合ページ」35→40（51＋459＋40＝550）。最終更新 11/8、sitemap の track-record だけ lastmod 11-08。
-- ⚠️ precheck [14] 不合格（被リンク1本以下: whisky-alcohol-dosu・akkeshi-kaitori・bookers-kaitori。/articles/ 一覧からのみ）。11/7 の kw-expansion 由来で本番も同じ状態。ルールどおり deploy せず、ソースのみ push。導線を足したら次のデプロイで一緒に出る。
+- precheck [14] 不合格（被リンク1本以下: whisky-alcohol-dosu・akkeshi-kaitori・bookers-kaitori。11/7 の kw-expansion 由来）→ 親の指示（A）で関連リンクだけ追加（本文なし・アンカーは title から月タグ・動的な中央値を除いたもの）: whisky-sell-guide の links に alcohol-dosu／ichirosu-wwr-kaitori の関連ページに akkeshi／whisky-alcohol-dosu（米国のウイスキー規定の節あり）の関連ページに bookers。3ページとも手書き＝週次再生成の対象外。sitemap lastmod はリンク追加のみなので据え置き。precheck ✅全項目OK（3,011）・ASP 0→0・hikakaku href 606→606。
 - 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4・11/6・11/7 と同じ）。

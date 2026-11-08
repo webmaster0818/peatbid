@@ -465,6 +465,7 @@ export default function WhiskyAlcoholDosuPage() {
               <li><Link href="/articles/whisky-takaku-uru/" className={A}>ウイスキーを高く売るコツ</Link></li>
               <li><Link href="/articles/ardbeg-nv-kaitori/" className={A}>アードベッグの買取相場（ノンエイジ）</Link></li>
               <li><Link href="/articles/bowmore-blackbowmore-kaitori/" className={A}>ブラックボウモアの買取相場（エディション別の度数）</Link></li>
+              <li><Link href="/articles/bookers-kaitori/" className={A}>ブッカーズの買取相場｜バッチ表記・旧ボトルの見分け方</Link></li>
             </ul>
           </div>
 

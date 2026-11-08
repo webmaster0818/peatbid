@@ -316,6 +316,7 @@ export default function IchirosuWwrKaitoriPage() {
               <li><Link href="/articles/ichirosu-double-distilleries-kaitori/" className={linkCls}>イチローズモルト ダブルディスティラリーズの買取相場</Link></li>
               <li><Link href="/articles/ichirosu-card-kaitori/" className={linkCls}>イチローズモルト カードシリーズの買取相場</Link></li>
               <li><Link href="/articles/chichibu-the-first-kaitori/" className={linkCls}>秩父 ザ・ファーストの買取相場</Link></li>
+              <li><Link href="/articles/akkeshi-kaitori/" className={linkCls}>厚岸ウイスキーの買取相場｜寒露・雨水・大寒の落札中央値と二十四節気シリーズ全24本一覧</Link></li>
               <li><Link href="/articles/ichirosu-nisemono-mikata/" className={linkCls}>イチローズモルトの偽物の見分け方</Link></li>
               <li><Link href="/articles/whisky-kaitori-zeikin/" className={linkCls}>ウイスキーを売ったときの税金</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className={linkCls}>ウイスキー買取相場ガイド</Link></li>

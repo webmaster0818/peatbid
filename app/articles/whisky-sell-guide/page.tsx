@@ -41,6 +41,7 @@ const links = [
   ["/articles/whisky-nv-toha/", "年代指定なし(NV)とは", "年数表記との違いと査定"],
   ["/articles/whisky-kaitori-zeikin/", "買取の税金・確定申告", "譲渡所得・控除・申告要否"],
   ["/articles/whisky-hokan-houhou/", "保管方法", "価値を落とさない保存"],
+  ["/articles/whisky-alcohol-dosu/", "ウイスキーのアルコール度数は何度？40〜46%が主流", "法律上の定義と当サイト掲載41銘柄の度数一覧"],
   ["/articles/whisky-nisemono-miwakekata/", "偽物の見分け方", "売る前のチェック"],
   ["/articles/whisky-souzoku-baikyaku/", "相続・遺品のウイスキーを売る", "手順とチェックリスト"],
   ["/articles/whisky-naze-takai/", "なぜ高いのか", "高騰の理由"],
