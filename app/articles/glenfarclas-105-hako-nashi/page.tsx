@@ -37,7 +37,7 @@ export default function Glenfarclas105HakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンファークラス105が箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-02 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-09 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Glenfarclas105HakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">グレンファークラス105</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / ノンエイジ / 希少度 コモン / 市場相場 9,075円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / ノンエイジ / 希少度 コモン / 市場相場 9,878円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/glenfarclas-105-kaitori/" className="text-amber-dark underline">グレンファークラス105の買取相場ガイド</Link></p>
           </div>
 
@@ -68,7 +68,7 @@ export default function Glenfarclas105HakoNashiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンファークラス105の落札が約34件確認でき、落札額の中央値は9,075円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンファークラス105の落札が約32件確認でき、落札額の中央値は9,878円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
 
@@ -106,12 +106,12 @@ export default function Glenfarclas105HakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. グレンファークラス105の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンファークラス105</strong>はスコッチウイスキー（スペイサイド）のノンエイジ（NV）、度数60%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>9,075円</strong>（流通サンプル34件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンファークラス105</strong>はスコッチウイスキー（スペイサイド）のノンエイジ（NV）、度数60%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>9,878円</strong>（流通サンプル32件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>グレンファークラス105の場合、実勢中央値<strong>9,075円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します。</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 9,075円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約7,710〜8,620円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約7,710〜8,350円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約7,260〜8,170円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約6,810〜7,710円（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>グレンファークラス105の場合、実勢中央値<strong>9,878円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します。</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 9,878円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約8,400〜9,380円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約8,400〜9,090円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約7,900〜8,890円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約7,410〜8,400円（75〜85%）
 
-付属品の有無だけで、最大で<strong>約2,270円（相場の約25%）の差</strong>が生じる場合があります。</li></ol>` }} />
+付属品の有無だけで、最大で<strong>約2,470円（相場の約25%）の差</strong>が生じる場合があります。</li></ol>` }} />
 
           <h2 id="section-2">3. 外箱が査定に影響する理由</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は包装であると同時に、<strong>コレクター品として揃っていること</strong>を示す要素です。</p><ol><li><strong>二次流通市場での評価</strong> — 海外のコレクターは特に付属品が揃っていることを重視します</li><li><strong>真贋判定の手がかり</strong> — 箱と本体が一致していることが確認材料になります</li><li><strong>保管時の保護</strong> — 直射日光・摩擦・埃からボトルを守ります</li><li><strong>付属品の収納</strong> — 冊子・カートンをまとめて保管できます</li><li><strong>贈答品としての価値</strong> — 箱なしは贈答品としての再販が難しくなります
@@ -184,7 +184,7 @@ export default function Glenfarclas105HakoNashiPage() {
             <Link href="/articles/glenfarclas-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">グレンファークラス（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-02）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-09）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

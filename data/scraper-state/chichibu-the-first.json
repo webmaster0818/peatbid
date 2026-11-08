@@ -1,11 +1,11 @@
 {
   "slug": "chichibu-the-first",
   "label": "秩父ザファースト",
-  "fetched_at": "2026-10-30T09:01:16",
+  "fetched_at": "2026-11-06T09:01:16",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E7%A7%A9%E7%88%B6%20%E3%82%B6%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88",
-  "avg": 85503,
-  "max": 150000,
+  "avg": 83361,
+  "max": 116300,
   "min": null,
-  "count": 23,
+  "count": 22,
   "ok": true
 }

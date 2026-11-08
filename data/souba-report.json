@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-09",
   "base_date": "2026-05-25",
-  "weeks": 24,
+  "weeks": 25,
   "n_brands": 35,
   "excluded": {
     "data_quality": [
@@ -153,11 +153,16 @@
         "date": "2026-11-02",
         "value": 101.69,
         "n": 35
+      },
+      {
+        "date": "2026-11-09",
+        "value": 101.2,
+        "n": 35
       }
     ],
-    "latest": 101.69,
-    "change_1w_pct": -0.05,
-    "change_4w_pct": -0.22
+    "latest": 101.2,
+    "change_1w_pct": -0.48,
+    "change_4w_pct": -0.45
   },
   "categories": {
     "japanese-whisky": {
@@ -283,10 +288,15 @@
           "date": "2026-11-02",
           "value": 99.14,
           "n": 21
+        },
+        {
+          "date": "2026-11-09",
+          "value": 98.45,
+          "n": 21
         }
       ],
-      "latest": 99.14,
-      "change_1w_pct": 0.02
+      "latest": 98.45,
+      "change_1w_pct": -0.7
     },
     "scotch-whisky": {
       "label": "スコッチ",
@@ -411,115 +421,120 @@
           "date": "2026-11-02",
           "value": 105.51,
           "n": 14
+        },
+        {
+          "date": "2026-11-09",
+          "value": 105.32,
+          "n": 14
         }
       ],
-      "latest": 105.51,
-      "change_1w_pct": -0.14
+      "latest": 105.32,
+      "change_1w_pct": -0.18
     }
   },
   "movers": {
     "up": [
       {
-        "slug": "glenfiddich-30",
-        "name": "グレンフィディック30年",
+        "slug": "macallan-30",
+        "name": "マッカラン30年",
         "category": "scotch-whisky",
-        "median": 64900,
-        "prev_median": 61856,
-        "diff_jpy": 3044,
-        "change_pct": 4.92,
-        "sample_n": 30
-      },
-      {
-        "slug": "karuizawa-12",
-        "name": "軽井沢12年",
-        "category": "japanese-whisky",
-        "median": 80700,
-        "prev_median": 76975,
-        "diff_jpy": 3725,
-        "change_pct": 4.84,
-        "sample_n": 80
-      },
-      {
-        "slug": "yoichi-10",
-        "name": "余市10年",
-        "category": "japanese-whisky",
-        "median": 28500,
-        "prev_median": 27250,
-        "diff_jpy": 1250,
-        "change_pct": 4.59,
-        "sample_n": 294
-      },
-      {
-        "slug": "bowmore-25",
-        "name": "ボウモア25年",
-        "category": "scotch-whisky",
-        "median": 67499,
-        "prev_median": 66000,
-        "diff_jpy": 1499,
-        "change_pct": 2.27,
-        "sample_n": 44
-      },
-      {
-        "slug": "macallan-18",
-        "name": "マッカラン18年",
-        "category": "scotch-whisky",
-        "median": 48500,
-        "prev_median": 47809,
-        "diff_jpy": 691,
-        "change_pct": 1.45,
-        "sample_n": 242
-      }
-    ],
-    "down": [
-      {
-        "slug": "springbank-21",
-        "name": "スプリングバンク21年",
-        "category": "scotch-whisky",
-        "median": 97074,
-        "prev_median": 103613,
-        "diff_jpy": -6539,
-        "change_pct": -6.31,
-        "sample_n": 52
+        "median": 380000,
+        "prev_median": 350543,
+        "diff_jpy": 29457,
+        "change_pct": 8.4,
+        "sample_n": 46
       },
       {
         "slug": "mars-komagatake",
         "name": "マルス駒ヶ岳",
         "category": "japanese-whisky",
-        "median": 7275,
-        "prev_median": 7500,
-        "diff_jpy": -225,
-        "change_pct": -3.0,
+        "median": 7599,
+        "prev_median": 7275,
+        "diff_jpy": 324,
+        "change_pct": 4.45,
         "sample_n": 280
       },
       {
         "slug": "yamazaki-12",
         "name": "山崎12年",
         "category": "japanese-whisky",
-        "median": 20350,
-        "prev_median": 20900,
-        "diff_jpy": -550,
-        "change_pct": -2.63,
-        "sample_n": 232
+        "median": 20661,
+        "prev_median": 20350,
+        "diff_jpy": 311,
+        "change_pct": 1.53,
+        "sample_n": 244
       },
       {
-        "slug": "ichirosu-mwr",
-        "name": "イチローズモルト MWR",
+        "slug": "hakushu-12",
+        "name": "白州12年",
         "category": "japanese-whisky",
-        "median": 7500,
-        "prev_median": 7700,
-        "diff_jpy": -200,
-        "change_pct": -2.6,
-        "sample_n": 278
+        "median": 20898,
+        "prev_median": 20680,
+        "diff_jpy": 218,
+        "change_pct": 1.05,
+        "sample_n": 222
+      },
+      {
+        "slug": "yamazaki-18",
+        "name": "山崎18年",
+        "category": "japanese-whisky",
+        "median": 92422,
+        "prev_median": 91760,
+        "diff_jpy": 662,
+        "change_pct": 0.72,
+        "sample_n": 258
+      }
+    ],
+    "down": [
+      {
+        "slug": "yoichi-20",
+        "name": "余市20年",
+        "category": "japanese-whisky",
+        "median": 231000,
+        "prev_median": 247500,
+        "diff_jpy": -16500,
+        "change_pct": -6.67,
+        "sample_n": 68
+      },
+      {
+        "slug": "glenfiddich-30",
+        "name": "グレンフィディック30年",
+        "category": "scotch-whisky",
+        "median": 62701,
+        "prev_median": 64900,
+        "diff_jpy": -2199,
+        "change_pct": -3.39,
+        "sample_n": 30
+      },
+      {
+        "slug": "hibiki-17",
+        "name": "響17年",
+        "category": "japanese-whisky",
+        "median": 44000,
+        "prev_median": 45500,
+        "diff_jpy": -1500,
+        "change_pct": -3.3,
+        "sample_n": 274
       },
       {
         "slug": "ichirosu-double-distilleries",
         "name": "イチローズモルト ダブルディスティラリーズ",
         "category": "japanese-whisky",
-        "median": 7506,
-        "prev_median": 7700,
-        "diff_jpy": -194,
-        "change_pct": -2.52,
-        "sample_n": 244
+        "median": 7315,
+        "prev_median": 7506,
+        "diff_jpy": -191,
+        "change_pct": -2.54,
+        "sample_n": 246
+      },
+      {
+        "slug": "bowmore-25",
+        "name": "ボウモア25年",
+        "category": "scotch-whisky",
+        "median": 66000,
+        "prev_median": 67499,
+        "diff_jpy": -1499,
+        "change_pct": -2.22,
+        "sample_n": 42
       }
     ]
   },

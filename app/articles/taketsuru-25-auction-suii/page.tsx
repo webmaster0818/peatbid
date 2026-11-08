@@ -37,7 +37,7 @@ export default function Taketsuru25AuctionSuiiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">竹鶴25年のオークション相場推移</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-02 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-09 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Taketsuru25AuctionSuiiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">竹鶴25年</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / 25年熟成 / 希少度 ウルトラ / 市場相場 193,600円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / ニッカ / 25年熟成 / 希少度 ウルトラ / 市場相場 191,000円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/taketsuru-25-kaitori/" className="text-amber-dark underline">竹鶴25年の買取相場ガイド</Link></p>
           </div>
 
@@ -65,34 +65,34 @@ export default function Taketsuru25AuctionSuiiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは竹鶴25年の落札が約38件確認でき、落札額の中央値は193,600円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは竹鶴25年の落札が約38件確認でき、落札額の中央値は191,000円でした。流通量がやや限られ、希少性が比較的高い銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
             <p className="text-sm font-bold text-ink mb-3">竹鶴25年の買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
             <svg viewBox="0 0 640 210" role="img" aria-label="竹鶴25年のヤフオク落札中央値の週次推移グラフ" className="w-full h-auto">
               <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">193,600</text>
-              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">190,800</text>
-              <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">188,000</text>
-              <polyline points="66.0,155.1 116.5,134.3 167.1,134.3 217.6,103.2 268.2,92.9 318.7,38.9 369.3,38.9 419.8,65.9 470.4,65.9 520.9,38.9 571.5,38.9 622.0,38.9" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="66.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 188,000円（サンプル n=40件）</title></circle>
-              <circle cx="116.5" cy="134.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 189,000円（サンプル n=36件）</title></circle>
-              <circle cx="167.1" cy="134.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 189,000円（サンプル n=36件）</title></circle>
-              <circle cx="217.6" cy="103.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 190,500円（サンプル n=36件）</title></circle>
-              <circle cx="268.2" cy="92.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 191,000円（サンプル n=30件）</title></circle>
-              <circle cx="318.7" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 193,600円（サンプル n=34件）</title></circle>
-              <circle cx="369.3" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 193,600円（サンプル n=34件）</title></circle>
-              <circle cx="419.8" cy="65.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 192,300円（サンプル n=36件）</title></circle>
-              <circle cx="470.4" cy="65.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 192,300円（サンプル n=36件）</title></circle>
-              <circle cx="520.9" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 193,600円（サンプル n=38件）</title></circle>
-              <circle cx="571.5" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 193,600円（サンプル n=38件）</title></circle>
-              <circle cx="622.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 193,600円（サンプル n=38件）</title></circle>
-              <text x="618.0" y="28.9" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">193,600円</text>
-              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/17</text>
-              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/21</text>
-              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/2</text>
+              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">191,300</text>
+              <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">189,000</text>
+              <polyline points="66.0,155.1 116.5,155.1 167.1,117.2 217.6,104.6 268.2,38.9 318.7,38.9 369.3,71.7 419.8,71.7 470.4,38.9 520.9,38.9 571.5,38.9 622.0,104.6" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 189,000円（サンプル n=36件）</title></circle>
+              <circle cx="116.5" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 189,000円（サンプル n=36件）</title></circle>
+              <circle cx="167.1" cy="117.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 190,500円（サンプル n=36件）</title></circle>
+              <circle cx="217.6" cy="104.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 191,000円（サンプル n=30件）</title></circle>
+              <circle cx="268.2" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 193,600円（サンプル n=34件）</title></circle>
+              <circle cx="318.7" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 193,600円（サンプル n=34件）</title></circle>
+              <circle cx="369.3" cy="71.7" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 192,300円（サンプル n=36件）</title></circle>
+              <circle cx="419.8" cy="71.7" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 192,300円（サンプル n=36件）</title></circle>
+              <circle cx="470.4" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 193,600円（サンプル n=38件）</title></circle>
+              <circle cx="520.9" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 193,600円（サンプル n=38件）</title></circle>
+              <circle cx="571.5" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 193,600円（サンプル n=38件）</title></circle>
+              <circle cx="622.0" cy="104.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-09: 191,000円（サンプル n=38件）</title></circle>
+              <text x="618.0" y="94.6" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">191,000円</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/24</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/28</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/9</text>
             </svg>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-17〜2026-11-02（週次12点・各点のサンプル数 n=30〜40件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-24〜2026-11-09（週次12点・各点のサンプル数 n=30〜38件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
           </div>
 
 
@@ -102,10 +102,10 @@ export default function Taketsuru25AuctionSuiiPage() {
           </div>
 
           <h2 id="section-0">1. 竹鶴25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>竹鶴25年</strong>はジャパニーズウイスキー（ニッカ）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>193,600円</strong>（流通サンプル38件、当サイトの集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積もりの効果が高い価格帯です。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>竹鶴25年</strong>はジャパニーズウイスキー（ニッカ）の25年熟成、度数43%、希少度は超希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>191,000円</strong>（流通サンプル38件、当サイトの集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積もりの効果が高い価格帯です。</p><p>流通量は<strong>少なめ</strong>の水準です。流通はやや限られており、状態によっては査定額が高くなる傾向があります。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 週次の落札中央値の推移</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 の竹鶴25年は <strong>184,800円</strong>（n=56件）、最新の 2026-11-02 は <strong>193,600円</strong>（n=38件）で、この間の変化は <strong>+4.8%</strong> です。</p><p>集計した24週のうち、最も高い週は <strong>193,600円</strong>（2026-09-21）、最も低い週は <strong>184,800円</strong>（2026-05-25）です。</p><p>各週の値は過去180日分の落札結果の集計のため、週ごとの変化は緩やかに表れます。集計期間が24週分のため、数年単位の値動きについては、このデータからは判断できません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 の竹鶴25年は <strong>184,800円</strong>（n=56件）、最新の 2026-11-09 は <strong>191,000円</strong>（n=38件）で、この間の変化は <strong>+3.4%</strong> です。</p><p>集計した25週のうち、最も高い週は <strong>193,600円</strong>（2026-09-21）、最も低い週は <strong>184,800円</strong>（2026-05-25）です。</p><p>各週の値は過去180日分の落札結果の集計のため、週ごとの変化は緩やかに表れます。集計期間が25週分のため、数年単位の値動きについては、このデータからは判断できません。</p>` }} />
 
           <h2 id="section-2">3. 落札中央値の集計方法</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>集計の手順は、以下のとおりです（<a href="/methodology/">算出方法</a>）。</p><ol><li>銘柄ごとに定めた検索語で、700mlボトルの落札結果を取得します</li><li>第1・第3四分位から四分位範囲の1.5倍を超えて離れた値を、外れ値として除外します</li><li>残った落札価格の中央値と件数を算出します</li><li>件数が20件未満の場合は、データ不足として中央値を掲載しません</li></ol>` }} />
@@ -157,7 +157,7 @@ export default function Taketsuru25AuctionSuiiPage() {
             <Link href="/articles/taketsuru-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-amber-dark font-bold">ブランド一覧</span><p className="text-sm font-bold mt-1">竹鶴の買取価格一覧（全ボトル）</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-02）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-09）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

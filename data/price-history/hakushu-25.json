@@ -6,10 +6,10 @@
   "query_used": "白州25年 700ml",
   "history": [],
   "latest": {
-    "date": "2026-11-02",
+    "date": "2026-11-09",
     "median_jpy": 452550,
     "sample_n": 14,
-    "raw_n": 54,
+    "raw_n": 56,
     "insufficient": true
   },
   "note": "週次自動更新で履歴を蓄積中。詳細は /methodology/ を参照。"

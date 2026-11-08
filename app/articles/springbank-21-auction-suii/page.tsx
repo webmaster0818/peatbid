@@ -37,7 +37,7 @@ export default function Springbank21AuctionSuiiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">スプリングバンク21年のオークション相場推移</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-02 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-09 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Springbank21AuctionSuiiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">スプリングバンク21年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / キャンベルタウン / 21年熟成 / 希少度 ハイ / 市場相場 97,074円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / キャンベルタウン / 21年熟成 / 希少度 ハイ / 市場相場 97,350円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/springbank-21-kaitori/" className="text-amber-dark underline">スプリングバンク21年の買取相場ガイド</Link></p>
           </div>
 
@@ -65,7 +65,7 @@ export default function Springbank21AuctionSuiiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではスプリングバンク21年の落札が約52件確認でき、落札額の中央値は97,074円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではスプリングバンク21年の落札が約50件確認でき、落札額の中央値は97,350円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
@@ -74,25 +74,25 @@ export default function Springbank21AuctionSuiiPage() {
               <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">103,860</text>
               <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">100,467</text>
               <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">97,074</text>
-              <polyline points="66.0,38.9 116.5,38.9 167.1,49.8 217.6,43.1 268.2,43.1 318.7,49.8 369.3,49.8 419.8,43.1 470.4,43.1 520.9,77.4 571.5,43.1 622.0,155.1" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="66.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 103,860円（サンプル n=52件）</title></circle>
-              <circle cx="116.5" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 103,860円（サンプル n=48件）</title></circle>
-              <circle cx="167.1" cy="49.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 103,222円（サンプル n=50件）</title></circle>
-              <circle cx="217.6" cy="43.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 103,613円（サンプル n=52件）</title></circle>
-              <circle cx="268.2" cy="43.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 103,613円（サンプル n=52件）</title></circle>
-              <circle cx="318.7" cy="49.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 103,222円（サンプル n=54件）</title></circle>
-              <circle cx="369.3" cy="49.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 103,222円（サンプル n=58件）</title></circle>
-              <circle cx="419.8" cy="43.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 103,613円（サンプル n=60件）</title></circle>
-              <circle cx="470.4" cy="43.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 103,613円（サンプル n=60件）</title></circle>
-              <circle cx="520.9" cy="77.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 101,611円（サンプル n=60件）</title></circle>
-              <circle cx="571.5" cy="43.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 103,613円（サンプル n=64件）</title></circle>
-              <circle cx="622.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 97,074円（サンプル n=52件）</title></circle>
-              <text x="618.0" y="145.1" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">97,074円</text>
-              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/17</text>
-              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/21</text>
-              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/2</text>
+              <polyline points="66.0,38.9 116.5,49.8 167.1,43.1 217.6,43.1 268.2,49.8 318.7,49.8 369.3,43.1 419.8,43.1 470.4,77.4 520.9,43.1 571.5,155.1 622.0,150.4" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 103,860円（サンプル n=48件）</title></circle>
+              <circle cx="116.5" cy="49.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 103,222円（サンプル n=50件）</title></circle>
+              <circle cx="167.1" cy="43.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 103,613円（サンプル n=52件）</title></circle>
+              <circle cx="217.6" cy="43.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 103,613円（サンプル n=52件）</title></circle>
+              <circle cx="268.2" cy="49.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 103,222円（サンプル n=54件）</title></circle>
+              <circle cx="318.7" cy="49.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 103,222円（サンプル n=58件）</title></circle>
+              <circle cx="369.3" cy="43.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 103,613円（サンプル n=60件）</title></circle>
+              <circle cx="419.8" cy="43.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 103,613円（サンプル n=60件）</title></circle>
+              <circle cx="470.4" cy="77.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 101,611円（サンプル n=60件）</title></circle>
+              <circle cx="520.9" cy="43.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 103,613円（サンプル n=64件）</title></circle>
+              <circle cx="571.5" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 97,074円（サンプル n=52件）</title></circle>
+              <circle cx="622.0" cy="150.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-09: 97,350円（サンプル n=50件）</title></circle>
+              <text x="618.0" y="140.4" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">97,350円</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/24</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/28</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/9</text>
             </svg>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-17〜2026-11-02（週次12点・各点のサンプル数 n=48〜64件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-24〜2026-11-09（週次12点・各点のサンプル数 n=48〜64件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
           </div>
 
 
@@ -102,10 +102,10 @@ export default function Springbank21AuctionSuiiPage() {
           </div>
 
           <h2 id="section-0">1. スプリングバンク21年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>スプリングバンク21年</strong>はスコッチウイスキー（キャンベルタウン）の21年熟成、度数46%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>97,074円</strong>（流通サンプル52件、当サイトの集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積もりの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>スコッチは蒸溜所・地域（キャンベルタウン）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>スプリングバンク21年</strong>はスコッチウイスキー（キャンベルタウン）の21年熟成、度数46%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>97,350円</strong>（流通サンプル50件、当サイトの集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積もりの効果が高い価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>スコッチは蒸溜所・地域（キャンベルタウン）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 週次の落札中央値の推移</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 のスプリングバンク21年は <strong>95,000円</strong>（n=58件）、最新の 2026-11-02 は <strong>97,074円</strong>（n=52件）で、この間の変化は <strong>+2.2%</strong> です。</p><p>集計した24週のうち、最も高い週は <strong>103,860円</strong>（2026-08-17）、最も低い週は <strong>95,000円</strong>（2026-05-25）です。</p><p>各週の値は過去180日分の落札結果の集計のため、週ごとの変化は緩やかに表れます。集計期間が24週分のため、数年単位の値動きについては、このデータからは判断できません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 のスプリングバンク21年は <strong>95,000円</strong>（n=58件）、最新の 2026-11-09 は <strong>97,350円</strong>（n=50件）で、この間の変化は <strong>+2.5%</strong> です。</p><p>集計した25週のうち、最も高い週は <strong>103,860円</strong>（2026-08-17）、最も低い週は <strong>95,000円</strong>（2026-05-25）です。</p><p>各週の値は過去180日分の落札結果の集計のため、週ごとの変化は緩やかに表れます。集計期間が25週分のため、数年単位の値動きについては、このデータからは判断できません。</p>` }} />
 
           <h2 id="section-2">3. 落札中央値の集計方法</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>集計の手順は、以下のとおりです（<a href="/methodology/">算出方法</a>）。</p><ol><li>銘柄ごとに定めた検索語で、700mlボトルの落札結果を取得します</li><li>第1・第3四分位から四分位範囲の1.5倍を超えて離れた値を、外れ値として除外します</li><li>残った落札価格の中央値と件数を算出します</li><li>件数が20件未満の場合は、データ不足として中央値を掲載しません</li></ol>` }} />
@@ -158,7 +158,7 @@ export default function Springbank21AuctionSuiiPage() {
             <Link href="/articles/springbank-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">スプリングバンク（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-02）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-09）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

@@ -5,12 +5,12 @@ import MarketPriceCard from "@/components/MarketPriceCard";
 import priceData from "@/data/price-history/glenfarclas-25.json";
 
 export const metadata: Metadata = {
-  title: '【毎週更新】グレンファークラス25年は箱なしでも買取できる?｜ヤフオク落札中央値21,723円基準【2026年11月】',
-  description: 'グレンファークラス25年を箱なしで売る場合の査定額への影響と、買取を依頼する際の注意点を解説しています。査定額の目安、売却方法、外箱を探す方法を掲載しています。相場データは毎週月曜更新・ヤフオク実落札の中央値（過去180日のIQR外れ値除去後、n=74件）。',
+  title: '【毎週更新】グレンファークラス25年は箱なしでも買取できる?｜ヤフオク落札中央値21,661円基準【2026年11月】',
+  description: 'グレンファークラス25年を箱なしで売る場合の査定額への影響と、買取を依頼する際の注意点を解説しています。査定額の目安、売却方法、外箱を探す方法を掲載しています。相場データは毎週月曜更新・ヤフオク実落札の中央値（過去180日のIQR外れ値除去後、n=72件）。',
 };
 
 function FaqSchema() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '今のグレンファークラス25年の買取相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は21,723円です（サンプル数 n=74件・毎週月曜に更新）。実際の買取査定額は各業者の在庫状況・状態評価により変動するため、複数の業者の相見積もりで実際の金額をご確認ください。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売る前に何を準備すればよいですか？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' } }, { "@type": "Question", "name": '複数の業者の比較は必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、おすすめします。同じグレンファークラス25年でも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' } }, { "@type": "Question", "name": '買取後のキャンセルはできますか？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年の売却益に税金はかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": '需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。' } }] }) }} />;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": '今のグレンファークラス25年の買取相場はいくらですか？', "acceptedAnswer": { "@type": "Answer", "text": '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は21,661円です（サンプル数 n=72件・毎週月曜に更新）。実際の買取査定額は各業者の在庫状況・状態評価により変動するため、複数の業者の相見積もりで実際の金額をご確認ください。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売る前に何を準備すればよいですか？', "acceptedAnswer": { "@type": "Answer", "text": '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' } }, { "@type": "Question", "name": '複数の業者の比較は必要ですか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、おすすめします。同じグレンファークラス25年でも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' } }, { "@type": "Question", "name": '買取後のキャンセルはできますか？', "acceptedAnswer": { "@type": "Answer", "text": '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年の売却益に税金はかかりますか？', "acceptedAnswer": { "@type": "Answer", "text": 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' } }, { "@type": "Question", "name": 'グレンファークラス25年を売る時期はいつがよいですか？', "acceptedAnswer": { "@type": "Answer", "text": '需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。' } }] }) }} />;
 }
 
 export default function Glenfarclas25HakoNashiPage() {
@@ -37,7 +37,7 @@ export default function Glenfarclas25HakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンファークラス25年が箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-02 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-09 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function Glenfarclas25HakoNashiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">グレンファークラス25年</p>
-            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 25年熟成 / 希少度 ミッド / 市場相場 21,723円</p>
+            <p className="text-xs text-warm-gray mt-1">スコッチウイスキー / スペイサイド / 25年熟成 / 希少度 ミッド / 市場相場 21,661円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/glenfarclas-25-kaitori/" className="text-amber-dark underline">グレンファークラス25年の買取相場ガイド</Link></p>
           </div>
 
@@ -68,34 +68,34 @@ export default function Glenfarclas25HakoNashiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンファークラス25年の落札が約74件確認でき、落札額の中央値は21,723円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションではグレンファークラス25年の落札が約72件確認でき、落札額の中央値は21,661円でした。一定の流通があり、比較的換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
             <p className="text-sm font-bold text-ink mb-3">グレンファークラス25年の買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
             <svg viewBox="0 0 640 210" role="img" aria-label="グレンファークラス25年のヤフオク落札中央値の週次推移グラフ" className="w-full h-auto">
-              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">24,500</text>
-              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">23,112</text>
-              <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">21,723</text>
-              <polyline points="66.0,38.9 116.5,51.5 167.1,59.8 217.6,55.6 268.2,70.3 318.7,70.3 369.3,138.4 419.8,138.0 470.4,109.8 520.9,155.1 571.5,149.3 622.0,155.1" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="66.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 24,500円（サンプル n=94件）</title></circle>
-              <circle cx="116.5" cy="51.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 24,200円（サンプル n=90件）</title></circle>
-              <circle cx="167.1" cy="59.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 24,000円（サンプル n=94件）</title></circle>
-              <circle cx="217.6" cy="55.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 24,100円（サンプル n=92件）</title></circle>
-              <circle cx="268.2" cy="70.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 23,750円（サンプル n=88件）</title></circle>
-              <circle cx="318.7" cy="70.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 23,750円（サンプル n=88件）</title></circle>
-              <circle cx="369.3" cy="138.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 22,121円（サンプル n=88件）</title></circle>
-              <circle cx="419.8" cy="138.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 22,132円（サンプル n=86件）</title></circle>
-              <circle cx="470.4" cy="109.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 22,805円（サンプル n=88件）</title></circle>
-              <circle cx="520.9" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 21,723円（サンプル n=82件）</title></circle>
-              <circle cx="571.5" cy="149.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 21,861円（サンプル n=80件）</title></circle>
-              <circle cx="622.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 21,723円（サンプル n=74件）</title></circle>
-              <text x="618.0" y="145.1" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">21,723円</text>
-              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/17</text>
-              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/21</text>
-              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/2</text>
+              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">24,200</text>
+              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">22,930</text>
+              <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">21,661</text>
+              <polyline points="66.0,38.9 116.5,48.1 167.1,43.5 217.6,59.5 268.2,59.5 318.7,134.0 369.3,133.5 419.8,102.7 470.4,152.3 520.9,145.9 571.5,152.3 622.0,155.1" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 24,200円（サンプル n=90件）</title></circle>
+              <circle cx="116.5" cy="48.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 24,000円（サンプル n=94件）</title></circle>
+              <circle cx="167.1" cy="43.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 24,100円（サンプル n=92件）</title></circle>
+              <circle cx="217.6" cy="59.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 23,750円（サンプル n=88件）</title></circle>
+              <circle cx="268.2" cy="59.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 23,750円（サンプル n=88件）</title></circle>
+              <circle cx="318.7" cy="134.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 22,121円（サンプル n=88件）</title></circle>
+              <circle cx="369.3" cy="133.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 22,132円（サンプル n=86件）</title></circle>
+              <circle cx="419.8" cy="102.7" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 22,805円（サンプル n=88件）</title></circle>
+              <circle cx="470.4" cy="152.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 21,723円（サンプル n=82件）</title></circle>
+              <circle cx="520.9" cy="145.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 21,861円（サンプル n=80件）</title></circle>
+              <circle cx="571.5" cy="152.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 21,723円（サンプル n=74件）</title></circle>
+              <circle cx="622.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-09: 21,661円（サンプル n=72件）</title></circle>
+              <text x="618.0" y="145.1" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">21,661円</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/24</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/28</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/9</text>
             </svg>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-17〜2026-11-02（週次12点・各点のサンプル数 n=74〜94件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-24〜2026-11-09（週次12点・各点のサンプル数 n=72〜94件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
           </div>
 
 
@@ -133,12 +133,12 @@ export default function Glenfarclas25HakoNashiPage() {
           </div>
 
           <h2 id="section-0">1. グレンファークラス25年の市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンファークラス25年</strong>はスコッチウイスキー（スペイサイド）の25年熟成、度数43%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>21,723円</strong>（流通サンプル74件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>グレンファークラス25年</strong>はスコッチウイスキー（スペイサイド）の25年熟成、度数43%、希少度は中程度の希少度に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>21,661円</strong>（流通サンプル72件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>標準的</strong>の水準です。一定の流通量があり相場が形成されやすいため、複数の業者を比較することで適正な金額を判断しやすい銘柄です。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 箱なしによる査定額の影響</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>グレンファークラス25年の場合、実勢中央値<strong>21,723円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します。</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 21,723円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約18,460〜20,640円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約18,460〜19,990円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約17,380〜19,550円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約16,290〜18,460円（75〜85%）
+          <div dangerouslySetInnerHTML={{ __html: `<p>グレンファークラス25年の場合、実勢中央値<strong>21,661円</strong>を基準（付属品フル揃い=100%）として、付属品の有無で査定額は次のように変動します。</p><ol><li><strong>箱・冊子・カートン揃い</strong>: 21,661円（100%）</li><li><strong>箱あり・冊子なし</strong>: 約18,410〜20,580円（85〜95%）</li><li><strong>箱なし・冊子あり</strong>: 約18,410〜19,930円（85〜92%）</li><li><strong>箱なし・ラベル良好</strong>: 約17,330〜19,490円（80〜90%）</li><li><strong>箱・冊子なし</strong>: 約16,250〜18,410円（75〜85%）
 
-付属品の有無だけで、最大で<strong>約5,430円（相場の約25%）の差</strong>が生じる場合があります。</li></ol>` }} />
+付属品の有無だけで、最大で<strong>約5,420円（相場の約25%）の差</strong>が生じる場合があります。</li></ol>` }} />
 
           <h2 id="section-2">3. 外箱が査定に影響する理由</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>外箱は包装であると同時に、<strong>コレクター品として揃っていること</strong>を示す要素です。</p><ol><li><strong>二次流通市場での評価</strong> — 海外のコレクターは特に付属品が揃っていることを重視します</li><li><strong>真贋判定の手がかり</strong> — 箱と本体が一致していることが確認材料になります</li><li><strong>保管時の保護</strong> — 直射日光・摩擦・埃からボトルを守ります</li><li><strong>付属品の収納</strong> — 冊子・カートンをまとめて保管できます</li><li><strong>贈答品としての価値</strong> — 箱なしは贈答品としての再販が難しくなります
@@ -183,7 +183,7 @@ export default function Glenfarclas25HakoNashiPage() {
           <h2>グレンファークラス25年に関するよくある質問</h2>
 
           <div className="space-y-3 not-prose">
-            {[{ q: '今のグレンファークラス25年の買取相場はいくらですか？', a: '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は21,723円です（サンプル数 n=74件・毎週月曜に更新）。実際の買取査定額は各業者の在庫状況・状態評価により変動するため、複数の業者の相見積もりで実際の金額をご確認ください。' }, { q: 'グレンファークラス25年を売る前に何を準備すればよいですか？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' }, { q: '複数の業者の比較は必要ですか？', a: 'はい、おすすめします。同じグレンファークラス25年でも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' }, { q: '買取後のキャンセルはできますか？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: 'グレンファークラス25年の売却益に税金はかかりますか？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'グレンファークラス25年を売る時期はいつがよいですか？', a: '需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。' }].map((faq) => (
+            {[{ q: '今のグレンファークラス25年の買取相場はいくらですか？', a: '直近のヤフオク実落札（過去180日・IQR外れ値除去）の中央値は21,661円です（サンプル数 n=72件・毎週月曜に更新）。実際の買取査定額は各業者の在庫状況・状態評価により変動するため、複数の業者の相見積もりで実際の金額をご確認ください。' }, { q: 'グレンファークラス25年を売る前に何を準備すればよいですか？', a: '(1)外箱・冊子・カートン等の付属品を揃える、(2)ボトルの状態を確認する、(3)複数の業者で見積もりを取る、(4)本人確認書類を準備する、(5)振込を希望する場合は銀行口座を準備する、の5点が基本です。' }, { q: '複数の業者の比較は必要ですか？', a: 'はい、おすすめします。同じグレンファークラス25年でも、業者によって**数万〜数十万円**の査定差が生じる場合があります。一括査定と専門店の個別査定を組み合わせる方法が有効です。' }, { q: '買取後のキャンセルはできますか？', a: '業者により異なります。査定後の売却前なら無料キャンセルが基本ですが、契約・受領後はキャンセル不可の場合があります。出張買取の場合、特定商取引法によりクーリングオフ（8日間）が適用されます。' }, { q: 'グレンファークラス25年の売却益に税金はかかりますか？', a: 'はい、譲渡所得として課税対象になります。ただし年間50万円の特別控除があり、給与所得者で他の所得と合算して20万円以下であれば、確定申告は不要です。5年超保有の場合は長期譲渡所得として課税対象額が1/2に軽減されます。' }, { q: 'グレンファークラス25年を売る時期はいつがよいですか？', a: '需要が高まる**年末年始・お中元・お歳暮の時期**は高値の傾向があります。' }].map((faq) => (
               <details key={faq.q} className="bg-white border border-warm-border rounded-xl overflow-hidden">
                 <summary className="flex items-center justify-between p-5 font-medium text-sm">
                   <span>{faq.q}</span>
@@ -211,7 +211,7 @@ export default function Glenfarclas25HakoNashiPage() {
             <Link href="/articles/glenfarclas-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">グレンファークラス（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-02）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-09）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

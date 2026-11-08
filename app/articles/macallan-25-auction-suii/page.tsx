@@ -37,7 +37,7 @@ export default function Macallan25AuctionSuiiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">マッカラン25年のオークション相場推移</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-02 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-09 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -74,25 +74,25 @@ export default function Macallan25AuctionSuiiPage() {
               <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">210,874</text>
               <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">204,437</text>
               <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">198,000</text>
-              <polyline points="66.0,137.0 116.5,137.0 167.1,137.0 217.6,137.0 268.2,146.1 318.7,155.1 369.3,137.0 419.8,46.8 470.4,137.0 520.9,91.9 571.5,38.9 622.0,46.8" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="66.0" cy="137.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-17: 200,000円（サンプル n=142件）</title></circle>
-              <circle cx="116.5" cy="137.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 200,000円（サンプル n=150件）</title></circle>
-              <circle cx="167.1" cy="137.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 200,000円（サンプル n=168件）</title></circle>
-              <circle cx="217.6" cy="137.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 199,999円（サンプル n=168件）</title></circle>
-              <circle cx="268.2" cy="146.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 198,999円（サンプル n=156件）</title></circle>
-              <circle cx="318.7" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 198,000円（サンプル n=162件）</title></circle>
-              <circle cx="369.3" cy="137.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 200,000円（サンプル n=162件）</title></circle>
-              <circle cx="419.8" cy="46.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 210,000円（サンプル n=162件）</title></circle>
-              <circle cx="470.4" cy="137.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 200,000円（サンプル n=162件）</title></circle>
-              <circle cx="520.9" cy="91.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 205,000円（サンプル n=156件）</title></circle>
-              <circle cx="571.5" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 210,874円（サンプル n=164件）</title></circle>
-              <circle cx="622.0" cy="46.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 210,000円（サンプル n=162件）</title></circle>
+              <polyline points="66.0,137.0 116.5,137.0 167.1,137.0 217.6,146.1 268.2,155.1 318.7,137.0 369.3,46.8 419.8,137.0 470.4,91.9 520.9,38.9 571.5,46.8 622.0,46.8" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="137.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 200,000円（サンプル n=150件）</title></circle>
+              <circle cx="116.5" cy="137.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 200,000円（サンプル n=168件）</title></circle>
+              <circle cx="167.1" cy="137.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 199,999円（サンプル n=168件）</title></circle>
+              <circle cx="217.6" cy="146.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 198,999円（サンプル n=156件）</title></circle>
+              <circle cx="268.2" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 198,000円（サンプル n=162件）</title></circle>
+              <circle cx="318.7" cy="137.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 200,000円（サンプル n=162件）</title></circle>
+              <circle cx="369.3" cy="46.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 210,000円（サンプル n=162件）</title></circle>
+              <circle cx="419.8" cy="137.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 200,000円（サンプル n=162件）</title></circle>
+              <circle cx="470.4" cy="91.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 205,000円（サンプル n=156件）</title></circle>
+              <circle cx="520.9" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 210,874円（サンプル n=164件）</title></circle>
+              <circle cx="571.5" cy="46.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 210,000円（サンプル n=162件）</title></circle>
+              <circle cx="622.0" cy="46.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-09: 210,000円（サンプル n=162件）</title></circle>
               <text x="618.0" y="36.8" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">210,000円</text>
-              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/17</text>
-              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/21</text>
-              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/2</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/24</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/28</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/9</text>
             </svg>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-17〜2026-11-02（週次12点・各点のサンプル数 n=142〜168件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-24〜2026-11-09（週次12点・各点のサンプル数 n=150〜168件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
           </div>
 
 
@@ -105,7 +105,7 @@ export default function Macallan25AuctionSuiiPage() {
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>マッカラン25年</strong>はスコッチウイスキー（スペイサイド）の25年熟成、度数43%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>210,000円</strong>（流通サンプル162件、当サイトの集計）。価格帯としては<strong>高額帯</strong>にあたり、業者間の査定差が金額として大きく表れるため、相見積もりの効果が高い価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>スコッチは蒸溜所・地域（スペイサイド）やボトリング、熟成年数で評価が大きく分かれます。同じ年数でも蒸溜所の人気により査定額に差が出るため、銘柄ごとの相場を踏まえた業者選びが有効です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 週次の落札中央値の推移</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 のマッカラン25年は <strong>173,500円</strong>（n=256件）、最新の 2026-11-02 は <strong>210,000円</strong>（n=162件）で、この間の変化は <strong>+21.0%</strong> です。</p><p>集計した24週のうち、最も高い週は <strong>210,874円</strong>（2026-10-26）、最も低い週は <strong>173,500円</strong>（2026-05-25）です。</p><p>各週の値は過去180日分の落札結果の集計のため、週ごとの変化は緩やかに表れます。集計期間が24週分のため、数年単位の値動きについては、このデータからは判断できません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 のマッカラン25年は <strong>173,500円</strong>（n=256件）、最新の 2026-11-09 は <strong>210,000円</strong>（n=162件）で、この間の変化は <strong>+21.0%</strong> です。</p><p>集計した25週のうち、最も高い週は <strong>210,874円</strong>（2026-10-26）、最も低い週は <strong>173,500円</strong>（2026-05-25）です。</p><p>各週の値は過去180日分の落札結果の集計のため、週ごとの変化は緩やかに表れます。集計期間が25週分のため、数年単位の値動きについては、このデータからは判断できません。</p>` }} />
 
           <h2 id="section-2">3. 落札中央値の集計方法</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>集計の手順は、以下のとおりです（<a href="/methodology/">算出方法</a>）。</p><ol><li>銘柄ごとに定めた検索語で、700mlボトルの落札結果を取得します</li><li>第1・第3四分位から四分位範囲の1.5倍を超えて離れた値を、外れ値として除外します</li><li>残った落札価格の中央値と件数を算出します</li><li>件数が20件未満の場合は、データ不足として中央値を掲載しません</li></ol>` }} />
@@ -158,7 +158,7 @@ export default function Macallan25AuctionSuiiPage() {
             <Link href="/articles/macallan-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">マッカラン（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-02）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-09）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>
