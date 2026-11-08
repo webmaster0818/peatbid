@@ -754,3 +754,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **変更なし**: springbank-21・yoichi-10＝冒頭に表あり。11/7 に照合して掲示は記載どおり。
 - **未対応（報告のみ）**: 山崎NV箱なし §2「箱なし・ラベル良好 80〜90%」は共通テンプレで、intro の「大きく変動します」とともに4店の掲示と食い違って読める（冒頭で説明のみ）。他7ブランドのハブ・角度ページ nisemono のチェック2「真贋要素」は未修正。yamazaki-nv-kaitori の冒頭の店舗更新日は 11/5 時点のまま（10日ルール）。
 - 再生成は対象4ページだけ（brand-v3 render_page×2・angle render_page×1・hub build×1）。sitemap は4ページだけ lastmod 11-07。build（heap8192）EXIT0・precheck ✅（3,006）・ASP 0→0・hikakaku href 613→613（deploy の HTML で数えた値）・削除は旧 buildId のみ。source 2d5dbf161・deploy 993636cfe7。WebSearch は米国向けで日本の上位10件は取れず（uridoki・hikakaku・otakaraya のみ）。Indexing は未送信。
+
+### 2026-11-08 朝ルーチン: /track-record/ の数値をビルド出力に合わせて修正（precheck 不合格のため本番未反映）
+- 「パートナー業者」は 11/7 に削除済み＝ソース・deploy HTML とも 0件。「全ページのフッターに PR 表記」は deploy の HTML 3,014/3,014 に footer「※本サイトはプロモーション(PR)を含みます。」＝事実どおり。
+- 11/7 14:48 の kw-expansion（5記事追加・deploy 9038f5424f）で数値が古くなっていた: 公開記事数 545→550・サイト内URL 3,006→3,011（sitemap の loc 数）・「解説記事・銘柄別の総合ページ」35→40（51＋459＋40＝550）。最終更新 11/8、sitemap の track-record だけ lastmod 11-08。
+- ⚠️ precheck [14] 不合格（被リンク1本以下: whisky-alcohol-dosu・akkeshi-kaitori・bookers-kaitori。/articles/ 一覧からのみ）。11/7 の kw-expansion 由来で本番も同じ状態。ルールどおり deploy せず、ソースのみ push。導線を足したら次のデプロイで一緒に出る。
+- 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4・11/6・11/7 と同じ）。

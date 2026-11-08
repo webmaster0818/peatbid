@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 
 const stats = [
   { value: "51", label: "掲載銘柄数", desc: "ジャパニーズ32銘柄・スコッチ19銘柄" },
-  { value: "545", label: "公開記事数", desc: "銘柄ガイド+切り口別+解説記事（都道府県別ページを除く）" },
-  { value: "3,006", label: "サイト内URL", desc: "sitemap.xml登録URL（都道府県別ページ2,445を含む）" },
+  { value: "550", label: "公開記事数", desc: "銘柄ガイド+切り口別+解説記事（都道府県別ページを除く）" },
+  { value: "3,011", label: "サイト内URL", desc: "sitemap.xml登録URL（都道府県別ページ2,445を含む）" },
   { value: "2種", label: "価格データの情報源", desc: "ヤフオクの落札結果・買取店の掲示価格" },
   { value: "毎週", label: "相場更新", desc: "ヤフオク落札データの中央値を毎週月曜に更新" },
   { value: "100%", label: "無料査定推奨", desc: "掲載している3社は、いずれも査定・キャンセルが無料です" },
@@ -19,7 +19,7 @@ const coverage = [
   { region: "ジャパニーズウイスキー", count: 32, brands: "山崎、響、白州、竹鶴、余市、宮城峡、イチローズモルト、軽井沢、羽生、秩父、マルス" },
   { region: "スコッチウイスキー", count: 19, brands: "マッカラン、ボウモア、スプリングバンク、ラフロイグ、アードベッグ、グレンフィディック、グレンファークラス、タリスカー、バルヴェニー、グレンモーレンジ" },
   { region: "切り口別解説", count: 9, brands: "高く売る/偽物見分け/業者ランキング/歴史/希少性/オークション推移/開封済み/箱なし/ラベル汚れ" },
-  { region: "解説記事・銘柄別の総合ページ", count: 35, brands: "相場一覧、高く売るコツ、税金、保管方法、銘柄別の総合ページなど" },
+  { region: "解説記事・銘柄別の総合ページ", count: 40, brands: "相場一覧、高く売るコツ、税金、保管方法、銘柄別の総合ページなど" },
 ];
 
 const milestones = [
@@ -44,7 +44,7 @@ export default function TrackRecordPage() {
       </nav>
 
       <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">PeatBid サイト実績・統計データ</h1>
-      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年11月7日 / 編集: PeatBid編集部</p>
+      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年11月8日 / 編集: PeatBid編集部</p>
 
       <section className="prose">
         <p>
