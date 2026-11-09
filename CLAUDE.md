@@ -776,3 +776,14 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - precheck [14] 不合格（/articles/ichirosu-wwr-kaitori/ の被リンクが一覧のみ）: 11/7 kw-expansion が ichirosu-mwr-kaitori（brand-v3 生成）に手で足した WWR 参考行を 11/9 03:00 の週次が消したため。手書きの akkeshi-kaitori の関連ページに WWR を1行追加（週次で消えない）。
 - 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4〜11/8 と同じ）。
 - build（heap8192）EXIT0 → precheck ✅（3,011）→ *.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId のみ）。ASP 0→0・hikakaku href 606→606。sitemap lastmod は据え置き。source 52e43f559/4b88ad370・deploy aa5c184e85。
+
+### 2026-11-09 成長ルーチン12:00: 竹鶴21年・スプリングバンク15年・マッカラン12年・イチローズDD 冒頭を店別の掲示価格表に／イチローズDD 駒ヶ岳2021 訂正／ブラックボウモア「値段」1行 ✅本番反映済み
+- 対象＝/tmp/g1109/peatbid.com.txt の /tier2/ 以外で 10/31 以降に個別変更のない記事の表示上位4本（yoichi-10・springbank-21 は据え置き指定、hakushu 2頁・yamazaki 系は 10/31 以降に個別変更あり＝対象外）。4本とも quick を hakushu-12（11/8）と同じ cols 指定の店別表に。title・h1 は不変。
+- **/articles/taketsuru-21-kaitori/**（10/30 変更から10日）: 6店（大黒屋 11/9・LINXAS 9/30・ストックラボ 11/9・**キングラムリカー 箱有 60,000円／箱無 −3,000円 11/8＝新規追加**・リカスタ・買取エリート 11/9）。金額は 10/22 から変更なし。推移の答えは維持し、ストックラボのグラフ更新日 2026/11/07（10月は実績なし）・ヤフオク中央値 2026-11-09 63,800円に。desc_full 変更。
+- **/articles/springbank-15-kaitori/**: 掲示はキングラムリカー 32,000円（11/8）・LINXAS 30,000円／箱なし 27,000円（9/30）の2店のみ。ストックラボ・大黒屋の銘柄URLは 404、リカスタは15年の行なし＝「掲示なし」と明記。
+- **/articles/macallan-12-kaitori/**: 6店（ストックラボ・LINXAS（ブランドページ 11/7 更新）・ファイブニーズ・大黒屋・リカスタ・キングラムリカー）の店別表。シェリーオーク 8,000〜9,700円（10月の表は大黒屋 箱無し 7,000円を幅に含めていた→箱なしとして分離）。ストックラボのシェリー／ダブル コレクション（8,500〜9,500／6,000〜7,000円）を stores に追加。desc_full 変更。⚠️title「7,000〜9,700円｜7店比較」は据え置き（買取エリートは旧ボトル・グランレゼルバのみ）。
+- **/articles/ichirosu-double-distilleries-kaitori/**: 6店の店別表。**訂正**: 秩父×駒ヶ岳 2021 の大黒屋 24,000→22,000円（store_note・quick とも）。ストックラボ月別推移に 2026-10 6,100円を追加。desc の「新旧の区別なし5,500〜6,500円」は表（大黒屋 5,000円）と食い違っていた→「新ラベル5,000〜7,000円」に。
+- **/articles/bowmore-blackbowmore-kaitori/**（10/29 変更から11日・親の指定で1行のみ）: quick lead 先頭に発売時の英国小売価格（29〜31年 £80〜150・42年 £2,400・50年 £16,000＝scotchwhisky.com Dave Broom 2016-11-07／DB5 £50,000＝Aston Martin 2020-08、11/9 WebFetch で確認）と「いまの値段の目安は表の実績・落札額」。表は不変。
+- 変更なし: talisker-25（冒頭で「掲示は大黒屋のみ 95,000円」と答え済み・11/9 も大黒屋 95,000円）。
+- 競合: WebSearch は米国向けで日本の上位10件は取れず（uridoki の個別査定・おたからや ASK のみ）→ 店舗公式の掲示で代替。
+- 再生成は brand-v3 render_page×5 のみ。sitemap は週次で 5 ページとも 11-09 済み。build（heap8192）EXIT0・precheck ✅（3,011）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions）。ASP 0→0・hikakaku href 606→606。source b779268dd・deploy 2c42aba7b4（CF 反映 約2分）。Indexing は未送信。
