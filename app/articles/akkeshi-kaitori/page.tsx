@@ -307,6 +307,7 @@ export default function AkkeshiKaitoriPage() {
             <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
               <li><Link href="/articles/chichibu-the-first-kaitori/" className={linkCls}>秩父 ザ・ファーストの買取相場</Link></li>
               <li><Link href="/articles/mars-komagatake-kaitori/" className={linkCls}>駒ヶ岳の買取相場</Link></li>
+              <li><Link href="/articles/ichirosu-wwr-kaitori/" className={linkCls}>イチローズモルト ワインウッドリザーブの買取価格・相場</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className={linkCls}>ウイスキー買取相場ガイド</Link></li>
               <li><Link href="/articles/whisky-souba-kimarikata/" className={linkCls}>ウイスキーの買取価格の決まり方</Link></li>
               <li><Link href="/articles/whisky-sell-guide/" className={linkCls}>ウイスキーを売る手順</Link></li>
