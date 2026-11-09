@@ -769,3 +769,10 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **/articles/hakushu-nv-kaitori/**（11/2 変更・据え置き）: 本番の title「…買取価格【2026年11月最新】9,000〜10,000円｜6店比較・箱なし・2018年からの推移」・冒頭の店別表とも検索語に答えており、CTR を落とす作りは見当たらない（報告のみ）。
 - 競合: WebSearch は米国向けで日本の上位10件は取れず（uridoki の個別査定のみ）→ 店舗公式の掲示で代替。LINXAS・ファイブニーズにあって当ページに無かった「店別の箱あり/箱なし」「旧ラベルの価格」「買取実績の日付」を追加。
 - 再生成は brand-v3 render_page×1・angle render_page×1 のみ。sitemap は2ページだけ lastmod 11-08。build（heap8192）EXIT0・precheck ✅（3,011）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId のみ）。ASP 0→0・hikakaku href 607→607。source f5373e208・deploy 0c8152f4dc（CF 反映 約1分）。Indexing は未送信。
+
+### 2026-11-09 朝ルーチン: 業者ランキング51記事の「総合スコア 47/44/40」を削除（11/8 宣言の既定案 A）
+- 採点の記録がない数字のため、各記事の `<p><strong>総合スコア: NN/50</strong></p>`（1〜3位の節の先頭段落・単独の段落）を削除。表の列・見出し・JSON-LD には元から無い。生成器 generate-angle-pages-v3.py（週次で使用）・v2 も同じ文字列を削除＝週次で戻らない。source 153 → 0（51ファイル×3）・deploy HTML 306 → 0。
+- 据え置き（明日の既定案）：「選定基準（5項目）…各業者ごとに10点満点で評価し、合計点でランキングを作成」= ランキング51記事＋/methodology/（§4 l.84〜93）＝52ページ・deploy HTML 104か所。
+- precheck [14] 不合格（/articles/ichirosu-wwr-kaitori/ の被リンクが一覧のみ）: 11/7 kw-expansion が ichirosu-mwr-kaitori（brand-v3 生成）に手で足した WWR 参考行を 11/9 03:00 の週次が消したため。手書きの akkeshi-kaitori の関連ページに WWR を1行追加（週次で消えない）。
+- 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4〜11/8 と同じ）。
+- build（heap8192）EXIT0 → precheck ✅（3,011）→ *.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId のみ）。ASP 0→0・hikakaku href 606→606。sitemap lastmod は据え置き。source 52e43f559/4b88ad370・deploy aa5c184e85。
