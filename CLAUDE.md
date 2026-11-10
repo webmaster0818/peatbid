@@ -787,3 +787,10 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 変更なし: talisker-25（冒頭で「掲示は大黒屋のみ 95,000円」と答え済み・11/9 も大黒屋 95,000円）。
 - 競合: WebSearch は米国向けで日本の上位10件は取れず（uridoki の個別査定・おたからや ASK のみ）→ 店舗公式の掲示で代替。
 - 再生成は brand-v3 render_page×5 のみ。sitemap は週次で 5 ページとも 11-09 済み。build（heap8192）EXIT0・precheck ✅（3,011）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions）。ASP 0→0・hikakaku href 606→606。source b779268dd・deploy 2c42aba7b4（CF 反映 約2分）。Indexing は未送信。
+
+### 2026-11-10 朝ルーチン: 業者ランキング51記事＋/methodology/ §4 の「5項目を各10点満点で評価し、合計点でランキング」を削除（11/9 宣言の既定案）✅本番反映済み
+- 採点の記録がない説明のため削除。ランキング記事は「選定基準（5項目）」の箇条書きで節を終える（`評判</li></ol>`）。/methodology/ §4 は箇条書きの後に「紹介料の有無は評価に影響しません。」だけ残す。生成器 generate-angle-pages-v3.py（週次）・v2 の同文も削除し、v3 の render_ranking 出力が51ファイルの該当節と一致することを確認＝週次で戻らない。
+- source「10点満点」54→0・「合計点」54→0／deploy HTML「10点満点」104→0・「合計点」104→0（52ページ）。「5点満点」2件は hikakaku-sake-kaitori-kuchikomi の公式クチコミ 3.4（出典あり）＝対象外。
+- 週次で手書きリンクが消える件の調査: 11/9 週次で消えた内部リンク7本＝MWR→WWR（手書き・11/9 復旧済み）＋talisker-25 への「関連銘柄」6本（生成器の自動選定の入れ替わり）。11/2 週次の71本（yoichi-15 関連銘柄24・tier2 ハブの宮城峡12年 47）も生成器の選定変化。10/19・10/26 は0本。現時点のソースで brand-v3/angle-v3/nisemono ハブを一時コピーで再生成すると、消える内部リンク0本。
+- 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4〜11/9 と同じ）。
+- build（heap8192）EXIT0・precheck ✅（3,011）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId のみ）。ASP 0→0・hikakaku href 607→607。sitemap lastmod 据え置き。source 00a21ad9f・deploy 2d9a83caa1（CF 反映 約16分）。Indexing は未送信。
