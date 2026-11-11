@@ -114,6 +114,11 @@ export default function ArticlesIndexPage() {
               { name: "イチローズモルト ワインウッドリザーブ", slug: "ichirosu-wwr-kaitori" },
               { name: "厚岸", slug: "akkeshi-kaitori" },
               { name: "ブッカーズ", slug: "bookers-kaitori" },
+              { name: "ジャパニーズウイスキー", slug: "japanese-whisky-kaitori" },
+              { name: "ジャックダニエル", slug: "jack-daniels-kaitori" },
+              { name: "ブラントン", slug: "blantons-kaitori" },
+              { name: "デュワーズ", slug: "dewars-kaitori" },
+              { name: "フォアローゼス", slug: "four-roses-kaitori" },
             ].map((b) => (
               <Link key={b.slug} href={`/articles/${b.slug}/`} className="text-sm bg-white border border-warm-border text-ink rounded-lg px-3 py-2 hover:border-amber/50 hover:text-amber-dark">
                 {b.name}の買取

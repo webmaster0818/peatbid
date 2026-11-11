@@ -95,6 +95,7 @@ export default function Page() {
           <li><strong>終売・限定</strong>：供給が止まった銘柄。</li>
           <li><strong>需要が厚く流通が安定</strong>：<Link href="/articles/yamazaki-nv-kaitori/">山崎NV</Link> など人気の定番。</li>
         </ul>
+        <p>ジャパニーズウイスキーの銘柄別の落札中央値は <Link href="/articles/japanese-whisky-kaitori/">ジャパニーズウイスキーの買取相場</Link> に一覧でまとめています。</p>
         <p>銘柄ごとの実勢中央値・流通量は <Link href="/souba-ranking/">相場ランキング</Link> で確認できます。</p>
 
         <h2 id="uru">高騰を売却にどう活かすか</h2>

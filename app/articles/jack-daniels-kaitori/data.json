@@ -1,0 +1,116 @@
+{
+  "slug": "jack-daniels-kaitori",
+  "yahoo": {
+    "old-no-7": {
+      "label": "Old No.7（700ml・40%）",
+      "query": "ジャックダニエル 700ml",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-09-27",
+      "end_date_to": "2026-11-09",
+      "raw_n": 150,
+      "title_filtered_n": 40,
+      "filtered_n": 40,
+      "median": 1648,
+      "q1": 1223,
+      "q3": 1813,
+      "min": 690,
+      "max": 2201,
+      "insufficient": false,
+      "regex": {
+        "require": "(ジャック\\s*[・·]?\\s*ダニエル|JACK\\s*DANIEL|Jack\\s*Daniel).*(No\\.?\\s*7|№\\s*7|NO7|No7|オールド|ブラック)|(No\\.?\\s*7|№\\s*7).*(ジャック\\s*ダニエル|JACK\\s*DANIEL)",
+        "exclude": "10\\s*年|シングル\\s*バレル|SINGLE|ゴールド|GOLD|No\\.?\\s*27|ハニー|HONEY|アップル|APPLE|ファイア|FIRE|ジェントルマン|GENTLEMAN|ライ|RYE|ボンデッド|BONDED|レガシー|LEGACY|ブラックベリー|リキュール|ホワイト\\s*ラビット|マクラーレン|McLAREN|MCLAREN|McLaren|1000|1L|リットル|750|旧|オールドタイム|43\\s*[%％]|45\\s*[%％]|グラス|タンブラー|ワイルドターキー|サントリー|グランツ|ケース|ポスト|McL",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "single-barrel-select": {
+      "label": "シングルバレル セレクト（750ml・47%）",
+      "query": "ジャックダニエル シングルバレル",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-05-17",
+      "end_date_to": "2026-11-03",
+      "raw_n": 128,
+      "title_filtered_n": 75,
+      "filtered_n": 70,
+      "median": 4400,
+      "q1": 4000,
+      "q3": 5060,
+      "min": 3500,
+      "max": 7500,
+      "insufficient": false,
+      "regex": {
+        "require": "(シングル\\s*バレル|SINGLE\\s*BARREL).*(セレクト|SELECT|47)|(セレクト|SELECT).*(シングル\\s*バレル|SINGLE\\s*BARREL)",
+        "exclude": "ライ|RYE|ストレングス|STRENGTH|カスク|パーソナル|シルバー|100\\s*プルーフ|ショットグラス|グレンモーレンジ|オールドパー|空",
+        "ml": [
+          750,
+          700
+        ]
+      }
+    },
+    "ten-year": {
+      "label": "10年（バッチ表記・700ml・48.5%）",
+      "query": "ジャックダニエル 700ml",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-10-02",
+      "end_date_to": "2026-11-07",
+      "raw_n": 150,
+      "title_filtered_n": 10,
+      "filtered_n": 7,
+      "median": 15000,
+      "q1": 15000,
+      "q3": 15000,
+      "min": 14700,
+      "max": 15398,
+      "insufficient": true,
+      "regex": {
+        "require": "10\\s*年",
+        "exclude": "",
+        "ml": [
+          700
+        ]
+      }
+    }
+  },
+  "ten_year_examples": [
+    {
+      "price": 15600,
+      "title": "ジャックダニエル 10年 バッチ04 700ml 48.5% テネシーウイスキー",
+      "end": "2026-10-02"
+    },
+    {
+      "price": 15398,
+      "title": "◇注目! ジャック・ダニエル 10年 バッチ4 700ml 48.5% テネシー",
+      "end": "2026-10-20"
+    },
+    {
+      "price": 15000,
+      "title": "ジャックダニエル 10年 テネシーウイスキー BATCH 04 700ml 48.5%",
+      "end": "2026-10-08"
+    },
+    {
+      "price": 15000,
+      "title": "ジャックダニエル 10年 テネシーウイスキー 700ml BATCH 04",
+      "end": "2026-10-06"
+    },
+    {
+      "price": 15000,
+      "title": "ジャックダニエル 10年 テネシーウイスキー BATCH 04 700ml 48.5%",
+      "end": "2026-10-06"
+    },
+    {
+      "price": 15000,
+      "title": "ジャックダニエル 10年 テネシーウイスキー 700ml BATCH 04",
+      "end": "2026-10-06"
+    }
+  ],
+  "official": {
+    "checked_at": "2026-11-11",
+    "old_no_7": "https://www.jackdaniels.com/ja-jp/whiskey/old-no-7",
+    "single_barrel_select": "https://www.jackdaniels.com/ja-jp/whiskey/jack-daniels-single-barrel-select-tennessee-whiskey",
+    "ten_year": "https://www.jackdaniels.com/ja-jp/whiskey/jack-daniels-10-year-old-tennessee-whiskey",
+    "gentleman_jack": "https://www.jackdaniels.com/ja-jp/whiskey/gentleman-jack-double-mellowed-tennessee-whiskey",
+    "history": "https://www.jackdaniels.com/ja-jp/our-story/our-history",
+    "process": "https://www.jackdaniels.com/ja-jp/our-story/our-process"
+  }
+}

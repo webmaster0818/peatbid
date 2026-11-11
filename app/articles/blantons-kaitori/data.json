@@ -1,0 +1,152 @@
+{
+  "slug": "blantons-kaitori",
+  "yahoo": {
+    "standard": {
+      "label": "ブラントン（シングルバレル・750ml・46.5%）",
+      "query": "ブラントン",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-10-21",
+      "end_date_to": "2026-11-10",
+      "raw_n": 150,
+      "title_filtered_n": 28,
+      "filtered_n": 26,
+      "median": 8400,
+      "q1": 6500,
+      "q3": 9500,
+      "min": 5250,
+      "max": 12009,
+      "insufficient": false,
+      "regex": {
+        "require": "ブラントン|Blanton|BLANTON",
+        "exclude": "ゴールド|GOLD|Gold|ブラック|BLACK|Black|ストレート|STRAIGHT|Straight|レッド|Red|RED|ハーフ|375|手袋|カシミヤ|ウィリアム|william|マンドリン|Mandolin|CD|著|エニード|19[89]\\d|200\\d|201\\d|訳アリ|ひび|液面|ダンプ|空|ジョニー|グレンタナー|カミュ|シーバス|古酒|[89]\\d\\s*年|封切れ|首折れ|目減り",
+        "ml": [
+          750
+        ]
+      }
+    },
+    "gold": {
+      "label": "ブラントン ゴールド（750ml・51.5%）",
+      "query": "ブラントン",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-10-22",
+      "end_date_to": "2026-11-10",
+      "raw_n": 150,
+      "title_filtered_n": 10,
+      "filtered_n": 8,
+      "median": 19788,
+      "q1": 18000,
+      "q3": 19999,
+      "min": 15400,
+      "max": 20900,
+      "insufficient": true,
+      "regex": {
+        "require": "ゴールド|GOLD|Gold",
+        "exclude": "199\\d|ハーフ|375",
+        "ml": [
+          750
+        ]
+      }
+    },
+    "black": {
+      "label": "ブラントン ブラック（750ml・40%）",
+      "query": "ブラントン",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-10-23",
+      "end_date_to": "2026-11-10",
+      "raw_n": 150,
+      "title_filtered_n": 18,
+      "filtered_n": 17,
+      "median": 5775,
+      "q1": 5170,
+      "q3": 6160,
+      "min": 3960,
+      "max": 8468,
+      "insufficient": true,
+      "regex": {
+        "require": "ブラック|BLACK|Black",
+        "exclude": "",
+        "ml": [
+          750
+        ]
+      }
+    },
+    "old": {
+      "label": "1980〜2000年代のダンプ年表記",
+      "query": "ブラントン",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-10-22",
+      "end_date_to": "2026-11-09",
+      "raw_n": 150,
+      "title_filtered_n": 29,
+      "filtered_n": 29,
+      "median": 22529,
+      "q1": 9980,
+      "q3": 29000,
+      "min": 777,
+      "max": 46800,
+      "insufficient": false,
+      "regex": {
+        "require": "(ブラントン|Blanton).*(19[89]\\d|200\\d)|(19[89]\\d|200\\d).*(ブラントン|Blanton)",
+        "exclude": "ゴールド|GOLD|Gold|ハーフ|375|ストレート|ブラック|BLACK|訳アリ|封印切れ|蝋ヒビ",
+        "ml": [
+          750
+        ]
+      }
+    }
+  },
+  "gold_examples": [
+    {
+      "price": 50000,
+      "title": "【未開栓】ブラントン ゴールドエディション 1992 ウイスキー バーボン 750ml 51% 洋酒 Blanton Gold Editio",
+      "end": "2026-10-26"
+    },
+    {
+      "price": 28000,
+      "title": "1. 【未開栓・箱付】ブラントン ゴールドエディション バーボンウイスキー 750ml",
+      "end": "2026-10-25"
+    },
+    {
+      "price": 20900,
+      "title": "Blantons（ブラントン）ゴールド エディション 2025 51.5％ 750ml X26J140290",
+      "end": "2026-11-01"
+    },
+    {
+      "price": 19999,
+      "title": "ウイスキー ブラントン シングルバレル ゴールドエディション 2025 750ml 51.5% 重量番号:2(132)①",
+      "end": "2026-11-07"
+    },
+    {
+      "price": 19800,
+      "title": "ブラントン ゴールドエディション 2026 バーボン 750ml 51.5% Blanton's Gold Edition 【X4】",
+      "end": "2026-11-05"
+    },
+    {
+      "price": 19800,
+      "title": "[C299①13]【未開栓】Blanton's GOLD EDITION ブラントン ゴールド エディション バーボン ウイスキー 750m",
+      "end": "2026-10-24"
+    }
+  ],
+  "official": {
+    "checked_at": "2026-11-11",
+    "takara": "https://www.takarashuzo.co.jp/products/blanton/",
+    "tradition": "https://www.blantonsbourbon.com/pages/blanton-tradition",
+    "faq": "https://www.blantonsbourbon.com/pages/faq",
+    "lineup_jp": [
+      {
+        "name": "ブラントン",
+        "abv": "46.5%",
+        "ml": 750
+      },
+      {
+        "name": "ブラントン ゴールド",
+        "abv": "51.5%",
+        "ml": 750
+      },
+      {
+        "name": "ブラントン ブラック",
+        "abv": "40%",
+        "ml": 750
+      }
+    ]
+  }
+}

@@ -263,6 +263,9 @@ export default function BookersKaitoriPage() {
           <div className="bg-cream/40 border border-amber/30 rounded-2xl p-6 my-10 not-prose">
             <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">関連ページ</h2>
             <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
+              <li><Link href="/articles/blantons-kaitori/" className="text-amber-dark hover:text-burgundy underline">ブラントンの買取相場</Link></li>
+              <li><Link href="/articles/four-roses-kaitori/" className="text-amber-dark hover:text-burgundy underline">フォアローゼス（フォアローゼズ）の買取相場</Link></li>
+              <li><Link href="/articles/jack-daniels-kaitori/" className="text-amber-dark hover:text-burgundy underline">ジャックダニエルの買取相場</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
               <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>
               <li><Link href="/articles/whisky-sell-guide/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを売る手順</Link></li>

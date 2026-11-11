@@ -1,0 +1,82 @@
+{
+  "slug": "dewars-kaitori",
+  "yahoo": {
+    "12": {
+      "label": "デュワーズ 12年（700ml・40%）",
+      "query": "デュワーズ 12年 700ml",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-09-12",
+      "end_date_to": "2026-11-08",
+      "raw_n": 150,
+      "title_filtered_n": 66,
+      "filtered_n": 66,
+      "median": 1707,
+      "q1": 1321,
+      "q3": 1923,
+      "min": 730,
+      "max": 2800,
+      "insufficient": false,
+      "regex": {
+        "require": "(デュワーズ|Dewar|DEWAR).*12\\s*(年|YEAR)|12\\s*年.*(デュワーズ|Dewar|DEWAR)",
+        "exclude": "ミズナラ|水楢|ジャパニーズ|8\\s*年|15\\s*年|18\\s*年|ホワイト|アンセスター|Ancestor|ANCESTOR|アバフェルディ|ティーチャーズ|ジョニー|旧",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "12-mizunara": {
+      "label": "デュワーズ 12年 ミズナラ（700ml・40%）",
+      "query": "デュワーズ 12年 700ml",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-09-16",
+      "end_date_to": "2026-11-07",
+      "raw_n": 150,
+      "title_filtered_n": 16,
+      "filtered_n": 14,
+      "median": 2640,
+      "q1": 2420,
+      "q3": 2750,
+      "min": 2220,
+      "max": 3100,
+      "insufficient": true,
+      "regex": {
+        "require": "ミズナラ|水楢",
+        "exclude": "8\\s*年|ジャパニーズ",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "18": {
+      "label": "デュワーズ 18年（750ml・40%）",
+      "query": "デュワーズ 18年",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-05-17",
+      "end_date_to": "2026-11-02",
+      "raw_n": 51,
+      "title_filtered_n": 48,
+      "filtered_n": 45,
+      "median": 6598,
+      "q1": 6200,
+      "q3": 7000,
+      "min": 5060,
+      "max": 7920,
+      "insufficient": false,
+      "regex": {
+        "require": "18\\s*(年|YEAR)",
+        "exclude": "",
+        "ml": [
+          750,
+          700
+        ]
+      }
+    }
+  },
+  "official": {
+    "checked_at": "2026-11-11",
+    "white_label": "https://www.dewars.com/dewars-whiskies/dewars-white-label-whisky/",
+    "y12": "https://www.dewars.com/dewars-whiskies/dewars-12-year-old-whisky/",
+    "y18": "https://www.dewars.com/dewars-whiskies/dewars-18-year-old-whisky/",
+    "japanese_smooth": "https://www.dewars.com/dewars-whiskies/japanese-smooth/"
+  }
+}

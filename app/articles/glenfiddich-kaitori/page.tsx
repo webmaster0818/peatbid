@@ -343,6 +343,7 @@ export default function GlenfiddichKaitoriPage() {
             <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline">ウイスキーの「年代指定なし(NV)」の解説買取での扱いと相場の見方</Link></li>
             <li><Link href="/articles/whisky-souba-kimarikata/" className="text-amber-dark hover:underline">ウイスキーの買取相場の決まり方査定6要素</Link></li>
             <li><Link href="/souba-ranking/" className="text-amber-dark hover:underline">ウイスキー買取相場ランキング（毎週更新）</Link></li>
+            <li><Link href="/articles/dewars-kaitori/" className="text-amber-dark hover:underline">デュワーズの買取相場</Link></li>
           </ul>
 
           <p className="text-xs text-warm-gray mt-8">※本記事の実勢中央値は Yahoo Auctions 過去180日落札データの中央値（IQR外れ値除去後・毎週月曜更新）にもとづく参考値です。買取額を保証するものではなく、業者の買取査定額は各社の在庫状況・キャンペーン・状態評価により変動します。最新の査定額は各業者ページで直接ご確認ください。当サイトはアフィリエイト広告（PR）を含みます。</p>

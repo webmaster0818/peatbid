@@ -1,0 +1,173 @@
+{
+  "slug": "four-roses-kaitori",
+  "yahoo": {
+    "black": {
+      "label": "フォアローゼズ ブラック（700ml・40%）",
+      "query": "フォアローゼズ / フォアローゼス",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-08-05",
+      "end_date_to": "2026-11-07",
+      "raw_n": 292,
+      "title_filtered_n": 22,
+      "filtered_n": 22,
+      "median": 2530,
+      "q1": 2200,
+      "q3": 2858,
+      "min": 1400,
+      "max": 3628,
+      "insufficient": false,
+      "regex": {
+        "require": "ブラック|BLACK|Black",
+        "exclude": "プラチナ|シングル|スモール|ファイン\\s*オールド|Fine\\s*Old|マッチ|ライター|ミラー|グラス",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "platinum": {
+      "label": "フォアローゼズ プラチナ（750ml・43%）",
+      "query": "フォアローゼズ / フォアローゼス",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-07-22",
+      "end_date_to": "2026-11-07",
+      "raw_n": 292,
+      "title_filtered_n": 58,
+      "filtered_n": 51,
+      "median": 6875,
+      "q1": 6598,
+      "q3": 7258,
+      "min": 6149,
+      "max": 7900,
+      "insufficient": false,
+      "regex": {
+        "require": "プラチナ|PLATINUM|Platinum|スーパー\\s*プレミアム|Super\\s*premium",
+        "exclude": "シングル",
+        "ml": [
+          750
+        ]
+      }
+    },
+    "single-barrel": {
+      "label": "フォアローゼズ シングルバレル（50%）",
+      "query": "フォアローゼズ / フォアローゼス",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-07-26",
+      "end_date_to": "2026-11-06",
+      "raw_n": 292,
+      "title_filtered_n": 25,
+      "filtered_n": 19,
+      "median": 4180,
+      "q1": 4000,
+      "q3": 5010,
+      "min": 3410,
+      "max": 7000,
+      "insufficient": true,
+      "regex": {
+        "require": "シングル\\s*バレル|SINGLE\\s*BARREL|Single\\s*Barrel",
+        "exclude": "リザーブ|RESERVE|プライベート|PRIVATE|プラチナ",
+        "ml": [
+          700,
+          750
+        ]
+      }
+    },
+    "yellow": {
+      "label": "フォアローゼズ（イエローラベル・700ml・40%）",
+      "query": "フォアローゼズ / フォアローゼス",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-07-26",
+      "end_date_to": "2026-11-05",
+      "raw_n": 292,
+      "title_filtered_n": 12,
+      "filtered_n": 12,
+      "median": 1410,
+      "q1": 1034,
+      "q3": 1880,
+      "min": 508,
+      "max": 1923,
+      "insufficient": true,
+      "regex": {
+        "require": "フォア\\s*ローゼ[ズス]|Four\\s*Roses|FOUR\\s*ROSES|FourRoses",
+        "exclude": "ブラック|BLACK|Black|プラチナ|PLATINUM|スーパー|シングル|SINGLE|スモール|SMALL|Small|ファイン|Fine|リミテッド|6\\s*年|特級|旧|古酒|ボトルド|グラス|ライター|ZIPPO|Zippo|マッチ|ミラー|看板|腕時計|タオル|コースター|アイストレー|ポスター|ジャックダニエル|ジムビーム",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "limited": {
+      "label": "スモールバッチ リミテッドエディション",
+      "query": "フォアローゼズ / フォアローゼス",
+      "fetched_at": "2026-11-11",
+      "end_date_from": "2026-08-18",
+      "end_date_to": "2026-10-31",
+      "raw_n": 292,
+      "title_filtered_n": 7,
+      "filtered_n": 7,
+      "median": 49500,
+      "q1": 32500,
+      "q3": 57000,
+      "min": 5262,
+      "max": 57200,
+      "insufficient": true,
+      "regex": {
+        "require": "リミテッド|LIMITED|Limited",
+        "exclude": "",
+        "ml": [
+          700,
+          750
+        ]
+      }
+    }
+  },
+  "limited_examples": [
+    {
+      "price": 57200,
+      "title": "【未開栓】FOUR ROSES フォアローゼズ スモールバッチ リミテッドエディション 2014 ウイスキー 700ml 55.8% 箱/冊",
+      "end": "2026-09-24"
+    },
+    {
+      "price": 57000,
+      "title": "ウイスキー フォアローゼス スモールバッチ リミテッドエディション 2014 ＊冊子 箱付 700ml 55.8% バーボン FOUR RO",
+      "end": "2026-10-31"
+    },
+    {
+      "price": 56100,
+      "title": "【未開栓】FOUR ROSES フォアローゼズ スモールバッチ リミテッドエディション 2016 ウイスキー 700ml 55.4% 箱/冊",
+      "end": "2026-09-24"
+    },
+    {
+      "price": 50001,
+      "title": "【未開栓/希少】特級 フォアローゼズ 6年 BOTTLED IN BOND表記 43度 760ml(4/5QUART) 70年代 旧ボトル ",
+      "end": "2026-11-08"
+    },
+    {
+      "price": 49500,
+      "title": "【未開栓】FOUR ROSES フォアローゼズ スモールバッチ リミテッドエディション 2017 ウイスキー 700ml 53.4% 箱付 ",
+      "end": "2026-08-18"
+    },
+    {
+      "price": 44599,
+      "title": "1円～ フォアローゼス スモールバッチ リミテッドエディション 2017 バレルストレングス",
+      "end": "2026-10-18"
+    },
+    {
+      "price": 32500,
+      "title": "フォアローゼズ スモールバッチ リミテッドエディション 2024 54.1% 700ml Four Roses Small Batch Li",
+      "end": "2026-09-20"
+    },
+    {
+      "price": 29800,
+      "title": "【全国送料無料】特級 Four Roses 6years old KENTUCKY STRAIGHT BOURBON WHISKEY 43度",
+      "end": "2026-10-26"
+    }
+  ],
+  "official": {
+    "checked_at": "2026-11-11",
+    "heritage": "https://www.fourrosesbourbon.com/heritage",
+    "process": "https://www.fourrosesbourbon.com/our-process",
+    "bourbon": "https://www.fourrosesbourbon.com/bourbon/four-roses-bourbon",
+    "single_barrel": "https://www.fourrosesbourbon.com/bourbon/single-barrel",
+    "small_batch": "https://www.fourrosesbourbon.com/bourbon/small-batch",
+    "small_batch_select": "https://www.fourrosesbourbon.com/bourbon/small-batch-select"
+  }
+}
