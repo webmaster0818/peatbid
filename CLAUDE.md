@@ -818,3 +818,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **/articles/taketsuru-21-kaitori/**（11/9 変更・据え置き）: 6店を 11/11 に照合＝金額すべて同じ（大黒屋 61,000/58,000・LINXAS 61,000/56,000（9/30）・ストックラボ 60,000〜61,000（11/9）・キングラムリカー 60,000（11/8）・リカスタ 60,000/56,000・買取エリート 〜59,000（11/11 更新））。変更なし。
 - 競合: WebSearch は米国向けで日本の上位10件は取れず（uridoki の個別査定・高く売れるドットコム・買取大吉・hikakaku blog のみ）→ 店舗公式の掲示で代替。
 - 再生成は brand-v3 render_page×1（miyagikyo-12）のみ。sitemap は1ページだけ lastmod 11-11。build（heap8192）EXIT0・precheck ✅（3,011）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId のみ）。ASP 0→0・hikakaku href 606→606。source ba123c956/55d07acfc・deploy 8f22f04e5c。Indexing は未送信。
+
+### 2026-11-11 kw-expansion（licasta ベンチマーク）2日目: 新規5記事 ✅本番反映済み
+- 新規（手書き page.tsx＋data.json・11/7 と同じ型）: japanese-whisky-kaitori（@/data/yahoo-medians.json を読む＝週次ビルドで自動更新・日本洋酒酒造組合の表示基準 PDF）／jack-daniels-kaitori／blantons-kaitori（宝酒造の商品紹介＋Blanton's 公式 FAQ）／dewars-kaitori／four-roses-kaitori。ヤフオクは fetch-yahoo-medians.py と同じ関数（closedsearch・JUNK_RE・ML_RE・IQR・n≥20）で 11/11 に1回ずつ取得しタイトル目視で絞り込み（スクリプト本体は未変更）。n<20 の区分は中央値を出さず落札例のみ。
+- skip: ジャパニーズウイスキー 高騰（whisky-naze-takai と重複）／バランタイン・サントリー オールド・サントリー ザ ウイスキー（公式 403）／イチローズモルト 終売（公式発表を取得できず）。
+- 導線: /articles/ 一覧・bookers（→JD/ブラントン/フォアローゼス）・akkeshi と whisky-naze-takai（→ジャパニーズ）・glenfiddich-kaitori（→デュワーズ）・新規5本の相互リンク（precheck [14] 対策）。track-record 555記事・3,016URL・解説/総合 45。sitemap は新規5＋/articles/・/track-record/ だけ lastmod 11-11。
+- trust-audit の check_page を out/ の5ページに適用＝指摘0。build（heap8192）EXIT0・precheck ✅（3,016）・ASP 0→0・hikakaku href 607→607。source 38e4089b8/ddcbcdf46・deploy 6189b41efd（CF 反映 約1分）。Indexing は枠切れ（0/55）→ sitemap 再送信のみ。
