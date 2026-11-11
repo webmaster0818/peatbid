@@ -3377,17 +3377,17 @@
     }
   },
   "miyagikyo-12": {
-    "checked_at": "2026-10-24",
-    "page_updated": "2026-10-26",
+    "checked_at": "2026-11-11",
+    "page_updated": "2026-11-11",
     "stores": [
       {
         "store": "大黒屋",
         "item": "宮城峡 12年 シングルモルト",
         "cond": "参考上限",
-        "price": "29,000円",
-        "low": 29000,
-        "high": 29000,
-        "updated": "2026-10-19",
+        "price": "31,000円",
+        "low": 31000,
+        "high": 31000,
+        "updated": "2026-11-09",
         "url": "https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/"
       },
       {
@@ -3397,7 +3397,7 @@
         "price": "28,000円",
         "low": 28000,
         "high": 28000,
-        "updated": "2026-09-30",
+        "updated": "2026-11-04",
         "url": "https://linxas.shop/whiskey/nikka-miyagikyo/"
       },
       {
@@ -3417,7 +3417,7 @@
         "price": "30,000円〜31,000円",
         "low": 30000,
         "high": 31000,
-        "updated": "2026-10-24",
+        "updated": "2026-11-09",
         "url": "https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age12/"
       },
       {
@@ -3428,7 +3428,7 @@
         "low": 32000,
         "high": 32000,
         "updated": "日付表記なし",
-        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/"
+        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/miyagikyo10/"
       },
       {
         "store": "大黒屋",
@@ -3437,7 +3437,7 @@
         "price": "28,000円／32,000円／33,000円",
         "low": null,
         "high": null,
-        "updated": "2026-10-19",
+        "updated": "2026-11-09",
         "url": "https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/"
       },
       {
@@ -3447,7 +3447,7 @@
         "price": "18,000円／22,000円",
         "low": null,
         "high": null,
-        "updated": "2026-10-19",
+        "updated": "2026-11-09",
         "url": "https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/"
       },
       {
@@ -3457,7 +3457,7 @@
         "price": "新 19,000円／18,000円・旧 22,000円",
         "low": null,
         "high": null,
-        "updated": "2026-09-30",
+        "updated": "2026-11-04",
         "url": "https://linxas.shop/whiskey/nikka-miyagikyo/"
       },
       {
@@ -3477,7 +3477,7 @@
         "price": "21,000円〜22,000円",
         "low": null,
         "high": null,
-        "updated": "2026-10-24",
+        "updated": "2026-11-09",
         "url": "https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age10/"
       },
       {
@@ -3488,10 +3488,10 @@
         "low": null,
         "high": null,
         "updated": "日付表記なし",
-        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/"
+        "url": "https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/miyagikyo10/"
       }
     ],
-    "store_intro": "各店が自社サイトに公開している宮城峡12年（シングルモルト宮城峡12年・700ml）の参考買取価格を、PeatBid編集部が 2026-10-24 に各ページで確認した値です。「店舗側の更新日」は、各ページに記載されている価格の更新日です。宮城峡10年はPeatBidに個別ページが無いため、【参考】として同じ表に載せています。",
+    "store_intro": "各店が自社サイトに公開している宮城峡12年（シングルモルト宮城峡12年・700ml）の参考買取価格を、PeatBid編集部が 2026-11-11 に各ページで確認した値です。「店舗側の更新日」は、各ページに記載されている価格の更新日です。宮城峡10年はPeatBidに個別ページが無いため、【参考】として同じ表に載せています。",
     "store_note": "宮城峡12年の掲示価格は、5店で 28,000〜32,000円 です（最も低いのは LINXAS 28,000円、最も高いのはリカスタの箱付き・ファイブニーズの 32,000円）。箱の有無で価格を分けているのはリカスタだけで、箱付き 32,000円・箱なし 29,000円 と 3,000円 の差があります。大黒屋が別に掲示している「モルティ＆ソフト」「フルーティ＆リッチ」「シェリー＆スイート」（500ml）は、通常の12年（700ml）とは別の商品です。<br />宮城峡10年は、5店で 18,000〜25,000円 です。大黒屋は新ラベル 18,000円・旧ラベル 22,000円、LINXAS は新ラベル 箱付 19,000円・箱無 18,000円・旧ラベル 22,000円 と、旧ラベルを新ラベルより高く掲示しています。15年は <Link href=\"/articles/miyagikyo-15-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">宮城峡15年の買取価格</Link>、年数表記の無いボトルは <Link href=\"/articles/miyagikyo-nv-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">宮城峡NV（ノンエイジ）の買取価格</Link> をご覧ください。",
     "record_groups": [
       {
@@ -3551,21 +3551,21 @@
     "identify": {
       "intro": "宮城峡は「宮城狭」と書かれることもありますが、正しくは「宮城峡（みやぎきょう）」です。査定に出す前に、次の点を確認してください。",
       "items": [
-        "<strong>年数表記</strong>: ラベルの「10」「12」「15」の数字を確認してください。年数で掲示価格が大きく変わります（大黒屋 10年 新ラベル 18,000円・12年 29,000円は2026-10-19更新、15年 49,000円は2026-11-09更新）。",
+        "<strong>年数表記</strong>: ラベルの「10」「12」「15」の数字を確認してください。年数で掲示価格が大きく変わります（大黒屋 10年 新ラベル 18,000円・12年 31,000円・15年 49,000円、いずれも2026-11-09更新）。",
         "<strong>10年の新旧ラベル</strong>: 大黒屋・LINXAS は10年の旧ラベルを 22,000円 と、新ラベル（18,000〜19,000円）より高く掲示しています。",
         "<strong>容量</strong>: 大黒屋の「モルティ＆ソフト」「フルーティ＆リッチ」「シェリー＆スイート」の12年は500mlで、700mlの12年とは別の行で掲示されています（28,000〜33,000円）。",
         "<strong>箱の有無</strong>: リカスタは12年 箱付き 32,000円・箱なし 29,000円、10年 箱付き 25,000円・箱なし 23,000円 と分けています。箱がある場合はあわせて査定に出してください。"
       ],
-      "caution": "出典: <a href=\"https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age12/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">ストックラボ</a>・<a href=\"https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">大黒屋</a>・<a href=\"https://linxas.shop/whiskey/nikka-miyagikyo/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">LINXAS</a>・<a href=\"https://www.licasta.com/item/whisky/nikka-miyagikyo/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">リカスタ</a>・<a href=\"https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">ファイブニーズ</a>（2026-10-24確認）。判別できない場合は、正面・背面のラベルと箱の写真を添えて査定を依頼してください。"
+      "caution": "出典: <a href=\"https://www.stock-lab.com/osake-kaitori/whiskey/miyagikyo/miyagikyo-age12/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">ストックラボ</a>・<a href=\"https://kaitori.e-daikoku.com/liquor/whisky/miyagikyo/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">大黒屋</a>・<a href=\"https://linxas.shop/whiskey/nikka-miyagikyo/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">LINXAS</a>・<a href=\"https://www.licasta.com/item/whisky/nikka-miyagikyo/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">リカスタ</a>・<a href=\"https://www.sakekaitori.com/whisky/japanese_whiskey/miyagikyo_brand/miyagikyo10/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" className=\"text-amber-dark underline hover:text-burgundy\">ファイブニーズ</a>（2026-11-11確認）。判別できない場合は、正面・背面のラベルと箱の写真を添えて査定を依頼してください。"
     },
     "quick": {
-      "heading": "宮城峡12年の買取価格（2026年10月24日確認）",
+      "heading": "宮城峡12年の買取価格（2026年11月11日確認）",
       "lead": "買取店が自社サイトに掲示している宮城峡12年（700ml・未開封）の買取価格です。宮城峡10年・15年の価格もあわせて載せています。店舗別の内訳と出典は <a href=\"#store-prices\" className=\"text-amber-dark underline hover:text-burgundy\">4-2. 買取店の掲示価格</a> にあります。 年数表記の無い宮城峡（NV）を含む年数別の一覧は <Link href=\"/articles/miyagikyo-nv-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">宮城峡NVと年数別の買取価格</Link> にあります。",
       "rows": [
         [
           "宮城峡12年（700ml）",
           "28,000〜32,000円",
-          "LINXAS 28,000円・大黒屋 29,000円・ストックラボ 30,000〜31,000円・リカスタ 32,000円（箱付き）・ファイブニーズ 32,000円"
+          "LINXAS 28,000円・大黒屋 31,000円・ストックラボ 30,000〜31,000円・リカスタ 32,000円（箱付き）・ファイブニーズ 32,000円"
         ],
         [
           "宮城峡12年 箱なし",
@@ -3583,22 +3583,22 @@
           "LINXAS 45,000円・大黒屋 49,000円・リカスタ 52,000円(箱なし)・ストックラボ 57,000〜58,000円・ファイブニーズ 63,000円（2026-11-10確認）"
         ]
       ],
-      "note": "店舗側の価格の更新日: ストックラボ 2026-10-24・大黒屋 2026-10-19・LINXAS 2026-09-30・リカスタ／ファイブニーズ 記載なし。掲示価格は未開封・状態良好を前提にした参考額で、実際の買取額は査定で決まります。ヤフオク落札中央値は個人間の取引の値で、店舗の掲示価格より高く出ています。"
+      "note": "店舗側の価格の更新日: ストックラボ 2026-11-09・大黒屋 2026-11-09・LINXAS 2026-11-04・リカスタ／ファイブニーズ 記載なし。掲示価格は未開封・状態良好を前提にした参考額で、実際の買取額は査定で決まります。ヤフオク落札中央値は個人間の取引の値で、店舗の掲示価格より高く出ています。"
     },
     "faq_extra": [
       [
         "宮城峡10年の買取価格はいくらですか？",
-        "2026-10-24 に各店のページで確認した掲示価格は、大黒屋 新ラベル 18,000円・旧ラベル 22,000円（2026-10-19更新）、LINXAS 新ラベル 箱付 19,000円・箱無 18,000円・旧ラベル 22,000円（2026-09-30更新）、ストックラボ 21,000〜22,000円、ファイブニーズ 22,000円、リカスタ 箱付き 25,000円・箱なし 23,000円 です。"
+        "2026-11-11 に各店のページで確認した掲示価格は、大黒屋 新ラベル 18,000円・旧ラベル 22,000円（2026-11-09更新）、LINXAS 新ラベル 箱付 19,000円・箱無 18,000円・旧ラベル 22,000円（2026-11-04更新）、ストックラボ 21,000〜22,000円、ファイブニーズ 22,000円、リカスタ 箱付き 25,000円・箱なし 23,000円 です。"
       ],
       [
         "宮城峡12年は箱なしだといくら下がりますか？",
-        "リカスタは箱付き 32,000円・箱なし 29,000円 と、3,000円の差で掲示しています（2026-10-24確認）。大黒屋・LINXAS・ストックラボ・ファイブニーズは箱の有無を分けずに掲示しています。"
+        "リカスタは箱付き 32,000円・箱なし 29,000円 と、3,000円の差で掲示しています（2026-11-11確認）。大黒屋・LINXAS・ストックラボ・ファイブニーズは箱の有無を分けずに掲示しています。"
       ]
     ],
     "toc_label": "4-2. 買取店の掲示価格・買取実績（10年の参考価格つき）",
     "title_full": "宮城峡12年の買取価格・相場{MONTH}28,000〜32,000円｜5店比較・箱なし・10年/15年の価格",
     "h1_full": "宮城峡12年の買取価格・相場{MONTH_H1}5店の掲示価格・買取実績（宮城峡10年の参考価格つき）",
-    "desc_full": "宮城峡12年の買取価格を5店の掲示価格で比較（2026年10月24日確認）。28,000〜32,000円、箱なし29,000円。宮城峡10年（新ラベル・旧ラベル 18,000〜25,000円）と15年の参考価格、各店の買取実績も掲載。"
+    "desc_full": "宮城峡12年の買取価格を5店の掲示価格で比較（2026年11月11日確認）。28,000〜32,000円、箱なし29,000円。宮城峡10年（新ラベル・旧ラベル 18,000〜25,000円）と15年の参考価格、各店の買取実績も掲載。"
   },
   "miyagikyo-15": {
     "checked_at": "2026-11-10",
