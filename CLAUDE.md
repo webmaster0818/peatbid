@@ -804,3 +804,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **宮城峡12年**（ブリーフ外・誤記訂正のみ）: 15年の参考行と見分け方の大黒屋15年だけ訂正。⚠️同ページ本体の大黒屋12年は 29,000円のままだが 11/9 更新の掲示は **31,000円**（10年 新18,000/旧22,000、ストックラボ 12年 30,000〜31,000円は不変）→次回の候補。
 - 競合: WebSearch は米国向けで日本の上位10件は取れず（uridoki・nanboya・otakaraya・買取大吉）。nanboya／おたからや／大吉は価格表が HTML に無く比較できず → 店舗公式の掲示で代替。
 - 再生成は brand-v3 render_page×5（4本＋miyagikyo-12）のみ。sitemap は4ページだけ lastmod 11-10。build（heap8192）EXIT0・precheck ✅（3,011）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId のみ）。ASP 0→0・hikakaku href 606→606。source 75ea45e77・deploy 45763e50f1（CF 反映 約5分）。Indexing は未送信。
+
+### 2026-11-11 朝ルーチン: tier2 長崎・熊本・宮崎 福ちゃん行の公式照合
+- **福ちゃん**（fuku-chan.jp トップ・/liquor/・/site-info/company.php を 11/11 curl）: 店舗一覧11店（札幌北20条・さいたま白岡・千葉祐光・東京八王子・静岡西脇・名古屋高針・名古屋緑滝ノ水・京都伏見・大阪豊中・神戸長田・広島出汐）・事業所14拠点（九州は福岡センターのみ）に長崎・熊本・宮崎なし→「福ちゃん 長崎／長崎県長崎市／全国大手」等3県の行を鹿児島 11/7 と同じ形に（`scripts/patch-tier2-nagasaki-kumamoto-miyazaki-fukuchan-1111.py`・冪等・app 51×3＋prefectures.py）。/liquor/「買取方法は3種類」＝出張・宅配・店舗。出張エリア文言は A/B 待ちで書かない（fuku-chan.info/liquor/area/<県>/ は3県とも「県全域がお酒買取対象エリア」＝熊本ハブの「福ちゃんは『熊本県全域』」と一致）。
+- **バイセル行**: /area/liquor-{nagasaki,kumamoto,miyazaki}/ に「県全域の各市町村にて出張料無料で対応可能」＝県全域の記載は一致・変更なし（「東証上場大手」は A/B 待ち）。⚠️熊本の同ページに「熊本ゆめタウンはません店」の店頭でのお酒買取実績（2025/12/02・熊本市南区）あり＝和歌山ミオ店 10/31 と同型で方式に店頭が無い（未修正・報告のみ）。長崎・宮崎も「県の店舗一覧」の見出しはあるが店名は HTML に無く未確認。
+- 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4〜11/10 と同じ）。
+- sitemap は3県リーフ153だけ lastmod 11-11。build 1回目は next/font 取得エラー（既知・一時的）→2回目（heap8192）EXIT0・precheck ✅（3,011）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId のみ）。ASP 0→0・hikakaku href 606→606。source 39a0cb4a9・deploy d40daeda5e（CF Pages が in_progress のまま30分→空コミット 591ec19aa1、10:16 時点でも両方 in_progress・本番未反映）。Indexing は未送信。福ちゃん行の未照合の残り＝34県（prefectures.py で「全国…」のままの行）。
