@@ -105,14 +105,40 @@ QUICK_STORES = {
         ("リカスタ（出張・宅配）", "「神奈川県は 出張買取 宅配買取 エリアです」と記載（店頭は新宿店）", "https://www.licasta.com/areas/area_kanagawa/"),
         ("大黒屋（出張）", "お酒の訪問査定エリアに横浜市・川崎市・相模原市・横須賀市・藤沢市など19市と県内の町村を掲載", "https://kaitori.e-daikoku.com/visit/liquor/"),
     ]),
+    # 2026-11-12（追加）: local-buyers.json の無い3県。公式で県内店舗を確認できない業者は店頭行に載せない
+    # （ストックラボ・大黒屋（長野）・キングラム（埼玉・広島）は県内店舗なし／確認できず）。出張は公式に県の記載がある業者のみ。
+    "saitama": ("2026-11-12", [
+        ("ファイブニーズ 埼玉大宮店（お酒買取専門店）", "さいたま市大宮区大門町2丁目86 田原ビル1F", "https://www.sakekaitori.com/shop/saitama/"),
+        ("大黒屋（店頭3店）", "質川口店（川口市栄町3-4-15）・質浦和買取センター（さいたま市浦和区東高砂町14-4）・春日部店（春日部市中央8-8-11）。各店舗ページにお酒の買取の記載", "https://shichi.e-daikoku.com/shop/"),
+        ("買取大吉（店頭）", "公式の埼玉県の店舗一覧に156件。「お酒に関しては、一部取り扱っていない店舗がございます」と記載", "https://www.kaitori-daikichi.jp/list/sake/store/saitama-ken/"),
+        ("バイセル（出張）", "「さいたま市をはじめ、川越市や川口市など埼玉県全域」と記載", "https://buysell-kaitori.com/area/liquor-saitama/"),
+        ("LINXAS（出張・宅配）", "「埼玉県は無料出張エリア（関東）」「県内に店舗はありません」と記載", "https://linxas.shop/shops/saitama/"),
+        ("リカスタ（出張・宅配）", "「埼玉県は 出張買取 宅配買取 エリアです」と記載", "https://www.licasta.com/areas/area_saitama/"),
+        ("大黒屋（出張）", "お酒の訪問査定エリアにさいたま市・川口市・川越市・所沢市・越谷市など県内の市町を掲載", "https://kaitori.e-daikoku.com/visit/liquor/"),
+    ]),
+    "nagano": ("2026-11-12", [
+        ("キングラム 上田インター店（店頭・出張）", "上田市住吉277-17。店舗一覧のサービス欄に「酒買取」「出張買取」", "https://kingram.jp/shop/area/chubu/nagano/"),
+        ("買取大吉（店頭）", "公式の長野県の店舗一覧に27件（長野市5件・松本市3件など）。「お酒に関しては、一部取り扱っていない店舗がございます」と記載", "https://www.kaitori-daikichi.jp/list/sake/store/nagano-ken/"),
+        ("バイセル（出張）", "「長野市をはじめ、松本市や上田市など長野県全域」と記載", "https://buysell-kaitori.com/area/liquor-nagano/"),
+        ("LINXAS（出張・宅配）", "「長野県は無料出張エリア（中部）」「県内に店舗はありません」と記載", "https://linxas.shop/shops/nagano/"),
+    ]),
+    "hiroshima": ("2026-11-12", [
+        ("ファイブニーズ 広島店（お酒買取専門店）", "広島市中区三川町5-14 三川町ビル1F", "https://www.sakekaitori.com/shop/hiroshima/"),
+        ("大黒屋 ブランド館 広島本通店（店頭）", "広島市中区本通9-32。店舗ページにお酒の買取の記載", "https://shichi.e-daikoku.com/shop/hiroshima/"),
+        ("買取大吉（店頭）", "公式の中国・四国の店舗一覧で広島県は52件。「お酒に関しては、一部取り扱っていない店舗がございます」と記載", "https://www.kaitori-daikichi.jp/list/sake/store/tyugoku-sikoku/"),
+        ("バイセル（出張）", "「広島市をはじめ、福山市や呉市など広島県全域」と記載", "https://buysell-kaitori.com/area/liquor-hiroshima/"),
+        ("大黒屋（出張）", "お酒の訪問査定エリアに広島市（8区）・呉市・福山市・東広島市・尾道市など県内の市町を掲載", "https://kaitori.e-daikoku.com/visit/liquor/"),
+    ]),
 }
 
 
-def quick_stores_section(name, pref_key):
+def quick_stores_section(name, pref_key, has_local=True):
     q = QUICK_STORES.get(pref_key)
     if not q:
         return ""
     ck, rows = q
+    more = (f'市町村別の全店舗は <a href="#local-stores" className="text-amber-dark underline hover:text-burgundy">{name}内でお酒を買い取る店舗</a> にあります。'
+            if has_local else "店舗の一覧は各社公式の店舗一覧（出典リンク）をご覧ください。")
     a = 'target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy"'
     trs = "\n              ".join(
         f'<tr className="border-b border-warm-border/60"><th scope="row" className="px-3 py-2 text-left font-medium">{esc(s)}</th><td className="px-3 py-2">{esc(d)}</td><td className="px-3 py-2 whitespace-nowrap"><a href="{u}" {a}>公式</a></td></tr>'
@@ -123,7 +149,7 @@ def quick_stores_section(name, pref_key):
       {{/* 0. 持ち込み・出張できる店の早見表（{ck} 公式確認） */}}
       <section aria-labelledby="quick-stores" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
         <h2 id="quick-stores" className="text-lg font-bold text-ink mb-2">{name}でウイスキーを持ち込み・出張で売れる店の早見表（{ck_ja}確認）</h2>
-        <p className="text-sm text-ink mb-3 leading-relaxed">各社の公式サイトで{ck_ja}に確認した内容です。市町村別の全店舗は <a href="#local-stores" className="text-amber-dark underline hover:text-burgundy">{name}内でお酒を買い取る店舗</a> にあります。</p>
+        <p className="text-sm text-ink mb-3 leading-relaxed">各社の公式サイトで{ck_ja}に確認した内容です。{more}</p>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="px-3 py-2">店舗・方式</th><th className="px-3 py-2">所在地・対応範囲（公式の記載）</th><th className="px-3 py-2">出典</th></tr></thead>
@@ -253,7 +279,7 @@ export default function Page() {{
 
       <h1 className="font-display text-3xl md:text-4xl font-semibold mb-3">{name}のウイスキー買取｜実売相場とおすすめ業者</h1>
       <p className="text-warm-gray text-sm mb-2">最終更新: {UPDATED} / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link></p>
-{quick_stores_section(name, pref_key)}
+{quick_stores_section(name, pref_key, bool(lb))}
       <p className="text-sm text-warm-gray mb-8 leading-relaxed">
         本ページの相場は<strong>Yahoo!オークション過去180日の実落札中央値</strong>（{fetched}時点）にもとづく一次データです。{name}でウイスキーを売却する際の、銘柄別の相場・買取目安、宅配買取のおすすめ業者、高く売るためのポイントをまとめています。
       </p>
