@@ -633,11 +633,17 @@ def render_page(b, all_brands):
             <p className="text-sm text-ink leading-relaxed">{INTENT_BANNER[slug_base]}</p>
           </div>
 '''
+    # 2026-11-12 成長ルーチン: 「竹鶴 買取」167@19.1・「竹鶴 黒ラベル 買取」12@9.9 が25年ページに着地。
+    # 銘柄全体＝ハブ、黒ラベル／白ラベル（年数表記なしの竹鶴ピュアモルト）＝taketsuru-pure へ、ハブ導線の下にもう1行。
+    HUB_BANNER_EXTRA = {
+        "taketsuru-25": '年数表記の無い<strong>竹鶴ピュアモルト（黒ラベル・白ラベル）</strong>は別の商品です。黒ラベル・白ラベルを売る場合は <Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark underline font-bold">竹鶴ピュアモルト（黒ラベル・白ラベル）の買取価格 →</Link>',
+    }
     if slug_base in HUB_BANNER:
         _hb_href, _hb_brand, _hb_scope, _hb_label = HUB_BANNER[slug_base]
+        _hb_extra = f'\n            <p className="text-sm text-ink leading-relaxed mt-2">{HUB_BANNER_EXTRA[slug_base]}</p>' if slug_base in HUB_BANNER_EXTRA else ""
         hub_banner_html = f'''
           <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
-            <p className="text-sm text-ink leading-relaxed">このページは<strong>{name}</strong>だけの買取価格です。{_hb_brand}の買取相場を全年数で比べる場合（{_hb_scope}）は <Link href="{_hb_href}" className="text-amber-dark underline font-bold">{_hb_label} →</Link></p>
+            <p className="text-sm text-ink leading-relaxed">このページは<strong>{name}</strong>だけの買取価格です。{_hb_brand}の買取相場を全年数で比べる場合（{_hb_scope}）は <Link href="{_hb_href}" className="text-amber-dark underline font-bold">{_hb_label} →</Link></p>{_hb_extra}
           </div>
 '''
 

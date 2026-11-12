@@ -55,6 +55,7 @@ export default function Taketsuru25KaitoriPage() {
 
           <div className="bg-gold-bg border-2 border-amber rounded-xl p-4 mb-6 not-prose">
             <p className="text-sm text-ink leading-relaxed">このページは<strong>竹鶴25年</strong>だけの買取価格です。竹鶴の買取相場を全年数で比べる場合（ピュアモルト（年数表記なし）・12年・17年・21年・35年・限定品）は <Link href="/articles/taketsuru-kaitori/" className="text-amber-dark underline font-bold">竹鶴の買取価格一覧（全ボトル・7店比較） →</Link></p>
+            <p className="text-sm text-ink leading-relaxed mt-2">年数表記の無い<strong>竹鶴ピュアモルト（黒ラベル・白ラベル）</strong>は別の商品です。黒ラベル・白ラベルを売る場合は <Link href="/articles/taketsuru-pure-kaitori/" className="text-amber-dark underline font-bold">竹鶴ピュアモルト（黒ラベル・白ラベル）の買取価格 →</Link></p>
           </div>
 
           <section aria-labelledby="quick-price" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">

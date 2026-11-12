@@ -80,6 +80,63 @@ def local_section(name, lb):
 '''
 
 
+# 2026-11-12 成長ルーチン: 「ウイスキー 買取 茨城／神奈川」で h1 直下に「持ち込み・出張できる店」の早見表。
+# 各行は 2026-11-12 に各社公式ページを開いて確認した内容だけ（店名・所在地・方式・出典）。
+# 値=(確認日, [(店舗・方式, 所在地・対応範囲, 出典URL)])。下の「県内でお酒を買い取る店舗」（local-buyers.json）とは別の要約。
+# 福ちゃん行は /tier2/ の判断待ち（A/B）のため載せていない。
+QUICK_STORES = {
+    "ibaraki": ("2026-11-12", [
+        ("ストックラボ 茨城日立店（お酒買取専門店）", "日立市東滑川町5丁目1-3 シーマークスクエア2階。店舗ページに「日立市は無料で出張買取・宅配買取を対応」", "https://stock-lab.com/osake-kaitori/shop/ibaraki-hitachi/"),
+        ("大黒屋 質水戸50号バイパス店（店頭・出張）", "水戸市千波町2067-5。お酒の出張買取の訪問査定エリアは水戸市・那珂市・ひたちなか市・小美玉市・笠間市・大洗町・茨城町・城里町・東海村", "https://kaitori.e-daikoku.com/liquor/shop/mito/"),
+        ("質屋かんてい局 つくば店（店頭）", "つくば市松代1丁目9-2。ウイスキー・ブランデーなどお酒・古酒の買取を案内", "https://kanteikyoku.jp/store/tsukuba/news/151741/"),
+        ("駅南やまご質店（水戸市の質店）", "お酒の買取可能エリアとして県央・県北・鹿行・県南・県西の各地区の市町村を掲載", "https://yamago78.jp/trade/liquor/liquor/"),
+        ("買取大吉（店頭）", "公式の茨城県の店舗一覧に74件。「お酒に関しては、一部取り扱っていない店舗がございます」と記載", "https://www.kaitori-daikichi.jp/list/sake/store/ibaraki-ken/"),
+        ("バイセル（出張）", "「水戸市をはじめ、つくば市や日立市など茨城県全域」と記載", "https://buysell-kaitori.com/area/liquor-ibaraki/"),
+        ("LINXAS（出張・宅配）", "「茨城県は無料出張エリア（関東）」「県内に店舗はありません」と記載", "https://linxas.shop/shops/ibaragi/"),
+    ]),
+    "kanagawa": ("2026-11-12", [
+        ("LINXAS 神奈川横浜本店（お酒買取専門店）", "横浜市中区尾上町2-20 大和証券横浜ビル2F。店頭・宅配・出張", "https://linxas.shop/shops/yokohama/"),
+        ("ファイブニーズ 神奈川横浜店（お酒買取専門店）", "横浜市中区羽衣町3丁目63 羽衣ビル1F", "https://www.sakekaitori.com/shop/yokohama/"),
+        ("ストックラボ 溝の口店（お酒買取専門店）", "川崎市高津区溝口2丁目10-36-101（横浜店は店舗一覧で［臨時休業中］）", "https://www.stock-lab.com/osake-kaitori/shop/mizonokuchi/"),
+        ("大黒屋（店頭3店）", "質横浜モアーズ前店（横浜市西区南幸1-2-3）・質横浜買取センター（横浜市西区岡野1-12-13）・ブランド館 川崎店（川崎市川崎区砂子2-3-12）。各店舗ページにお酒の買取の記載", "https://shichi.e-daikoku.com/shop/"),
+        ("キングラム（店頭2店）", "相模大野店（相模原市南区）・武蔵新城店（川崎市中原区）。店舗一覧のサービス欄に「酒買取」", "https://kingram.jp/shop/area/kanto/kanagawa/"),
+        ("買取大吉（店頭）", "公式の神奈川県の店舗一覧に168件。「お酒に関しては、一部取り扱っていない店舗がございます」と記載", "https://www.kaitori-daikichi.jp/list/sake/store/kanagawa-ken/"),
+        ("バイセル（出張）", "「横浜市をはじめ、川崎市や相模原市など神奈川県全域」と記載", "https://buysell-kaitori.com/area/liquor-kanagawa/"),
+        ("リカスタ（出張・宅配）", "「神奈川県は 出張買取 宅配買取 エリアです」と記載（店頭は新宿店）", "https://www.licasta.com/areas/area_kanagawa/"),
+        ("大黒屋（出張）", "お酒の訪問査定エリアに横浜市・川崎市・相模原市・横須賀市・藤沢市など19市と県内の町村を掲載", "https://kaitori.e-daikoku.com/visit/liquor/"),
+    ]),
+}
+
+
+def quick_stores_section(name, pref_key):
+    q = QUICK_STORES.get(pref_key)
+    if not q:
+        return ""
+    ck, rows = q
+    a = 'target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline hover:text-burgundy"'
+    trs = "\n              ".join(
+        f'<tr className="border-b border-warm-border/60"><th scope="row" className="px-3 py-2 text-left font-medium">{esc(s)}</th><td className="px-3 py-2">{esc(d)}</td><td className="px-3 py-2 whitespace-nowrap"><a href="{u}" {a}>公式</a></td></tr>'
+        for s, d, u in rows)
+    y, m, dd = ck.split("-")
+    ck_ja = f"{int(y)}年{int(m)}月{int(dd)}日"
+    return f'''
+      {{/* 0. 持ち込み・出張できる店の早見表（{ck} 公式確認） */}}
+      <section aria-labelledby="quick-stores" className="bg-white border-2 border-amber/40 rounded-xl p-5 mb-8 not-prose">
+        <h2 id="quick-stores" className="text-lg font-bold text-ink mb-2">{name}でウイスキーを持ち込み・出張で売れる店の早見表（{ck_ja}確認）</h2>
+        <p className="text-sm text-ink mb-3 leading-relaxed">各社の公式サイトで{ck_ja}に確認した内容です。市町村別の全店舗は <a href="#local-stores" className="text-amber-dark underline hover:text-burgundy">{name}内でお酒を買い取る店舗</a> にあります。</p>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead><tr className="border-b-2 border-amber/40 text-left text-warm-gray text-xs"><th className="px-3 py-2">店舗・方式</th><th className="px-3 py-2">所在地・対応範囲（公式の記載）</th><th className="px-3 py-2">出典</th></tr></thead>
+            <tbody>
+              {trs}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-warm-gray mt-3 leading-relaxed">取扱品目・営業時間・対応エリアは変わることがあります。来店・申し込みの前に各店舗へご確認ください。</p>
+      </section>
+'''
+
+
 def gen(pref_key):
     pref = load_pref()[pref_key]
     lb = load_local(pref_key)
@@ -149,7 +206,7 @@ def gen(pref_key):
             "公式サイトに記載がある業者では、" + "／".join(f"{b}：{t}" for b, t, _ in lb["dispatch"]) + "。最新の対応エリアは各社にご確認ください。"))
     article_ld = {"@context": "https://schema.org", "@type": "Article",
                   "headline": f"{name}のウイスキー買取｜実売相場とおすすめ業者【2026年最新】",
-                  "datePublished": "2026-05-22", "dateModified": max(fetched, lb["checked_at"]) if lb else fetched,
+                  "datePublished": "2026-05-22", "dateModified": max([fetched] + ([lb["checked_at"]] if lb else []) + ([QUICK_STORES[pref_key][0]] if pref_key in QUICK_STORES else [])),
                   "author": {"@type": "Organization", "name": "PeatBid編集部"},
                   "publisher": {"@type": "Organization", "name": "PeatBid"}}
     itemlist_ld = {"@context": "https://schema.org", "@type": "ItemList", "name": f"{name}のウイスキー銘柄別 実売相場", "itemListElement": items}
@@ -196,6 +253,7 @@ export default function Page() {{
 
       <h1 className="font-display text-3xl md:text-4xl font-semibold mb-3">{name}のウイスキー買取｜実売相場とおすすめ業者</h1>
       <p className="text-warm-gray text-sm mb-2">最終更新: {UPDATED} / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link></p>
+{quick_stores_section(name, pref_key)}
       <p className="text-sm text-warm-gray mb-8 leading-relaxed">
         本ページの相場は<strong>Yahoo!オークション過去180日の実落札中央値</strong>（{fetched}時点）にもとづく一次データです。{name}でウイスキーを売却する際の、銘柄別の相場・買取目安、宅配買取のおすすめ業者、高く売るためのポイントをまとめています。
       </p>
