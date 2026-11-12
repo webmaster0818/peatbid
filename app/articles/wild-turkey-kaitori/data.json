@@ -1,0 +1,90 @@
+{
+  "slug": "wild-turkey-kaitori",
+  "yahoo": {
+    "13": {
+      "label": "ワイルドターキー 13年 ディスティラーズリザーブ（700ml・45.5%）",
+      "query": "ワイルドターキー 13年",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-05-25",
+      "end_date_to": "2026-11-06",
+      "raw_n": 65,
+      "title_filtered_n": 46,
+      "filtered_n": 46,
+      "median": 23575,
+      "q1": 22500,
+      "q3": 24750,
+      "min": 20000,
+      "max": 27097,
+      "insufficient": false,
+      "regex": {
+        "require": "(ワイルド\\s*ターキー|WILD\\s*TURKEY).*13\\s*年|13\\s*年.*(ワイルド\\s*ターキー)",
+        "exclude": "8\\s*年|12\\s*年|ジャンク|FREEDOM|フリーダム",
+        "ml": [
+          700,
+          750
+        ]
+      }
+    },
+    "rare-breed-584": {
+      "label": "ワイルドターキー レアブリード（58.4%表記・700ml）",
+      "query": "ワイルドターキー レアブリード",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-06-06",
+      "end_date_to": "2026-10-27",
+      "raw_n": 150,
+      "title_filtered_n": 20,
+      "filtered_n": 20,
+      "median": 3685,
+      "q1": 3300,
+      "q3": 4288,
+      "min": 2750,
+      "max": 4290,
+      "insufficient": false,
+      "regex": {
+        "require": "(レア\\s*ブリード|RARE\\s*BREED).*58(\\.4)?\\s*[%％度]",
+        "exclude": "旧|特級|ジャンク|古酒|\\d{2}\\s*年",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "8": {
+      "label": "ワイルドターキー 8年（700ml・50.5%）",
+      "query": "ワイルドターキー 8年",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-10-04",
+      "end_date_to": "2026-11-10",
+      "raw_n": 150,
+      "title_filtered_n": 29,
+      "filtered_n": 28,
+      "median": 2420,
+      "q1": 2100,
+      "q3": 15180,
+      "min": 1200,
+      "max": 18700,
+      "insufficient": true,
+      "regex": {
+        "require": "(ワイルド\\s*ターキー|WILD\\s*TURKEY).*8\\s*年|8\\s*年.*(ワイルド\\s*ターキー)",
+        "exclude": "12\\s*年|13\\s*年|旧|特級|オールド|ゴールド|限定(?!発送)|リミテッド|ジャンク|ZIPPO|ジッポー|陶器|金キャップ|赤|レッド|43\\.4|750",
+        "ml": [
+          700
+        ]
+      },
+      "bimodal": true,
+      "all_n": 29,
+      "low_n": 21,
+      "low_min": 1200,
+      "low_max": 4200,
+      "high_n": 8,
+      "high_min": 15180,
+      "high_max": 40000
+    }
+  },
+  "official": {
+    "y8": "https://www.wildturkeybourbon.com/ja-jp/products/wild-turkey-8-yo/",
+    "rare_breed": "https://www.wildturkeybourbon.com/ja-jp/products/rare-breed/",
+    "standard": "https://www.wildturkeybourbon.com/ja-jp/products/wild-turkey-standard/",
+    "heritage": "https://www.wildturkeybourbon.com/ja-jp/our-heritage/",
+    "checked_at": "2026-11-12"
+  }
+}

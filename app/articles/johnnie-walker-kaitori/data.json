@@ -1,0 +1,80 @@
+{
+  "slug": "johnnie-walker-kaitori",
+  "yahoo": {
+    "blue": {
+      "label": "ジョニーウォーカー ブルーラベル（750ml）",
+      "query": "ジョニーウォーカー ブルーラベル",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-10-12",
+      "end_date_to": "2026-11-11",
+      "raw_n": 150,
+      "title_filtered_n": 85,
+      "filtered_n": 80,
+      "median": 16013,
+      "q1": 14850,
+      "q3": 16940,
+      "min": 12000,
+      "max": 18700,
+      "insufficient": false,
+      "regex": {
+        "require": "ブルー\\s*ラベル|BLUE\\s*LABEL|Blue\\s*Label",
+        "exclude": "キング|KING|ゴースト|GHOST|エリュシオン|ELUSION|XR|オールデスト|カスク|CASKS|エクスオルディネア|リミテッド|LIMITED|限定(?!発送)|イヤー|干支|旧|ブラック|ゴールド|グリーン|ハイボール|液漏れ|ジャンク|現状|1L|SONS|ブランデー|\\d{2}\\s*年",
+        "ml": [
+          750
+        ]
+      }
+    },
+    "black": {
+      "label": "ジョニーウォーカー ブラックラベル 12年（700ml・40%）",
+      "query": "ジョニーウォーカー ブラックラベル 12年",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-10-25",
+      "end_date_to": "2026-11-10",
+      "raw_n": 150,
+      "title_filtered_n": 31,
+      "filtered_n": 27,
+      "median": 1648,
+      "q1": 1305,
+      "q3": 1813,
+      "min": 970,
+      "max": 2500,
+      "insufficient": false,
+      "regex": {
+        "require": "ブラック\\s*ラベル|BLACK\\s*LABEL",
+        "exclude": "ダブル|DOUBLE|トリプル|シェリー|SHERRY|旧|特級|金キャップ|オールド|ガロン|オリジン|ORIGIN|ブルー|ゴールド|グリーン|18\\s*年|ハイボール|限定(?!発送)|リミテッド|ジャンク",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "gold-reserve": {
+      "label": "ジョニーウォーカー ゴールドラベル リザーブ（700ml・40%）",
+      "query": "ジョニーウォーカー ゴールドラベル",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-09-14",
+      "end_date_to": "2026-11-08",
+      "raw_n": 150,
+      "title_filtered_n": 25,
+      "filtered_n": 21,
+      "median": 3628,
+      "q1": 3518,
+      "q3": 3628,
+      "min": 3298,
+      "max": 3872,
+      "insufficient": false,
+      "regex": {
+        "require": "ゴールド\\s*ラベル.*リザーブ|GOLD\\s*LABEL.*RESERVE",
+        "exclude": "18\\s*年|ブルー|ブラック|グリーン|旧|特級|センテナリー|限定(?!発送)|リミテッド|ジャンク",
+        "ml": [
+          700
+        ]
+      }
+    }
+  },
+  "official": {
+    "story": "https://www.johnniewalker.com/ja-jp/whisky-guide/the-johnnie-walker-story",
+    "black": "https://www.johnniewalker.com/ja-jp/our-whisky/core-range/johnnie-walker-black-label",
+    "blue": "https://www.johnniewalker.com/ja-jp/our-whisky/core-range/johnnie-walker-blue-label",
+    "checked_at": "2026-11-12"
+  }
+}

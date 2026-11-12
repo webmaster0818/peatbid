@@ -1,0 +1,101 @@
+{
+  "slug": "glenlivet-kaitori",
+  "yahoo": {
+    "12-double-oak": {
+      "label": "ザ・グレンリベット 12年 ダブルオーク（700ml）",
+      "query": "グレンリベット 12年",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-10-11",
+      "end_date_to": "2026-11-11",
+      "raw_n": 150,
+      "title_filtered_n": 26,
+      "filtered_n": 24,
+      "median": 3298,
+      "q1": 3078,
+      "q3": 3408,
+      "min": 2600,
+      "max": 3573,
+      "insufficient": false,
+      "regex": {
+        "require": "(グレン\\s*リベット|GLENLIVET).*12\\s*年.*ダブル\\s*オーク|ダブル\\s*オーク.*12\\s*年",
+        "exclude": "15\\s*年|18\\s*年|ケイデンヘッド|CADENHEAD|カリラ|ライセンス|ファースト",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "18": {
+      "label": "ザ・グレンリベット 18年（700ml）",
+      "query": "グレンリベット 18年",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-08-25",
+      "end_date_to": "2026-11-11",
+      "raw_n": 150,
+      "title_filtered_n": 104,
+      "filtered_n": 98,
+      "median": 8470,
+      "q1": 8052,
+      "q3": 8949,
+      "min": 7000,
+      "max": 10230,
+      "insufficient": false,
+      "regex": {
+        "require": "(グレン\\s*リベット|GLENLIVET|Glenlivet).*18\\s*(年|YEAR)|18\\s*年.*(グレン\\s*リベット)",
+        "exclude": "12\\s*年|15\\s*年|21\\s*年|25\\s*年|特級|旧|古酒",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "founders": {
+      "label": "ザ・グレンリベット ファウンダーズリザーブ（700ml・40%）",
+      "query": "グレンリベット ファウンダーズリザーブ",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-05-19",
+      "end_date_to": "2026-10-25",
+      "raw_n": 34,
+      "title_filtered_n": 27,
+      "filtered_n": 26,
+      "median": 2343,
+      "q1": 2000,
+      "q3": 2554,
+      "min": 1980,
+      "max": 3520,
+      "insufficient": false,
+      "regex": {
+        "require": "ファウンダーズ\\s*リザーブ|FOUNDER",
+        "exclude": "12\\s*年|18\\s*年",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "12": {
+      "label": "ザ・グレンリベット 12年（ダブルオーク以外・700ml）",
+      "query": "グレンリベット 12年",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-10-08",
+      "end_date_to": "2026-11-10",
+      "raw_n": 150,
+      "title_filtered_n": 8,
+      "filtered_n": 8,
+      "median": 3465,
+      "q1": 3000,
+      "q3": 4400,
+      "min": 2126,
+      "max": 5190,
+      "insufficient": true,
+      "regex": {
+        "require": "(グレン\\s*リベット|GLENLIVET|Glenlivet).*12\\s*(年|YEAR)|12\\s*年.*(グレン\\s*リベット)",
+        "exclude": "15\\s*年|18\\s*年|21\\s*年|25\\s*年|特級|旧|古酒|ナデューラ|ファウンダー|ダブルオーク|イリシット|ILLICIT|カリビアン|フレンチ|ライセンス|ファースト|ピュアモルト|イタリア|ダブル|オールド|ケイデンヘッド|CADENHEAD|カリラ|記念|エディション",
+        "ml": [
+          700
+        ]
+      }
+    }
+  },
+  "official": {
+    "pernod": "https://www.pernod-ricard.com/en/brands/the-glenlivet",
+    "checked_at": "2026-11-12"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "glen-grant-kaitori",
+  "yahoo": {
+    "10": {
+      "label": "グレングラント 10年（700ml・40%）",
+      "query": "グレングラント 10年",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-05-16",
+      "end_date_to": "2026-11-08",
+      "raw_n": 80,
+      "title_filtered_n": 40,
+      "filtered_n": 38,
+      "median": 2565,
+      "q1": 2310,
+      "q3": 2748,
+      "min": 2100,
+      "max": 3080,
+      "insufficient": false,
+      "regex": {
+        "require": "グレン\\s*グラント.*10\\s*年|10\\s*年.*グレン\\s*グラント",
+        "exclude": "12\\s*年|15\\s*年|18\\s*年|5\\s*年|特級|旧|ピュアモルト|古酒|バランタイン",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "12": {
+      "label": "グレングラント 12年（700ml・43%）",
+      "query": "グレングラント 12年",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-05-18",
+      "end_date_to": "2026-11-07",
+      "raw_n": 74,
+      "title_filtered_n": 27,
+      "filtered_n": 26,
+      "median": 3628,
+      "q1": 3355,
+      "q3": 3740,
+      "min": 3000,
+      "max": 4500,
+      "insufficient": false,
+      "regex": {
+        "require": "グレン\\s*グラント.*12\\s*年|12\\s*年.*グレン\\s*グラント",
+        "exclude": "10\\s*年|15\\s*年|18\\s*年|特級|旧|古酒|シェリー|オロロソ|40\\s*[%％]",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "12-sherry": {
+      "label": "グレングラント 12年 オロロソシェリーカスクフィニッシュ（700ml・40%）",
+      "query": "グレングラント 12年",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-05-17",
+      "end_date_to": "2026-11-11",
+      "raw_n": 74,
+      "title_filtered_n": 17,
+      "filtered_n": 17,
+      "median": 6600,
+      "q1": 5776,
+      "q3": 7148,
+      "min": 5390,
+      "max": 8880,
+      "insufficient": true,
+      "regex": {
+        "require": "(グレン\\s*グラント.*12\\s*年|12\\s*年.*グレン\\s*グラント).*(シェリー|オロロソ)",
+        "exclude": "10\\s*年|15\\s*年|18\\s*年|特級|旧|古酒",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "18": {
+      "label": "グレングラント 18年（700ml・43%）",
+      "query": "グレングラント 18年",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-05-27",
+      "end_date_to": "2026-10-25",
+      "raw_n": 18,
+      "title_filtered_n": 14,
+      "filtered_n": 13,
+      "median": 13000,
+      "q1": 12500,
+      "q3": 13500,
+      "min": 11990,
+      "max": 14500,
+      "insufficient": true,
+      "regex": {
+        "require": "グレン\\s*グラント.*18\\s*年|18\\s*年.*グレン\\s*グラント",
+        "exclude": "10\\s*年|12\\s*年|15\\s*年",
+        "ml": [
+          700
+        ]
+      }
+    }
+  },
+  "official": {
+    "campari_academy": "https://www.campariacademy.com/training/products-category/glen-grant-scotch-whiskey/",
+    "checked_at": "2026-11-12"
+  }
+}

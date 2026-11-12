@@ -1,0 +1,56 @@
+{
+  "slug": "100-pipers-kaitori",
+  "yahoo": {
+    "deluxe": {
+      "label": "100パイパーズ デラックス（750/760ml・43%）",
+      "query": "100パイパーズ",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-05-19",
+      "end_date_to": "2026-11-10",
+      "raw_n": 58,
+      "title_filtered_n": 30,
+      "filtered_n": 28,
+      "median": 1649,
+      "q1": 1210,
+      "q3": 2068,
+      "min": 990,
+      "max": 3600,
+      "insufficient": false,
+      "regex": {
+        "require": "パイパーズ|PIPERS",
+        "exclude": "12\\s*年|プレミアム|PREMIUM|カティ|J&B|グレンサイド|プレジデント|レミー|ラーセン|ホワイトホース|液面|ジャンク|ミニ",
+        "ml": [
+          750,
+          760
+        ]
+      }
+    },
+    "12": {
+      "label": "100パイパーズ 12年 プレミアム（750ml・43%）",
+      "query": "100パイパーズ",
+      "fetched_at": "2026-11-12",
+      "end_date_from": "2026-05-24",
+      "end_date_to": "2026-10-28",
+      "raw_n": 58,
+      "title_filtered_n": 12,
+      "filtered_n": 12,
+      "median": 3150,
+      "q1": 2311,
+      "q3": 4000,
+      "min": 1200,
+      "max": 4070,
+      "insufficient": true,
+      "regex": {
+        "require": "(パイパーズ|PIPERS).*(12\\s*年|プレミアム|PREMIUM)|12\\s*年.*(パイパーズ|PIPERS)",
+        "exclude": "セット|カティ",
+        "ml": [
+          750
+        ]
+      }
+    }
+  },
+  "official": {
+    "pernod": "https://www.pernod-ricard.com/en/brands/100-pipers",
+    "checked_at": "2026-11-12"
+  }
+}
