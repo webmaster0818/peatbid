@@ -839,3 +839,11 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 競合: WebSearch は米国向けで日本の上位10件は取れず（uridoki・高く売れるドットコム・買取大吉・hikakaku blog・おたからや・なんぼや）。
 - 再生成は brand-v3 render_page×2・gen-tier2-area×2（＋national-link パッチ・差分なし）のみ。sitemap は4ページだけ lastmod 11-12。build（heap8192）EXIT0・precheck ✅（3,016）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId のみ）。ASP 0→0・hikakaku href 606→606。source ffaa8c0e9・deploy 87b04445b2（CF 反映 約1分）。Indexing は未送信。
 - **追加（同日・コーディネーター指示）/tier2/saitama/・nagano/・hiroshima/**: 同じ型の早見表を `QUICK_STORES` に追加（11/12 公式確認・県内店舗を公式で確認できた業者だけ・福ちゃん行なし）。埼玉＝ファイブニーズ大宮店・大黒屋3店（川口・浦和・春日部）・買取大吉156件・バイセル・LINXAS・リカスタ・大黒屋出張／長野＝キングラム上田インター店（稲里下氷鉋店はサービス欄に酒買取なし＝除外）・買取大吉27件・バイセル・LINXAS／広島＝ファイブニーズ広島店・大黒屋ブランド館広島本通店（質広島庚午買取センターはページにお酒の記載が無い＝除外）・買取大吉52件（中国・四国の一覧。広島県単独の URL は 404）・バイセル・大黒屋出張。ストックラボは3県とも店舗なし、LINXAS 広島は出張エリア外、リカスタ 長野・広島は宅配のみ＝載せない。local-buyers.json の無い県はリンク先を「各社公式の店舗一覧」にする分岐。source b784b45d6・deploy cdab38f0ac（CF 反映 約2分）。precheck ✅（3,016）・ASP 0→0・hikakaku 606→606・sitemap 3ページのみ 11-12。
+
+### 2026-11-12 kw-expansion（licasta ベンチマーク）3日目: 新規5記事
+- 新規（手書き page.tsx＋data.json・11/7/11/11 と同じ型）: glen-grant-kaitori（Campari Academy＝Campari Group公式。glengrant.com は名前解決不可）／glenlivet-kaitori（Pernod Ricard 公式ブランドページ。theglenlivet.com は 403）／johnnie-walker-kaitori（JW 日本公式）／wild-turkey-kaitori（WT 日本公式・希望小売価格あり）／100-pipers-kaitori（Pernod Ricard 公式。Yahoo は「ハンドレッドパイパーズ」2件のみ→「100パイパーズ」で取得）。
+- ヤフオクは fetch-yahoo-medians.py の関数を import した /tmp 補助（closedsearch・JUNK_RE・ML_RE・IQR・n≥20。本体未変更）で 11/12 取得・タイトル目視で区分。注意: 除外語に「50ml」を書くと「750ml」に当たる（ML_RE の容量判定で足りるので除外語に容量を書かない）。
+- 中央値なし（n<20 等）: グレングラント12年シェリー(17)・18年(13)／グレンリベット12年(ダブルオーク以外 8)／100パイパーズ12年(12)／WT8年は同表記で 1,200〜4,200円21件・15,180円以上8件の二極化→件数のみ。WT12年・JW18年は別ボトル混在で集計せず。
+- skip: サントリー 碧・角・ローヤル（公式 403）。
+- 導線: /articles/ 一覧・bookers（→WT）・dewars（→JW）・新規5本の相互リンク。track-record 560記事・3,021URL・解説/総合 50。sitemap は新規5＋/articles/・/track-record/ だけ lastmod 11-12。
+- trust-audit check_page 指摘0・ASP 0。build（heap8192）EXIT0・precheck ✅（3,021）。source 16e283af6・deploy 2af757b0cd。Indexing は枠切れ（0/55）→ sitemap 再送信のみ（log の 11/7・11/11 分も未送信のまま）。
