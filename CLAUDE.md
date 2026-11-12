@@ -824,3 +824,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - skip: ジャパニーズウイスキー 高騰（whisky-naze-takai と重複）／バランタイン・サントリー オールド・サントリー ザ ウイスキー（公式 403）／イチローズモルト 終売（公式発表を取得できず）。
 - 導線: /articles/ 一覧・bookers（→JD/ブラントン/フォアローゼス）・akkeshi と whisky-naze-takai（→ジャパニーズ）・glenfiddich-kaitori（→デュワーズ）・新規5本の相互リンク（precheck [14] 対策）。track-record 555記事・3,016URL・解説/総合 45。sitemap は新規5＋/articles/・/track-record/ だけ lastmod 11-11。
 - trust-audit の check_page を out/ の5ページに適用＝指摘0。build（heap8192）EXIT0・precheck ✅（3,016）・ASP 0→0・hikakaku href 607→607。source 38e4089b8/ddcbcdf46・deploy 6189b41efd（CF 反映 約1分）。Indexing は枠切れ（0/55）→ sitemap 再送信のみ。
+
+### 2026-11-12 朝ルーチン: tier2 徳島・愛媛・高知 福ちゃん行の公式照合
+- **福ちゃん**（fuku-chan.jp トップ・/liquor/・/site-info/company.php を 11/12 curl）: 店舗一覧11店・事業所14拠点（中四国は広島センター／広島出汐店のみ）に徳島・愛媛・高知なし→「福ちゃん 徳島／徳島県徳島市」「福ちゃん 松山／愛媛県松山市」「福ちゃん 高知／高知県高知市」（各「全国大手」）を長崎・熊本・宮崎 11/11 と同じ形に（`scripts/patch-tier2-tokushima-ehime-kochi-fukuchan-1112.py`・冪等・app 51×3＋prefectures.py）。出張エリア文言は A/B 待ちで書かない（fuku-chan.info/liquor/area/{tokushima,ehime,kouchi}/ は県全域。高知の slug は kouchi＝/kochi/ は 404）。ハブのカード「出張の対応エリアは公式サイトに記載がありません」も A/B 待ちで据え置き。
+- **バイセル行**: /area/liquor-{tokushima,ehime,kochi}/ に「県全域にお住まいのお客様」＝一致・変更なし（「東証上場大手」は A/B 待ち）。⚠️徳島（徳島市の店頭買取実績・南田宮の加盟店）と愛媛（松山市 旭サンモール店の店頭お酒買取実績 2025/12/14・松山大街道店）は同ページに店頭の記載あり＝熊本と同型で方式に店頭が無い（未修正・報告のみ）。
+- 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4〜11/11 と同じ）。
+- sitemap は3県リーフ153だけ lastmod 11-12。build（heap8192）EXIT0・precheck ✅（3,016）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId のみ）。ASP 0→0・hikakaku href 607→607。source 41ce8fdc1・deploy 0d17349497。Indexing は未送信。福ちゃん行の未照合の残り＝31県。
