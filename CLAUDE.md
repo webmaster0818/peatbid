@@ -830,3 +830,11 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **バイセル行**: /area/liquor-{tokushima,ehime,kochi}/ に「県全域にお住まいのお客様」＝一致・変更なし（「東証上場大手」は A/B 待ち）。⚠️徳島（徳島市の店頭買取実績・南田宮の加盟店）と愛媛（松山市 旭サンモール店の店頭お酒買取実績 2025/12/14・松山大街道店）は同ページに店頭の記載あり＝熊本と同型で方式に店頭が無い（未修正・報告のみ）。
 - 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4〜11/11 と同じ）。
 - sitemap は3県リーフ153だけ lastmod 11-12。build（heap8192）EXIT0・precheck ✅（3,016）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId のみ）。ASP 0→0・hikakaku href 607→607。source 41ce8fdc1・deploy 0d17349497（CF Pages が30分 in_progress→空コミット f2b1f80dbe、10:12 本番反映を確認：3県4URLで新行2・旧「福ちゃん 徳島/松山/高知」0・「全国大手」0）。Indexing は未送信。福ちゃん行の未照合の残り＝31県。
+
+### 2026-11-12 成長ルーチン12:00: 白州NV 掲示の再確認・竹鶴25年 ピュアモルト導線・茨城/神奈川 県ハブに店の早見表 ✅本番反映済み
+- **/articles/hakushu-nv-kaitori/**（「白州 ノンエイジ 買取価格」280@8.8c5・「…買取」68@10.1）: 6店を 11/12 に照合＝金額すべて 11/2 と同じ（LINXAS 9,700円 6/6・ファイブニーズ 9,500円 9/30・ストックラボ 9,000〜10,000円 最終更新 11/12・大黒屋 9,000円 11/11・リカスタ 9,500円・キングラムリカー 9,600円 11/11／180ml も同じ）。確認日（冒頭表・4-2・note・desc）と店舗側の更新日だけ更新。title 不変（desc は既に「レンジ＋確認日」）。
+- **/articles/taketsuru-25-kaitori/**（「竹鶴 買取」167@19.1・「竹鶴 黒ラベル 買取」12@9.9 が着地）: h1 直下のハブ導線の下に「年数表記の無い竹鶴ピュアモルト（黒ラベル・白ラベル）は別商品 → taketsuru-pure-kaitori」1行（generate-brand-pages-v3.py `HUB_BANNER_EXTRA`＝週次でも残る）。25年の表・ハブの表は不変。
+- **/tier2/ibaraki/・/tier2/kanagawa/**: h1 直下に「持ち込み・出張で売れる店の早見表」（gen-tier2-area.py `QUICK_STORES`・11/12 に各社公式で確認した行だけ。福ちゃんは A/B 待ちで載せない）。買取大吉の県別一覧は 11/12 時点で茨城 74件・神奈川 168件（local-buyers.json の 72・158 は 10/24〜25 時点＝下の全店表は未更新）。dateModified は QUICK_STORES の確認日も見る。
+- 未着手: nagano・saitama・hiroshima は local-buyers.json に県内店舗データが無く、公式照合からの作成が必要＝今回は見送り。springbank-21・glenmorangie-signet は冒頭表あり・11/12 照合で差なし（シグネットは依然掲示なし）。
+- 競合: WebSearch は米国向けで日本の上位10件は取れず（uridoki・高く売れるドットコム・買取大吉・hikakaku blog・おたからや・なんぼや）。
+- 再生成は brand-v3 render_page×2・gen-tier2-area×2（＋national-link パッチ・差分なし）のみ。sitemap は4ページだけ lastmod 11-12。build（heap8192）EXIT0・precheck ✅（3,016）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId のみ）。ASP 0→0・hikakaku href 606→606。source ffaa8c0e9・deploy 87b04445b2（CF 反映 約1分）。Indexing は未送信。
