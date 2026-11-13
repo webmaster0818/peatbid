@@ -863,3 +863,11 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - ⚠️未対応: ardbeg-uigeadail の概要表「蒸溜所/メーカー アイラ」「アイラが手がけるノンエイジ」は地域名を蒸溜所扱いした生成器の記述（他のアイラ銘柄も同型の可能性）＝範囲が広いので報告のみ。
 - 競合: WebSearch は米国向けで日本の上位10件は取れず（uridoki・hikakaku・takakuureru・買取大吉の店舗ページ程度）。
 - build 1回目は next/font 取得エラー（既知）→2回目（heap8192）EXIT0・precheck ✅（3,021）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions）。deploy の実差分は6ページ＋sitemap＋buildId のみ。sitemap は6ページだけ lastmod 11-13（generate-sitemap.mjs は無関係ページも動かすため使わず手で6行）。ASP 0→0・hikakaku href 607→607。source fa0774004/f02e7454c・deploy baf6adf0bb（CF 反映 約2分）。Indexing は未送信。
+
+### 2026-11-13 kw-expansion（sake-souba／licasta queue）4日目: 新規4記事 ✅本番反映済み
+- 新規（手書き page.tsx＋data.json・11/7〜11/12 と同じ型・サブエージェント4本で並行作成）: kanosuke-kaitori（kanosuke.com 公式。/collections/products は 429 のためトップの製品欄・about・company・faq・news）／makers-mark-kaitori（makersmark.com 公式。日本の希望小売価格は書かない＝サントリー 403）／grants-kaitori（grantswhisky.com/en。日本ロケールなし・ABV/容量は公式記載なし→出品表記と明記）／royal-salute-kaitori（Pernod Ricard 公式ブランドページのみ。royalsalute.com・chivas.com 403）。
+- ヤフオクは fetch-yahoo-medians.py の関数を /tmp 補助から import（本体未変更）・11/13 取得・タイトル目視。中央値: 嘉之助 48% 6,048(62)・ピーテッド 6,598(55)・シェリー 7,975(29)・DD 6,325(83)・HIOKI 6,408(38)／メーカーズ レッドトップ 1,813(58)・46 3,850(37)・CS 6,023(23)・ブラックトップ 51,700(30)・ゴールドトップLE 54,998(27)／グランツ ロイヤル12年 1,710(48)・21年 7,812(28)・ファイネスト 1,109(23)／ロイヤルサルート21年 700ml 7,800(99)。n<20 は範囲のみ。
+- skip（queue に理由）: サントリー系・バランタイン・マッカラン・アードベッグ（25年はサブエージェントが25分試行→429/403）・ニッカ・Diageo 系は公式取得不可。厚岸二十四節気（akkeshi-kaitori）・グレンフィディック15年（glenfiddich-kaitori）は重複。→ queue の空欄0。
+- 導線: /articles/ 一覧・dewars（→グランツ）・100-pipers（→グランツ/RS）・glenlivet（→RS）・wild-turkey（→メーカーズ）・akkeshi（→嘉之助）。track-record 564記事・3,025URL・解説/総合 54。sitemap は新規4＋/articles/・/track-record/ だけ lastmod 11-13。
+- makers-mark の description 161字で precheck [11b] 不合格→短縮。build 1回目 next/font 既知エラー→再ビルド EXIT0・precheck ✅（3,025）・trust-audit 指摘0・ASP 0。source a806fd481・deploy cd81a6a36e（CF 反映 約1.5分）。Indexing API：log.csv 全19本 200（残34/55）。
+- 次: 競合の再提案を MediaXAI に依頼済み（kingram-liquor 6/30・lv-liquor 5/30・3社目は基準を満たす候補なし。Discord 1570767250720423998）。
