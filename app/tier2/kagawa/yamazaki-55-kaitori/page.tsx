@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>バイセル 香川</strong></td><td>香川県全域</td><td>出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん 高松</strong></td><td>香川県高松市</td><td>出張・宅配・店頭</td><td>全国大手</td></tr></tbody>
+              <tbody><tr><td><strong>バイセル 香川</strong></td><td>香川県全域</td><td>出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん</strong></td><td>香川県内に店舗・事業所なし</td><td>出張・宅配</td><td>株式会社REGATEが運営する買取専門店。店舗一覧（11店）・会社概要の事業所（14拠点）に香川県はありません。お酒の買取ページに出張・宅配・店舗の3方式を記載（2026年11月13日確認）</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>
