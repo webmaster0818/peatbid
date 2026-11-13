@@ -848,3 +848,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 導線: /articles/ 一覧・bookers（→WT）・dewars（→JW）・新規5本の相互リンク。track-record 560記事・3,021URL・解説/総合 50。sitemap は新規5＋/articles/・/track-record/ だけ lastmod 11-12。
 - trust-audit check_page 指摘0・ASP 0。build（heap8192）EXIT0・precheck ✅（3,021）。source 16e283af6・deploy 2af757b0cd。Indexing は枠切れ（0/55）→ sitemap 再送信のみ（log の 11/7・11/11 分も未送信のまま）。
 - queue の status 空欄は 11/12 で0件＝次回は競合の再提案（手順1）から。
+
+### 2026-11-13 朝ルーチン: tier2 富山・福井・岡山・山口・香川 福ちゃん行の公式照合／徳島・愛媛 バイセル行に店頭
+- **福ちゃん**（fuku-chan.jp トップ・/liquor/・/site-info/company.php を 11/13 curl）: 店舗一覧11店・事業所14拠点は 11/12 と同じ。富山・福井・岡山・山口・香川なし→旧「福ちゃん 富山／富山県富山市」「福井／福井県福井市」「岡山／岡山県岡山市／出張・宅配・店頭」「山口／山口県山口市」「高松／香川県高松市／出張・宅配・店頭」（各「全国大手」）を徳島・愛媛・高知 11/12 と同じ形に（`scripts/patch-tier2-fukuchan-buysell-1113.py`・冪等・app 51×5＋prefectures.py）。岡山・香川の「店頭」も誤りだった。出張エリア文言は A/B 待ちで書かない（fuku-chan.info/liquor/area/<県>/ は5県とも県全域）。福ちゃん行の未照合の残り＝26県。
+- **バイセル行（徳島・愛媛）**: /area/liquor-{tokushima,ehime}/ の「県の店舗案内」と店舗ページ（11/13 curl）＝徳島田宮店（徳島市南田宮2丁目1-26・運営会社：エース環境設計株式会社・10:00〜18:00 土日祝休）／松山大街道店（松山市大街道1-5-8・運営会社：株式会社ユニケット・10:00〜19:00）。両店ページに「酒類の買取に関しては20歳以上のお客様のみ対象」→和歌山ミオ店 10/31 と同じ形で「バイセル 徳島田宮店／徳島市南田宮2丁目1-26（運営会社：…）。出張は徳島県全域／店頭・出張・宅配」等に（同スクリプト）。特徴欄「東証上場大手」は A/B 待ちで据え置き。県ハブのカードは既に「宅配・出張・店頭」。愛媛ページの店頭実績にある「旭サンモール店」は現在の店舗一覧に無い（書いていない）。
+- 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4〜11/12 と同じ）。
+- sitemap は7県リーフ357だけ lastmod 11-13。build（heap8192）EXIT0・precheck ✅（3,021）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。削除は旧 buildId のみ）。ASP 0→0・hikakaku href（app）602→602・out 606。source 5cfb7dec3・deploy a14abc6902（CF Pages が約29分 in_progress→09:54 本番反映を確認：7県14URLで新行2・旧行0・「全国大手」0・sitemap 11-13 は357）。Indexing は未送信。
