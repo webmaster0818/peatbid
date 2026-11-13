@@ -230,6 +230,7 @@ export default function DewarsKaitoriPage() {
               <li><Link href="/articles/glenfiddich-kaitori/" className={linkCls}>グレンフィディックの買取価格</Link></li>
               <li><Link href="/articles/glenmorangie-kaitori/" className={linkCls}>グレンモーレンジの買取価格</Link></li>
               <li><Link href="/articles/jack-daniels-kaitori/" className={linkCls}>ジャックダニエルの買取相場</Link></li>
+              <li><Link href="/articles/grants-kaitori/" className={linkCls}>グランツの買取相場</Link></li>
               <li><Link href="/articles/johnnie-walker-kaitori/" className={linkCls}>ジョニーウォーカーの買取相場</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className={linkCls}>ウイスキー買取相場ガイド</Link></li>
               <li><Link href="/articles/whisky-sell-guide/" className={linkCls}>ウイスキーを売る手順</Link></li>

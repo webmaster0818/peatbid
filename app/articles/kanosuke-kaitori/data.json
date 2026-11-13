@@ -1,0 +1,248 @@
+{
+  "slug": "kanosuke-kaitori",
+  "yahoo": {
+    "single-malt": {
+      "label": "シングルモルト嘉之助（700ml・48%）",
+      "query": "嘉之助 シングルモルト 48%",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-07-13",
+      "end_date_to": "2026-11-01",
+      "raw_n": 275,
+      "title_filtered_n": 64,
+      "filtered_n": 62,
+      "median": 6048,
+      "q1": 5498,
+      "q3": 6160,
+      "min": 4510,
+      "max": 7150,
+      "insufficient": false,
+      "regex": {
+        "require": "(嘉之助|KANOSUKE|かのすけ).*48\\s*(?:[%％度]|％)|48\\s*[%％度].*(嘉之助|KANOSUKE)",
+        "exclude": "限定(?!発送|配送)|リミテッド|LIMITED|Limited|エディション|EDITION|Edition|エクスクルーシブ|EXCLUSIVE|Exclusive|JAL|ジャパンエアライン|鹿児島|KAGOSHIMA|ニューボーン|NEW\\s*BORN|コラボ|COLLABORATION|PB|プライベート|記念|周年|フェス|メッセ|Messe|シングルカスク|Cask\\s*№|蒸溜祭|蒸留祭|モダンモルト|アーティスト|ARTIST|龍虎|三郎丸|ジャンク|検[:：]|ピート|ピーテッド|PEAT|Peat|シェリー|SHERRY|Sherry|IPA|ヴァッテッド|VATTED|ダブル|DOUBLE|ポット|POT|ブレンド|BLEND|カスク|CASK",
+        "ml": [
+          700
+        ]
+      },
+      "queries_merged": [
+        "嘉之助 シングルモルト 48%",
+        "嘉之助"
+      ]
+    },
+    "peated": {
+      "label": "シングルモルト嘉之助 ピーテッド（700ml・48%）",
+      "query": "嘉之助 ピーテッド",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-05-17",
+      "end_date_to": "2026-11-11",
+      "raw_n": 318,
+      "title_filtered_n": 61,
+      "filtered_n": 55,
+      "median": 6598,
+      "q1": 6330,
+      "q3": 6899,
+      "min": 5330,
+      "max": 8415,
+      "insufficient": false,
+      "regex": {
+        "require": "(ピーテッド|PEATED|Peated)",
+        "exclude": "限定(?!発送|配送)|リミテッド|LIMITED|Limited|エディション|EDITION|Edition|エクスクルーシブ|EXCLUSIVE|Exclusive|JAL|ジャパンエアライン|鹿児島|KAGOSHIMA|ニューボーン|NEW\\s*BORN|コラボ|COLLABORATION|PB|プライベート|記念|周年|フェス|メッセ|Messe|シングルカスク|Cask\\s*№|蒸溜祭|蒸留祭|モダンモルト|アーティスト|ARTIST|龍虎|三郎丸|ジャンク|検[:：]|シェリー|SHERRY|IPA|ダブル|DOUBLE|ポット|POT|ヘビリー|HEAVILY|50\\s*PPM|2018|2019|2020|2021|2022|2023|2024|2025|2026",
+        "ml": [
+          700
+        ]
+      },
+      "queries_merged": [
+        "嘉之助 ピーテッド",
+        "嘉之助",
+        "嘉之助 シングルモルト 48%"
+      ]
+    },
+    "sherry": {
+      "label": "シングルモルト嘉之助 シェリーカスク ヴァッテッド（700ml・48%）",
+      "query": "嘉之助 シェリー",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-05-17",
+      "end_date_to": "2026-11-11",
+      "raw_n": 308,
+      "title_filtered_n": 30,
+      "filtered_n": 29,
+      "median": 7975,
+      "q1": 7700,
+      "q3": 8801,
+      "min": 6700,
+      "max": 9999,
+      "insufficient": false,
+      "regex": {
+        "require": "(シェリー|SHERRY|Sherry).*(ヴァッテッド|ヴァテッド|バッテッド|VATTED|Vatted)",
+        "exclude": "限定(?!発送|配送)|リミテッド|LIMITED|Limited|エディション|EDITION|Edition|エクスクルーシブ|EXCLUSIVE|Exclusive|JAL|ジャパンエアライン|鹿児島|KAGOSHIMA|ニューボーン|NEW\\s*BORN|コラボ|COLLABORATION|PB|プライベート|記念|周年|フェス|メッセ|Messe|シングルカスク|Cask\\s*№|蒸溜祭|蒸留祭|モダンモルト|アーティスト|ARTIST|龍虎|三郎丸|ジャンク|検[:：]|ピート|PEAT|IPA|マンサニ|ミルトン|クレーン|夢幻|ドリームス|スパニッシュ|オロロソ|SAKANANBAR|ウイスキートーク|\\\\d+\\\\s*年|20[12]\\\\d",
+        "ml": [
+          700
+        ]
+      },
+      "queries_merged": [
+        "嘉之助 シェリー",
+        "嘉之助",
+        "嘉之助 シングルモルト 48%"
+      ]
+    },
+    "double-distillery": {
+      "label": "嘉之助 ダブルディスティラリー（700ml・53%）",
+      "query": "嘉之助 ダブルディスティラリー",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-06-07",
+      "end_date_to": "2026-11-08",
+      "raw_n": 289,
+      "title_filtered_n": 88,
+      "filtered_n": 83,
+      "median": 6325,
+      "q1": 6048,
+      "q3": 6710,
+      "min": 5322,
+      "max": 7590,
+      "insufficient": false,
+      "regex": {
+        "require": "(ダブル\\s*ディスティラリー|DOUBLE\\s*DISTILLERY)",
+        "exclude": "限定(?!発送|配送)|リミテッド|LIMITED|Limited|エディション|EDITION|Edition|エクスクルーシブ|EXCLUSIVE|Exclusive|JAL|ジャパンエアライン|鹿児島|KAGOSHIMA|ニューボーン|NEW\\s*BORN|コラボ|COLLABORATION|PB|プライベート|記念|周年|フェス|メッセ|Messe|シングルカスク|Cask\\s*№|蒸溜祭|蒸留祭|モダンモルト|アーティスト|ARTIST|龍虎|三郎丸|ジャンク|検[:：]|ポット|POT|イチロー|秩父|ベンチャー|龍虎|三郎丸|若鶴|Kanosuke\\s*\\d|2\\s*本|&|＆",
+        "ml": [
+          700
+        ]
+      },
+      "queries_merged": [
+        "嘉之助 ダブルディスティラリー",
+        "嘉之助"
+      ]
+    },
+    "hioki-pot-still": {
+      "label": "嘉之助 HIOKI POT STILL（700ml・51%）",
+      "query": "嘉之助 ポットスティル",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-05-17",
+      "end_date_to": "2026-11-11",
+      "raw_n": 236,
+      "title_filtered_n": 39,
+      "filtered_n": 38,
+      "median": 6408,
+      "q1": 5885,
+      "q3": 6873,
+      "min": 4620,
+      "max": 8000,
+      "insufficient": false,
+      "regex": {
+        "require": "(ポット\\s*スティ|ポットスチル|POT\\s*STILL)",
+        "exclude": "限定(?!発送|配送)|リミテッド|LIMITED|Limited|エディション|EDITION|Edition|エクスクルーシブ|EXCLUSIVE|Exclusive|JAL|ジャパンエアライン|鹿児島|KAGOSHIMA|ニューボーン|NEW\\s*BORN|コラボ|COLLABORATION|PB|プライベート|記念|周年|フェス|メッセ|Messe|シングルカスク|Cask\\s*№|蒸溜祭|蒸留祭|モダンモルト|アーティスト|ARTIST|龍虎|三郎丸|ジャンク|検[:：]|ダブル|DOUBLE|2024|55\\s*[%％度]|61\\s*[%％度]|＃\\d|#\\d|&|＆",
+        "ml": [
+          700
+        ]
+      },
+      "queries_merged": [
+        "嘉之助 ポットスティル",
+        "嘉之助"
+      ]
+    }
+  },
+  "examples": {
+    "kagoshima-exclusive": {
+      "label": "シングルモルト 嘉之助 KAGOSHIMA EXCLUSIVE（鹿児島限定・700ml・48%）",
+      "n": 10,
+      "min": 6545,
+      "max": 9750,
+      "end_date_from": "2026-07-24",
+      "end_date_to": "2026-11-01",
+      "regex": {
+        "require": "(鹿児島|KAGOSHIMA).*(エクスクルーシブ|EXCLUSIVE|限定)",
+        "exclude": "蒸溜祭|蒸留祭|記念|フェス",
+        "ml": [
+          700
+        ]
+      },
+      "fetched_at": "2026-11-13",
+      "queries_merged": [
+        "嘉之助",
+        "嘉之助 シングルモルト 48%",
+        "嘉之助 ピーテッド",
+        "嘉之助 シェリー",
+        "嘉之助 ダブルディスティラリー",
+        "嘉之助 ポットスティル"
+      ]
+    },
+    "ipa": {
+      "label": "嘉之助シングルモルト IPA CASK FINISH（700ml・48%）",
+      "n": 5,
+      "min": 13860,
+      "max": 18260,
+      "end_date_from": "2026-08-02",
+      "end_date_to": "2026-11-11",
+      "regex": {
+        "require": "IPA",
+        "exclude": "",
+        "ml": [
+          700
+        ]
+      },
+      "fetched_at": "2026-11-13",
+      "queries_merged": [
+        "嘉之助",
+        "嘉之助 シングルモルト 48%",
+        "嘉之助 ピーテッド",
+        "嘉之助 シェリー",
+        "嘉之助 ダブルディスティラリー",
+        "嘉之助 ポットスティル"
+      ]
+    },
+    "limited-2026": {
+      "label": "嘉之助シングルモルト 2026 LIMITED EDITION（700ml・57%）",
+      "n": 3,
+      "min": 9570,
+      "max": 10670,
+      "end_date_from": "2026-11-01",
+      "end_date_to": "2026-11-11",
+      "regex": {
+        "require": "2026.*(リミテッド|LIMITED)",
+        "exclude": "アーティスト|ARTIST|ポット|POT",
+        "ml": [
+          700
+        ]
+      },
+      "fetched_at": "2026-11-13",
+      "queries_merged": [
+        "嘉之助",
+        "嘉之助 シングルモルト 48%",
+        "嘉之助 ピーテッド",
+        "嘉之助 シェリー",
+        "嘉之助 ダブルディスティラリー",
+        "嘉之助 ポットスティル"
+      ]
+    },
+    "artist-002": {
+      "label": "嘉之助シングルモルト Artist Edition #002（700ml・50%）",
+      "n": 5,
+      "min": 30500,
+      "max": 34650,
+      "end_date_from": "2026-10-17",
+      "end_date_to": "2026-11-12",
+      "regex": {
+        "require": "(アーティスト|ARTIST).*(#|＃|EDITION\\s*)\\s*002",
+        "exclude": "#00[13-9]|＃00[13-9]",
+        "ml": [
+          700
+        ]
+      },
+      "fetched_at": "2026-11-13",
+      "queries_merged": [
+        "嘉之助",
+        "嘉之助 シングルモルト 48%",
+        "嘉之助 ピーテッド",
+        "嘉之助 シェリー",
+        "嘉之助 ダブルディスティラリー",
+        "嘉之助 ポットスティル"
+      ]
+    }
+  },
+  "official": {
+    "top": "https://kanosuke.com/",
+    "about": "https://kanosuke.com/pages/about",
+    "company": "https://kanosuke.com/pages/company",
+    "checked_at": "2026-11-13",
+    "faq": "https://kanosuke.com/pages/faq",
+    "mellow_blend": "https://kanosuke.com/blogs/news/mellow-blend"
+  }
+}

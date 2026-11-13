@@ -233,6 +233,7 @@ export default function WildTurkeyKaitoriPage() {
               <li><Link href="/articles/blantons-kaitori/" className={linkCls}>ブラントンの買取相場</Link></li>
               <li><Link href="/articles/four-roses-kaitori/" className={linkCls}>フォアローゼスの買取相場</Link></li>
               <li><Link href="/articles/jack-daniels-kaitori/" className={linkCls}>ジャックダニエルの買取相場</Link></li>
+              <li><Link href="/articles/makers-mark-kaitori/" className={linkCls}>メーカーズマークの買取相場</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className={linkCls}>ウイスキー買取相場ガイド</Link></li>
             </ul>
           </div>

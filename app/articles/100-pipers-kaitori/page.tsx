@@ -209,6 +209,8 @@ export default function HundredPipersKaitoriPage() {
               <li><Link href="/articles/johnnie-walker-kaitori/" className={linkCls}>ジョニーウォーカーの買取相場</Link></li>
               <li><Link href="/articles/dewars-kaitori/" className={linkCls}>デュワーズの買取相場</Link></li>
               <li><Link href="/articles/glenlivet-kaitori/" className={linkCls}>グレンリベットの買取相場</Link></li>
+              <li><Link href="/articles/grants-kaitori/" className={linkCls}>グランツの買取相場</Link></li>
+              <li><Link href="/articles/royal-salute-kaitori/" className={linkCls}>ロイヤルサルートの買取相場</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className={linkCls}>ウイスキー買取相場ガイド</Link></li>
               <li><Link href="/articles/whisky-sell-guide/" className={linkCls}>ウイスキーを売る手順</Link></li>
             </ul>

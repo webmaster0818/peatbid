@@ -124,6 +124,10 @@ export default function ArticlesIndexPage() {
               { name: "ジョニーウォーカー", slug: "johnnie-walker-kaitori" },
               { name: "ワイルドターキー", slug: "wild-turkey-kaitori" },
               { name: "100パイパーズ", slug: "100-pipers-kaitori" },
+              { name: "嘉之助", slug: "kanosuke-kaitori" },
+              { name: "メーカーズマーク", slug: "makers-mark-kaitori" },
+              { name: "グランツ", slug: "grants-kaitori" },
+              { name: "ロイヤルサルート", slug: "royal-salute-kaitori" },
             ].map((b) => (
               <Link key={b.slug} href={`/articles/${b.slug}/`} className="text-sm bg-white border border-warm-border text-ink rounded-lg px-3 py-2 hover:border-amber/50 hover:text-amber-dark">
                 {b.name}の買取

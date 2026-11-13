@@ -215,6 +215,7 @@ export default function GlenlivetKaitoriPage() {
               <li><Link href="/articles/glenfiddich-kaitori/" className={linkCls}>グレンフィディックの買取価格</Link></li>
               <li><Link href="/articles/macallan-kaitori/" className={linkCls}>マッカランの買取価格</Link></li>
               <li><Link href="/articles/100-pipers-kaitori/" className={linkCls}>100パイパーズの買取相場</Link></li>
+              <li><Link href="/articles/royal-salute-kaitori/" className={linkCls}>ロイヤルサルートの買取相場</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className={linkCls}>ウイスキー買取相場ガイド</Link></li>
             </ul>
           </div>

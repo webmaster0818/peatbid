@@ -1,0 +1,172 @@
+{
+  "slug": "makers-mark-kaitori",
+  "yahoo": {
+    "red": {
+      "label": "メーカーズマーク レッドトップ（700ml・45%）",
+      "query": "メーカーズマーク レッドトップ",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-08-12",
+      "end_date_to": "2026-11-09",
+      "raw_n": 150,
+      "title_filtered_n": 61,
+      "filtered_n": 58,
+      "median": 1813,
+      "q1": 1650,
+      "q3": 1934,
+      "min": 1321,
+      "max": 2310,
+      "insufficient": false,
+      "regex": {
+        "require": "(メーカーズ[・\\s]*マーク|MAKER[’'`]?S\\s*MARK|Makers?\\s*Mark)",
+        "exclude": "46|カスク|CASK|ブラック|BLACK|黒|ゴールド|GOLD|金|セラー|CELLAR|プライベート|PRIVATE|101|VIP|ミントジュレップ|SIV|旧|特級|古酒|オールド|43\\s*[%％度]|47|55|ジャンク|記念|限定(?!発送)|シーバス|ジャック|ジム|ハーパー|ターキー|トリス|碧|＆|&",
+        "ml": [
+          700
+        ],
+        "flags": "i",
+        "ml_required": true,
+        "note": "JUNK_RE（fetch-yahoo-medians.py）も適用。タイトル中の容量（ML_RE）が ml の値のみで、かつ容量の記載があるものだけを残す。"
+      }
+    },
+    "46": {
+      "label": "メーカーズマーク 46（700ml/750ml・47%）",
+      "query": "メーカーズマーク 46",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-05-21",
+      "end_date_to": "2026-10-30",
+      "raw_n": 64,
+      "title_filtered_n": 37,
+      "filtered_n": 37,
+      "median": 3850,
+      "q1": 3463,
+      "q3": 4728,
+      "min": 3000,
+      "max": 5800,
+      "insufficient": false,
+      "regex": {
+        "require": "(メーカーズ[・\\s]*マーク|MAKER[’'`]?S\\s*MARK|Makers?\\s*Mark).*(?<![\\d(])[4４][6６](?![\\d.%％)])|(?<![\\d(])[4４][6６](?![\\d.%％)]).*(メーカーズ[・\\s]*マーク|MAKER[’'`]?S\\s*MARK|Makers?\\s*Mark)",
+        "exclude": "カスク|CASK|ブラック|BLACK|ゴールド|GOLD|セラー|CELLAR|プライベート|PRIVATE|101|ジャンク|旧|特級|グレン|アードベッグ|ボウモア|白州|レミー|ジャック|Jack|カナディアン|＆|&",
+        "ml": [
+          700,
+          750
+        ],
+        "flags": "i",
+        "ml_required": true,
+        "note": "JUNK_RE（fetch-yahoo-medians.py）も適用。タイトル中の容量（ML_RE）が ml の値のみで、かつ容量の記載があるものだけを残す。"
+      }
+    },
+    "cask": {
+      "label": "メーカーズマーク カスクストレングス（700ml/750ml）",
+      "query": "メーカーズマーク カスクストレングス",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-05-17",
+      "end_date_to": "2026-11-11",
+      "raw_n": 27,
+      "title_filtered_n": 23,
+      "filtered_n": 23,
+      "median": 6023,
+      "q1": 4948,
+      "q3": 6433,
+      "min": 3630,
+      "max": 8500,
+      "insufficient": false,
+      "regex": {
+        "require": "(メーカーズ[・\\s]*マーク|MAKER[’'`]?S\\s*MARK|Makers?\\s*Mark).*(カスク|CASK)|(カスク|CASK).*(メーカーズ[・\\s]*マーク|MAKER[’'`]?S\\s*MARK|Makers?\\s*Mark)",
+        "exclude": "ジャンク|ワイルド\\s*ターキー|46|ブラック|ゴールド|セラー|プライベート",
+        "ml": [
+          700,
+          750
+        ],
+        "flags": "i",
+        "ml_required": true,
+        "note": "JUNK_RE（fetch-yahoo-medians.py）も適用。タイトル中の容量（ML_RE）が ml の値のみで、かつ容量の記載があるものだけを残す。"
+      }
+    },
+    "black": {
+      "label": "メーカーズマーク ブラックトップ（750ml・47.5%）",
+      "query": "メーカーズマーク ブラックトップ",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-05-17",
+      "end_date_to": "2026-11-11",
+      "raw_n": 41,
+      "title_filtered_n": 31,
+      "filtered_n": 30,
+      "median": 51700,
+      "q1": 50050,
+      "q3": 56800,
+      "min": 45100,
+      "max": 61000,
+      "insufficient": false,
+      "regex": {
+        "require": "(メーカーズ[・\\s]*マーク|MAKER[’'`]?S\\s*MARK|Makers?\\s*Mark).*(ブラック\\s*トップ|BLACK\\s*TOP|黒)|(ブラック\\s*トップ|BLACK\\s*TOP).*(メーカーズ[・\\s]*マーク|MAKER[’'`]?S\\s*MARK|Makers?\\s*Mark)",
+        "exclude": "46|ジャンク|ゴールド|GOLD|レッド|カスク",
+        "ml": [
+          750
+        ],
+        "flags": "i",
+        "ml_required": true,
+        "note": "JUNK_RE（fetch-yahoo-medians.py）も適用。タイトル中の容量（ML_RE）が ml の値のみで、かつ容量の記載があるものだけを残す。"
+      }
+    },
+    "gold": {
+      "label": "メーカーズマーク ゴールドトップ リミテッドエディション（750ml・50.5%）",
+      "query": "メーカーズマーク ゴールドトップ",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-05-19",
+      "end_date_to": "2026-11-11",
+      "raw_n": 60,
+      "title_filtered_n": 29,
+      "filtered_n": 27,
+      "median": 54998,
+      "q1": 53500,
+      "q3": 57750,
+      "min": 48500,
+      "max": 62370,
+      "insufficient": false,
+      "regex": {
+        "require": "(?=.*(メーカーズ[・\\s]*マーク|MAKER[’'`]?S\\s*MARK|Makers?\\s*Mark))(?=.*(ゴールド\\s*トップ|GOLD\\s*TOP))(?=.*(50\\.5|リミテッド|LIMITED))",
+        "exclude": "ジャンク|ブラック|BLACK|レッド|VIP|46|カスク|45\\s*[%％]|SIV|SⅣ|90\\s*Proof",
+        "ml": [
+          750
+        ],
+        "flags": "i",
+        "ml_required": true,
+        "note": "JUNK_RE（fetch-yahoo-medians.py）も適用。タイトル中の容量（ML_RE）が ml の値のみで、かつ容量の記載があるものだけを残す。"
+      }
+    },
+    "gold-vip": {
+      "label": "メーカーズマーク ゴールドトップ（VIP・SIV等 45%表記・750ml）",
+      "query": "メーカーズマーク ゴールドトップ",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-05-26",
+      "end_date_to": "2026-11-11",
+      "raw_n": 60,
+      "title_filtered_n": 19,
+      "filtered_n": 19,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 22032,
+      "max": 46777,
+      "insufficient": true,
+      "regex": {
+        "require": "(?=.*(メーカーズ[・\\s]*マーク|MAKER[’'`]?S\\s*MARK|Makers?\\s*Mark))(?=.*(ゴールド\\s*トップ|GOLD\\s*TOP))(?=.*(45\\s*[%％度]|VIP))",
+        "exclude": "ジャンク|ブラック|BLACK|レッド|46|カスク|50\\.5|リミテッド|リミテット|LIMITED",
+        "ml": [
+          750
+        ],
+        "flags": "i",
+        "ml_required": true,
+        "note": "JUNK_RE（fetch-yahoo-medians.py）も適用。タイトル中の容量（ML_RE）が ml の値のみで、かつ容量の記載があるものだけを残す。"
+      }
+    }
+  },
+  "official": {
+    "classic": "https://www.makersmark.com/bourbons/makers-mark",
+    "m46": "https://www.makersmark.com/bourbons/makers-mark-46",
+    "cask": "https://www.makersmark.com/bourbons/makers-mark-cask-strength",
+    "m101": "https://www.makersmark.com/bourbons/makers-mark-101",
+    "distillery": "https://www.makersmark.com/distillery",
+    "how": "https://www.makersmark.com/distillery/how-its-made",
+    "checked_at": "2026-11-13"
+  }
+}

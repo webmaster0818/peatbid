@@ -1,0 +1,109 @@
+{
+  "slug": "royal-salute-kaitori",
+  "yahoo": {
+    "21": {
+      "label": "ロイヤルサルート 21年（陶器ボトル・700ml）",
+      "query": "ロイヤルサルート 21年",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-11-01",
+      "end_date_to": "2026-11-12",
+      "raw_n": 150,
+      "title_filtered_n": 107,
+      "filtered_n": 99,
+      "median": 7800,
+      "q1": 7000,
+      "q3": 8468,
+      "min": 5200,
+      "max": 10200,
+      "insufficient": false,
+      "regex": {
+        "require": "(ロイヤル[・\\s]*サルート|ROYAL\\s*SALUTE).*(21\\s*年|21\\s*YEARS?)|(21\\s*年).*(ロイヤル[・\\s]*サルート)",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|空瓶|中身無し|1\\s*L\\b|ポロ|POLO|モルト|ハリス|フラゴン|黒|バランタイン|ゴールド|エディション|[2-9]\\s*本|38\\s*年|ハーフ",
+        "ml": [
+          700
+        ]
+      },
+      "signature_titled": {
+        "note": "21年（700ml）のうち出品タイトルに「シグネチャーブレンド」とある出品",
+        "n": 7,
+        "min": 7480,
+        "max": 13420
+      }
+    },
+    "21-1000": {
+      "label": "ロイヤルサルート 21年（陶器ボトル・1000ml）",
+      "query": "ロイヤルサルート 21年",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-11-01",
+      "end_date_to": "2026-11-11",
+      "raw_n": 150,
+      "title_filtered_n": 15,
+      "filtered_n": 15,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 7751,
+      "max": 14550,
+      "insufficient": true,
+      "regex": {
+        "require": "(ロイヤル[・\\s]*サルート|ROYAL\\s*SALUTE).*21\\s*年.*(1000\\s*ml|1\\s*L\\b)|(ロイヤル[・\\s]*サルート|ROYAL\\s*SALUTE).*(1000\\s*ml|1\\s*L\\b).*21\\s*年",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|空瓶|中身無し|ポロ|POLO|モルト|ハリス|フラゴン|黒|バランタイン|ゴールド|エディション|ハーフ",
+        "ml": [
+          1000
+        ]
+      }
+    },
+    "38-stone": {
+      "label": "ロイヤルサルート 38年 ストーン・オブ・デスティニー（500ml・700ml）",
+      "query": "ロイヤルサルート 38年",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-05-24",
+      "end_date_to": "2026-11-01",
+      "raw_n": 17,
+      "title_filtered_n": 13,
+      "filtered_n": 13,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 67650,
+      "max": 88000,
+      "insufficient": true,
+      "regex": {
+        "require": "38\\s*年",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|空瓶|中身無し",
+        "ml": [
+          500,
+          700
+        ]
+      }
+    },
+    "21-polo": {
+      "label": "ロイヤルサルート 21年 ポロエディション各種（700ml・750ml）",
+      "query": "ロイヤルサルート ポロ",
+      "fetched_at": "2026-11-13",
+      "end_date_from": "2026-05-27",
+      "end_date_to": "2026-10-27",
+      "raw_n": 14,
+      "title_filtered_n": 13,
+      "filtered_n": 12,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 10500,
+      "max": 21000,
+      "insufficient": true,
+      "regex": {
+        "require": "ポロ",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|空瓶|中身無し|検索",
+        "ml": [
+          700,
+          750
+        ]
+      }
+    }
+  },
+  "official": {
+    "pernod": "https://www.pernod-ricard.com/en/brands/royal-salute",
+    "checked_at": "2026-11-13"
+  }
+}
