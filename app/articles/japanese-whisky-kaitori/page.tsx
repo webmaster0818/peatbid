@@ -258,6 +258,7 @@ export default function JapaneseWhiskyKaitoriPage() {
           <div className="bg-cream/40 border border-amber/30 rounded-2xl p-6 my-10 not-prose">
             <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">関連ページ</h2>
             <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
+              <li><Link href="/articles/yoichi-grande-kaitori/" className={linkCls}>余市 グランデの買取相場</Link></li>
               <li><Link href="/souba-hakusho/" className={linkCls}>全国ウイスキー買取相場白書</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className={linkCls}>ウイスキー市場相場一覧</Link></li>
               <li><Link href="/articles/whisky-nv-toha/" className={linkCls}>ウイスキーの「年代指定なし（NV）」とは</Link></li>

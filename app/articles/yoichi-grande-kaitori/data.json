@@ -1,0 +1,55 @@
+{
+  "slug": "yoichi-grande-kaitori",
+  "yahoo": {
+    "grande": {
+      "label": "シングルモルト余市 グランデ（700ml・48%）",
+      "query": "余市 グランデ／余市グランデ",
+      "fetched_at": "2026-11-14",
+      "end_date_from": "2026-05-27",
+      "end_date_to": "2026-11-08",
+      "raw_n": 16,
+      "title_filtered_n": 11,
+      "filtered_n": 11,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 12500,
+      "max": 14500,
+      "insufficient": true,
+      "regex": {
+        "require": "グランデ|GRANDE|grande|Grande",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|宮城峡",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "grande-set": {
+      "label": "余市 グランデ＋宮城峡 グランデ 2本セット",
+      "query": "余市 グランデ／余市グランデ",
+      "fetched_at": "2026-11-14",
+      "end_date_from": "2026-05-19",
+      "end_date_to": "2026-09-18",
+      "raw_n": 16,
+      "title_filtered_n": 4,
+      "filtered_n": 4,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 28000,
+      "max": 32500,
+      "insufficient": true,
+      "regex": {
+        "require": "宮城峡",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|検[:：]",
+        "ml": [
+          700
+        ]
+      }
+    }
+  },
+  "official": {
+    "prtimes": "https://prtimes.jp/main/html/rd/p/000000853.000016166.html",
+    "checked_at": "2026-11-14"
+  }
+}

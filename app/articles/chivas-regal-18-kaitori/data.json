@@ -1,0 +1,165 @@
+{
+  "slug": "chivas-regal-18-kaitori",
+  "yahoo": {
+    "18": {
+      "label": "シーバスリーガル 18年（700ml）",
+      "query": "シーバスリーガル 18年／シーバスリーガル 18年 ミズナラ",
+      "fetched_at": "2026-11-14",
+      "end_date_from": "2026-10-09",
+      "end_date_to": "2026-11-10",
+      "raw_n": 276,
+      "title_filtered_n": 71,
+      "filtered_n": 62,
+      "median": 5058,
+      "q1": 4838,
+      "q3": 5170,
+      "min": 4233,
+      "max": 5775,
+      "insufficient": false,
+      "regex": {
+        "require": "18\\s*年|18\\s*YEARS?|18\\s*Y",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|ロイヤル\\s*サルート|ローヤル|余市|12\\s*年|25\\s*年|アルティス|ミニ|ブルー\\s*シグネチャー|BLUE|ブルー|ミズナラ|MIZUNARA|水楢|1000|1L|1\\s*リットル|43\\s*[%％度]|インペリアル|プレミアム",
+        "ml": [
+          700
+        ]
+      },
+      "label_breakdown": {
+        "gs": {
+          "n": 46,
+          "min": 4400,
+          "max": 5775,
+          "median": 5059
+        },
+        "rare": {
+          "n": 9,
+          "min": 4235,
+          "max": 5170,
+          "median": null
+        },
+        "plain": {
+          "n": 7,
+          "min": 4233,
+          "max": 5280,
+          "median": null
+        }
+      }
+    },
+    "18-43": {
+      "label": "シーバスリーガル 18年 プレミアム／インペリアル表記・43%（700ml）",
+      "query": "シーバスリーガル 18年／シーバスリーガル 18年 ミズナラ",
+      "fetched_at": "2026-11-14",
+      "end_date_from": "2026-10-15",
+      "end_date_to": "2026-11-08",
+      "raw_n": 276,
+      "title_filtered_n": 8,
+      "filtered_n": 8,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 3410,
+      "max": 6250,
+      "insufficient": true,
+      "regex": {
+        "require": "18\\s*年",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|ロイヤル\\s*サルート|ローヤル|余市|12\\s*年|25\\s*年|アルティス|ミニ|ブルー\\s*シグネチャー|BLUE|ブルー|ミズナラ|MIZUNARA|水楢|ゴールド|GOLD|レア\\s*オールド|RARE",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "18-750": {
+      "label": "シーバスリーガル 18年（750ml）",
+      "query": "シーバスリーガル 18年／シーバスリーガル 18年 ミズナラ",
+      "fetched_at": "2026-11-14",
+      "end_date_from": "2026-10-11",
+      "end_date_to": "2026-11-11",
+      "raw_n": 276,
+      "title_filtered_n": 25,
+      "filtered_n": 25,
+      "median": 5060,
+      "q1": 4510,
+      "q3": 5443,
+      "min": 3500,
+      "max": 6700,
+      "insufficient": false,
+      "regex": {
+        "require": "18\\s*年|18\\s*YEARS?",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|ロイヤル\\s*サルート|ローヤル|余市|12\\s*年|25\\s*年|アルティス|ミニ|ブルー\\s*シグネチャー|BLUE|ブルー|ミズナラ|MIZUNARA|水楢|インペリアル",
+        "ml": [
+          750
+        ]
+      },
+      "label_breakdown": {
+        "gs": {
+          "n": 22,
+          "min": 4180,
+          "max": 6700,
+          "median": 5170
+        },
+        "rare": {
+          "n": 2,
+          "min": 3500,
+          "max": 4300,
+          "median": null
+        },
+        "plain": {
+          "n": 1,
+          "min": 3700,
+          "max": 3700,
+          "median": null
+        }
+      }
+    },
+    "18-mizunara": {
+      "label": "シーバスリーガル 18年 ミズナラ カスク フィニッシュ（700ml）",
+      "query": "シーバスリーガル 18年／シーバスリーガル 18年 ミズナラ",
+      "fetched_at": "2026-11-14",
+      "end_date_from": "2026-06-18",
+      "end_date_to": "2026-11-11",
+      "raw_n": 276,
+      "title_filtered_n": 108,
+      "filtered_n": 107,
+      "median": 7000,
+      "q1": 6490,
+      "q3": 7980,
+      "min": 5390,
+      "max": 10065,
+      "insufficient": false,
+      "regex": {
+        "require": "(18\\s*年|18\\s*YEARS?).*(ミズナラ|MIZUNARA|水楢)|(ミズナラ|MIZUNARA|水楢).*(18\\s*年|18\\s*YEARS?)",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|ロイヤル\\s*サルート|ローヤル|余市|12\\s*年|25\\s*年|アルティス|ミニ|ブルー\\s*シグネチャー|BLUE|ブルー|1000|1L",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "18-mizunara-1000": {
+      "label": "シーバスリーガル 18年 ミズナラ（1000ml）",
+      "query": "シーバスリーガル 18年／シーバスリーガル 18年 ミズナラ",
+      "fetched_at": "2026-11-14",
+      "end_date_from": "2026-10-21",
+      "end_date_to": "2026-11-11",
+      "raw_n": 276,
+      "title_filtered_n": 2,
+      "filtered_n": 2,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 29800,
+      "max": 33000,
+      "insufficient": true,
+      "regex": {
+        "require": "(ミズナラ|MIZUNARA|水楢)",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|ロイヤル\\s*サルート|ローヤル|余市|12\\s*年|25\\s*年|アルティス|ミニ|ブルー\\s*シグネチャー|BLUE|ブルー",
+        "ml": [
+          1000
+        ]
+      }
+    }
+  },
+  "official": {
+    "prtimes": "https://prtimes.jp/main/html/rd/p/000000316.000004201.html",
+    "pernod": "https://www.pernod-ricard.com/en/brands/chivas",
+    "checked_at": "2026-11-14"
+  }
+}

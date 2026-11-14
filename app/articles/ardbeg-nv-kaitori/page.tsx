@@ -241,6 +241,7 @@ export default function ArdbegNvKaitoriPage() {
           <ul>
             <li><Link href="/articles/ardbeg-uigeadail-kaitori/" className="text-amber-dark hover:underline font-bold">アードベッグ ウーガダールの買取相場</Link></li>
             <li><Link href="/articles/ardbeg-corryvreckan-kaitori/" className="text-amber-dark hover:underline font-bold">アードベッグ コリーヴレッカンの買取相場</Link></li>
+            <li><Link href="/articles/ardbeg-17-kaitori/" className="text-amber-dark hover:underline">アードベッグ17年（旧ボトル・2024年復刻版）の買取相場</Link></li>
             <li><Link href="/articles/ardbeg-nisemono-mikata/" className="text-amber-dark hover:underline">アードベッグの偽物の見分け方（真贋ハブ）</Link></li>
             <li><Link href="/articles/whisky-nv-toha/" className="text-amber-dark hover:underline">ウイスキーの「年代指定なし(NV)」の解説買取での扱いと相場の見方</Link></li>
             <li><Link href="/souba-ranking/" className="text-amber-dark hover:underline">ウイスキー買取相場ランキング（毎週更新）</Link></li>

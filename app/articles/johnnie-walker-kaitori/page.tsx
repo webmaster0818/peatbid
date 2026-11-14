@@ -207,6 +207,7 @@ export default function JohnnieWalkerKaitoriPage() {
           <div className="bg-cream/40 border border-amber/30 rounded-2xl p-6 my-10 not-prose">
             <h2 className="font-display text-xl font-semibold mb-4 text-ink !border-none !pb-0 !mt-0">関連ページ</h2>
             <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
+              <li><Link href="/articles/white-horse-kaitori/" className={linkCls}>ホワイトホースの買取相場</Link></li>
               <li><Link href="/articles/dewars-kaitori/" className={linkCls}>デュワーズの買取相場</Link></li>
               <li><Link href="/articles/100-pipers-kaitori/" className={linkCls}>100パイパーズの買取相場</Link></li>
               <li><Link href="/articles/jack-daniels-kaitori/" className={linkCls}>ジャックダニエルの買取相場</Link></li>

@@ -128,6 +128,10 @@ export default function ArticlesIndexPage() {
               { name: "メーカーズマーク", slug: "makers-mark-kaitori" },
               { name: "グランツ", slug: "grants-kaitori" },
               { name: "ロイヤルサルート", slug: "royal-salute-kaitori" },
+              { name: "ホワイトホース", slug: "white-horse-kaitori" },
+              { name: "シーバスリーガル18年", slug: "chivas-regal-18-kaitori" },
+              { name: "アードベッグ17年", slug: "ardbeg-17-kaitori" },
+              { name: "余市 グランデ", slug: "yoichi-grande-kaitori" },
             ].map((b) => (
               <Link key={b.slug} href={`/articles/${b.slug}/`} className="text-sm bg-white border border-warm-border text-ink rounded-lg px-3 py-2 hover:border-amber/50 hover:text-amber-dark">
                 {b.name}の買取

@@ -276,6 +276,7 @@ export default function GrantsKaitoriPage() {
             <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
               <li><Link href="/articles/glenfiddich-kaitori/" className={linkCls}>グレンフィディックの買取価格</Link></li>
               <li><Link href="/articles/dewars-kaitori/" className={linkCls}>デュワーズの買取相場</Link></li>
+              <li><Link href="/articles/white-horse-kaitori/" className={linkCls}>ホワイトホースの買取相場</Link></li>
               <li><Link href="/articles/100-pipers-kaitori/" className={linkCls}>ハンドレッドパイパーズ（100パイパーズ）の買取相場</Link></li>
               <li><Link href="/articles/johnnie-walker-kaitori/" className={linkCls}>ジョニーウォーカーの買取相場</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className={linkCls}>ウイスキー買取相場ガイド</Link></li>

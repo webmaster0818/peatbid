@@ -1,0 +1,92 @@
+{
+  "slug": "ardbeg-17-kaitori",
+  "yahoo": {
+    "17-old": {
+      "label": "アードベッグ 17年（出品タイトルに旧ボトル・オールドボトルと明記）",
+      "query": "アードベッグ 17年／ARDBEG 17",
+      "fetched_at": "2026-11-14",
+      "end_date_from": "2026-06-28",
+      "end_date_to": "2026-09-15",
+      "raw_n": 43,
+      "title_filtered_n": 3,
+      "filtered_n": 3,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 47300,
+      "max": 47500,
+      "insufficient": true,
+      "regex": {
+        "require": "((?:17|１７)\\s*年|17\\s*YEARS?).*(旧ボトル|オールドボトル)|(旧ボトル|オールドボトル).*((?:17|１７)\\s*年|17\\s*YEARS?)",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|バランタイン|空瓶|コミッティ|Legend\\s*Returns|帰ってきた",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "17-revival": {
+      "label": "アードベッグ 17年（出品タイトルにコミッティ等と明記＝2024年の復刻版）",
+      "query": "アードベッグ 17年／ARDBEG 17",
+      "fetched_at": "2026-11-14",
+      "end_date_from": "2026-07-26",
+      "end_date_to": "2026-11-08",
+      "raw_n": 43,
+      "title_filtered_n": 12,
+      "filtered_n": 12,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 19500,
+      "max": 25300,
+      "insufficient": true,
+      "regex": {
+        "require": "((?:17|１７)\\s*年|17\\s*YEARS?).*(コミッティ|Legend\\s*Returns|帰ってきた)|(コミッティ|Legend\\s*Returns|帰ってきた).*((?:17|１７)\\s*年|17\\s*YEARS?)",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|バランタイン|空瓶|旧ボトル|オールドボトル",
+        "ml": [
+          700
+        ]
+      }
+    },
+    "17-unmarked": {
+      "label": "アードベッグ 17年（旧・復刻の表記なし）",
+      "query": "アードベッグ 17年／ARDBEG 17",
+      "fetched_at": "2026-11-14",
+      "end_date_from": "2026-05-21",
+      "end_date_to": "2026-11-03",
+      "raw_n": 43,
+      "title_filtered_n": 18,
+      "filtered_n": 18,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 20500,
+      "max": 52800,
+      "insufficient": true,
+      "regex": {
+        "require": "(?:17|１７)\\s*年|17\\s*YEARS?",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|バランタイン|空瓶|旧ボトル|オールドボトル|コミッティ|Legend\\s*Returns|帰ってきた|13\\s*年|バッチ|ドルチェ|DOLCE",
+        "ml": [
+          700
+        ]
+      },
+      "price_bands": [
+        {
+          "note": "45,000円以上で落札された出品",
+          "n": 5,
+          "min": 45650,
+          "max": 52800
+        },
+        {
+          "note": "30,000円以下で落札された出品",
+          "n": 13,
+          "min": 20500,
+          "max": 30000
+        }
+      ]
+    }
+  },
+  "official": {
+    "prtimes": "https://prtimes.jp/main/html/rd/p/000000739.000006986.html",
+    "checked_at": "2026-11-14"
+  }
+}
