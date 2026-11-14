@@ -871,3 +871,9 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 導線: /articles/ 一覧・dewars（→グランツ）・100-pipers（→グランツ/RS）・glenlivet（→RS）・wild-turkey（→メーカーズ）・akkeshi（→嘉之助）。track-record 564記事・3,025URL・解説/総合 54。sitemap は新規4＋/articles/・/track-record/ だけ lastmod 11-13。
 - makers-mark の description 161字で precheck [11b] 不合格→短縮。build 1回目 next/font 既知エラー→再ビルド EXIT0・precheck ✅（3,025）・trust-audit 指摘0・ASP 0。source a806fd481・deploy cd81a6a36e（CF 反映 約1.5分）。Indexing API：log.csv 全19本 200（残34/55）。
 - 次: 競合の再提案を MediaXAI に依頼済み（kingram-liquor 6/30・lv-liquor 5/30・3社目は基準を満たす候補なし。Discord 1570767250720423998）。
+
+### 2026-11-14 朝ルーチン: tier2 茨城・栃木・群馬・新潟・石川 福ちゃん行の公式照合／香川・熊本 バイセル行に店頭
+- **福ちゃん**（fuku-chan.jp トップ・/liquor/・/site-info/company.php を 11/14 curl）: 店舗一覧11店・事業所14拠点は 11/13 と同じ。茨城・栃木・群馬・新潟・石川なし→旧「福ちゃん 水戸／茨城県水戸市」「宇都宮／栃木県宇都宮市」「高崎／群馬県高崎市」「新潟／新潟県新潟市」「金沢／石川県金沢市」（5県とも「出張・宅配・店頭」「全国大手」）を 11/13 と同じ形に（`scripts/patch-tier2-fukuchan-buysell-1114.py`・冪等・app 51×5＋prefectures.py）。5県とも「店頭」も誤りだった。出張エリア文言は A/B 待ちで書かない。福ちゃん行の未照合の残り＝21県（うち実店舗あり8：北海道・埼玉・千葉・静岡・京都・大阪・兵庫・広島）。
+- **バイセル行（香川・熊本）**: /area/liquor-{kagawa,kumamoto}/ の店舗案内と店舗ページ（11/14 curl）＝イオンモール高松店（高松市香西本町1-1 イオンモール高松 3F）・パワーシティ屋島店（高松市屋島西町1912-1 マルナカパワーシティ屋島店生活館 1F）・熊本ゆめタウンはません店（熊本市南区田井島1丁目2-1 ゆめタウンはません 3F）。3店とも「酒類の買取に関しては20歳以上のお客様のみ対象」・運営会社：株式会社BuySell Technologies（直営）→「店頭・出張・宅配」の行に。⚠️香川のエリアページ FAQ に「現在、香川県内にバイセルの店舗はございません」の旧文が残る（店舗案内・店舗ページを正とした）。
+- 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4〜11/13 と同じ）。
+- sitemap は7県リーフ357だけ lastmod 11-14。build（heap8192）EXIT0・precheck ✅（3,025）・*.txt 削除（robots 保全）→ フル rsync（--exclude .git/_not-found/functions。buildId 以外の差分は357リーフ＋sitemap のみ）。ASP 0→0・hikakaku href（app）602→602・out 607。source 19bbe54c2・deploy 8e980ee0fb。Indexing は未送信。
