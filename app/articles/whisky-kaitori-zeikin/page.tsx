@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "ウイスキー買取の税金｜確定申告は必要？1本30万円・50万円控除・20万円の基準【2026年】",
   description:
-    "ウイスキーを売ったときの税金を国税庁の案内で整理（2026年11月6日確認）。生活用動産の非課税と1個30万円超の扱い、譲渡所得の50万円控除、会社員の20万円基準、確定申告が必要になりやすいケースを早見表で示します。個別の判断は税務署・税理士へ。",
+    "ウイスキーを売ったときの税金を国税庁の案内で整理（2026年11月16日確認）。生活用動産の非課税と1個30万円超の扱い、譲渡所得の50万円控除、会社員の20万円基準、確定申告が必要になりやすいケースを早見表で示します。個別の判断は税務署・税理士へ。",
   alternates: { canonical: "/articles/whisky-kaitori-zeikin/" },
 };
 
@@ -35,6 +35,10 @@ const faqs = [
     q: "転売目的で何本も売っている場合は？",
     a: "国税庁の案内では、相当の期間にわたり継続的に資産を売っている場合の所得は、譲渡所得ではなく事業所得または雑所得になります。ネットオークションやフリマアプリの個人取引による所得も、一般的には雑所得です（生活の用に供している資産の売却は非課税）。単発の不用品売却とは扱いが異なります。",
   },
+  {
+    q: "ヤフオクやメルカリでウイスキーを売るのに免許はいりますか？",
+    a: "国税庁のお酒に関するQ&A（販売業免許関係 Q5）では、フリマサイトやネットオークションでも、継続して酒類を出品・販売する場合は酒類の販売業にあたり、販売業免許が必要とされています。一方、自分で飲むために買った、または贈られたお酒のうち家庭で不要になったものを出品するような、通常継続的な販売にあたらない場合は免許は不要です。所得税の扱い（生活用動産の非課税・譲渡所得・雑所得）とは別の話なので、両方を確認してください。",
+  },
 ];
 
 export default function Page() {
@@ -55,11 +59,11 @@ export default function Page() {
           ウイスキー買取の税金｜確定申告の要否・課税されるケースを解説
         </h1>
         <p className="text-warm-gray text-sm not-prose mb-6">
-          最終更新: 2026-11-06 ／ 編集: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
+          最終更新: 2026-11-16 ／ 編集: <Link href="/editorial/" className="text-amber-dark underline">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline">集計方法</Link>）
         </p>
 
         <section aria-labelledby="quick-tax" className="not-prose bg-white border-2 border-amber/40 rounded-xl p-5 my-6">
-          <h2 id="quick-tax" className="text-lg font-bold text-ink mb-2">ウイスキーを売ったときの税金の早見表（国税庁の案内を2026年11月6日に確認）</h2>
+          <h2 id="quick-tax" className="text-lg font-bold text-ink mb-2">ウイスキーを売ったときの税金の早見表（国税庁の案内を2026年11月16日に確認）</h2>
           <p className="text-sm text-ink mb-3"><strong>生活に通常必要な動産の売却は非課税で、確定申告も不要です。課税される場合も、譲渡益の合計から年間50万円を引けます。</strong>ただし国税庁の案内にウイスキーは明記されていないため、高額なボトルや集めたボトルの扱いは税務署・税理士に確認してください。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -73,6 +77,7 @@ export default function Page() {
             </table>
           </div>
           <p className="text-[12px] text-warm-gray leading-relaxed mt-3">国税庁の案内が例に挙げているのは、生活用動産が「家具、じゅう器、通勤用の自動車、衣服など」、30万円の基準の対象が「貴金属や宝石、書画、骨とうなど」です。ウイスキーの記載はありません。税額の最終判断は税務署・税理士へ。本記事は国税庁の一般的な案内の整理です。</p>
+          <p className="text-[12px] text-ink leading-relaxed mt-2"><strong>ヤフオク・メルカリなどに自分で出品する場合</strong>は、税金とは別に酒税法の免許の確認も必要です。国税庁のお酒に関するQ&Aでは、継続して酒類を出品・販売する場合は酒類販売業免許が必要、自分で飲むために買った・贈られたお酒のうち家庭で不要になったものを出品するような継続的でない販売なら免許は不要とされています（<a href="https://www.nta.go.jp/taxes/sake/qa/03b/05.htm" target="_blank" rel="noopener noreferrer" className="text-amber-dark underline">販売業免許関係 Q5</a>・2026年11月16日確認）。買取店に売る場合は、出品する側の免許の問題はありません。</p>
         </section>
 
         <nav className="not-prose border border-warm-border rounded-xl p-5 my-8" aria-label="目次">
@@ -147,7 +152,7 @@ export default function Page() {
         ))}
 
         <p className="text-xs text-warm-gray not-prose border-t border-warm-border pt-4 mt-8">
-          ※ 出典: 国税庁タックスアンサー <a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3105.htm" target="_blank" rel="noopener noreferrer" className="text-amber-dark underline">No.3105</a>（譲渡所得の対象となる資産と課税方法）・<a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3152.htm" target="_blank" rel="noopener noreferrer" className="text-amber-dark underline">No.3152</a>（譲渡所得の計算のしかた）・<a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm" target="_blank" rel="noopener noreferrer" className="text-amber-dark underline">No.1900</a>（給与所得者で確定申告が必要な人）・<a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1906.htm" target="_blank" rel="noopener noreferrer" className="text-amber-dark underline">No.1906</a>（給与所得者がネットオークション等により副収入を得た場合）・<a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3258.htm" target="_blank" rel="noopener noreferrer" className="text-amber-dark underline">No.3258</a>（取得費が分からないとき）。いずれも令和8年4月1日現在法令等の表示を2026年11月6日に確認しました。本記事は国税庁が公表する一般的な考え方にもとづく情報整理であり、個別の課税判断・税額計算を保証するものではありません。実際の申告要否・計算は、お住まいの税務署または税理士に必ずご確認ください。関連: <Link href="/articles/whisky-souzoku-baikyaku/" className="text-amber-dark underline">相続・遺品のウイスキーを売る</Link> ／ <Link href="/souba-ranking/" className="text-amber-dark underline">相場ランキング</Link>
+          ※ 出典: 国税庁タックスアンサー <a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3105.htm" target="_blank" rel="noopener noreferrer" className="text-amber-dark underline">No.3105</a>（譲渡所得の対象となる資産と課税方法）・<a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3152.htm" target="_blank" rel="noopener noreferrer" className="text-amber-dark underline">No.3152</a>（譲渡所得の計算のしかた）・<a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm" target="_blank" rel="noopener noreferrer" className="text-amber-dark underline">No.1900</a>（給与所得者で確定申告が必要な人）・<a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1906.htm" target="_blank" rel="noopener noreferrer" className="text-amber-dark underline">No.1906</a>（給与所得者がネットオークション等により副収入を得た場合）・<a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3258.htm" target="_blank" rel="noopener noreferrer" className="text-amber-dark underline">No.3258</a>（取得費が分からないとき）。いずれも令和8年4月1日現在法令等の表示を2026年11月16日に再確認しました（初回11月6日）。酒類の出品と免許は国税庁「お酒に関するQ&A【販売業免許関係】<a href="https://www.nta.go.jp/taxes/sake/qa/03b/05.htm" target="_blank" rel="noopener noreferrer" className="text-amber-dark underline">Q5</a>」（2026年11月16日確認）。本記事は国税庁が公表する一般的な考え方にもとづく情報整理であり、個別の課税判断・税額計算を保証するものではありません。実際の申告要否・計算は、お住まいの税務署または税理士に必ずご確認ください。関連: <Link href="/articles/whisky-souzoku-baikyaku/" className="text-amber-dark underline">相続・遺品のウイスキーを売る</Link> ／ <Link href="/souba-ranking/" className="text-amber-dark underline">相場ランキング</Link>
         </p>
       </article>
 
