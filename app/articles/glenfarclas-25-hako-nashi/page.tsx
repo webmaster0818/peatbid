@@ -37,7 +37,7 @@ export default function Glenfarclas25HakoNashiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンファークラス25年が箱なしでも買取できる？</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-09 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-16 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -74,28 +74,28 @@ export default function Glenfarclas25HakoNashiPage() {
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
             <p className="text-sm font-bold text-ink mb-3">グレンファークラス25年の買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
             <svg viewBox="0 0 640 210" role="img" aria-label="グレンファークラス25年のヤフオク落札中央値の週次推移グラフ" className="w-full h-auto">
-              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">24,200</text>
-              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">22,930</text>
+              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">24,100</text>
+              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">22,880</text>
               <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">21,661</text>
-              <polyline points="66.0,38.9 116.5,48.1 167.1,43.5 217.6,59.5 268.2,59.5 318.7,134.0 369.3,133.5 419.8,102.7 470.4,152.3 520.9,145.9 571.5,152.3 622.0,155.1" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="66.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 24,200円（サンプル n=90件）</title></circle>
-              <circle cx="116.5" cy="48.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 24,000円（サンプル n=94件）</title></circle>
-              <circle cx="167.1" cy="43.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 24,100円（サンプル n=92件）</title></circle>
-              <circle cx="217.6" cy="59.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 23,750円（サンプル n=88件）</title></circle>
-              <circle cx="268.2" cy="59.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 23,750円（サンプル n=88件）</title></circle>
-              <circle cx="318.7" cy="134.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 22,121円（サンプル n=88件）</title></circle>
-              <circle cx="369.3" cy="133.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 22,132円（サンプル n=86件）</title></circle>
-              <circle cx="419.8" cy="102.7" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 22,805円（サンプル n=88件）</title></circle>
-              <circle cx="470.4" cy="152.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 21,723円（サンプル n=82件）</title></circle>
-              <circle cx="520.9" cy="145.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 21,861円（サンプル n=80件）</title></circle>
-              <circle cx="571.5" cy="152.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 21,723円（サンプル n=74件）</title></circle>
-              <circle cx="622.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-09: 21,661円（サンプル n=72件）</title></circle>
+              <polyline points="66.0,43.7 116.5,38.9 167.1,55.6 217.6,55.6 268.2,133.2 318.7,132.7 369.3,100.6 419.8,152.1 470.4,145.6 520.9,152.1 571.5,155.1 622.0,155.1" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="43.7" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 24,000円（サンプル n=94件）</title></circle>
+              <circle cx="116.5" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 24,100円（サンプル n=92件）</title></circle>
+              <circle cx="167.1" cy="55.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 23,750円（サンプル n=88件）</title></circle>
+              <circle cx="217.6" cy="55.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 23,750円（サンプル n=88件）</title></circle>
+              <circle cx="268.2" cy="133.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 22,121円（サンプル n=88件）</title></circle>
+              <circle cx="318.7" cy="132.7" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 22,132円（サンプル n=86件）</title></circle>
+              <circle cx="369.3" cy="100.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 22,805円（サンプル n=88件）</title></circle>
+              <circle cx="419.8" cy="152.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 21,723円（サンプル n=82件）</title></circle>
+              <circle cx="470.4" cy="145.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 21,861円（サンプル n=80件）</title></circle>
+              <circle cx="520.9" cy="152.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 21,723円（サンプル n=74件）</title></circle>
+              <circle cx="571.5" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-09: 21,661円（サンプル n=72件）</title></circle>
+              <circle cx="622.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-16: 21,661円（サンプル n=72件）</title></circle>
               <text x="618.0" y="145.1" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">21,661円</text>
-              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/24</text>
-              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/28</text>
-              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/9</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/31</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">10/5</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/16</text>
             </svg>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-24〜2026-11-09（週次12点・各点のサンプル数 n=72〜94件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-31〜2026-11-16（週次12点・各点のサンプル数 n=72〜94件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
           </div>
 
 
@@ -211,7 +211,7 @@ export default function Glenfarclas25HakoNashiPage() {
             <Link href="/articles/glenfarclas-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">グレンファークラス（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-09）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-16）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

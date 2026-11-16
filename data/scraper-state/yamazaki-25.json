@@ -1,11 +1,11 @@
 {
   "slug": "yamazaki-25",
   "label": "山崎25年",
-  "fetched_at": "2026-11-06T09:00:13",
+  "fetched_at": "2026-11-13T09:00:13",
   "source_url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E5%B1%B1%E5%B4%8E25%E5%B9%B4",
-  "avg": 239601,
+  "avg": 233653,
   "max": 1484270,
   "min": null,
-  "count": 252,
+  "count": 253,
   "ok": true
 }

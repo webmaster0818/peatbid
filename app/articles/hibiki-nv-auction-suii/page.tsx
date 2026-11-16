@@ -37,7 +37,7 @@ export default function HibikiNvAuctionSuiiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">響ジャパニーズハーモニーのオークション相場推移</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-09 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-16 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -45,7 +45,7 @@ export default function HibikiNvAuctionSuiiPage() {
           <div className="bg-cream/30 border border-warm-border rounded-xl p-4 mb-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-2">対象銘柄</p>
             <p className="font-display text-xl font-semibold text-ink">響ジャパニーズハーモニー</p>
-            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / サントリー / ノンエイジ / 希少度 コモン / 市場相場 10,321円</p>
+            <p className="text-xs text-warm-gray mt-1">ジャパニーズウイスキー / サントリー / ノンエイジ / 希少度 コモン / 市場相場 10,450円</p>
             <p className="text-xs text-warm-gray mt-2">→ <Link href="/articles/hibiki-nv-kaitori/" className="text-amber-dark underline">響ジャパニーズハーモニーの買取相場ガイド</Link></p>
           </div>
 
@@ -65,34 +65,34 @@ export default function HibikiNvAuctionSuiiPage() {
 
           <div className="bg-cream/40 border-l-4 border-amber rounded-r-xl p-4 my-6 not-prose">
             <p className="text-xs text-amber-dark font-bold tracking-wider mb-1">この銘柄の市場データ</p>
-            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは響ジャパニーズハーモニーの落札が約268件確認でき、落札額の中央値は10,321円でした。取引が活発で、換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
+            <p className="text-sm text-ink leading-relaxed">直近180日のYahoo!オークションでは響ジャパニーズハーモニーの落札が約270件確認でき、落札額の中央値は10,450円でした。取引が活発で、換金しやすい銘柄で、本記事の査定目安はこの実勢中央値を基準に算出しています。</p>
           </div>
 
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
             <p className="text-sm font-bold text-ink mb-3">響ジャパニーズハーモニーの買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
             <svg viewBox="0 0 640 210" role="img" aria-label="響ジャパニーズハーモニーのヤフオク落札中央値の週次推移グラフ" className="w-full h-auto">
-              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">11,110</text>
-              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">10,716</text>
+              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">10,998</text>
+              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">10,660</text>
               <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">10,321</text>
-              <polyline points="66.0,38.9 116.5,95.9 167.1,87.6 217.6,87.5 268.2,87.5 318.7,55.4 369.3,95.7 419.8,136.1 470.4,136.1 520.9,136.1 571.5,135.8 622.0,155.1" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="66.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 11,110円（サンプル n=280件）</title></circle>
-              <circle cx="116.5" cy="95.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 10,723円（サンプル n=284件）</title></circle>
-              <circle cx="167.1" cy="87.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 10,779円（サンプル n=276件）</title></circle>
-              <circle cx="217.6" cy="87.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 10,780円（サンプル n=256件）</title></circle>
-              <circle cx="268.2" cy="87.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 10,780円（サンプル n=278件）</title></circle>
-              <circle cx="318.7" cy="55.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 10,998円（サンプル n=286件）</title></circle>
-              <circle cx="369.3" cy="95.7" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 10,724円（サンプル n=252件）</title></circle>
-              <circle cx="419.8" cy="136.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 10,450円（サンプル n=234件）</title></circle>
-              <circle cx="470.4" cy="136.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 10,450円（サンプル n=258件）</title></circle>
-              <circle cx="520.9" cy="136.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 10,450円（サンプル n=252件）</title></circle>
-              <circle cx="571.5" cy="135.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 10,452円（サンプル n=272件）</title></circle>
-              <circle cx="622.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-09: 10,321円（サンプル n=268件）</title></circle>
-              <text x="618.0" y="145.1" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">10,321円</text>
-              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/24</text>
-              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/28</text>
-              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/9</text>
+              <polyline points="66.0,86.1 116.5,76.5 167.1,76.3 217.6,76.3 268.2,38.9 318.7,85.9 369.3,133.0 419.8,133.0 470.4,133.0 520.9,132.6 571.5,155.1 622.0,133.0" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="86.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 10,723円（サンプル n=284件）</title></circle>
+              <circle cx="116.5" cy="76.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 10,779円（サンプル n=276件）</title></circle>
+              <circle cx="167.1" cy="76.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 10,780円（サンプル n=256件）</title></circle>
+              <circle cx="217.6" cy="76.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 10,780円（サンプル n=278件）</title></circle>
+              <circle cx="268.2" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 10,998円（サンプル n=286件）</title></circle>
+              <circle cx="318.7" cy="85.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 10,724円（サンプル n=252件）</title></circle>
+              <circle cx="369.3" cy="133.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 10,450円（サンプル n=234件）</title></circle>
+              <circle cx="419.8" cy="133.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 10,450円（サンプル n=258件）</title></circle>
+              <circle cx="470.4" cy="133.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 10,450円（サンプル n=252件）</title></circle>
+              <circle cx="520.9" cy="132.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 10,452円（サンプル n=272件）</title></circle>
+              <circle cx="571.5" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-09: 10,321円（サンプル n=268件）</title></circle>
+              <circle cx="622.0" cy="133.0" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-16: 10,450円（サンプル n=270件）</title></circle>
+              <text x="618.0" y="123.0" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">10,450円</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/31</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">10/5</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/16</text>
             </svg>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-24〜2026-11-09（週次12点・各点のサンプル数 n=234〜286件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-31〜2026-11-16（週次12点・各点のサンプル数 n=234〜286件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
           </div>
 
 
@@ -102,10 +102,10 @@ export default function HibikiNvAuctionSuiiPage() {
           </div>
 
           <h2 id="section-0">1. 響ジャパニーズハーモニーの市場ポジションとデータ分析</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p><strong>響ジャパニーズハーモニー</strong>はジャパニーズウイスキー（サントリー）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>10,321円</strong>（流通サンプル268件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p><strong>響ジャパニーズハーモニー</strong>はジャパニーズウイスキー（サントリー）のノンエイジ（NV）、度数43%、希少度は標準的な流通量に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>10,450円</strong>（流通サンプル270件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 週次の落札中央値の推移</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 の響ジャパニーズハーモニーは <strong>11,055円</strong>（n=262件）、最新の 2026-11-09 は <strong>10,321円</strong>（n=268件）で、この間の変化は <strong>-6.6%</strong> です。</p><p>集計した25週のうち、最も高い週は <strong>11,660円</strong>（2026-06-15）、最も低い週は <strong>10,321円</strong>（2026-11-09）です。</p><p>各週の値は過去180日分の落札結果の集計のため、週ごとの変化は緩やかに表れます。集計期間が25週分のため、数年単位の値動きについては、このデータからは判断できません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 の響ジャパニーズハーモニーは <strong>11,055円</strong>（n=262件）、最新の 2026-11-16 は <strong>10,450円</strong>（n=270件）で、この間の変化は <strong>-5.5%</strong> です。</p><p>集計した26週のうち、最も高い週は <strong>11,660円</strong>（2026-06-15）、最も低い週は <strong>10,321円</strong>（2026-11-09）です。</p><p>各週の値は過去180日分の落札結果の集計のため、週ごとの変化は緩やかに表れます。集計期間が26週分のため、数年単位の値動きについては、このデータからは判断できません。</p>` }} />
 
           <h2 id="section-2">3. 落札中央値の集計方法</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>集計の手順は、以下のとおりです（<a href="/methodology/">算出方法</a>）。</p><ol><li>銘柄ごとに定めた検索語で、700mlボトルの落札結果を取得します</li><li>第1・第3四分位から四分位範囲の1.5倍を超えて離れた値を、外れ値として除外します</li><li>残った落札価格の中央値と件数を算出します</li><li>件数が20件未満の場合は、データ不足として中央値を掲載しません</li></ol>` }} />
@@ -157,7 +157,7 @@ export default function HibikiNvAuctionSuiiPage() {
             <Link href="/articles/hibiki-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">響（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-09）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-16）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>

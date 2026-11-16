@@ -37,7 +37,7 @@ export default function IchirosuDoubleDistilleriesAuctionSuiiPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">イチローズモルト ダブルディスティラリーズのオークション相場推移</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-09 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-16 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <MarketPriceCard data={priceData as Parameters<typeof MarketPriceCard>[0]["data"]} />
 
@@ -71,28 +71,28 @@ export default function IchirosuDoubleDistilleriesAuctionSuiiPage() {
           <div className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
             <p className="text-sm font-bold text-ink mb-3">イチローズモルト ダブルディスティラリーズの買取相場 直近12週の推移（ヤフオク落札中央値・毎週更新）</p>
             <svg viewBox="0 0 640 210" role="img" aria-label="イチローズモルト ダブルディスティラリーズのヤフオク落札中央値の週次推移グラフ" className="w-full h-auto">
-              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">9,776</text>
-              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">8,546</text>
+              <line x1="66" y1="38.9" x2="622" y2="38.9" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="42.4" fontSize="10" fill="#807565" textAnchor="end">9,652</text>
+              <line x1="66" y1="97.0" x2="622" y2="97.0" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="100.5" fontSize="10" fill="#807565" textAnchor="end">8,484</text>
               <line x1="66" y1="155.1" x2="622" y2="155.1" stroke="#E5DCC4" strokeDasharray="3 3" strokeWidth="1" /><text x="60" y="158.6" fontSize="10" fill="#807565" textAnchor="end">7,315</text>
-              <polyline points="66.0,38.9 116.5,44.8 167.1,51.9 217.6,75.5 268.2,85.1 318.7,87.3 369.3,98.5 419.8,99.1 470.4,121.3 520.9,136.9 571.5,146.1 622.0,155.1" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="66.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-24: 9,776円（サンプル n=280件）</title></circle>
-              <circle cx="116.5" cy="44.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 9,652円（サンプル n=280件）</title></circle>
-              <circle cx="167.1" cy="51.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 9,500円（サンプル n=262件）</title></circle>
-              <circle cx="217.6" cy="75.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 9,000円（サンプル n=258件）</title></circle>
-              <circle cx="268.2" cy="85.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 8,798円（サンプル n=250件）</title></circle>
-              <circle cx="318.7" cy="87.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 8,750円（サンプル n=262件）</title></circle>
-              <circle cx="369.3" cy="98.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 8,513円（サンプル n=256件）</title></circle>
-              <circle cx="419.8" cy="99.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 8,500円（サンプル n=254件）</title></circle>
-              <circle cx="470.4" cy="121.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 8,030円（サンプル n=246件）</title></circle>
-              <circle cx="520.9" cy="136.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 7,700円（サンプル n=246件）</title></circle>
-              <circle cx="571.5" cy="146.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 7,506円（サンプル n=244件）</title></circle>
-              <circle cx="622.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-09: 7,315円（サンプル n=246件）</title></circle>
+              <polyline points="66.0,38.9 116.5,46.5 167.1,71.3 217.6,81.4 268.2,83.8 318.7,95.5 369.3,96.2 419.8,119.5 470.4,135.9 520.9,145.6 571.5,155.1 622.0,155.1" fill="none" stroke="#C9923D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="66.0" cy="38.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-08-31: 9,652円（サンプル n=280件）</title></circle>
+              <circle cx="116.5" cy="46.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-07: 9,500円（サンプル n=262件）</title></circle>
+              <circle cx="167.1" cy="71.3" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-14: 9,000円（サンプル n=258件）</title></circle>
+              <circle cx="217.6" cy="81.4" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-21: 8,798円（サンプル n=250件）</title></circle>
+              <circle cx="268.2" cy="83.8" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-09-28: 8,750円（サンプル n=262件）</title></circle>
+              <circle cx="318.7" cy="95.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-05: 8,513円（サンプル n=256件）</title></circle>
+              <circle cx="369.3" cy="96.2" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-12: 8,500円（サンプル n=254件）</title></circle>
+              <circle cx="419.8" cy="119.5" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-19: 8,030円（サンプル n=246件）</title></circle>
+              <circle cx="470.4" cy="135.9" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-10-26: 7,700円（サンプル n=246件）</title></circle>
+              <circle cx="520.9" cy="145.6" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-02: 7,506円（サンプル n=244件）</title></circle>
+              <circle cx="571.5" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-09: 7,315円（サンプル n=246件）</title></circle>
+              <circle cx="622.0" cy="155.1" r="3.5" fill="#C9923D" stroke="#fff" strokeWidth="1.5"><title>2026-11-16: 7,315円（サンプル n=246件）</title></circle>
               <text x="618.0" y="145.1" fontSize="11" fontWeight="bold" fill="#8A5A18" textAnchor="end">7,315円</text>
-              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/24</text>
-              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">9/28</text>
-              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/9</text>
+              <text x="66.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">8/31</text>
+              <text x="318.7" y="198" fontSize="10" fill="#807565" textAnchor="middle">10/5</text>
+              <text x="622.0" y="198" fontSize="10" fill="#807565" textAnchor="middle">11/16</text>
             </svg>
-            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-24〜2026-11-09（週次12点・各点のサンプル数 n=244〜280件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
+            <p className="text-[11px] text-warm-gray leading-relaxed mt-2">期間 2026-08-31〜2026-11-16（週次12点・各点のサンプル数 n=244〜280件）。出典: ヤフオク実落札データの週次中央値（過去180日・IQR外れ値除去）・毎週月曜に更新。買取額を保証するものではありません。</p>
           </div>
 
 
@@ -105,7 +105,7 @@ export default function IchirosuDoubleDistilleriesAuctionSuiiPage() {
           <div dangerouslySetInnerHTML={{ __html: `<p><strong>イチローズモルト ダブルディスティラリーズ</strong>はジャパニーズウイスキー（ベンチャーウイスキー）のノンエイジ（NV）、度数46%、希少度は希少に分類される銘柄です。</p><p>直近180日の実勢中央値は<strong>7,315円</strong>（流通サンプル246件、当サイトの集計）。価格帯としては<strong>実用帯</strong>にあたり、取引が多く、状態が良ければ売却しやすい価格帯です。</p><p>流通量は<strong>潤沢</strong>の水準です。流通量が多く相場が安定しているため、付属品・状態の差が査定額に直接影響します。</p><p>ジャパニーズウイスキーは世界的な評価の高まりにより需要が強く、特に終売・長期熟成の銘柄は中長期で価格が上昇しやすい傾向があります。一方で、短期的には為替やオークションの結果により変動するため、売却の時期の判断が重要です。</p><p>※ 数値は当サイトがYahoo!オークションの過去180日落札データ（IQRで外れ値除去）から集計した参考値で、買取額を保証するものではありません。</p>` }} />
 
           <h2 id="section-1">2. 週次の落札中央値の推移</h2>
-          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 のイチローズモルト ダブルディスティラリーズは <strong>10,780円</strong>（n=242件）、最新の 2026-11-09 は <strong>7,315円</strong>（n=246件）で、この間の変化は <strong>-32.1%</strong> です。</p><p>集計した25週のうち、最も高い週は <strong>10,999円</strong>（2026-06-29）、最も低い週は <strong>7,315円</strong>（2026-11-09）です。</p><p>各週の値は過去180日分の落札結果の集計のため、週ごとの変化は緩やかに表れます。集計期間が25週分のため、数年単位の値動きについては、このデータからは判断できません。</p>` }} />
+          <div dangerouslySetInnerHTML={{ __html: `<p>PeatBid がヤフオク落札中央値の週次集計を始めた 2026-05-25 のイチローズモルト ダブルディスティラリーズは <strong>10,780円</strong>（n=242件）、最新の 2026-11-16 は <strong>7,315円</strong>（n=246件）で、この間の変化は <strong>-32.1%</strong> です。</p><p>集計した26週のうち、最も高い週は <strong>10,999円</strong>（2026-06-29）、最も低い週は <strong>7,315円</strong>（2026-11-09）です。</p><p>各週の値は過去180日分の落札結果の集計のため、週ごとの変化は緩やかに表れます。集計期間が26週分のため、数年単位の値動きについては、このデータからは判断できません。</p>` }} />
 
           <h2 id="section-2">3. 落札中央値の集計方法</h2>
           <div dangerouslySetInnerHTML={{ __html: `<p>集計の手順は、以下のとおりです（<a href="/methodology/">算出方法</a>）。</p><ol><li>銘柄ごとに定めた検索語で、700mlボトルの落札結果を取得します</li><li>第1・第3四分位から四分位範囲の1.5倍を超えて離れた値を、外れ値として除外します</li><li>残った落札価格の中央値と件数を算出します</li><li>件数が20件未満の場合は、データ不足として中央値を掲載しません</li></ol>` }} />
@@ -157,7 +157,7 @@ export default function IchirosuDoubleDistilleriesAuctionSuiiPage() {
             <Link href="/articles/ichirosu-nisemono-mikata/" className="block bg-white border border-burgundy/30 rounded-xl p-4 hover:shadow-md transition-shadow"><span className="text-xs text-burgundy font-bold">真贋の確認</span><p className="text-sm font-bold mt-1">イチローズモルト（全種）の偽物の見分け方</p></Link>
           </div>
 
-          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-09）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray mt-8">※本記事の市場相場は Yahoo Auctions 過去180日落札データの中央値（取得日 2026-11-16）です。業者の買取査定額は各社の在庫状況・キャンペーンにより変動するため、最新の査定額は各業者のページでご確認ください。PRリンクを含みます。</p>
         </article>
       </div>
     </>
