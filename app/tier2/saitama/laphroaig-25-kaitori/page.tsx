@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>バイセル 埼玉</strong></td><td>埼玉県全域</td><td>出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん さいたま 白岡店</strong></td><td>埼玉県白岡市西6-12-5</td><td>出張・宅配・店頭</td><td>株式会社REGATEが運営する買取専門店。お酒の買取ページに出張・宅配・店舗の3方式を記載。営業時間 10:00〜18:00・完全予約制（不定休）（2026年11月16日確認）</td></tr><tr><td><strong>ルーディヤ 川口</strong></td><td>埼玉県川口市</td><td>店頭</td><td>東京圏4店舗展開</td></tr></tbody>
+              <tbody><tr><td><strong>バイセル（埼玉県内12店）</strong></td><td>埼玉県内12店（さいたま市3・春日部市1・飯能市1・鴻巣市1・草加市1・富士見市1・志木市1・熊谷市1・蕨市1・蓮田市1）。出張は埼玉県全域</td><td>店頭・出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん さいたま 白岡店</strong></td><td>埼玉県白岡市西6-12-5</td><td>出張・宅配・店頭</td><td>株式会社REGATEが運営する買取専門店。お酒の買取ページに出張・宅配・店舗の3方式を記載。営業時間 10:00〜18:00・完全予約制（不定休）（2026年11月16日確認）</td></tr><tr><td><strong>ルーディヤ 川口</strong></td><td>埼玉県川口市</td><td>店頭</td><td>東京圏4店舗展開</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>

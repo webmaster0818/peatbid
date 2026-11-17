@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>バイセル 千葉</strong></td><td>千葉県全域</td><td>出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん 千葉 祐光店</strong></td><td>千葉県千葉市中央区祐光3丁目7-11</td><td>出張・宅配・店頭</td><td>株式会社REGATEが運営する買取専門店。お酒の買取ページに出張・宅配・店舗の3方式を記載。営業時間 10:00〜18:00・完全予約制（不定休）（2026年11月16日確認）</td></tr><tr><td><strong>セルクル柏</strong></td><td>千葉県柏市</td><td>店頭</td><td>地元密着・柏駅近</td></tr></tbody>
+              <tbody><tr><td><strong>バイセル（千葉県内18店）</strong></td><td>千葉県内18店（千葉市3・柏市3・八千代市2・館山市1・旭市1・佐倉市1・茂原市1・船橋市1・松戸市1・鎌ケ谷市1・鴨川市1・成田市1・東金市1）。出張は千葉県全域</td><td>店頭・出張・宅配</td><td>東証上場大手</td></tr><tr><td><strong>福ちゃん 千葉 祐光店</strong></td><td>千葉県千葉市中央区祐光3丁目7-11</td><td>出張・宅配・店頭</td><td>株式会社REGATEが運営する買取専門店。お酒の買取ページに出張・宅配・店舗の3方式を記載。営業時間 10:00〜18:00・完全予約制（不定休）（2026年11月16日確認）</td></tr><tr><td><strong>セルクル柏</strong></td><td>千葉県柏市</td><td>店頭</td><td>地元密着・柏駅近</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>

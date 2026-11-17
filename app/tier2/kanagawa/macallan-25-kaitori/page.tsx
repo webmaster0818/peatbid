@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>LIQUORJOY（リカージョイ）</strong></td><td>神奈川県横浜市</td><td>店頭・出張・宅配</td><td>横浜のお酒買取専門店。マッカラン25年・響30年など高額品実績豊富</td></tr><tr><td><strong>福ちゃん</strong></td><td>神奈川県内に店舗なし（横浜市神奈川区の「横浜センター」は事業所）</td><td>出張・宅配</td><td>株式会社REGATEが運営する買取専門店。店舗一覧（11店）に神奈川県の店舗はなく、会社概要の事業所（14拠点）に横浜センターの記載があります。お酒の買取ページに出張・宅配・店舗の3方式を記載（2026年11月16日確認）</td></tr><tr><td><strong>ルーディヤ 川崎</strong></td><td>神奈川県川崎市</td><td>店頭・郵送</td><td>京浜エリアで店頭買取対応</td></tr><tr><td><strong>バイセル 神奈川</strong></td><td>神奈川県全域</td><td>出張・宅配</td><td>東証上場の大手</td></tr></tbody>
+              <tbody><tr><td><strong>LIQUORJOY（リカージョイ）</strong></td><td>神奈川県横浜市</td><td>店頭・出張・宅配</td><td>横浜のお酒買取専門店。マッカラン25年・響30年など高額品実績豊富</td></tr><tr><td><strong>福ちゃん</strong></td><td>神奈川県内に店舗なし（横浜市神奈川区の「横浜センター」は事業所）</td><td>出張・宅配</td><td>株式会社REGATEが運営する買取専門店。店舗一覧（11店）に神奈川県の店舗はなく、会社概要の事業所（14拠点）に横浜センターの記載があります。お酒の買取ページに出張・宅配・店舗の3方式を記載（2026年11月16日確認）</td></tr><tr><td><strong>ルーディヤ 川崎</strong></td><td>神奈川県川崎市</td><td>店頭・郵送</td><td>京浜エリアで店頭買取対応</td></tr><tr><td><strong>バイセル（神奈川県内32店）</strong></td><td>神奈川県内32店（横浜市18・川崎市4・茅ヶ崎市2・藤沢市2・相模原市2・伊勢原市2・座間市1・海老名市1）。出張は神奈川県全域</td><td>店頭・出張・宅配</td><td>東証上場の大手</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>

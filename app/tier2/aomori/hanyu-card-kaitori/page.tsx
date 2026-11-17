@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>バイセル 青森</strong></td><td>青森県全域</td><td>出張・宅配</td><td>東証上場大手、東北全域対応</td></tr><tr><td><strong>福ちゃん 青森</strong></td><td>青森県全域</td><td>出張・宅配</td><td>全国12店舗展開大手</td></tr><tr><td><strong>買取大臣 青森</strong></td><td>青森県全域</td><td>宅配</td><td>東北の地域密着</td></tr></tbody>
+              <tbody><tr><td><strong>バイセル マックスバリュ三戸店・マックスバリュ野辺地店</strong></td><td>三戸郡三戸町川守田下比良18-1／上北郡野辺地町二本木24-1 マックスバリュ野辺地店内。出張は青森県全域</td><td>店頭・出張・宅配</td><td>東証上場大手、東北全域対応</td></tr><tr><td><strong>福ちゃん 青森</strong></td><td>青森県全域</td><td>出張・宅配</td><td>全国12店舗展開大手</td></tr><tr><td><strong>買取大臣 青森</strong></td><td>青森県全域</td><td>宅配</td><td>東北の地域密着</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>

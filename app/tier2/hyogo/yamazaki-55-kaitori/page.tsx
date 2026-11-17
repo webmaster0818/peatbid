@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>LIQUORJOY 神戸</strong></td><td>兵庫県神戸市</td><td>店頭・出張</td><td>ウイスキー専門査定</td></tr><tr><td><strong>福ちゃん 神戸 長田店</strong></td><td>兵庫県神戸市長田区林山町1-1</td><td>出張・宅配・店頭</td><td>株式会社REGATEが運営する買取専門店。お酒の買取ページに出張・宅配・店舗の3方式を記載。営業時間 10:00〜18:00・完全予約制（不定休）（2026年11月16日確認）</td></tr><tr><td><strong>OKURA 神戸</strong></td><td>兵庫県神戸市</td><td>店頭・出張</td><td>高額ウイスキー査定</td></tr><tr><td><strong>バイセル 兵庫</strong></td><td>兵庫県全域</td><td>出張・宅配</td><td>東証上場大手</td></tr></tbody>
+              <tbody><tr><td><strong>LIQUORJOY 神戸</strong></td><td>兵庫県神戸市</td><td>店頭・出張</td><td>ウイスキー専門査定</td></tr><tr><td><strong>福ちゃん 神戸 長田店</strong></td><td>兵庫県神戸市長田区林山町1-1</td><td>出張・宅配・店頭</td><td>株式会社REGATEが運営する買取専門店。お酒の買取ページに出張・宅配・店舗の3方式を記載。営業時間 10:00〜18:00・完全予約制（不定休）（2026年11月16日確認）</td></tr><tr><td><strong>OKURA 神戸</strong></td><td>兵庫県神戸市</td><td>店頭・出張</td><td>高額ウイスキー査定</td></tr><tr><td><strong>バイセル（兵庫県内7店）</strong></td><td>兵庫県内7店（神戸市5・明石市1・尼崎市1）。出張は兵庫県全域</td><td>店頭・出張・宅配</td><td>東証上場大手</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>
