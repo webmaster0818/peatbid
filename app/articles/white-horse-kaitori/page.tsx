@@ -262,6 +262,8 @@ export default function WhiteHorseKaitoriPage() {
               <li><Link href="/articles/grants-kaitori/" className={linkCls}>グランツの買取相場</Link></li>
               <li><Link href="/articles/dewars-kaitori/" className={linkCls}>デュワーズの買取相場</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className={linkCls}>ウイスキー買取相場ガイド</Link></li>
+              <li><Link href="/articles/ballantines-12-kaitori/" className={linkCls}>バランタイン12年の買取相場</Link></li>
+              <li><Link href="/articles/furui-whisky-kachi/" className={linkCls}>古いウイスキー（特級表記）の価値</Link></li>
             </ul>
           </div>
         </article>

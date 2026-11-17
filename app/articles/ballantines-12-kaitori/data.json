@@ -1,0 +1,268 @@
+{
+  "slug": "ballantines-12-kaitori",
+  "yahoo": {
+    "12-700": {
+      "label": "バランタイン 12年（700ml・40%）",
+      "query": "バランタイン 12年／バランタイン 12／Ballantine's 12／バランタイン 12年 700ml／バランタイン 12年 ゴールドシール／バランタイン 12年 ベリーオールド／バランタイン 12年 1000ml",
+      "fetched_at": "2026-11-17",
+      "end_date_from": "2026-07-23",
+      "end_date_to": "2026-11-16",
+      "raw_n": 498,
+      "title_filtered_n": 71,
+      "filtered_n": 61,
+      "median": 2055,
+      "q1": 1870,
+      "q3": 2365,
+      "min": 1320,
+      "max": 3200,
+      "insufficient": false,
+      "regex": {
+        "require": "12\\s*年|12\\s*YEARS?|12\\s*Years|AGED\\s*12",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|劣化|傷み|ダメージ|汚れ|サビ|キズ|傷|17\\s*年|21\\s*年|30\\s*年|15\\s*年|18\\s*年|ファイネスト|FINEST|グレンバーギー|シングル|バレルスムース|オールドパー|Old\\s*Parr|シーバス|ホワイト|ジョニー|ナポレオン|サントリー|ローヤル|マドラー|\\d{3,4}\\s*[-~〜～/]\\s*\\d{3,4}|容量\\d+〜|\\d+\\s*点|\\d+\\s*本|ピュア\\s*モルト|ロイヤル\\s*ブルー|ROYAL\\s*BLUE|royal\\s*blue|43\\s*[%％度]|特級|ベリー\\s*オールド|VERY\\s*OLD",
+        "ml": [
+          700
+        ]
+      },
+      "label_breakdown": {
+        "plain": {
+          "n": 42,
+          "min": 1400,
+          "max": 3200,
+          "median": 2071
+        },
+        "goldseal": {
+          "n": 15,
+          "min": 1320,
+          "max": 3200,
+          "median": null
+        },
+        "bluelabel": {
+          "n": 4,
+          "min": 1700,
+          "max": 2860,
+          "median": null
+        }
+      }
+    },
+    "12-goldseal-750": {
+      "label": "バランタイン 12年 ゴールドシール（750ml・43%）",
+      "query": "バランタイン 12年／バランタイン 12／Ballantine's 12／バランタイン 12年 700ml／バランタイン 12年 ゴールドシール／バランタイン 12年 ベリーオールド／バランタイン 12年 1000ml",
+      "fetched_at": "2026-11-17",
+      "end_date_from": "2026-07-28",
+      "end_date_to": "2026-11-15",
+      "raw_n": 498,
+      "title_filtered_n": 25,
+      "filtered_n": 22,
+      "median": 1950,
+      "q1": 1812,
+      "q3": 2200,
+      "min": 1301,
+      "max": 2640,
+      "insufficient": false,
+      "regex": {
+        "require": "12\\s*年|12\\s*YEARS?|12\\s*Years|AGED\\s*12 & ゴールド\\s*・?\\s*シール|GOLD\\s*SEAL|GOLDSEAL|Gold\\s*Seal",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|劣化|傷み|ダメージ|汚れ|サビ|キズ|傷|17\\s*年|21\\s*年|30\\s*年|15\\s*年|18\\s*年|ファイネスト|FINEST|グレンバーギー|シングル|バレルスムース|オールドパー|Old\\s*Parr|シーバス|ホワイト|ジョニー|ナポレオン|サントリー|ローヤル|マドラー|\\d{3,4}\\s*[-~〜～/]\\s*\\d{3,4}|容量\\d+〜|\\d+\\s*点|\\d+\\s*本|ピュア\\s*モルト|ロイヤル\\s*ブルー|ROYAL\\s*BLUE|royal\\s*blue|ベリー\\s*オールド|VERY\\s*OLD|40\\s*[%％度]",
+        "ml": [
+          750
+        ]
+      },
+      "label_breakdown": {
+        "goldseal": {
+          "n": 22,
+          "min": 1301,
+          "max": 2640,
+          "median": 1950
+        }
+      }
+    },
+    "12-veryold-750": {
+      "label": "バランタイン 12年 ベリーオールド（750ml・760ml／赤青の旗・紋章の表記なし）",
+      "query": "バランタイン 12年／バランタイン 12／Ballantine's 12／バランタイン 12年 700ml／バランタイン 12年 ゴールドシール／バランタイン 12年 ベリーオールド／バランタイン 12年 1000ml",
+      "fetched_at": "2026-11-17",
+      "end_date_from": "2026-06-01",
+      "end_date_to": "2026-11-15",
+      "raw_n": 498,
+      "title_filtered_n": 59,
+      "filtered_n": 53,
+      "median": 2100,
+      "q1": 1700,
+      "q3": 2500,
+      "min": 978,
+      "max": 3410,
+      "insufficient": false,
+      "regex": {
+        "require": "12\\s*年|12\\s*YEARS?|12\\s*Years|AGED\\s*12 & ベリー\\s*オールド|VERY\\s*OLD",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|劣化|傷み|ダメージ|汚れ|サビ|キズ|傷|17\\s*年|21\\s*年|30\\s*年|15\\s*年|18\\s*年|ファイネスト|FINEST|グレンバーギー|シングル|バレルスムース|オールドパー|Old\\s*Parr|シーバス|ホワイト|ジョニー|ナポレオン|サントリー|ローヤル|マドラー|\\d{3,4}\\s*[-~〜～/]\\s*\\d{3,4}|容量\\d+〜|\\d+\\s*点|\\d+\\s*本|ピュア\\s*モルト|ロイヤル\\s*ブルー|ROYAL\\s*BLUE|royal\\s*blue|ゴールド\\s*・?\\s*シール|GOLD\\s*SEAL|GOLDSEAL|Gold\\s*Seal|赤青|青赤|40\\s*[%％度]",
+        "ml": [
+          750,
+          757,
+          760
+        ]
+      },
+      "label_breakdown": {
+        "veryold": {
+          "n": 53,
+          "min": 978,
+          "max": 3410,
+          "median": 2100
+        }
+      }
+    },
+    "12-akaao": {
+      "label": "バランタイン 12年（赤青の旗・紋章の表記・750ml／760ml）",
+      "query": "バランタイン 12年／バランタイン 12／Ballantine's 12／バランタイン 12年 700ml／バランタイン 12年 ゴールドシール／バランタイン 12年 ベリーオールド／バランタイン 12年 1000ml",
+      "fetched_at": "2026-11-17",
+      "end_date_from": "2026-06-14",
+      "end_date_to": "2026-11-16",
+      "raw_n": 498,
+      "title_filtered_n": 15,
+      "filtered_n": 13,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 5555,
+      "max": 11000,
+      "insufficient": true,
+      "regex": {
+        "require": "12\\s*年|12\\s*YEARS?|12\\s*Years|AGED\\s*12 & 赤青|青赤",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|劣化|傷み|ダメージ|汚れ|サビ|キズ|傷|17\\s*年|21\\s*年|30\\s*年|15\\s*年|18\\s*年|ファイネスト|FINEST|グレンバーギー|シングル|バレルスムース|オールドパー|Old\\s*Parr|シーバス|ホワイト|ジョニー|ナポレオン|サントリー|ローヤル|マドラー|\\d{3,4}\\s*[-~〜～/]\\s*\\d{3,4}|容量\\d+〜|\\d+\\s*点|\\d+\\s*本|ピュア\\s*モルト|ロイヤル\\s*ブルー|ROYAL\\s*BLUE|royal\\s*blue|ゴールド\\s*・?\\s*シール|GOLD\\s*SEAL|GOLDSEAL|Gold\\s*Seal",
+        "ml": [
+          750,
+          757,
+          760
+        ]
+      },
+      "label_breakdown": {
+        "veryold": {
+          "n": 12,
+          "min": 5555,
+          "max": 11000,
+          "median": null
+        },
+        "plain": {
+          "n": 1,
+          "min": 8000,
+          "max": 8000,
+          "median": null
+        }
+      }
+    },
+    "12-1000": {
+      "label": "バランタイン 12年（1000ml）",
+      "query": "バランタイン 12年／バランタイン 12／Ballantine's 12／バランタイン 12年 700ml／バランタイン 12年 ゴールドシール／バランタイン 12年 ベリーオールド／バランタイン 12年 1000ml",
+      "fetched_at": "2026-11-17",
+      "end_date_from": "2026-06-04",
+      "end_date_to": "2026-11-15",
+      "raw_n": 498,
+      "title_filtered_n": 62,
+      "filtered_n": 59,
+      "median": 2200,
+      "q1": 1758,
+      "q3": 2528,
+      "min": 694,
+      "max": 3860,
+      "insufficient": false,
+      "regex": {
+        "require": "12\\s*年|12\\s*YEARS?|12\\s*Years|AGED\\s*12",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|劣化|傷み|ダメージ|汚れ|サビ|キズ|傷|17\\s*年|21\\s*年|30\\s*年|15\\s*年|18\\s*年|ファイネスト|FINEST|グレンバーギー|シングル|バレルスムース|オールドパー|Old\\s*Parr|シーバス|ホワイト|ジョニー|ナポレオン|サントリー|ローヤル|マドラー|\\d{3,4}\\s*[-~〜～/]\\s*\\d{3,4}|容量\\d+〜|\\d+\\s*点|\\d+\\s*本|ピュア\\s*モルト|ロイヤル\\s*ブルー|ROYAL\\s*BLUE|royal\\s*blue|40\\s*[%％度]|30\\s*[%％度]|(ベリー\\s*オールド|VERY\\s*OLD).*(ゴールド\\s*・?\\s*シール|GOLD\\s*SEAL|GOLDSEAL|Gold\\s*Seal)",
+        "ml": [
+          1000
+        ]
+      },
+      "label_breakdown": {
+        "plain": {
+          "n": 9,
+          "min": 990,
+          "max": 3135,
+          "median": null
+        },
+        "veryold": {
+          "n": 15,
+          "min": 694,
+          "max": 3500,
+          "median": null
+        },
+        "goldseal": {
+          "n": 35,
+          "min": 1000,
+          "max": 3860,
+          "median": 2200
+        }
+      }
+    },
+    "royal-blue": {
+      "label": "バランタイン 12年 ロイヤルブルー",
+      "query": "バランタイン 12年／バランタイン 12／Ballantine's 12／バランタイン 12年 700ml／バランタイン 12年 ゴールドシール／バランタイン 12年 ベリーオールド／バランタイン 12年 1000ml",
+      "fetched_at": "2026-11-17",
+      "end_date_from": "2026-06-24",
+      "end_date_to": "2026-11-15",
+      "raw_n": 498,
+      "title_filtered_n": 16,
+      "filtered_n": 16,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 2420,
+      "max": 5600,
+      "insufficient": true,
+      "regex": {
+        "require": "12\\s*年|12\\s*YEARS?|12\\s*Years|AGED\\s*12 & ロイヤル\\s*ブルー|ROYAL\\s*BLUE|royal\\s*blue",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|劣化|傷み|ダメージ|汚れ|サビ|キズ|傷|17\\s*年|21\\s*年|30\\s*年|15\\s*年|18\\s*年|ファイネスト|FINEST|グレンバーギー|シングル|バレルスムース|オールドパー|Old\\s*Parr|シーバス|ホワイト|ジョニー|ナポレオン|サントリー|ローヤル|マドラー|\\d{3,4}\\s*[-~〜～/]\\s*\\d{3,4}|容量\\d+〜|\\d+\\s*点|\\d+\\s*本|ゴールド\\s*・?\\s*シール|GOLD\\s*SEAL|GOLDSEAL|Gold\\s*Seal",
+        "ml": [
+          700,
+          1000
+        ]
+      },
+      "label_breakdown": {
+        "700ml": {
+          "n": 4,
+          "min": 2420,
+          "max": 3000,
+          "median": null
+        },
+        "1000ml": {
+          "n": 12,
+          "min": 2970,
+          "max": 5600,
+          "median": null
+        }
+      }
+    },
+    "pure-malt": {
+      "label": "バランタイン 12年 ピュアモルト（700ml）",
+      "query": "バランタイン 12年／バランタイン 12／Ballantine's 12／バランタイン 12年 700ml／バランタイン 12年 ゴールドシール／バランタイン 12年 ベリーオールド／バランタイン 12年 1000ml",
+      "fetched_at": "2026-11-17",
+      "end_date_from": "2026-08-14",
+      "end_date_to": "2026-11-04",
+      "raw_n": 498,
+      "title_filtered_n": 7,
+      "filtered_n": 7,
+      "median": null,
+      "q1": null,
+      "q3": null,
+      "min": 1000,
+      "max": 7000,
+      "insufficient": true,
+      "regex": {
+        "require": "12\\s*年|12\\s*YEARS?|12\\s*Years|AGED\\s*12 & ピュア\\s*モルト|PURE\\s*MALT",
+        "exclude": "難あり|ジャンク|目減り|液量減少|液面低下|コルク\\s*(?:破損|折れ)|訳\\s*ア\\s*リ|訳あり|ラベル不良|中身無し|劣化|傷み|ダメージ|汚れ|サビ|キズ|傷|17\\s*年|21\\s*年|30\\s*年|15\\s*年|18\\s*年|ファイネスト|FINEST|グレンバーギー|シングル|バレルスムース|オールドパー|Old\\s*Parr|シーバス|ホワイト|ジョニー|ナポレオン|サントリー|ローヤル|マドラー|\\d{3,4}\\s*[-~〜～/]\\s*\\d{3,4}|容量\\d+〜|\\d+\\s*点|\\d+\\s*本",
+        "ml": [
+          700
+        ]
+      },
+      "label_breakdown": {
+        "plain": {
+          "n": 7,
+          "min": 1000,
+          "max": 7000,
+          "median": null
+        }
+      }
+    }
+  },
+  "official": {
+    "pernod": "https://www.pernod-ricard.com/en/brands/ballantines",
+    "suntory_prtimes": "https://prtimes.jp/main/html/rd/p/000001624.000042435.html",
+    "checked_at": "2026-11-17"
+  }
+}

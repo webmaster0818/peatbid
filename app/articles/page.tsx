@@ -83,6 +83,8 @@ export default function ArticlesIndexPage() {
           <Link href="/articles/whisky-naze-takai/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">なぜ高い？高騰の理由</Link>
           <Link href="/articles/whisky-hokan-houhou/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">保管方法</Link>
           <Link href="/articles/whisky-alcohol-dosu/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">アルコール度数</Link>
+          <Link href="/articles/furui-whisky-kachi/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">古いウイスキーの価値（特級表記）</Link>
+          <Link href="/articles/whisky-akibin-kaitori/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">空き瓶は売れる？</Link>
           <Link href="/articles/whisky-nisemono-miwakekata/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">偽物の見分け方</Link>
           <Link href="/articles/whisky-nv-toha/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">年代指定なし(NV)とは</Link>
           <Link href="/articles/whisky-souzoku-baikyaku/" className="text-sm bg-gold-bg border border-amber/40 text-amber-dark rounded-lg px-3 py-2 hover:bg-amber/10">相続・遺品のウイスキーを売る</Link>
@@ -132,6 +134,7 @@ export default function ArticlesIndexPage() {
               { name: "シーバスリーガル18年", slug: "chivas-regal-18-kaitori" },
               { name: "アードベッグ17年", slug: "ardbeg-17-kaitori" },
               { name: "余市 グランデ", slug: "yoichi-grande-kaitori" },
+              { name: "バランタイン12年", slug: "ballantines-12-kaitori" },
             ].map((b) => (
               <Link key={b.slug} href={`/articles/${b.slug}/`} className="text-sm bg-white border border-warm-border text-ink rounded-lg px-3 py-2 hover:border-amber/50 hover:text-amber-dark">
                 {b.name}の買取

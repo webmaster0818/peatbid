@@ -108,7 +108,7 @@ export default function Page() {
 
         <h2 id="uru">不安なときの売り方</h2>
         <p>
-          真贋に不安があるボトルは、<strong>複数の買取業者の無料査定</strong>に出すのが現実的です。価格比較だけでなく、真贋面の指摘も得やすくなります。特に <Link href="/articles/yamazaki-18-kaitori/">山崎</Link>・<Link href="/articles/hibiki-30-kaitori/">響</Link>・<Link href="/articles/ichirosu-double-distilleries-kaitori/">イチローズモルト</Link> など高額銘柄は、専門性のある業者を選ぶことをおすすめします。
+          真贋に不安があるボトルは、<strong>複数の買取業者の無料査定</strong>に出すのが現実的です。価格比較だけでなく、真贋面の指摘も得やすくなります。特に <Link href="/articles/yamazaki-18-kaitori/">山崎</Link>・<Link href="/articles/hibiki-30-kaitori/">響</Link>・<Link href="/articles/ichirosu-double-distilleries-kaitori/">イチローズモルト</Link> など高額銘柄は、専門性のある業者を選ぶことをおすすめします。飲み終えたボトルの扱いは<Link href="/articles/whisky-akibin-kaitori/">ウイスキーの空き瓶は売れる？</Link>にまとめています。
         </p>
         <div className="not-prose bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 text-center">
           <p className="font-bold text-ink mb-2">高額銘柄こそ複数業者で査定</p>

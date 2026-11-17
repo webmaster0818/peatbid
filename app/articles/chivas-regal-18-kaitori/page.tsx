@@ -284,6 +284,7 @@ export default function ChivasRegal18KaitoriPage() {
               <li><Link href="/articles/glenlivet-kaitori/" className={linkCls}>グレンリベットの買取相場</Link></li>
               <li><Link href="/articles/johnnie-walker-kaitori/" className={linkCls}>ジョニーウォーカーの買取相場</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className={linkCls}>ウイスキー買取相場ガイド</Link></li>
+              <li><Link href="/articles/ballantines-12-kaitori/" className={linkCls}>バランタイン12年の買取相場</Link></li>
             </ul>
           </div>
         </article>
