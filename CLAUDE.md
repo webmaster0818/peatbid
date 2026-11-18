@@ -928,3 +928,11 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - ヤフオク 11/17 取得・タイトル目視（/tmp/pb1117-bal・-old・-akibin）。中央値: バランタイン12年 700ml 2,055(61)・1000ml 2,200(59)・ゴールドシール750 1,950(22)・ベリーオールド 2,100(53)／特級 国産（山崎除く）2,800(173)・スコッチ 2,860(241)・オールド 2,447(46)・キングスランド 3,460(32)・JW黒 5,850(27)・JW赤 2,500(35)・オールドパー 1,863(44)／空き瓶 響21年 8,900(25)・山崎18年 7,950(22)・響30年 25,000(21)。n<20 は範囲のみ。
 - 導線: /articles/ 一覧（銘柄にバランタイン12年・解説に2本）・white-horse（→バランタイン12・古いウイスキー）・chivas-regal-18（→バランタイン12）・whisky-nisemono（→空き瓶）・新規2本の相互リンク。track-record 571記事・3,032URL・解説/総合 61。sitemap は新規3＋/articles/・/track-record/ だけ lastmod 11-17。
 - build（heap8192）EXIT0・*.txt 削除（robots 保全）・precheck ✅（3,032）・trust-audit check_page 指摘0・ASP 0。フル rsync（buildId 以外の差分なし）。source d6bfc8e67・deploy 591b01bbd3。本番3URL 200・h1 確認。Indexing 3本 200。queue の作れる語 0 → 競合の次の3案を peatbid ch に選定依頼（別投稿）。
+
+### 2026-11-18 朝ルーチン: tier2 茨城 バイセル行に店頭（11/18 開店）・青森 福ちゃん行の店舗数
+- **バイセル**（11/18 curl・店舗検索 API map_list 201店）: 未照合の「県全域／出張・宅配」17県のうち、秋田・山形・富山・石川・福井・山梨・滋賀・島根・岡山・山口・高知・長崎・大分・宮崎の14県は県内店舗0＝行は正しい（変更なし）。福島（2店）・新潟（万代）は 11/27 開店予定で据え置き。**茨城 そよらひたち野うしく店**（直営・/store/soyora-hitachinoushiku/ に「店舗OPEN日 2026年11月18日」・牛久市ひたち野東1丁目23-1 そよらひたち野うしく 2F・20歳文言／/area/liquor-ibaraki/ の店舗案内に掲載）→「バイセル そよらひたち野うしく店／…（2026年11月18日開店）。出張は茨城県全域／店頭・出張・宅配」。特徴「東証上場大手」は A/B 待ちで据え置き。
+- **福ちゃん**（fuku-chan.jp トップ・/liquor/・/site-info/company.php を 11/18 curl）: 店舗一覧11店・事業所14拠点は 11/16 と同じ。「県全域」7行（青森・岩手・秋田・山形・福島・鳥取・島根）は7県とも店舗・事業所なし＝方式「出張・宅配（宅配・出張）」は正しい。所在地「◯◯県全域」は A/B 待ちで据え置き。**青森行の特徴「全国12店舗展開大手」は店舗一覧11店と食い違い→他県と同じ「全国大手」**。
+- `scripts/patch-tier2-ibaraki-buysell-aomori-fukuchan-1118.py`（冪等・app 51×2＋prefectures.py・2回目0）。
+- 報告のみ: /tier2/ibaraki/ の早見表（gen-tier2-area.py `QUICK_STORES["ibaraki"]`・11/12 確認）は「バイセル（出張）」のまま（11/12 時点では正しい）。旧生成器 generate-tier2-samples-v2.py / generate-tier2-full.py に「全国12店舗展開」3か所（現行の出力には不使用）。
+- 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4〜と同じ・11/18 本番で原文確認）。
+- sitemap は2県リーフ102＋/tier2/ 等が lastmod（コミット日）。build（heap8192）1回目はツールの時間切れで中断→2回目 EXIT0・*.txt 26,642 削除（robots 保全）・precheck ✅（3,032）→ フル rsync（--exclude .git/_not-found/functions）。buildId 以外の差分は102リーフ＋sitemap のみ。ASP 0→0・hikakaku href 607→607。source d89679113/190c038d0・deploy a3d3da8e77。
