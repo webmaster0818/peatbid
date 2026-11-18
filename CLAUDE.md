@@ -935,4 +935,4 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - `scripts/patch-tier2-ibaraki-buysell-aomori-fukuchan-1118.py`（冪等・app 51×2＋prefectures.py・2回目0）。
 - 報告のみ: /tier2/ibaraki/ の早見表（gen-tier2-area.py `QUICK_STORES["ibaraki"]`・11/12 確認）は「バイセル（出張）」のまま（11/12 時点では正しい）。旧生成器 generate-tier2-samples-v2.py / generate-tier2-full.py に「全国12店舗展開」3か所（現行の出力には不使用）。
 - 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4〜と同じ・11/18 本番で原文確認）。
-- sitemap は2県リーフ102＋/tier2/ 等が lastmod（コミット日）。build（heap8192）1回目はツールの時間切れで中断→2回目 EXIT0・*.txt 26,642 削除（robots 保全）・precheck ✅（3,032）→ フル rsync（--exclude .git/_not-found/functions）。buildId 以外の差分は102リーフ＋sitemap のみ。ASP 0→0・hikakaku href 607→607。source d89679113/190c038d0・deploy a3d3da8e77。
+- sitemap は2県リーフ102＋/tier2/ 等が lastmod（コミット日）。build（heap8192）1回目はツールの時間切れで中断→2回目 EXIT0・*.txt 26,642 削除（robots 保全）・precheck ✅（3,032）→ フル rsync（--exclude .git/_not-found/functions）。buildId 以外の差分は102リーフ＋sitemap のみ。ASP 0→0・hikakaku href 607→607。source d89679113/190c038d0・deploy a3d3da8e77（CF Pages が30分 in_progress→空コミット b6bd9f9a80、11:01 本番反映を確認：茨城/青森 4URLで新行1・旧「バイセル 茨城」「全国12店舗展開大手」0・sitemap 11-18 は105・/api/contact 400）。Indexing は未送信。
