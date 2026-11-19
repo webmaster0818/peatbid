@@ -943,3 +943,11 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **/articles/hibiki-nisemono-mikata/**（gen-nisemono-brand-hubs.py `BRAND_LEAD["hibiki"]`）: マスターズセレクトの項に素性を追加＝2015年10月に免税店（GTR）向けに発売（Moodie Davitt Report 2015-12-03）・700ml 43%・2023年100周年ラベルは国内向け/免税向けの2種（同 2023-10-26）。公式の見分け方は見つからない旨（11/18）・免税店のレシートを添える案内。WebSearch は日本の結果なし。build() を hibiki だけ呼んだ（main 全体は回していない）。
 - **/articles/glenmorangie-signet-kaitori/**: 照合のみ・変更なし（ストックラボ 11/18 更新・LINXAS 9/30 とも参考行の金額同じ、シグネットの行は引き続き無し。競合 おたからや はシグネット「ASK」（2024-05-22 時点））。
 - 再生成は brand-v3 render_page×2（hakushu-12・yamazaki-25）・nisemono hub build×1 のみ。sitemap は3ページだけ lastmod 11-18。build（heap8192）EXIT0・*.txt 削除（robots 保全）・precheck ✅（3,032）→ フル rsync（--exclude .git/_not-found/functions）。表示テキストの差分は3ページのみ（他は buildId）。ASP 0→0・hikakaku href 613→613。source c70b33cfa・deploy da9189e7d0。Indexing は未送信（親が実施）。
+
+### 2026-11-19 朝ルーチン: 点検 C3・/track-record/ 照合・バイセル店頭の続き → tier2 茨城 早見表にバイセル店頭 ✅本番反映済み
+- 点検 C3 /author/ は否定文「外部の監修者…による監修は受けていません」＝誤検知（11/4〜と同じ・11/19 本番で原文確認）。
+- /track-record/: 「パートナー業者」は 11/7（3f9fa07fe）に削除済み＝ソース・本番とも0件。「全ページのフッターに PR 表記」は deploy HTML 3,035/3,035 に「※本サイトはプロモーション(PR)を含みます。」＝事実どおり。数値（571記事・3,032URL・tier2 2,445）も sitemap と一致。変更なし。同じ箇所の「編集方針ページで業者紹介の仕組みを説明」は /methodology/ §5（提携・紹介料 A/B 待ち）を指す＝据え置き。
+- バイセル（11/19 店舗検索 API map_list 201店・11/18 と同数）: 新規開店なし。開店予定は あしかが 11/20・福島2店/新潟 万代/長野 松本 11/27（店舗リストの NEW OPEN バッジ）。県ごとの店数は prefectures.py の各行と一致。
+- **/tier2/ibaraki/ 早見表**（gen-tier2-area.py `QUICK_STORES["ibaraki"]`）: 7行を 11/19 に公式で再確認（内容同じ・買取大吉74件・大黒屋の出張エリアは /visit/liquor/ に記載）＋「バイセル そよらひたち野うしく店（店頭）」行を追加（/store/soyora-hitachinoushiku/：OPEN日 2026年11月18日・10:00〜19:00・20歳文言）。確認日 11-12→11-19。再生成は gen-tier2-area ibaraki → national-link パッチ（変更前に差分0を確認）。
+- 報告のみ: 早見表の「バイセル（出張）」だけで県内店の行が無いのは 神奈川（32店）・埼玉（12店）・長野（2店）・広島（3店）。茨城の下の店舗表（local-buyers.json）にうしく店は未掲載。
+- build（heap8192）1回目はツールの時間切れ（compile 18分・負荷高）→2回目 EXIT0・*.txt 削除（robots 保全）・precheck ✅（3,032）→ フル rsync（--exclude .git/_not-found/functions）。ASP 0→0・hikakaku href 606→606。source 974151938/5fd291118・deploy bda6921f06（CF Pages 30分未反映→空コミット 2de8b783c5、10:29 本番反映：新行2・「11月19日確認」2・旧「11月12日確認」0・sitemap ibaraki 11-19・/api/contact 400・robots Sitemap 行）。Indexing は未送信。
