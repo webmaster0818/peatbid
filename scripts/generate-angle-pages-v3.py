@@ -864,11 +864,12 @@ def render_page(b, data):
         # 「山崎18年 価格推移 予想」「山崎18年 10年後」「買取価格推移」の着地（GSC 9/2〜10/27・表示 34→7）。
         # 冒頭に実データの推移が無く、下の汎用の年表（「2025〜2026年 高値維持」）は店舗の実績（2024年4月をピークに下落）と合っていなかった。
         ("yamazaki-18", "kihaku"): (
-            "山崎18年の価格推移（先に結論・2026-10-30 確認）",
+            "山崎18年の価格推移（先に結論・2026-11-19 確認）",
             '<ul className="list-disc pl-5 space-y-1">'
-            '<li><strong>買取価格は2024年春がピークで、その後下がり、2026年は戻りつつあります。</strong>ストックラボの買取実績（ホログラムシール有り・箱有・月別中央値）は、2023年10月 91,000円 → <strong>2024年4月 121,500円（最高）</strong> → <strong>2025年10月 81,500円（最低）</strong> → 2026年9月 91,000円です（<a href="https://www.stock-lab.com/osake-kaitori/whiskey/yamazaki/age18-2/" target="_blank" rel="noopener" className="text-amber-dark underline">ストックラボ 山崎18年の買取価格</a>・グラフ更新 2026/10/07）。</li>'
-            '<li>同店の現在の掲示価格（2026年10月30日更新）は、ホログラムシール有り・箱有 88,000〜89,000円／シールなし・箱有 80,000〜81,000円／シール有り・箱なし 77,000〜78,000円／シールなし・箱なし 68,000〜69,000円です。</li>'
-            '<li>ヤフオク落札中央値（PeatBid 集計・過去180日）は、2026-05-25 の93,240円から 2026-10-26 の91,299円で、ほぼ横ばいです。</li>'
+            '<li><strong>買取価格は2024年春がピークで、その後下がり、2026年は戻りつつあります。</strong>ストックラボの買取実績（ホログラムシール有り・箱有・月別中央値）は、2023年11月 91,000円 → <strong>2024年4月 121,500円（最高）</strong> → <strong>2025年10月 81,500円（最低）</strong> → 2026年7月 93,000円 → 2026年10月 89,000円です（<a href="https://www.stock-lab.com/osake-kaitori/whiskey/yamazaki/age18-2/" target="_blank" rel="noopener" className="text-amber-dark underline">ストックラボ 山崎18年の買取価格</a>・グラフ更新 2026/11/16）。</li>'
+            '<li>同店の現在の掲示価格（2026年11月18日更新・10月30日と同額）は、ホログラムシール有り・箱有 88,000〜89,000円／シールなし・箱有 80,000〜81,000円／シール有り・箱なし 77,000〜78,000円／シールなし・箱なし 68,000〜69,000円です。</li>'
+            '<li>ヤフオク落札中央値（PeatBid 集計・過去180日）は、2026-05-25 の93,240円から 2026-11-16 の92,400円で、ほぼ横ばいです。</li>'
+            '<li><strong>店による査定の差:</strong> 一括査定サービス「ウリドキ」が公開している2026年の山崎18年の査定では、同じボトルに対する各社の査定が 2026-05-22（新品・箱あり・2社）92,000円／92,000円、2026-07-19（美品・3社）92,500円／90,000円／60,000円、2026-04-26（新品未開封・3社）83,000円／80,000円／63,000円、2026-07-17（美品・箱付き・2社）181,500円／70,000円 と分かれていました。最高額の多くはストックラボの掲示（88,000〜89,000円）に近い一方、6〜7万円台の査定も付いています（出典: <a href="https://uridoki.net/pix/items/41cc79a9-e329-4f94-bb84-a26e302e2869" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">ウリドキ 05/22</a>・<a href="https://uridoki.net/pix/items/f183954a-56ef-4b31-a241-63144ad4a36e" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">07/19</a>・<a href="https://uridoki.net/pix/items/b6368f54-c9ac-4dba-88de-f37fe4eedcf8" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">04/26</a>・<a href="https://uridoki.net/pix/items/01835879-fb0d-4d3e-94f8-70968c648949" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">07/17</a>。2026-11-19 確認。査定額は写真・説明にもとづく見積もりで、買取の成立額ではありません）。売るときは2〜3社以上の査定を比べてください。</li>'
             '<li><strong>10年後の価格の予想:</strong> メーカーや公的機関が出している将来価格の予測はありません。上の実績のとおり、2024年4月から2025年10月の1年半で約12万円から約8万円まで下がった銘柄で、値上がりは保証されません。下の「3. 価格推移の歴史」はジャパニーズウイスキー全体の一般的な流れです。</li>'
             '<li>今の買取相場を店舗別に比べる場合は <Link href="/articles/yamazaki-18-kaitori/" className="text-amber-dark underline font-bold">山崎18年の買取相場 →</Link></li>'
             '</ul>'
@@ -879,7 +880,7 @@ def render_page(b, data):
         "hakushu-12-nisemono-mikata": "白州12年の偽物の見分け方。ホログラムシールはキャップ部分が2022年2月以降の出荷、開封口と背面の2か所が2024年3月製造分からで、シールの無い商品も流通しています。2021年再発売時のラベル変更、売る前の3点チェックと買取価格も掲載。",
         "yamazaki-nv-hako-nashi": "山崎ノンエイジの箱なしの買取価格は、掲示4店（ストックラボ・LINXAS・キングラムリカー・リカスタ）で 9,000〜10,000円、4店とも箱ありと同額です（2026年11月7日確認）。外箱を無くした場合の手順も掲載しています。",
     }
-    ANGLE_UPDATED = {"yamazaki-nv-hako-nashi": "2026-11-07", "hakushu-12-nisemono-mikata": "2026-11-08"}
+    ANGLE_UPDATED = {"yamazaki-nv-hako-nashi": "2026-11-07", "hakushu-12-nisemono-mikata": "2026-11-08", "yamazaki-18-kihaku": "2026-11-19"}
     if slug in ANGLE_DESC:
         data["description"] = ANGLE_DESC[slug]
     display_updated = max(ANGLE_UPDATED.get(slug, ""), fetched_at) if fetched_at[:1].isdigit() else fetched_at
