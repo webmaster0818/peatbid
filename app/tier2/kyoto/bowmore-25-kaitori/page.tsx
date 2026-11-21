@@ -115,7 +115,7 @@ export default function Page() {
           <div className="table-wrapper">
             <table>
               <thead><tr><th>業者</th><th>所在地・対応エリア</th><th>方式</th><th>特徴</th></tr></thead>
-              <tbody><tr><td><strong>大吉 京都四条店</strong></td><td>京都府京都市下京区</td><td>店頭</td><td>総合買取で洋酒対応、即現金化</td></tr><tr><td><strong>リカスタ 京都</strong></td><td>京都府内対応</td><td>出張・宅配</td><td>お酒専門業者が出張対応</td></tr><tr><td><strong>福ちゃん 京都 伏見店</strong></td><td>京都府京都市伏見区下鳥羽上三栖町106</td><td>出張・宅配・店頭</td><td>株式会社REGATEが運営する買取専門店。お酒の買取ページに出張・宅配・店舗の3方式を記載。営業時間 10:00〜18:00・完全予約制（不定休）（2026年11月16日確認）</td></tr><tr><td><strong>OKURA 京都</strong></td><td>京都府内対応</td><td>店頭・出張</td><td>高額ウイスキーの査定実績</td></tr></tbody>
+              <tbody><tr><td><strong>買取大吉（京都府内57件）</strong></td><td>公式の近畿地区のお酒買取店舗一覧で京都府は57件</td><td>店頭</td><td>総合買取店。公式に「お酒に関しては、一部取り扱っていない店舗がございます」と記載（2026年11月21日確認）</td></tr><tr><td><strong>リカスタ（お酒買取専門店）</strong></td><td>京都府内に店舗なし（店頭買取は大阪店＝大阪市中央区北新町2-6 ツムラ谷町ビル4F）</td><td>出張・宅配</td><td>公式の京都府ページに「京都府は 出張買取 宅配買取 エリアです」と記載（2026年11月21日確認）</td></tr><tr><td><strong>福ちゃん 京都 伏見店</strong></td><td>京都府京都市伏見区下鳥羽上三栖町106</td><td>出張・宅配・店頭</td><td>株式会社REGATEが運営する買取専門店。お酒の買取ページに出張・宅配・店舗の3方式を記載。営業時間 10:00〜18:00・完全予約制（不定休）（2026年11月16日確認）</td></tr><tr><td><strong>OKURA 京都</strong></td><td>京都府内対応</td><td>店頭・出張</td><td>高額ウイスキーの査定実績</td></tr></tbody>
             </table>
           </div>
           <p className="text-xs text-warm-gray">※対応状況は変更される場合があります。事前に公式サイトでご確認いただくか、複数の業者に同時に査定を依頼することをおすすめします。</p>
