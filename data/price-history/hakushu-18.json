@@ -160,12 +160,18 @@
       "median_jpy": 70800,
       "sample_n": 226,
       "raw_n": 296
+    },
+    {
+      "date": "2026-11-23",
+      "median_jpy": 71001,
+      "sample_n": 234,
+      "raw_n": 296
     }
   ],
   "latest": {
-    "date": "2026-11-16",
-    "median_jpy": 70800,
-    "sample_n": 226,
+    "date": "2026-11-23",
+    "median_jpy": 71001,
+    "sample_n": 234,
     "raw_n": 296,
     "insufficient": false
   },

@@ -133,9 +133,9 @@
     }
   ],
   "latest": {
-    "date": "2026-11-16",
+    "date": "2026-11-23",
     "median_jpy": 35200,
-    "sample_n": 16,
+    "sample_n": 18,
     "raw_n": 22,
     "insufficient": true
   },
