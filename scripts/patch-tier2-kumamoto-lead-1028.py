@@ -13,7 +13,7 @@ if OLD_H in t:
     e = t.index('<a href="#osusume"', s)
     new = ('<p className="font-bold text-base mb-2">熊本県でウイスキーを売る先（先に結論）</p>\n'
            '        <ul className="text-sm leading-relaxed mb-4 list-disc pl-5 space-y-1">\n'
-           '          <li><strong>店頭</strong>：県内でお酒の買取を確認できた店舗は<strong>36店</strong>（熊本市 18店・八代市 4店・荒尾市 3店・宇城市 2店・天草市・山鹿市・合志市・宇土市・玉名市・菊池市・菊陽町・大津町・錦町 各1店）。内訳は買取大吉 19店・ジュエルカフェ 6店・おたからや 3店・キングラム 3店・買取店わかば 2店・大黒屋・ファイブニーズ・バイセル 各1店です（<a href="#local-stores" className="text-amber-dark underline hover:text-burgundy">店舗一覧と営業時間</a>・2026-10-28確認）。熊本市中心部（下通・上通）には、お酒買取専門のファイブニーズ熊本店と大黒屋 質熊本下通店があります。</li>\n'
+           '          <li><strong>店頭</strong>：県内でお酒の買取を確認できた店舗は<strong>42店</strong>（熊本市 21店・八代市 5店・荒尾市 4店・宇城市 2店・玉名市 2店・天草市・山鹿市・合志市・宇土市・菊池市・菊陽町・大津町・錦町 各1店）。内訳は買取大吉 23店・ジュエルカフェ 7店・おたからや 4店・キングラム 3店・買取店わかば 2店・大黒屋・ファイブニーズ・バイセル 各1店です（<a href="#local-stores" className="text-amber-dark underline hover:text-burgundy">店舗一覧と営業時間</a>・2026-11-22確認）。熊本市中心部（下通・上通）には、お酒買取専門のファイブニーズ熊本店と大黒屋 質熊本下通店があります。</li>\n'
            '          <li><strong>出張</strong>：バイセル・福ちゃんは「熊本県全域」、LINXAS は「熊本県は無料出張エリア（九州）」と公式に記載しています。大黒屋とファイブニーズは対応する市町村を公式に掲載しています（下記「出張買取」）。</li>\n'
            '          <li><strong>宅配</strong>：リカスタ・ストックラボは「熊本県は宅配買取エリア」と記載。全国対応の宅配買取なら県内どこからでも送れて、複数社の査定を比べられます。買取額は市場相場（下記のヤフオク落札中央値）の60〜80%程度が業界一般の目安です。</li>\n'
            '        </ul>\n        ')
@@ -22,11 +22,12 @@ if OLD_H in t:
     print("kumamoto lead replaced")
 else:
     print("kumamoto lead: already done")
+# 2026-11-22 朝: 店舗数を 11/22 公式で数え直し 36→42（買取大吉 19→23・ジュエルカフェ 6→7・おたからや 3→4）。最終更新も 11-22 に
 # 2026-10-31 16時: 本文は 10/28 に更新したのに「最終更新」が生成器の共通値（2026-06-23）のままだった → 10/28 に（冪等）
 t = P.read_text()
 OLD_U = "最終更新: 2026-06-23 / 編集"
 if OLD_U in t:
-    P.write_text(t.replace(OLD_U, "最終更新: 2026-10-28 / 編集", 1))
+    P.write_text(t.replace(OLD_U, "最終更新: 2026-11-22 / 編集", 1))
     print("kumamoto updated-date fixed")
 else:
     print("kumamoto updated-date: already done")
