@@ -1010,3 +1010,11 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **/articles/taketsuru-pure-kaitori/**: LINXAS 竹鶴NV黒ラベル **8,000→7,000円**（公式 nikka-taketsuru を 11/22 curl＝価格表の最終更新 2026/11/18・白 4,200円は同額）。stores（白・黒とも updated 2026-11-18）・quick 行（「価格表の最終更新 2026-11-18（黒は 8,000円から値下げ）」）・黒レンジ 6,000〜8,000→**6,000〜7,500円**（lead・store_note）・faq_extra。LINXAS の「買取価格の高い銘柄」黒ラベル 8,000円は10月の実績＝掲示価格ではない。
 - title・description・他本文は不変。checked_at（11-15／11-03）は他店を再照合していないので据え置き（FAQ の「◯日に確認」文言はその日付のまま）。page_updated 11-22。
 - brand-v3 render_page×2 のみ（現データで再生成差分0を先に確認）。sitemap は2ページだけ lastmod 11-22。build（heap8192）EXIT0・*.txt 削除（robots 保全）・precheck ✅（3,032）→ フル rsync（--exclude .git/_not-found/functions）。表示差分は2ページ＋sitemap のみ（他は buildId）。ASP 0→0・hikakaku href 607→607。source 82b5b6ca5・deploy 948586defe（13:22 push → 13:24 本番反映：9,300円行あり・キングラム 9,600円 0／黒 7,000円 6・黒 8,000円 0）。Indexing は未送信。
+
+### 2026-11-23 朝ルーチン: 県ハブ（local-buyers.json）出張買取の福ちゃん・バイセル行を公式で照合（9県）
+- 公式（11/23 curl）: fuku-chan.info/liquor/area/<県>/（9県・高知は kouchi）／buysell-kaitori.com/area/liquor-<県>/・店舗検索 API map_list 201店・各店舗ページの20歳文言。
+- 福ちゃん行（和歌山・茨城・奈良・石川・福井・高知・神奈川・大分＋富山は行なし）: 引用は全て公式と一致＝変更なし。
+- バイセル行: 富山の2つ目の引用「富山県全域の各市町村で対応可能」が公式に無い→公式FAQ「富山市、高岡市、射水市、南砺市、砺波市など富山県全域の各市町村にて対応可能です」に訂正。奈良（ビエラ奈良店・イオンモール奈良登美ヶ丘店）・茨城（そよらひたち野うしく店 11/18開店）・神奈川（県内32店）の店頭を行に1文追記（上の店舗一覧N店には含めない＝件数・title は不変）。石川・福井・高知・大分は県内0店で行は正しい。和歌山はミオ店1店（JSON-LD の THIERRY 和歌山店は別ブランド・表示の店舗案内に無い）。
+- `scripts/patch-hub-dispatch-buysell-1123.py`（冪等・2回目0）→ gen-tier2-area 4県＋national-link パッチ（変更前に再生成差分0を確認）。sitemap は週次で 11-23 済み。
+- build（heap8192）EXIT0・*.txt 削除（robots 保全）・precheck ✅（3,032）→ 4ハブ index.html のみ部分コピー（参照 static 13件 deploy に存在）。ASP 0。source 8fd10715a・deploy ecc746b78f。
+- 報告のみ: 奈良・茨城・神奈川ハブの店舗一覧は 10/24〜25 のまま（買取大吉の件数も古い・バイセル店頭は一覧外）。
