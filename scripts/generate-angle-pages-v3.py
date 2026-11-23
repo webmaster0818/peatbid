@@ -841,15 +841,17 @@ def render_page(b, data):
         ),
         # 2026-11-08: 「白州 偽物」14@10.1・「白州12年 偽物 見分け方」10@6.9（GSC 10/9〜11/5）。汎用の5チェックから始まっていた。
         # 根拠はメーカーの発表を報じた記事のみ（サントリー公式は 11/8 も 403 で開けず＝公式ページの文言は使っていない）。
+        # 2026-11-23: サントリー公式（ヘッドレス Chrome・通常 UA で 200）の「ブランドを守る取り組み」（白州）と Q&A 005726 の文言に置き換え。ホログラムの貼付位置は公式どおり「裏面キャップシール／裏面ラベル上部」（旧「開封口・背面」は報道の表現）。
         ("hakushu-12", "nisemono-mikata"): (
-            "白州12年の偽物の見分け方（先に結論・2026年11月8日確認）",
+            "白州12年の偽物の見分け方（先に結論・2026年11月23日確認）",
             '<ul className="list-disc pl-5 space-y-1">'
-            '<li><strong>ホログラムシールは確認の手がかりになりますが、シールが無いことだけでは偽物とは判断できません。</strong>キャップ部分にシールを貼った製品は2022年2月以降に出荷されており（製品により時期は異なる）、通年販売品の一覧に白州12年 700ml が含まれています（サントリーホールディングス広報への取材・J-CAST トレンド 2022年6月17日）。さらに<strong>2024年3月製造分から</strong>は「開封口」「ボトル背面」の2か所に複製や再貼付が難しいシールを貼っていますが、順次切り替えのため添付のない商品もしばらく流通するとされています（グルメ Watch 2024年2月29日）。</li>'
+            '<li><strong>メーカーは「見分け方」を公表していません。</strong>サントリーはお客様センターの Q&amp;A で、偽造品の情報もあるため「偽造防止の観点から商品の外装（ラベル、瓶、キャップ、化粧箱、シール、首掛け、リーフレット等の付属物）に関する詳細のご案内は、どなた様にも控えさせていただいております」としています。外装の細部を公式の仕様と照らし合わせて本物か判断する方法はありません。</li>'
+            '<li><strong>ホログラムシールは手がかりの一つですが、無いことだけでは偽物とは判断できません。</strong>サントリー公式「ブランドを守る取り組みについてのご案内」（白州）によると、白州12年は2種類のホログラムシールの対象で、①ボトル裏面のキャップシールのシールは2022年2月以降を目途に出荷開始、②ボトル裏面のラベル上部のシールは2024年3月以降製造分を目途に出荷開始。出荷時期の違う商品が混在するため、シールが無い・1種類だけ・2種類ある商品があり、個別の商品の貼付時期は案内していないとしています。そのうえで「今回の取組みは、真贋判定を目的としたものではありません」と明記しています。</li>'
             '<li><strong>ラベルが手元のボトルと違っても、旧ボトルの可能性があります。</strong>白州12年は2018年に休売となり、2021年3月30日に数量限定で再発売された際にラベルの英字をブランドカラーの緑に変更しています（グルメ Watch 2021年3月30日）。それ以前のボトルはラベルの意匠が違います。</li>'
             '<li>売る前に自分で見るのは、<strong>キャップ・封緘の破れや開封の跡</strong>（シールを剥がした跡を含む）、<strong>液面</strong>（自然な目減りを超えて減っていないか）、<strong>購入経路</strong>（相場より極端に安い個人出品で買ったものか）の3点です。判断できない場合は、ラベル表・裏、キャップ、箱の写真を添えて買取店の査定（無料）に出してください。</li>'
-            '<li>本物と確認できた後の買取価格は、店舗の掲示で 18,000〜20,000円（現行のシングルモルト・700ml・2026年11月8日確認）です。ラベルが「ピュアモルト」の旧ボトルは別の価格です（<Link href="/articles/hakushu-12-kaitori/" className="text-amber-dark underline font-bold">白州12年の買取価格（5店の比較） →</Link>）。</li>'
+            '<li>本物と確認できた後の買取価格は、店舗の掲示で 18,000〜20,000円（現行のシングルモルト・700ml・2026年11月18日に5店の掲載ページで確認）です。ラベルが「ピュアモルト」の旧ボトルは別の価格です（<Link href="/articles/hakushu-12-kaitori/" className="text-amber-dark underline font-bold">白州12年の買取価格（5店の比較） →</Link>）。</li>'
             '</ul>'
-            '<p className="text-[11px] text-warm-gray mt-2">出典: <a href="https://gourmet.watch.impress.co.jp/docs/news/1572716.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">グルメ Watch（2024-02-29）</a>・<a href="https://www.j-cast.com/trend/2022/06/17439568.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">J-CAST トレンド（2022-06-17）</a>・<a href="https://gourmet.watch.impress.co.jp/docs/news/1315154.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">グルメ Watch（2021-03-30）</a>（いずれも 2026-11-08 確認）。下の5つのチェックは一般的な確認方法で、白州12年に固有の情報ではありません。</p>'
+            '<p className="text-[11px] text-warm-gray mt-2">出典: <a href="https://www.suntory.co.jp/whisky/qrcodesticker/manual-hakushu/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">サントリー「ブランドを守る取り組みについてのご案内」（白州）</a>・<a href="https://www.suntory.co.jp/customer/faq/005726.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">サントリーお客様センター Q&amp;A（山崎・白州・響のラベル）</a>（2026-11-23 確認）・<a href="https://gourmet.watch.impress.co.jp/docs/news/1315154.html" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">グルメ Watch（2021-03-30）</a>（2026-11-08 確認）。下の5つのチェックは一般的な確認方法で、白州12年に固有の情報ではありません。</p>'
         ),
         # 「竹鶴 偽物」6.2位・imp38（GSC 9/27〜10/24）。冒頭に答えが無く、汎用の5チェックから始まっていた。
         ("taketsuru-pure", "nisemono-mikata"): (
@@ -877,10 +879,10 @@ def render_page(b, data):
     }
     # 2026-11-07: 個別の description・表示の更新日（週次の fetched_at のほうが新しければそちら）
     ANGLE_DESC = {
-        "hakushu-12-nisemono-mikata": "白州12年の偽物の見分け方。ホログラムシールはキャップ部分が2022年2月以降の出荷、開封口と背面の2か所が2024年3月製造分からで、シールの無い商品も流通しています。2021年再発売時のラベル変更、売る前の3点チェックと買取価格も掲載。",
+        "hakushu-12-nisemono-mikata": "白州12年の偽物の見分け方。サントリー公式はホログラムシール（2022年2月以降・2024年3月以降製造分）を「真贋判定を目的としたものではありません」とし、外装の詳細も案内していません。売る前の3点チェックと買取価格も掲載。",
         "yamazaki-nv-hako-nashi": "山崎ノンエイジの箱なしの買取価格は、掲示4店（ストックラボ・LINXAS・キングラムリカー・リカスタ）で 9,000〜10,000円、4店とも箱ありと同額です（2026年11月22日確認）。最近の一括査定の記録と、外箱を無くした場合の手順も掲載。",
     }
-    ANGLE_UPDATED = {"yamazaki-nv-hako-nashi": "2026-11-22", "hakushu-12-nisemono-mikata": "2026-11-08", "yamazaki-18-kihaku": "2026-11-19"}
+    ANGLE_UPDATED = {"yamazaki-nv-hako-nashi": "2026-11-22", "hakushu-12-nisemono-mikata": "2026-11-23", "yamazaki-18-kihaku": "2026-11-19"}
     if slug in ANGLE_DESC:
         data["description"] = ANGLE_DESC[slug]
     display_updated = max(ANGLE_UPDATED.get(slug, ""), fetched_at) if fetched_at[:1].isdigit() else fetched_at
