@@ -16,7 +16,7 @@
     "fetched_at": "2026-11-07",
     "titles_checked": "_kept 131件を目視。全件が 700ml 1本の本体（未開栓・箱付/箱なし）。セット・2〜4本・ミズナラとの組み合わせは除外側に入っていることを確認"
   },
-  "stores_checked_at": "2026-11-07",
+  "stores_checked_at": "2026-11-25",
   "stores": [
     {
       "name": "大黒屋",
@@ -24,7 +24,7 @@
       "price": "4,000円",
       "low": 4000,
       "high": 4000,
-      "updated": "2026-11-06",
+      "updated": "2026-11-24",
       "url": "https://kaitori.e-daikoku.com/liquor/whisky/ichiros-malt/",
       "mwr_price_same_day": "5,000円"
     },
@@ -54,7 +54,7 @@
       "price": "5,000円",
       "low": 5000,
       "high": 5000,
-      "updated": "2026-11-06",
+      "updated": "2026-11-23",
       "url": "https://kingram-liquor.jp/price-list/",
       "mwr_price_same_day": "6,500円"
     },
@@ -64,7 +64,7 @@
       "price": "5,000〜6,000円",
       "low": 5000,
       "high": 6000,
-      "updated": "2026-11-06",
+      "updated": "2026-11-24",
       "url": "https://www.stock-lab.com/osake-kaitori/whiskey/ichirosmalt/ichirosmalt-woodreserve/",
       "mwr_price_same_day": "5,000〜6,000円"
     },
@@ -84,8 +84,8 @@
     "high": "8,000円（2024年1月）",
     "low": "4,000円（2024年2月）",
     "latest": "4,500円（2026年10月）",
-    "page_updated": "2026/11/07 11:14",
+    "page_updated": "2026/11/16 19:14",
     "note": "ストックラボの自社買取実績の月別中央値（同社ページの記載）"
   },
-  "stores_mwr_note": "同じ店のミズナラウッドリザーブ（MWR）の掲示価格。2026-11-07 確認（ストックラボは MWR 個別ページ・最終更新 2026-11-06）"
+  "stores_mwr_note": "同じ店のミズナラウッドリザーブ（MWR）の掲示価格。2026-11-25 確認（ストックラボは MWR 個別ページ・最終更新 2026-11-24）"
 }

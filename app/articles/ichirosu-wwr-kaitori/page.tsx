@@ -25,18 +25,20 @@ const stores = data.stores;
 const storeLow = Math.min(...stores.map((s) => s.low));
 const storeHigh = Math.max(...stores.map((s) => s.high));
 const checked = data.stores_checked_at;
-const UPDATED = "2026-11-07";
+const UPDATED = "2026-11-25";
+// 終売情報・JWIC（発売年・受賞歴）は 11/7 の確認のまま（11/25 は買取店6店の掲示だけを再照合）
+const SHUUBAI_CHECKED = "2026-11-07";
 
 export const metadata: Metadata = {
   title: "イチローズモルト ワインウッドリザーブの買取価格・相場【2026年11月】4,000〜6,000円｜6店比較・ヤフオク中央値",
-  description: `イチローズモルト ワインウッドリザーブ（WWR）の買取価格を6店の掲示価格で比較（2026年11月7日確認・${yen(storeLow)}〜${yen(storeHigh)}）。ヤフオク落札中央値${wwrMedian ? yen(wwrMedian) : "（集計中）"}、MWRとの差、箱なしの扱い、終売情報の確認結果を掲載しています。`,
+  description: `イチローズモルト ワインウッドリザーブ（WWR）の買取価格を6店の掲示価格で比較（2026年11月25日確認・${yen(storeLow)}〜${yen(storeHigh)}）。ヤフオク落札中央値${wwrMedian ? yen(wwrMedian) : "（集計中）"}、MWRとの差、箱なしの扱い、終売情報の確認結果を掲載しています。`,
   alternates: { canonical: "/articles/ichirosu-wwr-kaitori/" },
 };
 
 const faqs = [
   {
     q: "イチローズモルト ワインウッドリザーブの買取価格はいくらですか？",
-    a: `2026年11月7日に確認した買取店6店の掲示価格は${yen(storeLow)}〜${yen(storeHigh)}です（大黒屋 4,000円、リカスタ 4,500円、LINXAS 5,000円、キングラムリカー 5,000円、ストックラボ 5,000〜6,000円、買取大吉 6,000円）。掲示価格は各店の参考価格で、実際の査定額は状態・付属品・在庫状況により変わります。`,
+    a: `2026年11月25日に確認した買取店6店の掲示価格は${yen(storeLow)}〜${yen(storeHigh)}です（大黒屋 4,000円、リカスタ 4,500円、LINXAS 5,000円、キングラムリカー 5,000円、ストックラボ 5,000〜6,000円、買取大吉 6,000円）。掲示価格は各店の参考価格で、実際の査定額は状態・付属品・在庫状況により変わります。`,
   },
   {
     q: "ヤフオクではいくらで落札されていますか？",
@@ -50,7 +52,7 @@ const faqs = [
   },
   {
     q: "ミズナラウッドリザーブ（MWR）とどちらが高く売れますか？",
-    a: "2026年11月7日に確認した6店では、同じ店の比較でMWRがWWRと同額か高い掲示でした（LINXAS・キングラムリカーは MWR 6,500円／WWR 5,000円、大黒屋は MWR 5,000円／WWR 4,000円、リカスタは MWR 5,000円／WWR 4,500円、買取大吉とストックラボは同額）。ヤフオクの落札中央値もMWRのほうが高い水準です。",
+    a: "2026年11月25日に確認した6店では、同じ店の比較でMWRがWWRと同額か高い掲示でした（LINXAS・キングラムリカーは MWR 6,500円／WWR 5,000円、大黒屋は MWR 5,000円／WWR 4,000円、リカスタは MWR 5,000円／WWR 4,500円、買取大吉とストックラボは同額）。ヤフオクの落札中央値もMWRのほうが高い水準です。",
   },
   {
     q: "箱なしでも買い取ってもらえますか？",
@@ -82,7 +84,7 @@ function FaqSchema() {
 }
 
 const tocItems = [
-  { id: "store-prices", label: "1. 買取店6店の掲示価格（2026年11月7日確認）" },
+  { id: "store-prices", label: "1. 買取店6店の掲示価格（2026年11月25日確認）" },
   { id: "yahoo", label: "2. ヤフオク落札中央値とMWRとの比較" },
   { id: "trend", label: "3. 買取価格の推移（ストックラボの月別実績）" },
   { id: "about", label: "4. ワインウッドリザーブについて確認できた事実" },
@@ -122,7 +124,7 @@ export default function IchirosuWwrKaitoriPage() {
                 <li>ヤフオクの落札中央値は <strong>{yen(wwrMedian)}</strong>（n={y.filtered_n}件・{y.fetched_at} 集計）です。業者の買取額はここから手数料等を引いた水準になります。</li>
               )}
               <li>同じリーフシリーズのミズナラウッドリザーブ（MWR）と比べると、掲示価格・落札価格ともにWWRがやや低い水準です。</li>
-              <li>終売・生産終了について、製造元の発表は <strong>確認できていません</strong>（{checked} 時点）。</li>
+              <li>終売・生産終了について、製造元の発表は <strong>確認できていません</strong>（{SHUUBAI_CHECKED} 時点）。</li>
             </ul>
           </div>
 
@@ -135,7 +137,7 @@ export default function IchirosuWwrKaitoriPage() {
             </ul>
           </div>
 
-          <h2 id="store-prices">1. 買取店6店の掲示価格（2026年11月7日確認）</h2>
+          <h2 id="store-prices">1. 買取店6店の掲示価格（2026年11月25日確認）</h2>
           <p>
             各買取店が自社サイトに掲示しているワインウッドリザーブ（700ml）の参考買取価格を、PeatBid編集部が {checked} に各ページで確認した値です。
             「店舗側の更新日」は各ページに記載されている価格の更新日で、記載がない店は「日付表記なし」としています。
@@ -161,7 +163,7 @@ export default function IchirosuWwrKaitoriPage() {
           <p>
             最も低いのは大黒屋の4,000円、最も高いのは買取大吉の6,000円です。
             LINXASの掲示は10月6日更新の価格表では5,500円でしたが、11月2日更新の価格表では5,000円になっています。
-            リカスタも10月25日の当サイト確認時の4,800円から、11月7日は4,500円になっていました。掲示価格は月単位で動くため、売却前に最新の掲示を確認してください。
+            リカスタも10月25日の当サイト確認時の4,800円から、11月7日は4,500円になっていました（11月25日も4,500円）。掲示価格は月単位で動くため、売却前に最新の掲示を確認してください。
           </p>
           <h3 id="vs-mwr">同じ店のミズナラウッドリザーブ（MWR）との比較</h3>
           <div className="table-wrapper">
@@ -257,7 +259,7 @@ export default function IchirosuWwrKaitoriPage() {
 
           <h2 id="shuubai">5. 終売・生産終了の情報について</h2>
           <p>
-            <strong>{checked} 時点で、ベンチャーウイスキーによるワインウッドリザーブの終売・生産終了の発表は確認できていません。</strong>
+            <strong>{SHUUBAI_CHECKED} 時点で、ベンチャーウイスキーによるワインウッドリザーブの終売・生産終了の発表は確認できていません。</strong>
             当サイトが確認した範囲では、同社の製品情報や告知を掲載した公式サイトを確認できませんでした（以前「公式情報」として参照していた one-drinks.com は、現在ドメインパーキングの状態です）。
           </p>
           <p>
@@ -276,7 +278,7 @@ export default function IchirosuWwrKaitoriPage() {
           <h2 id="takaku-uru">7. 売却前に確認したいこと</h2>
           <ol>
             <li><strong>品名を正確に伝える</strong>: ミズナラウッドリザーブ（MWR）と同じリーフシリーズのため、取り違えに注意してください。ラベルの「Wine Wood Reserve」の表記で判別できます。</li>
-            <li><strong>複数店の掲示を比べる</strong>: 11月7日時点で、同じ700mlでも4,000円と6,000円の店がありました。</li>
+            <li><strong>複数店の掲示を比べる</strong>: 2026年11月25日時点で、同じ700mlでも4,000円と6,000円の店があります。</li>
             <li><strong>箱を残しておく</strong>: 箱の有無で価格を分けて掲示している店があります。</li>
             <li><strong>ほかのイチローズモルトとまとめて査定に出す</strong>: MWR・ホワイトラベル・ダブルディスティラリーズを同じ店が掲示しているため、まとめて見積もりを取ると比較しやすくなります。</li>
           </ol>
@@ -304,7 +306,7 @@ export default function IchirosuWwrKaitoriPage() {
               </li>
             ))}
             <li>
-              <a href="https://jwic.jp/distillery/chichibu/" target="_blank" rel="noopener noreferrer nofollow" className={linkCls}>JWIC（ジャパニーズウイスキーインフォメーションセンター）秩父蒸溜所</a>（発売年・受賞歴。{checked} 確認）
+              <a href="https://jwic.jp/distillery/chichibu/" target="_blank" rel="noopener noreferrer nofollow" className={linkCls}>JWIC（ジャパニーズウイスキーインフォメーションセンター）秩父蒸溜所</a>（発売年・受賞歴。{SHUUBAI_CHECKED} 確認）
             </li>
             <li>ヤフオク落札データ: PeatBid集計（検索語「{y.query_used}」・{y.fetched_at} 取得・<Link href="/methodology/" className={linkCls}>算出方法</Link>）</li>
           </ul>
