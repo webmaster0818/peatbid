@@ -1554,13 +1554,14 @@
     }
   },
   "bowmore-blackbowmore": {
-    "checked_at": "2026-10-16",
-    "page_updated": "2026-10-21",
+    "checked_at": "2026-11-25",
+    "editions_checked_at": "2026-10-16",
+    "page_updated": "2026-11-25",
     "title_full": "ブラックボウモアの値段・買取相場{MONTH}買取実績99万〜105万円｜全6種（29年〜50年・DB5）の違い",
     "h1_full": "ブラックボウモアとは？全6種の違いと買取相場・業者比較{MONTH_H1}",
-    "desc_full": "ブラックボウモアの値段は、1964年蒸留の29〜31年で買取実績993,000〜1,050,000円、42年はLINXASの参考買取価格で〜1,500,000円（2026年10月29日確認）。全6種（29年・30年・31年・42年・50年・DB5）の違い、見分け方、海外オークションの落札額も掲載。",
+    "desc_full": "ブラックボウモアの値段は、1964年蒸留の29〜31年で買取実績993,000〜1,050,000円、42年はLINXASの参考買取価格で〜1,500,000円（2026年11月25日確認）。全6種（29年・30年・31年・42年・50年・DB5）の違い、見分け方、海外オークションの落札額も掲載。",
     "toc_label": "4-2. 買取店の掲示価格・買取実績",
-    "store_intro": "各店が自社サイトに掲載しているブラックボウモアの参考買取価格・買取実績を、PeatBid編集部が 2026-10-16 に各ページで確認した値です。どのエディションか（29年・30年・31年・42年など）で価格が変わるため、店舗の表記をそのまま掲載しています。「店舗側の更新日」は各ページに記載されている日付で、記載がない場合は「記載なし」としています。",
+    "store_intro": "各店が自社サイトに掲載しているブラックボウモアの参考買取価格・買取実績を、PeatBid編集部が 2026-10-16 に各ページで確認し、2026-11-25 に再確認した値です（金額は全店 10月から変わっていません）。どのエディションか（29年・30年・31年・42年など）で価格が変わるため、店舗の表記をそのまま掲載しています。「店舗側の更新日」は各ページに記載されている日付で、記載がない場合は「記載なし」としています。",
     "profile": {
       "maker": "ボウモア蒸溜所（スコットランド・アイラ島）",
       "age_label": "29年〜50年熟成（エディションにより異なる）",
@@ -1665,6 +1666,14 @@
         "price": "〜1,500,000円",
         "updated": "2026-01-26",
         "url": "https://linxas.shop/whiskey/bowmore/blackbowmore42years/"
+      },
+      {
+        "store": "大黒屋",
+        "item": "ブラックボウモア42年 1964 シェリーカスク",
+        "cond": "買取価格表（金額の掲載なし）",
+        "price": "お問い合わせ",
+        "updated": "2026-11-24（価格表の更新日）",
+        "url": "https://kaitori.e-daikoku.com/liquor/whisky/bowmore/"
       },
       {
         "store": "ストックラボ",
@@ -1789,23 +1798,28 @@
       ]
     ],
     "quick": {
-      "heading": "ブラックボウモアの値段・買取価格の早見表（2026年10月16日・21日確認）",
-      "lead": "<strong>発売時の値段（英国の小売価格）は、1964年蒸溜の29〜31年（1993〜95年発売）が1本 £80〜150、42年（2007年）£2,400、50年（2016年）£16,000、DB5（2020年）£50,000</strong> でした（<a href=\"https://scotchwhisky.com/magazine/in-depth/11657/black-bowmore-from-cask-to-cult-whisky/\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-amber-dark underline hover:text-burgundy\">scotchwhisky.com 2016-11-07</a>・<a href=\"https://www.astonmartin.com/en/our-world/news/2020/8/5/-strong-bowmore-strong-strong-and-aston-martin-unveil-first-collaboration-strong-\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-amber-dark underline hover:text-burgundy\">Aston Martin 2020-08</a>、2026年11月9日確認）。いまの値段（流通価格）の目安は、下の表の国内の買取実績と海外オークションの落札額です。ブラックボウモアの値段は、エディション（29年・30年・31年・42年・50年・DB5）とボトルの状態で大きく変わります。国内の買取店が公開している掲示価格・買取実績と、海外オークションの落札額を先にまとめました。エディションごとの違いは <a href=\"#editions\" className=\"text-amber-dark underline hover:text-burgundy\">1-2. 全エディションの違い</a>、店舗別の内訳と出典は <a href=\"#store-prices\" className=\"text-amber-dark underline hover:text-burgundy\">4-2. 買取店の掲示価格・買取実績</a> にあります。",
+      "heading": "ブラックボウモアの値段・買取価格の早見表（2026年11月25日確認）",
+      "lead": "<strong>発売時の値段（英国の小売価格）は、1964年蒸溜の29〜31年（1993〜95年発売）が1本 £80〜150、42年（2007年）£2,400、50年（2016年）£16,000、DB5（2020年）£50,000</strong> でした（<a href=\"https://scotchwhisky.com/magazine/in-depth/11657/black-bowmore-from-cask-to-cult-whisky/\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-amber-dark underline hover:text-burgundy\">scotchwhisky.com 2016-11-07</a>・<a href=\"https://www.astonmartin.com/en/our-world/news/2020/8/5/-strong-bowmore-strong-strong-and-aston-martin-unveil-first-collaboration-strong-\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-amber-dark underline hover:text-burgundy\">Aston Martin 2020-08</a>、2026年11月9日確認）。いまの値段（流通価格）の目安は、下の表の国内の買取実績と海外オークションの落札額です。国内の買取店の掲示額は 2026年11月25日に各店のページで再確認し、10月から変わっていません。ブラックボウモアの値段は、エディション（29年・30年・31年・42年・50年・DB5）とボトルの状態で大きく変わります。国内の買取店が公開している掲示価格・買取実績と、海外オークションの落札額を先にまとめました。エディションごとの違いは <a href=\"#editions\" className=\"text-amber-dark underline hover:text-burgundy\">1-2. 全エディションの違い</a>、店舗別の内訳と出典は <a href=\"#store-prices\" className=\"text-amber-dark underline hover:text-burgundy\">4-2. 買取店の掲示価格・買取実績</a> にあります。 年数表記のない（ノンエイジ）ボウモアや12年・18年などブラックボウモア以外のボトルは <a href=\"/articles/bowmore-nv-kaitori/\" className=\"text-amber-dark underline hover:text-burgundy\">ボウモアの年代指定なし（NV）の買取相場</a> をご覧ください。",
       "rows": [
         [
           "42年（2007年瓶詰め・箱あり）",
           "〜1,500,000円",
-          "LINXAS 参考買取価格（2026-01-26 更新）。ヒカカク！の最高買取相場は 450,000円"
+          "LINXAS 参考買取価格（価格更新日 2026-01-26・11月25日確認）。ヒカカク！の最高買取相場は 450,000円。大黒屋は価格表に42年を掲載し「お問い合わせ」（価格表 2026-11-24 更新）"
         ],
         [
           "1964年蒸溜（29〜31年の3作）の買取実績",
           "993,000〜1,050,000円",
-          "ストックラボ 1,050,000円（新宿本社・日付記載なし）・ウイスキー王国 993,000円（未開封・箱付き）"
+          "ストックラボ 1,050,000円（新宿本社・日付記載なし）・ウイスキー王国 993,000円（未開封・箱付き・買取日「8月19日」）。11月25日確認"
         ],
         [
           "30年（セカンドエディション）の上限の目安",
           "〜900,000円",
-          "買取センター.com の最高買取価格（記載日なし）"
+          "買取センター.com の最高買取価格（記載日なし・11月25日確認）"
+        ],
+        [
+          "空き箱（42年の木箱のみ・中身なし）",
+          "20,000円",
+          "ウリドキの査定記録（査定士1人・2019年10月23日）。中身のない木箱だけでも値が付いた記録です"
         ],
         [
           "海外オークションの落札額（30年）",

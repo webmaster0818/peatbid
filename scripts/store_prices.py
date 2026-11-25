@@ -418,7 +418,7 @@ def editions_block(slug, name):
             </table>
           </div>
           <p className="text-sm">{e["note"]}</p>
-          <p className="text-[11px] text-warm-gray">出典: {src}（{_ymd(d["checked_at"])}確認）</p>
+          <p className="text-[11px] text-warm-gray">出典: {src}（{_ymd(d.get("editions_checked_at") or d["checked_at"])}確認）</p>
 '''
 
 
