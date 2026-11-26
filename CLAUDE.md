@@ -1065,3 +1065,4 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - 追加: quick に「一括査定の公開記録（ウリドキ）」行＝2026-08-20 依頼 東京都 新品 箱つき 2社 7,500/6,000円・2026-07-29 依頼 大阪府 新品 箱あり 1社 7,500円（競合の WebSearch で出た・うちに無かった）。quick lead・WWR 行・store_note に /articles/ichirosu-wwr-kaitori/ への導線（既存の受け皿・重複なし）。
 - メーカー（ベンチャーウイスキー）の希望小売価格は公式の掲載を確認できず（WebSearch で公式サイト見つからず・高島屋は curl 000）→ 載せず、note に「確認できなかった」と明記。ストックラボの「希望小売価格は6,000円（税抜）程度」は二次情報なので不採用。
 - brand-v3 render_page×1（現データで差分0を先に確認）。sitemap 1ページ lastmod 11-26。
+- build（heap8192）EXIT0・*.txt 削除（robots 保全）・precheck ✅（3,032）→ フル rsync --delete（--exclude .git/_not-found/functions・削除は旧 buildId 3件のみ）。buildId を除いた表示差分は本ページ＋sitemap のみ。ASP 0→0・hikakaku href 614→614。source 16b286474・deploy 5ee311a9ca5（13:22 push → 13:23 本番反映：「2026年11月26日確認」10・旧「10月25日確認」0・リカスタ 5,500/4,800・LINXAS 5,500 0・WWR 導線 6・ウリドキ行 2・sitemap lastmod 11-26）。Indexing は未送信（親）。
