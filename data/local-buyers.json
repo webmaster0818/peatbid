@@ -1252,435 +1252,501 @@
     "distillery_label": "木内酒造 公式サイト（沿革・八郷蒸溜所）"
   },
   "nara": {
-    "checked_at": "2026-10-24",
-    "title": "お酒買取 奈良県｜県内でウイスキーを買い取る58店・出張対応とYahoo実売相場【2026年最新】",
-    "desc": "奈良県でお酒・ウイスキーを売る方向けに、県内の買取店58店（買取大吉45店・おたからや12店・リフレ館）、出張買取の対応エリア、曽爾村の神息酒造 奈良蒸溜所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
+    "checked_at": "2026-11-26",
+    "title": "お酒買取 奈良県｜県内でウイスキーを買い取る59店・出張対応とYahoo実売相場【2026年最新】",
+    "desc": "奈良県でお酒・ウイスキーを売る方向けに、県内の買取店59店（買取大吉45店・おたからや13店・リフレ館）、出張買取の対応エリア、曽爾村の神息酒造 奈良蒸溜所、Yahoo!オークション実落札中央値による銘柄別相場を掲載しています。",
     "stores": [
       {
         "brand": "買取大吉",
         "city": "生駒郡斑鳩町",
         "name": "法隆寺店",
-        "addr": "奈良県生駒郡斑鳩町興留5-1-34",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/horyuji/"
+        "addr": "奈良県生駒郡斑鳩町興留5-1-35 サンメゾン法隆寺",
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/horyuji/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "五條市",
         "name": "五條今井店",
         "addr": "奈良県五條市今井1丁目9番4号",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/gojo-imai/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/gojo-imai/",
+        "hours": "10:00〜17:00・日曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "生駒郡平群町",
         "name": "マツゲン平群店",
         "addr": "奈良県生駒郡平群町下垣内26-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/matsugen-heguri/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/matsugen-heguri/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "北葛城郡河合町",
         "name": "河合広瀬台店",
         "addr": "奈良県北葛城郡河合町広瀬台3丁目3-9",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kawai-hirosedai/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kawai-hirosedai/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "磯城郡田原本町",
         "name": "田原本千代店",
         "addr": "奈良県磯城郡田原本町千代379-2",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tawaramoto-chishiro/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tawaramoto-chishiro/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "葛城市",
         "name": "葛城南花内店",
         "addr": "奈良県葛城市南花内87-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/minamihanauchi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/minamihanauchi/",
+        "hours": "10:00〜19:00・日曜・水曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "桜井市",
         "name": "桜井東新堂店",
         "addr": "奈良県桜井市東新堂488-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sakurai-higashishindo/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sakurai-higashishindo/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "桜井市",
         "name": "桜井粟殿店",
         "addr": "奈良県桜井市大字粟殿315番地の2",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sakurai-odono/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sakurai-odono/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "桜井市",
         "name": "桜井安倍木材団地店",
         "addr": "奈良県桜井市安倍木材団地2丁目4-20-2",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sakurai-abemokuzaidanchi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/sakurai-abemokuzaidanchi/",
+        "hours": "10:00〜19:00・水曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "天理市",
         "name": "イオンタウン天理店",
         "addr": "奈良県天理市東井戸堂町381 イオンタウン天理 1階",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/at-tenri/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/at-tenri/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "天理市",
         "name": "天理荒蒔店",
         "addr": "奈良県天理市荒蒔町357-2",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tenri-aramaki/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tenri-aramaki/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "天理市",
         "name": "プライスカット天理北店",
         "addr": "奈良県天理市別所町223",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/pc-tenrikita/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/pc-tenrikita-r/",
+        "hours": "10:00〜18:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "御所市",
         "name": "ライフ御所店",
         "addr": "奈良県御所市東松本30 ライフ御所店 1階",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/life-gose/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/life-gose/",
+        "hours": "10:00〜18:00・土曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "吉野郡大淀町",
         "name": "ライフ大淀店",
         "addr": "奈良県吉野郡大淀町土田243-1 ライフ大淀店",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/life-oyodo/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/life-oyodo/",
+        "hours": "10:00〜18:00・金曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "生駒市",
         "name": "生駒小明町店",
         "addr": "奈良県生駒市小明町556-3",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ikoma-komyocho/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ikoma-komyocho/",
+        "hours": "10:00〜17:00（月〜金） 10:00〜15:30（土）・日曜・祝日定休"
       },
       {
         "brand": "買取大吉",
         "city": "生駒市",
         "name": "生駒中菜畑店",
         "addr": "奈良県生駒市中菜畑1-1181-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ikoma-nakanabata/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ikoma-nakanabata/",
+        "hours": "10:00〜19:00・水曜・土曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "生駒市",
         "name": "生駒北大和店",
         "addr": "奈良県生駒市北大和1丁目23-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ikoma-kitayamato/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ikoma-kitayamato/",
+        "hours": "10:00〜18:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "生駒市",
         "name": "グリーンヒルいこま店",
         "addr": "奈良県生駒市元町1-13-1 グリーンヒルいこまB1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ghikoma/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/ghikoma/",
+        "hours": "10:00〜18:00（受付終了17:30）・施設休館日・年末年始休"
       },
       {
         "brand": "買取大吉",
         "city": "香芝市",
         "name": "オークワ香芝南店",
         "addr": "奈良県香芝市鎌田390-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/okuwa-kashibaminami/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/okuwa-kashibaminami/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "香芝市",
         "name": "香芝畑店",
         "addr": "奈良県香芝市畑3丁目887-4",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kashiba-hata/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kashiba-hata/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "香芝市",
         "name": "奈良エコール・マミ店",
         "addr": "奈良県香芝市真美ケ丘6丁目10番地 エコール・マミ南館2階",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-ecollmami/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-ecollmami/",
+        "hours": "10:00〜19:00・年中無休（臨時休業を除く）"
       },
       {
         "brand": "買取大吉",
         "city": "橿原市",
         "name": "橿原真菅店",
         "addr": "奈良県橿原市北妙法寺町586",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kashihara-masuga/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kashihara-masuga/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "橿原市",
         "name": "橿原神宮前店",
         "addr": "奈良県橿原市石川町9‐1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kashiharajingumae/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kashiharajingumae/",
+        "hours": "10:00〜19:00・日曜・水曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "橿原市",
         "name": "大和八木店",
         "addr": "奈良県橿原市八木町1-8-18",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamato-yagi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamato-yagi/",
+        "hours": "10:00〜19:00・日曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "北葛城郡王寺町",
         "name": "リーベル王寺店",
         "addr": "奈良県北葛城郡王寺町久度2丁目3-1 りーべる王寺西館1階",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/liebell-oji/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/liebell-oji/",
+        "hours": "10:00〜18:30（平日） 10:00〜17:00（土日祝）・木曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "北葛城郡上牧町",
         "name": "ラスパ西大和店",
         "addr": "奈良県北葛城郡上牧町ささゆり台1丁目1-1 ラスパ西大和 2階",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/raspa-nishiyamato/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/raspa-nishiyamato/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "北葛城郡上牧町",
         "name": "西大和店",
         "addr": "奈良県北葛城郡上牧町上牧3456-3",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nishiyamato/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nishiyamato/",
+        "hours": "10:00〜18:00・日曜・月曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "奈良市",
         "name": "奈良押熊店",
         "addr": "奈良県奈良市神功5-1-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-oshikuma/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-oshikuma/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "奈良市",
         "name": "デイリーカナートイズミヤ新大宮店",
         "addr": "奈良県奈良市三条添川町5-33 デイリーカナートイズミヤ新大宮 1階",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/dq-izumiya-shinomiya/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/dq-izumiya-shinomiya/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "奈良市",
         "name": "奈良三条通り店",
         "addr": "奈良県奈良市今辻子町45番地3",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-sanjodori-r/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-sanjodori-r/",
+        "hours": "10:30〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "奈良市",
         "name": "奈良富雄元町店",
         "addr": "奈良県奈良市富雄元町2丁目5-20",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-tomiomotomachi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-tomiomotomachi/",
+        "hours": "10:00〜18:00・火曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "奈良市",
         "name": "奈良大宮店",
         "addr": "奈良県奈良市大宮町3丁目5番38号",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-omiya/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-omiya/",
+        "hours": "10:00〜19:00・年中無休（臨時休業を除く）"
       },
       {
         "brand": "買取大吉",
         "city": "奈良市",
         "name": "奈良大安寺店",
         "addr": "奈良県奈良市南京終町1丁目923-4",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-daianji/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-daianji/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "奈良市",
         "name": "奈良登美ヶ丘店",
         "addr": "奈良県奈良市中登美ヶ丘3丁目5番地",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-tomigaoka/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-tomigaoka/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "奈良市",
         "name": "奈良神殿店",
         "addr": "奈良県奈良市神殿町650番地1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-kodono/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-kodono/",
+        "hours": "10:00〜18:00・日曜・水曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "奈良市",
         "name": "イオンタウン富雄南店",
         "addr": "奈良県奈良市石木町100-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/at-tomiominami/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/at-tomiominami/",
+        "hours": "10:00〜18:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "奈良市",
         "name": "奈良柏木町店",
         "addr": "奈良県奈良市柏木町421-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-kashiwagicho/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/nara-kashiwagicho/",
+        "hours": "10:30〜18:00・水曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "奈良市",
         "name": "オークワ奈良古市店",
         "addr": "奈良県奈良市古市町796",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/okuwa-narafuruichi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/okuwa-narafuruichi/",
+        "hours": "10:00〜18:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "奈良市",
         "name": "パラディ学園前店",
         "addr": "奈良県奈良市学園北1丁目10番1号 パラディ学園前1階",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/p-gakuenmae/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/p-gakuenmae/",
+        "hours": "10:00〜19:00・年中無休（元旦〜2日を除く）"
       },
       {
         "brand": "買取大吉",
         "city": "大和郡山市",
         "name": "イオンモール大和郡山店",
         "addr": "奈良県大和郡山市下三橋町741 イオンモール大和郡山 3階",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/am-yamatokoriyama/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/am-yamatokoriyama/",
+        "hours": "10:00〜20:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "大和郡山市",
         "name": "大和郡山新町店",
         "addr": "奈良県大和郡山市新町907-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamatokoriyama-shinmachi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamatokoriyama-shinmachi/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "大和高田市",
         "name": "大和高田栄町店",
         "addr": "奈良県大和高田市栄町3-18",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamatotakada-sakaemachi/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/yamatotakada-sakaemachi/",
+        "hours": "10:00〜19:00・日曜定休"
       },
       {
         "brand": "買取大吉",
         "city": "大和高田市",
         "name": "トナリエ大和高田店",
         "addr": "奈良県大和高田市幸町3-18",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tonarie-yamatotakada-r/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/tonarie-yamatotakada-r/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "大和高田市",
         "name": "KINSHO大和高田店",
         "addr": "奈良県大和高田市片塩町12-20",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kinsho-yamatotakada/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/kinsho-yamatotakada/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "買取大吉",
         "city": "大和高田市",
         "name": "スーパーおくやま高田店",
         "addr": "奈良県大和高田市池尻171-1",
-        "url": "https://www.kaitori-daikichi.jp/list/sake/store/so-takada/"
+        "url": "https://www.kaitori-daikichi.jp/list/sake/store/so-takada/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "おたからや",
         "city": "桜井市",
         "name": "フレスポ桜井店",
         "addr": "奈良県桜井市上之庄229番地 H棟2 フレスポ桜井",
-        "url": "https://www.otakaraya-shop.jp/frespo-sakurai/"
+        "url": "https://www.otakaraya-shop.jp/frespo-sakurai/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "おたからや",
         "city": "桜井市",
         "name": "イオン桜井店",
         "addr": "奈良県桜井市上之庄278-1 1階",
-        "url": "https://www.otakaraya-shop.jp/ionsakurai/"
+        "url": "https://www.otakaraya-shop.jp/ionsakurai/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "おたからや",
         "city": "桜井市",
         "name": "桜井南店",
         "addr": "奈良県桜井市谷259-1",
-        "url": "https://www.otakaraya-shop.jp/sakurai-minami/"
+        "url": "https://www.otakaraya-shop.jp/sakurai-minami/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "おたからや",
         "city": "生駒郡平群町",
         "name": "平群店",
         "addr": "奈良県生駒郡平群町椿井449",
-        "url": "https://www.otakaraya-shop.jp/heguri/"
+        "url": "https://www.otakaraya-shop.jp/heguri/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "おたからや",
         "city": "生駒郡斑鳩町",
         "name": "法隆寺店",
         "addr": "奈良県生駒郡斑鳩町法隆寺1丁目6-24",
-        "url": "https://www.otakaraya-shop.jp/horyuji/"
+        "url": "https://www.otakaraya-shop.jp/horyuji/",
+        "hours": "10:00〜19:00・年中無休（年末年始のみ休み）"
       },
       {
         "brand": "おたからや",
         "city": "奈良市",
         "name": "西ノ京店",
         "addr": "奈良県奈良市七条町165-1",
-        "url": "https://www.otakaraya-shop.jp/nishinokyo/"
+        "url": "https://www.otakaraya-shop.jp/nishinokyo/",
+        "hours": "10:00〜19:00・年中無休"
+      },
+      {
+        "brand": "おたからや",
+        "city": "奈良市",
+        "name": "シルキア奈良店",
+        "addr": "奈良県奈良市三条本町8-1 1階",
+        "url": "https://www.otakaraya-shop.jp/silkianara/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "おたからや",
         "city": "御所市",
         "name": "スーパーセンターオークワ御所店",
         "addr": "奈良県御所市室1185-2",
-        "url": "https://www.otakaraya-shop.jp/okuwa-gose/"
+        "url": "https://www.otakaraya-shop.jp/okuwa-gose/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "おたからや",
         "city": "御所市",
         "name": "青翔高校前店",
         "addr": "奈良県御所市三室73-2",
-        "url": "https://www.otakaraya-shop.jp/seishoukoukoumae/"
+        "url": "https://www.otakaraya-shop.jp/seishoukoukoumae/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "おたからや",
         "city": "磯城郡田原本町",
         "name": "オークワ田原本インター店",
         "addr": "奈良県磯城郡田原本町十六面71-1",
-        "url": "https://www.otakaraya-shop.jp/okuwa-tawaramotointer/"
+        "url": "https://www.otakaraya-shop.jp/okuwa-tawaramotointer/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "おたからや",
         "city": "橿原市",
         "name": "白橿店",
         "addr": "奈良県橿原市白橿町2丁目29-8",
-        "url": "https://www.otakaraya-shop.jp/shirakashi/"
+        "url": "https://www.otakaraya-shop.jp/shirakashi/",
+        "hours": "10:00〜19:00・年中無休"
       },
       {
         "brand": "おたからや",
         "city": "橿原市",
         "name": "ツインゲート店",
         "addr": "奈良県橿原市葛本町201-2",
-        "url": "https://www.otakaraya-shop.jp/twingate/"
+        "url": "https://www.otakaraya-shop.jp/twingate/",
+        "hours": "10:00〜19:00・年中無休（年末年始のみ休み）"
       },
       {
         "brand": "おたからや",
         "city": "橿原市",
         "name": "畝傍御陵前店",
         "addr": "奈良県橿原市栄和町103-4",
-        "url": "https://www.otakaraya-shop.jp/unebigoryomae/"
+        "url": "https://www.otakaraya-shop.jp/unebigoryomae/",
+        "hours": "10:00〜19:00・年中無休（年末年始のみ休み）"
       },
       {
         "brand": "リフレ館",
         "city": "奈良市",
-        "name": "リフレ館",
+        "name": "リフレ館プラス 小西さくら通り本店",
         "addr": "奈良県奈良市小西町29-1 リフレ館小西さくら通りビル1F",
-        "url": "https://www.rifrekan.com/item/alcohol.html"
+        "url": "https://www.rifrekan.com/item/alcohol.html",
+        "hours": "9:30〜17:00"
       }
     ],
     "brand_notes": [
       [
         "買取大吉",
-        "県ページ掲載の45店すべてで、店舗ページの買取品目一覧に「お酒」あり。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」",
+        "県ページ掲載の45店（2026-11-26確認）すべてで、店舗ページの買取品目一覧に「お酒」あり。ただし「お酒に関しては、一部取り扱っていない店舗がございます。詳しくは、店舗またはお電話にてご確認ください。」と記載。出張買取は「出張費無料 / 日本全国OK」",
         "https://www.kaitori-daikichi.jp/list/sake/store/nara-ken/"
       ],
       [
         "おたからや",
-        "公式店舗一覧の県内23店のうち、店舗ページの買取品目に「洋酒」があるのは上記12店（2026-10-24確認）。うちフレスポ桜井店・平群店・西ノ京店・桜井南店・青翔高校前店・白橿店は店舗ページに出張買取の記載あり",
+        "公式店舗一覧の県内25店（直営4店・加盟店21店）のうち、店舗ページの買取品目に「洋酒」があるのは上記13店（2026-11-26確認。シルキア奈良店は2026年11月15日開店）。うちフレスポ桜井店・平群店・西ノ京店・桜井南店・青翔高校前店・白橿店・シルキア奈良店は店舗ページに出張買取の記載あり",
         "https://www.otakaraya.jp/shop/nara/"
       ],
       [
         "リフレ館",
-        "奈良市小西町の買取店。お酒の買取品目ページで「ウイスキー買取はスコッチ、モルト、バーボン、国産ウイスキーまで幅広く買取」と記載",
+        "奈良市小西町の「リフレ館プラス 小西さくら通り本店」（店舗案内の営業時間 9:30〜17:00）。お酒の買取品目ページで「ウイスキー買取はスコッチ、モルト、バーボン、国産ウイスキーまで幅広く買取」と記載",
         "https://www.rifrekan.com/item/alcohol.html"
       ]
     ],
-    "not_liquor": "おたからやの県内店舗のうち上記12店以外（11店）は、店舗ページの買取品目に洋酒・お酒の記載がありません。なんぼや（近鉄百貨店生駒店・ならファミリー店）は店舗ページの取扱ジャンルにお酒がありません。大黒屋と銀座蔵やは公式店舗一覧に県内の店舗がありません。",
+    "not_liquor": "おたからやの県内店舗のうち上記13店以外（直営4店・加盟店8店の計12店）は、店舗ページの買取品目に洋酒・お酒の記載がありません（2026-11-26確認）。なんぼや（近鉄百貨店生駒店・ならファミリー店）は店舗ページの取扱ジャンルにお酒がありません。大黒屋と銀座蔵やは公式店舗一覧に県内の店舗がありません（この2文は2026-10-24確認）。",
     "dispatch": [
       [
         "バイセル",
