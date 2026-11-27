@@ -47,7 +47,7 @@ const faqs = [
   },
   {
     q: "グレンフィディックの買取店の掲示価格はいくらですか？",
-    a: "PeatBid編集部が2026-10-17に確認した LINXAS の価格表（2026年9月30日更新）では、12年 箱付1,500円、15年 箱付2,800円、18年 箱付6,000円、21年 グランレゼルヴァ 13,000円、25年 レアオーク 23,000円、30年 50,000円、40年 200,000円、50年 1,100,000円です。ヒカカク！の「最高買取相場」では30年 45,000円、40年 250,000円、50年 1,200,000円です。陶器ボトル・旧ボトルは別の価格で扱われます。",
+    a: "PeatBid編集部が2026-11-27に確認した LINXAS の価格表（2026年9月30日更新）では、12年 箱付1,500円、15年 箱付2,800円、18年 箱付6,000円、21年 グランレゼルヴァ 13,000円、25年 レアオーク 23,000円、30年 50,000円、40年 200,000円、50年 1,100,000円です。ヒカカク！の「最高買取相場」では30年 45,000円、40年 250,000円、50年 1,200,000円です。陶器ボトル・旧ボトルは別の価格で扱われます。",
   },
   {
     q: "箱なし・開封済みでも買取してもらえますか？",
@@ -98,8 +98,8 @@ const rows: { name: string; key: string; note: string; href?: string }[] = [
   { name: "グレンフィディック30年", key: "glenfiddich-30", note: "長期熟成の上位ライン", href: "/articles/glenfiddich-30-kaitori/" },
 ];
 
-// 2026-10-17: 買取店の掲示価格（各店の公開ページを PeatBid編集部が確認・数値は表記どおり転記）
-const STORE_CHECKED = "2026-10-17";
+// 2026-10-17: 買取店の掲示価格（各店の公開ページを PeatBid編集部が確認・数値は表記どおり転記）。2026-11-27 に3店とも再照合＝全行一致
+const STORE_CHECKED = "2026-11-27";
 const LX = "https://linxas.shop/whiskey/glenfidick/";
 const HK = "https://hikakaku.com/category/all-category/riquor/whisky/glenfiddich/";
 const FN = "https://www.sakekaitori.com/whisky/scotch_whiskey/glenfiddich_brand/";
@@ -140,12 +140,12 @@ export default function GlenfiddichKaitoriPage() {
 
         <article className="prose">
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">グレンフィディック買取｜12年〜50年の買取価格と相場（店舗の掲示価格・実勢価格）</h1>
-          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-10-31 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
+          <p className="text-warm-gray text-sm mb-6">最終更新: 2026-11-27 / 編集: <Link href="/editorial/" className="text-amber-dark underline hover:text-burgundy">PeatBid編集部</Link>（<Link href="/methodology/" className="text-amber-dark underline hover:text-burgundy">編集ポリシー</Link>）</p>
 
           <div className="bg-gold-bg border-2 border-amber/30 rounded-xl p-5 my-6 not-prose">
             <p className="font-bold text-ink mb-2">結論（30秒）</p>
             <ul className="text-sm text-ink/80 space-y-1 list-disc pl-5">
-              <li><strong>買取価格（買取店の掲示）</strong>は 12年 <strong>1,200〜2,000円</strong>／15年 <strong>2,500〜4,000円</strong>／18年 <strong>5,000〜6,500円</strong>／21年 グランレゼルヴァ <strong>6,500〜15,000円</strong>／30年 <strong>45,000〜50,000円</strong>です（LINXAS 価格表 2026年9月30日更新・2026-10-31 再確認、ヒカカク！・ファイブニーズは 2026-10-17 確認。店舗別の内訳は <a href="#store-prices" className="text-amber-dark underline">1-2. 買取店の掲示価格</a>、30年の仕様別は <Link href="/articles/glenfiddich-30-kaitori/" className="text-amber-dark underline">グレンフィディック30年の買取相場</Link>）。</li>
+              <li><strong>買取価格（買取店の掲示）</strong>は 12年 <strong>1,200〜2,000円</strong>／15年 <strong>2,500〜4,000円</strong>／18年 <strong>5,000〜6,500円</strong>／21年 グランレゼルヴァ <strong>6,500〜15,000円</strong>／30年 <strong>45,000〜50,000円</strong>です（LINXAS 価格表 2026年9月30日更新、ヒカカク！・ファイブニーズとも 2026-11-27 に各店のページで再確認。店舗別の内訳は <a href="#store-prices" className="text-amber-dark underline">1-2. 買取店の掲示価格</a>、30年の仕様別は <Link href="/articles/glenfiddich-30-kaitori/" className="text-amber-dark underline">グレンフィディック30年の買取相場</Link>）。</li>
               <li>グレンフィディックは<strong>年数によって相場が桁違い</strong>。まずラベルの「◯ YEARS OLD」を確認してください。</li>
               {g12 && (
                 <li>ヤフオク実落札の中央値は<strong>12年{yen("glenfiddich-12")}／15年{yen("glenfiddich-15")}／18年{yen("glenfiddich-18")}</strong>です（毎週更新）。</li>
