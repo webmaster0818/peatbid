@@ -1074,3 +1074,8 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - **/articles/glenfiddich-kaitori/**（imp 5.1/日・8.7位・「グレンフィディック 買取」7@28.6）: 冒頭に年数別の掲示価格（結論の1行）と 1-2 店舗別表が既にある → 11/27 に LINXAS（9/30 更新）・ヒカカク！・ファイブニーズ実績を全行照合＝**全行一致**。STORE_CHECKED・結論行・FAQ の確認日を 11-27、最終更新 11-27 だけ変更（数値・title 不変）。title の「【2026年10月】」は月次鮮度の対象なので触っていない。
 - 競合比較: WebSearch（US）は日本の上位10件を返さず、ウリドキ（一括査定の記録）・おたからや（ASK）のみ。ウリドキのラフロイグ25年（2026-02-23 静岡 新品 箱あり 80,000円・2024-10-25 福岡 4社 51,000〜68,000円）・10年（2026-07-20 大阪 箱あり 2,000円）、グレンフィディック18年（2026-06-17 11,500円・2025-05-21 10,000円）・12年（2026-09 2,000/1,500円）は今回は載せていない（候補）。
 - brand-v3 render_page×1（現データで差分0を先に確認）。sitemap 2ページ lastmod 11-27。build（heap8192）EXIT0（約35分）・*.txt 削除（robots 保全）→ precheck で laphroaig-25 の description 162字が不合格 → desc を短縮して render、out の HTML は同じ文字列置換（4か所）→ precheck ✅（3,032）→ フル rsync --delete（--exclude .git/_not-found/functions）。buildId を除いた表示差分は本2ページ＋sitemap＋tier2/ibaraki（朝ルーチン c82b6ea15 の未デプロイ分を同梱）。ASP 0→0・hikakaku href 607→610（+3 はラフロイグ25年の出典リンク＝ヒカカク！ブランドページ。CTA の hikakaku.com は 2→2）。
+
+### 2026-11-27 福ちゃん A8 計測リンクを全ページに（MediaXAI「承認取れている案件はリンク設置を進めて」）
+- A8 お酒【福ちゃん】s00000014709010（サイト011・査定4,000円）が即時承認 → `https://fuku-chan.jp/` へのリンク 2,503本（tier2 2,444・articles 57）を A8 コードに差し替え、各リンクの直後に 0.gif。rel=nofollow noopener sponsored。MarketPriceCard の福ちゃんチップも同じ。
+- ⚠️ 生成スクリプト（generate-tier2-v4-plan-a.py・generate-brand-pages-v3.py・generate-hub-pages.py・gen-tier2-area.py）は旧URLのまま。**作り直したら `python3 scripts/apply-fukuchan-a8-20261127.py` を必ず再実行**。
+- 出典・公式ページ参照（fuku-chan.jp/liquor/area/… 等）は対象外。RT 15560（電話申込）は成果条件が違うため使わない（Web 申込＝A8）。

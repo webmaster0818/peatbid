@@ -125,7 +125,7 @@ export default function Page() {
           <ul>
             <li><a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> — 銘柄別の買取参考価格を公開している専門店です</li>
             <li><a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> — 東証グロース上場企業が運営し、出張・店頭・宅配の3つの方式に対応しています。出張は離島を除き和歌山県全域に対応しています</li>
-            <li><a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> — 株式会社REGATEが運営する買取専門店で、お酒の査定にも対応しています。出張・宅配・店舗の3つの方式があります（公式のエリアページに「和歌山県全域がお酒買取対象エリアです」と記載されています）</li>
+            <li><a href="https://px.a8.net/svt/ejp?a8mat=4BGV64+87B8JM+35HU+1NO9YQ" target="_blank" rel="nofollow noopener sponsored" className="text-amber-dark underline">福ちゃん</a><img src="https://www14.a8.net/0.gif?a8mat=4BGV64+87B8JM+35HU+1NO9YQ" width={1} height={1} alt="" style={{ border: "none" }} /> — 株式会社REGATEが運営する買取専門店で、お酒の査定にも対応しています。出張・宅配・店舗の3つの方式があります（公式のエリアページに「和歌山県全域がお酒買取対象エリアです」と記載されています）</li>
             
           </ul>
 

@@ -31,10 +31,11 @@ type Props = {
   data: MarketPriceData;
 };
 
-const DEALER_LINKS: { name: string; href: string }[] = [
+const DEALER_LINKS: { name: string; href: string; pixel?: string }[] = [
   { name: "LINXAS", href: "https://linxas.shop/whiskey/" },
   { name: "バイセル", href: "https://buysell-kaitori.com/liquor/japanese-whisky/" },
-  { name: "福ちゃん", href: "https://fuku-chan.jp/liquor/" },
+  // 2026-11-27 A8 承認（お酒【福ちゃん】s00000014709010・サイト011）。提供コードのまま
+  { name: "福ちゃん", href: "https://px.a8.net/svt/ejp?a8mat=4BGV64+87B8JM+35HU+1NO9YQ", pixel: "https://www14.a8.net/0.gif?a8mat=4BGV64+87B8JM+35HU+1NO9YQ" },
 ];
 
 function formatJPY(value: number | null): string {
@@ -93,11 +94,13 @@ export default function MarketPriceCard({ data }: Props) {
               <a
                 href={d.href}
                 target="_blank"
-                rel="noopener noreferrer nofollow"
+                rel={d.pixel ? "nofollow noopener sponsored" : "noopener noreferrer nofollow"}
                 className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-amber/40 rounded-full text-amber-dark hover:bg-amber/10 transition-colors text-xs font-semibold"
               >
                 {d.name} →
               </a>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              {d.pixel && <img src={d.pixel} width={1} height={1} alt="" style={{ border: "none" }} />}
             </li>
           ))}
         </ul>

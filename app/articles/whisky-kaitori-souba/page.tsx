@@ -71,7 +71,7 @@ export default function WhiskyKaitoriSoubaPage() {
           <h1 className="font-display text-3xl md:text-4xl font-semibold mb-2 !border-none !pb-0 !mt-0">【2026年最新】ウイスキー市場相場一覧</h1>
           <p className="text-warm-gray text-sm mb-8">最終更新: {latestFetch}（週次自動取得）</p>
 
-          <p>PeatBid編集部が、ジャパニーズ・スコッチを中心に主要51銘柄の<strong>市場相場（Yahoo Auctions 過去180日落札中央値、IQR外れ値除去後）</strong>を一覧で公開します（落札データが20件に満たない銘柄は「集計中」と表示します）。業者の買取査定額はこの市場相場をベースに各社が在庫・状態・キャンペーンで算出するため、最新の業者査定額は <a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> / <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> / <a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">福ちゃん</a> /  など各業者ページで直接ご確認ください。</p>
+          <p>PeatBid編集部が、ジャパニーズ・スコッチを中心に主要51銘柄の<strong>市場相場（Yahoo Auctions 過去180日落札中央値、IQR外れ値除去後）</strong>を一覧で公開します（落札データが20件に満たない銘柄は「集計中」と表示します）。業者の買取査定額はこの市場相場をベースに各社が在庫・状態・キャンペーンで算出するため、最新の業者査定額は <a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">LINXAS</a> / <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-dark underline">バイセル</a> / <a href="https://px.a8.net/svt/ejp?a8mat=4BGV64+87B8JM+35HU+1NO9YQ" target="_blank" rel="nofollow noopener sponsored" className="text-amber-dark underline">福ちゃん</a><img src="https://www14.a8.net/0.gif?a8mat=4BGV64+87B8JM+35HU+1NO9YQ" width={1} height={1} alt="" style={{ border: "none" }} /> /  など各業者ページで直接ご確認ください。</p>
 
           <h2>ジャパニーズウイスキー 市場相場（{japanese.length}銘柄）</h2>
 
@@ -164,7 +164,7 @@ export default function WhiskyKaitoriSoubaPage() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               <a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">LINXAS →</a>
               <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">バイセル →</a>
-              <a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">福ちゃん →</a>
+              <a href="https://px.a8.net/svt/ejp?a8mat=4BGV64+87B8JM+35HU+1NO9YQ" target="_blank" rel="nofollow noopener sponsored" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">福ちゃん →</a><img src="https://www14.a8.net/0.gif?a8mat=4BGV64+87B8JM+35HU+1NO9YQ" width={1} height={1} alt="" style={{ border: "none" }} />
               
             </div>
           </div>

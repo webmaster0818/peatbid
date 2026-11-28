@@ -148,7 +148,7 @@ export default function HakushuKaitoriPage() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               <a href="https://linxas.shop/whiskey/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">LINXAS →</a>
               <a href="https://buysell-kaitori.com/liquor/japanese-whisky/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">バイセル →</a>
-              <a href="https://fuku-chan.jp/" target="_blank" rel="noopener noreferrer nofollow" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">福ちゃん →</a>
+              <a href="https://px.a8.net/svt/ejp?a8mat=4BGV64+87B8JM+35HU+1NO9YQ" target="_blank" rel="nofollow noopener sponsored" className="block bg-white border border-amber/40 rounded-lg text-amber-dark text-center text-sm font-semibold py-2 hover:bg-amber/10 transition-colors">福ちゃん →</a><img src="https://www14.a8.net/0.gif?a8mat=4BGV64+87B8JM+35HU+1NO9YQ" width={1} height={1} alt="" style={{ border: "none" }} />
               
             </div>
           </div>

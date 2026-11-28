@@ -29,7 +29,7 @@ if OLD_H in t:
     new = ('<p className="font-bold text-base mb-2">富山県でウイスキーを売る先（先に結論）</p>\n'
            '        <ul className="text-sm leading-relaxed mb-4 list-disc pl-5 space-y-1">\n'
            '          <li><strong>店頭</strong>：県内でお酒の買取を確認できた店舗は<strong>28店</strong>（富山市 10店・高岡市 8店・射水市 4店・砺波市 2店・滑川市・氷見市・小矢部市・魚津市 各1店）。内訳は買取大吉 19店・おたからや 4店・銀座蔵や 4店・ジュエルカフェ 1店で、営業時間は各店の公式で 10:00〜18:00 または 10:00〜19:00 です（<a href="#local-stores" className="text-amber-dark underline hover:text-burgundy">店舗一覧</a>・2026-10-17／10-24確認）。</li>\n'
-           '          <li><strong>出張</strong>：バイセルは「富山県全域の各市町村で対応可能」、LINXAS は「富山県は無料出張エリア」と公式に記載しています（どちらも県内に店舗なし）。</li>\n'
+           '          <li><strong>出張</strong>：バイセルは「富山市、高岡市、射水市、南砺市、砺波市など富山県全域の各市町村にて対応可能です」、LINXAS は「富山県は無料出張エリア」と公式に記載しています（どちらも県内に店舗なし）。</li>\n'
            '          <li><strong>宅配</strong>：全国対応の宅配買取なら県内どこからでも送れて、複数社の査定を比べられます。買取額は市場相場（下記のヤフオク落札中央値）の60〜80%程度が業界一般の目安です。</li>\n'
            '        </ul>\n        ')
     t = t[:s] + new + t[e:]
