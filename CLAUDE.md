@@ -1079,3 +1079,10 @@ N1①(強化クラスタ)の続き。①勝ちページ→スコッチ直接リ�
 - A8 お酒【福ちゃん】s00000014709010（サイト011・査定4,000円）が即時承認 → `https://fuku-chan.jp/` へのリンク 2,503本（tier2 2,444・articles 57）を A8 コードに差し替え、各リンクの直後に 0.gif。rel=nofollow noopener sponsored。MarketPriceCard の福ちゃんチップも同じ。
 - ⚠️ 生成スクリプト（generate-tier2-v4-plan-a.py・generate-brand-pages-v3.py・generate-hub-pages.py・gen-tier2-area.py）は旧URLのまま。**作り直したら `python3 scripts/apply-fukuchan-a8-20261127.py` を必ず再実行**。
 - 出典・公式ページ参照（fuku-chan.jp/liquor/area/… 等）は対象外。RT 15560（電話申込）は成果条件が違うため使わない（Web 申込＝A8）。
+
+### 2026-11-28 kw-expansion（stock-lab queue）20時の回: 新規2記事 ✅本番反映済み
+- 新規（手書き page.tsx＋data.json・11/17 と同じ型）: hibiki-12-kaitori（House of Suntory の Hibiki 12 Years Old＝免税店限定・原酒構成・花鳥風月デザイン・ISC 2026 金賞＋年表。度数・容量・価格・旧国内版の発売/終売は公式で確認できず書かない）／yoichi-12-kaitori（アサヒビール news/2011/0719＝45%・700ml・YOICHI 表記ラベル、news/2015/0615_3＝2015年8月末で余市10/12/15/20年 販売終了。asahibeer.co.jp の旧ニュースは sitemap から年別一覧で引ける）。
+- ヤフオク 11/28 取得・タイトル目視（/tmp/pb1128）。中央値: 響12年 700ml 免税店版表記なし 38,500(55)・TRAVEL EXCLUSIVE 等表記 37,967(38)／余市12年 700ml 45% 40,388(32)。n<20 は範囲のみ（響12年 500ml 13・余市12年 750ml 3・500ml 55% 樽表記 19）。
+- skip: 山崎10年・白州10年（House of Suntory／PR TIMES に製品情報なし）・山崎リミテッド（House of Suntory に製品ページなし・PR TIMES 2020/12〜2021/2 に 2021年版リリースなし）。→ queue の空欄0。
+- 導線: /articles/ 一覧・hibiki-kaitori・hibiki-blossom-harmony・japanese-whisky-kaitori・yoichi-grande・yoichi-10（generate-brand-pages-v3.py の SIBLING_GUIDE に yoichi-10→yoichi-12 を追加＝週次で消えない。page.tsx にも同じ1行）。track-record 573記事・3,034URL・解説/総合 63。sitemap は新規2＋/articles/・/track-record/ だけ lastmod 11-28。
+- build（heap8192）1回目は並行ビルドで compile 36.8分→TypeScript 中に90分で打ち切り、2回目 EXIT0（compile 10.3分）。precheck ✅（3,034）・trust-audit check_page 指摘0・heading-lint 0。*.txt 削除（robots 保全）→ フル rsync（buildId 以外の差分は導線の追加のみ）。source 24296f498・deploy ac8c78b8147。本番2URL 200・h1 確認・/api/contact POST 400。Indexing は未送信（親がまとめて実施）。
