@@ -1,0 +1,79 @@
+{
+ "slug": "hibiki-12-kaitori",
+ "official": {
+  "house_of_suntory": "https://house.suntory.com/hibiki-whisky/hibiki-12-years-old",
+  "heritage": "https://house.suntory.com/heritage",
+  "checked_at": "2026-11-28"
+ },
+ "yahoo": {
+  "te-700": {
+   "label": "響12年 トラベル エクスクルーシブ（700ml）",
+   "query": "響 12年／響12年／HIBIKI 12／響 12年 700ml",
+   "fetched_at": "2026-11-28",
+   "end_date_from": "2026-09-07",
+   "end_date_to": "2026-11-26",
+   "raw_n": 279,
+   "title_filtered_n": 39,
+   "filtered_n": 38,
+   "median": 37967,
+   "q1": 35300,
+   "q3": 38500,
+   "min": 30789,
+   "max": 40500,
+   "insufficient": false,
+   "regex": {
+    "require": "(?=.*(?:トラベル|TRAVEL|免税|エクスクル|EXCLUSIVE|意匠ボトル|花鳥風月)).*(?:響\\s*(?:HIBIKI\\s*)?12\\s*年|HIBIKI\\s*響?\\s*12)",
+    "exclude": "17\\s*年|21\\s*年|30\\s*年|山崎|白州|ブレンダーズ|ハーモニー|HARMONY|嘉之助|余市|記念|ラグビー|サンゴリアス|カートン|ノベルティ|風呂敷|土壌|53\\s*[%％]",
+    "ml": [
+     700
+    ]
+   }
+  },
+  "old-700": {
+   "label": "響12年（700ml・トラベル エクスクルーシブの表記なし）",
+   "query": "響 12年／響12年／HIBIKI 12／響 12年 700ml",
+   "fetched_at": "2026-11-28",
+   "end_date_from": "2026-09-08",
+   "end_date_to": "2026-11-24",
+   "raw_n": 279,
+   "title_filtered_n": 59,
+   "filtered_n": 55,
+   "median": 38500,
+   "q1": 35400,
+   "q3": 40698,
+   "min": 29150,
+   "max": 42500,
+   "insufficient": false,
+   "regex": {
+    "require": "(?:響\\s*(?:HIBIKI\\s*)?12\\s*年|HIBIKI\\s*響?\\s*12)",
+    "exclude": "17\\s*年|21\\s*年|30\\s*年|山崎|白州|ブレンダーズ|ハーモニー|HARMONY|嘉之助|余市|記念|ラグビー|サンゴリアス|カートン|ノベルティ|風呂敷|土壌|53\\s*[%％]|(?:トラベル|TRAVEL|免税|エクスクル|EXCLUSIVE|意匠ボトル|花鳥風月)",
+    "ml": [
+     700
+    ]
+   }
+  },
+  "old-500": {
+   "label": "響12年（500ml）",
+   "query": "響 12年／響12年／HIBIKI 12／響 12年 700ml",
+   "fetched_at": "2026-11-28",
+   "end_date_from": "2026-09-16",
+   "end_date_to": "2026-11-27",
+   "raw_n": 279,
+   "title_filtered_n": 13,
+   "filtered_n": 13,
+   "median": null,
+   "q1": null,
+   "q3": null,
+   "min": 23000,
+   "max": 36510,
+   "insufficient": true,
+   "regex": {
+    "require": "(?:響\\s*(?:HIBIKI\\s*)?12\\s*年|HIBIKI\\s*響?\\s*12)",
+    "exclude": "17\\s*年|21\\s*年|30\\s*年|山崎|白州|ブレンダーズ|ハーモニー|HARMONY|嘉之助|余市|記念|ラグビー|サンゴリアス|カートン|ノベルティ|風呂敷|土壌|53\\s*[%％]|(?:トラベル|TRAVEL|免税|エクスクル|EXCLUSIVE|意匠ボトル|花鳥風月)",
+    "ml": [
+     500
+    ]
+   }
+  }
+ }
+}

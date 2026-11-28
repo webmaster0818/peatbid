@@ -238,6 +238,7 @@ export default function YoichiGrandeKaitoriPage() {
             <ul className="list-disc list-inside text-sm space-y-1 text-warm-gray">
               <li><Link href="/articles/ardbeg-17-kaitori/" className={linkCls}>アードベッグ17年の買取相場</Link></li>
               <li><Link href="/articles/kanosuke-kaitori/" className={linkCls}>嘉之助の買取相場</Link></li>
+              <li><Link href="/articles/yoichi-12-kaitori/" className={linkCls}>余市12年の買取相場</Link></li>
               <li><Link href="/articles/japanese-whisky-kaitori/" className={linkCls}>ジャパニーズウイスキーの買取相場</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className={linkCls}>ウイスキー買取相場ガイド</Link></li>
             </ul>

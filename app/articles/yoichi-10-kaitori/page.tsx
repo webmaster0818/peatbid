@@ -92,6 +92,8 @@ export default function Yoichi10KaitoriPage() {
             <p className="text-sm text-ink">🔀 年代表記のない「余市」（ノンエイジ／NV）をお探しの方はこちら → <Link href="/articles/yoichi-nv-kaitori/" className="text-amber-dark underline font-bold">余市NV（ノンエイジ）の買取価格｜4店の掲示価格・月別推移</Link></p>
           </div>
 
+          <p className="text-sm text-warm-gray my-4">2015年8月末に販売を終えた「シングルモルト余市12年」をお持ちの方は <Link href="/articles/yoichi-12-kaitori/" className="text-amber-dark underline">余市12年の買取相場</Link> をご覧ください。</p>
+
 
           <p>本記事の市場相場は <strong>Yahoo Auctions 過去180日の落札データを集計した中央値</strong>（IQR外れ値除去後）に基づきます。余市10年は希少度<strong>ミッド</strong>クラスに分類しています。終売・休売後の供給制限により、価格が上昇傾向にある銘柄帯です。市場の流通量は徐々に減少しており、二次流通価格は年単位で15〜30%上昇する傾向があります。</p>
 

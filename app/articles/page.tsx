@@ -135,6 +135,8 @@ export default function ArticlesIndexPage() {
               { name: "アードベッグ17年", slug: "ardbeg-17-kaitori" },
               { name: "余市 グランデ", slug: "yoichi-grande-kaitori" },
               { name: "バランタイン12年", slug: "ballantines-12-kaitori" },
+              { name: "響12年", slug: "hibiki-12-kaitori" },
+              { name: "余市12年", slug: "yoichi-12-kaitori" },
             ].map((b) => (
               <Link key={b.slug} href={`/articles/${b.slug}/`} className="text-sm bg-white border border-warm-border text-ink rounded-lg px-3 py-2 hover:border-amber/50 hover:text-amber-dark">
                 {b.name}の買取

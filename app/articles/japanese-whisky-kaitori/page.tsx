@@ -231,6 +231,8 @@ export default function JapaneseWhiskyKaitoriPage() {
           <ul>
             <li><Link href="/articles/akkeshi-kaitori/" className={linkCls}>厚岸（二十四節気シリーズ）の買取相場</Link></li>
             <li><Link href="/articles/hibiki-blossom-harmony-kaitori/" className={linkCls}>響 ブロッサムハーモニーの買取相場</Link></li>
+            <li><Link href="/articles/hibiki-12-kaitori/" className={linkCls}>響12年（免税店版を含む）の買取相場</Link></li>
+            <li><Link href="/articles/yoichi-12-kaitori/" className={linkCls}>余市12年（2015年販売終了）の買取相場</Link></li>
             <li><Link href="/articles/ichirosu-wwr-kaitori/" className={linkCls}>イチローズモルト ワインウッドリザーブの買取価格</Link></li>
           </ul>
           <p>

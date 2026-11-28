@@ -493,6 +493,8 @@ def render_page(b, all_brands):
     SIBLING_GUIDE = {
         "bowmore-18": ("/articles/bowmore-blackbowmore-kaitori/", "1964年蒸留の「ブラックボウモア」（29年・30年・31年・42年・50年・DB5）をお持ちの方は", "ブラックボウモア全6種の違いと買取相場"),
         "bowmore-25": ("/articles/bowmore-blackbowmore-kaitori/", "1964年蒸留の「ブラックボウモア」（29年・30年・31年・42年・50年・DB5）をお持ちの方は", "ブラックボウモア全6種の違いと買取相場"),
+        # 2026-11-28 kw-expansion: 「余市 12年 買取」が余市10年ページに表示されていた（GSC 30回前後・30〜40位）→ 手書きの yoichi-12-kaitori へ
+        "yoichi-10": ("/articles/yoichi-12-kaitori/", "2015年8月末に販売を終えた「シングルモルト余市12年」をお持ちの方は", "余市12年の買取相場"),
     }
     if slug_base in SIBLING_GUIDE:
         _stgt, _slead, _slbl = SIBLING_GUIDE[slug_base]

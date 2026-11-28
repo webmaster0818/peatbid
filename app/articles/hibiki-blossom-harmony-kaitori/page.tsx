@@ -398,6 +398,7 @@ export default function HibikiBlossomHarmonyKaitoriPage() {
               <li><Link href="/articles/hibiki-nv-kaitori/" className="text-amber-dark hover:text-burgundy underline">響 JAPANESE HARMONY の買取相場</Link></li>
               <li><Link href="/articles/hibiki-17-kaitori/" className="text-amber-dark hover:text-burgundy underline">響17年の買取相場</Link></li>
               <li><Link href="/articles/hibiki-21-kaitori/" className="text-amber-dark hover:text-burgundy underline">響21年の買取相場</Link></li>
+              <li><Link href="/articles/hibiki-12-kaitori/" className="text-amber-dark hover:text-burgundy underline">響12年の買取相場</Link></li>
               <li><Link href="/articles/hibiki-nisemono-mikata/" className="text-amber-dark hover:text-burgundy underline">響の偽物・贋作の見分け方</Link></li>
               <li><Link href="/articles/whisky-kaitori-souba/" className="text-amber-dark hover:text-burgundy underline">ウイスキー買取相場ガイド</Link></li>
               <li><Link href="/articles/whisky-takaku-uru/" className="text-amber-dark hover:text-burgundy underline">ウイスキーを高く売るコツ</Link></li>

@@ -1,0 +1,79 @@
+{
+ "slug": "yoichi-12-kaitori",
+ "official": {
+  "asahi_2011": "https://www.asahibeer.co.jp/news/2011/0719.html",
+  "asahi_2015": "https://www.asahibeer.co.jp/news/2015/0615_3.html",
+  "checked_at": "2026-11-28"
+ },
+ "yahoo": {
+  "12-700": {
+   "label": "シングルモルト余市12年（700ml・45%）",
+   "query": "余市 12年／余市12年／シングルモルト余市 12年／YOICHI 12",
+   "fetched_at": "2026-11-28",
+   "end_date_from": "2026-06-07",
+   "end_date_to": "2026-11-27",
+   "raw_n": 209,
+   "title_filtered_n": 35,
+   "filtered_n": 32,
+   "median": 40388,
+   "q1": 38513,
+   "q3": 41910,
+   "min": 34100,
+   "max": 47300,
+   "insufficient": false,
+   "regex": {
+    "require": "(?:余市\\s*12\\s*年|YOICHI\\s*12)",
+    "exclude": "10\\s*年|15\\s*年|20\\s*年|宮城峡|MIYAGIKYO|竹鶴|山崎|響|白州|周年|記念|58\\s*[%％]|蒸留所限定|蒸溜所限定|(?:シェリー|ウッディ|ピーティ|バニラ|ソルティ|スイート)|43\\s*[%％度]|北海道余市モルト原酒",
+    "ml": [
+     700
+    ]
+   }
+  },
+  "12-750": {
+   "label": "余市12年「北海道余市モルト原酒」（750ml）",
+   "query": "余市 12年／余市12年／シングルモルト余市 12年／YOICHI 12",
+   "fetched_at": "2026-11-28",
+   "end_date_from": "2026-07-11",
+   "end_date_to": "2026-11-07",
+   "raw_n": 209,
+   "title_filtered_n": 3,
+   "filtered_n": 3,
+   "median": null,
+   "q1": null,
+   "q3": null,
+   "min": 33500,
+   "max": 44400,
+   "insufficient": true,
+   "regex": {
+    "require": "(?=.*北海道余市モルト原酒|.*750\\s*ml).*(?:余市\\s*12\\s*年|YOICHI\\s*12)",
+    "exclude": "10\\s*年|15\\s*年|20\\s*年|宮城峡|MIYAGIKYO|竹鶴|山崎|響|白州|周年|記念|58\\s*[%％]|蒸留所限定|蒸溜所限定|(?:シェリー|ウッディ|ピーティ|バニラ|ソルティ|スイート)",
+    "ml": [
+     750
+    ]
+   }
+  },
+  "12-500-cask": {
+   "label": "余市12年 シェリー&スイート／ウッディ&バニラ／ピーティ&ソルティ（500ml・55%）",
+   "query": "余市 12年／余市12年／シングルモルト余市 12年／YOICHI 12",
+   "fetched_at": "2026-11-28",
+   "end_date_from": "2026-07-03",
+   "end_date_to": "2026-11-26",
+   "raw_n": 209,
+   "title_filtered_n": 20,
+   "filtered_n": 19,
+   "median": null,
+   "q1": null,
+   "q3": null,
+   "min": 29700,
+   "max": 47500,
+   "insufficient": true,
+   "regex": {
+    "require": "(?=.*(?:シェリー|ウッディ|ピーティ|バニラ|ソルティ|スイート)).*(?:余市\\s*12\\s*年|YOICHI\\s*12)",
+    "exclude": "10\\s*年|15\\s*年|20\\s*年|宮城峡|竹鶴|山崎|響|白州",
+    "ml": [
+     500
+    ]
+   }
+  }
+ }
+}
